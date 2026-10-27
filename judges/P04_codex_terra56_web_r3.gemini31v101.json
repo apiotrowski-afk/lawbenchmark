@@ -1,0 +1,73 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę aktu (decyzja, nie postanowienie) i wskazuje na zaświadczenie zamiast klauzuli. Prawidłowo rozróżnia ostateczność i prawomocność decyzji administracyjnej, wskazując, że można uzyskać zaświadczenie o prawomocności. Brakuje powołania art. 217 k.p.a. (A2=0) oraz wyjaśnienia mechanizmu uzyskania prawomocności (termin 30 dni na skargę do WSA), co skutkuje brakiem jednego elementu rubryki. Zgodnie z regułami oceny, wskazanie na zasadniczą ostateczność i ewentualną prawomocność daje A-R=1. Wszystkie powołane przepisy są zgodne ze źródłami oficjalnymi (A6=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14901,
+   "wyjscie": 692
+  },
+  "czas_s": 87,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

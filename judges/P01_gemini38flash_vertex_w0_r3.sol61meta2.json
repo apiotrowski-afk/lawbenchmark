@@ -1,0 +1,70 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "Historia zmiany progu przypisana nowelizacji z 7 lipca 2022 r.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 119 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — art. 119 § 1 określa próg wartości rzeczy na 800 zł; opis kradzieży i przywłaszczenia odpowiada przepisowi.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 124 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — art. 124 § 1 określa próg szkody na 800 zł; pominięcie umyślności w skrótowym opisie nie stanowi fałszywego przypisania treści.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 7 lipca 2022 r., Dz.U. 2022 poz. 2600 ze zm. — podniesienie progu do 800 zł od 1 października 2023 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2022/2600/text.html — art. 4 pkt 5–8 wprowadza próg 800 zł; https://eli.gov.pl/eli/DU/2022/2600/ogl — potwierdzona data wejścia w życie: 2023-10-01.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Twierdzenie, że dopiero od 1 października 2023 r. oderwano próg od płacy minimalnej, a wcześniej wynosił on 1/4 tej płacy.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2018/2077/text.html — art. 1 pkt 7 wprowadził do art. 119 § 1 kwotę stałą: „jeżeli jej wartość nie przekracza 500 złotych”; https://eli.gov.pl/eli/DU/2018/2077/ogl — wejście tej zmiany w życie: 15 listopada 2018 r.",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo wskazuje obecny próg 800 zł i jego niezależność od płacy minimalnej oraz podaje wymagany art. 119 § 1 k.w. Błędnie przypisuje jednak zniesienie powiązania z płacą minimalną zmianie z 2023 r., pomijając obowiązujący wcześniej stały próg 500 zł, co zgodnie z regułą błędnej historii zmian oznacza W, A6 = 0 i R3 = 0. Wskazanie art. 124 § 1 wystarcza do zaliczenia R4. Nie ma cytatów przepisów w rozumieniu klucza ani podstaw do naliczenia kar. Błąd historyczny nie zmienia praktycznej wskazówki dotyczącej aktualnego progu, więc B1 = 2.",
+ "_meta": {
+  "sedzia": "sol61meta2",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 50,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 2, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 119 § 1 Kodeksu wykroczeń kwalifikuje kradzież lub przywłaszczenie cudzej rzeczy ruchomej jako wykroczenie, jeżeli jej wartość nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Brzmienie przepisu na datę stanu prawnego wprost określa czyn polegający na kradzieży lub przywłaszczeniu cudzej rzeczy ruchomej o wartości nieprzekraczającej 800 złotych.\n    · kotwica (verbatim ze źródła): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 124 § 1 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 124 § 1 Kodeksu wykroczeń kwalifikuje zniszczenie lub uszkodzenie cudzej rzeczy jako wykroczenie, jeżeli szkoda nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Brzmienie przepisu na datę stanu prawnego wprost dotyczy zniszczenia lub uszkodzenia cudzej rzeczy przy szkodzie nieprzekraczającej 800 złotych (pominięcie znamienia umyślności i uczynienia niezdatną do użytku w zwięzłym opisie przedmiotu przepisu jest nieistotne).\n    · kotwica (verbatim ze źródła): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n\nORZECZENIA: brak sygnatur w odpowiedzi.\n\nPUBLIKATORY: Dz.U. z 2022 r. poz. 2600 — akt zmieniający Kodeks wykroczeń (w życie 2023-10-01)"
+}

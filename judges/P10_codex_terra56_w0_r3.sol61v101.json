@@ -1,0 +1,75 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie udostępniono odpowiedzi tego samego systemu na P09; brak podstaw do naliczenia kary za sprzeczność."
+ ],
+ "uzasadnienie": "Odpowiedź wprost zaprzecza przesłance, wskazuje wymagane podstawy, formę pisemną i konkretne pola dla social mediów. Wszystkie siedem powołań sprawdzono literalnie w oficjalnym tekście; pominięcie możliwości wykładni nie obniża A6. Brak liberalnej linii SN kosztuje R5 oraz B2, ponieważ konkluzja nie uwzględnia warunku określonego w kluczu, ale zgodnie z rubryką nie odbiera pełnego rdzenia. Rozwinięcia o prawach osobistych, wynagrodzeniu i opracowaniach wykraczają poza pytanie, stąd A8 = 0.5. Praktyczna wskazówka wyliczenia pól jest przydatna.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 38,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

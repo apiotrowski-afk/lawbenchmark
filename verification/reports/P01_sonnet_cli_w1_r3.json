@@ -1,0 +1,611 @@
+{
+ "meta": {
+  "pytanie": "P01",
+  "system": "sonnet_cli_w1_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P01/sonnet_cli_w1_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:32:56",
+  "czas_s": 1.6,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 10,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 4,
+  "flagi": {
+   "nieobslugiwany": 1
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 119 § 1 k.w.",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "Art. 119 § 1 k.w.",
+   "kontekst": "- Art. 119 § 1 k.w.: kradzież lub przywłaszczenie cudzej rzeczy ruchomej o wartości nieprzekraczającej 800 zł to wykroczenie.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 119 § 1 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(zapytano o art. 119 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 250 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 278 § 1 k.k.",
+   "akt": {
+    "nazwa": "Kodeks karny",
+    "kod_legal_cite": "KK",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 278 § 1 k.k.",
+   "kontekst": "- Powyżej 800 zł czyn jest co do zasady przestępstwem z art. 278 § 1 k.k. Przy czynie ciągłym wartości mogą się sumować (art. 12 k.k.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 278 § 1 KK",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/17; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1342 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(zapytano o art. 278 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 383 z 06.03.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1342 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/17 (HTML, 2023-12-07)",
+    "tj": "DU/2024/17",
+    "data": "2023-12-07"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 12 k.k.",
+   "akt": {
+    "nazwa": "Kodeks karny",
+    "kod_legal_cite": "KK",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 12 k.k.",
+   "kontekst": "- Powyżej 800 zł czyn jest co do zasady przestępstwem z art. 278 § 1 k.k. Przy czynie ciągłym wartości mogą się sumować (art. 12 k.k.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 12 KK",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/17; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1342 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 383 z 06.03.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1342 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 12. § 1. Dwa lub więcej zachowań, podjętych w krótkich odstępach czasu w wykonaniu z góry powziętego zamiaru, uważa się za jeden czyn zabroniony; jeżeli przedmiotem zamachu jest dobro osobiste, warunkiem uznania wielości zachowań za jeden czyn zabroniony jest tożsamość pokrzywdzonego. § 2. Odpowiada jak za jeden czyn zabroniony wyczerpujący znamiona przestępstwa ten, kto w krótkich odstępach czasu, przy wykorzystaniu tej samej albo takiej samej sposobności lub w podobny sposób popełnia dwa lub więcej umyślnych wykroczeń przeciwko mieniu, jeżeli łączna wartość mienia uzasadnia odpowiedzialność za przestępstwo."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/17 (HTML, 2023-12-07)",
+    "tj": "DU/2024/17",
+    "data": "2023-12-07"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "fragment": "Art. 12. Dwa lub więcej zachowań, podjętych w krótkich odstępach czasu w wykonaniu z góry powziętego zamiaru, uważa się za jeden czyn zabroniony; jeżeli przedmiotem zamachu jest dobro osobiste, warunkiem uznania wielości zachowań za jeden czyn zabroniony jest tożsamość pokrzywdzonego."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.29
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 119 § 1 k.w.",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "Art. 119 § 1 k.w.",
+   "kontekst": "- Art. 119 § 1 k.w. podaje stałą kwotę, a nie ułamek płacy minimalnej, więc jej wzrost niczego tu nie zmienia.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 119 § 1 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(zapytano o art. 119 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 250 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0,
+    "slowa_wersji_wczesniejszej": [
+     "minim"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 2 k.w.",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 2 k.w.",
+   "kontekst": "1. Dla czynów popełnionych przed 1 października 2023 r. stosuje się co do zasady poprzednie brzmienie, czyli 500 zł, chyba że nowe jest względniejsze dla sprawcy (art. 2 k.w.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 2 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 2. § 1. Jeżeli w czasie orzekania obowiązuje ustawa inna niż w czasie popełnienia wykroczenia, stosuje się ustawę nową, jednakże należy stosować ustawę obowiązującą poprzednio, jeżeli jest względniejsza dla sprawcy. § 2. Jeżeli według nowej ustawy czyn objęty orzeczeniem nie jest już zabroniony pod groźbą kary, ukaranie uważa się za niebyłe."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.45
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 119 k.w.",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "art. 119 k.w.",
+   "kontekst": "2. Nie sprawdziłem w ISAP, czy po wrześniu 2026 r. nie weszła w życie kolejna nowelizacja art. 119 k.w.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 119 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 250 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.17
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 119 k.w.",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 119 k.w.",
+   "kontekst": "3. Próg 800 zł dotyczy art. 119 k.w.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 7,
+   "cytowanie_legal_cite": "art. 119 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 250 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 124",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 124",
+   "kontekst": "Inne przepisy k.w. dotyczące mienia, np. art. 124, warto sprawdzić osobno.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 124 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 124. § 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia można orzec obowiązek zapłaty równowartości wyrządzonej szkody lub obowiązek przywrócenia do stanu poprzedniego."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "Art. 124. § 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia można orzec obowiązek zapłaty równowartości wyrządzonej szkody lub obowiązek przywrócenia do stanu poprzedniego. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 124. § 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia można orzec obowiązek zapłaty równowartości wyrządzonej szkody lub obowiązek przywrócenia do stanu poprzedniego."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 124. § 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia można orzec obowiązek zapłaty równowartości wyrządzonej szkody lub obowiązek przywrócenia do stanu poprzedniego."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 124. § 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 250 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia można orzec obowiązek zapłaty równowartości wyrządzonej szkody lub obowiązek przywrócenia do stanu poprzedniego."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 119 KW",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 9,
+   "napis_grupy": "Art. 119 KW",
+   "kontekst": "- [LexLege – Art. 119 KW](https://lexlege.pl/kw/art-119/)",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 9,
+   "cytowanie_legal_cite": "art. 119 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 250 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 10,
+   "powolanie": "art. 119 Kodeks wykroczeń](https://standardyprawa",
+   "akt": {
+    "nazwa": "akt nierozpoznany: Kodeks wykroczeń](https://standardyprawa",
+    "kod_legal_cite": null,
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 10,
+   "napis_grupy": "Art. 119 Kodeks wykroczeń](https://standardyprawa",
+   "kontekst": "- [Standardy Prawa – Art. 119 Kodeks wykroczeń](https://standardyprawa.pl/akt/3/art/652)",
+   "cytat": null,
+   "flagi": [
+    "nieobslugiwany"
+   ],
+   "powolanie_glowne_id": 10,
+   "weryfikacja": {
+    "status": "nieobsługiwany — do sprawdzenia ręcznie"
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "nie porównano"
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": [
+  {
+   "data": "2022-07-07",
+   "napis": "7 lipca 2022",
+   "kontekst": "- Kwotę 800 zł wprowadziła nowelizacja z 7 lipca 2022 r., która weszła w życie 1 października 2023 r. Wcześniej próg wynosił 500 zł, a jeszcze wcześniej 250 zł."
+  },
+  {
+   "data": "2023-10-01",
+   "napis": "1 października 2023",
+   "kontekst": "- Kwotę 800 zł wprowadziła nowelizacja z 7 lipca 2022 r., która weszła w życie 1 października 2023 r. Wcześniej próg wynosił 500 zł, a jeszcze wcześniej 250 zł."
+  },
+  {
+   "data": "2026-01-01",
+   "napis": "1 stycznia 2026",
+   "kontekst": "- Od 1 stycznia 2026 r. wynosi 4806 zł brutto."
+  },
+  {
+   "data": "2023-10-01",
+   "napis": "1 października 2023",
+   "kontekst": "1. Dla czynów popełnionych przed 1 października 2023 r. stosuje się co do zasady poprzednie brzmienie, czyli 500 zł, chyba że nowe jest względniejsze dla sprawcy (art. 2 k.w.)."
+  }
+ ]
+}

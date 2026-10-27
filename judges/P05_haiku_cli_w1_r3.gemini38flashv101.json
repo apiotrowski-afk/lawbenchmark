@@ -1,0 +1,86 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131–139 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 138 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 139 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 1361 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź całkowicie mija się z instytucją doręczeń przez Portal Informacyjny po nowelizacji obowiązującej od 1 czerwca 2026 r. (art. 131¹ᵃ k.p.c.) i pomija wymagane podstawy prawne. Zamiast tego skupia się na doręczeniach tradycyjnych oraz ogólnych e-Doręczeniach, przez co treść poza pytaniem przeważa objętościowo (A8 = 0). W powołaniach pojawił się nieistniejący przepis „art. 1361 KPC” (klasa F) oraz przypisanie art. 131¹ k.p.c. regulacji dotyczącej profesjonalnych pełnomocników i e-Doręczeń (klasa T), co skutkuje A6 = 0 i flagą hallucinated. Informacja jest nieprzydatna dla prawnika i wprowadza w błąd co do możliwości portalowego doręczenia osobie fizycznej (B1 = 0), a ton wypowiedzi jest nadmiernie asekurancki (B2 = 0).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 131(1)\" kpc sejm isap",
+   "\"art. 131(1)\" \"system teleinformatyczny\" kpc",
+   "\"art. 136(1)\" kpc",
+   "\"art. 136\" kpc \"zmiana adresu\" isap",
+   "\"art. 136(1)\" kpc \"zmiana adresu\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11552,
+   "wyjscie": 757
+  },
+  "czas_s": 52,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

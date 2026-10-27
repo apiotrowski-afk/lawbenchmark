@@ -1,0 +1,88 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo w pierwszym zdaniu zaprzecza błędnemu założeniu pytającego i przytacza obie wymagane podstawy prawne (art. 41 ust. 2 oraz art. 53 pr.aut.), spełniając wymogi pełnego rdzenia (A_R = 2, A2 = 1). Wszystkie przywołane jednostki redakcyjne pr.aut. są w pełni zgodne ze źródłem oficjalnym, co daje A6 = 1. Brak dosłownego cytowania w cudzysłowie oznacza A3 = nd, a brak sporności A5 = nd. Odpowiedź trafnie i wyczerpująco wymienia przykładowe pola eksploatacji dla social mediów, jednak nie wspomina o linii orzeczniczej SN dopuszczającej ustalenie pól w drodze wykładni (art. 65 k.c.), przez co nie zaliczono R5. Kategoryczny ton przy braku wskazania tego wyjątku skutkuje obniżeniem B2 do 0 przy zachowaniu pełnej przydatności praktycznej (B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art 41 ust 2\" \"prawo autorskie\" isap sejm",
+   "\"art 45\" \"odrębne wynagrodzenie\" prawo autorskie sejm",
+   "\"art 46\" \"zależnego prawa autorskiego\" prawo autorskie sejm",
+   "\"art 2 ust 2\" \"zezwolenia twórcy utworu pierwotnego\" prawo autorskie sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11716,
+   "wyjscie": 767
+  },
+  "czas_s": 43,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

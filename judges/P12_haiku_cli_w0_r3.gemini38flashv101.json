@@ -1,0 +1,80 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 788 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 40 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System bezkrytycznie przejął błędny numer art. 781¹ k.p.c. z pytania i przypisał mu treść dotyczącą ograniczeń egzekucji (podczas gdy przepis ten reguluje 3-dniowy termin na rozpoznanie wniosku), co stanowi halucynację klasy T oraz skutkuje nałożeniem kary umownej. Odpowiedź całkowicie pominęła kluczową podstawę z art. 787¹ k.p.c. oraz tryb z art. 787 k.p.c. oparty na zgodzie małżonka. Błędnie wskazano także, że brak związku z działalnością wymaga wytoczenia odrębnego powództwa przeciwko małżonkowi na gruncie art. 41 k.r.o. Wobec braku wymaganego rozwidlenia warunkowego i dezinformacji co do ścieżek prawnych kryteria A2, B1 i B2 oceniono na 0. Trafnie odnotowano jedynie, że treść samego nakazu zapłaty nie przesądza o możliwości wykazania przesłanek we wniosku o klauzulę.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art 781(1)\" kpc sejm isap",
+   "\"art. 781[1]\" kpc"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESyBLHhAPFWGu0pBx_gCzgkYnjZh0ZjDtHVvJV016XDSWbJXrLLfJr88BtGp50Kjwwni4Z8FpaQn4cHd4-dT5cMhaLQ9QjqchbC_QbJLi7gvyiUUVoGsuP4N7DQ4JTleoxmXm0E3agZlj7HQ49vjlBUsvuzFKWpPuXmTRDz_FpnLXSD6MURiMVY-yAMmCHwRVukJrifN2qLXIITDpnH9u7J6cxkWRLShsJ1SkBehE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHldF4z46yTGfP_y3zf-k2fQQbVaI_Xsl75aa1mL49PuA1tN2cJwo83PS4kr6oyj5iM_u-XOdWbdOcqPThKV1T9aQfDo8EfGmO97Rm7vbgdwNIx80s6hzCuubl0BVOQ-7nxnTDzrUrKRstSrDZstGhf9UjItkMGTwR0"
+  ],
+  "tokeny": {
+   "wejscie": 10498,
+   "wyjscie": 654
+  },
+  "czas_s": 29,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

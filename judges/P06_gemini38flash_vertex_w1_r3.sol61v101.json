@@ -1,0 +1,99 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c. — uchylenie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c., w tym § 1¹ in fine",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2050-22-1.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c. — treść i cytat",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "dodanie art. 394² § 1² k.p.c. od 1 lipca 2023 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/614/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 w zw. z art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 359 § 1 k.p.c. — uchylenie postanowienia z powodu pierwotnego błędu sądu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 397 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 391 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 k.p.c. — przywrócenie terminu przy braku winy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327 k.p.c. — pouczenie na doręczanym postanowieniu SA",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo prowadzi obie ścieżki i wiernie cytuje art. 394² § 1², lecz pomija wymagany art. 397 § 1¹ oraz element dotyczący art. 130². Art. 359 § 1 wymaga zmiany okoliczności, a nie samego wykazania pierwotnego błędu sądu, więc zalecenie wykracza poza treść przepisu. Art. 327 dotyczy pouczeń związanych z wyrokiem; pouczenie przy doręczeniu postanowienia reguluje art. 357 § 2. Dodatkowe omówienie sposobów wzruszenia postanowienia i przywrócenia terminu stanowi dygresję, a błędna wskazówka praktyczna ogranicza B1 do 1. Pochodzenie błędnych powołań jest nieustalone wobec braku śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 14,
+  "czas_s": 82,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

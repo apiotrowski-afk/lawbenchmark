@@ -1,0 +1,91 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny (art. 4 pkt 5)",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 24 § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Wyrok SN V KK 137/24",
+   "zrodlo": "sn.pl / SAOS",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Wyrok SN V KK 137/24 (sygnatura wskazana w linku w sekcji źródeł nie figuruje w bazach SN ani SAOS)"
+ ],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie wskazuje kwotę 800 zł oraz wyjaśnia brak powiązania z płacą minimalną (A_R=2, R1–R3 po 1, B2=1). Brak jednak wzmianki o innych wykroczeniach przeciwko mieniu (art. 120, 122, 124 k.w.), co skutkuje utratą R4. Podstawowy przepis art. 119 § 1 k.w. został prawidłowo powołany (A2=1). A6 wynosi 0 (błąd klasy T, poboczny): system przypisał art. 24 § 2 k.w. regułę ogólnej maksymalnej grzywny 5000 zł, podczas gdy norma ta znajduje się w art. 24 § 1 k.w., a § 2 normuje grzywnę obok aresztu.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"Dz.U. 2022 poz. 2600\" \"art. 4\"",
+   "\"Dz.U. 2022 poz. 2600\" \"119\"",
+   "\"V KK 137/24\" sn.pl",
+   "\"art. 24 § 2\" kodeks wykroczeń grzywna 5000",
+   "\"art. 24\" kodeks wykroczeń \"§ 1\" \"§ 2\"",
+   "\"art. 24 § 1\" \"art. 24 § 2\" \"kodeks wykroczeń\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 4 pkt 5\"",
+   "\"V KK 137/24\"",
+   "\"137/24\"",
+   "\"V KK 137/24\" postanowienie wyrok",
+   "\"V KK 137\" 2024 SN",
+   "\"V KK\" 2024 119 kw",
+   "\"137-24\"",
+   "\"V KK 137-24\" sn.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12172,
+   "wyjscie": 645
+  },
+  "czas_s": 76,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

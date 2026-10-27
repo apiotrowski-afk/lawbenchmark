@@ -1,0 +1,111 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 w zw. z Dz.U. 2025 poz. 1172",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 w zw. z Dz.U. 2025 poz. 1172",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (art. 131¹ᵃ § 2 zd. 2 wyłącza stosowanie art. 134 § 1)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 5 sierpnia 2025 r., Dz.U. z 2025 r. poz. 1172",
+   "zrodlo": "ISAP (Dz.U. 2025 poz. 1172)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a k.p.k.",
+   "zrodlo": "Dz.U. 2025 poz. 1178",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie MS z 12 marca 2024 r. (Dz.U. z 2024 r. poz. 368 ze zm., Dz.U. z 2026 r. poz. 225)",
+   "zrodlo": "ISAP / Dz.U. 2024 poz. 368, Dz.U. 2026 poz. 225",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie MS z 20 lutego 2026 r. (Dz.U. z 2026 r. poz. 216)",
+   "zrodlo": "ISAP (Dz.U. 2026 poz. 216)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 125¹ § 2, art. 125² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 w zw. z Dz.U. 2025 poz. 1172",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź bezbłędnie rozwiązuje problem prawny na datę stanu prawnego 1.10.2026 r., trafnie wskazując wejście w życie z dniem 1.06.2026 r. nowelizacji (Dz.U. 2025 poz. 1172) rozszerzającej doręczenia przez Portal Informacyjny na strony postępowania z wyboru (model opt-in). Wszystkie wymagane podstawy prawne (art. 131¹ᵃ § 1, § 1¹ i § 2 k.p.c.) oraz wszystkie elementy rubryki (sposób wyboru, wymogi trzech podpisów, fikcja doręczenia z upływem 14 dni, forma i skutek rezygnacji) zostały w pełni i precyzyjnie opisane. Żadna z kar nie została naliczona, a odpowiedź prawidłowo wyklucza stosowanie tradycyjnego awiza pocztowego oraz zakazu doręczeń nocnych. Wszystkie przywołane jednostki redakcyjne i publikatory aktów prawnych są zgodne ze stanem urzędowym.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"131(1a)\" kpc \"134\"",
+   "\"art. 131(1a)\" \"134\" kpc portal informacyjny",
+   "\"131^1a\" \"134\" kpc portal informacyjny doręczenie",
+   "\"131(1a)\" \"Kodeksu postępowania cywilnego\" \"Dz.U. z 2025 r. poz. 1172\"",
+   "\"Dz.U. z 2025 r. poz. 1178\"",
+   "\"Dz.U. z 2026 r. poz. 225\" rozporządzenie",
+   "\"Dz.U. z 2026 r. poz. 216\" rozporządzenie",
+   "\"art. 125^1\" kpc \"125^2\" kpc \"1 marca 2026\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14870,
+   "wyjscie": 1172
+  },
+  "czas_s": 37,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

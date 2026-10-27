@@ -1,0 +1,107 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN z 4 września 2009 r., I CZ 83/09",
+   "zrodlo": "SAOS (judgments/90795), OSNC 2010 nr 5 poz. 78",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie rozstrzyga problem prawny w pierwszym akapicie, prawidłowo rozdzielając funkcję nakazu zapłaty z weksla jako tytułu egzekucyjnego (art. 492 § 3 k.p.c.) od funkcji tytułu zabezpieczenia (art. 492 § 1 k.p.c.). System wskazuje też właściwe środki obrony pozwanego (art. 492 § 2 w zw. z art. 742 k.p.c.), pomijając jedynie czwarty element rubryki dotyczący zawieszenia egzekucji na podstawie art. 820 § 2 k.p.c. Punktacja A6 spada jednak do 0 (klasa T, hallucinated=true) z powodu powołania postanowienia SN z 4 września 2009 r., I CZ 83/09, któremu przypisano tezę o niepozbawieniu nakazu z weksla cech tytułu zabezpieczenia. W rzeczywistości orzeczenie I CZ 83/09 dotyczy niedopuszczalności zażalenia na wydane na podstawie art. 396 k.p.c. postanowienie w przedmiocie wstrzymania wykonania postanowienia, a nie nakazu zapłaty z weksla ani art. 492 k.p.c.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 21,
+  "zapytania": [
+   "\"I CZ 83/09\" saos",
+   "\"90795\" saos.org.pl",
+   "\"art. 731\" \"Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia\" kpc isap eli",
+   "\"art. 492\" \"art. 742\" kpc \"2026\" \"468\" eli sejm",
+   "\"I CZ 83/09\"",
+   "\"I CZ 83/09\" \"492\"",
+   "\"I CZ 83/09\" \"Sąd Najwyższy w sprawie\"",
+   "\"OSNC 2010\" \"poz. 78\" \"I CZ 83/09\"",
+   "\"Art. 742.\" \"k.p.c.\" OR",
+   "\"I CZ 83/09\" \"396\" \"Sąd Najwyższy\"",
+   "\"I CZ 83/09\" \"nakaz\" OR \"nakazu\" OR \"weksla\" OR \"zabezpieczenia\"",
+   "\"Na wydane na podstawie art. 396 k.p.c. postanowienie\"",
+   "\"558797\" \"I CZ 83/09\"",
+   "\"Na wydane na podstawie art. 396 k.p.c. postanowienie o wstrzymaniu wykonania postanowienia o udzieleniu zabezpieczenia\"",
+   "\"jest mowa o wstrzymaniu „wykonania” zaskarżonego postanowienia. Nie ulega przy tym wątpliwości, że przepis ten pozostaje w związku z art. 360 k.p.c.\"",
+   "\"I CZ 83/09\" \"492\" OR \"nakazu\" OR \"weksla\"",
+   "\"I CZ 83/09\" \"tytułu zabezpieczenia\" OR \"tytułu zabezpieczającego\"",
+   "\"postanowienie o wstrzymaniu wykonania postanowienia o udzieleniu zabezpieczenia, które ze względu na sposób\"",
+   "\"I CZ 83/09\" \"zabezpieczenia\" \"360\"",
+   "\"które ze względu na sposób zabezpieczenia nie podlega wykonaniu\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeP3QZ9-4QgC0NJUrPrW1O6-hohI7zxzWA2ANxccjMqHwEw8OLlaMv4X3g080PXlMdFHnNjVLR-AODsQ07UD4CUqfVbxwHsxCOXk24VP_YcTqh8FsZh6mxUUBmceWWiOIE93wfAXwVA7ROQaXV4MF-c6T7Kr1nqJk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF69V_g0np0mjbdg_0R2H_ucN2h1RdXgYYiKr83_-xYN-HXl3x38GN0QttXro8EfbjdHu1EF4MdTrOfOEGy06rU8aVqtWGhJ2rNh8FCkL6f92utwqz6VIOlLMBV7HUW1bbAsO7mW9dTflhnmYgUrZKtw4laPah_hwJUszLMf70JD9XLZXhZczYoiiJPFPnURBcAPkgiJMpP9tReMT2_2klS_2wN1Q_ufuExrlTVKA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK4uMlr_6UpwFIBKLqxBUF9tQIgcOsTahS-PD8K4RSA8mnc8GwTjyw4Ersw0NpOnOmymOerSqAyDwjgkzjcZUOUDq88QpQ4N-5F2eC0JfqWlL-apr_SIR5JmsCPKzYAWqRgCHLDjPfKX15R-H9NV_XsXwgQ8O4HviSTMfQW5qdl0WuuUxW0XtLVcbR1v28xKvedgj3lpzhrwR3oEnPmHEpVuq4_5F7OO6g2-7OMu0VdNmhnwb5Aryp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEAWmHdU0PPDOAanC1nocQcoN-iBzVEBKZHhJtMJzBVscNpOLQ8l1rJX3zU-oxCL0nFqrNmTf4M0k6xh8f97m96tbpJDIJrri-CfMFI2i4yg_1OuaoL67fDSSRtRHhTnbVjgI9ZLPF3d-j6pCTAiOeAyT33k8V2rWNOXhT3fg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCxGunaHmXC1HkmsMMtn1--xLrauTwXpjR7C5t7kbNppmTbpTmRsON5YRAArT27BoJURLewTE0T-hwfHsc0vrKzpHkWRddb-NEeir6RGsruAYlc3Xd9B7gqWz1RhgFU8d1D8H4Ina92lMV0hLt2AV39GAnaNvqPP1bEj39EBoXYwTHtDvlyWWqp46ed2JcN5TPYOJLSzTYuS0IxoPPR3A="
+  ],
+  "tokeny": {
+   "wejscie": 10114,
+   "wyjscie": 1570
+  },
+  "czas_s": 141,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

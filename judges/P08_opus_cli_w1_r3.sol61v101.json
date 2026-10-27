@@ -1,0 +1,87 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 4 AI Act, w tym zdanie trzecie",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 1 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 113 AI Act — stosowanie art. 50 od 2 sierpnia 2026 r.",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Digital Omnibus — termin znakowania dla systemów wprowadzonych przed 2 sierpnia 2026 r.: 2 grudnia 2026 r.",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wytyczne Komisji z 20 lipca 2026 r. dotyczące art. 50 — realistycznie możliwe osoby i znaczenie kontekstu odbioru",
+   "zrodlo": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 23–24 k.c.",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001071/T/D20251071L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "RODO — głos jako dana osobowa, w określonych zastosowaniach biometryczna",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/ALL/?uri=CELEX:32016R0679",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełny tekst załącznika z wytycznymi Komisji: odsyłacze do pobrania zwracały błąd; opisane kryteria deepfake i znaczenie kontekstu potwierdzono w oficjalnym FAQ Komisji."
+ ],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, wszystkie wymagane podstawy i sześć elementów rubryki, prawidłowo rozdzielając obowiązki dostawcy i podmiotu stosującego. Nie stwierdzono fałszywego przypisania treści przepisom; pominięte wyjątki nie obniżają A6. A3 obniżono za niedosłowne przytoczenie w cudzysłowie przesłanki z art. 3 pkt 60: „mogłyby niesłusznie zostać uznane za autentyczne”. A8 wynosi 0,5 z uwagi na wyjście poza AI Act do dóbr osobistych, RODO i praktyk rynkowych oraz powtórzone zastrzeżenie dotyczące weryfikacji źródeł. Warunkowa konkluzja i praktyczne wskazówki uzasadniają B1 = 2 oraz B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 20,
+  "czas_s": 74,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

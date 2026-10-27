@@ -1,0 +1,86 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 131¹ k.p.c. jako podstawa doręczeń przez Portal Informacyjny, ich wyboru i fikcji doręczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 131¹ oraz art. 131¹ᵃ, s. 28–29",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 125 § 2¹ k.p.c. w związku z obowiązkiem doręczeń elektronicznych profesjonalnym pełnomocnikom",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — przepis reguluje wnoszenie pism przez system teleinformatyczny, nie obowiązek doręczeń portalowych profesjonalnym pełnomocnikom",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 2 § 1 k.p.k. nie dotyczy doręczeń elektronicznych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/490/text.pdf — art. 2 § 1 określa cele postępowania karnego",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 132 i następne k.p.k. regulują doręczenia elektroniczne",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/490/text.pdf — art. 132 § 3 dopuszcza doręczenie telefaksem lub pocztą elektroniczną; dalsze przepisy obejmują doręczenia portalowe",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Przepisy p.p.s.a. dotyczące doręczeń elektronicznych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf — art. 65 i art. 74a w brzmieniu obowiązującym 1.10.2026",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2020/2320/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 168 k.p.c. — przywrócenie terminu przy braku winy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 168 § 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131 k.p.c. — tradycyjne sposoby doręczania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 131 § 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości dotyczące systemu teleinformatycznego i korespondencji elektronicznej w sądach",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html oraz https://eli.gov.pl/eli/DU/2026/225/ogl — odnaleziono regulację doręczeń portalowych, ale ogólnik odpowiedzi nie identyfikuje jednoznacznie aktu",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Jednoznaczna identyfikacja rozporządzenia opisanego bez daty, tytułu i publikatora."
+ ],
+ "uzasadnienie": "Odpowiedź trafnie dopuszcza doręczenia osobie fizycznej po wyborze tego sposobu i podaje regułę 14 dni, ale pomija wymagane oświadczenie przez portal opatrzone jednym z trzech podpisów. Nie powołuje żadnej z wymaganych jednostek art. 131¹ᵃ k.p.c., a regulację portalową błędnie przypisuje art. 131¹ oraz obowiązek doręczeń profesjonalnym pełnomocnikom wiąże z art. 125 § 2¹, co daje A6=0 i typ T; pochodzenie błędów jest nieustalone bez śladu narzędzi ocenianego systemu. Wzmianka o rezygnacji nie obejmuje możliwości złożenia jej na piśmie, więc nie zalicza pełnego czwartego elementu rubryki. Porównanie do awiza nie stanowi zastosowania art. 139 k.p.c., dlatego nie naliczono kary. Dygresje o innych postępowaniach i ponowione zastrzeżenia obniżają A8, a błędna instrukcja wyboru doręczeń ogranicza B1 do 1; zasadnicza teza została jednak postawiona wprost, co uzasadnia B2=1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 80,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

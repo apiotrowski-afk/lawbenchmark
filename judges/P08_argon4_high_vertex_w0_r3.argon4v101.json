@@ -1,0 +1,86 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689 z dnia 13 czerwca 2024 r. (Dz.U. UE L 2024/1689 z 12.7.2024) – stosowanie art. 50 od 2 sierpnia 2026 r. (art. 113 AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia pełny rdzeń (A-R=2) i właściwą kalibrację warunkową (B2=1): potwierdza brak statusu deepfake z art. 3 pkt 60 AI Act i brak obowiązku podmiotu stosującego z art. 50 ust. 4, zastrzegając niezależny obowiązek dostawcy co do maszynowego znakowania syntetycznego audio z art. 50 ust. 2. W cytacie art. 3 pkt 60 AI Act w cudzysłowie dodano spójnik „i” („zdarzenia i które” zamiast „zdarzenia, które”), co skutkuje A3=0 bez wpływu na A6 (A6=1). Wszystkie powołane przepisy oraz dane publikacyjne i data rozpoczęcia stosowania art. 50 (2.08.2026) są zgodne z tekstem oficjalnym w EUR-Lex. W rubryce odpowiedź traci punkty R2 (brak wyraźnego wskazania, że kryterium definicji nie jest subiektywna intencja wprowadzenia w błąd) oraz R6 (brak odwołania do wytycznych KE C(2026) 5054 lub kodeksu praktyk jako soft law).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689\" \"13 czerwca 2024\"",
+   "\"Artykuł 50\" \"Obowiązki w zakresie przejrzystości\" \"2024/1689\"",
+   "\"deepfake\" \"przypominają istniejące osoby\" \"2024/1689\"",
+   "\"w formacie nadającym się do odczytu maszynowego\" \"standardowej edycji\"",
+   "\"Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści\"",
+   "\"Artykuł 113\" \"2 sierpnia 2026\" \"2024/1689\"",
+   "\"Obowiązek ten nie ma zastosowania w zakresie, w jakim systemy AI pełnią funkcję wspomagającą\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERosud0N9EVC_gQ7a5oKq02mMtUbhJ20YeF0uAhXi7k8zs-YSZhYHhBjK2xos5Xe3Z75Bj9yOLylVJ9L_0p1acDReebTiEsruo5whq-z6eeZy3RSJ53q8aPIZFP8BFf6jIguHV_CMrfQfz5Az_J3lulstAkXTx43s3yX0TkiDWA-kmAknFBCflk1gNfeSFr6qaABiBGV2bQJUdf6XetZzxdmHjM2nA3zbKUnzwNTiTbjgrMEzy",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWUvIgKarz2J9AH6V6GgQUDdeKnqtQ9_MYUujeZelOk8Ve_ml0CSNiEJcp-iBHt75Z2Ug2HCuxdJjslhLMekogWATsOaESnTfldNZ6AXWltMBMB4CuMT4AT6m1MVdIiH6XpyJT-gisVASKmlQVwJSFmIKbzvIHpVymtEcLTNsiMFFG"
+  ],
+  "tokeny": {
+   "wejscie": 15506,
+   "wyjscie": 1242
+  },
+  "czas_s": 151,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=29",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=28",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=28",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie odróżnia samo konto od wyboru komunikacji elektronicznej, lecz nie przedstawia możliwości wyboru doręczeń portalowych przez stronę ani wymaganej formy oświadczenia i rezygnacji. Wzmianka o przede wszystkim profesjonalnych odbiorcach jest pominięciem, a nie twierdzeniem o wyłączności, dlatego nie uzasadnia halucynacji ani pierwszej kary. Art. 131¹ § 1 wymaga wniesienia pisma przez system albo wyboru wnoszenia pism przez system, a nie ogólnej skutecznej woli komunikacji elektronicznej. Art. 131¹ § 2 wiąże doręczenie z elektronicznym potwierdzeniem odbioru i jego brakiem, nie z zapoznaniem się z pismem i jego nieotwarciem; zastąpienie tych przesłanek uzasadnia T. Regułę 14 dni opisano dla innego trybu, bez prawidłowego przedstawienia momentu doręczenia portalowego; pochodzenie błędów jest nieustalone wobec braku śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P05",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 41,
+  "data": "2026-10-15",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

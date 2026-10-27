@@ -1,0 +1,85 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "OSNC 2023/2/14 / sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozstrzyga gałąź zażalenia dewolutywnego odrzucanego przez SA jako sąd II instancji, jednak całkowicie pomija zażalenie poziome w SA (art. 394² § 1² zd. 2 k.p.c.), co daje A_R = 1 oraz skutkuje karą za brak rozróżnienia i obniżeniem B2. Z powodu braku wymaganych podstaw (art. 394² § 1² oraz art. 397 § 1¹ k.p.c.) A2 wynosi 0. Wszystkie powołane przepisy oraz uchwała SN III CZP 50/22 istnieją i zostały przywołane zgodnie z ich rzeczywistą treścią, dlatego A6 wynosi 1 (samo pominięcie art. 394² § 1² k.p.c. nie stanowi halucynacji). Przydatność B1 wynosi 1, ponieważ informacja jest trafna dla jednej ze ścieżek i uzupełniona o instytucję przywrócenia terminu, lecz niekompletna co do zażalenia poziomego.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"394(2)\" \"k.p.c.\" \"Jeżeli zażalenie\"",
+   "\"III CZP 50/22\"",
+   "\"394(2) § 1(2)\" k.p.c.",
+   "\"394(1a) § 1 pkt 12\" k.p.c.",
+   "\"394(1a) § 1\" pkt k.p.c.",
+   "\"394(1a)\" k.p.c. \"pkt 12\"",
+   "\"3941a\" \"pkt 12\" k.p.c."
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11274,
+   "wyjscie": 833
+  },
+  "czas_s": 43,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

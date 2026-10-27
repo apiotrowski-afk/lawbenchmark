@@ -1,0 +1,66 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 394² § 1 k.p.c. brzmi: „Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji.” (przepis nie ma punktów, a odrzucenie zażalenia poziomego reguluje art. 394² § 1² k.p.c., natomiast pkt 12 „odrzucenie zażalenia” znajduje się w art. 394¹ᵃ § 1 k.p.c. dotyczącym sądu I instancji)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c. w zw. z art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 394 § 2 zd. 1: „Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu.”; art. 394² § 2 odsyła do odpowiedniego stosowania art. 394 § 2 i 3",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia tylko w jedną gałąź pytania warunkowego (wskazuje zażalenie poziome do innego składu SA), pomijając przypadek odrzucenia przez SA zażalenia dewolutywnego na postanowienie SO (art. 397 § 1¹ k.p.c.), co zgodnie z przykładem granicznym nr 2 dla A-R daje 1 pkt za rdzeń, lecz skutkuje utratą elementu rozwidlenia (R1 = 0), naliczeniem kary za odpowiedź bez rozróżnienia (K2 = 1) oraz B2 = 0. W podstawie prawnej system powołuje nieistniejący w ramach § 1 przepis art. 394² § 1 pkt 12 k.p.c. i przypisuje mu treść z art. 394¹ᵃ § 1 pkt 12 / normę z art. 394² § 1² k.p.c., co skutkuje A2 = 0 oraz A6 = 0 (klasa T, hallucinated = true). Przydatność praktyczna jest ograniczona (B1 = 1), gdyż prawnik otrzymuje błędną podstawę prawną oraz brak ostrzeżenia o niezaskarżalności odrzucenia zażalenia dewolutywnego.",
+ "_meta": {
+  "sedzia": "argon4meta",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"394\" \"Zażalenie do innego składu sądu drugiej instancji\" OR OR",
+   "\"Termin do wniesienia zażalenia wynosi tydzień\" \"394\" OR OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15320,
+   "wyjscie": 930,
+   "rozumowanie": 4490
+  },
+  "czas_s": 83,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 3, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 394² § 1 pkt 12 k.p.c. [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten stanowi podstawę prawną do wniesienia zażalenia poziomego (do innego składu tego samego Sądu Apelacyjnego) na postanowienie Sądu Apelacyjnego o odrzuceniu zażalenia.”\n    · uzasadnienie weryfikatora: Wskazana jednostka (art. 394[2] § 1 k.p.c.) dotyczy odrzucenia apelacji, skargi o wznowienie postępowania i umorzenia postępowania apelacyjnego (nie posiada w ogóle punktów, w tym pkt 12), natomiast zażalenie na odrzucenie zażalenia uregulowane jest w sąsiedniej jednostce (§ 1[2]). Zgodnie z reguła…\n    · brzmienie jednostki (fragment): „§ 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji.”\n- 2. art. 394 § 2 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepisy te stanowią, że zażalenie wnosi się do Sądu Apelacyjnego, który wydał postanowienie, w terminie tygodnia od jego doręczenia z uzasadnieniem.”\n    · uzasadnienie weryfikatora: Powołane łącznie przepisy (art. 394 § 2 k.p.c. oraz art. 394[2] k.p.c., który w § 2 odsyła do odpowiedniego stosowania art. 394 § 2) wprost potwierdzają tygodniowy termin od doręczenia postanowienia z uzasadnieniem na wniesienie zażalenia do innego składu sądu drugiej instancji.\n    · kotwica (verbatim ze źródła): „§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu.”\n    · brzmienie jednostki (fragment): „§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu. Jeżeli przy wydaniu postanowienia sąd odstąpił od jego uzasadnienia, termin liczy się od dnia ogłoszenia postanowienia, a jeżeli podlegało ono doręczeniu – od dnia jego doręczenia.”\n- 3. art. 394² k.p.c. [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 2; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

@@ -1,0 +1,60 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Objaśnienia Komisji Europejskiej dotyczące potencjału wprowadzenia w błąd i kontekstu użycia",
+   "zrodlo": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń: rozstrzyga według obiektywnej możliwości uznania nagrania za autentyczne oraz zachowuje niezależny obowiązek oznakowania maszynowego. Wszystkie powołania sprawdzono w źródłach oficjalnych; przypisane im treści są zgodne. Odpowiedź poprawnie rozdziela dostawcę i podmiot stosujący oraz odróżnia możliwość wprowadzenia w błąd od zamiaru i rzeczywistego błędu. Nie podaje daty stosowania ani terminu przejściowego, a przy objaśnieniach Komisji nie zaznacza ich niewiążącego charakteru, dlatego R5 i R6 wynoszą 0. Brak cytatów przepisów w rozumieniu reguł; odpowiedź pozostaje w zakresie pytania i prawidłowo warunkuje konkluzję.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 10,
+  "czas_s": 36,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

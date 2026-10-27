@@ -1,0 +1,128 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250001071/T/D20251071L.pdf#page=12",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=7",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ogólne odwołanie do orzecznictwa: możliwość odczytania zakresu przeniesienia z umowy",
+   "zrodlo": "https://www.sn.pl/orzecznictwo/Biuletyn_SN/Biuletyn_SN_12_2005.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 1 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=25",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=7",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr.aut. — rażąca dysproporcja wynagrodzenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=25 ; https://eli.gov.pl/api/acts/DU/2022/2509/text.html",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 52 pr.aut. jako podstawa momentu przejścia praw wraz z własnością nośników",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=26",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 81 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=31",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 26³ pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=13",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "dyrektywa DSM 2019/790 — implementacja",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/1254/text/T/D20241254L.pdf#page=1",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie udostępniono odpowiedzi tego samego systemu na P09, więc nie można sprawdzić sprzeczności; kary nie naliczono."
+ ],
+ "uzasadnienie": "Pełny rdzeń wynika z zaprzeczenia przesłance, wymaganych podstaw i dopuszczenia zakresu odczytywanego z umowy; brak wskazania wykładni z art. 65 k.c. kosztuje R5. Art. 44 opisano według dawnego kryterium rażącej dysproporcji, zamiast obowiązującego kryterium niewspółmiernie niskiego wynagrodzenia (W). Art. 52 reguluje odrębność przejścia praw i własności egzemplarza, a nie wskazane momenty przejścia praw (T). Oba błędy są poboczne, a ich pochodzenie jest nieustalone wobec braku śladu narzędzi ocenianego systemu. A8 obniża nieproszony projekt klauzuli obejmujący dwa zdania; praktyczna wskazówka wyliczenia pól i zachowania formy pisemnej pozostaje przydatna.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 16,
+  "czas_s": 83,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

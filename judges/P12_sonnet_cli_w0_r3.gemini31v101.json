@@ -1,0 +1,115 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 189 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 795 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 840 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 841 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń oceniono na 1, ponieważ system trafnie wskazuje na brak klauzuli 'bez ograniczeń', ale kategorycznie zakłada możliwość skorzystania z trybu ogólnego bez ustalenia kluczowego warunku (zgody małżonka). Z tego samego powodu B2 wynosi 0 (brak warunkowości). A6 wynosi 0 (T), ponieważ system przypisuje art. 787 k.p.c. wymóg wykazania zgody dokumentem prywatnym 'z podpisem urzędowo poświadczonym', podczas gdy przepis wymaga jedynie dokumentu prywatnego. B1 obniżono do 0, ponieważ błędna wskazówka o konieczności posiadania dokumentu z podpisem poświadczonym drastycznie zmienia i utrudnia działanie prawnika. W rubryce system nie dopytuje o zgodę (R2=0) i nie prostuje wprost numeru art. 781¹ k.p.c. jako terminu (R4=0).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 787\" \"dokumentem urzędowym lub prywatnym\" OR",
+   "\"art. 787\" \"z podpisem urzędowo poświadczonym\" OR",
+   "\"art. 781\" kpc OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgjhb2dPGek6q0m0sPTm_HKeOvbK7SAQA2fIWPIqZ3TjCoe3OBQsUut4hh6HsOLLJ-HCho_1uPGtxgFmTROE4OmYxfLY0y7Wh6ll4vzWLIqViWC8cWW2V0mecCYg8zQp7gJrjJRZ7i0zUOWgbzphV5rWOQk3WJg4ebRTckuAjYScA4Cf6NKx0tYDLKoqROVUKOhttGhKr7_ISiZReZsyQY8bzfv6Undg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpBtgsnnfd0kPtMgZL950YfPzIxqpTndp0I9OBfeqY0QVNdeWuFhk2NmGh2lb016hQ_46Bi0YWKziu5MZ2mgNcCU-3YjgHPXMrSHBxrJPQt4eYQKxoSq0ndmHiPoGQnKIw6FbKp8cYSkPzVngGDEUUsfZtGPEDzxQ4wiWyUS4BWTeUTqsSAK-j5WgqEJ30QU_5QTWtyMB_1dzV",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7AR92cvc-RgwRJ8yy16rfGo2yrLAnff2gII0CYOfu6tjsGCLcxj-Ec50cgNfYZNWEJmEhGNUup03epF4yUdgwBHT-gF4bj-BuFFjBFyESSonXEEDSeneIU82rLwnMmIjWGQ7cZE6ufFaE6ZJINQpu0gwO2UafqRDCfkpGxxKP8UjM7oeDo0u0MJ90yDSRiWnMkGHqKiH9D9iX7n7yj2gaQg8FIEtRYVp87JTUBxRjd-PfcA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAn4663RWoSCyNa52beROtYhQotFcushNUen1BEh5qDKHrvzhGISPTbmHDqs2KFdx3nwwvOBVCu5FDL1PQHALUu5R1d0L2L_Ya7txsGqs2MPbmWRPL2xdOWhcoBMFZ9IXZ-qG1HfywoW36tgJB4x5MP4RherD4m4ctqklpl8H9h3TPqGbFJXKTheE31TOzTrbQOpxoZRm4e3Cl4sLj_6-qW-eDOxTyYNOfe_FtFbqJU2IenSIIbgC8VHtH36cPQa3II2L37YNVYTttKRehOoug4hyQiVQmYrnCiwdxNThgVM8JTMGqwacEUGyZ7SpyjKpV8MKUemxEDKQLqcfUXibztuO5HW-GG7sfzgBZR2NpjQV3DDiP_W10Rtu77cin6ihDKCtO7L5TbojWfeWX3TJ4riVk53YTxNK008qPHEqHLFvq",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsnOjcWknvFZX37TRdRaWt85MbE6Z_Clj9lG6lrio2aONZWnvqH9TWvpwZCsjnoy_MXFj8QLqafcy_j7foT_tH84VE_SXy3HtkS-l5svxFVDuDRT8meT4mJkvTKnGFapGAGGq8he2AOVjtPu98uP4wVrEEy0KMYsiMeZ-3s85kZsVHf7pM9kk2E7Gts8xgOqpHdtO-VUU9OD349sk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-fPZQTbyCY5vFXBJ51eEr1bExyKTK8glDXq7ib-i5EPi8Jyj-r1ZUPduhIoGvj6xNSBjJMoFl3HwVDBIQs2rrWsVRxdGBe5pv0GdfNoz4KSwpSu_KUHxJPOibx0HzpWMUmeQqH2tid5yUSOPELQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaYMSE-PVSVEXkCTvdIdhKnkCXWRcPmCM0OXKLHBZjhy-L9M2XHsAfxWOjpaWWuF9QSVlTFtZrgFweK2WFlLKVzzw0DITht1l2UEdGfLi5-xI552rufsi9b77hbJqP4OeyWogaXgs-lw87kD0Qka-uc3aeKg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF67dOV7v00PJT4fGT79QN-NFRL_Tw_wG1Rcr-1jK2TqgZKVMr5NiJHdfxkIo4WzqMMnbtrKgwswkRu_A98_RAfGDLbuOaf60N2mQd1b2XQFkw2zM1KCS4S-ym6RpghBKfDmrm6U5B0MtJ278DeOMAmyUGSc-oZZbwJhMKaDOOewRkFpEgBhSfpD4cySo5ROo1CIlW64rWf5u1jrjjsrK9Dtm4MZ_md5Ea_Rptf31p7EQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH28nSfxMd1hDD1AOT1pyB-6JV1puNcy97uAhz31_JdntQRaOgObTJPUZJk7IJaW1U1b0t0EIN1TcCbzivic2vGqhLdrRCgpcUGxH2aPA4r-hUk6GeERBuaxMRxrr1affdgjGvrG5sXJDkjSx9aTLDSx0k_3aeXuunHLiW8vGWmjYjTrRRhJBAO1jgWoVBOrj0fp3f5uNEFgXMFEO0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcONWezDbFUPaW7w_Lamos9RW9UAoIOfcJ3pMYG0sKN7M1v14J2n0eme4QaRJxd7EvYfEY-rv1c94apqMjJo8jxKemcGy_Hx5XwmRRBdculYMAKDLHQrJjWtB0pdvfk0MohSIl_nh8t_cAceXnKFimTvppd6RlpOmeds74A-4n5l2UN_GJ9zGXG_eWEyo2z1R4Mze6EYzLCP04",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0cjM05DV43HbMQuWXDFQzAgc9tlg5YuKJoXYHbDoA9jFBJIGTMaA4DkWm9-rkwXWsPy1Bo8bAr2VJ1OtyNr09zsOW5ERMelL6PKB1H0DfVSfifGFhTWj8vLs0A6CrJI1ng7Yh9fWzvdAp-Fvw4UH5gkPdKjvZOTsRvhLyZJkS1MVjZdLhuhRqn8qSPkWe_f1GGpJpMQvNnSkk43EcmNvK-Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIW75pV-oOnV_9mYQodhTqwRoxdoB3dja0F5UezRN3NokhvcAJb3jiv1QdCBxNJDQQx6K2e2qDrU2DirgmkBI2kF3ngmn54s7KyqAvppmixVWD_Gdq5DWjse42mfn37FQ95MJB6LBzj-UXfXgFw_IjJpBcC7pFVK6w61Aho4NIxebxvksZqzOBjWhjkQc7zUPQwOw-3JIKPL9SDi95ugHWkQK3sLZlMRIChCVn5vKFbmWNqpFACDU4ga9AfXcgLRxWfs4-3XEnZ5fRr6V24RA8MQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdiYKQHSkR6JkKCt_Sk5bKfQeQgdtcqTURizDx2EiuYbtHr5axE9VMBx7mBRiFbE9aGmmfh1tNNKEhCd1MAkMDN52OqJWrJ50rksKxkW6CRdp5uHbREg4SOtNhttcLBlmxNP9g49weKA68vFhQpelQinzVDMLW34-Il55EuEc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl-R2D2BpsbD3nhBepD_opN-PR_O5VaIvarjsM-MPDk5NGbVRpnC8QFQtj4PjZ9VYto1RomDErElYwmDjIHJkWhY0bXEk7SEVmPORPH4kqGx3cZZgy6OHNhykJPFA6CkHY4-firLmiT7coE00RAfoVDsQdxGWVkS0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzBYUJ6v0gN_uovvGy3XmuKxfUCUnJ2t0rPhr1BAIPvIav5aZhAFiQMcOKRG_4Pu8jmhgCre2rgqp9Xyd9aBG1FyqAACwqtvVUqZpsCfbrX6peBFU4i7Z3qqSpmiaUHKG339rOvsTzKdLscNCZtgJ0vI_ZkE2yz8lUZfaZ1SDqI4jU1vHl1h2GItfy-WNkMMtsRWHZ-o7MZeP2HF1pi9fO2Ypucnzfxoc="
+  ],
+  "tokeny": {
+   "wejscie": 11136,
+   "wyjscie": 970
+  },
+  "czas_s": 153,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

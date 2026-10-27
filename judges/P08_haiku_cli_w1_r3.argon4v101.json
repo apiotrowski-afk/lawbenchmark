@@ -1,0 +1,127 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 5 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "termin stosowania art. 50 AI Act od 2 sierpnia 2026 r. (art. 113 rozporządzenia (UE) 2024/1689)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 rozporządzenia (UE) 2016/679 (RODO)",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 i 24 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie ujmuje rdzeń odpowiedzi (A-R=2) i wszystkie podstawy wymagane (A2=1), wskazując, że brak kwalifikacji głosu jako deepfake (art. 3 pkt 60 i art. 50 ust. 4 AI Act) nie wyłącza obowiązku oznakowania maszynowego przez dostawcę z art. 50 ust. 2 AI Act. Kryterium A3 otrzymuje 0 pkt, ponieważ ujęty w cudzysłów zwrot przypisany art. 50 ust. 4 („oczywiście artystycznych, twórczych, satyrycznych, fikcyjnych lub analogicznych”) odbiega od polskiego tekstu urzędowego EUR-Lex („o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze”). Wszystkie powołania przepisów są merytorycznie zgodne ze stanem prawnym (A6=1), gdyż przy pakiecie Digital Omnibus system uczciwie sygnalizuje brak pewności co do wyniku prac legislacyjnych zamiast podawać nieaktualne brzmienie jako obowiązujące. W rubryce odpowiedź traci punkty R2 (nie wyjaśnia, że przesłanką definicji jest obiektywna możliwość uznania za autentyczne, a nie zamiar wprowadzenia w błąd) oraz R6 (jedynie wzmiankuje ewentualne wytyczne KE bez omówienia ich treści i charakteru soft law). Kryterium A8 obniżono do 0.5 z uwagi na wykraczające poza pytanie („na gruncie AI Act”) dygresje o RODO, dobrach osobistych z k.c. i ochronie konsumentów.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 20,
+  "zapytania": [
+   "\"2024/1689\" \"Artykuł 50\" \"oczywiście artystycznych\"",
+   "\"2024/1689\" \"Artykuł 5\" \"manipulacji\"",
+   "\"2016/679\" \"Artykuł 9\" \"biometrycznych\"",
+   "\"Art. 23.\" \"Dobra osobiste człowieka\" OR OR",
+   "\"Artykuł 50\" \"Obowiązki w zakresie przejrzystości\" \"2024/1689\"",
+   "\"wchodzenia w bezpośrednią interakcję z osobami fizycznymi\" \"2024/1689\"",
+   "\"stanowi część wyraźnie artystycznego\" OR \"oczywiście artystycznych\" \"2024/1689\"",
+   "\"Art. 23.\" \"Dobra osobiste człowieka\"",
+   "\"Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake\"",
+   "\"artystycznego, twórczego, satyrycznego, fikcyjnego\" OR \"artystycznych, twórczych, satyrycznych\" \"2024/1689\"",
+   "\"Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków\"",
+   "\"Art. 23.\" \"Dobra osobiste człowieka\" \"Dz.U.\" OR",
+   "\"W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym\" OR",
+   "\"Obowiązek ten nie ma zastosowania w zakresie, w jakim systemy AI pełnią funkcję wspomagającą\" OR \"funkcję pomocniczą\" \"2024/1689\" OR",
+   "\"Artykuł 113\" \"2024/1689\" \"2 sierpnia 2026\" OR",
+   "\"2026/1744\" \"111\" \"50\" OR",
+   "\"„deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy\" OR",
+   "\"1964\" \"93\" \"Dobra osobiste\" OR OR",
+   "\"Kodeks cywilny\" \"1964\"",
+   "\"2024/1689\" \"deepfake\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0SI8Zd1ssWu88Pu2Ibbx091uX7exxdAzM--gthjXJVQSqz6Zt9223_pTdzjQ0ABeB20eoogEo3QtWe6xqLoCO3jJtJkfHnrC_5TupZPz6DR3ybJsETZG2x6U-_uHhzPFyI6OCJvp6A5XACpqhKGexMd-pjcC1O7sp4dWsvc0u8cf9rtqpFQsGj3-zzRGj0eiKO7Y=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXM7Jl9FOjsLzUZ7L1Vy9FQWLqkittrj5Kg8cDy-ZVIFx2m3JqkOtGJLxFBQq0ePOXpImOWrhAlxV7zD0VOLwor5vvrl5AmjkuayVCV_4LxHYt3bBjv8yu2dwcE3knYRYVvQtYBABQ46YtkYsr2HbNGzHq0nUhiCAqTgG_diraFVcggxdmItDTjRyP8sG8nDyLOsCuHKtxqy47pYF6ww9KtVpXPC93VBju93QG1Rx_Dr2M",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESdeO5TUrZ7uT7zTqh3YpOxcuhpGAMIgkiJMN2sUfPaozuiOuu7lD9TZ0EwujsqPPm8xIKXlDps-bBuSJTBt9V-8XOLgPlD8qGk-aFh1DcRi3C09TGS58etUs04FGk0_v9R99M9jK8rzTITBvQ2W2sB28s1b_KX20414DMSNJ9Cc7io75GBNee0kjyGhWRQ3ZSFGuxnY16cU-NPL6k3L2jgf7JkkUT0yUR_hNMR7MSiECe9OwOiLs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV7GA7eLJ8lG1sD62zo5-983nyN5oIJRbmgBLWDzIdRG_Vj9JLEXmQyH9d-Cr9vKIhlQGG1mJDK_azE3fl143tVl7tZBOrREtOS3qO7wOFiFG0lhC_2eOR_G5x2-f-Y1mzLVRvMuf0KxwaCudJUxnKmGMKao6YQoPxBURpkkRyJYG9SPB46Ev6E-B70oB88U1JrQRSB8ca3zRtvf4Aaw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG942Vo7DdQZ1EMcxEtLrWOBAUCS9YH8wHCNChNnSWHz1GuFnpLiyGo4ynXBEms_rMl9MMc5KsvTxAh3MSsKt7_cCooyRKku7S4U4MUOJBL8iHo9Iwh889hIyLOtdFyWZHySwq3nlB28vUAPeXsS1fEvOLniMNw3Mc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaOtVDxf1XbByWWSng4QwVnBumt8x-wxYkWCKEIdjBA4-a3JPlDq2X_JWQ91kloInx5pXVe45HJYUiZ6oMmZg2BfOAbCF1FOaKAUacvMP2LGg6ZRWqZD0WhYzISj_DYqnpQvqF7Ota2C2UlhHDvia3Ey62mGsUEUChpZbkegF_JZTA-g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1A1OQuKooAR9Bvxk9eI0EKbczdNaa2bzyB9Ot9hup0nXLNW3IBq9vXBHxdY9sSrCg2UVhtW2Fjp4MhS-xzXbAoUSxIf2-l_ojcnU6kCxi01yR-kEGJUu9OvHc5jqht6ST5T3LFJE13SoKU8s1ek0H3BDEPsDsFA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7x0gqSiPv68EqmsuhddIk3qPX5b0riC1945y843kTEyiBRxewkMb8lNiJEqoDaqMkKiZ-2zZkEGSR8tB0aw6mJu-WC3QFMUAE7vLD-a1Fo-BYm3VpWhg4ExrbHZ9fHvMGcasGChFmB5bfX0u6Byo2aHar5WHROaGIInYk0ZjL8518MWEcb21zDFSCezHxACXpvfjbMJPoXgJYRMIsURSSTllZkmU-JzS5kAJ8dvmkPV9deOybxw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH80cizha3mZ3PiTUf2cMmHeHAIAZhPGg8H0hJL_29qTsekrE6GD3E3roxhkA7LmKFuXRjqzfABIujCSFn291iLcGabSR_t2InWdgPFtZ0MkNUvykASXapV0J479C4xcTEMW5hBgHl4oJDyOqpF__1UL6cuWmlH67e-d35wlG5Tcddqo1pnruY2YOuQ-DRIjSoNJwtMVY6c-OfX9DEke9k=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-HMtjdWz4rkzycCkk7-3rmNs_uiLfUMpeNpkRA-b2DEV2GlTSam56l7VCXLS5PDp8T-tSaShgkDPLqJGGjRd6k05wZoH9ckN9QgyI5mnmx7TaZWcQpHd3LRCazkXZiomMpZnWWO61sCW2yU_ve-6kMX3hnBtjt6_mG7LyBBi9OzxSwgA10IY9E2RJgzI8lH8zRRcPJLC_finFU9EB34aR9sVRqW1qkZ6TeJaFgBfFgN7Fx5OiaDg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv-kBBpSbDNg3L8imV2JwP2xPnujiWuTr8ytuKBOeaDC-HpfWUntqp9KcqoKvaixKtjCZ8g2WMgaGeSZeXK4a5PbRVk3IEYpaMt82Jzxfl7qLqJGTNLGx22ps2tO9OeqqSHWwln-2qU2stMrE1-CoMfUuopWWOWt3Xox_7BOwmgBi31E4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGioVIalfW-tXy-NTV0EX-1UZfyk-XLNhhcPKu95d_G_QQhzo83PTgGEZWNnosxUuGXmZUJPfZJlZCz78HRqHkjAgzW6sr-HxwwdoIcHFcTTE_RbrMMD--72tjj8YviXn3GnawLAXfHUkKR1DlnzikfdUt6aV1AfRUMtvs5hZ7_-1CUu0GkuNbNMJirEDn0vW4hIefnlYR8NsjprZZvpYRI_mP8VY_xrEhphlFOr2_7A0jzSZjamzQB3PhRiA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBE42ucp318yC7zAttYy0hX-1i_SEjSLjDRGeWNeXJcEpDicaKVYNfvHb7n-H1WMnRkyTeOCzNw2B1VNtBSTdKxgLrObHKDvMQwX-oxz2Jh-zzUruqWLDQCjPaGIUlEF9nil_yrm9mEOml9IPEEsxmZxxb0bfrY89rTulW2CS7QW4ssA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ6opKrWWwvE4kGyPrg4v9ZoXuStncyMPeJ5JuI7OtogD0dFL-DadV2OgmX5az_wVX03WGoLmMPYgMEfL6vO-Zy_sC0fCFOmOlGez1zzXa64ho533h4CTvVOPxgWBzqLSbYOaxbUsGk0t4-PW4k1vMj1AO2y3E157YxHNLrJiRtgk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYZFRgh9aKGr_xRp-_ViOT7ZcSc9XZVmUCRgCWC0oeJ-2NPKGID0BWoS1miP2QImq4IT63n091J_qDkG8B62Ac1TwrAhEk3ogWHW5_h9Zmop2gpiEZ2aVLvYKe-LpIjTRft48xmrY6KD8="
+  ],
+  "tokeny": {
+   "wejscie": 15297,
+   "wyjscie": 2059
+  },
+  "czas_s": 211,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę zezwolenia MSWiA na decyzję administracyjną (R1 = 1), lecz w konkluzji wskazuje wyłącznie na wystąpienie o potwierdzenie ostateczności bez wskazania zaświadczenia o prawomocności decyzji, co zgodnie z regułami oceny klucza daje A-R = 0 oraz R3 = 0. Brak wskazania instytucji zaświadczenia i powołania art. 217 § 2 pkt 2 k.p.a. skutkuje oceną 0 w A2 i R2, a brak omówienia trybu i 30-dniowego terminu skargi do WSA daje 0 w R4. Kara K3 nie zostaje naliczona, ponieważ odpowiedź dostrzega prawomocność decyzji z art. 16 § 3 k.p.a. i nie używa sformułowania wykluczającego („wyłącznie ostateczność”). Wszystkie powołane przepisy są zgodne z oficjalnymi tekstami ustaw (A6 = 1), a poboczna gałąź dotycząca postanowienia sądu opiekuńczego jest dopuszczalna przez klucz bez obniżenia A8 (A8 = 1). Praktyczna przydatność jest częściowa (B1 = 1), gdyż system prawidłowo kieruje stronę na drogę administracyjną zamiast sądowej, lecz nie wskazuje wniosku o zaświadczenie o prawomocności po upływie terminu na skargę do WSA.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"art. 364\" \"Prawomocność orzeczenia stwierdza\" eli.gov.pl OR sejm.gov.pl",
+   "\"art. 13\" \"Przepisy o procesie stosuje się odpowiednio\" eli.gov.pl OR sejm.gov.pl",
+   "\"art. 16\" \"Decyzje, od których nie służy odwołanie\" eli.gov.pl OR sejm.gov.pl",
+   "\"Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia\" eli.gov.pl OR sejm.gov.pl",
+   "\"Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne\" eli.gov.pl OR sejm.gov.pl",
+   "\"Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych\" eli.gov.pl OR sejm.gov.pl",
+   "\"DU/2017/2278\" \"Nabycie nieruchomości przez cudzoziemca\"",
+   "\"ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej\" sejm.gov.pl OR eli.gov.pl",
+   "\"WDU20170002278\" OR \"D20172278\" sejm.gov.pl",
+   "\"2278\" \"o nabywaniu nieruchomości przez cudzoziemców\" \"art. 1\" sejm.gov.pl OR eli.gov.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14666,
+   "wyjscie": 1173
+  },
+  "czas_s": 102,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

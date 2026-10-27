@@ -1,0 +1,59 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c. — sprostowanie błędnego numeru",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny zasadniczy rdzeń: uzależnia art. 787 od zgody małżonka, rozróżnia zakresy odpowiedzialności i wyklucza egzekucję bez ograniczeń, mimo początkowego „Tak”. Trafnie wyjaśnia, że oznaczenia w tytule nie przesądzają trybu. Nie zaliczono czwartego elementu rubryki, ponieważ sprostowaniu numeru nie towarzyszy wyjaśnienie, że art. 781¹ przewiduje termin trzech dni. Pominięto również wariant braku zarówno zgody, jak i związku wierzytelności z przedsiębiorstwem. Powołane przepisy są zgodne z oficjalnymi tekstami, a wskazane pominięcia nie stanowią halucynacji.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 59,
+  "data": "2026-10-15",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 394¹ᵃ § 1 pkt 12 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394² k.p.c. — brak ogólnej zaskarżalności odrzucenia zażalenia przez sąd drugiej instancji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394¹ § 2 k.p.c. — ocena zażalenia do SN według dopuszczalności skargi kasacyjnej, zakończenia postępowania i wyłączeń",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf; historyczne brzmienie: https://eli.gov.pl/api/acts/DU/2005/98/text.html",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Końcowe dopytanie prawidłowo nazywa rozwidlenie, dlatego zaliczono pierwszy element rubryki i B2 oraz nie naliczono kary za odpowiedź bez rozróżnienia i dopytania. Odpowiedź trafia w gałąź dotyczącą zażalenia dewolutywnego, lecz nie przedstawia pozytywnej konkluzji dla zażalenia poziomego ani wymaganych podstaw, co daje A_R=1 i A2=0. Twierdzenie o braku ogólnej zaskarżalności w art. 394² jest prawdziwe; pominięcie szczególnej regulacji § 1² nie obniża A6. Art. 394¹ § 2 jest uchylony, a przypisana mu treść odpowiada dawnemu brzmieniu, dlatego zastosowano W, A6=0 i hallucinated=true. Wskazanie ewentualnego zażalenia do SN skutkuje pierwszą karą i ogranicza przydatność do B1=1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 73,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c. w zw. z art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. 2023 poz. 1550 (k.p.c.)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "SA w Gdańsku, postanowienie VIII Gz 43/16",
+   "zrodlo": "SAOS 213643 (SO w Szczecinie, VIII Gz 43/16 z 2.03.2016)",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "SA w Szczecinie, postanowienie z 18.07.2013 r., I ACz 390/13",
+   "zrodlo": "SAOS / Portal SA w Rzeszowie (I ACz 390/13 z 21.06.2013)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "SN, I CZ 83/09",
+   "zrodlo": "sn.pl, I CZ 83/09",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź merytorycznie trafnie wyjaśnia, że wstrzymanie wykonania dotyczy egzekucji, a nakaz nadal jest tytułem zabezpieczenia, jednak niefortunne rozpoczęcie od słowa „tak” na pytanie „czy obejmuje” zniekształca kategoryczność tezy i kosztuje pierwszy element rubryki. Wymagane podstawy prawne powołano poprawnie i trafnie wskazano obronę z art. 492 § 2 w zw. z art. 742 k.p.c., pomijając jednak art. 820 § 2 k.p.c. W orzecznictwie doszło do halucynacji: orzeczenie SO w Szczecinie VIII Gz 43/16 przypisano SA w Gdańsku (klasa S), a tezę o tytule zabezpieczającym powiązano z nieistniejącym w tej dacie i sądzie postanowieniem SA w Szczecinie I ACz 390/13 (klasa T). B1 obniżono do 1 ze względu na wprowadzenie w błąd co do sygnatur i sądów w orzecznictwie oraz początkową sprzeczność słowną.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 29,
+  "zapytania": [
+   "\"VIII Gz 43/16\"",
+   "\"I ACz 390/13\" \"492\"",
+   "\"I CZ 83/09\"",
+   "\"14498\"",
+   "\"I ACz 390/13\" \"Szczecin\"",
+   "\"213643\"",
+   "\"I ACz 390/13\"",
+   "\"judgments/14498\"",
+   "\"I ACz 390/13\" \"2013\"",
+   "\"saos.org.pl/judgments/14498\"",
+   "\"I ACz 390/13\" \"Szczecin - Centrum\"",
+   "\"I ACz 390/13\" \"18 lipca 2013\"",
+   "\"I ACz 390/13\" \"Szczecin\" \"2013\"",
+   "\"14498\" \"saos\"",
+   "\"I ACz 390/13\" \"21 czerwca 2013\"",
+   "\"14498\" \"ACz\"",
+   "\"14498\" \"Rzeszów\"",
+   "\"14498\" \"Szczecin\"",
+   "\"14498\" \"492\"",
+   "\"https://www.saos.org.pl/judgments/14498\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11957,
+   "wyjscie": 849
+  },
+  "czas_s": 164,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

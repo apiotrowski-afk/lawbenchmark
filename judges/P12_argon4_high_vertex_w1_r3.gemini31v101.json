@@ -1,0 +1,135 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 783 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN III CZP 117/10",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 891² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 845 § 2⁴ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 923¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 § 1a k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN III CZP 106/18",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 319 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest znakomita, wyczerpująca i w pełni poprawna. System trafnie identyfikuje, że nie ma klauzuli „bez ograniczeń” i prawidłowo uzależnia tryb od zgody małżonka, a nie od treści nakazu zapłaty. Wszystkie powołane przepisy (w tym rzadziej stosowane art. 845 § 2⁴ k.p.c. i art. 923¹ § 1 k.p.c.) oraz orzeczenia Sądu Najwyższego (III CZP 117/10, III CZP 106/18) zostały zweryfikowane jako poprawne i adekwatne. System realizuje wszystkie elementy rubryki i wykazuje się świetną kalibracją pewności, prowadząc wywód dwutorowo.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"art. 845\" \"kodeks postępowania cywilnego\" \"2\"",
+   "\"845 § 2\" \"k.p.c.\"",
+   "\"845 § 2a\" \"k.p.c.\"",
+   "\"845 § 2\" \"kodeks postępowania cywilnego\"",
+   "\"923¹ § 1\" \"k.p.c.\"",
+   "\"923\" \"kodeks postępowania cywilnego\"",
+   "\"52 § 1a\" \"k.r.o.\"",
+   "\"52\" \"kodeks rodzinny i opiekuńczy\"",
+   "\"III CZP 106/18\"",
+   "\"uchwała SN z 11 kwietnia 2019 r. III CZP 106/18\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLNyBLnM1dX2hbYo055cU3SBAjllKjA1GlRIX7nxoX0o0HNmr086olW4YjrG28vAHr2l2JD7Qoh9A1961Jb_Sfc_pzPUkVOpV-wu9v47c-LwgH-GWWC-ik5FWs5K7jzJs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGK3tg9EPK_ZuaFne773W6c9mqyhRWWHmCCmQ1Lk8MvwVhe9a5L431b73YGOwmfhIJ7rmQP11QjfBF-taIaPbuyMeb8FAbhkKMw1636xBRy9VF2e1LQR954UUs91pyuFcR5JsA30rtc9o-bVcpYaugNaaj1cjPMyM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuvgExJEbHiRxYk7K25m67uYoUie0YiFRNOaqVLCauRv3gfcjLfZgylkMPFStLxiP84JK0CuWdxWM8PtVuy0qeqKUI140LOgNdwHewcOh_rVWre1wj0ZXvOplQtquFkXYGOc8p_MJzxqceTh5Ybf9qrcnOslzer965gcajTg4woi8n1k_iNKy-6YU2-w5eM9yqbeMRzhAc8s6FaGdsHmDxlvg_xBPYXPim_Dno-GCkMu0EzlmlQlkfMM9OMdAxxuLHKJdk",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES_d14fIgPeCSeWh3JP_2rjVh338jAYH2qzueCtTp5KXVxCSe5379qmQthZLNvGskyTr38KM3l5uyxrDNp_cxH-FWjt4ppt8gMlq0BPtUsf33DO_lbn75-34cRIAtRV50Pb5pRZuqEklcb5_jVbEozEP1Q0GsvFaRXdmYLlA=="
+  ],
+  "tokeny": {
+   "wejscie": 15010,
+   "wyjscie": 1239
+  },
+  "czas_s": 152,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

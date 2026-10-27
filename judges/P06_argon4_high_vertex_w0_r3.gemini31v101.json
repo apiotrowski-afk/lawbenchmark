@@ -1,0 +1,146 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 § 1 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 3 w zw. z art. 398²¹ w zw. z art. 394 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 87¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 398²² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 359 § 1 k.p.c. w zw. z art. 391 § 1 i art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 380 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 429 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "art. 430 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System nie rozpoznał prawidłowo rdzenia pytania, błędnie twierdząc, że na odrzucenie zażalenia poziomego nie przysługuje zażalenie (naruszenie art. 394² § 1² k.p.c.). Ponadto system wyhalucynował istnienie zażalenia do SN na odrzucenie zażalenia przez SA, powołując błędną podstawę prawną (T). Wskazanie nieaktualnej procedury z art. 130² k.p.c. (wniosek o przywrócenie terminu zamiast opłacenia w terminie tygodniowym) skutkuje brakiem punktu w rubryce i obniża przydatność (B1=0). Dygresja o procedurze karnej oraz niepytane środki ratunkowe obniżają ramy (A8=0.5). System prawidłowo zastosował kalibrację warunkową (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"odrzucenie zażalenia\" \"Sąd Najwyższy\" \"zażalenie do Sądu Najwyższego\" \"394\" k.p.c.",
+   "\"odrzucenie zażalenia\" \"przez sąd drugiej instancji\" \"zażalenie do Sądu Najwyższego\" k.p.c.",
+   "\"398\" \"22\" k.p.c. referendarz",
+   "\"398\" \"22\" \"skarga na orzeczenie referendarza\" k.p.c.",
+   "\"odrzucenie zażalenia do Sądu Najwyższego\" \"zażalenie do Sądu Najwyższego\" k.p.c.",
+   "\"odrzucenie zażalenia do Sądu Najwyższego\" \"przysługuje zażalenie\" k.p.c.",
+   "\"130\" \"2\" k.p.c.",
+   "\"130 ze znaczkiem 2\" k.p.c."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBQsASDp6baMfT_Vma9l9SADyV0_setdBDng4Xz0FOl-TaOL0VQSvf36uODXUsti5RO8QZCcIyhryS68GUSYaiIjIhIj1dMn6MqH3CbGZAqskR_RLj4b7iRrRgl3fGnh3YWUDg1CWz4xhozXDG9ETXyUxtwmOwFvjKtjbzbguKhpCICjPDdI_igDdZZm-t171l2cjRcs0Q",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGxjEdPxJmz-lEFbrKTFtelZMrv4r4EHSkH1vTu0CYF4NgoWcRSduL--ZLV4x0f6nIvbK6tMo64L8GOFXr3D4fVy-BSdC159AtgA-aI4h9CIMhsq5hhh4J8wC-t9gPtmCFHE8rlN9WbtwuafuL4xOcuxLGqpBRD3z04ofb",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmpjryH6V6D3zQTQz8C2HAO8AL0mtuws8956jCaIhtkJ_N2wA2CLcvQvfKaGFlyc8It7NK1p4QlNJtENl2ROBwtAbPJDMpQUMDEiPBiSpWThqjYEAXX3NZwv0faMu6Rw0fmQRc",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIQFEgb5zsmE7Mu3wT_zt-FvhS3lWOgpFdM4DsreZNhq-rw3wO9tF7hyOKU0VFz1KSEgrvxEmFnSDGE_Q6wJmVaK4M5hRk75h3n4kfSpe8jZNve6PCEqEeDIctcl4jHsI5socMYXaoALvsL-O5ro1gDsJG_tkR5BSnmfr2zIRqdlW-D3FPposFUh0-VrI2c7uaGmwRag==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa81SHkWliqzgD-PR0QoTT6cmVHS6KaK_F1egtijfRaE1NOL-oCWyExnamSHTTCujdyQnRu8yQbXdZMSUynb_kzYkD-K2FSqg0Q3HBK85qj7n6nZLjOhY0rZ5xEtzBh1SVpTuRA_9fIlBXHlbgRxhDarJ6I7DK2lPGTuNz5O0vhFTk2Ay8AYjr-rdwvll8XfVmGWpKXMY1W7QV_Ao=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeh7PhazrJe3W5hUzke3YZnxneNxqULUsySkA0u8un9XF0ZQAE4ZwK10CfZGhSkqyA7s9-VEW9RQ0bleSsfGjV5GS8k2oXJmSQq7TXUg5pLi-qT0xFxWlDMen_uQ4UVjgqNNB0ntZoSb05PnrZgaNwhZ0U-AMeVgYjgTqz_KZHx5kt8_JrpFroxOEdFf4Q8zopDa7g_8ToAStq",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlKgI5300TYZGjK59BOCsHzhzXJfpFkdKwcLw4zqDSs1pjJnTPnXPCCJO00PIKyezsXroqjPKF3rzgFXKuKiPpOofZ_dNVzXbIzc9Xs2Qf8oJxlzN4Fh9TrnRi4Z7JZp2WqNSc6WKSI4stIKgpKUon4l27q3bBq0ZF3x3545sPe3S0vPm0G9NHsNhMmw1QPGyjUvoARw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETM1M8yqNAdPdwgfVIHEbyFjkpfqi2uJhsZpVs8hDY8NARBH5AW-jMUq0kZQQv0m5OqJzROtbKCN_nO8q4nGOLNgmmOv558Yb0YeLEZrzpWuDudYCgoLYXmPdHAnwTM0YWtRpcAl5qk-TL92B9YH5WOxmzkVndmGZztBJDVaQjUa8NScyaRCHXnyLozbbudhX3lOlAV_la3lL5ezoeaxee71epOg=="
+  ],
+  "tokeny": {
+   "wejscie": 10944,
+   "wyjscie": 1494
+  },
+  "czas_s": 297,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

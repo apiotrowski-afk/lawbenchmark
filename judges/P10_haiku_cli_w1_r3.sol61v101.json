@@ -1,0 +1,77 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=7",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=26",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie przekazano odpowiedzi tego samego systemu na P09; brak podstaw do naliczenia kary za sprzeczność."
+ ],
+ "uzasadnienie": "Odpowiedź zaprzecza przesłance, wskazuje wymagane podstawy, przykłady pól oraz formę pisemną, a także dopuszcza znaczenie wykładni konkretnej umowy. Nie przedstawia liberalnej linii SN, art. 65 k.c. ani reguły in favorem auctoris, więc nie uzyskuje R5. Art. 41 ust. 3 dotyczy obu kategorii utworów mających powstać w przyszłości, natomiast odpowiedź rozszerza zakaz na wszystkie utwory twórcy, również istniejące: to T, A6=0, błąd poboczny pochodzący ze źródeł wtórnych. Dygresja o wyborze licencji oraz ponawiane zastrzeżenia dotyczące weryfikacji obniżają A8, a błędna wskazówka o zakresie nieważności ogranicza B1 do 1. Bez weryfikacji źródła: tak (tylko źródła wtórne).",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 6,
+  "czas_s": 39,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ KC",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 55¹ pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 556 KC",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 750 KC",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 734 KC i nast.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Kierunek odpowiedzi jest trafny (A-R=1), lecz pomija kluczowy warunek wynikający z liberalnej linii SN dopuszczającej ustalenie pól w drodze wykładni z art. 65 k.c. Wymagane podstawy prawne zostały powołane i opisane prawidłowo (A2=1). W odpowiedzi pojawiła się jednak nieistniejąca w prawie autorskim jednostka „art. 55¹ pr. aut.” (wady prawne utworu reguluje art. 55 ust. 2), co skutkuje A6=0 (klasa F) oraz statusem hallucinated=true. Kalibracja B2=0, ponieważ przy oczekiwanej warunkowości odpowiedź kategorycznie stwierdza brak przejścia praw bez uwzględnienia wykładni umowy. W rubryce przyznano punkty za potwierdzenie zasady z art. 41 ust. 2, podanie pól właściwych dla social media oraz formę pisemną z art. 53.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 55¹\" prawa autorskiego ISAP",
+   "\"art. 55\" pr. aut. rękojmia wady prawne",
+   "\"55(1)\" pr. aut. prawo autorskie",
+   "art 55 pr aut isap",
+   "\"art. 55(1)\" pr. aut. ISAP",
+   "\"art. 551\" pr. aut.",
+   "\"art. 55^1\" pr. aut.",
+   "\"55¹\" \"prawo autorskie\" ISAP"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13571,
+   "wyjscie": 1196
+  },
+  "czas_s": 78,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

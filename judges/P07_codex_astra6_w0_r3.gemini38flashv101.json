@@ -1,0 +1,64 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń i precyzyjnie wyjaśnia relację zasadniczych powodów rozstrzygnięcia do uzasadnienia orzeczenia. Prawidłowo wskazano warunek zaskarżalności postanowienia oraz tygodniowy termin w zależności od posiedzenia jawnego lub niejawnego. W rubryce zabrakło jedynie wzmianki o opłacie od wniosku lub wyjątkach. Wszystkie powołane jednostki redakcyjne k.p.c. są w pełni zgodne ze źródłem urzędowym.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 357\" kpc \"zasadnicze powody rozstrzygnięcia\"",
+   "\"art. 357 § 5\" kpc",
+   "\"art. 357 § 2(1)\" kpc \"posiedzeniu niejawnym\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9038,
+   "wyjscie": 398
+  },
+  "czas_s": 14,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

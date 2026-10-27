@@ -1,0 +1,93 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni trafna merytorycznie, precyzyjnie wyjaśniająca zasadę z art. 41 ust. 2 pr.aut. oraz możliwość dookreślenia zakresu w drodze wykładni (art. 65 k.c.). Wszystkie powołane przepisy istnieją, są właściwie odczytane i aktualne. W rubryce zabrakło odniesienia do braku automatycznego nabycia praw przez zlecającego z art. 12 pr.aut. oraz wskazania linii SN i dyrektywy in favorem auctoris przy wykładni. Kalibracja i przydatność praktyczna na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 41 ust. 2\" \"prawo autorskie\" ISAP",
+   "\"art. 53\" \"prawo autorskie\" Dz.U. 2025 poz. 24",
+   "\"art. 46\" \"prawo autorskie\" Dz.U. 2025 poz. 24",
+   "\"art. 41 ust. 4\" \"prawo autorskie\" Dz.U. 2025 poz. 24"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12837,
+   "wyjscie": 664
+  },
+  "czas_s": 24,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

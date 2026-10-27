@@ -1,0 +1,97 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych — umowa przenosząca prawa (tak samo licencja) obejmuje wyłącznie pola eksploatacji wyraźnie w niej wymienione",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut. — umowa nie może obejmować pól eksploatacji nieznanych w chwili jej zawarcia",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr. aut. — korzystanie i rozporządzanie opracowaniami oraz upoważnienie do wykonywania zależnego prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut. — autorskie prawa osobiste nie są zbywalne",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut. — umowa przenosząca autorskie prawa majątkowe wymaga formy pisemnej pod rygorem nieważności",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ § 2 k.c. — forma elektroniczna z kwalifikowanym podpisem jest równoważna pisemnej",
+   "zrodlo": "Dz.U. 2026 poz. 795 (ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 64 pr. aut. — bez odmiennego postanowienia umowa przenosi prawa z chwilą przyjęcia utworu",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr. aut. — mechanizm nabycia praw przewidziany dla utworów pracowniczych nie działa automatycznie przy umowie zlecenia",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia rdzeń (A-R = 2) oraz powołuje obie wymagane podstawy prawne: art. 41 ust. 2 i art. 53 pr. aut. (A2 = 1). Wszystkie powołane przepisy prawa autorskiego oraz Kodeksu cywilnego są zgodne ze źródłem oficjalnym (A6 = 1), a brak dosłownych cytatów przepisów w cudzysłowie skutkuje A3 = nd. W rubryce zaliczono pierwsze cztery elementy (R1–R4), natomiast nie przyznano punktu za R5, ponieważ mimo linku do wyroku III CK 124/05 w stopce źródeł odpowiedź nie omawia w treści możliwości dookreślenia pól eksploatacji w drodze wykładni umowy z art. 65 k.c. Zgodnie z regułą B11 kalibracja zasługuje na B2 = 1, a praktyczna i kompletna struktura wskazówek daje B1 = 2 oraz A8 = 1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 2\" \"Rozporządzanie i korzystanie z opracowania\" OR",
+   "\"art. 64\" \"Umowa zobowiązująca do przeniesienia\" \"przejście\" OR",
+   "\"art. 78\" \"Oświadczenie woli złożone w formie elektronicznej\" OR",
+   "\"DU/2019/1231\" OR",
+   "\"DU/2025/24\" OR \"DU/2026/795\"",
+   "\"WDU20250000024\"",
+   "\"Art. 16.\" \"nieograniczona w czasie i niepodlegająca zrzeczeniu się lub zbyciu\"",
+   "\"Art. 12.\" \"Jeżeli ustawa lub umowa o pracę nie stanowią inaczej, pracodawca\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14660,
+   "wyjscie": 1274
+  },
+  "czas_s": 111,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

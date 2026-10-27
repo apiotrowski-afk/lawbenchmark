@@ -1,0 +1,102 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600)",
+   "zrodlo": "ISAP Dz.U. 2022 poz. 2600 (art. 4 pkt 5–8, wejście w życie 1.10.2023 r. na mocy art. 31)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.): „§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 i § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.): art. 122 § 1 (paserstwo umyślne do 800 zł) i art. 122 § 2 (paserstwo nieumyślne do 800 zł)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278, 284, 290, 291/292, 288 Kodeksu karnego",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.): art. 278 (kradzież), art. 284 (przywłaszczenie), art. 290 (kradzież drzewa z lasu), art. 291 i 292 (paserstwo umyślne i nieumyślne), art. 288 (zniszczenie rzeczy)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 Kodeksu karnego skarbowego",
+   "zrodlo": "Dz.U. 2025 poz. 633 (t.j. k.k.s.): „§ 3. Wykroczenie skarbowe jest to czyn zabroniony przez kodeks pod groźbą kary grzywny określonej kwotowo, jeżeli kwota uszczuplonej lub narażonej na uszczuplenie należności publicznoprawnej albo wartość przedmiotu czynu nie przekracza pięciokrotnej wysokości minimalnego wynagrodzenia w czasie jego popełnienia. (...) § 6. Ustawowy próg, o którym mowa w tytule I w dziale II – Część szczególna, jest to wysokość kwoty określonej w § 3 zdanie pierwsze.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Rady Ministrów z dnia 14 września 2023 r. (Dz.U. poz. 1893)",
+   "zrodlo": "ISAP Dz.U. 2023 poz. 1893: § 1 (4 242 zł od 1.01.2024 r.) i § 3 (4 300 zł od 1.07.2024 r.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie wskazuje w pierwszych akapitach próg 800 zł oraz brak wpływu wzrostu płacy minimalnej (A-R = 2, B2 = 1), powołując wymagany art. 119 § 1 k.w. (A2 = 1) oraz realizując wszystkie cztery punkty rubryki (R = [1, 1, 1, 1]). Wszystkie powołane przepisy k.w., k.k., k.k.s., ustawy nowelizującej z 2022 r. oraz rozporządzenia RM z 2023 r. (z wyraźnym wskazaniem przedziałów czasowych w 2024 r.) są zgodne z tekstami oficjalnymi (A6 = 1). Brak dosłownych cytatów w cudzysłowie daje A3 = nd. Rozbudowana sekcja 2 o wykroczeniach skarbowych z k.k.s. (operująca dodatkowo nieaktualnym dla stanu prawnego z 2026 r. rokiem 2024 jako „obecnym”) stanowi dygresję w inną gałąź prawa i obniża A8 do 0.5.",
+ "_meta": {
+  "sedzia": "argon4meta3",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"Dz.U. 2023 poz. 1893\" \"14 września 2023\" \"4242\" \"4300\"",
+   "\"art. 278\" \"art. 284\" \"art. 288\" \"art. 290\" \"art. 291\" \"art. 292\" OR",
+   "\"art. 53\" \"pięciokrotnej wysokości minimalnego wynagrodzenia\" OR",
+   "\"listopadzie 2018\" OR \"listopada 2018\" \"500 zł\" \"1/4 minimalnego wynagrodzenia\" \"art. 119\" OR",
+   "\"Dz.U. 2023 poz. 1893\" OR",
+   "\"Dz.U. 2018 poz. 2077\" OR",
+   "\"Dz.U. 2024 poz. 17\" OR \"Dz.U. 2025\" \"Kodeks karny\" OR",
+   "\"Dz.U. 2025 poz. 633\" OR",
+   "\"Art. 290\" \"w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie\" OR OR",
+   "\"Rozporządzenie Rady Ministrów\" \"w sprawie wysokości minimalnego wynagrodzenia za pracę\" \"2026\" Dz.U."
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 20272,
+   "wyjscie": 1992,
+   "rozumowanie": 10994
+  },
+  "czas_s": 220,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 11, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z tym przepisem kradzież lub przywłaszczenie cudzej rzeczy ruchomej stanowi wykroczenie, jeżeli jej wartość nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Przepis w brzmieniu na datę stanu prawnego wprost określa próg 800 złotych dla wykroczenia kradzieży lub przywłaszczenia cudzej rzeczy ruchomej.\n    · kotwica (verbatim ze źródła): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 120 § 1 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten stanowi, że wyrąb drzewa w lesie albo kradzież lub przywłaszczenie z lasu drzewa wyrąbanego lub powalonego stanowi wykroczenie, jeżeli wartość drzewa nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Przepis potwierdza próg 800 złotych i opisane zachowania, przy czym twierdzenie pomija jedynie znamię działania w celu przywłaszczenia przy wyrębie drzewa.\n    · kotwica (verbatim ze źródła): „§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 3. art. 122 § 1 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R4 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten przewiduje odpowiedzialność za wykroczenie paserstwa w przypadku nabycia, pomocy w zbyciu, przyjęcia lub pomocy w ukryciu mienia, jeżeli jego wartość nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Przepis przewiduje odpowiedzialność za opisane czynności paserskie (w formie umyślnej) przy wartości mienia nieprzekraczającej 800 złotych, a pominięcie niektórych znamion (np. celu osiągnięcia korzyści majątkowej) stanowi zwykłe skrócenie opisu.\n    · kotwica (verbatim ze źródła): „§ 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, p…”\n    · brzmienie jednostki (fragment): „§ 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 4. art. 122 § 2 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R4 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 500 złotych, podlega karze grzywny albo karze nagany.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten przewiduje odpowiedzialność za wykroczenie paserstwa w przypadku nabycia, pomocy w zbyciu, przyjęcia lub pomocy w ukryciu mienia, jeżeli jego wartość nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Przepis reguluje paserstwo nieumyślne w odniesieniu do wskazanych czynności i progu 800 złotych, a pominięcie szczegółowych znamion (np. celu osiągnięcia korzyści majątkowej przy przyjęciu/ukryciu) jest nieznacznym skrótem.\n    · kotwica (verbatim ze źródła): „§ 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub…”\n    · brzmienie jednostki (fragment): „§ 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze grzywny albo karze nagany.”\n- 5. art. 124 § 1 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R4 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Według tego przepisu zniszczenie mienia polegające na zniszczeniu, uszkodzeniu lub uczynieniu cudzej rzeczy niezdatną do użytku stanowi wykroczenie, jeżeli szkoda nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Przepis wprost określa te znamiona oraz próg szkody 800 złotych (twierdzenie pomija jedynie znamię umyślności).\n    · kotwica (verbatim ze źródła): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 6. art. 278 [akt: nieustalony (w zdaniu inny akt: Kodeksu karnego)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: Kodeksu karnego\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 7. art. 284 [akt: nieustalony (w zdaniu inny akt: Kodeksu karnego)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: Kodeksu karnego\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 8. art. 290 [akt: nieustalony (w zdaniu inny akt: Kodeksu karnego)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: Kodeksu karnego\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 9. art. 29 [akt: nieustalony (w zdaniu inny akt: Kodeksu karnego)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: Kodeksu karnego\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 10. art. 53 § 3 Kodeksu karnego skarbowego [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (zapytano o art. 53 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 633 z 10.04.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje us…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z tym przepisem wykroczeniem skarbowym jest czyn zabroniony, jeżeli kwota uszczuplonej lub narażonej na uszczuplenie należności publicznoprawnej albo wartość przedmiotu czynu nie przekracza pięciokrotnej wysokości minimalnego wynag…”\n    · uzasadnienie weryfikatora: Przepis zawiera przytoczoną definicję wykroczenia skarbowego i próg pięciokrotności minimalnego wynagrodzenia (twierdzenie pomija jedynie element dotyczący groźby kary grzywny określonej kwotowo).\n    · kotwica (verbatim ze źródła): „§ 3. Wykroczenie skarbowe jest to czyn zabroniony przez kodeks pod groźbą kary grzywny określonej kwotowo, jeżeli kwota uszczuplonej lub narażonej na uszczuplenie należności publicznoprawnej albo wartość przedmiotu czynu nie przekracza pięciokrotnej wysokości…”\n    · brzmienie jednostki (fragment): „§ 3. Wykroczenie skarbowe jest to czyn zabroniony przez kodeks pod groźbą kary grzywny określonej kwotowo, jeżeli kwota uszczuplonej lub narażonej na uszczuplenie należności publicznoprawnej albo wartość przedmiotu czynu nie przekracza pięciokrotnej wysokości minimalnego wynagrodzenia w czasie jego popełnienia. Wykroczeniem skarbowym jest także inny czyn zabroniony, jeżeli kodeks tak stanowi.”\n- 11. art. 53 § 6 Kodeksu karnego skarbowego [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (zapytano o art. 53 § 6 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 633 z 10.04.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje us…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z tym przepisem wykroczeniem skarbowym jest czyn zabroniony, jeżeli kwota uszczuplonej lub narażonej na uszczuplenie należności publicznoprawnej albo wartość przedmiotu czynu nie przekracza pięciokrotnej wysokości minimalnego wynag…”\n    · uzasadnienie weryfikatora: Przepis został powołany łącznie z art. 53 § 3 KKS i odsyła wprost do kwoty określonej w § 3 zdanie pierwsze jako ustawowego progu rozgraniczającego wykroczenia od przestępstw skarbowych.\n    · kotwica (verbatim ze źródła): „§ 6. Ustawowy próg, o którym mowa w tytule I w dziale II – Część szczególna, jest to wysokość kwoty określonej w § 3 zdanie pierwsze.”\n    · brzmienie jednostki (fragment): „§ 6. Ustawowy próg, o którym mowa w tytule I w dziale II – Część szczególna, jest to wysokość kwoty określonej w § 3 zdanie pierwsze.”\n\nORZECZENIA: brak sygnatur w odpowiedzi.\n\nPUBLIKATORY: Dz.U. z 2022 r. poz. 2600 — akt zmieniający Kodeks karny skarbowy (w życie 2023-10-01); Dz.U. poz. 1893 — nie rozpoznano roku — do sprawdzenia ręcznie"
+}

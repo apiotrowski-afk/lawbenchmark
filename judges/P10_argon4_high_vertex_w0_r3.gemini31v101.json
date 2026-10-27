@@ -1,0 +1,117 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2022 poz. 2509",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2022 poz. 2509",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2022 poz. 2509",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 3 pr.aut.",
+   "zrodlo": "Dz.U. 2022 poz. 2509",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2022 poz. 2509",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2022 poz. 2509",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2022 poz. 2509",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2022 poz. 2509",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14.09.2022 r., II CSKP 526/22",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest w pełni trafny (A-R=2), system zaprzecza przesłance i wskazuje na konieczność wyliczenia pól eksploatacji, powołując wymagane przepisy. Cytaty z ustawy są dosłowne (A3=1). System halucynuje jednak orzeczenie Sądu Najwyższego: sygnatura II CSKP 526/22 to wyrok z 12.01.2023 r. dotyczący zadośćuczynienia za wypadek, a nie prawa autorskiego, co stanowi przypisanie cudzej treści do istniejącej sygnatury (A6=0, typ T). Odpowiedź realizuje wszystkie elementy rubryki, w tym wskazuje na możliwość ratowania umowy przez art. 65 k.c. Przydatność dla prawnika jest bardzo wysoka (B1=2), a kalibracja pewności prawidłowa (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 15,
+  "zapytania": [
+   "\"II CSKP 526/22\"",
+   "\"II CSKP 526/22\" orzeczenia sn",
+   "\"II CSKP 526/22\" \"14.09.2022\"",
+   "\"II CSKP 526/22\" \"14 września 2022\"",
+   "\"II CSKP 526/22\" \"prawo autorskie\"",
+   "\"II CSKP 526/22\" \"art. 65\"",
+   "\"wyrok SN z 14 września 2022\" \"pola eksploatacji\"",
+   "\"wyrok SN z 14.09.2022\" \"pola eksploatacji\"",
+   "\"wyrok SN z 14 września 2022\" \"art. 65\"",
+   "\"II CSKP\" \"14 września 2022\"",
+   "\"II CSKP\" \"14.09.2022\"",
+   "\"II CSKP 561/22\" \"pola eksploatacji\"",
+   "\"II CSKP 561/22\" \"prawo autorskie\"",
+   "\"II CSKP 561/22\"",
+   "\"art. 50\" \"prawo autorskie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-KCFwQiqq8B4zH88kMRNZ_-fD0-k7ixo4Xfn8cw1yj2L_xMnZy7lp4fqey3qaZsCXrpsMOKbIw7-KrhWfruBRA8leanqKeSe4_tBOgkjItPKuWPisynSM5ECzpZeSU6RiN8SR6JrIgxsV2q4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH2rrGajsgWqNIsk1XXiAN1obET7yeqxmCon_xdCOWgTY_HMb4IHbRcansSWKrvpZ6idBis3Tb_00bt9YWuRufROASosieXsAOs9IhJbIgMxxRfmD2ueFImjJUnt3_pX_f1rYtMAnvBirzAanQIUZ39UhQ_IKtK8N_8LisfDrgfms0UPxU3Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQVzOvbl_r8HBhQYAdjMqgjP9QUdnL4F-mTYl1enipmKqKY55cMoWX8AO5RP2hnEpCdO36WbfMbTxYYMgkuaQqt71mhleBI5b2wbXOMLfRyEkeKahZSodntZAd1R2Qo-aSvOzByw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqo7qghNxPOZ0UQ3l5HT1_NqQfZ2ZRuZkRCuqXTlmWQWUu9WeV0ne68hySsgLG7ioCkhax9rPHreONoYB2clSVkWVbzHBKuQzdBwPSmK3-H6JHUkre0xt4KX_gx5b7EmdlL2bsNykUgK5WNvJFww84PArdk3mNzs52qyBVNfz-L-0bRZYpwacWM5YVPg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAmtNQLkV66oZ8qDQM8KoJKYmSNcYy3WUvQ_w3ZNv3IiDqw0G3bRy7Q3Ie61Q-PnZHGnNfWQ02JIdcfHciabFxP7QSBbXuaqOrKqWEZEBWHlTXkbzsAW7sgwLa8jUHsHmYBpPKh2kWdh4G79d9VuENUleMmDwSrOmPUOLU0prEQL-l9bE8I_gX0qnAg2c0NPF_RYNF4lCZnHf_p8x8pg=="
+  ],
+  "tokeny": {
+   "wejscie": 14976,
+   "wyjscie": 945
+  },
+  "czas_s": 143,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "F"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 § 2 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 787² k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 i 3 k.r.o.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18.03.2011 r., III CZP 117/10",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienia SO w Łodzi VII Pz 38/16, VII Pz 39/16, VII Pz 122/15",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje alternatywność art. 787 i 787¹ k.p.c. oraz irrelewantność braku wzmianki o działalności w nakazie, lecz na pytanie o egzekucję „bez ograniczeń” niefortunnie odpowiada twierdząco na wstępie, nie wyjaśniając wprost nieistnienia takiego trybu (A-R=1). Wymagane podstawy prawne zostały powołane (A2=1), nie przytoczono dosłownych cytatów (A3=nd), a stan prawny nie budzi sporu (A5=nd). Ocena A6 wynosi 0 (hallucinated=true), ponieważ powołano jako obowiązujący art. 787 § 2 k.p.c. (uchylony w 2005 r., brak jednostki w Dz.U. 2026 poz. 468) wraz z dawną kompetencją sądu do wyłączenia zaspokojenia z majątku wspólnego. Ocena A8 wynosi 0.5 z uwagi na powtórzenie w dwóch miejscach tekstu zastrzeżenia o braku weryfikacji bazy i tekstu przepisu. W bloku B przyznano B1=1 i B2=1 za trafną i dobrze uwarunkowaną dowodowo rekomendację rozwidlenia wniosku, pomimo powołania nieobowiązującego przepisu.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"art. 787\" kpc sejm",
+   "\"art. 787 § 2\" kpc",
+   "\"art. 787 § 2\"",
+   "\"787 § 2 k.p.c.\"",
+   "\"art. 787 § 2 k.p.c.\"",
+   "\"787 § 2\" \"kodeksu postępowania cywilnego\"",
+   "\"ograniczyć lub wyłączyć zaspokojenie z majątku wspólnego\"",
+   "\"ograniczyć lub wyłączyć zaspokojenie\" kro",
+   "\"art. 787 § 2\" \"majątku wspólnego\" kpc",
+   "\"art. 787\" \"ograniczyć lub wyłączyć\" kpc uchylony",
+   "\"III CZP 117/10\"",
+   "\"VII Pz 38/16\"",
+   "\"VII Pz 122/15\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13189,
+   "wyjscie": 947
+  },
+  "czas_s": 114,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

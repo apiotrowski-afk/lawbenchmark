@@ -1,0 +1,84 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 — § 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 — § 1¹. Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: ...",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 — § 1². Jeżeli zażalenie, o którym mowa w § 1 i 1¹, jest spóźnione, nieopłacone lub z innych przyczyn niedopuszczalne albo jego braków strona nie usunęła w wyznaczonym terminie, sąd odrzuca je w składzie jednego sędziego. Na postanowienie przysługuje zażalenie do innego składu sądu drugiej instancji.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 — art. 394 § 2: Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu. (...); art. 394² § 2: W postępowaniu toczącym się na skutek zażalenia, o którym mowa w § 1–1², przepisy art. 394 § 2 i 3 oraz art. 395–397 stosuje się odpowiednio.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 — § 1. Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną oraz na postanowienie sądu drugiej lub pierwszej instancji odrzucające skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 99 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228 — Art. 99. Nie pobiera się opłaty sądowej, a uiszczoną opłatę zwraca się, jeżeli zażalenie, wniesione na zarządzenie przewodniczącego o zwrocie pisma albo na postanowienie sądu o odrzuceniu środka zaskarżenia, sąd uzna za oczywiście uzasadnione.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź od pierwszego zdania trafnie uzależnia dopuszczalność środka od rodzaju odrzuconego zażalenia i prawidłowo rozstrzyga obie ścieżki (A-R = 2, B2 = 1). Punkt A2 wynosi 0 z uwagi na brak powołania wymaganego w kluczu art. 397 § 1¹ k.p.c., natomiast w rubryce brakuje jedynie odniesienia do art. 130² k.p.c. (R4 = 0). Wszystkie powołane przepisy k.p.c. oraz u.k.s.c. zostały opisane zgodnie z ich brzmieniem na datę stanu prawnego (A6 = 1). Ocena A8 została obniżona do 0.5 z powodu dodania na końcu nieproszonego akapitu o prawie Unii Europejskiej, który wykracza poza przedmiot czysto krajowego pytania procesowego.",
+ "_meta": {
+  "sedzia": "argon4meta2",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"394\" \"W postępowaniu toczącym się na skutek zażalenia, o którym mowa w\" OR OR",
+   "\"Nie pobiera się opłaty sądowej, a uiszczoną opłatę zwraca się\" OR OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 17495,
+   "wyjscie": 1237,
+   "rozumowanie": 4905
+  },
+  "czas_s": 85,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 7, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 394² § 1 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten reguluje zażalenie poziome do innego składu sądu apelacyjnego.”\n    · uzasadnienie weryfikatora: Przepis wprost przewiduje zażalenie do innego składu sądu drugiej instancji.\n    · kotwica (verbatim ze źródła): „§ 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji.”\n    · brzmienie jednostki (fragment): „§ 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji.”\n- 2. art. 394² § 1¹ k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten reguluje zażalenie poziome do innego składu sądu apelacyjnego.”\n    · uzasadnienie weryfikatora: Przepis wprost reguluje przypadki zażalenia do innego składu sądu drugiej instancji.\n    · kotwica (verbatim ze źródła): „§ 1¹. Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest:”\n    · brzmienie jednostki (fragment): „§ 1¹. Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o ile nie wniesiono skargi kasacyjnej, 4) zwrot kosztów nieopłaconej pomocy prawnej udzielonej z urzędu, 4¹) wynagrodzenie biegłego, mediatora i należności świadka, 5) skazanie świadka, biegłego, strony, jej pełnomocnika oraz osoby trzeciej na grzywnę, 5¹…”\n- 3. art. 394² § 1² k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „Z przepisu tego wynika wprost, że w razie odrzucenia przez sąd apelacyjny zażalenia poziomego z powodu braku opłaty przysługuje dalsze zażalenie do innego składu sądu apelacyjnego.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że na postanowienie o odrzuceniu nieopłaconego zażalenia z § 1 i 1[1] przysługuje zażalenie do innego składu sądu drugiej instancji.\n    · kotwica (verbatim ze źródła): „§ 1². Jeżeli zażalenie, o którym mowa w § 1 i 1¹, jest spóźnione, nieopłacone lub z innych przyczyn niedopuszczalne albo jego braków strona nie usunęła w wyznaczonym terminie, sąd odrzuca je w składzie jednego sędziego. Na postanowienie przysługuje zażalenie…”\n    · brzmienie jednostki (fragment): „§ 1². Jeżeli zażalenie, o którym mowa w § 1 i 1¹, jest spóźnione, nieopłacone lub z innych przyczyn niedopuszczalne albo jego braków strona nie usunęła w wyznaczonym terminie, sąd odrzuca je w składzie jednego sędziego. Na postanowienie przysługuje zażalenie do innego składu sądu drugiej instancji.”\n- 4. art. 394 § 2 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Z przepisów tych wynika, że termin na wniesienie zażalenia wynosi tydzień od doręczenia postanowienia z uzasadnieniem.”\n    · uzasadnienie weryfikatora: Powołane łącznie przepisy przewidują tygodniowy termin od doręczenia postanowienia z uzasadnieniem, przy czym odpowiedź pomija wyjątek dotyczący odstąpienia od uzasadnienia.\n    · kotwica (verbatim ze źródła): „§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu.”\n    · brzmienie jednostki (fragment): „§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu. Jeżeli przy wydaniu postanowienia sąd odstąpił od jego uzasadnienia, termin liczy się od dnia ogłoszenia postanowienia, a jeżeli podlegało ono doręczeniu – od dnia jego doręczenia.”\n- 5. art. 394² § 2 k.p.c. [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 4; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n- 6. art. 394¹ § 1 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten przewiduje zamknięty katalog ściśle wskazanych przypadków zażalenia do Sądu Najwyższego (m.in. odrzucenie skargi kasacyjnej) i nie wymienia w nim odrzucenia zwykłego zażalenia.”\n    · uzasadnienie weryfikatora: Przepis wymienia wyłącznie postanowienia odrzucające skargę kasacyjną oraz skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia, nie przewidując zażalenia na odrzucenie zwykłego zażalenia.\n    · kotwica (verbatim ze źródła): „§ 1. Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną oraz na postanowienie sądu drugiej lub pierwszej instancji odrzucające skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia.”\n    · brzmienie jednostki (fragment): „§ 1. Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną oraz na postanowienie sądu drugiej lub pierwszej instancji odrzucające skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia.”\n- 7. art. 99 u.k.s.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten stanowi, że opłaty nie pobiera się, a pobraną zwraca, gdy zażalenie na odrzucenie środka zaskarżenia zostanie uznane za oczywiście uzasadnione.”\n    · uzasadnienie weryfikatora: Brzmienie przepisu wprost odpowiada treści przypisanej mu w odpowiedzi.\n    · kotwica (verbatim ze źródła): „Art. 99. Nie pobiera się opłaty sądowej, a uiszczoną opłatę zwraca się, jeżeli zażalenie, wniesione na zarządzenie przewodniczącego o zwrocie pisma albo na postanowienie sądu o odrzuceniu środka zaskarżenia, sąd uzna za oczywiście uzasadnione.”\n    · brzmienie jednostki (fragment): „Art. 99. Nie pobiera się opłaty sądowej, a uiszczoną opłatę zwraca się, jeżeli zażalenie, wniesione na zarządzenie przewodniczącego o zwrocie pisma albo na postanowienie sądu o odrzuceniu środka zaskarżenia, sąd uzna za oczywiście uzasadnione.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

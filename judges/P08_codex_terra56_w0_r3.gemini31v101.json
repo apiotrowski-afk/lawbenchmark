@@ -1,0 +1,80 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wyjaśnia definicję deepfake z art. 3 pkt 60 AI Act i brak obowiązku z art. 50 ust. 4, ale pomija kluczowy obowiązek dostawcy z art. 50 ust. 2 (A-R = 1, A2 = 0). Brak tego warunku skutkuje również obniżeniem kalibracji (B2 = 0). Wszystkie powołane przepisy zostały sparafrazowane i zastosowane poprawnie (A6 = 1). Brak cytatów w cudzysłowie (A3 = nd).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 3 pkt 60\" \"2024/1689\"",
+   "\"art. 50 ust. 4\" \"2024/1689\"",
+   "\"art. 50 ust. 1\" \"2024/1689\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdSrR-d7wHNKbZntK82KUlzf0bgxXZNxnV5leNW1vG39WJIsbw0s6OvaKm4XEP294kdZwxJH9QcpPtg3xPTQ-_YtBKpBpeuk-e6rEXTUoEOQqQrb2j4ATdnK-E936tUlswg9pt8MGHI2rXjZnxOcR60i0EFMv0fyJKoFsqwtXmxWaPsXo7",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiU9IrNAhih8BmN5oIEYkYevSUCBfzrFMzY9F-KRVKA_6a0f0EISNHsiafO_BOJ1jPIty3jg29Wli0f8F74h0UFkDXL3t5-ltT8dXC1vQ51rpBfnqpsRog_1oM",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8xuLcSM-wkwOCINAsJ8Vlz8CDaYGXIjnvdR4ikLTG9-4AFCDStwjF_lKVEKnZfBjMbr3luS8-KJv9c9udDOz-GII8MaCE2F2ChKV8E6uOBcyQxV_2DjccCNTYCCEXoTeDTG3I6M0D688e9hJQCbykkJjoarGdsvFLIpP3d2M-bUZGOo_ZoDkaCTbDfYChKQmgH3xjBtnqvaXxMWLtGdRRSweQhbEg9FzfNLUNN4KfB2t_fA0o8Pwi",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRelfejV2mIb_oRfLSFq1OyHWp5Z6qq1bmGWsJuiBkZVyNVH4L-viPsk_h-3dQ9lWrbNiAjbsQAqZkxJzXoYwyStdSMn1rpT1805FeRtgOFk7qYUDMBJeiH1Fp2YyNXMkWnkwcSUtYU_nDSy3EMuRf0qfpBboTI2a4t8H7-EH6gUJeP3qtUmSKxyjODzZobkKkU8ETL2QVuDislYKCL1tZ7wE3sYdjt9TOaEYiDLj9ueFi",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuhuwXm4iBMCepzjEokTAKu082Lz_8q2lnirOUFvVCT4uawoPQ5m4YM1lJjh-fy87WuAzY1a1fZbGewrpwTJ9Hi-jayHNLgcnPDWsUkIEjUzockE8n-s_2q50zY1OHuoNgd6hr-89YMbLjQBvKObpp8qfDoTrUZ5QsQRyU9faGK5g=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG90FVWLv3llbkATgG3Ih_dZKOqxO-K0hNs8a2C8FLi4CyRITTQx9RtBj5jM-1M-yyNoU9OAFe6dSmQhsZzgKk8AD99SAdSv3_faD_swu7udFN7RRVGifVHMkc6aqWhXlKwlpc08df8gpLl0rxDCil3CKB683MZA4-kaNoRI58zYgc2NZxypuRXD2KGVE9iuuBFXecovNhyJKH4BHh2bHwXmioAiDzsR6ZGVbJ0p3N-4AfuIwezaMqasoiDI4FoVHG-Pq5V",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErDHznFfUiW9IlJEPRgmFCa1onBaTBy-bhi-x3gFnbINcCYqjBJ_oDoIVsCI0sIoegWm42I25lREoQB1Or0BpmBAiGnrue9NPX0uO14Y4ZoZios2lKfwauzS2JD9ZNKg3FJMhIOjIuz9FklnMSgrSN6B-OHTnvUSicL3g=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZVqDdO9X9zgks9G3AWK_44WNvv5MyV2HIq0NZKz037SG04DYBojfzrCwghU2Gdzy5wWRam2eKL9uD4CwV7TN4cn4e5QdL_jB-SN-9WOEFjnO3mzKW1X0yMiOUrw26JHx2LkahaNFe4XQ7-s6UOVHKkOXi",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN-Xbd8Xp0oa5tFozl_DaRSGYgPINTNpjOibFpBOqrMozmC9jocrCvZWDHovWieM718OlE1bHsa5t6vWlRzhNDZRl630_k9nG9qThYL2DGe5Xrv065GoB2EjvSoIh97y5-JlhPVIUf8MB433xxaVISnF7S4Mly2LFezy2NOmSJVVT4NUELYksLZacTLwMbS0y8ViAgnKQWM6ETaDI5RzjTfd60b2UP",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0RGsNRT8XSQ7xa6y-4ouDHhexWwvFvDIuogFNFBcKZLrrPulIw194YrMmlyLIngDHs6SjUyOw5k_6cTq8ppiVIAd8El24PsmtxulfikQqnd4FK1F22_X3IZhET9rnkGdr7Q3SjaCKM0Kf4O_TDnHkg2Jh0LLhWMk-iBgXBKhFsNA262pNZVywPjlGTYfH84fO8HMwL4laaaEG1ZPmfLsaDC52EuKYkhqxJ9F2oa8kjZaD"
+  ],
+  "tokeny": {
+   "wejscie": 14824,
+   "wyjscie": 543
+  },
+  "czas_s": 94,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

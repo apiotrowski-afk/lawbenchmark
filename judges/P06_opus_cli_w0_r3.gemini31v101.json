@@ -1,0 +1,139 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130² § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 397 § 1 i 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 ust. 4 w zw. z ust. 3 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130² § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 94–96 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 ust. 1 i 4 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 398² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–169 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafia w jedną gałąź (zażalenie poziome), ale nie dostrzega, że zaskarżalność zależy od rodzaju odrzuconego zażalenia (A-R=1, B2=0, kara K2). Odpowiedź zawiera liczne halucynacje: przypisuje art. 394² § 1¹ k.p.c. treść § 1², powołuje uchylone w 2019 r. przepisy art. 130² § 3 i 4 oraz art. 394¹ § 2 k.p.c. jako obowiązujące (A6=0, typ T i W). Błędnie wskazuje art. 19 ust. 4 u.k.s.c. jako podstawę opłaty od zażalenia oraz art. 102 ust. 4 u.k.s.c. w kontekście nierozpoznanego wniosku (typ T). Wskazówka praktyczna o dopłacie opłaty na podstawie uchylonego art. 130² § 4 k.p.c. jest rażącym błędem, który może skutkować uchybieniem terminu (B1=0).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "\"Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienie tego sądu o odrzuceniu zażalenia\" \"394\" k.p.c.",
+   "\"art. 394\" \"§ 1\" \"k.p.c.\" \"odrzuceniu zażalenia\"",
+   "\"Art. 394\" \"§ 1\" \"Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienie tego sądu o odrzuceniu zażalenia\" k.p.c.",
+   "\"Art. 394\" \"§ 1\" \"Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie sądu drugiej instancji o odrzuceniu zażalenia\" k.p.c.",
+   "\"Art. 394(2)\" k.p.c.",
+   "\"Art. 394\" \"Zażalenie do innego składu sądu drugiej instancji przysługuje\" k.p.c.",
+   "\"Art. 130(2)\" \"§ 4\" k.p.c.",
+   "\"Art. 130\" \"§ 4\" k.p.c. \"środek zaskarżenia wywołuje skutek od dnia wniesienia\"",
+   "\"Art. 394(1)\" \"§ 2\" k.p.c.",
+   "\"Art. 394(1)\" k.p.c.",
+   "\"Art. 357\" k.p.c.",
+   "\"Art. 357\" \"§ 2(1)\" k.p.c.",
+   "\"Art. 19\" \"ust. 4\" u.k.s.c.",
+   "\"Art. 19\" \"ust. 3\" u.k.s.c.",
+   "\"Art. 102\" \"ust. 4\" u.k.s.c.",
+   "\"Art. 102\" u.k.s.c.",
+   "\"Art. 112\" u.k.s.c.",
+   "\"Art. 112\" \"ust. 3\" u.k.s.c."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDULnK3RP6h-At0xZIY_7o0eE9IK1F8COOmFfLGTMoT0zCczK1xcuL6fNetQryegMFN1AinP70czmER28zP2dq7ph10ygh3U8M1iGGurs8-_Taa8IDTJmpWgxGX5uOAXMFCtqAEssE3EVrltmvoO073GBJgwRdjrUN0_al-RK6ag5Vn08f9HXmCxcccxyerJe-xqB-AZ3WW75eH7hr9Qpra-4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX8CkZVpoS8lOxv5vKrX5N_rDBmrC4nOkm-T40Cxe0Ky5i0aP-Yu4AMUTaE3-lutZRvl2lTzcr4iK9owSbf-yiD07jPZMYVTqJAJDBCTzpWjDQitOxkKAljmduVA8aDZv9kEN3CDYfIJhwrixJDB_5XiwAWLJN2gEyjZWarBd5jXBbhSIiQSaoT0IIR4J0Tt33PkWy7E7RC3e8BQKKJc1aiDI5WrXfiWtYmkL5cQulQeNkEjz1CREtpzmlR4uZ6lrKZqKDV7NEWb-eOZpm1qrURIDrPggj3eUcpP8hC7rYyFsThfwyZz9ODyuLc0fg-1CwmiOyxg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSxg68DlGtDat9R2Nb88LSB2uE2aYvLfc_s0-WZWPS7moCpRs3LpjrFrnkMrOoZ9B1f7XA-zV1tg1GG60-jUddCNltUlGeXJjKCNM4KM3kycZCSkm7YCGl2dS1Xm9umA2MRCGKitDpT5ufwSnaR8lrVpQpCJ8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF19S1-zVN89rm54xpdegMiAcbqyEVM1G0RZ_vaKoP4Vz3YTMuHYnnLz_TzyTi9L03U9wHqeBQIMOyoD0ZGwTgKEWlfTq283k0uMHOssV6_P6G7Jx0aHq7SEE1X7JlkcaZb2rhg_L3K-uDm_q45DaGuz_Rr-Cw_9ecRMuO3QWKw69Dr0mfdyHcBBw7UG6BVGWWEtvWqbpLQkTDaj6GUCiq-e1PUNw_CXl_4g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVupzW60OPOjoEjI9GxryAXIJyOo6UHGw-P1rzG0TrwhSsINkAutc9omEA3v5AJVv8ERNihvAkybKBt2VZvP5dLD9g3M1cybyhGqkFZNey9c_3gc_HxWFMRo7BvFRBich0KNP5VoakltDWnPMnUMemQk8E0a_---zkzikvO8xFTDEParZPnElAQQpv9ilIk7Zrv45Sq9lHAqeHytGtKAe-",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3IHIuh1pctYFVDEMKLHJZHq9QuFatyVUUcWFB00CnQV7spZulJzbL-DbcwyIX2zlDY8j4vAV7AfFgsk0md28ISakPTMPwN-bElAxV_GuDpUL9rzEFHTU15PF39P8FbSYjdaDrXO7xxAU_RwpFx_LktZWGh-kcXozuFGV5kXm49qtxM6qwOVE1Qw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9dkJai9r9FS-rv1k2Kn4aH2y_ycgiPCqeNEL0U7ED4Vv7zhcUcI2PPDP_5oadFUV07Rq3z6RS2ePEi0GbTRybXF-grb4aXu1764a7I8PssMHlIv8Iea4CH88SeqGXGPxp3B72JSWWZy_ZNUx8KtxnpKIxAIvyXcW3fcwsE4XjjuSuosRi5Z-ov-SwBIs0bBUej9KNYVCqZm7KdFLGqhJRS1rx11YCNDXoGV7Cya-zJ1-nl6kc6oIWA8dWZf2IrivC29xhdfL00V2bsfxw7ioDBCVPbHoAgNgcquHAZnzc08geMIYRnwDzONbindfZDCxqyDJJl1PMuNnJApcrKT6T13_5KrlrDlAuD5N2xaX-_BAZmkwxNisOjZzj9-DuGbi2EcvaotpY3ANaPUubIqKijwdiOInqAtifXuCVkpJGvCGuRxoailps7w1O",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6aM1jO6Vl2KXQjWwVLVc1KwQmKqxwVfDeonYUsD2K2c1oa_BXO29S6o9NxJ6I-nbITIlGKQbeGK6ypzfWvjAzdw2CPJuECEfHNci0FUGvcr60Wk3gxe3XEz4PzWasC72LnexIbWY7Lzi1EhsV6EQZR-Stv5B0UFtZTm-Ypw7J328pLh9R"
+  ],
+  "tokeny": {
+   "wejscie": 10538,
+   "wyjscie": 1281
+  },
+  "czas_s": 259,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

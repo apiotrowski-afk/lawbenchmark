@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "Art. 65 PrAut — wszystkie odwołania dotyczące wykładni i celu umowy",
+   "pochodzenie": "pamięć"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 PrAut — wyraźne wskazanie pól eksploatacji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 PrAut — forma pisemna pod rygorem nieważności",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 65 PrAut — wykładnia zakresu przeniesienia na korzyść twórcy i według celu umowy, również w kolejnych odwołaniach",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=28",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 50 PrAut — przykładowe pola eksploatacji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 12 PrAut — utwory pracownicze, brak zastosowania do zlecenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=7",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 2 ust. 2 PrAut — zezwolenie dotyczące korzystania i rozporządzania opracowaniem",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 PrAut — niezbywalność praw osobistych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf#page=7",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia warunkowy rdzeń: ogólna klauzula zasadniczo nie wystarcza, ale znaczenie mają treść i cel umowy. Ogólne powołanie art. 41 wraz z poprawnym opisem jego ust. 2 zaliczam jako wymaganą podstawę. Art. 65 PrAut przewiduje domniemanie udzielenia licencji przy braku wyraźnego postanowienia o przeniesieniu prawa, a nie przypisane mu reguły wykładni, co daje T i A6=0. Brakuje wskazania liberalnej linii SN z właściwą podstawą w art. 65 k.c.; błędne wskazówki ograniczają B1 do 1. Rozbudowane uwagi o pozostałych postanowieniach umowy i statusie wykonawcy wykraczają poza pytanie, dlatego A8=0.5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 32,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

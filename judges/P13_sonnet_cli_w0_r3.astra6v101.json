@@ -1,0 +1,65 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 493 § 4 k.p.c. — oba powołania",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 820 i n. w zw. z art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=191",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 730 i n. k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=160",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=160",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: wstrzymanie wykonania nakazu z weksla nie odbiera mu funkcji tytułu zabezpieczenia, a przypisana art. 492 § 1 wyłączność zabezpieczenia przeczy § 3. Art. 493 § 4 reguluje rozstrzygnięcia po wniesieniu zarzutów, nie wstrzymanie wykonania; również art. 820 rozszerzono błędnie na zabezpieczenie w opisanej sytuacji (pochodzenie błędów: pamięć, zgodnie z deklaracją systemu). Brakuje wymaganej podstawy art. 492 § 3 i wszystkich elementów rubryki, a wskazówki praktyczne prowadzą do niewłaściwego działania. A8 obniża dygresja o odrębnym wniosku na zasadach ogólnych; nie naliczam drugiej kary, ponieważ nie stwierdzono konieczności uzyskania osobnego postanowienia. B2 wynosi 1, ponieważ odpowiedź stawia jednoznaczną tezę, choć błędną.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 65,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

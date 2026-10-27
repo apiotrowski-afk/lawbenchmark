@@ -1,0 +1,172 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. z 2025 r. poz. 24 ze zm.) – art. 41 ust. 2",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 PrAut",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 58 § 1 i 3 k.c.",
+   "zrodlo": "ELI Dz.U. 2024 poz. 1061 / Dz.U. 2026 poz. 795 (Kodeks cywilny)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 PrAut oraz art. 50 pkt 3 in fine PrAut (z cytatem)",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 3 ust. 1 i 2 Dyrektywy 2001/29/WE (InfoSoc)",
+   "zrodlo": "EUR-Lex Dz.U. UE L 167 z 22.6.2001, s. 10",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 PrAut",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "ELI Dz.U. 2024 poz. 1061 / Dz.U. 2026 poz. 795 (Kodeks cywilny)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14 września 2005 r., sygn. III CK 124/05",
+   "zrodlo": "SAOS / sn.pl (III CK 124/05)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SA w Warszawie z 17 października 2012 r., sygn. I ACa 1244/11",
+   "zrodlo": "SAOS / Portal Orzeczeń Sądów Powszechnych (I ACa 1244/11)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SA w Łodzi z 27 lutego 2013 r., sygn. I ACa 1188/12",
+   "zrodlo": "SAOS / Portal Orzeczeń SA w Łodzi: wyrok SA w Łodzi z 27.02.2013 r. o tej tezie nosi sygn. I ACa 1157/12, natomiast sygn. I ACa 1188/12 w SA w Łodzi to wyrok z 16.10.2013 r. dotyczący umowy ubezpieczenia (art. 805 k.c.)",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "art. 6 k.c.",
+   "zrodlo": "ELI Dz.U. 2024 poz. 1061 / Dz.U. 2026 poz. 795 (Kodeks cywilny)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dyrektywa Parlamentu Europejskiego i Rady (UE) 2019/790 (DSM) – art. 18–20 oraz nowelizacja PrAut z 20 września 2024 r.",
+   "zrodlo": "EUR-Lex Dz.U. UE L 130 z 17.5.2019, s. 92; Dz.U. 2024 poz. 1254",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 PrAut",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 2 i art. 44 ust. 1 PrAut",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 47¹ ust. 1 PrAut",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf): przepis stanowi o informacji przekazywanej „odrębnie dla każdego ze sposobów korzystania”, a nie – jak twierdzi system w ślad za pierwotnym projektem ustawy – „odrębnie dla każdego pola eksploatacji”",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 47¹ ust. 4 PrAut",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 i art. 46 PrAut",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 PrAut",
+   "zrodlo": "ELI Dz.U. 2025 poz. 24 (D20250024.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 734 k.c.",
+   "zrodlo": "ELI Dz.U. 2024 poz. 1061 / Dz.U. 2026 poz. 795 (Kodeks cywilny)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ § 1 k.c.",
+   "zrodlo": "ELI Dz.U. 2024 poz. 1061 / Dz.U. 2026 poz. 795 (Kodeks cywilny)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wprost w pierwszym zdaniu zaprzecza błędnej przesłance pytania, prawidłowo wyjaśniając wymóg wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 PrAut), formę pisemną pod rygorem nieważności (art. 53 PrAut) oraz ratunkowy charakter wykładni umowy z art. 65 k.c. (A-R = 2, A2 = 1, R = [1,1,1,1,1], B2 = 1). Dosłowny cytat z art. 50 pkt 3 in fine PrAut jest zgodny z tekstem jednolitym Dz.U. 2025 poz. 24 (A3 = 1). Punkt A6 wynosi 0 (hallucinated = true) z uwagi na zniekształcenie sygnatury wyroku SA w Łodzi z 27 lutego 2013 r. (powołano I ACa 1188/12, podczas gdy wyrok ten nosi sygn. I ACa 1157/12, a sprawa I ACa 1188/12 dotyczyła odszkodowania ubezpieczeniowego z art. 805 k.c. – klasa S) oraz przypisanie art. 47¹ ust. 1 PrAut wymogu raportowania przychodów „odrębnie dla każdego pola eksploatacji” pochodzącego z projektu ustawy zamiast uchwalonego „odrębnie dla każdego ze sposobów korzystania” (klasa T). Kryterium A8 obniżono do 0.5 ze względu na nieproszony wzór wielozdaniowej klauzuli umownej w pkt 5 oraz poboczny wywód o art. 47¹ ust. 1 PrAut zawierający błąd. Praktyczna przydatność odpowiedzi dla prawnika jest wysoka i błędy poboczne nie zmieniają rekomendowanego działania (B1 = 2).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 40,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 24\" \"art. 41\" \"art. 50\" OR",
+   "\"art. 47\" \"Dz.U. 2025 poz. 24\" prawo autorskie OR",
+   "\"III CK 124/05\" OR",
+   "\"I ACa 1244/11\" \"17 października 2012\" OR",
+   "\"DU/2025/24\" OR \"WDU20250000024\" OR",
+   "\"Art. 47\" \"przychodach z korzystania z utworu\" \"każdego pola eksploatacji\" prawo autorskie",
+   "\"Art. 43.\" \"Art. 44.\" \"Art. 45.\" \"Art. 46.\" \"Art. 50.\" \"publiczne udostępnianie utworu\" prawo autorskie",
+   "\"I ACa 1188/12\" \"27 lutego 2013\" OR",
+   "\"471\" \"odrębnie dla każdego pola eksploatacji\" prawo autorskie",
+   "\"I ACa 1188/12\" \"Łodzi\" OR \"27 lutego 2013\"",
+   "\"Art. 41.\" \"Art. 50.\" \"Art. 53.\" \"D20250024\" OR \"DU/2025/24\" OR",
+   "\"Art. 16.\" \"Art. 2.\" \"ustawy z dnia 4 lutego 1994 r. o prawie autorskim\" OR OR",
+   "\"I ACa 1188/12\"",
+   "\"27 lutego 2013\" \"Sąd Apelacyjny w Łodzi\" \"I ACa\"",
+   "\"27 lutego 2013\" \"pola eksploatacji\" OR \"pól eksploatacji\" OR \"art. 50\" \"Sąd Apelacyjny\"",
+   "\"D20250024.pdf\" \"Art. 43.\" \"Art. 47\" OR",
+   "\"darowizna dotyczy praw autorskich i licencji wszystkich pól eksploatacji\"",
+   "\"D20250024.pdf\" \"Art. 471.\" OR",
+   "\"D20250024.pdf\" \"Art. 16.\" \"Art. 2.\" OR",
+   "\"D20250024.pdf\" \"Art. 50.\" \"Art. 53.\" OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 17152,
+   "wyjscie": 3864
+  },
+  "czas_s": 326,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

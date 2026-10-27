@@ -1,0 +1,97 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie rozpoznał problem i udzielił wysoce przydatnej, warunkowej odpowiedzi (A-R=2, B1=2, B2=1). Niestety, przypisał zasady wykładni oświadczeń woli (art. 65 k.c.) oraz regułę in favorem auctoris nieistniejącemu w tym brzmieniu art. 65 pr.aut., który w rzeczywistości dotyczy domniemania licencji. Stanowi to halucynację typu T (A6=0). Z tego samego powodu system nie otrzymał punktu za ostatni element rubryki, gdyż nie wskazał właściwej podstawy (art. 65 k.c.) ani orzecznictwa SN.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"Art. 65\" \"ustawa o prawie autorskim i prawach pokrewnych\"",
+   "\"Art. 65\" prawo autorskie lex",
+   "\"Art. 2 ust. 2\" \"ustawa o prawie autorskim i prawach pokrewnych\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE07YwxHsIwot56tJ3SCjtstD_N99bXPPj475yi1X7j8CUQitqwRSoG9IhCDL_bRsYwQlnqBe9Fjtp9dx_raEvTMN398UUJ7YquP7I520Z-YYUB_cPTa30wMOlPzRJWVBNsDysp-68QSPyr7dmGFy8R4qMzxu_cG_Orlqafw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSQcVY0taI40No25SJk5ktN6bxhUPBEWodyQQXSBIsZK7LgoME6wzxPo2iVaaYr_QfN5IrRAZD2kliVZ6qyn3uu82LM5eQSsqGHNaRHR60c_ZaL1TjYJOBw7LpxsQIkZnOQBbmkCGZBCH3EEglQdgKTWkPSLNZ9VDryXgK7DpSh2HtiMmLYP-QIhehxif3al3VwU-DGohh47Vofn2K",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUovo3rsZYSczGYkML5KTuFEIrXVprM1-k64F-1lp7KQiVNQdySnrx8z_kxPvfNmE4_-2_GrybiwaEgJqGXK3VRqhW-GFbRHy8MHjI8PuRER_o9mDHvt3k9V7j_G3T64c1lAlDIvchNFvKc4jytB7ch9ebWhjESGlhrBBF5xQcHuz_K63B4iUL2hnvuHPc",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvsTEXEArF_oJcc71Zvuk-EMOjFj9kW4aPiIu7VYBVv02NUlbZ8MSz59AinzO4ZA026rbGgnmq5PUHVa4X36IFHh1QdTwHxsJZLW7J7sD4POoORb1s0vyxfrxRPEClM6bF6Mm9AzLSy2H7Hw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_rQC3-DVFA4qE57_oKOspM7NEdWlnpgEfy8scm2qwRwKvK1vIm-cum_lDFZTuMp5j9F9C12_8Bwkun53dY-0mLgL6IRGxgS5pcM1DGq9sktVnL6CxiMZ8pK1yuQmguRJh1-fT",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYBAMYEr-123vhBO-GzganZhnFEQpoKfHVDBhKJpempeaFxaFg1dRu0g4Go9S9tmoU-mFuthooBln6-Mdz_2jLDt9B7_uVbax7d6Yw5eiKm-DPRf6PQ0KvG8o8WFHEkrwSH4BONfnDo0ABZTVKozwiZQT11P1XG5gaUJvfM5K4RS5x7m75sSxcmb7AHFwqio3JDcOTn6-ijHTJR31zo4Y1nu2ytHAt974=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA-UfJreNzAWaZsewaD3lo6KM1hOiG6QdOWh073Ale8lL--18VgF6oURawBX7nMFHmsID_YCsS-JNbZJL3u161E_2y7X9_F3xeF-9iE9z4UEOPSn8_8sXFh4e3QFju_QxxEHkJ4zs="
+  ],
+  "tokeny": {
+   "wejscie": 14891,
+   "wyjscie": 744
+  },
+  "czas_s": 130,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

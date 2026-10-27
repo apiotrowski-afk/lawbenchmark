@@ -1,0 +1,100 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SA w Rzeszowie z 21 czerwca 2013 r., I ACz 390/13",
+   "zrodlo": "Portal Orzeczeń SA w Rzeszowie / SAOS (sygn. I ACz 390/13)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie rozstrzyga problem w pierwszym zdaniu, prawidłowo rozdzielając funkcję nakazu zapłaty jako tytułu zabezpieczenia (art. 492 § 1 k.p.c.) od jego natychmiastowej wykonalności z weksla (art. 492 § 3 k.p.c.). Wszystkie powołane przepisy oraz postanowienie SA w Rzeszowie z 21 czerwca 2013 r. (I ACz 390/13) zostały zweryfikowane w źródłach oficjalnych i są w pełni zgodne ze stanem prawnym oraz treścią uzasadnienia sądu. W rubryce odjęto wyłącznie punkt czwarty za brak wzmianki o skutku wstrzymania w postaci zawieszenia egzekucji na podstawie art. 820 § 2 k.p.c. Wskazówki praktyczne dla obu stron są precyzyjne i bezbłędne, co uzasadnia maksymalną ocenę w bloku B.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 21,
+  "zapytania": [
+   "\"I ACz 390/13\" saos",
+   "\"14498\"",
+   "\"art. 492\" \"Dz.U. 2026 poz. 468\" OR OR",
+   "\"art. 742\" kodeks postępowania cywilnego OR",
+   "\"I ACz 390/13\"",
+   "\"saos.org.pl/judgments/14498\"",
+   "\"I ACz\" \"21 czerwca 2013\" \"Rzeszowie\"",
+   "\"wstrzymanie wykonania nakazu\" \"nie pozbawia go cech tytułu zabezpieczającego\"",
+   "\"I ACz 390/13\" \"J. J. i G. J.\"",
+   "\"I ACz 390/13\" \"492\" \"Rzeszowie\"",
+   "\"I ACz 390/13\" \"UZASADNIENIE\"",
+   "\"Treść orzeczenia I ACz 390/13\"",
+   "\"I Nc 19/13\" \"I ACz 390/13\"",
+   "\"I ACz 390/13\" \"tytułu zabezpieczającego\" OR \"zabezpieczenia\"",
+   "\"I ACz 390/13\" \"wstrzymanie\" \"492\"",
+   "\"Treść orzeczenia I ACz 390/13\" \"Sąd Apelacyjny zważył\"",
+   "\"Treść orzeczenia I ACz 390/13\" \"tytułu zabezpieczającego\" OR \"tytułu zabezpieczenia\"",
+   "\"I ACz 390/13\" \"Zawistowski\"",
+   "\"Art. 492\" \"tytuł zabezpieczenia\"",
+   "\"Art. 742\" \"Obowiązany może w każdym czasie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmq3wX804tCpl7kypSTqJyeN4HNheyClZJZ9g1nVrehpo8z_tIDR4akqjLPT1pscD9GfOM3jfDm-Matkip3R9lZujA3WqoW2z6G58KxunqZuEglTj3THYZGQ5P-mRgtmaPmh6ycBlcJ6BOt-dNr2z0Dltlpxf9-1rpajvHobWomzB-lG1v-26OsE3rdhKCGnvuvuRfNptpLAFhPg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKEPAX4owjDDych0eLkdC0TJzSKxciq_kdSHR3oM8-1Jlz8A4bPh4GwpQ4ojsH3gVjHGr5gfml3lfHy7J0u7OZTNxY0WjaD80Tcx_ZHNmylDhBQzVWrLP3Hs8DEXVcml5L2-MOrexrW7ifjRRggJnKQtW1jw9rahJMRLdo5bQGPUDjszZLvKVasEzaFL-PMbLh2fLTz85HCDau",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOCJvZewvbCqO9HGCfg6Tp52_5smX8S6ufHuL3El7a0w6n5Jntz5A83zFYLko7DFB3KbhHih_faFC1gxdii_FE50hhL3t_A6R0wDcT2dn94yWHeA5CWyHFciXgzmMAw0FG5rr8HGJdprRvjqesaOuhwflO2AoO2SD4gzOvWn0YZSNG_nV2Nf7DcIEoO8kr74whRHJxegSD6OUe6Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5CxLqHmVzqSpFvzZluXAkLTbRsh6K2bNPyRhf9NnxqevYDmSg1cCUAMYwPMLK1n5S7YaK88f756HjSIYZaiFFnvW4u-fvJY2yH95O4-GCwpmc3nUHMQQ9OQZrEtJ70_RmC4cNg7QALl1qTi8Yr6LzU0bB145y7wfXlcNgdGJap571hByosEpgWyyx_AfvL6aXB5zI2OX9JsMzfV7q",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3ekrb_l5Xipy_88RNGQGJGo45ZtHUWOgSn_AAr3ZUqTcH_uViA6f9rLkmxbRO1CsJGtcaAqflYjbEX7L0e6qf2Rb1h6Aw3ocwpPJrlmwvwNQERTtMiSrBhtfs5vi7J95FrHKo7PXPWOeffNqvsRyMbS4i0cV1UYWVcXRwe3a1tbnfQ2HVVYQTGg0EjIc5EvB6mAC_mOdE3TN0wdaIgQ=="
+  ],
+  "tokeny": {
+   "wejscie": 11695,
+   "wyjscie": 1507
+  },
+  "czas_s": 151,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 491 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 777 § 1 pkt 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2.03.2016, VIII Gz 43/16",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Poznaniu z 31.05.2016, XV Ca 397/16",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 25.01.2019, IV CSK 551/17",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna, wyczerpująca i precyzyjna. Rdzeń odpowiedzi znajduje się w pierwszym akapicie. System prawidłowo rozróżnia funkcję nakazu jako tytułu zabezpieczenia i tytułu egzekucyjnego, powołując właściwe przepisy i orzecznictwo. Wszystkie cytaty i powołania są zgodne ze źródłami oficjalnymi. Odpowiedź zawiera bardzo przydatne wskazówki praktyczne dla obu stron postępowania.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"Możliwość wstrzymania wykonania nakazu zapłaty nie dotyczy nakazu zapłaty jako tytułu zabezpieczającego\"",
+   "\"Decyzja procesowa sądu o wstrzymaniu wykonania nakazu zapłaty ingeruje jedynie w jego rygor wykonalności\"",
+   "\"IV CSK 551/17\"",
+   "\"XV Ca 397/16\"",
+   "\"IV CSK 551/17\" \"742\"",
+   "\"IV CSK 551/17\" \"uchylenie nakazu zapłaty jako tytułu zabezpieczenia\"",
+   "\"IV CSK 551/17\" \"całkowite uchylenie\"",
+   "\"Za taką oceną przemawia głównie fakt, że tytuł zabezpieczający nie podlega wykonaniu w sposób porównywalny z wykonaniem tytułu wykonawczego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFixyN1ld7ao4HdlvmkDgnAGiIfxuCZWHNrhDdwW8Zj2shJyHLiqdYQbrzBTzVs95bQ4qXjQzm2ftnmIuidNL5aSI2cxE5Dqk_lbTfDUJhLCIHi5JyvkmOjAlynHsTYhGRMMmbUZTc7osqILS2Y5sFEdsMCQqMGHFpsm2JngHEsDUHpoUulznO2WivDmwSahwdwWSqLeA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAB4SkMjRI8XThK1EcGXghupPOXsNs3F6F7tOtY21IbuBheKA4ScOAXkBJSqMWrPdf9QYe_i7riakKxUVMPrMQBvEa7NQTtGnCVZXfnifOF1mzDdDg5oiWH2zYNSg8IJMAPBss0McvfXmh97NbtVXVMd7-UZAwlGz67vHcdLHzjU363h_IDq5Nd2F4L1R0m7zAfA=="
+  ],
+  "tokeny": {
+   "wejscie": 13968,
+   "wyjscie": 1160
+  },
+  "czas_s": 193,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

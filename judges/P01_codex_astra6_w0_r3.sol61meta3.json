@@ -1,0 +1,89 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf — art. 119 § 1 określa wartość rzeczy nieprzekraczającą 800 złotych przy kradzieży i przywłaszczeniu.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw, Dz.U. 2022 poz. 2600 ze zm.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2022/2600/text.html — art. 4 pkt 5–8 wprowadza próg 800 zł; https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220002600 — potwierdza tytuł, datę i wejście w życie 1.10.2023.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf — art. 124 § 1 uzależnia kwalifikację umyślnego zniszczenia lub uszkodzenia cudzej rzeczy od szkody nieprzekraczającej 800 złotych.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf — art. 279 § 1 penalizuje kradzież z włamaniem, przewidując pozbawienie wolności od roku do lat 10; oceniony łącznie z art. 130 § 2 k.w.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf — art. 130 § 2 wyłącza stosowanie art. 119 przy kradzieży z włamaniem.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje pełny rdzeń: 800 zł włącznie, brak powiązania z płacą minimalną i obowiązywanie progu od 1.10.2023. Wskazanie art. 124 § 1 k.w. wystarcza do zaliczenia czwartego elementu rubryki. Wszystkie powołania są zgodne ze źródłami urzędowymi; nie ma cytatów wymagających oceny A3. Trafne uwagi o wysokości szkody i kradzieży z włamaniem pozostają w ramach pytania.",
+ "_meta": {
+  "sedzia": "sol61meta3",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "site.eli.gov.pl 2025 734 kodeks wykroczeń 119 130 ...",
+   "site.eli.gov.pl 2025 734 kodeks wykroczeń 119 130",
+   "site.eli.gov.pl 2022 2600 1 października 2023",
+   "site.eli.gov.pl kodeks karny 279 \"od roku do lat 10\"",
+   "https://eli.gov.pl/api/acts/DU/2025/734/text.html",
+   "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "'Art. 119.'"
+  ],
+  "zrodla_sedziego": [
+   "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000734",
+   "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220002600",
+   "https://eli.gov.pl/api/acts/DU/2021/2345/text.html",
+   "https://eli.sejm.gov.pl/eli/DU/2025/734/ogl",
+   "https://eli.sejm.gov.pl/eli/DU/2025/734/ogl/pol",
+   "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "https://dziennikustaw.gov.pl/DU/2025/734",
+   "https://eli.gov.pl/api/acts/DU/2025/734/text.html",
+   "https://eli.gov.pl/api/acts/DU/2025/383/text.html",
+   "https://eli.gov.pl/api/acts/DU/2022/2600/text.html",
+   "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf"
+  ],
+  "czas_s": 35,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 4, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 Kodeksu wykroczeń [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Gdy wartość skradzionej lub przywłaszczonej rzeczy nie przekracza 800 zł, czyn co do zasady stanowi wykroczenie, a powyżej tej kwoty jest przestępstwem.”\n    · uzasadnienie weryfikatora: Przepis w brzmieniu na datę stanu prawnego wprost określa próg 800 złotych dla wykroczenia kradzieży lub przywłaszczenia cudzej rzeczy ruchomej.\n    · kotwica (verbatim ze źródła): „Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 124 § 1 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przy uszkodzeniu lub zniszczeniu rzeczy kwalifikacja zależy od wysokości szkody, której granica wynosi do 800 zł.”\n    · uzasadnienie weryfikatora: Brzmienie przepisu na datę stanu prawnego wprost uzależnia odpowiedzialność za to wykroczenie od wysokości szkody nieprzekraczającej 800 złotych.\n    · kotwica (verbatim ze źródła): „Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 3. art. 279 § 1 k.k. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Kradzież z włamaniem stanowi przestępstwo niezależnie od wartości rzeczy.”\n    · uzasadnienie weryfikatora: Powołane łącznie przepisy (art. 279 § 1 k.k. oraz wyłączający przepisy o wykroczeniu art. 130 § 2 k.w.) wprost potwierdzają, że kradzież z włamaniem zawsze stanowi przestępstwo, bez względu na wartość mienia.\n    · kotwica (verbatim ze źródła): „Przepisu art. 119 nie stosuje się, jeżeli sprawca popełnia kradzież w sposób szczególnie zuchwały lub z włamaniem.”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie z włamaniem, podlega karze pozbawienia wolności od roku do lat 10.”\n- 4. art. 130 § 2 k.w. [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 3; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01\n\nORZECZENIA: brak sygnatur w odpowiedzi.\n\nPUBLIKATORY: Dz.U. z 2022 r. poz. 2600 — akt zmieniający Kodeks karny (w życie 2023-10-01)"
+}

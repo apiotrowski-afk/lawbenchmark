@@ -1,0 +1,113 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 23 września 2004 r., III CK 400/03",
+   "zrodlo": "sn.pl / SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 1 i pkt 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 w zw. z art. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń oceniono na 1 pkt, a B2 na 0 pkt, ponieważ odpowiedź kategorycznie wyklucza skuteczność ogólnej klauzuli, pomijając warunkową możliwość dookreślenia pól w drodze wykładni umowy (art. 65 k.c., in favorem auctoris) wymaganą w kluczu v4. Podstawy wymagane (art. 41 ust. 2 i art. 53 pr.aut.) zostały w pełni podane (A2=1). Przytoczony cytat art. 41 ust. 2 pr.aut. nie jest dosłowny ani zgodny z t.j. z 2025 r. (A3=0), ale zgodnie z regułą 3 nie skutkuje to klasą W w A6. Powołany wyrok SN III CK 400/03 istnieje i odpowiada przypisanej tezie, co skutkuje brakiem halucynacji (A6=1). W rubryce zaliczono 3 pierwsze elementy, odnotowując brak odniesienia do art. 12 pr.aut. oraz wykładni z art. 65 k.c.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"Umowa o przeniesienie autorskich praw majątkowych\" \"pola eksploatacji wyraźnie\" sejm",
+   "\"obejmuje pola eksploatacji wyraźnie w niej wymienione\" pr aut",
+   "\"obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"III CK 400/03\" sn",
+   "\"III CK 400/03\"",
+   "\"III CK 400/03\" \"Sąd Najwyższy\"",
+   "\"III CK 400/03\" teza",
+   "\"art. 65\" \"ustawy o prawie autorskim\" \"domniemanie\" OR \"licencji\"",
+   "\"W braku wyraźnego postanowienia o przeniesieniu prawa\" \"uważa się, że twórca udzielił licencji\"",
+   "\"art. 65\" \"art. 66\" \"art. 68\" \"prawo autorskie\" \"5 lat\"",
+   "\"art. 65\" \"art. 66\" pr.aut. \"na okres 5 lat\"",
+   "\"Dz.U. 2024 poz. 1254\" \"art. 41\"",
+   "\"Dz.U. 2024 poz. 1254\" sejm \"41\"",
+   "\"art. 41 ust. 2\" \"Dz.U. 2024 poz. 1254\"",
+   "\"Dz.U. 2025 poz. 24\" \"art. 41\" sejm",
+   "\"w braku wyraźnego postanowienia o przeniesieniu prawa\" \"art. 65\" nieskuteczne przeniesienie",
+   "\"art. 65\" pr.aut. nieważność przeniesienia licencja",
+   "\"art. 65\" pr aut konwersja licencja nieważność",
+   "\"art. 65\" \"pola eksploatacji\" licencja domniemanie"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13508,
+   "wyjscie": 830
+  },
+  "czas_s": 109,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozstrzyga problem, wskazując, że wstrzymanie wykonania nakazu zapłaty nie pozbawia go funkcji tytułu zabezpieczenia. Rdzeń odpowiedzi znajduje się na samym początku. System trafnie powołuje wymagane przepisy (art. 492 § 1 i § 3 k.p.c.) oraz dodatkowe (art. 731, 492 § 2, 742 k.p.c.), a ich treść jest zgodna ze stanem prawnym. Zaliczone trzy z czterech elementów rubryki (brak wzmianki o zawieszeniu egzekucji z art. 820 § 2 k.p.c.). Brak kar.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 492\" \"kodeks postępowania cywilnego\" OR OR",
+   "\"art. 731\" \"kodeks postępowania cywilnego\" OR OR",
+   "\"art. 742\" \"kodeks postępowania cywilnego\" OR OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFImafPd9_-1T-UzNACT3Pfkqto13rN9aXB28BjEtOwv5sQ0ilpQNZkgFwCtW9VwVsEGilQSP9syv-jdHB59p9aAMpZNuBC3tvo4l7Pi51dr3mkP7Dd_4t2dmFHT2-iAIouN1egoGR6Hu6UXRoImIftz8djsg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3wBJfg0Lg6W8Mi0aTaEtYnL0fiG3fFrWo34iIhhMKAQ5czmaOPsWbM_ICHaBiKfDqm7qRuDH0U8r3LucTaqZ3-IzqVe91TrZ_9w0wNBQATapGjZ4r_i70SCQAcDKfg1aCRj6w31vByj4Ly_mubNy9QJk2V_1nRmAIc-NQ6XuZXKHcfbyM504C70KSC3md4IPRUgFYP0MNd5nF5g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6_vFQDBkYYrZov34bWlHZcuIu-M8W3edVgImotXqce2TQDmPBnjHqAS71FF_-NZMwr59JwMleEW8DSSOIgVCRZho0Wk1XIGR_wP6iebDpVM4F4q2nSJpUsA_iBjkc25bxqc_EL8Xb-AXOTav5HDXVB9gxKimtcZ30kv_ZQukeqig_LhvnimaKhtPBuhdQ-dmQC1HMoqRoCnXAxy265_kahInE-S-uFSsJGkoFkQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkVUVA0_qTEewI3YnbS3SeS-usI7PTYGJ1RuF6laxEAChr1LrVU56Gw9U_TI_58uDQrkQHQlpbYOPKH15lIbMjiveiYe58UbiZ8LlaNhzXzurjdjv1VxldxBQY5qXUi2X9jj4DXPMeCAabr770cYLXMnPjx3Z_VQ3wehIZCTLlpNF7LoEp4H4EgYtaIfvYVQj8V3tnDDfyo-wvg6A=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUbN8EZwbOklYp1kcqrNevvmXBqnmnORqgP37O5ygLOGffhhtt95iKY1L-NUwEmaCTL3ObutyGm8l32Oi4HukIHRJr9tANrnfdba7iKnqp0SF0Y6Pma3AeBc0MhdcU07NeZhIl4spgnlq-CZr1dFwuBzfQfFw_nBf-DiTjZsgVoi1WgI_QEWcFFHQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEepwpTNyDNsWFOJ6mcoQMQRt9r2u6x3oQPyGOxylDtFXW1N3RJ7kYM6mIqulWUwZZdqhQ8JCUtUs7iNyRGBAZcF9hxM8Nfm80VKz1mRHa6E-rykvJo9Q4E6kczdNkudRm2jlfOsDPQf74q4eMi9VRvK2lACxq3C5YnAZKwHZ339ub-ZuyeZBVph8vqKXT-YLM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtdA12WmkXpXH6bWKtCaiSFliSsmo7JXuuERP_GdFhOTfAZchUDN3KfdwBeCd4aBpbkTPzLul2qpXObVz5Al8v5nHC8711y1gvN0FM0G481QwgtVbGnZIXGorMXoaLMXKZlCRY8o5UwesaDUO6LthdnTLFgxyS",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNiPGeg52IumuolqrvpNDv81fBm9pLpdt81O9HvOejGmo71CCt8yU9frgyzG4_pULjHJAj2OVXHO6f1w-yVu7k2q6FHdPMdlEMl_huAeQT8895LzHVLMNifV5TZb9mzSISKsP0DkY4xWBztellld7w7ZAJD5PLR2xNASJ-Qpkvc-tdtBuCI2mBMKJ5E0pupwbr5OHK27-6I1R",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCqHnSQpFnaRAD62tAVd3HATZYpajkq5jn3pJcxNHd-Adk7wynJF6GvO0LA-Y7uvtbIBYu7VC70cIQ5uodNiDOdz9xjmmyAALa3II80mY84Xrbk6EhSaP78_wRgst3gbIc_LpqwU6YbRAUnsavVXmyijUIYh3DoswR0KTYr-8t2NEl_tkH9ihGPKBOVqX6hIiHDOxQjir2vDZD",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZy9mAs9KhETofSU4zkejgXXX1QKjqZi43AGdCtkGMoakduVpYaskRKXrvIlUaOPFTwqUYNwHFSsP4y_BlrZRQN_R09ytSmHF43o1TZGtrwIfYgSNRqY0zDOCbVvQHgeYN2BPGYi190Hgc6IjmO2g-9D6vunKFar5Dxl-Zk5g="
+  ],
+  "tokeny": {
+   "wejscie": 10114,
+   "wyjscie": 639
+  },
+  "czas_s": 87,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,299 @@
+{
+ "meta": {
+  "pytanie": "P04",
+  "system": "codex_astra6_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P04/codex_astra6_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:36:27",
+  "czas_s": 0.0,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 5,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 1,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 2
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 364 § 1 k.p.c.",
+   "kontekst": "Podstawą jest art. 364 § 1 k.p.c., stosowany w postępowaniu nieprocesowym w związku z art. 13 § 2 k.p.c. Obywatelstwo nabywcy nie zmienia tej zasady.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 364 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 364 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji, a dopóki akta sprawy znajdują się w sądzie drugiej instancji – ten sąd."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji na posiedzeniu niejawnym, a dopóki akta sprawy znajdują się w sądzie drugiej instancji - ten sąd. Stwierdzenia dokonuje sąd jednoosobowo."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 364. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji na posiedzeniu niejawnym, a dopóki akta sprawy znajdują się w sądzie rewizyjnym - ten sąd. Stwierdzenia dokonuje sąd jednoosobowo."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 13 § 2 k.p.c.",
+   "kontekst": "Podstawą jest art. 364 § 1 k.p.c., stosowany w postępowaniu nieprocesowym w związku z art. 13 § 2 k.p.c. Obywatelstwo nabywcy nie zmienia tej zasady.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 13 § 2 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 13 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Przepisy o procesie stosuje się odpowiednio do innych rodzajów postępowań unormowanych w niniejszym kodeksie, chyba że przepisy szczególne stanowią inaczej."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.11
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "akt": {
+    "nazwa": "Ustawa o nabywaniu nieruchomości przez cudzoziemców",
+    "kod_legal_cite": "UNNC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "kontekst": "Zezwolenie to jest wydawane w drodze decyzji administracyjnej, a nie postanowienia sądu — na podstawie art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 1 ust. 1 UNNC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML) (tekst jednolity DU/2017/2278 z 2017-11-22)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2017-11-22) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1099 (19.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 1 ust. 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2017 poz. 2278 z 22.11.2017, tekst urzędowy HTML) Ustalenie: potwierdzone — od daty tego tekstu (22.11.2017) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "urzędowy HTML"
+    },
+    "fragment_urzedowy": "1. Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi."
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (najnowszy t.j. DU/2017/2278 jest w HTML; legal-cite nie pobiera starszych)"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.83
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 16 § 1 k.p.a.",
+   "kontekst": "Wówczas zasadniczo chodzi o potwierdzenie ostateczności decyzji w rozumieniu art. 16 § 1 k.p.a.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 16 § 1 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 16 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.29
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 16 § 3 k.p.a.",
+   "kontekst": "Decyzja administracyjna może być również prawomocna, jeżeli nie można jej zaskarżyć do sądu administracyjnego — art. 16 § 3 k.p.a.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 16 § 3 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 16 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "ustalone_z_tresci_nowelizacji",
+     "fragment": "Art. 16. § 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych. § 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 16. § 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych. § 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.8,
+    "slowa_wersji_wczesniejszej": [
+     "admin"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": [
+  {
+   "data": "1920-03-24",
+   "napis": "24 marca 1920",
+   "kontekst": "Zezwolenie to jest wydawane w drodze decyzji administracyjnej, a nie postanowienia sądu — na podstawie art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców."
+  }
+ ]
+}

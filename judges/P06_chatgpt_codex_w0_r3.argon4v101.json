@@ -1,0 +1,74 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ pkt 7 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafia wyłącznie w jedną gałąź pytania warunkowego (zażalenie do innego składu SA), bez przeprowadzenia rozróżnienia między odrzuceniem zażalenia poziomego w SA a odrzuceniem przez SA zażalenia dewolutywnego na postanowienie SO, co zgodnie z regułą graniczną daje A_R=1, R=[0,1,0,0], karę K[1]=1 oraz B2=0. W A2 przyznano 0 pkt z uwagi na brak obu wymaganych podstaw prawnych (art. 394² § 1² i art. 397 § 1¹ k.p.c.). W A6 przyznano 0 pkt (typ T, hallucinated=true), ponieważ system powołał art. 394² § 1¹ pkt 7 k.p.c. jako podstawę zażalenia na odrzucenie zażalenia przez sąd II instancji, podczas gdy przepis ten dotyczy odmowy zwolnienia świadka i biegłego od grzywny oraz świadka od przymusowego sprowadzenia. Powołania art. 394 § 2 i art. 394² § 2 k.p.c. co do tygodniowego terminu na wniesienie zażalenia są zgodne z tekstem jednolitym k.p.c. (Dz.U. 2026 poz. 468).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"394^2\" OR \"3942\" \"k.p.c.\" OR",
+   "\"art. 394\" \"§ 2\" \"Termin do wniesienia zażalenia\" OR",
+   "\"394\" \"odrzucenie zażalenia\" \"innego składu sądu drugiej instancji\" OR",
+   "\"zarządzenie przymusowego sprowadzenia i aresztowania świadka\" \"odmowa zwolnienia świadka\" \"394\"",
+   "\"2026\" \"468\"",
+   "\"WDU20260000468\" OR \"2026\" \"468\"",
+   "\"394\" \"Kodeks postępowania cywilnego\"",
+   "\"Kodeks postępowania cywilnego\" \"468\"",
+   "\"Kodeks postępowania cywilnego\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9209,
+   "wyjscie": 964
+  },
+  "czas_s": 132,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

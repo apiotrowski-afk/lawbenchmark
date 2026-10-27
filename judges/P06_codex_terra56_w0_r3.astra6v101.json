@@ -1,0 +1,54 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 pkt 12 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c. — odesłanie dotyczące terminu zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Art. 394² § 1 nie zawiera punktu 12, więc powołano nieistniejącą jednostkę jako podstawę prawną (F; pochodzenie błędu nieustalone). Odpowiedź trafia w gałąź dotyczącą zażalenia poziomego, lecz nie rozróżnia jej od odrzucenia zażalenia dewolutywnego, co uzasadnia A_R = 1, karę i B2 = 0. Brakuje obu wymaganych podstaw oraz uwagi o art. 130² k.p.c. Tygodniowy termin odpowiada art. 394 § 2 stosowanemu przez art. 394² § 2; błędu identyfikacji podstawy nie naliczono ponownie w A3. Wskazówki praktyczne są częściowo przydatne, ale mogą prowadzić do wniesienia niedopuszczalnego środka.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 39,
+  "data": "2026-10-15",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

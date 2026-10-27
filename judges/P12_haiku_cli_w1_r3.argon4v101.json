@@ -1,0 +1,110 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c. (oraz wzmianka o niezweryfikowaniu art. 787 § 1 k.p.c. w zastrzeżeniu)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c. (wzmianka o braku weryfikacji bez przypisania treści)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 231 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18.03.2011 r., III CZP 117/10",
+   "zrodlo": "sn.pl / SAOS (OSNC 2011 nr 11 poz. 120)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Łodzi, VII Pz 122/15",
+   "zrodlo": "SAOS / orzeczenia.ms.gov.pl (postanowienie z 10.11.2015 r.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SA w Krakowie, I ACz 313/15",
+   "zrodlo": "SAOS / orzeczenia.ms.gov.pl (postanowienie z 03.03.2015 r.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 11.04.2019 r., III CZP 106/18",
+   "zrodlo": "sn.pl / SAOS (OSNC 2019 nr 12 poz. 120)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 08.11.2019 r., III CZP 36/19",
+   "zrodlo": "sn.pl / SAOS",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie wyklucza istnienie „zwykłego trybu” bez ograniczeń oraz wyjaśnia, że brak wzmianki o działalności i numer PESEL w tytule nie zwalniają z wykazania przesłanki materialnej, jednak pomija podstawę z art. 787¹ k.p.c. i nie prostuje omyłki z art. 781¹ k.p.c. (A-R=1, A2=0, R=[1,0,1,0,1]). Wszystkie powołane przepisy i orzeczenia zostały opisane zgodnie ze źródłami oficjalnymi, a samo wyznanie braku weryfikacji art. 787 § 1 i art. 781¹ k.p.c. w zastrzeżeniu wstępnym bez przypisania im fałszywej treści nie stanowi halucynacji wg reguły granicznej 3 i 8 (A6=1). Punkt A8 obniżono do 0,5 z uwagi na dygresję o odrębnym powództwie przeciwko małżonkowi (pkt 4) i ustaniu wspólności majątkowej oraz powtarzanie zastrzeżeń o braku dostępu do źródeł poza akapitem wstępnym. W bloku B odpowiedź otrzymuje B1=1 i B2=0, ponieważ w podsumowaniu praktycznym błędnie wskazuje, że bez dokumentu zgody wniosek o klauzulę zostanie prawdopodobnie oddalony, nie prowadząc ścieżki z art. 787¹ k.p.c. dla wierzytelności związanej z prowadzeniem przedsiębiorstwa.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 15,
+  "zapytania": [
+   "\"III CZP 117/10\" sn.pl OR saos.org.pl",
+   "\"VII Pz 122/15\" saos.org.pl OR orzeczenia.ms.gov.pl OR lodz.so.gov.pl",
+   "\"I ACz 313/15\" saos.org.pl OR orzeczenia.ms.gov.pl OR krakow.sa.gov.pl",
+   "\"III CZP 106/18\" sn.pl OR saos.org.pl",
+   "\"VII Pz 122/15\" \"787\" OR \"117/10\" OR \"zgodą\"",
+   "\"I ACz 313/15\" \"przedsiębiorstwa\" OR \"787\"",
+   "\"Art. 787.\" \"Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim\" eli.gov.pl OR sejm.gov.pl",
+   "\"Art. 231.\" \"Sąd może uznać za ustalone fakty\" eli.gov.pl OR sejm.gov.pl",
+   "\"VII Pz 122/15\" \"UZASADNIENIE\" \"Zaskarżonym postanowieniem\"",
+   "\"I ACz 313/15\" \"POSTANOWIENIE\" \"3 marca 2015\"",
+   "\"Art. 41.\" \"Jeżeli małżonek zaciągnął zobowiązanie za zgodą drugiego małżonka\" eli.gov.pl OR sejm.gov.pl",
+   "\"III CZP 36/19\" sn.pl OR saos.org.pl",
+   "\"Art. 41.\" \"Jeżeli wierzytelność powstała przed powstaniem wspólności\" eli.gov.pl OR sejm.gov.pl",
+   "\"Art. 41.\" \"przedsiębiorstwa\" \"k.r.o.\" OR \"Kodeks rodzinny\"",
+   "\"I ACz 313/15\" \"787\" \"oddalić zażalenie\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12744,
+   "wyjscie": 1702
+  },
+  "czas_s": 314,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

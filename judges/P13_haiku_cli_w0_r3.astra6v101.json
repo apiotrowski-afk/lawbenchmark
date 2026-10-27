@@ -1,0 +1,65 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 730 i nast. k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 739 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 493 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 k.p.c. jako przepis zawierający punkt przewidujący zażalenie na zabezpieczenie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Początkowe „zwykle nie” daje trafny kierunek, ale odpowiedź pomija obie funkcje nakazu oraz wymagane podstawy z art. 492 § 1 i § 3. Art. 739 reguluje kaucję, a wykonanie zabezpieczenia reguluje art. 743; art. 493 § 3 dotyczy ograniczeń postępowania po zarzutach, natomiast podstawą zażalenia na zabezpieczenie jest art. 741, nie wskazany punkt art. 394. Ogólne opisy art. 730 i 730¹ są zgodne, lecz zastosowano je do niewłaściwego trybu. Przeważają rozważania o uzyskaniu osobnego postanowienia zabezpieczającego zamiast wykonania nakazu jako istniejącego tytułu zabezpieczenia, co uzasadnia A8=0 i drugą karę. Brak właściwych wskazówek praktycznych oraz nieuzasadnione uzależnianie odpowiedzi od interpretacji uzasadniają B1=0 i B2=0; pochodzenie błędnych powołań jest nieustalone.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 58,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

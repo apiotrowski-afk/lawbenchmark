@@ -1,0 +1,100 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 1 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 43–44 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 734 Kodeksu cywilnego",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "dyrektywa 2019/790 art. 20–22",
+   "zrodlo": "Dz.Urz. UE L 130 z 17.05.2019",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie oddaje kierunek merytoryczny i prawidłowo kalibruje warunkowość w oparciu o cel umowy. Doszło jednak do poważnych pomyłek numeracyjnych przepisów: wymóg wyraźnego wymienienia pól z art. 41 ust. 2 przypisano do art. 41 ust. 1, zasadę in favorem auctoris (z art. 65 k.c.) przypisano do art. 65 pr.aut. (który statuuje domniemanie licencji), a czas i terytorium przypisano do art. 43–44 pr.aut. (dotyczących wynagrodzenia, zamiast art. 66 pr.aut.). Z uwagi na przypisanie obcej treści do wskazanych jednostek redakcyjnych A6 wynosi 0 (klasa T, hallucinated=true, w rdzeniu, z pamięci). Skutkuje to również utratą punktu w A2 (brak wymaganego art. 41 ust. 2) oraz pierwszego elementu rubryki.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 41 ust. 1\" prawo autorskie treść ISAP",
+   "\"art. 41\" \"prawo autorskie\" ust. 1 ust. 2 sejm gov pl",
+   "\"art. 65\" prawo autorskie treść sejm gov pl",
+   "\"art. 43\" \"art. 44\" prawo autorskie treść sejm gov pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13004,
+   "wyjscie": 881
+  },
+  "czas_s": 30,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

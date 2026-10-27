@@ -1,0 +1,60 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c. oraz art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c. — przypisanie wstrzymaniu wykonania skutku obejmującego również zabezpieczenie",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c. w zw. z art. 776 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: wstrzymanie wykonania z art. 492 § 3 nie odbiera nakazowi funkcji tytułu zabezpieczenia wynikającej z § 1. Przypisanie § 3 skutku blokującego zabezpieczenie stanowi T, skutkuje A6 = 0 i naliczeniem pierwszej kary; pochodzenie błędu jest nieustalone. Wymagane podstawy wskazano, lecz nie spełniono żadnego pełnego elementu rubryki, a błędna wskazówka praktyczna uzasadnia B1 = 0. Opis art. 743 § 1 w związku z art. 776 pomija warunek wykonania zabezpieczenia w drodze egzekucji, co jako samo pominięcie nie obniża A6. Odpowiedź pozostaje w ramach pytania i stawia wyraźną tezę, dlatego A8 = 1 i B2 = 1 mimo błędnej konkluzji.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 56,
+  "data": "2026-10-15",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

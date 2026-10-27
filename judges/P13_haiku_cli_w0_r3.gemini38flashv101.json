@@ -1,0 +1,81 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 730 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 739 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 493 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź całkowicie pomija normę z art. 492 § 1 k.p.c., błędnie sugerując konieczność ubiegania się o odrębne sądowe postanowienie o zabezpieczeniu na zasadach ogólnych (art. 730 i nast. k.p.c.), co nakłada karę za wymóg osobnego postanowienia. W A6 wystąpiły błędy klasy T: art. 739 k.p.c. reguluje kaucję, a nie odesłanie do przepisów o egzekucji (art. 743 k.p.c.), z kolei art. 493 § 3 k.p.c. nie reguluje wstrzymania wykonania nakazu (właściwy jest art. 492 § 3 zd. 2 k.p.c.). Nie powołano żadnej z wymaganych podstaw (art. 492 § 1 i § 3 k.p.c.). Porada wprowadza w błąd co do właściwego trybu postępowania (B1 = 0), a kategoryczna odpowiedź została niezasadnie rozmyta (B2 = 0).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 493\" kpc treść sejm",
+   "\"art. 492\" kpc treść sejm",
+   "\"art. 739\" kpc treść sejm",
+   "\"art. 739\" \"kodeks postępowania cywilnego\" isap",
+   "\"art. 739 § 1\" kpc treść isap",
+   "\"art. 493 § 3\" kpc treść isap",
+   "\"art. 493\" kpc isap 2026"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10423,
+   "wyjscie": 638
+  },
+  "czas_s": 63,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź systemu jest pusta, bez informacji o blokadzie dostawcy. Zastosowano regułę pustej odpowiedzi: A6 = 0 (typ: pusta), bez etykiety hallucinated. Brak powołań wymagających weryfikacji; nie naliczono kar.",
+ "_meta": {
+  "sedzia": "sol61meta2",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 0,
+  "czas_s": 12,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 0, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

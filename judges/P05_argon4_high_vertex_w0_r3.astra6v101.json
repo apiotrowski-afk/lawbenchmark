@@ -1,0 +1,95 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 7 lipca 2023 r. — wprowadzenie doręczeń portalowych do kodeksów od 14 marca 2024 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/1860/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 15zzs⁹ ustawy covidowej — uchylenie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/1860/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 1 k.p.c. — wyłączenie doręczeń stronie będącej osobą fizyczną",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 1 k.p.c. — zaliczenie biegłych sądowych do katalogu adresatów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. — doręczenia przez system teleinformatyczny",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ § 2 k.p.c. — wybór doręczeń elektronicznych przez wniesienie pisma",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 133a § 1 k.p.k. — zamknięty katalog nieuwzględniający strony wybierającej doręczenia portalowe",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/490/text.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 131 i następne k.p.k. — tradycyjne doręczenia osobom fizycznym",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/490/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 216aa Prawa upadłościowego — przypisanie wyłączenia także konsumentom jako takim",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/614/text/U/D20250614Lj.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustawa o doręczeniach elektronicznych — dobrowolny adres osoby fizycznej i obowiązek sądów od 2029 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text/T/D20260003L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133 § 3 w związku z art. 131¹ᵃ k.p.c. — doręczanie ustanowionemu profesjonalnemu pełnomocnikowi",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zaprzecza rdzeniowi: od 1 czerwca 2026 r. strona może wybrać doręczenia portalowe, a system nie opisuje wyboru, momentu doręczenia ani rezygnacji. A6 obniżają nieaktualne katalogi adresatów w obu kodeksach oraz przypisanie art. 131¹ § 2 treści § 1, dodanie biegłych do katalogu i rozszerzenie art. 216aa na konsumentów jako takich. Naliczono pierwszą karę; wzmianka o awizowaniu dotyczy przesyłki papierowej, więc drugiej nie naliczono. Dygresje obniżają A8, a błędna instrukcja ignorowania skutków doręczenia portalowego uzasadnia B1 = 0, przy zachowaniu B2 = 1 za kategoryczną odpowiedź. Pochodzenie błędnych powołań jest nieustalone, ponieważ nie przedstawiono śladu narzędzi ani adresów źródeł ocenianego systemu.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 105,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

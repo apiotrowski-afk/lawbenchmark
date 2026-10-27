@@ -1,0 +1,103 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 77³ k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 243¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 30 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 47 § 2 k.r.o. jako podstawa skuteczności umowy majątkowej wobec wierzyciela znającego jej zawarcie i rodzaj",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 840 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o. jako materialna podstawa zarzutów małżonka",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ogólne odwołanie do orzecznictwa i doktryny: zgody nie zastępują ogólna aprobata działalności, sama wiedza ani brak sprzeciwu",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/III%20CZP%20117-10.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełna weryfikacja ogólnej tezy przypisanej orzecznictwu i doktrynie: wyszukiwanie ujawniło oficjalne orzeczenie III CZP 117/10, lecz próby otwarcia pełnego tekstu w SN i SAOS zakończyły się błędem."
+ ],
+ "uzasadnienie": "Odpowiedź podaje pełny zasadniczy rdzeń, rozróżnia oba tryby według zgody i związku z przedsiębiorstwem oraz poprawia numer przepisu, ale pomija egzekucję z majątku osobistego, wynagrodzenia i dochodów dłużnika przy braku obu przesłanek. Art. 47 § 2 k.r.o. reguluje zmianę i rozwiązanie umowy majątkowej, natomiast przypisana mu norma znajduje się w art. 47¹ k.r.o., co stanowi T i przesądza A6 = 0; pochodzenie błędu jest nieustalone wobec braku śladu narzędzi ocenianego systemu. Kategoryczna wskazówka o konieczności istnienia wspólności może zmienić działanie prawnika, gdyż art. 787² k.p.c. dopuszcza klauzulę mimo umowy majątkowej, dlatego B1 = 1. Omówienie osobistej odpowiedzialności małżonka i środków zaskarżenia wykracza poza pytanie, obniżając A8 do 0.5. Konkluzje dotyczące dwóch trybów są uzależnione od właściwych przesłanek, więc B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 16,
+  "czas_s": 110,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

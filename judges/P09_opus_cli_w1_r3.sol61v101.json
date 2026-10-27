@@ -1,0 +1,120 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — przepis stanowi „obejmują pola eksploatacji wyraźnie w nich wymienione”; niedosłowność przytoczenia oceniono w A3.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ugruntowany pogląd doktryny i orzecznictwa: konkretne pola trzeba wymienić z nazwy, inaczej nie dochodzi do przeniesienia praw",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iv%20cskp%2044-21.pdf oraz https://www.saos.org.pl/judgments/163531 — SN dopuszcza ustalenie pól przez wykładnię umowy i nie wymaga ich enumeratywnego wskazania.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — przykładowy katalog odrębnych pól eksploatacji.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — umowa może dotyczyć tylko pól znanych w chwili jej zawarcia.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 ust. 3 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — nieważność części umowy dotyczącej wszystkich przyszłych utworów lub wszystkich przyszłych utworów określonego rodzaju tego samego twórcy.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — forma pisemna pod rygorem nieważności.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 67 ust. 5 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — umowa licencyjna wyłączna wymaga formy pisemnej pod rygorem nieważności.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 43 ust. 1 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — twórcy przysługuje wynagrodzenie, jeżeli z umowy nie wynika nieodpłatność.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 65 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — w braku wyraźnego postanowienia o przeniesieniu prawa uważa się, że twórca udzielił licencji.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 64 pr.aut.: przekazanie plików lub własności egzemplarza nie przenosi praw",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — art. 64 reguluje przejście praw z chwilą przyjęcia utworu; odrębność własności egzemplarza reguluje art. 52 ust. 1.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 12 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — nabycie praw przez pracodawcę dotyczy utworu stworzonego w wykonywaniu obowiązków ze stosunku pracy.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — twórca zachowuje prawo zezwalania na wykonywanie zależnego prawa autorskiego, jeżeli umowa nie stanowi inaczej.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — autorskie prawa osobiste chronią więź niepodlegającą zrzeczeniu się lub zbyciu.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 ust. 5 pr.aut.: dopuszczalność dalszego przeniesienia praw i udzielania licencji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — ust. 5 dotyczy zezwolenia na nowe pola eksploatacji utworów wykorzystanych w utworze audiowizualnym lub zbiorowym; dalsze przeniesienie reguluje art. 41 ust. 1 pkt 2.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 81 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — rozpowszechnianie wizerunku co do zasady wymaga zezwolenia przedstawionej osoby; pominięcie wyjątków nie obniża A6.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 1 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf — ochrona wymaga przejawu działalności twórczej o indywidualnym charakterze.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaleca wyliczenie pól i zachowanie formy pisemnej, ale kategorycznie wyklucza przeniesienie praw bez uwzględnienia wykładni umowy, dlatego A_R = 1 i B2 = 0. Ogólnik o konieczności wymienienia pól z nazwy przeczy zweryfikowanej linii SN, a art. 64 i art. 41 ust. 5 przypisano cudzą treść, co daje A6 = 0; błędy obejmują rdzeń, a ich pochodzenie to pamięć według deklaracji o braku wyszukiwania. Cytat z art. 41 ust. 2 zmienia „obejmują” i „w nich” na „obejmuje” i „w niej”, stąd A3 = 0. Błędne uwagi poboczne uzasadniają A8 = 0.5. Praktyczne zalecenie pisemnego aneksu z polami właściwymi dla social mediów pozostaje przydatne, dlatego B1 = 2.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 14,
+  "czas_s": 99,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

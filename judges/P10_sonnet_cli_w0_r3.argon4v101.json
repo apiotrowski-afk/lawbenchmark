@@ -1,0 +1,126 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 ust. 1 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 50 i art. 50 pkt 3 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ KC",
+   "zrodlo": "Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny (Dz.U. 2026 poz. 795)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie zaprzecza błędnej przesłance pytania na wstępie, powołuje obie wymagane podstawy prawne (art. 41 ust. 2 i art. 53 pr. aut.) oraz podaje praktyczne wyliczenie pól eksploatacji dla social mediów (A-R = 2, A2 = 1). W kryterium A6 otrzymuje jednak 0 punktów (klasy F i T), ponieważ powołuje nieistniejącą jednostkę redakcyjną art. 65 ust. 1 pr. aut., przypisując jej ogólną regułę wykładni umów na korzyść twórcy, podczas gdy art. 65 pr. aut. nie dzieli się na ustępy i reguluje wyłącznie domniemanie udzielenia licencji w braku wyraźnego postanowienia o przeniesieniu prawa. Odpowiedź nie wskazuje liberalnej linii orzeczniczej SN dopuszczającej dookreślenie pól eksploatacji w drodze wykładni umowy z art. 65 k.c. (brak punktu w R[4]). Zgodnie z regułami B11 oraz zakazem podwójnego karania w bloku B, użyteczna i poprawna praktycznie instrukcja kontraktowa zachowuje pełną punktację w bloku B (B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 17,
+  "zapytania": [
+   "\"art. 41\" \"art. 50\" \"art. 53\" \"Dz.U. 2025 poz. 24\" eli.gov.pl OR isap.sejm.gov.pl",
+   "\"art. 65\" \"prawie autorskim i prawach pokrewnych\" isap.sejm.gov.pl OR eli.gov.pl",
+   "\"art. 2\" \"art. 16\" \"art. 43\" \"art. 81\" \"prawie autorskim\" isap.sejm.gov.pl OR eli.gov.pl",
+   "\"art. 78\" \"kwalifikowanym podpisem elektronicznym\" kodeks cywilny eli.gov.pl OR isap.sejm.gov.pl",
+   "\"2025\" \"24\" \"prawie autorskim\"",
+   "\"WDU20250000024\" OR \"DU/2025/24\"",
+   "\"W braku wyraźnego postanowienia o przeniesieniu prawa, uważa się, że twórca udzielił licencji\" \"Art. 65\"",
+   "\"Art. 41.\" \"pola eksploatacji wyraźnie w niej wymienione\" \"Art. 53.\"",
+   "\"Art. 65.\" \"W braku wyraźnego postanowienia o przeniesieniu prawa\" \"Art. 66.\"",
+   "\"Art. 43.\" \"Jeżeli z umowy nie wynika, że przeniesienie autorskich praw majątkowych\" \"Dz.U. 2025 poz. 24\" OR \"Dz. U. z 2025 r. poz. 24\"",
+   "\"Art. 2.\" \"Opracowanie cudzego utworu\" \"Art. 16.\" \"Art. 81.\" \"prawie autorskim\"",
+   "\"Art. 78\" \"Do zachowania elektronicznej formy czynności prawnej\" kodeks cywilny",
+   "\"Art. 65.\" \"Art. 66.\" \"Dz. U. z 2025 r. poz. 24\" OR \"Dz.U. 2025 poz. 24\"",
+   "\"art. 65 ust. 1\" \"prawie autorskim\"",
+   "\"Art. 41.\" \"Art. 43.\" \"Art. 50.\" \"Art. 53.\" \"prawie autorskim\"",
+   "\"Art. 16.\" \"Art. 81.\" \"prawie autorskim\"",
+   "\"Do zachowania elektronicznej formy czynności prawnej wystarcza\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGviFPzukXYQDusmO0VXm5Hl3eYpa8c5ujDyAaJr9B3HWbRDJTIOsYGQ2bmIicnFP0JkNhqHDBrsBiMZQgjoNhYS3JPdA91ibvf1w80hCTjoG8HFiH16yBOXlss7oXfDsw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8jMWDqW1fDFpu_yU6vUiYDUT9pnf-bRm71ZrYlNt_lrmA8P8GqHf8GqUed2i9Xu77cg4kYxGoxNeEVUZm1wKj7ue336sadwwyShuSN6AlBgWZNeshH_K--RlZnUZsqpEvETkN-PPdQSmjbx2UeqJQFmYTCSQF9K8j5l8MEYuGvv9-Kk45WfsuwAL7wRrz3ewpVYngQ3j4Z4KdujWnxA8HyOhT7vXrSEzR5mQgLZlacA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdzwQ-A-SgIwRDd68Vsi70GMBiC82TlDI8IhaoqjkXzd51ntcQl2XRyRn3iZEryAgkGa0WEpP6sE04-266bF7TMM3_7d4b4CCOlsxDzh6Wv39fWbLht08dArquh5tBom6kU8zmvGDXD429WwmLDa8d8Z3etPnA",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFGIITSz-PEdYH6B-3HtLWC0MwkuLj7VQNvGoR2zdSClI-PrsKTSkIPFpJvALwUZ9EWB-6ezPevG6rbwGYj4oauWRAECzEOmGs2bJgwM1VkVDuXnOeOlpCmTWeDbfz_HYgzBtQ9vSi1HuJU0ujRcs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELY_C8a9G_hAostScQXL0AzTLqmckN6PlMl6ioWSAcyfB68kD2fhVXEEphOa7aEPnNuGyo0kYYBHGLc1OR1NdVXLLztfNPApFF5TbtCR4h9s8xsOKAtSYorzbzuL1tK1hQvY5lFfzLv14Qkzg-MuY-CdWsqVs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc3Mo8jICByqVpWMEYNb_P5drv1cEfptr0yl6G55niw4LAuVpinmoQuvG9fkamUxW3DXNlkKJx6xCpiZo8nPU6HXT9LT_Dpv_T9PdNgJbDoFOgJncwCbAZaqNrEgbc4ZdBBTaBXDg9wA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESHJOOh2KX1zbTVSe1fL2YUtwjX4fnIghZvGXwY0C-W-2F0jIR7ItMS0QNRTH7gQTUIAsKkj9WrSry7nUUFMmaUtUIcRtOx9noGa5ttXJiHmdsy4nVgZON9anB_Kou-1QGW5DPGVrb0RwzbMj4EDfUnkZ1QAgG4nSv6x5SOShA0fEDiYngU-iUmrqDh6jhuhJpibr641wzabSDODuizxqcu9N3sx8Z__akMZQ5mlO8PEZIAxriM6QpGsC80kDCyvsdlrQZUmlZ_ySwXAb09kBBO2q0Yg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuHjrUfwJnrb4uroUscTWaiEznknwvykWguzvUTgZU3_Ae-8OSjQrM5vs2JaOiFSVPaeJlkcowdEJQ8m6YY69uxV3FXOW4xa4jxVIIG61TNhyrfLcEgMakhiQo113ssMRtSjFTHIUSN3xYG0I3mNSV0Zgk7T_ixsqIgYHKwtWXUVGtnPS1UiucLaZ12m__R2xzgs1wyIbWfTALgTSInbPJwn_X7D8TqngpMjPrFCMWiaUOR8I=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiO_hNniJhPubdDvHAOW-Wvc_zShlZ7Pq_diSqRqfdtDExk8DCy3ixGek8UqoU9UmzFWKuusiHdjv54A3WuGZ9L87FWMVbw3ehicVbfSMMe0AzC4FpDpfhjAF6aBYGVWZ5kx6pEjZXED4EWsadyW2OkXhICcDw7zo5xotbH9EpokFl6kkNhRZ31AW7k4n2532ryxUx",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6SbWtICE6tkLIDD2xzqsbSYsBoFVFD7JccvBQvqgFhMWwISziF2wQsfQnMgrXgrp3pms4rAtA0qtr1yfhu2lmIU_PhBhcc1fVNqSFf_aSspxl5n-aTbTmpREk_53fRf7M_n7JSBMAFbjRbI4LGjur2pX59ewE3GwCbchlCaaC2mC4gs3I-bci2nVLVp8mAy9DslhGBj9IcGg0h53echc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQPgPe05EK-gl9SARpP_eBKv_aHec50X6qnutginzwTQHUEC1fTg2AykzBK2BAMJK4c2q15nEWPriz6EXdPqVQoxdMrxVVHwkEdhBhNuvVjfcOEeD_jSvj1Rh1wXzyepDz0wIW_qcaJp12kBB2_VrAqWyzT-5It9F6lGBkmPeS"
+  ],
+  "tokeny": {
+   "wejscie": 13718,
+   "wyjscie": 1936
+  },
+  "czas_s": 181,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

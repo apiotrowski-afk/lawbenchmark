@@ -1,0 +1,101 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie wskazuje kierunek odpowiedzi („tak”), lecz pomija kluczowy warunek zaskarżalności postanowienia oraz terminy właściwe dla postanowień z art. 357 § 1 i § 2¹ k.p.c. (A-R = 1, A2 = 0, R = [0,0,0,0]). W A6 przyznano 0 pkt (klasa T, hallucinated = true), ponieważ przepisowi art. 130¹ § 2 k.p.c. (dotyczącemu zwrotu lub odrzucenia pism wnoszonych na urzędowym formularzu) przypisano fałszywą treść o wymogu złożenia wniosku o uzasadnienie przy zarzutach dotyczących uchybień w postanowieniu. Ramy oceniono na 0,5 pkt (A8), gdyż przy zachowaniu rdzenia w pierwszym akapicie odpowiedź zawiera obszerne wywody o uzasadnieniu wyroku i apelacji (art. 328 i 369 k.p.c.), które wykraczają poza pytanie o art. 357 § 5 k.p.c. W bloku B przyznano 0 pkt za przydatność (B1 = 0) oraz 0 pkt za kalibrację (B2 = 0), bo zamiast kategorycznej odpowiedzi opartej na ustawie system wyraża brak pewności i odsyła prawnika do samodzielnego sprawdzenia ISAP oraz komentarzy.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"art. 328\" \"Pisemne uzasadnienie wyroku sporządza się\" kpc eli.gov.pl OR sejm.gov.pl",
+   "\"art. 130\" \"1301\" kpc eli.gov.pl OR sejm.gov.pl",
+   "\"art. 369\" \"Apelację wnosi się do sądu\" kpc eli.gov.pl OR sejm.gov.pl",
+   "\"art. 394\" \"Termin do wniesienia zażalenia wynosi tydzień\" kpc eli.gov.pl OR sejm.gov.pl",
+   "\"Art. 357\" \"Wydając postanowienie\"",
+   "\"Art. 1301\" OR \"Art. 130\" \"formularzu\" kpc",
+   "\"Art. 328.\" \"Pisemne uzasadnienie wyroku\"",
+   "\"Art. 1301.\" \"Jeżeli pismo procesowe, które powinno być wniesione na urzędowym formularzu\"",
+   "\"Art. 130\" \"W razie bezskutecznego upływu terminu lub ponownego złożenia pisma\"",
+   "\"Sąd odrzuca wniosek niedopuszczalny, spóźniony, nieopłacony\"",
+   "\"Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11647,
+   "wyjscie": 1372
+  },
+  "czas_s": 222,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c., w tym zdanie drugie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała Sądu Najwyższego z 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "https://www.sn.pl/pl/sprawy/zagadnienia-prawne/iii-czp-38-20; https://www.sn.pl/publikacje/BSiA_Przeglad_orzecznictwa/Przeglad%20Orzecznictwa%202021%20e-book.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, wymagane podstawy oraz prawidłowy termin tygodniowy z rozróżnieniem jego początku. Numery i treść powołanych jednostek porównano z oficjalnym tekstem k.p.c.; datę, sygnaturę i tezę uchwały potwierdzają wyniki wyszukiwania w oficjalnym serwisie SN, choć bezpośrednie otwarcie dokumentów SN było niedostępne. Brakuje wzmianki o opłacie lub wyjątkach wskazanych w czwartym elemencie rubryki. Nie ma cytatu przepisu, a jednozdaniowa formuła wniosku nie obniża A8. Pominięcie wyjątków nie stanowi halucynacji.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 12,
+  "czas_s": 68,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act — obowiązek przypisany podmiotowi stosującemu",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń: obiektywną możliwość uznania głosu za autentyczny oraz niezależny obowiązek dostawcy dotyczący oznakowania maszynowego. Cytat definicji jest niedosłowny, m.in. zmienia definiowany zwrot i zastępuje słowo „przedmioty” słowem „obiekty”, co obniża wyłącznie A3. Art. 50 ust. 1 nakłada obowiązek na dostawcę, a odpowiedź przypisuje go podmiotowi stosującemu: to T, powodujące A6 = 0 oraz ograniczenie B1 do 1. Błędna uwaga poboczna o voicebocie obniża A8 do 0,5; pochodzenie błędu pozostaje nieustalone. Brakuje daty stosowania oraz odwołania do niewiążących wytycznych lub kodeksu praktyk.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 8,
+  "czas_s": 40,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

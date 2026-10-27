@@ -1,0 +1,99 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 362 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "O"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest całkowicie błędna (A-R=0). System zhalucynował treść art. 357 § 5 k.p.c., podając fałszywy cytat i twierdząc, że zasadnicze powody są pełnoprawnym uzasadnieniem, co wprost przeczy ustawie (A6=0, T, rdzeń). Błędnie powołano również art. 362 k.p.c. (dotyczy zarządzeń, a nie postanowień). Z powodu błędnej tezy system udziela szkodliwej porady, która doprowadzi do odrzucenia zażalenia i utraty terminu (B1=0). Zgodnie z przykładem granicznym, sekcja o zarzutach do zażalenia stanowi dygresję wynikającą z błędnej tezy, co obniża ramy (A8=0,5). Naliczono karę za twierdzenie, że zasadnicze powody zamykają drogę do wniosku o uzasadnienie.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"W uzasadnieniu postanowienia sąd może ograniczyć się do wskazania zasadniczych powodów rozstrzygnięcia\"",
+   "\"zasadnicze powody rozstrzygnięcia\" \"357\" k.p.c.",
+   "\"art. 328\" k.p.c.",
+   "\"art. 362\" k.p.c.",
+   "\"art. 394\" k.p.c."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKa3XygjchnHg2__qxPJ6NkzVNapozuCw1B5lpjth1Phhz6JCdA5a2GJvwyDuUmaj7_8fbYDxLGBkGG0L4fxyXWvCBiu3Xjt8wt9vxX3EKXqTVbctq-uZIeLN1xhnAnNM3wWXhfTMPWjPtACHXd9bE09KyqDjFWA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkS2cFv6pKX8gbxwu9MsMfPOzpgMToNfgBJGA7hEiNuvjCFePIjmAc3AONiY2htIn0wF72maQWANCnoyc7DLDTocKkDdBS5oHXa_CgsN00sYp1-sszP6xE9Ef5Ri8tHVneU0kEA53yxwgeQFri",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE53lvuVuZoQ-rvtMG7VQw_TE3rvtOGaSzkLlI3FJ0Jluwp9QxQXQ2Pzp51MmCxmwNwYIxIU6zCV9LElJ5SH9JoPjUAwUJuDRow2511qiTbBHFvIgPd42A7fyt9AMKJY67eJvWJmyx4I-aQDuBAYYH2UcJp3csad_88_gsDJUBfEoxCMvyvSZkv9rWBQA527REPjM16dJEcg1xztv1PiRslXTR2GOs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEVgpGOGfO2byXALSrXvSn-Jn8duBjLzIDFcFxtGQnpg1uHlwh2fqDsRDIppwt3IRIjXmt28wqicMHBJto0Ag5dtS6wVdgq8JVj9Kpe3rBMhh29TUAdhNJ67T-EqigVQb7huwuJgeqSlkbLIpC5qs-0UKH_anv_H_pFM262dvdzxSarI4h74HUCkY="
+  ],
+  "tokeny": {
+   "wejscie": 11646,
+   "wyjscie": 894
+  },
+  "czas_s": 126,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

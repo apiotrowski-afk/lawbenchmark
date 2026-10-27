@@ -1,0 +1,1076 @@
+{
+ "meta": {
+  "pytanie": "P04",
+  "system": "argon4_high_vertex_w1_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P04/argon4_high_vertex_w1_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:38:09",
+  "czas_s": 36.0,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 21,
+  "orzeczenia": 0,
+  "publikatory": 1,
+  "daty": 1,
+  "flagi": {
+   "akt_nieustalony": 1,
+   "nieobslugiwany": 1,
+   "brzmienie_na_dzien_nieustalone": 7
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "akt": {
+    "nazwa": "Ustawa o nabywaniu nieruchomości przez cudzoziemców",
+    "kod_legal_cite": "UNNC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "kontekst": "Zgodnie z art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (t.j. Dz.U. z 2017 r. poz. 2278), zgoda na nabycie nieruchomości ma formę zezwolenia wydawanego w drodze decyzji administracyjnej przez ministra właściwego do spraw wewnętrznych (MSWiA).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 1 ust. 1 UNNC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML) (tekst jednolity DU/2017/2278 z 2017-11-22)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2017-11-22) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1099 (19.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 1 ust. 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2017 poz. 2278 z 22.11.2017, tekst urzędowy HTML) Ustalenie: potwierdzone — od daty tego tekstu (22.11.2017) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "urzędowy HTML"
+    },
+    "fragment_urzedowy": "1. Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi."
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (najnowszy t.j. DU/2017/2278 jest w HTML; legal-cite nie pobiera starszych)"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.79
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 1 ust. 1a",
+   "akt": {
+    "nazwa": null,
+    "kod_legal_cite": null,
+    "ustalenie": "nieustalony (brak aktu; klucz wieloaktowy)"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 1 ust. 1a",
+   "kontekst": "(Uwaga: w formie postanowienia w tym postępowaniu wyrażany jest jedynie ewentualny sprzeciw Ministra Obrony Narodowej lub – w przypadku nieruchomości rolnych – Ministra Rolnictwa i Rozwoju Wsi na podstawie art. 1 ust. 1a ww. ustawy.",
+   "cytat": null,
+   "flagi": [
+    "akt_nieustalony"
+   ],
+   "powolanie_glowne_id": 2,
+   "weryfikacja": {
+    "status": "akt nieustalony — do sprawdzenia ręcznie",
+    "powod": "brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych"
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "nie porównano"
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 2a ust. 4 ustawy o kształtowaniu ustroju rolnego",
+   "akt": {
+    "nazwa": "ustawy o kształtowaniu ustroju rolnego",
+    "kod_legal_cite": null,
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 2a ust. 4 ustawy o kształtowaniu ustroju rolnego",
+   "kontekst": "Podobnie formę decyzji administracyjnej ma zgoda Dyrektora Generalnego KOWR na nabycie nieruchomości rolnej w trybie art. 2a ust. 4 ustawy o kształtowaniu ustroju rolnego).",
+   "cytat": null,
+   "flagi": [
+    "nieobslugiwany"
+   ],
+   "powolanie_glowne_id": 3,
+   "weryfikacja": {
+    "status": "nieobsługiwany — do sprawdzenia ręcznie"
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "nie porównano"
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 16 § 1 k.p.a.",
+   "kontekst": "* Decyzja ostateczna (art. 16 § 1 k.p.a.) – to decyzja, od której nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy (w przypadku decyzji MSWiA staje się ona ostateczna po bezskutecznym upływie 14 dni na złożenie wniosku o ponowne rozpatrzenie sprawy zgodnie z art. 127 § 3 k.p.a.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 16 § 1 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 16 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.65
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 127 § 3 k.p.a.",
+   "kontekst": "* Decyzja ostateczna (art. 16 § 1 k.p.a.) – to decyzja, od której nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy (w przypadku decyzji MSWiA staje się ona ostateczna po bezskutecznym upływie 14 dni na złożenie wniosku o ponowne rozpatrzenie sprawy zgodnie z art. 127 § 3 k.p.a.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 127 § 3 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 127 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.47
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "art. 16 § 3 k.p.a.",
+   "kontekst": "* Decyzja prawomocna (art. 16 § 3 k.p.a.) – to decyzja ostateczna, której nie można zaskarżyć do sądu administracyjnego (tj. po bezskutecznym upływie 30 dni na wniesienie skargi do WSA lub po prawomocnym odrzuceniu/oddaleniu skargi przez sąd).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 16 § 3 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 16 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "ustalone_z_tresci_nowelizacji",
+     "fragment": "Art. 16. § 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych. § 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 16. § 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych. § 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.38,
+    "slowa_wersji_wczesniejszej": [
+     "admin"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 217 § 1 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 217 § 1 i § 2 pkt 2 k.p.a.",
+   "kontekst": "* Przepisy k.p.a. nie używają wprost pojęcia „klauzuli ostateczności”, jednak w praktyce urzędowej pod tym pojęciem rozumie się przybicie na oryginale decyzji pieczęci stwierdzającej, że decyzja jest ostateczna, albo wydanie osobnego zaświadczenia o ostateczności (lub o ostateczności i prawomocności) decyzji na wniosek strony w trybie art. 217 § 1 i § 2 pkt 2 k.p.a.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 7,
+   "cytowanie_legal_cite": "art. 217 § 1 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 217 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Organ administracji publicznej wydaje zaświadczenie na żądanie osoby ubiegającej się o zaświadczenie."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.05
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 217 § 2 pkt 2 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 217 § 1 i § 2 pkt 2 k.p.a.",
+   "kontekst": "* Przepisy k.p.a. nie używają wprost pojęcia „klauzuli ostateczności”, jednak w praktyce urzędowej pod tym pojęciem rozumie się przybicie na oryginale decyzji pieczęci stwierdzającej, że decyzja jest ostateczna, albo wydanie osobnego zaświadczenia o ostateczności (lub o ostateczności i prawomocności) decyzji na wniosek strony w trybie art. 217 § 1 i § 2 pkt 2 k.p.a.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 217 § 2 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 217 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Zaświadczenie wydaje się, jeżeli: 1) urzędowego potwierdzenia określonych faktów lub stanu prawnego wymaga przepis prawa; 2) osoba ubiega się o zaświadczenie ze względu na swój interes prawny w urzędowym potwierdzeniu określonych faktów lub stanu prawnego."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.1
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 127a § 1 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 127a § 1 w zw. z art. 127 § 3 k.p.a.",
+   "kontekst": "Aby nie czekać na upływ terminów (14 dni + 30 dni), po odebraniu decyzji strony postępowania mogą złożyć oświadczenie o zrzeczeniu się prawa do złożenia wniosku o ponowne rozpatrzenie sprawy (art. 127a § 1 w zw. z art. 127 § 3 k.p.a.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 9,
+   "cytowanie_legal_cite": "art. 127a § 1 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 127a § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Przed upływem terminu do wniesienia odwołania strona może zrzec się prawa do wniesienia odwołania wobec organu administracji publicznej, który wydał decyzję."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. W trakcie biegu terminu do wniesienia odwołania strona może zrzec się prawa do wniesienia odwołania wobec organu administracji publicznej, który wydał decyzję."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 127a."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_artykulu",
+     "fragment": "W tym tekście nie ma art. 127a — w dniu 01.10.2011 artykuł nie istniał."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.33
+   }
+  },
+  {
+   "id": 10,
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 8,
+   "napis_grupy": "art. 127a § 1 w zw. z art. 127 § 3 k.p.a.",
+   "kontekst": "Aby nie czekać na upływ terminów (14 dni + 30 dni), po odebraniu decyzji strony postępowania mogą złożyć oświadczenie o zrzeczeniu się prawa do złożenia wniosku o ponowne rozpatrzenie sprawy (art. 127a § 1 w zw. z art. 127 § 3 k.p.a.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 9,
+   "cytowanie_legal_cite": "art. 127 § 3 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 127 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.4
+   }
+  },
+  {
+   "id": 11,
+   "powolanie": "art. 127a § 2 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 9,
+   "napis_grupy": "art. 127a § 2 k.p.a.",
+   "kontekst": "Z dniem doręczenia MSWiA takiego oświadczenia przez ostatnią ze stron decyzja staje się jednocześnie ostateczna i prawomocna (art. 127a § 2 k.p.a.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 11,
+   "cytowanie_legal_cite": "art. 127a § 2 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 127a § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Z dniem doręczenia organowi administracji publicznej oświadczenia o zrzeczeniu się prawa do wniesienia odwołania przez ostatnią ze stron postępowania, decyzja staje się ostateczna i prawomocna."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 127a."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_artykulu",
+     "fragment": "W tym tekście nie ma art. 127a — w dniu 01.10.2011 artykuł nie istniał."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.73
+   }
+  },
+  {
+   "id": 12,
+   "powolanie": "art. 101 § 3 k.r.o.",
+   "akt": {
+    "nazwa": "Kodeks rodzinny i opiekuńczy",
+    "kod_legal_cite": "KRO",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 10,
+   "napis_grupy": "art. 101 § 3 k.r.o.",
+   "kontekst": "Zgoda sądu opiekuńczego wydawana jest w postępowaniu nieprocesowym w formie postanowienia (na podstawie art. 101 § 3 k.r.o. lub art. 156 k.r.o. w zw. z art. 583 k.p.c.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 12,
+   "cytowanie_legal_cite": "art. 101 § 3 KRO",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 236 z 2026-02-20 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 d3e352a605afa1e5…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdftotext 24.02.0) — zaliczona; względem starszego t.j.: różne od t.j. DU/2023/2809 (HTML); odnośnik przy jednostce: Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2024 r. poz. 1841, z 2025 r. poz. 620, 1172, 1302, 1518 i 1661 oraz z 2026 r. poz. 26.)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-02-20) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 101 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 236 z 20.02.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (20.02.2026) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Rodzice nie mogą bez zezwolenia sądu opiekuńczego albo, w przypadkach wskazanych w art. 640¹ ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego (Dz. U. z 2024 r. poz. 1568, z późn. zm.), sądu spadku dokonywać czynności przekraczających zakres zwykłego zarządu ani wyrażać zgody na dokonywanie takich czynności przez dziecko."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2809 (HTML, 2023-12-07)",
+    "tj": "DU/2023/2809",
+    "data": "2023-12-07",
+    "fragment_wczesniejszy": "§ 3. Rodzice nie mogą bez zezwolenia sądu opiekuńczego albo, w przypadkach wskazanych w art. 640 1 ustawy z dnia 17 listopada 1964 r. - Kodeks postępowania cywilnego ( Dz. U. z 2023 r. poz. 1550 , 1429 , 1606 , 1615 , 1667 i 1860 ) , sądu spadku dokonywać czynności przekraczających zakres zwykłego zarządu ani wyrażać zgody na dokonywanie takich czynności przez dziecko."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 3. Rodzice nie mogą bez zezwolenia sądu opiekuńczego albo, w przypadkach wskazanych w art. 640 1 ustawy z dnia 17 listopada 1964 r. - Kodeks postępowania cywilnego ( Dz. U. z 2023 r. poz. 1550 , 1429 , 1606 , 1615 , 1667 i 1860 ) , sądu spadku dokonywać czynności przekraczających zakres zwykłego zarządu ani wyrażać zgody na dokonywanie takich czynności przez dziecko."
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "fragment": "§ 3. Rodzice nie mogą bez zezwolenia sądu opiekuńczego dokonywać czynności przekraczających zakres zwykłego zarządu ani wyrażać zgody na dokonywanie takich czynności przez dziecko."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.29
+   }
+  },
+  {
+   "id": 13,
+   "powolanie": "art. 156 k.r.o.",
+   "akt": {
+    "nazwa": "Kodeks rodzinny i opiekuńczy",
+    "kod_legal_cite": "KRO",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 11,
+   "napis_grupy": "art. 156 k.r.o. w zw. z art. 583 k.p.c.",
+   "kontekst": "Zgoda sądu opiekuńczego wydawana jest w postępowaniu nieprocesowym w formie postanowienia (na podstawie art. 101 § 3 k.r.o. lub art. 156 k.r.o. w zw. z art. 583 k.p.c.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 156 KRO",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2809; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 236 z 2026-02-20, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-02-20) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 236 z 20.02.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (20.02.2026) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 156. Opiekun powinien uzyskać zezwolenie sądu opiekuńczego albo, w przypadkach wskazanych w art. 640¹ ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego, sądu spadku we wszelkich ważniejszych sprawach, które dotyczą osoby lub majątku małoletniego."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2023/2809 (HTML, 2023-12-07)",
+    "tj": "DU/2023/2809",
+    "data": "2023-12-07"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "fragment": "Art. 156. Opiekun powinien uzyskiwać zezwolenie sądu opiekuńczego we wszelkich ważniejszych sprawach, które dotyczą osoby lub majątku małoletniego."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.29
+   }
+  },
+  {
+   "id": 14,
+   "powolanie": "art. 583 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 11,
+   "napis_grupy": "art. 156 k.r.o. w zw. z art. 583 k.p.c.",
+   "kontekst": "Zgoda sądu opiekuńczego wydawana jest w postępowaniu nieprocesowym w formie postanowienia (na podstawie art. 101 § 3 k.r.o. lub art. 156 k.r.o. w zw. z art. 583 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 583 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 583. Zezwolenia na dokonanie przez rodziców czynności przekraczającej zakres zwykłego zarządu majątkiem dziecka lub na wyrażenie przez rodziców zgody na dokonanie takiej czynności przez dziecko sąd opiekuńczy udziela na wniosek jednego z rodziców po wysłuchaniu drugiego. Postanowienie sądu opiekuńczego w tym przedmiocie staje się skuteczne dopiero z chwilą uprawomocnienia się i nie może być zmienione ani uchylone, jeżeli na podstawie zezwolenia powstały skutki prawne względem osób trzecich."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.29
+   }
+  },
+  {
+   "id": 15,
+   "powolanie": "art. 363 § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 12,
+   "napis_grupy": "art. 363 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c.",
+   "kontekst": "Orzeczenia sądowe (w tym postanowienia) stają się prawomocne, jeżeli nie przysługuje co do nich środek odwoławczy lub inny środek zaskarżenia (art. 363 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 15,
+   "cytowanie_legal_cite": "art. 363 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 363 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Orzeczenie sądu staje się prawomocne, jeżeli nie przysługuje co do niego środek odwoławczy lub inny środek zaskarżenia."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.67
+   }
+  },
+  {
+   "id": 16,
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 12,
+   "napis_grupy": "art. 363 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c.",
+   "kontekst": "Orzeczenia sądowe (w tym postanowienia) stają się prawomocne, jeżeli nie przysługuje co do nich środek odwoławczy lub inny środek zaskarżenia (art. 363 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 15,
+   "cytowanie_legal_cite": "art. 13 § 2 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 13 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Przepisy o procesie stosuje się odpowiednio do innych rodzajów postępowań unormowanych w niniejszym kodeksie, chyba że przepisy szczególne stanowią inaczej."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 17,
+   "powolanie": "art. 521 § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 13,
+   "napis_grupy": "art. 521 § 1 k.p.c.",
+   "kontekst": "Zgodnie z art. 521 § 1 k.p.c., postanowienie oddziałujące na sferę praw i obowiązków (np. zgoda na dokonanie czynności prawnej) staje się skuteczne po uprawomocnieniu się.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 17,
+   "cytowanie_legal_cite": "art. 521 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 521 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Jeżeli przepis szczególny inaczej nie stanowi, postanowienie orzekające co do istoty sprawy staje się skuteczne, a jeżeli wymaga wykonania – także wykonalne, po uprawomocnieniu się."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.36
+   }
+  },
+  {
+   "id": 18,
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 14,
+   "napis_grupy": "art. 364 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c.",
+   "kontekst": "* Takiemu postanowieniu sąd nadaje stwierdzenie prawomocności (potocznie nazywane klauzulą prawomocności) na podstawie art. 364 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c. (opłata kancelaryjna za wydanie odpisu ze stwierdzeniem prawomocności wynosi 20 zł za każde rozpoczęte 10 stron wydanego dokumentu – art. 77 ust. 1 pkt 1 ustawy o kosztach sądowych w sprawach cywilnych).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 18,
+   "cytowanie_legal_cite": "art. 364 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 364 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji, a dopóki akta sprawy znajdują się w sądzie drugiej instancji – ten sąd."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji na posiedzeniu niejawnym, a dopóki akta sprawy znajdują się w sądzie drugiej instancji - ten sąd. Stwierdzenia dokonuje sąd jednoosobowo."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 364. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji na posiedzeniu niejawnym, a dopóki akta sprawy znajdują się w sądzie rewizyjnym - ten sąd. Stwierdzenia dokonuje sąd jednoosobowo."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.19
+   }
+  },
+  {
+   "id": 19,
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 14,
+   "napis_grupy": "art. 364 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c.",
+   "kontekst": "* Takiemu postanowieniu sąd nadaje stwierdzenie prawomocności (potocznie nazywane klauzulą prawomocności) na podstawie art. 364 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c. (opłata kancelaryjna za wydanie odpisu ze stwierdzeniem prawomocności wynosi 20 zł za każde rozpoczęte 10 stron wydanego dokumentu – art. 77 ust. 1 pkt 1 ustawy o kosztach sądowych w sprawach cywilnych).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 18,
+   "cytowanie_legal_cite": "art. 13 § 2 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 13 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Przepisy o procesie stosuje się odpowiednio do innych rodzajów postępowań unormowanych w niniejszym kodeksie, chyba że przepisy szczególne stanowią inaczej."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 20,
+   "powolanie": "art. 77 ust. 1 pkt 1 ustawy o kosztach sądowych w sprawach cywilnych",
+   "akt": {
+    "nazwa": "Ustawa o kosztach sądowych w sprawach cywilnych",
+    "kod_legal_cite": "u.k.s.c.",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 15,
+   "napis_grupy": "art. 77 ust. 1 pkt 1 ustawy o kosztach sądowych w sprawach cywilnych",
+   "kontekst": "* Takiemu postanowieniu sąd nadaje stwierdzenie prawomocności (potocznie nazywane klauzulą prawomocności) na podstawie art. 364 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c. (opłata kancelaryjna za wydanie odpisu ze stwierdzeniem prawomocności wynosi 20 zł za każde rozpoczęte 10 stron wydanego dokumentu – art. 77 ust. 1 pkt 1 ustawy o kosztach sądowych w sprawach cywilnych).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 20,
+   "cytowanie_legal_cite": "art. 77 ust. 1 u.k.s.c.",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/959; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1228 z 2025-09-01, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2025-09-01) weszły w życie 3 nowelizacje: Dz.U. 2025 poz. 1157 (23.09.2025), Dz.U. 2025 poz. 1172 (01.03.2026), Dz.U. 2026 poz. 473 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 346 (30.09.2028)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 77 ust. 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1228 z 01.09.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "1. Opłatę od wniosku o wydanie na podstawie akt: 1) poświadczonego odpisu, wypisu lub wyciągu, 2) odpisu orzeczenia ze stwierdzeniem prawomocności, 3) odpisu orzeczenia ze stwierdzeniem wykonalności, 4) zaświadczenia – pobiera się w kwocie 20 złotych za każde rozpoczęte 10 stron wydanego dokumentu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/959 (HTML, 2024-06-11)",
+    "tj": "DU/2024/959",
+    "data": "2024-06-11"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "fragment": "1. Opłatę od wniosku o wydanie na podstawie akt: 1) poświadczonego odpisu, wypisu lub wyciągu, 2) odpisu orzeczenia ze stwierdzeniem prawomocności, 3) odpisu orzeczenia ze stwierdzeniem wykonalności, 4) zaświadczenia - pobiera się w kwocie 6 złotych za każdą rozpoczętą stronicę wydanego dokumentu."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.53
+   }
+  },
+  {
+   "id": 21,
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 16,
+   "napis_grupy": "art. 16 § 3 k.p.a.",
+   "kontekst": "* Jeśli dokumentem jest zgoda (zezwolenie) MSWiA (lub KOWR) -> jest to decyzja administracyjna, której dotyczy przymiot ostateczności (i ewentualnie prawomocności w rozumieniu art. 16 § 3 k.p.a.); z urzędu uzyskuje się dla notariusza zaświadczenie (lub pieczęć/klauzulę) o ostateczności decyzji.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 21,
+   "cytowanie_legal_cite": "art. 16 § 3 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 16 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "ustalone_z_tresci_nowelizacji",
+     "fragment": "Art. 16. § 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych. § 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 16. § 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych. § 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.16,
+    "slowa_wersji_wczesniejszej": [
+     "admin"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [
+  {
+   "napis": "Dz.U. z 2017 r. poz. 2278",
+   "kontekst": "Zgodnie z art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (t.j. Dz.U. z 2017 r. poz. 2278), zgoda na nabycie nieruchomości ma formę zezwolenia wydawanego w drodze decyzji administracyjnej przez ministra właś…",
+   "flagi": [],
+   "ocena": "tekst jednolity: Ustawa o nabywaniu nieruchomości przez cudzoziemców; najnowszy t.j. przed datą stanu prawnego: DU/2017/2278"
+  }
+ ],
+ "daty": [
+  {
+   "data": "1920-03-24",
+   "napis": "24 marca 1920",
+   "kontekst": "Zgodnie z art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (t.j. Dz.U. z 2017 r. poz. 2278), zgoda na nabycie nieruchomości ma formę zezwolenia wydawanego w d…"
+  }
+ ]
+}

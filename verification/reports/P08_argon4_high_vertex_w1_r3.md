@@ -1,0 +1,34 @@
+# Raport faktów — P08 · argon4_high_vertex_w1_r3
+
+Data stanu prawnego (klucz): 2026-10-01 · wygenerowano 2026-10-24T18:44:27 · 0.0 s
+Powołania: przepisy 17, orzeczenia 0, publikatory 0, daty 2
+Flagi: brak
+
+## Przepisy
+
+| # | powołanie | akt | istnieje | cytat | wersje | flagi |
+|---|---|---|---|---|---|---|
+| 1 | art. 50 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 2 | art. 3 pkt 60 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 3 | art. 50 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 4 | art. 3 pkt 60 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 5 | art. 50 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 6 | art. 3 pkt 60 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 7 | art. 50 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 8 | art. 50 ust. 4 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 9 | art. 50 ust. 4 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 10 | art. 50 ust. 2 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 11 | art. 50 ust. 1 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 12 | art. 3 pkt 60 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 13 | art. 50 ust. 4 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 14 | art. 50 ust. 2 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 15 | art. 50 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 16 | art. 3 pkt 60 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+| 17 | art. 50 AI Act | Rozporządzenie 2024/1689 (AI Act) | istnieje | brak cytatu | wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko… | — |
+
+## Orzeczenia
+
+| sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
+|---|---|---|---|---|---|---|
+
+Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

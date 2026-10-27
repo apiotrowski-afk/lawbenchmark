@@ -1,0 +1,82 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 133a § 1 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 216aa Prawo upadłościowe",
+   "zrodlo": "Dz.U. 2026 poz. 913",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wpada w pułapkę aktualności, opierając się na nieaktualnym stanie prawnym (sprzed 1.06.2026 r.) i twierdząc, że osobie fizycznej nie można doręczać pism przez Portal Informacyjny. Z tego powodu rdzeń (A-R) i podstawa prawna (A2) otrzymują 0 pkt, a odpowiedź nie realizuje żadnego elementu rubryki. Przypisanie nieaktualnego brzmienia przepisom art. 131¹ᵃ § 1 k.p.c. i art. 133a § 1 k.p.k. stanowi błąd typu W, a przypisanie art. 131¹ § 2 k.p.c. normy o wyrażeniu zgody na doręczenia elektroniczne (która znajduje się w § 1) to błąd typu T, co skutkuje A6 = 0 i etykietą hallucinated. Odpowiedź jest kategoryczna, co zgadza się z oczekiwaną kalibracją (B2 = 1), ale ze względu na błędne informacje jest całkowicie nieprzydatna (B1 = 0). Naliczono karę za twierdzenie, że osobie fizycznej bez pełnomocnika nie można doręczać przez portal.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"Art. 133a\" \"Kodeks postępowania karnego\" portal informacyjny",
+   "\"Art. 133a § 1\" kpk portal informacyjny",
+   "\"Art. 131(1) § 2\" kpc",
+   "\"Art. 131^1 § 2\" kpc",
+   "\"Art. 131\" kpc system teleinformatyczny",
+   "\"Art. 131 ze zn 1\" kpc",
+   "\"Art. 133 § 3\" kpc",
+   "\"Art. 216aa\" prawo upadłościowe"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10462,
+   "wyjscie": 797
+  },
+  "czas_s": 163,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

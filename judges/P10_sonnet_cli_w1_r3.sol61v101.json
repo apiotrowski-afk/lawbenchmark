@@ -1,0 +1,107 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=25",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 56 pr.aut. jako podstawa przeniesienia własności nośników",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=26",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 49 pr.aut. jako podstawa przeniesienia własności nośników",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=26",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=7",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=31",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf#page=25",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 436 k.c. jako podstawa dodatkowego wynagrodzenia twórcy",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf#page=43",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie udostępniono odpowiedzi tego samego systemu na P09; nie naliczono kary za nieudowodnioną sprzeczność."
+ ],
+ "uzasadnienie": "Odpowiedź zaprzecza przesłance, podaje wymagane podstawy, formę i przykłady oraz dopuszcza zakres wynikający z celu umowy, ale nie wskazuje wykładni z art. 65 k.c. wymaganej dla R5. Art. 56 dotyczy odstąpienia lub wypowiedzenia, art. 49 sposobu korzystania i zmian utworu, a własność egzemplarza reguluje art. 52. Art. 436 k.c. dotyczy odpowiedzialności za mechaniczne środki komunikacji, więc przypisanie mu roszczenia twórcy daje T; pochodzenie błędów: pamięć, zakres: poboczne. Wzmianka, że rażąca dysproporcja może uzasadniać roszczenie, nie wyklucza szerszej obecnej przesłanki art. 44 i nie stanowi W. Błędne wskazanie podstawy roszczenia ogranicza B1, a dygresja podatkowa i błędne uwagi poboczne obniżają A8.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 74,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

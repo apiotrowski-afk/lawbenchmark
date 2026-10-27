@@ -1,0 +1,103 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ELI: DU/2025/24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (ELI: DU/2026/795)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ELI: DU/2025/24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ELI: DU/2025/24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78 i 78¹ k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (ELI: DU/2026/795)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ELI: DU/2025/24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 i 46 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ELI: DU/2025/24)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo zaprzecza błędnej przesłance pytania już w pierwszym zdaniu, wskazując wymóg wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 pr.aut.), formę pisemną pod rygorem nieważności (art. 53 pr.aut.) oraz ograniczenie do pól znanych w chwili zawarcia umowy (art. 41 ust. 4 pr.aut.). Zgodnie z kluczem v3 oraz regułami B11 i B12 uwzględnienie możliwości wykładni umowy na podstawie art. 65 k.c. przy jednoczesnej rekomendacji wyliczenia pól daje pełny punkt za rdzeń (A-R = 2), zalicza piąty element rubryki (R5 = 1) oraz zapewnia poprawną kalibrację (B2 = 1). Odpowiedź nie zawiera cytatów przepisów w cudzysłowie (A3 = nd), a wszystkie powołane przepisy prawa autorskiego i Kodeksu cywilnego są zgodne z oficjalnym stanem prawnym (A6 = 1). Praktyczne przykłady pól eksploatacji dla social mediów oraz celne uwagi o formie elektronicznej (art. 78¹ k.c.) i prawach zależnych (art. 2 i 46 pr.aut.) uzasadniają maksymalne oceny w A8 i B1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"art. 41\" \"art. 46\" \"art. 50\" \"art. 53\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"art. 2\" \"o prawie autorskim i prawach pokrewnych\" \"opracowanie cudzego utworu\" OR OR",
+   "\"art. 65\" \"art. 78\" \"Kodeks cywilny\" OR OR",
+   "\"2025\" \"24\" \"prawie autorskim\"",
+   "\"obejmuje pola eksploatacji wyraźnie w niej wymienione\"",
+   "\"kwalifikowanym podpisem elektronicznym\" \"78\"",
+   "\"Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia\"",
+   "\"eli.gov.pl\" \"WDU20250000024\" OR \"DU/2025/24\"",
+   "\"isap.sejm.gov.pl\" \"2025\" \"poz. 24\" \"prawie autorskim\"",
+   "\"eli.gov.pl\" \"DU/2026/795\" OR \"Kodeks cywilny\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOj4quzUUO4Ti63YA4Xnkg3QIIgxErEVly4L8mYSPZzpA_-KBPISgclfuPsYyElKJCO41C_LlRW7sHaPqScNpgYC_-vV0w6tDW1S1gQZB3iiDNxezMYwSNgycmsrz6YgAD-Fuzzkk1rfVc-qL_ayAf_m7kCpkiwNmtgmifgWju8E7TFNhMWROFzrGg9RZbdQBY1qc26xv0cUTxvyOaKiZT_Esv0fcYNmvK9wKrVUG9",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6QmWm2ysQOAJmsm359xOTDBW4e5nTJw9MXfrSJ9xNKSfle5EKVcIYYfZSYxZ5jyZJqS34DE1MZOEoLswFKvC5pCB7Hk41oytrubHpqXqtEm65phnkeMGHOHY1pIb1l1lU79ymDT2D5vI5k1qmhOZCp5T_5Zbsn7kAxcBwEXaG1vtJxQp3pl2jV1_o5tSX7nYGMcdMUxAX",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_hMFA04drZX2snRAAfGRCFHhO2QQDcqDQVmSHfLfvhq_hc3sAJbbxhgYezaiIDXBHgjaoON3KQOimnHzzka1-8ZFMEl2yaw38yIgYImmddfq7Yzf9yvVx4fTQR4PvGjgfYzfvTlMIfxzyxgyMpg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlQNgQ_NVhwjS5u7r-l-uqC3Ezcbqatj_Nc9tJoEnf5wG4qwAKoaQ4BYGk0_IUiWPC-tN9yIX-RMpA1xCnWrQ0ev0LYCxn5HgGJrTNt4-lrNE5D9Xnl-iIoAb5UdG_yN9yagrEoLnpDjZAi3n1LoS7P8iyLIV2fnu6MAANKOdunTjPdGtjLESjUFHNlflg1TTFh0DoS0C-bcB4qA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAwfCSX70ZLns15u7V5JUz9q2FNnjv9u2wcAJ1lH1X4J-9Q9dmzLUnWn_1Hi8vyFmCBWQlcfQWzmF9Vyd59WP_Yqy3-fzhISiav0tbu1el2rtNMtLckEIwCrK5iJ9FgRT1zvpRa9WWJs1IS2kyDwk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX2RIbbZ2zfnl92T8l-DUTMT0WcpHbEnqil3zC2pvMuBHFC0os72AXINzmXDPCefpJzSnF0XLlQ2dS2zP_J-iCifE8_omV2pGdyoTXU_uKZS1WxKsfcUjdRiyyxq7aStE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVUukWc6t--itYckC3Hf-L7bu7NL764nDeLye1EyC37WmwFmBx-J6LSY4dDuYzE-7h1yUzpyy-yDskqd3Pp5kjcIu0ISNIYYEQao04XP-00zrOYBdyMr7AKoaZIAH25ZQr",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETOrtc3nuD5nbTiR6MtXn3EhV0QvIROWoRDQweI1WLv0sH6CKTP_nu04FdxMw7HcPUHs5_sXxGCB_Z5OWIKrNrORtJRQQ-jXNkdzWuX56w8DlnlKtObb6bGbwv3jF-EodJAxasnHoZxT9gvTMRmUxbJ-UkM39LCieaWGR_mKcPvLisKICbfrXMc3n7q-Y="
+  ],
+  "tokeny": {
+   "wejscie": 13370,
+   "wyjscie": 1370
+  },
+  "czas_s": 100,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

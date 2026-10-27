@@ -1,0 +1,79 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 § 2 pkt 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie koryguje formę rozstrzygnięcia na decyzję administracyjną MSWiA oraz wskazuje tryb zaświadczenia z art. 217 § 2 pkt 2 k.p.a., jednak przypisuje normę o wydawaniu zezwolenia w drodze decyzji art. 3 ust. 1 u.n.n.c. (który reguluje treść zezwolenia) zamiast art. 1 ust. 1, co skutkuje A6 = 0 (klasa T) oraz A2 = 0. W rdzeniu odpowiedź błędnie przyjmuje, że dla potrzeb obrotu właściwe jest potwierdzenie ostateczności, a nie prawomocności decyzji, co zgodnie z regułami oceny klucza daje A_R = 0 oraz brak punktów w R3 i R4. Kara K3 nie zostaje naliczona, gdyż system zauważa możliwość uzyskania przymiotu prawomocności w rozumieniu art. 16 § 3 k.p.a. i pisze o ostateczności „co do zasady”, a nie „wyłącznie”.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"ustawy z dnia 24 marca 1920\" \"art. 3\" nabywaniu nieruchomości przez cudzoziemców isap OR eli.gov.pl",
+   "\"art. 3\" \"2278\" 2017 nabywaniu nieruchomości przez cudzoziemców",
+   "\"art. 16\" \"art. 217\" \"1691\" 2025 kodeks postępowania administracyjnego eli.gov.pl OR isap",
+   "\"Art. 3.\" \"Zezwolenie jest ważne\" \"nabywaniu nieruchomości przez cudzoziemców\"",
+   "\"2017\" \"2278\"",
+   "\"DU/2017/2278\"",
+   "\"Decyzje, od których nie służy odwołanie w administracyjnym toku instancji\" eli.gov.pl OR sejm.gov.pl",
+   "\"Zaświadczenie wydaje się, jeżeli\" \"217\" \"1691\" eli.gov.pl OR sejm.gov.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14479,
+   "wyjscie": 918
+  },
+  "czas_s": 105,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

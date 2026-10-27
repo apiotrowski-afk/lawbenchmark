@@ -1,0 +1,58 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o., w tym § 1–2",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Pierwszy akapit podaje trafny kierunek, ale pomija kluczowy warunek zgody małżonka, dlatego A_R = 1. Dalsza odpowiedź prawidłowo rozróżnia oba tryby, uzależnia zastosowanie art. 787 od zgody i wyjaśnia brak znaczenia oznaczenia działalności w tytule. Sprostowanie art. 781¹ zaliczono mimo niewskazania długości terminu, ponieważ jednoznacznie odróżniono przepis o terminie od ograniczenia do przedsiębiorstwa. Brakuje wskazania możliwości egzekucji z majątku osobistego, wynagrodzenia i dochodów dłużnika przy braku obu przesłanek. Wszystkie powołania odpowiadają treści urzędowych przepisów; jednozdaniowa formuła żądania nie jest cytatem przepisu ani dygresją.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 45,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

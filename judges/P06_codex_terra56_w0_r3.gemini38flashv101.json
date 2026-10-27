@@ -1,0 +1,74 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (art. 394² k.p.c.)",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c. w zw. z art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (art. 394 § 2 w zw. z art. 394² § 2 k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje dopuszczalność zażalenia poziomego w SA, lecz odpowiada kategorycznie 'Tak' bez wymaganego rozróżnienia na zażalenie poziome i dewolutywne, co skutkuje A_R = 1, B2 = 0 oraz karą K. Jako podstawę zaskarżenia podano nieistniejącą jednostkę redakcyjną 'art. 394² § 1 pkt 12 k.p.c.' (art. 394² § 1 nie dzieli się na punkty, a sformułowanie przeniesiono z art. 394¹ᵃ § 1 pkt 12 k.p.c.; właściwa norma mieści się w art. 394² § 1² zd. 2 k.p.c.), co determinuje A6 = 0 (błędy F i T) oraz etykietę hallucinated. Żadna z podstaw wymaganych z klucza nie została powołana (A2 = 0). Wobec ryzyka wniesienia niedopuszczalnego środka zaskarżenia w scenariuszu dewolutywnym przydatność obniżono do B1 = 1.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 15,
+  "zapytania": [
+   "\"art. 394(2)\" kpc sejm gov pl",
+   "\"art. 394(2) § 1\" kpc treść",
+   "\"394(1a)\" \"pkt 12\" kpc sejm",
+   "\"art. 394(2)\" \"§ 1\" \"§ 1(1)\" \"§ 1(2)\" kpc sejm",
+   "\"art. 394(2) § 1 pkt 12\" kpc",
+   "\"art. 3942 § 1\" kpc isap",
+   "\"art. 3942\" kpc sejm gov pl treść",
+   "\"394(2) § 1\"",
+   "\"394(2) § 1 pkt\"",
+   "\"394(1a) § 1 pkt 12\"",
+   "\"394(2) § 12\"",
+   "\"art. 394(2) § 1\" \"Zażalenie do innego składu sądu drugiej instancji\" kpc",
+   "\"art. 394(2)\" kpc \"innego składu\" \"odrzuca\"",
+   "\"art. 394(1a) § 1 pkt 12\" \"odrzucenie zażalenia\" kpc",
+   "\"art. 394(2) § 1\" pkt kpc"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9177,
+   "wyjscie": 567
+  },
+  "czas_s": 40,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

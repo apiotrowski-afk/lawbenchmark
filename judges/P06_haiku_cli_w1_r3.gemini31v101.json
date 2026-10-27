@@ -1,0 +1,110 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN V CZ 48/16",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 380 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 ust. 1 Konstytucji RP",
+   "zrodlo": "Dz.U. 1997 nr 78 poz. 483",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ust. 1 ustawy o TK",
+   "zrodlo": "Dz.U. 2019 poz. 2393",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 102 uksc",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 379 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System nie rozpoznaje rozróżnienia na zażalenie poziome i dewolutywne, skupiając się wyłącznie na niedopuszczalności zażalenia do SN (A-R=0). Odpowiedź zawiera halucynacje (A6=0, typ T): przypisuje postanowieniu SN V CZ 48/16 tezę, że zażalenie może zostać potraktowane jako wniosek z art. 380 k.p.c., podczas gdy SN wskazał na konieczność jednoznacznego sformułowania takiego wniosku. Ponadto błędnie wskazuje art. 53 ust. 1 ustawy o TK jako podstawę terminu na wniesienie skargi konstytucyjnej. Dygresje o innych środkach prawnych przeważają objętościowo, co obniża A8 do 0. Brak rozróżnienia skutkuje naliczeniem kary i B2=0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"V CZ 48/16\"",
+   "\"V CZ 48/16\" orzeczenie sn",
+   "\"III CZ 468/22\"",
+   "\"V CZ 48/16\" \"380\"",
+   "\"V CZ 48/16\" \"niedopuszczalne\"",
+   "\"V CZ 48/16\" \"odrzuceniu zażalenia\"",
+   "\"V CZ 48/16\" filetype:pdf",
+   "\"V CZ 48/16\" \"Sąd Najwyższy\" \"postanowienie\"",
+   "\"V CZ 48/16\" \"380 k.p.c.\"",
+   "\"V CZ 48/16\" \"potraktowane jako wniosek\"",
+   "\"V CZ 48/16\" \"wniosek o kontrolę\"",
+   "\"V CZ 48/16\" \"380\" \"zażalenie\"",
+   "\"zażalenie na takie postanowienie może zostać potraktowane jako wniosek o kontrolę\"",
+   "\"potraktowane jako wniosek o kontrolę postanowienia w trybie art. 380\"",
+   "\"V CZ 48/16\" \"wniosek\" \"380\"",
+   "\"Powinna jednak w takim zażaleniu jednoznacznie sformułować odpowiedni wniosek\"",
+   "\"Powinna jednak w takim zażaleniu jednoznacznie sformułować odpowiedni wniosek (por. postanowienia Sądu Najwyższego\"",
+   "\"Skargę konstytucyjną wnosi się po wyczerpaniu drogi prawnej\" \"miesiące\"",
+   "\"art. 53 ust. 1 ustawy o TK\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF12y5c-Ww08oHLLkyu4jKh5XXoR9v6LiC_VWuWrZAGftI_9mfzIJ2OgAb0RCRa9scxra6LSLM-SzAIVq_9LI02C-rcXdS5Kw8VwKVM708rzGyynHNwJDXCEa2Cdmgs3clqJzffcSQ7yfUti5gvkruBOu2dMSCVtw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFFUR1VmHnk1fLYiNOA8SX_-9TYaOuEYuBjXIvsPPKbloqrRL7NHVOMwOTBADem2dkvR1M1OPSbL8S3IEoIQRJl_GGb141U1YP8U9dclgbBSpoqdVXR9l_2_mMPj34c37hwQQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzwo3UcQSg7yNljuEuPniT4r8FYha5ot7dfLLronlT0Sngsu2eTRv8ugvk8ul5tyotAI3JWLb_kaE6UxRUFb0ueJm1YvzvEfaXQL2ohW9PjvxSIqcbk8-wF9ABi6iq4al5DNQDO4d0nwB_TGj-m9O1mXbeg5EortqK5GKtYKi4Ksqp6Ttu",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOD7ZacyHcUJNmL8D0teJZEssTced7t3dBYR853Le4iftbPY_x44qapAP7Q306Uqc2kRcoPmiHZjcnMWkdq84ItRFGk1IiSP8-Mx-BsoUp09UQCowVkSioZ08VL7NEgDeLWNkEOMDGR0N4ABBOuQ_IZHawwmIxCv0x9rgrySSIRzVE9HUrMw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFheoOgADKfhMmqpCbN0PmGA8BjT3LVgDCXyu0JqaPlKGd2OsbY5UbeSEzA7R5HTPy5CeEi0y-a4pdS5zYzruvWHeahZXLFbrQtnAa0dbv1m9cgK9bX7e7BOKJNAq16Tg0QGUJAagOe1Oqe"
+  ],
+  "tokeny": {
+   "wejscie": 12210,
+   "wyjscie": 813
+  },
+  "czas_s": 227,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

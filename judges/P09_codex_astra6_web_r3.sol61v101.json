@@ -1,0 +1,80 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text/T/D20251071L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/i%20csk%20596-17-1.pdf",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełna treść wyroku SN I CSK 596/17: oficjalny PDF pozostawał niedostępny mimo ponowionych prób; wyszukiwanie potwierdziło identyfikator i datę, a oficjalny tekst IV CSKP 44/21 pośrednio potwierdza przypisaną tezę."
+ ],
+ "uzasadnienie": "Odpowiedź realizuje rdzeń warunkowy: ogólna formuła zasadniczo nie wystarcza, ale zakres przeniesienia może wynikać z wykładni umowy. Podaje obie wymagane podstawy, formę pisemną pod rygorem nieważności i przykłady pól właściwych dla social mediów. Nie wyjaśnia niestosowania art. 12 przy zleceniu ani reguły in favorem auctoris, dlatego nie zaliczono R4 i R5. Wszystkie sprawdzone przepisy odpowiadają przypisanej treści; nie stwierdzono podstaw do obniżenia A6, z zastrzeżeniem niepełnej weryfikacji wyroku. Brak cytatów przepisów w rozumieniu klucza; odpowiedź jest praktyczna, pozostaje w ramach pytania i zachowuje właściwą warunkowość.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 14,
+  "czas_s": 70,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

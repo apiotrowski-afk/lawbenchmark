@@ -1,0 +1,106 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689 z dnia 13 czerwca 2024 r.",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motyw 134 preambuły AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wytyczne Komisji Europejskiej do art. 50 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco wyjaśnia definicję deepfake z art. 3 pkt 60 AI Act oraz obowiązki z art. 50. Prawidłowo powołuje motyw 134 preambuły, który dotyczy deepfake'ów. Cytat z art. 3 pkt 60 jest dosłowny. Odpowiedź traci punkt za element rubryki R6, ponieważ odwołuje się do wytycznych KE, ale nie zaznacza, że są one soft law (niewiążące). Kalibracja pewności jest prawidłowa (warunkowa).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 17,
+  "zapytania": [
+   "\"motyw 134\" \"deepfake\" \"AI Act\"",
+   "\"motyw 133\" \"deepfake\" \"AI Act\"",
+   "\"motyw 134\" \"deepfake\"",
+   "\"motyw 133\" \"deepfake\"",
+   "\"motyw 134\" \"W odniesieniu do systemów AI ogólnego przeznaczenia\"",
+   "\"motyw 133\" \"Osoby fizyczne, które wchodzą w interakcję\"",
+   "\"W odniesieniu do systemów AI ogólnego przeznaczenia, które generują syntetyczne treści\"",
+   "\"Osoby fizyczne, które wchodzą w interakcję z systemem AI, powinny być informowane\"",
+   "\"motyw 134\" \"sztucznej inteligencji\"",
+   "\"motyw 133\" \"sztucznej inteligencji\"",
+   "\"Osoby fizyczne, które wchodzą w interakcję z systemem AI\" \"motyw\"",
+   "\"W odniesieniu do systemów AI ogólnego przeznaczenia, które generują syntetyczne treści\" \"motyw\"",
+   "\"W przypadku gdy systemy AI generują lub manipulują obrazami, treściami audio lub wideo, które w znacznym stopniu przypominają istniejące osoby\"",
+   "\"W odniesieniu do systemów AI ogólnego przeznaczenia, które generują syntetyczne treści audio, wideo, tekstowe lub obrazy\"",
+   "\"deepfake\" \"rozporządzenie 2024/1689\"",
+   "\"deepfake\" \"2024/1689\"",
+   "\"Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689 z dnia 13 czerwca 2024 r.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJrE7m3wlb3z2p4P3kSTr1ZYrKv1UNUrssWarPkAq7YDbW120977ipWGTKnXi3Sw1L7B8fv8s8InpzDf8Sa1ELkvoLGARqYl0aO5CJTkh9C1UnZ0FHw6GMj8k-vnTBT9o4f6nxrh1ZcGWOiUNXydhRrEeKgT1uYG8z6AmUSoRDOtJzE54z1g9XI72gcoqlg2iRlekRKUW80Ylu0McBVj-vV6h4WvgMa54K6LuldTNvimEJqbrrQT59UyxElKoH67YpELE1uV9FPNW1wKNyPCs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE632PRiUwsJea0Qao3MKQ9pV_A21xVC-wuxSzgkHCdG-95r2bjFsZP7nAl1MGyjWuLBe1dqVMDeXPl7HEvPBOGyEErPYe4YGCmTI9gDLbvb6r1CAWvj4qpyZ86QPJTe_ujSzE5E3W0YDkmRuNFwDv4PBJrPcLUqNZDhXllqY7mVK4w"
+  ],
+  "tokeny": {
+   "wejscie": 17766,
+   "wyjscie": 679
+  },
+  "czas_s": 205,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

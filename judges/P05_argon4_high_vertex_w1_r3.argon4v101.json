@@ -1,0 +1,140 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c. (w brzmieniu nadanym ustawą z dnia 5 sierpnia 2025 r., Dz.U. z 2025 r. poz. 1172)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2025 poz. 1172 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c. (w tym zd. 3)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2025 poz. 1172 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2025 poz. 1172 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3–4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym (Dz.U. z 2024 r. poz. 368 ze zm., w tym Dz.U. z 2026 r. poz. 225), w tym § 2 pkt 3",
+   "zrodlo": "Dz.U. 2024 poz. 368 oraz Dz.U. 2026 poz. 225 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a § 1–5 k.p.k. (w tym § 1a, § 2, § 3, § 4; w brzmieniu nadanym ustawą z dnia 9 lipca 2025 r., Dz.U. z 2025 r. poz. 1178)",
+   "zrodlo": "Dz.U. 2026 poz. 490 (t.j. k.p.k.) oraz Dz.U. 2025 poz. 1178 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczeń pism w postaci elektronicznej w postępowaniu karnym (Dz.U. z 2024 r. poz. 367 ze zm.)",
+   "zrodlo": "Dz.U. 2024 poz. 367 oraz Dz.U. 2026 poz. 661 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 20 lutego 2026 r. w sprawie portalu informacyjnego (Dz.U. z 2026 r. poz. 216)",
+   "zrodlo": "Dz.U. 2026 poz. 216 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 125¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2025 poz. 1172 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 116a k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490 (t.j. k.p.k.) oraz Dz.U. 2025 poz. 1178 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 125² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2025 poz. 1172 (ELI/ISAP)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2026 poz. 3 (t.j. u.d.e., art. 155 ust. 7)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo rozpoznał nowelizację k.p.c. obowiązującą od 1 czerwca 2026 r. (Dz.U. 2025 poz. 1172), podał pełny rdzeń odpowiedzi (A_R=2), wszystkie wymagane podstawy prawne z art. 131¹ᵃ § 1, § 1¹ i § 2 k.p.c. (A2=1) oraz zrealizował wszystkie cztery punkty rubryki. W punkcie 5 odpowiedzi system przypisał jednak przepisowi art. 125² § 1 k.p.c. normę, zgodnie z którą wniesienie pisma procesowego przez Portal Informacyjny przez osobę nieuprawnioną nie wywołuje skutków prawnych. W rzeczywistości art. 125² § 1 k.p.c. reguluje wnoszenie załączników, które ze względu na swoje właściwości nie mogą zostać wniesione przez portal (w terminie 3 dni z pominięciem portalu), natomiast sankcja bezskuteczności wniesienia pisma przez osobę nieuprawnioną została uregulowana w art. 125³ § 2 k.p.c. Zgodnie z regułą graniczną nr 2 (wskazana jednostka redakcyjna z cudzą treścią = T) skutkuje to oceną A6=0 i oznaczeniem odpowiedzi jako hallucinated. Pod względem praktycznym i kalibracji odpowiedź jest wyczerpująca, precyzyjna i kategoryczna (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 41,
+  "zapytania": [
+   "\"1311a\" \"Kodeks postępowania cywilnego\" OR",
+   "\"poz. 1172\" 2025 \"5 sierpnia 2025\" OR",
+   "\"poz. 1178\" 2025 \"133a\" OR",
+   "\"poz. 225\" 2026 \"portalu informacyjnego\" OR",
+   "OR \"1172\" \"1311a\"",
+   "\"2026\" \"468\" \"1311a\" OR \"1251\"",
+   "\"1311a\" \"134 § 1\" \"portalu informacyjnym\" kpc",
+   "\"1251\" \"1252\" \"1172\" \"5 sierpnia 2025\" kpc",
+   "\"1251\" \"1252\" \"1253\" \"1254\" \"portalu informacyjnego\" kpc",
+   "\"nie wywołuje skutków prawnych\" \"portalu informacyjnego\" kpc \"125\"",
+   "\"1311a\" \"134\" \"portalu informacyjnym\" OR \"w porze nocnej\" kpc",
+   "\"Dz. U. z 2026 r. poz. 468\" OR \"poz. 1172\" \"1311a\" \"§ 2\" \"§ 3\" \"§ 4\"",
+   "\"Dz. U. 2025 poz. 1172\" \"1252\" \"1253\" \"1311a\" OR",
+   "\"Dz. U. 2025 poz. 1178\" \"133a\" \"116a\" OR",
+   "\"poz. 368\" \"12 marca 2024\" \"portalu informacyjnego\" \"§ 2\" OR OR \"Odbierz\"",
+   "\"poz. 216\" \"20 lutego 2026\" OR \"poz. 367\" \"12 marca 2024\" OR",
+   "\"Dz. U. 2025 poz. 1172\" \"s. 2/10\" OR \"s. 3/10\" OR \"1311a\"",
+   "\"Dz. U. 2025 poz. 1178\" \"133a\"",
+   "\"133a\" \"§ 1a\" \"§ 2\" \"§ 3\" \"§ 4\" \"Kodeks postępowania karnego\" \"portalu informacyjnym\"",
+   "\"1311a\" \"§ 11\" \"§ 2\" \"§ 3\" \"§ 4\" \"134 § 1\" \"portalu informacyjnym\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14602,
+   "wyjscie": 3545
+  },
+  "czas_s": 322,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

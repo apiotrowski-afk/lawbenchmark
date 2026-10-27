@@ -1,0 +1,65 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo wskazuje próg 800 zł i wyjaśnia, że jest to kwota stała niezależna od płacy minimalnej. Powołane przepisy art. 119 § 1 i 124 § 1 k.w. są zgodne z ich literalnym brzmieniem. System spełnia wszystkie elementy rubryki, w tym wskazuje inny przepis o tym samym progu (art. 124 § 1 k.w.). Kalibracja jest kategoryczna, zgodnie z oczekiwaniami.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza\" \"Kodeks wykroczeń\"",
+   "\"Dawne powiązanie progu z ¼ minimalnego wynagrodzenia zniesiono w 2018 r.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFWu9Vtkg0YaqGqRoUHO9YqfpxQ7qqlvGIrxepambEn0o_cq6XjCHmD0eUuebYdXe-n1rJVXIJp74WmVAmTL7BRs7KTKrwKb2mOal-Vk50VWWSojtml8QmJNKZJhEsmvJJLXbFjN-PIKvxfd6i",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDLBF_aTgnBfzp9xW6hvq2YT2TXK2hHwehlxc0PTOyj_IgFkBsY5ssWE-F23SYneLZZr0IqxiITpFQXJ_GLw89WlqPR1xyAcidT2Ah4ZUlznrlCZlkFzDLAqh51jTlqaIpCjaustCqauYd",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6_Fp5BvGitzadJRhBX8469YDRI_uGTVK67v3n24H2BvcAIeAShIXkiNS8xKlB1EuuTaIP2ut4qd5PO8Bn1j8GQk4UWS8HPNSNKots4v5y-HjO1T3zIlEEwjm0f9e1JBPR1w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9RkghK3mOsXYfnavn7WmmbT_gnn-cRJjBFe1S2Akvn5YmmIVu8XdqDF-lS5_52t1YJZ9Rg-fGPQZqKmg_Rer7CqligrkbYPdQtlba479YMOiM22vayTrLoLKVJt4qpCIuvRJMckV9qleTs7YhgtQMAcICW8g5mRsbJo4l4KjEvDiZOnJD_Kv3kA=="
+  ],
+  "tokeny": {
+   "wejscie": 13452,
+   "wyjscie": 416
+  },
+  "czas_s": 67,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

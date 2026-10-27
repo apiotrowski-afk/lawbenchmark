@@ -1,0 +1,179 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A6_pochodzenie": [
+  "odczyt_źródła"
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 ust. 1 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 47¹ ust. 1 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 47¹ ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 58 § 1 i 3 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 734 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ § 1 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14 września 2005 r., sygn. III CK 124/05",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SA w Warszawie z 17 października 2012 r., sygn. I ACa 1244/11",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SA w Łodzi z 27 lutego 2013 r., sygn. I ACa 1188/12",
+   "zrodlo": "SAOS",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo zaprzecza przesłance i wyczerpująco omawia zagadnienie, spełniając wszystkie wymogi rdzenia i rubryki. Powołuje właściwe przepisy i orzecznictwo. Jedynym błędem jest zniekształcona sygnatura wyroku SA w Łodzi z 27 lutego 2013 r. – system podał I ACa 1188/12 zamiast prawidłowej I ACa 1157/12 (błąd typu S), co skutkuje oceną A6=0 i etykietą hallucinated. Poza tym odpowiedź jest wysoce przydatna i poprawnie skalibrowana.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"III CK 124/05\"",
+   "\"I ACa 1244/11\"",
+   "\"I ACa 1188/12\"",
+   "\"I ACa 1188/12\" \"27 lutego 2013\"",
+   "\"I ACa 1188/12\" \"pola eksploatacji\"",
+   "\"na wszystkich polach eksploatacji wymienionych w art. 50\" orzeczenie",
+   "\"I ACa 1188/12\" \"art. 50\"",
+   "\"I ACa 1188/12\" \"prawo autorskie\"",
+   "\"wyrok SA w Łodzi z 27 lutego 2013\" \"pola eksploatacji\"",
+   "\"wyrok SA w Łodzi z 27 lutego 2013\" \"art. 50\"",
+   "\"wyrok SA w Łodzi z 27 lutego 2013\" \"prawo autorskie\"",
+   "\"I ACa 1157/12\" \"pola eksploatacji\"",
+   "\"I ACa 1157/12\" \"art. 50\"",
+   "\"I ACa 1157/12\" \"prawo autorskie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH193n2xcSBpWtiy5kkBGz9A5YTz0CzIz8PRQyjdJyE1mnDCnS5s4g5Jx_6t23Zr6fNomgcSNCOQmnUE3MyWCx5ZemJjx7qkgPvGcgMSVX-FelwgpxknsIp1eO-Y5ONbfTGOkKWuFJfOwjQ3FO5FR0OWj_fZBVk_yw2t4XbThWLt-J5v3SeMpf8WZDYMfvNVUdGLnlKAJz520CE1-AqwPYV_5wE0Er41zRCPYzIsLjPuuPi",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENPsqy4NmRfXhdwD9T3Pl7iouAR1r3KZUOzJCaoMpf8-kyPk-MJgsY2lQsimHzDmrzbUt4cBt1gwynVbrgSf2LCeUNtKDq6qMOCMJjeVI8Pc9cDQllk32LNF5AO6lpoeQMZFHnllQ8juIXjQ8xFdsIhilrOFCbXiFSmp2sQ1N8pnMxGASJ0jZp6Zon1KuPEMTPM6aymSo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuIZMrN2NcLOmHrHpcaGgPVGeObyVVcwnylW2onr3zLWsCTYccrjnmCsH5f3EaVYIw8C2FEsaz35xYyklUVNkKvCvZojuAkVQjQEPZx3yekhZ0e1UaqeneeuNe5xO74awuWG_jL081uQqo1RQBBLJPUEPRQcg6zLX1iMvUm_ebnbe_z4OQKv4SfFxIjFrktM1wEqFaKOaxd7kJA5ddXp7j9HbmNyB-F29PzaMClhEli_SMTXkZzUWlqLC-ut8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVK3MjL9TMTiTCNCtjkxBH9RBeHkELtfu-rwxmb2E0zX9ocqC745XjUW0aQkttMK_xggNoLJh7oDy98W7mZqmc8b5wRa77wEGbIPQRzvDJK7WdyfgQ6R7NMzRonZyiDNOYDYTQGDjtZLXYSCPYzYAEo0BLT2hn6IgZhH70g1A9bzlOjkVUqSKlM_tRtYMbvLEowjorDQ=="
+  ],
+  "tokeny": {
+   "wejscie": 17486,
+   "wyjscie": 1664
+  },
+  "czas_s": 220,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

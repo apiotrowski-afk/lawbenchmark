@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 119 § 1 ustawy z dnia 20 maja 1971 r. – Kodeks wykroczeń",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 124 § 1 ustawy z dnia 20 maja 1971 r. – Kodeks wykroczeń",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600 ze zm.) – opis zmiany z 1.10.2023 r. jako oderwania progu od 1/4 minimalnego wynagrodzenia",
+   "zrodlo": "ISAP Dz.U. 2022 poz. 2600 (art. 4 pkt 5 i 8), Dz.U. 2022 poz. 2151 (t.j.) oraz Dz.U. 2018 poz. 2077",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie podaje obowiązujący próg 800 zł, brak wpływu płacy minimalnej oraz prawidłowe podstawy prawne (art. 119 § 1 i art. 124 § 1 k.w.), co daje pełny rdzeń (A_R = 2), A2 = 1 oraz zaliczenie R1, R2 i R4. W opisie historii zmian pojawia się jednak błąd klasy W (A6 = 0, hallucinated = true): odpowiedź twierdzi, że do 1 października 2023 r. próg wynosił 1/4 płacy minimalnej i dopiero nowela z Dz.U. 2022 poz. 2600 oderwała go od minimalnego wynagrodzenia, pomijając etap sztywnej kwoty 500 zł obowiązującej od 15 listopada 2018 r. (Dz.U. 2018 poz. 2077; t.j. Dz.U. 2022 poz. 2151). Zgodnie z regułą z przeglądu kart (2026-10-18) błędna historia zmian przepisu z pominięciem etapu progu skutkuje klasą W oraz wyzerowaniem elementu R3 (R3 = 0). Błąd dotyczy wyłącznie historii zmian i nie wpływa na praktyczną poradę co do aktualnego stanu prawnego, dlatego zgodnie z zakazem podwójnego karania w bloku B przyznano B1 = 2 oraz B2 = 1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 734\" \"art. 119\" \"art. 124\" OR",
+   "\"Dz.U. 2022 poz. 2600\" \"Kodeks wykroczeń\" OR",
+   "\"Kodeks wykroczeń\" \"500 złotych\" \"2018\" OR",
+   "\"Art. 124\" \"Kto cudzą rzecz umyślnie niszczy\" \"800 złotych\" OR",
+   "\"Art. 119.\" \"Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych\" OR",
+   "\"2025\" \"734\" \"Kodeks wykroczeń\"",
+   "\"2022\" \"2600\" \"art. 4\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13413,
+   "wyjscie": 1141
+  },
+  "czas_s": 92,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

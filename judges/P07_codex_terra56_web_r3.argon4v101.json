@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 25b ust. 1 ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "Dz.U. 2025 poz. 1228 (t.j. u.k.s.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "uchwała SN z 2.07.2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl / OSNC 2021 nr 12 poz. 80",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia rdzeń rozstrzygnięcia oraz wszystkie cztery elementy rubryki, prawidłowo powołując art. 357 § 5 k.p.c. i uchwałę SN III CZP 38/20 (A-R = 2, R = 4/4). Jako podstawę tygodniowego terminu na złożenie wniosku o uzasadnienie postanowienia wydanego na posiedzeniu jawnym i niejawnym system wskazał jednak „art. 357 § 2–3 k.p.c.” zamiast wymaganych art. 357 § 1 i § 2¹ k.p.c., przypisując tym jednostkom cudzą treść (posiedzenie jawne reguluje § 1, a § 3 dotyczy terminu dla sądu na sporządzenie uzasadnienia), co obniża A2 do 0 oraz A6 do 0 (klasa T). Ponadto system bez zastrzeżeń przypisał art. 25b ust. 1 u.k.s.c. opłatę 100 zł od wniosku o uzasadnienie postanowienia, podczas gdy przepis ten dotyczy wyłącznie wyroków i postanowień co do istoty sprawy, a dla pozostałych postanowień opłata wynosi 30 zł wg art. 25b ust. 2 u.k.s.c. (klasa T). Błąd co do kwoty opłaty i podstawy prawnej wniosku ogranicza przydatność praktyczną odpowiedzi do B1 = 1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"357\" OR OR \"zasadnicze powody rozstrzygnięcia\"",
+   "\"25b\" \"kosztach sądowych w sprawach cywilnych\" OR OR",
+   "\"III CZP 38/20\" OR",
+   "\"III CZP 38/20\"",
+   "\"DU/2026/468\" OR \"2026/468\"",
+   "\"DU/2025/1228\" OR \"2025/1228\"",
+   "\"sn.pl\" \"III CZP 38/20\"",
+   "\"saos.org.pl\" \"III CZP 38/20\"",
+   "\"api.sejm.gov.pl\" \"357\" \"zasadnicze powody rozstrzygnięcia\"",
+   "\"isap.sejm.gov.pl\" \"WDU19640430296\" OR \"2026\" \"468\" \"Kodeks postępowania cywilnego\"",
+   "\"sejm.gov.pl\" \"Opłatę stałą w kwocie 100 złotych pobiera się od wniosku o doręczenie wyroku\"",
+   "\"III CZP 38-20.pdf\" OR \"III CZP 38/20\" \"Termin do wniesienia zażalenia na zarządzenie o zwrocie pozwu\" \"sn.pl\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10523,
+   "wyjscie": 1231
+  },
+  "czas_s": 171,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

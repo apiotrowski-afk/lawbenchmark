@@ -1,0 +1,108 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 821 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 02.03.2016 r., VIII Gz 43/16",
+   "zrodlo": "SAOS 213643",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 109 ust. 2 u.k.w.h.",
+   "zrodlo": "Dz.U. 2023 poz. 1984",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 24.09.2003 r., III CZP 58/03",
+   "zrodlo": "OSNC 2004/11/173",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera trafny i pełny rdzeń oraz wyczerpujące wyjaśnienie odrębności nakazu jako tytułu zabezpieczenia i tytułu egzekucyjnego, realizując wszystkie elementy rubryki. System przytoczył jednak nieaktualne brzmienie art. 492 § 3 k.p.c. (obejmujące warrant i rewers wykreślone w nowelizacjach przed t.j. z 2026 r.), co skutkuje karą K3 oraz oceną A6=0 (klasa W, hallucinated=true). Ramy wypowiedzi zostały zachowane, a praktyczne wskazówki dla obu stron postępowania są w pełni przydatne.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"warrantu\" \"rewersu\" art 492 kpc",
+   "\"warrantu, rewersu\" 492 kpc isap"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12954,
+   "wyjscie": 870
+  },
+  "czas_s": 52,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

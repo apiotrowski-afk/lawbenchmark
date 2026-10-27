@@ -1,0 +1,78 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 ustawy z dnia 20 maja 1971 r. – Kodeks wykroczeń",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j.): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 ustawy z dnia 20 maja 1971 r. – Kodeks wykroczeń",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j.): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600 ze zm.) — opis historii zmian art. 119 § 1 i art. 124 § 1 k.w.",
+   "zrodlo": "ISAP Dz.U. 2022 poz. 2600 (art. 4 pkt 5–8) oraz Dz.U. 2022 poz. 2151 (k.w. t.j. sprzed 1.10.2023): nowelizacja z 7.07.2022 r. podniosła z dniem 1.10.2023 r. kwotę stałą z 500 złotych do 800 złotych, natomiast oderwanie progu od 1/4 minimalnego wynagrodzenia na rzecz kwoty stałej 500 zł nastąpiło już w 2018 r. (Dz.U. 2018 poz. 2077).",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie podaje obowiązujący próg 800 zł oraz brak wpływu podwyżek płacy minimalnej (A-R = 2), a także powołuje wymagany art. 119 § 1 k.w. oraz dopuszczalny art. 124 § 1 k.w. (A2 = 1, R4 = 1). Błędnie przedstawia jednak historię zmian przepisów, twierdząc, że to z dniem 1 października 2023 r. (Dz.U. 2022 poz. 2600) ustawodawca oderwał próg od 1/4 minimalnego wynagrodzenia, podczas gdy przed 1.10.2023 r. obowiązywał już stały próg 500 zł wprowadzony w 2018 r.. Zgodnie z regułą dla P01 R3 („Błędna historia zmian przepisu, np. pominięty etap progu = W, rdzeń, gdy historia jest elementem rubryki; taki element = 0”) skutkuje to A6 = 0 (klasa W, hallucinated = true) oraz niezaliczeniem trzeciego elementu rubryki (R3 = 0). Brak cytatów w cudzysłowie daje A3 = nd, a zgodnie z zakazem podwójnej kary w bloku B błąd historyczny nieobciążający praktycznej wskazówki co do obecnego progu nie obniża B1 (B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4meta3",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"Dz.U. 2022 poz. 2600\" \"119\" \"800\" OR",
+   "\"Dz.U. 2025 poz. 734\" \"119\" \"124\" OR",
+   "\"Dz.U. 2018 poz. 2077\" \"500 złotych\" \"119\" OR",
+   "\"Ustawa z dnia 7 lipca 2022 r. o zmianie ustawy\" \"2600\" \"500 złotych\" \"800 złotych\"",
+   "\"użyte w art. 119 § 1\" \"500 złotych\" \"800 złotych\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIZDnGePPY2CbZ9Jiui_2XArTiglXYriOlgwDsbeR3OFd6ipjZK6i24MBtAriLCMB5GfeCqzw7TFLuGtUo8oqclMMzSnEowjpsIKDMeBc0m70uIb_99h9gWqdGq9GC3yYepPSLwA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8Bjm96mQ1GxdGRFTGfavpcGMrNufWRnQpVrGjo7WCIHpZ2OFprsAQi_jb1CFZs-5-xXLfwyJ4TRz0ZSjEg4Dbwho8XO4Oc0iZkwwtd0kFxs4N1RKqwoQd6dvr1ia0IdPlcQHmyQSaQBk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2lDiK87IulKLJQMwW8gqSHJgNd2Af3DTNxnsuatM02YVW_M8WviKTD-yhdYTl1t-2wqfKCSBSCDNXdTo0qRbMb23BSWzI5XEhFkx0FTU85V1oxXBM6EUUO0uCjC94Z0GvQJDA97pfPT5N_w=="
+  ],
+  "tokeny": {
+   "wejscie": 16445,
+   "wyjscie": 1279,
+   "rozumowanie": 6289
+  },
+  "czas_s": 112,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 2, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 119 § 1 Kodeksu wykroczeń kwalifikuje kradzież lub przywłaszczenie cudzej rzeczy ruchomej jako wykroczenie, jeżeli jej wartość nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Brzmienie przepisu na datę stanu prawnego wprost określa czyn polegający na kradzieży lub przywłaszczeniu cudzej rzeczy ruchomej o wartości nieprzekraczającej 800 złotych.\n    · kotwica (verbatim ze źródła): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 124 § 1 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 124 § 1 Kodeksu wykroczeń kwalifikuje zniszczenie lub uszkodzenie cudzej rzeczy jako wykroczenie, jeżeli szkoda nie przekracza 800 złotych.”\n    · uzasadnienie weryfikatora: Brzmienie przepisu na datę stanu prawnego wprost dotyczy zniszczenia lub uszkodzenia cudzej rzeczy przy szkodzie nieprzekraczającej 800 złotych (pominięcie znamienia umyślności i uczynienia niezdatną do użytku w zwięzłym opisie przedmiotu przepisu jest nieistotne).\n    · kotwica (verbatim ze źródła): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n\nORZECZENIA: brak sygnatur w odpowiedzi.\n\nPUBLIKATORY: Dz.U. z 2022 r. poz. 2600 — akt zmieniający Kodeks wykroczeń (w życie 2023-10-01)"
+}

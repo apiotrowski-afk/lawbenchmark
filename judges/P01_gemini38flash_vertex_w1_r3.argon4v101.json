@@ -1,0 +1,120 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w. (Dz.U. z 2023 r. poz. 2119 ze zm.)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j. k.w.; wcześniej Dz.U. 2023 poz. 2119)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k. (Dz.U. z 2024 r. poz. 17 ze zm.)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j. k.k.; wcześniej Dz.U. 2024 poz. 17)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 k.k.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600) — podwyższenie progu z 500 zł do 800 zł od 1.10.2023 r. (wcześniej 500 zł od 15.11.2018 r., a w latach 2013–2018 1/4 minimalnego wynagrodzenia)",
+   "zrodlo": "ISAP Dz.U. 2022 poz. 2600 (art. 4 pkt 5 i 8) oraz Dz.U. 2018 poz. 2077",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 k.k.s.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 633 (t.j. k.k.s.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 k.k.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a k.k. — kradzież szczególnie zuchwała jako obowiązujący przepis",
+   "zrodlo": "ISAP Dz.U. 2022 poz. 2600 (art. 1 pkt 103 lit. c i pkt 104) oraz Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 278 § 1a k.k.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 § 2 k.k.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie podaje próg 800 zł (A-R = 2, B2 = 1), powołuje wymagany art. 119 § 1 k.w. (A2 = 1) oraz realizuje wszystkie cztery elementy rubryki, w tym historię progu i wskazanie art. 124 § 1 k.w. (R = [1, 1, 1, 1]). Punkt A6 spada do 0 (hallucinated = true, klasa W, zakres poboczny), ponieważ w uwagach praktycznych system powołał jako obowiązujący art. 278a k.k. dla kradzieży szczególnie zuchwałej. Tymczasem art. 278a k.k. został uchylony z dniem 1 października 2023 r. ustawą z 7 lipca 2022 r. (Dz.U. 2022 poz. 2600, art. 1 pkt 104), a czyn ten przeniesiono do art. 278 § 3a k.k. Ponieważ błąd dotyczy wyłącznie pobocznego numeru jednostki i nie zmienia praktycznej porady ani już odjętego punktu w A6, A8 = 1 i B1 = 2.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 22,
+  "zapytania": [
+   "\"art. 278\" \"karty uprawniającej do podjęcia pieniędzy\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"art. 278a\" \"kradzieży szczególnie zuchwałej\" OR \"szczególnie zuchwałej\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"art. 12 § 2\" \"Kodeks karny\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"art. 53 § 3\" \"art. 53 § 6\" \"Kodeks karny skarbowy\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"278a\" \"uchyla się\" \"2600\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"Art. 278.\" \"§ 3a.\" \"szczególnie zuchwałej\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"Art. 12.\" \"§ 2.\" \"odpowiada jak za jeden czyn zabroniony\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"Art. 53.\" \"§ 3.\" \"§ 6.\" \"pięciokrotność\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"103)\" \"104)\" \"278a\" OR",
+   "\"Art. 53.\" \"Wykroczenie skarbowe jest to czyn zabroniony\" OR OR",
+   "\"Art. 288.\" \"Kto cudzą rzecz niszczy\" OR OR",
+   "\"15 listopada 2018\" \"500 zł\" \"119\" wykroczeń OR OR",
+   "\"Art. 53.\" \"§ 5.\" \"§ 6.\" \"§ 7.\" \"Kodeks karny skarbowy\"",
+   "\"2023 r. poz. 2119\" \"Kodeks wykroczeń\"",
+   "\"2024 r. poz. 17\" \"Kodeks karny\"",
+   "\"art. 124 § 1\" \"Kto cudzą rzecz umyślnie niszczy\"",
+   "\"§ 6. Ustawowy próg\" \"Kodeks karny skarbowy\"",
+   "\"§ 6.\" \"pięciokrotnej\" \"Kodeks karny skarbowy\"",
+   "\"Art. 53\" \"§ 6\" \"k.k.s.\" \"próg\"",
+   "\"Art. 279.\" \"§ 1.\" \"Kto kradnie z włamaniem\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14033,
+   "wyjscie": 2170
+  },
+  "czas_s": 265,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

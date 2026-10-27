@@ -1,0 +1,66 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny zasadniczy rdzeń: rozróżnia oba tryby, uzależnia je od zgody lub związku z przedsiębiorstwem i wyklucza klauzulę bez ograniczeń. Nie prostuje numeru art. 781¹ ani nie przedstawia egzekucji pozostającej przy braku obu przesłanek. Art. 41 § 2 k.r.o. przypisuje jednak skutek braku pisemnej zgody, podczas gdy przepis mówi o braku zgody, bez wymagania jej pisemnej formy; dokument wykazujący zgodę z art. 787 k.p.c. nie oznacza konieczności wyrażenia samej zgody na piśmie. To fałszywe przypisanie treści przepisu uzasadnia A6=0 oraz ograniczenie B1 do 1; pochodzenie błędu pozostaje nieustalone wobec braku śladu narzędzi ocenianego systemu. Odpowiedź zachowuje ramy pytania i prawidłowo warunkuje wybór trybu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 50,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

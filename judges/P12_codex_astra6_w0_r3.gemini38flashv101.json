@@ -1,0 +1,75 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni trafnie i precyzyjnie wyjaśnia brak możliwości uzyskania klauzuli wykonalności przeciwko małżonkowi bez ograniczeń oraz prostuje błędną numerację z pytania (art. 781¹ a art. 787¹ k.p.c.). Wszystkie powołane przepisy k.p.c. i k.r.o. są adekwatne i zgodne z ich brzmieniem w źródłach urzędowych. Prawidłowo przeprowadzono rozróżnienie trybów w zależności od posiadania zgody małżonka na dokonanie czynności. Jedynym drobnym brakiem w rubryce jest brak wyraźnego wskazania reguły subsydiarnej (zaspokojenie wyłącznie z majątku osobistego, dochodów i wynagrodzenia dłużnika), gdy brak jest zarówno zgody, jak i związku z przedsiębiorstwem.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 787\" kpc sejm",
+   "\"art. 787[1]\" albo \"787(1)\" kpc sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10787,
+   "wyjscie": 682
+  },
+  "czas_s": 17,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 787 k.p.c. — błędnie dodano wymóg urzędowego poświadczenia podpisu na dokumencie prywatnym oraz powstania długu podczas wspólności ustawowej.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 787¹ k.p.c. — błędnie uzależniono możliwość zastosowania trybu szczególnego od oznaczenia działalności gospodarczej w tytule; przepis wymaga wykazania związku wierzytelności z prowadzeniem przedsiębiorstwa.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 781 k.p.c. — trafnie zaznaczono, że reguluje inną kwestię niż przesłanki odpowiedzialności małżonka.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 781¹ k.p.c. — jedynie przywołano numer z pytania i wyrażono niepewność; nie przypisano mu fałszywej treści, ale nie wyjaśniono terminu trzech dni.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 k.r.o., w szczególności § 1 — zgoda małżonka umożliwia zaspokojenie także z majątku wspólnego.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 § 2 k.r.o. — błędnie zaliczono ogólnie dochody z majątku odrębnego do składników dostępnych bez zgody małżonka; przepis wymienia korzyści z określonych praw, nie wszystkie takie dochody.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 189 k.p.c. — przepis przewiduje ustalenie prawa lub stosunku prawnego przy interesie prawnym, nie powództwo o nadanie klauzuli wykonalności.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ogólne odesłanie do orzecznictwa SN dotyczącego wąskiego zakresu takich powództw — bez wskazania identyfikowalnego orzeczenia.",
+   "zrodlo": "Wyszukiwanie w sn.pl nie pozwoliło zidentyfikować powołanego orzecznictwa.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "Art. 795 § 1 k.p.c. — zażalenie na postanowienie sądu co do nadania klauzuli wykonalności.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 840 k.p.c. — możliwość obrony małżonka objętego klauzulą przez powództwo przeciwegzekucyjne.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 841 k.p.c. — błędnie przyznano powództwo ekscydencyjne małżonkowi, przeciwko któremu nadano klauzulę; nie jest on osobą trzecią także przy zajęciu jego majątku osobistego.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf ; https://www.saos.org.pl/judgments/140140",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [
+  "Nieskonkretyzowane orzecznictwo SN dotyczące wąskiego zakresu powództw wskazanych w pkt 4 odpowiedzi."
+ ],
+ "uzasadnienie": "Odpowiedź wyklucza klauzulę bez ograniczeń i wskazuje zgodę jako przesłankę art. 787, ale nie przedstawia prawidłowo pozostałych gałęzi, dlatego rdzeń oceniono na 1 i B2 na 0. Obie wymagane podstawy powołano, jednak twierdzenie o znaczeniu oznaczenia działalności w tytule przeczy prawidłowemu rozróżnieniu trybów, a sprostowanie art. 781¹ jest niepełne. Dodany wymóg poświadczenia podpisu oraz błędne opisy art. 787¹, art. 41 § 2, art. 189 i art. 841 stanowią błędy T; pochodzenie błędów pozostaje nieustalone wobec braku śladu narzędzi ocenianego systemu. Dygresje o dowodach, powództwach i ochronie małżonka obniżają A8 do 0,5, a błędne wskazówki praktyczne ograniczają B1 do 1. Nie naliczono kar, ponieważ odpowiedź nie głosi żadnej z trzech konkretnych tez objętych karami klucza.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 119,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

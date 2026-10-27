@@ -1,0 +1,80 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 02.03.2016 r., VIII Gz 43/16",
+   "zrodlo": "SAOS 213643",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730 i nast. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo identyfikuje istotę problemu (wstrzymanie dotyczy natychmiastowej wykonalności egzekucyjnej, a nie funkcji tytułu zabezpieczenia z art. 492 § 1 k.p.c.). W art. 492 § 3 k.p.c. przywołano jednak nieobowiązujące już odesłanie do warrantu i rewersu, co skutkuje klasą W w A6 (i hallucinated=true) oraz naliczeniem kary K3. Kalibracja B2 wynosi 0, ponieważ system niezasadnie potraktował jednoznaczną regulację jako 'kwestię sporną'. B1 obniżono do 1 za błędne wskazówki procesowe sugerujące zażalenie na 'postanowienie o zabezpieczeniu', którego sąd przy nakazie nie wydaje. Zgodnie z precedensem P13 błędna konstrukcja wniosku o zabezpieczenie nie obniża A8.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"warrantu\" \"rewersu\" \"492\" kpc sejm",
+   "\"492\" kpc \"warrantu\"",
+   "\"492\" \"kpc\" \"warrantu lub rewersu\"",
+   "\"Dz.U. 2026 poz. 468\" \"492\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12596,
+   "wyjscie": 708
+  },
+  "czas_s": 36,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

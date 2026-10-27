@@ -1,0 +1,117 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 326 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=63",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=63",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=69",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 k.p.c. — przypisanie także terminu liczonego od doręczenia, uregulowanego w § 2",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=63",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 1 zd. 2 k.p.c. — rzekoma podstawa opłaty; wskazane zdanie nie istnieje",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=63",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 357 k.p.c. — przypisanie uzasadniania z urzędu kategorii postanowień kończących postępowanie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=67",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 2 k.p.c. — terminy żądania uzasadnienia znajdują się w § 1 i § 2¹",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=67",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 5 k.p.c. — wymieniony w zastrzeżeniu bez przytoczenia treści",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=67",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=37",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1 i 2 k.p.c. — obowiązek równoczesnego dokonania czynności wynika z § 3",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=37",
+   "werdykt": "T"
+  }
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 328 § 1 zd. 2 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 357 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 357 § 2 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 169 § 1 i 2 k.p.c.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie odróżnia zasadnicze powody od uzasadnienia i podaje tygodniowy termin, ale pomija warunek zaskarżalności oraz wymagane podstawy szczegółowe. Wzmiankę o opłacie zaliczono zgodnie z literalnym brzmieniem rubryki. Nieistniejące zdanie oraz przypisywanie konkretnym jednostkom cudzej treści powodują A6 = 0. Omówienie wyroków wykracza poza pytanie, a błędna wskazówka o biegu terminu zaskarżenia po niezłożeniu wniosku ogranicza przydatność. Konkluzja pozostaje kategoryczna, dlatego B2 = 1.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 86,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

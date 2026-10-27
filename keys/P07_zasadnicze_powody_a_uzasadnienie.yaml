@@ -1,0 +1,52 @@
+id: P07
+katalog_nr: 24
+wersja_klucza: 2
+data_klucza: 2026-10-10
+# v2 (2026-10-10): pola kalibracja_oczekiwana (kategoryczna) i warunek (decyzja Adama, README „B2 — kalibracja”);
+#   rdzeń, rubryka i punktacja bez zmian. v1: 2026-10-03.
+data_stanu_prawnego: 2026-10-01
+typ: zamkniete
+pulapka: false
+domena: proc
+tekst_oryginalny: "Czy jak Sąd wyda zasadnicze motywy rozstrzygnięcia, to jest możliwe złożenie wniosku o uzasadnienie Zasadnicze powody rozstrzygnięcia (art. 357 § 5 k.p.c.)"
+
+rdzen: >
+  Tak. Wskazanie zasadniczych powodów rozstrzygnięcia nie jest uzasadnieniem —
+  art. 357 § 5 zd. 2 k.p.c. każe je odróżnić od uzasadnienia. Jeżeli postanowienie
+  podlega zaskarżeniu, strona może żądać uzasadnienia w terminie tygodnia od
+  ogłoszenia (§ 1) albo od doręczenia postanowienia wydanego na posiedzeniu
+  niejawnym (§ 2¹).
+
+podstawy_wymagane:
+  - art. 357 § 5 k.p.c.
+  - art. 357 § 1 albo § 2¹ k.p.c.
+podstawy_dopuszczalne:
+  - art. 357 § 2³ i § 2⁴ k.p.c. (uzasadnienie z urzędu zwalnia z wniosku)
+  - art. 357 § 6 k.p.c. (odstąpienie od uzasadnienia przy uwzględnieniu wniosku strony)
+  - art. 25b ust. 1 i 2 ustawy o kosztach sądowych w sprawach cywilnych (opłata 100 zł albo 30 zł)
+
+wzorce_cytatow:
+  kpc_357_5:
+    brzmienie: "Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia."
+    zrodlo: Dz.U. 2026 poz. 468 (t.j. k.p.c.)
+  kpc_357_2_1:
+    brzmienie: "Postanowienie wydane na posiedzeniu niejawnym sąd uzasadnia tylko wtedy, gdy podlega ono zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodnia od dnia doręczenia postanowienia."
+    zrodlo: Dz.U. 2026 poz. 468, zdanie pierwsze
+
+rubryka:
+  - odpowiada „tak” i wyjaśnia, że zasadnicze powody nie są uzasadnieniem
+  - wskazuje warunek: postanowienie musi podlegać zaskarżeniu
+  - podaje termin tygodniowy i jego początek (ogłoszenie albo doręczenie)
+  - wspomina o opłacie od wniosku albo o wyjątkach z § 2³–§ 2⁴ lub § 6
+kary:
+  - twierdzi, że wskazanie zasadniczych powodów zastępuje uzasadnienie albo zamyka drogę do wniosku
+  - podaje termin dwóch tygodni (to termin sporządzenia uzasadnienia wyroku, art. 329 § 2)
+
+sporne: false
+kalibracja_oczekiwana: kategoryczna
+warunek: null
+
+zrodla_klucza:
+  - "ISAP DU/2026/468 — k.p.c. t.j., art. 357"
+  - "ISAP DU/2025/1228 — u.k.s.c. t.j., art. 25b (nowele po t.j.: DU/2026/346, 473, 1003 — art. 25b bez zmian)"
+weryfikacja: "Przepisy sprawdzone 2026-10-03. Orzecznictwa nie badano; klucz nie wymaga."

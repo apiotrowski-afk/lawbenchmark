@@ -1,0 +1,81 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń (Dz.U. 2025 poz. 734)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734: „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.” (próg 1/4 minimalnego wynagrodzenia obowiązywał w wersji historycznej do 14.11.2018 r.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120 § 1 Kodeksu wykroczeń (Dz.U. 2025 poz. 734)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734: „§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.” (próg 1/4 minimalnego wynagrodzenia obowiązywał w wersji historycznej)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 122 § 1 Kodeksu wykroczeń (Dz.U. 2025 poz. 734)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734: „§ 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.” (próg 1/4 minimalnego wynagrodzenia obowiązywał w wersji historycznej)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 124 § 1 Kodeksu wykroczeń (Dz.U. 2025 poz. 734)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734: „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.” (próg 1/4 minimalnego wynagrodzenia obowiązywał w wersji historycznej)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Rozporządzenie RM z 11.09.2025 r., Dz.U. 2025 poz. 1242",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 1242 (§ 1: „Od dnia 1 stycznia 2026 r. ustala się minimalne wynagrodzenie za pracę w wysokości 4806 zł.”)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpadł w pułapkę pytania i całkowicie błędnie podał próg wykroczenia jako 1 201,50 zł (1/4 płacy minimalnej z 2026 r.), podczas gdy od 1.10.2023 r. obowiązuje stała kwota 800 zł (A-R = 0, R = [0,0,0,0], naliczone obie kary K = [1,1]). Powołanym przepisom art. 119 § 1, art. 120 § 1, art. 122 § 1 i art. 124 § 1 k.w. przypisano nieaktualne brzmienie odwołujące się do 1/4 minimalnego wynagrodzenia, co skutkuje A6 = 0 (klasa W) i etykietą hallucinated. Wymagana podstawa prawna (art. 119 § 1 k.w.) została wskazana (A2 = 1), a odpowiedź trzyma się ram pytania (A8 = 1). W bloku B przydatność oceniono na 0 z uwagi na błędną kwotę graniczną czynu przepołowionego (B1 = 0), natomiast kalibracja otrzymuje 1, gdyż zgodnie z regułami błędna, ale kategoryczna odpowiedź przy oczekiwanej kalibracji kategorycznej ma B2 = 1.",
+ "_meta": {
+  "sedzia": "argon4meta2",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 1242\" OR \"WDU20250001242\"",
+   "\"Dz.U. 2025 poz. 734\" \"119\" \"800 złotych\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 17592,
+   "wyjscie": 1290,
+   "rozumowanie": 5370
+  },
+  "czas_s": 90,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 4, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 Kodeksu wykroczeń [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „W art. 119 § 1 Kodeksu wykroczeń ustawodawca odwołuje się do 1/4 minimalnego wynagrodzenia jako progu wykroczenia.”\n    · uzasadnienie weryfikatora: W brzmieniu na datę stanu prawnego próg wynosi 800 złotych, natomiast odwołanie do 1/4 minimalnego wynagrodzenia występowało we wcześniejszej wersji przepisu (atom 4).\n    · kotwica (verbatim ze źródła): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 120 § 1 Kodeksu wykroczeń [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „W art. 120 § 1 Kodeksu wykroczeń ustawodawca odwołuje się do 1/4 minimalnego wynagrodzenia jako progu wykroczenia.”\n    · uzasadnienie weryfikatora: W brzmieniu na datę stanu prawnego próg wartości drzewa wynosi 800 złotych, podczas gdy próg 1/4 minimalnego wynagrodzenia obowiązywał w dawnej wersji przepisu (atom 4).\n    · kotwica (verbatim ze źródła): „§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo…”\n    · brzmienie jednostki (fragment): „§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 3. art. 122 § 1 Kodeksu wykroczeń [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „W art. 122 § 1 Kodeksu wykroczeń ustawodawca odwołuje się do 1/4 minimalnego wynagrodzenia jako progu wykroczenia.”\n    · uzasadnienie weryfikatora: Na datę stanu prawnego przepis wskazuje kwotę 800 złotych, a próg 1/4 minimalnego wynagrodzenia pochodzi z wcześniejszego brzmienia przepisu (atom 4).\n    · kotwica (verbatim ze źródła): „§ 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 1/4 minimalneg…”\n    · brzmienie jednostki (fragment): „§ 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 4. art. 124 § 1 Kodeksu wykroczeń [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „W art. 124 § 1 Kodeksu wykroczeń ustawodawca odwołuje się do 1/4 minimalnego wynagrodzenia jako progu wykroczenia.”\n    · uzasadnienie weryfikatora: W brzmieniu na datę stanu prawnego próg szkody wynosi 800 złotych, natomiast odwołanie do 1/4 minimalnego wynagrodzenia znajdowało się w dawnym brzmieniu przepisu (atom 4).\n    · kotwica (verbatim ze źródła): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

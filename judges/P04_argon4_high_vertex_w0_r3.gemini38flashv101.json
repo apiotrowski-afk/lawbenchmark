@@ -1,0 +1,108 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1.0,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 2 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 101 § 3 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 583 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 579 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie koryguje formę aktu (decyzja ministra, a nie postanowienie), ale ulega pułapce klauzuli i twierdzi, że nadaje się klauzulę ostateczności zamiast zaświadczenia o prawomocności z art. 217 k.p.a. (A-R=1, R=[1,0,0,0]). Brak powołania art. 217 § 2 pkt 2 k.p.a. powoduje niespełnienie podstaw wymaganych (A2=0). Wskazanie art. 1 ust. 2 zamiast art. 1 ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców jako podstawy postanowienia MON o sprzeciwie to przypisanie jednostce cudzej treści (A6=0, hallucinated=true, klasa T). Kary K3 nie naliczono, gdyż system odnotował pojęcie prawomocności z art. 16 § 3 k.p.a., a nie wykluczył go wprost. Rozbudowanie o tryb sądu opiekuńczego jest zgodne z kluczem (A8=1), a przydatność ograniczona do ogólnej orientacji przy błędnym mechanizmie potwierdzenia (B1=1, B2=1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P04",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"o nabywaniu nieruchomości przez cudzoziemców\" \"art. 1\" \"sprzeciwu\"",
+   "\"art. 1 ust. 1a\" \"nabywaniu nieruchomości przez cudzoziemców\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13878,
+   "wyjscie": 1192
+  },
+  "czas_s": 48,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 132–146 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2024 poz. 1045",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 139 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 136 i nast. KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 i nast. KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź całkowicie pominęła doręczenia przez sądowy Portal Informacyjny (art. 131¹ᵃ k.p.c., w brzmieniu obowiązującym od 1.06.2026 r.) i oparła wywód na reżimie e-Doręczeń (ADE) oraz doręczeń przez system teleinformatyczny. Przepisowi art. 131 k.p.c. (regulującemu doręczenia tradycyjne przez operatora pocztowego lub komornika) błędnie przypisano materię doręczeń elektronicznych, a przepisowi art. 136 k.p.c. doręczenia tradycyjne. Zastosowano art. 139 k.p.c. (awizo pocztowe) do doręczeń elektronicznych/portalowych, co skutkuje naliczeniem kary. Z rubryki zaliczono jedynie ogólne wskazanie skutku odbioru i 14-dniowego terminu fikcji doręczenia. Kalibracja jest kategoryczna (B2=1), lecz z uwagi na błędny reżim prawny przydatność dla prawnika wynosi B1=1.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art 131 kpc\" treść",
+   "\"art 131\" \"kodeks postępowania cywilnego\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9810,
+   "wyjscie": 682
+  },
+  "czas_s": 28,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

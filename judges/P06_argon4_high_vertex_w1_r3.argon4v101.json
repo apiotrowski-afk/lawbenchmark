@@ -1,0 +1,195 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ pkt 1–7 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 741 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "sn.pl / OSNC 2023/2/14",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2² i § 2⁴ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 2 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 24 stycznia 2023 r., III CZP 127/22",
+   "zrodlo": "sn.pl / OSNC 2023/7-8/67",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 380 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 359 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 220 § 3 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j. p.p.s.a.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 178 w zw. z art. 197 § 2 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j. p.p.s.a.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 194 § 1 pkt 7 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j. p.p.s.a.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 194 § 2 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j. p.p.s.a.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo przedstawia pełny rdzeń odpowiedzi (A-R=2), rozróżniając odrzucenie zażalenia poziomego w SA (art. 394² § 1² k.p.c.) oraz zażalenia dewolutywnego przez SA jako sąd II instancji (art. 397 § 1¹ k.p.c.), a także wiernie cytuje art. 394² § 1² k.p.c. (A2=1, A3=1). W rubryce odpowiedź realizuje trzy z czterech elementów (brak jedynie wzmianki o art. 130² k.p.c. przy pełnomocniku profesjonalnym). Dodatkowa sekcja 3 o postępowaniu sądowoadministracyjnym (p.p.s.a.) stanowi dygresję o innej gałęzi prawa, która nie przykrywa rdzenia, co obniża ocenę ram do A8=0.5. Właśnie w tej pobocznej sekcji system popełnia błąd klasy T (A6=0, hallucinated=true): przypisuje podstawie z art. 194 § 1 pkt 7 p.p.s.a. zażalenie do NSA na odrzucenie zażalenia przez WSA, podczas gdy pkt 7 dotyczy odrzucenia skargi kasacyjnej, a odrzucenie zażalenia reguluje art. 194 § 1 pkt 8 p.p.s.a.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 24,
+  "zapytania": [
+   "\"394\" \"397\" OR OR \"2026\" \"468\"",
+   "\"III CZP 50/22\" OR",
+   "\"III CZP 127/22\" OR",
+   "\"art. 357\" \"2\" OR OR",
+   "\"Art. 394\" \"Dz.U.2026.468\" OR \"Dz. U. z 2026 r. poz. 468\"",
+   "\"Art. 397\" \"Dz.U.2026.468\" OR \"k.p.c.\" \"podlegało ono odrzuceniu\" \"Sąd drugiej instancji\"",
+   "\"Art. 741\" \"k.p.c.\" \"postanowienie sądu pierwszej instancji w przedmiocie zabezpieczenia\"",
+   "\"Art. 373\" \"Art. 380\" \"Art. 359\" \"Art. 168\" \"Art. 169\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 3941\" \"Zażalenie do Sądu Najwyższego\" \"Dz.U.2026.468\" OR \"skargę kasacyjną\" \"uchylenie wyroku\"",
+   "\"Art. 3942\" \"odmowa zwolnienia od kosztów sądowych\" \"odmowa uzasadnienia\" \"k.p.c.\"",
+   "\"Art. 3941a\" \"pkt 12\" \"odrzuca je w składzie jednego sędziego\" \"k.p.c.\"",
+   "\"Art. 373\" \"Sąd drugiej instancji odrzuca apelację\" \"Art. 380\" \"Sąd drugiej instancji, na wniosek strony\"",
+   "\"zarządzenie przymusowego sprowadzenia i aresztowania świadka\" \"3942\" \"k.p.c.\"",
+   "\"odmowa zwolnienia świadka i biegłego od grzywny\" \"3942\"",
+   "\"Art. 3941a\" \"12) odrzucenie zażalenia\" \"Dz.U.2026.468\" OR \"składzie jednego sędziego\"",
+   "\"Art. 220\" \"Art. 178\" \"Art. 194\" \"Art. 197\" \"p.p.s.a.\" OR \"postępowaniu przed sądami administracyjnymi\"",
+   "\"Art. 3941a\" \"§ 11\" OR \"§ 1[1]\" \"odrzuca je w składzie jednego sędziego\" \"k.p.c.\"",
+   "\"Art. 194\" \"pkt 7\" \"p.p.s.a.\" OR \"postępowaniu przed sądami administracyjnymi\"",
+   "\"Art. 220\" \"§ 3\" \"p.p.s.a.\" OR \"postępowaniu przed sądami administracyjnymi\" \"odrzuceniu\"",
+   "\"Art. 394\" \"§ 2\" \"Termin do wniesienia zażalenia wynosi tydzień\" \"k.p.c.\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14526,
+   "wyjscie": 3194
+  },
+  "czas_s": 184,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

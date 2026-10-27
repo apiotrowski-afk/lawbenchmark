@@ -1,0 +1,74 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "https://www.sn.pl/orzecznictwo/Biuletyn_SN/Biuletyn_SN_03_2011.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa nowelizująca z 17 czerwca 2004 r. — przepisy przejściowe i wejście w życie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2004/1691/text.html",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny zasadniczy rdzeń: oba tryby mają ograniczony zakres, a wybór zależy od zgody małżonka albo związku wierzytelności z przedsiębiorstwem, nie od oznaczenia dłużnika w tytule. Wszystkie powołania są zgodne ze źródłami oficjalnymi; proponowana formuła żądania nie jest cytatem przepisu. Nie zaliczono czwartego elementu rubryki, ponieważ sprostowanie numeru nie podaje terminu 3 dni, ani piątego, ponieważ nie omówiono egzekucji przy braku obu przesłanek. A8 obniżono za rozwinięcie zagadnienia dowodowego wyłączonego z zakresu pytania oraz niepotrzebną uwagę o prawie UE. Wskazówki są praktycznie przydatne, a konkluzje odpowiednio uzależnione od przesłanek obu trybów.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 12,
+  "czas_s": 79,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

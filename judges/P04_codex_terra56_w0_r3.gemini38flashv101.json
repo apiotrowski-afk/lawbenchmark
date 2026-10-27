@@ -1,0 +1,73 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 § 2 pkt 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie prostuje formę aktu (decyzja, a nie postanowienie) oraz tryb potwierdzenia (zaświadczenie z art. 217 k.p.a., nie klauzula), jednak błędnie wskazuje art. 3 ust. 1 u.n.n.c. jako podstawę kompetencji i formy (zamiast art. 1 ust. 1), co stanowi przypisanie jednostce cudzej treści (klasa T, A6=0, hallucinated=true, A2=0). W konkluzji system uznaje za właściwe potwierdzenie ostateczności zamiast prawomocności, co zgodnie z kluczem daje A-R=0 oraz brak punktów w R3 i R4. Kary K3 nie naliczono, gdyż odpowiedź nie wyklucza prawomocności decyzji bezwzględnie (wskazuje art. 16 § 3 k.p.a.). B1 obniżono do 1 ze względu na błędną wskazówkę praktyczną co do treści żądanego zaświadczenia.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P04",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"ustawy z dnia 24 marca 1920\" \"o nabywaniu nieruchomości przez cudzoziemców\" \"art. 3\"",
+   "\"ustawa o nabywaniu nieruchomości przez cudzoziemców\" \"art. 1 ust. 1\" \"art. 3 ust. 1\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12943,
+   "wyjscie": 600
+  },
+  "czas_s": 34,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

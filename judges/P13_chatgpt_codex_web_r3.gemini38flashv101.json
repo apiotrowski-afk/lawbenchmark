@@ -1,0 +1,88 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN z dnia 4 września 2009 r., I CZ 83/09",
+   "zrodlo": "OSNC 2010, nr 5, poz. 78 / sn.pl",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny, prawidłowy rdzeń oraz wymagane podstawy prawne, trafnie rozróżniając funkcję nakazu jako tytułu zabezpieczenia od natychmiastowej wykonalności. Postanowieniu SN z dnia 4 września 2009 r., I CZ 83/09 przypisano jednak obcą tezę – orzeczenie to dotyczyło niezaskarżalności postanowienia w przedmiocie wstrzymania wykonania postanowienia o zabezpieczeniu na podstawie art. 396 k.p.c., a nie wstrzymania wykonania nakazu zapłaty z weksla, co skutkuje dyskwalifikacją A6 (klasa T) i flagą hallucinated. W rubryce zabrakło jedynie wzmianki o skutku wstrzymania w postaci zawieszenia egzekucji na podstawie art. 820 § 2 k.p.c. Kary nie wystąpiły, a kalibracja i wskazówki procesowe dla pełnomocnika są w pełni trafne (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"I CZ 83/09\" Sąd Najwyższy",
+   "\"I CZ 83/09\" nakaz zapłaty",
+   "\"90795\" saos",
+   "\"I CZ 83/09\" saos",
+   " 90795",
+   "\"saos.org.pl/judgments/90795\"",
+   "\"90795\"",
+   " \"I CZ 83/09\"",
+   "\"I CZ 83/09\" postanowienie 2009"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10255,
+   "wyjscie": 692
+  },
+  "czas_s": 31,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

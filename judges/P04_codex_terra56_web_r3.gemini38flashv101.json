@@ -1,0 +1,76 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę rozstrzygnięcia na decyzję administracyjną (art. 1 ust. 1 u.n.n.c.) oraz wyjaśnia relację między ostatecznością a prawomocnością. Zgodnie ze szczegółowymi regułami oceny klucza ujęcie „zasadniczo ostateczność, ewentualnie też prawomocność” skutkuje oceną A-R = 1. A2 wynosi 0 ze względu na brak powołania art. 217 § 2 pkt 2 k.p.a. Wszystkie przytoczone przepisy istnieją i odpowiadają przypisanej im treści, co daje A6 = 1. Kary nie naliczono, gdyż odpowiedź nie wykluczyła prawomocności ani nie odesłała po klauzulę do sądu.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P04",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"Dz.U. 2024 poz. 572\"",
+   "\"Dz.U. 2017 poz. 2278\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13127,
+   "wyjscie": 694
+  },
+  "czas_s": 31,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

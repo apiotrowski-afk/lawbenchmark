@@ -1,0 +1,162 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 41 ust. 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 50",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 53",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 67 ust. 5",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ KC",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.), art. 78¹ § 1–2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 41 ust. 3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 41 ust. 4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 46",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 2 ust. 1–2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 43 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 44 ust. 1",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 16",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 81 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 55¹ pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 55–56",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 556 KC",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.), art. 556",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 750 KC",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.), art. 750",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 1 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 734 KC i nast.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.), art. 734 i nast.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia rdzeń i wymagane podstawy prawne (art. 41 ust. 2 i art. 53 pr.aut., a także art. 41 ust. 4 pr.aut.) oraz podaje właściwe przykłady pól eksploatacji dla social mediów (A-R = 2, A2 = 1). Punktacja A6 spada do 0 (hallucinated = true) z dwóch powodów w uwagach pobocznych: powołano nieistniejący art. 55¹ pr.aut. jako podstawę odpowiedzialności za wady prawne (klasa F; wady prawne utworu reguluje art. 55 ust. 2 pr.aut., a art. 55¹ k.c. dotyczy przedsiębiorstwa) oraz opisano art. 44 pr.aut. według nieaktualnej przesłanki „rażącej dysproporcji” zamiast „niewspółmiernie niskiego” wynagrodzenia po nowelizacji z 2024 r. (klasa W, reguła B10a). Ze względu na błędy w uwagach pobocznych ocena ram zostaje obniżona do A8 = 0.5 zgodnie z regułą dla uwag pobocznych z przeglądu kart rozszerzenia. W rubryce brakuje odniesienia do niedziałania art. 12 pr.aut. przy umowie zlecenia (R4 = 0) oraz do liberalnej linii orzeczniczej SN opartej na wykładni umowy z art. 65 k.c. (R5 = 0). W bloku B odpowiedź zachowuje pełną przydatność praktyczną i prawidłową kalibrację (B1 = 2, B2 = 1 wg reguły B11 i zakazu podwójnej kary).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 27,
+  "zapytania": [
+   "OR \"2025\" \"24\" \"prawie autorskim\"",
+   "OR \"art. 44\" \"W przypadku gdy wynagrodzenie twórcy\" \"prawie autorskim\"",
+   "OR \"art. 55\" \"prawie autorskim\" \"wady prawne\"",
+   "\"DU/2025/24\"",
+   "OR \"55\" \"DU/2025/24\"",
+   "\"art. 55¹\" OR \"art. 55^1\" \"prawie autorskim\"",
+   "\"DU/2025/24\" \"Art. 41\" \"Art. 43\" \"Art. 46\" \"Art. 50\"",
+   "\"DU/2025/24\" \"Art. 53\" \"Art. 55\" \"Art. 67\" \"Art. 81\"",
+   "\"DU/2025/24\" \"Art. 55.\" \"Art. 56.\"",
+   "\"DU/2025/24\" \"Art. 41.\" \"Art. 44.\" \"Art. 50.\"",
+   "\"DU/2025/24\" \"Art. 2.\" \"Art. 16.\" \"Art. 67.\" \"Art. 81.\"",
+   "\"Kodeks cywilny\" \"Art. 78\" \"Art. 556\" \"Art. 734\" \"Art. 750\"",
+   "\"DU/2025/24\" \"Art. 50.\" \"Art. 51.\"",
+   "\"DU/2025/24\" \"Art. 67.\" \"Art. 81.\"",
+   "\"DU/2025/24\" \"Art. 2.\" \"Art. 41.\"",
+   "\"DU/2026/795\" \"Art. 78\" \"Art. 556\" \"Art. 734\" \"Art. 750\"",
+   "\"DU/2025/24\" \"Opracowanie cudzego utworu\"",
+   "\"DU/2025/24\" \"Umowa licencyjna wyłączna wymaga\"",
+   "\"DU/2025/24\" \"Umowa może dotyczyć tylko pól eksploatacji\"",
+   "\"Kodeks cywilny\" \"Do zachowania elektronicznej formy czynności prawnej\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15102,
+   "wyjscie": 2795
+  },
+  "czas_s": 265,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

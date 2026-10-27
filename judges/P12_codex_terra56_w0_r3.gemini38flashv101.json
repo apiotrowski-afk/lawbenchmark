@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco wyjaśnia, że klauzula przeciwko małżonkowi nigdy nie jest 'bez ograniczeń' i rozróżnia reżim art. 787 k.p.c. (wymóg zgody) od art. 787¹ k.p.c. (związek z przedsiębiorstwem). Prawidłowo wskazano, że oznaczenie dłużnika w tytule nie determinuje trybu klauzulowego oraz sprostowano omyłkę pytającego co do numeru art. 781¹ k.p.c. Brak jedynie omówienia sytuacji, w której brak jest zarówno zgody, jak i związku z przedsiębiorstwem (art. 776¹ k.p.c. / art. 41 § 2 k.r.o.). Wszystkie powołania przepisów są w pełni zgodne ze źródłami urzędowymi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"787\" kpc sejm isap",
+   "\"787[1]\" OR \"787 1\" kpc isap",
+   "\"781[1]\" OR \"781 1\" kpc isap",
+   "\"41\" kro isap sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10463,
+   "wyjscie": 534
+  },
+  "czas_s": 27,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

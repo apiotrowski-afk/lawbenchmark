@@ -1,0 +1,67 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny i trafny (A-R=2). Brakuje powołania wymaganego art. 397 § 1¹ k.p.c., co skutkuje A2=0. Wszystkie powołane przepisy i orzeczenie SN zostały zweryfikowane jako zgodne ze źródłami oficjalnymi (A6=1). Odpowiedź realizuje 3 z 4 elementów rubryki, prawidłowo rozwidlając stan faktyczny i dopytując użytkownika. Kalibracja pewności jest idealnie dostosowana do warunkowego charakteru pytania (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"III CZP 50/22\"",
+   "\"III CZP 50/22\" uchwała SN"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEMtP5n5VartJm0b3l70PO3eO-QR0fZRpZJssIdceQUrrrMpFkfpmjsJPs_whHI4ldZwrI7R52H5IfySbrCSD-FvZWhauvDp9Kis4cM8EgwK3UzipSrqTzkCp6f5OW-ViSjj62zqAAx4eLMsWErz7GxZY6bCaiUG468Q9imLPNqajaJ80UELe3NsPDgzlfN9uqIJpjm9nQjTZBgCHxksbG",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPvR7QRMZNPc2l1drhafGnkk1sWDqIUiDb2KnAzOHg9cRL774Gq9sNEPv-2FokUEj7ZfFaSqtUqTA6p-GogKZXK18YrsMr0v1-60_sHb5uNQT0JIsgbzaZ1ENDNbWChYvxJ2wpdw6aTd2c6sqTmaf5hWn33147Y2uGrr-2eaoMkAD456C2PYnmJZohKPv5zTBYGtvyZr5SfQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMk4FrfVPjTkNwXjgoNs98CojS23pMK8ouAUDsqUZVQ58manlfHQDuyLvvJqloIGEixjX7OWwFVCqKIiv7-6H2UN0MVl380yw_-VWGlrGvsDJoL_HCulOxBgQvYaSTWB-9M0bArmQSH8MvwEUO09hIpiBnTXnYqQ=="
+  ],
+  "tokeny": {
+   "wejscie": 9455,
+   "wyjscie": 432
+  },
+  "czas_s": 68,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

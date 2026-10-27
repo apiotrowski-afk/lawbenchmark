@@ -1,0 +1,97 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN V CZ 48/16 — ogólna niedopuszczalność zażalenia na odrzucenie zażalenia",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/V%20CZ%2048-16.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "SN V CZ 48/16 — potraktowanie zażalenia jako wniosku o kontrolę z art. 380 k.p.c.",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/V%20CZ%2048-16.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 380 k.p.c. — kontrola niezaskarżalnych postanowień",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 ust. 1 Konstytucji RP",
+   "zrodlo": "https://trybunal.gov.pl/o-trybunale/akty-normatywne/konstytucja-rzeczypospolitej-polskiej/rozdzial-ii",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ust. 1 ustawy o TK — trzymiesięczny termin wniesienia skargi konstytucyjnej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2019/2393/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "ustawa o kosztach sądowych w sprawach cywilnych — podstawa należności opłaty",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 u.k.s.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 379 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN III CZ 468/22 — pozycja w wykazie źródeł",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/III%20CZ%20468-22.pdf",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 394–398 k.p.c. — zakres wskazany w tytule źródła",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełna treść SN III CZ 468/22: odnośnik SN był niedostępny, a wyszukiwanie w SAOS nie dostarczyło tekstu; oficjalna wokanda potwierdza jedynie sygnaturę.",
+  "Art. 79 ust. 1 Konstytucji potwierdzono w oficjalnym serwisie TK; nie uzyskano tekstu tego przepisu z ISAP, ELI ani API Sejmu."
+ ],
+ "uzasadnienie": "Odpowiedź otrzymuje A_R=1 za kierunek trafny dla jednej gałęzi, ale nie rozróżnia zażalenia poziomego i dewolutywnego, nie podaje wymaganych podstaw ani warunkowej konkluzji. Art. 53 ust. 1 określa zawartość skargi konstytucyjnej, natomiast termin reguluje art. 77 ust. 1, co stanowi T; pochodzenie tego błędu jest nieustalone. W V CZ 48/16 SN oceniał niedopuszczalność zażalenia na odmowę zwolnienia od kosztów, a kontrolę odrzucenia tego zażalenia przeprowadził przy rozpoznawaniu zażalenia na odrzucenie skargi kasacyjnej, więc przypisanie mu ogólnej tezy i przekształcenia samodzielnego zażalenia jest T, z pochodzeniem odczyt_źródła według podanego odnośnika. Omówienie skargi konstytucyjnej wykracza poza pytanie, uzasadniając A8=0.5. B1=0, ponieważ odpowiedź pomija dostępne zażalenie poziome i kieruje ku innym środkom, a ogólne zalecenie sprawdzenia przepisów nie usuwa ryzyka utraty właściwego środka zaskarżenia.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 14,
+  "czas_s": 83,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

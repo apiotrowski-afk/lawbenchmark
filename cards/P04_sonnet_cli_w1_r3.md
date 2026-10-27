@@ -1,0 +1,43 @@
+# Karta oceny — P04 · Claude claude-sonnet-5-5 przez Claude Code CLI (subskrypcja), czysty model — bez MCP i CLAUDE.md, W1: WebSearch + WebFetch — r3 W1 (rozszerzenie 2026-10-18)
+
+- Pytanie: P04 (katalog nr 25), klucz w wersji 3 (2026-10-18, zatwierdzony; kalibracja kategoryczna; podwójna pułapka — decyzja zamiast postanowienia, zaświadczenie zamiast klauzuli; decyzja może być ostateczna i prawomocna)
+- Data odpowiedzi systemu: 2026-10-18 · czas 20.9 s · warunki: model_id `claude-haiku-5-5,claude-sonnet-5-5` (alias claude-sonnet-5-5), Claude Code CLI (subskrypcja), bez MCP i CLAUDE.md; narzędzia: WebSearch, WebFetch (W1); wstęp neutralny z dopiskiem o adresach źródeł; temperatura: domyślna CLI; liczba wyszukań: 0 — narzędzia nieużyte (system: „Nie sprawdzałem aktualnego brzmienia przepisów w internecie”; brak listy źródeł; jeden obrót modelu: wyjście łącznie = ostatni obrót = 2587, odczyt z pamięci podręcznej 1437); tokeny: wyjście 2587, w tym rozumowanie 1116
+- Data stanu prawnego klucza: 2026-10-01
+- Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
+
+## Blok A
+
+| # | Pkt | Dowód |
+|---|---|---|
+| A-R | 0/2 | 0: pierwsza pułapka skorygowana („w formie **decyzji administracyjnej**, a nie postanowienia”), druga częściowo („żadnej »klauzuli« się tu zwykle nie nadaje”), ale konkluzja: „**w tym przypadku mówi się o ostateczności, a nie o prawomocności** … Organ na wniosek potwierdza ostateczność decyzji”; „**Prawomocność** to kategoria orzeczeń sądowych”. Reguła B klucza: „właściwe jest potwierdzenie ostateczności” bez prawomocności = 0; tu prawomocność wprost wykluczona |
+| A2 | 0/1 | art. 1 u.n.n.c. ✓ („art. 1 i nast.”, treść z ust. 1); art. 16 § 1 k.p.a. powołany z treścią zawężoną (A6); **art. 16 § 3 k.p.a. — brak** (podstawa wymagana); art. 217 § 2 k.p.a. ✓ (bez pkt 2, treść mieści się) |
+| A3 | n/d | system nie cytuje dosłownie („decyzja ostateczna z dniem…” to wzór adnotacji, nie przepis) |
+| A5 | n/d | pytanie niesporne (`sporne: false`) |
+| A6 | 0/1 | A6_typ: [T, T] · A6_zakres: rdzeń (art. 16 § 1 k.p.a. to podstawa wymagana; błąd niesie główną konkluzję „ostateczność, nie prawomocność”) · A6_pochodzenie: pamięć — dla obu (narzędzia nieużyte, brak źródeł) · A6_powolania: **sprawdzone 8 z 8**, 6 zgodnych, 2 błędne. k.p.a. (legal-cite: tekst urzędowy t.j. DU/2024/572, brzmienie identyczne w Dz.U. 2025 poz. 1691, bez nowel po t.j.): (1) **art. 16 § 1 — T**: „Decyzje administracyjne są ostateczne, gdy nie przysługuje od nich odwołanie w administracyjnym toku instancji (art. 16 § 1 KPA)” i „Decyzja ministra wydana w pierwszej instancji jest ostateczna od doręczenia … wniosek o ponowne rozpoznanie sprawy (art. 127 § 3 KPA) nie jest odwołaniem. Nie … odracza jej ostateczności”; art. 16 § 1: „od których nie służy odwołanie w administracyjnym toku instancji **lub wniosek o ponowne rozpatrzenie sprawy**, są ostateczne” — zakres zawężony i wniosek odwrotny (decyzja ministra staje się ostateczna dopiero po upływie 14 dni na wniosek). Opis odpowiada brzmieniu sprzed 11.04.2011 (dopisek „lub wniosek o ponowne rozpatrzenie sprawy” — ustawa z 3.12.2010, Dz.U. 2011 nr 6 poz. 18, art. 1 pkt 3; ELI PDF) — **do decyzji Adama**, czy klasyfikować jako W (wynik bez zmian); (2) **art. 127 § 3 — T**: „[wniosek] Nie wstrzymuje też wykonania decyzji”; art. 127 § 3 in fine: „do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji”, więc art. 130 § 1–2 (wstrzymanie wykonania) — treść odwrotna. Zgodne: art. 217 § 2 ✓ (zaświadczenie na wniosek osoby z interesem prawnym), „KPA nie przewiduje klauzuli prawomocności ani ostateczności” ✓ (brak takiej jednostki), „skarga do WSA nie odracza ostateczności” ✓ (art. 16 § 1). u.n.n.c. (ELI PDF DU/2017/2278, pdftotext): art. 1 ✓ (zezwolenie w drodze decyzji ministra właściwego do spraw wewnętrznych), art. 8 ✓ z uwagą — „status rezydenta długoterminowego UE albo małżeństwo z obywatelem polskim i zamieszkanie w Polsce” to art. 8 ust. 1 pkt 2 i 3 z pominięciem okresów (5 lat / 2 lata od zezwolenia) i wspólności ustawowej — pominięcie przesłanek, nie twierdzenie fałszywe. k.p.c. (legal-cite: t.j. DU/2024/1568 = Dz.U. 2026 poz. 468): art. 363 ✓, art. 364 ✓ (stwierdzenie prawomocności przez sąd — w gałęzi postanowienia sądu), art. 365 i 366 ✓ (moc wiążąca, powaga rzeczy osądzonej). Teza „Prawomocność to kategoria orzeczeń sądowych (art. 363 i 364 KPC)” — treść tych przepisów zgodna, ale wyłączność sprzeczna z art. 16 § 3 k.p.a. (płaci w A-R, R3, K3); **do decyzji Adama**, czy liczyć jako trzecie T (wynik bez zmian) |
+| A8 | 1/1 | gałąź „postanowienie sądu (np. opiekuńczego)” uprawniona (reguła B klucza: A8 = 1); akapit o wymaganiach notariusza dotyczy potwierdzenia, o które pytano; końcowe dopytanie jednym zdaniem — neutralne |
+| R1 | 1/1 | koryguje formę — „w formie **decyzji administracyjnej**, a nie postanowienia. Wydaje ją minister właściwy do spraw wewnętrznych (MSWiA), a nie sąd” |
+| R2 | 1/1 | zaświadczenie, nie klauzula — „KPA nie przewiduje klauzuli prawomocności ani ostateczności dla decyzji … Strona może wystąpić o **zaświadczenie** … Podstawą jest art. 217 § 2 KPA” |
+| R3 | 0/1 | ✗ — rozróżnia pojęcia, ale twierdzi, że decyzja ma tylko przymiot ostateczności; organ nie zaświadcza prawomocności (reguła B: samo rozróżnienie pojęć = 0) |
+| R4 | 0/1 | ✗ — brak mechanizmu prawomocności (30 dni na skargę do WSA, także bez wniosku o ponowne rozpatrzenie); skarga wspomniana tylko jako nieodraczająca ostateczności |
+| K1 | 0 | klauzula prawomocności z art. 364 k.p.c. tylko w gałęzi rzeczywistego postanowienia sądu, nie dla zezwolenia |
+| K2 | 0 | „Obywatele Ukrainy podlegają tej ustawie na zasadach ogólnych” — nie twierdzi, że zezwolenie zbędne |
+| K3 | −1 | wprost wyklucza prawomocność decyzji — „w tym przypadku mówi się o ostateczności, a nie o prawomocności”; „Prawomocność to kategoria orzeczeń sądowych” (reguła B klucza: K3 przy wprost wykluczonej prawomocności) |
+| **A** | **2 / 9 = 22.2 %** | punkty możliwe: A-R 2 + A2 1 + A6 1 + A8 1 + R 4 = 9 (A3, A5 n/d); suma 0 + 0 + 0 + 1 + 2 = 3 − K 1 = 2 |
+
+## Blok B
+
+| # | Pkt | Uzasadnienie |
+|---|---|---|
+| B1 przydatność | 1/2 | 1: prawnik wie, że to decyzja ministra, nie postanowienie, i że potwierdzenie wydaje organ w formie zaświadczenia; wskazówka działania rozmija się z prawem co do przedmiotu (ostateczność zamiast prawomocności) i terminu („ostateczna od doręczenia” zamiast po 14 dniach na wniosek o ponowne rozpatrzenie) — reguła B1 o błędzie w praktycznej wskazówce (termin, forma): najwyżej 1. Nie 0: błąd nie grozi utratą terminu ani prawa przez stronę, której decyzja jest korzystna |
+| B2 kalibracja | 1/1 | 1 (`kategoryczna`): teza postawiona wprost w pierwszym zdaniu; błędna, ale pewna odpowiedź przy `kategoryczna` ma B2 = 1 (README, B2); zastrzeżenie o numeracji ustawy z 1920 r. nie rozmywa tezy |
+| **B** | **2 / 3 = 66.7 %** | |
+
+**Δ = A % − B % = −44.4** · hallucinated: tak (T — art. 16 § 1 k.p.a. bez „wniosku o ponowne rozpatrzenie”, ew. W; T — wniosek z art. 127 § 3 „nie wstrzymuje wykonania”; rdzeń) · bez weryfikacji źródła: tak (narzędzia nieużyte) — W1 z dostępem do wyszukiwania, ale system z niego nie skorzystał („Nie sprawdzałem aktualnego brzmienia przepisów w internecie”), brak źródeł w odpowiedzi [2026-10-18: etykieta „tak (narzędzia nieużyte)” zatwierdzona w README (decyzja Adama) — dopisek „do decyzji Adama” usunięty]
+
+## Pochodzenie (opisowe)
+
+P1 ślady narzędzi: brak zapisu śladu; frontmatter: WebSearch i WebFetch, `server_tool_use` 0/0 (nie liczy narzędzi klienta CLI); metadane wskazują jeden obrót modelu bez wyników narzędzi (wyjście łącznie = ostatni obrót, mały odczyt z pamięci podręcznej); model_id zawiera `claude-haiku-5-5` — **WebFetch w Claude Code streszcza stronę modelem Haiku** (tu nieużyty; Haiku w model_id może pochodzić z zadań pomocniczych CLI) · P2 nie badano · P3 źródła deklarowane: brak · P4 wyłącznie wagi modelu. Profil błędu: „typowy błąd” z `pulapka_opis` klucza v3 w pełnej postaci („decyzja administracyjna może być tylko ostateczna”) plus definicja ostateczności sprzed noweli z 2011 r.
+
+Warunki biegu (z nagłówka odpowiedzi): system „Claude claude-sonnet-5-5 przez Claude Code CLI (subskrypcja), czysty model — bez MCP i CLAUDE.md, W1: WebSearch + WebFetch” · model_alias `claude-sonnet-5-5` · model_id `claude-haiku-5-5,claude-sonnet-5-5` · prompt_systemowy z dopiskiem o wyszukiwaniu i adresach źródeł · narzedzia: [WebSearch, WebFetch] · temperatura: domyślna CLI · kontekst_dodatkowy: sekcja środowiska Claude Code.
+
+Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18.

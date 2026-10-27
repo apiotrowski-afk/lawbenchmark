@@ -1,0 +1,66 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń (Dz.U. 2025 poz. 734)",
+   "zrodlo": "ISAP/ELI Dz.U. 2025 poz. 734 (t.j.): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w. (Dz.U. 2025 poz. 734)",
+   "zrodlo": "ISAP/ELI Dz.U. 2025 poz. 734 (t.j.): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w. (Dz.U. 2025 poz. 734)",
+   "zrodlo": "ISAP/ELI Dz.U. 2025 poz. 734 (t.j.): „§ 2. Przepisu art. 119 nie stosuje się, jeżeli sprawca popełnia kradzież w sposób szczególnie zuchwały lub z włamaniem.”",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź już w pierwszych akapitach zawiera pełny rdzeń (A_R = 2): podaje próg 800 zł jako kwotę stałą w ustawie (art. 119 § 1 k.w.) oraz kategorycznie wyklucza wpływ wzrostu płacy minimalnej. Wszystkie powołania przepisów Kodeksu wykroczeń (art. 119 § 1, art. 124 § 1, art. 130 § 2 oraz publikator t.j. Dz.U. 2025 poz. 734) są w pełni zgodne ze stanem prawnym na 2026-10-01 (A2 = 1, A6 = 1). W rubryce przyznano punkty za R1, R2 oraz R4 (wskazanie progu 800 zł w art. 124 § 1 k.w.), natomiast odjęto punkt za R3 z uwagi na brak podania daty wejścia w życie obecnego progu (1.10.2023) lub wcześniejszej kwoty 500 zł. Krótka i trafna uwaga o wyłączeniu progu przy kradzieży z włamaniem (art. 130 § 2 k.w.) mieści się w ramach odpowiedzi (A8 = 1).",
+ "_meta": {
+  "sedzia": "argon4meta3",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 18084,
+   "wyjscie": 812,
+   "rozumowanie": 2852
+  },
+  "czas_s": 46,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 6, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 Kodeksu wykroczeń [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „W przypadku zwykłej kradzieży lub przywłaszczenia cudzej rzeczy ruchomej próg wykroczenia wynosi 800 zł włącznie, a powyżej tej kwoty czyn co do zasady stanowi przestępstwo.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że wykroczeniem jest kradzież lub przywłaszczenie cudzej rzeczy ruchomej o wartości nieprzekraczającej 800 złotych.\n    · kotwica (verbatim ze źródła): „Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 124 § 1 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przy umyślnym zniszczeniu lub uszkodzeniu rzeczy próg wynosi 800 zł i dotyczy wysokości szkody, a nie wartości całej rzeczy.”\n    · uzasadnienie weryfikatora: Przepis wprost uzależnia odpowiedzialność za wykroczenie umyślnego zniszczenia lub uszkodzenia rzeczy od tego, czy szkoda nie przekracza 800 złotych.\n    · kotwica (verbatim ze źródła): „Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 3. art. 130 § 2 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R4 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „§ 2. Przepisu art. 119 nie stosuje się, jeżeli sprawca popełnia kradzież z włamaniem.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Kradzież z włamaniem stanowi przestępstwo niezależnie od wartości rzeczy.”\n    · uzasadnienie weryfikatora: Przepis wyłącza stosowanie art. 119 k.w. (wykroczenia kradzieży określonego progiem kwotowym) w przypadku kradzieży z włamaniem, z czego bezpośrednio wynika brak limitu wartości dla tego czynu jako wykroczenia.\n    · kotwica (verbatim ze źródła): „Przepisu art. 119 nie stosuje się, jeżeli sprawca popełnia kradzież w sposób szczególnie zuchwały lub z włamaniem.”\n    · brzmienie jednostki (fragment): „§ 2. Przepisu art. 119 nie stosuje się, jeżeli sprawca popełnia kradzież w sposób szczególnie zuchwały lub z włamaniem.”\n- 4. art. 119 [akt: domniemany (akt z podstaw klucza)]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona.”\n    · brzmienie jednostki (fragment): „Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona.”\n- 5. art. 124 [akt: domniemany (akt z podstaw klucza)]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 124. § 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia można orzec obowiązek zapłaty równowartości wyrządzonej szkody lub obowiązek przywrócenia do stanu poprzedniego.”\n    · brzmienie jednostki (fragment): „Art. 124. § 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia można orzec obowiązek zapłaty równowartości wyrządzonej szkody lub obowiązek przywrócenia do stanu poprzedniego.”\n- 6. art. 130 [akt: domniemany (akt z podstaw klucza)]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „Art. 130. § 1. Przepisów art. 119, 120, 122 i 124 nie stosuje się: 1) (uchylony) 2) jeżeli przedmiotem czynu jest broń, amunicja, materiały lub przyrządy wybuchowe. § 2. Przepisu art. 119 nie stosuje się, jeżeli sprawca popełnia kradzież z włamaniem. § 3. Przepisów art. 119 i 120 nie stosuje się, jeżeli sprawca używa gwałtu na osobie albo grozi jego natychmiastowym użyciem, aby utrzymać się w posiadaniu zabranego mienia, a gdy chodzi o zabranie innej osobie mienia w celu przywłaszczenia, także wtedy, gdy sprawca doprowadza człowieka do stanu nieprzytomności lub bezbronności. § 4. (uchylony)”\n    · brzmienie jednostki (fragment): „Art. 130. § 1. Przepisów art. 119, art. 122 i art. 124 nie stosuje się: 1) (uchylony) 2) jeżeli przedmiotem czynu jest broń, amunicja, materiały lub przyrządy wybuchowe. § 2. Przepisu art. 119 nie stosuje się, jeżeli sprawca popełnia kradzież w sposób szczególnie zuchwały lub z włamaniem. § 3. Przepisów art. 119 i 120 nie stosuje się, jeżeli sprawca używa gwałtu na osobie albo grozi jego natychmiastowym użyciem, aby utrzymać się w posiadaniu zabranego mienia, a gdy chodzi o zabranie innej osobie mienia w celu przywłaszczenia, także wtedy, gdy sprawca doprowadza człowieka do stanu nieprzytomno…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

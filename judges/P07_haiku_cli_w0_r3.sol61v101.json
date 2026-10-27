@@ -1,0 +1,64 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000468/U/D20260468Lj.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "nowelizacja z 2019 r. dotycząca art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2019/1469/text/O/D20191469.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 111 k.p.c. jako regulacja obliczania terminów przy dniach wolnych",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000468/U/D20260468Lj.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000468/U/D20260468Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 368 § 1 pkt 2 k.p.c. jako podstawa konieczności oparcia apelacji na uzasadnieniu wyroku",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000468/U/D20260468Lj.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje możliwość złożenia wniosku, ale pomija odróżnienie zasadniczych powodów od uzasadnienia i warunek zaskarżalności postanowienia. Art. 357 § 5 dotyczy wskazania powodów postanowienia przez sąd, a nie wniosku o uzasadnienie wyroku; brakuje wymaganej podstawy z § 1 albo § 2¹. Art. 111 jest uchylony, natomiast art. 368 § 1 pkt 2 wymaga zwięzłego przedstawienia zarzutów i nie zawiera przypisanej mu konieczności korzystania z uzasadnienia wyroku. Zaliczono tygodniowy termin od ogłoszenia, lecz błędne powiązanie doręczenia z samą nieobecnością ogranicza przydatność do B1 = 1. A8 = 0 wynika z konsekwentnego omawiania wyroku i apelacji zamiast postanowienia; główna teza pozostaje kategoryczna, więc B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 64,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=7",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje zasadę, wymagane podstawy, konkretne pola eksploatacji oraz formę pisemną pod rygorem nieważności. Pomija jednak możliwość dookreślenia pól przez wykładnię umowy i regułę in favorem auctoris, dlatego A_R wynosi 1, a B2 wynosi 0 mimo zwrotu „co do zasady”. Wyjaśnienie braku automatycznego przejścia praw przy zleceniu zalicza czwarty element rubryki. Wszystkie pięć powołań sprawdzono w oficjalnym tekście i są zgodne; pominięcie wykładni nie obniża A6. Rozwinięcie o licencjach i zgodach dotyczących elementów osób trzecich wykracza poza pytanie o skuteczność ogólnej klauzuli, obniżając A8 do 0.5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 31,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

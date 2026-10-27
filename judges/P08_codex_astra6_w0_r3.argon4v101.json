@@ -1,0 +1,70 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie ujmuje pełny rdzeń zagadnienia (A-R=2) i zachowuje oczekiwaną kalibrację warunkową (B2=1), oddzielając przesłanki definicji deepfake'a (art. 3 pkt 60 AI Act) oraz obowiązek podmiotu stosującego (art. 50 ust. 4) od niezależnego obowiązku dostawcy w zakresie maszynowego oznakowania syntetycznego dźwięku (art. 50 ust. 2). Wszystkie powołane przepisy AI Act zostały zweryfikowane w tekście urzędowym EUR-Lex i są w pełni zgodne ze stanem prawnym (A2=1, A6=1), a wobec braku dosłownych cytatów przepisów w cudzysłowie kryterium A3 oceniono jako n/d. W rubryce przyznano 4 z 6 punktów (R1–R4), ponieważ system pominął daty rozpoczęcia stosowania przepisów (R5) oraz niewiążące wytyczne KE / kodeks praktyk (R6). Nie naliczono żadnych kar, a całość wypowiedzi mieści się ściśle w ramach pytania (A8=1) i jest w pełni przydatna praktycznie (B1=2).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 3\" \"60)\" \"deepfake\" \"2024/1689\"",
+   "\"Artykuł 50\" \"2024/1689\" \"deepfake\"",
+   "\"przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia\"",
+   "\"oznakowane w formacie nadającym się do odczytu maszynowego\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14882,
+   "wyjscie": 771
+  },
+  "czas_s": 98,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

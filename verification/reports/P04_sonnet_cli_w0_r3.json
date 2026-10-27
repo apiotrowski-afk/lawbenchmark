@@ -1,0 +1,499 @@
+{
+ "meta": {
+  "pytanie": "P04",
+  "system": "sonnet_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P04/sonnet_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:36:56",
+  "czas_s": 4.3,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 10,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 1,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 3,
+   "akt_nieustalony": 2
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 1 ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "akt": {
+    "nazwa": "Ustawa o nabywaniu nieruchomości przez cudzoziemców",
+    "kod_legal_cite": "UNNC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 1",
+   "kontekst": "Podstawą jest ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (art. 1 i nast.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 1 UNNC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML) (tekst jednolity DU/2017/2278 z 2017-11-22)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2017-11-22) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1099 (19.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2017 poz. 2278 z 22.11.2017, tekst urzędowy HTML) Ustalenie: potwierdzone — od daty tego tekstu (22.11.2017) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "urzędowy HTML"
+    },
+    "fragment_urzedowy": "Art. 1. 1. Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi. 1a. Sprzeciw, o którym mowa w ust. 1, jest wyrażany, w drodze postanowienia, w terminie 14 dni od dnia doręczenia wystąpienia ministra właściwego do spraw wewnętrznych. W szczególnie uzasadnionych przypadkach minister właściwy do spraw wewnętrznych, na wniosek organu, któremu przysługuje prawo sprzeciwu, przedłuża termin na jego wniesienie do 2 mi…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (najnowszy t.j. DU/2017/2278 jest w HTML; legal-cite nie pobiera starszych)"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "fragment": "Art. 1. 1. Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi. 1a. Sprzeciw, o którym mowa w ust. 1, jest wyrażany, w drodze postanowienia, w terminie 14 dni od dnia doręczenia wystąpienia ministra właściwego do spraw wewnętrznych. W szczególnie uzasadnionych przypadkach minister właściwy do spraw wewnętrznych, na wniosek organu, któremu przysługuje prawo sprzeciwu, przedłuża termin na jego wniesienie do 2 mi…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 1. 1. Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi. 1a. Sprzeciw, o którym mowa w ust. 1, jest wyrażany, w drodze postanowienia, w terminie 14 dni od dnia doręczenia wystąpienia ministra właściwego do spraw wewnętrznych. W szczególnie uzasadnionych przypadkach minister właściwy do spraw wewnętrznych, na wniosek organu, któremu przysługuje prawo sprzeciwu, przedłuża termin na jego wniesienie do 2 mi…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.4
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 363 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 363 k.p.c.",
+   "kontekst": "- Pojęcie prawomocności dotyczy orzeczeń sądowych (art. 363 k.p.c., art. 365 k.p.c.) i na tej podstawie sąd stwierdza prawomocność klauzulą (art. 364 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 363 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 363. § 1. Orzeczenie sądu staje się prawomocne, jeżeli nie przysługuje co do niego środek odwoławczy lub inny środek zaskarżenia. § 2. Mimo niedopuszczalności odrębnego zaskarżenia nie stają się prawomocne postanowienia podlegające rozpoznaniu przez sąd drugiej instancji, gdy sąd ten rozpoznaje sprawę, w której je wydano. § 3. Jeżeli zaskarżono tylko część orzeczenia, staje się ono prawomocne w części pozostałej z upływem terminu do zaskarżenia, chyba że sąd drugiej instancji może z urzędu rozpoznać sprawę także w tej części."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 363. § 1. Orzeczenie sądu staje się prawomocne, jeżeli nie przysługuje co do niego środek odwoławczy lub inny środek zaskarżenia. § 2. Mimo niedopuszczalności odrębnego zaskarżenia nie stają się prawomocne postanowienia podlegające rozpoznaniu przez sąd rewizyjny, gdy sąd ten rozpoznaje sprawę, w której je wydano. § 3. Jeżeli zaskarżono tylko część orzeczenia, staje się ono prawomocne w części pozostałej z upływem terminu do zaskarżenia, chyba że sąd rewizyjny może z urzędu rozpoznać sprawę także w tej części."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.29
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 365 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 365 k.p.c.",
+   "kontekst": "- Pojęcie prawomocności dotyczy orzeczeń sądowych (art. 363 k.p.c., art. 365 k.p.c.) i na tej podstawie sąd stwierdza prawomocność klauzulą (art. 364 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 365 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 365. § 1. Orzeczenie prawomocne wiąże nie tylko strony i sąd, który je wydał, lecz również inne sądy oraz inne organy państwowe i organy administracji publicznej, a w wypadkach w ustawie przewidzianych także inne osoby. § 2. Kodeks postępowania karnego określa, w jakim zakresie orzeczenia sądu cywilnego nie wiążą sądu w postępowaniu karnym."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 365. § 1. Orzeczenie prawomocne wiąże nie tylko strony i sąd, który je wydał, lecz również inne sądy i inne organy państwowe, a w wypadkach w ustawie przewidzianych także inne osoby. § 2. Kodeks postępowania karnego określa, w jakim zakresie orzeczenia sądu cywilnego nie wiążą sądu w postępowaniu karnym."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.29
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 364 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 364 k.p.c.",
+   "kontekst": "- Pojęcie prawomocności dotyczy orzeczeń sądowych (art. 363 k.p.c., art. 365 k.p.c.) i na tej podstawie sąd stwierdza prawomocność klauzulą (art. 364 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 364 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 364. § 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji, a dopóki akta sprawy znajdują się w sądzie drugiej instancji – ten sąd. § 2. Postanowienia w sprawie, o której mowa w § 1, może wydać także referendarz sądowy."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 364. § 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji na posiedzeniu niejawnym, a dopóki akta sprawy znajdują się w sądzie drugiej instancji - ten sąd. Stwierdzenia dokonuje sąd jednoosobowo. § 2. Postanowienia w sprawie, o której mowa w § 1, może wydać także referendarz sądowy."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 364. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji na posiedzeniu niejawnym, a dopóki akta sprawy znajdują się w sądzie rewizyjnym - ten sąd. Stwierdzenia dokonuje sąd jednoosobowo."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.57
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 16 § 1 k.p.a.",
+   "kontekst": "- W postępowaniu administracyjnym używa się pojęcia decyzji ostatecznej (art. 16 § 1 k.p.a.), czyli takiej, od której nie służy odwołanie w administracyjnym toku instancji.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 16 § 1 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 16 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.64
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "art. 127 § 3 k.p.a.",
+   "kontekst": "Przysługuje jedynie wniosek o ponowne rozpatrzenie sprawy (art. 127 § 3 k.p.a.) oraz skarga do WSA.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 127 § 3 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 127 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.57
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 16 § 2 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 16 § 2 k.p.a.",
+   "kontekst": "Skarga do sądu administracyjnego nie pozbawia jej przymiotu ostateczności (art. 16 § 2 k.p.a.).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 7,
+   "cytowanie_legal_cite": "art. 16 § 2 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 16 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.2
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 217 § 2 pkt 2 k.p.a.",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 217 § 2 pkt 2 k.p.a.",
+   "kontekst": "- organ może na wniosek wydać zaświadczenie o ostateczności decyzji (art. 217 § 2 pkt 2 k.p.a.), gdy strona wykaże interes prawny, a ten zwykle wynika z potrzeby przedłożenia dokumentu notariuszowi;",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 217 § 2 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 217 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Zaświadczenie wydaje się, jeżeli: 1) urzędowego potwierdzenia określonych faktów lub stanu prawnego wymaga przepis prawa; 2) osoba ubiega się o zaświadczenie ze względu na swój interes prawny w urzędowym potwierdzeniu określonych faktów lub stanu prawnego."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.19
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 8",
+   "akt": {
+    "nazwa": null,
+    "kod_legal_cite": null,
+    "ustalenie": "nieustalony (brak aktu; klucz wieloaktowy)"
+   },
+   "rola": "główne",
+   "grupa": 9,
+   "napis_grupy": "art. 8",
+   "kontekst": "Ustawa przewiduje wyjątki (art. 8), np. dla cudzoziemca z zezwoleniem na pobyt stały lub statusem rezydenta długoterminowego UE, który mieszka w Polsce co najmniej 5 lat, albo dla małżonka obywatela polskiego mieszkającego w Polsce co najmniej 2 lata.",
+   "cytat": null,
+   "flagi": [
+    "akt_nieustalony"
+   ],
+   "powolanie_glowne_id": 9,
+   "weryfikacja": {
+    "status": "akt nieustalony — do sprawdzenia ręcznie",
+    "powod": "brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych"
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "nie porównano"
+   }
+  },
+  {
+   "id": 10,
+   "powolanie": "art. 8",
+   "akt": {
+    "nazwa": null,
+    "kod_legal_cite": null,
+    "ustalenie": "nieustalony (brak aktu; klucz wieloaktowy)"
+   },
+   "rola": "główne",
+   "grupa": 10,
+   "napis_grupy": "art. 8",
+   "kontekst": "Mogę pomóc przy sformułowaniu wniosku o zaświadczenie o ostateczności decyzji albo przy analizie, czy w konkretnym stanie faktycznym zachodzi wyjątek z art. 8.",
+   "cytat": null,
+   "flagi": [
+    "akt_nieustalony"
+   ],
+   "powolanie_glowne_id": 10,
+   "weryfikacja": {
+    "status": "akt nieustalony — do sprawdzenia ręcznie",
+    "powod": "brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych"
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "nie porównano"
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": [
+  {
+   "data": "1920-03-24",
+   "napis": "24 marca 1920",
+   "kontekst": "Podstawą jest ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (art. 1 i nast.)."
+  }
+ ]
+}

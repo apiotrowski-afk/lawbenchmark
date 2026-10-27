@@ -1,0 +1,151 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 130 § 1-2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 397 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 370 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c. w zw. z art. 397 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c. w zw. z art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 19 ust. 2 pkt 2 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 27 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 139 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 111-117 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest trafny dla jednej z gałęzi (zażalenie poziome), ale system nie dostrzega, że w przypadku zażalenia dewolutywnego środek ten nie przysługuje (A-R=1). System nie powołuje wymaganych podstaw prawnych (A2=0). Odpowiedź zawiera liczne halucynacje (A6=0, T i W): powołuje uchylony art. 370 k.p.c., przypisuje zażalenie poziome przepisom o zażaleniu do SN (art. 394¹ k.p.c.) i nieistniejącemu zdaniu w art. 373 k.p.c., a także błędnie wskazuje przepisy u.k.s.c. dotyczące opłat od pozwu jako podstawę opłaty od zażalenia. Z powodu kategorycznej odpowiedzi pomijającej kluczowy warunek kalibracja wynosi 0 (B2=0), a liczne błędy w podstawach i brak rozróżnienia czynią poradę nieprzydatną (B1=0).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"art. 370\" \"uchylony\" OR",
+   "\"art. 373\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 394\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 394(1)\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 130\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 394(2)\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 397\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 130 § 1(1)\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 130 § 1[1]\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 130\" \"Kodeks postępowania cywilnego\" \"rachunek\" OR",
+   "\"art. 19\" \"ustawa o kosztach sądowych w sprawach cywilnych\" OR",
+   "\"art. 27\" \"ustawa o kosztach sądowych w sprawach cywilnych\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwrO0JUVmZos69i7EEtgLWgyc1hIPk5DUGvM9r49LeBiuVkbo6gvTTQXiytMlymWuVwTsvRDq_vg2xwhL-7fRqTo6koR97xhnJ_pVyGSdovKJvsRDOQIycbC7E_m-3-NIFnNL7kmyruufdDI59hF8pCo9WFUhYsB8l",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhjJcubK_NeMs5yTCf47dspu8faatVkGBGmV_dEUFJib4YU8B2S7CTFPto097zQZvnoO3tzDjJXCN2P6bV1iCFzE5JXgnVBLGA7pjZbvFh2AzHoP12LtFFQJZeJwJKViHs23GA7rcHIF2piALFqFvYgdCsZZ5vAujxx3cDn2zGRA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX9jzrHnGLp5Tu59mGkUD3C3SVKXbqoMRwuH8B6UYLXUl3HHpsiF4rrvrip7eqmJ6pV_8ZFxk55TtQ3CIPPWLHwMJ59od4ncITws-SgrcfzPuuZklshKmgV7aooY76JlgaoWUXPMi_BfMJ68xR-MPbKeI_T2m2usPkgp7sRE5FJ5Tux6IMnyfLDmNRMxN03ZnyHtiJuAQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjeAQ8njB_7tNO1C72zBNoJv9U1rTRTlMfY4K3wYfMM1-jZjtOC6DvevXCN_Ti5IaVshFQRCEhRRgh47yG3oMLyclNxtbzE_iOGQzUpXP0i2ygG7aTOtCqDgNvTrm0Ci1F9O3-0W34B_UZxBVmWf9JzS_-j0sKGZ1ruFy6c2BrWEFIg4avdOyeCkWcoDRSqI5YqvJXpdWra5QMTO64Ug==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFatGOoVsZLUsRKKumom-UFuwvrHoTU5iMOl7fX2tmRtiO7wzdgiyKRMOH8YBRal2qFFaxdoAPyxAtAW64FLLiCBJPtoNWMxvq1Kifzx0U7-BdKnGVum3vok6h8rrPXfsFaGscGr8WkEEE6rKcCZQCIjNKMTTYVUS4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyZCbWR86iUriTlzxff9L9egUR0xU81KdeUF9n5xyCyeAQmSj16kcewT3X6QQL62AEHQDeACRJMHgsqrjNfq5Kvm5UjNLeZLiBEnnKioJL3AmPAxiSKCZUW3KFj5wczUYcZ-gIpzqRxf3zmF6xsDsmOYnBkcnv9n9r-4EXKkQYNvEtGxyAwVVZfocuRnNAi7t9X66ZctXXcBDkColhPFT333DqckOwfovDp8I4Fjf_9tmgsg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuaaGOlxe7iNSOuLpzC9XcKxqfKCP35_mVw8Gw8r0uNrNS-FqKELFGXDsso6M-l6rzbkfizyM2sVQdE-QN6rsFhaJ1ujqGVDRzK0djhXq4lEII_JRKI8Q-Cz3kiR9GUcXBH5Yny-qog5ifwvVr4l7ipclqhwyL4Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENB221qlGdto3YHOBu3FuR_spT2i4FQ5jN2i3WcE4nkOElyPuJIqpORZw5G7FPbIW470ILkGDYpUZxHVTLX7e-E_AYivdmRCRAu5PjTL-evvdZwPwarlbyr-4am10cylVZdkYFGBxUIMdchMah_nznbF4-aeD21Pc4RDPH5rNspEgn-SXJnkmrkk4zalUBR8EDEqp6F6b2WuHTUHxUgQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhStUZELeDyCfV9Ql1uAwGQ79eINLyy0WrNYMJnztHOdQVDzPRG-Zwx8Iq8byID4toW27sIxrm7jbp_PY4moZg0tg9WYIcBS0Bg5YBzzq5Fqg_ecsoLI0AKEbs4wff_Gzh-oikE-eCfr8isYEnNDQjiXIOI1n7UfKRXolHJZUyzuFgz2GA5LM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa6ixtwwonipXCquWfSyGOfCOmQ7W2iRsICSK78lS-hecJtC1KOz6v3W2RtAwqu-4VHvm_va0FC2Wr-1aM-GMDGiF-7dC-w0ar7CicP-eFC5i5kJ98qdorzf-XAxPDMZCd79aVOgkGr5645S2FE__mfI1NGwPKDfaeDuss-p8AoK1Q0lkKFaUYhSaxkz5Embi8AhqNzD3Uy1ceBdYJ6w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-aNZR3UeCLiac8tFBRrGR_F4ZWM_Vt3qZP3UDZa8TbCzWi5ChhY4I4Fteq3rrmv-emVEtT8YEK65A_9boUKv2Cj546T5a6xNA7j-xREPahmmbyVMJ0R5tQa4dWBS8u_7FOw1CJkSzPMqxtcArlUPYFPsVGoDwfS6upDg1dgFMIrYXxcWBo4vNgOKaB-sb_SZAR3Nr4GH2Ky-3QIHJAw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEudohNmET_KaGj35JgeMmVmVHOeEGjefnFr2y1PkTu4pnV8tEgAb6PdOyt8UvM9X2VEe-NOrCotEaakfkI2AtEYgaUeKtCUgKbkc6lo9eGh-81afkVC6zQRAiJ1Ah3f7pHWpAlUnn5QUGDFgsGIa8ONyp4QKlA4qOQCSS5S4gIw2CoPXEC0JdB",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJxlshKYQah1GMJyo7zS8arguOU23BYyHrdvocy4rvBjF2z8WIE2EJuj0UyNrwNyD5R3tACv2HYMgZUJjumxVyak1RU8Z9WfNsz3COv4WZPLrF3t_28PO8cxF6EZxLWYJgnDuEDkpVxowiyQ2Z24-R4HzV9tMDb7H8MTDpXWnNSbkCP2KnxiU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd3oSyXasttfdZRC4Whaz6MF24dtp-iVTOO8w9JB2mkFJdcN1gvnjDGqGEf7Kez4y3aq4IBeT4ntrWckP79foYKa1EMQU4Rn2ngS2_kWusJESnN8Ywzh6qWtsTtjf3f4yf9E1r4VGlrQZOfF5x0gHGmvED4Fc_voCiWcT6KtPAaxYcW3QpD84="
+  ],
+  "tokeny": {
+   "wejscie": 9974,
+   "wyjscie": 1425
+  },
+  "czas_s": 197,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

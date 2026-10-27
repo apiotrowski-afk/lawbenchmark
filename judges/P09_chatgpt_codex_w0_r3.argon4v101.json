@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 41 ust. 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.), art. 65 § 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 50 pkt 1-3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 53",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.), art. 78¹ § 1-2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 2 ust. 1-2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 46",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 41 ust. 4",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń zgodny z kluczem v4 (A-R = 2, B2 = 1): wskazuje, że ogólna klauzula co do zasady nie wystarcza wobec wymogu wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 pr.aut.), ale zakres może zostać dookreślony w drodze wykładni umowy według art. 65 k.c., oraz wymienia formę pisemną pod rygorem nieważności (art. 53 pr.aut.) i ograniczenie do pól znanych w chwili zawarcia (art. 41 ust. 4 pr.aut.). Wszystkie wymagane podstawy prawne zostały powołane prawidłowo (A2 = 1), a brak dosłownych cytatów przepisów w cudzysłowie skutkuje A3 = nd. Wszystkie powołania przepisów pr.aut. i k.c. zostały zweryfikowane w oficjalnych tekstach jednolitych i są w pełni zgodne ze stanem prawnym (A6 = 1). W rubryce przyznano 4 z 5 punktów, w tym punkt za piąty element zgodnie z regułą B12 (wystarczy wskazanie wykładni z art. 65 k.c. bez konieczności przywołania reguły in favorem auctoris), natomiast odjęto czwarty element wobec braku odniesienia do art. 12 pr.aut. i stosunku pracy.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"art. 46\" \"art. 50\" \"art. 53\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"art. 2\" \"o prawie autorskim i prawach pokrewnych\" \"opracowanie\" OR OR",
+   "\"art. 65\" \"art. 78\" \"kwalifikowanym podpisem elektronicznym\" \"Kodeks cywilny\" OR OR",
+   "\"2025\" \"poz. 24\" \"prawie autorskim\"",
+   "\"WDU20250000024\" OR \"DU/2025/24\"",
+   "\"Kodeks cywilny\" \"2024\" OR \"2025\" OR \"2026\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14378,
+   "wyjscie": 1303
+  },
+  "czas_s": 96,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

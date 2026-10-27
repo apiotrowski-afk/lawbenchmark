@@ -1,0 +1,128 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 1 w zw. z art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 22 ust. 9 pkt 3 ustawy o PIT",
+   "zrodlo": "Dz.U. 2025 poz. 163",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wprost i prawidłowo obala fałszywą przesłankę pytania (A_R=2, R1=1), wskazując wymóg wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 pr.aut.) oraz formę pisemną pod rygorem nieważności (art. 53 pr.aut., A2=1). Wszystkie powołane przepisy są w pełni zgodne ze stanem prawnym na 1 października 2026 r., co wyklucza halucynacje (A6=1). Przedstawiono precyzyjne przykłady pól eksploatacji dla social mediów oraz wyczerpujące wskazówki kontraktowe, co zapewnia wysoką wartość praktyczną (B1=2, R3=1, R4=1). Odpowiedź pominęła jednak liberalną linię orzeczniczą SN dopuszczającą dookreślenie pól przez cel umowy i art. 65 k.c. (R5=0), przez co zbyt kategorycznie wykluczyła przejście praw i nie spełniła warunkowej kalibracji (B2=0).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Art. 41.\" \"ustawa o prawie autorskim i prawach pokrewnych\" ISAP sejm",
+   "\"Art. 53.\" \"ustawa o prawie autorskim\" ISAP sejm",
+   "\"Art. 46.\" \"ustawa o prawie autorskim\" ISAP sejm",
+   "\"Art. 65.\" \"ustawa o prawie autorskim\" ISAP sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12409,
+   "wyjscie": 1112
+  },
+  "czas_s": 48,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "źródło_wtórne"
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest trafny (A-R=2), system prawidłowo zaprzecza przesłance i wskazuje na wymóg wyraźnego wymienienia pól eksploatacji. Podstawy prawne są obecne (A2=1). Występuje jednak halucynacja w zakresie art. 41 ust. 3 pr.aut. (A6=0, typ T) – system pominął warunek 'mających powstać w przyszłości' w odniesieniu do wszystkich utworów twórcy, co fałszywie rozszerza zakaz na utwory już istniejące. Błąd ten ma charakter poboczny. Kalibracja pewności jest prawidłowa (B2=1), a odpowiedź zawiera bardzo przydatne wskazówki praktyczne (B1=2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"Nieważna jest umowa w części dotyczącej wszystkich utworów lub wszystkich utworów określonego rodzaju tego samego twórcy mających powstać w przyszłości\"",
+   "\"art. 41 ust. 3\" \"prawo autorskie\"",
+   "\"art. 67 ust. 5\" \"prawo autorskie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsgXpEykCiGhqllEY1rPhiYJBUggzXIMZVcKyJPgRwVYNSLMQ9oCFsHwZjGhvUcB7wBrrzFuq9x4rggOey2yFptYQZi6_4BXFK9uEA9o33daEUV5l4DhP0eZwADA4vOpyclYe6maIshn21o33lJtZ9BemomGDKYC78z4jiBUtbgl36lRBicWFdNik2A5VGpM7cTYAkvvNeDp8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJZk2Wz8mHgROLbDmqaSt8dQfjLzwebJQKqashlzOsUB845ZJ2Op4cA2sGUoVuZGuo8VghKTK3T0raTHHc_CKYIiny3iMdsYz52kf1-_biwwBddG-GwfsiOrKMGgTf2cyKP_NNnOM8Pnzr3vxUu3l7MgqsWbLvS3HlDxpn",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pMsbTlaMOgLviYcUqeUYW_mQfkbqAmM2GnsR7meKhV1jl2MhbOF3t0hwH_Dd2-vB3JVktSwENBTR-Bo2jYrUp-20WF77YVjwgVBJNzbMv7WGHpaHhYFTBIpKNPI0HvU3ptqJqBrR8sFe4MnS8F1npZrf4NUDQqJPSA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFup0Rdmu9kYoSS6DNZpcif8VAcGH_Hgnq_zk7tAIYKNZck3BlxzvILBF5W5U5dyUyO5THkL2pcPAOEhBK0p_3FOKX_Es_SShOFRnoZZoiJs_9K6403w4YNLX0bgUUZyxDx5tNDi9S-rmwA1GEOHwnUU0QzPTWD7BKK3i-L3FA2a7sJN_XC_kI3uw=="
+  ],
+  "tokeny": {
+   "wejscie": 13961,
+   "wyjscie": 814
+  },
+  "czas_s": 145,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

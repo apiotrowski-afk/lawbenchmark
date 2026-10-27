@@ -1,0 +1,103 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 326–328 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 k.p.c. w zw. z art. 328 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 k.p.c. w zw. z art. 328 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "postanowienie SN I CSK 1871/23",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest prawidłowy (A-R=2). System poprawnie wskazuje, że zasadnicze powody nie zastępują uzasadnienia i podaje właściwy termin. Niestety, system halucynuje podstawy prawne (A6=0, T): błędnie twierdzi, że termin dla postanowień wynika z art. 357 w zw. z art. 328 § 1 k.p.c. (który dotyczy wyroków), a brak uzasadnienia postanowień niezaskarżalnych z art. 357 w zw. z art. 328 § 4 k.p.c. (który dotyczy odrzucenia wniosku). Ponadto system powołuje orzeczenie SN I CSK 1871/23 z nieistniejącym linkiem i niepotwierdzoną tezą. Z powodu błędnych podstaw prawnych A2=0. Rubryka traci punkt za brak wzmianki o opłacie lub wyjątkach.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 32,
+  "zapytania": [
+   "\"art. 328\" \"k.p.c.\" \"Dz.U. 2026 poz. 468\"",
+   "\"art. 357\" \"k.p.c.\" \"Dz.U. 2026 poz. 468\"",
+   "\"art. 328\" \"k.p.c.\" \"Dz.U. 2026 poz. 468\" \"Uzasadnienie wyroku\"",
+   "\"art. 328 § 1\" \"k.p.c.\" \"Dz.U. 2026 poz. 468\"",
+   "\"Pisemne uzasadnienie wyroku sporządza się na wniosek strony\" \"art. 328\" \"k.p.c.\"",
+   "\"art. 328 § 4\" \"k.p.c.\" \"Dz.U. 2026 poz. 468\"",
+   "\"art. 357\" \"k.p.c.\" \"Dz.U. 2026 poz. 468\" \"w zw. z art. 328\"",
+   "\"art. 357\" \"k.p.c.\" \"Dz.U. 2026 poz. 468\" \"uzasadnienie postanowienia\"",
+   "\"Postanowienie wydane na posiedzeniu niejawnym sąd uzasadnia tylko wtedy\" \"art. 357\" \"k.p.c.\"",
+   "\"art. 357\" \"k.p.c.\" \"§ 1\" \"§ 2\" \"§ 3\" \"§ 4\" \"§ 5\"",
+   "\"art. 357\" \"w zw. z art. 328 § 1\"",
+   "\"art. 357\" \"w zw. z art. 328\"",
+   "\"I CSK 1871/23\"",
+   "\"I CSK 1871/23\" \"zasadnicze powody\"",
+   "\"I CSK 1871/23\" \"sn.pl\"",
+   "\"I CSK 1871/23\" \"uzasadnienie\"",
+   "\"I CSK 1871-23-1.pdf\"",
+   "\"I CSK 1871/23\" \"Sąd Najwyższy\"",
+   "\"I CSK 1871/23\" \"motywy\"",
+   "\"nieokreślenie w orzeczeniu statusu podanych motywów\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_xUSHA41gmbdzQadkdp1wUkByKbmF7ZXloOthMWgB48XRgD1mRUj-Ts1P3_pMEOsRAd2nVy4DGh11kCMTJqVaKVq9VqiP-KHyZVfnIGYDb11yIiudHE-FuOKJ5uDWSgAgZQSOQ89HytThswqnN-UqSQqWBAyZaeak2IeVWweTgLVSYg034Lr10SypovTXbVJz4jhpivut7Y298XE0k0vDXwyZHg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMNaxwkqcAaqlWgEUGRgxQHHMx0wmCg5pGf26qHgaa_rLc8Uz0h5IyVTgx7l8ihoILfa0mArFZUYGa06EWonK2XrvZR8awlRIKrSpGCIaq7AHePtZ6sZkf-FDtNkMzEVbymh_Vd1qszXBNpJ0aDE7PMNtWV1Rucmn_wU8W6jjMNvaY-51w4VKKe0QEqd_Neqb1rKYUnw8m0M937vpVEaer_Lc-im6yRlKoxWBNvPa2hT4vqptlxq9tIjo1e2lNrf4iy9kiju10Bwo88gbHPqzbvMdUJUupAbn6YeVX_sMS-C_5qAFkLnh7IVzr2nTJ"
+  ],
+  "tokeny": {
+   "wejscie": 11057,
+   "wyjscie": 809
+  },
+  "czas_s": 243,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

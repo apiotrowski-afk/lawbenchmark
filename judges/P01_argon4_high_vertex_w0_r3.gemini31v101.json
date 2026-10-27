@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 i § 2 k.w.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278, 284, 290, 291/292 lub 288 Kodeksu karnego",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 Kodeksu karnego skarbowego (k.k.s.)",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600)",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Rady Ministrów z dnia 14 września 2023 r., Dz.U. poz. 1893",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny i znajduje się na początku (A-R=2). Wskazano prawidłową podstawę prawną (A2=1). Brak bezpośrednich cytatów w cudzysłowie (A3=nd). Odpowiedź zawiera dygresję o prawie karnym skarbowym, co obniża ocenę ram (A8=0.5). Wszystkie powołane przepisy i ich treść są zgodne ze stanem prawnym (A6=1). Błędne określenie bieżącego roku jako 2024 nie stanowi halucynacji prawniczej i nie wpływa na poprawność porady, ponieważ próg 800 zł obowiązuje również w 2026 r. (B1=2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 119\" \"Kodeks wykroczeń\"",
+   "\"art. 120\" \"Kodeks wykroczeń\"",
+   "\"art. 122\" \"Kodeks wykroczeń\"",
+   "\"art. 124\" \"Kodeks wykroczeń\"",
+   "\"art. 53\" \"Kodeks karny skarbowy\"",
+   "\"art. 53\" \"Kodeks karny skarbowy\" \"§ 6\"",
+   "\"art. 53\" \"Kodeks karny skarbowy\" \"Ustawowy próg\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14089,
+   "wyjscie": 924
+  },
+  "czas_s": 178,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

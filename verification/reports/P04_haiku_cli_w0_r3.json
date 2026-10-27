@@ -1,0 +1,179 @@
+{
+ "meta": {
+  "pytanie": "P04",
+  "system": "haiku_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P04/haiku_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:36:52",
+  "czas_s": 24.1,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 3,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 1,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 1
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 16 § 1 KPA",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 16 § 1 KPA",
+   "kontekst": "- art. 16 § 1 KPA: decyzja staje się ostateczna, gdy nie służy od niej odwołanie (lub gdy strona zrzekła się odwołania, albo decyzja została wydana przez organ naczelny lub ministra bez możliwości odwołania).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 16 § 1 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 16 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.31
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 127 § 3 KPA",
+   "akt": {
+    "nazwa": "Kodeks postępowania administracyjnego",
+    "kod_legal_cite": "KPA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 127 § 3 KPA",
+   "kontekst": "- art. 127 § 3 KPA: od decyzji ministra (organu naczelnego) w pierwszej instancji zwykle nie przysługuje odwołanie, co oznacza, że decyzja jest ostateczna z chwilą doręczenia.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 127 § 3 KPA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/572; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1691 z 2025-11-07, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2025-11-07) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 127 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1691 z 07.11.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (07.11.2025) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/572 (HTML, 2024-04-02)",
+    "tj": "DU/2024/572",
+    "data": "2024-04-02"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.46
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 61 § 3 PPSA",
+   "akt": {
+    "nazwa": "Prawo o postępowaniu przed sądami administracyjnymi",
+    "kod_legal_cite": "PPSA",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 61 § 3 PPSA",
+   "kontekst": "- Ustawa – Prawo o postępowaniu przed sądami administracyjnymi (PPSA): skarga do WSA nie wstrzymuje wykonania decyzji (art. 61 § 3 PPSA), więc wniesienie skargi nie czyni decyzji nieostateczną.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 61 § 3 PPSA",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/935; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 143 z 2026-01-21, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-01-21) weszły w życie 2 nowelizacje: Dz.U. 2025 poz. 1882 (01.03.2026), Dz.U. 2026 poz. 846 (26.06.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2023 poz. 1860 (01.10.2029)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 61 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 143 z 21.01.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Po przekazaniu sądowi skargi sąd może na wniosek skarżącego wydać postanowienie o wstrzymaniu wykonania w całości lub w części aktu lub czynności, o których mowa w § 1, jeżeli zachodzi niebezpieczeństwo wyrządzenia znacznej szkody lub spowodowania trudnych do odwrócenia skutków, z wyjątkiem przepisów prawa miejscowego, które weszły w życie, chyba że ustawa szczególna wyłącza wstrzymanie ich wykonania. Odmowa wstrzymania wykonania aktu lub czynności przez organ nie pozbawia skarżącego złożenia wniosku do sądu. Dotyczy to także aktów wydanych lub podjętych we wszystkich postępowaniach prowadzonych w granicach tej samej sprawy."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/935 (HTML, 2024-05-23)",
+    "tj": "DU/2024/935",
+    "data": "2024-05-23"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.36
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": [
+  {
+   "data": "1920-03-24",
+   "napis": "24 marca 1920",
+   "kontekst": "- Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (t.j. Dz.U. z późn. zm.): wymaga zezwolenia na nabycie nieruchomości przez cudzoziemca, w tym obywatela Ukrainy."
+  }
+ ]
+}

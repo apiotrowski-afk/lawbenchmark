@@ -1,0 +1,59 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o., w tym § 1–2",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń: wyklucza egzekucję bez ograniczeń i rozróżnia zakres odpowiedzialności zależnie od zgody małżonka oraz związku wierzytelności z przedsiębiorstwem. Trafnie wyjaśnia brak znaczenia oznaczenia działalności w tytule i prostuje numer przepisu; pominięcie długości terminu nie niweczy sprostowania. Powołane przepisy są zgodne z tekstami urzędowymi, a sprawdzone nowelizacje nie zmieniają wskazanych regulacji k.p.c. Nie zaliczono ostatniego elementu rubryki, ponieważ odpowiedź nie wskazuje możliwości egzekucji z majątku osobistego, wynagrodzenia i dochodów dłużnika przy braku obu przesłanek. Przytoczone żądanie jest jednozdaniową formułą wniosku, nie cytatem przepisu; odpowiedź pozostaje przydatna i właściwie warunkowa.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 66,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

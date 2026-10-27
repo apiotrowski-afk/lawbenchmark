@@ -1,0 +1,91 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, brzmienie obowiązujące od 1.06.2026 i odnośnik 29.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, wybór i rezygnacja przez portal, trzy rodzaje podpisów oraz pisemna rezygnacja skuteczna po zawiadomieniu sądu.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, chwila wskazana w potwierdzeniu oraz skuteczność doręczenia po 14 dniach przy braku potwierdzenia.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, odstąpienie od doręczenia portalowego ze względu na charakter pisma.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 30, doręczanie pełnomocnikowi i bezpośrednie doręczanie stronie wezwania do osobistego stawiennictwa.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 2 pkt 3 rozporządzenia z 12 marca 2024 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf — definicja odbioru przez funkcję „Odbierz” w module „Moje doręczenia”.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 3 ust. 1 rozporządzenia z 12 marca 2024 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf — umieszczenie treści pisma w module „Moje doręczenia”.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 4 ust. 1 rozporządzenia z 12 marca 2024 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf — data odbioru po upływie 14 dni oraz przesunięcie daty przypadającej na sobotę lub dzień wolny.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 4 ust. 2 rozporządzenia z 12 marca 2024 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf — automatyczne generowanie potwierdzenia, przekazanie sądowi i możliwość pobrania.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie zmieniające z 23 lutego 2026 r., Dz.U. 2026 poz. 225",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/225/text.pdf — zmiana definicji i zawartości potwierdzenia, obowiązująca od 1.03.2026; powołane przepisy proceduralne zachowane.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń i wszystkie cztery elementy rubryki, wskazując wymagane podstawy prawne. Powołania są zgodne z raportem faktów oraz sprawdzonymi tekstami oficjalnymi, także w zakresie przepisów wykonawczych. Pominięcie szczególnego wyjątku w art. 133 § 3 nie obniża A6. Nazwy funkcji portalu w cudzysłowie nie są cytatami przepisów, dlatego A3 jest nieadekwatne. Odpowiedź jest praktyczna, kategoryczna i pozostaje w ramach pytania.",
+ "_meta": {
+  "sedzia": "sol61meta",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 6,
+  "czas_s": 35,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 7, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 131¹ᵃ § 1¹ k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Wybór doręczeń przez portal następuje poprzez złożenie przez stronę oświadczenia opatrzonego kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo podpisem osobistym.”\n    · uzasadnienie weryfikatora: Przepis wprost wskazuje wymóg złożenia oświadczenia o wyborze za pośrednictwem portalu i opatrzenia go jednym z wymienionych trzech podpisów.\n    · kotwica (verbatim ze źródła): „Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1, lub oświadczenie o rezygnacji z nich strona składa za pośrednictwem portalu informacyjnego i opatruje kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo podpisem osobistym.”\n    · brzmienie jednostki (fragment): „§ 1¹. Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1, lub oświadczenie o rezygnacji z nich strona składa za pośrednictwem portalu informacyjnego i opatruje kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo podpisem osobistym. Oświadczenie o rezygnacji ze sposobu doręczeń, o którym mowa w § 1, strona może złożyć również na piśmie. Oświadczenie o rezygnacji ze sposobu doręczeń, o którym mowa w § 1, odnosi skutek prawny z chwilą zawiadomienia sądu.”\n- 2. art. 131¹ᵃ § 2 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Pismo uważa się za doręczone w chwili wskazanej w automatycznie wygenerowanym przez portal elektronicznym potwierdzeniu odbioru.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że pismo uznaje się za doręczone w chwili wskazanej w dokumencie potwierdzającym doręczenie (szczegół o automatycznym generowaniu wynika z powołanego łącznie rozporządzenia).\n    · kotwica (verbatim ze źródła): „W przypadku, o którym mowa w § 1, pismo uznaje się za doręczone w chwili wskazanej w dokumencie potwierdzającym doręczenie.”\n    · brzmienie jednostki (fragment): „§ 2. W przypadku, o którym mowa w § 1, pismo uznaje się za doręczone w chwili wskazanej w dokumencie potwierdzającym doręczenie. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku dokumentu potwierdzającego doręczenie, doręczenie uznaje się za skuteczne z upływem 14 dni od daty umieszczenia treści pisma w portalu informacyjnym w sposób, o którym mowa w § 1 zdanie pierwsze.”\n- 3. art. 131¹ᵃ § 2 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „W przypadku nieodebrania pisma doręczenie staje się skuteczne z upływem 14 dni od jego prawidłowego umieszczenia w portalu, przy czym gdy ostatni dzień terminu przypada w sobotę lub dzień ustawowo wolny od pracy, datą odbioru jest następny…”\n    · uzasadnienie weryfikatora: Przepis wprost reguluje 14-dniowy termin fikcji doręczenia od umieszczenia pisma w portalu (kwestia dni wolnych jest uregulowana w powołanym łącznie rozporządzeniu lub przepisach ogólnych).\n    · kotwica (verbatim ze źródła): „W przypadku braku dokumentu potwierdzającego doręczenie, doręczenie uznaje się za skuteczne z upływem 14 dni od daty umieszczenia treści pisma w portalu informacyjnym w sposób, o którym mowa w § 1 zdanie pierwsze.”\n    · brzmienie jednostki (fragment): „§ 2. W przypadku, o którym mowa w § 1, pismo uznaje się za doręczone w chwili wskazanej w dokumencie potwierdzającym doręczenie. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku dokumentu potwierdzającego doręczenie, doręczenie uznaje się za skuteczne z upływem 14 dni od daty umieszczenia treści pisma w portalu informacyjnym w sposób, o którym mowa w § 1 zdanie pierwsze.”\n- 4. art. 131¹ᵃ § 1 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Z doręczeń przez portal można zrezygnować na piśmie lub przez portal, co wywołuje skutek z chwilą zawiadomienia sądu, a ponadto tryb ten nie obejmuje wszystkich dokumentów, wyłączając m.in. określone niedostępne elektronicznie załączniki o…”\n    · uzasadnienie weryfikatora: W ramach grupy przepisów powołanych łącznie (§ 1, § 1¹ i § 3) badana jednostka (§ 1) wprost potwierdza część twierdzenia dotyczącą wyłączenia dokumentów niedostępnych w postaci elektronicznej.\n    · kotwica (verbatim ze źródła): „Nie dotyczy to pism sądowych, które podlegają doręczeniu wraz z odpisami pism procesowych stron lub innymi dokumentami niepochodzącymi od sądu, chyba że sąd dysponuje nimi w postaci elektronicznej.”\n    · brzmienie jednostki (fragment): „§ 1. W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania, pisma sądowe oraz odpisy pism procesowych lub innych dokumentów niepochodzących od sądu, którymi sąd dysponuje w postaci elektronicznej, wyłącznie przez umieszczenie ich treści w portalu info…”\n- 5. art. 131¹ᵃ § 1¹ k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Z doręczeń przez portal można zrezygnować na piśmie lub przez portal, co wywołuje skutek z chwilą zawiadomienia sądu, a ponadto tryb ten nie obejmuje wszystkich dokumentów, wyłączając m.in. określone niedostępne elektronicznie załączniki o…”\n    · uzasadnienie weryfikatora: W ramach powołanej łącznie grupy przepisów jednostka § 1¹ wprost reguluje formę (portal lub pismo) oraz chwilę skuteczności rezygnacji z doręczeń przez portal.\n    · kotwica (verbatim ze źródła): „Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1, lub oświadczenie o rezygnacji z nich strona składa za pośrednictwem portalu informacyjnego i opatruje kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo podpisem osobistym. Oświadczenie…”\n    · brzmienie jednostki (fragment): „§ 1¹. Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1, lub oświadczenie o rezygnacji z nich strona składa za pośrednictwem portalu informacyjnego i opatruje kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo podpisem osobistym. Oświadczenie o rezygnacji ze sposobu doręczeń, o którym mowa w § 1, strona może złożyć również na piśmie. Oświadczenie o rezygnacji ze sposobu doręczeń, o którym mowa w § 1, odnosi skutek prawny z chwilą zawiadomienia sądu.”\n- 6. art. 131¹ᵃ § 3 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Z doręczeń przez portal można zrezygnować na piśmie lub przez portal, co wywołuje skutek z chwilą zawiadomienia sądu, a ponadto tryb ten nie obejmuje wszystkich dokumentów, wyłączając m.in. określone niedostępne elektronicznie załączniki o…”\n    · uzasadnienie weryfikatora: W ramach powołanej łącznie grupy przepisów jednostka § 3 wprost potwierdza wyłączenie pism wymagających innego doręczenia ze względu na ich charakter, w tym odpisów orzeczeń i tytułów wykonawczych.\n    · kotwica (verbatim ze źródła): „§ 3. Przewodniczący zarządza odstąpienie od doręczenia pisma za pośrednictwem portalu informacyjnego, jeżeli dokonanie doręczenia w taki sposób jest niemożliwe ze względu na charakter pisma, w szczególności jeżeli zachodzi potrzeba wydania stronie uwierzyteln…”\n    · brzmienie jednostki (fragment): „§ 3. Przewodniczący zarządza odstąpienie od doręczenia pisma za pośrednictwem portalu informacyjnego, jeżeli dokonanie doręczenia w taki sposób jest niemożliwe ze względu na charakter pisma, w szczególności jeżeli zachodzi potrzeba wydania stronie uwierzytelnionego odpisu orzeczenia lub tytułu wykonawczego.”\n- 7. art. 133 § 3 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Wezwanie do osobistego stawiennictwa doręcza się bezpośrednio stronie, nawet jeżeli ustanowiła ona pełnomocnika procesowego.”\n    · uzasadnienie weryfikatora: Przepis wprost wyraża tę zasadę, a twierdzenie pomija jedynie szczegółowy wyjątek dotyczący strony, o której mowa w art. 1135⁵ § 1 k.p.c.\n    · kotwica (verbatim ze źródła): „Jeżeli ustanowiono pełnomocnika procesowego lub pełnomocnika do doręczeń, pisma sądowe doręcza się tym osobom. Pismo wzywające stronę do osobistego stawiennictwa doręcza się tylko bezpośrednio tej stronie, z wyjątkiem strony, o której mowa w art. 1135⁵ § 1.”\n    · brzmienie jednostki (fragment): „§ 3. Jeżeli ustanowiono pełnomocnika procesowego lub pełnomocnika do doręczeń, pisma sądowe doręcza się tym osobom. Pismo wzywające stronę do osobistego stawiennictwa doręcza się tylko bezpośrednio tej stronie, z wyjątkiem strony, o której mowa w art. 1135⁵ § 1.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

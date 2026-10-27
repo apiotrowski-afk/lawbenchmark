@@ -1,0 +1,105 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl / baza orzeczeń SN (I CSK 596/17)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo zaprzecza błędnej przesłance pytania już w pierwszym zdaniu, wskazując wymóg wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 pr.aut.), ograniczenie do pól znanych w chwili zawarcia umowy (art. 41 ust. 4 pr.aut.) oraz formę pisemną pod rygorem nieważności (art. 53 pr.aut.). Odpowiedź podaje trafne przykłady pól eksploatacji z art. 50 pr.aut. dostosowane do specyfiki social mediów. Uwzględniono również liberalną linię orzeczniczą SN (wyrok z 5 października 2018 r., I CSK 596/17) dopuszczającą dookreślenie zakresu nabytych praw w drodze wykładni umowy z art. 65 k.c. (zgodnie z regułą B12 zalicza to piąty element rubryki oraz zapewnia pełną punktację w A-R i B2). Wszystkie powołania przepisów i orzeczenia są w pełni zgodne ze źródłami oficjalnymi (A6 = 1), a brak dosłownych cytatów przepisów w cudzysłowie skutkuje A3 = nd.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 17,
+  "zapytania": [
+   "\"art. 41\" \"art. 50\" \"art. 53\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"Art. 65.\" \"Oświadczenie woli należy tak tłumaczyć\" OR",
+   "\"I CSK 596/17\" \"5 października 2018\" OR",
+   "\"o prawie autorskim i prawach pokrewnych\"",
+   "\"I CSK 596/17\"",
+   "\"eli.gov.pl\" \"WDU19940240083\" OR \"2025\" \"24\" \"o prawie autorskim\"",
+   "\"isap.sejm.gov.pl\" \"WDU19940240083\"",
+   "\"sn.pl\" \"I CSK 596/17\" OR \"i csk 596-17\"",
+   "\"eli.gov.pl\" \"WDU19640160093\" \"Art. 65\"",
+   "\"Sygn. akt I CSK 596/17\" \"5 października 2018\"",
+   "\"D20250024L.pdf\" OR \"D19940083Lj.pdf\" \"Art. 41\"",
+   "\"eli.gov.pl\" \"DU/2026/795\" OR \"DU/2024/1061\" \"Kodeks cywilny\"",
+   "\"i csk 596-17-1.pdf\" OR \"i%20csk%20596-17-1.pdf\"",
+   "\"I CSK 596/17\" \"pól eksploatacji\" \"41 ust. 2\"",
+   "\"eli.gov.pl\" \"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"eli.gov.pl\" \"Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania formy pisemnej pod rygorem nieważności\"",
+   "\"Art. 41.\" \"4. Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPftWM3SbWqCFjVdfEcXsFO_nXKcaXVi0ihTyRHC6TIF3vjWGMPaJa-hYn2e2J5eLOsXRtAlY3ScNB-ukkKSH-RecvmicNPwNbFQVyjO_vFlyU8f5U_F8Yb0A_un-Dj4w=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0y6rylm_23VHs0f3iDp8PuPjUyJ637ofD1W2d6TCVrtRM6fzHYWxL8ijRP4EzZbCvoE5g5Ye6qdyToGXQ75BYbqa42HOZJtJs7uV3WnEYJ_IerIM9RbMi2g-iK7kvLjwf65uDnPCT94VOzhpz4pP5ol0IDb7W-8B2V5gfS1-fgTsDvsTF8vyqQmGLC0VXjNQl8X9btMajNhJd",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNxte20VGS3OQ_MmPa3XeHTfuBoa2nUHvc2zs3T3vBI-hxtoNSfC4_Mq-FjvDfFM1HOkcT1sSZqEz-rWhzRmi4VtMGZM1hwtRKBMdc9QmRWQxRPIuXgJ_prmu3rZ8jaJFEypIDVJFbxBh2uPUNWjIqy60mTaeLgYJaB_JPO2zLndKMzCZe0XGkrH09bA5e4xpDp-57YYs1EB4513ar6CAE4v0DI8RyrxPfmrkdblzwjFKuN-dn",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgzVUrv-XYb3Dhpl8eJie9jWr8-_oxWuP9lw_7GkDfQjQq6-Gbov8dwIQXbuI6cGEoGM29BBMkytTxDa4nS5aCHTZ84U57O376nyZIpuh7gAyHW2vVLdj-yLQ6Edf_ibZ8UrU34_4Brr4-RXecKImyB2gaPKbmMCy_Rlw0rGkh8OYR3nl-VgMqSi0ujW3EMNh7HBSayre2Fe1jmeYOekHR_p7Zs1KFDHzOGu4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0pp8aa6TfgDsq_LCneZKW1uQL4kv2l_FqTB8nycXiQ3uY03X1S38cC_eu7RzRbARIaWWC9ioFALsK6Cc93d8hu56YiB1Otan4MGGPFEDog9L1d6MYWO7lH10Z2G3zg5AA-ocixJMv",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQJhhC4lNzmSNV5VAHMnSpKTRu5dV-YbawWv40TG8Ui-AG62vUFJraqwnMVcAHeze05F5ZLsWtvGeuLfRoBjwzDyxeGVfuCPnSAPXceFCx87qL-s0sFuzbOjINdkdyJ6PB",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDHJaqTd5Fs4eY4X-NSjSLIYRIVrbF5iUyET0T50UrXgDPfl5k2O2GINJBnSnd2RCNNCPpPlcTXHBE-WK77_NmEUsc-peGSQHrjB6Ciga-R729zQslTUIXu556zvd-CtagDZIBrdvocbk34zPh472MGIFOppvpAGYIrHSk-RCRZXNDBbVEtdY52meX8mOkz43OKMcZ-I_AUPBBuBLFsE_SdifU273MvlF65g8av0g=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtZd2vzwsNvT7Y5utScIYn226BgnBZQrk2Bv_BMQm1BS7QhOQr2wtRDYnqGFFRmVGcajNZweR0WpAiZJbwlxk8pdivvI7MtkQIYkpzCdIjiEZ-YJ8eMhn9Vot6gxHGkcvUFk3GLU7k8cvoM9he9j0MuYyh-dVLL-ZCkcDw_pqttegDg3qPdX9PwHJBLNOcarI="
+  ],
+  "tokeny": {
+   "wejscie": 13527,
+   "wyjscie": 1615
+  },
+  "czas_s": 103,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 i nast. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest merytorycznie całkowicie błędna („Nie” zamiast „Tak”), co skutkuje zerem punktów za rdzeń (A_R = 0), brakiem zaliczenia jakiegokolwiek elementu rubryki oraz naliczeniem kary K[0] za twierdzenie, że zasadnicze powody rozstrzygnięcia zastępują uzasadnienie i wykluczają wniosek. W A2 przyznano 0 pkt z uwagi na brak powołania wymaganego art. 357 § 1 albo § 2¹ k.p.c. Przypisanie art. 357 § 5 k.p.c. tezy, że zasadnicze powody rozstrzygnięcia stanowią skróconą formę uzasadnienia postanowienia, jest wprost sprzeczne z treścią zdania drugiego tego przepisu, co stanowi halucynację klasy T (A6 = 0, hallucinated = true). W bloku B przydatność oceniono na 0 (B1 = 0), natomiast kalibrację na 1 (B2 = 1), gdyż zgodnie z regułami pewna, choć błędna odpowiedź przy oczekiwanej kalibracji kategorycznej otrzymuje punkt.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" OR OR",
+   "\"394\" \"zażalenie\" \"468\" OR OR",
+   "\"2026\" \"468\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 394.\" \"Zażalenie do sądu drugiej instancji\" \"394\" \"termin\" \"uzasadnienia\" kpc"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 8702,
+   "wyjscie": 736
+  },
+  "czas_s": 60,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

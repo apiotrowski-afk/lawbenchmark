@@ -1,0 +1,78 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (wymaga zezwolenia ministra)",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 KPA (decyzja, od której nie służy odwołanie, jest ostateczna)",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 KPA (decyzja ministra nie podlega odwołaniu, więc jest ostateczna z chwilą doręczenia lub ogłoszenia)",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Prawo o postępowaniu przed sądami administracyjnymi (skarga do sądu administracyjnego)",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks postępowania cywilnego (klauzula prawomocności i wykonalności dotyczy tytułów egzekucyjnych)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje, że zgoda to decyzja administracyjna, a potwierdzeniem jest zaświadczenie organu (A-R = 1, R1, R2). System halucynuje jednak co do treści art. 127 § 3 k.p.a., twierdząc, że decyzja ministra jest ostateczna z chwilą doręczenia, ponieważ nie podlega odwołaniu. W rzeczywistości przepis ten przewiduje wniosek o ponowne rozpatrzenie sprawy, co odsuwa ostateczność w czasie (A6 = 0, T). Błąd ten wpływa na praktyczną przydatność porady, obniżając B1 do 1. Odpowiedź nie rozróżnia prawidłowo ostateczności i prawomocności (brak R3 i R4).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"Art. 127 § 3\" KPA ostateczna z chwilą doręczenia",
+   "\"Art. 127 § 3\" KPA wniosek o ponowne rozpatrzenie sprawy"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15099,
+   "wyjscie": 766
+  },
+  "czas_s": 100,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

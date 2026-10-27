@@ -1,0 +1,82 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 127 § 3 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 61 § 3 PPSA",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie twierdzi, że decyzja administracyjna nie może być prawomocna, co skutkuje oceną A-R = 0 oraz nałożeniem kary K3. System dopuszcza się halucynacji (T), twierdząc, że z art. 127 § 3 k.p.a. wynika ostateczność decyzji ministra z chwilą doręczenia, podczas gdy przepis ten przewiduje wniosek o ponowne rozpatrzenie sprawy. Ponadto błędnie przypisuje art. 61 § 3 p.p.s.a. normę o niewstrzymywaniu wykonania decyzji przez skargę (która znajduje się w § 1). Z powodu błędnych pouczeń co do ostateczności i prawomocności przydatność (B1) wynosi 0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"Dz.U. 2026 poz. 143\" \"art. 61\" ppsa",
+   "\"Dz.U. 2025 poz. 1691\" \"art. 127\" kpa",
+   "\"Dz.U. 2025 poz. 1691\" \"art. 16\" kpa"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqyGhVp1vtzfhwiw_I6jg2v8UU8r-z1ixk7NYF0fx-c0i_uzgeAAqwBJRsI4SNxHNuwaYazHnnyBT-oq542Espu22dH87aOB8Hge53jxwVa69AJRcPbVTmjxbvSMFcQKxX03eZWezFsNq6hjN5rO5Y5WxCCMAw1Dk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlvb1GVOB_dVhui6-GYT-nk5EjnzBPj6xV6qgDsTr-PlAJWrcHLKkWWin9SIoPQJA2ykwMWhicDR3iSmhwApLRaDFkmhlLwEZ_rjMjZWTB40pfV7G4iEXoqNiSONlPwzYTs4McHPQ5D0-lQTCQlcMk6zg6TRmZMqPlkPY9o6w6cQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6aqhu1_AMq08dG7hVjndtDVaplHXFmwmg9imF2uEG4YX7qHCiBXQZGDeQ8ivGfMmQgSB8YSa-xghqcz3mAeiI5qjTDJfyoIJPrUYrFJWwRuR-9HWF5M1XLxU2iohfuLdSBxqGzLTUDMs5aS7LO2drov5QJqwM3BxLXsW2k6qni5Bj0w95V1J0El1-bPL5TE7PovuLptdw1Ro58nW4f0QCmCddtPT9",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0k1MKQ98Hzia2ZAoh8iuaVfyQVUzpOOE8gCtaI00g6trXBvNu0s1DbMTlDkv4mCxqf4YTsmnO21R_RVC42Nff1X6AYPRHHRwkiJWw-yzovI_JOLuoXM_sbFga_sT8LdXcLK0c4cZUwSNhPv5mmgIqoQNJXuxw6_j-AyTsomPZfXWsZ4j2OVws1X3mcKOQO6xjJzmGWjx54Rns6vhXAwXoSttE7MhrrxpN6Dxm-DziGpULT1MWl3qv0yc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwey8-Ach7h_FVIlpjV5R-UK974mdxB26rjetkkDGm4GYJrRtj2f8zVI8VlSJFpfh7x7tDRoEMjx4z1d-mEgfRWqvtM0GTVEp_MUjjP2wJdde4RGINEAVErkSL7p5q3Cr4OA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIfjcnZ21pEX_GYA5cVwexs2AxHQz0OfKBcCS-8gQ8HBM-0wCNR2-3lFsNOlQrSBzqrsD1kbY50csCV_cS5Tmqh1xV2L_L8eSd6rb7x0P08w-YL3fvxSBuhRpQnfdq_WuRDqe09kXkhXZuh2-ZSW-J_gPwhoc2TR2A4abL7oKm3Mg5QxRZrDDHtRhnNhkjUJYqjndv_KWgwA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1KM95aqSR7Nd1zIM9ZE8DLN-4s1iHFe2Mgc2C6VJ15HR3eNkbMwvLA9UsFj4dwtNBSEPOcNQA0E1nYaRWCeH95RxUZjHHTHVKtnh7J60bkPNdd6icu7d2QLvPgzAtvQKznSKqGdlmDqbZiWd9moPlfzU2oeR37E09-GEIw5BzQ=="
+  ],
+  "tokeny": {
+   "wejscie": 15248,
+   "wyjscie": 624
+  },
+  "czas_s": 93,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

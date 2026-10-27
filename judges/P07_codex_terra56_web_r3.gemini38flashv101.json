@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 25b ust. 1 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2.07.2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń merytoryczny i wyczerpuje wszystkie punkty rubryki, prawidłowo omawiając zaskarżalność, terminy, opłatę 100 zł oraz trafną uchwałę SN III CZP 38/20. Zamiast wymaganych jednostek art. 357 § 1 oraz § 2¹ k.p.c. powołano jednak zbiorczo 'art. 357 § 2–3 k.p.c.', przypisując im m.in. termin wniosku od ogłoszenia na posiedzeniu jawnym, który mieści się wyłącznie w § 1. Skutkuje to niezaliczeniem A2 (brak wymaganej jednostki redakcyjnej) oraz zerem w A6 z kwalifikacją T za przypisanie wskazanej jednostce cudzej normy. Wskazówki praktyczne pozostają w pełni trafne, stąd wysokie oceny w bloku B (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 357\" kpc \"posiedzeniu niejawnym\" OR OR",
+   "\"III CZP 38/20\" sn.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10684,
+   "wyjscie": 562
+  },
+  "czas_s": 45,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

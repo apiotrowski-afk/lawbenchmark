@@ -1,0 +1,112 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c. — klauzula przeciwko małżonkowi obejmująca majątek wspólny, gdy wierzyciel wykaże dokumentem urzędowym lub prywatnym, że wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 § 2 k.p.c. — możliwość ograniczenia lub wyłączenia przez sąd zaspokojenia z majątku wspólnego w postępowaniu klauzulowym",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2004 nr 162 poz. 1691",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 787² k.p.c. — twierdzenie, że w postępowaniu o nadanie klauzuli z art. 787 k.p.c. sąd ocenia skutki umowy majątkowej małżeńskiej",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c. w zw. z art. 41 § 2 i 3 k.r.o. — twierdzenie, że ograniczenie odpowiedzialności w tym trybie polega na wyłączeniu m.in. wynagrodzenia za pracę i dochodów z innej działalności zarobkowej",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c. — wskazanie, że przepis nie dotyczy klauzuli przeciwko małżonkowi, lecz innej materii związanej z wnioskiem o klauzulę",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o. — odpowiedzialność całym majątkiem wspólnym za zobowiązanie zaciągnięte za zgodą małżonka",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Uchwała SN z 18.03.2011 r., III CZP 117/10 — niedopuszczalność domniemań faktycznych przy wykazywaniu zgody małżonka w postępowaniu z art. 787 k.p.c.",
+   "zrodlo": "SAOS / sn.pl (OSNC 2011 nr 11 poz. 120)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Postanowienia SO w Łodzi: VII Pz 38/16, VII Pz 39/16, VII Pz 122/15 — stosowanie zakazu domniemań faktycznych w postępowaniu z art. 787 k.p.c.",
+   "zrodlo": "SAOS / orzeczenia.ms.gov.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie wskazuje, że brak wzmianki o działalności gospodarczej oraz sam PESEL w nakazie/klauzuli nie przesądzają o trybie, a wybór między art. 787 k.p.c. (cały majątek wspólny) a art. 787¹ k.p.c. zależy od możliwości udokumentowania zgody małżonka (R2, R3, B2=1). Nie wyjaśnia jednak wprost, że każda klauzula przeciwko małżonkowi jest ograniczona (R1=0), nie podaje właściwej treści art. 781¹ k.p.c. jako 3-dniowego terminu dla sądu (R4=0) i pomija zakres egzekucji bez klauzuli na małżonka z art. 776¹ k.p.c. (R5=0), co daje A_R=1 i B1=1. Punktacja A6 spada do 0 (hallucinated=true) z uwagi na błędy klasy T i W: system przypisuje art. 41 § 2 i 3 k.r.o. (w zw. z art. 787¹ k.p.c.) wyłączenie egzekucji z wynagrodzenia za pracę i dochodów z innej działalności zarobkowej (podczas gdy przepisy te wprost dopuszczają zaspokojenie z tych składników, a art. 787¹ k.p.c. ogranicza odpowiedzialność małżonka do przedsiębiorstwa). Ponadto powołuje jako obowiązujący uchylony w 2005 r. art. 787 § 2 k.p.c. o ograniczaniu lub wyłączaniu przez sąd zaspokojenia z majątku wspólnego (W) oraz przypisuje art. 787² k.p.c. badanie skutków intercyzy przez sąd w postępowaniu klauzulowym, podczas gdy przepis ten stanowi dokładnie odwrotnie (T).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"787\" \"787^1\" \"787^2\" OR OR",
+   "\"III CZP 117/10\" OR",
+   "\"VII Pz 38/16\" OR \"VII Pz 39/16\" OR \"VII Pz 122/15\" OR OR",
+   "\"Art. 41.\" \"Jeżeli małżonek zaciągnął zobowiązanie\" OR OR",
+   "\"Art. 787\" \"Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim\" sejm.gov.pl",
+   "\"Art. 41\" \"Jeżeli małżonek zaciągnął zobowiązanie\" \"§ 3\" Kodeks rodzinny i opiekuńczy",
+   "\"III CZP 117/10\" \"18 marca 2011\" sn.pl OR saos.org.pl",
+   "\"VII Pz 38/16\" \"VII Pz 39/16\" \"VII Pz 122/15\" Łódź",
+   "\"VII Pz 38/16\"",
+   "\"VII Pz 39/16\"",
+   "\"VII Pz 122/15\"",
+   "\"787 § 2\" \"ograniczyć lub wyłączyć\" k.p.c.",
+   "\"787 § 2\" \"majątku wspólnego\" \"ograniczyć lub wyłączyć\"",
+   "\"VII Pz 122/15\" \"domniemań faktycznych\" OR \"III CZP 117/10\" OR \"dokumentem\"",
+   "\"W postępowaniu o nadanie klauzuli wykonalności sąd, na wniosek małżonka dłużnika, orzeka również o ograniczeniu lub wyłączeniu\"",
+   "\"Art. 41\" \"przed powstaniem wspólności\" \"wynagrodzenia za pracę\" k.r.o. 2004",
+   "\"czasopisma.inp.pan.pl\" \"3222\" \"787\" \"41\"",
+   "\"POSTĘPOWANIE EGZEKUCYJNE A REGULACJA STOSUNKÓW MAJĄTKOWYCH\" \"787\" \"synchronizacji\" OR \"innej działalności zarobkowej\"",
+   "\"podatki.biz\" \"egzekucja-z-majatku-wspolnego-malzonkow_33_19684\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13707,
+   "wyjscie": 2217
+  },
+  "czas_s": 272,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wyjaśnienia Komisji Europejskiej (FAQ do art. 50)",
+   "zrodlo": "digital-strategy.ec.europa.eu",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie identyfikuje rdzeń problemu, wskazując, że brak zamiaru wprowadzenia w błąd nie wyklucza uznania treści za deepfake, gdyż decyduje obiektywna możliwość niesłusznego uznania za autentyczne. Prawidłowo powołuje wszystkie wymagane przepisy AI Act i rozróżnia obowiązki dostawcy (art. 50 ust. 2) oraz podmiotu stosującego (art. 50 ust. 4). Odwołuje się do wyjaśnień KE, jednak bez zaznaczenia, że to soft law, przez co traci jeden punkt w rubryce. Kalibracja pewności jest prawidłowa, a odpowiedź wysoce przydatna.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"transparency-obligations-under-article-50-ai-act\"",
+   "\"transparency obligations under article 50 ai act\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfvDINS2_KGiGXcL1hIH7RbGcGjnLS8lJDiSRhCxTzjdE8_dLbJN3iV2Vb5rRt5RvgaiXCzIar6KPF2-56PCe3Xv9Jxl5nqV2g_TMfxv4CCSQjnoR7ytoV-R4mu8dWXtY8xuJiKGAa4mHr8bp6YTOlIrR3jLApw0CvoGk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCPIjyTd_jieyziQyoExVqZJA1AaxPn5ZQ02Yqsgf4LChmErij773sNxIH0hUSyWMvfv3eGkI4CS8SezZapvRrS0e6fo-mh-abBqMP2NMsRgRC4sChkutR56yS_GgwF42llxPVJfInIJlzj536Ojgg-qlTMwphKmzB2rUvjGhgdA4eMzdVyMMK-W911A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhTRh_zsMx8DD1Yo2-PikVXROnUgJ6uvNOorlMmzPumhAmKLqDDtQ6IYwuzHLV9s9Bx5-V0PR6jqI6qXb11lSIqG67o26SXyzFeEzbrqfMTQZBkiZw1XaIQVKEPS-EaOQSFhy0AbzfZTunDItFVnpFiwy29aQRql6inebhTp2H_lHyluyouBUOggznSmgipxEngNjk9a22CNQ="
+  ],
+  "tokeny": {
+   "wejscie": 15223,
+   "wyjscie": 547
+  },
+  "czas_s": 82,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

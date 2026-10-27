@@ -1,0 +1,99 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "Art. 3 pkt 60 AI Act — wykluczenie realistycznego głosu generycznego",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727 ; https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 50 ust. 1 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Motyw 134 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Stosowanie art. 50 od 2 sierpnia 2026 r.",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 23 KC — ochrona dóbr osobistych, w tym głosu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text.pdf ; https://www.sn.pl/sites/orzecznictwo/orzeczenia3/ii%20cskp%20659-22.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 24 KC — ochrona dóbr osobistych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "RODO — głos jako dane osobowe i potencjalnie biometryczne",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/pl/ALL/?uri=CELEX:32016R0679",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wytyczne Komisji do art. 50 i kodeks praktyk — wskazówka weryfikacyjna",
+   "zrodlo": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Kategoryczne wykluczenie realistycznego głosu generycznego zawęża definicję deepfake: oficjalne objaśnienia KE obejmują również osoby mogące realnie istnieć, co uzasadnia T i niepełny rdzeń. A3 obniża niedosłowny fragment „mogłaby… wydawać się”, przedstawiony jako konstrukcja definicji, zamiast urzędowego „odbiorca mógłby niesłusznie uznać”. Odpowiedź prawidłowo wskazuje niezależny obowiązek dostawcy z ust. 2, lecz nie przyporządkowuje wyraźnie ust. 4 podmiotowi stosującemu i nie zaznacza niewiążącego charakteru wytycznych. Akapit o ochronie poza AI Act obniża A8 do 0.5. Warunkowe rozdzielenie definicji i pozostałych obowiązków uzasadnia B2 = 1, natomiast błędna kwalifikacja realistycznego głosu ogranicza B1 do 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 73,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

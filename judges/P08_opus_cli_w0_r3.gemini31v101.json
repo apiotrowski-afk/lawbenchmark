@@ -1,0 +1,125 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 zd. 3 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motywy 133–134 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 7 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 i 24 k.c.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 85 i nast. pr. aut.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny (A-R=2), system prawidłowo wyjaśnia definicję deepfake i wskazuje na obiektywne kryteria oraz niezależny obowiązek z art. 50 ust. 2. Wymagane podstawy prawne zostały powołane (A2=1). Cytat art. 3 pkt 60 AI Act zawiera zmieniony zwrot definiowany („treści typu deepfake” oznaczają zamiast „deepfake” oznacza), co skutkuje A3=0. Brak halucynacji (A6=1), wszystkie powołane przepisy, w tym art. 50 ust. 4 zd. 3, są zgodne ze źródłami oficjalnymi. Wskazówka o sprawdzeniu statusu pakietu Omnibus nie jest twierdzeniem fałszywym o prawie, lecz uczciwym wyrazem niepewności. Rubryka R6 nie została zaliczona, ponieważ system nie zaznaczył, że wytyczne KE i kodeks praktyk to soft law.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 50\" \"rozporządzenie 2024/1689\"",
+   "\"art. 50\" \"AI Act\" \"ust. 7\"",
+   "\"art. 50\" \"AI Act\" \"ust. 6\"",
+   "\"art. 50\" \"ust. 4\" \"AI Act\" \"Podmioty stosujące system AI\"",
+   "\"art. 50\" \"ust. 4\" \"rozporządzenie 2024/1689\"",
+   "\"art. 50\" \"ust. 4\" \"rozporządzenie 2024/1689\" \"Podmioty stosujące system AI\"",
+   "\"art. 50\" \"rozporządzenie 2024/1689\" \"Podmioty stosujące system AI, który generuje obrazy\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM_3FCP7zmB-Lk87ubv3zkqoJse_Ps4X_cC8pCuFfx9JI34aM3-c1LyNxkK5xXbxNNQJYQ-ZQZIdwhpq-zXz-r92NhWsaxYpoLOIsbB9QQCAcBnEexCccFXpRo7LB_T586mnNa9xM0drREjmcFfDcgnG2MNqM63l2Z2pWvZzU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFHCm7-6GS2HYDqzZWGpBlV_L8Xql_XmtWhm_wAEGNlAKkmvBo0SZYNlUY13p_sygb4tVQ2NynjnLCYVesKn9qaTle3K7-LTx7IzYhlW4dxM9CbbDacjhEHKtONhQ4nDc-g8niY-v2fPDiO5Bxymmq9ARVYmuxkbbxzpYwhqfoLJJhz3wbv1ibNOwAnPqkMdVsyiTYzR8ExJIdR4F4oz-Oxjal0LfWcQRZK7AYagMkuKG8w2Kx74ZAdwglRw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA1n6lfxaRmn9u-Z_OgLK36v1h6xtRJIgYp6q78_QTS5zI9he2OOrVCm9k0pVcnVaq-fCjt83QzIOWv97vitg5K2e3HerMrumnrqHtQ5CapKsHHykA5keATOeQFybY0pQaRM7S7OVk",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTnkH6uzpu7sYnIkgNdLd2XButLRZQ-WfyZCPOVA_SXGMbtMG3D0uYTFGH_Tpw8GTN07uDLOYSSm1zvrJhR6DuyjxRVKkoW8Nr-e84zfxRgk9spXikjnSkk2cAzSOUFYOPeIkz2qZpkzldoqhXBT2NRze_mVOvRfoO3UMX0a3Ndl0Ku4hJER9tkV6vQyJrSFitH4TM8w_hJhELA6VOYWo66HkrR-aiT5PrmsOYJa6kKuNMwsIuZBZLkFU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoVC6_x5LK_w8fgpknqBb_c2D4L5C7GND5w6fCt4yjt8eN5-nYrzQhNgfMtWuRw52wJ4NKWA3wq4YRapcPxtp_RAWmDjhCZ7QpNresPl94-qyg8pvg-sa0KX15Tv7Mm2O5Umdb-mEQ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElh4iM1iy2aOMFl-YLJv9JnPD8wHO5Ft1sVDvn0Isz_tUMQsblhmhcA422lsTqgszmJw190ks5MdlqlCCk2KgUZlgzXYRfPOjfoEnDiI5mdQgNaHOgUIXVNhUYAdwJGOHE2oLd_ipYri2oyltaH_fJ_7G5cP23UWGdDQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAIPqlaCGNnrc8jrY4pDzUAS6avfjQoCKsW30Ijmm0SmJev7aBOgnm1pJu6gZ7O0QzK5o-7sUAIRoSPXNf7TTjaSA-I-OBX3u6bsdbLVgZqhlOS49QXvsgh2ngQhilJjs1B0aO6uWlSdb1h26W8_8LlF5lrnuJjjBt7cDkjHPxsXbLANivDF-WX5UT",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG89Fl4xCFMAtCoBWpTaSq4acTY0AGUfKWKQnPVnpWh6QmFd4JBXGfjHEfFqp8Tme0TIpXzndkcCXm8mzYjxY5AhF_eHYMFET363DN_kaJ_ZBuy6JXoh-P6l4rSGANd6Byq9uKjDBHoM9kIzGhVL1s-KRYM4bNyXH02u3o=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtxRFV2VCr9cBMqv5QL5mXIMQRZmN6szNTp-PlyN7i8dBO2W6QR6Kf9CUFpaZ5HjyVOXrdyf_E6mfA1F0OODLHNuFiLD0tkL-_V18jz28OzYqQvQoIEmNUAR4pDdRtKKw0Q9Seksdd2C3bxDFwUXb5HPA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr4d8ZPsvNfk4pe__9A4LgziID-apZxVLiJBx4zhtPqqPA6zkj2zTo4q1AQ-cVesst6aH11iE2DsFLxiozJ6pPHPXlTxcbsxY9k2SOC6SbR5CjAQvQYwDDOgKs",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEGpLKBeFdLINv8guwa4DTTlkczKq6Z4YpTtT2un-gzXC4X2pQFfXxYvMyBIhWJWbW4WL0T-ZpL7_0FD-qmiMi2uIMPfVeb3HylMelNRHkRupoq8QSDEkm9rM0zw-eaJRaTcedMiW_FPcgrzwcY55xsYIgylZ8J75TGNZ8N21ojgPlrRtMjfIu6locuVetjN-jmr6rJlLuhA0i6WBF1HdEgpD9LnsBywYB3a0vt8LhFuyo3Nz6gyQ="
+  ],
+  "tokeny": {
+   "wejscie": 15917,
+   "wyjscie": 1158
+  },
+  "czas_s": 225,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 6.12.2012 r., III CSK 43/12",
+   "zrodlo": "SAOS / sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni prawidłowa i precyzyjna. Rozprawia się ze wszystkimi błędnymi założeniami pytania: wyjaśnia brak możliwości uzyskania klauzuli bez ograniczeń, prostuje błędną sygnaturę przepisu (art. 787¹ zamiast 781¹ k.p.c.) oraz wskazuje na prymat przesłanek materialnych nad treścią orzeczenia. Prawidłowo i bezbłędnie powołuje przepisy k.p.c. i k.r.o. oraz orzeczenie SN.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"III CSK 43/12\"",
+   "\"III CSK 43/12\" SN"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12991,
+   "wyjscie": 558
+  },
+  "czas_s": 18,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

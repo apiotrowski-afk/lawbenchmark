@@ -1,0 +1,103 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 787 k.p.c. — wymóg dokumentu prywatnego z podpisem urzędowo poświadczonym",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 787¹ k.p.c. — brak oznaczenia działalności w tytule wyklucza korzystanie z trybu szczególnego",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 781 k.p.c. — dotyczy innej kwestii niż przesłanki odpowiedzialności małżonka",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 781¹ k.p.c. — wzmianka o niepewności numeracji, bez przypisania treści",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 k.r.o. — ogólne odesłanie do przesłanek odpowiedzialności",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 § 1 k.r.o. — zgoda małżonka umożliwia zaspokojenie z majątku wspólnego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 § 2 k.r.o. — zaliczenie ogólnie dochodów z majątku odrębnego do składników dostępnych bez zgody",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 189 k.p.c. — sugerowana podstawa powództwa o nadanie klauzuli",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 795 § 1 k.p.c. — zażalenie na postanowienie o nadaniu klauzuli",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 840 k.p.c. — powództwo przeciwegzekucyjne małżonka",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 841 k.p.c. — dodatkowe powództwo ekscydencyjne małżonka objętego klauzulą",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf; https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2041-16.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Orzecznictwo SN dotyczące wąskiego zakresu takich powództw",
+   "zrodlo": "Brak identyfikatora orzeczenia; wyszukiwanie w sn.pl nie pozwoliło jednoznacznie ustalić źródła.",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Ogólne odwołanie do orzecznictwa SN dotyczącego wąskiego zakresu powództw wskazanych w pkt 4."
+ ],
+ "uzasadnienie": "A-R = 2 zgodnie z przykładem granicznym P12: odpowiedź wyklucza egzekucję bez ograniczeń i dalej wskazuje zgodę jako przesłankę art. 787. Nie przedstawia jednak obu ścieżek z osobnymi konkluzjami, przeczy własnej tezie o znaczeniu treści tytułu, nie wyjaśnia terminu z art. 781¹ ani wariantu braku obu przesłanek. Art. 787 dopuszcza dokument prywatny bez wymogu poświadczenia podpisu, art. 787¹ nie wymaga oznaczenia działalności w tytule, art. 189 nie ustanawia powództwa o nadanie klauzuli, a art. 841 dotyczy osoby trzeciej. Rozbudowane wątki dowodowe i ochrony małżonka oraz ponowione zastrzeżenie weryfikacyjne obniżają A8; błędne wskazówki ograniczają B1, a brak pełnego rozwidlenia obniża B2. Pochodzenie wszystkich błędnych powołań jest nieustalone, ponieważ nie udostępniono śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 16,
+  "czas_s": 220,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

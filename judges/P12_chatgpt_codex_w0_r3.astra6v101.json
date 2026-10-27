@@ -1,0 +1,59 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o., w tym § 1–2",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny zasadniczy rdzeń: wyklucza klauzulę bez ograniczeń, rozróżnia oba tryby i uzależnia szerszą egzekucję od zgody małżonka. Prawidłowo wyjaśnia brak rozstrzygającego znaczenia oznaczenia dłużnika oraz prostuje numer przepisu; niewskazanie długości terminu nie przekreśla sprostowania. Nie przedstawia natomiast sposobu egzekucji przy jednoczesnym braku zgody i związku wierzytelności z przedsiębiorstwem, dlatego ostatni element rubryki otrzymuje 0. Powołania odpowiadają treści przepisów urzędowych, a przytoczone żądanie wniosku nie jest cytatem przepisu. Jednozdaniowa formuła wniosku i krótkie wyjaśnienia granic odpowiedzialności pozostają w ramach pytania.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 60,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

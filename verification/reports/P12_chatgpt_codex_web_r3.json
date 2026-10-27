@@ -1,0 +1,857 @@
+{
+ "meta": {
+  "pytanie": "P12",
+  "system": "chatgpt_codex_web_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P12/chatgpt_codex_web_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:44:32",
+  "czas_s": 1.0,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 13,
+  "orzeczenia": 2,
+  "publikatory": 0,
+  "daty": 3,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 11
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 787 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 787 k.p.c.",
+   "kontekst": "Można wystąpić o klauzulę przeciwko małżonkowi na podstawie art. 787 k.p.c. także przy długu związanym z działalnością gospodarczą — ale trzeba wykazać dokumentem zgodę małżonka na czynność prawną, z której wynika dług.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 787 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności także przeciwko jej małżonkowi z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka dłużnika."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 787. Tytułowi egzekucyjnemu, wydanemu przeciwko osobie pozostającej w związku małżeńskim, sąd nada klauzulę wykonalności także przeciwko jej małżonkowi, z ograniczeniem jednak jego odpowiedzialności do majątku objętego wspólnością majątkową. Przed nadaniem klauzuli wykonalności sąd wysłucha małżonka dłużnika."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.41
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 787¹ k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 787¹ k.p.c.",
+   "kontekst": "W pytaniu zapewne chodzi o art. 787¹ k.p.c., a nie art. 781¹ k.p.c. Ten ostatni dotyczy terminu rozpoznania wniosku klauzulowego.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 787[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787¹. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności przeciwko małżonkowi dłużnika z ograniczeniem jego odpowiedzialności do przedsiębiorstwa wchodzącego w skład majątku wspólnego małżonków, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 787[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.11
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 781¹ k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 781¹ k.p.c.",
+   "kontekst": "W pytaniu zapewne chodzi o art. 787¹ k.p.c., a nie art. 781¹ k.p.c. Ten ostatni dotyczy terminu rozpoznania wniosku klauzulowego.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 781[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 781¹. Wniosek o nadanie klauzuli wykonalności sąd rozpoznaje niezwłocznie, niepóźniej jednak niż w terminie 3 dni od dnia jego złożenia."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 781[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.44
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 787 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "Art. 787 k.p.c. w zw. z art. 41 § 1 k.r.o.",
+   "kontekst": "- Art. 787 k.p.c. w zw. z art. 41 § 1 k.r.o. pozwala uzyskać klauzulę przeciwko małżonkowi z ograniczeniem odpowiedzialności do całego majątku objętego wspólnością majątkową.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 787 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności także przeciwko jej małżonkowi z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka dłużnika."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 787. Tytułowi egzekucyjnemu, wydanemu przeciwko osobie pozostającej w związku małżeńskim, sąd nada klauzulę wykonalności także przeciwko jej małżonkowi, z ograniczeniem jednak jego odpowiedzialności do majątku objętego wspólnością majątkową. Przed nadaniem klauzuli wykonalności sąd wysłucha małżonka dłużnika."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.73
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "akt": {
+    "nazwa": "Kodeks rodzinny i opiekuńczy",
+    "kod_legal_cite": "KRO",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 4,
+   "napis_grupy": "Art. 787 k.p.c. w zw. z art. 41 § 1 k.r.o.",
+   "kontekst": "- Art. 787 k.p.c. w zw. z art. 41 § 1 k.r.o. pozwala uzyskać klauzulę przeciwko małżonkowi z ograniczeniem odpowiedzialności do całego majątku objętego wspólnością majątkową.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 41 § 1 KRO",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2809; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 236 z 2026-02-20, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-02-20) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 41 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 236 z 20.02.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (20.02.2026) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Jeżeli małżonek zaciągnął zobowiązanie za zgodą drugiego małżonka, wierzyciel może żądać zaspokojenia także z majątku wspólnego małżonków."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2023/2809 (HTML, 2023-12-07)",
+    "tj": "DU/2023/2809",
+    "data": "2023-12-07"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.27
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 787¹ k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "Art. 787¹ k.p.c. w zw. z art. 41 § 2 k.r.o.",
+   "kontekst": "- Art. 787¹ k.p.c. w zw. z art. 41 § 2 k.r.o. pozwala uzyskać klauzulę z ograniczeniem odpowiedzialności do przedsiębiorstwa wchodzącego w skład majątku wspólnego.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 787[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787¹. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności przeciwko małżonkowi dłużnika z ograniczeniem jego odpowiedzialności do przedsiębiorstwa wchodzącego w skład majątku wspólnego małżonków, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 787[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.8
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "akt": {
+    "nazwa": "Kodeks rodzinny i opiekuńczy",
+    "kod_legal_cite": "KRO",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 5,
+   "napis_grupy": "Art. 787¹ k.p.c. w zw. z art. 41 § 2 k.r.o.",
+   "kontekst": "- Art. 787¹ k.p.c. w zw. z art. 41 § 2 k.r.o. pozwala uzyskać klauzulę z ograniczeniem odpowiedzialności do przedsiębiorstwa wchodzącego w skład majątku wspólnego.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 41 § 2 KRO",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2809; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 236 z 2026-02-20, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-02-20) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 41 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 236 z 20.02.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (20.02.2026) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Jeżeli małżonek zaciągnął zobowiązanie bez zgody drugiego małżonka albo zobowiązanie jednego z małżonków nie wynika z czynności prawnej, wierzyciel może żądać zaspokojenia z majątku osobistego dłużnika, z wynagrodzenia za pracę lub z dochodów uzyskanych przez dłużnika z innej działalności zarobkowej, jak również z korzyści uzyskanych z jego praw, o których mowa w art. 33 pkt 9, a jeżeli wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa, także z przedmiotów majątkowych wchodzących w skład przedsiębiorstwa."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2023/2809 (HTML, 2023-12-07)",
+    "tj": "DU/2023/2809",
+    "data": "2023-12-07"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 787 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "art. 787 k.p.c.",
+   "kontekst": "Jeżeli macie np. podpisaną przez małżonka zgodę na zawarcie umowy, z której wynika zasądzona należność, można żądać klauzuli na podstawie art. 787 k.p.c. Sama wiedza małżonka o działalności, tolerowanie jej czy korzystanie z dochodów nie zastępują udokumentowanej zgody na czynność będącą źródłem długu.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 787 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności także przeciwko jej małżonkowi z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka dłużnika."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 787. Tytułowi egzekucyjnemu, wydanemu przeciwko osobie pozostającej w związku małżeńskim, sąd nada klauzulę wykonalności także przeciwko jej małżonkowi, z ograniczeniem jednak jego odpowiedzialności do majątku objętego wspólnością majątkową. Przed nadaniem klauzuli wykonalności sąd wysłucha małżonka dłużnika."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.12
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 787 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 787 k.p.c.",
+   "kontekst": "- Poza przedsiębiorstwem, do pozostałego majątku wspólnego — tak, jeżeli spełnione są przesłanki art. 787 k.p.c.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 9,
+   "cytowanie_legal_cite": "art. 787 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności także przeciwko jej małżonkowi z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka dłużnika."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 787. Tytułowi egzekucyjnemu, wydanemu przeciwko osobie pozostającej w związku małżeńskim, sąd nada klauzulę wykonalności także przeciwko jej małżonkowi, z ograniczeniem jednak jego odpowiedzialności do majątku objętego wspólnością majątkową. Przed nadaniem klauzuli wykonalności sąd wysłucha małżonka dłużnika."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5,
+    "slowa_wersji_wczesniejszej": [
+     "przed"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 10,
+   "powolanie": "art. 787 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 787 lub 787¹ k.p.c.",
+   "kontekst": "- Do majątku osobistego drugiego małżonka — nie, na podstawie samego rozszerzenia klauzuli z art. 787 lub 787¹ k.p.c. Potrzebna byłaby odrębna podstawa jego osobistej odpowiedzialności i odpowiedni tytuł przeciwko niemu.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 10,
+   "cytowanie_legal_cite": "art. 787 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności także przeciwko jej małżonkowi z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka dłużnika."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 787. Tytułowi egzekucyjnemu, wydanemu przeciwko osobie pozostającej w związku małżeńskim, sąd nada klauzulę wykonalności także przeciwko jej małżonkowi, z ograniczeniem jednak jego odpowiedzialności do majątku objętego wspólnością majątkową. Przed nadaniem klauzuli wykonalności sąd wysłucha małżonka dłużnika."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.47
+   }
+  },
+  {
+   "id": 11,
+   "powolanie": "art. 787¹ k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 787 lub 787¹ k.p.c.",
+   "kontekst": "- Do majątku osobistego drugiego małżonka — nie, na podstawie samego rozszerzenia klauzuli z art. 787 lub 787¹ k.p.c. Potrzebna byłaby odrębna podstawa jego osobistej odpowiedzialności i odpowiedni tytuł przeciwko niemu.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 11,
+   "cytowanie_legal_cite": "art. 787[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787¹. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności przeciwko małżonkowi dłużnika z ograniczeniem jego odpowiedzialności do przedsiębiorstwa wchodzącego w skład majątku wspólnego małżonków, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 787[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.47
+   }
+  },
+  {
+   "id": 12,
+   "powolanie": "art. 787 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 9,
+   "napis_grupy": "art. 787 k.p.c.",
+   "kontekst": "Praktycznie wniosek z art. 787 k.p.c. powinien żądać nadania klauzuli przeciwko małżonkowi „z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową”, a nie klauzuli „bez ograniczeń”.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 12,
+   "cytowanie_legal_cite": "art. 787 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności także przeciwko jej małżonkowi z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka dłużnika."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 787. Tytułowi egzekucyjnemu, wydanemu przeciwko osobie pozostającej w związku małżeńskim, sąd nada klauzulę wykonalności także przeciwko jej małżonkowi, z ograniczeniem jednak jego odpowiedzialności do majątku objętego wspólnością majątkową. Przed nadaniem klauzuli wykonalności sąd wysłucha małżonka dłużnika."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.62,
+    "slowa_wersji_wczesniejszej": [
+     "nadan"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 13,
+   "powolanie": "art. 787¹ k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 10,
+   "napis_grupy": "art. 787¹ k.p.c.",
+   "kontekst": "Jeżeli nie ma dokumentu wykazującego zgodę, opisany brak wzmianki o działalności nie pozwoli obejść ograniczenia z art. 787¹ k.p.c.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 787[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 787¹. Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności przeciwko małżonkowi dłużnika z ograniczeniem jego odpowiedzialności do przedsiębiorstwa wchodzącego w skład majątku wspólnego małżonków, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 787[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.22
+   }
+  }
+ ],
+ "orzeczenia": [
+  {
+   "sygnatura": "III CZP 117/10",
+   "typ": "CZP",
+   "sad_podany": "Sąd Najwyższy",
+   "sad_zrodlo": "z tekstu",
+   "data_podana": "2011-03-18",
+   "kontekst": "SN w uchwale z 18 marca 2011 r., III CZP 117/10, wykluczył ustalanie tej zgody na podstawie domniemania faktycznego w postępowaniu klauzulowym. [Uchwała SN](https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/III%20CZP%20117-10.pdf).",
+   "weryfikacja": {
+    "status": "znaleziono (SAOS)",
+    "wybrane": {
+     "zrodlo": "SAOS",
+     "id": 94458,
+     "sad": "Sąd Najwyższy",
+     "data": "2011-03-18",
+     "rodzaj": "RESOLUTION"
+    },
+    "kandydaci": [
+     {
+      "zrodlo": "SAOS",
+      "id": 94458,
+      "sad": "Sąd Najwyższy",
+      "data": "2011-03-18"
+     }
+    ],
+    "data_wyroku": "2011-03-18",
+    "data_podana": "2011-03-18",
+    "sad_wyroku": "Sąd Najwyższy",
+    "sad_podany": "Sąd Najwyższy",
+    "poczatek_tekstu": "Uchwała z dnia 18 marca 2011 r., III CZP 117/10 Sędzia SN Jacek Gudowski (przewodniczący) Sędzia SN Dariusz Dończyk Sędzia SN Barbara Myszka (sprawozdawca) Sąd Najwyższy w sprawie z wniosku \"C.-B.\" S.A. w B. przy uczestnictwie Bożeny K. o nadanie klauzuli wykonalności przeciwko małżonkowi dłużnika, po rozstrzygnięciu w Izbie Cywilnej na posiedzeniu jawnym w dniu 18 marca 2011 r. zagadnienia prawnego przedstawionego przez Sąd Apelacyjny w Katowicach postanowieniem z dnia 27 października 2010 r.: \"Czy wykazanie dokumentem urzędowym lub prywatnym zgody małżonka dłużnika, o którym mowa jest w art…",
+    "fragmenty_kluczowe": [
+     {
+      "trafienia": 5,
+      "slowa": [
+       "domnie",
+       "faktyc",
+       "klauzu",
+       "małżon",
+       "uchwał"
+      ],
+      "fragment": "może polegać na posłużeniu się domniemaniem faktycznym co do ustalenia faktu zgody na podstawie treści tego dokumentu?\" podjął uchwałę: W sprawie o nadanie tytułowi egzekucyjnemu klauzuli wykonalności przeciwko małżonkowi dłużnika (art. 787 k.p.c.) nie jest dopuszczalne stosowanie domniemania faktycznego przy ustalaniu, że stwierdzona tytułem egzekucyjnym wierzytelność powstała za zgodą małżonka…"
+     },
+     {
+      "trafienia": 5,
+      "slowa": [
+       "czynno",
+       "dochod",
+       "działa",
+       "małżon",
+       "wynika"
+      ],
+      "fragment": "jeżeli natomiast małżonek zaciągnął zobowiązanie bez zgody drugiego małżonka albo zobowiązanie jednego z małżonków nie wynika z czynności prawnej, wierzyciel może żądać zaspokojenia z majątku osobistego dłużnika, z wynagrodzenia za pracę lub z dochodów uzyskanych przez dłużnika z innej działalności zarobkowej, jak również z korzyści uzyskanych z jego praw, o których mowa w art. 33 pkt 9 k.r.o., a…"
+     },
+     {
+      "trafienia": 4,
+      "slowa": [
+       "domnie",
+       "faktyc",
+       "małżon",
+       "ustala"
+      ],
+      "fragment": "787 k.p.c.) nie jest dopuszczalne stosowanie domniemania faktycznego przy ustalaniu, że stwierdzona tytułem egzekucyjnym wierzytelność powstała za zgodą małżonka dłużnika. Uzasadnienie Sąd Okręgowy w Katowicach, po rozpoznaniu wniosku \"C.-B.\" S.A."
+     }
+    ],
+    "flagi": []
+   },
+   "flagi": []
+  },
+  {
+   "sygnatura": "III CZP 117/10",
+   "typ": "CZP",
+   "sad_podany": "Sąd Najwyższy",
+   "sad_zrodlo": "z tekstu",
+   "data_podana": null,
+   "kontekst": "Źródła: [Kodeks postępowania cywilnego](https://eli.gov.pl/eli/DU/2026/468/ogl), [Kodeks rodzinny i opiekuńczy](https://eli.gov.pl/eli/DU/2026/236/ogl), [SN, III CZP 117/10](https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/III%20CZP%20117-10.pdf), [ustawa nowelizująca z 17 czerwca 2004 r.](https://eli.gov.pl/api/acts/DU/2004/1691/text.html).",
+   "weryfikacja": {
+    "status": "znaleziono (SAOS)",
+    "wybrane": {
+     "zrodlo": "SAOS",
+     "id": 94458,
+     "sad": "Sąd Najwyższy",
+     "data": "2011-03-18",
+     "rodzaj": "RESOLUTION"
+    },
+    "kandydaci": [
+     {
+      "zrodlo": "SAOS",
+      "id": 94458,
+      "sad": "Sąd Najwyższy",
+      "data": "2011-03-18"
+     }
+    ],
+    "data_wyroku": "2011-03-18",
+    "data_podana": null,
+    "sad_wyroku": "Sąd Najwyższy",
+    "sad_podany": "Sąd Najwyższy",
+    "poczatek_tekstu": "Uchwała z dnia 18 marca 2011 r., III CZP 117/10 Sędzia SN Jacek Gudowski (przewodniczący) Sędzia SN Dariusz Dończyk Sędzia SN Barbara Myszka (sprawozdawca) Sąd Najwyższy w sprawie z wniosku \"C.-B.\" S.A. w B. przy uczestnictwie Bożeny K. o nadanie klauzuli wykonalności przeciwko małżonkowi dłużnika, po rozstrzygnięciu w Izbie Cywilnej na posiedzeniu jawnym w dniu 18 marca 2011 r. zagadnienia prawnego przedstawionego przez Sąd Apelacyjny w Katowicach postanowieniem z dnia 27 października 2010 r.: \"Czy wykazanie dokumentem urzędowym lub prywatnym zgody małżonka dłużnika, o którym mowa jest w art…",
+    "fragmenty_kluczowe": [
+     {
+      "trafienia": 3,
+      "slowa": [
+       "kodeks",
+       "opieku",
+       "rodzin"
+      ],
+      "fragment": "o zmianie ustawy – Kodeks rodzinny i opiekuńczy oraz niektórych innych ustaw (Dz.U. Nr 162, poz."
+     },
+     {
+      "trafienia": 2,
+      "slowa": [
+       "kodeks",
+       "postęp"
+      ],
+      "fragment": "– przepisy o procesie stosuje się do innych rodzajów postępowań unormowanych w kodeksie jedynie odpowiednio. Obowiązujące w postępowaniu klauzulowym ograniczenia dowodowe pełnią dwie istotne funkcje."
+     }
+    ],
+    "flagi": []
+   },
+   "flagi": []
+  }
+ ],
+ "publikatory": [],
+ "daty": [
+  {
+   "data": "2011-03-18",
+   "napis": "18 marca 2011",
+   "kontekst": "SN w uchwale z 18 marca 2011 r., III CZP 117/10, wykluczył ustalanie tej zgody na podstawie domniemania faktycznego w postępowaniu klauzulowym. [Uchwała SN](https://www.sn.pl/sites/orzecznictwo/Orzec…"
+  },
+  {
+   "data": "2005-01-20",
+   "napis": "20 stycznia 2005",
+   "kontekst": "Powyższe dotyczy obecnego reżimu odpowiedzialności; przy zobowiązaniu powstałym przed 20 stycznia 2005 r. trzeba sprawdzić przepisy przejściowe."
+  },
+  {
+   "data": "2004-06-17",
+   "napis": "17 czerwca 2004",
+   "kontekst": "Źródła: [Kodeks postępowania cywilnego](https://eli.gov.pl/eli/DU/2026/468/ogl), [Kodeks rodzinny i opiekuńczy](https://eli.gov.pl/eli/DU/2026/236/ogl), [SN, III CZP 117/10](https://www.sn.pl/sites/o…"
+  }
+ ]
+}

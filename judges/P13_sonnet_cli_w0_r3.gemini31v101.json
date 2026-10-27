@@ -1,0 +1,83 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 493 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System udzielił odpowiedzi całkowicie błędnej, twierdząc, że wstrzymanie wykonania nakazu zapłaty wyłącza możliwość prowadzenia na jego podstawie postępowania zabezpieczającego (A-R=0, B1=0). Ponadto system błędnie przypisał instytucję wstrzymania wykonania nakazu do art. 493 § 4 k.p.c., który w rzeczywistości dotyczy uchylenia nakazu i wydania wyroku, co stanowi halucynację (A6=0, typ T). System nie powołał wymaganego art. 492 § 3 k.p.c. (A2=0). Naliczono karę za twierdzenie, że wstrzymanie wykonania nakazu wyłącza zabezpieczenie. Odpowiedź jest kategoryczna, co przy błędnej tezie daje B2=1.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 492\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 493\" \"Kodeks postępowania cywilnego\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG68LpoBrP-RlQkVTedL3Pyxb3XwiNLdOapwEkyE2WOHl41JYpx7xxqIyYXuDlZ7dAn5kwg6-eLhDYMJF5boHQ8NJS5FhBgIkOX4i2lYcOOMFjoPPuPzcaVd3BHhCtHRAAluVvdZtvRnH552cG_3Va-lukcOz4yNIIDEq_1c8idLyTYcFyQUAvTkZAeb5rdjD1M0NdENWtiHCA9FGwE",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaryGHBrJM1dO43EbXwIpWI2y9rK_oCI-2h5nt9kIWwSo39iY4T9RRxbMwj4pnkYF1vs3IMewiTOm-9ntFjEbCphYU6fmPQO_JPQy_WX49xCSWmWNNGwqNJ7BcmAukb00WUfKJ8F9fhFK3rfmleSfQdi6YQSnUnsFhrf9-X_OBlKJWwq9XdphQNoOmqkPxcYu4KOgRPf5boVnYPg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYr3AQvvp2kbIY18_xvbY9Y1oJdnYVZ4Zxl4FCSUJxegriQZuFeCZjkgN8AXEwkTzuig85CwIIlLVYWtfGxSNl9Bc570_W_lEMhIDm6WYm4Yfk010IIqXIKycO2nuob7rsMFPAxtwEr42_gYiQ0DJxrrP-qWq1FQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxChgUJNplP-l29SgNJbi1p_eb8A1OBLJO3Xz6ocJnMBkD4FZW6Bgl_UXXsTJZCtR0-Y8B47uOdnn9vXfowVBEEeHA9mC42cxfUsPBFRrRgVCVDIGCDGqtyCVp_c_6WLEr2B0a9X5FjcEXMVCrEiCLx4G4xU-KK7zHDFOcMgG7ZFSbOk4O7au_iF-ghmH6CGZeqL_aLxKJn2ZrAV9s3DiMo0KRKDsCdEmgFSG6uCI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq_G1HCq8EEfJ3jm5gIHhJb3baAVF532yWUt-tkCIzcyy7_xz3Py4a-ez9O5uJvlp_Oqp7Kfg9f4rzztnhcEed23rT_nucognEEBl6Q23eQNK_Mn8UliIbBiIuFHpxwNZvIvpylrAoM-iOaXuY4A69CYNS8G4JCCa9z-xPA4ByJFmOpXllKvmrhwGRh-ydang1lMUl",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAhmCVqqOBdsBfLywsJRSTBs9QRB4y1-zneHRT-qGptLAL9WwFE17cMlXxtpGxkVGlWlRy5XHTsoX97cGNPp6Mogx7rzxQ9UEKuqjAkW8WhIkmpeNjx1N71BqYM9uZ1jZn"
+  ],
+  "tokeny": {
+   "wejscie": 10356,
+   "wyjscie": 685
+  },
+  "czas_s": 115,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

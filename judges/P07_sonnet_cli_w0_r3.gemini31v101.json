@@ -1,0 +1,122 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 326 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 1 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 357 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1 i 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest trafny, ale pomija kluczowy warunek zaskarżalności postanowienia (A-R=1). System nie powołał wymaganych podstaw prawnych, wskazując błędnie art. 357 § 2 k.p.c. zamiast § 1 lub § 2¹ (A2=0). Występują halucynacje: powołanie nieistniejącej jednostki art. 328 § 1 zd. 2 k.p.c. (F) oraz przypisanie art. 357 § 2 k.p.c. i art. 328 § 1 k.p.c. treści z innych paragrafów (T). Akapit o wyrokach stanowi dygresję wykraczającą poza zakres pytania o postanowienia (A8=0.5). Brak wskazania warunku zaskarżalności obniża przydatność odpowiedzi (B1=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"art. 326\" \"k.p.c.\" OR",
+   "\"art. 328\" \"k.p.c.\" OR",
+   "\"art. 357\" \"k.p.c.\" OR",
+   "\"art. 394\" \"k.p.c.\" OR",
+   "\"Art. 357.\" \"k.p.c.\" OR",
+   "\"Art. 357.\" \"§ 2\" \"k.p.c.\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Y80-7ricvpsDSnjQXFX2899qMwmqDgR5c7kZM4DA11ZWLHiSniSFSwA-6XlUIDOjSPsL1ixVVw9z2F88lP96_x-JE3uMr8plSZpdM1VZvo80v8c4nw123EHiF7ncqTIXYJfx-F79V1Wj1R8r8ZZNi51-T1IcwudW03MIagDXeTRojBE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeW1MVA4zGBAZAyp7SQk8K8JdSs50H3tgkdg-SB7c6zsOJLpe8S27ICChYSdmbYYTfUkhrEslYscMGcKlBC6DN6GMFynBneyRiHp0SEK6wt9rknXx0o4taOmH7r3x6vGP9Cd9ZULjmWIiCacHAUX679qvU5ilHFZCT8rDff6iCENam2u9NZGQcG5hsmWM45FuikXllRGRegJTGB3xHLME=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWRFJa_KPkjW3OWeY4Aeg4jD5Kz6i3Pp_xdNmbqj1p_uW-Zg3zgviYyUo0fexNVnk5tUKWv9SA7PEgYMKb6Rq0RJBCnHecY-HDzrSEggxJv-V-H5uB-nbdWXa0kGlwuLs_DswBGEUt_4nxHaXH7c0uXUda6-BSKTSW5aPW9nutM4HWS2jfuSih",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUil0kM8INvHXBIGvuWxt72M08lRzyPA_gacwuH_qO1LVfyFrUy873DlSppI_Y3mLcfU_ZMoaP8-DCCrNKLaM20uOwiBrSnedDH3aMtEeA_9xxDxLYT0uCcOlA8na-32k4tRK5K2gv1aJ5h_1Te_VJe8-cIpk4KoiBcmLpObJuuf5xJGRULN0k",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHKyPpirOBhRI9mXA-INWuk0Ugb-xcHDuI6F5HJ2Mg3Gfq3clI4YPX2Zg_-X_PhdK_n1PCxv8Z4GU4j-7sa2Yz9wvC-0xZy9R6q5gUqEt2AusBYk2B19Fi8RhRz34QyV99XnZsIWmYmb6lkXqkJGqoyg9cc42mhuF58H_MInG6Pude00DXM5GwbY9Bs9MutLWjWEvaQGs85JZ3LRSciNxXaKVl6ReRF-6suA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECDCuMT1CNVYdql0vf-WpNTXUlJ5OVDcncKvHvL4SXaRjZdjtSCimT-6nxq4c8YeEEPRAOci2Nqq3fkM68wcWZw1tvqFDBgjM4r2ytljooV2SUBMwS9uBwAclkObJ8q_9q-MVMZiwKlfA7aaaCKuO1GL2ZvWX9f4-g",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD3eLRxBEd3qINigaXrRKNmg4JN8SFEhdTX95GiSZ7A9GG0ZPKKHN0NeKvaeyZYu1rr2ssVM7TKanQIyQAo9rLJF38AOUGruH0sQXYVEL-6MiAglHCrHR7j4MsBMgDgiDAEYA1oT3SfzRAdxXFZlUaekHuynfgNnXXGtr8BdnQ8ROMv4Sxgp_Ydvy-lPQCagYVxTf9PC-yolk02A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVaq9-H9pQDwRi7BGjcr2SjVu8bhVi77CfUBszAQbOhrd3ZswxqOvtG0DcBSyCGRDvW6k2SefGnEU-YrnfkKfBFZdyiJ7VZGu4yKb0F_ZW5Kmt5bAANkkigpBKRossTMUF2kYBIRbuiJenQmL5bwtCf8DPGAPxlWSXAVOyn-MBaxZtDzYWMrYRfKSe0jyr1xip6-haDY55Ti9BwA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnMo5iEGeczi7P3deNrWm2NuxIEK4JanPB3r_JC7_SMHfRP4_b6p-GSssLBFg6WBDpNV46QcPSKa5g7vjbxJtudx0z-mA8WUCCwKin4mRoBghfy55_OjTrjyBgt39PUIb-xjfyy94ubLVXx4gUhKdYYme4EjRST_G_",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPM7l8tEpuH7l5Yyr6WfgvSsZfKUR5o6zrzGf6Gsl0vY7xaDq37WFPI2DAeyd9QbLqfH5Xq0X9ioWqZH9sn2zDIO4hK8jgsI6iFDEXIr3Q9qjyOBnWiNx4sf4I15plekj2ODxMOKeDPl5545qUXRyWWTtqTNM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECgjSZec5LnzJwpb5D3S6v9VqQWJVNqM8iUe82-JPuudxSWSY6KrE5ylzUhOzpIzdlkJoOKC37dbKx0hhFiF_xIF5LYSKOlwD2cjFHvUczICu59fe6muzYg_N6rN6EHb7TorHWkRccNmN756LLdccVYVLxVB75vdvw3YVlMkPP8VOZvedgNg-Ai2ME7ngZ5soSrMKas5ewzsrzljnJmg83Gp2jh9ErJoDll2aOKv9I_zXM"
+  ],
+  "tokeny": {
+   "wejscie": 9284,
+   "wyjscie": 1110
+  },
+  "czas_s": 151,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

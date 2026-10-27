@@ -1,0 +1,93 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motyw 134 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 i 24 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 156",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, trafnie rozróżniając definicję deepfake od niezależnego obowiązku znakowania z art. 50 ust. 2 AI Act. Powołuje wszystkie wymagane podstawy prawne bez błędów (A6=1). Kalibracja jest idealnie warunkowa, zgodnie z oczekiwaniami klucza. Odpowiedź traci jedynie punkt za brak wyraźnego zaznaczenia, że wytyczne KE to soft law (R6=0).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"EUR-Lex\" \"32024R1689\" \"PL\" \"art. 50\"",
+   "\"EUR-Lex\" \"32024R1689\" \"PL\" \"art. 3\" \"deepfake\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgJUE9psW7Qc-sDaI2iR8vCVsBknXRs97mMxkTTpeoaXiN6wt8aaU8ln18Ni4CyS8McmwfBFiJCFL1esx84JGN5_jgb6Eq730Bgh_kotFyQmBrikAitj6SN-jw7LEwc6LXQNCJIKEJmIM1teGhZY5w9P85iia_O1DVbmJKonuFtaXfs8Ho0uzi0jkAAYXGwVPcU7pKdyf3ttOESgUAH-M=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4-ZS-NOrqkcBYkAP4da6AJtSXFunNODeyo35Rj9Z5gl4VV3JrnvKt0sUzJ2SCUVyyxfEsys1yFgLoj0Q78jg2Ijk179iNkY_hknoUrirjsngwRTJsBf21bJN7umN9zY7oaJK0tvK84duZGu1E7etgrHwDWQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoDp6V-1TEAT2GIKjjr9uGuAv1uxLdjwheFWS62oC6TdBNNWcS9k1FjZpipIZoulhWiglQ_f-Jwg5s-3ute44-LZhNCC2P6j6AY9hjLwbRYgRD2MTPyg7aMab-yWdqz0M_eLPIKIWTdP5AmutYZEM3uzPi",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0wVX6sWnwKKwZOEvTFHg2Jka3DewcEkwPAAyC73LuRKeeHHtM6tQdkP51SnnIWmAQs7BkneKq-nN33fqcw-xsDg7709T6jDyxuCwERMptHJ2gCpAlNDXN2v12EiAdYTZVhg=="
+  ],
+  "tokeny": {
+   "wejscie": 15492,
+   "wyjscie": 754
+  },
+  "czas_s": 137,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

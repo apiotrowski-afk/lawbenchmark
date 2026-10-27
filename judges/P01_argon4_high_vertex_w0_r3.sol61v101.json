@@ -1,0 +1,102 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 i § 2 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw, Dz.U. 2022 poz. 2600; podwyższenie progu od 1 października 2023 r.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2022/2600/ogl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 284 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 290 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 291 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 292 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 k.k.s.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/633/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Rady Ministrów z 14 września 2023 r., Dz.U. 2023 poz. 1893",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/1893/text.html",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje pełny rdzeń, wymaganą podstawę i wszystkie cztery elementy rubryki. Powołania odpowiadają treści źródeł urzędowych; pominięcia przesłanek i wyjątków nie obniżają A6 według przyjętej reguły. Nie ma cytatów przepisów w cudzysłowie, więc A3 jest nieadekwatne. Rozbudowana część o prawie karnym skarbowym stanowi dygresję uzasadniającą A8 = 0,5. Błędne nazwanie 2024 roku obecnym nie zmienia prawidłowego progu 800 zł ani treści powołanych norm, a kwoty skarbowe wyraźnie przypisano do 2024 roku.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 18,
+  "czas_s": 84,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

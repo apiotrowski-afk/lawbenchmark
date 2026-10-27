@@ -1,0 +1,63 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "A_R = 1: odpowiedź preferuje potwierdzenie ostateczności, ale wyraźnie dopuszcza również prawomocność decyzji administracyjnej. Brakuje wymaganej podstawy z art. 217 § 2 pkt 2 k.p.a., wskazania zaświadczenia organu o prawomocności oraz mechanizmu jej uzyskania. Wszystkie pięć powołanych jednostek sprawdzono w oficjalnych tekstach i nie przypisano im fałszywej treści, dlatego A6 = 1; brak dosłownych cytatów oznacza A3 = nd. Nie naliczono K3, ponieważ odpowiedź nie wyklucza prawomocności, a dopuszczony przez klucz wariant postanowienia sądu nie obniża A8. B1 = 1 z uwagi na niepełną wskazówkę dotyczącą właściwego potwierdzenia, natomiast tezy postawiono dostatecznie stanowczo dla B2 = 1.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P04",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 49,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

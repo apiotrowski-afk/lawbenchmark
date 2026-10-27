@@ -1,0 +1,73 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — art. 131 reguluje doręczanie przez operatora pocztowego i inne wskazane podmioty; doręczenia elektroniczne reguluje art. 131¹. Potwierdzono klasę T z raportu.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 132–146 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — przepisy rozdziału o doręczeniach, obejmujące doręczenie zastępcze i awizowanie; zgodnie z raportem.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 136 i nast. k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — obowiązek zgłaszania zmiany adresu i dalsze przepisy o doręczeniach; zgodnie z raportem.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 139 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — awizowanie z powtórzeniem zawiadomienia po siedmiu dniach; zgodnie z raportem samo porównawcze powołanie nie stanowi błędu A6.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 i nast. k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — przywrócenie terminu przy uchybieniu bez winy strony; zgodnie z raportem.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych jako podstawa fikcji doręczenia portalowego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2020/2320/text.html — art. 42 ust. 2: „korespondencję uznaje się za doręczoną w dniu następującym po upływie 14 dni”; dotyczy ADE, podczas gdy doręczenie portalowe reguluje art. 131¹ᵃ § 2 k.p.c.",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia w ogólny kierunek dopuszczalności doręczeń elektronicznych i podaje moment odbioru oraz regułę 14 dni, lecz zastępuje wymagany wybór doręczeń portalowych posiadaniem ADE lub konta i brakiem sprzeciwu. Nie wskazuje żadnej wymaganej podstawy, sposobu złożenia podpisanego oświadczenia ani rezygnacji. A6 obniża wskazany w raporcie błąd dotyczący art. 131; dodatkowo sprawdzona ustawa o doręczeniach elektronicznych reguluje ADE i odmiennie określa dzień fikcji doręczenia, nie stanowiąc podstawy doręczenia portalowego. Karę naliczono za zastosowanie awiza do mechanizmu portalowego, a A8 obniżono za rozbudowane omówienie odrębnego systemu e-Doręczeń. Wskazanie niewłaściwej skrzynki i sposobu uruchomienia doręczeń czyni poradę praktycznie mylącą, natomiast jej pewność odpowiada oczekiwanej kalibracji kategorycznej.",
+ "_meta": {
+  "sedzia": "sol61meta",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 48,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 6, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 131 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 131 KPC reguluje doręczenia elektroniczne.”\n    · uzasadnienie weryfikatora: Art. 131 KPC określa podmioty, przez które sąd dokonuje doręczeń tradycyjnych (operator pocztowy, pracownicy sądu, sądowa służba doręczeniowa, komornik, Policja, Żandarmeria Wojskowa), i nie reguluje doręczeń elektronicznych (o których mowa w odrębnym art. 131¹ KPC).\n    · brzmienie jednostki (fragment): „Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe (Dz. U. z 2025 r. poz. 366, 820 i 1456), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych (Dz. U. z 2024 r. poz. 1458, z 2025 r. poz. 1018 i 1172 oraz z 2026 r. poz. 26). § 1¹. W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu…”\n- 2. art. 132 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 132–146 KPC regulują ogólne zasady doręczeń, w tym doręczenie zastępcze i awizo.”\n    · uzasadnienie weryfikatora: Powołano przedział przepisów art. 132–146 KPC jako regulujący ogólne zasady doręczeń; sam art. 132 KPC reguluje doręczenia bezpośrednie między pełnomocnikami oraz doręczenie w sekretariacie sądu, stanowiąc początek tego zakresu.\n    · kotwica (verbatim ze źródła): „W toku sprawy adwokat, radca prawny, rzecznik patentowy oraz Prokuratoria Generalna Rzeczypospolitej Polskiej doręczają sobie nawzajem bezpośrednio odpisy pism procesowych z załącznikami.”\n    · brzmienie jednostki (fragment): „Art. 132. § 1. W toku sprawy adwokat, radca prawny, rzecznik patentowy oraz Prokuratoria Generalna Rzeczypospolitej Polskiej doręczają sobie nawzajem bezpośrednio odpisy pism procesowych z załącznikami. W razie wątpliwości co do dochowania obowiązku, o którym mowa w zdaniu poprzedzającym, sąd może, na wniosek albo z urzędu, zażądać dowodu nadania pisma procesowego za pośrednictwem operatora, o którym mowa w art. 165 § 2, lub dowodu doręczenia. W razie nieprzedstawienia w wyznaczonym terminie dowodów, o których mowa w zdaniu drugim, pismo procesowe podlega zwrotowi. § 1¹. Przepis § 1 nie dotyc…”\n- 3. art. 146 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 132–146 KPC regulują ogólne zasady doręczeń, w tym doręczenie zastępcze i awizo.”\n    · uzasadnienie weryfikatora: Powołano przedział przepisów art. 132–146 KPC jako regulujący zasady doręczeń; art. 146 KPC stanowi końcowy przepis tego przedziału, odnoszący się do kuratora ds. doręczeń ustanowionego na podstawie art. 143 i 144 KPC.\n    · kotwica (verbatim ze źródła): „Do kuratora ustanowionego zgodnie z art. 143 i art. 144 stosuje się odpowiednio przepis art. 69 § 3.”\n    · brzmienie jednostki (fragment): „Art. 146. Do kuratora ustanowionego zgodnie z art. 143 i art. 144 stosuje się odpowiednio przepis art. 69 § 3.”\n- 4. art. 136 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 136 i nast. KPC dotyczą doręczenia tradycyjnego (pocztą).”\n    · uzasadnienie weryfikatora: Powołano ogólnie art. 136 i nast. KPC na określenie doręczeń tradycyjnych; sam art. 136 KPC reguluje obowiązek zawiadamiania sądu o zmianie adresu zamieszkania, skrytki pocztowej i adresu do doręczeń w ramach doręczeń tradycyjnych.\n    · kotwica (verbatim ze źródła): „Strona, która zgłosiła wniosek o dokonywanie doręczeń na adres oznaczonej skrytki pocztowej, ma obowiązek zawiadamiać sąd o każdej zmianie tego adresu.”\n    · brzmienie jednostki (fragment): „Art. 136. § 1. Strony i ich przedstawiciele mają obowiązek zawiadamiać sąd o każdej zmianie swego zamieszkania. § 2. W razie zaniedbania tego obowiązku pismo sądowe pozostawia się w aktach sprawy ze skutkiem doręczenia, chyba że nowy adres jest sądowi znany. O powyższym obowiązku i skutkach jego niedopełnienia sąd powinien pouczyć stronę przy pierwszym doręczeniu. § 3. Przepisu § 2 nie stosuje się do doręczenia skargi o wznowienie postępowania lub skargi o stwierdzenie niezgodności z prawem prawomocnego orzeczenia. § 4. Strona, która zgłosiła wniosek o dokonywanie doręczeń na adres oznaczonej…”\n- 5. art. 139 KPC [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 139 KPC wiąże się z uznaniem doręczenia za dokonane z upływem 14 dni w razie nieodebrania pisma.”\n    · uzasadnienie weryfikatora: Art. 139 § 1 KPC reguluje dwukrotne awizowanie przesyłki z 7-dniowym terminem odbioru przy każdym zawiadomieniu (łącznie 14 dni), do czego odpowiedź nawiązuje przez analogię („por. też art. 139 KPC”) przy omawianiu 14-dniowego terminu fikcji doręczenia.\n    · kotwica (verbatim ze źródła): „Zawiadomienie o złożeniu pisma umieszcza się w drzwiach mieszkania lub biura adresata lub oddawczej skrzynce pocztowej, ze wskazaniem, gdzie i kiedy pismo złożono, oraz z pouczeniem, że należy je odebrać w terminie siedmiu dni od dnia umieszczenia zawiadomien…”\n    · brzmienie jednostki (fragment): „Art. 139. § 1. W razie niemożności doręczenia w sposób przewidziany w artykułach poprzedzających, pismo przesłane za pośrednictwem operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe należy złożyć w placówce pocztowej tego operatora, a doręczane w inny sposób – w urzędzie właściwej gminy. Zawiadomienie o złożeniu pisma umieszcza się w drzwiach mieszkania lub biura adresata lub oddawczej skrzynce pocztowej, ze wskazaniem, gdzie i kiedy pismo złożono, oraz z pouczeniem, że należy je odebrać w terminie siedmiu dni od dnia umieszczenia zawiadomienia. W przypadku…”\n- 6. art. 168 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 168 i nast. KPC dotyczą możliwości przywrócenia terminu.”\n    · uzasadnienie weryfikatora: Art. 168 § 1 KPC wprost reguluje instytucję przywrócenia terminu do dokonania czynności procesowej.\n    · kotwica (verbatim ze źródła): „Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu.”\n    · brzmienie jednostki (fragment): „Art. 168. § 1. Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu. § 2. Przywrócenie nie jest dopuszczalne, jeżeli uchybienie terminu nie pociąga za sobą ujemnych dla strony skutków procesowych.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

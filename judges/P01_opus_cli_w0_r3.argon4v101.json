@@ -1,0 +1,119 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w. (aktualny próg 800 zł przy kradzieży lub przywłaszczeniu cudzej rzeczy ruchomej)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. 2022 poz. 2600) — historia zmian art. 119 § 1 k.w. (twierdzenie, że do 30.09.2023 r. próg wynosił 1/4 minimalnego wynagrodzenia, a stałą kwotę wprowadzono dopiero od 1.10.2023 r.)",
+   "zrodlo": "ISAP Dz.U. 2022 poz. 2600, Dz.U. 2022 poz. 2151 (t.j. k.w.) oraz Dz.U. 2018 poz. 2077 (od 15.11.2018 r. do 30.09.2023 r. obowiązywał stały próg 500 zł)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 k.w.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278, 284, 291, 288 k.k.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 k.k.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a k.k. (kradzież szczególnie zuchwała)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j.) oraz Dz.U. 2022 poz. 2600 (art. 1 pkt 104 — art. 278a k.k. uchylony z dniem 1.10.2023 r., czyn przeniesiony do art. 278 § 3a k.k.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 280 k.k.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. 2022 poz. 2600 / Kodeks karny (twierdzenie, że nowelizacja z 7.07.2022 r. wprowadziła do k.k. sumowanie wartości wykroczeń popełnionych w ciągu 12 miesięcy)",
+   "zrodlo": "ISAP Dz.U. 2022 poz. 2600 oraz Dz.U. 2025 poz. 383 (art. 12 § 2 k.k. dodano w 2018 r. ustawą Dz.U. 2018 poz. 2077 i przewiduje on przesłankę krótkich odstępów czasu, a nie 12 miesięcy)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi (800 zł jako kwota stała od 1.10.2023 r., brak wpływu płacy minimalnej) oraz wymagana podstawa prawna (art. 119 § 1 k.w.) wraz z przepisami pokrewnymi (art. 120 § 1, 122 § 1, 124 § 1 k.w.) zostały podane prawidłowo (A-R = 2, A2 = 1, R1 = 1, R2 = 1, R4 = 1). System błędnie opisał jednak historię zmian przepisu, twierdząc, że do 30.09.2023 r. próg wynosił 1/4 minimalnego wynagrodzenia i pomijając obowiązujący w latach 2018–2023 stały próg 500 zł, co zgodnie z regułami skutkuje A6 = 0 (klasa W) oraz niezaliczeniem elementu R3 (R3 = 0). Ponadto w uwagach dodatkowych system powołał uchylony z dniem 1.10.2023 r. art. 278a k.k. zamiast art. 278 § 3a k.k. (klasa W) oraz przypisał nowelizacji z 7.07.2022 r. (Dz.U. 2022 poz. 2600) i Kodeksowi karnemu nieistniejącą regułę sumowania wykroczeń z 12 miesięcy, podczas gdy art. 12 § 2 k.k. wprowadzono w 2018 r. i wymaga on „krótkich odstępów czasu” (klasa T). Ze względu na błędy prawne w uwagach pobocznych punktacja za ramy zostaje obniżona do A8 = 0.5. W bloku B odpowiedź otrzymuje pełną punktację (B1 = 2, B2 = 1), gdyż główna porada praktyczna oraz kategoryczna kalibracja są trafne, a błędy ukarane w A6 nie obniżają B1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "OR \"Dz.U. 2025 poz. 734\" OR \"art. 119\" \"800 złotych\"",
+   "OR \"Dz.U. 2022 poz. 2600\" \"7 lipca 2022\"",
+   "OR \"Kodeks karny\" \"art. 278a\" \"art. 279\" \"art. 280\"",
+   "OR \"Kodeks karny\" \"art. 12\" \"6 miesięcy\" OR \"12 miesięcy\"",
+   "OR \"WDU20250000734\" OR \"DU/2025/734\"",
+   "OR \"WDU20220002600\" OR \"DU/2022/2600\"",
+   "OR \"WDU20250000383\" OR \"DU/2025/383\"",
+   "\"Art. 12.\" \"§ 2.\" \"Odpowiada jak za jeden czyn zabroniony\" \"6 miesięcy\"",
+   "\"Art. 120.\" \"800 złotych\" \"Art. 122.\" \"Art. 124.\" \"Kodeks wykroczeń\"",
+   "\"278a\" \"kradzieży szczególnie zuchwałej\" OR \"Art. 278a\" \"Kodeks karny\"",
+   "\"500 złotych\" \"800 złotych\" \"art. 4 pkt 5\" \"2600\" \"Kodeks wykroczeń\"",
+   "\"284\" \"288\" \"291\" \"Kodeks karny\" \"Dz.U. 2025 poz. 383\" OR \"Dz.U.2025.383\"",
+   "\"Art. 124.\" \"800 złotych\" \"Kodeks wykroczeń\"",
+   "\"Art. 284.\" \"Kto przywłaszcza sobie\" \"Kodeks karny\"",
+   "\"278a\" \"2600\" \"7 lipca 2022\" \"Kodeks karny\"",
+   "\"500 złotych\" \"4 października 2018\" \"Kodeks wykroczeń\" \"2077\"",
+   "\"art. 12\" \"2600\" \"7 lipca 2022\" \"Kodeks karny\"",
+   "\"w ciągu 12 miesięcy\" \"wykroczeń\" \"800 zł\" OR \"500 zł\" \"Kodeks karny\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13592,
+   "wyjscie": 2410
+  },
+  "czas_s": 241,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

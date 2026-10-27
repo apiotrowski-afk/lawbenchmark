@@ -1,0 +1,85 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131 Kodeksu postępowania cywilnego",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ Kodeksu postępowania cywilnego",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹a Kodeksu postępowania cywilnego",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.) z uwzględnieniem Dz.U. 2025 poz. 1172 (brzmienie od 1.06.2026)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 rozporządzenia (UE) 2020/1784",
+   "zrodlo": "EUR-Lex Dz.U. UE L 405 z 2.12.2020, s. 40 (CELEX: 32020R1784)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System nie uwzględnił obowiązującej od 1.06.2026 r. nowelizacji art. 131¹ᵃ § 1 i § 1¹ k.p.c. (Dz.U. 2025 poz. 1172), umożliwiającej stronie będącej osobą fizyczną wybór doręczeń przez Portal Informacyjny za pomocą oświadczenia opatrzonego podpisem kwalifikowanym, zaufanym albo osobistym, przez co traci punkty za rdzeń (A-R = 0), wymagane podstawy prawne (A2 = 0) oraz trzy elementy rubryki. W A6 przyznano jednak 1 punkt (brak halucynacji), ponieważ system ostrożnie ograniczył tezę w pkt 1 („założenie konta nie oznacza automatycznej zgody”, „co do zasady”, „chyba że istnieje podstawa do doręczeń elektronicznych”), nie przypisując powołanym przepisom fałszywej treści, a jedynie pomijając możliwość złożenia oświadczenia o wyborze przez stronę. Za brak kategorycznego twierdzenia o niedopuszczalności doręczeń portalowych osobie bez pełnomocnika nie naliczono kary K1, natomiast w rubryce zaliczono wyłącznie element dotyczący momentu doręczenia i 14-dniowej fikcji (opisany przy art. 131¹ᵃ k.p.c.). Punktacja A8 została obniżona do 0,5 z uwagi na nieproszony akapit o prawie unijnym i doręczeniach transgranicznych z rozporządzenia (UE) 2020/1784. W bloku B odpowiedź jest nieprzydatna praktycznie (B1 = 0), gdyż nie wyjaśnia procedury wyboru doręczeń przez portal dla osoby fizycznej, ale zachowuje właściwą kalibrację pewności (B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"art. 131\" \"art. 133\" \"2026\" \"468\" OR",
+   "\"131\" \"systemu teleinformatycznego\" \"Kodeks postępowania cywilnego\" OR",
+   "\"133\" \"pełnomocnika procesowego\" \"Kodeks postępowania cywilnego\" OR",
+   "\"2020/1784\" \"Artykuł 19\"",
+   "\"1172\" \"131\" \"portalu informacyjnego\"",
+   "\"2026\" \"468\" \"Kodeks postępowania cywilnego\"",
+   "\"W przypadku braku takiego dokumentu doręczenie uznaje się za skuteczne z upływem 14 dni od dnia umieszczenia pisma w portalu informacyjnym\"",
+   "\"W przypadku doręczenia pisma za pośrednictwem portalu informacyjnego pismo uznaje się za doręczone\"",
+   "\"dokumentu potwierdzającego doręczenie\" \"portalu informacyjnym\" \"14 dni\" \"134\"",
+   "\"DU/2025/1172\"",
+   "\"w art. 1311a\" \"1172\"",
+   "\"Oświadczenie o rezygnacji ze sposobu doręczeń, o którym mowa w § 1, odnosi skutek prawny z chwilą zawiadomienia sądu\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9587,
+   "wyjscie": 1432
+  },
+  "czas_s": 199,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

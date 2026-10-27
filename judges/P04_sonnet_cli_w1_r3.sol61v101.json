@@ -1,0 +1,85 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 1 i nast. ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 8 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 363 k.p.c. — prawomocność przedstawiona jako kategoria wyłączająca decyzje administracyjne",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf oraz https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 364 k.p.c. — stwierdzanie prawomocności orzeczeń sądowych",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 365 k.p.c. — związanie prawomocnym orzeczeniem",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 366 k.p.c. — skutki prawomocnego wyroku",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a. — ostateczność decyzji ministra od doręczenia mimo dostępnego wniosku o ponowne rozpatrzenie",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. — twierdzenie, że wniosek o ponowne rozpatrzenie nie wstrzymuje wykonania ani nie odracza ostateczności",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 217 § 2 k.p.a. — zaświadczenie potwierdzające stan prawny decyzji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie koryguje formę aktu i wskazuje zaświadczenie organu, lecz wprost wyklucza prawomocność decyzji, co uzasadnia A_R=0 i K3=1. Art. 16 § 3 k.p.a. przewiduje prawomocność decyzji administracyjnych, a art. 16 § 1 uwzględnia również wniosek o ponowne rozpatrzenie jako przeszkodę ostateczności. Twierdzenia o skutkach tego wniosku przeczą art. 127 § 3 w związku z art. 130 k.p.a., dlatego A6=0; pominięte warunki zwolnień z art. 8 same nie obniżają A6. A8=0,5 wynika z odrębnego omówienia zwolnień z obowiązku uzyskania zezwolenia, natomiast wariant postanowienia sądu jest dopuszczalny według klucza. B1=0 za błędną główną wskazówkę i moment ostateczności, natomiast B2=1 za kategoryczne stanowisko zgodne z oczekiwaną kalibracją.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 54,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

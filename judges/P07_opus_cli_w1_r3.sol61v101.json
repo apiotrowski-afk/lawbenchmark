@@ -1,0 +1,107 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "Twierdzenie o niewypracowaniu jednolitego stanowiska przez SN w kwestii skutków wskazania zasadniczych powodów rozstrzygnięcia",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 357 § 5 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 357 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 357 § 2¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 357 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 357 § 2² i § 2³ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 357 § 2⁴ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 357 § 6 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 326 § 3 k.p.c. — ustne podanie motywów wyroku",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 25b ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Uchwała SN z 6 października 2022 r., III CZP 112/22",
+   "zrodlo": "https://www.sn.pl/pl/sprawy/zagadnienia-prawne/iii-czp-112-22",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Twierdzenie, że orzecznictwo SN nie wypracowało jednolitego stanowiska w sprawie skutków zasadniczych powodów rozstrzygnięcia",
+   "zrodlo": "https://www.sn.pl/pl/sprawy/zagadnienia-prawne/iii-czp-38-20",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Biuletyn Izby Cywilnej SN nr 6/2020 — opis dwóch poglądów, w tym odpowiedniego stosowania art. 326 § 3 k.p.c.",
+   "zrodlo": "https://www.sn.pl/orzecznictwo/Biuletyn_IC_SN/Biuletyn%20Izby%20Cywilnej%20S%C4%85du%20Najwy%C5%BCszego%2006_2020.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełny opis rozbieżności doktrynalnych przypisany Biuletynowi Izby Cywilnej SN nr 6/2020, zwłaszcza pogląd o odpowiednim stosowaniu art. 326 § 3 k.p.c.: wyszukiwanie potwierdziło fragment omówienia, ale pełny PDF zwracał błąd 403."
+ ],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, wymagane podstawy, prawidłowy cytat oraz wszystkie elementy rubryki. Pominięcie wyjątków przy opisie § 3 oraz niewskazanie stawki 30 zł przy warunkowej wzmiance o opłacie 100 zł nie stanowią fałszywego przypisania treści przepisom. Twierdzenie o nierozstrzygniętym stanowisku SN przedstawia jako aktualną niepewność opisaną w 2020 r., mimo uchwały III CZP 38/20 z 2 lipca 2021 r. rozstrzygającej tę kwestię, co uzasadnia T i A6 = 0. Ta nieuzasadniona aktualizacja sporności obniża B2, choć praktyczna wskazówka złożenia wniosku pozostaje prawidłowa. Akapit o podpisaniu sentencji i nieistnieniu orzeczenia jest dygresją, dlatego A8 = 0,5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 18,
+  "czas_s": 87,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

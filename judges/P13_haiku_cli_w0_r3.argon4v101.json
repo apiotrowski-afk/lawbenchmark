@@ -1,0 +1,89 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 730 i nast. KPC — zabezpieczenie roszczenia jest udzielane postanowieniem sądu na wniosek, niezależnie od tytułu egzekucyjnego",
+   "zrodlo": "Dz.U. 2026 poz. 468 (art. 730 § 1, art. 732, art. 738 k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ KPC — zabezpieczenie wymaga uprawdopodobnienia roszczenia i interesu prawnego",
+   "zrodlo": "Dz.U. 2026 poz. 468 (art. 730¹ § 1 k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 739 KPC — zabezpieczenie wykonuje się w trybie przepisów o egzekucji",
+   "zrodlo": "Dz.U. 2026 poz. 468 (art. 739 k.p.c. dotyczy kaucji na zabezpieczenie roszczeń obowiązanego; wykonanie zabezpieczenia w trybie przepisów o postępowaniu egzekucyjnym reguluje art. 743 § 1 k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 493 § 3 KPC — podstawa prawna postanowienia o wstrzymaniu wykonania nakazu zapłaty",
+   "zrodlo": "Dz.U. 2026 poz. 468 (art. 493 § 3 k.p.c. dotyczy ograniczeń w postępowaniu po wniesieniu zarzutów; wstrzymanie wykonania nakazu zapłaty z weksla reguluje art. 492 § 3 zd. 2 k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 KPC (właściwy punkt) — zażalenie na postanowienie o zabezpieczeniu w ogólnym trybie",
+   "zrodlo": "Dz.U. 2026 poz. 468 (art. 394 § 1 k.p.c. nie zawiera punktu dotyczącego postanowienia o zabezpieczeniu; podstawą zażalenia jest przepis szczególny art. 741 § 1 k.p.c.)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System całkowicie pominął art. 492 § 1 i § 3 k.p.c. (A2=0, A_R=0, R=[0,0,0,0]), błędnie zakładając, że zabezpieczenie w oparciu o nakaz zapłaty wymaga złożenia wniosku do sądu o udzielenie zabezpieczenia postanowieniem na zasadach ogólnych (art. 730–730¹ k.p.c.), które sąd może oddalić (kara K[1]=1). W kryterium A6 przyznano 0 (klasa T, hallucinated=true) z uwagi na trzy błędne powołania: przypisanie art. 739 k.p.c. treści dotyczącej wykonywania zabezpieczenia w trybie egzekucji (zamiast art. 743 § 1 k.p.c.), wskazanie art. 493 § 3 k.p.c. jako podstawy wstrzymania wykonania nakazu (zamiast art. 492 § 3 k.p.c.) oraz odesłanie do punktu w art. 394 k.p.c. jako podstawy zażalenia na postanowienie o zabezpieczeniu (zamiast art. 741 § 1 k.p.c.). Zgodnie z regułą graniczną nr 8 dopiski nakazujące weryfikację przepisu nie uchylają błędu klasy T. W bloku B przyznano B1=0 (porada wprowadza prawnika w błąd co do istoty instytucji i środków obrony) oraz B2=0 (rozmycie kategorycznej odpowiedzi poprzez uzależnienie jej od treści postanowienia i zestawianie argumentów za i przeciw).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"art. 730\" \"art. 7301\" \"art. 739\" OR OR",
+   "\"Art. 739.\" \"Kodeks postępowania cywilnego\" OR",
+   "\"Art. 493.\" \"Kodeks postępowania cywilnego\" OR",
+   "\"Art. 741.\" \"Art. 394\" \"zabezpieczeniu\" \"Kodeks postępowania cywilnego\" OR",
+   "\"2026\" \"468\" \"Art. 739\" OR \"Art. 493\" OR \"Art. 394\"",
+   "\"DU/2026/468\" OR \"Art. 493\" \"zarzuty\"",
+   "\"WDU20260000468\" OR \"2026\" \"468\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 394.\" \"2026.468\" OR \"2026 poz. 468\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 743.\" \"Kodeks postępowania cywilnego\" \"przepisy o postępowaniu egzekucyjnym\"",
+   "\"Art. 739.\" \"2026.468\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 741.\" \"2026.468\" \"Kodeks postępowania cywilnego\"",
+   "\"Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie\" \"Art. 394.\" \"2026\"",
+   "\"Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie\" \"5) zawieszenie postępowania\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10269,
+   "wyjscie": 1707
+  },
+  "czas_s": 188,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

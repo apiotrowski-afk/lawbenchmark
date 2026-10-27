@@ -1,0 +1,75 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/O/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text/O/D20260795.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14 października 2021 r., IV CSKP 44/21",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iv%20cskp%2044-21.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/O/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/O/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/O/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/O/D20250024.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie udostępniono odpowiedzi tego samego systemu na P09, więc nie można sprawdzić spójności; kary nie naliczono."
+ ],
+ "uzasadnienie": "Odpowiedź od razu zaprzecza przesłance i przedstawia pełny rdzeń wraz z warunkiem dotyczącym wykładni umowy. Podaje wymagane podstawy, konkretne pola dla social mediów oraz formę pisemną pod rygorem nieważności. Oficjalne źródła potwierdzają treść wszystkich powołań, w tym liberalną wykładnię i zasadę ochrony twórcy w wyroku IV CSKP 44/21. Nie zawiera cytatów przepisów w rozumieniu klucza ani dygresji uzasadniających obniżenie A8.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 14,
+  "czas_s": 59,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

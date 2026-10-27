@@ -1,0 +1,100 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text/O/D20251071.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text/O/D20251071.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 49 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie przedstawiono odpowiedzi tego samego systemu na P09; brak podstaw do naliczenia kary za sprzeczność."
+ ],
+ "uzasadnienie": "Odpowiedź wprost zaprzecza przesłance, podaje wymagane podstawy, przykłady pól oraz wymóg formy pisemnej i uwzględnia możliwość wykładni umowy. Wszystkie powołane jednostki i przypisane im treści sprawdzono w urzędowych tekstach; nie stwierdzono halucynacji. R5 nie zaliczono, ponieważ zabrakło wskazania linii SN i reguły in favorem auctoris. A3 jest nieadekwatne, gdyż cudzysłowy obejmują klauzule umowne, a nie cytaty przepisów. Omówienie przeróbek i wynagrodzenia wykracza poza pytanie o określenie pól eksploatacji, co obniża A8 do 0.5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 45,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–172 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo wskazuje, że osoba fizyczna może odbierać pisma przez Portal Informacyjny po złożeniu oświadczenia o wyborze, unikając negatywnej pułapki nieaktualności. Zamiast właściwego art. 131¹ᵃ k.p.c. wielokrotnie powołano jednak art. 131¹ k.p.c., przypisując mu treść regulującą doręczenia przez portal informacyjny, co stanowi błąd klasy T (A6=0, hallucinated=true) i powoduje brak wymaganych podstaw (A2=0). W punkcie 2 błędnie dopuszczono złożenie oświadczenia w tradycyjnym piśmie procesowym i pominięto wymóg opatrzenia go kwalifikowanym podpisem, profilem zaufanym lub podpisem osobistym (art. 131¹ᵃ § 1¹ k.p.c.), co obniża R i B1. Struktura i ramy wypowiedzi są bez zarzutu (A8=1), a poziom pewności odpowiada stanowi prawnemu (B2=1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 131(1)\" kpc \"system teleinformatyczny\" portal informacyjny",
+   "\"art. 131(1a)\" kpc portal informacyjny",
+   "\"131[1]\" \"131[1a]\" kpc portal informacyjny",
+   "\"art. 131[1]\" \"art. 131[1a]\" kodeks postępowania cywilnego"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10132,
+   "wyjscie": 571
+  },
+  "czas_s": 35,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 1 i 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 491 § 1 k.p.c. (termin 2 tygodni od doręczenia nakazu na zaspokojenie roszczenia)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 491 uchylony z dniem 7.11.2019 r. (Dz.U. 2019 poz. 1469), obecnie termin w postępowaniu nakazowym reguluje art. 480² § 2 pkt 3 i 4 k.p.c. i wynosi on miesiąc w UE albo 3 miesiące poza UE",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 776 w zw. z art. 777 § 1 pkt 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 1, 2 i 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z dnia 2 marca 2016 r., VIII Gz 43/16",
+   "zrodlo": "SAOS (orzeczenie 213643) / Portal Orzeczeń SO w Szczecinie",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Poznaniu z dnia 31 maja 2016 r., XV Ca 397/16",
+   "zrodlo": "SAOS / Portal Orzeczeń SO w Poznaniu — rzeczywiste postanowienie tego sądu z tej daty z przytoczonym dosłownie cytatem nosi sygnaturę II Ca 124/16, a nie XV Ca 397/16",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 24 września 2003 r., III CZP 58/03",
+   "zrodlo": "SAOS / OSNC 2004/11/173",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z dnia 25 stycznia 2019 r., IV CSK 551/17",
+   "zrodlo": "baza orzeczeń SN / LEX nr 2618494",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie rozstrzyga problem prawny (A-R=2, B2=1), powołuje obie wymagane podstawy z art. 492 § 1 i § 3 k.p.c. (A2=1), dosłownie cytuje art. 492 § 2 zd. 2 k.p.c. (A3=1) oraz realizuje wszystkie cztery punkty rubryki (R=[1,1,1,1]). Punktacja w A6 spada jednak do 0 (hallucinated=true) z dwóch powodów wynikających z bezkrytycznego przejęcia treści uzasadnienia z 2016 r. Po pierwsze, system powołuje jako obowiązujący uchylony w 2019 r. art. 491 § 1 k.p.c. i dawny dwutygodniowy termin na zaspokojenie roszczenia z nakazu nakazowego, podczas gdy obecnie termin ten określa art. 480² § 2 pkt 3 i 4 k.p.c. i wynosi on miesiąc w UE albo trzy miesiące poza UE (klasa W). Po drugie, przytaczając autentyczne postanowienie Sądu Okręgowego w Poznaniu z 31 maja 2016 r. (podlinkowane w źródle nr 2 bez sygnatury w tytule), system zniekształcił jego sygnaturę na „XV Ca 397/16” zamiast właściwej „II Ca 124/16” (klasa S).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 29,
+  "zapytania": [
+   "\"art. 491\" \"art. 492\" OR OR",
+   "\"art. 480\" \"nakaz zapłaty\" \"termin\" OR OR",
+   "\"VIII Gz 43/16\" OR OR",
+   "\"XV Ca 397/16\" OR OR",
+   "\"Art. 491.\" \"uchylony\" \"Kodeks postępowania cywilnego\"",
+   "\"XV Ca 397/16\" \"Sąd Okręgowy w Poznaniu\"",
+   "\"IV CSK 551/17\" \"Sąd Najwyższy\"",
+   "\"III CZP 58/03\" \"Sąd Najwyższy\"",
+   "\"XV Ca 397/16\" \"wstrzymanie\" OR \"nakazu\"",
+   "\"IV CSK 551/17\" \"492\" OR \"742\" OR",
+   "\"art. 776\" \"art. 777\" \"art. 747\" \"art. 730\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"Art. 820.\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"XV Ca 397/16\" OR \"397/16\" \"wstrzymaniu wykonania nakazu\" OR \"waloru tytułu zabezpieczającego\"",
+   "\"Decyzja procesowa sądu o wstrzymaniu wykonania nakazu zapłaty\" OR \"nie pozbawia go waloru tytułu zabezpieczającego\"",
+   "\"Możliwość wstrzymania wykonania nakazu zapłaty nie dotyczy nakazu zapłaty jako tytułu zabezpieczającego\"",
+   "\"Art. 7301\" \"Art. 747\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"uczestnik był reprezentowany przez profesjonalnego pełnomocnika\" \"31 maja 2016\" OR \"2016-05-31\"",
+   "\"Za taką oceną przemawia głównie fakt, że tytuł zabezpieczający nie podlega wykonaniu\"",
+   "\"Art. 7301\" \"§ 3.\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 742.\" \"Kodeks postępowania cywilnego\" OR OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13727,
+   "wyjscie": 2690
+  },
+  "czas_s": 282,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

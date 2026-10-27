@@ -1,0 +1,76 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 24 § 2 k.w.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 4 pkt 5 ustawy z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2022/2600/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Nowelizacja z 2018 r. wprowadzająca stały próg zamiast ¼ minimalnego wynagrodzenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2018/2077/text.html ; https://eli.gov.pl/api/acts/DU/2018/618/text/T/D20180618L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 24 § 2 k.w. jako podstawa maksymalnej grzywny 5000 zł",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Wyrok SN V KK 137/24",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/V%20KK%20137-24.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje pełny rdzeń: 800 zł, brak zależności od płacy minimalnej oraz obowiązywanie podwyższonego progu od 1.10.2023 r., co potwierdza również wskazany wyrok SN. Nie wskazuje tego samego progu dla żadnego z pozostałych wykroczeń wymaganych w R4. Art. 24 § 2 k.w. reguluje orzekanie grzywny obok aresztu, natomiast limit 5000 zł znajduje się w § 1, dlatego A6 wynosi 0 z typem T dotyczącym kwestii pobocznej. Akapit o wymiarze kar wykracza poza pytanie i obniża A8 do 0,5. Brak cytatów dosłownych oznacza A3 nd, a poprawna i stanowcza odpowiedź na główne pytanie uzasadnia B1 = 2 i B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 18,
+  "czas_s": 85,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

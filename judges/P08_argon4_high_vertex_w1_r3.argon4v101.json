@@ -1,0 +1,97 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689 z dnia 13 czerwca 2024 r. w sprawie ustanowienia zharmonizowanych przepisów dotyczących sztucznej inteligencji (AI Act) – rozdział IV (stosowany od 2 sierpnia 2026 r.)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727 (Rozdział IV, art. 50, art. 113)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wytyczne Komisji Europejskiej z lipca 2026 r. dotyczące zakresu obowiązków przejrzystości z art. 50 AI Act (przesłanka przypominania istniejących osób obejmuje osoby, które mogłyby istnieć w rzeczywistości – can plausibly exist)",
+   "zrodlo": "Komisja Europejska, C(2026) 5054 z 20.07.2026 (Guidelines on the implementation/scope of the transparency obligations under Article 50 of the AI Act) oraz Q&A KE na digital-strategy.ec.europa.eu",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motyw 134 preambuły AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia pełny rdzeń zagadnienia (A-R = 2) oraz powołuje wszystkie wymagane podstawy prawne z art. 3 pkt 60, art. 50 ust. 2 i art. 50 ust. 4 AI Act (A2 = 1). Przytoczone w cudzysłowie brzmienie definicji z art. 3 pkt 60 oraz zwrot z art. 50 ust. 2 są dosłowne względem tekstu urzędowego w EUR-Lex (A3 = 1). Wszystkie powołane przepisy AI Act oraz treść wytycznych Komisji Europejskiej do art. 50 z lipca 2026 r. są zgodne ze źródłami oficjalnymi (A6 = 1). System zalicza pięć z sześciu elementów rubryki, tracąc punkt za element R6 z uwagi na brak zaznaczenia niewiążącego (soft law) charakteru wytycznych KE (zgodnie z regułą oceny z 2026-10-18). Kalibracja warunkowa (B2 = 1) oraz przydatność praktyczna (B1 = 2) są bez zarzutu.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"2024/1689\" \"13 czerwca 2024\" \"w sprawie ustanowienia zharmonizowanych przepisów dotyczących sztucznej inteligencji\"",
+   "\"Rozdział IV\" \"Obowiązki w zakresie przejrzystości\" \"2024/1689\"",
+   "\"134\" \"deepfake\" \"2024/1689\"",
+   "\"Artykuł 50\" \"systemami AI przeznaczonymi do bezpośredniej interakcji z osobami fizycznymi\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję\" \"Artykuł 50\"",
+   "\"resembling existing persons\" \"would falsely appear to a person to be authentic or truthful\" \"2024/1689\"",
+   "\"Guidelines on the scope of the transparency obligations laid down in Article 50 of the AI Act\" OR \"Wytyczne\" \"art. 50\" \"can plausibly exist\"",
+   "\"synthetic audio\" \"Article 50\" \"2024/1689\"",
+   "\"C(2026) 5054\" \"Article 50\"",
+   "\"can plausibly exist\" \"Article 50\" OR \"deepfake\" OR \"deep fake\"",
+   "\"Guidelines on the scope of the transparency obligations\" \"Article 50\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 17443,
+   "wyjscie": 1414
+  },
+  "czas_s": 125,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

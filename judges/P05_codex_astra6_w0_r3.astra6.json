@@ -1,0 +1,61 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. (także w odesłaniu art. 131¹–131¹a)",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹a k.p.c. (oba powołania)",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 rozporządzenia (UE) 2020/1784",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX%3A02020R1784-20250501",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź pomija obowiązującą od 1.06.2026 możliwość wyboru doręczeń portalowych przez stronę, sposób złożenia oświadczenia i rezygnację, dlatego nie przedstawia rdzenia ani kompletu wymaganych podstaw. Zalicza się opis momentu doręczenia i reguły 14 dni, choć przedstawiono je przy pełnomocniku. Nie naliczam halucynacji ani pierwszej kary: twierdzenie o niewystarczalności samego konta lub zamieszczenia pisma nie oznacza twierdzenia o zakazie doręczania stronie, która wybrała ten sposób. A8 wynosi 0, ponieważ przy dygresji o doręczeniach transgranicznych wymagany rdzeń nie występuje ani na początku, ani w podsumowaniu. Przydatność jest ograniczona brakiem instrukcji wyboru doręczeń, natomiast wypowiedź stawia tezy wprost, co odpowiada oczekiwanej kalibracji.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P05",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 56,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

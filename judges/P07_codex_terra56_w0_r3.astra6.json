@@ -1,0 +1,48 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=67",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 i nast. k.p.c. — przepisy o terminie i wymogach zażalenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Art. 357 § 5 zdanie drugie nakazuje odróżniać zasadnicze powody rozstrzygnięcia od uzasadnienia, więc przypisanie im funkcji zastępującej uzasadnienie odwraca treść przepisu i stanowi błąd T. Odpowiedź błędnie zamyka drogę do wniosku, nie podaje wymaganej podstawy z § 1 albo § 2¹, warunku zaskarżalności ani tygodniowego terminu i jego początku. Nie wspomina również o opłacie ani wyjątkach, dlatego wszystkie elementy rubryki pozostają niezaliczone, a pierwsza kara jest naliczona. Akapit o nieformalnym podaniu motywów przedstawia alternatywny scenariusz sprzeczny z założeniem pytania, co obniża A8 do 0.5. B1 wynosi 0 z powodu błędnej wskazówki dotyczącej zasadniczej czynności procesowej, natomiast B2 wynosi 1, ponieważ odpowiedź stawia tezę kategorycznie zgodnie z oczekiwaną kalibracją.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 40,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

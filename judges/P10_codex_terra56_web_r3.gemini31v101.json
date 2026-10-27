@@ -1,0 +1,112 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78 § 1-2 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaprzecza przesłance i wskazuje na wymóg wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 pr.aut.), jednak pomija kluczowy warunek z orzecznictwa SN o możliwości dookreślenia pól w drodze wykładni z art. 65 k.c. (A-R = 1, B2 = 0). System powołuje art. 78 § 1-2 k.c. jako podstawę formy elektronicznej z kwalifikowanym podpisem, podczas gdy reguluje to art. 78^1 k.c., a art. 78 dotyczy formy pisemnej (błąd T, A6 = 0, zakres poboczne). Pozostałe powołania są poprawne. Odpowiedź jest bardzo przydatna praktycznie (B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 78 § 1\" \"art. 78 § 2\" kodeks cywilny",
+   "\"art. 78\" kodeks cywilny lex"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhvAgriBWTk6ouY1dfw2bHLdyyL0omuU_UGYbqrR3SdqDK86lm851GM_l_BO1jE1_RPP3gqJJAjrpjzfXf6o1VIK3iWtE3Duz5KBebRDjbQG3eZfcm34cUNvb3ffBV5vXzuo3B7BKX",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeM4_RrnB21tRmclkwkRsfnLkDy8WBmKlB1PeZsEagTntZm0Fvd1fCfu_zUIH3vhxrqM-lG0z0LVMG9s5zwr2Nmvn_O35aK9u_w_tzIt_-piLKd7PBOWqyHhsrunZzviMFGKJ-IcKw65GzuAbnQ5VWQH138X08_DezFFQUrJ3XUGPSjm1eqeOafn_EGdlwRoXf8xEH-dJoXxbWYIVa3-YsRuzfK9VlqxP0C_ggC_76n35_v_DHP1km8l_i62zxbdDiE6xJdRN63GS1tgPW6FswYTR3xdDCv7AUhxDZmZX-OWX_PCml0VKP3yf5QIMifhKZWyPQuXPmlFQOQFZgO8ABJA5b4lFFlt2KpWM3Iub6r1uu4WNrBxx1xXIc9Jnz1GPbmttR-Smkhb4MJxNiuFeaRmyA9hBTIjsdoUENgDzMp3aR8g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG93G7b5iHtb3aue5EclUZZQU32948xqeMcUn-f_STXDaBgtcO0mfWxBikM438hZfFfSy7kSk-TTzSunWEA8uhK9CzRJjRxK_y5bxFVr_jB0aqRfUcCWIencExaR8NAkWS9R_xCt6ZsNB79Ngkk0j3Ogw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhWrAdJqcN4Nq-CrodM8HOFcKnX2yKl6cmTaaVAnJOzreii86X6x7g8w7X5erMfsmTRbsl1mgbE8ZB_mW1JwxtFgcjHJStuXht_-RTaDm3GVIeyqNJU1wRBjnKfpljXARzZN2adra3ZBTtX9RJqZuff2xenM_WbKsYO1sOk7fWbyWgRn2iZSD5_94cv52AR2t0o5B9hfNioS3rj2WFVg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVcEgPOjaFZIEvV7mcVe8QahlAX9hWlqqImgEpghy5e6xRsiJOjwcn2d_JD3cHHZA7BmclfqxEmKoEUijLyROsGN3kJ1tHjoWOctw8iZXsfaHllrCHLS-wd_awuKtghfuFq5z9ZPcz0c67fGsUAkqb3Y07HbRiwmvhbNVw_nIJzBeMSfZoro8LXYaqeHhtvZ53HtBhovM39ri_IymI8CoBbHVx",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf4UspnoxSuUS4MVhhpdEVi7wtUI8xaS9_BXAb4Fymnl_K9dcUD9TN4ZAiZt8LdFcHMoXm8BTkYoPVhigBBbkKEm26iUOiU8TAJJEBHgR6cMaX9iwKFp5EK7OVdsqIlm1lSFG2oefYB7QfxsFJaMRLbFF3Wn_oLMMsoeOX3Fd04681vocrMggpwA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6XVTRNGdzToMyLTs88i9ZW23psDloAriyWpsA3pa-SBd-Sn0k6adgy0gLIurbwahB29ocnVMhmNN-v5vaaVdE5xb4qAMBBzD8p5mQ-6b-f9762taY7XCg2uNe0zu8Ax3rP5MGJ9SGfQA58SBt_iRiNi6uczQmv_MDRMJ1kaYS0o-o9Ag=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9GF5TVFwTfw2NXElA6bkMkuJ3zCNvLP25YLQHK0DzrcDa9dFtr3-1-_FS07q-XzrguNSxtsImovmwjTwdt2ZxDZ4klAAuypRlH6oMuPiYtjvCHri9fv8gia5nJtXbkRwCYntjJFYEIrHDmfmESKhItq6f2TuZKN9sY3ux66Rz2eTu_iZ3Kk28mOfgDLJMoDFj6unzGSu2AZT-9gbF",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFAjaCclqdsvVQxvuRaLNBot_JRxN0EELpy9Gqjhcly4FwmABwib9lmm_c8y4LACRi2SWNgcDM-x3kerhsxppBCOHVjdPT_3jCO3tMMoos6iPcWumWR_kwh0Df0plaS5i7bTFPg_iiQIXVp2WQv3HFNOilOpPjq4yHBV9kXhck6IqE338Y_dIBPRFtMkfMQcyPPerMO-GWTTOA6bIpe0k="
+  ],
+  "tokeny": {
+   "wejscie": 13759,
+   "wyjscie": 948
+  },
+  "czas_s": 140,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

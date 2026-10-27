@@ -1,0 +1,70 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1–2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni trafnie i precyzyjnie wyjaśnia problematykę klauzuli przeciwko małżonkowi dłużnika. Prawidłowo sprostowano omyłkę pytającego co do art. 781¹ k.p.c. oraz wyjaśniono, że oznaczenie dłużnika w nakazie zapłaty nie ma wpływu na tryb nadania klauzuli, o którym decydują przesłanki materialnoprawne. Wskazano rozróżnienie pomiędzy art. 787 i 787¹ k.p.c., uwarunkowane zgodą małżonka dłużnika na czynność prawną. Zabrakło jedynie wyraźnego wskazania losu wierzyciela w sytuacji braku zarówno zgody, jak i związku z przedsiębiorstwem (ograniczenie do majątku osobistego i dochodów dłużnika zgodnie z art. 776¹ k.p.c.). Wszystkie przywołane przepisy są w pełni zgodne ze źródłami urzędowymi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 781(1)\" kpc sejm \"wniosek o nadanie klauzuli\"",
+   "\"art. 787\" kpc sejm tytulowi egzekucyjnemu wydanemu przeciwko osobie"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10820,
+   "wyjscie": 642
+  },
+  "czas_s": 24,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

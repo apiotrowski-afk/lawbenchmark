@@ -1,0 +1,82 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę aktu (decyzja MSWiA, nie postanowienie) i wskazuje, że decyzja może być ostateczna, a ewentualnie także prawomocna (A-R = 1). Brakuje jednak wskazania, że potwierdzenie następuje w drodze zaświadczenia (art. 217 k.p.a.), co skutkuje brakiem punktu za podstawy (A2 = 0) oraz obniżeniem przydatności (B1 = 1). Zgodnie z kluczem, omówienie postanowienia sądu jest uprawnione (A8 = 1). Wszystkie powołane przepisy są zgodne ze źródłami oficjalnymi (A6 = 1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 364\" \"Kodeks postępowania cywilnego\" prawomocność",
+   "\"art. 13\" \"Kodeks postępowania cywilnego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjdRNTIf7L4ucRK0_3aZK6nceTTlFU4prEX2l0VnrAVWwdYWkkXNUlN6tdhyBzz9mp9Dr0d39orpdQhDRPOyBiKhQeu6a4dlh5fE6HFtZrgTeBa1RoNjCMmrnPDL3_hZ92g0Alyb4KNuqEurZMkIKmBYicii_SrVxb97Q=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpahAjFrHVMC_GuVT-3_HelGYxkJGmhEF6ci9edoAAIkEaD3BEgL2f2HNNDwCxFdoItNbi35eFaWsniK65PmgrGkg16NrhMsCO-YFGMhbfHRaajj3vxYOh5mWq98kCnX0R8gIsrl-U1-dLNuctIx1FAREsO3rgKA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfZ6LzyqfCRqoUXJbt575h-SxTz4_GjXY7MyCbMsZn2ZhsdLR1pHJhW9CWAvuMFJVL3PpQcZQ3WKnI5ZdKTztkK6JauF7rFZMHXKHYCbhn65EGhqPCmjEBizIasccGkLVbYDYEfYiRvbGKgkk648gLg4uQ3lfmCJztsVlq3IGRHv-t8Y2wWPh_Q-HBnA4Zv4JeGqP2",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEys8_0e8-9ogoUuvm0IgIhjYgxM-r7q8inUERrFqj-rZ8aUdauHUCNbGzCfzqKIu3Zcl1rnC6RxL-yk5IImTsKM0Iq_g_tE-sQuw7qPNpyGIrFCyCugmDIvCUrcJPXxf3mvYxrj5sg3m0nXD95",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLwMAn6rX22IlToGO_XrRYg3__Er97k3pUyMdrZxPDpOKy9F9UiVLrt40uwdyAWYJ2gYV9W9IUjnDGlK3HRCUV_Dd90LJzt43c-foL7ToGBKvsPJABWugiTRdnRT_Nzskrk2VM-MIFxYrKbjXjk_9d6AsUXf27RJ2pJiKzZSU="
+  ],
+  "tokeny": {
+   "wejscie": 14768,
+   "wyjscie": 684
+  },
+  "czas_s": 84,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 747 pkt 1–2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 110 ustawy o księgach wieczystych i hipotece",
+   "zrodlo": "Dz.U. 2026 poz. 1066 (t.j. u.k.w.h.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 744 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 746 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — przepis uchylony w 2019 r.",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie i kategorycznie odpowiada na pytanie (A-R=2, B2=1), rozróżniając funkcję nakazu zapłaty jako tytułu zabezpieczenia (art. 492 § 1 k.p.c.) od jego natychmiastowej wykonalności. Popełnia jednak błąd w A6 (klasy T i W), przypisując normę o natychmiastowej wykonalności nakazu z weksla z art. 492 § 3 zd. 1 k.p.c. do art. 492 § 2 k.p.c. (który w rzeczywistości dotyczy sposobu i ograniczenia zabezpieczenia) oraz przywołując w art. 492 § 3 nieistniejący zwrot „nakazu zapłaty, o którym mowa w § 2”. Ponadto posługuje się nieaktualnym brzmieniem z „warrantem, rewersem” (klasa W oraz kara K[2]=1) i w zastrzeżeniu odsyła do uchylonego w 2019 r. art. 492¹ k.p.c. W rubryce brakuje wskazania, że skutkiem wstrzymania wykonania nakazu jest zawieszenie egzekucji z art. 820 § 2 k.p.c. (R[3]=0). B1 obniżono do 1, ponieważ wskutek pomylenia jednostek redakcyjnych art. 492 k.p.c. system pominął wprost przewidziany w art. 492 § 2 zd. 2 k.p.c. wniosek o ograniczenie zabezpieczenia, poddając w wątpliwość dopuszczalność odpowiedniego stosowania art. 742 k.p.c.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"art. 492\" \"tytuł zabezpieczenia\" OR OR",
+   "\"art. 747\" \"zabezpieczenie roszczeń pieniężnych\" OR OR",
+   "\"art. 110\" \"hipotekę przymusową\" \"tytułu zabezpieczenia\" OR OR",
+   "\"art. 744\" \"art. 746\" \"upadek zabezpieczenia\" OR OR",
+   "\"Art. 110.\" \"Hipotekę przymusową można uzyskać także na podstawie\" OR OR",
+   "\"492\" \"Kodeks postępowania cywilnego\" \"2026\" \"468\" OR",
+   "\"Art. 4921\" OR \"art. 492^1\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 742.\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"warrantu, rewersu\" \"492\" \"Kodeks postępowania cywilnego\"",
+   "\"nakazu zapłaty, o którym mowa w § 2\" \"492\"",
+   "\"Art. 745\" \"Art. 743\" \"Kodeks postępowania cywilnego\" Dz.U. 2026 poz. 468"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10529,
+   "wyjscie": 1610
+  },
+  "czas_s": 209,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

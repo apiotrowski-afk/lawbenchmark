@@ -1,0 +1,71 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k. w zw. z art. 130 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa znosząca powiązanie z płacą minimalną (Dz.U. 2018 poz. 2077)",
+   "zrodlo": "Dz.U. 2018 poz. 2077",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest w pełni trafny i znajduje się na początku (A-R=2). System prawidłowo powołał wymaganą podstawę prawną, tj. art. 119 § 1 k.w. (A2=1). Odpowiedź spełnia trzy z czterech kryteriów rubryki, pomijając jedynie informację o innych wykroczeniach z tym samym progiem (R4=0). Wszystkie powołania, w tym data zniesienia powiązania z płacą minimalną (Dz.U. 2018 poz. 2077) oraz wyjątek dotyczący kradzieży z włamaniem (art. 130 § 2 k.w.), są w pełni zgodne ze stanem prawnym (A6=1). Kalibracja pewności jest prawidłowa i kategoryczna (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 130\" \"kodeks wykroczeń\"",
+   "\"art. 130 k.w.\"",
+   "Dz.U. 2018 poz. 2077 wejście w życie",
+   "\"Dz.U. 2018 poz. 2077\"",
+   "\"Dz. U. z 2018 r. poz. 2077\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErN4CK9oezkAoSWvLx5_YIkodB8wpe61tHhbTUyJ5b6ph5JmGtXVeo7FcpiaA_Wu-EACFw6VM4yv2D0gOfTo82s9K7VIn3qHGknPtDDmYlKc6zRb363VQuF04vDoJ4NXJPoTLnDho798uP",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQIpmosjBflnRWG6iCeTzvCkYl5tmz_m9Ng7S6sJC6vMhgX9MPRuF_6LwoQ-Lk_nyCEymCY9s9s-vspdejLfQ34KOqp3RpWpSjNDFZlAJAklD0OXS8lRGnuykTIdOkCLWrxmLQCvL-Dwcj0q7Cvk5uPaT5WeUKLGEGIUtnQ0MkIL08H0UVvlGg5QcZo8ql-Lq38mjJe89BSO0CsrjuyrNpPsemAN-PtbrWFcQvnA=="
+  ],
+  "tokeny": {
+   "wejscie": 13461,
+   "wyjscie": 577
+  },
+  "czas_s": 74,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

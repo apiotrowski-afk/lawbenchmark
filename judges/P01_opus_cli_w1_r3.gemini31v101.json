@@ -1,0 +1,133 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 284 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 291-292 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 12 § 2 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 10a k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. 2022 poz. 2600",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny i trafny (800 zł, brak wpływu płacy minimalnej). System zalicza wszystkie elementy rubryki, w tym wskazanie innych wykroczeń z tym samym progiem. Podstawy prawne są prawidłowe. Występuje jednak halucynacja w uwadze pobocznej: system powołuje uchylony art. 278a k.k. jako obecną podstawę kradzieży szczególnie zuchwałej (od 1.10.2023 r. jest to art. 278 § 3a k.k.), co stanowi błąd typu W (dawna wersja podana jako obecna). Z tego powodu A6 spada do 0. Kalibracja i przydatność są na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"art. 10a\" \"Kodeks wykroczeń\"",
+   "\"art. 12 § 2\" \"Kodeks karny\" czyn ciągły wykroczenia",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 12\" \"Kodeks karny\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 10a\" \"Kodeks wykroczeń\"",
+   "\"kradzież broni\" \"wykroczenie\" \"przestępstwo\" wartość",
+   "\"art. 278\" \"Kodeks karny\" broń amunicja",
+   "\"art. 278a\" \"Kodeks karny\" uchylony",
+   "\"art. 278 § 3a\" \"Kodeks karny\" zuchwała",
+   "\"Dz.U. 2022 poz. 2600\" wejście w życie 14 marca 2023",
+   "\"Dz.U. 2022 poz. 2600\" przesunięto wejście w życie",
+   "\"Dz.U. 2018 poz. 2077\" wejście w życie",
+   "\"9 listopada 2018\" \"Kodeks wykroczeń\" 500 zł"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETYaHAHSFpbRf3nW6LtBKvibfm_P-yhrFqVZN7hu_aoOuWER4pHCUr-hqO97beJG7EKXkPCq5-83M8Rc97orI4odjvnSnucv7-FAWibC4s-jf40Mk1y2YOxGT5w74Hxh1QJQEeL4s4RNwUxpu0ZgX7U1TJ9-AcBccd2Vq0UT4FY7W7r7u5ShosDjdK2Yy-cnQbeSTUV1TA6a-tEUl2zL4OZv84wA2_X4p6S7g="
+  ],
+  "tokeny": {
+   "wejscie": 14087,
+   "wyjscie": 1164
+  },
+  "czas_s": 224,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

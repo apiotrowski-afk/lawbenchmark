@@ -1,0 +1,119 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2.03.2016, VIII Gz 43/16",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 753, 753¹, 754 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ i n. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 1043¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozstrzyga rdzeń i zdobywa wszystkie punkty z rubryki, prawidłowo powołując orzeczenie SO w Szczecinie. Niestety system halucynuje w sekcji o środkach obrony pozwanego: powołuje nieistniejący art. 1043¹ k.p.c. (błąd F) oraz przypisuje art. 747 k.p.c. treść dotyczącą 'złożenia kaucji zamiast zabezpieczenia', podczas gdy przepis ten wymienia sposoby zabezpieczenia roszczeń pieniężnych (błąd T). Zastrzeżenie systemu, że podaje te przepisy z pamięci, nie chroni przed oceną A6=0. Błąd ten obniża również przydatność (B1=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"VIII Gz 43/16\" \"Szczecinie\"",
+   "\"VIII Gz 43/16\" \"tytułu zabezpieczającego\"",
+   "\"VIII Gz 43/16\" \"zawieszenie zajęcia\"",
+   "\"VIII Gz 43/16\" \"753\"",
+   "\"art. 1043(1) k.p.c.\"",
+   "\"art. 747 k.p.c.\"",
+   "\"art. 1043^1 k.p.c.\"",
+   "\"1043\" \"k.p.c.\"",
+   "\"1043\" \"kodeks postępowania cywilnego\"",
+   "\"1043(1)\" \"k.p.c.\"",
+   "\"1043 ze znaczkiem 1\" \"k.p.c.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5utr1frGi6ost0kdSz-IHfTk16m2cVbJUR7LfjJUVPdYO9Ihk_sReQHu8MwTfQRxOHsWs3ftqdaoN0B2df2Y-kXwi-gPMM9dJ8eKpfnTCFxpCUypVqo7kTBe-VSveBVk0suhA9vTZSEa0KuGONDBO6Ez-XBr1YVHLUOiXp1RpEHdTgtofL3L_C_YeLTFpTIkUy0CVQBHTvGFFBZ1jcZwoaq7JTkVie2j0iVHLOAb5luUgQuNJ3xQC2cgJ_JS1NKW6iFWDyxKIV2XF8v8JMK2I_owgho144di6YwPyc3lAxjsPg2ZuYQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIOboGCX9mi8wBkod7x3e9uM99cGVjAKAS7zLzqAmi9q1c1lbv6NfKCyDUamIjuWPmSYlwng4ptnrdSqpCGSO-16PsL3ruK_WhD0c6ByC1rty5xVUSBj1SJr8qpuvRn-SyscqOBmoXcmnR4a7rUJhD5oYX6fnzc4eQspLx5e7wKLUkjHF0hFz0ggH0vvyUEfJoUSo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwi3QbB-gPa7f5uB6YZNT1Mg5FZuWPH3wkGIdxiZX4ATuFkUDJKQ8Rz0tySdCtL4ZCAnPjzd8Nqqeta8Pxbw2Kqg2atNceT-TzGDdtu-KkimBA_FQPxV1uZcJ2ygwn3BFGqNbqRFZQDuVYP7JGvA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEawTKWsv7oik-FNhJzSbWhenmU_9ZBwSciqLWolkQlgZNtJ5a7zLuB8AIBkMg9POYvDCgG478aWYByhA_YJbOpaa6Qa75IFCRdGvNByhbxqT4pkOc4nX0GTYdQs7XQhvUgFccLC6DiAuUEhkfUokQ-dI6tVkvEQRtA2xLn0fb57HHMp-JdNnxgyyI_T8OpAyWbHO0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHchDlEAFS4_ksr8giIScC9q54276wAy02g3CQv7uZ0BQHfwaUQmjQXhFfBdodJGuPo-wQWyq-2sdGehdvufAp51sAoet6XzZOO1IRP_6tdIRSpyWTOTvV0T7lnVGGfCztHkXN1"
+  ],
+  "tokeny": {
+   "wejscie": 12280,
+   "wyjscie": 1012
+  },
+  "czas_s": 153,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

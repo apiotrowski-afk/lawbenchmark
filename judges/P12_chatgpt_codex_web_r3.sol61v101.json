@@ -1,0 +1,74 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/III%20CZP%20117-10.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa nowelizująca z 17 czerwca 2004 r.; przepisy przejściowe dla zobowiązań sprzed 20 stycznia 2005 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2004/1691/text.html",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń: rozszerzenie klauzuli zawsze ogranicza odpowiedzialność, a wybór podstawy zależy od zgody małżonka albo związku wierzytelności z przedsiębiorstwem, nie od oznaczenia dłużnika. Powołane jednostki i teza uchwały SN są zgodne ze źródłami oficjalnymi; pominięcia nie obniżają A6. Zalicza sprostowanie numeru przepisu, choć nie podaje długości terminu z art. 781¹. Nie wskazuje możliwości egzekucji z majątku osobistego, wynagrodzenia i dochodów dłużnika przy braku obu przesłanek, dlatego ostatni element rubryki nie został zaliczony. A8 obniża zbędny wątek prawa UE; praktyczne wskazówki i warunkowa konkluzja uzasadniają B1 = 2 oraz B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 14,
+  "czas_s": 91,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

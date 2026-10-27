@@ -1,0 +1,69 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹a § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 131¹ᵃ § 1 w brzmieniu od 1.06.2026 (Dz.U. 2025 poz. 1172): „W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania, pisma sądowe (...) wyłącznie przez umieszczenie ich treści w portalu informacyjnym...”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 131¹ § 1: „Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 131¹ § 2: „W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie teleinformatycznym.”",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź pomija obowiązującą od 1.06.2026 możliwość wyboru przez stronę doręczeń przez Portal Informacyjny (art. 131¹ᵃ § 1 i § 1¹ k.p.c.), skupiając się na doręczeniach przez system teleinformatyczny z art. 131¹ k.p.c., co skutkuje A-R = 0 oraz A2 = 0 (brak wymaganych jednostek art. 131¹ᵃ § 1¹ i § 2 k.p.c.). W A6 przyznano 1 punkt (oraz K = [0, 0]), ponieważ odpowiedź używa określeń „nie jest obowiązana” i „dotyczą przede wszystkim profesjonalnych pełnomocników”, a więc jedynie pomija wybór strony bez formułowania twierdzenia sprzecznego z brzmieniem przepisu. W rubryce zaliczono tylko element R3 za poprawne podanie momentu doręczenia wraz z regułą 14 dni (R = [0, 0, 1, 0]). Zgodnie z wzorcem z reguł (P05_chatgpt_codex_w0_r3) odpowiedź otrzymuje B1 = 1, gdyż pomija wybór strony w portalu, ale nie twierdzi niczego fałszywego grożącego utratą terminu.",
+ "_meta": {
+  "sedzia": "argon4meta2",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"131\" \"portalu informacyjnym\" OR",
+   "\"Dz.U. 2025 poz. 1172\" \"portalu informacyjnym\" OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 16127,
+   "wyjscie": 1045,
+   "rozumowanie": 12572
+  },
+  "czas_s": 171,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 3, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 131¹a § 1 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Doręczenia przez Portal Informacyjny dotyczą przede wszystkim profesjonalnych pełnomocników, jeżeli sąd dysponuje odpowiednimi warunkami technicznymi.”\n    · uzasadnienie weryfikatora: Przepis wprost przewiduje doręczanie pism przez umieszczenie ich w portalu informacyjnym profesjonalnym pełnomocnikom (adwokatom, radcom prawnym, rzecznikom patentowym). Twierdzenie ujmuje to skrótowo („przede wszystkim”) i pomija pozostałych adresatów, co jest jedynie pominięciem elementu przepisu.\n    · kotwica (verbatim ze źródła): „W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii General…”\n    · brzmienie jednostki (fragment): „§ 1. W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania, pisma sądowe oraz odpisy pism procesowych lub innych dokumentów niepochodzących od sądu, którymi sąd dysponuje w postaci elektronicznej, wyłącznie przez umieszczenie ich treści w portalu info…”\n- 2. art. 131¹ § 1 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „E-doręczenie dla osoby fizycznej może nastąpić zasadniczo wtedy, gdy złożyła ona pismo przez system teleinformatyczny obsługujący postępowanie sądowe albo wybrała wnoszenie pism tą drogą bądź wyraziła skuteczną wolę komunikacji elektronicz…”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że doręczenie elektroniczne następuje w razie wniesienia pisma za pośrednictwem systemu teleinformatycznego albo dokonania wyboru wnoszenia pism tą drogą.\n    · kotwica (verbatim ze źródła): „§ 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego.”\n    · brzmienie jednostki (fragment): „§ 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego.”\n- 3. art. 131¹ § 2 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „W przypadku dopuszczalności doręczenia elektronicznego pismo uważa się za doręczone z chwilą wskazaną przez system jako zapoznanie się z nim, a w razie jego nieotwarcia — po upływie 14 dni od umieszczenia pisma w systemie.”\n    · uzasadnienie weryfikatora: Twierdzenie wiernie oddaje normę z art. 131[1] § 2 KPC dotyczącą chwili doręczenia elektronicznego oraz 14-dniowego terminu fikcji doręczenia od umieszczenia pisma w systemie.\n    · kotwica (verbatim ze źródła): „§ 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje…”\n    · brzmienie jednostki (fragment): „§ 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie teleinformatycznym.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

@@ -1,0 +1,117 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 783 § 1 k.p.c.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c. — sprostowanie numeru",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 783 § 1 k.p.c. — wpisywanie numeru PESEL",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 in fine k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/III%20CZP%20117-10.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776¹ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 891² § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 845 § 2⁴ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 923¹ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 § 1a k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 11 kwietnia 2019 r., III CZP 106/18",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%20106-18.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 319 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń, obie wymagane podstawy i warunkowe rozróżnienie trybów, niezależne od oznaczenia dłużnika w tytule. Art. 783 § 1 k.p.c. nie reguluje wpisywania PESEL, lecz treść postanowienia klauzulowego, co stanowi T i przesądza A6 = 0. Obie uchwały SN mają wskazane daty i potwierdzają przypisane im tezy. Sprostowanie numeru nie wyjaśnia trzydniowego terminu z art. 781¹, dlatego czwarty element rubryki nie został zaliczony. Rozbudowane omówienie rozdzielności majątkowej i odrębnego powództwa wykracza poza pytanie o tryb klauzulowy, obniżając A8 do 0.5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 22,
+  "czas_s": 106,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

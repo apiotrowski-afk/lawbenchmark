@@ -1,0 +1,84 @@
+id: P13
+katalog_nr: 15
+wersja_klucza: 1
+data_klucza: 2026-10-10
+status: "zatwierdzony przez Adama 2026-10-10 (sporne: false i kalibracja kategoryczna potwierdzone; SN wprost nie rozstrzygał, jedno postanowienie SO)"
+data_stanu_prawnego: 2026-10-01
+typ: zamkniete
+pulapka: false
+domena: proc
+tekst_oryginalny: "Sąd wydał NZ w nakazowym z weksla i wstrzymał jego wykonanie. Czy obejmuje to też możliwość wszczęcia w oparciu o NZ post zabezpieczeającego ?"
+
+rdzen: >
+  Nie. Wstrzymanie wykonania nakazu (art. 492 § 3 zd. 2 k.p.c.) dotyczy
+  natychmiastowej wykonalności nakazu z weksla jako tytułu egzekucyjnego
+  (§ 3 zd. 1), a nie jego funkcji tytułu zabezpieczenia, którą nakaz ma od chwili
+  wydania, niezależnie od wykonalności i bez klauzuli (§ 1). Po wstrzymaniu powód
+  nadal może wszcząć postępowanie zabezpieczające na podstawie nakazu. Pozwany
+  broni się na gruncie zabezpieczenia osobno: wnioskiem o ograniczenie
+  zabezpieczenia (§ 2 zd. 2) albo złożeniem zasądzonej sumy z odsetkami na rachunek
+  depozytowy Ministra Finansów (§ 1 zd. 2), odpowiednio art. 742.
+wymagane_rozroznienie: "wykonalność nakazu z weksla (art. 492 § 3, egzekucja) vs nakaz jako tytuł zabezpieczenia (art. 492 § 1, zabezpieczenie); wstrzymanie dotyczy tylko pierwszej"
+
+podstawy_wymagane:
+  - art. 492 § 1 k.p.c.
+  - art. 492 § 3 k.p.c.
+podstawy_dopuszczalne:
+  - art. 492 § 2 k.p.c. (ograniczenie zabezpieczenia na wniosek pozwanego)
+  - art. 742 k.p.c. (uchylenie lub zmiana zabezpieczenia, depozyt)
+  - art. 743 k.p.c. (wykonanie zabezpieczenia)
+  - art. 820 § 2 k.p.c. (skutek wstrzymania: zawieszenie egzekucji na wniosek dłużnika)
+  - art. 485 § 2 k.p.c. (nakaz z weksla)
+  - postanowienie SO w Szczecinie z 2.03.2016, VIII Gz 43/16 (wstrzymanie nie dotyczy nakazu jako tytułu zabezpieczającego)
+
+wzorce_cytatow:
+  kpc_492_1_zd1:
+    brzmienie: "Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności."
+    zrodlo: Dz.U. 2026 poz. 468 (t.j. k.p.c.)
+  kpc_492_3:
+    brzmienie: "Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio."
+    zrodlo: "Dz.U. 2026 poz. 468 (t.j. k.p.c.); uwaga — brzmienie bez „warrantu, rewersu”; systemy cytujące dawne brzmienie z warrantem i rewersem powołują wersję sprzed t.j. (klasa W w A6)"
+  kpc_492_2:
+    brzmienie: "Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu zabezpieczenia przeciwko Skarbowi Państwa stosuje się odpowiednio."
+    zrodlo: Dz.U. 2026 poz. 468 (t.j. k.p.c.)
+
+orzeczenia_znane:
+  - sygnatura: VIII Gz 43/16
+    sad: Sąd Okręgowy w Szczecinie
+    data: 2016-03-02
+    teza: "Możliwość wstrzymania wykonania nakazu zapłaty nie dotyczy nakazu zapłaty jako tytułu zabezpieczającego; tytuł zabezpieczający nie podlega wykonaniu w sposób porównywalny z wykonaniem tytułu wykonawczego, a wstrzymanie wykonalności nakazu wydanego na podstawie weksla nie pozbawia go cech tytułu zabezpieczającego."
+    zrodlo: SAOS, orzeczenie 213643, uzasadnienie odczytane 2026-10-10
+  - sygnatura: III CZP 56/11
+    sad: Sąd Najwyższy
+    data: 2011-10-20
+    teza: "Odmowa podjęcia uchwały co do przesłanek wstrzymania wykonania nakazu z weksla (art. 492 § 3); SN przypomina, że ocena wniosku nie ogranicza się do groźby niepowetowanej szkody (uchwały III CZP 147/93 i III CZP 58/03). Nie dotyczy tytułu zabezpieczenia."
+    zrodlo: SAOS, orzeczenie 96058, odczytane 2026-10-10
+
+rubryka:
+  - odpowiada „nie” i rozdziela dwie funkcje nakazu (tytuł egzekucyjny natychmiast wykonalny z § 3 i tytuł zabezpieczenia z § 1)
+  - mówi wprost, że nakaz jest tytułem zabezpieczenia od chwili wydania i bez klauzuli, więc wstrzymanie wykonalności tego nie zmienia
+  - wskazuje środki obrony pozwanego wobec zabezpieczenia (ograniczenie z § 2, depozyt z § 1 zd. 2 albo art. 742)
+  - zaznacza, że skutek wstrzymania to zawieszenie egzekucji (art. 820 § 2), nie upadek zabezpieczenia
+kary:
+  - twierdzi, że wstrzymanie wykonania nakazu wyłącza zabezpieczenie albo że nakaz przestaje być tytułem zabezpieczenia
+  - twierdzi, że do zabezpieczenia na podstawie nakazu potrzebna jest klauzula wykonalności albo osobne postanowienie o udzieleniu zabezpieczenia
+  - cytuje art. 492 § 3 z „warrantem i rewersem” jako brzmienie obecne (nieaktualna wersja; liczone też w A6 jako W)
+
+sporne: false
+kalibracja_oczekiwana: kategoryczna
+warunek: null
+
+zrodla_klucza:
+  - "ISAP DU/2026/468 — k.p.c. t.j., art. 485 § 2, 492, 493, 742, 743, 820 (tekst z api.sejm.gov.pl 2026-10-10)"
+  - "Nowele po t.j.: DU/2026/473, 830, 1003, 1046 — brak zmian w art. 485 i 492 (sprawdzone w tekstach)"
+  - "SAOS 213643 — postanowienie SO w Szczecinie VIII Gz 43/16 (uzasadnienie odczytane w części dotyczącej art. 492)"
+  - "SAOS 96058 — postanowienie SN III CZP 56/11 (odczytane; dotyczy przesłanek wstrzymania, nie zabezpieczenia)"
+weryfikacja: >
+  Przepisy sprawdzone 2026-10-10 w tekście jednolitym i nowelach po t.j. Sąd
+  Najwyższy nie wypowiedział się wprost o relacji wstrzymania wykonania (§ 3)
+  do tytułu zabezpieczenia (§ 1); w SAOS znaleziono tylko postanowienie SO
+  w Szczecinie VIII Gz 43/16 (stan faktyczny: nakaz bez weksla, ale teza
+  sformułowana ogólnie). Niesprawdzone: komentarze (wg omówień D. Zawistowski
+  przyjmuje ten sam pogląd), ewentualny pogląd przeciwny w doktrynie oraz praktyka
+  sądów, które we wstrzymaniu wykonania wprost obejmują zabezpieczenie.
+  `sporne: false` do potwierdzenia przez Adama.

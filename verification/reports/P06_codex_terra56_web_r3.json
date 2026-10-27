@@ -1,0 +1,495 @@
+{
+ "meta": {
+  "pytanie": "P06",
+  "system": "codex_terra56_web_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P06/codex_terra56_web_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:40:28",
+  "czas_s": 0.3,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 7,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 0,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 7,
+   "slowa_wersji_wczesniejszej": 1
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 394² § 1 albo § 1¹ k.p.c.",
+   "kontekst": "- Jeżeli SA odrzucił z powodu braku opłaty zażalenie poziome, tj. zażalenie do innego składu SA z art. 394² § 1 albo § 1¹ k.p.c., to przysługuje dalsze zażalenie do innego składu SA.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 394[2] § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 394[2] § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji. § 1 1 . Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o ile nie wniesiono skargi kasacyjnej, 4) zwrot kosztów nieopłaconej pomocy prawnej udzielonej z urzęd…"
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji. § 1 1 . Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o ile nie wniesiono skargi kasacyjnej, 4) zwrot kosztów nieopłaconej pomocy prawnej udzielonej z urzędu, 5) skazanie świadka, biegłego, strony, jej pełnomocnika oraz osoby trzeciej na grzywnę, 6) zarządzenie przymusowego sprowadzenia i aresztowania świadka, 7) odmowa zwolnienia świadka i biegłego od grzywny i ś…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Na postanowienia sądu drugiej instancji, których przedmiotem są oddalenie wniosku o wyłączenie sędziego, zwrot kosztów procesu, skazanie świadka, biegłego, strony, jej pełnomocnika oraz osoby trzeciej na grzywnę, zarządzenie przymusowego sprowadzenia i aresztowania świadka, odmowa zwolnienia świadka i biegłego od grzywny i świadka od przymusowego sprowadzenia, przysługuje zażalenie do innego składu tego sądu, z wyjątkiem postanowień wydanych w wyniku rozpoznania zażalenia na postanowienie sądu pierwszej instancji."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 394[2]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 394² § 1 albo § 1¹ k.p.c.",
+   "kontekst": "- Jeżeli SA odrzucił z powodu braku opłaty zażalenie poziome, tj. zażalenie do innego składu SA z art. 394² § 1 albo § 1¹ k.p.c., to przysługuje dalsze zażalenie do innego składu SA.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 394[2] § 1[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 394[2] § 1[1] — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1¹. Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o ile nie wniesiono skargi kasacyjnej, 4) zwrot kosztów nieopłaconej pomocy prawnej udzielonej z urzędu, 4¹) wynagrodzenie biegłego, mediatora i należności świadka, 5) skazanie świadka, biegłego, strony, jej pełnomocnika oraz osoby trzeciej na grzywnę, 5¹) odmowa uzasadnienia orzeczenia oraz jego doręczenia, 6) zarządzenie przymusowego sprowadzenia i ar…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 394 2 . § 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji. § 1 1 . Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o ile nie wniesiono skargi kasacyjnej, 4) zwrot kosztów nieopłaconej pomocy prawnej udzie…"
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 394 2 . § 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji. § 1 1 . Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o ile nie wniesiono skargi kasacyjnej, 4) zwrot kosztów nieopłaconej pomocy prawnej udzielonej z urzędu, 5) skazanie świadka, biegłego, strony, jej pełnomocnika oraz osoby trzeciej na grzywnę, 6) zarządzenie przymusowego sprowadzenia i aresztowania świadka, 7) odmowa zwolnienia świadka i biegłego o…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 394 2 . § 1. Na postanowienia sądu drugiej instancji, których przedmiotem są oddalenie wniosku o wyłączenie sędziego, zwrot kosztów procesu, skazanie świadka, biegłego, strony, jej pełnomocnika oraz osoby trzeciej na grzywnę, zarządzenie przymusowego sprowadzenia i aresztowania świadka, odmowa zwolnienia świadka i biegłego od grzywny i świadka od przymusowego sprowadzenia, przysługuje zażalenie do innego składu tego sądu, z wyjątkiem postanowień wydanych w wyniku rozpoznania zażalenia na postanowienie sądu pierwszej instancji. § 2. W postępowaniu toczącym się na skutek zażalenia, o którym mowa w § 1, przepisy art. 394 § 2 i 3, art. 395 § 1, art. 396 i art. 397 § 1, 1 1 i § 2 zdanie pie…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 394[2]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.4,
+    "slowa_wersji_wczesniejszej": [
+     "odrzu"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 394² § 1² k.p.c.",
+   "kontekst": "Wynika to wprost z art. 394² § 1² k.p.c. Termin: tydzień od doręczenia postanowienia z uzasadnieniem (art. 394 § 2 w zw. z art. 394² § 2 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone",
+    "slowa_wersji_wczesniejszej"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 394[2] § 1[2] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 394[2] § 1[2] — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1². Jeżeli zażalenie, o którym mowa w § 1 i 1¹, jest spóźnione, nieopłacone lub z innych przyczyn niedopuszczalne albo jego braków strona nie usunęła w wyznaczonym terminie, sąd odrzuca je w składzie jednego sędziego. Na postanowienie przysługuje zażalenie do innego składu sądu drugiej instancji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 394 2 . § 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji. § 1 1 . Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o ile nie wniesiono skargi kasacyjnej, 4) zwrot kosztów nieopłaconej pomocy prawnej udzie…"
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 394 2 . § 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji. § 1 1 . Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o ile nie wniesiono skargi kasacyjnej, 4) zwrot kosztów nieopłaconej pomocy prawnej udzielonej z urzędu, 5) skazanie świadka, biegłego, strony, jej pełnomocnika oraz osoby trzeciej na grzywnę, 6) zarządzenie przymusowego sprowadzenia i aresztowania świadka, 7) odmowa zwolnienia świadka i biegłego o…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 394 2 . § 1. Na postanowienia sądu drugiej instancji, których przedmiotem są oddalenie wniosku o wyłączenie sędziego, zwrot kosztów procesu, skazanie świadka, biegłego, strony, jej pełnomocnika oraz osoby trzeciej na grzywnę, zarządzenie przymusowego sprowadzenia i aresztowania świadka, odmowa zwolnienia świadka i biegłego od grzywny i świadka od przymusowego sprowadzenia, przysługuje zażalenie do innego składu tego sądu, z wyjątkiem postanowień wydanych w wyniku rozpoznania zażalenia na postanowienie sądu pierwszej instancji. § 2. W postępowaniu toczącym się na skutek zażalenia, o którym mowa w § 1, przepisy art. 394 § 2 i 3, art. 395 § 1, art. 396 i art. 397 § 1, 1 1 i § 2 zdanie pie…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 394[2]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.29,
+    "slowa_wersji_wczesniejszej": [
+     "doręc",
+     "uzasa",
+     "wynik"
+    ]
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "kontekst": "Wynika to wprost z art. 394² § 1² k.p.c. Termin: tydzień od doręczenia postanowienia z uzasadnieniem (art. 394 § 2 w zw. z art. 394² § 2 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 394 § 2 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 394 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu. Jeżeli przy wydaniu postanowienia sąd odstąpił od jego uzasadnienia, termin liczy się od dnia ogłoszenia postanowienia, a jeżeli podlegało ono doręczeniu – od dnia jego doręczenia."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem. Jeżeli przy wydaniu postanowienia sąd odstąpił od jego uzasadnienia, termin liczy się od dnia ogłoszenia postanowienia, a jeżeli podlegało ono doręczeniu - od dnia jego doręczenia."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 2. Termin do wniesienia zażalenia jest tygodniowy i liczy się od doręczenia postanowienia, a gdy strona nie zażądała w terminie przepisanym doręczenia postanowienia zapadłego na rozprawie - od ogłoszenia postanowienia."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 394. § 1. Zażalenie do sądu rewizyjnego przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pozwu, odmowa odrzucenia pozwu, przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 2) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub jego odwołanie, 3) oddalenie opozycji przeciwko wstąpieniu interwenienta ubocznego oraz niedopuszczenie interwenienta do udziału w sprawie wskutek uwzględnienia opozycji; 4) rygor natychmiastowej wykonalności…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.71
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 3,
+   "napis_grupy": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "kontekst": "Wynika to wprost z art. 394² § 1² k.p.c. Termin: tydzień od doręczenia postanowienia z uzasadnieniem (art. 394 § 2 w zw. z art. 394² § 2 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 394[2] § 2 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 394[2] § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 2. W postępowaniu toczącym się na skutek zażalenia, o którym mowa w § 1–1², przepisy art. 394 § 2 i 3 oraz art. 395–397 stosuje się odpowiednio."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 2. W postępowaniu toczącym się na skutek zażalenia, o którym mowa w § 1 i 1 1 , przepisy art. 394 § 2 i 3 oraz art. 395-397 stosuje się odpowiednio."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 2. W postępowaniu toczącym się na skutek zażalenia, o którym mowa w § 1, przepisy art. 394 § 2 i 3, art. 395 § 1, art. 396 i art. 397 § 1, 1 1 i § 2 zdanie pierwsze stosuje się odpowiednio."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 394[2]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 394¹ § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "Art. 394¹ § 1 k.p.c.",
+   "kontekst": "Art. 394¹ § 1 k.p.c. przewiduje zażalenie do SN tylko w ściśle wskazanych przypadkach (m.in. odrzucenie skargi kasacyjnej), a odrzucenia zwykłego zażalenia tam nie wymienia.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 394[1] § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 394[1] § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną oraz na postanowienie sądu drugiej lub pierwszej instancji odrzucające skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną oraz na postanowienie sądu drugiej lub pierwszej instancji odrzucające skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia. § 1 1 . Zażalenie do Sądu Najwyższego przysługuje także w razie uchylenia przez sąd drugiej instancji wyroku sądu pierwszej instancji i przekazania sprawy do ponownego rozpoznania."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 394[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.4
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 99 u.k.s.c.",
+   "akt": {
+    "nazwa": "Ustawa o kosztach sądowych w sprawach cywilnych",
+    "kod_legal_cite": "u.k.s.c.",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "Art. 99 u.k.s.c.",
+   "kontekst": "Art. 99 u.k.s.c. jedynie stanowi, że opłaty nie pobiera się (a pobraną zwraca), gdy zażalenie na odrzucenie środka zaskarżenia zostanie uznane za oczywiście uzasadnione.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 7,
+   "cytowanie_legal_cite": "art. 99 u.k.s.c.",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/959; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 1228 z 2025-09-01, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2025-09-01) weszły w życie 3 nowelizacje: Dz.U. 2025 poz. 1157 (23.09.2025), Dz.U. 2025 poz. 1172 (01.03.2026), Dz.U. 2026 poz. 473 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 346 (30.09.2028)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 1228 z 01.09.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 99. Nie pobiera się opłaty sądowej, a uiszczoną opłatę zwraca się, jeżeli zażalenie, wniesione na zarządzenie przewodniczącego o zwrocie pisma albo na postanowienie sądu o odrzuceniu środka zaskarżenia, sąd uzna za oczywiście uzasadnione."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/959 (HTML, 2024-06-11)",
+    "tj": "DU/2024/959",
+    "data": "2024-06-11"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.69
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": []
+}

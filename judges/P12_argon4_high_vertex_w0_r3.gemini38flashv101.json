@@ -1,0 +1,89 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 126 § 2 pkt 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Merytorycznie odpowiedź jest wzorowa: prostuje błędne założenia pytania, bezbłędnie wyjaśnia relację między art. 787 a 787¹ k.p.c. oraz prowadzi obie ścieżki w zależności od zgody małżonka (komplet punktów w R i brak kar). Jednak powołanie art. 126 § 2 pkt 1 k.p.c. jako podstawy wskazania numeru PESEL jest błędne – jednostka ta reguluje miejsce zamieszkania/siedzibę i adresy stron, podczas gdy PESEL znajduje się w pkt 2 (klasa T). Zgodnie z bezwzględną regułą A6 przypisanie jednostce cudzej treści z sąsiedniego punktu skutkuje oceną A6 = 0 i statusem hallucinated.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 126\" \"§ 2\" \"kpc\" PESEL",
+   "\"art. 126 § 2 pkt 1\" kpc",
+   "\"art. 126 § 2\" kpc treść isap",
+   "\"Gdy pismo procesowe jest pierwszym pismem w sprawie\" \"art. 126\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11258,
+   "wyjscie": 679
+  },
+  "czas_s": 36,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

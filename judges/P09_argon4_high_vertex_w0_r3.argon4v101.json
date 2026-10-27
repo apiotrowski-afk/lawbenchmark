@@ -1,0 +1,128 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14.09.2005 r., III CK 124/05",
+   "zrodlo": "SAOS (id 163531) / sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 1, 2 i 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061 (ISAP)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia pełny rdzeń zagadnienia (A-R = 2) oraz powołuje obie wymagane podstawy prawne z art. 41 ust. 2 i art. 53 pr.aut. (A2 = 1). Cytat art. 41 ust. 2 pr.aut. podano w dawnej redakcji sprzed nowelizacji („lub umowa o korzystanie z utworu, zwana dalej „licencją”, obejmuje...”), co przy braku zmiany normatywnej zgodnie z regułą B10 obniża wyłącznie A3 do 0 i nie narusza A6 (A6 = 1). W rubryce przyznano punkt za wskazanie możliwości wykładni umowy według art. 65 k.c. z powołaniem na wyrok SN III CK 124/05 (zgodnie z regułą B12), natomiast odjęto punkt za brak wzmianki o niedziałaniu art. 12 pr.aut. przy umowie zlecenia (R = [1, 1, 1, 0, 1]). Praktyczne uwagi o klauzulach powiązanych (prawa zależne, osobiste, wynagrodzenie, utwory przyszłe) są merytorycznie trafne i służą odpowiedzi (A8 = 1, B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"III CK 124/05\"",
+   "\"III CK 124/05\" \"14 września 2005\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie\" \"art. 41\"",
+   "\"Dz.U. 2025 poz. 24\"",
+   "\"Nieważna jest umowa w części dotyczącej wszystkich utworów\" \"art. 41\"",
+   "\"Art. 41.\" \"Nieważna jest umowa w części dotyczącej\" OR",
+   "\"III CK 124/05\" \"W myśl art. 41\" OR \"Zgodnie z art. 41\" OR \"licencji\"",
+   "\"Art. 50.\" \"w zakresie utrwalania i zwielokrotniania utworu\" \"Dz.U. 2025 poz. 24\" OR \"prawo autorskie\"",
+   "\"III CK 124/05\" \"art. 65\"",
+   "\"III CK 124/05\" \"minimalnym\" OR \"dorozumianej\" OR \"wątpliwości\"",
+   "\"III CK 124/05\" \"Przepis art. 41 ust. 2\"",
+   "\"Dz.U. 2025 poz. 24\" \"Art. 45\" OR \"Art. 46\"",
+   "\"III CK 124/05\" \"na rzecz tej z nasuwających\"",
+   "\"Art. 45. Jeżeli umowa nie stanowi inaczej, twórcy przysługuje odrębne wynagrodzenie\"",
+   "\"Art. 46. Jeżeli umowa nie stanowi inaczej, twórca zachowuje wyłączne prawo\"",
+   "\"Art. 781\" \"Do zachowania elektronicznej formy czynności prawnej\"",
+   "\"Art. 2.\" \"Opracowanie cudzego utworu\" \"Dz.U. 2025 poz. 24\" OR \"prawo autorskie\"",
+   "\"Art. 16.\" \"Jeżeli ustawa nie stanowi inaczej, autorskie prawa osobiste\" \"Dz.U. 2025 poz. 24\" OR \"prawo autorskie\"",
+   "\"III CK 124/05\" \"W rezultacie należy przyjąć\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15868,
+   "wyjscie": 1783
+  },
+  "czas_s": 185,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

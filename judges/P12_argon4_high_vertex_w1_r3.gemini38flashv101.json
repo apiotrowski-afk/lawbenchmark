@@ -1,0 +1,142 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 783 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "OSNC 2011/11/120, sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 891² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 845 § 2⁴ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 923¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 § 1a k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 11 kwietnia 2019 r., III CZP 106/18",
+   "zrodlo": "OSNC 2019/12/120, sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 319 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, precyzyjnie wyjaśniając, że klauzula bez ograniczeń nie istnieje, a wybór trybu zależy od zgody małżonka albo związku z przedsiębiorstwem. Spełniono wszystkie elementy rubryki i uniknięto kar. W A6 odnotowano jednak błąd klasy T (co skutkuje A6=0 i flagą hallucinated): przepisowi art. 783 § 1 k.p.c. przypisano obowiązek zamieszczania numeru PESEL w klauzuli wykonalności, podczas gdy wymóg ten wynika z aktu wykonawczego wydanego na podstawie art. 783 § 2 k.p.c. Ocena A8 została obniżona do 0.5 ze względu na obszerną dygresję dotyczącą alternatywnych środków egzekucyjnych i powództw (m.in. art. 52 § 1a k.r.o., art. 319 k.p.c.). Kalibracja B2 jest w pełni prawidłowa i trafnie zrealizowana wariantowo.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 24,
+  "zapytania": [
+   "\"III CZP 106/18\"",
+   "\"III CZP 117/10\"",
+   "\"845 § 2[4]\" kpc OR \"845 § 2(4)\" kpc OR \"845 § 2 ze znakiem 4\"",
+   "\"891[2] § 1\" kpc OR \"891(2) § 1\" kpc",
+   "\"845 § 2\" kpc wspólny małżonka",
+   "\"art. 845 § 2\" kpc sejm",
+   "\"art. 891[2]\" kpc sejm",
+   "\"art. 923[1]\" kpc sejm",
+   "\"art. 891(2)\" \"k.p.c.\" rachunek wspólny",
+   "\"art. 891[2]\" \"k.p.c.\" rachunek bankowy",
+   "\"art. 845\" \"§ 2[4]\" kpc OR \"§ 2(4)\" kpc OR \"§ 2^4\" kpc",
+   "\"art. 845 § 2\" kpc zajęcie ruchomości wspólność małżeńska",
+   "\"art. 783\" kpc pesel sejm",
+   "\"art. 783 § 1\" kpc pesel sejm",
+   "\"Art. 783\" \"§ 1\" \"klauzula wykonalności\" \"PESEL\" kpc",
+   "\"art. 783\" \"Klauzula wykonalności zawiera\" kpc sejm",
+   "\"art. 783 § 1\" \"PESEL\" \"k.p.c.\" isap",
+   "\"art. 783 § 1\" \"k.p.c.\" \"Dz.U. 2024\" OR \"Dz.U. 2023\" OR \"Dz.U. 2026\"",
+   "\"art. 783 § 1\" \"Kodeks postępowania cywilnego\" sip lex",
+   "\"art. 783 § 1\" \"Klauzula wykonalności\" sejm.gov.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15034,
+   "wyjscie": 1139
+  },
+  "czas_s": 57,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 i § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 25b u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "OSNC 2021/12, poz. 80; sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN z dnia 29 kwietnia 2022 r., III CZ 163/22",
+   "zrodlo": "sn.pl (postanowienie z dnia 16 września 2022 r., III CZ 163/22 dotyczy wpz i art. 398² § 1 k.p.c.)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź merytorycznie jest bardzo precyzyjna, wyczerpuje wszystkie punkty rubryki i trafnie objaśnia pułapkę procesową związaną z art. 357 § 5 k.p.c. Prawidłowo powołano także kluczową uchwałę SN z dnia 2 lipca 2021 r. (III CZP 38/20). Jednocześnie system powołał postanowienie SN z dnia 29 kwietnia 2022 r., III CZ 163/22, przypisując mu tezę o art. 357 § 5 k.p.c., podczas gdy orzeczenie o tej sygnaturze zapadło w dniu 16 września 2022 r. i dotyczyło określenia wartości przedmiotu zaskarżenia (art. 398² § 1 k.p.c.). Zgodnie z zero-jedynkową regułą A6 przypisanie orzeczeniu cudzej materii stanowi halucynację klasy T (A6 = 0, hallucinated = true).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 27,
+  "zapytania": [
+   "\"III CZP 38/20\" sn.pl OR orzeczenia",
+   "\"III CZ 163/22\" sn.pl OR orzeczenia",
+   "\"III CZP 38/20\" uchwała",
+   "\"III CZ 163/22\" postanowienie",
+   "\"III CZ 163/22\" \"357\"",
+   "\"III CZ 163/22\" \"zasadnicze powody\"",
+   "\"III CZ 163/22\" sn.pl",
+   "\"29 kwietnia 2022\" \"III CZ\" \"357\"",
+   "\"nie stanowi uzasadnienia w rozumieniu art. 357\"",
+   "\"nie otwiera terminu do wniesienia zażalenia\" \"357 § 5\"",
+   "\"III CZ\" \"357 § 5\" uzasadnienie sn.pl",
+   " \"357 § 5\" \"zasadniczych powodów\"",
+   "\"zasadniczych powodów rozstrzygnięcia\" \"nie otwiera terminu\" sn.pl",
+   "\"357 § 5\" \"nie otwiera terminu\"",
+   "\"III CZ\" \"357 § 5\" \"zażalenia\"",
+   "\"III CZ\" \"357 § 5\" \"odrzucenie\"",
+   " \"29 kwietnia 2022\" \"III CZ\"",
+   " \"III CZ\" \"357 § 5\"",
+   "\"III CZP 38/20\"",
+   "\"nie stanowi uzasadnienia w rozumieniu art. 357 § 2\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10148,
+   "wyjscie": 863
+  },
+  "czas_s": 58,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

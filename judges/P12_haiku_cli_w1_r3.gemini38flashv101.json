@@ -1,0 +1,108 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 231 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 18 marca 2011 r., sygn. akt III CZP 117/10",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Łodzi z dnia 27 października 2015 r., sygn. akt VII Pz 122/15",
+   "zrodlo": "saos.org.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SA w Krakowie z dnia 3 marca 2015 r., sygn. akt I ACz 313/15",
+   "zrodlo": "saos.org.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 11 kwietnia 2019 r., sygn. akt III CZP 106/18",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wyjaśnia, że klauzula bez ograniczeń nie istnieje i treść nakazu nie przesądza trybu, jednak pomija kluczową wymaganą podstawę prawną – art. 787¹ k.p.c. dotyczącą przedsiębiorstwa dłużnika (A2 = 0, A_R = 1). Powołano nieistniejącą jednostkę redakcyjną „art. 787 § 1 k.p.c.” (art. 787 nie dzieli się na paragrafy), co determinuje ocenę A6 = 0 (klasa F) oraz etykietę hallucinated. System nie sprostował błędnego numeru art. 781¹ k.p.c. z pytania ani nie przeprowadził pełnego rozwidlenia na ścieżkę ze zgodą i bez zgody małżonka (B2 = 0). Wprowadzenie dygresyjnego akapitu o powództwie przeciwko małżonkowi zamiast skupienia na trybie klauzulowym obniża ocenę ram do A8 = 0.5. Wszystkie powołane orzeczenia SN i sądów powszechnych zostały zweryfikowane w źródłach oficjalnych jako autentyczne i trafne.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"III CZP 117/10\"",
+   "\"VII Pz 122/15\" łódź",
+   "\"I ACz 313/15\" kraków",
+   "\"III CZP 106/18\"",
+   "\"VII Pz 122/15\" \"787\"",
+   "\"VII Pz 122/15\" łódź orzeczenia",
+   "\"VII Pz 122/15\" portal orzeczeń sądów powszechnych",
+   "\"I ACz 313/15\" \"przedsiębiorstwa\"",
+   "\"I ACz 313/15\" \"787\"",
+   "\"IX GCo 193/14\" kraków",
+   "\"I ACz 313/15\" kraków treść orzeczenia"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12912,
+   "wyjscie": 911
+  },
+  "czas_s": 160,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

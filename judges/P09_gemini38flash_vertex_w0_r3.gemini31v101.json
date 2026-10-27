@@ -1,0 +1,110 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 PrAut (Dz.U. z 2022 r. poz. 2509)",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 i art. 46 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "orzecznictwo SN (jednolite stanowisko o konieczności zindywidualizowania i nazwania pól)",
+   "zrodlo": "orzecznictwo SN (np. III CK 124/05, I CSK 104/18)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń trafny co do zasady (ogólny zapis nie wystarcza), ale pomija kluczowy warunek z orzecznictwa SN o możliwości dookreślenia pól w drodze wykładni z art. 65 k.c. (A-R = 1). System kategorycznie twierdzi, że SN jednolicie wymaga zindywidualizowania i nazwania pól, co jest sprzeczne z rzeczywistą, liberalną linią orzeczniczą (T, A6 = 0). Ponadto system powołuje nieaktualny publikator ustawy (Dz.U. z 2022 r. poz. 2509 zamiast 2025 poz. 24), co stanowi błąd S. Cytat z art. 41 ust. 2 pr.aut. podano w starym brzmieniu, co obniża A3 do 0. Ze względu na kategoryczny ton przy oczekiwanej kalibracji warunkowej, B2 = 0, jednak praktyczne wskazówki są bardzo przydatne (B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"W braku wyraźnego postanowienia o przeniesieniu prawa, uważa się, że twórca udzielił licencji\"",
+   "\"art. 65\" \"prawo autorskie\" \"W braku wyraźnego postanowienia\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu (licencja) obejmuje pola eksploatacji wyraźnie w niej wymienione\"",
+   "\"art. 78^1 k.c.\"",
+   "\"art. 78 ze zn 1 k.c.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8q27Oar0wpzHn2nOZXIJsYUqDA8r1SLUVaMRJx80O5yLuT3Vo9CtUyE5GoeFkXtUYsv0z-nZ-eCveyLvSiQKfbKEJMsghZCoUvC1J-UfwGLoOzh3V9Zdh7weeEV4TaGpLyDxz7ursLLcf05vNoT5An-GZYlU9QTcJM5g5PmYR35B6wVs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQUTTPFJLDflqG4IgPaR3REyffyQ1adb5EXp5KSnE0panZ1_lvrtn24JRUFNk5Fv-DcJ_0JpxUU5m0UjuhwZQTyUMHInNOCrXkL9wCQ8vSvKL0zYX_bTUuDKz2MTr12itI_B1KMQb7xgLKSUIqj5tActE4N0Fm8kD00z7Dk7uxNwD33VKz8ZNMZSeTIvZkRYDQ227t8UvWAFUDq26PtopcVJgpDJkfIHkMXPrHffKN1s1h5kLrTQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT77crBRtAmCkjaLyw5EUx8juiFiLHPCjyY5xeV9znKOQGz-6JU-V4387qrakCCK76TTUb5hUaXRRdBvwrLIDhD0Qz7OflsSJf08npGkqXAEUcE4c5dWkC2FseTwo5Fx-M9Q9FyZznQK68hM4nMeIm0ObMwcDFuxBKvbz4Ndj0gjJsOHB6xcl68g2KD7W78x_Q1YRiFc6oDsVsvw5ppz3U07zqrj_dRg6j4fXyHgCcMuK0O8IK5_5KxSJ_Ncw1IV8kNZSA2rIQRJR7pqgrU-T8PYSffSTuY8QjWdPB999dN-Fknr_Dy3mb5-yq8HA8z8qK0z3EeOIbSivQ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM3qdU06c0ShziZDZ0Eo91aCgp9zIiIIm8IAiZcjRVd234MO2OdqXA7cwo4wta4rgzFjTLBRGZ--fD_EoWzu0r4IiHh6dfAdC2H54q9L-mfg7U9gLZNeGesqe3dMbE0taVlTwaCn0orrBG39mKDh3kXEmSs9iirTWyHNPHkOsfHCUeywNIHNf3FE6Q1cxyFbWDcg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHocsCPLsg-9WSbe8IG1fes_Xj-l2KAZ416lcrleeSlFEcEPLO4RkJw3n71Rck3rnAK45xl7ahnU32PQ-6jQ8xx5O72dmCdgh-ZiQr3Jk60pLwhy3-vZskr7WKKjDORSNePHlgcDAyVsEuVbUoKwLCGxli0T-gAhbsmCt_NrNYTyv7npA93qz9HMExEkS0PoWbAav-X8kraZby9iHyZ9H72ZjL8iPWnkqAkTYla02hFec2j5Nh0oTAgeA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsAg-8C8TDNTCAXCh_M6Tkm1lYHol-n9_ASLFyv9dCRggU1N5QRxAbBvFOCDyCs_O95SM91hxvQamTnza6RgMyQd7tlcSoxDdrMKXko96f6PK5xb007T9l8eVF5Rpedm3wyQ9pYg_s0vg3oj5SQY8rASj-9w7p7tc="
+  ],
+  "tokeny": {
+   "wejscie": 15053,
+   "wyjscie": 1001
+  },
+  "czas_s": 141,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

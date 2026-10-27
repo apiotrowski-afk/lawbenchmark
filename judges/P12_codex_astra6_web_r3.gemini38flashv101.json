@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 i 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "SAOS (orzeczenie 94458) / OSNC-ZD 2012/1/11",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 11 kwietnia 2019 r., III CZP 106/18",
+   "zrodlo": "sn.pl / OSNC 2019/12/120",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco wyjaśnia, że klauzula wykonalności przeciwko małżonkowi nigdy nie ma charakteru nieograniczonego oraz prawidłowo prostuje błędnie wskazany w pytaniu art. 781¹ k.p.c. Wyjaśniono, że treść nakazu zapłaty i oznaczenie dłużnika nie determinują trybu klauzulowego, lecz decyduje o nim przesłanka materialna (zgoda małżonka na podstawie art. 787 k.p.c. albo związek z przedsiębiorstwem z art. 787¹ k.p.c.). Wszystkie przywołane przepisy oraz orzeczenia SN są w pełni zgodne ze źródłami urzędowymi. Do zaliczenia pełnej rubryki zabrakło jedynie omówienia skutków braku zarówno zgody, jak i związku z przedsiębiorstwem (art. 776¹ k.p.c.). Kalibracja i przydatność praktyczna stoją na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"III CZP 117/10\"",
+   "\"III CZP 106/18\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12625,
+   "wyjscie": 707
+  },
+  "czas_s": 36,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 7 lipca 2023 r., Dz.U. 2023 poz. 1860",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/1860/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131 i następne k.p.c. — tradycyjne sposoby doręczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. — obowiązkowe doręczenia portalowe profesjonalistom oraz chwila doręczenia przez portal",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 133 § 3 k.p.c. — doręczenie ustanowionemu pełnomocnikowi",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 168–172 k.p.c. — przywrócenie terminu przy niezawinionym uchybieniu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości w sprawie trybu i sposobu dokonywania doręczeń elektronicznych przez portal informacyjny — nazwa aktu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. jako delegacja do wydania rozporządzenia dotyczącego doręczeń przez portal",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych — odrębność systemu e-Doręczeń",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Trafnie wskazano możliwość wyboru portalu przez osobę fizyczną oraz moment doręczenia i regułę 14 dni, lecz brak wymaganego podpisu i błędne dopuszczenie wyboru w zwykłym piśmie procesowym wykluczają pełny rdzeń oraz ograniczają B1 do 1. Nie powołano wymaganych jednostek art. 131¹ᵃ, a regulację portalu i delegację wykonawczą błędnie przypisano art. 131¹, co stanowi T; przekręcona nazwa rozporządzenia stanowi S. Pochodzenie tych błędów jest nieustalone, ponieważ nie przedstawiono śladu narzędzi ocenianego systemu. Wzmianka o rezygnacji pomija jej pisemną formę i skutek od zawiadomienia sądu, dlatego ostatniego elementu rubryki nie zaliczono. Powtórzone zastrzeżenie o konieczności weryfikacji podstaw obniża A8 do 0.5, natomiast zasadnicza teza pozostaje wyrażona kategorycznie.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 18,
+  "czas_s": 5523,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

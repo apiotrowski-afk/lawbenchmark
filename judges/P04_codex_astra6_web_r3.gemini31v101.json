@@ -1,0 +1,77 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 w zw. z art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie wskazuje, że dla zezwolenia MSWiA właściwe jest potwierdzenie ostateczności, pomijając praktykę wydawania zaświadczenia o prawomocności (A-R = 0). System poprawnie koryguje formę aktu na decyzję administracyjną (R1). Odpowiedź nie zawiera halucynacji (A6 = 1), poprawnie przytaczając przepisy k.p.a., u.n.n.c. oraz k.p.c. (dla postanowień sądu). Błędna wskazówka praktyczna co do rodzaju potwierdzenia obniża przydatność (B1 = 0). Kalibracja jest prawidłowa (B2 = 1), ponieważ odpowiedź jest kategoryczna.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 364\" \"Prawomocność orzeczenia stwierdza na wniosek strony\" k.p.c.",
+   "\"art. 13\" \"Przepisy o procesie stosuje się odpowiednio do innych rodzajów postępowań\" k.p.c."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEXmH6WNu3Gjoakjg43jojdWBz5TsRyrAfV1vS6dvNYZIHx9SiNt-Lp4qcThy11lSh6PQC5JvtLEa2p_7whh-P4p3CzovaF3aEfIrtR0FXh1somIFF9VEFlxywsRv38ysdrpWQwydIOB8fCdlAhsuRVYt_ccas9eZA0yEM0Al0NdQmDQgVmWZIw2a44f5nL6ge6ao=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiWLrK_ZeVrytwL7RzHsd8RTZA70rgutPvdaxHy3g81F7J_UI0I39M0b56z4Z8c3dl1Z__i9W2v_Jx4HA1P2G9prrTmqySiBUo1j2XNuiIAGHFd5_Tpe0sT38RYDa4YYAy_5y8wMhr5KEupJO_4OlekLZYu-RW",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOlaHFGMhguN1hdIPlhzgYn11VknJkdhCUGOWrnZACFJnoJ15Q6w1s0VePcXgfk5JBcts8iNBBapA9ZMwoLgBWpDtGWm4pSshIm8fAIx_8PUb633aIwNcskR4ppgd7qI87rEV-cKCfqX7TUvW-yKOiLjnLDg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnMvB7l6TYEpb27iTuden8AfWb_MqLAwpyBOviZxO1Eyufe8Rh8uci4qkCCkxjCwyfG-B7HR0CPR46muujpBcMGJQQ3unF-CNRpWkdJ6gTAkP3079rKpW_XBm9cOknoDRo8Oaeg4i65SFgn6j3beawOet3TbgfpdXdLA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHNCDNJg7PYD3LunudU0v1friWojpP1NGW1sPNqDucUO8VYfH6tMmsn7cAvG328-pZCg7aqsakgV3jwMVyZ_x9gZJPC3c2o6xPtUZoyWOVHR1ZAMqcTtogUKjBe4w6rPy51yCazb1i3fQvCiXf5q-nLPeikeH0-vyjnaOVHw=="
+  ],
+  "tokeny": {
+   "wejscie": 14902,
+   "wyjscie": 613
+  },
+  "czas_s": 138,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

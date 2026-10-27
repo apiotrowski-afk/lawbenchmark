@@ -1,0 +1,71 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 w zw. z art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie koryguje formę orzeczenia (decyzja administracyjna zamiast postanowienia), jednak błędnie wskazuje, że dla zezwolenia MSWiA właściwe jest potwierdzenie ostateczności, a prawomocność przypisuje jedynie orzeczeniom sądowym, co skutkuje A_R = 0 zgodnie ze specjalną regułą klucza. Brak powołania art. 217 k.p.a. oraz niewskazanie zaświadczenia o prawomocności i mechanizmu z p.p.s.a. skutkuje utratą punktów w A2 oraz elementach rubryki R2–R4. Ponieważ odpowiedź nie wyklucza wprost możliwości uzyskania prawomocności przez decyzję administracyjną (przytacza nawet art. 16 § 3 k.p.a.), kara K3 nie została naliczona. Wszystkie powołane jednostki redakcyjne istnieją i mają przypisaną treść zgodną z przepisami (A6 = 1). Rozważenie wariantu postanowienia sądu rodzinnego było uzasadnione sformułowaniem pytania (A8 = 1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P04",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 364\" \"kpc\" \"prawomocności\"",
+   "\"art. 364 § 1\" kpc"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13128,
+   "wyjscie": 631
+  },
+  "czas_s": 34,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

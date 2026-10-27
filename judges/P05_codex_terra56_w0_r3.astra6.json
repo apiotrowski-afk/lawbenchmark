@@ -1,0 +1,53 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0.5,
+ "A6_typ": [
+  "O"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹a § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=29",
+   "werdykt": "O"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=28",
+   "werdykt": "O"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Trafnie wskazano brak automatycznego skutku doręczenia przez samo posiadanie konta, lecz pominięto obowiązującą od 1 czerwca 2026 r. możliwość wyboru doręczeń portalowych przez stronę, wymagane podpisy oraz rezygnację. Art. 131¹a § 1 uzależnia tę ścieżkę od niemożności doręczenia przez system teleinformatyczny, a nie od ogólnie opisanych warunków technicznych sądu. Art. 131¹ § 2 wiąże chwilę doręczenia z elektronicznym potwierdzeniem odbioru, nie z samym zapoznaniem się z pismem; te nieprawidłowe odczyty właściwych jednostek kwalifikuję jako O. Zaliczono przedstawienie mechanizmu doręczenia z regułą 14 dni, mimo osadzenia go w innej ścieżce elektronicznej. Nie naliczono kar, ponieważ odpowiedź nie wyklucza jednoznacznie doręczeń portalowych osobie bez pełnomocnika ani nie stosuje awiza; pominięcia ograniczają jednak przydatność praktyczną.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P05",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 34,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

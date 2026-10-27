@@ -1,0 +1,67 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 pkt 12 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2050-22-1.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1–3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo przedstawia gałąź dotyczącą zażalenia dewolutywnego, ale pomija pozytywną konkluzję dla zażalenia poziomego oraz obie wymagane podstawy prawne. Końcową prośbę o wskazanie, czy zażalenie skierowano do SA czy innego składu SA, zaliczam jako dopytanie nazywające rozwidlenie, stąd R[0]=1, B2=1 i brak drugiej kary. Sprawdzone powołania odpowiadają źródłom oficjalnym; pominięcie wyjątku z art. 394² § 1² jest uchybieniem kompletności, a nie halucynacją. Przydatność ogranicza brak wyjaśnienia skutków rozróżnienia i pominięcie art. 130² k.p.c. Akapit o przywróceniu terminu stanowi dygresję dotyczącą odrębnego środka procesowego.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 8,
+  "czas_s": 45,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

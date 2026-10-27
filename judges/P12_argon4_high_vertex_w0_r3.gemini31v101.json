@@ -1,0 +1,90 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 126 § 2 pkt 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T",
+   "A6_pochodzenie": "nieustalone"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco wyjaśnia brak trybu 'bez ograniczeń' oraz rozwidlenie na art. 787 i 787¹ k.p.c. w zależności od zgody małżonka. Prawidłowo prostuje numerację z pytania (art. 781¹ k.p.c.) i wskazuje, że treść nakazu nie przesądza o trybie. Niestety, system popełnia błąd typu T, przypisując wymóg podania numeru PESEL do art. 126 § 2 pkt 1 k.p.c., podczas gdy norma ta znajduje się w pkt 2 tego paragrafu (pkt 1 dotyczy adresów). Zgodnie z regułami, wskazanie konkretnego punktu z cudzą treścią skutkuje oceną A6=0 i etykietą hallucinated, mimo wysokiej przydatności merytorycznej (B1=2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 126\" \"PESEL\" OR OR",
+   "\"art. 126 § 2\" kpc PESEL"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbuF1oUMk9y0SZhSymeYwkjCUDCkL-R9uk7bnLtGsqLvFcHyZF3Uh1QzxuwzapoUy3cUXinqJZSs1tWnbbNEApg3jrlxvy-zXUCJX7q6j-f0bL0I-vYHtV3wF8lsZrvEJlzkyOF8o9a0LKuTw="
+  ],
+  "tokeny": {
+   "wejscie": 11234,
+   "wyjscie": 857
+  },
+  "czas_s": 128,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

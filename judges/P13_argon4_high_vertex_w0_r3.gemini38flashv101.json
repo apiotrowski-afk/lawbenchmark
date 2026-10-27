@@ -1,0 +1,79 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 § 1 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń już w pierwszym akapicie, prawidłowo i kategorycznie rozstrzygając pytanie na 'nie'. Bezbłędnie rozróżniono funkcję tytułu egzekucyjnego od funkcji tytułu zabezpieczenia oraz powołano obie wymagane podstawy prawne (art. 492 § 1 i § 3 k.p.c.). Cytat z art. 492 § 3 zd. 2 k.p.c. jest w pełni dosłowny, a wskazane jednostki redakcyjne i ich treść odpowiadają stanowi prawnemu. W rubryce nie zaliczono jedynie elementu 4 z uwagi na brak wzmianki o zawieszeniu egzekucji na podstawie art. 820 § 2 k.p.c. Praktyczne wnioski dla pełnomocnika powoda i pozwanego są w pełni trafne.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 742\" kpc depozyt sejm",
+   "\"art. 492\" kpc sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10870,
+   "wyjscie": 655
+  },
+  "czas_s": 49,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

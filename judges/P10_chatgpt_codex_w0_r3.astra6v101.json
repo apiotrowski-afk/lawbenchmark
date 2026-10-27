@@ -1,0 +1,85 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie udostępniono odpowiedzi tego samego systemu na P09, więc nie można sprawdzić sprzeczności; kary nie naliczono."
+ ],
+ "uzasadnienie": "Odpowiedź wprost zaprzecza przesłance, zaleca określenie pól eksploatacji i podaje przykłady dla social mediów oraz wymaganą formę umowy. Uwzględnia możliwość wykładni na podstawie art. 65 k.c., co zgodnie z regułą B12 wystarcza również do zaliczenia R5. Wszystkie dziewięć powołań odpowiada treści przepisów sprawdzonych w oficjalnych tekstach. Nie zawiera cytatów przepisów w rozumieniu klucza ani powołań konkretnych orzeczeń. Uwagi dodatkowe pozostają związane z pytaniem, a praktyczna rekomendacja i kalibracja pewności są prawidłowe.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P10",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 53,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

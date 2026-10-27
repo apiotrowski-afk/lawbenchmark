@@ -1,0 +1,58 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=180",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=180",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c. — sprostowanie numeru wskazanego w pytaniu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=178",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf#page=7",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Pierwszy akapit wskazuje trafny kierunek, ale nie przedstawia warunku zgody ani koniecznego ograniczenia odpowiedzialności, dlatego A_R = 1. Dalsza odpowiedź prawidłowo rozróżnia oba tryby, wyklucza egzekucję z majątku osobistego małżonka i wyjaśnia, że oznaczenia w tytule nie przesądzają trybu. Sprostowanie numeru jest trafne, lecz nie zawiera informacji o trzydniowym terminie z art. 781¹, więc nie realizuje całego czwartego elementu rubryki. Brakuje również wskazania możliwości egzekucji przy braku zarówno zgody, jak i związku wierzytelności z przedsiębiorstwem. Wszystkie powołania sprawdzono w oficjalnych tekstach i nie stwierdzono halucynacji; odpowiedź daje praktyczne wskazówki i uzależnia wybór trybu od właściwych przesłanek.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 47,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

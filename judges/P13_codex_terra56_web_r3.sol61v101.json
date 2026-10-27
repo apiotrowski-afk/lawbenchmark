@@ -1,0 +1,86 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "SA w Szczecinie, 18.07.2013 r., I ACz 390/13",
+   "pochodzenie": "odczyt_źródła"
+  },
+  {
+   "powolanie": "SA w Gdańsku, VIII Gz 43/16",
+   "pochodzenie": "odczyt_źródła"
+  }
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c. w zw. z art. 742 k.p.c. — ograniczenie lub uchylenie zabezpieczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SA w Szczecinie, postanowienie z 18.07.2013 r., I ACz 390/13",
+   "zrodlo": "https://www.saos.org.pl/judgments/14498",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "SA w Gdańsku, postanowienie VIII Gz 43/16",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "SN, I CZ 83/09 — pozycja w wykazie źródeł, bez osobno przypisanej tezy",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/I%20CZ%2083-09.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "tekst jednolity k.p.c., Dz.U. 2023 poz. 1550 — link w źródłach",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2023/1550/ogl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Pomimo początkowego „tak” odpowiedź jednoznacznie wyjaśnia, że wstrzymanie wykonania nie wyłącza zabezpieczenia, i prawidłowo rozdziela obie funkcje nakazu. Nie wskazuje jednak zawieszenia egzekucji jako skutku wstrzymania, dlatego R4 = 0. Podlinkowane I ACz 390/13 jest postanowieniem SA w Rzeszowie z 21.06.2013 r. dotyczącym przesłanek wstrzymania wykonania, bez przypisanej mu tezy o zachowaniu funkcji zabezpieczającej (T). VIII Gz 43/16 zawiera przytoczoną tezę, ale wydał je SO w Szczecinie, a nie SA w Gdańsku (S), co również samodzielnie przesądza A6 = 0. B1 obniża nieprecyzyjna sugestia żądania zakazu wykonywania nakazu lub zawieszenia zabezpieczenia bez wyjaśnienia podstaw i przesłanek takiej ochrony.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 16,
+  "czas_s": 84,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

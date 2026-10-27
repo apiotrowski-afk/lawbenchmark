@@ -1,0 +1,57 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Próg 800 zł obowiązuje od 1 października 2023 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2022/2600/text.html; https://eli.gov.pl/eli/DU/2022/2600/ogl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Powiązanie progu z minimalnym wynagrodzeniem zniesiono w 2018 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2018/2077/text.html; https://eli.gov.pl/eli/DU/2018/2077/ogl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje prawidłowy próg 800 zł, obejmuje wartość równą progowi i jednoznacznie wyklucza wpływ wzrostu płacy minimalnej. Powołane jednostki odpowiadają treści oficjalnego tekstu, w tym rozróżnieniu wartości rzeczy i wysokości szkody. Wskazanie art. 124 § 1 wystarcza do zaliczenia R4, a prawidłowa data obowiązywania progu zapewnia R3. Nie ma cytatów wymagających oceny A3 ani podstaw do kar lub stwierdzenia halucynacji. Krótka uwaga o wyjątkach pozostaje w ramach pytania.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P01",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 45,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,292 @@
+{
+ "meta": {
+  "pytanie": "P07",
+  "system": "haiku_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P07/haiku_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:42:09",
+  "czas_s": 3.9,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 4,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 0,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 4,
+   "slowa_wersji_wczesniejszej": 1
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "Art. 357 § 5 k.p.c.",
+   "kontekst": "Art. 357 § 5 k.p.c. (w brzmieniu po nowelizacji z 2019 r.) pozwala stronie złożyć wniosek o sporządzenie pełnego uzasadnienia wyroku, który został ogłoszony tylko z zasadniczymi powodami rozstrzygnięcia.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone",
+    "slowa_wersji_wczesniejszej"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 357 § 5 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 357 § 5 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając postanowienie, należy pouczyć stronę występującą w sprawie bez adwokata, radcy prawnego, rzecznika patentowego lub radcy P…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia i doręcza z urzędu, jeżeli podlegają zaskarżeniu i wydane zostały w sprawie, w której bierze udział jednostka gospodarki uspołecznionej albo prokurator. W innych sprawach sąd uzasadnia i doręcza postanowienia ogłoszone na posiedzeniu jawnym również tylko wtedy, gdy podlegają zaskarżeniu, lecz tylko tej stronie, która w terminie tygodniowym zażądała doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.27,
+    "slowa_wersji_wczesniejszej": [
+     "ogłos",
+     "sporz",
+     "stron",
+     "zosta"
+    ]
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 111 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 111 k.p.c.",
+   "kontekst": "Dokładną treść przepisu i sposób liczenia terminu, w tym zasady z art. 111 k.p.c. przy dniach wolnych, należy zweryfikować w aktualnym tekście ustawy (ISAP) i w komentarzu, bo nie mam pewności co do szczegółów brzmienia.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 111 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": true,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 111. (uchylony)"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 111. § 1. Nie mają obowiązku uiszczenia kosztów sądowych: 1) strona dochodząca ustalenia ojcostwa i roszczeń z tym związanych; 2) strona dochodząca roszczeń alimentacyjnych; 3) strona dochodząca należności pracownika ze stosunku pracy albo naprawienia szkód wynikłych z wypadku w zatrudnieniu albo z choroby zawodowej; 4) prokurator; 5) kurator, wyznaczony przez sąd orzekający lub przez sąd opiekuńczy dla danej sprawy; 6) strona, która została zwolniona od kosztów sądowych przez sąd. § 2. Za kuratora, jeżeli przepisy szczególne nie stanowią inaczej, wydatki ponosi tymczasowo strona, dla której kurator został ustanowiony, a gdyby to nie było możliwe - strona, która swym wnioskiem lub swą…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0,
+    "slowa_wersji_wczesniejszej": [
+     "należ",
+     "szcze"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 369 § 1 k.p.c.",
+   "kontekst": "Wpływa to na bieg terminu do apelacji, który zasadniczo biegnie od doręczenia wyroku z uzasadnieniem (art. 369 § 1 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 369 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 369 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Apelację wnosi się do sądu, który wydał zaskarżony wyrok, w terminie dwutygodniowym od doręczenia stronie skarżącej wyroku z uzasadnieniem."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Apelację wnosi się do sądu, który wydał zaskarżony wyrok, w terminie dwutygodniowym od doręczenia stronie skarżącej wyroku z uzasadnieniem. § 1 1 . W przypadku przedłużenia terminu do sporządzenia pisemnego uzasadnienia wyroku termin, o którym mowa w § 1, wynosi trzy tygodnie. O terminie tym sąd zawiadamia stronę doręczając jej wyrok z uzasadnieniem. Jeżeli w zawiadomieniu termin ten wskazano błędnie, a strona się do niego zastosowała, apelację uważa się za wniesioną w terminie."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 369. Nieważność postępowania zachodzi: 1) jeżeli droga sądowa była niedopuszczalna; 2) jeżeli strona nie miała zdolności sądowej lub procesowej, organu powołanego do jej reprezentowania lub przedstawiciela ustawowego albo gdy pełnomocnik strony nie był należycie umocowany; 3) jeżeli o to samo roszczenie pomiędzy tymi samymi stronami toczy się sprawa wcześniej wytoczona albo jeżeli sprawa taka została już prawomocnie osądzona; 4) jeżeli skład sądu orzekającego był sprzeczny z przepisami prawa albo jeżeli w rozpoznaniu sprawy brał udział sędzia wyłączony z mocy ustawy; 5) jeżeli strona została pozbawiona możności obrony swych praw; 6) jeżeli sąd powiatowy orzekł w sprawie, w której sąd w…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.62
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 368 § 1 pkt 2 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 368 § 1 pkt 2 k.p.c.",
+   "kontekst": "2. Jeśli zamierzasz zaskarżyć wyrok, złożenie wniosku jest w praktyce konieczne, bo apelację trzeba oprzeć na uzasadnieniu, a bez niego nie da się prawidłowo sformułować zarzutów (art. 368 § 1 pkt 2 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 368 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 368 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Apelacja powinna czynić zadość wymaganiom przewidzianym dla pisma procesowego, a ponadto zawierać: 1) oznaczenie wyroku, od którego jest wniesiona, ze wskazaniem, czy jest on zaskarżony w całości czy w części; 2) zwięzłe przedstawienie zarzutów; 3) uzasadnienie zarzutów; 4) powołanie, w razie potrzeby, nowych faktów lub dowodów; 5) wniosek o zmianę lub o uchylenie wyroku z zaznaczeniem zakresu żądanej zmiany lub uchylenia."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Apelacja powinna czynić zadość wymaganiom przewidzianym dla pisma procesowego, a ponadto zawierać: 1) oznaczenie wyroku, od którego jest wniesiona, ze wskazaniem, czy jest on zaskarżony w całości czy w części; 2) zwięzłe przedstawienie zarzutów; 3) uzasadnienie zarzutów; 4) powołanie, w razie potrzeby, nowych faktów lub dowodów; 5) wniosek o zmianę lub o uchylenie wyroku z zaznaczeniem zakresu żądanej zmiany lub uchylenia. § 1 1 . W zarzutach co do podstawy faktycznej rozstrzygnięcia należy wskazać fakty ustalone przez sąd pierwszej instancji niezgodnie z rzeczywistym stanem rzeczy lub istotne dla rozstrzygnięcia fakty nieustalone przez sąd pierwszej instancji. § 1 2 . Powołując nowe f…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Apelacja powinna czynić zadość wymaganiom przewidzianym dla pisma procesowego, a ponadto zawierać: 1) oznaczenie wyroku, od którego jest wniesiona, ze wskazaniem, czy jest on zaskarżony w całości czy w części; 2) zwięzłe przedstawienie zarzutów; 3) uzasadnienie zarzutów; 4) powołanie, w razie potrzeby, nowych faktów i dowodów oraz wykazanie, że ich powołanie w postępowaniu przed sądem pierwszej instancji nie było możliwe albo że potrzeba powołania się na nie wynikła później; 5) wniosek o zmianę lub o uchylenie wyroku z zaznaczeniem zakresu żądanej zmiany lub uchylenia."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 368. Rewizją można oprzeć na następujących podstawach: 1) naruszeniu prawa materialnego przez błędną jego wykładnią lub niewłaściwe zastosowanie; 2) nieważności postępowania; 3) niewyjaśnieniu wszystkich okoliczności faktycznych istotnych dla rozstrzygnięcia sprawy; 4) sprzeczności istotnych ustaleń sądu z treścią zebranego w sprawie materiału; 5) innych uchybieniach procesowych, jeżeli mogły one wpłynąć na wynik sprawy; 6) nowych faktach i dowodach, których strona nie mogła powołać w pierwszej instancji."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.4,
+    "slowa_wersji_wczesniejszej": [
+     "oprze"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": []
+}

@@ -1,0 +1,66 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 781¹ k.p.c. — ograniczenia egzekucji i warunki klauzuli przeciwko małżonkowi",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787 k.p.c. — wskazany do sprawdzenia, bez przytoczenia jego treści",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 788 k.p.c. — wskazany do sprawdzenia, bez przypisania konkretnej normy",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o. — konieczność odrębnego tytułu przeciwko małżonkowi przy zobowiązaniu niezwiązanym z działalnością",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 40–41 k.r.o. — końcowe zalecenie sprawdzenia przepisów",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odrzuca klauzulę bez ograniczeń i trafnie wskazuje, że brak wzmianki o działalności w nakazie nie przesądza trybu, ale nie rozróżnia zgody małżonka od związku wierzytelności z przedsiębiorstwem. Art. 781¹ k.p.c. określa termin trzech dni na rozpoznanie wniosku, więc przypisanie mu ograniczeń egzekucji stanowi T mimo zastrzeżenia o potrzebie weryfikacji. Twierdzenie powiązane z art. 41 k.r.o. błędnie uzależnia konieczność odrębnego tytułu od braku związku długu z działalnością, pomijając dostępną przy zgodzie małżonka drogę z art. 787 k.p.c. Brakuje art. 787¹, właściwego rozwidlenia i wskazania egzekucji pozostającej bez obu przesłanek, co obniża A2, B1 i B2. Powtórzone na końcu zastrzeżenie dotyczące sprawdzenia źródeł obniża A8 do 0.5; pochodzenie błędów pozostaje nieustalone wobec braku śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 61,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

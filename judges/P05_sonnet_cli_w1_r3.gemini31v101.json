@@ -1,0 +1,130 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości (Dz.U. 2024 poz. 368)",
+   "zrodlo": "Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN III CZP 24/23 z 20.10.2023 r.",
+   "zrodlo": "OSNC 2024/2/15",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18.11.2020 r. o doręczeniach elektronicznych (Dz.U. 2020 poz. 2320)",
+   "zrodlo": "Dz.U. 2020 poz. 2320",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131² KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Druk sejmowy 1362 (2025)",
+   "zrodlo": "sejm.gov.pl",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Czy projekt z druku sejmowego 1362 (2025) przewidywał skutek doręczenia po 14 dniach od umieszczenia pisma w portalu, gdy podmiot nie ma w nim konta."
+ ],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco wyjaśnia zasady doręczeń przez portal dla osoby fizycznej, realizując w pełni rdzeń i wszystkie elementy rubryki. Podaje właściwe podstawy prawne i cenne wskazówki praktyczne (uchwała SN III CZP 24/23). Niestety, system podaje błędną datę uchylenia dawnego art. 131² k.p.c. (3.08.2026 zamiast 1.06.2026), powołując się na serwis Lexlege, co stanowi halucynację klasy W (błędny opis historii zmian) i obniża A6 do 0. Zastrzeżenie o braku weryfikacji w źródle oficjalnym nie zwalnia z odpowiedzialności za błąd. B1 i B2 pozostają maksymalne ze względu na wysoką przydatność i kategoryczność głównej tezy.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"Dz.U. 2024 poz. 368\"",
+   "\"Dz. U. z 2024 r. poz. 368\"",
+   "rozporządzenie \"131\" kpc portal informacyjny",
+   "\"Art. 133 § 1 KPC\"",
+   "\"Art. 133\" kpc",
+   "\"Art. 131 § 1 KPC\"",
+   "\"Art. 131\" kpc",
+   "\"III CZP 24/23\"",
+   "\"III CZP 24/23\" doręczenie 14 dni",
+   "\"Art. 134 § 1 KPC\"",
+   "\"Art. 134\" kpc",
+   "\"Art. 131² KPC\" uchylony",
+   "\"Art. 131(2) KPC\" uchylony",
+   "\"Art. 131 ze zn 2 KPC\" uchylony",
+   "\"Art. 131\" \"§ 2\" kpc uchylony",
+   "\"Dz.U. 2026 poz. 468\"",
+   "\"Dz. U. z 2026 r. poz. 468\"",
+   "\"Druk sejmowy 1362\" 2025",
+   "\"Druk sejmowy nr 1362\" 2025"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKDWmGs_bB2CaPGYpzGoHkgpi6TkHXD4yEiGrU2Zee2pgYInMPl9Qwc5f1HzDLHfO5AF4U0B6FmtCNM4JNKRiBr6732fS2-sZyyhzz-SvysEloIleyc3wjh_h8GUqvjfAUqQmoLok4Sz5FzuPuo7XXQB-nirPYPXkkJM18XzqL9Rd-AJaAB7RelKt3n2dl5K1o",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6Yfr0EcIECU8Ej-rUVomenxujpVc0v1vcLo2fjnHx_L_gq_VCLNMx4sa5hDV4iPmFAwItgTihBWeW3qwdMvjYXo97Tp9KgEMsirHalzd8u7iq0flVHL5UECOBjIMv5xKC8RtAs962NsfZetL7oj8VVih_weH-k47JXw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5i0Hqewl916loCsG-0hBcJRVoJlEUSwf-A-L48CPdCqDSTj6N_sg1WugxxYg6LTQ8xZZ00lNU-EdOWqcvOegcr8WlRs4HzwXWVX0aWOnszmolO5HSWreMuc5MfBaENExUnpPwZOAaOWhbr0dwP84Z3SEoi_yC0N5GiaFDD_blJS6ldaV_aNvvPclm2oTsTlD7Ww==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW_gVgyterOTyRBqm7fq6KyPmyio0cGhjw7Es6EuWRbTm6X7pPfAP32k99yuh1gqrDM8KChKQdm4M1r4g32Egi8AoVIZwE11tj5OB7XEsJdNPw_5LjCry3u-EfA7aZB7e_sNJ6guCSrdJDS92aCS_rsrM4mSjYOp0YeddE4VNm",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlIK8EmGG9wKy2hKigyuZMoV7PcEb3mkX2NyEs7AlkxsOZA9h4cpQKU-tpyZlPPQTC4PXZaGh_hTY-8fevv5X7dOLJ5osWvyXs3xXMUyHJJleQGmGP_40d4cWQ9fE18rG0YXhLHqJzKpuh8FdHIQI4j6AacOIhX-tu4XkzXe64",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvQrqmpFFY-ltOlbhXlIcvVQ6l2InkMAKU423CGhj-H-xhEkY3zVN66TmqnvNgKalGTb6RhYQayc4FAV0PcT5Ow0ahzcwbvDlbpXpOwSLzkfM5Cp2xtuSz_TKnpRvMu49lEdQ1SmyruYjQdYe7a8ox1tNrUPO8bG4n6ZqmHzceITHKI9VqDn0aeycbA-Hki1YBaQb-F9PyWJPiBqfNQAxCKpAMu9XRf3XNdRN-usk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlJQkm1ztLgxSKlMh1g3mqr2WSFjt4W2YtPt_lx_V5gT4syNoehlTr6GXNV5dLD-qsGK_FoCVL-Y93f1LhabHS_srxbS3dOk_8v5OyiX_xFOFtupMncZ-64eh7kwlGwLrW27SRhKUTdPC3OCjTuXC8U3KtAzbMTpP8OHL-lYo1HuTsScE0f4B02drO9xhsT8LIUoc1O47p0kZOBg0wpx-F",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEmBW-3aYafrN_JzR7uQg8LWPncDF0gW020spl0qU1hvl9GcEQAgrfh9MLDlIeKvca9kMc2pDmrweFhJuafblqAgrDx-Y1ybB0kfSI35uYZK2HuYXsJML8eNFHVFnqyc6NSOf0GlKyvuahsZoTcZ_EbBd3qtqu6tbHPc79WjD50C5HIw=="
+  ],
+  "tokeny": {
+   "wejscie": 12146,
+   "wyjscie": 1117
+  },
+  "czas_s": 275,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

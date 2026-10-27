@@ -1,0 +1,85 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 Rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motyw 134 preambuły Rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 Rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 Rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 Rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "data stosowania przepisów o przejrzystości od 2 sierpnia 2026 r. (art. 113 lit. b AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wytyczne Komisji Europejskiej do art. 50 AI Act z lipca 2026 r. (C(2026) 5054)",
+   "zrodlo": "Komisja Europejska C(2026) 5054",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni prawidłowo i precyzyjnie rozstrzyga problem prawny, trafnie wskazując wszystkie wymagane podstawy (art. 3 pkt 60, art. 50 ust. 2 i 4 AI Act) oraz dosłownie cytując definicję legalną. Prawidłowo rozróżniono adresatów obowiązków i zidentyfikowano pułapki interpretacyjne (obiektywny charakter kryterium wprowadzenia w błąd oraz objęcie fikcyjnych, realistycznych głosów ludzkich). R6 oceniono na 0 z uwagi na brak wyraźnego zaznaczenia, że wytyczne KE stanowią prawo miękkie (soft law / charakter niewiążący), zgodnie ze szczególną regułą oceny z 2026-10-18. Wszystkie powołane jednostki i akty są w pełni zgodne ze źródłami oficjalnymi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15992,
+   "wyjscie": 991
+  },
+  "czas_s": 25,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

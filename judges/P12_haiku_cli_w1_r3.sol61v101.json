@@ -1,0 +1,96 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 § 1 k.p.c. — oznaczenie występujące wyłącznie w zastrzeżeniu o nieweryfikowaniu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — art. 787 nie ma paragrafów; wzmianka nie przypisuje tej jednostce treści ani nie powołuje jej jako podstawy",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c. — samo wskazanie bez opisania treści",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 231 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf — pominięto wyjątek dotyczący przedsiębiorstwa, następnie wspomniany bez rozstrzygnięcia",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN, uchwała z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/III%20CZP%20117-10.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SO w Łodzi, VII Pz 122/15",
+   "zrodlo": "https://www.saos.org.pl/judgments/188255",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SA w Krakowie, I ACz 313/15 — twierdzenie, że sąd nadał klauzulę",
+   "zrodlo": "https://www.saos.org.pl/search?courtCriteria.ccCourtId=123&courtCriteria.courtType=COMMON&page=319 — sentencja oddala zażalenie na postanowienie Sądu Okręgowego",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "SN, uchwała z 11 kwietnia 2019 r., III CZP 106/18",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%20106-18.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN, III CZP 36/19 — pozycja bibliograficzna",
+   "zrodlo": "https://www.sn.pl/pl/sprawy/zagadnienia-prawne/iii-czp-36-19",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781–787² k.p.c. — zakres wskazany w tytule źródła",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odrzuca klauzulę bez ograniczeń i trafnie uzależnia art. 787 od zgody, lecz nie przedstawia rozstrzygającej ścieżki z art. 787¹ ani nie prostuje art. 781¹. Wskazuje znaczenie przesłanek materialnych oraz pozostające wierzycielowi składniki majątku dłużnika. A6 obniża błędne przypisanie SA w Krakowie nadania klauzuli zamiast oddalenia zażalenia; pochodzenie błędu: źródło_wtórne. Nieistniejący § 1 odnotowano, ale nie stanowi samodzielnej podstawy obniżenia A6, ponieważ występuje wyłącznie w zastrzeżeniu bez przypisania mu normy; pominięcie wyjątku przedsiębiorstwa oceniono jako pominięcie. Dygresja o powództwie obniża A8, a nierozstrzygnięcie wariantu przedsiębiorstwa ogranicza przydatność i nie spełnia oczekiwanej kalibracji.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 16,
+  "czas_s": 86,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 41 ust. 2 i 4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 53",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 65 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 65",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 50 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 50",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 12 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 12 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 2 ust. 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.), art. 16",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi (A_R = 2) oraz kalibracja (B2 = 1) są prawidłowe: system trafnie wskazuje, że ogólna klauzula co do zasady nie wystarcza wobec wymogu wyraźnego wymienienia pól znanych w chwili zawarcia umowy i formy pisemnej pod rygorem nieważności, dopuszczając zarazem wykładnię umowy przez pryzmat jej celu na korzyść twórcy. W kryterium A6 przyznano 0 pkt (klasa T, hallucinated = true), ponieważ system przypisał art. 65 pr.aut. (ustanawiającemu domniemanie udzielenia licencji w braku wyraźnego postanowienia o przeniesieniu prawa) nieistniejącą w nim normę o wykładni zakresu przeniesienia praw na korzyść twórcy i ograniczeniu go do celu umowy (myląc ten przepis z art. 65 k.c. oraz regułami orzeczniczymi). Z uwagi na brak precyzyjnego powołania art. 41 ust. 2 pr.aut. (podano jedynie ogólnie art. 41 pr.aut.) oraz powołanie błędnej podstawy z art. 65 pr.aut. zamiast art. 65 k.c., obniżono A2 do 0 oraz nie zaliczono pierwszego i piątego elementu rubryki (R = [0, 1, 1, 1, 0]). Zastrzeżenie końcowe o przytaczaniu numerów przepisów z pamięci nie znosi halucynacji w A6 zgodnie z regułą graniczną nr 8. W bloku B przyznano maksymalną ocenę za przydatność praktyczną (B1 = 2), nie karząc podwójnie za błąd z A6.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 24\" \"Art. 65\" \"Art. 50\" OR OR",
+   "\"ustawa o prawie autorskim\" \"Art. 65.\" \"Art. 41.\" \"Art. 50.\" OR",
+   "\"Art. 2.\" \"Art. 12.\" \"Art. 16.\" \"Dz.U. 2025 poz. 24\" OR OR",
+   "\"W braku wyraźnego postanowienia o przeniesieniu prawa\" \"Art. 65.\" prawo autorskie",
+   "\"Opracowanie cudzego utworu, w szczególności tłumaczenie, przeróbka, adaptacja\" \"Art. 2.\"",
+   "\"Jeżeli ustawa lub umowa o pracę nie stanowią inaczej, pracodawca\" \"Art. 12.\"",
+   "\"Jeżeli ustawa nie stanowi inaczej, autorskie prawa osobiste chronią\" \"Art. 16.\"",
+   "\"Jeżeli w umowie nie określono sposobu korzystania z utworu\" \"Art. 49.\"",
+   "\"Art. 65.\" \"Oświadczenie woli należy tak tłumaczyć\" \"W umowach należy raczej badać\" kodeks cywilny",
+   "\"Jeżeli umowa nie stanowi inaczej, twórca zachowuje wyłączne prawo zezwalania na wykonywanie zależnego prawa autorskiego\" \"Art. 46.\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14654,
+   "wyjscie": 1404
+  },
+  "czas_s": 303,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

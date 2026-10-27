@@ -1,0 +1,60 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ᵃ § 1 pkt 12 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf; https://eli.gov.pl/api/acts/DU/2018/1360/text.html",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia w negatywną konkluzję dla zażalenia dewolutywnego i dopytuje o wymagane rozwidlenie, co zalicza R1 i B2 oraz wyklucza drugą karę. Nie podaje jednak pozytywnej konkluzji dla zażalenia poziomego, wymaganych podstaw ani informacji o art. 130² k.p.c. Art. 394¹ § 2 jest uchylony, a przypisana mu regulacja odpowiada dawnemu brzmieniu, dlatego A6 = 0, typ W i hallucinated = true. Wskazanie ewentualnego zażalenia do SN uzasadnia pierwszą karę i ograniczenie B1 do 1. Stwierdzenie o braku ogólnej zaskarżalności w art. 394² jest zgodne; pominięcie szczególnej podstawy z § 1² obciąża rdzeń i rubrykę, ale nie A6.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 69,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

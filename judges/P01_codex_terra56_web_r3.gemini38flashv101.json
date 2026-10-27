@@ -1,0 +1,81 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w. (Dz.U. 2025 poz. 734)",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w. (Dz.U. 2025 poz. 734)",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 122 § 1 k.w. (Dz.U. 2025 poz. 734)",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w. (Dz.U. 2025 poz. 734)",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Rozporządzenie RM z 11.09.2025 r., Dz.U. 2025 poz. 1242",
+   "zrodlo": "Dz.U. 2025 poz. 1242",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpadł w pułapkę pytania i błędnie uznał, że próg wykroczenia wynosi 1/4 płacy minimalnej (1 201,50 zł), podczas gdy od 1.10.2023 r. w art. 119 § 1 k.w. wpisana jest stała kwota 800 zł. Przypisanie art. 119, 120, 122 i 124 k.w. uchylonej w 2018 r. reguły ułamka płacy minimalnej stanowi błąd typu W/T, co skutkuje A6 = 0 i hallucinated = true. Przez powołanie nieadekwatnego rozporządzenia płacowego jako podstawy progu wykroczenia A2 wynosi 0. Zastosowano obie kary z klucza (powiązanie z płacą minimalną oraz wskazanie błędnej kwoty), a B1 wynosi 0 ze względu na wprowadzenie w błąd co do kwalifikacji czynu jako wykroczenia albo przestępstwa. Przyjęcie pewnego tonu przy kategorycznym stanie prawnym skutkuje B2 = 1 mimo błędu merytorycznego.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 119\" \"Kodeksu wykroczeń\" \"800\" \"minimalnego\"",
+   "Dz.U. 2025 poz. 734 art 119 kw",
+   "\"Dz.U. 2025 poz. 1242\"",
+   "\"11 września 2025\" \"minimalnego wynagrodzenia\"",
+   "rozporządzenie w sprawie wysokości minimalnego wynagrodzenia za pracę w 2026 roku"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11798,
+   "wyjscie": 834
+  },
+  "czas_s": 61,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

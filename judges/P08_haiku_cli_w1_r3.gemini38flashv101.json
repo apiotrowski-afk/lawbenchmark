@@ -1,0 +1,90 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 5 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 24 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo identyfikuje rdzeń problemu i precyzyjnie rozróżnia brak statusu deepfake (art. 3 pkt 60) od obowiązków dostawcy w zakresie oznaczania maszynowego z art. 50 ust. 2 AI Act. Powołane przepisy istnieją i odpowiadają przypisanej treści (A6 = 1), jednak dosłowny cytat w cudzysłowie z art. 50 ust. 4 odbiega od oficjalnego polskiego tekstu rozporządzenia, stanowiąc kalkę z wersji angielskiej (A3 = 0). W rubryce zabrakło wykazania, że intencja wprowadzenia w błąd nie jest elementem definicji, oraz omówienia wytycznych KE jako soft law. Wtrącenie o innych gałęziach prawa (RODO, dobra osobiste k.c.) stanowi dygresję obniżającą A8 do 0.5. Kalibracja i przydatność praktyczna stoją na wysokim poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13776,
+   "wyjscie": 824
+  },
+  "czas_s": 40,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

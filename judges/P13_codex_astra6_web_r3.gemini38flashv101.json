@@ -1,0 +1,80 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SA w Rzeszowie z 21.06.2013 r., I ACz 390/13",
+   "zrodlo": "SAOS (orzeczenie 14498)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź bezbłędna merytorycznie i doskonale osadzona w przepisach oraz orzecznictwie. System precyzyjnie rozróżnił wykonalność nakazu z weksla od jego waloru jako tytułu zabezpieczenia (art. 492 § 1 i § 3 k.p.c.). Powołane orzeczenie SA w Rzeszowie (I ACz 390/13) jest w pełni autentyczne i trafnie dobrane. W rubryce nie zaliczono jedynie elementu 4 z uwagi na brak wzmianki o art. 820 § 2 k.p.c. i zawieszeniu egzekucji. Przydatność praktyczna dla prawnika pełna.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"I ACz 390/13\" rzeszów SAOS",
+   "\"I ACz 390/13\" \"wstrzymanie\" \"nakazu\"",
+   "\"I ACz 390/13\" \"tytułu zabezpieczającego\"",
+   "\"I ACz 390/13\"",
+   "\"I ACz 390/13\" \"cech tytułu\"",
+   "\"I ACz 390/13\" \"zabezpiecz\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11890,
+   "wyjscie": 567
+  },
+  "czas_s": 23,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

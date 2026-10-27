@@ -1,0 +1,96 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "F"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ pkt 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 27 listopada 2020 r., sygn. akt III CZP 13/20",
+   "zrodlo": "sn.pl",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "postanowienie SN z dnia 25 lutego 2021 r., sygn. akt III CZ 6/21",
+   "zrodlo": "sn.pl",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 373 § 1 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 365 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 89 ustawy o Sądzie Najwyższym",
+   "zrodlo": "Dz.U. 2024 poz. 622",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie uznaje brak zażalenia za regułę bezwzględną, pomijając art. 394² § 1² zd. 2 k.p.c., który expressis verbis przewiduje zażalenie poziome na odrzucenie zażalenia poziomego przez jednego sędziego SA (A-R=1 z reguły granicznej P06, B1=0 z powodu ryzyka utraty terminu). Brak wymaganych podstaw art. 394² § 1² oraz art. 397 § 1¹ skutkuje A2=0. Przepisowi art. 394² § 1¹ pkt 1 k.p.c. przypisano odrzucenie apelacji (będące w § 1), a powołane orzeczenia SN (uchwała III CZP 13/20 i postanowienie III CZ 6/21) zostały zmyślone co do daty i przedmiotu (A6=0, hallucinated=true, typy T i F). Naliczono karę za kategoryczną odpowiedź na „nie” bez rozróżnienia trybów (K=[0, 1], B2=0). Dodanie nieproszonego scenariusza faktycznego uiszczenia opłaty stanowi dygresję uzasadniającą A8=0.5.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"394(2)\" \"Jeżeli zażalenie, o którym mowa w § 1 i\" kpc",
+   "\"394(2) § 1(2)\" kpc sejm",
+   "\"394²\" \"§ 1²\" kpc odrzuca",
+   "\"III CZP 13/20\" sn",
+   "\"III CZ 6/21\" sn"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11540,
+   "wyjscie": 883
+  },
+  "czas_s": 60,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

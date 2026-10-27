@@ -1,0 +1,69 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22 — podkreślenie zamkniętego charakteru katalogu",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2050-22-1.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie uzyskano pełnego uzasadnienia uchwały III CZP 50/22 do literalnego sprawdzenia przypisanej argumentacji o zamkniętym katalogu; oficjalne wyniki wyszukiwania potwierdzają datę, sygnaturę, kontekst upadłościowy i sentencję o niedopuszczalności zażalenia."
+ ],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń, rozróżnia obie ścieżki i wskazuje właściwe konkluzje oraz adresata zażalenia poziomego. A2 wynosi 0 z powodu braku wymaganego art. 397 § 1¹ k.p.c., a ostatni element rubryki nie został spełniony przez pominięcie art. 130² k.p.c. Nie ma dosłownych cytatów ani podstaw do naliczenia kar. Sprawdzone powołania przepisów są zgodne z tekstem oficjalnym; niepełna weryfikacja argumentacji uchwały została ujawniona i nie stanowi dowodu halucynacji. Odpowiedź pozostaje w ramach pytania, jest praktycznie przydatna i prawidłowo warunkuje konkluzję rodzajem odrzuconego zażalenia.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 18,
+  "czas_s": 116,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl / LEX",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź precyzyjnie i zgodnie ze stanem prawnym oraz orzecznictwem wyjaśnia regułę z art. 41 ust. 2 pr. aut. wraz z liberalną linią wykładni SN (I CSK 596/17), co w pełni realizuje oczekiwany rdzeń i kalibrację warunkową. Przywołano obie wymagane podstawy prawne oraz poprawne przykłady pól eksploatacji właściwych dla social mediów. W rubryce zabrakło jedynie wyraźnego kontrastu z art. 12 pr. aut. (nabycie pierwotne przez pracodawcę). Wszelkie powołane przepisy i orzeczenie SN są w pełni zgodne ze źródłami urzędowymi, brak jakichkolwiek halucynacji. Praktyczne wskazówki dla redagującego i oceniającego umowę dają najwyższą notę w B1.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"I CSK 596/17\" SN 5 października 2018",
+   "\"I CSK 596/17\" \"41 ust. 2\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13005,
+   "wyjscie": 711
+  },
+  "czas_s": 22,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

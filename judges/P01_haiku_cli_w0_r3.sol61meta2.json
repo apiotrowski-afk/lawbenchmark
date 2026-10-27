@@ -1,0 +1,68 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf — art. 119 § 1: „jeżeli jej wartość nie przekracza 800 złotych”. Próg 1/4 minimalnego wynagrodzenia jest brzmieniem historycznym, zgodnie z raportem faktów.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 119 KW",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf — przepis istnieje; ponowne wskazanie go do weryfikacji nie zawiera odrębnego twierdzenia o jego treści.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 KW",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf — § 1: „jeżeli wartość drzewa nie przekracza 800 złotych”. Przepis sam określa próg; wzmiankę odpowiedzi można odczytać jako wskazanie przepisu dotyczącego tej samej granicy wartości.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 KW",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf — § 1: „jeżeli wartość mienia nie przekracza 800 złotych”. Przepis sam określa próg; wzmiankę odpowiedzi można odczytać jako wskazanie przepisu dotyczącego tej samej granicy wartości.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 KK",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf — art. 278 § 1: „Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą”. Przepis stanowi podstawę odpowiedzialności za przestępstwo kradzieży.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje błędne 1201,50 zł i nieaktualne powiązanie progu z wynagrodzeniem minimalnym, co oznacza A6=0 typu W oraz obie kary. Powołano wymaganą podstawę, lecz nie uzyskano żadnego elementu rubryki; brak cytatów oznacza A3=nd. Błędna praktyczna granica odpowiedzialności oraz marginalne zalecenie weryfikacji uzasadniają B1=0. A8 obniża błędna uwaga poboczna o odrębnych progach dla małej wartości w Kodeksie karnym. B2=1, ponieważ główna konkluzja jest kategoryczna, zgodnie z oczekiwaną kalibracją.",
+ "_meta": {
+  "sedzia": "sol61meta2",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 39,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 5, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 Kodeksu wykroczeń [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z tym przepisem granica wykroczenia (dotycząca kradzieży i podobnych czynów) to wartość nieprzekraczająca 1/4 najniższego wynagrodzenia.”\n    · uzasadnienie weryfikatora: Na datę stanu prawnego próg kwotowy w art. 119 § 1 KW wynosi 800 złotych, natomiast próg ułamkowy (1/4 minimalnego wynagrodzenia) obowiązywał w wersji wcześniejszej przepisu (atom 4). Odpowiedź podaje dawne brzmienie jako aktualne.\n    · kotwica (verbatim ze źródła): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 119 KW [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona.”\n    · brzmienie jednostki (fragment): „Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie, podżeganie i pomocnictwo są karalne. § 3. Jeżeli sprawca czynu określonego w § 1 dopuścił się go na szkodę osoby najbliższej, ściganie następuje na żądanie pokrzywdzonego. § 4. W razie popełnienia wykroczenia określonego w § 1, można orzec obowiązek zapłaty równowartości ukradzionego lub przywłaszczonego mienia, jeżeli szkoda nie została naprawiona.”\n- 3. art. 120 KW [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowarto…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten odsyła do granicy wykroczenia określonej w art. 119 KW.”\n    · uzasadnienie weryfikatora: W kontekście zalecenia weryfikacji przepisów z tym samym progiem kwotowym art. 120 § 1 KW faktycznie posługuje się identyczną granicą wartości (800 zł, a dawniej 500 zł i 1/4 minimalnego wynagrodzenia), choć redakcyjnie powtarza ten próg zamiast stosować odesłanie do art. 119 KW.\n    · kotwica (verbatim ze źródła): „Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowarto…”\n- 4. art. 122 KW [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jeg…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten odsyła do granicy wykroczenia określonej w art. 119 KW.”\n    · uzasadnienie weryfikatora: W kontekście zalecenia weryfikacji przepisów z tym samym progiem kwotowym art. 122 § 1 i 2 KW faktycznie posługuje się identyczną granicą wartości (800 zł, a dawniej 500 zł i 1/4 minimalnego wynagrodzenia), choć redakcyjnie powtarza ten próg zamiast stosować odesłanie do art. 119 KW.\n    · kotwica (verbatim ze źródła): „Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800…”\n    · brzmienie jednostki (fragment): „Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jeg…”\n- 5. art. 278 KK [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 278. § 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5. § 2. Tej samej karze podlega, kto bez zgody osoby uprawnionej uzyskuje cudzy program komputerowy w celu osiągnięcia korzyści majątkowej. § 3. W wypadku mniejszej wagi, sprawca podlega grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku. § 4. Jeżeli kradzież popełniono na szkodę osoby najbliższej, ściganie następuje na wniosek pokrzywdzonego. § 5. Przepisy § 1, 3 i 4 stosuje się odpowiednio do kradzieży energii lub karty uprawniającej do podjęcia…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Czyn polegający na kradzieży od kwoty przekraczającej granicę wykroczenia może stanowić przestępstwo na podstawie tego artykułu.”\n    · uzasadnienie weryfikatora: Przepis wprost określa znamiona przestępstwa kradzieży cudzej rzeczy ruchomej, a zestawienie go z progiem wykroczenia stanowi poprawny kontekst systemowy.\n    · kotwica (verbatim ze źródła): „Art. 278. § 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n    · brzmienie jednostki (fragment): „Art. 278. § 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5. § 1a. Tej samej karze podlega, kto zabiera w celu przywłaszczenia cudzą kartę uprawniającą do podjęcia pieniędzy z automatu bankowego. § 2. Tej samej karze podlega, kto bez zgody osoby uprawnionej uzyskuje cudzy program komputerowy w celu osiągnięcia korzyści majątkowej. § 3. W wypadku mniejszej wagi, sprawca czynu określonego w § 1, 1a lub 2 podlega grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku. § 3a. Kto dopuszcza się kradzieży szczególn…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

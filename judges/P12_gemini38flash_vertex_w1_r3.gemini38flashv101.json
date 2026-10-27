@@ -1,0 +1,73 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787[1] k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź bezbłędnie i wyczerpująco rozwiązuje kazus, demaskując wszystkie pułapki pytania. Wyjaśniono, że klauzula przeciwko małżonkowi zawsze zawiera ograniczenie odpowiedzialności, a treść sentencji nakazu nie przesądza o trybie klauzulowym. Prawidłowo wskazano omyłkę w numeracji (art. 787¹ zamiast art. 781¹ k.p.c.) oraz przeprowadzono precyzyjne rozwidlenie na scenariusz ze zgodą małżonka (art. 787 k.p.c.) i bez niej (art. 787¹ k.p.c. lub art. 41 § 2 k.r.o.). Wszystkie powołane przepisy są w pełni zgodne ze źródłami urzędowymi, a kalibracja i przydatność praktyczna stoją na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 787\" kpc",
+   "\"art. 787(1)\" kpc",
+   "\"art. 41\" kro"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13066,
+   "wyjscie": 625
+  },
+  "czas_s": 41,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

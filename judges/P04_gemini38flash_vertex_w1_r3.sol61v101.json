@@ -1,0 +1,78 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a § 2 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 101 § 3 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie identyfikuje decyzję ministra i zaświadczenie organu, ale eksponuje ostateczność, a prawomocność uwzględnia jedynie przy zrzeczeniu się środka zaskarżenia, co uzasadnia A_R = 1. Brakuje wymaganej podstawy art. 16 § 3 k.p.a., wskazania zaświadczenia o prawomocności oraz mechanizmu skargi do WSA w terminie 30 dni. Zweryfikowane powołania nie przypisują przepisom fałszywej treści; pominięcia nie obniżają A6. K3 nie zachodzi, ponieważ system wyraźnie dopuszcza prawomocność decyzji, a wariant sądowy jest dozwolony przez klucz. Wskazanie zaświadczenia o ostateczności zamiast oczekiwanego zaświadczenia o prawomocności ogranicza praktyczną przydatność do B1 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 8,
+  "czas_s": 46,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

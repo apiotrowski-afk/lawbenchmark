@@ -1,0 +1,80 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text/T/D20260795L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/i%20csk%20596-17-1.pdf; teza pośrednio potwierdzona w https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iv%20cskp%2044-21.pdf",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełne uzasadnienie wyroku SN I CSK 596/17: oficjalny wynik wyszukiwania potwierdził sygnaturę, datę i rodzaj orzeczenia, lecz otwarcie PDF nie powiodło się; przypisaną tezę potwierdza pośrednio oficjalny tekst IV CSKP 44/21."
+ ],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia zasadniczą niewystarczalność ogólnej klauzuli oraz możliwość ustalenia zakresu korzystania przez wykładnię umowy. Podaje obie wymagane podstawy, właściwe przykłady pól i wymóg formy pisemnej oraz odróżnia zlecenie od stosunku pracy. R5 nie zaliczono, ponieważ pominięto regułę in favorem auctoris; samo pominięcie nie obniża A6. Nie ma cytatów przepisów w rozumieniu klucza ani stwierdzonych niezgodności powołań z oficjalnymi źródłami. Kalibracja jest warunkowa, a całość pozostaje w ramach pytania.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 12,
+  "czas_s": 70,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

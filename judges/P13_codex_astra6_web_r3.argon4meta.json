@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SA w Rzeszowie z 21 czerwca 2013 r., I ACz 390/13",
+   "zrodlo": "SAOS, orzeczenie 14498",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie rozstrzyga problem w pierwszym akapicie, prawidłowo rozdzielając funkcję nakazu zapłaty jako tytułu zabezpieczenia (art. 492 § 1 k.p.c.) od natychmiastowej wykonalności nakazu z weksla i wstrzymania jego wykonania (art. 492 § 3 k.p.c.). System przywołuje wszystkie wymagane podstawy prawne, wskazuje właściwe środki obrony pozwanego (art. 492 § 2 i art. 742 k.p.c.) oraz trafnie powołuje potwierdzające tezę postanowienie SA w Rzeszowie (I ACz 390/13). Jedyny brak w rubryce (R4) dotyczy niewskazania skutku wstrzymania wykonania nakazu w postaci zawieszenia egzekucji na podstawie art. 820 § 2 k.p.c.",
+ "_meta": {
+  "sedzia": "argon4meta",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 19496,
+   "wyjscie": 709,
+   "rozumowanie": 2922
+  },
+  "czas_s": 45,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 7, orzeczenia 2. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 492 § 3 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten stanowi podstawę wstrzymania przez sąd wykonania nakazu zapłaty.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że sąd może na wniosek pozwanego wstrzymać wykonanie nakazu zapłaty w razie wniesienia zarzutów.\n    · kotwica (verbatim ze źródła): „W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu.”\n    · brzmienie jednostki (fragment): „§ 3. Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio.”\n- 2. art. 492 § 1 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Nakaz zapłaty jest tytułem zabezpieczenia już od chwili wydania, bez potrzeby nadawania klauzuli wykonalności.”\n    · uzasadnienie weryfikatora: Pierwsze zdanie przepisu wprost wyraża przypisaną mu normę.\n    · kotwica (verbatim ze źródła): „Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności.”\n    · brzmienie jednostki (fragment): „§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu.”\n- 3. art. 492 § 3 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Wstrzymanie wykonania nakazu na podstawie tego przepisu dotyczy jego natychmiastowej wykonalności (możliwości egzekucyjnego zaspokojenia wierzyciela) i nie usuwa skutku zabezpieczającego.”\n    · uzasadnienie weryfikatora: Przepis zestawia w jednej jednostce natychmiastową wykonalność nakazu wekslowego oraz wstrzymanie jego wykonania, skąd bezpośrednio wynika, że wstrzymanie dotyczy tej wykonalności.\n    · kotwica (verbatim ze źródła): „Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu.”\n    · brzmienie jednostki (fragment): „§ 3. Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio.”\n- 4. art. 492 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten reguluje skutki nakazu zapłaty, w tym to, że wstrzymanie wykonania nakazu zapłaty wydanego z weksla dotyczy jego wykonalności i nie usuwa skutku zabezpieczającego.”\n    · uzasadnienie weryfikatora: Artykuł 492 k.p.c. rozdziela funkcję tytułu zabezpieczenia i środki przeciw zabezpieczeniu (§ 1–2) od natychmiastowej wykonalności nakazu wekslowego i wstrzymania jego wykonania (§ 3), z czego wynika wniosek o zachowaniu skutku zabezpieczającego mimo wstrzymania wykonania.\n    · kotwica (verbatim ze źródła): „§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. [...] § 2. [...] Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu za…”\n    · brzmienie jednostki (fragment): „Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać…”\n- 5. art. 492 § 2 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten stanowi podstawę wniosku pozwanego o ograniczenie zabezpieczenia.”\n    · uzasadnienie weryfikatora: Przepis wprost przewiduje możliwość ograniczenia zabezpieczenia przez sąd na wniosek pozwanego.\n    · kotwica (verbatim ze źródła): „Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania.”\n    · brzmienie jednostki (fragment): „§ 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu zabezpieczenia przeciwko Skarbowi Państwa stosuje się odpowiednio.”\n- 6. art. 742 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten, stosowany odpowiednio, stanowi podstawę wniosku o uchylenie lub zmianę zabezpieczenia.”\n    · uzasadnienie weryfikatora: Przepis w § 1 wprost przyznaje obowiązanemu prawo żądania uchylenia lub zmiany udzielonego zabezpieczenia.\n    · kotwica (verbatim ze źródła): „§ 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia.”\n    · brzmienie jednostki (fragment): „Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia. Jeżeli obowiązany złoży na rachunek depozytowy Ministra Finansów sumę zabezpieczenia żądaną przez uprawnionego we wniosku o udzielenie zabezpieczenia, zabezpieczenie upada. Przepis art. 754¹ § 3 stosuje się odpowiednio. § 2. Przed wydaniem postanowienia w przedmiocie uchylenia lub ograniczenia zabezpieczenia sąd wysłucha uprawnionego. § 3. Wniesienie zażalenia na postanowienie uchylające lub zmieniające pos…”\n- 7. art. 492 k.p.c. [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie jednostki (fragment): „Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać…”\n\nORZECZENIA:\n- I ACz 390/13 — podane w odpowiedzi: sąd Sąd Apelacyjny w Rzeszowie (z tekstu), data 2013-06-21\n    · wynik wyszukania: znaleziono (SAOS); w źródle: Sąd Apelacyjny w Rzeszowie, 2013-06-21\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie); A6_zakres: rdzeń\n    · twierdzenie odpowiedzi (wg weryfikatora): „Wstrzymanie wykonania nakazu zapłaty nie pozbawia go cech tytułu zabezpieczającego.”\n    · uzasadnienie weryfikatora: Sąd Apelacyjny w Rzeszowie wprost sformułował tezę, że wstrzymanie wykonania nakazu zapłaty nie pozbawia go cech tytułu zabezpieczającego.\n    · teza 1 (referowana): Niepowetowaną szkodą wynikającą z wykonania nakazu zapłaty jest uszczerbek, którego pozwany nie zdoła zrekompensować kosztem powoda w razie uchylenia nakazu, np. z uwagi na złą kondycję finansową pow… — kotwica: „Z uzasadnienia niniejszego wniosku nie wynika też w sposób jednoznaczny, że na skutek wykonania nakazu pozwanym zostanie wyrządzona niepowetowana szkoda, tj. taki rodzaj uszczerbku, którego pozwany nie będzie mógł zrekompensować kosztem powoda gdy nakaz zosta…”\n    · teza 2 (ratio): Przewidziana w art. 492 § 3 k.p.c. możliwość wstrzymania wykonania nakazu zapłaty odnosi się do nakazu jako tytułu wykonawczego, a nie jako tytułu zabezpieczającego, którego cech orzeczenie to nie tr… — kotwica: „Możliwość wstrzymania wykonania nakazu zapłaty na podstawie art. 492 § 3 k.p.c. nie dotyczy natomiast nakazu zapłaty jako tytułu zabezpieczającego. Za taką oceną przemawia głównie fakt, że tytuł zabezpieczający nie podlega wykonaniu w sposób porównywalny z wy…”\n    · teza 3 (ratio): Rozpoznając wniosek o wstrzymanie wykonania nakazu zapłaty wydanego na podstawie weksla, sąd powinien posiłkować się przesłankami zawieszenia rygoru natychmiastowej wykonalności wyroku zaocznego z ar… — kotwica: „Przepis art. 492 § 3 k.p.c. nie precyzuje kryteriów, którymi sąd winien się kierować przy rozpoznawaniu wniosku o wstrzymanie wykonania nakazu zapłaty wydanego na podstawie weksla i dlatego też przyjmuje się, że posiłkowo należy kierować się przesłankami z ar…”\n    · teza 4 (ratio): Ocena zasadności wniosku o wstrzymanie wykonania nakazu zapłaty wymaga w pierwszej kolejności zbadania, czy podniesione w zarzutach okoliczności wzbudzają wątpliwości co do prawidłowości wydanego orz… — kotwica: „Podejmując zatem decyzję o uwzględnieniu bądź nie wniosku o wstrzymanie wykonania nakazu zapłaty Sąd winien przede wszystkim rozważyć, czy przedstawione w zarzutach okoliczności wywołują wątpliwości co do zasadności wydanego nakazu zapłaty.”\n- I ACz 390/13 — podane w odpowiedzi: sąd Sąd Apelacyjny w Rzeszowie (z tekstu), data —\n    · wynik wyszukania: znaleziono (SAOS); w źródle: Sąd Apelacyjny w Rzeszowie, 2013-06-21\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · teza 1 (referowana): Niepowetowaną szkodą wynikającą z wykonania nakazu zapłaty jest uszczerbek, którego pozwany nie zdoła zrekompensować kosztem powoda w razie uchylenia nakazu, np. z uwagi na złą kondycję finansową pow… — kotwica: „Z uzasadnienia niniejszego wniosku nie wynika też w sposób jednoznaczny, że na skutek wykonania nakazu pozwanym zostanie wyrządzona niepowetowana szkoda, tj. taki rodzaj uszczerbku, którego pozwany nie będzie mógł zrekompensować kosztem powoda gdy nakaz zosta…”\n    · teza 2 (ratio): Przewidziana w art. 492 § 3 k.p.c. możliwość wstrzymania wykonania nakazu zapłaty odnosi się do nakazu jako tytułu wykonawczego, a nie jako tytułu zabezpieczającego, którego cech orzeczenie to nie tr… — kotwica: „Możliwość wstrzymania wykonania nakazu zapłaty na podstawie art. 492 § 3 k.p.c. nie dotyczy natomiast nakazu zapłaty jako tytułu zabezpieczającego. Za taką oceną przemawia głównie fakt, że tytuł zabezpieczający nie podlega wykonaniu w sposób porównywalny z wy…”\n    · teza 3 (ratio): Rozpoznając wniosek o wstrzymanie wykonania nakazu zapłaty wydanego na podstawie weksla, sąd powinien posiłkować się przesłankami zawieszenia rygoru natychmiastowej wykonalności wyroku zaocznego z ar… — kotwica: „Przepis art. 492 § 3 k.p.c. nie precyzuje kryteriów, którymi sąd winien się kierować przy rozpoznawaniu wniosku o wstrzymanie wykonania nakazu zapłaty wydanego na podstawie weksla i dlatego też przyjmuje się, że posiłkowo należy kierować się przesłankami z ar…”\n    · teza 4 (ratio): Ocena zasadności wniosku o wstrzymanie wykonania nakazu zapłaty wymaga w pierwszej kolejności zbadania, czy podniesione w zarzutach okoliczności wzbudzają wątpliwości co do prawidłowości wydanego orz… — kotwica: „Podejmując zatem decyzję o uwzględnieniu bądź nie wniosku o wstrzymanie wykonania nakazu zapłaty Sąd winien przede wszystkim rozważyć, czy przedstawione w zarzutach okoliczności wywołują wątpliwości co do zasadności wydanego nakazu zapłaty.”"
+}

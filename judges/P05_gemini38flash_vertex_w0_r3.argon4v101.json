@@ -1,0 +1,109 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) w brzmieniu od 1.06.2026 (Dz.U. 2025 poz. 1172)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131 § 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131¹ § 2¹ K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2026 poz. 3 (t.j.)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpadł w pułapkę aktualności, opierając odpowiedź na brzmieniu art. 131¹ᵃ § 1 k.p.c. sprzed 1.06.2026 r. i twierdząc, że osobie fizycznej działającej bez pełnomocnika nie można doręczać pism przez Portal Informacyjny (A_R=0, A2=0, K[0]=1). W A6 otrzymuje 0 (typy W i T) m.in. za podanie nieaktualnego stanu prawnego art. 131¹ᵃ § 1 k.p.c., przypisanie art. 131¹ § 2¹ k.p.c. (dotyczącemu rezygnacji z doręczeń elektronicznych) normy o 14-dniowej fikcji doręczenia oraz błędne twierdzenie, że obowiązek stosowania e-Doręczeń przez sądy został przesunięty komunikatami na lata 2024–2025 (podczas gdy art. 155 ust. 7 u.d.e. wyznacza termin 1.10.2029 r.). Żaden element rubryki nie został spełniony dla strony będącej osobą fizyczną (R=[0,0,0,0]), a rozbudowany wywód o systemie e-Doręczeń (PURDE/BAE) stanowi dygresję obniżającą A8 do 0.5. W bloku B odpowiedź dostaje B1=0, gdyż zapewnienie, że pobranie pisma z portalu nie rozpoczyna biegu terminów procesowych, naraża stronę na utratę terminu, natomiast B2=1 za kategoryczną kalibrację zgodną z oczekiwaną.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "\"131\" \"1311a\" \"1311\" OR OR",
+   "\"ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych\" OR",
+   "\"art. 131\" \"operatora pocztowego\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego\" OR OR",
+   "\"DU/2026/468\" OR \"2026/468\" \"131\" OR OR",
+   "\"dokonuje doręczeń przez sistem teleinformatyczny\" OR \"za pośrednictwem systemu teleinformatycznego, jeżeli adresat\" kpc",
+   "\"art. 1311\" \"§ 21\" OR \"§ 2\" \"systemie teleinformatycznym\" kpc",
+   "\"1311a\" \"§ 2\" \"§ 3\" \"portalu informacyjnym\" kpc",
+   "\"131\" \"operatora pocztowego\"",
+   "\"2026\" \"468\"",
+   "\"2025\" \"1172\"",
+   "\"o doręczeniach elektronicznych\" \"2020\"",
+   "\"eli.gov.pl\" \"Kodeks postępowania cywilnego\" \"468\"",
+   "\"eli.gov.pl\" \"o doręczeniach elektronicznych\" \"2020\"",
+   "\"Przewodniczący zarządza odstąpienie od doręczenia pisma za pośrednictwem portalu informacyjnego\"",
+   "\"W przypadku braku dokumentu potwierdzającego doręczenie\" \"portalu informacyjnym\"",
+   "\"155\" \"ust. 7\" \"o doręczeniach elektronicznych\" \"2029\"",
+   "\"Sądy i trybunały\" \"155\" \"o doręczeniach elektronicznych\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12565,
+   "wyjscie": 1740
+  },
+  "czas_s": 243,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

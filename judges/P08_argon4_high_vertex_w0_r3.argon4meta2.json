@@ -1,0 +1,90 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727: „60) „deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub prawdziwe;”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727: „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727: „1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste...”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727: „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. (...) Obowiązek ten nie ma zastosowania w zakresie, w jakim systemy AI pełnią funkcję wspomagającą w zakresie standardowej edycji...”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie (UE) 2024/1689 z 13.06.2024 r. (Dz.U. UE L 2024/1689 z 12.7.2024) — tytuł i stosowanie art. 50 od 2.08.2026 r.",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 oraz 02024R1689-20260727 (art. 113)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozdziela brak obowiązku podmiotu stosującego z art. 50 ust. 4 AI Act od niezależnego obowiązku dostawcy z art. 50 ust. 2 AI Act, jednak zawęża przesłankę „istniejącej osoby” z art. 3 pkt 60 wyłącznie do imitacji konkretnego istniejącego człowieka (wykluczając realistyczny generyczny głos lektorski), co zgodnie z regułą z 2026-10-19 stanowi błąd wykładni wbrew wytycznym KE C(2026) 5054 i obniża A-R do 1 (bez halucynacji w A6). Punkt za A3 wynosi 0 z uwagi na dodany spójnik „i” wewnątrz cudzysłowu przy cytowaniu art. 3 pkt 60 AI Act („podmioty lub zdarzenia i które odbiorca” zamiast „podmioty lub zdarzenia, które odbiorca”). Wszystkie powołania przepisów (w tym pełny tytuł rozporządzenia 2024/1689 w przypisie, w którym parser błędnie rozpoznał wymienioną w tytule dyrektywę 2014/90/UE jako osobny akt) są zgodne z tekstem urzędowym w EUR-Lex. W rubryce odpowiedź nie odnotowuje wprost, że kryterium definicji nie jest subiektywna intencja wprowadzenia w błąd (R2=0), oraz nie powołuje wytycznych KE ani kodeksu praktyk (R6=0).",
+ "_meta": {
+  "sedzia": "argon4meta2",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689 z dnia 13 czerwca 2024\"",
+   "\"32024R1689\" \"12.7.2024\"",
+   "\"Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych\" \"standardowej edycji\"",
+   "\"Obowiązek ten nie ma zastosowania w zakresie, w jakim systemy AI pełnią funkcję wspomagającą\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO6yS9v9ZU3AvCSi9aRYleTte7XZI2Dd3CKJfVEzrvp_2fA0AxjpMc2tqlc-xSaB3yQVKRs14KoRWhwaONKOyRt4lCP-lNNX_whGkU4uz4kljVaZaOnIiTYbAsBR3E2zfgdpLCXGQpnCeGmU9x0Zhl2ITfwiByVgTBx1EulDHhG_3z_I8MGODUoC0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGaXo-oIfzAE86Ki0hyyqMqkq7BeIoIybcsGGIHx9E0tPU0BdT3YS1IKDxquxSB1q3ayIrZL6nJlFuOAJ1ugUbzLoZArnxPzKRodq21sAN8HFBLGbxvosApnHXgU80Lg-qcfpcq4Ycq0PvIA-PvEAM1gl4XJlUpIjRrWZCELs7XX4Ckgvor4brdfgTkmaF-dmOj4gbRbJiaVg-B3j-L9ef5G3FYak_VIiwC_yUh_eai8tT1V_P3FUOWfk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsC-ONKibXBXeoibl3lLd87QYsxq-ptm8VcHDVmUL_89r8iXCK4qIgmz-ZJIrln8Yw1ijDk0LxMoMHBU5gNPPilndc7UzLgbMPo5HRh3u3fQwoPzL0GOAIBXXSOnAhBT50P97ehm8sk8GmF1eZ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNrDfmX3Hoe5CxrhNyr-mp_4KXQUByIe2Dex9BS4QD0Lka3ZzB8xnZ8IPmga-5KDF7IivspuX0O7v1dMJGjm3fYAbBxIQjE16Z_kHFwWZ7-Honq3KNPbW1KKX37MluQu8yd-lcVxySNRlb1uDTijOOXpuD_iu27K8OHnoOyP3ck_w=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2aF0NgHRQh5PL4r0wM5sPV9xa4u0Wvw4YDXh2XdGkhnQyMrqDuziTY788ZnIfxJgpADDX8aGDKaguYSqmvG6H6x_B7QkJTu8Vdxv0PRIPKx3k6cT-XBncgN1SwP_6CHauVfblVdiZgxNeagCfU40soidhdIdhLw=="
+  ],
+  "tokeny": {
+   "wejscie": 20819,
+   "wyjscie": 1404,
+   "rozumowanie": 7602
+  },
+  "czas_s": 124,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 11, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 3 pkt 60 AI Act [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten zawiera legalną definicję pojęcia „deepfake”, określając je jako wygenerowane lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące obiekty i mogą zostać niesłusznie uznane za auten…”\n    · uzasadnienie weryfikatora: Wskazana jednostka (art. 3 pkt 60 AI Act) wprost zawiera przytoczoną definicję legalną pojęcia „deepfake”.\n    · kotwica (verbatim ze źródła): „60) „deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub pra…”\n    · brzmienie jednostki (fragment): „Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szko…”\n- 2. art. 3 pkt 60 AI Act [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · cytat w odpowiedzi: niedosłowny (pokrycie dwuwyrazów 0.97)\n    · flagi kroku faktów: niedoslowny\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z tym przepisem „deepfake” oznacza wygenerowane lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia i które odbiorca mógłby niesłusz…”\n    · uzasadnienie weryfikatora: Twierdzenie wiernie oddaje treść definicji zawartej w art. 3 pkt 60 AI Act.\n    · kotwica (verbatim ze źródła): „60) „deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub pra…”\n    · brzmienie jednostki (fragment): „Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szko…”\n- 3. art. 50 ust. 4 AI Act [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten nakłada na podmiot stosujący system obowiązek wyraźnego oznaczania treści jako deepfake dla odbiorcy końcowego.”\n    · uzasadnienie weryfikatora: Przepis nakłada obowiązek ujawnienia, że treści deepfake zostały sztucznie wygenerowane lub zmanipulowane (wymóg „wyraźnego” przekazania informacji znajduje się w sąsiednim ust. 5 tego samego artykułu, a twierdzenie pomija wyjątki z ust. 4).\n    · kotwica (verbatim ze źródła): „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane.”\n    · brzmienie jednostki (fragment): „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowania, w przypadku gdy wykorzystywanie jest dozwolone na mocy prawa w celu wykrywania przestępstw, zapobiegania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców. W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze…”\n- 4. art. 50 AI Act [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten reguluje obowiązki informacyjne, czyli obowiązki przejrzystości na gruncie AI Act.”\n    · uzasadnienie weryfikatora: Tytuł oraz treść art. 50 AI Act wprost regulują obowiązki w zakresie przejrzystości (informacyjne).\n    · kotwica (verbatim ze źródła): „Artykuł 50 Obowiązki w zakresie przejrzystości dla dostawców i podmiotów stosujących niektóre systemy AI”\n    · brzmienie jednostki (fragment): „Artykuł 50 Obowiązki w zakresie przejrzystości dla dostawców i podmiotów stosujących niektóre systemy AI 1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzys…”\n- 5. art. 50 ust. 1 AI Act [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z tym przepisem, w przypadku systemu AI przeznaczonego do bezpośredniej interakcji z osobami fizycznymi, dostawca musi zaprojektować system tak, aby osoba fizyczna była poinformowana o wchodzeniu w interakcję z AI, chyba że jest to…”\n    · uzasadnienie weryfikatora: Twierdzenie stanowi trafną parafrazę normy zawartej w art. 50 ust. 1 zdanie pierwsze AI Act.\n    · kotwica (verbatim ze źródła): „1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że j…”\n    · brzmienie jednostki (fragment): „1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzystywanie jest dozwolone na mocy prawa do celów wykrywania przestępstw, przeciwdziałania im, prowadzenia po…”\n- 6. art. 50 ust. 2 AI Act [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten nakłada na dostawców systemów AI generujących syntetyczne treści audio obowiązek zapewnienia, aby wyniki działania systemu były oznakowane w formacie nadającym się do odczytu maszynowego jako sztucznie wygenerowane, z wyjątkiem…”\n    · uzasadnienie weryfikatora: Przepis wprost reguluje ten obowiązek oraz wskazany wyjątek w odniesieniu do syntetycznych dźwięków (pominięcie pozostałych kategorii treści oraz innych wyjątków wynika z dopasowania do pytania i stanowi nieszkodliwe pominięcie).\n    · kotwica (verbatim ze źródła): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykr…”\n    · brzmienie jednostki (fragment): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych w zakresie, w jakim jest to technicznie wykonalne, uwzględniając przy tym specyfikę i ograniczenia różnych rodzajów treści, koszty wdrażania oraz powszechnie uznany stan wiedzy te…”\n- 7. art. 3 pkt 60 [akt: nieustalony (w zdaniu inny akt: dyrektyw 2014/90)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: dyrektyw 2014/90\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 8. art. 50 ust. 1 [akt: nieustalony (w zdaniu inny akt: dyrektyw 2014/90)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: dyrektyw 2014/90\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 9. art. 50 ust. 2 [akt: nieustalony (w zdaniu inny akt: dyrektyw 2014/90)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: dyrektyw 2014/90\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 10. art. 50 ust. 4 [akt: nieustalony (w zdaniu inny akt: dyrektyw 2014/90)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: dyrektyw 2014/90\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 11. art. 50 [akt: nieustalony (w zdaniu inny akt: dyrektyw 2014/90)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: dyrektyw 2014/90\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

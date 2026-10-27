@@ -1,0 +1,91 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ogólne powołanie orzecznictwa SN: sama formuła o wszystkich polach nie spełnia wymogu ich wyraźnego wymienienia",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iv%20cskp%2044-21.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 65 pr.aut. — ryzyko zakwalifikowania umowy jako licencji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 pr.aut. — przykładowy katalog pól eksploatacji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 pkt 3 pr.aut. — publiczne udostępnianie w wybranym miejscu i czasie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 2 i art. 46 pr.aut. — umowne uregulowanie korzystania z opracowań i praw zależnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 43 i art. 45 pr.aut. — wynagrodzenie i odrębne pola eksploatacji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "eIDAS — kwalifikowany podpis elektroniczny",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2014/910/oj/pol",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie przedstawiono odpowiedzi tego samego systemu na P09, dlatego nie można ustalić sprzeczności wymaganej do naliczenia K2.",
+  "Ogólna deklaracja o ugruntowanym stanowisku doktryny nie wskazuje publikacji pozwalającej zweryfikować jej reprezentatywność."
+ ],
+ "uzasadnienie": "Odpowiedź zaprzecza przesłance, wskazuje wymagane podstawy, przykłady pól dla social mediów oraz formę pisemną pod rygorem nieważności. Cytat art. 41 ust. 2 jest niedosłowny względem aktualnego tekstu: przepis mówi „lub licencja obejmują” i „w nich”, co obniża wyłącznie A3 zgodnie z regułą B10. Brakuje liberalnej wykładni z art. 65 k.c., dlatego R5 wynosi 0, ale ostrożnościowe określenia skutków jako możliwości i ryzyka nie uzasadniają zarzutu kategorycznej bezskuteczności. Wzmiankę o zgodzie na modyfikacje odczytano jako zalecenie umownego zabezpieczenia interesów zlecającego, a nie twierdzenie, że art. 2 zawsze uzależnia samo sporządzenie opracowania od zgody. Nie stwierdzono fałszywego powołania, a uwagi dodatkowe pozostają związane z omawianą umową.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 12,
+  "czas_s": 85,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

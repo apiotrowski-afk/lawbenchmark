@@ -1,0 +1,104 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SA w Szczecinie z 18.07.2013 r., I ACz 390/13",
+   "zrodlo": "SAOS 14498 (rzeczywiste: SA w Rzeszowie z 21.06.2013 r.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "postanowienie SA w Gdańsku VIII Gz 43/16",
+   "zrodlo": "SAOS 213643 (rzeczywiste: SO w Szczecinie)",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "postanowienie SN I CZ 83/09",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest w pełni trafny (A-R=2), system prawidłowo rozróżnia funkcje nakazu. Występują jednak halucynacje orzecznictwa (A6=0): orzeczenie VIII Gz 43/16 przypisano błędnie SA w Gdańsku zamiast SO w Szczecinie (błąd S). Orzeczenie I ACz 390/13 przypisano SA w Szczecinie z błędną datą, podczas gdy rzeczywiste orzeczenie SA w Rzeszowie pod tym adresem SAOS nie zawiera przypisanej tezy (błąd T). Ponadto w źródłach powołano nieadekwatne postanowienie SN I CZ 83/09 dotyczące art. 396 k.p.c. (błąd T). Mimo to odpowiedź jest wysoce przydatna i kategoryczna (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"I ACz 390/13\" \"Szczecinie\"",
+   "\"VIII Gz 43/16\" \"Gdańsku\"",
+   "\"I CZ 83/09\" \"SN\"",
+   "\"14498\"",
+   "\"I ACz 390/13\" \"Szczecin\"",
+   "\"I ACz 390/13\" \"Rzeszów\"",
+   "\"14498\" \"I ACz 390/13\"",
+   "\"I ACz 390/13\" \"Sąd Apelacyjny w Szczecinie\"",
+   "\"I ACz 390/13\" \"Sąd Apelacyjny w Rzeszowie\"",
+   "\"I ACz 390/13\"",
+   "\"I ACz 390/13\" \"nie odbiera nakazowi cech tytułu zabezpieczającego\"",
+   "\"I ACz 390/13\" \"tytułu zabezpieczenia\"",
+   "\"I ACz 390/13\" \"wstrzymanie wykonania\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeFIqeaC12nbNmrQ7UuyccdWUHvjCX8T39uYdk-6udORiGBjxEdIdkmXYEVh4NTPeEH9saZgfjylAT5dHDQw71pniGHC42Tg992dRylUeHOoqT2GTRaI7A-uXGEQQ-T1E83S_7_Z7sWLBSg47MJyKsHvaSzVFdDD8ngPIdhezHYHPmKUrAW60ncqjzAS71t972R_joMZFzN3YsTPg",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwLTR0dH8FKac6bPLCyl2QKa27aw5ySxAclnExrBvtsX5f6Zp_-iw19kgQjx_5mHLnG20VS1got1f07DP3h4lWXxGyeM_VM09iyFItB2Km3_CFbxAGt7nNEswsR63wA518n2jQkujnPxp_qoxkyfPFFj83-L5NZfqwczCkzkdP0LNFwlEGln9PjzYq-4RGASf47Uf0hg0XYi7wlrqANQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvbVuw3Rz3Xoh01pPkvElfpoE7ti5Purwkjh8EsVjsZMgaD9A2h4bYCIjA-Odr8iakYZEEqjrVa1ivQ9rr8qOXvR9Frc8CcwLXF6I6ONoMpqz1xrePFllFfbgS0S5O41jWIj4JRrE4cWA533PYQ_li81dvXJROUcopWzI7H22q-MbnqWhkmFWDAh3kyMnf81Og4NiQhTP4XVkXSbsyW_ICQK4J-KOR9YYdW8AERKCL7hcgKSuNVNLf"
+  ],
+  "tokeny": {
+   "wejscie": 11933,
+   "wyjscie": 875
+  },
+  "czas_s": 166,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 328 § 1 i § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=63",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=63",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=63",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 5 oraz ogólne odesłanie do art. 357 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=67",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130¹ § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=27",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=69",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje możliwość złożenia wniosku, ale nie wyjaśnia odrębności zasadniczych powodów od uzasadnienia ani warunku zaskarżalności i nie powołuje wymaganego art. 357 § 1 lub § 2¹. Art. 130¹ § 2 dotyczy zwrotu pisma i odrzucenia wskazanych środków po nieusunięciu braków, a nie obowiązku żądania uzasadnienia, co stanowi T; pochodzenie błędu jest nieustalone. Zaliczono tygodniowy termin od ogłoszenia wskazany w zaleceniu oraz wzmiankę o odrzuceniu nieopłaconego wniosku. A8 wynosi 0, ponieważ objętościowo przeważa omówienie wyroków i apelacji zamiast postanowienia objętego pytaniem. Przydatność jest częściowa, a wielokrotne deklarowanie niepewności co do jasnej regulacji uzasadnia B2 = 0.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 8,
+  "czas_s": 48,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

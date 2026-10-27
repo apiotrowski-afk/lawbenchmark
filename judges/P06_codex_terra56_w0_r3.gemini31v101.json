@@ -1,0 +1,73 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c. w zw. z art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń trafia w jedną gałąź pytania warunkowego (zażalenie poziome), pomijając zażalenie dewolutywne (A-R=1). Brak wymaganych podstaw prawnych (A2=0). System powołuje nieistniejącą jednostkę redakcyjną – art. 394² § 1 pkt 12 k.p.c. (art. 394² § 1 nie dzieli się na punkty, a § 1¹ kończy się na pkt 5¹), co stanowi halucynację typu F (A6=0). Odpowiedź kategoryczna z pominięciem warunku skutkuje brakiem punktu za kalibrację (B2=0) oraz naliczeniem kary za jednoznaczną odpowiedź bez rozróżnienia.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 394 ze zn 2\" \"k.p.c.\"",
+   "\"art. 394(2)\" \"k.p.c.\"",
+   "\"art. 394\" \"k.p.c.\" \"odrzucenie zażalenia\"",
+   "\"art. 394(2) § 1(1)\" \"k.p.c.\"",
+   "\"art. 394 ze zn 2 § 1 ze zn 1\" \"k.p.c.\"",
+   "\"Art. 394(2).\" \"Zażalenie do innego składu sądu drugiej instancji\"",
+   "\"Art. 394 ze zn 2\" \"Zażalenie do innego składu sądu drugiej instancji\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPEFjXLOb_2I4XT3naZt4Kiom-VN3Gv4GMw0RKBRD-PTW1gJjSe172gexUY7M5DE2RaqSpNPfI6tVwJkr_WoZ1Xh1OwwmybJhM_IYV7RO8K-A1KCGoLl3gI962-uShWnDfOKYCEineNobkTZ8hUt7QtCNfqO6tpKO5l7a88WeCeaFnlprFOH5yD-xP5mD2X_w=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkvkdlY1546STUOAS89tHw_2nIyTDLmWJDn6GZUcDUlW2gCYWZ_aZQQyaOGUByjeVHsOFQ2Yg7sTh-mtC2gjidGx3ZcVPLgH0fRgYjgqicGJj5rwiLpvbcym67Eo4C4-OMrC6KPMHZa4ETPyPbvd8T6q7w1V2GJWtAtij4rj_R3TBDD5knZwzg7tVXaxedkfMsej0zfBFSx3G75khM",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5-j1ELNSh42N6k_IYXRGveDDDY_DKgDNNFbiCWfWX0h7vooUWSjsYwxjdCDO-DPoz4rLzNIEX9lBRbq6I3bPJjN6VzbGVJAVdN_31BxPDolMpjh7AvEJBxA_SOnYSjJLe8lfZuDchaO6MWiX-Xa4EDgVz_KXDmngAPk3pWDgL64pGpZYkR7QSM2Jz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9jhjf5jUfkOtF1MpiZEXvjs_cuMLQ5gLYis-hN3jucXlZrTxxoDXV-Jcdo4CrEAxsn7bPa8JrhuUZJJWwNy4RKqpnTVk_EYbVi0_jc24LDDnlGLlyq5PGOtQ9jAVGrh3rf1I1m3CS5MLBJv3DbIS6iW-rBxUbYGG6",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsdNALl8Fg34ipaVabw4M_j1O1TDah_GIgqNORehWUeRy6br055WhB_9Ci7d7CWtzLj584BXvgWZGvhS-oFKpgusiUu-c36tpxU0QFGbuXf1_8d8huu9px7kkjckZHus5XGxgsyVw74eAnAaQsH0EGNFN50WGSt8uG08VpVamLelgz3g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoY1y2iMl3GcqlenMTMay7F_eiPc2Cs1uLlgP80cQy01ZJ6PgO-VY5hrfB50A77mqydVfAEvjZlmUNOEDvT4TnOkC3LY7ceyeM4CYpWJRugi-GxE300kSqXMegi_7nU5H8Tjztj4EyIU-dmAXToApRTDT8eNWG3sjoxDb4mfXKo-eUGbl0aPSmq2B04qFV3azI_02WZhI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNAdcrmFA3-7gHVjzWuO07jlMj5jutN3z7pBZTkv2_NeHuh10nGp5Qe9S5RRKUpFeLBlD7OUl_pK7ALVuPmUNgCOUr2kKjfRXtvsPe_xc9Qm_S11c_rNBy9WTkc1NDlR04mMRQ984UkDHpgww0t6ypo1gPWfrQU6nJhYEkQDSniA=="
+  ],
+  "tokeny": {
+   "wejscie": 9153,
+   "wyjscie": 506
+  },
+  "czas_s": 97,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

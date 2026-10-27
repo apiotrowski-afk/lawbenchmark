@@ -1,0 +1,75 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600)",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna merytorycznie i precyzyjnie wyjaśnia, że granica wynosi sztywne 800 zł i nie zależy od płacy minimalnej od 1 października 2023 r. Podano właściwe podstawy prawne (art. 119 § 1 k.w., art. 124 § 1 k.w. oraz nowelę z 2022 r.), a wszystkie powołania są w pełni zgodne ze źródłami urzędowymi. Spełniono wszystkie elementy rubryki klucza, odpowiedź trzyma się ram pytania i cechuje się właściwą, kategoryczną kalibracją pewności.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 130\" \"kodeksu wykroczeń\" \"kradzież z włamaniem\"",
+   "\"art. 130 § 2\" kw kodeks wykroczen"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11683,
+   "wyjscie": 660
+  },
+  "czas_s": 31,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

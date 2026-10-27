@@ -1,0 +1,66 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie przedstawia pełny rdzeń już na wstępie, prawidłowo odróżniając zasadnicze powody rozstrzygnięcia od uzasadnienia postanowienia (A_R=2, B2=1). System bezbłędnie powołał wszystkie wymagane przepisy: art. 357 § 5, § 1 oraz § 2¹ k.p.c. (A2=1, A6=1). Zaliczone zostały trzy pierwsze elementy rubryki, natomiast czwarty punkt nie został przyznany z uwagi na brak wzmianki o opłacie od wniosku albo o wyjątkach z art. 357 § 2³–§ 2⁴ lub § 6 k.p.c. Jednozdaniowa formuła wniosku o uzasadnienie mieści się w granicach neutralnych dla oceny ram (A8=1, reguła graniczna 5).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" \"k.p.c.\" OR \"Kodeks postępowania cywilnego\" OR OR",
+   "\"Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu\"",
+   "\"Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia\" OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 8928,
+   "wyjscie": 692
+  },
+  "czas_s": 123,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

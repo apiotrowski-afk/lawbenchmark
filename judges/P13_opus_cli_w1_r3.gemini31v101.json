@@ -1,0 +1,112 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A6_pochodzenie": "źródło_wtórne",
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 821 § 1 i 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 109 ust. 2 u.k.w.h.",
+   "zrodlo": "Dz.U. 2026 poz. 728 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 753, 753¹, 754 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie VIII Gz 43/16",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN III CZP 58/03",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco wyjaśnia relację między wstrzymaniem wykonania nakazu a jego funkcją jako tytułu zabezpieczenia, zdobywając komplet punktów w rubryce. Niestety, system przywołał nieaktualne brzmienie art. 492 § 3 k.p.c., wymieniając 'warrant i rewers', co zgodnie z kluczem stanowi błąd wersji (W) i skutkuje oceną A6=0 oraz nałożeniem kary. Zastrzeżenie o braku weryfikacji w Dzienniku Ustaw nie zwalnia z odpowiedzialności za podanie nieaktualnego stanu prawnego. Poza tym błędem, odpowiedź jest wysoce przydatna praktycznie (B1=2) i odpowiednio kategoryczna (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13662,
+   "wyjscie": 1155
+  },
+  "czas_s": 105,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "pochodzenie": "pamięć"
+  },
+  {
+   "powolanie": "Kodeks postępowania cywilnego — utożsamienie zakresu klauzuli prawomocności i wykonalności",
+   "pochodzenie": "pamięć"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców — zezwolenie ministra w drodze decyzji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html — art. 1 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a. — ostateczność decyzji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf — art. 16 § 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. — decyzja ministra jest ostateczna z chwilą doręczenia lub ogłoszenia, przysługuje co najwyżej skarga",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf — art. 127 § 3 przewiduje wniosek o ponowne rozpatrzenie sprawy; art. 16 § 1 uwzględnia ten środek przy ostateczności",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Prawo o postępowaniu przed sądami administracyjnymi — skarga i brak automatycznego wstrzymania wykonania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text/T/D20260143L.pdf — art. 52 § 3 oraz art. 61 § 1–3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks postępowania cywilnego — klauzula prawomocności i wykonalności dotyczy tytułów egzekucyjnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — art. 364 dotyczy stwierdzenia prawomocności orzeczenia, natomiast art. 776–777 dotyczą tytułów egzekucyjnych i klauzuli wykonalności",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustawa o nabywaniu nieruchomości przez cudzoziemców — ważność zezwolenia i warunki decyzji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html — art. 2 ust. 2 i art. 3 ust. 2",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź koryguje formę decyzji i wskazuje zaświadczenie organu, lecz przedstawia przede wszystkim ostateczność, a prawomocność jedynie nawiasowo, bez rozróżnienia przesłanek i mechanizmu trzydziestodniowej skargi do WSA. Brakuje wymaganych podstaw z art. 16 § 3 i art. 217 § 2 pkt 2 k.p.a.; pominięcie wniosku w parafrazie art. 16 § 1 samo nie obniża A6. Przypisanie art. 127 § 3 natychmiastowej ostateczności decyzji ministra jest jednak fałszywe, ponieważ przepis przewiduje ponowne rozpatrzenie sprawy; dodatkowo błędnie połączono prawomocność z tytułami egzekucyjnymi. Nie naliczam K3, ponieważ odpowiedź dopuszcza prawomocność decyzji, ale błędna wskazówka dotycząca momentu ostateczności ogranicza B1 do 1. Uwagi o ważności zezwolenia i egzekucji wykraczają poza pytanie, co obniża A8.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 53,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

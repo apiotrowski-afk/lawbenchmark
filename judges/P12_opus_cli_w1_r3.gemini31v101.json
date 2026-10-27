@@ -1,0 +1,93 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 6.12.2012 r., III CSK 43/12",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, prawidłowo wyjaśniając, że nie ma klauzuli 'bez ograniczeń' i wskazując na różnicę między art. 787 a 787¹ k.p.c. System trafnie realizuje wszystkie elementy rubryki, w tym rozwidlenie na dwie ścieżki oraz sprostowanie numeru przepisu z pytania. Powołane przepisy i orzeczenie SN (III CSK 43/12) są w pełni zgodne ze źródłami oficjalnymi. Odpowiedź jest wysoce przydatna dla prawnika (B1=2) i odpowiednio warunkuje konkluzję (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 41\" \"k.r.o.\" \"Jeżeli małżonek zaciągnął zobowiązanie bez zgody\"",
+   "\"art. 41\" \"k.r.o.\" \"przedsiębiorstwa\"",
+   "\"III CSK 43/12\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHtH1NHs2Ywxu2kQ74gpCNf4iCV3-ouC5BctPQl0T0Tp0dfqOydhBGquefnztS_SE5Wj085WDsEmys4Z-3TXpj3_6fhbyO_9mMqxjYRETbS-g9iUDtauTSuL4EREgI5LqEE3N5wQlgucOH4elS10AgkJJACZPtaQ_uldUp04d5fQpUL0x-2FF8FHHYkyJVSQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL2D4elVo8UxtffENFhXvxmIdDAoCP3LzJz-uNDXVp5Cx4Nrg4lkHzXuYYwg5mXRk91Uzpm7hPpVYfzwgDZfS1kbXmPnOsgi5mdzHQd_yvLaf4keg6Oe5h9on3QHLImN78Sv0j-7wExvcm1cRFVpk2YmUGnBrbQ_eWJtvaNA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES7_ZE1RvA4BPt9T4NKggX6aU0pJzxGjdT2YXkSO2qnfiDwlzjcecHtFtdjJ65UT6RxYz_5vCA31ZxZgic_wZ6OOx07vbX0h3qX5OZX43_tryv8SViunqJdIgpdYLgtIgNfcNgt8Cs6eFdKN8onG-MlbHwu3q0ulEW7E1OoHtzRKcLKbjpu1bVRjo5ulPE4TY5VRSpD9WyngbLlEyasQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0iq_GmfNR6KB4KTE9Gy1jIb7RVAErciOlC8TdxDFRyeAkZgLThks1oHhTe6EympTbSZjIeQJ-cFh1PZLmBXP2-_6-yWPdZ5RKSoFmZr0nx9yiwsPa_M_17NhBBOvzvcstFSDqHT2RryqHsU1ZevTCBlyEQJQD7pi3RNBKDAjRVmo5-9VDL6njFiFDuvXqInAL70iBEielmW1BGE1Ns9m4tgzOij_3Azdkt-_pQAcD-Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBIJvLQxwaw2Q89vRS0T62el5EEEfiVsTgyiIMvpcnKRZy1un5ORYtr5CpKMpZaeD8SlXKv3qZV1cLGotgrORAfU90QHMCMiX37SbZiKDyjjopGlO-Ze2GDAXnAgzkRYdBYc3d_Y40a90Od4MrhW1yiOUrKn-dkJERxuNCyUlGms2yZmTJKyn8GGfiUMej_eYee3rT_7M=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoRYbLqiAb-B-NoVwzXENbB18pwpa4a8gocI3Cenfm74g3k_XlTY0zHoTpq0XF9RKtV1sI62bOWcI8Rlrl9xFmg28iWjPkBE0dI7C3zEmffbwfGb2Ws_KKBEeIYBgtUQKF-isGxe_H8HuTC7KIGjT804k2BrSI0OIXmARy0hAgMQQZgLZ8gr2zJEdKaLBQM5ujKJ7atmUu",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOtAGNrtdBkxPxRQyt9MzvP2Lm0RKsiqT_l6zZOT89KC1Za2dxXj1XgQjKCZaeyg1-nzksnQAT6I8fjsoUnNWMIv5UIEDQAN8fkO26znEp2nyoCg7MrwqHhEBd0yF_FxYJRflLCA0xktQB91rUA6Mvr_fQhZUJcjaf6_2rOJ4dcDqhU5YcbeTwaZQ5BqoL4A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSVr6j_weZW0ioaxbJuENGXnYJZ8teX733KkAYegTWiBu2xWS1okB3r6NMqzRSqj1DFzeSh15u16pO83v8TYUWbvg48xwyavOf3BPQxDkOVMv_iK65j8WfUR26jQg-MlFhWeH4kc2VtOcN3HsTzaRXHYouqSahU-DSUMhA8Q4kBEW3-O8X9BbzEwV7_QccVyJq5roNQ2fem5YAyJjQfN9IIA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL6AUIaYFYABf6n5Av3GZ7LBEdML-eN1zb26eSgeU8gAx05MmSILRsvcuksfZSfnN5zpaXGQWrIT_dVKqetu0eWNdsnzooJYp_jqlT6ZpCNsaCIUnvhfYbeUTph3qnZcr4HzK-aJMG24eeLfC0H4fo5Ke5SyfNEZ0aFyeIkIAT2n37RNYdRbTun46NRHMCTPCNODzQNtLp5fQYwHEkqTEHWjFVPCBM8PW2kPK-7Q=="
+  ],
+  "tokeny": {
+   "wejscie": 12967,
+   "wyjscie": 708
+  },
+  "czas_s": 131,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 394² § 1: „Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji.” (przepis nie dzieli się na punkty; odrzucenie zażalenia poziomego w sądzie II instancji reguluje art. 394² § 1² k.p.c., natomiast pkt 12 dotyczący odrzucenia zażalenia znajduje się w art. 394¹ᵃ § 1 k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c. w zw. z art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 394 § 2 zd. 1: „Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu.” oraz art. 394² § 2: „W postępowaniu toczącym się na skutek zażalenia, o którym mowa w § 1–1², przepisy art. 394 § 2 i 3 oraz art. 395–397 stosuje się odpowiednio.”",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia wyłącznie w jedną gałąź pytania warunkowego (wskazuje zażalenie poziome do innego składu SA), pomijając przypadek odrzucenia przez SA zażalenia dewolutywnego na postanowienie sądu okręgowego (art. 397 § 1¹ k.p.c.), na które zażalenie nie przysługuje (A-R = 1, R = [0, 1, 0, 0], K = [0, 1], B2 = 0). System nie powołał żadnej z wymaganych podstaw prawnych (art. 394² § 1² i art. 397 § 1¹ k.p.c.), co skutkuje A2 = 0. Jako podstawę zażalenia poziomego w SA wskazano nieistniejącą w tym przepisie jednostkę art. 394² § 1 pkt 12 k.p.c. z treścią zapożyczoną z art. 394¹ᵃ § 1 pkt 12 k.p.c., podczas gdy art. 394² § 1 k.p.c. nie dzieli się na punkty i dotyczy odrzucenia apelacji, skargi o wznowienie oraz umorzenia postępowania apelacyjnego (A6 = 0, klasa T).",
+ "_meta": {
+  "sedzia": "argon4meta3",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 394\" \"Termin do wniesienia zażalenia wynosi tydzień\" OR OR",
+   "\"3942\" \"Na postanowienie przysługuje zażalenie do innego składu sądu drugiej instancji\" OR OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 16493,
+   "wyjscie": 984,
+   "rozumowanie": 4146
+  },
+  "czas_s": 70,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 3, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 394² § 1 pkt 12 k.p.c. [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2025-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2025-10-01, fragment): „§ 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji. § 1 1 . Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest: 1) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie, 2) oddalenie wniosku o wyłączenie sędziego, 3) zwrot kosztów procesu, o…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten stanowi podstawę prawną do wniesienia zażalenia poziomego (do innego składu tego samego Sądu Apelacyjnego) na postanowienie Sądu Apelacyjnego o odrzuceniu zażalenia.”\n    · uzasadnienie weryfikatora: Wskazany § 1 dotyczy wyłącznie odrzucenia apelacji, skargi o wznowienie postępowania i umorzenia postępowania apelacyjnego, ponadto nie dzieli się na punkty (w szczególności nie ma pkt 12). Norma dotycząca odrzucenia zażalenia znajduje się w innej jednostce redakcyjnej (§ 1[2]).\n    · brzmienie jednostki (fragment): „§ 1. Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania i postanowienie o umorzeniu postępowania wywołanego wniesieniem apelacji.”\n- 2. art. 394 § 2 k.p.c. [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (zapytano o art. 394 § 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje u…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem. Jeżeli przy wydaniu postanowienia sąd odstąpił od jego uzasadnienia, termin liczy się od dnia ogłoszenia postanowienia, a jeżeli podlegało ono doręczeniu - od dnia jego doręczenia.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepisy te stanowią, że zażalenie wnosi się do Sądu Apelacyjnego, który wydał postanowienie, w terminie tygodnia od jego doręczenia z uzasadnieniem.”\n    · uzasadnienie weryfikatora: Powołane łącznie przepisy art. 394 § 2 i art. 394[2] (w szczególności § 1–1[2] i § 2) wprost określają tygodniowy termin od doręczenia postanowienia z uzasadnieniem dla zażalenia poziomego w sądzie drugiej instancji.\n    · kotwica (verbatim ze źródła): „Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem”\n    · brzmienie jednostki (fragment): „§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu. Jeżeli przy wydaniu postanowienia sąd odstąpił od jego uzasadnienia, termin liczy się od dnia ogłoszenia postanowienia, a jeżeli podlegało ono doręczeniu – od dnia jego doręczenia.”\n- 3. art. 394² k.p.c. [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 2; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

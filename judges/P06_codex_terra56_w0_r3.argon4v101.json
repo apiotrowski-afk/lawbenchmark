@@ -1,0 +1,69 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 pkt 12 k.p.c. („odrzucenie zażalenia”)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c. w zw. z art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafia wyłącznie w jedną gałąź pytania warunkowego (zażalenie poziome do innego składu SA), co zgodnie z przykładem granicznym nr 2 dla P06 daje A_R=1, R=[0,1,0,0], karę z pkt 2 (K=[0,1]) oraz B2=0. W A2 przyznano 0 pkt z uwagi na brak wymaganych podstaw prawnych (art. 394² § 1² i art. 397 § 1¹ k.p.c.). W A6 przyznano 0 pkt (klasa F, hallucinated=true), ponieważ powołana jako podstawa prawna jednostka redakcyjna art. 394² § 1 pkt 12 k.p.c. nie istnieje (art. 394² § 1 k.p.c. nie dzieli się na punkty, a pkt 12 „odrzucenie zażalenia” znajduje się w art. 394¹ᵃ § 1 k.p.c. dotyczącym sądu I instancji). Powołanie art. 394 § 2 w zw. z art. 394² k.p.c. co do tygodniowego terminu od doręczenia postanowienia z uzasadnieniem jest zgodne z k.p.c.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"394\" \"odrzucenie zażalenia\" OR OR",
+   "\"art. 394\" \"3942\" kpc OR OR",
+   "\"394\" \"Termin do wniesienia zażalenia wynosi tydzień\" OR",
+   "\"DU/2026/468\" OR \"3942\" \"odrzuceniu apelacji\"",
+   "\"DU/2026/468\" OR \"394\" \"innego składu sądu drugiej instancji\"",
+   "\"Zażalenie do innego składu sądu drugiej instancji przysługuje na postanowienie tego sądu o odrzuceniu apelacji\"",
+   "\"W postępowaniu toczącym się na skutek zażalenia, o którym mowa w § 1\" \"394\" \"397\"",
+   "\"Art. 394[2]\" \"odrzuceniu apelacji\"",
+   "\"Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9079,
+   "wyjscie": 974
+  },
+  "czas_s": 105,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

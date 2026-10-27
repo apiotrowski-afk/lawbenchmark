@@ -1,0 +1,65 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "Dz.Urz. UE L 2024/1689 / EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "Dz.Urz. UE L 2024/1689 / EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "Dz.Urz. UE L 2024/1689 / EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni trafnie rozstrzyga pułapkę pytania: potwierdza co do zasady brak kwalifikacji jako deepfake przy braku imitacji istniejących bytów i obiektywnej możliwości błędu, a jednocześnie wskazuje na niezależne obowiązki dostawcy z art. 50 ust. 2 AI Act. Wszystkie wymagane podstawy prawne zostały powołane bezbłędnie wraz z poprawnym rozdzieleniem adresatów (dostawca a podmiot stosujący). Odpowiedź nie zawiera dosłownych cytatów w cudzysłowie, stąd A3 jest n/d. W rubryce zabrakło podania daty rozpoczęcia stosowania art. 50 oraz odwołania do wytycznych KE/soft law. Kalibracja i przydatność praktyczna stoją na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13347,
+   "wyjscie": 674
+  },
+  "czas_s": 17,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

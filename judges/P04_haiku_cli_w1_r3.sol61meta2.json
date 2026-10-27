@@ -1,0 +1,70 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców — obowiązek uzyskania zezwolenia ministra",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html — art. 1 ust. 1 przewiduje zezwolenie wydawane decyzją administracyjną przez ministra właściwego do spraw wewnętrznych; pominięcie wyjątków nie stanowi samoistnie błędu A6.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf — art. 16 § 1 uzależnia ostateczność od braku odwołania lub wniosku o ponowne rozpatrzenie sprawy. Opis ograniczony do braku odwołania odpowiada wcześniejszemu brzmieniu wskazanemu w raporcie.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. — ostateczność decyzji ministra z chwilą doręczenia lub ogłoszenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf — przepis stanowi: „strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy”. Nie ustanawia automatycznej ostateczności każdej decyzji ministra przy doręczeniu.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Prawo o postępowaniu przed sądami administracyjnymi — wniesienie skargi nie wstrzymuje wykonania decyzji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf — art. 61 § 1 przewiduje brak skutku wstrzymującego; dalsze paragrafy dopuszczają wstrzymanie wykonania. Pominięcie możliwości wstrzymania przez organ nie obniża A6.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks postępowania cywilnego — klauzula prawomocności i wykonalności dotyczą tytułów egzekucyjnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 364 § 1: „Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji”; art. 776 odrębnie reguluje klauzulę wykonalności tytułu egzekucyjnego. Odpowiedź błędnie utożsamia zakres obu instytucji.",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź koryguje formę rozstrzygnięcia i wskazuje zaświadczenie MSWiA, ale przedstawia przede wszystkim ostateczność, bez wyjaśnienia prawomocności i mechanizmu trzydziestodniowej skargi do WSA. Brakuje wymaganych podstaw: art. 16 § 3 oraz art. 217 § 2 pkt 2 k.p.a. Przyjęto W z raportu, a porównanie art. 127 § 3 ujawnia dodatkowo fałszywe twierdzenie o automatycznej ostateczności przy doręczeniu, co wpływa na praktyczne działanie i ogranicza B1 do 1. K3 nie naliczono, ponieważ odpowiedź dopuszcza prawomocność administracyjną. A8 obniżono za błędną uwagę o klauzulach oraz powtórzone zastrzeżenia dotyczące nieweryfikowania źródeł; brak cytatów oznacza A3 nd.",
+ "_meta": {
+  "sedzia": "sol61meta2",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 12,
+  "czas_s": 53,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 2, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 16 § 1 KPA [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2011-10-01, fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 16 § 1 KPA decyzja, od której nie służy odwołanie, jest ostateczna.”\n    · uzasadnienie weryfikatora: Twierdzenie definiuje decyzję ostateczną wyłącznie przez brak odwołania, co odpowiada brzmieniu wcześniejszemu z atomu 2, podczas gdy na datę stanu prawnego (atom 1) definicja obejmuje także brak wniosku o ponowne rozpatrzenie sprawy.\n    · kotwica (verbatim ze źródła): „Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne.”\n    · brzmienie jednostki (fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych.”\n- 2. art. 127 § 3 KPA [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 127 § 3 KPA decyzja ministra nie podlega odwołaniu i jest ostateczna z chwilą doręczenia lub ogłoszenia, ponieważ minister jest najwyższym organem w danym rodzaju spraw.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że od decyzji wydanej w pierwszej instancji przez ministra nie służy odwołanie, a odpowiedź pomija jedynie zastrzeżenie o przysługującym wniosku o ponowne rozpatrzenie sprawy (część o ostateczności to wniosek autora z wcześniejszego akapitu).\n    · kotwica (verbatim ze źródła): „Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy”\n    · brzmienie jednostki (fragment): „§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

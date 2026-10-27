@@ -1,0 +1,59 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=67",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 111 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=19",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=69",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 368 § 1 pkt 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=69",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie dopuszcza wystąpienie o pełne uzasadnienie mimo wskazania zasadniczych powodów i podaje tydzień od ogłoszenia, ale pomija warunek zaskarżalności oraz wymaganą podstawę z § 1 albo § 2¹. Art. 357 § 5 dotyczy zasadniczych powodów postanowienia, a nie wniosku o uzasadnienie wyroku. Art. 111 jest uchylony, natomiast art. 368 § 1 pkt 2 wymaga zwięzłego przedstawienia zarzutów i nie ustanawia obowiązku oparcia apelacji na uzasadnieniu wyroku; pochodzenie błędów jest nieustalone. A8 wynosi 0, ponieważ odpowiedź konsekwentnie zastępuje zagadnienie postanowienia problematyką wyroku i apelacji. Przydatność ograniczają błędne wskazówki, lecz główna teza jest kategoryczna, co uzasadnia B2 = 1.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 49,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

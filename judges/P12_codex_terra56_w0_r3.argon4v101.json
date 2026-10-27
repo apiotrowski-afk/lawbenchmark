@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń (zgodnie z przykładem granicznym 1 dla P12 przyznano A-R = 2, mimo że zaczęto od warunkowego „Tak”, ponieważ wprost wyjaśniono ograniczenie odpowiedzialności do majątku wspólnego i warunek zgody małżonka). System powołał obie wymagane podstawy prawne (art. 787 i art. 787¹ k.p.c.) oraz trafnie odwołał się do art. 41 § 1 k.r.o. i sprostował omyłkę pytającego co do art. 781¹ k.p.c., nie dopuszczając się żadnych halucynacji (A6 = 1). W rubryce zaliczono 4 z 5 elementów — zabrakło jedynie wskazania, z jakich składników majątku dłużnika można prowadzić egzekucję bez klauzuli na małżonka (art. 776¹ k.p.c. / art. 41 § 2 k.r.o.). Kalibracja jest prawidłowo warunkowa (B2 = 1), a odpowiedź zwięzła i w pełni użyteczna praktycznie (B1 = 2, A8 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "OR \"787\" \"Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim\"",
+   "OR \"781\" \"Wniosek o nadanie klauzuli wykonalności sąd rozpoznaje niezwłocznie\"",
+   "OR \"Jeżeli małżonek zaciągnął zobowiązanie za zgodą drugiego małżonka\" \"41\"",
+   "\"DU/2026/468\"",
+   "\"787\" \"przedsiębiorstwa wchodzącego w skład majątku wspólnego małżonków\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4RQMD4b-NJuPebsM4S2KljW6NyBackzvKHX-q2QA9Z0uicnNe5TakvvXNLSsMhlelAM4MuKzmZ8Dzdhvx5gfZl2-NwQ-5rrQPWfDTOv7UChFYovk3RNxvckUTqSlNWTbWQ0SdUNo8nrQ0K85Wvbbs0qDxK0MhEuFzbmwUqWOiNek74Cm-siXvNE5-CtdBrDXsEQjJwIQrNzqsu4CIGS85GJ3wW9I0RUpv-zugjFSonesQgjaThqltk9gtdNtNxU03TziipMvkQOXJ4-uRiZjh2g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER5YGH26G5Jv8_RIMnC3tG-rzK0oxmAToDzMk9Ui1tuYBVg21MSgOa06EiSWiXPC1ORgu-KbTMzhtf-GtukrVBE9g9ql_LbpEQBsWq_n2l1WRnwC2o-djFbUdyekpRg_4n",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9KG6svlwPf3aRKwOQ_sGn3UohVdznAII6Ud7CXx8ftkEds6jvV2ocb-Q0Mo02ug3E-pwjGQZOVrj1FoL25bMMUfibiR0iKh85zHHSEjxRb0QO-rWTLA0cTEAfrBkSMCKmkXWSpzFcjXgeK2eaUBatvZz2w6gE5-o5-FsBxP0XviPy4ui5GspOIV0n0gP7_CALPjRGTiwo-p1lPW-ehBBM3UzvsBjlvTXq_BBYDclQcPFF3nP6y19u4AVPcbn2CuJsOA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBRh6_39TmjTDE35MIo7gCpcgCdQeFMgzsHOUFiVs6kaz8VmDoPvQInP9PVJIBFH4XLnqCXQOXAHT2WY-J6UGwAUPKUXH6vQuuPLcGR8-YeSoK1iGlERQlpeDjotdSPDZowyts_REKpifFhUN7",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkjtmOS8jlrqSzVVwHQgGqXHwPKLX1PeJqgsC9LOMJ5EfKOYwrrrIkQzUAQZRgK4EGQ9gBo0LhJ3EUJ8zI6I9rCHlNVEirXRHDAikdAkODHwkcb087GrkI9PXaCtmWc1BVI_egpY_ONod3oEkpsCpSR6PKaFQz2X8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGUPrx-OHyy7UeCV9yPtsWRw5thHpabKa0dTCf1UGVIsOxDVj5zDlIrJlgcRsIuXk0lk1cgfMPlAPJW_uJuTkRvJhZd1Vd7S0jdxHT1GAJv-cs8Qtn7QtJonyD-G9nIX1_xp9JQhfrmljTtJQnoDl6uqw4wXEvzOziukqXjyabIeGawqWzZyASoIp-Ld8fP5VJzGUKbLdEUQ=="
+  ],
+  "tokeny": {
+   "wejscie": 10371,
+   "wyjscie": 959
+  },
+  "czas_s": 103,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

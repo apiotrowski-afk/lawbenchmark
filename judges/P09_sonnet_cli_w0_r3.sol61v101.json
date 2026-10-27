@@ -1,0 +1,117 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 79 pr.aut.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut. — nieważność umowy dotyczącej wszystkich przyszłych utworów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 79 pr.aut. — możliwość żądania trzykrotności wynagrodzenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text/T/D20260795L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ogólne odwołanie do orzecznictwa dopuszczającego wykładnię zakresu przeniesienia",
+   "zrodlo": "https://www.saos.org.pl/judgments/382410",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr.aut. — wskazówka dotycząca uregulowania wynagrodzenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 ust. 1 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje zasadniczą konkluzję i dopuszcza ustalenie zakresu przez wykładnię, lecz pomija art. 12 oraz regułę in favorem auctoris. Art. 41 ust. 4 przypisano treść ust. 3, a przy art. 79 przywołano nieobowiązującą trzykrotność wynagrodzenia. Brak cytatów przepisów w rozumieniu klucza. Rozbudowane uwagi o innych postanowieniach umowy obniżają A8. B1 ogranicza również błędna wskazówka bez powołania: domyślnie prawa przechodzą przy przyjęciu utworu, a nie przy jego powstaniu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 71,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

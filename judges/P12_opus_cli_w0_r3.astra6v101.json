@@ -1,0 +1,102 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 47 § 2 k.r.o.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o. oraz ogólne odesłanie do art. 41 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 77³ k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text/T/D20251071L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 243¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 30 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 47 § 2 k.r.o. jako podstawa skuteczności umowy majątkowej wobec wierzyciela znającego jej zawarcie i rodzaj",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 840 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ogólne odwołanie do orzecznictwa i doktryny dotyczące wykazania zgody małżonka na konkretną czynność",
+   "zrodlo": "https://www.saos.org.pl/judgments/94458",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia rdzeń, rozróżnia oba tryby zależnie od zgody i związku z przedsiębiorstwem oraz poprawnie prostuje numer przepisu. Nie wskazuje egzekucji z majątku osobistego, wynagrodzenia i dochodów dłużnika przy braku obu przesłanek. Art. 47 § 2 k.r.o. reguluje zmianę i rozwiązanie umowy majątkowej, natomiast przypisana mu treść znajduje się w art. 47¹, co oznacza T i A6=0. A8 obniżają dygresje o osobistej odpowiedzialności małżonka oraz środkach obrony. B1=1 uwzględnia niepełną ścieżkę praktyczną i mylącą wskazówkę o koniecznym istnieniu wspólności bez wyjaśnienia art. 787² k.p.c.; warunkowe rozróżnienie podstawowych trybów uzasadnia B2=1.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 85,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

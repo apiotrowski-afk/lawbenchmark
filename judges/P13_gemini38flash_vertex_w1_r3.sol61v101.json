@@ -1,0 +1,87 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 k.p.c. — dwie funkcje nakazu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c. — tytuł zabezpieczenia od wydania, bez klauzuli",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 1 k.p.c. — natychmiastowa wykonalność",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 k.p.c. — wstrzymanie wykonania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c. — zawieszenie egzekucji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2 marca 2016 r., VIII Cz 83/16",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c. — ograniczenie zabezpieczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 w zw. z art. 492 § 2 zd. 3 k.p.c. — uchylenie lub zmiana zabezpieczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 zd. 2 k.p.c. — depozyt sumy wystarczającej do zabezpieczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Deklarowana ugruntowana pozycja poglądu w doktrynie i orzecznictwie; potwierdzono zgodną tezę jednego orzeczenia, bez ustalenia reprezentatywności stanowiska."
+ ],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, obie wymagane podstawy i wszystkie elementy rubryki. Podana teza orzeczenia odpowiada uzasadnieniu postanowienia SO w Szczecinie z 2 marca 2016 r., ale właściwa sygnatura to VIII Gz 43/16, a nie VIII Cz 83/16, co stanowi S i skutkuje A6=0 oraz hallucinated=true. Pochodzenie błędu jest nieustalone, ponieważ nie przedstawiono śladu narzędzi ocenianego systemu. Pominięcie wymogu wniosku dłużnika przy art. 820 jest pominięciem przesłanki, a nie fałszywym przypisaniem treści. Brak cytatów przepisów uzasadnia A3=nd; odpowiedź pozostaje przydatna, kategoryczna i w granicach pytania.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 54,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

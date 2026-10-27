@@ -1,0 +1,101 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78 § 1–2 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 12 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie obala błędną przesłankę pytania w pierwszym zdaniu, wskazuje wymagane podstawy (art. 41 ust. 2 i art. 53 pr.aut.) oraz precyzyjnie wymienia przykładowe pola eksploatacji dla social mediów. Nie uwzględniono jednak liberalnej linii SN dopuszczającej wykładnię z art. 65 k.c. (brak R5), co przy oczekiwanej kalibracji warunkowej skutkuje również B2 = 0. W kryterium A6 naliczono błąd typu T (A6 = 0, hallucinated: true), gdyż zastąpienie formy pisemnej formą elektroniczną z kwalifikowanym podpisem elektronicznym przypisano art. 78 § 1–2 k.c. zamiast art. 78¹ k.c. (art. 78 § 2 k.c. jest uchylony, a art. 78 dotyczy wyłącznie formy pisemnej). Pod względem przydatności praktycznej (B1 = 2) wskazówki dla konstruowania umowy są w pełni wyczerpujące.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 78\" kodeks cywilny treść sejm",
+   "\"art. 78(1)\" kodeks cywilny kwalifikowanym podpisem elektronicznym"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-rWksqnbqpasnWOaY6gPrYIBVaF5CRSsU3_QS5mto9-yGcfbRpSnZizADUNhm4cf-qvw6yoPnhRKIzhAFl3v8lkTF_vY_JETk5u6OBMPe4pqZZLNHEEI5QykHgxowAAgLMXfuUez1z5yOpTDz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp86nwwI9XBHKW9WJ4TAjTZaIeIgpuxiGKgFVmy1CUij1ru8F2ouc_fynIWNgev3KxLD2HA-7he80s3F_VAFA8DFVe5b_9rSgq1XlXXVvmsxiDtdPuIWaiJhgtEQVZpIQFhChZqeataioGIMQvsA=="
+  ],
+  "tokeny": {
+   "wejscie": 11985,
+   "wyjscie": 919
+  },
+  "czas_s": 46,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

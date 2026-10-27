@@ -1,0 +1,103 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 492 § 1 k.p.c. — tytuł zabezpieczenia od chwili wydania, bez klauzuli",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 492 § 2 k.p.c. — natychmiastowa wykonalność nakazu wekslowego",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 492 k.p.c. — objęcie warrantu i rewersu aktualną regulacją natychmiastowej wykonalności",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf; https://api.sejm.gov.pl/eli/acts/DU/2019/1460/text.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 492 § 3 k.p.c. — wstrzymanie wykonania nakazu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 492 § 3 k.p.c. — przypisane odesłanie do „nakazu zapłaty, o którym mowa w § 2” oraz wymóg zgłoszenia wniosku w zarzutach",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 742 k.p.c. — odpowiednie zastosowanie do uchylenia lub ograniczenia zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 747 pkt 1–2 k.p.c. — zajęcia i hipoteka przymusowa",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 110 ustawy o księgach wieczystych i hipotece — hipoteka przymusowa na podstawie nakazu stanowiącego tytuł zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/1066/text.pdf; https://www.saos.org.pl/judgments/185409",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 744 k.p.c. — upadek zabezpieczenia po oddaleniu powództwa",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 746 k.p.c. — roszczenie o naprawienie szkody wyrządzonej wykonaniem zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 492, 492¹ oraz 742–747 k.p.c. — końcowa wskazówka sprawdzenia przepisów, bez przypisania dodatkowej treści",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dominujący pogląd komentarzy i praktyki sądowej",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643 — potwierdza kierunek wykładni, lecz nie dominację poglądu",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Dominacja wskazanego poglądu w komentarzach i praktyce sądowej; odpowiedź nie identyfikuje komentarzy ani orzeczeń."
+ ],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń i poprawnie rozdziela zabezpieczenie od egzekucji, lecz nie wskazuje zawieszenia egzekucji jako skutku wstrzymania. A2 i A6 obniżają błędne przypisanie natychmiastowej wykonalności § 2 oraz nieistniejące w § 3 odesłanie i wymóg umieszczenia wniosku w zarzutach; warrant i rewers pochodzą z dawnego brzmienia. A3 nie obniżam ponownie za fragment oceniony jako fałszywe powołanie w A6, a trzeciej kary nie naliczam, ponieważ warrantu i rewersu nie zacytowano jako brzmienia § 3. Omówienie przyszłego oddalenia powództwa i odszkodowania wykracza poza pytanie, co daje A8 = 0.5. B1 ograniczam do 1 z powodu błędnych wskazówek dotyczących umiejscowienia wniosku i nieprecyzyjnego wskazania depozytu sądowego zamiast rachunku depozytowego Ministra Finansów, natomiast kategoryczna konkluzja uzasadnia B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 118,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

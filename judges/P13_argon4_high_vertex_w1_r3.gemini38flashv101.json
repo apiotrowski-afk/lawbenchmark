@@ -1,0 +1,94 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2.03.2016 r., VIII Gz 43/16",
+   "zrodlo": "SAOS 213643",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Poznaniu z 31.05.2016 r., XV Ca 397/16",
+   "zrodlo": "Portal Orzeczeń SO w Poznaniu",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 25.01.2019 r., IV CSK 551/17",
+   "zrodlo": "Baza Orzeczeń SN / LEX nr 2618494",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni trafna merytorycznie i precyzyjnie rozróżnia funkcję egzekucyjną nakazu z weksla od jego waloru tytułu zabezpieczenia od chwili wydania. Wskazano prawidłowe podstawy prawne (art. 492 § 1 i § 3 k.p.c.) oraz skutek wstrzymania w postaci zawieszenia egzekucji (art. 820 k.p.c.). Przytoczone orzeczenia (SO w Szczecinie, SO w Poznaniu oraz SN) są autentyczne, a cytaty z nich dosłowne. Zaliczono wszystkie elementy rubryki bez naliczenia żadnej kary, przy wzorowej kalibracji pewności.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"VIII Gz 43/16\" \"Możliwość wstrzymania wykonania nakazu zapłaty nie dotyczy nakazu zapłaty jako tytułu\"",
+   "\"XV Ca 397/16\" \"Decyzja procesowa sądu o wstrzymaniu wykonania nakazu zapłaty\"",
+   "\"IV CSK 551/17\" nakaz zapłaty tytuł zabezpieczenia 742",
+   "\"IV CSK 551/17\" \"25 stycznia 2019\"",
+   "\"XV Ca 397/16\" \"poznan.so.gov.pl\"",
+   "\"XV Ca 397/16\" nakaz zapłaty zabezpieczenia",
+   "\"XV Ca 397/16\"",
+   "\"XV Ca 397/16\" hipoteki przymusowej nakaz",
+   "\"XV Ca 397/16\" \"31 maja 2016\"",
+   "\"Decyzja procesowa sądu o wstrzymaniu wykonania nakazu zapłaty ingeruje jedynie w jego rygor wykonalności\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13992,
+   "wyjscie": 701
+  },
+  "czas_s": 28,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

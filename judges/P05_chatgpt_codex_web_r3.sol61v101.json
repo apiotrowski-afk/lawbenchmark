@@ -1,0 +1,97 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, brzmienie obowiązujące od 1.06.2026, odnośnik 29",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, oświadczenie o wyborze i rezygnacji, podpisy oraz skutek rezygnacji",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, moment doręczenia i reguła 14 dni",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, odstąpienie od doręczenia ze względu na charakter pisma",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 30, doręczanie pełnomocnikowi i wezwanie strony do osobistego stawiennictwa",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 2 pkt 3 rozporządzenia Ministra Sprawiedliwości z 12 marca 2024 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf — s. 1, funkcja „Odbierz” w module „Moje doręczenia”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 3 ust. 1 rozporządzenia Ministra Sprawiedliwości z 12 marca 2024 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf — s. 1, umieszczenie treści pisma w module „Moje doręczenia”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 4 ust. 2 rozporządzenia Ministra Sprawiedliwości z 12 marca 2024 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf — s. 2, automatyczne generowanie, przekazanie i pobranie potwierdzenia",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 4 ust. 1 rozporządzenia Ministra Sprawiedliwości z 12 marca 2024 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf — s. 1, data odbioru i przesunięcie przy sobocie lub dniu wolnym",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie z 12 marca 2024 r. — Dz.U. 2024 poz. 368",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2024/368/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie zmieniające z 23 lutego 2026 r. — Dz.U. 2026 poz. 225",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/225/text.pdf — zmiany definicji i § 4 ust. 3, wejście w życie 1.03.2026",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Informacja Ministerstwa Sprawiedliwości o doręczeniach obywatelom od 1 czerwca 2026 r.",
+   "zrodlo": "https://www.gov.pl/web/sprawiedliwosc/e-doreczenia-z-sadow-nowe-mozliwosci-dla-obywateli",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, wszystkie wymagane podstawy i wszystkie cztery elementy rubryki. Powołane jednostki oraz przypisane im treści są zgodne ze źródłami oficjalnymi na datę wskazaną w kluczu. Pominięcie wyjątku w opisie art. 133 § 3 jest pominięciem, które zgodnie z regułami nie obniża A6. Nie ma cytatów przepisów ani podstaw do naliczenia kar; krótkie wyjaśnienia zakresu i doręczania pełnomocnikowi służą odpowiedzi. Wskazówki są praktyczne, a teza została postawiona z właściwą pewnością.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 8,
+  "czas_s": 91,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

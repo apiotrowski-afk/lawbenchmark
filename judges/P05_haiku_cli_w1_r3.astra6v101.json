@@ -1,0 +1,78 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 131–139 k.p.c.; końcowe odesłanie do art. 133–139; zakres art. 131–147 w tytule źródła",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133 k.p.c. jako podstawa miejsca doręczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 138 k.p.c. — doręczenie sąsiadowi lub osobie zatrudnionej w miejscu zamieszkania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 139 k.p.c. — odbiór awizowanego pisma w sądzie i jednolity termin 14 dni",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. — przypisanie regulacji kategorii profesjonalnych adresatów i e-Doręczeń",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 1361 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "Ogólne odesłanie do ustawy o doręczeniach elektronicznych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text.html",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Treść ustawy o doręczeniach elektronicznych: próba otwarcia urzędowego tekstu zakończyła się błędem; nie potwierdzono twierdzenia o równoważności ePUAP od 1 stycznia 2026 r.",
+  "Ogólne zalecenie sprawdzenia orzecznictwa SN nie identyfikuje żadnego orzeczenia do weryfikacji."
+ ],
+ "uzasadnienie": "Odpowiedź pomija wybór doręczeń portalowych przez stronę, oświadczenie, podpisy, moment doręczenia i rezygnację, przez co nie realizuje rdzenia ani wymaganych podstaw. Art. 133 nie reguluje wskazanego miejsca doręczenia, art. 138 nie dopuszcza wskazanego kręgu zastępczych odbiorców, a art. 139 przewiduje placówkę pocztową lub urząd gminy oraz ponawiane zawiadomienie siedmiodniowe. Art. 131¹ dotyczy wyboru lub wniesienia pisma przez system, natomiast art. 136¹ nie istnieje; pochodzenie tych błędów jest nieustalone wobec braku śladu narzędzi ocenianego systemu. Dygresje o doręczeniach tradycyjnych i administracyjnych przeważają, a powtarzane zastrzeżenia nie dostarczają użytecznej instrukcji i rozmywają jednoznaczny stan prawny. Kar nie naliczono: „zwykle” nie oznacza zakazu doręczania stronie przez portal, a awizo opisano jako doręczenie tradycyjne, nie portalowe.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P05",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 57,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,528 @@
+{
+ "meta": {
+  "pytanie": "P01",
+  "system": "sonnet_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P01/sonnet_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:32:54",
+  "czas_s": 3.0,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 9,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 3,
+  "flagi": {}
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 119 § 1 KW",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 119 § 1 KW",
+   "kontekst": "- art. 119 § 1 KW (kradzież, przywłaszczenie, oszustwo),",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 119 § 1 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(zapytano o art. 119 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 250 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.33
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 120 KW",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 120 KW",
+   "kontekst": "- art. 120 KW (paserstwo),",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 120 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowartości."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowartości. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowartości."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowartości."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 75 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowartości."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 122 KW",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 122 KW",
+   "kontekst": "- art. 122 KW (kradzież szczególnego rodzaju),",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 122 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze grzywny albo karze nagany…"
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze grzywny albo karze nagany…"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 500 złotych, podlega karze grzywny albo karze nagany…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 1/4 minimalnego wynagrodzenia, pod…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 122. § 1. Kto nabywa mienie wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 250 złotych, a gdy chodzi o mienie określone w art. 120 § 1, jeżeli wartość nie przekracza 75 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia,…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.33
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 124 § 1 KW",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 124 § 1 KW",
+   "kontekst": "- art. 124 § 1 KW (niszczenie, uszkodzenie mienia).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 124 § 1 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(zapytano o art. 124 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04",
+    "fragment_wczesniejszy": "§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. ⚠ Tekst jednolity drukuje 2 brzmienia §/ust. 1. Powyżej brzmienie obowiązujące od 01.10.2023."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 250 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.33
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 278 § 1 KK",
+   "akt": {
+    "nazwa": "Kodeks karny",
+    "kod_legal_cite": "KK",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 278 § 1 KK",
+   "kontekst": "Jeśli wartość mienia przekracza ten próg, czyn co do zasady kwalifikuje się już jako występek, np. z art. 278 § 1 KK (kradzież), art. 284 § 1 KK (przywłaszczenie) czy art. 288 § 1 KK (uszkodzenie mienia).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 278 § 1 KK",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/17; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1342 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(zapytano o art. 278 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 383 z 06.03.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1342 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/17 (HTML, 2023-12-07)",
+    "tj": "DU/2024/17",
+    "data": "2023-12-07"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.11
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 284 § 1 KK",
+   "akt": {
+    "nazwa": "Kodeks karny",
+    "kod_legal_cite": "KK",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "art. 284 § 1 KK",
+   "kontekst": "Jeśli wartość mienia przekracza ten próg, czyn co do zasady kwalifikuje się już jako występek, np. z art. 278 § 1 KK (kradzież), art. 284 § 1 KK (przywłaszczenie) czy art. 288 § 1 KK (uszkodzenie mienia).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 284 § 1 KK",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/17; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1342 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(zapytano o art. 284 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 383 z 06.03.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1342 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Kto przywłaszcza sobie cudzą rzecz ruchomą lub prawo majątkowe, podlega karze pozbawienia wolności do lat 3."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/17 (HTML, 2023-12-07)",
+    "tj": "DU/2024/17",
+    "data": "2023-12-07"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.11
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 288 § 1 KK",
+   "akt": {
+    "nazwa": "Kodeks karny",
+    "kod_legal_cite": "KK",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 288 § 1 KK",
+   "kontekst": "Jeśli wartość mienia przekracza ten próg, czyn co do zasady kwalifikuje się już jako występek, np. z art. 278 § 1 KK (kradzież), art. 284 § 1 KK (przywłaszczenie) czy art. 288 § 1 KK (uszkodzenie mienia).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 7,
+   "cytowanie_legal_cite": "art. 288 § 1 KK",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/17; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1342 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(zapytano o art. 288 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 383 z 06.03.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1342 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Kto cudzą rzecz niszczy, uszkadza lub czyni niezdatną do użytku, podlega karze pozbawienia wolności od 3 miesięcy do lat 5."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/17 (HTML, 2023-12-07)",
+    "tj": "DU/2024/17",
+    "data": "2023-12-07"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 2 KW",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 2 KW",
+   "kontekst": "Obowiązuje też art. 2 KW (zasada lex mitior), jeśli ustawa uległa zmianie po czynie.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 2 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 2. § 1. Jeżeli w czasie orzekania obowiązuje ustawa inna niż w czasie popełnienia wykroczenia, stosuje się ustawę nową, jednakże należy stosować ustawę obowiązującą poprzednio, jeżeli jest względniejsza dla sprawcy. § 2. Jeżeli według nowej ustawy czyn objęty orzeczeniem nie jest już zabroniony pod groźbą kary, ukaranie uważa się za niebyłe."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.17
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 12 KW",
+   "akt": {
+    "nazwa": "Kodeks wykroczeń",
+    "kod_legal_cite": "KW",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 9,
+   "napis_grupy": "art. 12 KW",
+   "kontekst": "2. Przy czynach ciągłych lub wielokrotnych (art. 12 KW i kwestia sumowania wartości) warto sprawdzić aktualne orzecznictwo SN i sądów apelacyjnych.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 9,
+   "cytowanie_legal_cite": "art. 12 KW",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2023/2119; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 1372 z 2026-10-02, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-10-02) nie weszła w życie żadna nowelizacja",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 734 z 21.05.2025, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — artykuł brzmi tak samo w tym tekście i w kolejnym (t.j. Dz.U. 2026 poz. 1372 z 02.10.2026, NIEURZĘDOWY odczyt urzędowego PDF); nowelizacje z tego okresu go nie zmieniły.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 12. Odpowiada za podżeganie, kto chcąc, aby inna osoba dokonała czynu zabronionego, nakłania ją do tego."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2023/2119 (HTML, 2023-09-04)",
+    "tj": "DU/2023/2119",
+    "data": "2023-09-04"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": [
+  {
+   "data": "2023-10-01",
+   "napis": "1 października 2023",
+   "kontekst": "Od 1 października 2023 r. (nowelizacja KW i KK, ustawa z 7 lipca 2022 r.) kwota stała 800 zł została zastąpiona odesłaniem do 1/4 minimalnego wynagrodzenia za pracę obowiązującego w dniu popełnienia…"
+  },
+  {
+   "data": "2022-07-07",
+   "napis": "7 lipca 2022",
+   "kontekst": "Od 1 października 2023 r. (nowelizacja KW i KK, ustawa z 7 lipca 2022 r.) kwota stała 800 zł została zastąpiona odesłaniem do 1/4 minimalnego wynagrodzenia za pracę obowiązującego w dniu popełnienia…"
+  },
+  {
+   "data": "2023-09-30",
+   "napis": "30.09.2023",
+   "kontekst": "- do 30.09.2023 r.: stała kwota 800 zł."
+  }
+ ]
+}

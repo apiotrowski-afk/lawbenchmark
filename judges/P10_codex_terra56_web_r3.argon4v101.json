@@ -1,0 +1,110 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78 § 1–2 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (eli.gov.pl)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 12 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaprzecza błędnej przesłance pytania i zawiera pełny rdzeń (art. 41 ust. 2 i ust. 4 oraz art. 53 pr.aut., nakaz wyliczenia pól eksploatacji z przykładami dla social mediów), lecz pomija linię orzeczniczą SN dotyczącą wykładni umowy z art. 65 k.c. (R5 = 0). Punktacja A6 spada do 0 (klasa T, hallucinated = true), ponieważ system przypisał regulację formy elektronicznej z kwalifikowanym podpisem elektronicznym i jej równoważności formie pisemnej przepisowi art. 78 § 1–2 k.c., podczas gdy art. 78 § 1 k.c. dotyczy podpisu własnoręcznego, art. 78 § 2 k.c. jest uchylony od 8 września 2016 r., a właściwą jednostką jest art. 78¹ § 1–2 k.c. Zgodnie z regułą B11 w bloku B przyznano B2 = 1 za właściwie skalibrowane stanowisko praktyczne („nie zastępuje wyraźnego wskazania”, „w praktyce nie zapewnia skutecznego nabycia”), a B1 = 2, gdyż pominięcie indeksu górnego przy trafnej wskazówce co do kwalifikowanego podpisu elektronicznego nie zmienia działania prawnika.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"art. 78\" kodeks cywilny \"kwalifikowanym podpisem elektronicznym\" isap OR eli.gov.pl OR api.sejm.gov.pl",
+   "\"art. 41\" \"art. 53\" \"art. 46\" \"art. 12\" \"art. 16\" \"o prawie autorskim i prawach pokrewnych\" eli.gov.pl OR isap",
+   "\"Art. 78.\" kodeks cywilny",
+   "\"DU/2025/24\" OR \"DU/2019/1231\" \"Art. 41.\" \"Art. 53.\"",
+   "\"Art. 41.\" \"pola eksploatacji\" \"Art. 53.\"",
+   "\"Art. 78\" \"własnoręcznego podpisu\" \"kwalifikowanym podpisem elektronicznym\"",
+   "\"Do zachowania pisemnej formy czynności prawnej wystarcza złożenie własnoręcznego podpisu\" \"uchylony\" eli.gov.pl OR sejm.gov.pl",
+   "\"DU/2025/24\" \"Art. 1.\" \"Art. 2.\" \"Art. 12.\"",
+   "\"DU/2025/24\" \"Art. 16.\" \"Art. 46.\"",
+   "\"DU/2026/795\" \"Art. 78.\"",
+   "\"Art. 16.\" \"Jeżeli ustawa nie stanowi inaczej, autorskie prawa osobiste\" eli.gov.pl OR sejm.gov.pl",
+   "\"Art. 46.\" \"Jeżeli umowa nie stanowi inaczej, twórca zachowuje wyłączne prawo zezwalania\" eli.gov.pl OR sejm.gov.pl",
+   "\"Art. 1.\" \"Przedmiotem prawa autorskiego jest każdy przejaw działalności twórczej\" eli.gov.pl OR sejm.gov.pl",
+   "\"Art. 78\" \"§ 2. (uchylony)\" \"Art. 781\" eli.gov.pl OR sejm.gov.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13536,
+   "wyjscie": 1623
+  },
+  "czas_s": 135,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 i art. 46 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2–3 dyrektywy 2001/29/WE",
+   "zrodlo": "Dz.U. UE L 167 z 22.06.2001, s. 10 (EUR-Lex)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie formułuje pełny rdzeń (A-R = 2) oraz właściwą kalibrację (B2 = 1), wskazując, że sama klauzula ogólna nie spełnia wymogu wyraźnego wymienienia pól eksploatacji z art. 41 ust. 2 pr.aut., ale umowa podlega też wykładni zgodnie z art. 65 k.c. Powołano obie wymagane podstawy prawne (art. 41 ust. 2 i art. 53 pr.aut.), a wszystkie dziesięć powołań przepisów krajowych i unijnych jest w pełni zgodnych ze źródłami oficjalnymi (A2 = 1, A6 = 1). System zrealizował wszystkie pięć elementów rubryki, w tym piąty element zgodnie z regułą B12 (wskazanie wykładni umowy według art. 65 k.c. pod kątem ustalenia sposobów korzystania z utworu). Brak dosłownych cytatów przepisów w cudzysłowie skutkuje oceną A3 = nd.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"art. 41\" \"art. 50\" \"art. 53\" \"Dz.U. 2025 poz. 24\" OR OR",
+   "\"art. 2\" \"art. 12\" \"art. 16\" \"art. 46\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"art. 65\" \"art. 78\" \"kwalifikowanym podpisem elektronicznym\" \"Kodeks cywilny\" OR OR",
+   "\"2001/29/WE\" \"Artykuł 2\" \"Artykuł 3\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji\" \"Art. 46.\" \"Art. 50.\"",
+   "\"Art. 16.\" \"Jeżeli ustawa nie stanowi inaczej, autorskie prawa osobiste chronią\" \"Art. 46.\"",
+   "\"W razie braku wyraźnego postanowienia o przeniesieniu prawa, twórca zachowuje wyłączne prawo zezwalania na wykonywanie zależnego prawa autorskiego\"",
+   "\"Odrębne pola eksploatacji stanowią w szczególności\" \"w zakresie utrwalania i zwielokrotniania utworu\"",
+   "\"o prawie autorskim i prawach pokrewnych\" \"2025\" \"24\"",
+   "\"Kodeks cywilny\" \"tekst jednolity\" \"2024\" OR \"2025\" OR \"2026\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14494,
+   "wyjscie": 1475
+  },
+  "czas_s": 112,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

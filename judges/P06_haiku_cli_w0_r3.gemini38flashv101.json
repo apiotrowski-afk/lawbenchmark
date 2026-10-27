@@ -1,0 +1,91 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 362 k.p.c. w zw. z art. 130 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168-169 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 Konstytucji RP",
+   "zrodlo": "Dz.U. 1997 nr 78 poz. 483",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 Konstytucji RP",
+   "zrodlo": "Dz.U. 1997 nr 78 poz. 483",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 EKPC",
+   "zrodlo": "Dz.U. 1993 nr 61 poz. 284",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odnosi się wyłącznie do zażalenia dewolutywnego (A_R=1), całkowicie pomijając zażalenie poziome w SA (art. 394² § 1² zd. 2 k.p.c.), co skutkuje utratą punktów w rubryce, karą za brak rozróżnienia oraz B2=0. Nie powołano żadnej z wymaganych podstaw prawnych (A2=0). A6 wynosi 0 z etykietą hallucinated (typ T), ponieważ art. 394 § 3 k.p.c. przypisano wyłączenie zażalenia na postanowienia sądu II instancji (przepis reguluje wymogi formalne zażalenia), a z art. 362 w zw. z art. 130 k.p.c. wykreowano nieistniejący sprzeciw do sądu na zarządzenie o zwrocie pisma. Dygresje dotyczące zarządzeń oraz skargi konstytucyjnej obniżają A8 do 0.5. Z powodu porad wprowadzających w błąd co do dostępnych środków i grożących uchybieniem terminom B1 wynosi 0.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 394 § 3\" kpc kodeks postępowania cywilnego",
+   "\"art. 362\" kpc kodeks postępowania cywilnego",
+   "\"art. 362 kpc\" sprzeciw"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9754,
+   "wyjscie": 823
+  },
+  "czas_s": 47,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

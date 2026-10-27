@@ -1,0 +1,118 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A6_pochodzenie": "nieustalone",
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 3 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ KC",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie zaprzecza przesłance i wskazuje, że pola eksploatacji należy wyraźnie wymienić, powołując prawidłowo art. 41 ust. 2 i art. 53 pr. aut. (A-R = 2, A2 = 1). Odpowiedź zawiera jednak halucynację: powołuje nieistniejącą jednostkę redakcyjną art. 65 ust. 1 pr. aut. jako podstawę reguły in favorem auctoris (art. 65 pr. aut. nie dzieli się na ustępy i dotyczy domniemania licencji, a reguła ta wywodzi się z art. 65 k.c.), co skutkuje A6 = 0 (klasa F). Pozostałe powołania są poprawne. Odpowiedź jest bardzo przydatna praktycznie (B1 = 2) i dobrze skalibrowana (B2 = 1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 65\" \"ustawy o prawie autorskim i prawach pokrewnych\"",
+   "\"art. 65 ust. 1\" \"pr. aut.\"",
+   "\"art. 41 ust. 2\" \"ustawy o prawie autorskim i prawach pokrewnych\"",
+   "\"art. 50 pkt 3\" \"ustawy o prawie autorskim i prawach pokrewnych\"",
+   "\"art. 43 ust. 1\" \"ustawy o prawie autorskim i prawach pokrewnych\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENH4U7enB6zuqH5eOVZPJixPgmsgjBmMF6A9Ejd3f-uYkk6yFnNaOxpu5iguljKhhN2qK7iWPHZTY6hTUpx_hATkFyqzgw2H-Hh1UOeySMQfjJG5FbdScgP7ZR7qJRsvXD88s18x02WibrDs4fEBTC8sbZ4soicsvpNZDPya6jhBD2jg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElWOsJWFYLF9grrfH0htFUsHQgZTztYj3HdcjMYRRZM5K4ZVFOhOelEEnI98oF6KwrMdT1evs6sqkSOuxMwod4sZJK050rr-kKOW_i2m3h3xjN8ekx_RkDbavF1BFwdC2Uexs9Fp2JVY2Fc0zssjaQZ_pSiz90_LEaV52qJGzIho0WMdf33WB8NmUArE7bfQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoqWSYL6mOUbmZFXMSZooSs3X6fMosFyWirHeW2pWdwcR5KK1d5R3VbJRi4WL9aHhwEQByLSt931YQ4NS9yXurr677ZR-ins9TEc_5gCuMlwD3N_l_TLeBuBClH1XnA4-ri1EYcnxNf3Z7Hnv0J1Unll_WQSpN3rOXu3dFukzg0YGNuWGP8ykKCiRYofIi4WKWc2sR3aXhdIePg3YQpnRBdnNOshUlqVc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKulJRe9i1q0Og5uUjh0OiDUcGe9t8bvRnH8HhcNxWgFh7oSvUYg2JcHPQNwhcBOeD9dsjeYNk9Yzr4HH6WScBVk_LaEmP-SZ9-NLZMxkOLtlvhAUmtsTGruYYbARD6GSdy4amGYVTemxOHunsiTUqr7iROLo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLSMOShLgrXiPnWGnVkLrXYpcYLCaFSaa515YeFKuiSxBMhVuoyONu688U-RSroJsBWLp4bHVatFZj65y1a6WO62qtXCiAqTPLX0app2qYZiK36NNUlJ1IbL9ZYWiH_tFA-Uor2jQqkJZKDDYbuPTn4XMs5kCa2gshrzMStUN3a6Xe2juLRUL7LIs-pRQ5-leUHbG0SgcI-EZvXC9g9mjNBpfb9jLpJLidGUPFScqYytiIg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWgYqrlNeHW4aZBIkKAqTDtOACaZbMyw1kW1zTwocOEYzzXUbau-p9kkUc6UsoSQIBAC1KvJJWHzrlUq4a3QufPjtZBvlzQ4wp6eCNTj4A6VoIdJnCD6psOKrUW7AMKPg0wVSv-E6LYmd0E-TUHlPnUniZA99b-97M0pNZ7ddLqx2xkr78HagUXgdxpg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9Dz7UQHz9wS7e0gOtBYbbEq3uOjUD12rM_4waUh7UrBOsGC8TDXo2AsSg79Eg0MfgHFMBlJp2U-6a_xtK6iGdxUbGJcKv2IBongInTy5hUsXsejZXoJcqLwaJHy2EAuz5AqAk2aMYn9P-jf5UjaYGxz7z3_VoKqJ4z2UqHMSFZKVrHk8afsvYwsNv01ZK1WY2yOCoeK6JNue1P-Dq0AD-YHGKbpFZxfcAlGin3BmiwKpY3pV-f9ZE8WBVmvq_fW946ySY6WRzGDs24dHoWjTmXp8G0Aau8LzrtQmz5BtBDw_Fkha0iP5TsnRKDXNJz9_6L5eLKMdHp0r5Hi3K242Kr82b2swmEEdkEmdqjsudllYx1VJtdzDr1D0dVi_xMaznLbY16AZqsURA6ZXgYHCO_YDM3oVQqd9OEuUsTZfGZRU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwhEfhA_vfTND6eyrkCQBZqoatC2i5PlmYMLXfnSOe91oA70R05BGsb9odK8jRhDQJC5tQQFlMvP_iPSpkRMDljHq8-ae1FoXKOQ__XDKgWCPyZ13GUMG7fS6XbwFSK6Kf1m_bfcK3-CYjsbgCBopchL7KXPf8KCPLbG1NPl30d9gFeicyWng0tqyeSSKK0YLzbg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKdCOTmYKni9t8Oq03H_MqBjxdcWPoIO0vxMSbf31az8ld5rSL_oUUQyUZE0I9fHUTZyNktB0w1gBHvQ5qb4DJSO_T6hFBi2juzEBX-OvhVZj3M5Z10p00friBw4VgSTeECCtiawfwYZSnNJ_e"
+  ],
+  "tokeny": {
+   "wejscie": 13938,
+   "wyjscie": 1006
+  },
+  "czas_s": 147,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

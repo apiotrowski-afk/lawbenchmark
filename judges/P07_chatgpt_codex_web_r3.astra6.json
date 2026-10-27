@@ -1,0 +1,61 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 k.p.c. — ogólne odesłania",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468, s. 67](https://eli.gov.pl/api/acts/DU/2026/468/text.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 5 k.p.c., w tym zdanie drugie",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468, s. 67](https://eli.gov.pl/api/acts/DU/2026/468/text.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468, s. 67](https://eli.gov.pl/api/acts/DU/2026/468/text.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468, s. 67](https://eli.gov.pl/api/acts/DU/2026/468/text.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "[SN — oficjalny wynik wyszukiwania zawierający datę, sygnaturę i sentencję](https://www.sn.pl/orzecznictwo/SitePages/Najnowsze_orzeczenia.aspx?ItemSID=1377-301f4741-66aa-4980-b9fa-873e90506a11&ListName=Zagadnienia_prawne&Rok=2021)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie odróżnia zasadnicze powody od uzasadnienia, wskazuje warunek zaskarżalności oraz właściwe terminy i ich początki. Numery i opisy przepisów odpowiadają tekstowi urzędowemu, a tezę uchwały potwierdza sentencja dostępna w oficjalnym wyniku wyszukiwania SN, mimo niedostępności podlinkowanego PDF. Brakuje jedynie wzmianki o opłacie albo wyjątkach wskazanych w czwartym elemencie rubryki. Nie ma cytatów przepisów, a jednozdaniowa formuła wniosku nie obniża A8. Odpowiedź jest praktycznie przydatna i odpowiednio kategoryczna.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 10,
+  "czas_s": 48,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

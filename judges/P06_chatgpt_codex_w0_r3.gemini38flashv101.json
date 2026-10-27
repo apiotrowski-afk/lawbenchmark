@@ -1,0 +1,66 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ pkt 7 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje na dopuszczalność zażalenia poziomego w razie odrzucenia zażalenia wpadkowego w SA, lecz pomija sytuację zażalenia dewolutywnego (A_R=1, B2=0). Przypisanie normy dotyczącej zaskarżalności odrzucenia zażalenia do art. 394² § 1¹ pkt 7 k.p.c. (który dotyczy świadków i biegłych) stanowi klasyczną halucynację treści przepisu (klasa T, A6=0, hallucinated=true). Z tego powodu oraz wobec braku powołania art. 394² § 1² i art. 397 § 1¹ k.p.c. przyznano A2=0. Naliczono karę za kategoryczną odpowiedź 'Tak' bez przedstawienia rozwidlenia. Z rubryki zaliczono wyłącznie wskazanie zażalenia poziomego do innego składu SA.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"394(2)\" \"1(1)\" pkt 7 kpc",
+   "\"394^2\" \"§ 1^1\" kpc",
+   "\"art. 394^2\" \"§ 1^1\" pkt kpc",
+   "\"art. 394(2) § 1(1)\" sejm"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl9vffULHoj81f2hlJydEQ8oNMMSwjp_4S8gqg6gdN89309OrVJUztQgax9tiUCKTA38yUSi-sTqBFOYR7v4MvGCr9Lw1Tk9OmKNaImuyI6yuTG2t64YMLqxTadKasHyfV3XRSPZzfCZRWOEL2JRe5SYE7KTi_dxBkNW_5w9JtFOUX7Z4UVHIs9mm1SrVIx6svXj-tt7Y2d5OwIWcc",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSnjUxINK2LCzHiuoRe4FpNn4rHVLlz48uzLjxk5xnRbmSwmfKcoQgwwan7NnQolj9OcvZAWSE9L8iUXZou_k3P-YXpc87F7LY5bs3-w3xS2RcEIalHsUqoObqKki6dNb8HoHuE337P1CrFPvsOoLxATWY2oR6g76M",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0O7f9Q70wuN7OqSbqmz-X94mvwJTYr_HZ4AbmifTf-BMS-596HRBPrv_OuyGICThSS7rxSZI50V_zw4JZWkQt_dGVAmOo6iai3iK1-1k93gMtRvLwkRZTMh7cMO_3mUsuTltAUf0yxcd82IOyF7QEIuoNvbofLa89FvaWG5o_iT39XZVC6vYBs43xGKwV8Sw="
+  ],
+  "tokeny": {
+   "wejscie": 9319,
+   "wyjscie": 516
+  },
+  "czas_s": 30,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

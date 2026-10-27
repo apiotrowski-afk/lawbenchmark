@@ -1,0 +1,610 @@
+{
+ "meta": {
+  "pytanie": "P08",
+  "system": "opus_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P08/opus_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:44:27",
+  "czas_s": 0.0,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 16,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 1,
+  "flagi": {
+   "akt_nieustalony": 2
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 3 pkt 60 rozporządzenia 2024/1689",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 3 pkt 60 rozporządzenia 2024/1689",
+   "kontekst": "## 1. Definicja: art. 3 pkt 60 rozporządzenia 2024/1689 (AI Act)",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 3 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szkody oraz jej dotkliwości; 3) „dostawca” oznacza osobę fizyczną lub prawną, organ publiczny, agencję l…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 1.0
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 50 ust. 4",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 50 ust. 4",
+   "kontekst": "| Klon głosu realnej osoby w wyraźnie oznaczonej parodii | Definicyjnie nadal deepfake, ale z łagodniejszym reżimem ujawniania (art. 50 ust. 4 zd. 3) |",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 50 ust. 4 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowania, w przypadku gdy wykorzystywanie jest dozwolone na mocy prawa w celu wykrywania przestępstw, zapobiegania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców. W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze obowiązki w zakresie przejrzystości określone w niniejszym ustępie ograniczają się do ujawnienia ist…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.25
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 50",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 50",
+   "kontekst": "Obowiązki z art. 50 stosuje się od 2 sierpnia 2026 r. (art. 113).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 50 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "Artykuł 50 Obowiązki w zakresie przejrzystości dla dostawców i podmiotów stosujących niektóre systemy AI 1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzystywanie jest dozwolone na mocy prawa do celów wykrywania przestępstw, przeciwdziałania im, prowadzen…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.67
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 113",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 113",
+   "kontekst": "Obowiązki z art. 50 stosuje się od 2 sierpnia 2026 r. (art. 113).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 113 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "Artykuł 113 Wejście w życie i rozpoczęcie stosowania Niniejsze rozporządzenie wchodzi w życie dwudziestego dnia po jego opublikowaniu w Dzienniku Urzędowym Unii Europejskiej . Niniejsze rozporządzenie stosuje się od dnia 2 sierpnia 2026 r. Jednakże: a) rozdziały I i II stosuje się od dnia 2 lutego 2025 r., z wyjątkiem art. 5 ust. 1 akapit pierwszy lit. ba) i bb) oraz art. 5 ust. 1a i 1b, które stosuje się od dnia 2 grudnia 2026 r.; b) rozdział III sekcja 4, rozdział V, rozdział VII i rozdział XII oraz art. 78 stosuje się od dnia 2 sierpnia 2025 r., z wyjątkiem art. 101; c) rozdział III sekcje 1, 2 i 3, z wyjątkiem art. 6 ust. 5, stosuje się od dnia: (i) 2 grudnia 2027 r. w odniesieniu do sy…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.67
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 50 ust. 2",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "Art. 50 ust. 2",
+   "kontekst": "- Art. 50 ust. 2 (dostawcy).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 50 ust. 2 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych w zakresie, w jakim jest to technicznie wykonalne, uwzględniając przy tym specyfikę i ograniczenia różnych rodzajów treści, koszty wdrażania oraz powszechnie uznany stan wiedzy technicznej, co może być odzwierciedlone w odpowiednich normach technicznych. Obowiązek ten nie ma zas…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 1.0
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 50 ust. 1",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "Art. 50 ust. 1",
+   "kontekst": "- Art. 50 ust. 1 (dostawcy).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 50 ust. 1 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzystywanie jest dozwolone na mocy prawa do celów wykrywania przestępstw, przeciwdziałania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców, z zastrzeżeniem odpowiednich zabe…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 1.0
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 50 ust. 4",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "Art. 50 ust. 4",
+   "kontekst": "- Art. 50 ust. 4 (podmioty stosujące).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 7,
+   "cytowanie_legal_cite": "art. 50 ust. 4 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowania, w przypadku gdy wykorzystywanie jest dozwolone na mocy prawa w celu wykrywania przestępstw, zapobiegania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców. W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze obowiązki w zakresie przejrzystości określone w niniejszym ustępie ograniczają się do ujawnienia ist…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 1.0
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 50 ust. 7",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 50 ust. 7",
+   "kontekst": "Warto też śledzić wytyczne Komisji i kodeks praktyk dotyczący oznaczania treści generowanych przez AI (art. 50 ust. 7).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 50 ust. 7 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "7. Komisja zachęca do opracowywania kodeksów praktyk na poziomie Unii i wspiera ich opracowanie, aby ułatwić skuteczne wykonywanie obowiązków w zakresie wykrywania, oznaczania i etykietowania treści sztucznie wygenerowanych lub zmanipulowanych. Komisja, uwzględniając w możliwie największym stopniu opinię Rady ds. AI, ocenia, czy przestrzeganie tych kodeksów praktyk jest wystarczające do zapewnienia zgodności z obowiązkami określonymi w ust. 2 i 4 niniejszego artykułu, zgodnie z procedurą określoną w art. 56 ust."
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 50 ust. 2",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 9,
+   "napis_grupy": "art. 50 ust. 2",
+   "kontekst": "Trzeba również sprawdzić aktualny stan prac nad pakietem „Digital Omnibus”, który przewidywał okresy przejściowe m.in. dla art. 50 ust. 2. Należy zweryfikować, czy i w jakim kształcie zmiany zostały przyjęte.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 9,
+   "cytowanie_legal_cite": "art. 50 ust. 2 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych w zakresie, w jakim jest to technicznie wykonalne, uwzględniając przy tym specyfikę i ograniczenia różnych rodzajów treści, koszty wdrażania oraz powszechnie uznany stan wiedzy technicznej, co może być odzwierciedlone w odpowiednich normach technicznych. Obowiązek ten nie ma zas…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.19
+   }
+  },
+  {
+   "id": 10,
+   "powolanie": "art. 23 k.c.",
+   "akt": {
+    "nazwa": "Kodeks cywilny",
+    "kod_legal_cite": "KC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 10,
+   "napis_grupy": "art. 23 i 24 k.c.",
+   "kontekst": "Klonowanie głosu realnej osoby bez zgody może naruszać dobra osobiste: głos jest chroniony na podstawie art. 23 i 24 k.c., a orzecznictwo traktuje go jako element szeroko rozumianej tożsamości lub wizerunku.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 10,
+   "cytowanie_legal_cite": "art. 23 KC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1061; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 795 z 2026-05-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-05-27) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 507 (01.11.2028)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 795 z 27.05.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (27.05.2026) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 23. Dobra osobiste człowieka, jak w szczególności zdrowie, wolność, cześć, swoboda sumienia, nazwisko lub pseudonim, wizerunek, tajemnica korespondencji, nietykalność mieszkania, twórczość naukowa, artystyczna, wynalazcza i racjonalizatorska, pozostają pod ochroną prawa cywilnego niezależnie od ochrony przewidzianej w innych przepisach."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1061 (HTML, 2024-06-21)",
+    "tj": "DU/2024/1061",
+    "data": "2024-06-21"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.19
+   }
+  },
+  {
+   "id": 11,
+   "powolanie": "art. 24 k.c.",
+   "akt": {
+    "nazwa": "Kodeks cywilny",
+    "kod_legal_cite": "KC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 10,
+   "napis_grupy": "art. 23 i 24 k.c.",
+   "kontekst": "Klonowanie głosu realnej osoby bez zgody może naruszać dobra osobiste: głos jest chroniony na podstawie art. 23 i 24 k.c., a orzecznictwo traktuje go jako element szeroko rozumianej tożsamości lub wizerunku.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 11,
+   "cytowanie_legal_cite": "art. 24 KC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1061; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 795 z 2026-05-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-05-27) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 507 (01.11.2028)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 795 z 27.05.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (27.05.2026) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 24. § 1. Ten, czyje dobro osobiste zostaje zagrożone cudzym działaniem, może żądać zaniechania tego działania, chyba że nie jest ono bezprawne. W razie dokonanego naruszenia może on także żądać, ażeby osoba, która dopuściła się naruszenia, dopełniła czynności potrzebnych do usunięcia jego skutków, w szczególności ażeby złożyła oświadczenie odpowiedniej treści i w odpowiedniej formie. Na zasadach przewidzianych w kodeksie może on również żądać zadośćuczynienia pieniężnego albo zapłaty odpowiedniej sumy pieniężnej na wskazany cel społeczny. § 2. Jeżeli wskutek naruszenia dobra osobistego została wyrządzona szkoda majątkowa, poszkodowany może żądać jej naprawienia na zasadach ogólnych. §…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1061 (HTML, 2024-06-21)",
+    "tj": "DU/2024/1061",
+    "data": "2024-06-21"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 24. § 1. Ten, czyje dobro osobiste zostaje zagrożone cudzym działaniem, może żądać zaniechania tego działania, chyba że nie jest ono bezprawne. W razie dokonanego naruszenia może on także żądać, ażeby osoba, która dopuściła się naruszenia, dopełniła czynności potrzebnych do usunięcia jego skutków, w szczególności ażeby złożyła oświadczenie odpowiedniej treści i w odpowiedniej formie. Na zasadach przewidzianych w kodeksie może on również żądać zadośćuczynienia pieniężnego lub zapłaty odpowiedniej sumy pieniężnej na wskazany cel społeczny. § 2. Jeżeli wskutek naruszenia dobra osobistego została wyrządzona szkoda majątkowa, poszkodowany może żądać jej naprawienia na zasadach ogólnych. § 3…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 24. § 1. Ten, czyje dobro osobiste zostaje zagrożone cudzym działaniem, może żądać zaniechania tego działania, chyba że nie jest ono bezprawne. W razie dokonanego naruszenia może on także żądać, ażeby osoba, która dopuściła się naruszenia, dopełniła czynności potrzebnych do usunięcia jego skutków, w szczególności ażeby złożyła oświadczenie odpowiedniej treści i w odpowiedniej formie. § 2. Jeżeli wskutek naruszenia dobra osobistego została wyrządzona szkoda majątkowa, poszkodowany może żądać jej naprawienia na zasadach ogólnych. § 3. Przepisy powyższe nie uchybiają uprawnieniom przewidzianym w innych przepisach, w szczególności w prawie autorskim oraz w prawie wynalazczym."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.19
+   }
+  },
+  {
+   "id": 12,
+   "powolanie": "art. 85",
+   "akt": {
+    "nazwa": null,
+    "kod_legal_cite": null,
+    "ustalenie": "nieustalony (w zdaniu inny akt: pr. aut., RODO)"
+   },
+   "rola": "główne",
+   "grupa": 11,
+   "napis_grupy": "art. 85",
+   "kontekst": "W grę mogą wchodzić także prawa do artystycznego wykonania (art. 85 i nast. pr. aut.), RODO (głos jako dane osobowe, a przy identyfikacji także biometryczne, art. 9) oraz przepisy o nieuczciwych praktykach rynkowych.",
+   "cytat": null,
+   "flagi": [
+    "akt_nieustalony"
+   ],
+   "powolanie_glowne_id": 12,
+   "weryfikacja": {
+    "status": "akt nieustalony — do sprawdzenia ręcznie",
+    "powod": "w zdaniu inny akt: pr. aut., RODO"
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "nie porównano"
+   }
+  },
+  {
+   "id": 13,
+   "powolanie": "art. 9",
+   "akt": {
+    "nazwa": null,
+    "kod_legal_cite": null,
+    "ustalenie": "nieustalony (w zdaniu inny akt: pr. aut., RODO)"
+   },
+   "rola": "główne",
+   "grupa": 12,
+   "napis_grupy": "art. 9",
+   "kontekst": "W grę mogą wchodzić także prawa do artystycznego wykonania (art. 85 i nast. pr. aut.), RODO (głos jako dane osobowe, a przy identyfikacji także biometryczne, art. 9) oraz przepisy o nieuczciwych praktykach rynkowych.",
+   "cytat": null,
+   "flagi": [
+    "akt_nieustalony"
+   ],
+   "powolanie_glowne_id": 13,
+   "weryfikacja": {
+    "status": "akt nieustalony — do sprawdzenia ręcznie",
+    "powod": "w zdaniu inny akt: pr. aut., RODO"
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "nie porównano"
+   }
+  },
+  {
+   "id": 14,
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 13,
+   "napis_grupy": "art. 3 pkt 60 AI Act",
+   "kontekst": "Głos AI, który nie przypomina żadnej istniejącej osoby, podmiotu ani zdarzenia i nie może zostać mylnie wzięty za autentyczny, nie jest deepfake'iem w rozumieniu art. 3 pkt 60 AI Act.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 14,
+   "cytowanie_legal_cite": "art. 3 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szkody oraz jej dotkliwości; 3) „dostawca” oznacza osobę fizyczną lub prawną, organ publiczny, agencję l…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.75
+   }
+  },
+  {
+   "id": 15,
+   "powolanie": "art. 50 ust. 2",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 14,
+   "napis_grupy": "art. 50 ust. 2",
+   "kontekst": "Niezależnie od tego dostawcy systemów generujących syntetyczny głos podlegają obowiązkowi oznaczania z art. 50 ust. 2, a przy interakcji z ludźmi także obowiązkowi informacyjnemu z art. 50 ust. 1.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 15,
+   "cytowanie_legal_cite": "art. 50 ust. 2 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych w zakresie, w jakim jest to technicznie wykonalne, uwzględniając przy tym specyfikę i ograniczenia różnych rodzajów treści, koszty wdrażania oraz powszechnie uznany stan wiedzy technicznej, co może być odzwierciedlone w odpowiednich normach technicznych. Obowiązek ten nie ma zas…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.64
+   }
+  },
+  {
+   "id": 16,
+   "powolanie": "art. 50 ust. 1",
+   "akt": {
+    "nazwa": "Rozporządzenie 2024/1689 (AI Act)",
+    "kod_legal_cite": "AI Act",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 15,
+   "napis_grupy": "art. 50 ust. 1",
+   "kontekst": "Niezależnie od tego dostawcy systemów generujących syntetyczny głos podlegają obowiązkowi oznaczania z art. 50 ust. 2, a przy interakcji z ludźmi także obowiązkowi informacyjnemu z art. 50 ust. 1.",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 16,
+   "cytowanie_legal_cite": "art. 50 ust. 1 AI Act",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: CELLAR, tekst skonsolidowany 02024R1689-20260727, stan na 27.07.2026, wersja polska) ⚠ TEKST SKONSOLIDOWANY — nieurzędowy (służy celom informacyjnym); wiążące są akty w Dz.U. UE: 32024R1689 i akty zmieniające W tym artykule są fragmenty zmienione: M1 = ROZPORZĄDZENIE PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2026/1744 z dnia 8 lipca 2026 r.",
+    "aktualnosc": "wg CELLAR po dacie tej wersji (27.07.2026) nie wszedł w życie żaden akt zmieniający",
+    "uwagi": [],
+    "uchylony": false,
+    "fragment_urzedowy": "1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzystywanie jest dozwolone na mocy prawa do celów wykrywania przestępstw, przeciwdziałania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców, z zastrzeżeniem odpowiednich zabe…"
+   },
+   "wersje": {
+    "status": "wersje wcześniejsze: nieobsługiwane (akt UE — legal-cite podaje tylko najnowszą wersję skonsolidowaną)"
+   },
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.45
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": [
+  {
+   "data": "2026-08-02",
+   "napis": "2 sierpnia 2026",
+   "kontekst": "Obowiązki z art. 50 stosuje się od 2 sierpnia 2026 r. (art. 113)."
+  }
+ ]
+}

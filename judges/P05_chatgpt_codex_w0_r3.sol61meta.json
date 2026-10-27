@@ -1,0 +1,61 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131 i nast. k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — art. 131 § 1, s. 28: doręczenia przez operatora pocztowego, pracowników sądu, sądową służbę doręczeniową oraz komornika.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — art. 131¹, s. 28: doręczenia za pośrednictwem systemu teleinformatycznego.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 30: doręczenia ustanowionemu pełnomocnikowi; wyjątek dotyczący wezwania strony do osobistego stawiennictwa.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, § 1–3 i odnośniki 29–31: adresaci doręczeń portalowych, moment doręczenia, reguła 14 dni oraz odstąpienie ze względu na charakter pisma.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia część mechanizmu doręczeń portalowych, ale pomija kluczową możliwość wyboru tego sposobu przez osobę fizyczną występującą samodzielnie. Nie opisuje oświadczenia, wymaganych podpisów ani rezygnacji, dlatego nie spełnia wszystkich wymaganych podstaw i uzyskuje jedynie częściowy punkt za rdzeń. Zalicza moment doręczenia i regułę 14 dni, choć omawia je przy pełnomocniku. Zgodnie z raportem i sprawdzonym tekstem oficjalnym powołania są zgodne, a pominięcie dodatkowych adresatów nie obniża A6. Nie ma wyraźnego zakazu doręczeń osobie bez pełnomocnika ani zastosowania awiza, lecz brak informacji o wyborze ogranicza praktyczną przydatność do B1 = 1.",
+ "_meta": {
+  "sedzia": "sol61meta",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 42,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 4, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 131 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 131 i nast. Kodeksu postępowania cywilnego stanowią podstawę doręczania pism osobie fizycznej występującej samodzielnie w zwykłym trybie, np. pocztą, przez pracownika sądu albo komornika.”\n    · uzasadnienie weryfikatora: Przepis wprost wskazuje tradycyjne sposoby doręczania pism przez sąd: za pośrednictwem operatora pocztowego, osób zatrudnionych w sądzie, sądowej służby doręczeniowej oraz komornika.\n    · kotwica (verbatim ze źródła): „Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe (Dz. U. z 2025 r. poz. 366, 820 i 1456), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośre…”\n    · brzmienie jednostki (fragment): „Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe (Dz. U. z 2025 r. poz. 366, 820 i 1456), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych (Dz. U. z 2024 r. poz. 1458, z 2025 r. poz. 1018 i 1172 oraz z 2026 r. poz. 26). § 1¹. W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu…”\n- 2. art. 131¹ k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 131¹ k.p.c. reguluje doręczenia przez system teleinformatyczny obsługujący postępowanie, na przykład w elektronicznym postępowaniu upominawczym.”\n    · uzasadnienie weryfikatora: Przepis na datę stanu prawnego reguluje ogólnie doręczenia za pośrednictwem systemu teleinformatycznego (wzmianka o EPU w odpowiedzi stanowi jedynie przykład takiego systemu).\n    · kotwica (verbatim ze źródła): „Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego.”\n    · brzmienie jednostki (fragment): „Art. 131¹. § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie tel…”\n- 3. art. 133 § 3 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 133 § 3 k.p.c., jeżeli strona ustanowiła pełnomocnika procesowego, pisma zasadniczo doręcza się temu pełnomocnikowi, a nie bezpośrednio stronie.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi o doręczaniu pism ustanowionemu pełnomocnikowi procesowemu oraz przewiduje wyjątek dotyczący wezwania do osobistego stawiennictwa.\n    · kotwica (verbatim ze źródła): „Jeżeli ustanowiono pełnomocnika procesowego lub pełnomocnika do doręczeń, pisma sądowe doręcza się tym osobom. Pismo wzywające stronę do osobistego stawiennictwa doręcza się tylko bezpośrednio tej stronie, z wyjątkiem strony, o której mowa w art. 1135⁵ § 1.”\n    · brzmienie jednostki (fragment): „§ 3. Jeżeli ustanowiono pełnomocnika procesowego lub pełnomocnika do doręczeń, pisma sądowe doręcza się tym osobom. Pismo wzywające stronę do osobistego stawiennictwa doręcza się tylko bezpośrednio tej stronie, z wyjątkiem strony, o której mowa w art. 1135⁵ § 1.”\n- 4. art. 131¹a k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 131¹a k.p.c. reguluje doręczenia profesjonalnym pełnomocnikom przez Portal Informacyjny, w tym skutek odbioru oraz fikcję doręczenia po upływie 14 dni od umieszczenia pisma.”\n    · uzasadnienie weryfikatora: Przepis wprost reguluje doręczenia przez portal informacyjny dla pełnomocników zawodowych oraz skutek doręczenia (w § 2), przy czym twierdzenie pomija innych adresatów wymienionych w przepisie (m.in. stronę, która dokonała wyboru takiego sposobu doręczania).\n    · kotwica (verbatim ze źródła): „sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi,…”\n    · brzmienie jednostki (fragment): „Art. 131¹ᵃ. § 1. W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania, pisma sądowe oraz odpisy pism procesowych lub innych dokumentów niepochodzących od sądu, którymi sąd dysponuje w postaci elektronicznej, wyłącznie przez umieszczenie ich treści w…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

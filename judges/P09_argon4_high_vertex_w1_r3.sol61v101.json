@@ -1,0 +1,137 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 58 § 1 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN, wyrok z 27 stycznia 2011 r., I CSK 237/10",
+   "zrodlo": "https://www.saos.org.pl/judgments/93991 — indeksowana treść oficjalna dotyczy autorstwa, legitymacji następcy prawnego i dowodzenia praw, a nie przypisanego sporu o art. 41 ust. 2.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "SN, wyrok z 15 czerwca 2011 r., V CSK 373/10",
+   "zrodlo": "https://www.saos.org.pl/judgments/95237 — indeksowana treść oficjalna dotyczy reemisji, wynagrodzenia i ochrony praw autorskich, a nie przypisanej wykładni blankietowych klauzul przeniesienia.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 65 § 2 k.c.; art. 65 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 1–3 pr.aut., w tym osobno pkt 1, pkt 2 i pkt 3",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 73 § 1 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ § 1 i 2 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 w zw. z art. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "dyrektywa (UE) 2019/790",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?uri=CELEX:32019L0790 oraz https://eli.gov.pl/eli/DU/2024/1254/ogl/pol",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "TSUE, C-5/08 Infopaq — wymóg własnej twórczości intelektualnej autora",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=celex:62008CJ0005 — pkt 35–39; wyrok nie rozstrzyga bezpośrednio o generatywnej AI.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełne uzasadnienia I CSK 237/10 i V CSK 373/10: bezpośrednie otwarcie dokumentów SN i SAOS kończyło się błędami dostępu; identyfikatory, przedmiot spraw i dostępne fragmenty uzasadnień sprawdzono w indeksowanych wynikach wyszukiwania tych oficjalnych źródeł."
+ ],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń: sama formuła nie wystarcza, lecz zakres przeniesienia może zostać ustalony przez wykładnię umowy z art. 65 k.c. Podaje obie wymagane podstawy, prawidłowe cytaty i przykłady pól dla social mediów, ale pomija wyłączenie mechanizmu pracowniczego z art. 12. Obu wyrokom SN przypisuje zagadnienie odmienne od wynikającego z dostępnej treści oficjalnej, co uzasadnia T i A6 = 0, z zaznaczonym ograniczeniem dostępu do pełnych uzasadnień. Nieproszony wielozdaniowy projekt klauzuli obniża A8 do 0,5. Praktyczne zalecenie wyliczenia pól i zachowania formy pisemnej pozostaje przydatne, a dopuszczenie wykładni zapewnia właściwą kalibrację.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 20,
+  "czas_s": 154,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie zaprzecza błędnej przesłance pytającego i podaje wymagane podstawy (art. 41 ust. 2 i art. 53 pr.aut.) oraz trafne przykłady pól eksploatacji dla social mediów. A_R wynosi 1, a B2 wynosi 0 z uwagi na kategoryczną konkluzję bez uwzględnienia warunku dopuszczalności dookreślenia pól w drodze wykładni (art. 65 k.c.) w myśl liberalnej linii SN (R5 = 0). A3 wynosi 0 ze względu na nieliteralne wtrącenie słowa '(licencja)' wewnątrz cytatu art. 41 ust. 2 pr.aut. Wszystkie przywołane przepisy istnieją i odpowiadają przypisanym im treściom (A6 = 1, hallucinated: false). B1 wynosi 2 ze względu na wysoką wartość praktyczną wyjaśnień.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu\" prawo autorskie",
+   "\"Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania\" prawo autorskie",
+   "\"art 65\" prawo autorskie domniemanie licencji"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12462,
+   "wyjscie": 756
+  },
+  "czas_s": 31,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

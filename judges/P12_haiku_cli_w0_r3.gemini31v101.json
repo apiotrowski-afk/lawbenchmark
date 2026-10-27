@@ -1,0 +1,74 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 788 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 40 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System nie podał prawidłowego rdzenia odpowiedzi, pomijając kluczowe rozróżnienie na tryb z art. 787 k.p.c. (zgoda małżonka) i art. 787¹ k.p.c. (związek z przedsiębiorstwem). Zamiast tego przejął z pytania błędny numer przepisu (art. 781¹ k.p.c.) i przypisał mu nieistniejącą treść dotyczącą ograniczeń egzekucji, co skutkuje oceną A6=0 (błąd typu T) oraz naliczeniem kary z klucza. System nie spełnił oczekiwanej kalibracji warunkowej, odpowiadając kategorycznie bez dopytania o zgodę małżonka. Odpowiedź jest nieprzydatna i wprowadza prawnika w błąd.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10474,
+   "wyjscie": 681
+  },
+  "czas_s": 64,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

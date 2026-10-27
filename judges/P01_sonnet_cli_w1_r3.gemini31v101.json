@@ -1,0 +1,113 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 0,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 7.07.2022 o zmianie k.k.",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "historia zmian art. 119 k.w. (pominięty etap 1/4 płacy minimalnej)",
+   "zrodlo": "Dz.U. 2013 poz. 1247",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest prawidłowy (A-R=2), a system powołał właściwą podstawę prawną (A2=1). W historii zmian przepisu pominięto etap, w którym próg wynosił 1/4 płacy minimalnej (lata 2013-2018), co zgodnie z regułami stanowi błąd W w rdzeniu i skutkuje utratą elementu R3 oraz A6=0. System nie potwierdził, że próg 800 zł dotyczy też innych wykroczeń, tracąc R4. W odpowiedzi znalazł się artefakt techniczny (wyciek instrukcji z narzędzia wyszukiwania), co obniża A8 do 0. Porada jest przydatna (B1=2) i kategoryczna (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"Art. 119\" \"Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą\"",
+   "\"Art. 278\" \"Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą\"",
+   "\"Art. 12\" \"Dwa lub więcej zachowań, podjętych w krótkich odstępach czasu\"",
+   "\"Art. 2\" \"Jeżeli w czasie orzekania obowiązuje ustawa inna\"",
+   "\"płaca minimalna 2026\"",
+   "\"minimalne wynagrodzenie 2026\"",
+   "\"art. 119 kw\" \"250 zł\"",
+   "\"art. 119 kw\" \"250 złotych\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdyyh5L6LcrG6wJ_p-jNh7ATcLxaBx5cqW6JU-BkVkYp82IX9KwtO0mHX0d0UJtVvGFcvXqfUW7adl3GBK5Zu-II2pUj_nsMqZ-HD-1m6pQZthYJ6PoC-RVV1RVFhIRM4bfbRJGCueUiDWmPbCWcNBSyCA8jkSZp69oSIAc2Y=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD1DeBx40Fyjb9cNYXg-OYq5NrV2YuKUGhlUBYnYnBcNxEdL_H7be65lEAATMzul_wu4Zf3hkUS7mFuBaiiCg3yypmJkgoSa2-_JYmA6DoyyXQLVp-Z9El0ZY02Ub3T9DXWloOmg4XgQGyIkAQ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDPH9BiDnJRruyJIJEZB0z7C_wncq3-Cz46yTomcI3d06LvusYUkhFoDbi9R02CJW-EbrYxit3CSX_95ZK60eatNevvZWgLELIA7LJLVyiU0drQlBq9s0opI3XpCx8H5I-H1rOC-VFmYrdhiM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1jnh0tdrLaOuwfoZR7Ug2dO9oJRjIg_6qvz6EyyxxBYIy4zrGZsbMvB9IgS3UTAltcr9zdXJ-533K1dJTm1NAlMZZddTdnB79Y9j7t2DzkrlNdzIb4vCBiuhd09ZPeJ00J_cvh4ZolzmIH2y4ZB67zmfvYLVjINwBHyDZObLU0_eOCNaaQuAGjmZvis9DxR47nu1l1y0OCAZc_jN78gZ_XsUOVxY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmmFiB1Wd3hDUUW32vW6exsnpdOlbIiIbTPA-Bkk4MXMvs4dWHhIsWekDBR5TKLcs09O9lF7ECO-PiPGcp4w7NiY_vObXHq0pbaBB8O3aplZgYfr8yh4OQ8YjVnx4vplZWaPLeWTLuDBZXG2toww19v4pIEuMaGhfR8Sv1DkSDSvrZ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsq7N8Qfp8MxLfmypO9GqSepJY-fjIGiJZ8jvvkbOUeMZw7Nfw6RvuLkdQO-pp8oiVNWbx8YnKdTDgpxzaS9oKVXNgL2gzLGM-Dmyjacsm7oLfsE31UunvAGEoyQgiSLm9BvkQi3M832up",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGpCyBLR6V7pXNGj1271em5F1i1QG4_dy7UqP7vKLaHnJ6E8SkafHDsSURhRx1mlLjFkdsGeFptQRfObsSxgpaFNqKXre_CMl9Pg6ilvQa-YKi0RfXe4IX0zfXl_2Ujmvr_OV4fyiW",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuncLTt36irKE4gWt28VuH2bkpdhZFG0AldKTc93aGx9PlTWOKnR79iqXrfDlfJIfvmseRNXVfuWItPRcIb-PO4ii9WDeshKkUCZTsx0sBsI0Qtda1-TQ1BYYrS0_5tavY8UUp9SBq5cdGpH96DQ0NjuCQtruYgoLIa9lY9ww3rlNnbO5sLE4PcrR-jaZhQl93",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEz6LXNd44YDo36YkG4gOrT5m5gO2pI9o8AuIsTUtk8muueu0nNAQ4OZOPzRHyblVugg3Aq_fV0RNl4WwYrLj21huveNntxEbeaa9JbRYFkEMfnkcyaMQXkAZzb9UyxN3uXE3qNdfNu4ih7hyqti3-rwL3K1bup74sdq3rfykVpvL-uPPQtRzXKpRN3Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9O7s_pFk2lS-uxw82s_K6aWVtFGSm2zzlkdBKUVAKAZmyWWS57G5A7AoxqzQ4wPSkaBCWIItwTmP4ypFe9p_mnVPjk2jrPm3PXj0SerlvVVG-1dtoo8E7",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpdVVoRMPhsjGRbaVbFsgvnJMbeiVo9C_hdLmg55OyvI7TBE-E1oqbsTLqNXJZw1tOnD2WzYrC8kMFlFTc7WzgE-p1V3f_Q576wN8sivfQahwcDJEqgQMVvexNFC320Em2SkEWWYmVMeCix92yWxl2eoNPL0xIdb4VEXApJv-iCu_oyl0hm-9eDt8P3_gjud4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBZM76JxlmIGIGPRXWBPwPvB_CR-TQkCigf62BclkJOQ4vXCJmuzwVG5n6E_-4_bF3tx63Mmrvv3dj4bdfW2nLDaZOKdVUptft8zYk4CnPUxvyQz5gHxnHuuYkmhnU8uYAEeS4ywmHdfP6VN31qTdVFIQFgEc7-tjnWuFMbLmqYOG1g5WvC5AgsT3FnmQKiMsx_4RAJNUT",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMSfcpx_jli0StPWv53FbhfAnem6d0cD1FOn8AdmNbLhwuMvnVsiAQg0J8CQ2RcirTyZ9nCMljdU70tPEkcMO_KF24c2e01dEP1t1QTOXUz0otk8t7cZyPa5qQ3ROKlUOYISSTuUAXZccdjMmM",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAGhpB7k8NX-tqwSRrthbqHnUSMe6gBTr7T2fholC4mCJyLliWb2-NzZhV3QxHzE7LTtc4Nw5ePqSrPyDS7MwnohIlKvQv3GM-GMvhgz5VDuuh0jhCrtYCmHXEYKscUX4FzKK904g=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnx-o6sD88pHTUVPpiAFFSrkeohn9_boWIskh33zS3P7BKtDfF5h1tIVlLP8UdhOe_2bAtmG_C-xQJawgIr1wDrFxgce--HZ9OeNIijpdR3DsCGJxDAIgnP793wxTaKzrSso3uq0aeNpNEAkDG9rM0fXHnIK0Z"
+  ],
+  "tokeny": {
+   "wejscie": 14039,
+   "wyjscie": 839
+  },
+  "czas_s": 178,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

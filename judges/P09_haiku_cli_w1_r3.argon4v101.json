@@ -1,0 +1,104 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 1 ustawy o prawie autorskim i prawach pokrewnych — przeniesienie autorskich praw majątkowych obejmuje tylko pola eksploatacji wymienione w umowie",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI) — art. 41 ust. 1 dotyczy samej dopuszczalności przejścia praw w drodze dziedziczenia lub umowy oraz dalszego ich przenoszenia, natomiast wymóg wyraźnego wymienienia pól eksploatacji w umowie reguluje art. 41 ust. 2 pr.aut.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 53 PAut — forma pisemna pod rygorem nieważności dla przeniesienia autorskich praw majątkowych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI) — art. 53 pr.aut.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 PAut — pola nieznane w chwili zawarcia umowy nie mogą być objęte przeniesieniem",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI) — art. 41 ust. 4 pr.aut.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 PAut — wykładnia postanowień umowy w razie wątpliwości na korzyść twórcy (wąsko)",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI) — art. 65 pr.aut. ustanawia jedynie domniemanie udzielenia licencji w braku wyraźnego postanowienia o przeniesieniu prawa, a nie ogólną dyrektywę wykładni umowy na korzyść twórcy",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 43–44 PAut — domyślne ograniczenia co do terytorium i czasu, gdy umowa ich nie określa",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI) — art. 43 i art. 44 pr.aut. dotyczą odpłatności umowy, zasad określania wynagrodzenia oraz podwyższenia go przez sąd (ograniczenia czasowe i terytorialne licencji reguluje art. 66 pr.aut.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 734 KC — umowa zlecenia (nie przenosi praw autorskich z mocy prawa)",
+   "zrodlo": "Dz.U. 1964 nr 16 poz. 93 z późn. zm. (ISAP/ELI) — art. 734 k.c.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 PAut — pracownicze reguły nabycia praw autorskich dotyczą pracowników, a nie zleceniobiorców",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI) — art. 12 pr.aut.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 PAut — autorskie prawa osobiste (w tym oznaczenie autorstwa) są niezbywalne",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI) — art. 16 pr.aut.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "dyrektywa 2019/790 (art. 20–22) — wynagrodzenie i klauzula/mechanizm dostosowania umów",
+   "zrodlo": "Dz.U. UE L 130 z 17.5.2019, s. 92 (EUR-Lex) — art. 20–22 dyrektywy (UE) 2019/790",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie ujmuje rdzeń odpowiedzi oraz warunkową kalibrację (A-R = 2, B2 = 1), wskazując, że ogólna formuła „na wszelkie pola eksploatacji” co do zasady nie wystarcza, lecz sąd może wywieść zakres z treści i celu umowy, a w praktyce pola należy wyliczyć w formie pisemnej pod rygorem nieważności. Odpowiedź traci jednak punkty w A2 (0), A6 (0, klasa T) i R1, ponieważ normę z art. 41 ust. 2 pr.aut. przypisuje jednostce art. 41 ust. 1 pr.aut. Dodatkowo system popełnia dwa kolejne błędy klasy T, przypisując art. 65 pr.aut. ogólną regułę wykładni umowy na korzyść twórcy (zamiast domniemania licencji) oraz art. 43–44 pr.aut. domyślne ograniczenia terytorialne i czasowe (które dotyczą wynagrodzenia twórcy, podczas gdy czas i terytorium licencji reguluje art. 66 pr.aut.); zgodnie z regułą graniczną nr 8 zastrzeżenie o konieczności weryfikacji numerów nie wyłącza A6 = 0. Nie przyznano punktu za piąty element rubryki (nagrodę za linię SN i art. 65 k.c.), gdyż system nie powołał art. 65 k.c. ani orzecznictwa SN, myląc tę podstawę z art. 65 pr.aut. Ponieważ błędy numeracyjne zostały już ukarane w bloku A i nie zniekształcają trafnych wskazówek praktycznych co do konstrukcji umowy, B1 oceniono na 2.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "OR OR \"Dz.U. 2025 poz. 24\" \"art. 41\" \"art. 43\" \"art. 44\" \"art. 65\"",
+   "\"ustawa o prawie autorskim i prawach pokrewnych\" \"Art. 41.\" \"Art. 43.\" \"Art. 44.\" \"Art. 65.\"",
+   "\"Art. 734.\" kodeks cywilny isap OR eli.gov.pl",
+   "\"2019/790\" \"Artykuł 20\" \"Artykuł 21\" \"Artykuł 22\"",
+   "\"WDU20250000024\" OR \"DU/2025/24\" OR OR",
+   "\"Art. 12.\" \"Art. 16.\" \"ustawa o prawie autorskim i prawach pokrewnych\"",
+   "\"Artykuł 22\" \"Prawo do odwołania\" \"2019/790\" OR \"2019/790\" \"Artykuł 22\"",
+   "\"DU/2025/24\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14540,
+   "wyjscie": 1864
+  },
+  "czas_s": 144,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 i 3 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 787² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Uchwała SN III CZP 117/10",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SO w Łodzi VII Pz 38/16",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SO w Łodzi VII Pz 39/16",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SO w Łodzi VII Pz 122/15",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie identyfikuje dwa tryby nadania klauzuli na małżonka (art. 787 i 787¹ k.p.c.) oraz wyjaśnia, że treść tytułu nie przesądza o trybie. Rdzeń oceniono na 1, ponieważ system odpowiada 'tak' na pytanie o tryb 'bez ograniczeń', choć w uzasadnieniu prawidłowo wskazuje ograniczenia. W odpowiedzi powołano nieistniejące jednostki redakcyjne: art. 787 § 2 k.p.c. oraz art. 41 § 3 k.r.o., co skutkuje oceną A6 = 0 (klasa F). System prawidłowo sprostował numer art. 781¹ k.p.c. i poprowadził rozwidlenie w zależności od zgody małżonka, co daje wysoką przydatność (B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"art. 787\" \"kodeks postępowania cywilnego\"",
+   "\"art. 787 § 2\" \"kodeks postępowania cywilnego\"",
+   "\"art. 41\" \"kodeks rodzinny i opiekuńczy\"",
+   "\"III CZP 117/10\"",
+   "\"art. 41 § 3\" \"kodeks rodzinny i opiekuńczy\"",
+   "\"art. 41\" \"kodeks rodzinny i opiekuńczy\" lex",
+   "\"VII Pz 38/16\"",
+   "\"VII Pz 39/16\"",
+   "\"VII Pz 122/15\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKWyvWHi7Fw12JhiUOV54iqQBWSld5NZKNAVYcJdYU_Xvr3f78CwXWl72W8xUXVCIzRorTM1fvfsiFhMeYzAlrfJOwuoUooODVmkGv_LK-VkI6hl1_fKj27Nq3Rwo95_943qFUpfQ5Gm88ZFjfrV50-KudBGneIyL9XyarK00h2gd7HFK2nGUn4JCx5KnnWdICoSsQ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj_Tj7LPctfKYv-oQhpNVU7LLrikuagyAEEWmg5-ioKVA3IT_DgUesatOpT7K-J_-a8044HIn9sJZWM34Z8weqd95NRYHJaiNdpXjAzypNhPjBmJBjRLZb9JTvNAPzi0XGTL0w-wTWIRc0vLA0q3WVfx6Ari52_82MxRERQtpWnS2tIYT4P8SkcqcCp0FFzDoEwdS3YEg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-uySrdScT3qGaXVV6GC0n4YG9e6ljt1L4HwJBTrvZmlw2-pGMowBD5pSixjCtsFiBGoEXY6Cd4zjI_fM03Yrm1U9tgZXrNNoaWjLx5SCk8HK5T2eXReWhwZVJoo4_0dxux58f_kno8QIlop2CUYU1vVfFePT37B_W9UlMLnPD5q0eZvoUtld-KbQ8v_JRF1BfrHexXakohPxS",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPJ_IP1Tw-LGa-rh634TWaWObZJbrNkiPEWjLYYv-Fs1S9unQtIVbeN26-88wW2JZUw7DMFhdrzYGi3PaQ_MKo7spH9yVChOX4X2HyTOrv9Du3gwwWmRk5cXMOSHhZmVqpcxo2QR6zSIS5KftYuYKuZdGNi9Yp3FkR8HAg2Q414OSYPQte3V2sOxN2Uqgeo0fJH0MpU5s3Z0vcHp1Q_8HWFAlIbqUc8AWqvoqlja5WcCzLAF7bVZzhYJylNyZWwpx6xxdz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV-udi4LBS-A5OufBwaU7FZokbCk1_OtVRUks4HQu-zGHwrhJoR_jj1cvvpjlOMoUoTbC7JXI4kxbefOND_cUBUr-sCm6VE0dC2J5rgO2idqSm_pcYZvSwsmTemLztH_XslBzuXBPhNpUDNpiQBY4aIImxJQxCjldFTMsKd8DPx20I_39l51-vHqGXHKjjZ-oHb6PE4lAqJBS63mX5-zM6fQD6aCAASg8ymEtimpkthkg-AbxfPWBGvkmfXDFD8AqKwpstPjmsSmyD5rtM5-YmLexlyD2IH57OoTS-60C0Nm2LCof4rxFHqTcZDVj5HGtvDcRri5hJPo8y3dGe5krxFqVdeoWpjNoykyZaputrtRa2fBaId4jMT-CD9506uiIy_GlvYlc_46SgW-xKtow9mIyeD5pbsM6ov7q3hiso98Kk8dQu6A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE25pdOlFVJxpmPk3usJ5srHc_i8SndyLu7VjQ0_RVyobZGirZYhBOGG0q91Y3BqfRKjME7Y-OLiKmgeyMY-oI4cNsgODj4qmH3tS2kQ4bIfr65pDfa3uw0hGijFY9rriNqP8nP4sP10BCwfru3m4uHQuVJp-lem-3PdD7GUYUgmeYoTs2yTrJiYgTR-bmjKIBSyKuAzQg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6PQbBzGYRvWK8b0cgKRKKo5Otudk2aaIy3FoBF1p-IBw-xTWc00zoQNfnTi69je40qy6NLPzD2CZRbL1fqxOzzDUKpSAsi1cxp8gCXhhhWiJMBY0usGR_BOvuWenWKpTdrX2reqlyu5uFT6xZOsNemwg6fuf7pEb7LUxrR8E-oMqLwJskdderf3XQpuzs_7VwAcW6jt6u5I-SKQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9qkgqqxrwR4VOsTqNpcwQW5Dgh8VZUfYRUbtoCLX0xfui4LKAe-Fi1zVXTvRcXr123dE65qZ1F1K7ovoJYRlsQ4I9gY_PKJYAnz7fgHIwvAh5OdXHQY-UPraTKWmPoB3xucNe7mL0s3p9518dR0-JYdOUjSfwpdPEVsJbcisliaqHmKjckT9C6ykFNZ5BEz8lf-NptWkVoftHXw=="
+  ],
+  "tokeny": {
+   "wejscie": 13897,
+   "wyjscie": 1040
+  },
+  "czas_s": 186,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=160",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=162",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozdziela egzekucyjną i zabezpieczającą funkcję nakazu oraz wyjaśnia, że samo wstrzymanie wykonania nie wyłącza zabezpieczenia. Wszystkie pięć powołań sprawdzono literalnie w oficjalnym tekście k.p.c.; sprawdzone nowele nie zmieniają tych przepisów. Wskazano ograniczenie zabezpieczenia oraz odpowiednie zastosowanie art. 742, lecz pominięto zawieszenie egzekucji na podstawie art. 820 § 2, dlatego czwarty element rubryki otrzymuje zero. Nie przytoczono cytatów przepisów ani orzeczeń. Zastrzeżenie dotyczące odrębnego rozstrzygnięcia w sentencji jest konkretne i nie rozmywa jednoznacznej odpowiedzi.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 70,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

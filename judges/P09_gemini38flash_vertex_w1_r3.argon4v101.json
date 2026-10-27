@@ -1,0 +1,114 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 41 ust. 2 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z dnia 23 września 2004 r., sygn. akt III CK 400/03 (oraz twierdzenie o ugruntowanym w orzecznictwie SN poglądzie, że blankietowe klauzule są bezskuteczne i nie powodują przeniesienia praw na żadne konkretne pole)",
+   "zrodlo": "SAOS / LEX nr 174201 (wyrok SN z 23.09.2004 r., III CK 400/03) oraz linia SN: III CK 124/05, I CSK 596/17, I CSK 104/18, IV CSKP 44/21",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 41 ust. 4 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 PrAut (domniemanie udzielenia licencji niewyłącznej na okres 5 lat w zakresie niezbędnym do realizacji celu umowy w braku skutecznego przeniesienia)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 65 i art. 66 ust. 1 pr.aut.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 PrAut (w tym art. 50 pkt 1 i pkt 3 PrAut)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 50 pkt 1 i 3 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 53 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 w zw. z art. 2 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 2 i art. 46 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 16 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 45 pr.aut.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi (A_R=2) i wymagane podstawy prawne z art. 41 ust. 2 oraz art. 53 pr.aut. (A2=1) zostały ujęte prawidłowo, a brak wskazania liberalnej linii SN z art. 65 k.c. powoduje jedynie utratę punktu nagrodowego w rubryce (R5=0, obok braku wzmianki o art. 12 pr.aut. w R4=0). Cytat art. 41 ust. 2 pr.aut. zawiera zniekształcone/dawne brzmienie („lub umowa o korzystanie z utworu (licencja) obejmuje... w niej wymienione”) bez zmiany normy, co zgodnie z regułą B10 obniża wyłącznie A3 do 0. W kryterium A6 przyznano 0 pkt (klasa T), ponieważ system niezgodnie z rzeczywistą linią orzeczniczą SN (reguła B9) twierdzi, że ugruntowany jest pogląd o bezskuteczności klauzul ogólnych i braku przeniesienia praw na jakiekolwiek pole (powołując III CK 400/03), a ponadto przypisuje art. 65 pr.aut. pięcioletni okres licencji (uregulowany w art. 66 ust. 1 pr.aut.) oraz działanie w razie bezskuteczności klauzuli przenoszącej prawa. Zgodnie z regułą B11 kategoryczna teza, że ogólny zapis jest bezskuteczny i nic nie przenosi, skutkuje oceną B2=0. Praktyczne wskazówki dotyczące wyliczenia pól dla social mediów, zachowania formy pisemnej oraz praw zależnych i osobistych są w pełni przydatne (B1=2, A8=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "\"III CK 400/03\"",
+   "\"23 września 2004\" \"400/03\"",
+   "\"Dz.U. 2025 poz. 24\"",
+   "\"W braku wyraźnego postanowienia o przeniesieniu prawa, uważa się, że twórca udzielił licencji\" \"65\" \"66\"",
+   "\"Art. 50. Odrębne pola eksploatacji stanowią w szczególności\"",
+   "\"Art. 45. Jeżeli umowa nie stanowi inaczej, twórcy przysługuje odrębne wynagrodzenie\"",
+   "\"Art. 46. Jeżeli umowa nie stanowi inaczej, twórca zachowuje wyłączne prawo zezwalania\"",
+   "\"III CK 400/03\" \"pola eksploatacji\" OR \"essentialia negotii\" OR \"blankietowe\" OR \"wszystkich polach\"",
+   "\"III CK 400/03\" \"23 września 2004\" \"Sąd Najwyższy\"",
+   "\"III CK 400/03\" \"w sprawie z powództwa\" OR \"po rozpoznaniu\"",
+   "\"III CK 400/03\" \"essentialia negotii\"",
+   "\"III CK 400/03\" \"174201\"",
+   "\"Art. 2. 1. Opracowanie cudzego utworu, w szczególności tłumaczenie, przeróbka, adaptacja\"",
+   "\"Art. 16. Jeżeli ustawa nie stanowi inaczej, autorskie prawa osobiste chronią\"",
+   "\"Dz.U. z 2022 r. poz. 2509\" OR \"Dz. U. z 2022 r. poz. 2509\"",
+   "\"III CK 400/03\" \"bezskuteczne\" OR \"wszystkich polach\" OR \"wszelkich polach\"",
+   "\"W braku wyraźnego postanowienia o przeniesieniu prawa\" \"art. 65\" \"nieważności\" OR \"bezskuteczności\"",
+   "\"III CK 400/03\" \"blankietowe\" OR \"wszystkich polach\" OR \"wszelkich polach\" OR \"essentialia\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15031,
+   "wyjscie": 1955
+  },
+  "czas_s": 270,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

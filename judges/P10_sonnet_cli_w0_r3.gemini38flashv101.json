@@ -1,0 +1,101 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 ust. 1 pr. aut.",
+   "zrodlo": "art. 65 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 50 pr. aut. (w tym pkt 3)",
+   "zrodlo": "art. 50 pkt 3 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr. aut.",
+   "zrodlo": "art. 2 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "art. 53 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ KC",
+   "zrodlo": "art. 78¹ Kodeksu cywilnego (Dz.U. 2026 poz. 468)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "art. 43 ust. 1 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "art. 16 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "art. 81 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie w pierwszym zdaniu zaprzecza błędnej przesłance pytającego i wskazuje art. 41 ust. 2 oraz art. 53 pr. aut., wyczerpując wymagane podstawy (A_R=2, A2=1). W rubryce zrealizowano cztery elementy, nie omawiając jednak liberalnej linii SN dopuszczającej ustalenie pól w drodze wykładni z art. 65 k.c. (R=[1,1,1,1,0]). Kryterium A6 skutkuje oceną 0 i statusem hallucinated ze względu na powołanie nieistniejącego „art. 65 ust. 1 pr. aut.” i przypisanie mu normy wykładni in favorem auctoris, podczas gdy art. 65 pr. aut. nie ma jednostek niższego rzędu i dotyczy domniemania licencji (klasy F i T). Ramy wypowiedzi są zachowane (A8=1), a praktyczna wartość porady dla prawnika i kalibracja pewności są wysokie (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 65\" \"ustawy o prawie autorskim\" \"wykłada się na korzyść\"",
+   "\"art. 65\" prawo autorskie treść ISAP",
+   "\"art. 65 ust. 1\" prawo autorskie",
+   "\"art. 65\" prawo autorskie sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12164,
+   "wyjscie": 1129
+  },
+  "czas_s": 58,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

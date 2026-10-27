@@ -1,0 +1,84 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c., w tym zd. 2",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 § 1 zd. 2 k.p.c. — uchylenie zabezpieczenia wskutek wpłaty",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Jednolite stanowisko doktryny i orzecznictwa dotyczące zachowania funkcji tytułu zabezpieczenia",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "M. Manowska, Kodeks postępowania cywilnego. Komentarz, Tom II, Warszawa 2021, komentarz do art. 492",
+   "zrodlo": "Nie uzyskano tekstu wskazanego komentarza.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "T. Szanciło, Kodeks postępowania cywilnego. Komentarz, Warszawa 2023, komentarz do art. 492",
+   "zrodlo": "Nie uzyskano tekstu wskazanego komentarza.",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Treść i dokładność bibliograficzna obu wskazanych komentarzy.",
+  "Deklarowana jednolitość doktryny i orzecznictwa; potwierdzono zgodność samej tezy z postanowieniem SO w Szczecinie.",
+  "Twierdzenie o przekształceniu zajęć egzekucyjnych w zabezpieczenie."
+ ],
+ "uzasadnienie": "Odpowiedź prawidłowo rozdziela obie funkcje nakazu i zawiera wymagane podstawy oraz środki obrony pozwanego. Art. 742 § 1 zd. 2 przewiduje jednak upadek zabezpieczenia z mocy prawa po złożeniu sumy, a nie jego uchylenie, co przy rygorystycznej regule A6 stanowi T; pochodzenie błędu jest nieustalone. Nie wskazano wyraźnie zawieszenia egzekucji na wniosek dłużnika, dlatego ostatni element rubryki nie został zaliczony. Nieprecyzyjne wskazówki dotyczące losu zajęć i skutku depozytu ograniczają przydatność praktyczną do B1 = 1. Brak wyodrębnionych cytatów przepisów uzasadnia A3 = nd.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 74,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

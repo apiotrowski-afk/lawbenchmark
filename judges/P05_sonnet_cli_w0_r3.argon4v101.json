@@ -1,0 +1,105 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2020 poz. 2320 (ISAP WDU20200002320)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. — doręczenie pism sądowych za pośrednictwem systemu teleinformatycznego (portalu informacyjnego) oraz obowiązek dla profesjonalnych pełnomocników i podmiotów wskazanych w ustawie",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 2 § 1 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490 (t.j. k.p.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 132 i n. k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490 (t.j. k.p.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 125 § 2¹ k.p.c. — obowiązek korzystania z doręczeń elektronicznych przez profesjonalnych pełnomocników oraz podmioty wskazane w ustawie",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie wskazuje dobrowolność doręczeń przez portal dla osoby fizycznej oraz 14-dniową fikcję doręczenia, jednak nie zna nowelizacji z 5.08.2025 r. (art. 131¹ᵃ § 1 i § 1¹ k.p.c. obowiązujących od 1.06.2026 r.) i pomija wymóg złożenia oświadczenia przez portal z podpisem kwalifikowanym, zaufanym albo osobistym (A_R=1, A2=0). Powołanie art. 131¹ k.p.c. (oraz art. 125 § 2¹ k.p.c.) jako podstawy doręczeń przez Portal Informacyjny i obowiązku dla pełnomocników stanowi błąd klasy T (A6=0), gdyż przepisy te dotyczą odrębnego systemu teleinformatycznego do wnoszenia pism, a doręczenia portalowe reguluje art. 131¹ᵃ k.p.c. Zastrzeżenie o konieczności weryfikacji numeracji i stanu prawnego nie uchyla błędu A6 (reguła graniczna 8), a powtórzone w osobnej sekcji 6 obniża ocenę ram do 0,5 (reguła graniczna 5 do A8). W rubryce zaliczono dobrowolność wyboru i moment doręczenia (R=[1,0,1,0]), natomiast za rozmywanie tez („zasadniczo”, „zwykle”) i nakaz weryfikacji nawet 14-dniowego terminu fikcji doręczenia obniżono B2 do 0.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 20,
+  "zapytania": [
+   "\"131\" \"1311\" \"125\" \"168\" OR OR \"468\" 2026",
+   "\"ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych\" OR",
+   "\"art. 131\" \"art. 125\" \"kodeks postępowania cywilnego\"",
+   "\"art. 2\" \"art. 132\" \"kodeks postępowania karnego\" OR",
+   "\"Dz. U. z 2026 r. poz. 468\" OR \"2026\" \"468\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 131\" \"Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego\"",
+   "\"Art. 168\" \"Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy\"",
+   "\"Art. 132\" \"Pismo doręcza się adresatowi osobiście\" \"Kodeks postępowania karnego\"",
+   "\"WDU20260000468\" OR \"WDU20260000490\" OR \"WDU20200002320\"",
+   "\"DU/2026/468\" OR \"DU/2026/490\" OR \"DU/2020/2320\"",
+   "\"Art. 131\" \"W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza\"",
+   "\"Art. 133a\" \"Kodeks postępowania karnego\" \"portalu informacyjnym\"",
+   "\"Adresat, który dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego\" \"131\"",
+   "\"Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1\" \"131\"",
+   "\"Przewodniczący zarządza odstąpienie od doręczania pisma za pośrednictwem portalu informacyjnego\"",
+   "\"Jeżeli przepis szczególny tak stanowi albo dokonano wyboru wnoszenia pism procesowych za pośrednictwem systemu teleinformatycznego\" \"125\"",
+   "\"W przypadku, o którym mowa w § 1, pismo uznaje się za doręczone w chwili wskazanej w dokumencie potwierdzającym doręczenie\"",
+   "\"Przewodniczący zarządza odstąpienie od doręczania pisma za pośrednictwem portalu informacyjnego, jeżeli\"",
+   "\"pismo uznaje się za doręczone w chwili wskazanej w dokumencie potwierdzającym doręczenie\"",
+   "\"odstąpienie od doręczania pisma\" \"portalu informacyjnym\" \"131\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9838,
+   "wyjscie": 1831
+  },
+  "czas_s": 192,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Rozporządzenie (UE) 2024/1689 z 13 czerwca 2024 r., rozdział IV",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 3 pkt 60 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Motyw 134 AI Act",
+   "zrodlo": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-134",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 1 AI Act",
+   "zrodlo": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 2 AI Act",
+   "zrodlo": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 4 AI Act",
+   "zrodlo": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Stosowanie rozdziału IV od 2 sierpnia 2026 r.",
+   "zrodlo": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wytyczne KE z lipca 2026 r. dotyczące art. 50 — realistyczne fikcyjne osoby i obiektywna możliwość wprowadzenia w błąd",
+   "zrodlo": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń, poprawnie rozróżnia definicję deepfake oraz niezależny obowiązek znakowania maszynowego i właściwych adresatów obowiązków. Cytat definicji odpowiada tekstowi urzędowemu, a powołania nie zawierają stwierdzonych niezgodności. Pominięcie wyjątków od znakowania nie obniża A6 zgodnie z regułą dotyczącą pominięć. R6 wynosi 0, ponieważ mimo odwołania do wytycznych nie zaznaczono ich niewiążącego charakteru. Trafna uwaga o interakcji głosowej pozostaje w ramach pytania, a konkluzja zachowuje wymagane warunki.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 16,
+  "czas_s": 72,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

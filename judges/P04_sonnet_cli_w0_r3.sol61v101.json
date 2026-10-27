@@ -1,0 +1,101 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "A6_pochodzenie": [
+  {
+   "powolanie": "Wykluczenie prawomocności decyzji administracyjnej",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. jako podstawa ostateczności decyzji ministra już z chwilą doręczenia",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "powolania": [
+  {
+   "powolanie": "Art. 1 i nast. ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 363 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 365 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 364 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a. — definicja decyzji ostatecznej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. — brak odwołania, wniosek o ponowne rozpatrzenie oraz wyprowadzona stąd ostateczność już z chwilą doręczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 16 § 2 k.p.a. — możliwość zaskarżenia decyzji ostatecznej do sądu administracyjnego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 217 § 2 pkt 2 k.p.a.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 8 ustawy o nabywaniu nieruchomości przez cudzoziemców — przykłady zwolnień",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Twierdzenie, że decyzja administracyjna jest ostateczna, a nie prawomocna, i przeciwstawienie jej orzeczeniom sądowym",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1691/text/T/D20251691L.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie wskazuje decyzję ministra i zaświadczenie organu, lecz wprost wyklucza prawomocność decyzji, sprzecznie z art. 16 § 3 k.p.a.; zgodnie z kluczem oznacza to A_R=0 i K3=1. Błędnie wywodzi też z art. 127 § 3 ostateczność już przy doręczeniu, mimo przysługującego wniosku o ponowne rozpatrzenie. Brakuje wymaganej podstawy z art. 16 § 3 oraz mechanizmu prawomocności, a główna wskazówka praktyczna prowadzi do niewłaściwego potwierdzenia, stąd B1=0. Opisy wyjątków z art. 8 pomijają przesłanki, co samo nie obniża A6, natomiast osobny akapit o potrzebie zezwolenia jest dygresją obniżającą A8. Nie ma cytatów przepisów, a kategoryczna forma odpowiedzi odpowiada oczekiwanej kalibracji.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 52,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

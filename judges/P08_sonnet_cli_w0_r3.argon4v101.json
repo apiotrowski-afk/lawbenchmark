@@ -1,0 +1,89 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motyw 134 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 i 24 Kodeksu cywilnego",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 795",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie ujmuje pełny rdzeń (A-R=2) oraz powołuje wszystkie wymagane podstawy prawne (A2=1), wychwytując obie pułapki pytania: brak wymogu zamiaru w definicji deepfake z art. 3 pkt 60 AI Act oraz niezależny od statusu deepfake obowiązek oznakowania maszynowego po stronie dostawcy z art. 50 ust. 2 AI Act. Wszystkie powołania przepisów są zgodne ze źródłami urzędowymi (A6=1), a przepisy są jedynie parafrazowane bez cytowania ich tekstu w cudzysłowie (A3=nd). W rubryce odpowiedź traci punkt R4 (wskazuje dostawcę przy art. 50 ust. 2, ale przy opisie art. 50 ust. 4 nie wskazuje, że adresatem tego obowiązku jest podmiot stosujący) oraz R6 (wspomina o wytycznych KE i kodeksie praktyk bez zaznaczenia ich charakteru soft law i bez przytoczenia wynikającej z nich wykładni). Punktacja A8 zostaje obniżona do 0.5 z uwagi na wydzieloną sekcję „Poza AI Act”, stanowiącą dygresję w inne gałęzie prawa (k.c., RODO, prawa pokrewne) przy zmienionym założeniu faktycznym.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"2024/1689\" \"Artykuł 50\" \"ust. 1\" \"ust. 2\" \"ust. 4\"",
+   "\"2024/1689\" \"134\" \"deepfake\"",
+   "\"Art. 23\" \"Dobra osobiste człowieka\" OR OR",
+   "\"2024/1689\" \"Artykuł 3\" \"60)\" \"deepfake\"",
+   "\"Artykuł 50\" \"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji\" OR \"2024/1689\"",
+   "\"Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake\" \"utworu\" OR \"satyrycznych\"",
+   "\"Oprócz rozwiązań technicznych wykorzystywanych przez dostawców systemu AI\" \"134\" \"2024/1689\"",
+   "\"Art. 23\" \"Art. 24\" \"Kodeks cywilny\" OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15286,
+   "wyjscie": 1223
+  },
+  "czas_s": 155,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

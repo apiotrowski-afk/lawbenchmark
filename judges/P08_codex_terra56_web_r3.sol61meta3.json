@@ -1,0 +1,101 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 — oba wystąpienia",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?qid=1788662127473&uri=CELEX%3A02024R1689-20260727 — definicja obejmuje podobieństwo do istniejących bytów oraz możliwość niesłusznego uznania treści za autentyczne lub prawdziwe.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 — oba wystąpienia",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727 — dostawcy zapewniają oznakowanie wyników w formacie nadającym się do odczytu maszynowego oraz ich wykrywalność jako sztucznie wygenerowanych lub zmanipulowanych.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 — oba wystąpienia",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727 — podmioty stosujące ujawniają sztuczne wygenerowanie lub zmanipulowanie treści audio stanowiących deepfake.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 AI Act — stosowanie od 2 sierpnia 2026 r.",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727 — art. 113 wskazuje 2 sierpnia 2026 r. jako ogólną datę stosowania; art. 50 nie należy do wymienionych tam wyjątków.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń: uzależnia kwalifikację od obiektywnego odbioru i wskazuje niezależny obowiązek dostawcy dotyczący syntetycznego audio. Powołania sprawdzono w wynikach wyszukiwania oficjalnego tekstu EUR-Lex w wersji z 27 lipca 2026 r.; nie stwierdzono halucynacji. R4 pozostaje niezaliczone, ponieważ odpowiedź nie wskazuje podmiotu stosującego jako adresata ust. 4. Brakuje odwołania do niewiążących wytycznych lub kodeksu praktyk, więc R6 wynosi 0. Definicję przedstawiono jako parafrazę, dlatego A3 jest nieadekwatne.",
+ "_meta": {
+  "sedzia": "sol61meta3",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 16,
+  "zapytania": [
+   "site.eur-lex.europa.eu/eli/reg/2024/1689 \"60)\" \"deepfake\" \"50\" ...",
+   "site.eur-lex.europa.eu/eli/reg/2024/1689 \"60)\" \"deepfake\" \"50\"",
+   "site.eur-lex.europa.eu \"02024R1689-20260727\"",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:02024R1689-20260727",
+   "site.eur-lex.europa.eu \"02024R1689\" \"„deepfake” oznacza\" ...",
+   "site.eur-lex.europa.eu \"02024R1689\" \"„deepfake” oznacza\"",
+   "site.eur-lex.europa.eu \"02024R1689\" \"Dostawcy systemów AI\" \"odczytu maszynowego\"",
+   "site.eur-lex.europa.eu \"02024R1689\" \"Podmioty stosujące system AI, który generuje\"",
+   "site.eur-lex.europa.eu \"02024R1689\" \"2 sierpnia 2026\"",
+   "site.eur-lex.europa.eu/legal-content/PL \"02024R1689-20260727\" \"60)\" \"odbiorca\" ...",
+   "site.eur-lex.europa.eu/legal-content/PL \"02024R1689-20260727\" \"60)\" \"odbiorca\"",
+   "site.eur-lex.europa.eu/legal-content/PL \"02024R1689-20260727\" \"4.\" \"ujawniają, że treści\"",
+   "site.eur-lex.europa.eu/legal-content/PL \"02024R1689-20260727\" \"Niniejsze rozporządzenie stosuje się od dnia 2 sierpnia 2026\"",
+   "'„deepfake” oznacza'",
+   "site.eur-lex.europa.eu \"02024R1689-20260727\" \"„deepfake” oznacza wygenerowane\" ...",
+   "site.eur-lex.europa.eu \"02024R1689-20260727\" \"„deepfake” oznacza wygenerowane\"",
+   "site.eur-lex.europa.eu \"2024/1689\" \"60)\" \"które odbiorca mógłby niesłusznie\""
+  ],
+  "zrodla_sedziego": [
+   "https://emendrix.eu/acts/32024R1689/ar-69/",
+   "https://overview.legal/laws/ai-act/rec-69",
+   "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+   "https://www.infinitelaws.eu/en/ai-act/recital-88",
+   "https://eur-lex.europa.eu/legal-content/cs/TXT/?uri=CELEX%3A02024R1689-20260727",
+   "https://pytania.parp.gov.pl/component/content/article/91307%3Asztuczna-inteligencja-w-branzy-game-dev-w-jaki-sposob-wykorzystac-jej-potencjal",
+   "https://main.d6o0l5isqh248.amplifyapp.com/platform/reference/regulation-labels",
+   "https://eur-lex.europa.eu/legal-content/EL/TXT/?uri=CELEX%3A02024R1689-20260727",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX%3A02024R1689-20260727",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:02024R1689-20260727",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX%3A02024R1689-20260727",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?qid=1788907363661&uri=CELEX%3A02024R1689-20260727",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/?qid=1790822129312&uri=CELEX%3A02024R1689-20260727",
+   "https://eur-lex.europa.eu/legal-content/PL/TXT/?qid=1788662127473&uri=CELEX%3A02024R1689-20260727"
+  ],
+  "czas_s": 58,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 7, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 3 pkt 60 AI Act [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 3 pkt 60 AI Act „deepfake” to wygenerowany lub zmanipulowany przez AI obraz, nagranie dźwiękowe lub wideo, który przypomina istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia oraz fałszywie sprawia wrażenie autent…”\n    · uzasadnienie weryfikatora: Twierdzenie wiernie parafrazuje definicję „deepfake” zawartą w art. 3 pkt 60 AI Act.\n    · kotwica (verbatim ze źródła): „60) „deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub pra…”\n    · brzmienie jednostki (fragment): „Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szko…”\n- 2. art. 50 ust. 4 AI Act [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 50 ust. 4 AI Act przewiduje obowiązek ujawnienia wobec odbiorcy odnoszący się do treści audio stanowiącej deepfake.”\n    · uzasadnienie weryfikatora: Przepis wprost przewiduje obowiązek ujawnienia sztucznego wygenerowania lub zmanipulowania treści audio stanowiących deepfake.\n    · kotwica (verbatim ze źródła): „Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane.”\n    · brzmienie jednostki (fragment): „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowania, w przypadku gdy wykorzystywanie jest dozwolone na mocy prawa w celu wykrywania przestępstw, zapobiegania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców. W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze…”\n- 3. art. 50 ust. 2 [akt: domniemany (akt z podstaw klucza)]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 50 ust. 2 dostawca systemu generującego syntetyczne audio ma obowiązek zapewnienia, by wynik był oznaczalny maszynowo jako sztucznie wygenerowany lub zmanipulowany.”\n    · uzasadnienie weryfikatora: Brzmienie art. 50 ust. 2 AI Act wprost potwierdza obowiązek dostawców dotyczący maszynowego oznakowania i wykrywalności syntetycznych dźwięków jako sztucznie wygenerowanych lub zmanipulowanych.\n    · kotwica (verbatim ze źródła): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykr…”\n    · brzmienie jednostki (fragment): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych w zakresie, w jakim jest to technicznie wykonalne, uwzględniając przy tym specyfikę i ograniczenia różnych rodzajów treści, koszty wdrażania oraz powszechnie uznany stan wiedzy te…”\n- 4. art. 50 [akt: domniemany (akt z podstaw klucza)]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepisy art. 50 stosuje się od 2 sierpnia 2026 r.”\n    · uzasadnienie weryfikatora: Twierdzenie stanowi uwagę o dacie wejścia w życie/stosowania art. 50 (regulowanej w przepisach końcowych aktu), w której art. 50 jest przedmiotem wypowiedzi, a nie źródłem, któremu przypisano tę normę.\n    · brzmienie jednostki (fragment): „Artykuł 50 Obowiązki w zakresie przejrzystości dla dostawców i podmiotów stosujących niektóre systemy AI 1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzys…”\n- 5. art. 3 pkt 60 rozporządzenia (UE) 2024/1689 [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · brzmienie jednostki (fragment): „Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szko…”\n- 6. art. 50 ust. 2 rozporządzenia (UE) 2024/1689 [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · brzmienie jednostki (fragment): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych w zakresie, w jakim jest to technicznie wykonalne, uwzględniając przy tym specyfikę i ograniczenia różnych rodzajów treści, koszty wdrażania oraz powszechnie uznany stan wiedzy te…”\n- 7. art. 50 ust. 4 rozporządzenia (UE) 2024/1689 [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · brzmienie jednostki (fragment): „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowania, w przypadku gdy wykorzystywanie jest dozwolone na mocy prawa w celu wykrywania przestępstw, zapobiegania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców. W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

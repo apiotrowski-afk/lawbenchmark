@@ -1,0 +1,133 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 165 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a k.p.k.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 5 sierpnia 2025 r. o zmianie k.p.c. (Dz.U. 2025 poz. 1172)",
+   "zrodlo": "Dz.U. 2025 poz. 1172",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni trafia w rdzeń, prawidłowo wskazując, że od 1 czerwca 2026 r. osoba fizyczna może wybrać doręczenia przez portal. Powołuje wszystkie wymagane przepisy, a ich treść jest w 100% zgodna ze źródłami oficjalnymi (brak halucynacji). Realizuje wszystkie punkty rubryki, szczegółowo opisując procedurę wyboru, rezygnacji oraz skutki doręczenia. Odpowiedź jest wysoce przydatna (B1=2) i zachowuje odpowiednią, kategoryczną kalibrację (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"Art. 134\" \"Kodeks postępowania cywilnego\" \"dni robocze\"",
+   "\"Art. 131\" \"Kodeks postępowania cywilnego\" \"operatora pocztowego\"",
+   "\"Art. 131(1a)\" \"Kodeks postępowania cywilnego\" \"rezygnacji\"",
+   "\"Art. 131(1)\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 131(1a)\" \"Kodeks postępowania cywilnego\" \"165\"",
+   "\"Art. 131(1a)\" \"Kodeks postępowania cywilnego\" \"165 § 2\"",
+   "\"Przepisu art. 165 § 2 nie stosuje się\" \"Kodeks postępowania cywilnego\"",
+   "\"Oświadczenie o rezygnacji ze sposobu doręczeń\" \"165 § 2\"",
+   "\"Dz.U. 2025 poz. 1172\" \"165\"",
+   "\"Dz.U. 2025 poz. 1172\" \"rezygnacji\"",
+   "\"Dz.U. 2025 poz. 1172\" \"131\"",
+   "\"Art. 131(2)\" \"Kodeks postępowania cywilnego\" uchylony",
+   "\"Art. 131(2)\" \"Kodeks postępowania cywilnego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_yp9UwWgTABcmKhKN0SHnP4pizrT0Fc4o0x9jzzvBRBj2AklO5X-JeyjJAuAC0Bolo9OjQiS5QRRjffOvTREbwt9CtsVQ2a8aFsTE2sVj15_n-wOS59RaIoosaBlnlfbB1O6-HdkfXCmIz9kvSoqNXrTpqnufgSuHxC5KhqpsXlCmBNjG0LmxTbzKGvWFk5D7cUGpsC9tj9a8yXG63JQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhkZ1xj00op1g3hXQNzTiVzzki9OmmptZILoaA7n6eCsSkvgUhK9GisQ07Q2rkzEjWmwRWjjuoGCeQrSxgH_fob_6KNc-z3g0R6LBZuXHz6LELKXLdSlWbvb_7XXc9IatOGq_O6SwBwodHe1pJ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaDpOoedM62fkemb21upVR6O9tIwOX9ezIhLSh9Urp2HGIjJIMxgwFiixOjauhQZF05VfCQgmUiGzWn0hXOAoh46jejss_DWsKIKfuEZf5enkNvBUVKpIoaNEMAMTe8yjCjFC6bewhp_8aoaAqsQ3UEClvgw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFS-20niGeNe-VQwh64Qs3DgS450foam4fiZHqBl4UTYHyx_9XfGNRCf9LLepZr_4ngs6Ht2f0NR2N8bXKkiRKJtr2vE6cf3mgq_H8lkd-Xy3K0_EvmIW-mYe9Px6u4dJ9td7NkXYYcZECth1QRgJkGiDVBvg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhg6uE6AuYJU72QXwgXkcMLQMHN4teOgZZ5zbOLQr545xzlsxqApHqKCHqrn1p5hqOSbg5VSdqUjBZRVZ54POMal4rmUQINL5p4YytXoSYxxch-cHSoBgjJJMVk49ryxpx1Nh_lBkCWqs4YGBmXyBDgxbH35XO_McNUI2oHa-i72hdH2AJ1FtU5teGyIG2COLgwQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDecTIvSSG7w3RADUaQkfwobeQ_LIpwAb1dU4aCnal-EK_lLA6dteuzrenoHWZ84MQeH6MjRBfggUwryN4BRFUMHJOda8v9C-W3Fjm0utT1bi832XAatw8dRbTC1ivyjweuPRpZ7T2-ZwKWxIaA7-xPgxZaRvY9q33Lnn5dDv5H6UG3eI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAdUirS9aZRHNMJR_rxehGXmvEGDo_gZMrQNAAqjX-gWiTfSJ4i1U_XHKpWfFcVh-gefD7O5X-AsJSC2URiLoWn9xsa9LDdnIi81VhiVduoBfpn7N3c3gfYWg7w6xfwP02WDvjNOTvApHjXlsMTsi3hmMfwTzpfunEzdcIHT6l1ehYi-fPyD0LQZCdDlwfqP7CSUF_1WEeXOUBvTk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjTZNhbRnF7wVrZNSo2aK8FcCU8E7Ts3hUSp2OBrtM9JFmHwXAOmRHVBFz9ej5TOfvAQ1S7TQ99jT6txYIkWx-ljn34FGtou_w3gSxwtmjEFu7izX9kOpTF_YPn8V-bhfQ9EEZBV13Y42eg3ibC9I_LlWQIL79LovugQ6iJ8kz2o5fSyYwf3dWyHeUJkO9wWPJSqg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQaUGRgIV40KPKv934izsf0o2ymtnQ21zd0joqwAF5pqeLVhm9-oXMpSD452zyOJOqCtDDGhhsdF6jtb9pFflF4AqI5qLDmKgE1e0Q4g1WnM4PLTThesIZEtV-rZm34BiTDNKsMNMe-octPk0E33dBL8_-XA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErzf9aIfKbF1H2dJyUDiLH6FP8jBqhVTwwbjbtnKUirmptIVGExlDIIibZnbVf3WVgcLNjlP2GT3pUobyIy7A99TEm12u1zMzuT78W1UXcV2h1MnzOKEFLuJdCZgiQJyq15g9VGRNJ0pQtNxSp6XzvLJGTjwE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8V7vY4L8IemVuW7dIlWGZqNtQUUtI4s9ybh6m9bpWH3BPH5-jO4ABYgnTzZuYrIy5S1WXoottgTFMFWTaoynLCF1T5wZgrxr6LoCrDQqwnP_30MPD2K72wnewSSGp03NO-KtqTLVwUypxPn2xkOenY76QwWE2DUNcF4lqItnBiv2UQWSdJUV-Axo9I-IVhg6AYbe2tuv6B-ngwbP6yfoivPM_Kf1hf7fpb3-jL4kg_NFmJ-qkA=="
+  ],
+  "tokeny": {
+   "wejscie": 12471,
+   "wyjscie": 1102
+  },
+  "czas_s": 252,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

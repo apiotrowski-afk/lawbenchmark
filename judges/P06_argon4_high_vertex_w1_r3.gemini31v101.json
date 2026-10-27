@@ -1,0 +1,177 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 § 1 i art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2² i § 2⁴ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 2 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 24 stycznia 2023 r., III CZP 127/22",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 380 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 359 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 220 § 3 p.p.s.a.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 178 w zw. z art. 197 § 2 p.p.s.a.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 194 § 1 pkt 7 p.p.s.a.",
+   "zrodlo": "ISAP",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 194 § 2 p.p.s.a.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny (2 pkt) – system prawidłowo uzależnia odpowiedź od rodzaju odrzuconego zażalenia i trafnie rozróżnia zażalenie poziome od dewolutywnego. Powołano wymagane podstawy prawne oraz poprawnie zacytowano przepis. A8 obniżono do 0,5 z powodu dygresji o innej gałęzi prawa (postępowanie sądowoadministracyjne). W tej dygresji system popełnił halucynację (A6 = 0, typ T): wskazał art. 194 § 1 pkt 7 p.p.s.a. jako podstawę zażalenia na odrzucenie zażalenia, podczas gdy pkt 7 dotyczy odrzucenia skargi kasacyjnej (właściwy jest pkt 8). Kalibracja (B2) jest idealna, a wskazówki praktyczne bardzo przydatne (B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"art. 357\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 397\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 394\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 394\" \"Kodeks postępowania cywilnego\" \"§ 2\"",
+   "\"III CZP 127/22\"",
+   "\"III CZP 50/22\"",
+   "\"reasumpcja postanowienia o odrzuceniu\" \"359\"",
+   "\"reasumpcja postanowienia o odrzuceniu zażalenia\"",
+   "\"reasumpcja postanowienia\" \"359\" \"odrzuceniu\"",
+   "\"wniosek o reasumpcję postanowienia\" \"odrzuceniu\"",
+   "\"art. 359\" \"odrzuceniu zażalenia\"",
+   "\"art. 359\" \"odrzuceniu apelacji\"",
+   "\"art. 194\" \"Prawo o postępowaniu przed sądami administracyjnymi\"",
+   "\"art. 394\" \"1a\" \"Kodeks postępowania cywilnego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5TndAYk0uqnM_JqAROVTu-H8FMU_XzfOpPkSvrQm84EULGUrl2pjh3NUtgySeuIWJLcojZoevkkfqOMaXvjjTb_V0SzN3zvBOR6_MjKrFvpwrKgi2rOoTDECMwuIXE604pPJwYzYZItgtqlWcQWnRU6zNy4e_BT8o",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6NVe87dgG0cNg9tlfzEWyFpZ-4407FfIM-S0q2IyIMTyKA2c2gHoWY5R1LZwgETGeHTjvsBqxw8V8rNfbIN5Ng-bt6c3WttNliP2vuQ7SkWtbsHzOCgxcuJLC3nkf0jgRUjVpDJtGXwgSVOlBpRBKUZNZoTcpyQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ2S4ggWCfEpE57Y2i0RqeXsYUQkYCz9x6pkpCixkk7PsIu1Olk-QcTWEC3n6aZaF826biFpB7QztkMSgRdAnZELIe-XisM28CgHRank8UKNmwc_F20IJA730KMf4e_2gLZ-HPoOuCod0b4WzzA-HlJP_4GlnXAtZbYqg4XPhPko36Cw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvOPAuKlczmeFU9Gt9H4TLdE3E-pU2RGyUYzUHG_wuha_xIKHJ5S0lsqO69t7tt0kF_6b-KHRoQRqXYLujn2Zs_RjjkTFuVdst98OmMJm5NsvonlP8pnTmCTG9DAEZV8G85PjXb2Jt4YBQBNpnYFVhesHo8snSPGLHhOlMiEpred-hWMeFrODOQrWj5-OfEBblBWHm6hYCkhcHn1-3TA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnHNbEmrhgzRfI71IpZUZI0v-nWV8vnNKMds5Q1yNZaDQ-ggmfwu6W5rkpDfsG1mILZwq7wA-KFl8AG4l15vqggM8_20bSOfXlJ_OjWxZckLlRx5vG55rdAkKUT3wrFASUCZs8",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMfKE9WDjxQ_9UsgPPlFLUncGtDW_mh05BcTK6EWNJJHhB6mKarp_4DlQ4hHCpN3i7rL1fVOShitvK4t7t0x9TySWkR60BZ2g7SHP9DapluAk5oU2Eqb7kKTJ6gSKQLMr8Qfk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2EFRjzhbGhomuJkIFfKLkqXZLizlCu4bQ3wlVDYkYAHFTRSHUq9SiQfHXtc3ZkaKoHIjz0sB7N-XBRnKxtN0NdsJYmmSjmj461sfLEuAYtuizgTWJiNsQVm3gh_bFBF332_MwPZ-tcHC9hmbCAbK__cWvzbY_VUpDfOqAzwzHjAI05tDU60SJLbWpnKk1ulEW_tTmHM3tQtuidmvyQKgxKmvVFsLpI_flx8hfHJ0U_2Ttd3Fd"
+  ],
+  "tokeny": {
+   "wejscie": 14079,
+   "wyjscie": 1767
+  },
+  "czas_s": 288,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

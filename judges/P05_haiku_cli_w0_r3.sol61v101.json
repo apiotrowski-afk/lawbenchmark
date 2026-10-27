@@ -1,0 +1,69 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131 k.p.c. jako regulacja doręczeń elektronicznych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 131",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 132–146 k.p.c. jako ogólne przepisy o doręczeniach, obejmujące doręczenie zastępcze i awizo",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 132–146",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych jako podstawa opisanego doręczania sądowego przez ADE oraz skuteczności z upływem 14 dni",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text/U/D20260003Lj.pdf — art. 3 pkt 1 lit. d, art. 42 ust. 2 i art. 155 ust. 7",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 136 i nast. k.p.c. w odniesieniu do doręczeń tradycyjnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 136–146",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 139 k.p.c. jako podstawa lub potwierdzenie fikcji doręczenia portalowego po 14 dniach",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 139",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 i nast. k.p.c. jako przepisy o możliwości przywrócenia terminu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 168–172",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia w ogólny kierunek dopuszczalności doręczeń elektronicznych i podaje moment odbioru oraz regułę 14 dni, ale pomija wybór doręczeń przez Portal Informacyjny, podpisane oświadczenie i rezygnację. Nie powołuje żadnej wymaganej jednostki art. 131¹ᵃ k.p.c. Artykuł 131 nie reguluje doręczeń elektronicznych, art. 139 nie ustanawia fikcji doręczenia portalowego, a art. 42 ust. 2 ustawy o doręczeniach elektronicznych wskazuje dzień następujący po upływie 14 dni. Dominujące utożsamienie portalu z ADE i ePUAP uzasadnia A8 = 0 oraz ograniczenie B1 do 1; kategoryczność tez odpowiada oczekiwanej kalibracji. Pochodzenie błędnych powołań pozostaje nieustalone, ponieważ nie przedstawiono śladu narzędzi ani adresów źródeł ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 89,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

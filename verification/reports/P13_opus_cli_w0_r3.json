@@ -1,0 +1,1089 @@
+{
+ "meta": {
+  "pytanie": "P13",
+  "system": "opus_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P13/opus_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:46:26",
+  "czas_s": 38.9,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 18,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 0,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 17
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 492 § 3 k.p.c.",
+   "kontekst": "Wstrzymanie wykonania nakazu zapłaty na podstawie art. 492 § 3 k.p.c. nie odbiera nakazowi charakteru tytułu zabezpieczenia.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 492 § 3 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 492 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 3. Nakaz zapłaty wydany na podstawie weksla, warrantu, rewersu lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 3. Przepisy o ograniczeniu zabezpieczenia i natychmiastowej wykonalności w sprawach przeciwko jednostkom gospodarki uspołecznionej stosuje się odpowiednio."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5,
+    "slowa_wersji_wczesniejszej": [
+     "zabez"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 492 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 492 k.p.c.",
+   "kontekst": "1. Nakaz ma dwie funkcje, uregulowane osobno w art. 492 k.p.c.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 492 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania.…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika do depozytu sądowego wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu zabezpieczenia przeciwko Skarbowi Państwa stosuje się odpowiednio. § 3. Nakaz…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 492. § 1. Nakaz od chwili wydania stanowi tytuł zabezpieczenia, a jeżeli był wydany na podstawie wekslu lub czeku, staje się on natychmiast wykonalny z upływem terminu udzielonego do zaspokojenia roszczenia. § 2. Państwowe biuro notarialne na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania, a w razie wniesienia zarzutów wstrzymać wykonanie nakazu. § 3. Przepisy o ograniczeniu zabezpieczenia i natychmiastowej wykonalności w sprawach przeciwko jednostkom gospodarki uspołecznionej stosuje się odpowiednio."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.25
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 492 § 3 k.p.c.",
+   "kontekst": "2. Zakres wstrzymania z art. 492 § 3 k.p.c.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 492 § 3 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 492 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 3. Nakaz zapłaty wydany na podstawie weksla, warrantu, rewersu lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 3. Przepisy o ograniczeniu zabezpieczenia i natychmiastowej wykonalności w sprawach przeciwko jednostkom gospodarki uspołecznionej stosuje się odpowiednio."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 1.0
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 492 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 492 k.p.c.",
+   "kontekst": "Taki jest pogląd dominujący w komentarzach do art. 492 k.p.c. i w praktyce sądowej.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 492 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania.…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika do depozytu sądowego wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu zabezpieczenia przeciwko Skarbowi Państwa stosuje się odpowiednio. § 3. Nakaz…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 492. § 1. Nakaz od chwili wydania stanowi tytuł zabezpieczenia, a jeżeli był wydany na podstawie wekslu lub czeku, staje się on natychmiast wykonalny z upływem terminu udzielonego do zaspokojenia roszczenia. § 2. Państwowe biuro notarialne na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania, a w razie wniesienia zarzutów wstrzymać wykonanie nakazu. § 3. Przepisy o ograniczeniu zabezpieczenia i natychmiastowej wykonalności w sprawach przeciwko jednostkom gospodarki uspołecznionej stosuje się odpowiednio."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0,
+    "slowa_wersji_wczesniejszej": [
+     "sądow"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 492 § 1 k.p.c.",
+   "kontekst": "Komornik stosuje sposoby zabezpieczenia właściwe dla tytułu zabezpieczenia z art. 492 § 1 k.p.c. (art. 747 pkt 1–2 k.p.c. odpowiednio), np. zajęcie ruchomości, wynagrodzenia, rachunku bankowego czy innych wierzytelności.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 492 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 492 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika do depozytu sądowego wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Nakaz od chwili wydania stanowi tytuł zabezpieczenia, a jeżeli był wydany na podstawie wekslu lub czeku, staje się on natychmiast wykonalny z upływem terminu udzielonego do zaspokojenia roszczenia."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.21
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 747 pkt 1–2 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "art. 747 pkt 1–2 k.p.c.",
+   "kontekst": "Komornik stosuje sposoby zabezpieczenia właściwe dla tytułu zabezpieczenia z art. 492 § 1 k.p.c. (art. 747 pkt 1–2 k.p.c. odpowiednio), np. zajęcie ruchomości, wynagrodzenia, rachunku bankowego czy innych wierzytelności.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 747 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 747. Zabezpieczenie roszczeń pieniężnych następuje przez: 1) zajęcie ruchomości, wynagrodzenia za pracę, wierzytelności z rachunku bankowego albo innej wierzytelności lub innego prawa majątkowego; 2) obciążenie nieruchomości obowiązanego hipoteką przymusową; 3) ustanowienie zakazu zbywania lub obciążania nieruchomości, która nie ma urządzonej księgi wieczystej lub której księga wieczysta zaginęła lub uległa zniszczeniu; 4) obciążenie statku albo statku w budowie hipoteką morską; 5) ustanowienie zakazu zbywania spółdzielczego własnościowego prawa do lokalu; 6) ustanowienie zarządu przymusowego nad przedsiębiorstwem lub gospodarstwem rolnym obowiązanego albo zakładem wchodzącym w skład p…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 747. Zabezpieczenie roszczeń pieniężnych następuje przez zarządzenie: 1) zajęcia ruchomości, wynagrodzenia za pracę albo wierzytelności lub innego prawa; 2) obciążenia nieruchomości dłużnika hipoteką przymusową lub zastawem wpisanym do rejestru okrętowego; 3) zakazu zbywania lub obciążania nieruchomości, która nie ma urządzonej księgi wieczystej albo której księga wieczysta zaginęła lub uległa zniszczeniu."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 110 ustawy o księgach wieczystych i hipotece",
+   "akt": {
+    "nazwa": "Ustawa o księgach wieczystych i hipotece",
+    "kod_legal_cite": "u.k.w.h.",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 110 ustawy o księgach wieczystych i hipotece",
+   "kontekst": "Możliwy jest także wpis hipoteki przymusowej na podstawie tytułu zabezpieczenia (art. 110 ustawy o księgach wieczystych i hipotece).",
+   "cytat": null,
+   "flagi": [],
+   "powolanie_glowne_id": 7,
+   "cytowanie_legal_cite": "art. 110 u.k.w.h.",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 1066 z 2026-07-31 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 cbc2d187735e0613…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/1066/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdftotext 24.02.0) — zaliczona; względem starszego t.j.: różne od t.j. DU/2023/1984 (HTML); między t.j. DU/2023/1984 (2023-08-17) a tym t.j. weszło w życie 4 nowelizacje)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-07-31) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2025 poz. 1669 (02.04.2027), Dz.U. 2025 poz. 1792 (17.06.2027)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 1066 z 31.07.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (31.07.2026) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 110. Hipotekę przymusową można uzyskać także na podstawie: 1) postanowienia sądu o udzieleniu zabezpieczenia; 2) postanowienia prokuratora; 3) decyzji administracyjnej, o ile przepisy szczególne tak stanowią, chociażby decyzja nie była ostateczna; 4) dokumentu zabezpieczenia, o którym mowa w art. 3 pkt 1 ustawy z dnia 11 października 2013 r. o wzajemnej pomocy przy dochodzeniu podatków, należności celnych i innych należności pieniężnych (Dz. U. z 2023 r. poz. 2009); 5) zarządzenia zabezpieczenia określonego w przepisach o postępowaniu egzekucyjnym w administracji albo zarządzenia zabezpieczenia określonego w ustawie, o której mowa w pkt 4."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2023/1984 (HTML, 2023-08-17)",
+    "tj": "DU/2023/1984",
+    "data": "2023-08-17",
+    "fragment_wczesniejszy": "Art. 110. Hipotekę przymusową można uzyskać także na podstawie: 1) postanowienia sądu o udzieleniu zabezpieczenia; 2) postanowienia prokuratora; 3) decyzji administracyjnej, o ile przepisy szczególne tak stanowią, chociażby decyzja nie była ostateczna; 4) dokumentu zabezpieczenia, o którym mowa w art. 3 pkt 1 ustawy z dnia 11 października 2013 r. o wzajemnej pomocy przy dochodzeniu podatków, należności celnych i innych należności pieniężnych ( Dz. U. z 2021 r. poz. 2157 oraz z 2023 r. poz. 556 ) ; 5) zarządzenia zabezpieczenia określonego w przepisach o postępowaniu egzekucyjnym w administracji albo zarządzenia zabezpieczenia określonego w ustawie, o której mowa w pkt 4."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2024-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 110. Hipotekę przymusową można uzyskać także na podstawie: 1) postanowienia sądu o udzieleniu zabezpieczenia; 2) postanowienia prokuratora; 3) decyzji administracyjnej, o ile przepisy szczególne tak stanowią, chociażby decyzja nie była ostateczna; 4) dokumentu zabezpieczenia, o którym mowa w art. 3 pkt 1 ustawy z dnia 11 października 2013 r. o wzajemnej pomocy przy dochodzeniu podatków, należności celnych i innych należności pieniężnych ( Dz. U. z 2021 r. poz. 2157 oraz z 2023 r. poz. 556 ) ; 5) zarządzenia zabezpieczenia określonego w przepisach o postępowaniu egzekucyjnym w administracji albo zarządzenia zabezpieczenia określonego w ustawie, o której mowa w pkt 4."
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "fragment": "Art. 110. Hipotekę przymusową można uzyskać także na podstawie: 1) postanowienia sądu o udzieleniu zabezpieczenia; 2) postanowienia prokuratora; 3) decyzji administracyjnej, o ile przepisy szczególne tak stanowią, chociażby decyzja nie była ostateczna; 4) dokumentu zabezpieczenia, o którym mowa w art. 3 pkt 1 ustawy z dnia 11 października 2013 r. o wzajemnej pomocy przy dochodzeniu podatków, należności celnych i innych należności pieniężnych ( Dz. U. z 2018 r. poz. 425 oraz z 2019 r. poz. 730 ) ; 5) zarządzenia zabezpieczenia określonego w przepisach o postępowaniu egzekucyjnym w administracji albo zarządzenia zabezpieczenia określonego w ustawie, o której mowa w pkt 4."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 110. Hipotekę przymusową można uzyskać także na podstawie: 1) postanowienia sądu o udzieleniu zabezpieczenia; 2) postanowienia prokuratora; 3) decyzji administracyjnej, o ile przepisy szczególne tak stanowią, chociażby decyzja nie była ostateczna; 4) dokumentu zabezpieczenia, o którym mowa w art. 3 pkt 1 ustawy z dnia 11 października 2013 r. o wzajemnej pomocy przy dochodzeniu podatków, należności celnych i innych należności pieniężnych ( Dz. U. poz. 1289 oraz z 2015 r. poz. 211 ) ; 5) zarządzenia zabezpieczenia określonego w przepisach o postępowaniu egzekucyjnym w administracji albo zarządzenia zabezpieczenia określonego w ustawie, o której mowa w pkt 4."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "ustalone_z_tresci_nowelizacji",
+     "fragment": "Art. 110. Hipotekę przymusową można uzyskać także na podstawie postanowienia sądu o udzieleniu zabezpieczenia, postanowienia prokuratora, na mocy przepisów szczególnych na podstawie decyzji administracyjnej, chociażby decyzja nie była ostateczna, albo zarządzenia zabezpieczenia dokonanego na podstawie przepisów o postępowaniu egzekucyjnym w administracji."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.6
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 742 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 742 k.p.c.",
+   "kontekst": "- wnosić o uchylenie lub ograniczenie zabezpieczenia (z odpowiednim zastosowaniem art. 742 k.p.c.; należy zweryfikować aktualne orzecznictwo co do dopuszczalności tej drogi wobec zabezpieczenia z mocy samego nakazu);",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 742 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia. Jeżeli obowiązany złoży na rachunek depozytowy Ministra Finansów sumę zabezpieczenia żądaną przez uprawnionego we wniosku o udzielenie zabezpieczenia, zabezpieczenie upada. Przepis art. 754¹ § 3 stosuje się odpowiednio. § 2. Przed wydaniem postanowienia w przedmiocie uchylenia lub ograniczenia zabezpieczenia sąd wysłucha uprawnionego. § 3. Wniesienie zażalenia na postanowienie uchylające lub zmieniające postanowienie o udzieleniu zabezpieczenia wstrzymuje wykonanie postanowienia. § 4. Przepisów § 2 i § 3…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia. Jeżeli obowiązany złoży na rachunek depozytowy sądu sumę zabezpieczenia żądaną przez uprawnionego we wniosku o udzielenie zabezpieczenia, zabezpieczenie upada. Przepis art. 754 1 § 3 stosuje się odpowiednio. § 2. Postanowienie w przedmiocie uchylenia lub ograniczenia zabezpieczenia może zapaść tylko po przeprowadzeniu rozprawy. § 3. Wniesienie zażalenia na postanowienie uchylające lub zmieniające postanowienie o udzieleniu zabezpieczenia wstrzymuje wykonanie postanowienia. § 4. Przepisów § 2 i § 3 nie sto…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 742. § 1. Dłużnik może w każdym czasie żądać uchylenia lub zmiany prawomocnego zarządzenia tymczasowego, gdy odpadnie lub zmieni się przyczyna zabezpieczenia albo gdy złoży do depozytu sądowego sumę wystarczającą do zabezpieczenia. § 2. Postanowienie co do uchylenia lub ograniczenia zarządzenia tymczasowego może zapaść tylko po przeprowadzeniu rozprawy. § 3. Zażalenie na postanowienie uchylające lub ograniczające zabezpieczenie wstrzymuje wykonanie tego postanowienia."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.27
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 744 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 9,
+   "napis_grupy": "art. 744 k.p.c.",
+   "kontekst": "- pamiętać, że uchylenie nakazu i oddalenie powództwa w wyniku zarzutów prowadzi do upadku zabezpieczenia (art. 744 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 9,
+   "cytowanie_legal_cite": "art. 744 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 744. § 1. W razie prawomocnego zwrotu albo odrzucenia pozwu lub wniosku, oddalenia powództwa lub wniosku albo umorzenia postępowania, zabezpieczenie upada. § 2. Zabezpieczenie upada również, gdy zostało udzielone przed wszczęciem postępowania, jeżeli uprawniony nie wystąpił we wszczętym postępowaniu w sprawie o całość roszczenia lub też wystąpił o roszczenia inne niż to, które zostało zabezpieczone. § 3. W sprawach wymienionych w § 1 i § 2 przepis art. 754¹ § 3 stosuje się odpowiednio."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 744. W razie prawomocnego odrzucenia pozwu lub wniosku o wszczęcie postępowania w sprawie, oddalenia żądania albo umorzenia postępowania w sprawie, zabezpieczenie upada."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.3
+   }
+  },
+  {
+   "id": 10,
+   "powolanie": "art. 746 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 10,
+   "napis_grupy": "art. 746 k.p.c.",
+   "kontekst": "Pozwany może wtedy dochodzić naprawienia szkody (art. 746 k.p.c.).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 10,
+   "cytowanie_legal_cite": "art. 746 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 746. § 1. Jeżeli uprawniony nie wniósł pisma wszczynającego postępowanie w wyznaczonym terminie albo cofnął pozew lub wniosek, jak również gdy pozew lub wniosek zwrócono albo odrzucono albo powództwo bądź wniosek oddalono lub postępowanie umorzono, a także w przypadkach wskazanych w art. 744 § 2, obowiązanemu przysługuje przeciwko uprawnionemu roszczenie o naprawienie szkody wyrządzonej wykonaniem zabezpieczenia. Roszczenie wygasa, jeżeli nie będzie dochodzone w ciągu roku od dnia jego powstania. § 1¹. W przypadku wniesienia skargi kasacyjnej termin, o którym mowa w § 1, rozpoczyna bieg w dniu prawomocnego zakończenia postępowania wywołanego jej wniesieniem. § 2. Uprawnieni, którzy łąc…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 746. § 1. Jeżeli wierzyciel nie wytoczył sprawy w terminie przepisanym albo cofnął pozew lub wniosek o wszczęcie postępowania, jak również gdy żądanie jego zostało oddalone, dłużnikowi przysługuje przeciwko wierzycielowi roszczenie o naprawienie szkody wyrządzonej wykonaniem zabezpieczenia. Roszczenie to wygasa, jeżeli dłużnik nie dochodził go sądownie w ciągu roku od chwili jego powstania. § 2. Wierzyciele, którzy łącznie wykonali zabezpieczenie, ponoszą solidarną odpowiedzialność za wyrządzoną szkodę. § 3. Jeżeli w ciągu miesiąca od chwili powstania roszczenia o odszkodowanie z powodu wykonania zarządzenia tymczasowego dłużnik nie wytoczy powództwa, sąd zwróci wierzycielowi na jego w…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.6
+   }
+  },
+  {
+   "id": 11,
+   "powolanie": "art. 492 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 11,
+   "napis_grupy": "art. 492, 492¹, 742–747 k.p.c.",
+   "kontekst": "Przed użyciem tej analizy w piśmie procesowym proszę sprawdzić aktualne brzmienie art. 492, 492¹, 742–747 k.p.c. w wersji obowiązującej na dzień czynności, uwzględniając nowelizacje od 2019 r. Warto też sprawdzić bieżące orzecznictwo SN i sądów apelacyjnych w LEX/Legalis.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 11,
+   "cytowanie_legal_cite": "art. 492 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania.…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika do depozytu sądowego wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu zabezpieczenia przeciwko Skarbowi Państwa stosuje się odpowiednio. § 3. Nakaz…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 492. § 1. Nakaz od chwili wydania stanowi tytuł zabezpieczenia, a jeżeli był wydany na podstawie wekslu lub czeku, staje się on natychmiast wykonalny z upływem terminu udzielonego do zaspokojenia roszczenia. § 2. Państwowe biuro notarialne na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania, a w razie wniesienia zarzutów wstrzymać wykonanie nakazu. § 3. Przepisy o ograniczeniu zabezpieczenia i natychmiastowej wykonalności w sprawach przeciwko jednostkom gospodarki uspołecznionej stosuje się odpowiednio."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.19
+   }
+  },
+  {
+   "id": 12,
+   "powolanie": "art. 492¹ k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 11,
+   "napis_grupy": "art. 492, 492¹, 742–747 k.p.c.",
+   "kontekst": "Przed użyciem tej analizy w piśmie procesowym proszę sprawdzić aktualne brzmienie art. 492, 492¹, 742–747 k.p.c. w wersji obowiązującej na dzień czynności, uwzględniając nowelizacje od 2019 r. Warto też sprawdzić bieżące orzecznictwo SN i sądów apelacyjnych w LEX/Legalis.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 12,
+   "cytowanie_legal_cite": "art. 492[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 492¹. (uchylony)"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 492 1 . § 1. Jeżeli doręczenie nakazu zapłaty nie może nastąpić dlatego, że miejsce pobytu pozwanego nie jest znane albo gdyby doręczenie mu nakazu nie mogło nastąpić w kraju, sąd z urzędu uchyla nakaz zapłaty, a przewodniczący podejmuje odpowiednie czynności. § 2. Jeżeli po wydaniu nakazu zapłaty okaże się, że pozwany w chwili wniesienia pozwu nie miał zdolności sądowej, zdolności procesowej albo organu powołanego do jego reprezentowania, a braki te nie zostały usunięte w wyznaczonym terminie zgodnie z przepisami kodeksu, sąd z urzędu uchyla nakaz zapłaty i wydaje odpowiednie postanowienie."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 492[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0,
+    "slowa_wersji_wczesniejszej": [
+     "czynn",
+     "proce"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 13,
+   "powolanie": "art. 742 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 11,
+   "napis_grupy": "art. 492, 492¹, 742–747 k.p.c.",
+   "kontekst": "Przed użyciem tej analizy w piśmie procesowym proszę sprawdzić aktualne brzmienie art. 492, 492¹, 742–747 k.p.c. w wersji obowiązującej na dzień czynności, uwzględniając nowelizacje od 2019 r. Warto też sprawdzić bieżące orzecznictwo SN i sądów apelacyjnych w LEX/Legalis.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 742 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia. Jeżeli obowiązany złoży na rachunek depozytowy Ministra Finansów sumę zabezpieczenia żądaną przez uprawnionego we wniosku o udzielenie zabezpieczenia, zabezpieczenie upada. Przepis art. 754¹ § 3 stosuje się odpowiednio. § 2. Przed wydaniem postanowienia w przedmiocie uchylenia lub ograniczenia zabezpieczenia sąd wysłucha uprawnionego. § 3. Wniesienie zażalenia na postanowienie uchylające lub zmieniające postanowienie o udzieleniu zabezpieczenia wstrzymuje wykonanie postanowienia. § 4. Przepisów § 2 i § 3…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia. Jeżeli obowiązany złoży na rachunek depozytowy sądu sumę zabezpieczenia żądaną przez uprawnionego we wniosku o udzielenie zabezpieczenia, zabezpieczenie upada. Przepis art. 754 1 § 3 stosuje się odpowiednio. § 2. Postanowienie w przedmiocie uchylenia lub ograniczenia zabezpieczenia może zapaść tylko po przeprowadzeniu rozprawy. § 3. Wniesienie zażalenia na postanowienie uchylające lub zmieniające postanowienie o udzieleniu zabezpieczenia wstrzymuje wykonanie postanowienia. § 4. Przepisów § 2 i § 3 nie sto…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 742. § 1. Dłużnik może w każdym czasie żądać uchylenia lub zmiany prawomocnego zarządzenia tymczasowego, gdy odpadnie lub zmieni się przyczyna zabezpieczenia albo gdy złoży do depozytu sądowego sumę wystarczającą do zabezpieczenia. § 2. Postanowienie co do uchylenia lub ograniczenia zarządzenia tymczasowego może zapaść tylko po przeprowadzeniu rozprawy. § 3. Zażalenie na postanowienie uchylające lub ograniczające zabezpieczenie wstrzymuje wykonanie tego postanowienia."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.1
+   }
+  },
+  {
+   "id": 14,
+   "powolanie": "art. 743 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "zakres",
+   "grupa": 11,
+   "napis_grupy": "art. 492, 492¹, 742–747 k.p.c.",
+   "kontekst": "Przed użyciem tej analizy w piśmie procesowym proszę sprawdzić aktualne brzmienie art. 492, 492¹, 742–747 k.p.c. w wersji obowiązującej na dzień czynności, uwzględniając nowelizacje od 2019 r. Warto też sprawdzić bieżące orzecznictwo SN i sądów apelacyjnych w LEX/Legalis.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 743 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 743. § 1. Jeżeli postanowienie o udzieleniu zabezpieczenia podlega wykonaniu w drodze egzekucji, do wykonania tego postanowienia stosuje się odpowiednio przepisy o postępowaniu egzekucyjnym, z tym jednak, że sąd nadaje postanowieniu o udzieleniu zabezpieczenia klauzulę wykonalności z urzędu. W razie zbiegu zabezpieczenia udzielonego przez sąd i organ administracyjny przepisy art. 773 i art. 774 nie mają zastosowania, z wyjątkiem wypadków przewidzianych w art. 751. § 2. Jeżeli z uwagi na swą treść postanowienie podlega wykonaniu w inny sposób, stosuje się odpowiednio przepisy dotyczące tego sposobu. Podstawą przeprowadzenia postępowania jest wtedy postanowienie zaopatrzone z urzędu prze…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 743. Do wykonania zarządzeń tymczasowych stosuje się odpowiednio przepisy o postępowaniu egzekucyjnym. Jednakże w razie zbiegu zabezpieczenia dokonanego przez organ sądowy i administracyjny organ egzekucyjny nie stosuje się art. 773 i 774, z wyjątkiem wypadków przewidzianych w art. 751."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.05
+   }
+  },
+  {
+   "id": 15,
+   "powolanie": "art. 744 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "zakres",
+   "grupa": 11,
+   "napis_grupy": "art. 492, 492¹, 742–747 k.p.c.",
+   "kontekst": "Przed użyciem tej analizy w piśmie procesowym proszę sprawdzić aktualne brzmienie art. 492, 492¹, 742–747 k.p.c. w wersji obowiązującej na dzień czynności, uwzględniając nowelizacje od 2019 r. Warto też sprawdzić bieżące orzecznictwo SN i sądów apelacyjnych w LEX/Legalis.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 744 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 744. § 1. W razie prawomocnego zwrotu albo odrzucenia pozwu lub wniosku, oddalenia powództwa lub wniosku albo umorzenia postępowania, zabezpieczenie upada. § 2. Zabezpieczenie upada również, gdy zostało udzielone przed wszczęciem postępowania, jeżeli uprawniony nie wystąpił we wszczętym postępowaniu w sprawie o całość roszczenia lub też wystąpił o roszczenia inne niż to, które zostało zabezpieczone. § 3. W sprawach wymienionych w § 1 i § 2 przepis art. 754¹ § 3 stosuje się odpowiednio."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 744. W razie prawomocnego odrzucenia pozwu lub wniosku o wszczęcie postępowania w sprawie, oddalenia żądania albo umorzenia postępowania w sprawie, zabezpieczenie upada."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.1
+   }
+  },
+  {
+   "id": 16,
+   "powolanie": "art. 745 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "zakres",
+   "grupa": 11,
+   "napis_grupy": "art. 492, 492¹, 742–747 k.p.c.",
+   "kontekst": "Przed użyciem tej analizy w piśmie procesowym proszę sprawdzić aktualne brzmienie art. 492, 492¹, 742–747 k.p.c. w wersji obowiązującej na dzień czynności, uwzględniając nowelizacje od 2019 r. Warto też sprawdzić bieżące orzecznictwo SN i sądów apelacyjnych w LEX/Legalis.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 745 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 745. § 1. O kosztach postępowania zabezpieczającego sąd rozstrzyga w orzeczeniu kończącym postępowanie w sprawie, a o kosztach postępowania zabezpieczającego później powstałych rozstrzyga na wniosek strony sąd, który udzielił zabezpieczenia. § 2. Jeżeli postanowienie, w którym udzielono zabezpieczenia, zostało wydane przed wszczęciem postępowania w sprawie, a uprawniony nie zachował wyznaczonego mu terminu do jej wszczęcia, obowiązany może w terminie dwóch tygodni od upływu tego terminu złożyć wniosek o przyznanie mu kosztów. W tym terminie wniosek taki może zgłosić uprawniony, jeżeli nie wytoczył sprawy dlatego, że obowiązany zaspokoił jego roszczenie."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 745. § 1. O kosztach postępowania zabezpieczającego sąd rozstrzyga w orzeczeniu kończącym postępowanie w sprawie. § 2. Jeżeli postanowienie zawierające zarządzenie tymczasowe zostało wydane przed wszczęciem sprawy, a wierzyciel nie zachował wyznaczonego mu terminu do jej wytoczenia, dłużnik może w ciągu dwóch tygodni od upływu tego terminu złożyć wniosek o przyznanie mu kosztów. W tymże terminie wniosek taki może zgłosić wierzyciel, jeżeli nie wytoczył sprawy dlatego, że dłużnik zaspokoił jego roszczenie."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.19
+   }
+  },
+  {
+   "id": 17,
+   "powolanie": "art. 746 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "zakres",
+   "grupa": 11,
+   "napis_grupy": "art. 492, 492¹, 742–747 k.p.c.",
+   "kontekst": "Przed użyciem tej analizy w piśmie procesowym proszę sprawdzić aktualne brzmienie art. 492, 492¹, 742–747 k.p.c. w wersji obowiązującej na dzień czynności, uwzględniając nowelizacje od 2019 r. Warto też sprawdzić bieżące orzecznictwo SN i sądów apelacyjnych w LEX/Legalis.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 746 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 746. § 1. Jeżeli uprawniony nie wniósł pisma wszczynającego postępowanie w wyznaczonym terminie albo cofnął pozew lub wniosek, jak również gdy pozew lub wniosek zwrócono albo odrzucono albo powództwo bądź wniosek oddalono lub postępowanie umorzono, a także w przypadkach wskazanych w art. 744 § 2, obowiązanemu przysługuje przeciwko uprawnionemu roszczenie o naprawienie szkody wyrządzonej wykonaniem zabezpieczenia. Roszczenie wygasa, jeżeli nie będzie dochodzone w ciągu roku od dnia jego powstania. § 1¹. W przypadku wniesienia skargi kasacyjnej termin, o którym mowa w § 1, rozpoczyna bieg w dniu prawomocnego zakończenia postępowania wywołanego jej wniesieniem. § 2. Uprawnieni, którzy łąc…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 746. § 1. Jeżeli wierzyciel nie wytoczył sprawy w terminie przepisanym albo cofnął pozew lub wniosek o wszczęcie postępowania, jak również gdy żądanie jego zostało oddalone, dłużnikowi przysługuje przeciwko wierzycielowi roszczenie o naprawienie szkody wyrządzonej wykonaniem zabezpieczenia. Roszczenie to wygasa, jeżeli dłużnik nie dochodził go sądownie w ciągu roku od chwili jego powstania. § 2. Wierzyciele, którzy łącznie wykonali zabezpieczenie, ponoszą solidarną odpowiedzialność za wyrządzoną szkodę. § 3. Jeżeli w ciągu miesiąca od chwili powstania roszczenia o odszkodowanie z powodu wykonania zarządzenia tymczasowego dłużnik nie wytoczy powództwa, sąd zwróci wierzycielowi na jego w…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.05,
+    "slowa_wersji_wczesniejszej": [
+     "spraw"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 18,
+   "powolanie": "art. 747 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "zakres",
+   "grupa": 11,
+   "napis_grupy": "art. 492, 492¹, 742–747 k.p.c.",
+   "kontekst": "Przed użyciem tej analizy w piśmie procesowym proszę sprawdzić aktualne brzmienie art. 492, 492¹, 742–747 k.p.c. w wersji obowiązującej na dzień czynności, uwzględniając nowelizacje od 2019 r. Warto też sprawdzić bieżące orzecznictwo SN i sądów apelacyjnych w LEX/Legalis.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 13,
+   "cytowanie_legal_cite": "art. 747 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 747. Zabezpieczenie roszczeń pieniężnych następuje przez: 1) zajęcie ruchomości, wynagrodzenia za pracę, wierzytelności z rachunku bankowego albo innej wierzytelności lub innego prawa majątkowego; 2) obciążenie nieruchomości obowiązanego hipoteką przymusową; 3) ustanowienie zakazu zbywania lub obciążania nieruchomości, która nie ma urządzonej księgi wieczystej lub której księga wieczysta zaginęła lub uległa zniszczeniu; 4) obciążenie statku albo statku w budowie hipoteką morską; 5) ustanowienie zakazu zbywania spółdzielczego własnościowego prawa do lokalu; 6) ustanowienie zarządu przymusowego nad przedsiębiorstwem lub gospodarstwem rolnym obowiązanego albo zakładem wchodzącym w skład p…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 747. Zabezpieczenie roszczeń pieniężnych następuje przez zarządzenie: 1) zajęcia ruchomości, wynagrodzenia za pracę albo wierzytelności lub innego prawa; 2) obciążenia nieruchomości dłużnika hipoteką przymusową lub zastawem wpisanym do rejestru okrętowego; 3) zakazu zbywania lub obciążania nieruchomości, która nie ma urządzonej księgi wieczystej albo której księga wieczysta zaginęła lub uległa zniszczeniu."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.1
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": []
+}

@@ -1,0 +1,9263 @@
+{
+ "P01|chatgpt_codex_w0_r3": {
+  "plik": "P01_chatgpt_codex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119",
+    "art": "119",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|chatgpt_codex_web_r3": {
+  "plik": "P01_chatgpt_codex_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130",
+    "art": "130",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 279 § 1",
+    "art": "279",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 pkt 7",
+    "art": "1",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "7",
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|codex_astra6_w0_r3": {
+  "plik": "P01_codex_astra6_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 2",
+    "art": "130",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 279 § 1",
+    "art": "279",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|codex_astra6_web_r3": {
+  "plik": "P01_codex_astra6_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 2",
+    "art": "130",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119",
+    "art": "119",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|codex_terra56_w0_r3": {
+  "plik": "P01_codex_terra56_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 278 § 1",
+    "art": "278",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 288 § 1",
+    "art": "288",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|codex_terra56_web_r3": {
+  "plik": "P01_codex_terra56_web_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 120 § 1",
+    "art": "120",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 122 § 1",
+    "art": "122",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [W] ma 1 klas, wyciągnięto 4 błędów"
+  ]
+ },
+ "P01|haiku_cli_w0_r3": {
+  "plik": "P01_haiku_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 120",
+    "art": "120",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 278",
+    "art": "278",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KK"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|haiku_cli_w1_r3": {
+  "plik": "P01_haiku_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 24 § 2",
+    "art": "24",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 278 § 1",
+    "art": "278",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 19",
+    "art": "19",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KW"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|sonnet_cli_w0_r3": {
+  "plik": "P01_sonnet_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 4",
+    "art": "4",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 120",
+    "art": "120",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KW",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 122",
+    "art": "122",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KW",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 12",
+    "art": "12",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KW",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 2",
+    "art": "2",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 278 § 1",
+    "art": "278",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 284 § 1",
+    "art": "284",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 288 § 1",
+    "art": "288",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T, W] ma 2 klas, wyciągnięto 6 błędów"
+  ]
+ },
+ "P01|sonnet_cli_w1_r3": {
+  "plik": "P01_sonnet_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 2",
+    "art": "2",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KW",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 12",
+    "art": "12",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|opus_cli_w0_r3": {
+  "plik": "P01_opus_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "bez_powolania",
+    "napis": null,
+    "opis": "historia progu",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 12 § 2",
+    "art": "12",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 278a",
+    "art": "278a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KK",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 278 § 3a",
+    "art": "278",
+    "jednostka": "3a",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 4 pkt 5",
+    "art": "4",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "5",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 120 § 1",
+    "art": "120",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 122 § 1",
+    "art": "122",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 278 § 1",
+    "art": "278",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 284 § 1",
+    "art": "284",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 291 § 1",
+    "art": "291",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 288 § 1",
+    "art": "288",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 279 § 1",
+    "art": "279",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 280 § 1",
+    "art": "280",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "marker W bez powołania: historia progu",
+   "A6_typ [W, T] ma 2 klas, wyciągnięto 3 błędów"
+  ]
+ },
+ "P01|opus_cli_w1_r3": {
+  "plik": "P01_opus_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 9",
+    "art": "9",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 278a",
+    "art": "278a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KK",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 120 § 1",
+    "art": "120",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 122 § 1",
+    "art": "122",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 10a",
+    "art": "10a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 12 § 2",
+    "art": "12",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 1 pkt 2",
+    "art": "130",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": "2",
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 2",
+    "art": "130",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 33",
+    "art": "33",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 284",
+    "art": "284",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 288",
+    "art": "288",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 291",
+    "art": "291",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 279",
+    "art": "279",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 12 § 2",
+    "art": "12",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|gemini38flash_vertex_w0_r3": {
+  "plik": "P01_gemini38flash_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KW"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|gemini38flash_vertex_w1_r3": {
+  "plik": "P01_gemini38flash_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 278a",
+    "art": "278a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 278 § 1",
+    "art": "278",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK",
+    "zrodlo": "Δ"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 288 § 1",
+    "art": "288",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 279",
+    "art": "279",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 278 § 1a",
+    "art": "278",
+    "jednostka": "1a",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 12 § 2",
+    "art": "12",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 56 pkt 1",
+    "art": "56",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "1",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 53 § 3",
+    "art": "53",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P01|argon4_high_vertex_w0_r3": {
+  "plik": "P01_argon4_high_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "bez_powolania",
+    "napis": null,
+    "opis": "założenie „obecny rok 2024” i progi k.k.s. na 2024 r. podane jako bieżące (na 2026 r.: 24 030 zł)",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 119 § 1",
+    "art": "119",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 120 § 1",
+    "art": "120",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 122 § 1",
+    "art": "122",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 278",
+    "art": "278",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 53 § 3",
+    "art": "53",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 53 § 6",
+    "art": "53",
+    "jednostka": "6",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "marker W bez powołania: założenie „obecny rok 2024” i progi k.k.s. na 2024 r. podane jako bieżące (na 2026 r.: 24 030 zł)"
+  ]
+ },
+ "P01|argon4_high_vertex_w1_r3": {
+  "plik": "P01_argon4_high_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "W",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 278a § 1",
+    "art": "278a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 115 § 9a",
+    "art": "115",
+    "jednostka": "9a",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 278 § 5",
+    "art": "278",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KK",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 2",
+    "art": "130",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 120 § 1",
+    "art": "120",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 122 § 1",
+    "art": "122",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 124 § 1",
+    "art": "124",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 284 § 1",
+    "art": "284",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 290 § 1",
+    "art": "290",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 291 § 1",
+    "art": "291",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 292 § 1",
+    "art": "292",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 288 § 1",
+    "art": "288",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 279 § 1",
+    "art": "279",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 280 § 1",
+    "art": "280",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 53 § 3",
+    "art": "53",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 53 § 6",
+    "art": "53",
+    "jednostka": "6",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [W, W, T] ma 3 klas, wyciągnięto 4 błędów"
+  ]
+ },
+ "P04|chatgpt_codex_w0_r3": {
+  "plik": "P04_chatgpt_codex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": "u.n.n.c."
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 364 § 1",
+    "art": "364",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 13 § 2",
+    "art": "13",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|chatgpt_codex_web_r3": {
+  "plik": "P04_chatgpt_codex_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 13 § 2",
+    "art": "13",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 583",
+    "art": "583",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|codex_astra6_w0_r3": {
+  "plik": "P04_codex_astra6_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 364 § 1",
+    "art": "364",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 13 § 2",
+    "art": "13",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": "u.n.n.c."
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|codex_astra6_web_r3": {
+  "plik": "P04_codex_astra6_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 13 § 2",
+    "art": "13",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|codex_terra56_w0_r3": {
+  "plik": "P04_codex_terra56_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 3 ust. 1",
+    "art": "3",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": "u.n.n.c.",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 217 § 2 pkt 2",
+    "art": "217",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": "2",
+    "akt": "KPA"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|codex_terra56_web_r3": {
+  "plik": "P04_codex_terra56_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1a",
+    "art": "1",
+    "jednostka": "1a",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|haiku_cli_w0_r3": {
+  "plik": "P04_haiku_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 127a § 2",
+    "art": "127a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 61 § 3",
+    "art": "61",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "PPSA",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T] ma 1 klas, wyciągnięto 3 błędów"
+  ]
+ },
+ "P04|haiku_cli_w1_r3": {
+  "plik": "P04_haiku_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|sonnet_cli_w0_r3": {
+  "plik": "P04_sonnet_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 2",
+    "art": "16",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 217 § 2 pkt 2",
+    "art": "217",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": "2",
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 8",
+    "art": "8",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 363 § 1",
+    "art": "363",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 364 § 1",
+    "art": "364",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 365 § 1",
+    "art": "365",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|sonnet_cli_w1_r3": {
+  "plik": "P04_sonnet_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 217 § 2",
+    "art": "217",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1",
+    "art": "1",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 8",
+    "art": "8",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 364",
+    "art": "364",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 365",
+    "art": "365",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|opus_cli_w0_r3": {
+  "plik": "P04_opus_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 3a",
+    "art": "3a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 6 ust. 1",
+    "art": "6",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 8 ust. 1",
+    "art": "8",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 8 ust. 3",
+    "art": "8",
+    "jednostka": "3",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 8 ust. 2",
+    "art": "8",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127a § 2",
+    "art": "127a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 53 § 1",
+    "art": "53",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "PPSA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 52 § 3",
+    "art": "52",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "PPSA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 217",
+    "art": "217",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPA"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|opus_cli_w1_r3": {
+  "plik": "P04_opus_cli_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 6 ust. 1",
+    "art": "6",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 8 ust. 1 pkt 1",
+    "art": "8",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": "1",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 8 ust. 1 pkt 2",
+    "art": "8",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": "2",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 129 § 2",
+    "art": "129",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127a",
+    "art": "127a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 217",
+    "art": "217",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 52 § 3",
+    "art": "52",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 53 § 1",
+    "art": "53",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 364 § 1",
+    "art": "364",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|gemini38flash_vertex_w0_r3": {
+  "plik": "P04_gemini38flash_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 127a",
+    "art": "127a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPA",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": "u.n.n.c."
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 1",
+    "art": "130",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 217",
+    "art": "217",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|gemini38flash_vertex_w1_r3": {
+  "plik": "P04_gemini38flash_vertex_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 217",
+    "art": "217",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127a § 2",
+    "art": "127a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 101 § 3",
+    "art": "101",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 363 § 1",
+    "art": "363",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 364",
+    "art": "364",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 13 § 2",
+    "art": "13",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|argon4_high_vertex_w0_r3": {
+  "plik": "P04_argon4_high_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 2",
+    "art": "1",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 579",
+    "art": "579",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1",
+    "art": "1",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 1",
+    "art": "16",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127a",
+    "art": "127a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 101 § 3",
+    "art": "101",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 583",
+    "art": "583",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 13 § 2",
+    "art": "13",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 363 § 1",
+    "art": "363",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 364 § 1",
+    "art": "364",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P04|argon4_high_vertex_w1_r3": {
+  "plik": "P04_argon4_high_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 77 ust. 1 pkt 1",
+    "art": "77",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": "1",
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 ust. 1a",
+    "art": "1",
+    "jednostka": "1a",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 2a ust. 4",
+    "art": "2a",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 16 § 3",
+    "art": "16",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 217 § 1",
+    "art": "217",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127a § 1",
+    "art": "127a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127 § 3",
+    "art": "127",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 127a § 2",
+    "art": "127a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 156",
+    "art": "156",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 583",
+    "art": "583",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 363 § 1",
+    "art": "363",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 13 § 2",
+    "art": "13",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 521 § 1",
+    "art": "521",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 364 § 1",
+    "art": "364",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P05|chatgpt_codex_w0_r3": {
+  "plik": "P05_chatgpt_codex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131 § 1",
+    "art": "131",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ § 1",
+    "art": "1311",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133 § 3",
+    "art": "133",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 2",
+    "art": "1311a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 3",
+    "art": "1311a",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6 1/1, a w wierszu markery błędów — potraktowane jako historyczne"
+  ],
+  "historyczne": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ]
+ },
+ "P05|chatgpt_codex_web_r3": {
+  "plik": "P05_chatgpt_codex_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ",
+    "art": "1311a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133 § 3",
+    "art": "133",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P05|codex_astra6_w0_r3": {
+  "plik": "P05_codex_astra6_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131",
+    "art": "131",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹",
+    "art": "1311",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133 § 3",
+    "art": "133",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ",
+    "art": "1311a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 19",
+    "art": "19",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6 1/1, a w wierszu markery błędów — potraktowane jako historyczne"
+  ],
+  "historyczne": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ",
+    "art": "1311a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ]
+ },
+ "P05|codex_astra6_web_r3": {
+  "plik": "P05_codex_astra6_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133 § 3",
+    "art": "133",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P05|codex_terra56_w0_r3": {
+  "plik": "P05_codex_terra56_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ § 1",
+    "art": "1311",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ § 2",
+    "art": "1311",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P05|codex_terra56_web_r3": {
+  "plik": "P05_codex_terra56_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P05|haiku_cli_w0_r3": {
+  "plik": "P05_haiku_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 131",
+    "art": "131",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 132",
+    "art": "132",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "klasa S markera spoza A6_typ ['T'] — przyjęto T"
+  ]
+ },
+ "P05|haiku_cli_w1_r3": {
+  "plik": "P05_haiku_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "F"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 133",
+    "art": "133",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 138",
+    "art": "138",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 139",
+    "art": "139",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹",
+    "art": "1311",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "F",
+    "rodzaj": "przepis",
+    "napis": "art. 1361",
+    "art": "1361",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 136",
+    "art": "136",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131",
+    "art": "131",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T, F] ma 2 klas, wyciągnięto 5 błędów"
+  ]
+ },
+ "P05|sonnet_cli_w0_r3": {
+  "plik": "P05_sonnet_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹",
+    "art": "1311",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 125 § 2¹",
+    "art": "125",
+    "jednostka": "21",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131",
+    "art": "131",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168",
+    "art": "168",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 132",
+    "art": "132",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPK"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "klasa O przeliczona na T (: „**Art. 131¹ k.p.c.**: doręczenie pism sądowych … za pośr…)"
+  ]
+ },
+ "P05|sonnet_cli_w1_r3": {
+  "plik": "P05_sonnet_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 24/23",
+    "sygnatura": "III CZP 24/23",
+    "zrodlo": "Δ"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 2",
+    "art": "1311a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "Δ"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 134 § 1",
+    "art": "134",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133 § 1",
+    "art": "133",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131 § 1",
+    "art": "131",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 134 § 1",
+    "art": "134",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131²",
+    "art": "1312",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [W] ma 1 klas, wyciągnięto 2 błędów"
+  ]
+ },
+ "P05|opus_cli_w0_r3": {
+  "plik": "P05_opus_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "S"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹",
+    "art": "1311",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹",
+    "art": "1311",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 4",
+    "art": "1311a",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131",
+    "art": "131",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133 § 3",
+    "art": "133",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168",
+    "art": "168",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "klasa O przeliczona na T (: „Obowiązkowe doręczenie przez portal (art. 131¹ k.p.c.)”,…)"
+  ]
+ },
+ "P05|opus_cli_w1_r3": {
+  "plik": "P05_opus_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 133a",
+    "art": "133a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPK",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 134 § 1",
+    "art": "134",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131 § 1",
+    "art": "131",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 134 § 1",
+    "art": "134",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 165 § 2",
+    "art": "165",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ § 1–2¹",
+    "art": "1311",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131²",
+    "art": "1312",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168",
+    "art": "168",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 1 pkt 11",
+    "art": "1",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "11",
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P05|gemini38flash_vertex_w0_r3": {
+  "plik": "P05_gemini38flash_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ § 2",
+    "art": "1311",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 155 ust. 7",
+    "art": "155",
+    "jednostka": "7",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": "u.d.e.",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 155",
+    "art": "155",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131 § 1",
+    "art": "131",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [W, T] ma 2 klas, wyciągnięto 3 błędów"
+  ]
+ },
+ "P05|gemini38flash_vertex_w1_r3": {
+  "plik": "P05_gemini38flash_vertex_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 134 § 1",
+    "art": "134",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 134 § 1",
+    "art": "134",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹",
+    "art": "1311",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P05|argon4_high_vertex_w0_r3": {
+  "plik": "P05_argon4_high_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ § 2",
+    "art": "1311",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 133a § 1",
+    "art": "133a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPK",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 491¹",
+    "art": "4911",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T, W] ma 2 klas, wyciągnięto 4 błędów"
+  ]
+ },
+ "P05|argon4_high_vertex_w1_r3": {
+  "plik": "P05_argon4_high_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 125¹ § 2",
+    "art": "1251",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 125² § 1",
+    "art": "1252",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1–4",
+    "art": "1311a",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133a § 1–5",
+    "art": "133a",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1¹",
+    "art": "1311a",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133a § 1a",
+    "art": "133a",
+    "jednostka": "1a",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1¹ zd. 2",
+    "art": "1311a",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 1",
+    "art": "1311a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133a § 2",
+    "art": "133a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 3",
+    "art": "1311a",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133a § 4",
+    "art": "133a",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹ᵃ § 2",
+    "art": "1311a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 133a § 3",
+    "art": "133a",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 134 § 1",
+    "art": "134",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 116a",
+    "art": "116a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPK"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹",
+    "art": "1311",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 131¹",
+    "art": "1311",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P06|chatgpt_codex_w0_r3": {
+  "plik": "P06_chatgpt_codex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 2",
+    "art": "3942",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "klasa O przeliczona na T ((sąsiednia jednostka; w r2 ten sam błąd bez „pkt 7” sklasyf…)"
+  ]
+ },
+ "P06|chatgpt_codex_web_r3": {
+  "plik": "P06_chatgpt_codex_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 50/22",
+    "sygnatura": "III CZP 50/22"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1²",
+    "art": "3942",
+    "jednostka": "12",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 2",
+    "art": "3942",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 50/22",
+    "sygnatura": "III CZP 50/22"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P06|codex_astra6_w0_r3": {
+  "plik": "P06_codex_astra6_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 2",
+    "art": "3941",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ᵃ § 1 pkt 12",
+    "art": "3941a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": "12",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394²",
+    "art": "3942",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P06|codex_astra6_web_r3": {
+  "plik": "P06_codex_astra6_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ᵃ § 1 pkt 12",
+    "art": "3941a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": "12",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 1",
+    "art": "3941",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168 § 1",
+    "art": "168",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 169 § 1",
+    "art": "169",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 50/22",
+    "sygnatura": "III CZP 50/22"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P06|codex_terra56_w0_r3": {
+  "plik": "P06_codex_terra56_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "F"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "F",
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1 pkt 12",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": "12",
+    "akt": "KPC",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394²",
+    "art": "3942",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P06|codex_terra56_web_r3": {
+  "plik": "P06_codex_terra56_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 1",
+    "art": "3941",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 99",
+    "art": "99",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P06|haiku_cli_w0_r3": {
+  "plik": "P06_haiku_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 3",
+    "art": "394",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 362",
+    "art": "362",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130",
+    "art": "130",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130",
+    "art": "130",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T] ma 1 klas, wyciągnięto 2 błędów"
+  ]
+ },
+ "P06|haiku_cli_w1_r3": {
+  "plik": "P06_haiku_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 53 ust. 1",
+    "art": "53",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 77 ust. 1",
+    "art": "77",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹",
+    "art": "3941",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P06|sonnet_cli_w0_r3": {
+  "plik": "P06_sonnet_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 373 zd. 2",
+    "art": "373",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394¹",
+    "art": "3941",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 2",
+    "art": "397",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 19 ust. 2 pkt 2",
+    "art": "19",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": "2",
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 370",
+    "art": "370",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 2",
+    "art": "397",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 1–2",
+    "art": "130",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 139",
+    "art": "139",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168",
+    "art": "168",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T, W] ma 2 klas, wyciągnięto 6 błędów"
+  ]
+ },
+ "P06|sonnet_cli_w1_r3": {
+  "plik": "P06_sonnet_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 394¹",
+    "art": "3941",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 1",
+    "art": "130",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 2",
+    "art": "397",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168",
+    "art": "168",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [W, W] ma 2 klas, wyciągnięto 3 błędów"
+  ]
+ },
+ "P06|opus_cli_w0_r3": {
+  "plik": "P06_opus_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1¹",
+    "art": "3942",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 130² § 4",
+    "art": "1302",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 130² § 3",
+    "art": "1302",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 2",
+    "art": "3941",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 19 ust. 4",
+    "art": "19",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2¹",
+    "art": "357",
+    "jednostka": "21",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 94",
+    "art": "94",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 102 ust. 1",
+    "art": "102",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 398²",
+    "art": "3982",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168",
+    "art": "168",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130",
+    "art": "130",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T, W] ma 2 klas, wyciągnięto 4 błędów"
+  ]
+ },
+ "P06|opus_cli_w1_r3": {
+  "plik": "P06_opus_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 370",
+    "art": "370",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 3",
+    "art": "397",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 373 § 1",
+    "art": "373",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ᵃ",
+    "art": "3941a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 1",
+    "art": "3941",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 3",
+    "art": "3941",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 398⁶",
+    "art": "3986",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130 § 1",
+    "art": "130",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130²",
+    "art": "1302",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168",
+    "art": "168",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 430 § 2",
+    "art": "430",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPK"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [W] ma 1 klas, wyciągnięto 2 błędów"
+  ]
+ },
+ "P06|gemini38flash_vertex_w0_r3": {
+  "plik": "P06_gemini38flash_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1¹ pkt 1",
+    "art": "3942",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": "1",
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 1¹",
+    "art": "3941",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394²",
+    "art": "3942",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T] ma 1 klas, wyciągnięto 2 błędów"
+  ]
+ },
+ "P06|gemini38flash_vertex_w1_r3": {
+  "plik": "P06_gemini38flash_vertex_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 2",
+    "art": "3941",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 1",
+    "art": "3941",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 1¹",
+    "art": "3941",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1¹",
+    "art": "3942",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 50/22",
+    "sygnatura": "III CZP 50/22"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1²",
+    "art": "3942",
+    "jednostka": "12",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 359 § 1",
+    "art": "359",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 3",
+    "art": "397",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 391 § 1",
+    "art": "391",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168",
+    "art": "168",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 327",
+    "art": "327",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P06|argon4_high_vertex_w0_r3": {
+  "plik": "P06_argon4_high_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "S"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 394²",
+    "art": "3942",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "przepis",
+    "napis": "art. 429",
+    "art": "429",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "przepis",
+    "napis": "art. 430",
+    "art": "430",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 1",
+    "art": "3941",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 373 § 1",
+    "art": "373",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 3",
+    "art": "397",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 3",
+    "art": "3941",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 398²¹",
+    "art": "39821",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 1",
+    "art": "394",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 87¹ § 1",
+    "art": "871",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 398²² § 1",
+    "art": "39822",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 359 § 1",
+    "art": "359",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 391 § 1",
+    "art": "391",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168 § 1",
+    "art": "168",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 169 § 3",
+    "art": "169",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 380",
+    "art": "380",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 130²",
+    "art": "1302",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [W, S] ma 2 klas, wyciągnięto 4 błędów"
+  ]
+ },
+ "P06|argon4_high_vertex_w1_r3": {
+  "plik": "P06_argon4_high_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 194 § 1 pkt 7",
+    "art": "194",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": "7",
+    "akt": "PPSA",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1¹ pkt 1",
+    "art": "3942",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": "1",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1²",
+    "art": "3942",
+    "jednostka": "12",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 1¹",
+    "art": "397",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 373 § 1",
+    "art": "373",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 3",
+    "art": "397",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 1",
+    "art": "394",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 741",
+    "art": "741",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ § 1",
+    "art": "3941",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1–1²",
+    "art": "3942",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 50/22",
+    "sygnatura": "III CZP 50/22"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ᵃ § 1¹",
+    "art": "3941a",
+    "jednostka": "11",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ᵃ § 1 pkt 12",
+    "art": "3941a",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": "12",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2²",
+    "art": "357",
+    "jednostka": "22",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2⁴",
+    "art": "357",
+    "jednostka": "24",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 2 zd. 1",
+    "art": "397",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 2",
+    "art": "3942",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 127/22",
+    "sygnatura": "III CZP 127/22"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 380",
+    "art": "380",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168 § 1",
+    "art": "168",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 169 § 1",
+    "art": "169",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 359 § 1",
+    "art": "359",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 220 § 3",
+    "art": "220",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "PPSA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 197 § 2",
+    "art": "197",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "PPSA"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 194 § 2",
+    "art": "194",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "PPSA"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|chatgpt_codex_w0_r3": {
+  "plik": "P07_chatgpt_codex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 1",
+    "art": "357",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2¹",
+    "art": "357",
+    "jednostka": "21",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|chatgpt_codex_web_r3": {
+  "plik": "P07_chatgpt_codex_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 38/20",
+    "sygnatura": "III CZP 38/20"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5 zd. 2",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 38/20",
+    "sygnatura": "III CZP 38/20"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357",
+    "art": "357",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|codex_astra6_w0_r3": {
+  "plik": "P07_codex_astra6_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 1",
+    "art": "357",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2¹",
+    "art": "357",
+    "jednostka": "21",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|codex_astra6_web_r3": {
+  "plik": "P07_codex_astra6_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 38/20",
+    "sygnatura": "III CZP 38/20"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|codex_terra56_w0_r3": {
+  "plik": "P07_codex_terra56_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394",
+    "art": "394",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "klasa O przeliczona na T (art. 357 § 5)"
+  ]
+ },
+ "P07|codex_terra56_web_r3": {
+  "plik": "P07_codex_terra56_web_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 25b ust. 1",
+    "art": "25b",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": "u.k.s.c.",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2–3",
+    "art": "357",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 38/20",
+    "sygnatura": "III CZP 38/20"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|haiku_cli_w0_r3": {
+  "plik": "P07_haiku_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "F"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 328 § 1",
+    "art": "328",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "F",
+    "rodzaj": "przepis",
+    "napis": "art. 111",
+    "art": "111",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 165 § 1",
+    "art": "165",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|haiku_cli_w1_r3": {
+  "plik": "P07_haiku_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 130¹ § 2",
+    "art": "1301",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 328 § 1",
+    "art": "328",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|sonnet_cli_w0_r3": {
+  "plik": "P07_sonnet_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2",
+    "art": "357",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 328 § 1 zd. 2",
+    "art": "328",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 328 § 1",
+    "art": "328",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 326 § 3",
+    "art": "326",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 327¹",
+    "art": "3271",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 369 § 1",
+    "art": "369",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 168 § 1",
+    "art": "168",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 169 § 1",
+    "art": "169",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T, W] ma 2 klas, wyciągnięto 3 błędów"
+  ]
+ },
+ "P07|sonnet_cli_w1_r3": {
+  "plik": "P07_sonnet_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "S"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "S",
+    "rodzaj": "bez_powolania",
+    "napis": null,
+    "opis": "pogląd SA w Warszawie przypisany SN",
+    "zrodlo": "Δ"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357",
+    "art": "357",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 326",
+    "art": "326",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 328 § 1",
+    "art": "328",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 328 § 4",
+    "art": "328",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "błąd S bez powołania (Δ): pogląd SA w Warszawie przypisany SN"
+  ]
+ },
+ "P07|opus_cli_w0_r3": {
+  "plik": "P07_opus_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "O"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 1",
+    "art": "357",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "bez_powolania",
+    "napis": null,
+    "opis": ": „Art. 357 § 5 zastrzega pierwszeństwo przepisów szczególnych” — § 5 takiego zastrzeżenia nie zawi…",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 361",
+    "art": "361",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 327¹",
+    "art": "3271",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 386 § 4",
+    "art": "386",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 3",
+    "art": "397",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "marker T bez powołania: : „Art. 357 § 5 zastrzega pierwszeństwo przepisów szczególnych” — § 5 takiego zastrzeżenia nie zawi…"
+  ]
+ },
+ "P07|opus_cli_w1_r3": {
+  "plik": "P07_opus_cli_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 326 § 3",
+    "art": "326",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 25b",
+    "art": "25b",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "u.k.s.c."
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 112/22",
+    "sygnatura": "III CZP 112/22"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|gemini38flash_vertex_w0_r3": {
+  "plik": "P07_gemini38flash_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "S"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "przepis",
+    "napis": "art. 328 § 4",
+    "art": "328",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "przepis",
+    "napis": "art. 362",
+    "art": "362",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T, S] ma 2 klas, wyciągnięto 4 błędów"
+  ]
+ },
+ "P07|gemini38flash_vertex_w1_r3": {
+  "plik": "P07_gemini38flash_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 25b ust. 1",
+    "art": "25b",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": "u.k.s.c.",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5 zd. 1",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 38/20",
+    "sygnatura": "III CZP 38/20"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2¹",
+    "art": "357",
+    "jednostka": "21",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 1",
+    "art": "357",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2³",
+    "art": "357",
+    "jednostka": "23",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 6",
+    "art": "357",
+    "jednostka": "6",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 1",
+    "art": "357",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 361",
+    "art": "361",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P07|argon4_high_vertex_w0_r3": {
+  "plik": "P07_argon4_high_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "W",
+   "S"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394 § 2",
+    "art": "394",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394¹ᵃ § 2",
+    "art": "3941a",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394² § 1²",
+    "art": "3942",
+    "jednostka": "12",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 25b",
+    "art": "25b",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "u.k.s.c.",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "orzeczenie",
+    "napis": "III CZ 163/22",
+    "sygnatura": "III CZ 163/22",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 5",
+    "art": "357",
+    "jednostka": "5",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 2¹",
+    "art": "357",
+    "jednostka": "21",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 1",
+    "art": "357",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 327¹",
+    "art": "3271",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 373 § 1",
+    "art": "373",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 397 § 3",
+    "art": "397",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 328 § 4",
+    "art": "328",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 361",
+    "art": "361",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 357 § 6",
+    "art": "357",
+    "jednostka": "6",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [T, W, S-niepotwierdzone] ma 3 klas, wyciągnięto 7 błędów"
+  ]
+ },
+ "P07|argon4_high_vertex_w1_r3": {
+  "plik": "P07_argon4_high_vertex_w1_r3.md",
+  "a6_pkt": "n/d (blokada)",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|chatgpt_codex_w0_r3": {
+  "plik": "P08_chatgpt_codex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|chatgpt_codex_web_r3": {
+  "plik": "P08_chatgpt_codex_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|codex_astra6_w0_r3": {
+  "plik": "P08_codex_astra6_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|codex_astra6_web_r3": {
+  "plik": "P08_codex_astra6_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|codex_terra56_w0_r3": {
+  "plik": "P08_codex_terra56_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|codex_terra56_web_r3": {
+  "plik": "P08_codex_terra56_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50",
+    "art": "50",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|haiku_cli_w0_r3": {
+  "plik": "P08_haiku_cli_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": "AI Act"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50",
+    "art": "50",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 23",
+    "art": "23",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 81",
+    "art": "81",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "PrAut"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 9",
+    "art": "9",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "RODO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 190a",
+    "art": "190a",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KK"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|haiku_cli_w1_r3": {
+  "plik": "P08_haiku_cli_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4 zd. 1",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4 zd. 3",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 5",
+    "art": "5",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 111 ust. 4",
+    "art": "111",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 9",
+    "art": "9",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 23",
+    "art": "23",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|sonnet_cli_w0_r3": {
+  "plik": "P08_sonnet_cli_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50",
+    "art": "50",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 23",
+    "art": "23",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 24",
+    "art": "24",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|sonnet_cli_w1_r3": {
+  "plik": "P08_sonnet_cli_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 9",
+    "art": "9",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|opus_cli_w0_r3": {
+  "plik": "P08_opus_cli_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4 zd. 3",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 7",
+    "art": "50",
+    "jednostka": "7",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 23",
+    "art": "23",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 24",
+    "art": "24",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 85",
+    "art": "85",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "PrAut"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 9",
+    "art": "9",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "RODO"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|opus_cli_w1_r3": {
+  "plik": "P08_opus_cli_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4 zd. 3",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 111 ust. 4",
+    "art": "111",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 24",
+    "art": "24",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|gemini38flash_vertex_w0_r3": {
+  "plik": "P08_gemini38flash_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|gemini38flash_vertex_w1_r3": {
+  "plik": "P08_gemini38flash_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|argon4_high_vertex_w0_r3": {
+  "plik": "P08_argon4_high_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P08|argon4_high_vertex_w1_r3": {
+  "plik": "P08_argon4_high_vertex_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 113 zd. 2",
+    "art": "113",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3 pkt 60",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "60",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 3",
+    "art": "3",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 4",
+    "art": "50",
+    "jednostka": "4",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 2",
+    "art": "50",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 50 ust. 1",
+    "art": "50",
+    "jednostka": "1",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|chatgpt_codex_w0_r3": {
+  "plik": "P12_chatgpt_codex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1–2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|chatgpt_codex_web_r3": {
+  "plik": "P12_chatgpt_codex_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 117/10",
+    "sygnatura": "III CZP 117/10"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|codex_astra6_w0_r3": {
+  "plik": "P12_codex_astra6_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|codex_astra6_web_r3": {
+  "plik": "P12_codex_astra6_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 117/10",
+    "sygnatura": "III CZP 117/10"
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 106/18",
+    "sygnatura": "III CZP 106/18"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|codex_terra56_w0_r3": {
+  "plik": "P12_codex_terra56_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|codex_terra56_web_r3": {
+  "plik": "P12_codex_terra56_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41",
+    "art": "41",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "VIII Gz 140/18",
+    "sygnatura": "VIII Gz 140/18"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|haiku_cli_w0_r3": {
+  "plik": "P12_haiku_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|haiku_cli_w1_r3": {
+  "plik": "P12_haiku_cli_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|sonnet_cli_w0_r3": {
+  "plik": "P12_sonnet_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "T",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781",
+    "art": "781",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 189",
+    "art": "189",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 795 § 1",
+    "art": "795",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 840",
+    "art": "840",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 841",
+    "art": "841",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "klasa O przeliczona na T (: art. 787 — wierzyciel ma wykazać „**dokumentem urzędowym …)",
+   "klasa O przeliczona na T (: tryb szczególny (art. 787¹) opisany jako zależny od „ozna…)",
+   "klasa O przeliczona na T ((drobne): art. 41 § 2 k.r.o. z „dochodami z majątku odrębne…)"
+  ]
+ },
+ "P12|sonnet_cli_w1_r3": {
+  "plik": "P12_sonnet_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "F",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "F",
+    "rodzaj": "przepis",
+    "napis": "art. 787 § 2",
+    "art": "787",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787²",
+    "art": "7872",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 117/10",
+    "sygnatura": "III CZP 117/10"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|opus_cli_w0_r3": {
+  "plik": "P12_opus_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 47 § 2",
+    "art": "47",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 30",
+    "art": "30",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 77³",
+    "art": "773",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 243¹",
+    "art": "2431",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 840",
+    "art": "840",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 795 § 1",
+    "art": "795",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|opus_cli_w1_r3": {
+  "plik": "P12_opus_cli_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CSK 43/12",
+    "sygnatura": "III CSK 43/12"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|gemini38flash_vertex_w0_r3": {
+  "plik": "P12_gemini38flash_vertex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|gemini38flash_vertex_w1_r3": {
+  "plik": "P12_gemini38flash_vertex_w1_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41",
+    "art": "41",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|argon4_high_vertex_w0_r3": {
+  "plik": "P12_argon4_high_vertex_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 126 § 2 pkt 1",
+    "art": "126",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": "1",
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 776¹ § 1",
+    "art": "7761",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P12|argon4_high_vertex_w1_r3": {
+  "plik": "P12_argon4_high_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 783 § 1",
+    "art": "783",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787¹",
+    "art": "7871",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 781¹",
+    "art": "7811",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 787",
+    "art": "787",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 1",
+    "art": "41",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 117/10",
+    "sygnatura": "III CZP 117/10"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 41 § 2",
+    "art": "41",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 776¹ § 1",
+    "art": "7761",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 891² § 1",
+    "art": "8912",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 845 § 2⁴",
+    "art": "845",
+    "jednostka": "24",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 923¹ § 1",
+    "art": "9231",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 52 § 1a",
+    "art": "52",
+    "jednostka": "1a",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KRO"
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 106/18",
+    "sygnatura": "III CZP 106/18"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 319",
+    "art": "319",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|chatgpt_codex_w0_r3": {
+  "plik": "P13_chatgpt_codex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 731",
+    "art": "731",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|chatgpt_codex_web_r3": {
+  "plik": "P13_chatgpt_codex_web_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "orzeczenie",
+    "napis": "I CZ 83/09",
+    "sygnatura": "I CZ 83/09",
+    "zrodlo": "Δ"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 731",
+    "art": "731",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|codex_astra6_w0_r3": {
+  "plik": "P13_codex_astra6_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 731",
+    "art": "731",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|codex_astra6_web_r3": {
+  "plik": "P13_codex_astra6_web_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "I ACz 390/13",
+    "sygnatura": "I ACz 390/13"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|codex_terra56_w0_r3": {
+  "plik": "P13_codex_terra56_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1 zd. 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 743 § 1",
+    "art": "743",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 776",
+    "art": "776",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 730¹ § 3",
+    "art": "7301",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|codex_terra56_web_r3": {
+  "plik": "P13_codex_terra56_web_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "S",
+   "S"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "S",
+    "rodzaj": "orzeczenie",
+    "napis": "I ACz 390/13",
+    "sygnatura": "I ACz 390/13",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "orzeczenie",
+    "napis": "VIII Gz 43/16",
+    "sygnatura": "VIII Gz 43/16",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "I CZ 83/09",
+    "sygnatura": "I CZ 83/09"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|haiku_cli_w0_r3": {
+  "plik": "P13_haiku_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 493 § 3",
+    "art": "493",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 739",
+    "art": "739",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 394",
+    "art": "394",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 741 § 1",
+    "art": "741",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 730",
+    "art": "730",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "klasa O przeliczona na T (: „Zażalenie na postanowienie o zabezpieczeniu. Przysługuje…)",
+   "A6_typ [T] ma 1 klas, wyciągnięto 3 błędów"
+  ]
+ },
+ "P13|haiku_cli_w1_r3": {
+  "plik": "P13_haiku_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3",
+    "opis": ": „w razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu wydanego na…",
+    "zrodlo": "Δ",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|sonnet_cli_w0_r3": {
+  "plik": "P13_sonnet_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 493 § 4",
+    "art": "493",
+    "jednostka": "4",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 820",
+    "art": "820",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 730",
+    "art": "730",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 730¹",
+    "art": "7301",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "klasa O przeliczona na T (: „Nieprawomocny nakaz zapłaty w postępowaniu nakazowym nie…)",
+   "A6_typ [T] ma 1 klas, wyciągnięto 2 błędów"
+  ]
+ },
+ "P13|sonnet_cli_w1_r3": {
+  "plik": "P13_sonnet_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "F",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "F",
+    "rodzaj": "przepis",
+    "napis": "art. 747",
+    "art": "747",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 747",
+    "art": "747",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "F",
+    "rodzaj": "przepis",
+    "napis": "art. 1043¹",
+    "art": "10431",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "Δ"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742 § 1 zd. 2",
+    "art": "742",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 730¹",
+    "art": "7301",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 820",
+    "art": "820",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 753",
+    "art": "753",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "VIII Gz 43/16",
+    "sygnatura": "VIII Gz 43/16"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [F, T] ma 2 klas, wyciągnięto 3 błędów"
+  ]
+ },
+ "P13|opus_cli_w0_r3": {
+  "plik": "P13_opus_cli_w0_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "T",
+   "W"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "T",
+    "rodzaj": "bez_powolania",
+    "napis": null,
+    "opis": ": „**§ 2:** nakaz wydany na podstawie weksla … staje się **natychmiast wykonalny** po upływie termi…",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 1 pkt 179",
+    "art": "1",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "179",
+    "akt": null,
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 492¹",
+    "art": "4921",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "segment"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3 zd. 2",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 747 pkt 1",
+    "art": "747",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "1",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 110",
+    "art": "110",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": "u.k.w.h."
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 744",
+    "art": "744",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 746",
+    "art": "746",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "marker T bez powołania: : „**§ 2:** nakaz wydany na podstawie weksla … staje się **natychmiast wykonalny** po upływie termi…",
+   "A6_typ [T, W] ma 2 klas, wyciągnięto 3 błędów"
+  ]
+ },
+ "P13|opus_cli_w1_r3": {
+  "plik": "P13_opus_cli_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "T",
+   "T",
+   "T"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "bez_powolania",
+    "napis": null,
+    "opis": ": „**§ 3:** nakaz wydany na podstawie weksla (a także warrantu, rewersu lub czeku)” — brzmienie spr…",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 821 § 1",
+    "art": "821",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 821 § 2",
+    "art": "821",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 747 pkt 2",
+    "art": "747",
+    "jednostka": null,
+    "kind": null,
+    "pkt": "2",
+    "akt": "KPC",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 109 ust. 2",
+    "art": "109",
+    "jednostka": "2",
+    "kind": "ust.",
+    "pkt": null,
+    "akt": "u.k.w.h.",
+    "zrodlo": "segment"
+   },
+   {
+    "klasa": "T",
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null,
+    "zrodlo": "Δ"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 743 § 1",
+    "art": "743",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 820",
+    "art": "820",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 753",
+    "art": "753",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 821",
+    "art": "821",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "VIII Gz 43/16",
+    "sygnatura": "VIII Gz 43/16"
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 58/03",
+    "sygnatura": "III CZP 58/03"
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "marker W bez powołania: : „**§ 3:** nakaz wydany na podstawie weksla (a także warrantu, rewersu lub czeku)” — brzmienie spr…",
+   "A6_typ [W, T, T, T] ma 4 klas, wyciągnięto 6 błędów"
+  ]
+ },
+ "P13|gemini38flash_vertex_w0_r3": {
+  "plik": "P13_gemini38flash_vertex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1 zd. 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|gemini38flash_vertex_w1_r3": {
+  "plik": "P13_gemini38flash_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "S"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "S",
+    "rodzaj": "orzeczenie",
+    "napis": "VIII Cz 83/16",
+    "sygnatura": "VIII Cz 83/16",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "orzeczenie",
+    "napis": "VIII Gz 43/16",
+    "sygnatura": "VIII Gz 43/16",
+    "zrodlo": "Δ"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1 zd. 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3 zd. 1",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3 zd. 2",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 820",
+    "art": "820",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2 zd. 2",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2 zd. 3",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1 zd. 2",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [S] ma 1 klas, wyciągnięto 2 błędów"
+  ]
+ },
+ "P13|argon4_high_vertex_w0_r3": {
+  "plik": "P13_argon4_high_vertex_w0_r3.md",
+  "a6_pkt": "1/1",
+  "a6_typ": [],
+  "hallucinated": "nie",
+  "bledy": [],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3 zd. 1",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3 zd. 2",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2 zd. 1",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2 zd. 2",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742 § 1 zd. 2",
+    "art": "742",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2 zd. 3",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 752 § 1 zd. 2",
+    "art": "752",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 752² § 3",
+    "art": "7522",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 776",
+    "art": "776",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": []
+ },
+ "P13|argon4_high_vertex_w1_r3": {
+  "plik": "P13_argon4_high_vertex_w1_r3.md",
+  "a6_pkt": "0/1",
+  "a6_typ": [
+   "W",
+   "S"
+  ],
+  "hallucinated": "tak",
+  "bledy": [
+   {
+    "klasa": "W",
+    "rodzaj": "przepis",
+    "napis": "art. 491 § 1",
+    "art": "491",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": "KPC",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "orzeczenie",
+    "napis": "XV Ca 397/16",
+    "sygnatura": "XV Ca 397/16",
+    "zrodlo": "marker"
+   },
+   {
+    "klasa": "S",
+    "rodzaj": "orzeczenie",
+    "napis": "II Ca 124/16",
+    "sygnatura": "II Ca 124/16",
+    "zrodlo": "Δ"
+   }
+  ],
+  "poprawne": [
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3 zd. 2",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1 zd. 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 3 zd. 1",
+    "art": "492",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 776",
+    "art": "776",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 777 § 1 pkt 1",
+    "art": "777",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": "1",
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 820",
+    "art": "820",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 1",
+    "art": "492",
+    "jednostka": "1",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "VIII Gz 43/16",
+    "sygnatura": "VIII Gz 43/16"
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "III CZP 58/03",
+    "sygnatura": "III CZP 58/03"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2 zd. 1",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 747",
+    "art": "747",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 492 § 2 zd. 2",
+    "art": "492",
+    "jednostka": "2",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "orzeczenie",
+    "napis": "IV CSK 551/17",
+    "sygnatura": "IV CSK 551/17"
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 742",
+    "art": "742",
+    "jednostka": null,
+    "kind": null,
+    "pkt": null,
+    "akt": null
+   },
+   {
+    "rodzaj": "przepis",
+    "napis": "art. 730¹ § 3",
+    "art": "7301",
+    "jednostka": "3",
+    "kind": "§",
+    "pkt": null,
+    "akt": null
+   }
+  ],
+  "ogolniki_b9": [],
+  "do_recznego_sprawdzenia": [
+   "A6_typ [W, S] ma 2 klas, wyciągnięto 3 błędów"
+  ]
+ }
+}

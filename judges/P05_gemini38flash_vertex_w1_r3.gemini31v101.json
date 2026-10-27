@@ -1,0 +1,113 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone",
+  "nieustalone"
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131[1a] § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1a] § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1a] § 1 i § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1] k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks postępowania cywilnego (Dz. U. z 2023 r. poz. 1550 ze zm.)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym (Dz. U. poz. 368 ze zm.)",
+   "zrodlo": "Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z 2023 r. poz. 285 ze zm.)",
+   "zrodlo": "Dz.U. 2024 poz. 1045",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo wskazuje, że doręczenia przez portal dla osób fizycznych są dobrowolne i wymagają wyboru tego sposobu. System trafnie opisuje procedurę wyboru, moment doręczenia (w tym fikcję 14 dni) oraz możliwość rezygnacji, powołując właściwe przepisy k.p.c. Błąd polega na wskazaniu nieaktualnych publikatorów tekstów jednolitych k.p.c. (Dz.U. 2023 poz. 1550 zamiast 2026 poz. 468) oraz ustawy o doręczeniach elektronicznych (Dz.U. 2023 poz. 285 zamiast 2024 poz. 1045), co stanowi błąd typu S i skutkuje oceną A6=0. Poza tym odpowiedź jest wyczerpująca, dobrze ustrukturyzowana i bardzo przydatna.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 134\" \"k.p.c.\" \"W dni wolne od pracy\"",
+   "\"art. 134\" \"k.p.c.\" \"porze nocnej\"",
+   "\"art. 131\" \"1a\" \"k.p.c.\" \"134\"",
+   "\"art. 131\" \"1a\" \"k.p.c.\" \"porze nocnej\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\"",
+   "\"Dz. U. poz. 368\" \"2024\" \"doręczania pism sądowych\"",
+   "\"Ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych\" \"Dz. U.\" \"2026\"",
+   "\"Ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych\" \"Dz. U.\" \"2025\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0v1t0RCRqv8_mOEdglabdHcQHwUIcNH2wqgHsiucm3W15SWgyxdMbqVd9YnD-1NYwYMAF42iTjx5wqt__ivS0h3hmuWVKJtUrSJB6032usrpzZLk6iEX8A7InfeStFXH1vimgNLsTukAGzeqrHo1PM9DGtHUCge5Rm5g8XedBTJmnvQo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-LNXnO6U5_uagbdsLLB47ZBf8aKB24x-EmIS1gOY7bfUYNyfM3yU1FR_kPxIzVIdxoPJ18RX9sc2qlIs7o8NYPsfIf1n_uxoKAUHPp9v3gJHAEvIu4gB6oTGPrjbkRaLHRiRkTe0g0-J85bjhuJacQptHfgLQcSAdQPqQYMFQGzWW5mOCTfPt",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3bXeigbx_4vgFZuw3YdMcDhIekl4h_Xn83QQus5DEkb4xqbpfKUB_NAFhiIXNyyBPBQ0HNS0MkM2FUgY_cbQh_fziKjV0S8BRKvnNkZo7PUqnsow9AAFqjm0QcoVv0ARp3ZPRogmkxO6vy8ORV35UgTTQUqABmxIvfOjb_fsu2j-mZ0pTPrBKrufay1yOrY4pE9NKRwbwsvtwysOhw0-87Y0bfBiY5Ae9OA0jDr1weWvOgF47KvOLcg-nlW0cJ89fcHGd7-HoCjvJTpCSG0OJRZ9-FSUprjoDE-uV_CE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6ZWwl0VhYjQF4zGQjNiViORCYQ6x93ceYNeArAtKAc0dg85toE3SNaTx2a2hKUhq72XM31KDVIsmQ20j-JzIKg3P-vuFxS3LgqPk4mEaq5arZE6IaEeRiW7QFz2rDoxfmIIUhvlD3XamaxcK0qTf6lvjXvsb-0i9CLYyqZU3J9IhnLDt8I6vc5IGDQC8cIhACJ-nS6dQzdwQdyUP5hFomz5A=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENxOg5ymWxJXfIkBzDnrijNOULBn9NDYmxkMLMTRUG_GbSLtfe-Dx88IS2YC2gzR3A4D9CfJwkNBQg6xpw8sFoqQW25k9d6fLFWXV8bVihzxZF1vZkEmKvUj2vnfLFilRmMkycSPLoRhhNohlAvKQnFs2t7GRLvg1OGGZvDyXhTrqzMRFBsxi9opMTzlH0Fzf4yMpbu4og6M5dDNrs5lW9ZX660oioIP_O0QMe4c2xEpai2hCERHMlRRButY_pGaCBXgJgbcZZJLU6DNvpZ8ab6iA-DWCyn6rgYej2FFRApYhDQbc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3Sg9WxyGzQ2wYDKkzi_Hx7NytRYN-PAo_OI4b-4EbnFnxs1lMSSj-XqkAWEKzvS8EhSOHQxUF_Iy32E77jgBi_0UULf3CYykYfLLJ1hrYgy413MMMpOKQaGYDUCWS1ahU8EiGDb2iX-ngnTFNAhFtGpTYxJVaBc2bAniyn5DQay0v07caIUt-kg7EeZRqUOJsdT6ml7bAPvSt8AyScOH90yTTULrFPWcvxBKwB6GHVdI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcAmFsd9e7R_FZtLEjJoL72Z4m0DmnSf1ykZPMexN1NIQV7kPHWGDDfUXz_dPyp6cReESWATrHPDjW5b7JOoksyZvRBnHg_9ItNaRlIHCU6_0jW89WBLT6JHLv_0fg9z7691P333YckxDXFHTCUX4Qi7hV7PfUEta49eotUYHnyLK_XR07Ri2Fd6Rv",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN38_qfABwKAnXCCRWzwcKg4pRH0EPcH612cEb9GzFibE1-wpLG7rbT9WTw6FcgTNN4rZN8LC5cQUIx5G8HBZgAKnTutYUuvqKRgVRhpvfSRncXLzHWxPT7Siaxcyv0mgnyiR_f1CqJ5RZa6e2ZWTNq5xKsqRKapXk1y8n09jbnldQ4JXiAbQrCoqvO8pJIWybfgPPzTLDHDqvdvsDPj63UkmtPyaXhkuC9WqPsNeFxHrlacGsLeND4Uw7iio=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAW3KL8-1-63JU7ETHF_VsoD5Qg4mKTmWIQnT3ZjEkOqANFwWP9Uf0VGTFGhZZ954yMhgFLIj5Jhsq-AMpJ32TtKCfz5YfSA0AKmQCwKc="
+  ],
+  "tokeny": {
+   "wejscie": 12727,
+   "wyjscie": 1113
+  },
+  "czas_s": 181,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

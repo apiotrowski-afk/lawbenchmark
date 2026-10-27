@@ -1,0 +1,81 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie Sądu Okręgowego w Szczecinie z 2 marca 2016 r., VIII Gz 43/16",
+   "zrodlo": "SAOS (orzeczenie 213643) / Portal Orzeczeń SO w Szczecinie",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730 i nast. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie przedstawia rdzeń odpowiedzi (A-R=2) i wymagane podstawy prawne (A2=1), rozróżniając wykonalność egzekucyjną nakazu z art. 492 § 3 k.p.c. od funkcji tytułu zabezpieczenia z art. 492 § 1 k.p.c. oraz wskazując na możliwość ograniczenia zabezpieczenia z art. 492 § 2 k.p.c. (R1–R3). Punktacja A6 spada jednak do 0 (klasa W) wraz z naliczeniem kary K3, ponieważ system dwukrotnie opisuje art. 492 § 3 k.p.c. jako obejmujący obecnie nakazy oparte na warrancie i rewersie (uchylone przed datą stanu prawnego). W części praktycznej system błędnie sugeruje wnoszenie zażalenia na osobne postanowienie o zabezpieczeniu oparte na art. 730 i nast. k.p.c., co uruchamia karę K2 i obniża przydatność (B1=1). Ponieważ klucz wymaga kategorycznej kalibracji (sporne: false), a odpowiedź asekuracyjnie rozmywa tezę („kwestia sporna”, „interpretacja może zależeć od sformułowania”), przyznano B2=0.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 492\" \"Nakaz zapłaty z chwilą wydania\" OR",
+   "\"VIII Gz 43/16\"",
+   "\"art. 730\" \"zabezpieczenia\" OR",
+   "\"VIII Gz 43/16\" \"tytułu zabezpieczającego\"",
+   "\"Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12367,
+   "wyjscie": 929
+  },
+  "czas_s": 164,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

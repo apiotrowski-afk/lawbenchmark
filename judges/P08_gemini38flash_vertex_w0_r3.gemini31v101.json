@@ -1,0 +1,91 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": "nieustalone",
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie identyfikuje, że opisany głos nie jest deepfake'iem, ale podlega obowiązkowi oznakowania z art. 50 ust. 2 AI Act (A-R=2, B2=1). Przytacza wszystkie wymagane podstawy prawne (A2=1). Cytat art. 3 pkt 60 AI Act jest niedokładny, co obniża A3 do 0. W uwadze pobocznej system przypisuje obowiązek z art. 50 ust. 1 AI Act podmiotowi wdrażającemu, podczas gdy przepis ten nakłada go wyłącznie na dostawcę, co stanowi halucynację adresata normy (A6=0, typ T, zakres poboczne). Odpowiedź realizuje dwa elementy rubryki (definicja i rozwidlenie na art. 50 ust. 2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi\" \"AI Act\"",
+   "\"art. 50\" \"AI Act\" \"interakcj\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi\"",
+   "\"art. 50\" \"AI Act\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi\" \"chyba że wynika to w sposób oczywisty z okoliczności\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi\" \"chyba że wynika to w sposób oczywisty z kontekstu\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi były projektowane i rozwijane w taki sposób, aby zainteresowane osoby fizyczne były informowane, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi były projektowane i rozwijane w taki sposób, aby\"",
+   "\"art. 50\" \"AI Act\" \"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYOdIcVjUOx9-CTLPbO68iMq2S-a8pYV2fg-dy9NJahQrTX_yzQrQgNWdHf_KChaI5fXryAuVadwD9iNLRq9FZpBG3zn3KMOZbioR6078XOiOAm6v4vRI_kkYTXklWWGKyVkQBZfU18_FlKXnzwbtUIusO4zXxEK7DTEKRZ8UPc1ExXIdrOA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpUKXJbsZAcL8ZP7D_S9GwTmjZFbKOoutTeAfNuw3BrOT5i9_GmXfRjWjIRB05k7BazqY2NpQr_imL3hQeNqvCx6VIV6LtBLiNLlAjCj2wrTikyaa_6ml2cjRGiaCuxtvfzHVl0MrS2NBTD_lkukdbCobIpXbjbehlWaX10ig6dn4A9FXgs2fDwWInMXUWb8Oy",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4pvNUpbXRsmn0fcpte1uS-ltZU_OIzy8mJqHb9Syk9v5pmIGm8JdcUGInNPDiWtzS7O7Kn7QI9YiyG4WbcEoMbcq9wudsHSbJmp6HS_tNHzqWJaIrCk8bsyQX_9FkTZRga__fXTA28F8rcYA_rXGsGnK9LYT4zgu6u8aZjJl5CJ3cCc0OvjFLDR9wweFjGYE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEribMbm2mUS3gl0JE1k1fZDdbeWUS_9SjVMWmkdq4zB4Fclpieh3rMlkOIsvezGkNP26kGhDHXHCa2EfMTFxK_r9U8Z9BuRBKHuLCggll0PEVKHHPMvfBUsSgEOxMIMHdYr3wblLWa4lFpf8droH0uJNd2iXDlROseP6SUOOZQZprSWmI-oCQC",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKbQGP78YePhBgZDgOF2aWogvPfKmjZzrPKV_CBf7GrEFkpWHsn8zupt-clwZflYBFOhDNN5sWMG0Slo_0Nbeum2A2QzcvFjWFjtaoJfOrT9zEXAIJcqQVZCBzU_nJDNFMvq2OJU7v286Wt6KwIl-K7NLL08mzBbZJsPv_o1hSohdzB1QCwlo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI2tqOIq829Jz5dsdycSEsj54xqCJRY7p3UayYR3RY5_Q7g4hk-y7vYBX6fAQf_mw69tiUuO_G-qgqu2Rhjeg8A8Z5-ZJ9x76hImyz4FMCcFwljekAT1XhGkDHSC8I7dpZs0wEfc77i11Gor-TnfUwbrbjyTqBEULl10iNnpTcr2F0GnfP4XWa"
+  ],
+  "tokeny": {
+   "wejscie": 15159,
+   "wyjscie": 698
+  },
+  "czas_s": 187,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131–139 KPC (zasady ogólne doręczeń)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), Rozdział 2, art. 131–139",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 KPC — doręczenie w miejscu zamieszkania lub pobytu adresata, a w razie potrzeby w innym miejscu, np. w pracy",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 133 i art. 135 § 1",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 138 KPC — doręczenie zastępcze domownikowi, osobie zatrudnionej w miejscu zamieszkania lub sąsiadowi",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 138 § 1 i 2",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 139 KPC — odbiór awizowanego pisma w placówce pocztowej lub sądzie w terminie 14 dni ze skutkiem doręczenia",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 139 § 1 i art. 139¹ § 1",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ KPC — doręczanie pism przez system teleinformatyczny dotyczące przede wszystkim profesjonalnych pełnomocników, instytucji publicznych i podmiotów zobowiązanych do e-Doręczeń",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 131¹ § 1, art. 131¹ᵃ § 1 i art. 131² § 1",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 1361 KPC — skuteczność doręczenia na dotychczasowy adres w razie niezawiadomienia sądu o zmianie adresu",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 136 § 1–2 oraz art. 1217",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "ustawa o doręczeniach elektronicznych — brak równoważności ePUAP z e-Doręczeniami od 1 stycznia 2026 r.",
+   "zrodlo": "Dz.U. 2026 poz. 3 (t.j. u.d.e.), art. 147 ust. 2",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System nie zna nowelizacji art. 131¹ᵃ k.p.c. obowiązującej od 1.06.2026 r. i całkowicie pomija zasady doręczeń przez Portal Informacyjny na rzecz osób fizycznych, które wybrały ten sposób doręczeń (A-R = 0, A2 = 0, R = 0/4). W A6 otrzymuje 0 (klasy F i T), ponieważ powołuje nieistniejący art. 1361 k.p.c. (zamiast art. 136 k.p.c., przed czym dopisek „do zweryfikowania” nie chroni wg reguły 8), a ponadto przypisuje art. 133 k.p.c. normę o miejscu doręczenia z art. 135 § 1 k.p.c., w art. 138 k.p.c. wskazuje sąsiada i osobę zatrudnioną w mieszkaniu (zamiast administracji domu, dozorcy lub sołtysa), w art. 139 k.p.c. złożenie pisma w sądzie, zaś art. 131¹ k.p.c. myli z art. 131¹ᵃ i art. 131² k.p.c. Obszerne omówienie doręczeń tradycyjnych oraz ePUAP w administracji stanowi dygresję obniżającą A8 do 0,5. Ze względu na liczne błędy ustawowe i brak konkretnej informacji o doręczeniach portalowych odpowiedź jest nieprzydatna (B1 = 0) oraz rozmywa kategoryczną tezę asekuracyjnymi ogólnikami (B2 = 0).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 20,
+  "zapytania": [
+   "\"art. 133\" \"art. 138\" \"art. 139\" \"kodeks postępowania cywilnego\" OR OR",
+   "\"art. 131\" \"art. 136\" \"kodeks postępowania cywilnego\" OR OR",
+   "\"2026\" \"468\" \"138\" \"sąsiadowi\" OR \"dozorcy\" kodeks postępowania cywilnego",
+   "\"art. 138\" \"art. 135\" \"art. 136\" kpc brzmienie",
+   "\"136\" \"138\" \"139\" OR",
+   "\"Art. 139.\" \"W razie niemożności doręczenia w sposób przewidziany w artykułach poprzedzających\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 1361\" OR \"art. 136¹\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 1311\" \"Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego\" \"Dz.U. 2026 poz. 468\" OR \"Kodeks postępowania cywilnego\"",
+   "\"Art. 136\" \"Art. 137\" \"Kodeks postępowania cywilnego\" \"Strony i ich przedstawiciele mają obowiązek\"",
+   "\"1360\" \"1361\" \"1362\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 1311.\" \"Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego\" \"Przepisu art. 134\"",
+   "\"Art. 139.\" \"W przypadku bezskutecznego upływu tego terminu, czynność zawiadomienia należy powtórzyć\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 1217\" \"Kodeks postępowania cywilnego\"",
+   "\"Wchodzi w życie z dniem\" \"1217\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 1312\" \"Kodeks postępowania cywilnego\" \"adres do doręczeń elektronicznych\"",
+   "\"2026\" \"468\" OR OR",
+   "\"DU/2026/468\" OR",
+   "\"Art. 133.\" \"Jeżeli stroną jest osoba fizyczna, doręczenia dokonuje się jej osobiście\" \"§ 3.\" \"Kodeks postępowania cywilnego\"",
+   "\"ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych\" \"2026\" OR",
+   "\"Od 1 stycznia 2026\" \"ePUAP\" \"e-Doręczenia\" \"doręczeniach elektronicznych\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12090,
+   "wyjscie": 2093
+  },
+  "czas_s": 271,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ pkt 7 k.p.c.",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468, s. 74](https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=74)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468, s. 73](https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468, s. 75](https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=75)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Wskazano właściwy środek dla zażalenia poziomego, ale pominięto kluczowy warunek i odmienną konkluzję dla zażalenia dewolutywnego. Ogólne końcowe zastrzeżenie o konfiguracji procesowej nie nazywa rozwidlenia i nie neutralizuje początkowego „tak”, dlatego naliczono drugą karę oraz przyznano B2 = 0. Art. 394² § 1¹ pkt 7 dotyczy odmowy zwolnienia świadka i biegłego od grzywny oraz świadka od przymusowego sprowadzenia, więc przypisanie mu zaskarżalności odrzucenia zażalenia stanowi T. Brakuje wymaganych podstaw: art. 394² § 1² i art. 397 § 1¹, a także omówienia art. 130². Prawidłowe wskazanie terminu i części praktycznych argumentów uzasadnia B1 = 1, lecz odpowiedź nie pozwala bezpiecznie rozstrzygnąć dopuszczalności środka.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 38,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

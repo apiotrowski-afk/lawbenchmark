@@ -1,0 +1,81 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń w pierwszym akapicie oraz powołuje wszystkie wymagane podstawy prawne. Powołane przepisy k.p.c. oraz uchwała SN III CZP 38/20 są w pełni zgodne ze źródłami oficjalnymi. System trafnie zalicza wszystkie elementy rubryki, w tym warunek zaskarżalności i wyjątek z art. 357 § 6 k.p.c. Odpowiedź jest wysoce przydatna (zawiera wzór wniosku) i zachowuje odpowiednią, kategoryczną kalibrację.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"III CZP 38/20\"",
+   "\"III CZP 38/20\" uchwała SN z 2 lipca 2021"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBw_hQ1GpXJ0hlIoTtZOCi8QZmgllDSTq-hQ2Kosf2uEnVMXdrZFFmVDXwnZqbMcExp6hJaHimY2h66rzvja4bymwq6fIWdKyf8SxDWiHDLemUIdB0zzLfaR56r_lsac5hPOuXw5AatNw-Im6EPYeq8t_ZU55NAWnBSndGFtQB6C4PX4hW6nUK1TjwoSaiq7WCkRbomoMXsMwtNCQCqDht7r_P-NAhHPKZT6Q=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDP221fYabvoFgrUFCgd4pvuvKLz1rblYT5BC7NogSm4jZLfiK4INfBVurqAEKwUMpF0WZSEnH9l-B0iUhq9ZV2pK58TOtU41aF7rQpKa1jL833ZhCyMFdD12h5-9F0VeaRpl333IyGTWxuIOXU_PKzBOynuDXNvMDL-9IPALHWsR7S5rfbxmsYmLfFP7JAK1qnnc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyZPb7JCz5bAa8GbEDd8_mPZasybsrvPNShnHd6Kw4f-gfGSinaWR-ebaYL66fkJfQ23HpRZXYgWfg80nB0kH0v79uPpFvmzB1Im_UxTAngp1rbvFlT8471BYYlrhT0FQ9hKo1fwxz5SGDt-pCqQQHK9acMEF9SgMUGYU3JhZ5rhKR4AgihQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNPKQ4k2txn0Zgr4R6uWlQ8SBiObvhoaul2pVMkIrd-bXh1Nsba4EeOcYyq1sqByFDkgkJ-jvYHxLqmDm5zgJkkgAVni0y5GzUXTpaVUGVjn8jGEPajs_CXvjRcHCZ83kOSvduR-TDht6fY4aWmp3WY4soFppiljbz7x02t5hvXCrffNFohEtFuFCvNFBzngPvrmtuUC7H5Mo4KKEzUq2m0XPETBi6MSf3",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyDOvC47DH-5HjYViM4wBUzTjJmO3tfA0aFJcmaZZdrrZ3sF30hTkP6RsNHeM_oH6EtAxoIh8zj4z3IXPvC82l1ODyY2VtKvEfTEPsmLU97AxZ40GiiLhwLwI6yg9rbsVR8cinqj-DJ-mBT9OvDa9wsqkq1br9ZGS1APSm8tEi-5Dil6tURY-1XjrTq4AuXbdq2Q_Kh6Aq"
+  ],
+  "tokeny": {
+   "wejscie": 10964,
+   "wyjscie": 516
+  },
+  "czas_s": 75,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

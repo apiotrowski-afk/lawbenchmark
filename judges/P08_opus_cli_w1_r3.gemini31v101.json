@@ -1,0 +1,90 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia 2024/1689",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23-24 k.c.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wytyczne Komisji dotyczące przejrzystości (art. 50) z 20.07.2026",
+   "zrodlo": "EUR-Lex / baza",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Digital Omnibus (rozporządzenie 2026/1744)",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna i wyczerpująca. Trafnie identyfikuje definicję deepfake'a oraz niezależne obowiązki z art. 50 ust. 2 AI Act. Prawidłowo odwołuje się do wytycznych KE jako soft law oraz podaje właściwe daty stosowania po zmianach z Digital Omnibus. Wszystkie powołania są zgodne ze źródłami oficjalnymi. Kalibracja pewności jest idealnie dopasowana do warunkowego charakteru pytania.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 16247,
+   "wyjscie": 712
+  },
+  "czas_s": 96,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

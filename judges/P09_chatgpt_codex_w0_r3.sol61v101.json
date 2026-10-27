@@ -1,0 +1,78 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny warunkowy rdzeń: ogólna formuła zasadniczo nie wystarcza, ale konkretne pola mogą wynikać z wykładni pozostałej treści umowy. Wszystkie osiem powołań sprawdzono w oficjalnych tekstach; przypisane im treści są zgodne, a cytatów przepisów w rozumieniu klucza nie ma. Podano wymagane podstawy, właściwe przykłady pól oraz formę pisemną pod rygorem nieważności. Nie wyjaśniono szczególnie wyłączenia mechanizmu pracowniczego z art. 12 ani nie wskazano linii SN wraz z regułą in favorem auctoris, dlatego R4 i R5 wynoszą 0. Odpowiedź jest praktyczna, pozostaje w ramach pytania i właściwie uzależnia konkluzję od wykładni umowy.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 36,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

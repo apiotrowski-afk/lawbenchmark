@@ -1,0 +1,80 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 7 lipca 2023 r., Dz.U. 2023 poz. 1860",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/1860/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. jako podstawa obowiązkowych doręczeń przez portal i chwili doręczenia portalowego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 131 i następne k.p.c. — doręczenia tradycyjne",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133 § 3 k.p.c. — doręczanie pełnomocnikowi",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 168–172 k.p.c. — przywrócenie terminu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text/O/D20260003.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości w sprawie trybu i sposobu dokonywania doręczeń elektronicznych przez portal informacyjny",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html ; https://eli.gov.pl/api/acts/DU/2026/225/text/O/D20260225.pdf",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. jako delegacja do wydania rozporządzenia o doręczeniach przez portal",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje możliwość wyboru doręczeń portalowych oraz regułę 14 dni, lecz błędnie dopuszcza wybór w zwykłym piśmie procesowym i pomija wymagany podpis, więc rdzeń jest niepełny. Art. 131¹ reguluje inną ścieżkę elektroniczną; doręczenia portalowe i delegację reguluje art. 131¹ᵃ, co uzasadnia A2=0 i błąd T niezależnie od zastrzeżenia o konieczności sprawdzenia numeracji. Tytuł rozporządzenia jest zniekształcony (S); pochodzenie obu rodzajów błędnych powołań pozostaje nieustalone wobec braku śladu narzędzi ocenianego systemu. Ogólna wzmianka o odwołaniu wyboru nie podaje pisemnej rezygnacji ani skutku od zawiadomienia sądu, a błędna wskazówka dotycząca formy wyboru ogranicza B1 do 1. Powtórzenie zastrzeżenia o weryfikacji źródeł w końcowych podstawach obniża A8 do 0.5, natomiast zasadnicza teza pozostaje kategoryczna, więc B2=1.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P05",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 98,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

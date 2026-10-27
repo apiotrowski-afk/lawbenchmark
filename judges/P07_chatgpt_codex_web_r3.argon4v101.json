@@ -1,0 +1,81 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c. (w tym zdanie drugie)",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała Sądu Najwyższego z 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl / OSNC 2021 nr 12 poz. 80",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie przedstawia pełny rdzeń rozstrzygnięcia, prawidłowo powołując art. 357 § 1, § 2¹ i § 5 k.p.c. oraz adekwatną uchwałę SN z 2 lipca 2021 r., III CZP 38/20. System nie cytuje dosłownie przepisów (jednozdaniowa propozycja brzmienia wniosku nie jest cytatem ustawowym i zgodnie z regułą graniczną nr 5 nie obniża A8), wobec czego A3 otrzymuje wartość 'nd', a A8 wynosi 1. W rubryce odjęto jeden punkt (R[3]=0) z uwagi na brak wzmianki o opłacie od wniosku o uzasadnienie (art. 25b u.k.s.c.) bądź o wyjątkach z art. 357 § 2³–2⁴ lub § 6 k.p.c.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" OR OR",
+   "\"III CZP 38/20\" OR",
+   "\"III CZP 38/20\" \"2 lipca 2021\" \"zasadniczych powodów rozstrzygnięcia\"",
+   "\"III CZP 38/20\"",
+   "\"DU/2026/468\" \"357\"",
+   "\"2026\" \"468\" \"357\"",
+   "\"Postanowienie wydane na posiedzeniu niejawnym sąd uzasadnia tylko wtedy\"",
+   "\"III CZP 38-20\" OR \"III CZP 38/20\"",
+   "\"III CZP 38-20.pdf\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgR5DYMVUgMBCCtgcaI4sw9sbrzbp4ZCDVRd43xuokPvlwsNWQqd4x3sN-rS8zj94u-yMuBYyLE7c7F5ciwF-40WcW_mv7egMpBB2_l2STaaSFaXKMCvH76msfoMM53nX3dX0GNKfzqTUHf4zBxWnxWVRjcpJst9cKW2pez4i9VVjvy3T4Jsyq8wDnhOTlmP3irl4a5ycUnW0ERYM_tmwGozONWF2SXCJ2KEI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuM37UQup_uBeOe_2r0CaMo53W0KvP6pZ5F5MluiM5Tw9RqJDrCAg4I7iQXbL8a4jQ9e0qAJad8axrdvp6i9VWswe-41nMAl0iC4qZxwloocpt6Mjt3mA-rKOk77Fex-hns4ptFo6k8y2YJ3zxP8QofuZCLb86yLZk6Lg4Kw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU95-lFIGog7wd8W37Stle-sApEB1jVTq2b480f-MMx_cRlarDa0o3dFV0Wpz240l7oJnfDItDpBAZQ9wSDATaopCpZmdOe21Ny8nRVtepVaYa9dDbf5AgS8AoBz_Prb9qnGl6RYclNlye1fB7zqYiaYbBjAJNjnUsLFYR6WsYcsl4FlxqLdj8o6PKDiziah3rDaP36kG0hSMVsW3Yjuz7gVt0MwfecdwemQ=="
+  ],
+  "tokeny": {
+   "wejscie": 9128,
+   "wyjscie": 971
+  },
+  "czas_s": 77,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

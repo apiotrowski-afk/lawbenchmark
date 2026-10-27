@@ -1,0 +1,88 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.): „§ 3. Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.): „§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.): „Art. 731. Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia, chyba że ustawa stanowi inaczej.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.): „§ 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu zabezpieczenia przeciwko Skarbowi Państwa stosuje się odpowiednio.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.): „Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia.”",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco przedstawia rdzeń problemu (A-R = 2), rozgraniczając funkcję nakazu zapłaty jako tytułu zabezpieczenia (art. 492 § 1 k.p.c.) od jego natychmiastowej wykonalności jako tytułu egzekucyjnego, której dotyczy wstrzymanie wykonania (art. 492 § 3 k.p.c.). Wszystkie wymagane podstawy prawne zostały prawidłowo powołane (A2 = 1), a przywołane przepisy odpowiadają brzmieniu obowiązującemu na datę stanu prawnego (A6 = 1). W rubryce przyznano 3 z 4 punktów, ponieważ system wskazał środki obrony pozwanego wobec zabezpieczenia (art. 492 § 2 i art. 742 k.p.c.), lecz pominął skutek wstrzymania wykonania w postaci zawieszenia egzekucji z art. 820 § 2 k.p.c. Wskazówki praktyczne są w pełni przydatne (B1 = 2), a poziom pewności adekwatny, z trafnym zastrzeżeniem odnoszącym się wyłącznie do treści sentencji postanowienia sądu (B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4meta2",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"Art. 492\" \"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\" OR",
+   "\"Art. 731\" \"Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia\" OR",
+   "\"Art. 742\" \"Obowiązany może w każdym czasie żądać uchylenia lub zmiany\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3H8x3nHhP_bFEUQMzsvivGBYjuwvh_pwy0Iwzyu8UD42Wl9oF4uApUgGdC22YjbVhBcXc8obK7AZajpyHzFnD-zqc_j0YXRPs2YrRuxx9fd0omXKIikZ1mb4aNDPNCZ2Y0WdDbYUAmHpQUU0RuGF4-hjDcEMMIzu6EEldlQrqs1m-F6ar4zcZaSUsmSXnmpV9ovrh3UhVLEWf",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNWVsY083odxKS2XZgWprV7bBi6GQMkh411-jV9c-NByntHbFnRJPFFDyr_r99jNE2p4Vb8dAaKrhPaerVCEoTK6jaAEf36ZP4P0h70Q9dbiuaYsLzXmTPEu3XIy_TAiZCW1ww0R_MaZOts-ZoiMMJbo1SsfJIucfW1RVpPJiGi021lMHD0jnnylXrMYNJcjHNmYd56MMGv7IhTtg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp25GkRy-glCpCv7_yKAo1UXK-YP-4WVijyENmsyQ9BS2t1ACSIMWDcXSRvkwlJG4cDe8CzN1ghFPhgQc1m1GUlaGFBoYXb8b-KCQBV-ba-OLoAztIM2FsH9UdweTW9iJoGRISTyBKus6X8Y89-qmV0qL77LV2qExTTmRttIP6x1Y8jgEwHzEhjsyQadWd8ZmP-qrj0k4D-bMO",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcOhUdG9f8DOGE3CQ7lfIdZ2KTmCqdI1oXIjzjdtWUykA-YlxliPMsNsfJ3sqo1jMIj29Xq1gn-tN-60wqT_OZrulU80QQwLeCNkkGPMUWZwr-yB82wA64bthlBZ6zviSou_wN9rgwRQoZyVvhU4GZ-GFCJm6FTrr-xAMoGl5q7B6sy89k6g9Cra3GfIztJbYsxmWY00s6VyYN9SXxOlgJHDC3gbRAYjxl8cZV0SEo",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmcFk1RDC7aTgmuAi8ul9Wng8n03mF7b_jbB0H4M5xAYvOC2xXFBy5twM_9J8zpu9MWSag1a-lGZ4cVabSKBh8ESapttj0ALOQEJW6xGv1yCToAMQv393lIV04YwMY2dc8_k6XTfG24uMChwveLcqtd3uZS4Iflp38jyTORxeqfQAx1gjkJBnnyah5gyD30jUFsdO1hbe2CcEK9xjkiVrMQ31W21htDUzvQeLGSUJE8g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTjER-sOfMKVF1tm6280zvQgFihTP4ilIsoWfN2ioKyZ6Uu36ctnkxEiAsthZLicIYvjc--UEkNFaC4yqKS6g39ifdYHBsg95fyM_G8KtoAJzvI_JL3hb_59c2XNNfR78gKMyqhEeW3rArK8QY7Wt18xOVZ2hhLakzC0kfdRJn4638g9tmFNIbUy82j-SoHE3gXJqAkT_j"
+  ],
+  "tokeny": {
+   "wejscie": 17805,
+   "wyjscie": 1197,
+   "rozumowanie": 3663
+  },
+  "czas_s": 81,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 6, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 492 § 3 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 492 § 3 k.p.c. stanowi podstawę do wstrzymania przez sąd wykonania nakazu zapłaty, co samo przez się nie wyłącza możliwości wszczęcia postępowania zabezpieczającego.”\n    · uzasadnienie weryfikatora: Przepis wprost przewiduje możliwość wstrzymania przez sąd wykonania nakazu zapłaty w razie wniesienia zarzutów. Dalsza część zdania w odpowiedzi stanowi wniosek prawny dotyczący relacji tego wstrzymania do postępowania zabezpieczającego.\n    · kotwica (verbatim ze źródła): „W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu.”\n    · brzmienie jednostki (fragment): „§ 3. Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio.”\n- 2. art. 492 § 1 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Nakaz zapłaty stanowi tytuł zabezpieczenia od chwili wydania i bez potrzeby nadawania mu klauzuli wykonalności.”\n    · uzasadnienie weryfikatora: Twierdzenie jest wierną parafrazą zdania pierwszego art. 492 § 1 k.p.c.\n    · kotwica (verbatim ze źródła): „§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności.”\n    · brzmienie jednostki (fragment): „§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu.”\n- 3. art. 492 § 3 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Na podstawie art. 492 § 3 k.p.c. sąd może wstrzymać natychmiastową wykonalność nakazu zapłaty po wniesieniu zarzutów.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi o natychmiastowej wykonalności nakazu z weksla po upływie terminu do zaspokojenia roszczenia oraz o możliwości wstrzymania wykonania nakazu w razie wniesienia zarzutów.\n    · kotwica (verbatim ze źródła): „§ 3. Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu.”\n    · brzmienie jednostki (fragment): „§ 3. Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia. W razie wniesienia zarzutów sąd może na wniosek pozwanego wstrzymać wykonanie nakazu. Przepisy o ograniczeniu wykonalności w sprawach przeciwko Skarbowi Państwa stosuje się odpowiednio.”\n- 4. art. 731 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zabezpieczenie zasadniczo nie może prowadzić do zaspokojenia roszczenia.”\n    · uzasadnienie weryfikatora: Twierdzenie dokładnie oddaje normę z art. 731 k.p.c., gdzie słowo „zasadniczo” odpowiada ustawowemu zastrzeżeniu „chyba że ustawa stanowi inaczej”.\n    · kotwica (verbatim ze źródła): „Art. 731. Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia, chyba że ustawa stanowi inaczej.”\n    · brzmienie jednostki (fragment): „Art. 731. Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia, chyba że ustawa stanowi inaczej.”\n- 5. art. 492 § 2 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 492 § 2 k.p.c. stanowi podstawę do wystąpienia przez pozwanego o ograniczenie zabezpieczenia.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że sąd na wniosek pozwanego może ograniczyć zabezpieczenie.\n    · kotwica (verbatim ze źródła): „Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania.”\n    · brzmienie jednostki (fragment): „§ 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu zabezpieczenia przeciwko Skarbowi Państwa stosuje się odpowiednio.”\n- 6. art. 742 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 742 k.p.c. stosowany odpowiednio umożliwia pozwanemu wystąpienie o zmianę lub uchylenie zabezpieczenia.”\n    · uzasadnienie weryfikatora: Przepis w § 1 wprost przewiduje żądanie uchylenia lub zmiany zabezpieczenia, a powołanie całego artykułu bez wskazania § 1 jest ogólnym odesłaniem mieszczącym się w jego treści.\n    · kotwica (verbatim ze źródła): „Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia.”\n    · brzmienie jednostki (fragment): „Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia, gdy odpadnie lub zmieni się przyczyna zabezpieczenia. Jeżeli obowiązany złoży na rachunek depozytowy Ministra Finansów sumę zabezpieczenia żądaną przez uprawnionego we wniosku o udzielenie zabezpieczenia, zabezpieczenie upada. Przepis art. 754¹ § 3 stosuje się odpowiednio. § 2. Przed wydaniem postanowienia w przedmiocie uchylenia lub ograniczenia zabezpieczenia sąd wysłucha uprawnionego. § 3. Wniesienie zażalenia na postanowienie uchylające lub zmieniające pos…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

@@ -1,0 +1,117 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych (t.j. Dz.U. z 2022 r. poz. 2509)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 art. 41 ust. 2",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "„Sąd Najwyższy oraz doktryna stoją na jednolitym stanowisku, że pola eksploatacji muszą być zindywidualizowane i nazwane”",
+   "zrodlo": "orzecznictwo SN (m.in. III CK 124/05, IV CSKP 44/21, I CSK 596/17)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 art. 41 ust. 4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 art. 65",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 i art. 50 pkt 3 pr.aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 art. 50 pkt 3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 art. 53",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "ISAP Dz.U. 2024 poz. 1061 art. 78¹",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 i art. 46 pr.aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 art. 2 i art. 46",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 art. 16",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie potwierdza nieskuteczność ogólnego sformułowania, jednak formułuje tezę w sposób kategoryczny i pomija linię orzeczniczą SN dopuszczającą dookreślenie pól w drodze wykładni (art. 65 k.c.), co daje A_R = 1 oraz B2 = 0. Przypisanie SN jednolitego poglądu o bezwzględnej konieczności nazwania pól jest sprzeczne ze znanym orzecznictwem (klasa T), a wskazanie nieaktualnego tekstu jednolitego stanowi błąd publikatora (klasa S), co przesądza o A6 = 0 i etykiecie hallucinated. Cytat z art. 41 ust. 2 pr.aut. nie odpowiada ściśle żadnej wersji urzędowej, co obniża A3 do 0. Wskazówki praktyczne dotyczące formy i pól eksploatacji w mediach społecznościowych są poprawne i użyteczne dla praktyka (B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 20,
+  "zapytania": [
+   "\"art 41 ust 2\" \"o prawie autorskim\" sejm isap",
+   "\"art 41 ust 2\" \"obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"art 41 ust 2\" \"Umowa o przeniesienie autorskich praw majątkowych lub\" sejm",
+   "\"art. 65\" \"W braku wyraźnego postanowienia o przeniesieniu prawa\" \"o prawie autorskim\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub\" \"obejmują pola\" isap.sejm.gov.pl",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie\" isap.sejm.gov.pl",
+   "\"WDU19940240083\" \"41\" \"ust. 2\"",
+   "\"W braku wyraźnego postanowienia o przeniesieniu prawa\" \"Art. 65\" isap.sejm.gov.pl",
+   "\"lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\" isap",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\" sejm",
+   "\"art. 41 ust. 2\" \"o prawie autorskim\" \"Dz.U. 2025 poz. 24\"",
+   "\"2022 r. poz. 2509\" \"art. 41 ust. 2\"",
+   "\"numer pozycji Dz.U.\" \"A6\" \"S\" OR",
+   "\"publikator\" \"zniekształcony identyfikator\" \"A6\"",
+   "\"zniekształcony identyfikator: numer sygnatury, data orzeczenia, sąd, publikator, numer pozycji Dz.U.\"",
+   "\"A6\" \"nieaktualny publikator\" OR \"nieaktualny jednolity\" OR \"Dz.U.\"",
+   "\"art. 50 pkt 3\" \"o prawie autorskim\" sejm isap",
+   "\"art. 50\" \"o prawie autorskim\" \"pkt 3\" \"publiczne udostępnianie\"",
+   "\"art. 50 pkt 3\" \"w miejscu i w czasie przez siebie wybranym\"",
+   "\"art. 50\" \"ustawy o prawie autorskim\" \"pkt 1\" \"pkt 2\" \"pkt 3\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13279,
+   "wyjscie": 1098
+  },
+  "czas_s": 116,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "W kryterium A-R przyznano 0 pkt zgodnie z regułą szczegółową klucza, ponieważ odpowiedź wskazuje, że dla zezwolenia MSWiA właściwe jest potwierdzenie ostateczności, a o prawomocności z art. 16 § 3 k.p.a. wspomina jedynie jako o odrębnym pojęciu, nie wiążąc go z wydawanym zaświadczeniem. W A2 przyznano 0 pkt z uwagi na brak wymaganego powołania art. 217 § 2 pkt 2 k.p.a. (co skutkuje również brakiem punktu w R2, a samo rozróżnienie pojęć bez wskazania, że organ zaświadcza prawomocność, daje 0 w R3). Kary K3 nie naliczono, gdyż odpowiedź nie wyklucza prawomocności decyzji ani nie używa zastrzeżenia „wyłącznie ostateczność”. Wszystkie powołane przepisy (u.n.n.c., k.p.a. oraz k.p.c. w uprawnionej gałęzi dotyczącej postanowienia sądu opiekuńczego) są zgodne z oficjalnymi tekstami jednolitymi, co daje A6 = 1 i A8 = 1. W bloku B przyznano B1 = 1 (trafna korekta formy rozstrzygnięcia MSWiA, ale brak wskazania na zaświadczenie o prawomocności z art. 217 k.p.a. i 30-dniowy termin skargi do WSA) oraz B2 = 1 za stanowczą kalibrację.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "OR \"364\" \"Prawomocność orzeczenia stwierdza\"",
+   "OR \"13\" \"Przepisy o procesie stosuje się odpowiednio\"",
+   "OR \"2278\" \"Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia\"",
+   "OR \"1691\" \"Decyzje, od których nie służy odwołanie\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14492,
+   "wyjscie": 958
+  },
+  "czas_s": 107,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

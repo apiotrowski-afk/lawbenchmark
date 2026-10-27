@@ -1,0 +1,124 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 130 § 1–2 k.p.c. — wezwanie i następnie odrzucenie pisma",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=26",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 397 § 2 k.p.c. — podstawa odrzucenia i zażalenia poziomego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=75",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 370 k.p.c. — podstawa odrzucenia nieopłaconego zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=69",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c. — zamknięty katalog zażaleń do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 zd. 2 k.p.c. — zażalenie poziome na odrzucenie apelacji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=69",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c. w zw. z art. 397 § 2 k.p.c. — zażalenie poziome na odrzucenie zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c. — tygodniowy termin zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c. — odesłanie dotyczące terminu zażalenia poziomego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "ustawa o kosztach sądowych w sprawach cywilnych — zasady opłat",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 ust. 2 pkt 2 u.k.s.c. — opłata od zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=6",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 27 u.k.s.c. — opłata stała od zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=9",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 139 k.p.c. — doręczenie zastępcze",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=31",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1 k.p.c. — wezwanie do opłacenia pisma",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1¹ k.p.c. — terminowa wpłata na właściwy rachunek",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=26",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 111–117 u.k.s.c. — wpływ wniosku o zwolnienie na termin opłacenia pisma",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=25",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 u.k.s.c. — skutek zwolnienia dotyczący opłaty",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=25",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 k.p.c. — przywrócenie terminu przy braku winy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=37",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń otrzymuje 1 zgodnie z przykładem granicznym P06: konkluzja odpowiada jednej gałęzi, lecz odpowiedź nie rozróżnia zażalenia poziomego i dewolutywnego, co uzasadnia drugą karę oraz B2 = 0. Brakuje obu wymaganych podstaw i omówienia art. 130² k.p.c. A6 = 0 wynika m.in. z przypisania art. 397 § 2 regulacji zażalenia poziomego, powołania uchylonego art. 370 oraz wskazania art. 19 ust. 2 pkt 2 u.k.s.c., dotyczącego pozwu w elektronicznym postępowaniu upominawczym. Art. 130 § 1¹ reguluje terminy dla osób za granicą, a art. 27 u.k.s.c. opłaty od określonych pozwów; zastrzeżenia o konieczności weryfikacji nie usuwają tych błędów. Dygresja o skardze kasacyjnej i wznowieniu obniża A8 do 0.5, a błędne wskazówki dotyczące dopuszczalności środka i opłat ograniczają przydatność do B1 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 16,
+  "czas_s": 224,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

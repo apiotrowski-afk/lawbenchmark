@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act (rozporządzenie 2024/1689)",
+   "zrodlo": "Dz.U. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act (rozporządzenie 2024/1689)",
+   "zrodlo": "Dz.U. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act (rozporządzenie 2024/1689)",
+   "zrodlo": "Dz.U. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act (rozporządzenie 2024/1689)",
+   "zrodlo": "Dz.U. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 AI Act (data stosowania art. 50 od 2.08.2026 r.)",
+   "zrodlo": "Dz.U. UE L 2024/1689",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie rozstrzygnął kwestię definicji deepfake z art. 3 pkt 60 AI Act oraz powiązanego braku obowiązku z art. 50 ust. 4, zastrzegając istnienie niezależnych obowiązków dostawcy z art. 50 ust. 2 (A-R=2). Prawidłowo wskazano wszystkie wymagane podstawy prawne oraz rozdzielono adresatów obowiązków (A2=1, R3=1, R4=1, R5=1). Przytoczony cytat z art. 3 pkt 60 zawiera dodany spójnik („i które” zamiast „które”), co obniża A3 do 0 przy braku zniekształcenia normatywnego w A6 (A6=1). Odpowiedź nie odnotowała braku znaczenia subiektywnej intencji wprowadzenia w błąd (R2=0) ani nie powołała wytycznych KE (R6=0). Wywód zachowuje właściwą warunkową kalibrację (B2=1) i pełną przydatność doradczą (B1=2).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo\"",
+   "\"art. 3 pkt 60\" \"2024/1689\"",
+   "\"art. 50 ust. 1\" \"2024/1689\"",
+   "\"art. 50 ust. 2\" \"2024/1689\"",
+   "\"które przypominają istniejące osoby\" \"2024/1689\"",
+   "\"3 pkt 60\" \"2024/1689\" \"deepfake\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13984,
+   "wyjscie": 717
+  },
+  "czas_s": 65,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

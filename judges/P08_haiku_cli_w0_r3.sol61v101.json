@@ -1,0 +1,96 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Stosowanie art. 50 od 2 sierpnia 2026 r.",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23–24 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 prawa autorskiego",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:32016R0679",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 190a k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełny tekst wytycznych KE C(2026) 5054: oficjalna strona publikacji dostępna, pobranie dokumentu zakończyło się błędem."
+ ],
+ "uzasadnienie": "Odpowiedź poprawnie parafrazuje definicję, lecz następnie zawęża ją do głosu kojarzącego się z konkretną rzeczywistą osobą, co uzasadnia T i niepełny rdzeń: samo nieodtwarzanie czyjegoś głosu nie wyklucza możliwości uznania nagrania za autentyczne. Trafnie rozdziela obowiązki dostawcy i podmiotu stosującego oraz wskazuje niezależność oznakowania maszynowego od kwalifikacji deepfake. Podaje prawidłową datę stosowania, ale nie odwołuje się do soft law. Dygresje o polskiej ustawie, organie nadzorczym i innych podstawach ochrony głosu obniżają A8. Błędna wskazówka dotycząca generycznego głosu ogranicza przydatność do B1=1, natomiast warunkowe rozdzielenie definicji i obowiązków uzasadnia B2=1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 18,
+  "czas_s": 96,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

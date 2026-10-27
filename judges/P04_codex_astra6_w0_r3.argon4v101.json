@@ -1,0 +1,78 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j. u.n.n.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j. k.p.a.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j. k.p.a.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Zgodnie z regułami oceny dla P04 odpowiedź wskazująca przy zezwoleniu MSWiA na 'zasadniczo ostateczność, a ewentualnie także prawomocność' otrzymuje A-R = 1 i nie podlega karze K3. Punkt za A2 oraz elementy R2–R4 zostały obniżone do 0 z uwagi na brak wskazania instytucji zaświadczenia (art. 217 § 2 pkt 2 k.p.a.), brak informacji, że organ zaświadcza prawomocność decyzji na potrzeby obrotu, oraz brak opisu mechanizmu uprawomocnienia po 30 dniach na skargę do WSA. Wzorem reguł szczególnych klucza omówienie gałęzi dotyczącej postanowienia sądu jest uprawnione wobec brzmienia pytania i nie obniża A8 (A8 = 1). Wszystkie powołane przepisy k.p.c., k.p.a. oraz u.n.n.c. są zgodne ze źródłem oficjalnym (A6 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 364\" \"Prawomocność orzeczenia stwierdza\" OR OR",
+   "\"art. 13\" \"Przepisy o procesie stosuje się odpowiednio\" OR OR",
+   "\"art. 16\" \"Decyzje, od których nie służy odwołanie\" OR OR",
+   "\"Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia\" OR OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14534,
+   "wyjscie": 913
+  },
+  "czas_s": 69,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

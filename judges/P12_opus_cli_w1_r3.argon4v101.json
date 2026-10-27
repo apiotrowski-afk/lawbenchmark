@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 6.12.2012 r., III CSK 43/12",
+   "zrodlo": "SAOS / orzeczenia.ms.gov.pl (wyrok SN z 6 grudnia 2012 r., III CSK 43/12)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń (A-R = 2): jednoznacznie wyklucza istnienie klauzuli przeciwko małżonkowi „bez ograniczeń”, wyjaśnia brak wpływu treści nakazu zapłaty na wybór trybu oraz prawidłowo rozróżnia przesłanki z art. 787 k.p.c. (zgoda małżonka) i art. 787¹ k.p.c. (związek z prowadzeniem przedsiębiorstwa). System zrealizował wszystkie pięć elementów rubryki, w tym sprostował omyłkę pisarską z pytania (art. 781¹ na art. 787¹ k.p.c.) i wskazał składniki majątku, z których egzekucja nie wymaga klauzuli przeciwko małżonkowi (art. 41 § 2 k.r.o.). Wszystkie powołane przepisy (k.p.c. i k.r.o.) oraz wyrok SN z 6.12.2012 r. (III CSK 43/12) dotyczący statusu małżonka jako dłużnika egzekwowanego są w pełni zgodne ze źródłami oficjalnymi (A6 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"III CSK 43/12\" OR",
+   "\"III CSK 43/12\" \"6 grudnia 2012\" OR \"6.12.2012\"",
+   "\"art. 41\" \"Jeżeli małżonek zaciągnął zobowiązanie\" OR",
+   "\"art. 787\" \"Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej\" OR",
+   "\"III CSK 43/12\" \"dłużnikiem egzekwowanym\" OR",
+   "\"781\" \"Wniosek o nadanie klauzuli wykonalności sąd rozpoznaje niezwłocznie\" OR OR",
+   "\"787\" \"przedsiębiorstwa wchodzącego w skład majątku wspólnego\" OR OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiar0dQfvcrpJMaFZ0dR2rk9dfAuG3X4Mc_gElGaPtfilfU3B_v8-o8TPsrS6oIRsnKWGJnLumbe0mVxECyfLne6zhBRRNf4HOr7y55DPPXB6WePkuhSEKhx_IPmsmXiGywY0rKh0wiNewom6UJOM3jwodFHSszqbd9TEywnz2GmkVRoGyOgvuBdAoFZH4gDI-VrDrhfGeZ6r3",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE72Vg3PIs0_OBz3SwUT-ldD09dGDDzwYQx6JcQObkwJPMtNkkxcoSN_d7ItTfbHPNLtslbFSn3TBWA6PUdwz6Tbd58LAXVyzqg8mPSMqIBbc8ZdM7PETs1MT5Zp506bFmJB2kRbKAV94wb2uCMyxw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw_28EZkp2oA7BqBFbnwOwPg_fer-5lHDSuxheEiAXGFojH2KYHdHyEJ4N9q5uhdDOrjxg5Jd1o2wbx28m1nq86gqwkJ3cIFMemZ3oSE9rKScBw3sdr4Ws3cK-YfAcWh5N800oQJeOiVu19eaSfOk2H1zleRxnwrg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtVG66uSTwvyjQQbuJYRON0SRbGFZZW1DPO2qhX1m3JS_PMqqKrA04CF1p3GEJkvwg6NLjTbjkayTAR08_K7V1sc6CrqNr72o4UA7S35zIext2cZpgZrKeUcAdDsEZRofgPRGlPyaNjZGUz_HySZs3q1WKVZh4TKKuyUwZWWp_XVl3VrHmm-bCyIfoo5siENUiHZWzAlxGvw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHCnaHaHcE8_aZdol4qdnkUkPDeRmH1nHqMSnDT1FwhHREhBYvTLKPDrd2NFENHdHL29V7sQJ9Dm7F44UCLr9zJ3OJF59NKkdjj9oJ1PUcUJmoOf10313G7cPt8AYQ6itjmr6Hn4m3_1HenAKGtE4Dfg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2qz3n3CGOnhWosKPle9hV2AWwvtqxmRfvE9NTnbrROYv0BfdtSoo0-yij1rboF9_qzdmcKO14_klBid9Fqu98AlI3yJFY25VzpoCLqBNEISfQqrkDDImkB9hAL9sX42FC4XFgI7Q61tTUr7oALjXjEO4i8jpNTdz_YA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYy9ujZlKyoqznuI9xOYOR2tXN3XONW2elV2tc-ayo8H3rWpLiypt5EwVfJKbTxl-syfozI93dvgNE-RXy-9schTTaJs_23fP15J1U0Y3sZ_YZlhF2XE7jN-3FTLYkHwxBGPvCP-ivT7WAZ8WTK64Mb8Y9pT2ZCrldiL4q8RMdPFUaj6MMvX5hdy6qJ04BZhEH7cg0"
+  ],
+  "tokeny": {
+   "wejscie": 12823,
+   "wyjscie": 1239
+  },
+  "czas_s": 135,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

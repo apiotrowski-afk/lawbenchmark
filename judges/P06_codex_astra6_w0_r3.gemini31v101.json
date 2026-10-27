@@ -1,0 +1,76 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ᵃ § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń oceniono na 1, ponieważ system trafnie wskazuje, że zaskarżalność zależy od rodzaju odrzuconego zażalenia i prawidłowo rozstrzyga gałąź dewolutywną, ale nie podaje konkluzji dla zażalenia poziomego. System dopytuje o rodzaj zażalenia, co realizuje element rozwidlenia w rubryce i zapewnia dobrą kalibrację (B2=1). Powołanie uchylonego art. 394¹ § 2 k.p.c. jako obowiązującej podstawy zażalenia do SN stanowi halucynację (W) skutkującą A6=0 oraz nałożeniem kary z klucza. Z powodu tego błędu przydatność (B1) obniżono do 1.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"W sprawach, w których przysługuje skarga kasacyjna, zażalenie przysługuje także na postanowienie sądu drugiej instancji kończące postępowanie w sprawie\" \"394\" k.p.c.",
+   "\"Art. 394\" \"§ 2\" k.p.c. \"skarga kasacyjna\"",
+   "\"Art. 394(1)\" k.p.c. \"uchylony\"",
+   "\"Art. 394^1\" k.p.c.",
+   "\"Art. 394(1) § 2\" k.p.c."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz46m9U6i2VuTYbTe_cFQ6v33jFrzGXDAQhXn-P-ScfffmQBBivnRnLUjUCJwY0Udsf_om-C4PejMwkX8QxKFotW0NDmwKlq9iCIDXNZstG_E15KW4s2bE4_ZrIJLLgniSw-xZZj7iEbC6bd1_ftg9l8Xff9fW_jcYpbc2aFWuPS0lS6aMFsdtTQUHOG0kBmWS2HikfgsWI9aAJfDgGA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNKUQXcvcXNYWQrR2G2jDPpbDpIBkC2VaYPVfhH1KJ3V-o09CFpIZFyDfzrYEGa8kRF6uLKGVV3R_iNrh28vMWJuaSKZM8Id8xNBN4novlq37mHiWYPlhNTlUnJfL6Yi7ZXZ2o5yZWwyuRs6vVEt0An84IezC8VUc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM4FHyNWa6mes42Qo3Rt0XxzAupHN9uQGeO-y8N8H4h9HmkjfShTuI0pTVOHGAnlS1TNB02wJODo7mUimpiZ5rqjCBav8Yyyxr3omynQQyoTrUuCWlM07LommukhxltA9zz_WNjrNY3LI7O3DD3O9d4woGfum6xfVZl5R1m9FE-DgEmd-cylmb_6RaUFKLS_B5Hb3aSCNZoyaF1MHo--oz-WTLsDKkEkVwQQixe6ZxlHl1Pwe_xYTD97o4",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQLcYgdnah_YmCNWl8M6puHRppKu_nSIHj32RsF7BNXuL40CXnnr9CS0xapYO52qcfslVyblpZXVCjDDC93oIMQ7G4jKjQlk4snsmomjTCOLgQAgh1-3k56tK2LpTFFPf97SRIPKNvG9mEsgM2u0d-FarZiAU0HqcJQrm5-1-mu4zuhH2NhdPtOABCKMVtw09DjbFrUA6_JDlOmhw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGBlA41mLQ-yoGzWBqvk_DZrhSJfICBauhagJ3mZKGgkCyyoUNljeks3uXx0CFBpFNFcKLfvzEaGmpam0vQr8wyP-lIYd8xf4JJUdCBzM_CUt12PgJokaR88YuTP6RxJFZVC0-LYz4iWouOk6n9lVFN42rs6zwGMwxZjoiJbOBF-I--bt8",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm6EV1enkwYR45LQw73ZF3cN-52ehbDzNrvdqwsSzdGsStWIHY-6LDyyT80wDj_5t64U-0XS3q_hlEnwELORE86VeeaRQfaSL-XbASGVSro2uS7V52iX5jxyXN6AesdgFzApWAx7IJNDiRUV0QgM8a-7l-KOnv1wDnJai2wg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3jevgsoJ-JH9KTlFBM4p0fDrxDOBKnAFRtArv4xs0kK6-CwJ-7zAuHXw_PnfaDfldL0V3DgPCyvyJAURqmkrlzRcSAARH6gFgPbOFVvUmP1Bpeea1MapSZr3Wm4IS4bQ0M-SZg6-q0eE_UGin4dKYqN9YiYFHM4A1hIpoVvq5EkZ9yVVCUGNcVaBssutUhbFEn7OoJNUxCYdMMpI86Lv0OrMcjM50v7xNfKs="
+  ],
+  "tokeny": {
+   "wejscie": 9368,
+   "wyjscie": 557
+  },
+  "czas_s": 141,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

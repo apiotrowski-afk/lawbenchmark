@@ -1,0 +1,120 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 56 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 49 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 436 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo obala fałszywą tezę pytania (A-R=2) i podaje wymagane podstawy prawne (art. 41 ust. 2 i art. 53 pr.aut.). W punktacji A6 odnotowano jednak błędy klasy T: art. 56 pr.aut. (odstąpienie z uwagi na interesy twórcze) przypisano własności nośników zamiast art. 52 pr.aut., a art. 436 k.c. (odpowiedzialność posiadacza pojazdu) powołano jako podstawę roszczeń o wynagrodzenie twórcy. W rubryce spełniono 4 z 5 elementów; zabrakło wyraźnego odwołania do liberalnej linii SN i art. 65 k.c. Z uwagi na obecność błędnych podstaw w klauzulach umownych B1 obniżono do 1.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art 56\" \"art 49\" prawo autorskie egzemplarz nosnik",
+   "\"art. 56\" prawo autorskie \"egzemplarz\"",
+   "\"art. 52\" prawo autorskie przeniesienie wlasnosci egzemplarza",
+   "\"art. 436\" KC prawo autorskie"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12733,
+   "wyjscie": 943
+  },
+  "czas_s": 36,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

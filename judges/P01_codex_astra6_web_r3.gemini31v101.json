@@ -1,0 +1,74 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest w pełni trafny (A-R=2): próg wynosi 800 zł i nie zależy od płacy minimalnej. Wszystkie powołane przepisy (art. 119 § 1, 124 § 1, 130 § 2 k.w.) zostały użyte prawidłowo i zgodnie z ich brzmieniem w oficjalnym źródle (A6=1). Odpowiedź traci jeden punkt w rubryce (R3), ponieważ nie wskazuje daty 1.10.2023 r. ani poprzedniej kwoty 500 zł, ograniczając się do wzmianki o dawnym powiązaniu z ułamkiem płacy minimalnej. Kalibracja jest prawidłowo kategoryczna (B2=1), a porada wysoce przydatna (B1=2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 130\" \"kodeks wykroczeń\"",
+   "\"art. 130 § 2\" \"kodeks wykroczeń\"",
+   "\"art. 119\" \"kodeks wykroczeń\" \"800\"",
+   "\"art. 124\" \"kodeks wykroczeń\" \"800\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsT3FD3j7DJ4HaxVz1XOVnPfRNloY0X50LJ4_Lg_rusnKs4IYoX46gmNt8kJHcOlY-UwlBEZPlMiq1sX2IrJ-XtxWxGRGNu2iSVtFCSSZFlk-5fRZhgFlxaWqUHWILkC_7xC_5MMP9w8NiOrtQtMBTsAQXCXvf0OT64hGJ40q7miPYKUQ0V34A93JYOEOthy3SBizMN1SMAFb4yMB81Ojy5AgFq5C4SuU-jwq3OL2sDsszspwAadHs0c_DTsffs9fqJwyPl3YDTK3inV8jqyPNOg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcTLFEDXcy6UJkMlNB7PGP4lxyIdsNhIvWWhLkGVoTIWEtEGIJw0D3VYFEM2bGdMDUVGco4TrpQ3nAY35oTMFrIVm34dEJxmhHqCujcYTkuu135BcpsHKItXXO3Fqgd27pH0X5k6n8h2VOMoOadJf_peWPQHPCy2e3WsKhLqph4dDt9oqBO8g-XkdioqQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJez9Eh-iTjDzKVKo7w2Le0UNHq2iXL8ZCwv8IeSKI3ISmt4IKSVmSGlsXlhYSYU9KkQlCmBxxR46-ld84k51ZU-XGLyQ-p-1J2e-_mJL5XyvopwQhi3o92NDjf4xd2UJmiLmwEPCancoamvHQYhqFwbjvQ5Oq4fPEqqoe-0rMo5AQ1Ymsf5KpGDhM",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoYS0uPOAi6cfNX7M0jnegLNYu03RBhju9xnHAuKXTfdsqzE5oVVwfR4wAC502QApe1ggHhcbgHtokZzaapdo8PXVjkirhbPxsVW8F12tERBaHXipK0vgvOTWgsC0T_gjMpOBsj427l9k=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcZvstMOONEPTPJq5fGvXsys7vmwirCbKQJowbpR-NI0By1cYid3i9eXgtEHYn1qr-dQ3CpIIIIhq-VlUf-jM_TE2OrcW3PZxVgZTxde44t4vbY2-JKImWaJrrKlrrnI3L",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4EGio-u7JHcq70JNCDdNnjgwS9lNwgv9vTh01j_lQ0hivHGMH8zvaymBeidTPPvPh6zsuTlIhO27kNERtwDo5Q9Fp79BZB31WBd9s3A1yvM1NZ6RuLr4ZnLdMAr8QJR2rqAUUf6J3z4mpiJUeiATWCRmbRyBsmvK8h1HlQ211zjTTcqC2v5WgkZTwE8E="
+  ],
+  "tokeny": {
+   "wejscie": 13451,
+   "wyjscie": 536
+  },
+  "czas_s": 77,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T",
+  "F"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 lub § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 w zw. z art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 370 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 394¹ᵃ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 3 w zw. z art. 398⁶ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130 § 1 i art. 130² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–169 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 430 § 2 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Postanowienie SN II UZ 49/19",
+   "zrodlo": "sn.pl",
+   "werdykt": "F"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny i znajduje się w pierwszym akapicie (A-R=2). System nie powołuje wymaganej podstawy art. 397 § 1¹ k.p.c., opierając się na nieaktualnym stanie prawnym (A2=0). Występują halucynacje (A6=0): powołanie uchylonego w 2019 r. art. 370 k.p.c. jako obowiązującego (W), przypisanie art. 394¹ § 3 w zw. z art. 398⁶ k.p.c. normy przyznającej zażalenie do SN na odrzucenie zażalenia (T) oraz powołanie nieistniejącego orzeczenia SN (F). Odpowiedź zawiera dygresję o postępowaniu karnym, co obniża ramy (A8=0.5). W rubryce brakuje wyjaśnienia skutków z art. 130² k.p.c. dla profesjonalnego pełnomocnika, a za wskazanie zażalenia do SN naliczono karę.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 17,
+  "zapytania": [
+   "\"art. 394\" \"§ 1\" \"§ 1[1]\" \"§ 1[2]\"",
+   "\"art. 397\"",
+   "\"art. 370\"",
+   "\"art. 373\"",
+   "\"art. 370\" \"k.p.c.\"",
+   "\"art. 373\" \"k.p.c.\"",
+   "\"art. 397\" \"k.p.c.\"",
+   "\"Art. 373.\" \"Sąd drugiej instancji odrzuca apelację\"",
+   "\"Art. 370.\" \"uchylony\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 395\" \"k.p.c.\"",
+   "\"art. 397\" \"§ 1[1]\" \"k.p.c.\"",
+   "\"art. 394[1a]\" \"k.p.c.\"",
+   "\"art. 394\" \"1a\" \"k.p.c.\"",
+   "\"art. 430\" \"§ 2\" \"k.p.k.\"",
+   "\"art. 430\" \"k.p.k.\"",
+   "\"II UZ 49/19\"",
+   "\"II UZ 49/19\" \"Sąd Najwyższy\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHByd7tamBxSY7zzYAToyknGPujbx0LzgFk-LXDzNzt9gyvMHuBEUBum2kJrt8IUDR8TnAF27KR8HvE5w5_kUNG9o597vNhTnUJJOwK99K7IWD-Vxn5fUV000Y4Y2UcfsUfVKCnmqsQNqJYj0TJ1zB0xXpYVD7onDrfuPyZiQ4yNvU0G5jK68oilBZq1tZrG6hX0dmvaQWeNKbcFfzsfz2RyUuAHvqnNbCp2iJYo_NGoTpaNSdGd_tylJc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnHFv-_BwGgWS1P2Iab2EGAA9lQ3Rrs1KGSWoKsiBImHC_1ARO8QuOsfOS5xNwiNeMl7xocv4aS-bU5EG_Gp5XyubcXJcB5oqJ0JqFqhBFVE3FtNQjmKw6oEh2pXp8zcfEvCXNjJLhHwUtNrnwpBM9QuVrDSUZRbvcLv7A0BCLgDvw4Z6tG1JpIyq0MwkEhEAozre9Gh5QFUAcDawt",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP4ULgRzP4cAqO2FTgPQ5lWBBPoutISdWERxY_vl8a0OgwUoAO1PUIa0u8itIOFnLlFm-eXca14Asus5NH3vQelg_VsPgNX56IAHRZCTTqX6va8Ovlvh8XyZ55UI44K9g59lYIreg7XcFCCWgKEO2wAmB0znQDM0-W_DRjKLOfdEMvGSzgHCEW6slEVb4LDuJMQAfDIWs6a0ZZNU0M",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFvYPMupg8DdlPxc52RdxQELNb-brdVaHM5noGrxDC83ZMgdwBN3ZJFJO6Y_esQxUaUH1rzD1M-Gl1zB34esRW8dl3TGFEj7BVdpcOoBnIlogNkIWpVyFN_HiP5PDxWbBr2rYSgWh74AYA21rVLyEklEFmO52lQI2Eh1pbXW-59bMrDlemKvHcgBZY7X1PURNJ8RU0jntXTwpJt1wub_OUrk3WNfXdl5oTjX4R0EwJ1xg_mRKjBsBSu0RyXg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQtkbxnNewuuVhQCjhQbvTHBbkRxlkpq8lvoTtQAfIlLl2BkJU8hcNHTW627YjAWwYqLmHcKV_BsEcVP5LlQ_Pg75bjAEWMs6whkDh9mgzA754bau6rAv03nWEUXiafrCLKQDaKkeAdBKOWB9s5oeS01UoAz_LmM5m",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFCg8EG8Q9D32qRrb99wefE3HoRHNmp_0yswGlmDcKrqcqiL_V94otlgR_7HxvxO6JWugF78VG7x0ygASH2U8V7kIce7GjJKB5IKngVtPy-LXPBYIuM780T-U2z9qVOUVUW1uslUFO6qrqONrkC0zXADaQcwWXkTkpTmieq3_5pE8wCwH4uwREh-SSuN-sAGWBOsMitz-baCf3IQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXJog_lFNs7Ay0ZhmhEFc8e-iRcyC0CWurGA2kO7rUD0wufnYn8W1s9m6b7FnhZt-HusoFGMF6yUe8A0pxxCoKJRd6tyxNwZ4QBilgjp6_4uuZyKy8_D1E6CgSXLFH7y_Aa3CyPzxklXS_j0_1Z8RT9LixgVtRZbw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5r9ML3pSE-smzqL5UcFgo26RI2E58dbg002dNH-TaczKQIIhCC4g2fZ5wYSCjSiaX6B26teGxElS107a0C2M94cOVg6S2a4FWKKfH7J-wWhsZkqhb8ELf8Nn42gUGdi4TxaBQ3UUwtWsCC_PN0oPkQiqGBAPeMkDo",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgHEkHXzkFbkBAMy_7_cLI-3R_5qNDwz7TrluAApf9O8rExDuLvGEYcYZwI9vuiuB1ij4PNIJhRLphWrEUmc2OaDthV1TmXjBwlMlodf77wBKG8pmYFQI6H1PvXW7gM38TtWV4OTsqFsB1v4Zi5MshqyhhpxlWrYvL_qUMkc7TT_LIjZjtnppFAcSWlBMP3Qj4dUGbqzW8YXt2KmAz8q3New-7-2W1orVBVn7Gpw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3-svnipueUO-wJAV0tB9ifz7dEwFDP4u_vNqpKz8TmCTGWLNIZexurrC8T39yEiCtN3c5roo0hXkR5P-zo6XtaqZ3l8rsidQHzKS04ya4j7F71ArVJxT3gAo2fWo15IWdMFDZtM4iYrI88KPq_urAqW-ZVi4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKL2tWB6f05VfUlAXE1FRXK0J4WxkyqkjfunUcNC_UpyClbV-INswZZKJLx6qunYFabNQ0b9J-grpgQd9ZLerj-X9S6tObVTRP0BiDtGcvCwOR9U5OybeLMavKae9A_hlOjwqfPfpFf2FxutvNgZOCny8g1SeofS86SbIjnLdnEEPHGrMlINThCb1VBGrsSCUFdi0SUsA0xJg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx59bKBbj7NVntJFKlQUFcN3YEtlW491s1QT4AfM-Tf5GhkQYW-9cRYHqQVl1dZ2MQrxWVMldzGd_KTLCh3uFr7nKE3W2mzI-9yhhv5NmjFuNZIbgKvZSncuNL3gBIgjKQRIAoansXQoLbfad4GYf0a0GdbdqLs44BhME9vnTnG5UpX3L3bu_o_-B7dIlJZDewM0g="
+  ],
+  "tokeny": {
+   "wejscie": 12116,
+   "wyjscie": 1263
+  },
+  "czas_s": 311,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

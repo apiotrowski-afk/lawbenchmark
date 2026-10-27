@@ -1,0 +1,140 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 130 § 1-2 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 2 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 370 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 394¹ KPC (jako katalog zażaleń do SN)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 zd. 2 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ KPC w zw. z art. 397 § 2 KPC (jako podstawa zażalenia poziomego na odrzucenie zażalenia)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 ust. 2 pkt 2 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 27 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 139 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1¹ KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 111-117 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafia tylko w jedną gałąź pytania warunkowego (wskazuje zażalenie poziome do innego składu SA, pomijając brak zaskarżalności przy odrzuceniu przez SA zażalenia dewolutywnego z art. 397 § 1¹ k.p.c.), co zgodnie z przykładem granicznym nr 2 daje A-R=1, R=[0,1,0,0], karę K[1]=1 oraz B2=0. A2=0 z uwagi na brak wymaganych podstaw z art. 394² § 1² i art. 397 § 1¹ k.p.c. A6=0 (hallucinated=true) ze względu na liczne błędy klasy T i W: powołanie uchylonego w 2019 r. art. 370 k.p.c., przypisanie normy o zażaleniu poziomym art. 373 zd. 2 oraz art. 394¹ w zw. z art. 397 § 2 k.p.c., a także błędne przypisanie treści art. 130 § 1¹ k.p.c. oraz art. 19 ust. 2 pkt 2, art. 27 i art. 113 u.k.s.c. (zastrzeżenie o braku dostępu do bazy nie wyłącza A6 wg reguły granicznej 8). A8=0.5 z uwagi na wykraczające poza pytanie wywody o zarzutach, doręczeniach i środkach nadzwyczajnych zawierające błędy prawne.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"373\" \"370\" \"397\" \"394\" OR OR",
+   "\"art. 370\" \"art. 373\" kodeks postępowania cywilnego OR",
+   "\"art. 130\" \"art. 139\" \"art. 168\" kodeks postępowania cywilnego OR",
+   "\"art. 19\" \"art. 27\" \"art. 113\" \"kosztach sądowych w sprawach cywilnych\" OR",
+   "\"Art. 394\" \"Art. 397\"",
+   "\"Art. 130.\" \"Art. 139.\" \"Art. 168.\"",
+   "\"Art. 19.\" \"Art. 27.\" \"kosztach sądowych w sprawach cywilnych\"",
+   "\"Art. 111.\" \"Art. 112.\" \"Art. 113.\" \"kosztach sądowych w sprawach cywilnych\"",
+   "\"Jeżeli zażalenie, o którym mowa w\" \"Sąd drugiej instancji odrzuca zażalenie\" OR",
+   "\"przewodniczący wzywa stronę, pod rygorem zwrócenia pisma\" OR",
+   "\"Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy\" OR",
+   "\"Piątą część opłaty pobiera się od\" \"Opłatę stałą w kwocie 200 złotych\" OR",
+   "\"W razie niemożności doręczenia w sposób przewidziany w artykułach poprzedzających\" OR",
+   "\"Zgłoszenie wniosku o zwolnienie od kosztów sądowych oraz wniesienie środka odwoławczego\" OR",
+   "\"Kosztami sądowymi, których strona nie miała obowiązku uiścić\" OR",
+   "\"Czwartą część opłaty pobiera się od pozwu\" \"Piątą część opłaty pobiera się od\" OR",
+   "\"Art. 114.\" \"Art. 115.\" \"Art. 117.\" \"kosztach sądowych w sprawach cywilnych\"",
+   "\"Art. 373.\" \"zdanie drugie\" OR \"przysługuje zażalenie\" kodeks postępowania cywilnego",
+   "\"Art. 397.\" \"odrzuca zażalenie\" \"§ 2\" kodeks postępowania cywilnego historia"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9864,
+   "wyjscie": 2104
+  },
+  "czas_s": 201,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

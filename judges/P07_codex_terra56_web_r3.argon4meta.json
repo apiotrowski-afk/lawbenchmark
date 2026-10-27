@@ -1,0 +1,78 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — § 5: Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia (...). Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — § 2 reguluje doręczanie postanowień wydanych na posiedzeniu niejawnym i pouczenia, a § 3 termin tygodniowy dla sądu na sporządzenie uzasadnienia; termin tygodniowy dla strony na złożenie wniosku wynika z art. 357 § 1 (posiedzenie jawne) i § 2¹ (posiedzenie niejawne).",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 25b ust. 1 ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "Dz.U. 2025 poz. 1228 (t.j. u.k.s.c.) — art. 25b ust. 1: Opłatę stałą w kwocie 100 złotych pobiera się od wniosku o doręczenie wyroku albo postanowienia co do istoty sprawy z uzasadnieniem zgłoszonego w terminie tygodnia od dnia ogłoszenia albo doręczenia tego orzeczenia.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2.07.2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl / OSNC 2021 nr 12 poz. 80 — uchwała SN z 2.07.2021 r., III CZP 38/20: wskazanie zasadniczych powodów rozstrzygnięcia z art. 357 § 5 k.p.c. jest instytucją odrębną od uzasadnienia i nie zwalnia strony z obowiązku zgłoszenia wniosku o uzasadnienie.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń merytoryczny (A-R = 2) i realizuje wszystkie cztery punkty rubryki, trafnie odróżniając zasadnicze powody rozstrzygnięcia od uzasadnienia oraz wskazując tygodniowy termin na złożenie wniosku liczony od ogłoszenia albo doręczenia postanowienia. Jako podstawę tygodniowego terminu dla strony na złożenie wniosku wskazano jednak art. 357 § 2–3 k.p.c., podczas gdy jednostki te regulują doręczenia z urzędu, pouczenia oraz termin dla sądu na sporządzenie uzasadnienia, a właściwymi podstawami są art. 357 § 1 i § 2¹ k.p.c. Skutkuje to obniżeniem A2 do 0 oraz A6 do 0 (klasa T, hallucinated = true). Powołania art. 357 § 5 k.p.c., art. 25b ust. 1 u.k.s.c. (z pominięciem zawężenia do postanowień co do istoty sprawy) oraz uchwały SN III CZP 38/20 są zgodne ze źródłami. W bloku B odpowiedź utrzymuje maksymalną ocenę za przydatność i kategoryczną kalibrację (B1 = 2, B2 = 1), gdyż błędna numeracja paragrafów nie zniekształciła praktycznej wskazówki co do terminu.",
+ "_meta": {
+  "sedzia": "argon4meta",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" kpc isap",
+   "\"III CZP 38/20\" sn.pl OR saos",
+   "\"art. 25b\" \"Opłatę stałą w kwocie 100 złotych\" uksc isap",
+   "\"art. 357\" \"§ 3. Uzasadnienie postanowienia\" kpc"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 17357,
+   "wyjscie": 1155,
+   "rozumowanie": 5219
+  },
+  "czas_s": 88,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 6, orzeczenia 1. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 357 § 5 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zwięzłe wskazanie przez sąd zasadniczych powodów rozstrzygnięcia na podstawie tego przepisu nie jest pisemnym uzasadnieniem postanowienia i go nie zastępuje.”\n    · uzasadnienie weryfikatora: Przepis wprost wskazuje na odrębność zasadniczych powodów rozstrzygnięcia od uzasadnienia postanowienia.\n    · kotwica (verbatim ze źródła): „Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”\n    · brzmienie jednostki (fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”\n- 2. art. 357 § 2 k.p.c. [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „Wniosek o sporządzenie uzasadnienia i doręczenie zaskarżalnego postanowienia z uzasadnieniem składa się co do zasady w terminie tygodnia od ogłoszenia postanowienia (gdy wydano je na posiedzeniu jawnym) albo od jego doręczenia (gdy wydano…”\n    · uzasadnienie weryfikatora: Powołane jednostki (art. 357 § 2 i § 3 k.p.c. w brzmieniu na datę stanu prawnego) regulują doręczanie postanowień z posiedzenia niejawnego, pouczenia oraz termin dla sądu na sporządzenie uzasadnienia, a nie tygodniowy termin dla strony na złożenie wniosku (który wynika z § 1 i § 2¹).\n    · brzmienie jednostki (fragment): „§ 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie złożenia wniosku o doręczenie uzasadnienia tego postanowienia i wniesienia środka zaskarżenia albo o tym, że postanowienie nie podlega uzasadnieniu lub zaskarżeniu.”\n- 3. art. 357 § 3 k.p.c. [akt: wprost]\n    · powołanie zakres — ocena łącznie z powołaniem nr 2; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n- 4. art. 357 § 5 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: poza_brzmieniem; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „Wniosek o sporządzenie uzasadnienia i doręczenie zaskarżalnego postanowienia z uzasadnieniem składa się co do zasady w terminie tygodnia od ogłoszenia postanowienia (gdy wydano je na posiedzeniu jawnym) albo od jego doręczenia (gdy wydano…”\n    · uzasadnienie weryfikatora: Przepis art. 357 § 5 k.p.c. został powołany zbiorczo w podsumowaniu podstaw prawnych (obok § 2–3) na poparcie ogólnej tezy odpowiedzi dotyczącej relacji zasadniczych powodów rozstrzygnięcia do obowiązku złożenia wniosku o uzasadnienie, a nie jako bezpośrednie źródło samego terminu tygodniowego.\n    · brzmienie jednostki (fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”\n- 5. art. 25b ust. 1 ustawy o kosztach sądowych w sprawach cywilnych [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R2 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Wniosek o sporządzenie uzasadnienia i doręczenie postanowienia z uzasadnieniem podlega opłacie 100 zł, chyba że strona jest zwolniona od kosztów.”\n    · uzasadnienie weryfikatora: Przepis przewiduje opłatę 100 zł od wniosku o doręczenie postanowienia z uzasadnieniem, przy czym odpowiedź pomija przesłankę zawężającą ten obowiązek (w ust. 1) do postanowień co do istoty sprawy.\n    · kotwica (verbatim ze źródła): „1. Opłatę stałą w kwocie 100 złotych pobiera się od wniosku o doręczenie wyroku albo postanowienia co do istoty sprawy z uzasadnieniem zgłoszonego w terminie tygodnia od dnia ogłoszenia albo doręczenia tego orzeczenia.”\n    · brzmienie jednostki (fragment): „1. Opłatę stałą w kwocie 100 złotych pobiera się od wniosku o doręczenie wyroku albo postanowienia co do istoty sprawy z uzasadnieniem zgłoszonego w terminie tygodnia od dnia ogłoszenia albo doręczenia tego orzeczenia.”\n- 6. art. 357 § 5 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Gdy postanowienie nie podlega zaskarżeniu, przepis ten umożliwia sądowi podanie jego zasadniczych powodów, lecz co do zasady nie tworzy samoistnego prawa do żądania pełnego pisemnego uzasadnienia.”\n    · uzasadnienie weryfikatora: Przepis wprost pozwala na wskazanie zasadniczych powodów rozstrzygnięcia przy postanowieniu niepodlegającym zaskarżeniu i odróżnia je od uzasadnienia, nie kreując przy tym uprawnienia do żądania uzasadnienia.\n    · kotwica (verbatim ze źródła): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów r…”\n    · brzmienie jednostki (fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”\n\nORZECZENIA:\n- III CZP 38/20 — podane w odpowiedzi: sąd Sąd Najwyższy (z tekstu), data 2021-07-02\n    · wynik wyszukania: znaleziono (LexAlpha); w źródle: Sąd Najwyższy, 2021-07-02\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie); A6_zakres: rdzeń\n    · twierdzenie odpowiedzi (wg weryfikatora): „Pisemne uzasadnienie i podanie zasadniczych powodów to odrębne instytucje, a przedstawienie zasadniczych powodów rozstrzygnięcia nie zwalnia z obowiązku złożenia wniosku o uzasadnienie.”\n    · uzasadnienie weryfikatora: Uchwała SN wprost rozróżnia obie instytucje (atom 3 i 4) oraz przesądza, że podanie zasadniczych powodów rozstrzygnięcia nie zwalnia z obowiązku złożenia wniosku o uzasadnienie (atom 5).\n    · teza 1 (referowana): Sąd drugiej instancji powziął wątpliwość, czy doręczenie zaskarżalnego zarządzenia wraz ze zwięzłym wskazaniem zasadniczych powodów rozstrzygnięcia na podstawie art. 357 § 5 w zw. z art. 362 k.p.c. p… — kotwica: „Wątpliwości Sądu drugiej instancji dotyczą tego, czy w obecnym stanie prawnym doręczenie podlegającego zaskarżeniu zarządzenia ze sporządzonym zgodnie z art. 357 § 5 w związku z art. 362 k.p.c. zwięzłym wskazaniem zasadniczych powodów rozstrzygnięcia otwiera…”\n    · teza 2 (ratio): Na zarządzenie o zwrocie pozwu przysługuje zażalenie do sądu drugiej instancji, a wobec braku odrębnych unormowań w tym zakresie stosuje się przepisy o zaskarżaniu postanowień. — kotwica: „Zgodnie z art. 394 § 1 pkt 2 k.p.c., który pozostał niezmieniony, na zarządzenie o zwrocie pozwu przysługuje zażalenie do sądu drugiej instancji. Sposób wnoszenia zażaleń na zarządzenie przewodniczącego o zwrocie pozwu nie został odrębnie uregulowany, zastoso…”\n    · teza 3 (ratio): Pojęcia „zasadnicze powody rozstrzygnięcia” oraz „uzasadnienie” są pojęciami odrębnymi i nie mogą być utożsamiane na gruncie przepisów Kodeksu postępowania cywilnego. — kotwica: „Przede wszystkim należy zwrócić uwagę, że brzmienie ustawy zarówno przed wejściem w życie ustawy nowelizacyjnej, jak i w obecnym jej brzmieniu wskazuje na zróżnicowanie pojęć \"zasadnicze powody rozstrzygnięcia\" i \"uzasadnienie\".”\n    · teza 4 (ratio): Wskazanie zasadniczych powodów rozstrzygnięcia nie jest równoznaczne ze sporządzeniem uzasadnienia, a bieg terminu do wniesienia zażalenia na postanowienie lub zarządzenie otwiera dopiero doręczenie… — kotwica: „Przepisy dotyczące postanowień również nie pozwalają na konkluzję, że wskazanie zasadniczych powodów rozstrzygnięcia może być równoznaczne ze sporządzeniem uzasadnienia, zwłaszcza, że przepisy o wyrokach, a więc także o ich uzasadnianiu i podawaniu zasadniczy…”"
+}

@@ -1,0 +1,98 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "ISAP Dz.U. 2024 poz. 1061 (k.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl / klucz P09 v4 (I CSK 596/17)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie formułuje pełny rdzeń warunkowy zgodny z kluczem v4: wskazuje, że ogólna formuła co do zasady nie wystarcza (art. 41 ust. 2 pr. aut.) oraz że umowa wymaga formy pisemnej pod rygorem nieważności (art. 53 pr. aut.), ale jednocześnie powołuje liberalną linię orzeczniczą SN (I CSK 596/17) dopuszczającą dookreślenie pól w drodze wykładni z art. 65 k.c. Wszystkie powołane przepisy i wyrok SN są zgodne ze źródłami oficjalnymi (A6 = 1), a wobec braku dosłownych cytatów w cudzysłowie A3 = nd. W rubryce zaliczono 4 z 5 elementów (w tym R5 zgodnie z regułą B12 za wskazanie wykładni z art. 65 k.c.), odejmując jedynie punkt za brak odniesienia do niedziałania art. 12 pr. aut. przy umowie zlecenia (R4 = 0). Kalibracja pewności oraz przydatność praktyczna (dobór pól z art. 50 pr. aut. pod social media i praw zależnych z art. 2 i 46 pr. aut.) zasługują na maksymalną ocenę w bloku B.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"art. 41\" \"art. 46\" \"art. 50\" \"art. 53\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"art. 2\" \"o prawie autorskim i prawach pokrewnych\" \"tłumaczenia\" OR \"przeróbki\" OR",
+   "\"art. 65\" \"kodeks cywilny\" \"zamiar stron\" OR",
+   "\"I CSK 596/17\" \"5 października 2018\" OR",
+   "\"2025\" \"24\" \"o prawie autorskim\"",
+   "\"WDU19940240083\" OR \"WDU20250000024\"",
+   "\"I CSK 596/17\"",
+   "\"i csk 596-17-1.pdf\" OR \"I CSK 596/17\" \"41 ust. 2\"",
+   "\"Odrębne pola eksploatacji stanowią w szczególności\" \"w zakresie rozpowszechniania utworu w sposób inny niż określony w pkt 2\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14556,
+   "wyjscie": 1289
+  },
+  "czas_s": 93,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 101 § 3 Kodeksu rodzinnego i opiekuńczego",
+   "zrodlo": "Dz.U. 2026 poz. 236 (ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 § 1 i art. 364 w zw. z art. 13 § 2 ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ELI)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę zgody MSWiA na decyzję administracyjną (R1 = 1) oraz wskazuje na tryb zaświadczenia z art. 217 k.p.a. (R2 = 1), lecz w konkluzji przesądza o potwierdzaniu ostateczności z pominięciem zaświadczenia o prawomocności decyzji oraz 30-dniowego terminu na skargę do WSA (zgodnie z regułami z 2026-10-18 daje to A-R = 0, R3 = 0 i R4 = 0). Kara K3 nie zostaje naliczona, ponieważ system nie wyklucza wprost prawomocności decyzji (wskazuje na nią przy art. 127a § 2 k.p.a.) ani nie używa przy decyzji MSWiA zastrzeżenia „wyłącznie ostateczność”. Punkt za A2 wynosi 0 z uwagi na brak powołania wymaganego art. 16 § 3 k.p.a. oraz art. 217 § 2 pkt 2 k.p.a. Wszystkie przywołane w tekście przepisy (w tym z uprawnionego dla A8 = 1 wariantu o postanowieniu sądu opiekuńczego) są zgodne z oficjalnymi tekstami aktów w ELI (A6 = 1). W bloku B przydatność została obniżona do 1 z uwagi na wskazanie wystąpienia o zaświadczenie o ostateczności po 14 dniach (zamiast o prawomocności po 30 dniach przy braku zrzeczenia z art. 127a k.p.a.), przy zachowaniu adekwatnej pewności (B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"127a\" \"Kodeks postępowania administracyjnego\" OR OR",
+   "\"art. 101\" \"Kodeks rodzinny i opiekuńczy\" \"2026\" OR \"zwykłego zarządu\" OR OR",
+   "\"art. 363\" \"art. 364\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"art. 13\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"Art. 127a\" \"oświadczenia o zrzeczeniu się\" OR OR",
+   "\"Art. 127.\" \"ponowne rozpatrzenie sprawy\" OR OR",
+   "\"Art. 101.\" \"sądu opiekuńczego\" OR OR",
+   "\"Art. 13.\" \"Przepisy o procesie stosuje się odpowiednio\" OR OR",
+   "\"Art. 127a\" \"oświadczenia o zrzeczeniu się\"",
+   "\"Art. 101\" \"sądu opiekuńczego\"",
+   "\"Art. 13\" \"Przepisy o procesie stosuje się odpowiednio\"",
+   "\"Art. 217\" \"Zaświadczenie wydaje się\"",
+   "\"eli.gov.pl\" \"Art. 127a\" \"oświadczenia o zrzeczeniu się\"",
+   "\"eli.gov.pl\" \"Art. 101\" \"sądu opiekuńczego\"",
+   "\"eli.gov.pl\" \"Art. 13\" \"Przepisy o procesie stosuje się odpowiednio\"",
+   "\"eli.gov.pl\" \"Art. 217\" \"Zaświadczenie wydaje się\"",
+   "\"eli.gov.pl\" \"Rodzice nie mogą bez zezwolenia sądu opiekuńczego\"",
+   "\"eli.gov.pl\" \"Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia\"",
+   "\"eli.gov.pl\" \"Decyzje, od których nie służy odwołanie w administracyjnym toku instancji\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15126,
+   "wyjscie": 1711
+  },
+  "czas_s": 168,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

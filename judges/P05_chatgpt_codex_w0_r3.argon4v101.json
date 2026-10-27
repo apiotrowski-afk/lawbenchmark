@@ -1,0 +1,77 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131 i nast. Kodeksu postępowania cywilnego",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹a k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System całkowicie pominął obowiązującą od 1.06.2026 r. nowelizację art. 131¹ᵃ § 1 i § 1¹ k.p.c., która umożliwia stronie będącej osobą fizyczną wybór doręczeń przez Portal Informacyjny, co skutkuje A_R = 0 oraz A2 = 0 (wskazano jedynie ogólnie art. 131¹a k.p.c. bez wymaganych paragrafów). W rubryce przyznano wyłącznie 1 punkt za podanie momentu doręczenia przez portal i reguły 14 dni (R[2] = 1). Nie naliczono kary K[0], ponieważ system sformułował odpowiedź ostrożnie („co do zasady”, „samo posiadanie konta... nie oznacza jeszcze”) i nie postawił tezy, że osobie fizycznej bez pełnomocnika nie można doręczać pism przez portal. Wszystkie przywołane przepisy zostały opisane bez fałszywych twierdzeń o ich treści (pominięcie nowego kręgu adresatów z art. 131¹ᵃ § 1 k.p.c. zgodnie z regułami nie obniża A6), stąd A6 = 1 i hallucinated = false. W bloku B przyznano B1 = 0 z uwagi na brak kluczowej dla prawnika informacji o oświadczeniu o wyborze doręczeń portalowych oraz B2 = 1 za kategoryczny ton wypowiedzi.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"art. 131\" \"131\" \"operatora pocztowego\" \"komornika\" OR OR",
+   "\"art. 133\" \"pełnomocnika procesowego\" OR OR",
+   "\"art. 131\" \"systemu teleinformatycznego\" kpc OR OR",
+   "\"2026\" \"468\" \"133\" \"pełnomocnika\" kpc",
+   "\"131\" \"portalu informacyjnym w sposób umożliwiający\" \"2026\" \"468\"",
+   "\"Oświadczenie o wyborze sposobu doręczeń, o którym mowa w\" \"portalu informacyjnego\"",
+   "\"DU/2026/468\" OR \"WDU20260000468\" OR OR",
+   "\"DU/2025/1172\" OR \"WDU20250001172\" OR OR",
+   "\"Przewodniczący zarządza odstąpienie od doręczenia pisma za pośrednictwem portalu informacyjnego\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9484,
+   "wyjscie": 1146
+  },
+  "czas_s": 243,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

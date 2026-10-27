@@ -1,0 +1,152 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c. (w tym zd. 2)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2 marca 2016 r., VIII Gz 43/16",
+   "zrodlo": "SAOS (orzeczenie 213643) / Portal Orzeczeń SO w Szczecinie",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 821 k.p.c. (ogólnie przy omówieniu VIII Gz 43/16)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 821 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 821 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 753, 753¹, 754 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c. (w tym pkt 2)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 109 ust. 2 ustawy o księgach wieczystych i hipotece",
+   "zrodlo": "Dz.U. 2026 poz. 1066 (t.j. u.k.w.h.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "uchwała SN z 24 września 2003 r., III CZP 58/03",
+   "zrodlo": "SAOS (orzeczenia powołujące III CZP 56/11 i I ACz 1663/18) / OSNC 2004/11/173",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "D. Zawistowski, Postępowanie zabezpieczające. Komentarz. Wybór orzeczeń (2007) — publikacja doktrynalna powołana w ślad za uzasadnieniem postanowienia SO w Szczecinie VIII Gz 43/16"
+ ],
+ "uzasadnienie": "Odpowiedź trafnie rozstrzyga rdzeń pytania (A_R=2, B2=1), prawidłowo rozdzielając funkcję nakazu zapłaty jako tytułu zabezpieczenia (art. 492 § 1 k.p.c.) od jego natychmiastowej wykonalności jako tytułu egzekucyjnego (art. 492 § 3 k.p.c.) i zaliczając wszystkie elementy rubryki. Kryterium A6 otrzymuje 0 pkt (hallucinated=true) z uwagi na błędy klasy W oraz T. Po pierwsze, system opisuje nieaktualne brzmienie art. 492 § 3 k.p.c. obejmujące „warrant i rewers” jako obowiązujące (klasa W oraz kara K[2]=1). Po drugie, we wnioskach praktycznych system przypisuje cudzą lub odwróconą treść konkretnym jednostkom redakcyjnym (klasa T): wskazuje art. 109 ust. 2 u.k.w.h. jako podstawę hipoteki przymusowej w postępowaniu zabezpieczającym (przepis ten dotyczy wyłącznie nieruchomości Skarbu Państwa, a właściwą podstawą jest art. 110 pkt 1 u.k.w.h.), a także twierdzi, że utrzymanie zajęć w mocy po zawieszeniu wynika z art. 821 § 1 k.p.c. oraz że sąd może uchylić dokonane zajęcia na podstawie art. 821 § 2 k.p.c. (podczas gdy § 2 wprost wyłącza zajęcia spod uchylenia: „z wyjątkiem zajęcia”). Błędy we wskazówkach praktycznych dotyczących podstawy wpisu hipoteki przymusowej oraz skutków zawieszenia egzekucji obniżają ocenę przydatności B1 do 1 pkt.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 20,
+  "zapytania": [
+   "\"art. 820\" \"art. 821\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"art. 743\" \"art. 747\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"art. 753\" \"art. 754\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"art. 109\" \"ustawy o księgach wieczystych i hipotece\" OR OR",
+   "\"VIII Gz 43/16\"",
+   "\"III CZP 58/03\" OR",
+   "\"Art. 109.\" \"Art. 110.\" \"o księgach wieczystych i hipotece\" OR OR",
+   "\"Art. 747.\" \"Art. 820.\" \"Art. 821.\" OR OR",
+   "\"VIII Gz 43/16\" \"nie pozbawia\" OR \"821\" OR \"Zawistowski\"",
+   "\"Art. 747.\" \"Zabezpieczenie roszczeń pieniężnych\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 821.\" \"Sąd może na wniosek zawiesić\" \"Kodeks postępowania cywilnego\"",
+   "\"213643\"",
+   "\"VIII Gz 43/16\" \"nie podlega wykonaniu w sposób porównywalny\"",
+   "\"VIII Gz 43/16\" \"753\" \"754\"",
+   "\"VIII Gz 43/16\" \"820\" \"821\"",
+   "\"Art. 753\" \"Art. 7531\" \"Art. 754\" \"Kodeks postępowania cywilnego\"",
+   "\"Wstrzymanie wykonania tytułu zabezpieczającego mogłoby odnieść skutek jedynie\"",
+   "\"VIII Gz 43/16\" \"Komentarz do art. 492\"",
+   "\"Jeżeli nieruchomość jest własnością Skarbu Państwa, hipoteka przymusowa\" \"109\"",
+   "\"art. 109 ust. 2\" \"hipoteka przymusowa\" \"zabezpieczenia\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEERzzYKtNn0ta51qv6pAWgwdemJBCnj2fACaNfIY6iwpBEkEFRe2v9kdgvsNi8WAiLastskHF5718sgVPVpNTTG__Gx9s8vaANJyD2JyOBEpJeOQsAdEHJsMzGPRZ-LtzH7ui2u9x_zWnM4cCe9E5bS0cIbF9gOC8j09FCJjQ_BnXb3CdkbVvnLGj77Ps-nF4_btuLGnR42g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgDz7SyqBWWCz1mRSPnkfpo0YWzOlORyYsww7rNEFi4kgKUX9rISRXI4BCl2xo1ohCPyoYbc2jFG6YhAsf_hrrMbgHOOMFA2PLfd4F9bFoKJtmjC40c2sxrvi-i8hora7fP9FYjj2FSWoAY4mCL1Phbc9nAes6FT_SEtxdl2plOtWydMqygjahhpbmHtHO2OHqyrxx_h3tzeE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp2-O7srCcYuzBnAZlRvi5lIpCzqIjINr5vOBSIA0VBqyZ7dpvLfZYMxNrjGJXIHbL7ekofKnFCBYBfc5Scp4fiSSpJHYJ6o4w-udZkP7ZoTK2Hz-8d_cFzdwOkC2NGReHxyq24zLGacXINyXfwffZtWyt01m7cEK2yYg3eufSEIZrs04HMCMZueVt9Au9SCacAlUZgO6KiK_sMXrVAcEatw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Eb1DMz6NIV2Cfr7jQRag3mktFsrWYNb66ED3nRhDX5kkHwONoQ623LGUyd1hBfb4Lgj3YymF85bUmoYmfHkDvtWWJNv8gGES2Kt13ho7Aur5YZ3DMqIuhBSeIMWKpHW3T6dEyBvk0CRZ540Ts2v3d9bQZaDgLEn79nMsLXNyH20s9yDUgJB8KPoHNfXXCNS6",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs2q8O3GyafFM54QQq2wfjn3Ci4Kewt2Ulnb83o6dBFZonujq4R90wbyp99co2TuDyM8WyHa5EI5rzE7dezkqFVfQFO2zN9O3T6HJpZ3u590D4W7fiELsRkM8v1t0eBJIa-9_SihvAsuRZh4i1ANM8NfTqvA4i0OT-xBvD44cl4SoG-cgljSiDxBd6SAvLauphoEBzWHlbE4iKLVdPy9G3lDsXjo1xGBSo8jrqjIUVNS6KrjyJiDYyfW8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9QL56p89oIbmXGWZ62kr2pz9-OpD1x9GEv7xCK7KkH0IQWr96xB2zplwe2pgdt1Sed2-X24bi0_mF2b86wy1jQorMNXeVLidNzNda7BTz2ij7my1EUGMwSIDYqNaW-cNU1r9UeWTcj9D6ZkyekqhvQS0ZJ8SMK8U_1pwP_xAxGN4CddcSib9ydYe9XHPMyqAuz9RRogNl0gb7TA_IwXL1",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw1brN0JKFQHlYRN81xWvw2hAZcArK85Vwf1INypWqozN0Zpp0BmMhzBJKgSB7RiUjmB6kR5Sdzn6KM8jAqaD7Yk3HweQyG6W-e5vo2ZgDPQGCdt5Mu7mQSYv3VsEaVlQW5yGFgLC9ffGR3lGpxR212VBVPFU="
+  ],
+  "tokeny": {
+   "wejscie": 12744,
+   "wyjscie": 2429
+  },
+  "czas_s": 296,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

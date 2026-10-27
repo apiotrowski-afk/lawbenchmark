@@ -1,0 +1,127 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_zakres": "poboczne",
+ "A6_pochodzenie": "nieustalone",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T",
+   "A6_pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 79 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2025 poz. 108",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest w pełni trafny (A-R=2). Wymagane podstawy prawne zostały powołane (A2=1). Odpowiedź zawiera dygresję w postaci obszernej sekcji o innych kwestiach do uregulowania w umowie, co obniża ramy (A8=0.5). System przypisał art. 41 ust. 4 pr. aut. treść dotyczącą zakazu zbywania wszystkich przyszłych utworów, która w rzeczywistości znajduje się w art. 41 ust. 3, co stanowi halucynację typu T (A6=0, zakres poboczne). Kalibracja i przydatność są na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Art. 41\" \"Nieważna jest umowa w części dotyczącej wszystkich utworów\" prawo autorskie",
+   "\"Art. 41 ust. 4\" prawo autorskie",
+   "\"Art. 79\" prawo autorskie",
+   "\"Art. 2\" prawo autorskie"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgogbVWC9F4vcyLaOHUWcWkdVhieX-mdewW2rIE72gmYVpxnfEINyXqhfWyaUsO1z-e6P3cQUL1PwcjoYW-1XtTQYB3rkqVpkpqixF0KjADEWskxl0hm-tPotmExaMMqMvzlgYMINDiotrnXceX6lqQbXV7cuGAPNbSyvgEw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY7al2biEvKrn_n-Ah4natdot8CTLscEphLihFgFaqL4ZqUVgu4GcZ_Fwh_Zvn3McObXmduDotw022ifZM4jeqBXRTW3xdfslPkPjzcp8nfy4mecvzRy5mFBYHmL4ORafKzzLA-yH2gMgG9nDp-uLMiThVOvL4A_CA2UbOuS02Cj0hmaC2g1M=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9isrwgrTdwwj4DVF_ZaK4Hdq5nV6SjEpr1yySWLAbG8Wg1GF7s0WhcMrVr1fBUxJcP6bXCQj0Um1orXFOtJwX_QD6RpvZKXXufJl5_2Rw5wHkANm_pP4jYK_FhxCkAGAgViHXJYBax7kNICcgBmGMuFMVMQf5F9GqYtZLJB202qWao3RI6ia1GFI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG79SlCvBDAVLMGrWbYnup-FEtNnDaAt2JF-rlr197csHL66IFrfnWkRYcTT5ZRSbim_VF8yyroERS-fO6TIbDuKn3XYshRJ2Fp4yUt0uE2wTEpGHTdPx8vYs1TxkYK3vCzfVLXPdmuz2aEyvw8-j6J5bkQGhZ2LeKXOPA_ELJ6gTahlA3WXXvzFF3pvt6GljuiQWC1g2meTzn-6M4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU1d3AOveIKH6IgCfJkHzUxp8aV0z3RiKJjUdSyW5TC4ffvh4-E060mF0qYxml7OCTRxBUS1f0ovUgXLII4LMmgqwXY0Ni3mC1FxZqiYSKtC4x1sXYzCZTO4YvWwcHeHX-ypFymoI9PmLjgrOUURWlFgD9r8qDzzK3aK1E69r7PqdGvcm381a-SojoqYHrvAKYwO_eHGbfsTPes8Rc7lZFHEhodA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWWC6YbLr0WVI3btINt7pQfHIt7o-0CTWKIKqI8EvTMlugGET-6gXOdGCAsIfxJEAWLeoMoQKkWrVCivN1oT83bX0hcHFm7_Vm7_fuTzfbNFaa6ro9NBGanSPGwcVlt-1mAaKNG7KXkVo3YZmZfzS7l9KXggc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMmHq-xN52s161XdU_Iuwe46uB8TTHpBIcFBzYttusryCHPJ1FA85bD2bcFd89L_qCwV45w-ofVkIlpPV0N1HhTeKpbmS-6Ocqm9DzqAZp3RwISqlYW8E9WmH1w3-G68q117EWXDB2q1dPz6xPDGULQ3NqyAVlvtazGg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGivPMlDQgOryfmMLtc2yBYBKbKg-NFLF1QMpAB8Fu_bygyAEBwEYhEeExjMn9u2Y55sbkLjhBS91Fhnp7pLhXl0letYJqCvVr0yakp50nKCM8NnGfqs0haWRLIdTr6q4tSuzG"
+  ],
+  "tokeny": {
+   "wejscie": 15346,
+   "wyjscie": 1102
+  },
+  "czas_s": 156,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

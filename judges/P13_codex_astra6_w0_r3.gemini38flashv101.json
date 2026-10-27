@@ -1,0 +1,74 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i jednoznacznie rozróżnia funkcję nakazu jako tytułu egzekucyjnego od jego funkcji jako tytułu zabezpieczenia, prawidłowo odpowiadając przecząco na pytanie. Wszystkie wymagane i powołane przepisy k.p.c. są w pełni zgodne ze stanem prawnym. Spośród kryteriów rubryki zabrakło jedynie zaznaczenia skutku wstrzymania w postaci zawieszenia egzekucji z art. 820 § 2 k.p.c. Odpowiedź cechuje się bardzo dobrą przydatnością praktyczną oraz prawidłową, kategoryczną kalibracją.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 492\" kpc tekst ujednolicony",
+   "\"art. 731\" kpc siplex lex"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10138,
+   "wyjscie": 521
+  },
+  "czas_s": 18,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

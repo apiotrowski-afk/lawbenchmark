@@ -1,0 +1,67 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie wyjaśnia relację między motywami a wnioskiem o uzasadnienie, podając pełny rdzeń w pierwszym zdaniu. Prawidłowo powołano wszystkie wymagane podstawy prawne z art. 357 k.p.c. Do kompletu punktów z rubryki zabrakło jedynie wzmianki o opłacie sądowej od wniosku lub ustawowych wyjątkach (np. art. 357 § 6 k.p.c.). Wszystkie przywołane przepisy są zgodne z tekstem jednolitym ustawy, brak halucynacji i naruszeń ram wypowiedzi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" kpc",
+   "\"art. 357 § 1\" \"art. 357 § 2(1)\" kpc",
+   "\"art. 357 § 5\" kpc treść"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1whVdirG63Lz32cvZXefjWuQDzmdvax8z1XTkMYLugSWjuPhlLB0KJlRcRFN5U7USp4lItma-0uIHWJhqDRe3w9uRb7ilabsQ1fKBaW-vtSHWiR9lhg-QGXD7YWDTFnmPIndMNw1eQzaxKSHrl3mVUghWI7LnXG2c54ya2YIIZ1Myn4l-jb7Ub-cHTotZuzGcKngMjGkax1ZxaQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv3cmhVR0vuYTOqIG-evUDFqVdAtBwTNIL2DZXVH2IJgBGAu6ItQlFdb0-W7fEvDeP8fS8eN2lxgP_Bt-1c0ewF9yTf9aW6D2ZRbs2-AepK_c5TSLWGcMVxWbmjxRengR6VrMqMexZpIBEuymursgTLMN8C7sWQAApy6IhDEovlSHbxyUkDF-8X_HzybEbTFpnQBuTr3HTZK-Uecol07dDhsvg3aZIYecZa0OMPc7DSdQsoJNkGMsTVUCAIH4Bsx5e7o-OmbTHMiQDK7VUNZsNhXqSFMTgf4Sdo2-_TiU_iWI7NxDiotS44Jn5pY6T"
+  ],
+  "tokeny": {
+   "wejscie": 8930,
+   "wyjscie": 461
+  },
+  "czas_s": 20,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

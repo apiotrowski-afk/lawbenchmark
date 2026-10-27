@@ -1,0 +1,146 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "A6_zakres": "rdzeń",
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 55¹ pr.aut.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 556 k.c. w zw. z art. 750 k.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "ogólne powołanie doktryny i orzecznictwa jako uzasadnienia konieczności enumeratywnego wyliczenia pól",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=26",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text/T/D20260795L.pdf#page=13",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut. (oba powołania)",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=25",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=25",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=7",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr.aut. — zezwolenie na rozpowszechnianie wizerunku",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=31",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 55¹ pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=26",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 556 k.c. w zw. z art. 750 k.c. jako podstawa odpowiedzialności zleceniobiorcy za wady prawne",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text/T/D20260795L.pdf#page=57 ; https://eli.gov.pl/api/acts/DU/2026/795/text/T/D20260795L.pdf#page=79",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 1 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf#page=2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 734 k.c. i następne — stosowanie przepisów o zleceniu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text/T/D20260795L.pdf#page=78",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ogólne powołanie doktryny i orzecznictwa — konieczność wyliczenia pól i możliwość obrony wyłącznie licencją dorozumianą",
+   "zrodlo": "https://www.sn.pl/orzecznictwo/Biuletyn_SN/Biuletyn_SN_12_2005.pdf#page=8",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaleca wskazanie pól i formę pisemną, ale nie uwzględnia możliwości ustalenia zakresu przeniesienia przez wykładnię umowy, dlatego A-R = 1 i B2 = 0. Nieistniejący art. 55¹ pr.aut. daje F, a art. 750 k.c. nie odsyła do rękojmi przy sprzedaży z art. 556 k.c. Ogólne przypisanie orzecznictwu bezwzględnej konieczności wyliczenia pól, połączone z twierdzeniem o obronie wyłącznie licencją dorozumianą, przeczy tezie SN III CK 124/05 dopuszczającej wykładnię i stanowi T w rdzeniu. Pominięcie art. 12 oraz liberalnej linii SN oznacza utratę dwóch elementów rubryki; brak cytatów przepisów w cudzysłowie oznacza A3 = nd. Dygresje o wynagrodzeniu, wizerunku i wadach prawnych obniżają A8 do 0.5, a błędne ograniczenie sposobu obrony zleceniodawcy ogranicza B1 do 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 16,
+  "czas_s": 89,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

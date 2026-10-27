@@ -1,0 +1,132 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 77 ust. 1 pkt 1 u.k.s.c.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców, Dz.U. 2017 poz. 2278",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2a ust. 4 ustawy o kształtowaniu ustroju rolnego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/941/text/T/D20260941L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 § 1 i § 2 pkt 2 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a § 1 w zw. z art. 127 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a § 2 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 101 § 3 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 156 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 583 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 521 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 77 ust. 1 pkt 1 ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "A-R = 1, ponieważ odpowiedź preferuje potwierdzenie ostateczności, przedstawiając prawomocność jako ewentualną, mimo poprawnego omówienia obu przymiotów i zaświadczenia obejmującego prawomocność. R4 = 0: zabrakło wskazania początku terminu od doręczenia oraz możliwości skargi bez wniosku o ponowne rozpatrzenie. Art. 77 ust. 1 pkt 1 u.k.s.c. dotyczy poświadczonego odpisu, wypisu lub wyciągu, natomiast odpis orzeczenia ze stwierdzeniem prawomocności wymienia pkt 2, co daje T i A6 = 0. B1 = 1 ze względu na praktycznie mylące sumowanie terminów jako „14 dni + 30 dni”. Nie naliczono K3, ponieważ odpowiedź wyraźnie dopuszcza prawomocność decyzji, a wariant sądowy jest dozwolony przez klucz.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 72,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

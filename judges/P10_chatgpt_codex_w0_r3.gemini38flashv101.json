@@ -1,0 +1,98 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo i wprost zaprzecza błędnej przesłance pytającego w pierwszym zdaniu, powołując wymóg wyraźnego wymienienia pól eksploatacji z art. 41 ust. 2 pr.aut. oraz formę pisemną z art. 53 pr.aut. Wskazano trafne przykłady pól eksploatacji dla social mediów (art. 50) i wspomniano o wykładni z art. 65 k.c. W rubryce nie przyznano punktu za element 5, ponieważ odpowiedź nie odwołała się do linii orzeczniczej SN ani reguły in favorem auctoris. Wszystkie powołania przepisów są w pełni zgodne ze stanem prawnym, a kalibracja jest adekwatna do warunkowego charakteru pytania.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 41 ust. 2\" prawo autorskie sejm isap",
+   "\"art. 53\" prawo autorskie sejm isap",
+   "\"art. 41 ust. 4\" prawo autorskie sejm isap",
+   "\"art. 46\" prawo autorskie sejm isap"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11806,
+   "wyjscie": 749
+  },
+  "czas_s": 46,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

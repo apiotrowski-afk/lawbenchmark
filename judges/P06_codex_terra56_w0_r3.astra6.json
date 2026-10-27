@@ -1,0 +1,53 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 pkt 12 k.p.c. („odrzucenie zażalenia”)",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=74",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c. — odesłanie dotyczące terminu zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=75",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wskazuje właściwy środek dla odrzucenia zażalenia poziomego, lecz pomija rozróżnienie od zażalenia dewolutywnego, co uzasadnia A_R = 1, karę za jednoznaczne „tak” oraz B2 = 0. Art. 394² § 1 nie zawiera punktu 12, więc powołana jednostka nie istnieje (F); zwrot „odrzucenie zażalenia” występuje w art. 394¹ᵃ § 1 pkt 12, a błędu przypisania nie naliczono ponownie w A3. Brakuje obu wymaganych podstaw oraz uwagi dotyczącej art. 130² k.p.c. Tygodniowy termin wynika z art. 394 § 2 stosowanego odpowiednio przez art. 394² § 2. Praktyczne wskazówki są częściowo użyteczne, ale bez ustalenia rodzaju odrzuconego zażalenia mogą prowadzić do wniesienia niedopuszczalnego środka.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 46,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "odczyt_źródła"
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1, art. 120 § 1, art. 122 § 1 i art. 124 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Rozporządzenie RM z 11.09.2025 r., Dz.U. 2025 poz. 1242",
+   "zrodlo": "Dz.U. 2025 poz. 1242",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie twierdzi, że próg wykroczenia zależy od płacy minimalnej i wynosi 1201,50 zł, co skutkuje brakiem punktów za rdzeń, rubrykę oraz nałożeniem obu kar. System powołuje właściwe przepisy Kodeksu wykroczeń (art. 119 § 1 i in.), ale przypisuje im fałszywą treść (odwołanie do 1/4 minimalnego wynagrodzenia), co stanowi halucynację typu T (A6 = 0). Błąd ten dotyczy sedna pytania, więc A6_zakres to rdzeń. B1 wynosi 0 z powodu rażącego błędu co do obowiązującego prawa, grożącego błędną kwalifikacją czynu.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 734\" \"119\"",
+   "\"Dz.U. 2025 poz. 734\" \"120\"",
+   "\"Dz.U. 2025 poz. 1242\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13572,
+   "wyjscie": 567
+  },
+  "czas_s": 98,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

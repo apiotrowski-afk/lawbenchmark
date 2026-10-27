@@ -1,0 +1,221 @@
+# Cennik API do metryki kosztu benchmarku LexAlpha (decyzja A. Piotrowskiego 2026-10-18).
+# Wyłącznie oficjalne strony cenników dostawców, odczyt 2026-10-18 (curl, surowy HTML -> tekst).
+# Jednostka: USD za 1 mln tokenów (MTok), chyba że pole mówi inaczej. null = brak ceny w oficjalnym
+# źródle (powód w polu *_powod). Kopie odczytanych stron: scratchpad sesji (nie w repo).
+meta:
+  data_odczytu: '2026-10-18'
+  waluta: USD
+  jednostka: za 1 mln tokenów
+  tryb: standard (bez batch/flex/fast/priority) — tak działały biegi r3
+
+zrodla:
+  openai_pricing:
+    url: https://developers.openai.com/api/docs/pricing
+    uwaga: platform.openai.com/docs/pricing przekierowuje tutaj; openai.com/api/pricing/ zwrócił 403
+    data_odczytu: '2026-10-18'
+  anthropic_pricing:
+    url: https://platform.claude.com/docs/en/about-claude/pricing
+    uwaga: docs.anthropic.com/en/docs/about-claude/pricing przekierowuje tutaj; zgodność z https://claude.com/pricing sprawdzona
+    data_odczytu: '2026-10-18'
+  anthropic_thinking:
+    url: https://platform.claude.com/docs/en/build-with-claude/extended-thinking
+    data_odczytu: '2026-10-18'
+  vertex_pricing:
+    url: https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing
+    uwaga: cloud.google.com/vertex-ai/generative-ai/pricing przekierowuje tutaj (Vertex AI = Gemini Enterprise Agent Platform)
+    data_odczytu: '2026-10-18'
+  vertex_url_context:
+    url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/url-context
+    data_odczytu: '2026-10-18'
+  vertex_grounding_doc:
+    url: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/grounding/grounding-with-google-search
+    data_odczytu: '2026-10-18'
+
+modele:
+  # ---------------- OpenAI (Codex CLI, subskrypcja ChatGPT -> równoważnik API) ----------------
+  gpt-6.1-sol:
+    dostawca: openai
+    zrodlo: openai_pricing
+    wejscie: 2.00
+    wejscie_cache_odczyt: 0.10
+    zapis_cache: 2.50
+    zapis_cache_uwaga: 'tooltip „Cache writes”: „Input tokens are either Input, Cached Input, or Cache Write and writes are not an additive fee.”'
+    wyjscie: 10.00
+    rozumowanie: jak_wyjscie
+    rozumowanie_cytat: '„Output prices include visible output tokens and reasoning tokens, even though reasoning tokens are not visible via the API.”'
+    dlugi_kontekst:
+      prog_tokenow_wejscia: 272000
+      prog_cytat: 'Short context „≤272K input tokens”, Long context „>272K input tokens”'
+      wejscie: 4.00
+      wejscie_cache_odczyt: 0.20
+      zapis_cache: 5.00
+      wyjscie: 15.00
+    cytat: '| gpt-6.1-sol | $2.00 | $0.10 | $2.50 | $10.00 | $4.00 | $0.20 | $5.00 | $15.00 (Standard: Short context Input/Cached input/Cache writes/Output | Long context …)'
+  gpt-6-astra:
+    dostawca: openai
+    zrodlo: openai_pricing
+    wejscie: 10.00
+    wejscie_cache_odczyt: 1.00
+    zapis_cache: 12.50
+    wyjscie: 50.00
+    rozumowanie: jak_wyjscie
+    dlugi_kontekst:
+      prog_tokenow_wejscia: 272000
+      wejscie: 20.00
+      wejscie_cache_odczyt: 2.00
+      zapis_cache: 25.00
+      wyjscie: 75.00
+    cytat: '| gpt-6-astra | $10.00 | $1.00 | $12.50 | $50.00 | $20.00 | $2.00 | $25.00 | $75.00'
+  gpt-5.6-terra:
+    dostawca: openai
+    zrodlo: openai_pricing
+    wejscie: 2.00
+    wejscie_cache_odczyt: 0.20
+    zapis_cache: 2.50
+    wyjscie: 12.00
+    rozumowanie: jak_wyjscie
+    dlugi_kontekst:
+      prog_tokenow_wejscia: null
+      wejscie: null
+      wejscie_cache_odczyt: null
+      zapis_cache: null
+      wyjscie: null
+      powod: 'tabela „All models” (Standard) podaje dla gpt-5.6-terra tylko 4 kolumny (Input, Cached input, Cache writes, Output) — brak cen długiego kontekstu; w biegach r3 bez znaczenia (maks. łącznie 190 894 tokenów wejścia w odpowiedzi)'
+    cytat: 'Standard, All models: [„gpt-5.6-terra”, 2, 0.2, 2.5, 12] (Input, Cached input, Cache writes, Output)'
+
+  # ---------------- Anthropic (Claude Code CLI, subskrypcja -> równoważnik API) ----------------
+  claude-opus-5-5:
+    dostawca: anthropic
+    zrodlo: anthropic_pricing
+    wejscie: 4.00
+    wejscie_cache_odczyt: 0.20
+    zapis_cache_5m: 5.00
+    zapis_cache_1h: 8.00
+    wyjscie: 20.00
+    rozumowanie: jak_wyjscie
+    rozumowanie_cytat: 'extended-thinking: pole usage.output_tokens_details.thinking_tokens „reports how many of the billed output tokens were internal reasoning”'
+    dlugi_kontekst:
+      prog_tokenow_wejscia: null
+      powod: '„Claude 4.6 and later models (except Claude Haiku 5.5) … include the full 1M token context window at standard pricing.” — brak progu'
+    cytat: 'Claude Opus 5.5 | $4 / MTok | $20 / MTok | $5 / MTok | $8 / MTok | $0.20 / MTok (Input | Output | 5m writes | 1h writes | Hits and refreshes)'
+  claude-sonnet-5-5:
+    dostawca: anthropic
+    zrodlo: anthropic_pricing
+    wejscie: 2.00
+    wejscie_cache_odczyt: 0.10
+    zapis_cache_5m: 2.50
+    zapis_cache_1h: 4.00
+    wyjscie: 10.00
+    rozumowanie: jak_wyjscie
+    dlugi_kontekst:
+      prog_tokenow_wejscia: null
+      powod: 'jak Opus 5.5 — pełne 1M w cenie standardowej'
+    cytat: 'Claude Sonnet 5.5 | $2 / MTok | $10 / MTok | $2.50 / MTok | $4 / MTok | $0.10 / MTok'
+  claude-haiku-5-5:
+    dostawca: anthropic
+    zrodlo: anthropic_pricing
+    wejscie: 0.10
+    wejscie_cache_odczyt: 0.01
+    zapis_cache_5m: 0.125
+    zapis_cache_1h: 0.20
+    wyjscie: 0.50
+    rozumowanie: jak_wyjscie
+    dlugi_kontekst:
+      prog_tokenow_wejscia: 100000
+      prog_cytat: '„a request whose prompt is over 100,000 tokens pays higher prices. A request''s prompt length counts all of its input tokens, including cache reads and cache writes.”'
+      wejscie: 0.50
+      wejscie_cache_odczyt: 0.05
+      zapis_cache_5m: 0.625
+      zapis_cache_1h: 1.00
+      wyjscie: 2.50
+    cytat: 'Claude Haiku 5.5 | $0.10 / MTok for prompts up to 100,000 tokens | $0.50 | $0.125 | $0.20 | $0.01 ; $0.50 / MTok for prompts over 100,000 tokens | $2.50 | $0.625 | $1 | $0.05'
+
+  # ---------------- Google (Vertex AI, region global — jak w biegach r3; koszt faktyczny) ----------------
+  gemini-3.8-flash:
+    dostawca: google
+    zrodlo: vertex_pricing
+    region: global
+    wejscie: 0.75
+    wejscie_cache_odczyt: 0.075
+    zapis_cache: null
+    zapis_cache_powod: 'cennik Vertex nie podaje osobnej ceny zapisu do cache dla Gemini 3.8 Flash (tylko „cached input”); w biegach r3 cache nie występuje'
+    wyjscie: 3.75
+    rozumowanie: jak_wyjscie
+    rozumowanie_cytat: 'wiersz „Text output (response and reasoning)”'
+    cena_promocyjna_do: '2026-12-31'
+    cena_od_2027-01-01: {wejscie: 1.50, wejscie_cache_odczyt: 0.15, wyjscie: 7.50}
+    region_inny_niz_global: {wejscie: 0.825, wejscie_cache_odczyt: 0.0825, wyjscie: 4.125}
+    dlugi_kontekst:
+      prog_tokenow_wejscia: 200000
+      prog_cytat: '„If a query input context is longer than 200K tokens, all tokens (input and output) are charged at long context rates.”'
+      wejscie: 0.75
+      wejscie_cache_odczyt: 0.075
+      wyjscie: 3.75
+    cytat: '„Gemini 3.8 Flash* through December 31, 2026 | Input (text, image, video, audio) | Global | $0.75 | $0.75 | $0.075 | $0.075 | Text output (response and reasoning) | Global | $3.75 | $3.75”'
+  gemini-4-argon:
+    dostawca: google
+    zrodlo: vertex_pricing
+    region: global
+    wejscie: 2.00
+    wejscie_cache_odczyt: 0.10
+    zapis_cache: null
+    zapis_cache_powod: 'cennik nie podaje osobnej ceny zapisu do cache dla Gemini 4 Argon'
+    wyjscie: 10.00
+    rozumowanie: jak_wyjscie
+    cena_promocyjna_do: '2026-11-30'
+    cena_promocyjna_mechanizm: '„* Promotional pricing provided through 50% credits back on net spend on select models within a given period.” — faktura w cenie katalogowej, 50 % wraca jako kredyt'
+    cena_katalogowa: {wejscie: 4.00, wejscie_cache_odczyt: 0.20, wyjscie: 20.00, cytat: 'Gemini 4 Argon (Starting December 1, 2026) | Global | $4 | $0.2 ; Text output | Global | $20'}
+    region_inny_niz_global: {wejscie: 2.20, wejscie_cache_odczyt: 0.11, wyjscie: 11.00}
+    dlugi_kontekst:
+      prog_tokenow_wejscia: null
+      wejscie: null
+      wyjscie: null
+      powod: 'tabela „Gemini 4” ma jedną kolumnę ceny (bez podziału ≤/>200K); ogólny przypis o 200K stoi pod tabelą Gemini 4, ale bez stawek długiego kontekstu dla Argon; w biegach r3 bez znaczenia (maks. 505 tokenów wejścia)'
+    cytat: '„Gemini 4 Argon* through November 30, 2026 | Input (text, image, video, audio) | Global | $2 | $0.1 … Text output (response and reasoning) | Global | $10”'
+  gemini-3.1-pro-preview:
+    rola: sędzia (tylko cennik; koszt sędziów nie jest liczony w koszt.py)
+    dostawca: google
+    zrodlo: vertex_pricing
+    region: global
+    wejscie: 2.00
+    wejscie_cache_odczyt: 0.20
+    zapis_cache: null
+    zapis_cache_powod: 'cennik nie podaje osobnej ceny zapisu do cache'
+    wyjscie: 12.00
+    rozumowanie: jak_wyjscie
+    region_inny_niz_global: null
+    region_inny_niz_global_powod: 'cennik podaje dla Gemini 3.1 Pro Preview wyłącznie wiersze „Global”'
+    dlugi_kontekst:
+      prog_tokenow_wejscia: 200000
+      wejscie: 4.00
+      wejscie_cache_odczyt: 0.40
+      wyjscie: 18.00
+    cytat: '„Gemini 3.1 Pro Preview | Input (text, image, video, audio) | Global | $2.00 | $4.00 | $0.20 | $0.40 | Text output (response and reasoning) | Global | $12.00 | $18.00”'
+
+narzedzia:
+  openai_web_search:
+    zrodlo: openai_pricing
+    cena_za_wywolanie: 0.010
+    cytat: '„Web search | Web search (all models) | $10.00 / 1k calls + Search content tokens billed at model rates.”'
+    uwaga: 'tokeny treści wyszukiwania są w input_tokens raportowanych przez Codex; opłata liczona od liczby wywołań (liczba_wyszukan z metadanych)'
+  anthropic_web_search:
+    zrodlo: anthropic_pricing
+    cena_za_wywolanie: 0.010
+    cytat: '„Web search is available on the Claude API for $10 per 1,000 searches, plus standard token costs for search-generated content.” „Each web search counts as one use, regardless of the number of results returned. If an error occurs during web search, the web search will not be billed.”'
+  anthropic_web_fetch:
+    zrodlo: anthropic_pricing
+    cena_za_wywolanie: 0.0
+    cytat: '„Web fetch usage has no additional charges beyond standard token costs” / „The web fetch tool is available on the Claude API at no additional cost.”'
+    uwaga: 'WebFetch w Claude Code to narzędzie klienta (streszczenie strony pomocniczym Haiku), nie serwerowy web_fetch API — koszt Haiku wchodzi w koszt_usd_rownowaznik'
+  vertex_google_search_grounding:
+    zrodlo: vertex_pricing
+    dotyczy: Gemini 3 i Gemini 4
+    cena_za_zapytanie: 0.014
+    darmowy_limit_miesiecznie: 5000
+    cytat: '„Includes 5,000 Grounding Queries per month at no charge, aggregated across all Gemini 3 and Gemini 4 models. Grounding Queries exceeding those limits are billed at $14 per 1,000 Grounding Queries.” „Input tokens provided by Grounding with Google Search … are not charged.” „** … billed only when a Grounding Prompt successfully returns sources”'
+    uwaga: 'opłata za każde zapytanie wysłane do Search (dokumentacja: „Billing changes with Gemini 3 … billing occurs for each search query that is generated by Gemini”); liczba zapytań = pole zapytania (web_search_queries)'
+  vertex_url_context:
+    zrodlo: vertex_url_context
+    cena_za_wywolanie: 0.0
+    cytat: '„The input token count includes content retrieved from the URLs … Price per token depends on the model that you use.” (w usage_metadata: tool_use_prompt_token_count)'
+    uwaga: 'brak osobnej opłaty; płaci się tokeny treści stron jak wejście. Cennik Vertex nie ma pozycji URL context. Skrypt eval_gemini_vertex.py NIE zapisuje tool_use_prompt_token_count — koszt tych tokenów w r3 nieznany'

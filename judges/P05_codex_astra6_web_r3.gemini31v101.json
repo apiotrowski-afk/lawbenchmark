@@ -1,0 +1,85 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa nowelizująca z 5 sierpnia 2025 r., Dz.U. poz. 1172",
+   "zrodlo": "Dz.U. 2025 poz. 1172",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Informacja Ministerstwa Sprawiedliwości (link do gov.pl)"
+ ],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna i trafnie identyfikuje stan prawny po nowelizacji z 1 czerwca 2026 r. Rdzeń odpowiedzi znajduje się w pierwszym akapicie. System prawidłowo powołuje wszystkie wymagane przepisy k.p.c. (art. 131¹ᵃ § 1, § 1¹ i § 2) oraz trafnie opisuje ich treść, w tym zasady wyboru doręczeń, moment doręczenia i możliwość rezygnacji. Odpowiedź realizuje wszystkie elementy rubryki i nie zawiera halucynacji. Kalibracja pewności jest adekwatna do kategorycznego stanu prawnego.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 131\" \"1a\" \"k.p.c.\" OR",
+   "\"art. 133\" \"k.p.c.\" OR",
+   "\"Oświadczenie o rezygnacji strona może złożyć również na piśmie\" \"k.p.c.\"",
+   "\"art. 131\" \"1a\" \"11\" \"k.p.c.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUrBhsbqtVSmZh--wgC0AvoZ904V3bnlUtWocIwuVZyGI-rHr1ovhOGdttnEXqSnda9FYYbrReY9hxccLeSddAuj8o4RT-uh9n0kVyBvL9UBKEbpbGrwUyWYjfjD98YYWJLpvJvL5_YGigy0GnhXzSe-JzYqM7MWYOwjC7OiKpusXuiLYEVUlLpI_ya6LxfQCnnuCHDhW5m0OgoO_3fzZP2guO7a5EhlexoWITpFsbifTUBJz1cudGaEvFztsiDU1kbhML3VU-SCnj",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGytFcAs_jtsyxdkpdbM8l9L2RJVq8X_hS-NfYnuPhirp3s0ZdxKdhJL30UdrHupRC3S4Im4u-869bu8iAR4CJx91ZOq_KoK1o_GLEk7Su0HWMT5ynvnVCj2TXATPm09IeF5Wt0GKeQVX7g8L7bzSKEXbwV1t5euHfT6qwKoObxSr90FqYFnwYQTXv5mI38vRq0ivyCvNySKEPuwNR269pnXqFfdk-y",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX1jRPof_sp3jS1Ny2IFGlGbxrf9DIp0X1n5cytyf28o5ZtxBY0OitpK9-CFkvhAJUO0caTHn9IXJ0rd2xn4otNbfDgErI7QGPwKxyON25mSQyj5KR0PKZdrhupZiCpIKpLKLg6LL-wEksqT0XSq-wsIusGgx14IyK2BKkdlWSAuhGTXm59T3lTDjrYxu1MJpicYNbNVRl_d58htr_6g1tfNtdxLcQkobDBL3x8kZdvxfCSiorVf7vlOjeif6gsNTtJ0hQVsMklTsV",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMS1LphgWxxrE-k5G_DuuJL1VgM3xux2zk8ZAqnQQ82yFpm00h-mgq-lY3-7pc3u6BlMkydDwFGfPK8EvSYwelJ-3VJAv7TB59vmVGwHYwVHrfOtZtAM6P4xsHb6tNdkoEH4KPzJEN2Er-SWAONo5hOBSVNWiVv2Q5hZFbxr9xwyIUEd3Rqp4D5-Wrm1F8DFdK1_f90KZtHgnhnzteQxy59gIVEFwY9KZo",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp9Q_NpMSWdK4l0LJ20MEeAFuwmjkz_YC9dVgcIVQhSOtu_23O3qLBmvg1GJfpkyQl5SLsDI0pt_VA5tMMUGFcV9GNrLF_P1Bh0P_h8r6KXx31RApTvPuZNDMZS-jWb_JI4QBwJSCc82npsL4fxc3iXcMnHNFhVSnPQ8NDy-35kx4Ldg=="
+  ],
+  "tokeny": {
+   "wejscie": 11395,
+   "wyjscie": 572
+  },
+  "czas_s": 138,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

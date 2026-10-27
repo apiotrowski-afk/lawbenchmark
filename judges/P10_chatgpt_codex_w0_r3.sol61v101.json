@@ -1,0 +1,85 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie przedstawiono odpowiedzi tego samego systemu na P09; brak podstaw do naliczenia kary za sprzeczność."
+ ],
+ "uzasadnienie": "Odpowiedź od początku zaprzecza przesłance, wskazuje wymagane podstawy, przykłady pól oraz formę pisemną pod rygorem nieważności. Uwzględnia możliwość wykładni umowy z art. 65 k.c., co uzasadnia pełny rdzeń i B2 = 1. Nie zaliczono ostatniego elementu rubryki, ponieważ brak wskazania liberalnej linii SN i reguły in favorem auctoris. Wszystkie powołane przepisy sprawdzono w oficjalnych tekstach i nie stwierdzono niezgodności; brak cytatów przepisów w rozumieniu klucza. Uwagi dodatkowe służą określeniu zakresu i skuteczności przeniesienia praw.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 38,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

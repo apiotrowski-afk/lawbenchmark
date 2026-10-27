@@ -1,0 +1,66 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ᵃ § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozstrzyga gałąź dotyczącą zażalenia dewolutywnego oraz dopytuje o rozwidlenie (czy SA orzekał jako sąd II instancji, czy we własnej sprawie). Nie podaje jednak kluczowej podstawy z art. 394² § 1² zd. 2 k.p.c. ani nie wskazuje wprost, że na odrzucenie zażalenia poziomego przysługuje zażalenie do innego składu SA, przez co A-R wynosi 1, a A2 wynosi 0. Naliczono karę za zasugerowanie możliwości zażalenia do Sądu Najwyższego (art. 394¹ k.p.c. nie obejmuje takiego postanowienia). Przytoczone przepisy istnieją i ich treść nie została sfałszowana (brak F/T), stąd A6 wynosi 1. Kalibracja B2 jest prawidłowa z uwagi na zrealizowanie strategii dopytania z nazwaniem rozwidlenia.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 394(2) § 1(2)\" kpc sejm",
+   "\"394(2)\" kpc \"Na postanowienie przysługuje zażalenie do innego składu\"",
+   "\"394(1) § 2\" kpc",
+   "\"art. 394(1a)\" \"pkt 12\" kpc",
+   "\"394(1a) § 1 pkt 12\" kpc"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9392,
+   "wyjscie": 513
+  },
+  "czas_s": 134,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

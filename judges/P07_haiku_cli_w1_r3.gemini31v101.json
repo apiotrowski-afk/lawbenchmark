@@ -1,0 +1,103 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń oceniono na 1, ponieważ system trafnie odpowiada „tak”, ale pomija kluczowy warunek zaskarżalności postanowienia. Brak powołania wymaganych podstaw (art. 357 § 1 lub § 2¹) skutkuje A2 = 0. W odpowiedzi występuje halucynacja (A6 = 0, typ T): system przypisuje art. 130¹ § 2 k.p.c. treść dotyczącą wniosku o uzasadnienie, podczas gdy przepis ten dotyczy braku opłaty od pisma podlegającego odrzuceniu. Obszerne omawianie przepisów o wyroku (art. 328 k.p.c.) stanowi dygresję, co obniża A8 do 0,5. Z powodu wyraźnej asekuracji i braku pewności co do stanu prawnego, B2 wynosi 0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"Art. 328.\" \"Kodeks postępowania cywilnego\" OR",
+   "\"Art. 357.\" \"Kodeks postępowania cywilnego\" OR",
+   "\"Art. 130(1).\" \"Kodeks postępowania cywilnego\" OR",
+   "\"Art. 369.\" \"Kodeks postępowania cywilnego\" OR",
+   "\"Art. 357.\" \"§ 5.\" \"Kodeks postępowania cywilnego\" OR",
+   "\"Art. 357.\" \"§ 5.\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 394.\" \"§ 2.\" \"Kodeks postępowania cywilnego\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh_HMI0PQL8AvbfEAvFqZPvNUIJuv0jvLYkXOJXMVlxAx-NM2hAgoKrMu6wLnVSL0lzoAS-aZbfLPMK_8g5Qe6MvSWfSajc2zESR3DFT9nS49sBMA18lsvoyOX05oOqC01BUEKiEbC2ZNFF3yFDjfpSNt__CFMR6xWlDCoadC2rF8CjGz_tm4Ctc0or7yBWHZItzQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxnUoAR6855b_jy6E-AxhZklMkdrkIaZP29rDwVBKlCd4nHN11rEdCWpOKQezI7adubC7GISB4jFjxLHioXDWaJc3PQaa7cyVKmq4hmE2yd5X5BFi2amn85sc90Ic0yTAYR0IZm5WQ1BYV31VZwqUI9vu2k1g=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFI_eqXrhVdHFzYgCfwsyCrwWAazS7l-jIlaUMp-7xjPJ_NCXb5TcFarueUj9lJBA3cg-fclCwWXyYa7aiLxKx0Pni_SxISdRP7Rhy8T_4ft777TfjhY9DwBVrIZU-Wkloxpd6XJI_ze3v9n1z6EsoIbqwKwUM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAWvjZoftfI3wB0_zSWTrlH9yng8AvBTE4jYS3boV5z6hdkKRRI7aC-_JHXg45AiEE3yDYYmm6t_wk8T7uk9hUl1wDiiCjLKIacTUn6enyayfUanagk2BTKOhhGy78XpGdFxj3I9piZHAuti2YIxZ_nH0ikn8WgA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ_45zVoiKR7R68cqhIP18gc0Q9TfsWQ4UIImfSo6tw_q3SKocHtY2n-LofaW2HNcvc-CQj8oAn7wA0BI1fiIUNr8Pde_Enp9LorLEKFZMuo_W8g-UHkoOTCBQErJ3Dr450Lpw1Z99xeqaP8Z2teG1-01XTkU="
+  ],
+  "tokeny": {
+   "wejscie": 11091,
+   "wyjscie": 900
+  },
+  "czas_s": 130,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

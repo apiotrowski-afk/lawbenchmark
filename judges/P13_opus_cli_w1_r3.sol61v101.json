@@ -1,0 +1,134 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c. — warranty i rewersy",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf ; https://eli.gov.pl/api/acts/DU/2019/1469/text.html",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SO w Szczecinie, postanowienie z 2 marca 2016 r., VIII Gz 43/16 — teza, cytaty i szczególne tytuły zabezpieczenia",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 821 k.p.c. — zachowanie zajęcia podczas zawieszenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 821 § 1 k.p.c. — pozostawanie zajęć w mocy",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 821 § 2 k.p.c. — możliwość uchylenia zajęć po zabezpieczeniu obowiązku",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 753 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 753¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 754 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 743 § 1 w związku z art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c., w tym pkt 2",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 109 ust. 2 ustawy o księgach wieczystych i hipotece",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/341/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "SN, uchwała z 24 września 2003 r., III CZP 58/03",
+   "zrodlo": "https://www.sn.pl/orzecznictwo/Biuletyn_SN/Biuletyn_SN_09_2003.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "D. Zawistowski, Postępowanie zabezpieczające. Komentarz. Wybór orzeczeń, 2007",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643 — potwierdzone przytoczenie komentarza przez sąd; bez dostępu do samej publikacji",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "Orzeczenie SN — odsyłacz SAOS 96058 w wykazie źródeł",
+   "zrodlo": "https://www.saos.org.pl/judgments/96058 — błąd pobrania",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Treść komentarza D. Zawistowskiego bezpośrednio w publikacji; zgodne przytoczenie potwierdzono w uzasadnieniu VIII Gz 43/16.",
+  "Zawartość strony SAOS 96058 wskazanej wyłącznie w wykazie źródeł — serwer zwracał błąd."
+ ],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, obie wymagane podstawy i wszystkie elementy rubryki; pominięcie wniosku dłużnika przy zawieszeniu egzekucji nie obniża A6. Opis art. 492 § 3 obejmuje usunięte warranty i rewersy, co daje W oraz trzecią karę. Art. 821 § 1 nie reguluje zachowania zajęć, § 2 wyłącza ich uchylenie, a art. 109 ust. 2 u.k.w.h. dotyczy nieruchomości Skarbu Państwa, więc występują błędy T. Dygresja o zaskarżaniu postanowienia obniża A8, a błędna wskazówka o uchylaniu zajęć ogranicza B1 do 1. Konkluzja pozostaje kategoryczna; pochodzenie poszczególnych błędów jest nieustalone bez śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 22,
+  "czas_s": 142,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. 2022 poz. 2509 — tekst jednolity pr.aut.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2022/2509/ogl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Jednolite stanowisko SN i doktryny wymagające zindywidualizowania i nazwania pól eksploatacji",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iv%20cskp%2044-21.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 65 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 pkt 3 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 pr.aut. — forma pisemna pod rygorem nieważności",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 78¹ k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text/T/D20251071L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaleca wskazanie pól i zachowanie formy pisemnej, ale kategoryczna nieskuteczność bez uwzględnienia wykładni umowy uzasadnia A_R=1 i B2=0. Przypisane SN jednolite wymaganie nazwania pól przeczy IV CSKP 44/21, dopuszczającemu ich dookreślenie przez wykładnię, co stanowi T w rdzeniu odpowiedzi. Cytat art. 41 ust. 2 jest niedosłowny zarówno wobec aktualnego, jak i wskazanego dawnego tekstu; przy niezmienionej normie obniża wyłącznie A3. Brakuje omówienia niestosowania art. 12 przy zleceniu oraz liberalnej linii SN. B1 obniża praktycznie mylące zapewnienie, że niezachowanie formy przeniesienia automatycznie daje licencję.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 79,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

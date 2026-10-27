@@ -1,0 +1,76 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468, art. 357 § 5",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 1 i § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468, art. 357 § 1, § 2¹",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468, art. 394 § 2",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 361 i art. 327¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468, art. 361, art. 327¹",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 386 § 4 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468, art. 386 § 4, art. 397 § 3",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prezentuje całkowicie błędny rdzeń (A_R=0), twierdząc, że zasadnicze powody rozstrzygnięcia stanowią uzasadnienie i czynią wniosek o uzasadnienie niedopuszczalnym. Stanowi to jaskrawe zaprzeczenie brzmienia art. 357 § 5 zd. 2 k.p.c. (dodane w 2023 r., podczas gdy system powołuje się na brzmienie z 2019 r.) oraz art. 357 § 1 i § 2¹ k.p.c. i art. 394 § 2 k.p.c., co skutkuje oceną A6=0 (T, W) oraz naliczeniem kary z klucza. Żaden z elementów rubryki nie został zrealizowany, a podstawa prawna z racji zniekształcenia została oceniona na 0. Przydatność B1 wynosi 0 ze względu na niebezpieczną poradę procesową grożącą utratą możliwości zaskarżenia postanowienia. A8 obniżono do 0.5 za dygresyjny fragment o konstruowaniu zarzutów w zażaleniu.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" kpc sejm gov pl",
+   "\"art. 357 § 5\" kpc \"odróżniający je od uzasadnienia\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9335,
+   "wyjscie": 750
+  },
+  "czas_s": 59,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

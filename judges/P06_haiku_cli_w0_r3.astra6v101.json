@@ -1,0 +1,96 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 394 § 3 k.p.c. — wyłączenie zażalenia na postanowienia sądu drugiej instancji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394 § 1 i 2 k.p.c. — wyjątki od wskazanego wyłączenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 130 k.p.c. — zwrot nieopłaconego pisma zarządzeniem przewodniczącego",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 362 w związku z art. 130 k.p.c. — sprzeciw do sądu w terminie 7 dni",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 130 § 1 k.p.c. — wezwanie do uiszczenia opłaty",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa o kosztach sądowych w sprawach cywilnych — ogólne określenie opłaty za zażalenie jako stałej",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 168–169 k.p.c. — przywrócenie terminu i tydzień od ustania przeszkody",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 102 ustawy o kosztach sądowych w sprawach cywilnych — zwolnienie od kosztów",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 79 Konstytucji RP — skarga konstytucyjna",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/1997/483/text/U/D19970483Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 45 Konstytucji RP — prawo do sądu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/1997/483/text/U/D19970483Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 6 EKPC",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19930610284/O/D19930284.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Art. 6 EKPC: odnaleziono oficjalny dokument ISAP, ale narzędzie nie udostępniło czytelnego tekstu ani obrazu pozwalającego porównać treść przepisu."
+ ],
+ "uzasadnienie": "A_R = 1, ponieważ konkluzja trafia w gałąź dewolutywną, lecz odpowiedź nie rozróżnia rodzajów zażalenia i pomija obie wymagane podstawy. Art. 394 § 3 określa wymagania zażalenia, § 1 katalog zaskarżalnych rozstrzygnięć pierwszej instancji, a § 2 termin; art. 362 nie ustanawia sprzeciwu. Ogólne przypisanie zażaleniu opłaty stałej jest błędne wobec art. 19 ust. 3 pkt 2 u.k.s.c., przewidującego zasadniczo piątą część opłaty. Dygresje o zarządzeniu i skardze konstytucyjnej obniżają A8, a wskazanie nieistniejącego trybu sprzeciwu ogranicza przydatność do B1 = 1. Pochodzenie błędnych powołań jest nieustalone, ponieważ nie przedstawiono śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 106,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A6_pochodzenie": [
+  "pamięć"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F",
+   "A6_pochodzenie": "pamięć"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN III CZP 117/10",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 231 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Łodzi VII Pz 122/15",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SA w Krakowie I ACz 313/15",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN III CZP 106/18",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest częściowo trafny (brak klauzuli bez ograniczeń, wymóg zgody z art. 787 k.p.c.), ale pomija kluczowy dla pytania tryb z art. 787¹ k.p.c. (A-R=1, A2=0). System halucynuje nieistniejącą jednostkę redakcyjną „art. 787 § 1 k.p.c.”, wskazując ją jako miejsce regulacji (A6=0, typ F). Odpowiedź jest przydatna, ale niepełna z powodu braku ścieżki dla przedsiębiorstwa (B1=1). Kalibracja jest prawidłowa, ponieważ system uzależnia konkluzję od warunku zgody (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"III CZP 117/10\"",
+   "\"III CZP 106/18\"",
+   "\"VII Pz 122/15\"",
+   "\"I ACz 313/15\"",
+   "\"III CZP 117/10\" data orzeczenia",
+   "\"III CZP 106/18\" data orzeczenia",
+   "\"art. 787\" \"k.p.c.\" \"§\"",
+   "\"art. 787 k.p.c.\" lex",
+   "\"I ACz 313/15\" \"przedsiębiorstwa\"",
+   "\"I ACz 313/15\" \"787\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGJzh8pj3vwVFx-7O3st4GHGHrjAEQZK-KCNuAkfs1qwCD2YfsRpZ7BhdIiNGoYrSERmb0C844arRqQfnHOctzkZr4DjS6aBZIHN1g21XvxNNiA2GJdVf4cgANTbFw8l03JhfN1fzmtXOZtl08SyeumApCaw3ohscvUR2TLtOUERyV",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFne1LdcR58W_b8nPb97XJcmRBJhk1H2JeAZeWqg36xL1D4PYUWLbZ--csc-U6UDDCQXNdRdOpK-Mp4ycGLgSPwvNr86Hj3BrVsjbZ-Q8zaofFeI6Bk9-Kb90600szvCAm7SYod752ZJ7sK9T-dzHkh71E2Z-4kLanDlE61BeiEsgWs6aQUj-4lukc-nK5Bx0AkQkg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFI6luRVwtJ7kRLH5Snuf5C03Rb9afjZSGA5qHlqMZZT_2zxECKxsMwqRGaP-6pggq_Pkj_jMl9ja249Ug-0MUAfHjmHvT3Z1yygr73PXWoIxv2U73cYtLqivCmwNdsWktHyb3WUeYLZaaYVoIGT2OIF0qFJk3-3puuvhB3DpOfoROw1Km8JPNM2ekWtUnrlB6ydlcMOR5H8m6V870K4f9wJ9jD59U37JRwVlzCDXPZMxBX13xGjpk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu1lV_OWRPcwHieWDzDPPSEuVEbVdcSVUvi9sF6jklboNXLECDb9mh0zoMDf8afBeDajwvL4CAXZN5v7J24YdZNf53osOIPUCFdLJE00o9CKNu6O_VnSa-pYikQu1cAyxsZ2sVFJlF6uuCr_bBEJvglW9I7LYBp94FTFkIDj3I_WXCXxhBG4MTthU1V43CczAI8I6znW97yMK9CNQTxdxTR8RDR9NLW-3fb90jMEmrBSgrWze-fFvnHw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAlwEKiEjLV0111dunrUDRa3Xai4BtQMzadx0OmSwhNhQaHhLo7xqC7MwRFvF5mn5q0DhzkAwPJHqNmGJKkve5H9IjOZ12riziYxu4OrzHZcn-t-ZH9C7sVlFzQ77UMCUDw390pKSgIBH4UwSOfTRAdov3WL-pIG1F_HNGRoDBRlNyiVLRK8r603XOyjgCmpl_LLX38sFvAAv11xkr9St2rzumglezap0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFjaZeHJ0AqHyLqBVGRIaSwxCDEooHEpLNlpKtSS3tntJrW4Cbu5QKiukGE1Wc3mEtMXbOic0WeePyPAJxLh9FozFf-hq2hAM-DVOCXmmvQTaVkV8ARe6x8JXW_2ZsBBB_LGFI3NK7yHVt5txgBA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSf5VMCKMcZ2GlveKNaxTSSeBGsxDkW0XYdyJ69WRS_gg-eN_iS6BMP1vz4b8Zir4we61FB9Anlz_Rs1uCu7j7l6DcunetwWfJpy4ZUNtQWI5cA_vRaUfmJRJqLv2fYrPoObkbSaUVMejL84TNM2blgf493wZdwtTlF1NqI7_Md_fZIXcy22VrHmuNGcPlBfO1n9bvNRk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj3nxmkx1QwPHz6pCyYW-bG7b04st_D4g_LtsXiUMyg4c8kXe1FqkfMrkY-OYvNrl3fLFiqXO8y1wVnv6r9yIB1H8Em_DKKsk1xc3jYlZzdBEoU6pcXK6xUfPdqT6izGUkOrmF5Manc3Gbzl8u64VQp5Czfd379viwqzHSHcpachfR9137sxwaynXLhD3b3Sp6KofpKV0knTtMCY6y",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF2mUZl570WTe9zUiLOAMfoZO8xTPA5lZ6WBxI-hLXIraSLia58iSH-UN2B73hFqVddPm2fVVwjVpVOKdq49jOCmo2ox0nxZq3Ki8X0L5ua758OcObpAyn3Ic7n0zSfCDhHSvI5fheSH8aNsMEDgz7LD7kAlPO13QQEBMM1HFL1l0r_Jjsozaj5JSxisB8Dqh8gclbMqKXbhKg9g=="
+  ],
+  "tokeny": {
+   "wejscie": 12888,
+   "wyjscie": 917
+  },
+  "czas_s": 275,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

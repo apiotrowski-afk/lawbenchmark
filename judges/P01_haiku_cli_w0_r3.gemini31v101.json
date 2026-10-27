@@ -1,0 +1,80 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120, 122 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 278 KK",
+   "zrodlo": "Dz.U. 2026 poz. 1342",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie wskazuje, że próg wykroczenia zależy od minimalnego wynagrodzenia i wynosi 1201,50 zł, co skutkuje A_R = 0 oraz naliczeniem obu kar. System powołuje art. 119 § 1 k.w., ale przypisuje mu nieaktualne brzmienie (W), a art. 120 i 122 k.w. błędnie opisuje jako odsyłające do tej granicy (T), co daje A6 = 0. Błędna kwota progu stanowi krytyczny błąd praktyczny, obniżając B1 do 0. Odpowiedź jest kategoryczna, co przy oczekiwanej kalibracji kategorycznej daje B2 = 1.",
+ "A6_pochodzenie": "nieustalone",
+ "A6_zakres": "rdzeń",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"jeżeli jej wartość nie przekracza 1/4 minimalnego wynagrodzenia\" \"art. 119\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"kodeks wykroczeń\" \"art. 119\"",
+   "\"art. 120\" \"kodeks wykroczeń\"",
+   "\"art. 122\" \"kodeks wykroczeń\"",
+   "\"1/4 najniższego wynagrodzenia\" \"art. 119\" \"kodeks wykroczeń\"",
+   "\"najniższego wynagrodzenia\" \"art. 119\" \"kodeks wykroczeń\"",
+   "\"Dz.U. 2024 poz. 17\"",
+   "\"kodeks karny\" \"isap\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsUsd-K7pmuoHP_XGwYynGq2Mb2AjBbxJ1uo2XdeQYYYyRSb3XKfV9GMqs3gtPgvq1FmwQyZHJcN6Aqhy_c4qTR9wnYQJuiyZoU2P2rCjoDxWLbTxWIRu-YAIuE7ldnJAdaPrJETkLsIpgLvXNQb6hRoeMBaI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRHGqDuaKvWVRUndUlLdb5FIkrg7_HmB-EgCgTTI4-nWy4y_ftwNKOuAoAJ8UpP-uO566qaVZ77FWEeGWbDwuGlDpG79iXBBEQWBCaunKA2xx6iIEI28Jg6Gv05JTlimvM2CvG",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErY51y7pqEj6X22KgKWpGc_5t_qk1WPU6SRXDN2x9JtTt3DjQZnk8gHXIIF-CFacFonOq8BNFRuI7skwya7HhMRQ3MadW28ncQdCe20HcN2BiOrqTVo2RH7J6CYTKGZaACcwHx5MiYrgROJDOQl3rkRxlWaNaD1uoEiiA9RBpXN-8aSyRKjUX4G7wIEaK6bBOsxkVt4m4kUM2jn3_Yremt6IR73xYjJySqM4i_XLA="
+  ],
+  "tokeny": {
+   "wejscie": 13596,
+   "wyjscie": 565
+  },
+  "czas_s": 201,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

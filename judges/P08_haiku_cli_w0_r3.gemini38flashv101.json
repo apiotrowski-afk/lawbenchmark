@@ -1,0 +1,98 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689 / 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 w zw. z art. 113 rozporządzenia (UE) 2024/1689 (data 2 sierpnia 2026 r.)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23–24 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2026 poz. 1205",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 190a k.k.",
+   "zrodlo": "Dz.U. 2026 poz. 1800",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo identyfikuje pułapkę pytania i trafnie wskazuje, że brak cech deepfake nie zwalnia z obowiązków przejrzystości na gruncie AI Act. Prawidłowo powołano i zinterpretowano wszystkie wymagane przepisy (art. 3 pkt 60 oraz art. 50 ust. 2 i 4 AI Act) wraz z rozróżnieniem adresatów obowiązków (dostawca a podmiot wdrażający). Odpowiedź uwzględnia datę stosowania art. 50 (2 sierpnia 2026 r.), a jedynym brakiem w rubryce jest brak odwołania do wytycznych KE C(2026) 5054. Wszystkie przytoczone podstawy prawne są zgodne ze źródłami urzędowymi, co skutkuje brakiem halucynacji i pełną przydatnością praktyczną.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"2024/1689\" \"art. 3\" \"60\" deepfake EUR-Lex",
+   "\"2024/1689\" \"art. 50\" ust. 2 ust. 4 EUR-Lex"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13701,
+   "wyjscie": 1118
+  },
+  "czas_s": 25,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

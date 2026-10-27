@@ -1,0 +1,60 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Wszystkie powołane jednostki i przypisane im treści sprawdzono w oficjalnym tekście skonsolidowanym EUR-Lex. Odpowiedź przedstawia pełny rdzeń: rozstrzyga obiektywna możliwość uznania treści za autentyczną, a obowiązek dostawcy istnieje niezależnie od kwalifikacji jako deepfake. Poprawnie rozdziela adresatów obowiązków i podaje datę stosowania art. 50; nie odwołuje się jednak do wytycznych KE ani kodeksu praktyk, dlatego R6 wynosi 0. Proponowane sformułowanie w cudzysłowie jest własną parafrazą, a nie cytatem przypisanym przepisowi, więc A3 jest nieadekwatne. Nie stwierdzono halucynacji, podstaw do kar ani dygresji.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 38,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

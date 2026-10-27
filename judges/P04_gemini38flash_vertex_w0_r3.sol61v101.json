@@ -1,0 +1,85 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1 i 2 k.p.a. — twierdzenie, że uzyskanie ostateczności jest momentem wejścia zezwolenia do obrotu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 1 p.p.s.a. — termin 30 dni od doręczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 k.p.a. — zaświadczenie potwierdzające stan decyzji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ogólne powołanie przepisów KPA jako ustanawiających wystarczające warunki dokonania czynności notarialnej",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "A-R = 1, ponieważ odpowiedź preferuje ostateczność, dopuszczając również potwierdzenie prawomocności, lecz utrwala określenie „klauzula”. A2 = 0 z powodu niewskazania wymaganej jednostki art. 217 § 2 pkt 2 k.p.a.; R4 = 0 także za brak możliwości wniesienia skargi bez ponownego rozpatrzenia. Art. 130 § 1–2 reguluje wstrzymanie wykonania, a nie moment wejścia decyzji do obrotu; KPA nie ustanawia też przypisanej mu reguły wystarczalności dla czynności notarialnej, co uzasadnia T i A6 = 0. Cytat art. 16 § 3 jest dosłowny, a żadna kara z klucza nie zachodzi. Błędna uwaga notarialna obniża A8, natomiast rekomendacja oczekiwania „kolejnych 30 dni” oraz niepoprawna forma potwierdzenia ograniczają praktyczną przydatność do B1 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 61,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

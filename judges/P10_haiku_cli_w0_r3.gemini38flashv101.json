@@ -1,0 +1,84 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 PrAut",
+   "zrodlo": "art. 41 ust. 2 i 4 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ust. 1 PrAut",
+   "zrodlo": "art. 53 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 65 PrAut",
+   "zrodlo": "art. 65 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 PrAut",
+   "zrodlo": "art. 16 ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 734 KC",
+   "zrodlo": "art. 734 k.c. (Dz.U. 2026 poz. 468)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 627 i nast. KC",
+   "zrodlo": "art. 627 k.c. (Dz.U. 2026 poz. 468)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaprzecza fałszywej przesłance w pierwszym zdaniu oraz zaleca wyliczenie pól eksploatacji adekwatnych dla social mediów. Wymagana podstawa z art. 41 ust. 2 pr.aut. nie została wskazana precyzyjnie (powołano jedynie cały art. 41). Wystąpiły dwie istotne halucynacje dyskwalifikujące powołania: art. 53 pr.aut. nie posiada ustępów (błąd F za nieistniejący ust. 1), z kolei art. 65 pr.aut. statuuje domniemanie licencji, a nie zasadę wykładni na korzyść twórcy (pomylenie z art. 65 k.c. i klasa T). Pomimo trafnych praktycznych wskazówek biznesowych skutkuje to oceną A6=0.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 53\" \"prawie autorskim\" \"ustęp\" sejm",
+   "\"art. 65\" \"ustawy o prawie autorskim i prawach pokrewnych\" treść isap"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11955,
+   "wyjscie": 707
+  },
+  "czas_s": 37,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

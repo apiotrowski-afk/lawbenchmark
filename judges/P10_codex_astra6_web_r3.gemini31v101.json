@@ -1,0 +1,87 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo zaprzecza przesłance w pierwszym akapicie i wskazuje na konieczność wyraźnego wymienienia pól eksploatacji. Trafnie powołuje wymagane przepisy prawa autorskiego oraz wyrok SN I CSK 596/17 dotyczący wykładni oświadczeń woli z art. 65 k.c. Wszystkie powołania są w pełni zgodne ze źródłami oficjalnymi. Kalibracja warunkowa została zachowana, a porada jest wysoce przydatna i zawiera trafne przykłady dla social mediów.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"I CSK 596/17\"",
+   "\"I CSK 596/17\" \"5 października 2018\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLsdTg_YbcI2nJdA8NGw97BniQp9iyJvyPyGqMzpitzogEwfiG61KALBgN_jBaP5sANpnVku3lulXD86_B374tRmkOlfvQcWSSmYx0jbiVhfBPVKBGMxVTC1l3Bla6kmU7Fg1a_tbvxW2e4qU59mxxVhtGbKB7EHqKjFNs0jgOicKNm8pdv7vqrpYTI04lHVQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcL4jWFnUPcVMoWzedPVdOVTE9Uhv_wzSHpBEZqqcTS4vS1usV3I23IkYssJlfQ2WmuD-qCh5JI2BdlWWflH_oUKPJVhjsCdFYQv3bLfUImoo9OmrSfs7hqpFpY6Kwnbd_tx88j-j2m7kJWigBwUWnFXgWan77vdpjMK2ypr6xMVqD3HVUMSO7AfqgavkutwRqM1MYZolv2AjqQg8A0P4ofbZ9CDOFd68BiFXCThZKAISf",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESIuBhSpoTPjzx_zgyD-ZI72NsA9dFC8hCHr77mIugrIGhOUSYTGnL1p59IbnSHN9EtRvYbLxPxHItxO4SKzA5j5UBmM7PgiQVHh474ESqsauWXLTbcXXb8HZgx0fTt3-isOf-MuZ-qhhKCfPEENSGYelZAmdB4NrrqNOlMH05jTJXmQb9axvfYye0XGBNeg9kR1P92SP2SZZ2aQbiBZXNUBkvhEI3PH6FuvaQDQ2SLg5gogAAor3LcR8Blw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRdGQNVxT5_bOAF9KzN23TeyGJa5pta_YN1HzmUwfsZQyQ-xv2ZIEIH5I-i2FNF3nhENbdWFXw5u8cySKqHy9_u49xAj8xRbZWieGpVq6vIMOqTr1BKgM39ylFiW8pTxi5jkEYy8Y=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH97eHtGsxF1XimNjVRmjKSk_Buc5ic3sTfsgXWXEopolw5jCl6YuociWM-0npxJAcS3iYNbXMdcKPzwvyZAtvzzYQJlu46sQmA7WqEpImR0jiqGQVJ2fD74oTZlHmGE1tnU8PI1pQ="
+  ],
+  "tokeny": {
+   "wejscie": 13725,
+   "wyjscie": 531
+  },
+  "czas_s": 88,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

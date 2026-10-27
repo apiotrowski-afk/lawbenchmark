@@ -1,0 +1,775 @@
+{
+ "meta": {
+  "pytanie": "P07",
+  "system": "sonnet_cli_w1_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P07/sonnet_cli_w1_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:42:24",
+  "czas_s": 2.0,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 11,
+  "orzeczenia": 1,
+  "publikatory": 0,
+  "daty": 0,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 11,
+   "slowa_wersji_wczesniejszej": 1
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 357 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 357 k.p.c.",
+   "kontekst": "Nie zweryfikowałem jednak pełnego, aktualnego brzmienia art. 357 k.p.c. Poniższe wnioski opierają się na wynikach wyszukiwania i mojej wiedzy, więc przed złożeniem pisma sprawdź tekst jednolity.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 357 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając postanowienie, należy pouczyć stronę występującą w sprawie bez adwokata, radcy prawnego, rzecznika patentowego lub radcy P…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia i doręcza z urzędu, jeżeli podlegają zaskarżeniu i wydane zostały w sprawie, w której bierze udział jednostka gospodarki uspołecznionej albo prokurator. W innych sprawach sąd uzasadnia i doręcza postanowienia ogłoszone na posiedzeniu jawnym również tylko wtedy, gdy podlegają zaskarżeniu, lecz tylko tej stronie, która w terminie tygodniowym zażądała doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.24,
+    "slowa_wersji_wczesniejszej": [
+     "jedno"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 357 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "Art. 357 k.p.c.",
+   "kontekst": "Art. 357 k.p.c. dotyczy uzasadnienia postanowień, a nie wyroków.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 357 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając postanowienie, należy pouczyć stronę występującą w sprawie bez adwokata, radcy prawnego, rzecznika patentowego lub radcy P…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia i doręcza z urzędu, jeżeli podlegają zaskarżeniu i wydane zostały w sprawie, w której bierze udział jednostka gospodarki uspołecznionej albo prokurator. W innych sprawach sąd uzasadnia i doręcza postanowienia ogłoszone na posiedzeniu jawnym również tylko wtedy, gdy podlegają zaskarżeniu, lecz tylko tej stronie, która w terminie tygodniowym zażądała doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.75
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 326 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 326–328 k.p.c.",
+   "kontekst": "Dla wyroków obowiązuje reżim art. 326–328 k.p.c.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 326 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 326. § 1. Ogłoszenie wyroku powinno nastąpić na posiedzeniu, na którym zamknięto rozprawę. Postanowieniem wydanym niezwłocznie po zamknięciu rozprawy sąd może odroczyć ogłoszenie wyroku na oznaczony termin przypadający niepóźniej niż dwa tygodnie po dniu zamknięcia rozprawy. Jeżeli sprawa jest szczególnie zawiła, materiał sprawy jest szczególnie obszerny lub sąd jest znacznie obciążony czynnościami w innych sprawach, termin ten wyjątkowo może wynosić miesiąc po dniu zamknięcia rozprawy. § 2. Ogłoszenie wyroku następuje na posiedzeniu jawnym i może go dokonać sam przewodniczący lub sędzia sprawozdawca. Nieobecność stron nie wstrzymuje ogłoszenia wyroku. § 3. Ogłoszenia wyroku dokonuje s…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 326. § 1. Ogłoszenie wyroku powinno nastąpić na posiedzeniu, na którym zamknięto rozprawę. Jednakże w sprawie zawiłej sąd może odroczyć ogłoszenie wyroku tylko jeden raz na czas do dwóch tygodni. W postanowieniu o odroczeniu sąd powinien wyznaczyć termin ogłoszenia wyroku i ogłosić go niezwłocznie po zamknięciu rozprawy. § 2. Ogłoszenie wyroku następuje na posiedzeniu jawnym. Nieobecność stron nie wstrzymuje ogłoszenia. Jeżeli ogłoszenie było odroczone, może go dokonać sam przewodniczący lub sędzia sprawozdawca. § 3. Ogłoszenia wyroku dokonuje się przez odczytanie sentencji. Po ogłoszeniu sentencji przewodniczący lub sędzia sprawozdawca podaje ustnie zasadnicze powody rozstrzygnięcia,…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 326. § 1. Ogłoszenie wyroku powinno nastąpić na posiedzeniu, na którym zamknięto rozprawę. Jednakże w sprawie zawiłej sąd może odroczyć ogłoszenie wyroku na czas do dwóch tygodni. W postanowieniu o odroczeniu sąd powinien wyznaczyć termin ogłoszenia wyroku i ogłosić go niezwłocznie po zamknięciu rozprawy. § 2. Ogłoszenie wyroku następuje na posiedzeniu jawnym. Nieobecność stron nie wstrzymuje ogłoszenia. Jeżeli ogłoszenie było odroczone, może go dokonać sam przewodniczący. § 3. Ogłoszenia wyroku dokonuje się przez odczytanie sentencji. Po ogłoszeniu sentencji przewodniczący podaje ustnie zasadnicze powody rozstrzygnięcia, może jednak tego zaniechać, jeżeli sprawa była rozpoznawana przy…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.33
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 327 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "zakres",
+   "grupa": 3,
+   "napis_grupy": "art. 326–328 k.p.c.",
+   "kontekst": "Dla wyroków obowiązuje reżim art. 326–328 k.p.c.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 327 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 327. § 1. Stronę niezastępowaną przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, obecną przy ogłoszeniu wyroku, przewodniczący pouczy o sposobie i terminie zgłoszenia wniosku o doręczenie wyroku z uzasadnieniem oraz warunkach, sposobie i terminie wniesienia środka zaskarżenia. § 2. Sąd z urzędu doręcza wyrok stronie niezastępowanej przez adwokata, radcę prawnego lub rzecznika patentowego, która na skutek pozbawienia wolności była nieobecna przy ogłoszeniu wyroku. § 3. Sąd z urzędu doręcza stronom wyrok wydany na posiedzeniu niejawnym. § 4. Stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokura…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 327. § 1. Stronie działającej bez adwokata, radcy prawnego, rzecznika patentowego lub radcy Prokuratorii Generalnej Skarbu Państwa, obecnej przy ogłoszeniu wyroku, przewodniczący udzieli wskazówek co do sposobu i terminów wniesienia środka zaskarżenia. Jeżeli zastępstwo stron przez adwokatów lub radców prawnych jest obowiązkowe, należy pouczyć stronę o treści przepisów o obowiązkowym zastępstwie oraz o skutkach niezastosowania się do tych przepisów. § 2. Stronie działającej bez adwokata, radcy prawnego lub rzecznika patentowego, która na skutek pozbawienia wolności była nieobecna przy ogłoszeniu wyroku, sąd z urzędu w ciągu tygodnia od dnia ogłoszenia wyroku doręcza odpis jego sentencj…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 327. Stronie działającej bez adwokata, obecnej przy ogłoszeniu wyroku, przewodniczący udzieli wskazówek co co sposobu i terminów wniesienia środka zaskarżenia."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.67
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 328 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "zakres",
+   "grupa": 3,
+   "napis_grupy": "art. 326–328 k.p.c.",
+   "kontekst": "Dla wyroków obowiązuje reżim art. 326–328 k.p.c.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 328 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 328. § 1. Pisemne uzasadnienie wyroku sporządza się na wniosek strony o doręczenie wyroku z uzasadnieniem zgłoszony w terminie tygodnia od dnia ogłoszenia wyroku. § 2. W przypadkach gdy wyrok doręcza się z urzędu, termin, o którym mowa w § 1, liczy się od dnia doręczenia wyroku. § 3. We wniosku należy wskazać, czy pisemne uzasadnienie ma dotyczyć całości wyroku czy jego części, w szczególności poszczególnych objętych nim rozstrzygnięć. § 4. Sąd odrzuca wniosek niedopuszczalny, spóźniony, nieopłacony lub dotknięty brakami, których nie usunięto mimo wezwania."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 328. § 1. Uzasadnienie wyroku sporządza się na żądanie strony, zgłoszone w terminie tygodniowym od dnia ogłoszenia sentencji wyroku, a w wypadku, o którym mowa w art. 327 § 2 - od dnia doręczenia sentencji wyroku. Żądanie spóźnione sąd odrzuci na posiedzeniu niejawnym. Sąd sporządza uzasadnienie wyroku również wówczas, gdy wyrok został zaskarżony w ustawowym terminie oraz gdy wniesiono skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia. § 2. Uzasadnienie wyroku powinno zawierać wskazanie podstawy faktycznej rozstrzygnięcia, a mianowicie: ustalenie faktów, które sąd uznał za udowodnione, dowodów, na których się oparł, i przyczyn, dla których innym dowodom odmówił wiaryg…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 328. § 1. Uzasadnienie wyroku sporządza się z urzędu tylko w sprawach, w których jedną ze stron jest jednostka gospodarki uspołecznionej lub w których brał udział prokurator. Poza tym uzasadnienie wyroku sporządza się na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia sentencji wyroku. Żądanie spóźnione sąd odrzuca na posiedzeniu niejawnym. W innych sprawach sąd sporządza uzasadnienie wyroku tylko wówczas, gdy strona zaskarżyła wyrok w ustawowym terminie. § 2. Uzasadnienie wyroku powinno zawierać wskazanie podstawy faktycznej rozstrzygnięcia, a mianowicie: ustalenie faktów, które sąd uznał za udowodnione, dowodów, na których się oparł, i przyczyn, dla których innym d…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.33
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 357 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 357 k.p.c. w zw. z art. 328 § 1 k.p.c.",
+   "kontekst": "Wynika on z art. 357 k.p.c. w zw. z art. 328 § 1 k.p.c. Samo ustne lub pisemne wskazanie zasadniczych powodów nie zwalnia z tego obowiązku.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 357 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając postanowienie, należy pouczyć stronę występującą w sprawie bez adwokata, radcy prawnego, rzecznika patentowego lub radcy P…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia i doręcza z urzędu, jeżeli podlegają zaskarżeniu i wydane zostały w sprawie, w której bierze udział jednostka gospodarki uspołecznionej albo prokurator. W innych sprawach sąd uzasadnia i doręcza postanowienia ogłoszone na posiedzeniu jawnym również tylko wtedy, gdy podlegają zaskarżeniu, lecz tylko tej stronie, która w terminie tygodniowym zażądała doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.62
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 4,
+   "napis_grupy": "art. 357 k.p.c. w zw. z art. 328 § 1 k.p.c.",
+   "kontekst": "Wynika on z art. 357 k.p.c. w zw. z art. 328 § 1 k.p.c. Samo ustne lub pisemne wskazanie zasadniczych powodów nie zwalnia z tego obowiązku.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 328 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 328 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Pisemne uzasadnienie wyroku sporządza się na wniosek strony o doręczenie wyroku z uzasadnieniem zgłoszony w terminie tygodnia od dnia ogłoszenia wyroku."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Uzasadnienie wyroku sporządza się na żądanie strony, zgłoszone w terminie tygodniowym od dnia ogłoszenia sentencji wyroku, a w wypadku, o którym mowa w art. 327 § 2 - od dnia doręczenia sentencji wyroku. Żądanie spóźnione sąd odrzuci na posiedzeniu niejawnym. Sąd sporządza uzasadnienie wyroku również wówczas, gdy wyrok został zaskarżony w ustawowym terminie oraz gdy wniesiono skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Uzasadnienie wyroku sporządza się z urzędu tylko w sprawach, w których jedną ze stron jest jednostka gospodarki uspołecznionej lub w których brał udział prokurator. Poza tym uzasadnienie wyroku sporządza się na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia sentencji wyroku. Żądanie spóźnione sąd odrzuca na posiedzeniu niejawnym. W innych sprawach sąd sporządza uzasadnienie wyroku tylko wówczas, gdy strona zaskarżyła wyrok w ustawowym terminie."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.12
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 357 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 357 k.p.c. w zw. z art. 328 § 4 k.p.c.",
+   "kontekst": "Przy takich postanowieniach sąd nie sporządza uzasadnienia, co wynika z art. 357 k.p.c. w zw. z art. 328 § 4 k.p.c. Wniosek o uzasadnienie będzie wtedy bezskuteczny.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 357 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając postanowienie, należy pouczyć stronę występującą w sprawie bez adwokata, radcy prawnego, rzecznika patentowego lub radcy P…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia i doręcza z urzędu, jeżeli podlegają zaskarżeniu i wydane zostały w sprawie, w której bierze udział jednostka gospodarki uspołecznionej albo prokurator. W innych sprawach sąd uzasadnia i doręcza postanowienia ogłoszone na posiedzeniu jawnym również tylko wtedy, gdy podlegają zaskarżeniu, lecz tylko tej stronie, która w terminie tygodniowym zażądała doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.56
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "w_zwiazku",
+   "grupa": 5,
+   "napis_grupy": "art. 357 k.p.c. w zw. z art. 328 § 4 k.p.c.",
+   "kontekst": "Przy takich postanowieniach sąd nie sporządza uzasadnienia, co wynika z art. 357 k.p.c. w zw. z art. 328 § 4 k.p.c. Wniosek o uzasadnienie będzie wtedy bezskuteczny.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone",
+    "slowa_wersji_wczesniejszej"
+   ],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 328 § 4 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 328 § 4 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 4. Sąd odrzuca wniosek niedopuszczalny, spóźniony, nieopłacony lub dotknięty brakami, których nie usunięto mimo wezwania."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 328. § 1. Uzasadnienie wyroku sporządza się na żądanie strony, zgłoszone w terminie tygodniowym od dnia ogłoszenia sentencji wyroku, a w wypadku, o którym mowa w art. 327 § 2 - od dnia doręczenia sentencji wyroku. Żądanie spóźnione sąd odrzuci na posiedzeniu niejawnym. Sąd sporządza uzasadnienie wyroku również wówczas, gdy wyrok został zaskarżony w ustawowym terminie oraz gdy wniesiono skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia. § 2. Uzasadnienie wyroku powinno zawierać wskazanie podstawy faktycznej rozstrzygnięcia, a mianowicie: ustalenie faktów, które sąd uznał za udowodnione, dowodów, na których się oparł, i przyczyn, dla których innym dowodom odmówił wiaryg…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 328. § 1. Uzasadnienie wyroku sporządza się z urzędu tylko w sprawach, w których jedną ze stron jest jednostka gospodarki uspołecznionej lub w których brał udział prokurator. Poza tym uzasadnienie wyroku sporządza się na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia sentencji wyroku. Żądanie spóźnione sąd odrzuca na posiedzeniu niejawnym. W innych sprawach sąd sporządza uzasadnienie wyroku tylko wówczas, gdy strona zaskarżyła wyrok w ustawowym terminie. § 2. Uzasadnienie wyroku powinno zawierać wskazanie podstawy faktycznej rozstrzygnięcia, a mianowicie: ustalenie faktów, które sąd uznał za udowodnione, dowodów, na których się oparł, i przyczyn, dla których innym d…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.11,
+    "slowa_wersji_wczesniejszej": [
+     "sporz",
+     "uzasa"
+    ]
+   }
+  },
+  {
+   "id": 10,
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "art. 357 § 5 k.p.c.",
+   "kontekst": "- [Kilka słów o stosowaniu instytucji zasadniczych powodów rozstrzygnięcia (art. 357 § 5 k.p.c.)](https://repozytorium.ur.edu.pl/items/ba77ad21-0beb-4395-9acf-03d88ffa0984)",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 10,
+   "cytowanie_legal_cite": "art. 357 § 5 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 357 § 5 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając postanowienie, należy pouczyć stronę występującą w sprawie bez adwokata, radcy prawnego, rzecznika patentowego lub radcy P…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia i doręcza z urzędu, jeżeli podlegają zaskarżeniu i wydane zostały w sprawie, w której bierze udział jednostka gospodarki uspołecznionej albo prokurator. W innych sprawach sąd uzasadnia i doręcza postanowienia ogłoszone na posiedzeniu jawnym również tylko wtedy, gdy podlegają zaskarżeniu, lecz tylko tej stronie, która w terminie tygodniowym zażądała doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.33
+   }
+  },
+  {
+   "id": 11,
+   "powolanie": "art. 357",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "Art. 357",
+   "kontekst": "- [Art. 357. Uzasadnienie postanowienia i jego doręczenie – standardyprawa.pl](https://standardyprawa.pl/akt/76/art/13141)",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 11,
+   "cytowanie_legal_cite": "art. 357 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienie wydane na posiedzeniu niejawnym sąd doręcza z urzędu stronom, chyba że przepis szczególny stanowi inaczej. Doręczając postanowienie stronie niezastępowanej przez adwokata, radcę prawnego, rzecznika patentowego lub Prokuratorię Generalną Rzeczypospolitej Polskiej, należy ją pouczyć o dopuszczalności, warunkach, terminie i sposobie zło…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy, gdy podlegają one zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodniowym od dnia ogłoszenia postanowienia. Postanowienia te doręcza się tylko tej stronie, która zażądała sporządzenia uzasadnienia i doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając postanowienie, należy pouczyć stronę występującą w sprawie bez adwokata, radcy prawnego, rzecznika patentowego lub radcy P…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 357. § 1. Postanowienia ogłoszone na posiedzeniu jawnym sąd uzasadnia i doręcza z urzędu, jeżeli podlegają zaskarżeniu i wydane zostały w sprawie, w której bierze udział jednostka gospodarki uspołecznionej albo prokurator. W innych sprawach sąd uzasadnia i doręcza postanowienia ogłoszone na posiedzeniu jawnym również tylko wtedy, gdy podlegają zaskarżeniu, lecz tylko tej stronie, która w terminie tygodniowym zażądała doręczenia postanowienia z uzasadnieniem. § 2. Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom, chyba że przepis szczególny stanowi inaczej. Gdy stronie przysługuje środek zaskarżenia, postanowienie należy doręczyć z uzasadnieniem; doręczając…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.6
+   }
+  }
+ ],
+ "orzeczenia": [
+  {
+   "sygnatura": "I CSK 1871/23",
+   "typ": "CSK",
+   "sad_podany": "Sąd Najwyższy",
+   "sad_zrodlo": "z tekstu",
+   "data_podana": null,
+   "kontekst": "- [SN, I CSK 1871/23](https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/I%20CSK%201871-23-1.pdf)",
+   "weryfikacja": {
+    "status": "znaleziono (LexAlpha)",
+    "wybrane": {
+     "zrodlo": "LexAlpha",
+     "id": "1d2a2f9f-ef40-45d0-9fc8-089abafb192d",
+     "sad": "Sąd Najwyższy",
+     "data": "2024-03-06"
+    },
+    "kandydaci": [
+     {
+      "zrodlo": "LexAlpha",
+      "id": "1d2a2f9f-ef40-45d0-9fc8-089abafb192d",
+      "sad": "Sąd Najwyższy",
+      "data": "2024-03-06"
+     },
+     {
+      "zrodlo": "LexAlpha",
+      "id": "2e91b48b-c07c-41d8-a791-d3ebb0030d2e",
+      "sad": "Sąd Najwyższy",
+      "data": "2024-02-01"
+     }
+    ],
+    "data_wyroku": "2024-03-06",
+    "data_podana": null,
+    "sad_wyroku": "Sąd Najwyższy",
+    "sad_podany": "Sąd Najwyższy",
+    "poczatek_tekstu": "Postanowienie Sądu Najwyższego z dnia 6 marca 2024 r. I CSK 1871/23 uzasadnienie orzeczenia zapadłego w przedmiocie odmowy wyłączenia. UZASADNIENIE Skład orzekający Przewodniczący: Sędzia SN Beata Janiszewska. Sentencja Sąd Najwyższy w Izbie Cywilnej na posiedzeniu niejawnym 6 marca 2024 r. w Warszawie w sprawie z powództwa Prokuratora Generalnego przeciwko Redaktorowi Naczelnemu G. o opublikowanie sprostowania, w przedmiocie wniosku pełnomocnika pozwanego, odrzuca wniosek. (J.T.) Uzasadnienie faktyczne ZASADNICZE POWODY ROZSTRZYGNIĘCIA Pozwany Redaktor Naczelny \"G.\" wniósł o uzasadnienie pos…",
+    "fragmenty_kluczowe": [],
+    "flagi": []
+   },
+   "flagi": []
+  }
+ ],
+ "publikatory": [],
+ "daty": []
+}

@@ -1,0 +1,129 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 380",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14.09.2005 r., III CK 124/05",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 380",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest w pełni trafny (A-R=2) – system wskazuje, że ogólny zapis jest niewystarczający, ale zauważa możliwość ratowania umowy przez wykładnię z art. 65 k.c. (wskazując wyrok SN III CK 124/05). Podstawy prawne są prawidłowe (A2=1). Cytat z art. 41 ust. 2 pr.aut. pochodzi sprzed nowelizacji z 2015 r., co przy braku zmiany normy skutkuje jedynie obniżeniem A3 do 0 (reguła B10). Brak halucynacji (A6=1). Odpowiedź jest wyczerpująca, praktyczna i świetnie ustrukturyzowana (B1=2), a kalibracja pewności jest adekwatna do warunkowego charakteru problemu (B2=1). System nie wspomniał jedynie o braku zastosowania art. 12 pr.aut. przy zleceniu, przez co traci jeden element rubryki.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu, zwana dalej „licencją”, obejmuje pola eksploatacji wyraźnie w niej wymienione\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"III CK 124/05\"",
+   "\"III CK 124/05\" \"licencji niewyłącznej\"",
+   "\"III CK 124/05\" \"minimalnym polu\"",
+   "\"art. 45 PrAut\" \"wynagrodzenie\"",
+   "\"art. 45\" \"prawo autorskie\" \"wynagrodzenie\"",
+   "\"art. 41 ust. 3 PrAut\"",
+   "\"art. 41 ust. 3\" \"prawo autorskie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxDuX_bcYuYvb30a7-_A3oTvPbUAuu5ohAeKo3KyTWDP8Y93HB_5xOLFg9EJCH29jyWx-7DjrlShCSCNlevqdDa5CvV9Nbux9UzvzMDCBGNN5bSIR1zRUcu76dNs_MiLblvsTXxNirhBk_wRlZosgE6UsGgRuh3Z97ysAAS6SedbitFjcPMi1kVSGzx5YP5T6gtRQDe_MstA8Kfeu28BkjfjrNfeM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE_4yFp5axLc5PsbXHMOnn_yc4t80PHFBmn9It9o6Z0POjsgSLNomQgKPDd49QuSbEIXj-bsHHqiuFWzhwtoIo9fbVx73ACgG9eSpgK2-5mC10T_r49ymWtOkVYQlpYNGyj_QRQ9V46kd0jUhWHvmR3WbDzlMauO7h3fdW8TM-",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz8phhG-aunP2VZolrzj26kQEjuJ7JY-pesXeOZ9M9c5z_Gf2l_FBLz791hvYS5zl72617FppwjXrvoc2TyvdaZVbdtSxn5ckNK69ryK8rxPts4WZIR9PAIGWevxwK-PqnVTx48Fii95v76nYXiMzzV92wF9kPygke33wsIbFtTGP0WFi_yvhlAvf9",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMC7KS3C4jhnnjAzudCermBsZa0Hk6WX9sXQ19GIE6UTMEJeYI3jnHOiIP0Zz_HLlLS8ZiCl3RIhSg2qiBnTAt2NpFTP0xNF0gqOopw9mmxeQ9aXUKPEmekcZiMfo_9Vxg2kz5Ia_f51_HSpFFTgCekruUVQIjhz5mNE5GNeafRAe7kr-r5QktNByGLEnDgenvH_S-KAM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGaUgo3cXpaP8cddDTyHA0ZzuocqoZ3E9ENvzPt6c9GGApUvb7m83PpaEFV8YuMLB5vXEXQ8VUsFcmO65DoInO-41iRnfs84FVJFwSCLn48dqvEUD8xMBT0I9enCXvyOLpFX8m9Dag-2WqimhFFPDTkD_2MusemGQgjtO7lh6wv563c19bIfqr-n7xmteTEEZ9k_y-gA_o6Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeLKB5WVmA4n-nC-vRyn9nugS50dNwu4SmN2HaIVU_2XSGQ846hv1JhAw0H47N7vGpJpMyVIZyZwCdo6hF-qLMh8VaoVJCsRvwqlnADKbUz1QHFbVhv8_JJ_nBCuz1dv5AT03RFfOSMGFtQRF3ihbSDOavnQcfdK1Xhw0WK6IwDXJm8OPD",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETxMinSb595Pvy4z9yvY_p0LrzW1A0usSYUzFyW7tYou-ZTNxoKIcfhSpeNkV6XyHYDcz3EU2NriDIie8Zj-BKOO2oevOyXbP3GOSL791s3iR7_4N2fCsNjCvWXdoM7ZPpKLmz9NNLnoKba-4EUsO-JukjL8E4XhizUfki47rIZGxA6QH_M-q0GypnmMOInQf8WOfFBzqcEzxLHwdobtdIAmF9btPt_xxuRChZqjxD72xjDHuNPHXb0F29l3U=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlyP1z-I6PhvfGjsXqW1eX-EqkjzEyk4UTraFEPUz5HxYIWNr6Gbe2ZMHcS4Wot1LMin1i65wcP9Xnd3N85rZu7VVor-nRb9qw6diVE4MiLe1maw0hHwSfCDBQGQXa1krG9qbGPqSAhzApQB_VXuwqSAaOjlVopp2y0Ba0lq7XBLC4TyAQfXLAujLEPY-Ie2YkqUz0QODDNYNh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv8E8ebhOGAg0wZDAWjYvzfaG32RZ_0o9XzbFSRqLoV7mL6QPQrUZJCAyu1S2ruFrwlALZ3HWARxWtG-q0i2fi0sSiAcezLy1bx4j6FkVFhLFFJg_NsFKNB8cOcmxq6VdNDql4Nr27ERYLW6PPXht_XhPE9wM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzmaUI1dUFoLDGyNuvyOjJH9qSwxiRHjTKshHokj2S1P0WTuchmZqix0RCycpJ2F_u-nP4EfiJaci0JMXO4rirPw3adJdtGRb-F9Cx7tK6VEEdJWJBYbQbWzujGT5w7pYXalK1xPXvoJx7T6_bIH_nHaZ8Py8F6P-X9LDAiuX-i5lWItGhDyE_2QNqiHOfAOeLRgvN31OTUb5j6sI-duvlcsNe_kYqCNzKdbkXsYFJVzxrbFteI_Ffiw=="
+  ],
+  "tokeny": {
+   "wejscie": 16161,
+   "wyjscie": 1125
+  },
+  "czas_s": 178,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

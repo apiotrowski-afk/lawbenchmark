@@ -1,0 +1,87 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System błędnie odpowiada na pytanie (A-R = 0), twierdząc, że wstrzymanie wykonania nakazu zapłaty wyłącza możliwość wszczęcia postępowania zabezpieczającego. Przypisuje taką normę do art. 492 § 3 k.p.c., co jest niezgodne z jego literalnym brzmieniem i stanowi błąd typu T (A6 = 0, hallucinated = true). System powołuje wymagane przepisy (A2 = 1), ale wyciąga z nich fałszywe wnioski. Zastosowano karę za twierdzenie, że wstrzymanie wykonania wyłącza zabezpieczenie. Porada jest szkodliwa dla prawnika (B1 = 0), choć system zachowuje oczekiwany, kategoryczny ton (B2 = 1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 492\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 492\" \"k.p.c.\" wstrzymanie wykonania nakazu zabezpieczenie"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcobGYW1ZXV33LdreG1x8JZp4ACX4r3RXbFLW01pYrfR740mbRGCqkbsJDnzNfezdmGTT8lP_jSLLaN6MC_S876FwDk6Fhr0vFSALV1oBJySQhWpMaK8KojaqCoQuw8b75Eh9flq2jVzSQNplHmVD7PH9bG9JnJ1rB3Nw6c8CH_3YacR9jnaAbc5LzoqPKkBttYd32oOD3H-T8xg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf9jmPsMlsgzxrapXHGomqMGKLKV_4JBMYiArmcESsRynHLgZvjMUN7R8DGhfQWsEqSxnGQ2g3HmEtZxtukhECsuL1eHX1pPSkD0uWgeu2SfUGRuQGYzzoQF--NnhZ3U7lprUX_FPZ36pOh67fgpwA72f-ghCMYR4DpyKKfxUcdd7nVo-EPMSgUmN1I5fea-gwmk4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxi-LKE5yNlaEXq_Iak0Vy-dNTb8UQEpbbKan0zXJ3xRfrN6FGdAY9rWbEmtnTiB9Z9yo8Eb8SlMozmD_-KQb-VZM929WXzmzypfxuiJPtellr2GuWD2BOp_qFCKOPcPExASTIu3h8Tvap4l5pzTXYMFXeDQsmMQutndhAPZPGvgGol0Dr3q8S72oBcUScFQ9hPNHQq86jTNFpWlPpozHcBQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0xYUN0yRoFQ1-D362QQm5pe1h28-ncbqNNNuCp3P2GJiFT_J3Jn7oPdKX2SmNEKfWw1SDR7Gbkjze0WcuqsJ8Hkx-QDxdQwspjz_DCWExWppVm3XofSoR-L9lBSVnknpqhtJGPDSdT9eud1Vt2pE3g1pwUzUGEVuOTWshQOQrxNY3JAJvfJz2NKAk6XwKcawbeEzjPm5mnKHW-JpNMiA0LxGnWxsThAL0PBBo9xswijvAHfDt07U=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh0KBW3ai17pFuZ4sOaHxJcLqWo0hw9u1GqPSlmbJcr-KaEiRTYwlct7CsE_7hx6fcpVBF1_QZMqjj3q8QBc0m9nK4MPjxv7FxXp5UTAnosp2kVCnuNuefcEUj4FOa_SuW54dVfWKad9sjaWyjRRbcuTtzgxhMStNvz87rkXR9qFY-E5wq6t73G242lV8wqzm-Sj8ZtK51VPzkI470iTSzLenWnMMBARhBIPpWj6bhzqVw7zKpd3Dny0YvBDrlJSUQNc_LCUPM4YCGxnyZ-T0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUuBphcj22Ub1tN1KoGyVuMdpPIEhZo5vUne4wKvyPgSxFh5QRmJ1toykdEija2jVlbJikWvltB5sa6fPBMyssVII42pSamA8JLyIvPRJsWR_09o2rgF-lX9uPTWHy3CyQhrVwGgPFytRYaiN0iMr18UyrVGBgcUlgu4fk93oowC79hpS809mibSfdp2jVIKoiPXregL0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiCof7NQLJmuMH91HZB3l7TIcCB8aAPh5iym0WIUN5WZe_Rj-b5lu7vR4nGhM-WdXFwh6PUFF-iohO_auuNdwrdTkyGDukpaYplqd8jTHsooi0WhL2yKZGS-5H8tOPyvMb6SFqdZEr3NHRsNz9BcLECKO96Q73EN8s4IUTJ3MennLh8cABQRAl1xxyX8g-TMLbVpJ-MJtNrK5E7sumtBP7mX4="
+  ],
+  "tokeny": {
+   "wejscie": 10214,
+   "wyjscie": 707
+  },
+  "czas_s": 99,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

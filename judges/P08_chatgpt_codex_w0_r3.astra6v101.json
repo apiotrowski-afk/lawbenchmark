@@ -1,0 +1,60 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://ai-act-service-desk.ec.europa.eu/pl/ai-act/article-3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 2 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?qid=1788662127473&uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 4 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 113 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?qid=1789425764105&uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń: rozstrzyga obiektywna możliwość uznania nagrania za autentyczne, a obowiązek dostawcy pozostaje niezależny od kwalifikacji jako deepfake. Poprawnie rozdziela adresatów obowiązków i podaje datę stosowania art. 50; powołania sprawdzono w oficjalnych treściach dostępnych przez wyszukiwanie. Przykład fikcyjnego lektora jest obwarowany brakiem pozorowania autentycznego nagrania, więc nie ustanawia błędnego wyłączenia wszystkich fikcyjnych głosów. Brakuje jedynie odwołania do wytycznych KE lub kodeksu praktyk ze wskazaniem ich niewiążącego charakteru. Proponowane sformułowanie w cudzysłowie jest własną wypowiedzią, nie cytatem przepisu, dlatego A3 nie ma zastosowania.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P08",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 58,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

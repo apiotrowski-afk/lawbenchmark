@@ -1,0 +1,203 @@
+{
+ "LICZBY": {
+  "hal_W0": 51,
+  "pu_W0": 19,
+  "koszt_W0": 3.96139,
+  "hal_W1": 40,
+  "pu_W1": 27,
+  "koszt_W1": 11.814611,
+  "hal": 91,
+  "pu": 46,
+  "koszt": 15.776000999999999,
+  "pu_min": 0,
+  "pu_max": 7,
+  "spojnosc_bledy": [],
+  "blokady": [
+   "P07_argon4_high_vertex_w1_r3"
+  ],
+  "klasa_T": 66,
+  "klasa_W": 35,
+  "klasa_F": 8,
+  "klasa_S": 9,
+  "zakres_rdzen": 57,
+  "zakres_pob": 34,
+  "zakres_brak": 0,
+  "zakres_brak_pilot": 0,
+  "hal_rozsz": 42,
+  "hal_pilot": 49,
+  "w1_oficjalne": 50,
+  "w1_wtorne": 18,
+  "w1_nieuzyte": 12,
+  "w1_brak": 0,
+  "P02_status": "poza rozszerzeniem zbioru do 10 pytań (decyzja Adama 2026-10-18: zbiór jednorodny — pytania o treść prawa; zadanie obliczeniowe do osobnego testu, np. z narzędziem do liczenia); klucz bez zmian, stopy NBP sprawdzone 2026-10-18 (ref. 3,75 % od 2026-03-05)",
+  "kappa_argon4v101_rozsz": 0.9,
+  "kappa_argon4v101_pilot": 0.97,
+  "kappa_sol61v101_rozsz": 0.8,
+  "kappa_sol61v101_pilot": 0.84,
+  "kappa_gemini31v101_rozsz": 0.8,
+  "kappa_gemini31v101_pilot": 0.71,
+  "kappa_gemini38flashv101_rozsz": 0.58,
+  "kappa_gemini38flashv101_pilot": 0.82,
+  "kappa_astra6v101_rozsz": 1.0,
+  "kappa_astra6v101_pilot": 0.95,
+  "panel_n": 79,
+  "panel_any_k": 0.82,
+  "panel_maj3_k": 0.9,
+  "panel_any_fa": 7,
+  "panel_any_pom": 0,
+  "panel_argon_lub_pro_k": 0.92,
+  "panel_argon_lub_pro_fa_pom": [
+   1,
+   2
+  ],
+  "P10_K2": 0,
+  "P10_K1": 1,
+  "argon_sam_wspolne_k": 0.9,
+  "meta": {
+   "argon4_meta": {
+    "n": 54,
+    "pliki": 64,
+    "pytania": [
+     "P05",
+     "P06",
+     "P07",
+     "P13"
+    ],
+    "kb": 0.96,
+    "km": 0.85
+   },
+   "argon4_meta2": {
+    "n": 115,
+    "pliki": 125,
+    "pytania": [
+     "P01",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P12",
+     "P13"
+    ],
+    "kb": 0.95,
+    "km": 0.88
+   },
+   "argon4_meta3": {
+    "n": 116,
+    "pliki": 127,
+    "pytania": [
+     "P01",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P12",
+     "P13"
+    ],
+    "kb": 0.95,
+    "km": 0.88
+   },
+   "sol61_meta": {
+    "n": 61,
+    "pliki": 61,
+    "pytania": [
+     "P05",
+     "P06",
+     "P07",
+     "P13"
+    ],
+    "kb": 0.88,
+    "km": 0.83
+   },
+   "sol61_meta2": {
+    "n": 119,
+    "pliki": 119,
+    "pytania": [
+     "P01",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P12",
+     "P13"
+    ],
+    "kb": 0.84,
+    "km": 0.97
+   },
+   "sol61_meta3": {
+    "n": 128,
+    "pliki": 128,
+    "pytania": [
+     "P01",
+     "P04",
+     "P05",
+     "P06",
+     "P07",
+     "P08",
+     "P12",
+     "P13"
+    ],
+    "kb": 0.8,
+    "km": 0.89
+   }
+  },
+  "spr": [
+   1436,
+   1454
+  ],
+  "karty_bez_spr": 1,
+  "poch_W1": {
+   "pamięć": 21,
+   "nieustalone": 8,
+   "źródło_wtórne": 4,
+   "odczyt_źródła": 7
+  },
+  "poch_W0": {
+   "pamięć": 51
+  },
+  "dA": {
+   "GPT-6.1 Sol": 11.2,
+   "GPT-6 Astra": 7.3,
+   "GPT-5.6 Terra": 31.0,
+   "Claude Opus 5.5": 31.0,
+   "Claude Sonnet 5.5": 24.3,
+   "Claude Haiku 5.5": 19.4,
+   "Gemini 3.8 Flash": 28.5,
+   "Gemini 4 Argon": 14.4
+  },
+  "krotnosc_kosztu": {
+   "GPT-6.1 Sol": 6.2,
+   "GPT-6 Astra": 2.7,
+   "GPT-5.6 Terra": 6.4,
+   "Claude Opus 5.5": 1.5,
+   "Claude Sonnet 5.5": 1.4,
+   "Claude Haiku 5.5": 7.7,
+   "Gemini 3.8 Flash": 4.4,
+   "Gemini 4 Argon": 5.6
+  },
+  "koszt_pelny": 170.69793800000002,
+  "koszt_pelny_tokeny": 95.85393800000001,
+  "koszt_pelny_wyszukania": 74.844,
+  "koszt_sedziowie": 68.849477,
+  "koszt_weryfikacja": 86.07246,
+  "koszt_poparcie": 26.375
+ },
+ "TABELE": {
+  "WYNIKI": "| Model | Warunek | A % | B % | Halucynacje (z 10) | Poprawnie ugruntowane (z 10) | Koszt łączny USD | USD na poprawnie ugruntowaną | Sprawdzone powołania |\n|---|---|---|---|---|---|---|---|---|\n| GPT-6.1 Sol | W0 | 72,8 | 86,7 | 1 | 6 | 0,250 | 0,042 | 51 z 51 |\n| GPT-6.1 Sol | W1 | 84,0 | 96,7 | 1 | 7 | ≥ 1,544 | ≥ 0,221 | 72 z 73 |\n| GPT-6 Astra | W0 | 75,2 | 83,3 | 1 | 6 | 1,415 | 0,236 | 59 z 59 |\n| GPT-6 Astra | W1 | 82,5 | 93,3 | 0 | 7 | 3,816 | 0,545 | 63 z 63 |\n| GPT-5.6 Terra | W0 | 41,7 | 66,7 | 6 | 3 | 0,206 | 0,069 | 41 z 41 |\n| GPT-5.6 Terra | W1 | 72,7 | 86,7 | 4 | 4 | 1,321 | 0,330 | 70 z 70 |\n| Claude Opus 5.5 | W0 | 55,0 | 73,3 | 9 | 0 | 0,961 | n/d | 123 z 123 |\n| Claude Opus 5.5 | W1 | 86,0 | 96,7 | 5 | 4 | ≥ 1,467 | ≥ 0,367 | 147 z 147 |\n| Claude Sonnet 5.5 | W0 | 43,5 | 60,0 | 9 | 0 | 0,613 | n/d | 93 z 93 |\n| Claude Sonnet 5.5 | W1 | 67,8 | 90,0 | 9 | 0 | ≥ 0,842 | n/d | 104 z 111 |\n| Claude Haiku 5.5 | W0 | 30,1 | 56,7 | 9 | 0 | 0,029 | n/d | 62 z 62 |\n| Claude Haiku 5.5 | W1 | 49,5 | 66,7 | 8 | 0 | ≥ 0,225 | n/d | 75 z 77 |\n| Gemini 3.8 Flash | W0 | 49,6 | 70,0 | 8 | 2 | 0,116 | 0,058 | 75 z 77 |\n| Gemini 3.8 Flash | W1 | 78,1 | 86,7 | 5 | 4 | ≥ 0,514 | ≥ 0,128 | 97 z 97 |\n| Gemini 4 Argon | W0 | 61,0 | 80,0 | 8 | 2 | 0,372 | 0,186 | 115 z 121 |\n| Gemini 4 Argon | W1 | 75,3 | 86,7 | 8 | 1 | ≥ 2,085 | ≥ 2,085 | 189 z 189 |",
+  "PARY": "| Model | A % W0 → W1 | B % W0 → W1 | Halucynacje W0 → W1 | Poprawnie ugruntowane W0 → W1 | USD na poprawnie ugruntowaną W0 → W1 |\n|---|---|---|---|---|---|\n| GPT-6.1 Sol | 72,8 → 84,0 | 86,7 → 96,7 | 1 → 1 | 6 → 7 | 0,042 → ≥ 0,221 |\n| GPT-6 Astra | 75,2 → 82,5 | 83,3 → 93,3 | 1 → 0 | 6 → 7 | 0,236 → 0,545 |\n| GPT-5.6 Terra | 41,7 → 72,7 | 66,7 → 86,7 | 6 → 4 | 3 → 4 | 0,069 → 0,330 |\n| Claude Opus 5.5 | 55,0 → 86,0 | 73,3 → 96,7 | 9 → 5 | 0 → 4 | n/d → ≥ 0,367 |\n| Claude Sonnet 5.5 | 43,5 → 67,8 | 60,0 → 90,0 | 9 → 9 | 0 → 0 | n/d → n/d |\n| Claude Haiku 5.5 | 30,1 → 49,5 | 56,7 → 66,7 | 9 → 8 | 0 → 0 | n/d → n/d |\n| Gemini 3.8 Flash | 49,6 → 78,1 | 70,0 → 86,7 | 8 → 5 | 2 → 4 | 0,058 → ≥ 0,128 |\n| Gemini 4 Argon | 61,0 → 75,3 | 80,0 → 86,7 | 8 → 8 | 2 → 1 | 0,186 → ≥ 2,085 |",
+  "KLASY": "| Klasa | W0 (80 odpowiedzi) | W1 (80 odpowiedzi) | Razem |\n|---|---|---|---|\n| T — treść, której w źródle nie ma | 42 | 24 | 66 |\n| W — brzmienie z innej daty | 18 | 17 | 35 |\n| F — źródło lub jednostka nie istnieje | 4 | 4 | 8 |\n| S — zniekształcony identyfikator | 4 | 5 | 9 |\n| odpowiedzi z halucynacją | 51 | 40 | 91 |",
+  "ZRODLA_W1": "| Model (W1) | źródło oficjalne użyte | tylko źródła wtórne | narzędzia nieużyte | „brak narzędzi” w karcie W1 | halucynacje: pamięć / odczyt źródła / źródło wtórne / nieustalone |\n|---|---|---|---|---|---|\n| GPT-6.1 Sol | 10 | 0 | 0 | 0 | 0 / 1 / 0 / 0 |\n| GPT-6 Astra | 10 | 0 | 0 | 0 | 0 / 0 / 0 / 0 |\n| GPT-5.6 Terra | 9 | 1 | 0 | 0 | 3 / 1 / 0 / 0 |\n| Claude Opus 5.5 | 4 | 4 | 2 | 0 | 4 / 0 / 0 / 1 |\n| Claude Sonnet 5.5 | 4 | 2 | 4 | 0 | 6 / 0 / 0 / 3 |\n| Claude Haiku 5.5 | 3 | 4 | 3 | 0 | 3 / 1 / 3 / 1 |\n| Gemini 3.8 Flash | 3 | 4 | 3 | 0 | 1 / 1 / 1 / 2 |\n| Gemini 4 Argon | 7 | 3 | 0 | 0 | 4 / 3 / 0 / 1 |",
+  "PYTANIA": "| Pytanie | Dziedzina | Typ | Pułapka | Kalibracja | Halucynacje (z 16) | Poprawnie ugruntowane (z 16) | A-R = 2 (z 16) | śr. A % |\n|---|---|---|---|---|---|---|---|---|\n| P01 | prawo wykroczeń | obliczenie | tak | kategoryczna | 12 | 4 | 13 | 69,5 |\n| P04 | postępowanie administracyjne | zamkniete | tak | kategoryczna | 9 | 0 | 0 | 43,0 |\n| P05 | postępowanie cywilne | zamkniete | tak | kategoryczna | 10 | 4 | 7 | 52,1 |\n| P06 | postępowanie cywilne | zamkniete | nie | warunkowa | 12 | 3 | 6 | 39,9 |\n| P07 | postępowanie cywilne | zamkniete | nie | kategoryczna | 10 | 5 | 9 | 55,7 |\n| P08 | AI Act | weryfikacja | tak | warunkowa | 3 | 2 | 2 | 71,6 |\n| P09 | prawo autorskie | zamkniete | nie | warunkowa | 9 | 7 | 15 | 78,2 |\n| P10 | prawo autorskie | zamkniete | tak | warunkowa | 9 | 7 | 15 | 83,0 |\n| P12 | postępowanie cywilne | zamkniete | tak | warunkowa | 6 | 9 | 13 | 79,1 |\n| P13 | postępowanie cywilne | zamkniete | nie | kategoryczna | 11 | 5 | 13 | 68,5 |",
+  "KLUCZE": "| Pytanie | Wersja klucza (data) | Pytanie w brzmieniu z biegu | Rdzeń klucza (skrót) | Podstawy wymagane |\n|---|---|---|---|---|\n| P01 | v3 (2026-10-18) | Ile wynosi w tym roku wartość mienia przy wykroczeniu max ? Czy zmieniła się w zw. ze wzrostem płacy minmalnej ? | 800 zł. Od 1.10.2023 próg jest kwotą stałą wpisaną w przepis (art. 119 § 1 k.w. przy kradzieży i przywłaszczeniu; tak samo art. 120 § 1, 122 § 1 i 124 § 1 k.w.), więc wzrost płacy minimalnej go nie zmienia. | art. 119 § 1 k.w. |\n| P04 | v3 (2026-10-18) | Postanowienie (zgoda) na nabycie nieruchomości przez obywatela Ukrainy. Takiemu orzeczeniu nadaje się klauzulę prawomocności czy ostateczności? | Nie postanowienie, lecz decyzja ministra właściwego do spraw wewnętrznych (art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców), i nie klauzula, lecz zaświadczenie organu (art. 217 § 2 pkt 2 w zw. z art. 218 § 1 k.p.a.). Decyzja jest ostateczna, gdy nie służy już wniosek o ponowne rozpatrzenie sprawy (art. 16 § 1, art. 127 § 3 k.p.a.; 14 dni), a prawomocna, gdy nie można jej zaskarżyć do sądu administracyjnego (art. 16 § 3 k.p.a.) — po upływie 30 dni od doręczenia bez skargi do WSA (art. 53 § 1 p.p.s.a.; skargę można wnieść także bez wniosku o ponowne rozpatrzenie, art. 52 § 3 p.p.s.a.). | art. 1 ust. 1 ustawy z 24.03.1920 o nabywaniu nieruchomości przez cudzoziemców; art. 16 § 1 i § 3 k.p.a.; art. 217 § 2 pkt 2 k.p.a. |\n| P05 | v2 (2026-10-10) | Jak wygląda doręczenia pism sądowych osobie fizycznej przez portal ? | Od 1.06.2026 sąd doręcza przez Portal Informacyjny także stronie, która wybrała ten sposób doręczeń (art. 131¹ᵃ § 1 k.p.c.). Strona składa oświadczenie o wyborze przez portal, z podpisem kwalifikowanym, zaufanym albo osobistym (§ 1¹). | art. 131¹ᵃ § 1 k.p.c. (brzmienie od 1.06.2026); art. 131¹ᵃ § 1¹ k.p.c.; art. 131¹ᵃ § 2 k.p.c. |\n| P06 | v3 (2026-10-10) | Postanowienie o odrzuceniu zażalenia (SA) - brak opłaty, czy przysługuje zażalenie ? | Zależy od tego, jakie zażalenie SA odrzucił. Jeżeli było to zażalenie do innego składu sądu drugiej instancji (art. 394² § 1 lub § 1¹ k.p.c.), odrzuca je jeden sędzia, a na to postanowienie przysługuje zażalenie do innego składu SA (art. 394² § 1² zd. 2). | art. 394² § 1² k.p.c.; art. 397 § 1¹ k.p.c. |\n| P07 | v2 (2026-10-10) | Czy jak Sąd wyda zasadnicze motywy rozstrzygnięcia, to jest możliwe złożenie wniosku o uzasadnienie Zasadnicze powody rozstrzygnięcia (art. 357 § 5 k.p.c.) | Tak. Wskazanie zasadniczych powodów rozstrzygnięcia nie jest uzasadnieniem — art. 357 § 5 zd. 2 k.p.c. każe je odróżnić od uzasadnienia. | art. 357 § 5 k.p.c.; art. 357 § 1 albo § 2¹ k.p.c. |\n| P08 | v4 (2026-10-18) | Treścią typu deepfake nie będzie głos wygenerowany przez AI, który niczego nie udaje i w żaden sposób nie wprowadza w błąd.  czy to prawda na gruncie AI Act? | W zasadzie tak, co do samej definicji: deepfake to treść, która przypomina istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia i którą odbiorca mógłby niesłusznie uznać za autentyczną lub prawdziwą (art. 3 pkt 60). Decyduje obiektywna możliwość wzięcia za autentyczne, nie zamiar ani to, czy głos „udaje” konkretną osobę — według wytycznych KE (C(2026) 5054, soft law) kryterium „istniejące” obejmuje też osoby, które mogą realnie istnieć, więc realistyczny syntetyczny głos może być deepfake, jeśli odbiorca mógłby go wziąć za nagranie prawdziwego człowieka. | art. 3 pkt 60 AI Act; art. 50 ust. 2 AI Act; art. 50 ust. 4 AI Act |\n| P09 | v4 (2026-10-18) | Przeniesienie praw autorskich do materiałów wytworzonych w ramach umowy zlecenia (social media) — rozumiem, że ogólne stwierdzenie „przenosi na wszelkie pola eksploatacji”, czyli ogólny zapis, nie wystarcza? | Co do zasady nie wystarcza. Umowa o przeniesienie autorskich praw majątkowych obejmuje pola eksploatacji wyraźnie w niej wymienione (art. 41 ust. 2 pr.aut.), znane w chwili zawarcia (art. 41 ust. 4), i wymaga formy pisemnej pod rygorem nieważności (art. 53). | art. 41 ust. 2 pr.aut.; art. 53 pr.aut. |\n| P10 | v3 (2026-10-18) | Przeniesienie praw autorskich do materiałów wytworzonych w ramach umowy zlecenia (social media) — rozumiem, że ogólne stwierdzenie „przenosi na wszelkie pola eksploatacji” wystarcza i nie trzeba ich wyliczać? | Nie — co do zasady nie wystarcza. Umowa obejmuje pola eksploatacji wyraźnie w niej wymienione (art. 41 ust. 2 pr.aut.) i znane w chwili zawarcia (art. 41 ust. 4); przeniesienie wymaga formy pisemnej pod rygorem nieważności (art. 53). | art. 41 ust. 2 pr.aut.; art. 53 pr.aut. |\n| P12 | v1 (2026-10-10) | Klauzula wykonalności na małżonka, pozew był związany z działalnością gospodarczą, ale w NZ nie ma nic na temat \"prowadzący działalnosc\" w klauzuli jest PESEL i nie ma żadnej wzmianki nt. dzialalności, czy można wnosić o klauzulę na małżonka w \"normalnym trybie'? tj. czy można wnieść o egzkeucję \"bez ograniczeń\", które wynikają z 781[1] k.p.c. ? | Nie w tym sensie, o jaki pyta: klauzuli przeciwko małżonkowi „bez ograniczeń” nie ma. Każda klauzula przeciwko małżonkowi dłużnika jest ograniczona: do majątku objętego wspólnością (art. 787 k.p.c., gdy wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka) albo do przedsiębiorstwa wchodzącego w skład majątku wspólnego (art. 787¹ k.p.c., gdy wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa). | art. 787 k.p.c.; art. 787¹ k.p.c. |\n| P13 | v1 (2026-10-10) | Sąd wydał NZ w nakazowym z weksla i wstrzymał jego wykonanie. Czy obejmuje to też możliwość wszczęcia w oparciu o NZ post zabezpieczeającego ? | Nie. Wstrzymanie wykonania nakazu (art. 492 § 3 zd. 2 k.p.c.) dotyczy natychmiastowej wykonalności nakazu z weksla jako tytułu egzekucyjnego (§ 3 zd. 1), a nie jego funkcji tytułu zabezpieczenia, którą nakaz ma od chwili wydania, niezależnie od wykonalności i bez klauzuli (§ 1). | art. 492 § 1 k.p.c.; art. 492 § 3 k.p.c. |",
+  "ANEKS_B_A": "| System | P01 | P04 | P05 | P06 | P07 | P08 | P09 | P10 | P12 | P13 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Sol W0 | 100 | 44 | 22 | 22 | 89 | 82 | 90 | 100 | 90 | 89 |\n| Sol W1 | 89 | 44 | 100 | 78 | 89 | 73 | 100 | 100 | 90 | 78 |\n| Astra W0 | 100 | 44 | 22 | 44 | 89 | 73 | 100 | 100 | 90 | 89 |\n| Astra W1 | 89 | 44 | 100 | 50 | 100 | 73 | 90 | 100 | 90 | 89 |\n| Terra W0 | 78 | 11 | 0 | 11 | 0 | 46 | 80 | 90 | 90 | 11 |\n| Terra W1 | 0 | 44 | 100 | 78 | 89 | 73 | 90 | 80 | 95 | 78 |\n| Opus W0 | 78 | 56 | 56 | 6 | 0 | 75 | 75 | 75 | 80 | 50 |\n| Opus W1 | 89 | 89 | 89 | 61 | 100 | 92 | 73 | 90 | 100 | 78 |\n| Sonnet W0 | 0 | 22 | 56 | 17 | 39 | 75 | 82 | 80 | 65 | 0 |\n| Sonnet W1 | 72 | 22 | 78 | 67 | 67 | 83 | 65 | 75 | 60 | 89 |\n| Haiku W0 | 0 | 22 | 22 | 17 | 22 | 82 | 65 | 35 | 25 | 11 |\n| Haiku W1 | 78 | 39 | 0 | 17 | 28 | 71 | 55 | 75 | 55 | 78 |\n| Flash W0 | 78 | 60 | 6 | 6 | 0 | 42 | 64 | 73 | 80 | 89 |\n| Flash W1 | 89 | 44 | 100 | 75 | 90 | 58 | 64 | 82 | 90 | 89 |\n| Argon W0 | 83 | 33 | 0 | 17 | 90 | 58 | 77 | 82 | 80 | 89 |\n| Argon W1 | 89 | 67 | 83 | 75 | 0 | 92 | 82 | 91 | 85 | 90 |",
+  "ANEKS_B_H": "| System | P01 | P04 | P05 | P06 | P07 | P08 | P09 | P10 | P12 | P13 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Sol W0 | ✓ | – | – | T | ✓ | – | ✓ | ✓ | ✓ | ✓ |\n| Sol W1 | ✓ | – | ✓ | ✓ | ✓ | – | ✓ | ✓ | ✓ | T |\n| Astra W0 | ✓ | – | – | W | ✓ | – | ✓ | ✓ | ✓ | ✓ |\n| Astra W1 | ✓ | – | ✓ | – | ✓ | – | ✓ | ✓ | ✓ | ✓ |\n| Terra W0 | W | T | W | F | T | – | ✓ | ✓ | ✓ | T |\n| Terra W1 | W | – | ✓ | ✓ | W | – | ✓ | W | ✓ | S |\n| Opus W0 | T,W | T | S,T | T,W | T | – | W | W | T | T,W |\n| Opus W1 | W | – | W | W | ✓ | ✓ | T | ✓ | ✓ | T,W |\n| Sonnet W0 | T,W | T | T | T,W | T,W | – | T | F,T | T | T |\n| Sonnet W1 | T | T | W | W | S | – | F,W | T,W | F,T | F,T |\n| Haiku W0 | W | T | T | T | F,T | – | T | F,T | T | T |\n| Haiku W1 | T | T | F,T | T | T | – | T | T | – | W |\n| Flash W0 | T,W | T | T,W | T | S,T | T | T | T | ✓ | ✓ |\n| Flash W1 | T,W | – | ✓ | ✓ | W | T | T | ✓ | ✓ | S |\n| Argon W0 | W | T | T,W | S,W | S,T,W | T | ✓ | T | T | ✓ |\n| Argon W1 | T,W | T | T,W | T | blokada | ✓ | T | S | T | S,W |",
+  "SEDZIOWIE": "| Sędzia | Zbiór | n | Zgodność | κ | Fałszywe alarmy | Pominięcia | Wyszukań na kartę | Karty bez wyszukania | „Niesprawdzone” na kartę |\n|---|---|---|---|---|---|---|---|---|---|\n| Gemini 4 Argon | rozszerzenie (P01, P04, P08–P10) | 79 | 95 % | 0,90 | 1 | 3 | 12,2 | 0 | 0,01 |\n| Gemini 4 Argon | pilotaż (P05–P07, P12, P13) | 68 | 99 % | 0,97 | 0 | 1 | 16,2 | 1 | 0,01 |\n| GPT-6.1 Sol | rozszerzenie (P01, P04, P08–P10) | 80 | 90 % | 0,80 | 7 | 1 | 11,2 | 0 | 0,36 |\n| GPT-6.1 Sol | pilotaż (P05–P07, P12, P13) | 80 | 92 % | 0,84 | 6 | 0 | 13,5 | 0 | 0,38 |\n| Gemini 3.1 Pro | rozszerzenie (P01, P04, P08–P10) | 80 | 90 % | 0,80 | 0 | 8 | 4,3 | 25 | 0,00 |\n| Gemini 3.1 Pro | pilotaż (P05–P07, P12, P13) | 79 | 86 % | 0,71 | 5 | 6 | 7,6 | 9 | 0,08 |\n| Gemini 3.8 Flash | rozszerzenie (P01, P04, P08–P10) | 80 | 79 % | 0,58 | 1 | 16 | 4,7 | 9 | 0,01 |\n| Gemini 3.8 Flash | pilotaż (P05–P07, P12, P13) | 80 | 91 % | 0,82 | 2 | 5 | 6,8 | 4 | 0,00 |\n| GPT-6 Astra | rozszerzenie (P01, P04, P08–P10) | 6 | 100 % | 1,00 | 0 | 0 | 10,3 | 0 | 0,17 |\n| GPT-6 Astra | pilotaż (P05–P07, P12, P13) | 43 | 98 % | 0,95 | 1 | 0 | 10,2 | 0 | 0,37 |",
+  "SEDZ_PYT": "| Sędzia | P01 | P04 | P05 | P06 | P07 | P08 | P09 | P10 | P12 | P13 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Gemini 4 Argon | 16/16 | 15/16 | 15/15 | 12/12 | 13/13 | 15/16 | 15/15 | 14/16 | 14/14 | 13/14 |\n| GPT-6.1 Sol | 15/16 | 16/16 | 16/16 | 15/16 | 15/16 | 11/16 | 15/16 | 15/16 | 13/16 | 15/16 |\n| Gemini 3.1 Pro | 14/16 | 14/16 | 13/16 | 14/15 | 15/16 | 15/16 | 14/16 | 15/16 | 11/16 | 15/16 |\n| Gemini 3.8 Flash | 9/16 | 14/16 | 13/16 | 15/16 | 15/16 | 14/16 | 13/16 | 13/16 | 15/16 | 15/16 |\n| GPT-6 Astra | 2/2 | 1/1 | 9/9 | 9/9 | 9/9 | 1/1 | 1/1 | 1/1 | 8/8 | 7/8 |",
+  "RODZINA": "| Sędzia | Anthropic: pominięte / halucynacje w kartach | Google: pominięte / halucynacje | OpenAI: pominięte / halucynacje |\n|---|---|---|---|\n| Gemini 4 Argon | 1 / 44 (2 %) | 2 / 24 (8 %) | 1 / 12 (8 %) |\n| GPT-6.1 Sol | 0 / 49 (0 %) | 1 / 29 (3 %) | 0 / 13 (0 %) |\n| Gemini 3.1 Pro | 6 / 48 (12 %) | 7 / 29 (24 %) | 1 / 13 (8 %) |\n| Gemini 3.8 Flash | 6 / 49 (12 %) | 13 / 29 (45 %) | 2 / 13 (15 %) |",
+  "META": "| Sędzia | Wariant | Pytania | n (karty wspólne z sędzią bez raportu) | κ bez raportu | κ z raportem | Fałszywe alarmy bez → z | Pominięcia bez → z |\n|---|---|---|---|---|---|---|---|\n| Gemini 4 Argon | raport wiążący (v1) | P05, P06, P07, P13 | 54 | 0,96 | 0,85 | 0 → 0 | 1 → 4 |\n| Gemini 4 Argon | raport pomocniczy (v2) | P01, P04, P05, P06, P07, P08, P12, P13 | 115 | 0,95 | 0,88 | 0 → 1 | 3 → 6 |\n| Gemini 4 Argon | v3: ✓ tylko przy brzmieniu potwierdzonym | P01, P04, P05, P06, P07, P08, P12, P13 | 116 | 0,95 | 0,88 | 0 → 2 | 3 → 5 |\n| GPT-6.1 Sol | raport wiążący (v1) | P05, P06, P07, P13 | 61 | 0,88 | 0,83 | 3 → 0 | 0 → 5 |\n| GPT-6.1 Sol | raport pomocniczy (v2) | P01, P04, P05, P06, P07, P08, P12, P13 | 119 | 0,84 | 0,97 | 8 → 1 | 1 → 1 |\n| GPT-6.1 Sol | v3: ✓ tylko przy brzmieniu potwierdzonym | P01, P04, P05, P06, P07, P08, P12, P13 | 128 | 0,80 | 0,89 | 11 → 4 | 1 → 3 |",
+  "KOSZT_PELNY": "| Część | Pozycja | Karty | Tokeny USD | Wyszukania | Wyszukania USD | Razem USD |\n|---|---|---|---|---|---|---|\n| Odpowiedzi | 160 odpowiedzi ośmiu modeli (W0 i W1) | 160 | ≥ 15,78 | — | 0,00 | ≥ 15,78 |\n| Sędziowie-modele | Gemini 4 Argon, specyfikacja v1.0.1 | 147 | ≥ 6,18 | 2072 | 29,01 | ≥ 35,19 |\n| Sędziowie-modele | Gemini 3.1 Pro, specyfikacja v1.0.1 | 159 | ≥ 5,73 | 945 | 13,23 | ≥ 18,96 |\n| Sędziowie-modele | Gemini 3.8 Flash, specyfikacja v1.0.1 | 160 | ≥ 1,91 | 913 | 12,78 | ≥ 14,69 |\n| Sędziowie-modele | GPT-6.1 Sol, specyfikacja v1.0.1 | 160 | n/d | n/d | n/d | n/d (Codex z subskrypcji; tokeny niezapisane) |\n| Sędziowie-modele | GPT-6 Astra, specyfikacja v1.0.1 | 49 | n/d | n/d | n/d | n/d (Codex z subskrypcji; tokeny niezapisane) |\n| Warstwa weryfikacji | krok faktów (kod, źródła publiczne) | — | 0,00 | — | 0,00 | 0,00 |\n| Warstwa weryfikacji | weryfikator poparcia (6 biegów: testy, strojenie P09–P10, test na 8 pytaniach, poprawki) | — | 26,38 | — | 0,00 | 26,38 |\n| Warstwa weryfikacji | karta meta Gemini 4 Argon v1 | 64 | 6,57 | 193 | 2,70 | 9,28 |\n| Warstwa weryfikacji | karta meta Gemini 4 Argon v2 | 125 | 15,97 | 571 | 7,99 | 23,96 |\n| Warstwa weryfikacji | karta meta Gemini 4 Argon v3 | 127 | 17,07 | 652 | 9,13 | 26,20 |\n| Warstwa weryfikacji | karta meta GPT-6.1 Sol v1 | 61 | n/d | n/d | n/d | n/d (Codex z subskrypcji) |\n| Warstwa weryfikacji | karta meta GPT-6.1 Sol v2 | 119 | n/d | n/d | n/d | n/d (Codex z subskrypcji) |\n| Warstwa weryfikacji | karta meta GPT-6.1 Sol v3 | 128 | n/d | n/d | n/d | n/d (Codex z subskrypcji) |\n| Warstwa weryfikacji | testy dymne | — | 0,26 | — | 0,00 | 0,26 |\n| **Razem** | | | **≥ 95,85** | | **74,84** | **≥ 170,70** |",
+  "MACIERZE": "| Sędzia / reguła | Zbiór | n | Halucynacje w kartach | TP | FP (fałszywe alarmy) | FN (pominięcia) | TN | Zgodność | κ | Przedział 95 % (bootstrap po pytaniach) |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Gemini 4 Argon | rozszerzenie | 79 | 41 | 38 | 1 | 3 | 37 | 95 % | 0,90 | 0,80–0,97 |\n| Gemini 4 Argon | pilotaż (16 systemów) | 68 | 39 | 38 | 0 | 1 | 29 | 99 % | 0,97 | 0,90–1,00 |\n| GPT-6.1 Sol | rozszerzenie | 80 | 42 | 41 | 7 | 1 | 31 | 90 % | 0,80 | 0,59–0,95 |\n| GPT-6.1 Sol | pilotaż (16 systemów) | 80 | 49 | 49 | 6 | 0 | 25 | 92 % | 0,84 | 0,73–0,94 |\n| Gemini 3.1 Pro | rozszerzenie | 80 | 42 | 34 | 0 | 8 | 38 | 90 % | 0,80 | 0,75–0,85 |\n| Gemini 3.1 Pro | pilotaż (16 systemów) | 79 | 48 | 42 | 5 | 6 | 26 | 86 % | 0,71 | 0,52–0,86 |\n| Gemini 3.8 Flash | rozszerzenie | 80 | 42 | 26 | 1 | 16 | 37 | 79 % | 0,58 | 0,40–0,70 |\n| Gemini 3.8 Flash | pilotaż (16 systemów) | 80 | 49 | 44 | 2 | 5 | 29 | 91 % | 0,82 | 0,71–0,87 |\n| GPT-6 Astra | pilotaż (16 systemów) | 43 | 29 | 29 | 1 | 0 | 13 | 98 % | 0,95 | 0,82–1,00 |\n| Gemini 4 Argon sam | rozszerzenie, karty wszystkich czterech sędziów | 79 | 41 | 38 | 1 | 3 | 37 | 95 % | 0,90 | 0,80–0,97 |\n| Argon albo Gemini 3.1 Pro | rozszerzenie, karty wszystkich czterech sędziów | 79 | 41 | 39 | 1 | 2 | 37 | 96 % | 0,92 | 0,87–0,97 |\n| większość z: Argon, Sol, Pro | rozszerzenie, karty wszystkich czterech sędziów | 79 | 41 | 38 | 1 | 3 | 37 | 95 % | 0,90 | 0,86–0,95 |\n| którykolwiek z czterech | rozszerzenie, karty wszystkich czterech sędziów | 79 | 41 | 41 | 7 | 0 | 31 | 91 % | 0,82 | 0,61–0,97 |\n| Gemini 4 Argon, bez raportu | karty wariantu v1 wiążący | 54 | 35 | 34 | 0 | 1 | 19 | 98 % | 0,96 | 0,88–1,00 |\n| Gemini 4 Argon, z raportem v1 wiążący | karty wariantu v1 wiążący | 54 | 35 | 31 | 0 | 4 | 19 | 93 % | 0,85 | 0,76–0,95 |\n| Gemini 4 Argon, bez raportu | karty wariantu v2 pomocniczy | 115 | 62 | 59 | 0 | 3 | 53 | 97 % | 0,95 | 0,90–0,98 |\n| Gemini 4 Argon, z raportem v2 pomocniczy | karty wariantu v2 pomocniczy | 115 | 62 | 56 | 1 | 6 | 52 | 94 % | 0,88 | 0,86–0,91 |\n| Gemini 4 Argon, bez raportu | karty wariantu v3 status | 116 | 63 | 60 | 0 | 3 | 53 | 97 % | 0,95 | 0,90–0,98 |\n| Gemini 4 Argon, z raportem v3 status | karty wariantu v3 status | 116 | 63 | 58 | 2 | 5 | 51 | 94 % | 0,88 | 0,86–0,91 |\n| Gemini 4 Argon, bez raportu | karty wspólne v2 i v3 | 115 | 62 | 59 | 0 | 3 | 53 | 97 % | 0,95 | 0,90–0,98 |\n| Gemini 4 Argon, z raportem v2 | karty wspólne v2 i v3 | 115 | 62 | 56 | 1 | 6 | 52 | 94 % | 0,88 | 0,86–0,91 |\n| Gemini 4 Argon, z raportem v3 | karty wspólne v2 i v3 | 115 | 62 | 57 | 2 | 5 | 51 | 94 % | 0,88 | 0,85–0,91 |\n| GPT-6.1 Sol, bez raportu | karty wariantu v1 wiążący | 61 | 41 | 41 | 3 | 0 | 17 | 95 % | 0,88 | 0,81–0,96 |\n| GPT-6.1 Sol, z raportem v1 wiążący | karty wariantu v1 wiążący | 61 | 41 | 36 | 0 | 5 | 20 | 92 % | 0,83 | 0,75–0,93 |\n| GPT-6.1 Sol, bez raportu | karty wariantu v2 pomocniczy | 119 | 68 | 67 | 8 | 1 | 43 | 92 % | 0,84 | 0,70–0,96 |\n| GPT-6.1 Sol, z raportem v2 pomocniczy | karty wariantu v2 pomocniczy | 119 | 68 | 67 | 1 | 1 | 50 | 98 % | 0,97 | 0,92–1,00 |\n| GPT-6.1 Sol, bez raportu | karty wariantu v3 status | 128 | 73 | 72 | 11 | 1 | 44 | 91 % | 0,80 | 0,68–0,93 |\n| GPT-6.1 Sol, z raportem v3 status | karty wariantu v3 status | 128 | 73 | 70 | 4 | 3 | 51 | 95 % | 0,89 | 0,82–0,95 |\n| GPT-6.1 Sol, bez raportu | karty wspólne v2 i v3 | 119 | 68 | 67 | 8 | 1 | 43 | 92 % | 0,84 | 0,70–0,96 |\n| GPT-6.1 Sol, z raportem v2 | karty wspólne v2 i v3 | 119 | 68 | 67 | 1 | 1 | 50 | 98 % | 0,97 | 0,92–1,00 |\n| GPT-6.1 Sol, z raportem v3 | karty wspólne v2 i v3 | 119 | 68 | 65 | 2 | 3 | 49 | 96 % | 0,91 | 0,85–0,98 |"
+ }
+}

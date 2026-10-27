@@ -1,0 +1,136 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 56 w zw. z art. 49 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 436 k.c.",
+   "zrodlo": "Ustawa z dnia 23 kwietnia 1964 r. – Kodeks cywilny (Dz.U. 2026 poz. 795)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo zaprzecza błędnej przesłance pytania na wstępie, wskazuje wymagane podstawy prawne (art. 41 ust. 2 i art. 53 pr. aut.) oraz podaje praktyczny katalog pól eksploatacji dla social mediów (A-R = 2, A2 = 1, R = [1,1,1,1,0]). Nie otrzymuje punktu za piąty element rubryki, ponieważ nie powołuje wykładni umowy z art. 65 k.c. ani linii orzeczniczej SN. Kryterium A6 wynosi 0 (typy T i W) z uwagi na błędy w uwagach pobocznych: przypisanie kwestii przeniesienia własności nośników (art. 52 pr. aut.) przepisom art. 56 w zw. z art. 49 pr. aut. (T), powołanie art. 436 k.c. (odpowiedzialność posiadacza pojazdu) jako podstawy roszczenia o wynagrodzenie twórcy (T) oraz posłużenie się nieaktualną od 20.09.2024 r. przesłanką „rażącej dysproporcji” przy art. 44 pr. aut. (W wg reguły B10a). Ze względu na obarczone błędami dygresje w uwagach dodatkowych i wątek podatkowy A8 obniżono do 0,5. W bloku B przyznano maksymalną ocenę (B1 = 2, B2 = 1) zgodnie z regułami B11 oraz zakazem podwójnego karania za błędy poboczne z A6.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"art. 41\" \"art. 43\" \"art. 44\" \"art. 46\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"art. 49\" \"art. 50\" \"art. 52\" \"art. 53\" \"art. 56\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"art. 16\" \"art. 81\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"Art. 436.\" \"Kodeks cywilny\" OR OR",
+   "\"DU/2025/24\" OR \"o prawie autorskim i prawach pokrewnych\"",
+   "\"Art. 44.\" \"niewspółmiernie niskie\" \"o prawie autorskim\" OR OR OR \"Dz.U. 2024\" OR \"Dz.U. 2025\"",
+   "\"Art. 52.\" \"Art. 53.\" \"Art. 56.\" \"Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania formy pisemnej\"",
+   "\"Art. 46.\" \"Art. 49.\" \"Art. 56.\" \"o prawie autorskim i prawach pokrewnych\"",
+   "\"DU/2026/795\" OR \"Kodeks cywilny\"",
+   "\"Art. 46.\" \"Jeżeli umowa nie stanowi inaczej, twórca zachowuje wyłączne prawo zezwalania na wykonywanie zależnego prawa autorskiego\"",
+   "\"Art. 56.\" \"Twórca może odstąpić od umowy lub ją wypowiedzieć ze względu na swoje istotne interesy twórcze\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEUKdVK51CS8adsedVawLC85rKQ-c39Jz2sd2yZ7wOzbGuvsgXvVQqaFEMvca5Gjfe2z4tkKDAiWYMbPAJQabHdTde85E17NLQFIvaBkr69tjrpatZPtlPPIS7jqkQHACyXG_zA7jV_-xqnNE2Pt2E5GcFNn28nKpQIHfBKs82I29QiFsNmNU0mcMqgW-plPEgB8iclDb3lJGTObfVf0UfqTgooYph_n43mFxX0ZCp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPQtLoENhuC8_mSl8hWHxt_8Apth-6Nb7sW3lSTEk3_oHf6shp4rb7Ry6bKwb4Tu-jBS8K0ebL7mlhEP9qqPJYORU95lVUc_QOppByvsnMDOyFQdB-pMxmORIQ7ECBJQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErTSqy-A2ukn2X16T-pB32YI_OoGix0Tcsx0izWYLD4fqjgTbhfe5FL919RNknTYjx_uD7XLTK9l2We9_4ENevDsNNLvM5udBDCK--oO1bWM9jwy33Q3PQBhei1bt66FQt5NmfYdwRhWRJXtqXpbLrboSIYmfOPZLbj2CsbY-RaXciLTC5MQE7js2fa3HMMhtKiJDWhv9Gge57emFpog==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9UzILiPkFJ9q8FMtN_v12VKOt3mIMj6o82YzSyLvRlPnnD67Lm_f_COeLVuqgUFvCjRNJNpcvs37VIanzF7Y7s9DZZN3l1ycxTkgJ49N3VZKMIgMx1AV93kXd0NBV47-4gRyLXYIOoEh-zkV-t65A3rN76GT4OcvWP26XvSHnphCrEReJMWmnvGl-7Y01Z7c7vYeGqw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZlVRSOaX7F5VMaF6yBmophW9zhNWqOYa4depLye4TctOaWdkAac8JLlBY9HEkuqQaLDH2Z0NF2w2oK87WcIOxMQAB1u0tgrdAuojCh7Z85odeqweg5BJe4kN7lPB7mZ4F61eXDFKXWKMGBuetn_4nW4_Tcbz-54ygpNVH7eTgUjo53hoke_afvxwO06mfn_CbAmc60hBG8BNMhQTn",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw9OqZ4uu_Z_rh0uaTMbx56w9GRk0Zi-1YWfjcj5PRd1CXRB714kP9Uz5zpUUTaTstTE8Uf2OYSa947JkZbshSYoeAcI9kEQBbZmwpP87JtHTnkJLh8zgT5d2-icjg0PxLPNHFnPqqDohRebcub2MWStRtThBnCNvdlnHKIjkokfCSAO1EUK0_yUJRIyDvN__uiQhS4gmDSFaHJksH",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNpH5p6429Y59X4BPGLZnG7n3WtohDxZG1MbtKIo5efD18cS9cAI_6jbrm329JfSUnYhhNgsOdZhiBmstvb3PyeI5EOTacdRucMOjQ5SqOHWi89ZvxU3fl2G_15xpK19Khrmh8A268HFwW9GXVMWDl1bXd1kIAAQzz9L0q_ycnh4rO0anVy_-NJzq5mw87jOLJgqJwd6gcTfKX0JvtQnQxwiK_6NTJxQaS8ETHVriZ5i86HHBN",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHzJ1NQwAElw3tigjW2oiqSKUF05wv4BlXUMOLW1VvXFajHkVHG7a4eI1XNPwLn7iSTaGUkKvkrrRdoQIKQ_vCAmimrU5oLAzHsPzbgqbGievwbA2UTclqYDFcVpxn2syKsTt80Fuoyg7jgFG2F56b_Iy9m2vt-cW9oWe_yB5WiSYrb-j6jKnYm77MusATT7Q2m4AHHRiA3XNrQ9lexA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7ZXGP6Jj7mEw16skWQsWhWpyxbunky5O50RFu9WvCxk5fJpvEpmbMNPwAyfP3I4l0N7YYN2cdVAW-wzc83uiIWkZdS-9hIYro-6n-MMWc31PuRJ3SnY5U0-T1a102YzsaTpzsfluHaNtBYuX-NOVvOOrggcmJNAQyOPep0iy45PvN9O_SXi5Uv6_UwJLwso8jYpgh1wUEGlQSjXg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHv3u8u8GV-py2gO7Gys4LPuYmrpyblupSzsyR0LeOPKBshtRbGwYVigNrMx3RgAJgQ9WvlRQQpKi1PJ8oMVnynCdn9D2RMkArmTIHB-lpaTNIM8TlDKr6kh5DO4ruBCguoR_i1SbYOGg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJLRspAm8wuS5ddv2-U_Zm3BndfHMGtV0EnIVfoVqIEAvs1w_WgAurehgSmDbwnXKZhprBHRt-F0UZp-jRkB4ADobqc8dzPSLm-_VMB2uOnTlpdDTNys1ULmIRsD1VtEjq",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk6stzUrUydZmCEzHWEOd6iHto48eyLfnIgN8IpIAB3L9cNFI_WrtOjQsVH7GEXeJLLcXbbBc-Ls6c9UywWfQ_zJ17pFJfSasAI20O3B_fNz27tnNrWsw1Tic-0cBaIoBJl4KlHJUu84Jaub4FMOJoa4CC1v6xL8gN-k9ZVws22LjKPeX7jmOKG7Kqmrul1j10dJ7lMeii0KgAbvUhsrXW0BJ4zRZ1cfy549U21_d-fAapuutCWVvFrKNu"
+  ],
+  "tokeny": {
+   "wejscie": 14270,
+   "wyjscie": 2220
+  },
+  "czas_s": 203,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

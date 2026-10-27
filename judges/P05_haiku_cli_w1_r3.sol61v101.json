@@ -1,0 +1,97 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 133 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 138 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 139 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 1361 k.p.c.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131–139, art. 133–139 oraz art. 131–147 k.p.c. — ogólne wskazanie regulacji doręczeń",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 k.p.c. — miejsce doręczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 138 k.p.c. — doręczenie sąsiadowi lub osobie zatrudnionej w mieszkaniu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 139 k.p.c. — odbiór awizowanego pisma w sądzie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. — powiązanie doręczeń z kategoriami zawodowymi i e-Doręczeniami",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 1361 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "ustawa o doręczeniach elektronicznych; zakończenie ogólnej równoważności ePUAP od 1.01.2026",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2026/3/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Brak rdzenia, wymaganych podstaw i wszystkich elementów rubryki dotyczących wyboru doręczeń portalowych. Miejsce doręczenia reguluje art. 135, art. 138 nie wymienia sąsiada, art. 139 wskazuje placówkę pocztową lub urząd gminy, art. 131¹ uzależnia doręczenia od korzystania z systemu, a art. 1361 nie istnieje. Dygresje o doręczeniach tradycyjnych i administracyjnych przeważają, uzasadniając A8 = 0. Zalecenia nie prowadzą do właściwego działania, a niepewność rozmywa jednoznaczny stan prawny. Kar nie naliczono: odpowiedź nie wyklucza bezwzględnie portalu ani nie stosuje wyraźnie awiza do doręczenia portalowego.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 12,
+  "czas_s": 82,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

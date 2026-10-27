@@ -1,0 +1,156 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 i 45 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 49 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo wskazuje, że ogólna formuła nie wystarcza do przeniesienia praw autorskich (A-R = 2). Powołuje wymagane przepisy (A2 = 1). Nie zawiera cytatów w cudzysłowach przypisanych przepisom (A3 = nd). Odpowiedź jest kategoryczna i pomija możliwość uratowania przeniesienia praw w drodze wykładni z art. 65 k.c., co przy oczekiwanej kalibracji warunkowej skutkuje obniżeniem B2 do 0. Wszystkie powołane przepisy są zgodne z ich rzeczywistym brzmieniem (A6 = 1). Projekt klauzuli to jedno zdanie, więc nie obniża ram (A8 = 1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 65\" \"W braku wyraźnego postanowienia o przeniesieniu prawa, uważa się, że twórca udzielił licencji\" prawo autorskie",
+   "\"art. 41 ust. 2\" prawo autorskie",
+   "\"art. 41 ust. 4\" prawo autorskie",
+   "\"art. 53\" prawo autorskie"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERH2fiPeDrlRJCULnBA7Tr3OoWlvAuhYmCHc9NVMoPk6t87pLMqDXEywrT604suzDNoYAgeVbHt5j-wE8u7xU-70DI-ipkGUDzubYO8RdFrfJpPWnmdIAfi0H5r0kKr2U8uWYyMQm3kgeXn_25SqN7Yhjh0b13S_ewg-elcs76c5huZE9NU6zpu7e5U_3uiZazXRWg",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOeqqgd5RPJlGF6ajhsjof-8B_Yw9bgpl8y2fUKEephcAcKujs8xnNm7KugK4USZAdKrYcufL5O3JXy8lwHhj2ar_3afW0aF8p_aAafsM3xvzVLOzt4cutNWK4Hw6qdiGx_M5K4XH-UfU-3MToRc2w4iv0VgYRV0o1DPKE5cibQwpOKea4QPmjSTouhYsuzSK8e8pnYcONfukEgFRV-8tgbWiel5c=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlsbL1sn6MC3xfj3JfcfphadLYUZDSTBl4lGmZMlcau9zf7H0PUMZmfThuMUxkzSt-_x4kDJIo8GImjO3f3gVv4Q9zw6eClqm1P-KUcQG3SeioHbbADiD7JTrqklyCoHvbvFXTFn0o_lYCyNAdTcyb--K88TibVFA3uFWnRA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaUJT5NrfZkzdPImaQ4aKNIHsssXY0v70uxToRo_pizh_2e1XxoKGkIacjh9Dq59LCBYTqM9IR7_MtAqinsGTEErxpgCBPyrnmXaicafFvSjAw-jvq-XnJcN9Ixn9gh5tD-abS137wMoL2bv3sQ6YIGAz9XFFC1wtVy9tVVkW2mAEyzpeFhQWIGYcFs96U6-0gtLyPvgLRo8C053CcpYbnEdnPUiDbWtkdNEg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3pJvUk3jzLjZzWw7vc-W2sEryittNdnN7XsEn-1bGnH-9zuJ71-mgG6w2Du_i6DlxXQ5HOnzTxw0tOz-oFr0H3s0C4FFlFy1TdxiLt06Oo5ryiNrt3IZWRHE6Ej69oah3ZGXEisWactkjsJ5mOdOW7pX4hrpjgGDTMNUQqx-J4fKAD65AjSs4KNw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoi7xH2uXbVipzQJuz9_ZzpX2zSitHNCDg8I23lJueLTn8RHC9SQfOWHman5JI20Z2bh0wClAMbhWaySugki2hMevdFjqGHS3HrpnrxOVRPVFlpP8vVrustAVrMirodbCIhTqXvZqwX6gWT3GRqqKz65ft3_7isYwo_kprYBr6ANW-iTR3XvMj_zzedjaHeLjmUXU82pJ0JgbyG_Jr",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwbQHgwi26JoaiKxLCIn2bX2srG7aPt6AHk-RaCbwkHhSOoI36yT5hxrDm9reQ74p1qbQL0s50ZNiuRi_nnCrbINSrTyXLPHXlNzuWMlpZbfucfdDYEUUJJqyMRW92942PMgjOHIzGAjEXS4W1A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKOtUI9Fb4aTLsdGjmxlfmg8SWa8HWDZl8JdruKR6BSVhQTNyzUcafNB2oZ9_obcR-gZnba_3BQJ38W697e0P00gUpWYIx2xaAHZyrh5mD2ZhOdTfc1s70Kt7YBBnhFV0ZrmcVY_Z48d-e305Z6JUMBPPQO4UfKyk_Jg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1HR7_PwvJNEnTaJz1XTKoVNikB4DynFG-uCsW3ZNsSrFORoPB-ivsT4kGpTwtxt0n12pGMOERoLD0HTTUo-2RfshtH7FRVqpTrymma2JDdyd2XNr6lIQdZcW-B3CUQ_ozQgiSXAK67KdybI1eTRcB0mPtjdvb8T5KYUxZtwtFV5TMxwFOyUq37oQVXND_OAqdwgHZxgWLVpX3yOcVRQVKJ290rw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp7AXa-Se7Af4LOUgcXu8PR34XX3MQlN7L4iI2LJ-Bw0Rcg8RIUTNG3xyN3F5iV4R2hkVxONSKMQYFFvY-S8a2ODouoxEjCcf7Zc7fCQhXKAtT3i0-a-dooI8RDK9AsrdXYgHfsdoOqkThwqkgW6vfeiE6QeSJ3QXThfasiBgXZlZ1tDJ_fLqxgmYmbGtKFvNZHKNSeo2tVHzTd0X_64bLDuV7cjhUrzE87x0_B4gJLvpZ4lK6CgGgaUV_Blc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0KXpQjRyKJ5wyNehR2fO5927wxFi-eRyhyk3znmnNaWgGP5Pm-PMoG0R3vOzOq3YtPYNO3lGGOMIkXP5cdQLPAijA6Gx0rWv53YUjywqt3TCATBUdR2c2i3l65uD0kiE729kKa58v2sG52qGpojuDbSHC_-xGGYbJN5E5IhctLnjCbesZ6YV4s6-Cf3PjvTglFmnurwCWaJqi3TkSZJrN9zO-eLp51sfduqKniZujpERjbxmZr1y_jUIejq0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg5f_7uchlO212NhowonahQ1mt83lseMjZfRNNso2P38fIdjRcbotlnHWMeVy8QBdHBg3m0v2wMpBR37_qWG6P-PruUM94w2Nxpz4kTTSQ5qKiDEdRK9pD_jfJhEEbPFSlJe91_brrPdD5qfcaSXsdARehc4jtKLgCj-7S255MfJBr6O8K_INZg-a8OlcAicFmow==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjtQVWbx-RtLOBZQFzXVNk_2xgXltRdPj5BcElZNkkCmhQqNFpQ098PxrZmeN7kUal9rN-h0u4ADkQKExWcLSkddLBbctqjlCrvDUjWgSQR9zJ88-jkF9h1Lcnt6WkwnGWddQv-HqsBE-twnLfR5J8Rwrak5jA1G3PD_FpobqfJPSnjVSry8TXEifxMAr18I8elGWUWIZQDrKyFZ0c",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGayEevuohb9dwB4RwbYMhJ7Sml9RT_ZOuseHFYcUNnSu9p4yJZv2Fkye1MKQ5T01UC3bVLhOj2CYtguEUYOFvGUUxBV7nT7GGNXlPn6ZpUs83lHEXh6sSmbrNpuKt7uNPKUkalOYYUziX9NtRJemTITXXo-6CMltatCxuni49ia4bdnJPSEslnYEcwxA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGDfh4BpgoZ4cuBlTXWac5tM724nyJ2pLlyD9tYHkwEIioqoRJT3FjHNYHtH9b9b66EIzfVVVROZZB1n3UhDwTdmaZ0CfFrr0bRPjz--HSO1sBiVlE2J27DufWDKGRNLG2ee4f6A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl63U6txaZH8j0zpxoDsxONwUT5vfKV7KgFSHf9jamDcduwkL3NdkzvZe6BByvPLdkZ0C4k7AqgHYbPfqLgt1Rb2s0tAA83aOhabqzH1S48rkqbAThv1RTit3dijCozzMoi_xt4qYP0afMvrIggO3X8Jseazbd5X9JbaI6awQMYWDcx4tYQOQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKlCFfQkluqJaCH_VaI760gk29flnTKW9eeHX-300j3yGEuf4diP2u06j8iIvWakF359YLv_bhW8AT3KS3xgTbAX7ntmUlU_1zDeIwLBsDBqvmL2i7g8AQh60-2HaJ6zM19wNdkgbF3hXaM-76FLHdveQ1G3OxZTtwDucv8vfonNM6Gf8n5QBbqxZmjIifMja1xOyTl5rJa7RNHvnT",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh3mEgI0DeqkO6eUQ5HP3e4hI1CFtkWXTgKIGibTcT8vPMhdXLhd9L9FkDGHqDjjtEtMngDAvntrgMrXeAIVrQ3Z7rLcdOnDU52MTzQCI-e7YP65AZ1pEHZm9vzkgIJ-6orj8zTftgvnpqWqDD8kZtYZwONNrRXeZxF_HQ9yQn3uw="
+  ],
+  "tokeny": {
+   "wejscie": 15634,
+   "wyjscie": 1106
+  },
+  "czas_s": 173,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

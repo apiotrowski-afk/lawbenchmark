@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c. — wybór i rezygnacja",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 5 sierpnia 2025 r., Dz.U. poz. 1172 — rozszerzenie doręczeń od 1 czerwca 2026 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1172/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "KPC — oficjalny tekst pod adresem DU/2024/1568",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/1568/text/U/D20241568Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Informacja Ministerstwa Sprawiedliwości o rozszerzeniu doręczeń na obywateli",
+   "zrodlo": "https://www.gov.pl/web/sprawiedliwosc/portal-informacyjny-sadow-powszechnych-z-nowymi-funkcjonalnosciami-od-1-marca-2026-r-rusza-elektroniczne-biuro-podawcze",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń i wszystkie cztery elementy rubryki, w tym formę rezygnacji oraz moment jej skuteczności. Numery jednostek i przypisana im treść odpowiadają tekstowi urzędowemu; nowelizacja potwierdza datę 1 czerwca 2026 r. Pominięcie przesłanki niemożności doręczenia przez system teleinformatyczny oraz szczególnego wyjątku od doręczenia wezwania bezpośrednio stronie nie stanowi fałszywego przypisania treści. Brak cytatów dosłownych, a omówienie pełnomocnika pozostaje w zakresie pytania. Odpowiedź daje konkretne wskazówki i stawia tezę z właściwą pewnością.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 8,
+  "czas_s": 41,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

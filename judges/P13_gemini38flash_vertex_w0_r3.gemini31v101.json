@@ -1,0 +1,105 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 752 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozróżnia funkcję nakazu jako tytułu zabezpieczenia i tytułu egzekucyjnego, trafnie wskazując, że wstrzymanie wykonania dotyczy tylko tej drugiej. Powołane przepisy k.p.c. są w pełni zgodne z ich literalnym brzmieniem. System nie otrzymuje punktu za czwarty element rubryki, ponieważ nie wskazuje wprost, że skutkiem wstrzymania jest zawieszenie egzekucji (art. 820 § 2 k.p.c.). Odpowiedź jest wysoce przydatna dla praktyki i kategoryczna w swojej konkluzji, co daje maksymalne oceny w bloku B.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\" \"492\" OR",
+   "\"Zajęte pieniądze komornik wpłaca na rachunek depozytowy Ministra Finansów\" \"752\" OR",
+   "\"Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania\" \"492\" OR",
+   "\"Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia\" \"742\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoPLsrXeM5gQ-4H4vMZ6KlpM7gDWdtzOEk-NY5-vCy-pqvi45bcEhBOTH1cFpNWLihXZqxCa6WB1sCfQ6eXl-Uge0mTeqAvpOWiJ3LjTv2v0fy3isvrVVEjfZchBybpzHL9ngKvuoX18-6XexsmaZ5GJmlwBXNCWU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd9gdHzVMilBzWWgpFuMzorNUyBhCVuh16zaqaUmNuX7EyXXTxqif6YIQ9lZLlrNP4eAuEoCItON1lzX6JuYkeyLO_3SJCFhgwvlVia0Zgb33WUpH8XNrKMnG2_oodjI083dgkzpI6oIrTyN9N9djrIryT9oMXqxLpFYqcM4cgjuGMpcevNN3MrNCHkwlWjcLVZZPDeoIy5M_Zj9U=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX0UV6Iu4DZXPcJSt6cfwFp0UGmyhWA33eJ6wZzhQ474H6a1XfnNECgMPl-ZOqZNMtLyXLuNxJ57VpIgVtYizIEKbB5zAx7xXBR0_E3xa10WcIENdCu655GNnug1mUd0mi5NmPpvEfUpoI8IeQBHEIn1a8gpER_Jcoz5KoWkg2HZNxufYz1m5PEb9HRZEdSwYPSs43MHHUCHqE",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjZ0aQLZbC-5rXE5uBymnAcbXxjkChh9UJ427h9WLw1UU_COW_4bF8JKxrOktPx7OGutWwcQQE9WWY8vvS6KS6sghRsf9w18XLB0v2dhLVOS00d-t-B49_fhnC4qDbGrNZKvK_3QuS4qOmMT9KDQeUOe8Etb1eltqQzlhg6aMo99B4pBp2yMfb4NcvPkOPHGK65Xs28LG7XRXgZApnh6J62H6kW1aH1D21z4hDh1Minn4TljW2ew==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETcIYPUUL7E1eGwC5gbgqO_kXkJ8KzGIUqhEt6imjidBafluTz8U7K3fguDsdbbTYfaHZ0FyItNTtVXj8jgD55C3c9rWmxYBetw_slkKwEiaLLl4I29VCpJfS8UIgVihKcH_GOR_CUnl3aDwcUo9o2w9oYZ5yYae1B4VmPLrQ=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxWPdJrAC0-0PKy3-GkHwXA-Bv_YJQNlhH0qMtdlhir-pmO7LBMbOiyrZyJmtgYUImy7uUBlxiYuzxml53YIfvxfBrVbnG0Q1LORJKDWl_TyxYkhQTQ55IjOXDC_TzEB3SDezBmzHeNGXdfKdwrj1QMSz7lw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpj6Z8PTFf9OrJcW7-vDKKFAwmg681w-z_W4_JNy8XWXf5npITC05xEko7182BuMQOPaBb8Eu-AIXjR3m0Gmr93xpUBqWI3GhBXGdC5wSY0S-2lFCLLVdGRBcNTXzrkecR3iGOm194hn1oEeqAaT7VZcj3KlAmqvrb",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR2WpubFqJqJBWNYiMkQ2wZWSgQxLeup4NmLzjp9AFtGO1RPW0tIZER0MmjN1g0dUbxCvcHsCKzznTgeZJpXFo6PJihDiinhS5x8nAuIhvaqbX9AWBWVdlpGF3HS5S3LVl2_gMUpoze-HxGbwgKMbmQZTcUNOGVxejEWP5fkovbxIe9fRVL_Fk63cJ0D1zuCifgop7w3DqBWns",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGqp0EO0RMNe2vHr-8I_rAmND-zk1tz17gWS4xIkCupNQy7vr3pwZnpjKl_4tU2vIZXDdHovozxvsXaZ8SIpH5kjH-eWpPAR2S59TxWDivyzwhlEmJVN23E2OY32dD7j0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk7GwRumdnvihFAPvoOmvrYBFXedd3RrmlGfaYPxvtyLKMRfZOpuTCOagmisc0U4qzBqkdrR0ZuLkaiOuQQU7uvPtu0WLMze3hwZFIrp7BMS5HTd5_QxXfZT4Mhi1HPKxjoAHKn7Xibq3B4OjNA8mhVls7AJROns4tSeqw-FJHrkPOcC7pYuIMsylDLfvRdNtUBqPa_st8DJDUYI0amZHKoR8iWEb0yKKH6USLDO8JxA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPM6qY8CWpsjvBo5W-obvp30tSQsuUwdjv3KsyNtFypYdTKz9XrDCJNxoPQoGMZLACpwYfisiA4aMZJ0_Ec1685wHZI4EE_A7Jr2lM6iLnAbtg4g3Qtp4JrGy1Nyyke8FrQdY4fb6u0cVSCXNvpI3dCcl8bRG-IERPqx4A1BqdiucEhBIJsbVD2QElndAiJI4HWcjzh5Fa"
+  ],
+  "tokeny": {
+   "wejscie": 12364,
+   "wyjscie": 862
+  },
+  "czas_s": 137,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

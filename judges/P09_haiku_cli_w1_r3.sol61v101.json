@@ -1,0 +1,100 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 41 ust. 1 pr.aut.",
+   "pochodzenie": "pamięć"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "pochodzenie": "pamięć"
+  },
+  {
+   "powolanie": "art. 43–44 pr.aut.",
+   "pochodzenie": "pamięć"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 0.5,
+ "R": [
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 1 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 43–44 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 734 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 20–22 dyrektywy (UE) 2019/790",
+   "zrodlo": "https://eur-lex.europa.eu/eli/dir/2019/790/oj?locale=pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia trafny warunkowy rdzeń: ogólna formuła zasadniczo nie wystarcza, lecz zakres może wynikać z treści i celu umowy. Wymóg wymienienia pól błędnie przypisano art. 41 ust. 1 zamiast ust. 2, co obniża A2 i A6. Art. 65 pr.aut. ustanawia domniemanie licencji, a art. 43–44 dotyczą wynagrodzenia, nie domyślnego czasu i terytorium. Brakuje wskazania liberalnej linii SN oraz właściwej podstawy wykładni z art. 65 k.c.; błędne wskazówki ograniczają B1 do 1. Dygresje o prawach osobistych i implementacji dyrektywy obniżają A8 do 0,5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 8,
+  "czas_s": 40,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

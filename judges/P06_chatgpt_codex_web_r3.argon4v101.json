@@ -1,0 +1,69 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1, § 1¹ i § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "sn.pl / OSNC 2023/2/14",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo przedstawia pełny rdzeń odpowiedzi już w pierwszym akapicie, rozróżniając odrzucenie zażalenia poziomego (gdzie przysługuje zażalenie do innego składu SA na podstawie art. 394² § 1² k.p.c.) oraz zażalenia dewolutywnego na postanowienie sądu I instancji (gdzie zażalenie nie przysługuje), a na końcu dodatkowo dopytuje o rodzaj odrzuconego zażalenia (A-R=2, B2=1). Punkt w A2 zostaje obniżony do 0 z uwagi na brak powołania wymaganego przez klucz art. 397 § 1¹ k.p.c., a w rubryce R czwarty element wynosi 0 z powodu braku wzmianki o art. 130² k.p.c. Wszystkie powołane przepisy k.p.c. oraz uchwała SN III CZP 50/22 zostały zweryfikowane i są w pełni zgodne ze źródłami oficjalnymi (A6=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"394\" \"innego składu sądu drugiej instancji\" \"odrzuceniu apelacji\" OR",
+   "\"Art. 394\" \"tydzień od dnia doręczenia postanowienia z uzasadnieniem\" OR",
+   "\"III CZP 50/22\" OR",
+   "\"III CZP 50/22\"",
+   "\"2026\" \"468\" \"Kodeks postępowania cywilnego\"",
+   "\"2026\" \"468\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9374,
+   "wyjscie": 814
+  },
+  "czas_s": 93,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

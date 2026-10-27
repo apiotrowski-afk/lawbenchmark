@@ -1,0 +1,83 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 4 w zw. z art. 362 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź stawia całkowicie błędną tezę negatywną, przyjmując wbrew art. 357 § 5 zd. 2 k.p.c., że podanie zasadniczych powodów rozstrzygnięcia stanowi pełne uzasadnienie i zamyka drogę do wniosku o uzasadnienie (A_R = 0, naliczona kara K1). Przytoczony cytat art. 357 § 5 k.p.c. został zmyślony i przypisano mu fałszywą normę prawną (A3 = 0, A6 = 0, klasa T, hallucinated). Nie wskazano wymaganej podstawy z art. 357 § 1 ani § 2¹ k.p.c. (A2 = 0). Zamieszczenie sekcji o zarzutach zażalenia na lakoniczne motywy stanowi dygresję obniżającą ramy do 0.5 zgodnie z przykładem granicznym P07. Rekomendacja zaniechania wniosku o uzasadnienie grozi odrzuceniem zażalenia (B1 = 0), a forma wypowiedzi jest adekwatnie kategoryczna (B2 = 1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody\"",
+   "\"357 § 5\" kpc treść sejm isap",
+   "\"W uzasadnieniu postanowienia sąd może ograniczyć się do wskazania zasadniczych powodów\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10938,
+   "wyjscie": 730
+  },
+  "czas_s": 50,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

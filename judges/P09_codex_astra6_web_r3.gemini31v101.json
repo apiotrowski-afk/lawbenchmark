@@ -1,0 +1,99 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl / orzecznictwo",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo wskazuje, że ogólna formuła co do zasady nie wystarcza (art. 41 ust. 2 pr. aut.), ale dopuszcza wykładnię z art. 65 k.c. zgodnie z liberalną linią orzeczniczą SN (I CSK 596/17). Wymagane podstawy prawne zostały powołane bezbłędnie. Odpowiedź realizuje 4 z 5 elementów rubryki (pomija jedynie kwestię art. 12 pr. aut.). Kalibracja pewności jest prawidłowa (warunkowa), a porada wysoce przydatna i praktyczna.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"I CSK 596/17\"",
+   "\"I CSK 596/17\" \"art. 65\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDfC3_eEC_VAuxEnbk6ITTkoqL22vU8vtG6Jz8QqcwVQFZmXvbZwFKCb-wQXH09Qo46THp7UDEdrK7QMh37hNl4zkeLBcLMRv9y9Z_r83Qs5NNIYxjjqO54RH5CgMekLVndV2LpnmiQJVEF_JdEjmyMhJER0GCyv0MemuFsgpL6uW_y17BAXjlZjyJIFzOpaAiQpBQVnWFWIHmctkeej-Fq8NW37OHAeMQXY83l2IyPMb8",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvTqzYJCI8FrbRG7nQME39Oc0_mMYtuR2QqD6XK3y-lyXKieljECUxTKc6_Lbq_N4BNyvE3g5cBLD6ibumqqClSoqI5PfFCMxNxXpRJACCIiQNEa6SAy42_zr-VirtcyL56S3abZP5_4En3mrLGulI6xkbogR4KHzVDhUOtcnTe8HJLm-xvrci4_Yqo8G-2uI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_53vayD01HG1VkXahc4EwsCU2eJdoQG7OD99H1VGpyImKiFcEvY-KAoiN9snqJ5ee0H3ExNhNMB659XQtFAaWxXJz0Oi78OQFkaVkkugRnv56MdS3SAtEZNLgiQ4JPlOqBGvyREk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEF7FwfxeGKCoq1dQcc1xc8-oweyLjmJdl1Lk0AJCgmYMHGCqHIJgpzp4bMXjS5DurDVqCeKks5zgU2TcL1CBRnzppLYbdyq9mOLhplAqfBcHa0chZLysBFgmcleby90CD1NQ7DA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx9U3IyG9W9NhX1qPnmmaKwmhDa_INLrJNWPGFKgKGBWRaV41w0lsQGs6WL7ACKqEMH9QbVSwfpKjQBDXy_0aUKDXIrXP9QcB-aBtm6djxde4fU2XSGDKgYeZyg2wJFfloOZXc",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWbOia8wz0HKSFDGIkTcBNJep24EtYL-wLhNp2AI__-1Okis9r2iwRQRCOenjzwD-kfK_XBmS0xTRyXZ2DUlWsrHS83awsmN_sl6JiHMpyl_yg7x4Vx60M6tGMb-_7KQBOYH5bnf8my_j3k5f4-KaDluh92qg1tk8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuf1kRNzWZ7taZu9bDchmv1vA_qFCiSBUfDwlB7nZPHFZV5s8Uld1eR3ovlCntDUh1TUzeDHKWdf81Ro_sNYQBN8FtP3D85JZrv32iH-oruz4j1W5vcoF0Ws0Xi_xPkWhMUx14_l5b3a8CYLFvUuSEXRJg5kTLVISE0x3i0D_SjNnFnHFoPgfuSX07-dBT_H0qrqaSJijiOz2jFtiL6OaOAUtkdYudGTZ7v4dv3Tnrhq0XqWFb6xNB_cJQ2vwh_op8StKygAcLwlNcH6tj6zaNjC__bVrrI9drRDHmi56sn5irE6--xD3bTruFbKp3-f-g8Bnt9XWu3oDhl2lyWG5gm6bl2sPaHBllZJVzdxzyE80hp1hWt5acmcyhz-GdkRvrmEi_5vUXNMFuxs7dFhGNbn_NU2dADyzyTLeh1Q=="
+  ],
+  "tokeny": {
+   "wejscie": 14779,
+   "wyjscie": 788
+  },
+  "czas_s": 85,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia prawidłowy rdzeń, warunek zaskarżalności oraz tygodniowy termin liczony od ogłoszenia albo doręczenia. Wszystkie trzy powołane jednostki sprawdzono w oficjalnym tekście k.p.c.; ich numeracja i przypisane im treści są zgodne. Brakuje wzmianki o opłacie albo konkretnych wyjątkach z § 2³–§ 2⁴ lub § 6, więc czwarty element rubryki nie został spełniony. Nie ma cytatów przepisów ani podstaw do naliczenia kar; jednozdaniowy wzór wniosku nie obniża A8. Odpowiedź daje praktyczną wskazówkę działania i zachowuje właściwą kalibrację pewności.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 4,
+  "czas_s": 29,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

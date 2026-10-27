@@ -1,0 +1,92 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 i § 1 zd. 2 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 i zd. 3 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 1 i zd. 2 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z dnia 2 marca 2016 r., sygn. akt VIII Cz 83/16",
+   "zrodlo": "SAOS (orzeczenie 213643) / Portal Orzeczeń SO w Szczecinie — rzeczywista sygnatura to VIII Gz 43/16",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie rozstrzyga problem prawny, prawidłowo rozdzielając funkcję nakazu zapłaty z weksla jako tytułu zabezpieczenia (art. 492 § 1 k.p.c.) od jego natychmiastowej wykonalności jako tytułu egzekucyjnego (art. 492 § 3 k.p.c.). System realizuje wszystkie cztery punkty rubryki, wskazując zawieszenie egzekucji z art. 820 k.p.c. oraz pełen katalog środków obrony pozwanego przed zabezpieczeniem (art. 492 § 1 zd. 2, art. 492 § 2 zd. 2 i art. 742 k.p.c.). Kryterium A3 jest nieadekwatne (nd), ponieważ w odpowiedzi nie zacytowano dosłownie żadnego przepisu ustawy, a jedynie fragment uzasadnienia orzeczenia. Punkt za A6 zostaje jednak obniżony do 0 (klasa S, hallucinated=true) z uwagi na zniekształcenie sygnatury postanowienia Sądu Okręgowego w Szczecinie z 2 marca 2016 r. — podano „VIII Cz 83/16” zamiast rzeczywistej sygnatury „VIII Gz 43/16” przy zachowaniu trafnej tezy, sądu i daty.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"VIII Gz 43/16\" saos",
+   "\"VIII Cz 83/16\" szczecin",
+   "\"art. 492\" \"tytuł zabezpieczenia\"",
+   "\"2026\" \"468\" kpc",
+   "\"VIII Gz 43/16\" \"wstrzymanie wykonalności\"",
+   "\"VIII Cz 83/16\"",
+   "\"Art. 742.\" \"Kodeks postępowania cywilnego\" \"2026\" \"468\"",
+   "\"Art. 820.\" \"Kodeks postępowania cywilnego\" \"2026\" \"468\"",
+   "\"VIII Gz 43/16\" \"tytułu zabezpieczającego\"",
+   "\"wstrzymanie wykonalności nakazu zapłaty wydanego na podstawie weksla nie pozbawia\"",
+   "\"213643\" saos \"VIII Gz 43/16\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11985,
+   "wyjscie": 1203
+  },
+  "czas_s": 195,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

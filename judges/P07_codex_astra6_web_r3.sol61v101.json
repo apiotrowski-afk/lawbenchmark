@@ -1,0 +1,67 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5, w tym zd. 2, k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 k.p.c. — zasady uzasadniania postanowień",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "https://www.sn.pl/orzecznictwo/SitePages/Najnowsze_orzeczenia.aspx?ItemSID=1377-301f4741-66aa-4980-b9fa-873e90506a11&ListName=Zagadnienia_prawne&Rok=2021",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń, warunek zaskarżalności oraz tygodniowe terminy liczone odpowiednio od ogłoszenia lub doręczenia. Powołane jednostki art. 357 porównano z tekstem oficjalnym; przypisane im treści są zgodne. Datę, sygnaturę i tezę uchwały potwierdza wynik wyszukiwania w oficjalnym serwisie SN, mimo niedostępności strony przy bezpośrednim otwarciu. Wzmianka o odrębnym trybie z § 6 zalicza czwarty element rubryki, a jednozdaniowa formuła wniosku nie obniża A8. Nie ma cytatów przepisów ani podstaw do naliczenia kar.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 10,
+  "czas_s": 39,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

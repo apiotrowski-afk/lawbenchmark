@@ -1,0 +1,105 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 § 1 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "M. Manowska [w:] Kodeks postępowania cywilnego. Komentarz, Tom II, Warszawa 2021, kom. do art. 492",
+   "zrodlo": "Komentarz",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "T. Szanciło [w:] Kodeks postępowania cywilnego. Komentarz, Warszawa 2023, kom. do art. 492",
+   "zrodlo": "Komentarz",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "M. Manowska [w:] Kodeks postępowania cywilnego. Komentarz, Tom II, Warszawa 2021, kom. do art. 492",
+  "T. Szanciło [w:] Kodeks postępowania cywilnego. Komentarz, Warszawa 2023, kom. do art. 492"
+ ],
+ "uzasadnienie": "Odpowiedź prawidłowo rozstrzyga problem, wskazując, że wstrzymanie wykonania nakazu zapłaty z weksla nie pozbawia go funkcji tytułu zabezpieczenia. System trafnie powołuje wymagane przepisy art. 492 § 1 i § 3 k.p.c. oraz prawidłowo opisuje środki obrony dłużnika. Wszystkie powołane przepisy zostały zweryfikowane i są zgodne z oficjalnym brzmieniem k.p.c. Odpowiedź jest kategoryczna, wyczerpująca i bardzo przydatna w praktyce.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\" \"Dz.U. 2026 poz. 468\"",
+   "\"Jeżeli obowiązany złoży na rachunek depozytowy Ministra Finansów sumę zabezpieczenia\" \"Dz.U. 2026 poz. 468\"",
+   "\"Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\"",
+   "\"Art. 742. § 1. Obowiązany może w każdym czasie żądać uchylenia\"",
+   "\"Art. 492.\" \"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\"",
+   "\"Art. 742.\" \"Obowiązany może w każdym czasie żądać uchylenia\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNkWofo0wT9kSI5tzqiO3vHN0X4X_o4Gw3L7WPUew2QM9cuZ3nhy4jyXfdKBpDH6uzFn5qqQtSvWu7PvvF33-L0icURVN0S-DD7U8uwuVVH45ueg_w3P4rhasIMwMXOHMCGIEgfq3bGHCq7Tup7UVOLUSjTjc_IxKXDANQh0ol6pZ83W_Zr1iuLbBe7o8L2pkDK2QAgEao0sZkAA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE60kVaFuT4Kef1hVn7Os4t3bDLNsJP8aqZbvWYnnxM9I1xHbhnAEcEg473XacU51ajwbRVTcCuxkdZj2Z-VEjLuji_rGlK7zLkcuJ7lhKV0szkx5mqa2Xrwx_jL8jqtZ2JL1kymA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGErVgRDJXS4yIlG-F4fR_pj06t0Q4Xk0ti_HepBzRd-YFTKOyeW3y6UhEkhqadoZVQdVrVR7Omo1dPT7rmReMfHab-5LXOdjtYRHS_9sL5BqxVT8Gjtom04464HiZ6dGYgmDGov5GczaQq35318W-EQl0HoqY917cH0hg8_nwITvvmmTwbk9--JoBaHTB6kWswZHNajEpfeOcdQ22r",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9quI7-rRCm3frkOTPlRRBDF9mZi-cBPpUfsggOUO3c8ol_Bz0ePcATTWIN9aOXA4L7H34mBsIZP1jdeeshaCEbaIRvvvvxUKWoXY8qpbcVxnrZnCHh2fl92GVREG-FhCNWfI8RHwfaBd4K3rB3UO8spoNBzbDQUsIXV6chwdjOG85wF4Zm8-X7tvTICVBzoc2",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVlH95EkqnFfMeQGayCHr_G8ICUUVFgGoo7XnDwPFVGK2x5BcWidnHZR8vaOUBYV6T8yNPwjckA6ZuUqb4MbiJ5l5eH0ALegO6Dwb4R2O1ZH-EsaD9K6QDNTtMVLz1D6SpjH0iafTYPHwXBG5eUBf4XlhcmVgKV6qy5gB3RrqUeqYAtwCjK2euBbgtB2H-i_n3zTn5NhA_r4sv1UTdFeC_gEtB1C52Y6wOu2efoqVq_mU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs4Ot71NGxTT2RiUge0QYssERXPNs7POwWXHT-k2mlCCOlQDqOD8ipGrCE8bXC7Ktb4vfL-AiYYyq1pdJAYVlCiaSZccr75Z0AmmLwzdPr-R-ZBWem7M9xJoq3_-5mDCu7Z49inpfw5dkYHqowaX5oaYyGcW8NpUUvhHoD7pNi5T0qKNVoyQRCpVZH30ILjgIHSxVpXfcfyJDiqA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkHtMVJJwg7FRBOc4_tsVCwHl8Rrek0hxwv1CyjdPHkmSEfHFKbbGCUavz_ofy0wDmEWj34uVL0knZiQB8Z4FdN7uQ5ttSlEX3hwxUGsac36X-FDdd-YZT7NYbMh2JWS7wy_MfqbDpQBwhnGfDbufdfV65YMItrpFWBfcMRG1G",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfkTegLmsiQt-oktB3_RQGp2Rxu2vWLute8yOzdAiuRwXfAuzhsgVKctpK9A3Zpt-ungDfZoWJkn4DedD2HDdhWd2pyNmj9SuA8_7aSYbm135pZkX46tdB_mwu-dRgZdARLvO1O_vRpYkmb9SXYXn3n9bGidCuMrTnzdfY8LNZvHfiRy1XtHjj31tbn7UlXM_c9YEZKVYke5ho90OvnjJqPQLwtid58lPUqPkTXpEFWA=="
+  ],
+  "tokeny": {
+   "wejscie": 10846,
+   "wyjscie": 937
+  },
+  "czas_s": 136,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

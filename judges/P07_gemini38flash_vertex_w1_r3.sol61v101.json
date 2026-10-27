@@ -1,0 +1,79 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/I/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "https://www.sn.pl/pl/sprawy/zagadnienia-prawne/iii-czp-38-20",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/I/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/I/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 25b ust. 1 ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/I/D20251228.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 2³ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/I/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/I/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 4 w zw. z art. 361 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/I/D20260468.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń, wymagane podstawy i wszystkie elementy rubryki; cytat z art. 357 § 5 jest dosłowny, a przywołana uchwała SN potwierdza przypisaną jej tezę. Błędnie rozciągnięto jednak zakres art. 25b ust. 1 na wnioski dotyczące wszystkich postanowień: opłata 100 zł dotyczy postanowień co do istoty sprawy, natomiast dla pozostałych ust. 2 przewiduje 30 zł. Jest to T, skutkujące A6 = 0 i ograniczeniem B1 do 1 z powodu błędnej wskazówki dotyczącej opłaty. Pominięcia wyjątków od zasad uzasadniania postanowień nie stanowią osobnego błędu A6 według przyjętych reguł. Pochodzenie błędu jest nieustalone, ponieważ nie udostępniono śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 49,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

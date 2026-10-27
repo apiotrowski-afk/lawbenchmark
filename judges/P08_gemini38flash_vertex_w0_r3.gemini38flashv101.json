@@ -1,0 +1,83 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689 (AI Act)",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo trafia w rdzeń problemu: syntetyczny głos niewprowadzający w błąd nie spełnia definicji deepfake z art. 3 pkt 60 AI Act, lecz podlega wymogom przejrzystości dla dostawców z art. 50 ust. 2. Wszystkie powołane jednostki redakcyjne AI Act istnieją i zostały merytorycznie oddane poprawnie (A6=1), jednak cytat art. 3 pkt 60 nie jest dosłowny względem polskiej wersji urzędowej (A3=0). W rubryce zaliczono elementy definicji oraz rozwidlenie na obowiązki z art. 50 ust. 2, pominięto natomiast m.in. kwestię braku intencji, rozróżnienie adresatów ust. 4, daty stosowania oraz soft law. Przydatność dla prawnika i kalibracja pewności są wysokie dzięki wyraźnemu powiązaniu odpowiedzi z warunkiem.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"deepfake oznacza wygenerowane przez AI lub zmanipulowane\" eur-lex",
+   "\"przypominają istniejące osoby\" \"art. 3 pkt 60\" ai act"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13385,
+   "wyjscie": 673
+  },
+  "czas_s": 29,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

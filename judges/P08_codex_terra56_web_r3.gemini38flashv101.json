@@ -1,0 +1,70 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 w zw. z art. 113 rozporządzenia (UE) 2024/1689 (stosowanie od 2 sierpnia 2026 r.)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź precyzyjnie wyjaśnia definicję deepfake z art. 3 pkt 60 AI Act oraz trafnie dostrzega pułapkę pytania, wskazując na odrębny obowiązek oznakowania maszynowego dostawcy z art. 50 ust. 2 niezależnie od statusu deepfake. Wszystkie wymagane podstawy prawne zostały powołane bezbłędnie. W rubryce pominięto podmiot stosujący przy art. 50 ust. 4 (wymieniono tylko bezosobowo obowiązek ujawnienia) oraz nie odwołano się do wytycznych KE (soft law). Brak jakichkolwiek halucynacji prawnych czy naruszeń ram tematycznych.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13195,
+   "wyjscie": 661
+  },
+  "czas_s": 23,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

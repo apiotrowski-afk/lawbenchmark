@@ -1,0 +1,105 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 362 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 327¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System udziela odpowiedzi całkowicie przeciwnej do stanu prawnego (A-R=0, K1=1, B1=0), twierdząc, że wskazanie zasadniczych powodów rozstrzygnięcia z art. 357 § 5 k.p.c. stanowi skrócone uzasadnienie i wyklucza złożenie wniosku o uzasadnienie. Przytoczony w odpowiedzi cytat art. 357 § 5 k.p.c. jest zmyślony (A3=0), a przypisanie temu przepisowi normy przeciwnej do jego rzeczywistego brzmienia (art. 357 § 5 zd. 2 k.p.c. nakazuje odróżnić zasadnicze powody od uzasadnienia) skutkuje A6=0 (klasa T). Ponadto system błędnie powołuje art. 362 k.p.c. zamiast art. 361 k.p.c. jako odesłanie do odpowiedniego stosowania przepisów o wyrokach do postanowień oraz wskazuje § 1 zamiast § 2 w art. 394¹a i art. 394² k.p.c. przy terminie na wniesienie zażalenia (również T). Sekcja 4 dotycząca konstruowania zarzutów zażalenia na lakoniczność motywów stanowi dygresję wykraczającą poza pytanie o dopuszczalność wniosku o uzasadnienie (A8=0.5, zgodnie z przykładem granicznym nr 1). Zgodnie z regułą dla oczekiwanej kalibracji kategorycznej, błędna, lecz stanowczo sformułowana teza otrzymuje B2=1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 34,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" OR OR",
+   "\"art. 328\" \"art. 362\" \"postępowania cywilnego\" OR OR",
+   "\"art. 394\" \"Termin do wniesienia zażalenia\" OR OR",
+   "\"art. 327\" \"Uzasadnienie wyroku powinno zawierać\" OR OR",
+   "\"DU/2026/468\" OR \"2026/468\" \"357\" OR OR",
+   "\"3941a\" OR \"3942\" \"Termin do wniesienia zażalenia\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 328.\" \"Sąd odrzuca wniosek niedopuszczalny\" \"Kodeks postępowania cywilnego\"",
+   "\"W uzasadnieniu postanowienia sąd może ograniczyć się do wskazania zasadniczych powodów rozstrzygnięcia\"",
+   "\"eli/acts/DU/2026/468\" OR \"WDU20260000468\" OR OR",
+   "\"Art. 3941a\" \"Zażalenie do innego składu sądu pierwszej instancji\" \"Dz.U.2026.0.468\" OR \"Dz.U.2026.468\" OR \"Do zażalenia, o którym mowa\"",
+   "\"Art. 3942\" \"Zażalenie do innego składu sądu drugiej instancji\" \"Dz.U.2026.0.468\" OR \"Dz.U.2026.468\" OR \"Do zażaleń, o których mowa\"",
+   "\"Zażalenie do innego składu sądu pierwszej instancji\" \"394\" \"Kodeks postępowania cywilnego\"",
+   "\"Zażalenie do innego składu sądu drugiej instancji\" \"394\" \"Kodeks postępowania cywilnego\"",
+   "\"WDU20260000468\"",
+   "\"DU/2026/468\"",
+   "\"Art. 357.\" \"zasadnicze powody rozstrzygnięcia\"",
+   "\"Art. 328.\" \"Art. 361.\" \"Art. 362.\"",
+   "\"Art. 394.\" \"Termin do wniesienia zażalenia\"",
+   "\"Art. 327\" \"Uzasadnienie wyroku powinno zawierać\"",
+   "\"Kancelaria Sejmu\" \"Art. 357.\" \"zasadnicze powody\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10777,
+   "wyjscie": 2386
+  },
+  "czas_s": 255,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

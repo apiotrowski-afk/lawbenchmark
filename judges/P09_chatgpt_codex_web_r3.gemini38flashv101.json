@@ -1,0 +1,87 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 i 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna merytorycznie i precyzyjna. Prawidłowo wskazuje zasadę wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2) oraz rygor formy pisemnej (art. 53). Uwzględnia linię orzeczniczą SN dopuszczającą dookreślenie pól w drodze wykładni z art. 65 k.c. (wyrok I CSK 596/17), a także brak zastosowania reguły z art. 12 do zlecenia. Spełnia wszystkie elementy rubryki bez naruszenia kar.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"I CSK 596/17\" sn.pl",
+   "\"art. 41 ust. 2\" \"ustawa o prawie autorskim\" isap",
+   "\"art. 53\" \"o prawie autorskim i prawach pokrewnych\" isap"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12958,
+   "wyjscie": 648
+  },
+  "czas_s": 32,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

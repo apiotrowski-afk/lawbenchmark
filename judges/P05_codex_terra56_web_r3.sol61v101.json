@@ -1,0 +1,77 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c. — objęty odesłaniem do § 1–3",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie Ministra Sprawiedliwości z 12 marca 2024 r. — moduł „Moje doręczenia”, potwierdzenie odbioru oraz przesunięcie daty odbioru przypadającej w sobotę lub dzień wolny",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text/O/D20240368.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "zmiana rozporządzenia obowiązująca od 1 marca 2026 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/225/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie (UE) nr 910/2014 — uznawanie kwalifikowanego podpisu elektronicznego w UE",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/EN-PL/TXT/?uri=CELEX%3A32014R0910",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie (UE) 2020/1784 — doręczanie dokumentów w sprawach transgranicznych",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX%3A02020R1784-20250501",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń i wszystkie cztery elementy rubryki, a zbiorcze odesłanie do § 1–3 obejmuje wymagany § 1¹. Powołania odpowiadają treści oficjalnych źródeł, w tym reguła dotycząca soboty i dni wolnych oraz data wejścia w życie zmiany rozporządzenia. Nie przytoczono cytatów przepisów ani orzeczeń. Akapit o eIDAS i doręczeniach transgranicznych stanowi dygresję uzasadniającą A8 = 0,5. Wskazówki są praktycznie przydatne, a kategoryczna konkluzja odpowiada oczekiwanej kalibracji.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 10,
+  "czas_s": 48,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

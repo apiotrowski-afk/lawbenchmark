@@ -1,0 +1,60 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców — zezwolenie wydawane decyzją ministra właściwego do spraw wewnętrznych",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a. — ostateczność decyzji ministra wynikająca z samego braku odwołania",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. — decyzja ministra jest ostateczna z chwilą doręczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 61 § 3 p.p.s.a. — wniesienie skargi nie wstrzymuje wykonania decyzji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie wskazuje decyzję ministra i zaświadczenie organu, lecz wyklucza prawomocność decyzji administracyjnej, sprzecznie z art. 16 § 3 k.p.a.; zgodnie z kluczem oznacza to A_R=0 i K3=1. Art. 16 § 1 uwzględnia również wniosek o ponowne rozpatrzenie, a art. 127 § 3 przewiduje ten środek, zamiast ustanawiać automatyczną ostateczność przy doręczeniu. Regułę niewstrzymywania wykonania zawiera art. 61 § 1 p.p.s.a., natomiast wskazany § 3 reguluje sądowe wstrzymanie wykonania. Brakuje wymaganych podstaw i mechanizmu prawomocności, a błędna wskazówka dotycząca chwili ostateczności uzasadnia B1=0; kategoryczna teza pozwala przyznać B2=1. A8 obniżają dygresja o klauzuli wykonalności oraz powtórzenie zastrzeżeń dotyczących weryfikacji źródeł.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 45,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

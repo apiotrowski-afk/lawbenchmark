@@ -1,0 +1,121 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. z 2022 r. poz. 2509 ze zm.)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (poprz. t.j. Dz.U. 2022 poz. 2509)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14.09.2022 r., II CSKP 526/22",
+   "zrodlo": "sn.pl / orzeczenia.ms.gov.pl (wyrok SN z 12.01.2023 r., II CSKP 526/22 dot. zadośćuczynienia; wyrok SN z 14.09.2022 r., II CSKP 561/22 dot. wypowiedzenia umowy kredytu)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 65 Kodeksu cywilnego",
+   "zrodlo": "ISAP Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 i art. 50 pkt 3 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 3 ust. 1 Dyrektywy 2001/29/WE (InfoSoc)",
+   "zrodlo": "EUR-Lex Dz.U. WE L 167 z 22.06.2001",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 PrAut",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie zaprzecza błędnej przesłance pytania już w pierwszym zdaniu, podaje wymagane podstawy prawne (art. 41 ust. 2 i art. 53 pr.aut.), przytacza dosłownie i bezbłędnie treść art. 41 ust. 2 i 4 pr.aut. oraz uwzględnia zastrzeżenie dotyczące wykładni umowy z art. 65 k.c. (A-R = 2, A2 = 1, A3 = 1, R = 5/5, B2 = 1). Punktacja A6 spada jednak do 0 (hallucinated = true, klasa T), ponieważ powołany wyrok SN o sygn. II CSKP 526/22 został wydany 12 stycznia 2023 r. (nie 14 września 2022 r.) i dotyczy przesłanek ustalania wysokości zadośćuczynienia za krzywdę, a nie wykładni pól eksploatacji w prawie autorskim (z kolei wyrok SN z 14.09.2022 r., II CSKP 561/22 dotyczył warunkowego wypowiedzenia umowy kredytu). Wszystkie pozostałe powołania przepisów oraz praktyczne wskazówki dla umowy dotyczącej social mediów są merytorycznie trafne i przydatne (A8 = 1, B1 = 2).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 26,
+  "zapytania": [
+   "\"II CSKP 526/22\"",
+   "\"14 września 2022\" \"526/22\"",
+   "\"art. 41\" \"obejmuje pola eksploatacji wyraźnie w niej wymienione\"",
+   "\"Dz.U. 2025 poz. 24\" \"art. 50\" \"art. 45\" \"art. 46\" \"art. 53\"",
+   "\"II CSKP 526/22\" OR OR",
+   "\"14 września 2022\" \"Sąd Najwyższy\" OR \"CSKP\" OR \"CSK\" \"pola eksploatacji\" OR \"praw autorskich\"",
+   "\"14 września 2022\"",
+   "\"Dz.U. 2022 poz. 2509\" \"prawo autorskie\" OR \"prawie autorskim\"",
+   "\"II CSKP 526/22\" \"Sąd Najwyższy\"",
+   "\"526/22\" \"pola eksploatacji\"",
+   "\"14 września 2022\" \"pola eksploatacji\"",
+   "\"W20220002509\" OR \"20220002509\" OR \"Dz.U. 2022 poz. 2509\"",
+   "\"526/22\"",
+   "\"526/22\" \"Sąd Najwyższy\"",
+   "\"IV CSKP 44/21\" OR \"I CSK 104/18\" OR \"I CSK 596/17\" OR \"III CK 124/05\"",
+   "\"II CSKP 526/22\" \"zadośćuczynienia\" OR \"zadośćuczynienie\"",
+   "\"II CSKP\" \"14 września 2022\"",
+   "\"CSKP\" \"14 września 2022\"",
+   "\"II CSKP 526/22\" \"2023\"",
+   "\"II CSKP 561/22\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14709,
+   "wyjscie": 2064
+  },
+  "czas_s": 194,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

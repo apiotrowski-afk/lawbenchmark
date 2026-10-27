@@ -1,0 +1,86 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.): „1. Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.): „§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.): „§ 3. Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.): „1a. Sprzeciw, o którym mowa w ust. 1, jest wyrażany, w drodze postanowienia, w terminie 14 dni od dnia doręczenia wystąpienia ministra właściwego do spraw wewnętrznych.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 k.p.a. (link do Dz.U. 2024 poz. 572)",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.; uprzednio Dz.U. 2024 poz. 572 — brzmienie art. 16 k.p.a. bez zmian)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Zgodnie z regułą szczególną klucza (reguly_oceny_20261018) teza „zasadniczo ostateczność, ewentualnie też prawomocność” daje A-R = 1 i nie uruchamia kary K3. System trafnie koryguje formę rozstrzygnięcia na decyzję administracyjną ministra i wyjaśnia rolę postanowienia przy sprzeciwie z art. 1 ust. 1a u.n.n.c. (R1 = 1), a także rozróżnia ostateczność i prawomocność ze wskazaniem możliwości uzyskania zaświadczenia MSWiA obejmującego prawomocność (R3 = 1). Brak powołania art. 217 § 2 pkt 2 k.p.a. skutkuje A2 = 0 oraz — wraz z postawieniem znaku równości „klauzulę/zaświadczenie” zamiast odrzucenia pojęcia klauzuli — R2 = 0. Pominięcie 30-dniowego terminu na skargę do WSA oraz możliwości jej wniesienia bez wniosku o ponowne rozpatrzenie sprawy daje R4 = 0 i obniża przydatność praktyczną do B1 = 1.",
+ "_meta": {
+  "sedzia": "argon4meta3",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"1a.\" \"Sprzeciw, o którym mowa w ust. 1, jest wyrażany, w drodze postanowienia\" eli.gov.pl OR sejm.gov.pl",
+   "\"DU/2017/2278\" \"ust. 1a\" eli.gov.pl OR sejm.gov.pl",
+   "\"DU/2024/572\" \"Kodeks postępowania administracyjnego\" eli.gov.pl OR sejm.gov.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 18487,
+   "wyjscie": 1217,
+   "rozumowanie": 9306
+  },
+  "czas_s": 136,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 6, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zezwolenie na nabycie nieruchomości przez cudzoziemca wydaje minister właściwy do spraw wewnętrznych w drodze decyzji administracyjnej, a nie postanowienia.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że zezwolenie wydaje minister właściwy do spraw wewnętrznych w drodze decyzji administracyjnej.\n    · kotwica (verbatim ze źródła): „Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych”\n    · brzmienie jednostki (fragment): „1. Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi.”\n- 2. art. 16 § 1 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2011-10-01, fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Decyzja administracyjna staje się ostateczna, gdy nie przysługuje już od niej wniosek o ponowne rozpatrzenie sprawy.”\n    · uzasadnienie weryfikatora: Przepis wprost definiuje decyzje ostateczne jako te, od których nie służy odwołanie lub wniosek o ponowne rozpatrzenie sprawy.\n    · kotwica (verbatim ze źródła): „Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne.”\n    · brzmienie jednostki (fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych.”\n- 3. art. 127 § 3 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Decyzja administracyjna staje się ostateczna, gdy nie przysługuje już od niej wniosek o ponowne rozpatrzenie sprawy.”\n    · uzasadnienie weryfikatora: Powołany łącznie z art. 16 § 1 przepis wyjaśnia, dlaczego od decyzji ministra przysługuje wniosek o ponowne rozpatrzenie sprawy zamiast odwołania, co stanowi element przesłanki ostateczności w analizowanym przypadku.\n    · kotwica (verbatim ze źródła): „Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy”\n    · brzmienie jednostki (fragment): „§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji.”\n- 4. art. 16 § 3 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „Art. 16. § 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych. § 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach.”\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „Prawomocna jest decyzja ostateczna, której nie można już zaskarżyć do sądu administracyjnego, w szczególności po bezskutecznym upływie terminu na skargę do WSA lub po zakończeniu kontroli sądowej.”\n    · uzasadnienie weryfikatora: Przepis wprost definiuje decyzje prawomocne jako decyzje ostateczne, których nie można zaskarżyć do sądu (dalsza część zdania o upływie terminu i zakończeniu kontroli to komentarz wyjaśniający tę normę).\n    · kotwica (verbatim ze źródła): „Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne.”\n    · brzmienie jednostki (fragment): „§ 3. Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne.”\n- 5. art. 1 ust. 1a [akt: nieustalony (brak aktu; klucz wieloaktowy)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 6. art. 16 [akt: nieustalony (brak aktu; klucz wieloaktowy)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

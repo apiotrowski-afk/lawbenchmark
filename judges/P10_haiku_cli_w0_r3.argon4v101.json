@@ -1,0 +1,93 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 PrAut",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 ust. 1 PrAut",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "Art. 65 PrAut",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 16 PrAut",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 734 KC",
+   "zrodlo": "Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny (Dz.U. 2026 poz. 795)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 627 i nast. KC",
+   "zrodlo": "Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny (Dz.U. 2026 poz. 795)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie zaprzecza przesłance pytania na wstępie („zwykle nie”), omawia wymóg wskazania pól eksploatacji znanych w chwili zawarcia umowy oraz formę pisemną pod rygorem nieważności i podaje przykłady pól dla social mediów (A-R = 2, R = [1, 0, 1, 1, 0]). Kryterium A2 = 0 oraz R2 = 0 wynikają z powołania ogólnego art. 41 PrAut bez wskazania ust. 2 oraz z błędnego powołania nieistniejącego ust. 1 w art. 53 PrAut. W kryterium A6 przyznano 0 punktów (hallucinated = true) z uwagi na dwa błędy: powołanie nieistniejącej jednostki redakcyjnej „Art. 53 ust. 1 PrAut” (klasa F, gdyż art. 53 nie dzieli się na ustępy) oraz przypisanie art. 65 PrAut ogólnej reguły wykładni wątpliwości co do zakresu przeniesienia na korzyść twórcy, podczas gdy przepis ten statuuje wyłącznie domniemanie udzielenia licencji w braku wyraźnego postanowienia o przeniesieniu prawa (klasa T). Zastrzeżenie końcowe o potrzebie weryfikacji numerów ustępów zgodnie z regułą graniczną nr 8 nie wyłącza błędu A6. W bloku B przyznano maksymalną punktację (B1 = 2, B2 = 1), ponieważ zalecenia praktyczne są trafne i użyteczne, a kalibracja odpowiada warunkowemu charakterowi problemu (reguła B11).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"art. 41\" \"art. 53\" \"art. 65\" \"art. 16\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"Art. 53.\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"Art. 65.\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"Art. 734.\" \"Art. 627.\" \"Kodeks cywilny\" OR",
+   "\"DU/2025/24\" OR \"WDU19940240083\"",
+   "\"WDU19940240083\" OR \"WDU20250000024\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania formy pisemnej\" OR",
+   "\"Art. 41.\" \"pola eksploatacji nieznane w chwili jej zawarcia\" OR OR",
+   "\"Art. 16.\" \"autorskie prawa osobiste chronią nieograniczoną w czasie\" OR OR",
+   "\"Art. 41.\" \"pola eksploatacji wyraźnie w niej wymienione\" \"Dz.U.2025.24\" OR \"nieznane w chwili jej zawarcia\"",
+   "\"Art. 41.\" \"Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13514,
+   "wyjscie": 1503
+  },
+  "czas_s": 142,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

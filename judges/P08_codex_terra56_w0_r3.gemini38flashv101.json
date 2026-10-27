@@ -1,0 +1,68 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Model trafnie wyjaśnił przesłanki definicji deepfake z art. 3 pkt 60 AI Act oraz podkreślił obiektywny charakter oceny (brak znaczenia intencji twórcy). Odpowiedź pominęła jednak kluczowy warunek pułapki i wymaganą podstawę, tj. obowiązek znakowania maszynowego dostawcy z art. 50 ust. 2 AI Act, co skutkuje A2 = 0 oraz A-R = 1. Wobec pominięcia rozróżnienia na obowiązki z ust. 2 i ust. 4 kalibracja pewności nie spełnia wymogu klucza (B2 = 0). Wszystkie powołane jednostki istnieją i zostały opisane zgodnie z oficjalnym tekstem rozporządzenia 2024/1689 (A6 = 1). Odpowiedź nie zawierała dosłownego cytatu w cudzysłowie (A3 = nd) i w całości mieściła się w ramach zagadnienia (A8 = 1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 50\" \"2024/1689\" \"ust. 1\" \"interakcji\" OR \"komunikuje\"",
+   "\"art. 50 ust. 1\" \"2024/1689\" interakcja"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13050,
+   "wyjscie": 581
+  },
+  "czas_s": 36,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "Dz.Urz. UE L 2024/1689",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie zidentyfikował pełny rdzeń problemu, wskazując na brak kwalifikacji jako deepfake z art. 3 pkt 60 i brak rygoru z art. 50 ust. 4, przy jednoczesnym przypomnieniu o ogólnym obowiązku oznakowania maszynowego dostawcy z art. 50 ust. 2. Wszystkie podstawy wymagane zostały powołane (A2=1), jednak dosłowny cytat z art. 3 pkt 60 zniekształca oficjalny tekst z Dz.Urz. UE („obiekty” zamiast „przedmioty”, zmiana zwrotu o odbiorcy), co obniża A3 do 0. W A6 odnotowano błąd klasy T (skutkujący A6=0 i statusem hallucinated), ponieważ obowiązek z art. 50 ust. 1 AI Act przypisano podmiotowi stosującemu, podczas gdy adresatem tej normy jest wyłącznie dostawca. W rubryce przyznano punkty za definicję, rozwidlenie i rozdzielenie ról dostawcy i podmiotu stosującego w ust. 2 i 4, natomiast pominięto wytyczne KE (soft law), daty stosowania oraz kwestię braku wymogu intencji wprowadzenia w błąd. Żadna z kar nie została naliczona, a kalibracja jest prawidłowa.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"deep fake oznacza wygenerowane przez AI\"",
+   "\"deepfake oznacza wygenerowane przez AI\"",
+   "\"art. 3 pkt 60\" \"2024/1689\"",
+   "\"2024/1689\" \"przypominają istniejące osoby\"",
+   "\"art. 50\" \"2024/1689\" \"bezpośrednią interakcję\"",
+   "\"art. 50 ust. 1\" \"2024/1689\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję\"",
+   "\"art. 50 ust. 1\" deployer \"podmioty stosujące\"",
+   "\"art. 50\" \"2024/1689\" \"podmioty stosujące\"",
+   "\"art. 50\" \"2024/1689\" \"Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję\"",
+   "\"art. 50 ust. 1\" \"podmiot stosujący\" \"2024/1689\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13403,
+   "wyjscie": 647
+  },
+  "czas_s": 100,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

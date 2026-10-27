@@ -1,0 +1,96 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 1 i § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 361 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 386 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 4 lipca 2019 r., Dz.U. 2019 poz. 1469",
+   "zrodlo": "Dz.U. 2019 poz. 1469",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest całkowicie błędny (A-R=0), ponieważ system twierdzi, że zasadnicze powody są uzasadnieniem i zamykają drogę do wniosku o uzasadnienie. System powołuje wymagane podstawy (A2=1), ale przypisuje im fałszywą treść sprzeczną z ich literalnym brzmieniem (A6=0, typ T). Błędnie utożsamia zasadnicze powody z uzasadnieniem (kara K=1). Porada praktyczna jest szkodliwa, gdyż pozbawia stronę prawa do uzyskania pełnego uzasadnienia (B1=0). Odpowiedź jest kategoryczna, co przy błędnym rdzeniu daje B2=1.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 397\" \"k.p.c.\" \"Do postępowania toczącego się na skutek zażalenia\"",
+   "\"art. 397 § 3\" \"k.p.c.\"",
+   "\"Dz.U. 2019 poz. 1469\" \"art. 357\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEktWcTbUo9fAogyM8K4spm0_TVlHrPcRgSXPrTW4Iu6OkZvk6_ml7cQWgY0bglKj5CTwzEBbfi-6HHat_TAVulH4XQM6dMM2EriDOegWnTM_vorqWmwRqp6AMW_RTvgL4WLohDdN0V6P4BYLp-GyUZwSpDNAL7tNTclPzkRaIeIA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9_kVe_QWoHGL0oqwcc_Dw0JYN9X5O5L5VoHiCCYX_qomXM-dAv_aNTLiFm3IzMfni5L9ms7MKH94hjgu2KMqYGiA_ag4ms260kZmgUZ7JDON5sBKHpt4QwbZVHMOBc8UL_IHFJWNthD_gZiIhthVw5yKtQwgK1PrhIrZW4N-lnR8btV7Ccw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSB5NTD_8kAdm2xqBLzIG0VOLPscc5EbfCCtB7QWPMa8zSRAyv4G_mjPrC6nPh-vLenXGgCp23jyYL-XN2t2eIUso-F3p-DM-jy38y9Y685PFMh99oN9TNdjQuEj-YS1hdLxwEYXbiDdIGF7PEYFrM8BoHGdIQ2PC-ww==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMGZjiD_9QAzGpP2dGqYM7YDB_gG8fqmNnvz9Ql6Ka9-1PFtEjWNyE3pcvVU9CPR2lZZF8cFXPOAL-hIcZLvjrDOl-jJkb-XkbgjLnnDm-pbCbuTQr_TYSKRggSTe29v-yZ76MM9V7IC4Qf5bQFylxkct9hF3QrAAxTqQ="
+  ],
+  "tokeny": {
+   "wejscie": 9311,
+   "wyjscie": 875
+  },
+  "czas_s": 215,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

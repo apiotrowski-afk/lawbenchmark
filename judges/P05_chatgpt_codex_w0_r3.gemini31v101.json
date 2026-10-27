@@ -1,0 +1,80 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131 i nast. Kodeksu postępowania cywilnego",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹a k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System całkowicie pominął nowelizację k.p.c. obowiązującą od 1.06.2026 r., która umożliwia doręczanie pism przez Portal Informacyjny osobie fizycznej po dokonaniu przez nią wyboru takiego sposobu doręczeń (art. 131¹a § 1 k.p.c.). Z tego powodu rdzeń odpowiedzi (A-R) oraz wszystkie elementy rubryki oceniono na 0, a przydatność dla prawnika (B1) na 0. System nie otrzymał kary, ponieważ nie stwierdził wprost, że doręczenie przez portal osobie fizycznej jest niemożliwe (użył sformułowania 'co do zasady'). Powołane przepisy zostały opisane zgodnie z ich literalnym brzmieniem (brak halucynacji, A6=1), system jedynie pominął nową normę. Kalibracja (B2) wynosi 1, ponieważ odpowiedź jest kategoryczna.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"Dz.U. 2026 poz. 468\" \"art. 131\"",
+   "\"Dz.U. 2026 poz. 468\" \"art. 133\"",
+   "\"Dz.U. 2026 poz. 468\" \"art. 131^1a\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf7ATWVNTcagREr5k4tINhW6mSD3_qXT-vMlkRu9EfQ4dQLuq5l-eLSxHgVHq9fOvuN_bYb3sPL1EsjYV-b2vxyYvciZUHwP5L3WfJ2qHUE9sJgxmlox3xSUFbW5A_Epa2aWt1qsWEXO8CWrmmcA9us5RDcpr33fBhdYnf0bAWbHGpoNgdVAu01M6zg3mD9GXLx_nfl4Kkkwkh5DyfCxbjW3ASn9W0doo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Wnbe0Q-R4N9gfSuHIhPFujek14S498FCcH3qSpkuMFHUksWTwh6pidarY68n7i7Ognf8CJL3bhuPp9JpN4NI262664FltgOc-wLlAyyhQXEZrCqOjnLDCRM0TUuddZv58Zo1O7wWGGFu2TI75jo9XRQb-lpK88X8Kk1Fe2CNoZ-k5HojZkA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHDXh97rs_rKVIRGGK6byek6H6-H3kCu-J9h8tP3Ot2zq1hXdQF5Cw3XlL5a6EUqh5-AYqrx8RLl8cdD8UhIJ3lssKrQkXnlsWttP3xHKfAKSIK-gW5E9xT9tHNAM8xEX9QTsPMYWvcZ1bu1pV7FDPmqov1C6b3fvSyN4_nQghFb4sG4-CZm5spqw2",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF76DhsmwEuuIpVNdAlBdipVNlv7DOUAQQgTLpMZOudv_VE-3k88A1FBEUVTz90lxf8hIGLOfMiII3tqAbAoar-9ijGYrByJERs3axp1DcxKi5Tvb-4jpJCdRSFh5YQadVn-kW5RgUkvVmYCUUcfmt7IeA4D_2Dt5ZZUvUK6Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-BsggXbELTrMaIlqoerhMGac_gePSqr-RZTvljVzgFH9SKy9uLVhKykR56VNF6HpFImqZ_fdeNBeZEggwvI1Zfv-7LCzZaMW80SLc_emARbCPIsHYrju2M5E6oWb8wLiZOI9naR6H",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAkpBtOnY5ovcqqUBQNtw-H6myc39zPvODH76ft8VduB6I7bSBhuljiJQe8o2L3TICBLRxicT9BXXOQx39WJmawzUbQsB_YCel0utLDxPHYLJvjAqsDm_JgHuYdxiEjNgBRMvvZkI9HlI1MO48deVCBby2edxTZi0HopM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8EQLlmK_IQyJa1xVfu1hExfKnu9m-aQ70caoZqJFmfHZPLvnR-Ici-6MrLeyfCgzTnyDCOEQ-fHEat_-LWIQWzoqfMgrqC6CR6FVW1f7NUPe2Gm8KltdvklxY41AFvpaolcMTAZSz71qo4LjOAUlnIvnT3DsbjOd3MtKv642LjiDniVeazDTno6W9nztc5ocuw4GqZQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3OG-65Eq6pt6acn4wIBnntyB1WdNWQao2tabKRh_Bf9STZM4qfpZhHpQnitJWyAqZA9dIFDMgPN1py_4xM-tBgaW7t4P6HLCEZNAg2nRU9emjc_klufXxv0ULo-BPXKRhdVvoFJff8QgNsqEC9wiSOFhbIzCLjhCumgksezo8c_VSBbca7KbEBX-BUd3xpeBZGTH6Cgb1Osp5K6FI6x6_2WFn_DXvzjUhcUAVUnvTc3veBLZfCdZZu213oelEaVzjqxzCin9z7Kvw4Z9ATHH1OOJkBpv-Pf6ZuUaEXI0tx90=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyMrVhJ6CKNha9qeP_KjmofgCx2wzHwysl8dVNFCfWyCG9gadn5Y0UORgrXt0dUocB4bVfX-z8Wt6yDTAAFwQazgDzIZbPTy0v6WHuY0sK_DGdhcUVMDA9Zbo6ofBxd9KQj7gGyoCQkG1HlaA-mWWrRMmgduM3vop6k8oMZewGDdRrVi9Jd4qAnWw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4AQLZ75GlMnjGnh12aKPSSn04WRCfuTSlUlors4hjgnPzYjnHnZfJi5P-cCY-ol0TDDcDjH3kJpaLBJl65-jBufRy8zyff5jAi0sqwAdw0ZeilAj7k0s18y0kyYX-zTUHPAnC-BkfuUJqUmSlq7mMqpc3GY9M4EraIgSVAQ6HotQlHoinwLNXam8n3Q=="
+  ],
+  "tokeny": {
+   "wejscie": 9567,
+   "wyjscie": 644
+  },
+  "czas_s": 132,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 w zw. z art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 370 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 373 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ᵃ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c. — katalog zażaleń do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 3 w zw. z art. 398⁶ k.p.c. — rzekoma podstawa zażalenia do SN na odrzucenie zażalenia do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130 § 1 i art. 130² k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–169 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 430 § 2 k.p.k.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/490/text/T/D20260490L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN II UZ 49/19",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/II%20UZ%2049-19.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełna treść postanowienia SN II UZ 49/19: wyszukiwanie w sn.pl potwierdza istnienie orzeczenia z 8 stycznia 2020 r., ale próby otwarcia dokumentu i adresu podanego w odpowiedzi zwracały 404."
+ ],
+ "uzasadnienie": "Rdzeń prawidłowo rozróżnia oba warianty, lecz brakuje wymaganej podstawy art. 397 § 1¹ k.p.c. Art. 370 jest uchylony, a odesłanie z art. 394¹ § 3 obejmuje art. 398⁶ § 3 i nie ustanawia wskazanego zażalenia do SN, co uzasadnia A6=0 oraz pierwszą karę. Pochodzenie błędów pozostaje nieustalone wobec braku śladu narzędzi ocenianego systemu. Samo wymienienie art. 130² bez wyjaśnienia zwrotu pisma profesjonalnego pełnomocnika i tygodniowej dopłaty nie realizuje czwartego elementu rubryki. Dygresja karna i ponowione zastrzeżenie dotyczące źródeł obniżają A8, a błędna dodatkowa droga do SN ogranicza B1 do 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 14,
+  "czas_s": 66,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

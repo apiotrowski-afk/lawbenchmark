@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹a § 1–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2025 poz. 1172 (brzmienie od 1.06.2026)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie Ministra Sprawiedliwości z 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym (ze zmianą obowiązującą od 1 marca 2026 r.)",
+   "zrodlo": "Dz.U. 2024 poz. 368 oraz Dz.U. 2026 poz. 225 (§ 2 pkt 3, § 3 ust. 1, § 4 ust. 1)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie eIDAS nr 910/2014",
+   "zrodlo": "EUR-Lex Dz.U. UE L 257 z 28.08.2014, s. 73 (art. 25 ust. 2–3)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie (UE) 2020/1784",
+   "zrodlo": "EUR-Lex Dz.U. UE L 405 z 2.12.2020, s. 40 (art. 1, art. 19)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie unika odwróconej pułapki aktualności i od pierwszego akapitu pełnie przedstawia rdzeń (doręczenia przez Portal Informacyjny dla strony będącej osobą fizyczną od 1.06.2026 r. po złożeniu oświadczenia o wyborze z jednym z trzech podpisów oraz regułę 14 dni), a także realizuje wszystkie cztery punkty rubryki (R = [1, 1, 1, 1]). Wskazany zakres art. 131¹a § 1–3 k.p.c. obejmuje wymagane w kluczu jednostki (§ 1, § 1¹ i § 2) oraz dopuszczalny § 3, których treść została w odpowiedzi wiernie omówiona (A2 = 1). Wszystkie powołania (k.p.c., rozporządzenie MS z 12.03.2024 r. ze zm. od 1.03.2026 r. oraz dwa rozporządzenia unijne) są zgodne z oficjalnymi źródłami na datę stanu prawnego (A6 = 1). Punktację A8 obniżono do 0,5 z uwagi na nieproszony akapit o prawie unijnym (eIDAS i doręczenia transgraniczne z rozporządzenia 2020/1784), wykraczający poza zadane pytanie o krajową procedurę doręczeń portalowych.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"1311a\" \"portalu informacyjnym\" \"468\" OR",
+   "\"rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024\" \"368\" OR",
+   "\"w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" 2026 OR",
+   "\"2020/1784\" \"doręczania dokumentów\"",
+   "\"368\" \"w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego\" \"sobota\" OR \"ustawowo wolny\" OR \"Moje doręczenia\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych\" \"§ 3\" \"§ 4\"",
+   "\"1311a\" \"rezygnacji z nich\" \"468\" OR \"1172\"",
+   "\"1311a\" \"Dokument potwierdzający doręczenie\" \"14 dni\" \"odstępuje\"",
+   "\"Po odbiorze pisma na koncie\" \"368\" \"doręczania pism sądowych\"",
+   "\"Rozporządzenie określa szczegółowy tryb i sposób doręczania pism sądowych za pośrednictwem portalu informacyjnego\" \"§ 3\" \"§ 4\"",
+   "\"Jeżeli dzień, w którym upłynął termin, o którym mowa w art.\" \"368\"",
+   "\"Dokument potwierdzający doręczenie jest tworzony automatycznie przez portal informacyjny\"",
+   "\"W przypadku braku dokumentu potwierdzającego doręczenie, doręczenie uznaje się za skuteczne z upływem 14 dni\"",
+   "\"910/2014\" \"kwalifikowanego podpisu elektronicznego\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11143,
+   "wyjscie": 1415
+  },
+  "czas_s": 206,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

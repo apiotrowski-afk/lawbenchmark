@@ -1,0 +1,83 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ § 2 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text/U/D20251071Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 64 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN III CK 124/05 — odsyłacz w źródłach, bez przypisanej tezy",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia2/III%20CK%20124-05-1.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia zasadę, wymagane podstawy, przykłady pól, formę pisemną i brak zastosowania mechanizmu pracowniczego do zlecenia. Pomija jednak możliwość dookreślenia pól przez wykładnię umowy oraz regułę in favorem auctoris, dlatego A_R wynosi 1, R5 i B2 wynoszą 0; samo „co do zasady” nie wyjaśnia warunku. Powołania nie zawierają fałszywych twierdzeń o treści źródeł, a pominięcie wyjątku nie obniża A6. Nie ma cytatów przepisów w rozumieniu klucza. Uwagi o niewykonywaniu praw osobistych i momencie przejścia praw wykraczają poza pytanie o wystarczalność ogólnej formuły, co obniża A8 do 0.5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 14,
+  "czas_s": 86,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

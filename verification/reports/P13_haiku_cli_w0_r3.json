@@ -1,0 +1,339 @@
+{
+ "meta": {
+  "pytanie": "P13",
+  "system": "haiku_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P13/haiku_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:45:33",
+  "czas_s": 5.5,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 5,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 0,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 5
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 730",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 730",
+   "kontekst": "- Zabezpieczenie roszczenia (art. 730 i nast.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 730 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 730. § 1. W każdej sprawie cywilnej podlegającej rozpoznaniu przez sąd lub sąd polubowny można żądać udzielenia zabezpieczenia. § 2. Sąd może udzielić zabezpieczenia przed wszczęciem postępowania lub w jego toku. Po uzyskaniu przez uprawnionego tytułu wykonawczego dopuszczalne jest udzielenie zabezpieczenia tylko wtedy, jeżeli ma ono na celu zabezpieczenie roszczenia o świadczenie, którego termin spełnienia jeszcze nie nastąpił."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 730. § 1. W celu zabezpieczenia roszczenia, którego dochodzić można w sądzie powszechnym lub przed sądem polubownym, sąd może wydać zarządzenie tymczasowe, jeżeli roszczenie nie jest wiarogodne, a brak zabezpieczenia mógłby wierzyciela pozbawić zaspokojenia. Wydanie zarządzenia tymczasowego jest dopuszczalne także w innych wypadkach, gdy jest to konieczne do zabezpieczenia wykonalności orzeczenia w sprawie. § 2. Dopuszczalne jest także zabezpieczenie roszczenia o przyszłe powtarzające się świadczenia, jednakże za okres nie dłuższy niż za jeden rok, jeżeli roszczenia tego można dochodzić, zanim stanie się wymagalne. § 3. Także po uzyskaniu przez wierzyciela orzeczenia podlegającego wyko…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 1.0
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 730¹ KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 730¹ KPC",
+   "kontekst": "Wymaga uprawdopodobnienia roszczenia i interesu prawnego (art. 730¹ KPC), a nie istnienia prawomocnego lub wykonalnego tytułu.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 730[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 730¹. § 1. Udzielenia zabezpieczenia może żądać każda strona lub uczestnik postępowania, jeżeli uprawdopodobni roszczenie oraz interes prawny w udzieleniu zabezpieczenia. § 1¹. W sprawach wymienionych w art. 479⁸⁹ sąd w ramach oceny, czy uprawdopodobniono roszczenie, bierze pod uwagę prawdopodobieństwo unieważnienia prawa wyłącznego w innym toczącym się postępowaniu. Okoliczność tę ustala się w oparciu o informacje pochodzące od stron, chyba że jest ona znana sądowi z urzędu. § 2. Interes prawny w udzieleniu zabezpieczenia istnieje wtedy, gdy brak zabezpieczenia uniemożliwi lub poważnie utrudni wykonanie zapadłego w sprawie orzeczenia lub w inny sposób uniemożliwi lub poważnie utrudni…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 730 1 . § 1. Udzielenia zabezpieczenia może żądać każda strona lub uczestnik postępowania, jeżeli uprawdopodobni roszczenie oraz interes prawny w udzieleniu zabezpieczenia. § 2. Interes prawny w udzieleniu zabezpieczenia istnieje wtedy, gdy brak zabezpieczenia uniemożliwi lub poważnie utrudni wykonanie zapadłego w sprawie orzeczenia lub w inny sposób uniemożliwi lub poważnie utrudni osiągnięcie celu postępowania w sprawie. § 2 1 . Interes prawny w udzieleniu zabezpieczenia uważa się za uprawdopodobniony, gdy żądającym zabezpieczenia jest powód dochodzący należności zapłaty z tytułu transakcji handlowej w rozumieniu ustawy z dnia 8 marca 2013 r. o przeciwdziałaniu nadmiernym opóźnieniom…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 730 1 . § 1. Udzielenia zabezpieczenia może żądać każda strona lub uczestnik postępowania, jeżeli uprawdopodobni roszczenie oraz interes prawny w udzieleniu zabezpieczenia. § 2. Interes prawny w udzieleniu zabezpieczenia istnieje wtedy, gdy brak zabezpieczenia uniemożliwi lub poważnie utrudni wykonanie zapadłego w sprawie orzeczenia lub w inny sposób uniemożliwi lub poważnie utrudni osiągnięcie celu postępowania w sprawie. § 3. Przy wyborze sposobu zabezpieczenia sąd uwzględni interesy stron lub uczestników postępowania w takiej mierze, aby uprawnionemu zapewnić należytą ochronę prawną, a obowiązanego nie obciążać ponad potrzebę."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 730[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.78
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 739 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 739 KPC",
+   "kontekst": "Zabezpieczenie wykonuje się w trybie przepisów o egzekucji (art. 739 KPC), więc wstrzymanie egzekucji z nakazu może być obchodzone.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 739 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 739. § 1. Wykonanie postanowienia o udzieleniu zabezpieczenia sąd może uzależnić od złożenia przez uprawnionego kaucji na zabezpieczenie roszczeń obowiązanego lub, stosownie do okoliczności, innych osób, powstałych w wyniku wykonania postanowienia o zabezpieczeniu. Z kaucji tej będzie przysługiwało obowiązanemu lub, stosownie do okoliczności, innym osobom dotkniętym wykonaniem postanowienia o zabezpieczeniu pierwszeństwo zaspokojenia przed innymi należnościami zaraz po kosztach egzekucyjnych. § 2. Przepisu § 1 nie stosuje się, gdy uprawnionym jest Skarb Państwa oraz w wypadku zabezpieczenia roszczeń alimentacyjnych, o rentę, a także należności pracownika w sprawach z zakresu prawa prac…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 739. § 1. Wykonanie postanowienia o udzieleniu zabezpieczenia sąd może uzależnić od złożenia przez uprawnionego kaucji na zabezpieczenie roszczeń obowiązanego powstałych w wyniku wykonania postanowienia o zabezpieczeniu. Z kaucji tej będzie przysługiwało obowiązanemu pierwszeństwo zaspokojenia przed innymi należnościami zaraz po kosztach egzekucyjnych. § 2. Przepisu § 1 nie stosuje się, gdy uprawnionym jest Skarb Państwa oraz w wypadku zabezpieczenia roszczeń alimentacyjnych, o rentę, a także należności pracownika w sprawach z zakresu prawa pracy, w części nieprzekraczającej pełnego jednomiesięcznego wynagrodzenia pracownika."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 739. § 1. Sąd, wydając zarządzenie tymczasowe, oznaczy w postanowieniu przedmiot sprawy oraz sposób i zakres zabezpieczenia. § 2. W razie potrzeby można stosować równocześnie kilka sposobów zabezpieczenia. § 3. Wykonanie zarządzenia tymczasowego sąd może uzależnić od złożenia przez wierzyciela kaucji na zabezpieczenie roszczeń dłużnika z powodu wykonania zarządzenia. Z kaucji tej będzie przysługiwało dłużnikowi pierwszeństwo zaspokojenia. § 4. Przepisu paragrafu poprzedzającego nie stosuje się do państwowych jednostek organizacyjnych oraz w wypadku zabezpieczenia roszczeń alimentacyjnych, a także należności za pracę za okres nie przekraczający jednego miesiąca."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.38
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 493 § 3 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 493 § 3 KPC",
+   "kontekst": "Czy wskazał zakres i podstawę prawną (w szczególności art. 493 § 3 KPC – zweryfikuj aktualne brzmienie)?",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 493 § 3 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 493 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 3. W postępowaniu po wniesieniu zarzutów: 1) nie stosuje się przepisów art. 194–196 i art. 198; 2) powództwo wzajemne jest niedopuszczalne; 3) nie można występować z nowymi roszczeniami zamiast lub obok dotychczasowych; jednakże w przypadku zmiany okoliczności powód może żądać zamiast pierwotnego przedmiotu sporu jego równowartości lub innego przedmiotu, a w sprawach o świadczenie powtarzające się może nadto rozszerzyć powództwo o świadczenia za kolejne okresy."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 3. Do potrącenia mogą być przedstawione tylko wierzytelności udowodnione dokumentami, o których mowa w art. 485."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 493. § 1. Pismo zawierające zarzuty wnosi się do państwowego biura notarialnego, które wydało nakaz. Zarzuty, które pod rygorem ich utraty należy zgłosić przed wdaniem się w spór, powinny być przedstawione już w tym piśmie. Fakty i dowody mogą być przytaczane aż do zamknięcia rozprawy. Wniesienie powództwa wzajemnego nie jest dopuszczalne. § 2. Do potrącenia mogą być przedstawione tylko roszczenia, których podstawa faktyczna jest udowodniona dokumentem."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0,
+    "slowa_wersji_wczesniejszej": [
+     "podst"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 394 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 394 KPC",
+   "kontekst": "Przysługuje ono w ogólnym trybie (art. 394 KPC – sprawdź właściwy punkt).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 394 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pisma wniesionego jako pozew, z którego nie wynika żądanie rozpoznania sprawy; 2) zwrot pozwu; 3) odmowa odrzucenia pozwu; 4) przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 5) zawieszenie postępowania i odmowa podjęcia zawieszonego postępowania; 5¹) sprostowanie lub wykładnia orzeczenia albo ich odmowa; 6) zwrot kosztów, określenie zasad ponoszenia przez strony kosztów procesu, zwrot opłaty…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pisma wniesionego jako pozew, z którego nie wynika żądanie rozpoznania sprawy; 2) zwrot pozwu; 3) odmowa odrzucenia pozwu; 4) przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 5) zawieszenie postępowania i odmowa podjęcia zawieszonego postępowania; 6) zwrot kosztów, określenie zasad ponoszenia przez strony kosztów procesu, zwrot opłaty lub obciążenie kosztami sądowymi - jeżeli strona nie skład…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pozwu, odmowa odrzucenia pozwu, przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 2) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub radcy prawnego lub ich odwołanie; 3) oddalenie opozycji przeciwko wstąpieniu interwenienta ubocznego oraz niedopuszczenie interwenienta do udziału w sprawie wskutek uwzględnienia opozycji; 4) rygor naty…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 394. § 1. Zażalenie do sądu rewizyjnego przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pozwu, odmowa odrzucenia pozwu, przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 2) odmowa zwolnienia od kosztów sądowych lub cofnięcie takiego zwolnienia oraz odmowa ustanowienia adwokata lub jego odwołanie, 3) oddalenie opozycji przeciwko wstąpieniu interwenienta ubocznego oraz niedopuszczenie interwenienta do udziału w sprawie wskutek uwzględnienia opozycji; 4) rygor natychmiastowej wykonalności…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": []
+}

@@ -1,0 +1,78 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ pkt 7 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń oceniono na 1, ponieważ system wskazał trafny kierunek dla jednej gałęzi (zażalenie poziome), ale pominął kluczowy warunek (brak zażalenia przy odrzuceniu zażalenia dewolutywnego). Brak wymaganych podstaw prawnych (A2=0). System przypisał jednostce art. 394² § 1¹ pkt 7 k.p.c. treść dotyczącą odrzucenia zażalenia, podczas gdy dotyczy ona świadków i biegłych, co stanowi błąd T (A6=0, hallucinated). Nałożono karę za jednoznaczną odpowiedź „Tak” bez rozróżnienia rodzajów zażalenia i bez dopytania. Kalibracja (B2=0), ponieważ system odpowiedział kategorycznie, a warianty wspomniał bez wyjaśnienia, kiedy mają zastosowanie.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"art. 394\" \"k.p.c.\"",
+   "\"art. 394^2\" \"k.p.c.\"",
+   "\"art. 394(2)\" \"k.p.c.\"",
+   "\"art. 394\" \"k.p.c.\" \"§ 1\" \"§ 1(1)\"",
+   "\"art. 394\" \"k.p.c.\" \"§ 1(1)\"",
+   "\"art. 394^1a\" \"k.p.c.\"",
+   "\"art. 394(1a)\" \"k.p.c.\"",
+   "\"art. 394^2\" \"k.p.c.\" \"odrzucenie zażalenia\"",
+   "\"art. 394(2)\" \"k.p.c.\" \"odrzucenie zażalenia\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgrdbC34LuzisX8fBAFlbAFMK6YL8cc7eCRTD7W5vbKvF0fQIbTRVe95IxUNXxq9LoW2-GMnHRchUq8t8eWsRGv808iJ1GT__iwcw-z1NAfPhzuDsnbkVNLMVHuEqKnvlokAM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmWp_tzAfT_rd-l99BsvBC2ZK6ZCNDaYGlysvnYxvjJTUmw_NvbK8xztZGEqLwsfEfWHm2NG0DC2uZOeXXE08sOwyEcXni3gJznuzIy7pGSzsSq3heRdpQiZygCtNqa6q38qcyfW36U_RSGjFhW3uz_ntYnnoT8Cvzr9SWguFl6Y_I2SVRYoWtcn40TjS1sA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtb5l3es6dulMaSSFB22pHaRj664JhjlrRxHsGwd8J26kzoUbFkbOpge6Kl6Pcit6wbHkjyVb_iJc-4NOT9zkNeMJIb8OolY9NIWtI66z5tsC1x0nklDCE4HWIz3LVc18LFyfWUbpEszOuI8vHLUWWEulTLg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvOsFsm5SbQlHTZpb0Q77ZK9OSdzSw40NKu9jrbYlA1gsjFVMzXYtLp9IlX0HHGJyWbVDF4zT401WpVYQ0pcM0KBFzO0eYMzy4jxLl4MoyVlutyl053ew0K8K3AqVZiRDMw-y-QZtZk3ZDDLZWfTK03qlUdIGPqxNFbokk2kn",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGALV4aVDHZz1nwu6iItE0GJFgz6VWjaJd2NggYq7WaSl8pq6_jyfJztO8783_519DG2vdeQLol6lFfsywaPCIbNOnhPpUdPeGShxLo05xOcPIGE8x6b3GzmapGrVQIbsGljl3gx54AyfgVNLeYjLMoTrvNyQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXvwRuEIkqDevtgpoIM14_A0db7arErtuAqovqs0VZsXyHksu91s9WloxJB8A3OCtI6kqrPTnh34wlsIi74Bl1YmOtTxXEoXixXud5tKtmKcBsXDpbszOK15ZzlPHQa_WjyI6ucXxy1zPLbOqv0ppmvVfSxkBs7Y6DkXPVecJmi77rYwekeMF3fGjG0JPAS6n5Qg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHh-5K72Q1ruIk8pEyD_Wx4aJBDSidthYZCql_CvrDu9HHeCokvZaxYzWA8qKYbY2d49P1T7nbqkLSr5m0ZDx9ChbE3ndrICJyyxiO-Sat14X3mJFtr7GcufZE8ipni_o8GJfITpNgxRqHIIFFnKKs_d3VS1ac_D_FbrhuInSFSd1R",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJO3Mb7BUHCNjbxQUZhAbKMVx-u9Ly3KN4gKr4nb2eVwHblTfq-_MezWSICOtHKGDCbm0DrTz2Ro-qF74TQpUlt9tT8aj0pjJjTYK8fSRfelXRqiKOfCwe5SRV7mZ1JMKlmvubL7Fpx65xgm0Ng9xqFZpFE_GIJUPl9N1_vNXEiSTbLH15ZjgW4FEkA-rFC_2mfafbAaKDAuPK-jvAYaB6X4qR",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrXdZOx_wh9pQxyQ1AWaHfqsk56ClAM6LdB3Pl1G83tqs5YL2QA6ZnWo5-Hy4GWMeKyO3PczCszZh8elRuRdJiyfP8ZsDovp5BnahbgJEwvrHokHQ_eAYcNPZsiTSnJbW56w8IBWSaZViZXde3DJuAMhqq4gn5ZXo2CD3kWnTbPEc_",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiQREmflFhXOVrBA6kGlIyENC1LN_YoDtM7OVejr5zgS9tU6zRKAmLlwp3tBmR6Gltlm0XQZmoWuaAVMcluKvCrftPuWW5eXplXmRj5sIiSVdqv7juDD9w0Mg-MsM7rqb_fRTU5QsTSo7ap53n0fw_zuZlX5b1715-4YKdp5cNsvEVvFEtBeMZ4Hx3lRWx-NohfnZgni9CNoYcj994eUdVNLnb6Oe0UF1B7vVGnrRjQfT5pBOURtTLgw=="
+  ],
+  "tokeny": {
+   "wejscie": 9295,
+   "wyjscie": 518
+  },
+  "czas_s": 139,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

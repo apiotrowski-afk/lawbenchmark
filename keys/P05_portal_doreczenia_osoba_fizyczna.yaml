@@ -1,0 +1,60 @@
+id: P05
+katalog_nr: 38
+wersja_klucza: 2
+data_klucza: 2026-10-10
+# v2 (2026-10-10): pola kalibracja_oczekiwana (kategoryczna) i warunek (decyzja Adama, README „B2 — kalibracja”);
+#   rdzeń, rubryka i punktacja bez zmian. v1: 2026-10-03.
+data_stanu_prawnego: 2026-10-01
+typ: zamkniete
+pulapka: true
+domena: proc
+tekst_oryginalny: "Jak wygląda doręczenia pism sądowych osobie fizycznej przez portal ?"
+
+rdzen: >
+  Od 1.06.2026 sąd doręcza przez Portal Informacyjny także stronie, która wybrała
+  ten sposób doręczeń (art. 131¹ᵃ § 1 k.p.c.). Strona składa oświadczenie o wyborze
+  przez portal, z podpisem kwalifikowanym, zaufanym albo osobistym (§ 1¹). Pismo
+  jest doręczone w chwili wskazanej w dokumencie potwierdzającym doręczenie,
+  a bez takiego dokumentu — z upływem 14 dni od umieszczenia w portalu (§ 2).
+pulapka_opis: >
+  Odwrócona pułapka aktualności. Do 31.05.2026 doręczenia przez portal dotyczyły
+  wyłącznie profesjonalnych pełnomocników i kilku podmiotów publicznych. Odpowiedź
+  „osobie fizycznej nie doręcza się przez portal” jest nieaktualna na datę stanu
+  prawnego. Pytanie mierzy, czy system zna nowelę z 5.08.2025 (Dz.U. 2025 poz. 1172).
+
+podstawy_wymagane:
+  - art. 131¹ᵃ § 1 k.p.c. (brzmienie od 1.06.2026)
+  - art. 131¹ᵃ § 1¹ k.p.c.
+  - art. 131¹ᵃ § 2 k.p.c.
+podstawy_dopuszczalne:
+  - art. 131¹ᵃ § 3 k.p.c. (odstąpienie od doręczenia przez portal ze względu na charakter pisma)
+  - art. 131¹ k.p.c. (doręczenie przez system teleinformatyczny — inna ścieżka)
+  - ustawa z 5.08.2025 o zmianie k.p.c. (Dz.U. 2025 poz. 1172)
+
+wzorce_cytatow:
+  kpc_131_1a_1:
+    brzmienie: "W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania, pisma sądowe oraz odpisy pism procesowych lub innych dokumentów niepochodzących od sądu, którymi sąd dysponuje w postaci elektronicznej, wyłącznie przez umieszczenie ich treści w portalu informacyjnym w sposób umożliwiający uzyskanie przez odbiorcę dokumentu potwierdzającego doręczenie."
+    zrodlo: Dz.U. 2026 poz. 468 (t.j. k.p.c.), § 1 zdanie pierwsze w brzmieniu od 1.06.2026 (odnośnik 29)
+  kpc_131_1a_1_1:
+    brzmienie: "Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1, lub oświadczenie o rezygnacji z nich strona składa za pośrednictwem portalu informacyjnego i opatruje kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo podpisem osobistym."
+    zrodlo: Dz.U. 2026 poz. 468, § 1¹ zdanie pierwsze (od 1.06.2026)
+
+rubryka:
+  - mówi wprost, że osoba fizyczna może otrzymywać doręczenia przez portal, jeżeli wybierze ten sposób
+  - opisuje sposób złożenia oświadczenia o wyborze (przez portal, z jednym z trzech podpisów)
+  - podaje moment doręczenia, w tym regułę 14 dni
+  - wspomina o możliwości rezygnacji (także na piśmie, skutek od zawiadomienia sądu)
+kary:
+  - twierdzi, że osobie fizycznej bez pełnomocnika nie można doręczać przez portal
+  - stosuje art. 139 k.p.c. (awizo) do doręczenia portalowego
+
+sporne: false
+kalibracja_oczekiwana: kategoryczna
+warunek: null
+
+zrodla_klucza:
+  - "ISAP DU/2026/468 — k.p.c. t.j., art. 131¹ᵃ wraz z odnośnikami 28–31 (§ 1 w nowym brzmieniu i § 1¹ od 1.06.2026)"
+  - "Nowele po t.j.: DU/2026/473, DU/2026/830, DU/2026/1003, DU/2026/1046 — art. 131¹ᵃ bez zmian"
+weryfikacja: >
+  Sprawdzone 2026-10-03 w tekście jednolitym i późniejszych nowelach. Niesprawdzone:
+  rozporządzenie wykonawcze (§ 4) i praktyczne działanie portalu dla stron.

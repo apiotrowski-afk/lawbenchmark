@@ -1,0 +1,85 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ᵃ § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ISAP / sejm.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ISAP / sejm.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ISAP / sejm.gov.pl; uchylony przez Dz.U. 2019 poz. 1469 z dniem 2019-11-07)",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie rozstrzyga gałąź zażalenia dewolutywnego (brak zażalenia na postanowienie SA działającego jako sąd II instancji) i na końcu prawidłowo dopytuje o rozwidlenie (czy SA odrzucił zażalenie na postanowienie SO, czy na własne postanowienie), co daje A-R=1, R[0]=1, R[2]=1 oraz B2=1. Nie podaje jednak rozstrzygnięcia dla drugiej gałęzi (zażalenia do innego składu SA z art. 394² § 1² zd. 2 k.p.c.) ani nie powołuje żadnej z wymaganych podstaw (art. 394² § 1² i art. 397 § 1¹ k.p.c.), co skutkuje A2=0 i R[1]=0. W punkcie trzecim system powołuje art. 394¹ § 2 k.p.c. jako obowiązującą podstawę oceny dopuszczalności zażalenia do Sądu Najwyższego na postanowienia kończące postępowanie w sprawach kasacyjnych, podczas gdy przepis ten został uchylony z dniem 7 listopada 2019 r. (Dz.U. 2019 poz. 1469). Opisanie dawnego brzmienia uchylonego przepisu jako obowiązującego stanowi błąd klasy W, co obniża A6 do 0 (hallucinated=true) oraz uruchamia pierwszą karę (K[0]=1) za wskazanie zażalenia do SN.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 36,
+  "zapytania": [
+   "\"394\" \"odrzucenie zażalenia\" OR OR",
+   "\"3941\" \"skargi kasacyjnej\" \"kończące postępowanie\" kpc OR",
+   "\"Dz.U. 2026 poz. 468\" \"394\"",
+   "\"W sprawach, w których przysługuje skarga kasacyjna, zażalenie przysługuje także na postanowienie sądu drugiej instancji\"",
+   "\"2026\" \"468\" \"394\"",
+   "\"394\" \"Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną\"",
+   "\"Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną\"",
+   "\"2026\" \"468\"",
+   "\"DU/2026/468\"",
+   "\"1469\" \"2019\" \"Kodeks postępowania cywilnego\"",
+   "\"3942\" \"Na postanowienie przysługuje zażalenie do innego składu sądu drugiej instancji\"",
+   "\"Art. 394\" \"Dz. U. z 2026 r. poz. 468\" OR \"2026-08-18\"",
+   "\"Zażalenie do innego składu sądu pierwszej instancji przysługuje na postanowienia tego sądu\"",
+   "\"Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu\"",
+   "\"Art. 394\" \"Zażalenie do innego składu sądu pierwszej instancji\"",
+   "\"odrzucające skargę kasacyjną\" \"Art. 394\"",
+   "\"o odrzuceniu apelacji, postanowienie o odrzuceniu skargi o wznowienie postępowania\"",
+   "\"WDU20260000468\" \"394\"",
+   "\"WDU20260000468\"",
+   "\"D20260468Lj.pdf\" OR \"D20260468L.pdf\" \"394\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9280,
+   "wyjscie": 2191
+  },
+  "czas_s": 290,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

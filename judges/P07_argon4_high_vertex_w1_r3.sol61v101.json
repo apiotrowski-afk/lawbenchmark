@@ -1,0 +1,36 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź systemu jest pusta. Nie zawiera rdzenia, podstaw prawnych ani elementów rubryki i nie pozwala ustalić dalszego działania. Zgodnie z regułą dla pustej odpowiedzi A6 = 0, ale bez etykiety hallucinated; nie występują powołania wymagające weryfikacji.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 2,
+  "czas_s": 12,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

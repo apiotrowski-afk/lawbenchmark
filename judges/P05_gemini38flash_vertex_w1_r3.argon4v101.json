@@ -1,0 +1,102 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131[1a] § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c. w brzmieniu od 1.06.2026, Dz.U. 2025 poz. 1172)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1a] § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1a] § 1 i § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c. w brzmieniu od 1.06.2026)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1] k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 k.p.c. (ustawa z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego, Dz. U. z 2023 r. poz. 1550 ze zm.)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (wcześniejszy t.j. Dz.U. 2023 poz. 1550 ze zm.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym (Dz. U. poz. 368 ze zm.)",
+   "zrodlo": "Dz.U. 2024 poz. 368 (zm. Dz.U. 2026 poz. 225)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z 2023 r. poz. 285 ze zm.)",
+   "zrodlo": "Dz.U. 2026 poz. 3 (wcześniejszy t.j. Dz.U. 2023 poz. 285 ze zm.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo uwzględnił stan prawny obowiązujący od 1 czerwca 2026 r. i nie wpadł w pułapkę aktualności, trafnie przedstawiając pełny rdzeń odpowiedzi (A-R = 2) oraz wszystkie cztery elementy rubryki. Wskazano wszystkie wymagane podstawy prawne z art. 131¹ᵃ § 1, § 1¹ i § 2 k.p.c. (A2 = 1) oraz dopuszczalne przepisy o wyłączeniach (§ 3) i systemie teleinformatycznym (art. 131¹ k.p.c.). Wszystkie powołania przepisów i aktów prawnych są zgodne z oficjalnymi źródłami w ISAP/ELI (A6 = 1), a brak dosłownych cytatów skutkuje oceną A3 = nd. Odpowiedź jest zwięzła, pozbawiona dygresji (A8 = 1), w pełni użyteczna praktycznie (B1 = 2) i właściwie skalibrowana (B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"131\" \"portalu informacyjnym\" OR OR",
+   "\"poz. 1172\" 2025 \"131\" OR OR",
+   "\"Rozporządzenie Ministra Sprawiedliwości\" \"12 marca 2024\" \"368\" OR",
+   "\"Ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych\" \"285\" OR",
+   "\"Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1\" \"131\"",
+   "\"W przypadku doręczenia, o którym mowa w § 1, pismo uznaje się za doręczone w chwili wskazanej w dokumencie potwierdzającym doręczenie\"",
+   "\"Art. 1311.\" \"sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego\"",
+   "\"Art. 134.\" \"W dni ustawowo uznane za wolne od pracy\" \"k.p.c.\"",
+   "\"Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1\"",
+   "\"W przypadku doręczenia, o którym mowa w § 1, pismo uznaje się za doręczone\"",
+   "\"Przewodniczący zarządza odstąpienie od doręczenia pisma za pośrednictwem portalu informacyjnego\"",
+   "\"Nie dokonuje się doręczenia za pośrednictwem portalu informacyjnego\" OR \"Taka metoda doręczenia nie dotyczy\" \"131\"",
+   "\"o doręczeniach elektronicznych\" OR",
+   "\"131\" \"elektronicznym postępowaniu upominawczym\" OR \"505\" \"k.p.c.\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11835,
+   "wyjscie": 1640
+  },
+  "czas_s": 195,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

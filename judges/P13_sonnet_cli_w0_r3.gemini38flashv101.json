@@ -1,0 +1,81 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 493 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera kardynalny błąd merytoryczny (odpowiada twierdząco), myląc natychmiastową wykonalność nakazu z weksla podlegającą wstrzymaniu z jego samoistną funkcją tytułu zabezpieczenia, która pozostaje nienaruszona. Nie zrealizowano żadnego elementu rubryki oraz naliczono karę za tezę, że wstrzymanie wykonania wyłącza możliwość zabezpieczenia. Zamiast wymaganej podstawy z art. 492 § 3 k.p.c. powołano art. 493 § 4 k.p.c., przypisując mu regulację wstrzymania wykonania nakazu, której ten przepis nie zawiera (klasa T, A6 = 0, hallucinated: true). Z uwagi na wprowadzenie w błąd co do dopuszczalności działań komornika nota B1 wynosi 0, natomiast kalibracja B2 wynosi 1, gdyż system zajął kategoryczne stanowisko.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 493\" \"§ 4\" kpc sejm",
+   "\"art. 493\" kpc \"§ 4\"",
+   "\"art. 492\" kpc sejm"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBSnTU7MxOQ11offzTNKA-lSNMLJ46YE2ZScGJxpWpFIlNI8O2R-J2Eqm46kJohPehNtQU2ttTlxjo7oV_lTkgNHVh7ONI4UXkhCOSBgKLAkGmsDEwpKdsSjM4a7xtPEovA57qmmpIVA7zilGhEVKrPBhsfn0x93YiF-vuWK19qg9xtOO54Bd47ns-hDiQC8pvC2q2KTAPQeuB9Ro=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzyvhKePxmsj84Ch68yynF__p_-6rfL-gDJISUdaRw8yRVYhrseBb7oAEQsCxlmRSRyCeIrHBM_5tghO4YAhWlZ2yhXt3jW6k14YckWPR7I-nRotdmJGgXrw_OLRDPJsZiC0230jXpdKV2s3LFPX3py2T4cRF74-8b5HVMpupWvUvM_sou2IcUNxyh61opELrfnHE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEgsUoNcDzL28-194_VZuBhUZz8jYVBaZkqhnTWCAzBYGVPlDpGJzIiYJoQadlx8uKm6BxjNp5kYOPeHFp7totMgvqVIYpUs73HHZT7Rd6XxISH7sCbgMHwsu_LW0AgEGbR7xhN_MmM13oNh5z8c-eFa_sTVRYQoFOgLw5Eu7cFxt70d2sxMa9pL3qzwJW2E_0x_eKQBlliMtW"
+  ],
+  "tokeny": {
+   "wejscie": 10380,
+   "wyjscie": 630
+  },
+  "czas_s": 34,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

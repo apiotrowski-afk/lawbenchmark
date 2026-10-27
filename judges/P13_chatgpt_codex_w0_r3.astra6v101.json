@@ -1,0 +1,63 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozdziela wykonalność egzekucyjną nakazu od jego funkcji tytułu zabezpieczenia i podaje obie wymagane podstawy. Wszystkie powołane jednostki i przypisane im treści sprawdzono w oficjalnym tekście k.p.c.; nie stwierdzono niezgodności. Wskazano właściwe środki obrony pozwanego, lecz pominięto zawieszenie egzekucji jako skutek wstrzymania, dlatego ostatni element rubryki otrzymuje 0. Brak dosłownych cytatów przepisów i powołań orzeczeń. Konkluzja jest jednoznaczna, praktycznie przydatna i pozostaje w granicach pytania.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 42,
+  "data": "2026-10-14",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

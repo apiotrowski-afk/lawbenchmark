@@ -1,0 +1,88 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SA w Rzeszowie z 21 czerwca 2013 r., I ACz 390/13",
+   "zrodlo": "Portal Orzeczeń SA w Rzeszowie",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozróżnia funkcję nakazu jako tytułu zabezpieczenia i tytułu wykonawczego, przyznając pełny rdzeń. Powołuje prawidłowe podstawy prawne (art. 492 § 1 i 3 k.p.c.). Zamiast orzeczenia z klucza system odnalazł postanowienie SA w Rzeszowie I ACz 390/13, które zawiera identyczną tezę (zweryfikowano w portalu orzeczeń). Odpowiedź jest kategoryczna i wysoce przydatna, wskazując konkretne środki obrony dla pozwanego. Brak jedynie wyraźnego wskazania, że skutkiem wstrzymania jest zawieszenie egzekucji (utrata 4. elementu rubryki).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"I ACz 390/13\"",
+   "\"I ACz 390/13\" orzeczenia",
+   "\"14498\"",
+   "\"I ACz 390/13\" \"wstrzymanie wykonania nakazu\"",
+   "\"I ACz 390/13\" \"nie pozbawia go cech tytułu zabezpieczającego\"",
+   "\"I ACz 390/13\" \"tytułu zabezpieczającego\"",
+   "\"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności\" \"Dz.U. 2026 poz. 468\"",
+   "\"Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia\" \"Dz.U. 2026 poz. 468\"",
+   "\"Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania\" \"Dz.U. 2026 poz. 468\"",
+   "\"Obowiązany może w każdym czasie żądać uchylenia lub zmiany prawomocnego postanowienia, którym udzielono zabezpieczenia\" \"Dz.U. 2026 poz. 468\"",
+   "\"14498\" \"I ACz 390/13\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkRrm0PlIM0Cldb91Pn2wn5V1Vq2cpvdXGnlOqB76dC65koiV4wn7kCkpw2MJmyZWu9mTgqtBSat9g1aDEQmjysUPceUYtrYVisZB9-2Cy-l9SLk2gCJDZZkIseSqSAa0zSJgSk2VnyjFcF0275m9YaV_p9bICMixVTelVVqI5WZNFYJEFwmx0iMC7PeN-RxMWPxxZ7jRIX8Ws04Vn",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQZI8Kz-6Y5raUsw9p6WeSHOIzJiiTvE3A3yfZEcoEa36KJpPHBWsicEQtbwOD8lSRocg0XXLzUnAktfWIgCpKEtzOPTWZj7sj8mTC1XLFwQWgdYSPO8mVHi0Vkcg_EHS4ViumOFNAEjtXsl18YdpjFNwMd4dSyA0ErLpQQ=="
+  ],
+  "tokeny": {
+   "wejscie": 11866,
+   "wyjscie": 682
+  },
+  "czas_s": 138,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

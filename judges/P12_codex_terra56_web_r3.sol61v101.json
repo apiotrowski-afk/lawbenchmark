@@ -1,0 +1,69 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c. oraz odesłanie do art. 787–787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o. oraz ogólne odesłanie do art. 41 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 k.r.o. — tekst jednolity z 2020 r. wskazany w źródłach",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2020/1359/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Postanowienie SO w Szczecinie, VIII Gz 140/18",
+   "zrodlo": "https://www.saos.org.pl/judgments/340575",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń: wyklucza klauzulę bez ograniczeń, rozróżnia zgodę małżonka i związek wierzytelności z przedsiębiorstwem oraz prostuje numer przepisu. Zaliczono wszystkie elementy rubryki, w tym wskazanie majątku dostępnego przy braku zgody i warunkowego rozszerzenia egzekucji na przedsiębiorstwo. Powołane jednostki porównano z tekstami urzędowymi; starszy tekst art. 41 k.r.o. zawiera tę samą opisaną normę, a wskazane orzeczenie istnieje i dotyczy omawianego ograniczenia. Nie stwierdzono niezgodnego przypisania treści źródłom. A8 obniżono za odrębne rozważania o pozwaniu małżonka na samodzielnej podstawie odpowiedzialności oraz zbędny akapit o prawie UE.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 8,
+  "czas_s": 48,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

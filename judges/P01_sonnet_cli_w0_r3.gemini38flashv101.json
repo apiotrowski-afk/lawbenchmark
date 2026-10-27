@@ -1,0 +1,78 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. o zmianie KW i KK (Dz.U. 2022 poz. 2600)",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 120 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 122 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 124 § 1 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera całkowite odwrócenie stanu prawnego – twierdzi, że od 1.10.2023 r. sztywny próg 800 zł zastąpiono relacją do 1/4 płacy minimalnej (i wylicza próg na kwotę 1201,50 zł), podczas gdy w rzeczywistości nowelizacja wprowadziła stałą kwotę 800 zł w miejsce dawnych 500 zł. W konsekwencji naliczono obie kary z klucza, a ocena A-R wynosi 0. Przepisom art. 119 § 1, 120, 122 i 124 § 1 k.w. przypisano nieistniejącą w nich treść (klasa T), a ponadto pomylono nazwy czynów z art. 120 i 122 k.w. Wartość B1 wynosi 0 ze względu na bezpośrednie ryzyko błędnej kwalifikacji przestępstwa jako wykroczenia. B2 wynosi 1, ponieważ kategoryczny ton wypowiedzi odpowiadał oczekiwanej kategoryczności w kluczu.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 119\" \"800\" kodeks wykroczeń isap sejm",
+   "\"Dz.U. 2022 poz. 2600\" \"119\" sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11981,
+   "wyjscie": 644
+  },
+  "czas_s": 35,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

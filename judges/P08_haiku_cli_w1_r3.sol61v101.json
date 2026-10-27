@@ -1,0 +1,92 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 5 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO — dane biometryczne i „wizerunek głosu”",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=pl",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 23 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 24 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "stosowanie art. 50 od 2 sierpnia 2026 r.",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wytyczne Komisji Europejskiej dotyczące art. 50",
+   "zrodlo": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny zasadniczy rdzeń i wszystkie wymagane podstawy, ale nie wyjaśnia wprost niezależności definicji od intencji ani niewiążącego charakteru wytycznych. A3 obniża niedosłowny cytat z art. 50 ust. 4: przepis mówi o pracy lub programie o „wyraźnie artystycznym” charakterze. A6 obniża przypisanie art. 9 RODO ochrony „wizerunku głosu”: jednostka reguluje szczególne kategorie danych, w tym dane biometryczne przetwarzane w celu jednoznacznej identyfikacji, a nie takie dobro osobiste. Dygresje o innych gałęziach prawa i krajowym wdrożeniu obniżają A8. Przydatność ogranicza pozostawienie do sprawdzenia rozstrzygniętej już kwestii przejściowej: art. 111 ust. 4 przewiduje termin 2 grudnia 2026 r.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 58,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

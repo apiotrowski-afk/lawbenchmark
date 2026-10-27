@@ -1,0 +1,87 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny (art. 4 pkt 5)",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 24 § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny i prawidłowy. System poprawnie wskazuje wymaganą podstawę prawną (art. 119 § 1 k.w.) oraz historię zmian progu. Odpowiedź zawiera jednak halucynację (typ T): system przypisał maksymalną wysokość grzywny (5000 zł) do art. 24 § 2 k.w., podczas gdy norma ta znajduje się w art. 24 § 1 k.w. Z tego powodu A6 wynosi 0. Błąd ten nie wpływa na ocenę przydatności (B1), ponieważ sama kwota maksymalnej grzywny jest poprawna.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"Art. 24\" \"Kodeks wykroczeń\" \"Grzywnę wymierza się\"",
+   "\"Art. 24 § 2\" \"Kodeks wykroczeń\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 4\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 4 pkt 5\"",
+   "\"Dz.U. 2018 poz. 2077\" \"art. 119\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"art. 119\" \"kodeks wykroczeń\"",
+   "\"art. 130\" \"kodeks wykroczeń\" \"szczególnie zuchwała\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15j3NxrA4bzSrefMx0ZiR1vOPZmFFSONEAqj6BeCOoZUpWpCsYsi1CWPFePBE1RTG0BEym0gk3nERUPy43UWz3-JVsPYDbZ8ehDGph1d94jQlUP8koBnFbwyinuBw0J1Gwhkpw4e6PUU0J6eZtCdL",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6-hWna7EiQSZVACJ8GY3-oLApUq5QiMHf0PR-rOMnHKftZpUGRJHZ4MMU-43iNNai2cpW-Sq-xF5JkUZXKLV-ISAqwNSL73AwsI4A99w3Ay70DrIbdkJXJqUWSC9_NYgdG4f-CzFdyAuYqyQAbTUY4XhZZNVempYJPdSz9Qln5Vb-VjjT2HNMtWz6_8K6RJSCbS1OnLnB9xz1LpZgcg-yR2zkzg-HahKRySMDCA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk86eqMv8tj3YHY6OGxkad0FpShP1ntswLxDSTwxLx3YGxPxO-oGetInIshOgNzaep2aRIwS6OXoux38In5Rf7Rdaa1qYggAe3kx0sfzCtlQPj3drYkJl6yY6P04WAA7demtqOKknC9bpYYBfcUoolSk1mQkh66aDMjkXD-BbYOBg1pWNHXAKnDxDK7gVNjQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRb_Km_jLcmS24RmfiirSTKjSI7jwxQketKNq2yT15y0r7PrhLi7o6c0jRd6HCkWgDzXoqzhklnBWIT6q5THuHXCDdXrgMh_-4E_JG3PEWIXcWCf_3V2RZWzm-OfLKi-R8MPfEicNFQx3Q",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBaNcqwzllBFCoYnECyjYdUI-2OKWJxdw7mMLbxpN8I4xdxpBjo7Iznfg9X8yK3hL8Ut4b-a54Am3Y_oH1xhkBgobalnc_3MH7o5Q4dIykzHFtPOXonnrRdsd1Ek55snq9N30aI4GbfkTfHxN4Ha_733e3M0NXs7sbsNePJQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFio1cosOmXEsqzGDIMZvkqOq88_6McjVmRTFcFBVo9UKsKgXNckRJGBNh3Igtsc4YeP3IKQXtzCuz4LJF7HxenNtz2RkX7PejewblFjnmgbHOrTfCTR9hVEmvhskvKMen2SCvsQWvs4py6XK_2aKh_i5FE4_yqUyzntLnUo9jZUUftHzv",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJKzPnxlSvRT-wphL1LBa3RmkKj10hzRHKErKeohpDG54Sk7QkQo2xbxRF5cO_udFHNmnsUiYGqit6-nKM7PE6pHWIz-czBcUkxs4YnDYOphB8elSggwtPR8v9PTSoXU7yymJIHkRGETtU4DSSa0iJQc216D6OZ2FjHw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3GYWKLCmkhX2kaIDTCt-9CHtB8u56DxYiT4gc3C54QaSl3tvYa56RuKGIN-C_18D66J3NeyergUFWoZqHDPUFf0A9Caj_ZnmzrVuWiltSDuRU4ffo71GRVKupWPu8HoXNrVxk",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuHSlUO91Vsxzx-23H_toHj5QQsOgwLDE0qjh0fP64fTUrIubh9IOWavA2mgVNy7uBc5E0hLNsGuACZMNwGAjCx2SRtogBlKuvIB2dWBttF6n4LTdf98i-r2kYKaYzfidfNZoMjTT5bIMS6C-FdPfWkurHbIavJFneJksX3jo="
+  ],
+  "tokeny": {
+   "wejscie": 13946,
+   "wyjscie": 727
+  },
+  "czas_s": 138,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

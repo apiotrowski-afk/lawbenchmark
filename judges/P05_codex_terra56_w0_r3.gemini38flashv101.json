@@ -1,0 +1,65 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹a § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. z uwzgl. Dz.U. 2025 poz. 1172)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wpadła w odwróconą pułapkę aktualności – od 1 czerwca 2026 r. art. 131¹ᵃ § 1 k.p.c. umożliwia doręczanie pism przez Portal Informacyjny także stronie postępowania (osobie fizycznej), jeżeli złoży ona stosowne oświadczenie o wyborze tego sposobu (§ 1¹). Model opisał stan prawny sprzed tej daty, twierdząc, że portal służy przede wszystkim profesjonalnym pełnomocnikom, a dla strony przytoczył przepisy o systemie teleinformatycznym (art. 131¹ k.p.c.). Skutkuje to brakiem realizacji rdzenia (A_R=0), brakiem wymaganych podstaw (A2=0) oraz oceną A6=0 (klasa W – przepis powołany w nieaktualnym brzmieniu) ze statusem hallucinated=true. Z rubryki zaliczono wyłącznie wzmiankę o 14-dniowym terminie fikcji doręczenia, a nieprzydatność błędnej porady skutkuje B1=0.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 131\" \"1a\" kpc \"Dz.U. 2026 poz. 468\" portal informacyjny",
+   "\"131(1a)\" kpc \"wyboru takiego sposobu doręczania\" portal informacyjny 2026"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9287,
+   "wyjscie": 552
+  },
+  "czas_s": 57,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

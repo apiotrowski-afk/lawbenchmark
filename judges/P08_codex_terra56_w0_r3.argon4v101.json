@@ -1,0 +1,69 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia definicję deepfake z art. 3 pkt 60 AI Act, obiektywny charakter kryterium oraz brak obowiązku z art. 50 ust. 4 dla wyraźnie syntetycznego głosu, ale całkowicie pomija kluczowy obowiązek oznakowania maszynowego syntetycznego dźwięku przez dostawcę z art. 50 ust. 2 AI Act (stąd A-R = 1, A2 = 0, R3 = 0 oraz B2 = 0). System nie rozdziela ról dostawcy i podmiotu stosującego (R4 = 0), nie podaje dat stosowania przepisów (R5 = 0) ani nie odwołuje się do wytycznych KE C(2026) 5054 (R6 = 0). Wszystkie powołane przepisy (art. 3 pkt 60, art. 50 ust. 1 i 4 rozporządzenia (UE) 2024/1689) zostały opisane zgodnie ze źródłem oficjalnym w EUR-Lex (A6 = 1), a brak dosłownych cytatów oznacza A3 = nd.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"32024R1689\" \"Artykuł 50\" eur-lex.europa.eu",
+   "\"2024/1689\" \"deepfake\" \"Artykuł 3\" eur-lex.europa.eu",
+   "\"Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake\" eur-lex.europa.eu"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14601,
+   "wyjscie": 711
+  },
+  "czas_s": 71,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

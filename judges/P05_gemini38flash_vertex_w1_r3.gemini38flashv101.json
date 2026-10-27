@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131[1a] § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1a] § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1a] § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131[1a] § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym (Dz. U. poz. 368)",
+   "zrodlo": "ISAP Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z 2023 r. poz. 285)",
+   "zrodlo": "ISAP Dz.U. 2023 poz. 285",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź bezbłędnie omija pułapkę aktualności i precyzyjnie opisuje stan prawny obowiązujący od 1.06.2026 r. Powołano wszystkie wymagane podstawy prawne (art. 131¹ᵃ § 1, § 1¹ i § 2 k.p.c.) oraz zrealizowano wszystkie punkty rubryki: dobrowolność wyboru dla strony, formę oświadczenia z podpisem elektronicznym/zaufanym/osobistym, regułę doręczenia w dokumencie potwierdzającym lub po 14 dniach oraz procedurę rezygnacji. Brak jakichkolwiek uchybień merytorycznych, fikcyjnych przepisów czy naruszenia ram wypowiedzi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"131[1a]\" \"134\" kpc portal informacyjny",
+   "art 131[1a] kpc brzmienie 2026",
+   "\"131(1a)\" kpc \"134\"",
+   "Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym",
+   "\"publikator\" \"tekst jednolity\" \"ze zm.\" benchmark a6",
+   "\"Dz. U. z 2023 r. poz. 1550\" \"2026 poz. 468\" a6 s",
+   "\"publikator\" \"ze zm.\" \"S\" a6 adam"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12019,
+   "wyjscie": 808
+  },
+  "czas_s": 67,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

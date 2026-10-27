@@ -1,0 +1,121 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 120 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 122 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 124 § 1 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 278 § 1 KK",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 284 § 1 KK",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 KK",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 KW",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r.",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "rozporządzenie Rady Ministrów z 2025 r.",
+   "zrodlo": "Dz.U. 2025 poz. 1242",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System całkowicie odwrócił stan prawny, twierdząc, że próg wynosi 1/4 płacy minimalnej (1201,50 zł), podczas gdy od 1.10.2023 r. jest to stała kwota 800 zł. Z tego powodu rdzeń (A-R) wynosi 0, a przydatność (B1) 0, ponieważ porada naraża klienta na odpowiedzialność za przestępstwo. System powołał właściwy art. 119 § 1 k.w. (A2 = 1), ale przypisał jemu oraz art. 120, 122 i 124 § 1 k.w. fałszywą treść (A6 = 0, typ T). Dodatkowo system pomylił opisy czynów (art. 120 k.w. to kradzież leśna, nie paserstwo) oraz przypisał instytucję czynu ciągłego do art. 12 k.w. (który dotyczy podżegania). Kalibracja (B2) wynosi 1, ponieważ system odpowiedział kategorycznie, zgodnie z oczekiwaniem.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 12\" \"Kodeks wykroczeń\" \"Dwa lub więcej zachowań\"",
+   "\"art. 119\" \"Kodeks wykroczeń\" \"oszustwo\"",
+   "\"art. 12\" \"Kodeks wykroczeń\"",
+   "\"art. 12 §\" \"Kodeks wykroczeń\"",
+   "\"art. 120\" \"Kodeks wykroczeń\"",
+   "\"art. 122\" \"Kodeks wykroczeń\"",
+   "\"minimalne wynagrodzenie\" 2026 rozporządzenie",
+   "\"Kodeks karny\" isap t.j."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEONGQKdvjVbdEKkYoPNLPNbRK6CRYaHKn7dKkWxQ8NOwymb4oHp-4huTfH6M5f3ukkjlrJQBghCiJ3EXFIyIkqP9ME99okBwNyZsWn-gIqEy3jUtvQUdELPDD29cVCj1smgkmnoC6dW5JnmXqifeHU20oJNAH3PkuG_4DhxJ2bY3L8bM-JvWPFldTvgbIqU79fdjIei7PEYUHbDCWWPLCVzw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYMJYSNLlFqE4l4PKOTyQSfg7hbOohmLyrVSOog7pp8M370v0j8gFc0Izt3rmVmQ-O7EiHzxvrAfKvDx_sklHaaq4OnahxFNV32_c1R6GYyB2GXhF2CkzjQKwwvtae1MLr7Gq1iVs4K3vODwbwqrXqzS0wps7HOZdnSqEWYSOzXCrm1BqkL0ARSZ8yj5DHDWClDzLB0ylbwjxMM9HDP767OFwm0IBdGpOUEaDks_q3wmSh02fSdRIvU7tlNa71Hal7rxoFxoBJ0hi4p-APvh5jE-Q=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO0jnQ8rbnvcV1jnHNyZg7Zw2ejCXh6kj2FiDHm0K7iw4M9Cg7oqTqk-WFu2ePoj8Jl4q4RmmiKr59SjjdT3H1Je45nb3j4pwWL5_6K1DSOE8zibEfnxnqvw-7kotnUDNz0s6wvaeTkmQCV4hcJnlkQt_yEp4cXHa3RFprzxfYfvU7zL6E6p2XtZpP0OsTKv7Us9Y6Ul545GPKt8tmkZagX7AlBfml",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIjgMhNai5lTZrUBqW_jBapFq3NQd2Z6M5G7hDRaUvwT-K68dVGD62WXxq8evA3Mh3JYcNDnH10AQycTDMmKVIMSUURnPoOMSAQ7x6VmYZj3_0pd7jDvlOhAWZ2fn0Gks9mONCJf3JJK_JCqumPe2xpcH5CGLSMhZduIfI6A8huw3xNqaVY8jGjTfIdIe6gcAeoXzn2e32NSCUG3FZA61OtmtDBw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHJw1ih2C5cwy-yQ9dZ4RSqHfnEm8RHBczvxtHi915Nx1kVbdjyzIJcbxqaxbmH7tZhfBz-R4pOtGg9hZ_b0AZRdxYIMbxSHjLACwipUexmczkj03OMefZ-OM87ETUzdarcXUBIpb7hwYiBrXXhriQESBO_6tGlP8Fke7p3b5SygpCJVYvAE0x",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRx-gX3Aq0nwgzu5PKgQvcnTFSnHY7LNcJvkwAbItAwHQojLhqcqFTbr4P9LqM8X3QLXGo_c87I5hFD8Oy9v_TYA9W6QSfSBn4nsnCz1frCrieuhRopk6urnKi4ejkRaHVHg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8I5viPzuGI1W4L6zs_AKKDjnUzRcDsgaHhAMWSmkCIr5Y5NejcA6mln2pfkhB1TFXCxtJZGId0APpL-zjwt0mDX2879KGD0VR3E6zKebHCmE-bgG4q24oWeGXPS7NXxR0EDnVwGLAV4J3oUzZPAW3hxPxUz0un_NPOJyShkFuWSQDZDpQY3Q="
+  ],
+  "tokeny": {
+   "wejscie": 13755,
+   "wyjscie": 1096
+  },
+  "czas_s": 214,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

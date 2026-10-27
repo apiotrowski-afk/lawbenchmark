@@ -1,0 +1,85 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 99 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228 (t.j. u.k.s.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozróżnia na wstępie zażalenie poziome w sądzie apelacyjnym od zażalenia dewolutywnego rozpoznawanego przez SA jako sąd II instancji, podając prawidłowe rozstrzygnięcie dla obu ścieżek (A_R=2, B2=1, R1–R3 zaliczone). Punkt A2 wynosi 0 z uwagi na brak powołania wymaganego w kluczu art. 397 § 1¹ k.p.c., a w rubryce nie zaliczono elementu R4 (brak wzmianki o art. 130² k.p.c.). Wszystkie powołane przepisy k.p.c. i u.k.s.c. zostały zweryfikowane i są zgodne z obowiązującym stanem prawnym (A6=1). Kryterium A8 obniżono do 0.5 ze względu na niezwiązany z pytaniem akapit o prawie Unii Europejskiej.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"394\"",
+   "\"art. 394\" \"Kodeks postępowania cywilnego\" OR",
+   "\"Art. 99.\" \"kosztach sądowych w sprawach cywilnych\" OR OR",
+   "\"Art. 394\" \"Zażalenie do innego składu sądu drugiej instancji\"",
+   "\"Art. 394\" \"Na postanowienie przysługuje zażalenie do innego składu sądu drugiej instancji\"",
+   "\"Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną\"",
+   "\"Nie pobiera się opłaty sądowej, a uiszczoną opłatę zwraca się, jeżeli zażalenie, wniesione na zarządzenie przewodniczącego o zwrocie pisma\" OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10910,
+   "wyjscie": 1069
+  },
+  "czas_s": 128,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

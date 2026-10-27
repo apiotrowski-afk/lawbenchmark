@@ -1,0 +1,89 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "sn.pl / OSNC 2023 nr 2 poz. 14",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 oraz art. 169 § 1–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie rozstrzyga gałąź dotyczącą odrzucenia przez SA zażalenia rozpoznawanego jako sąd II instancji (brak zażalenia) i na końcu dopytuje, czy odrzucone zażalenie było skierowane do SA, do innego składu SA czy do SN, co zalicza element rozwidlenia (R1) i kalibrację (B2 = 1) oraz chroni przed karą K2. Nie podaje jednak rozstrzygnięcia dla drugiej gałęzi (zażalenia poziomego odrzuconego w SA, na które przysługuje zażalenie do innego składu SA), przez co otrzymuje A-R = 1 i traci R2. Brak powołania wymaganych w kluczu art. 394² § 1² oraz art. 397 § 1¹ k.p.c. skutkuje A2 = 0, a brak wzmianki o art. 130² k.p.c. oraz o zaskarżalności odrzucenia zażalenia poziomego obniża przydatność (B1 = 1). Wszystkie powołane przepisy k.p.c. oraz uchwała SN III CZP 50/22 zostały zweryfikowane w źródłach oficjalnych i opisano je zgodnie ze stanem prawnym (A6 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 16,
+  "zapytania": [
+   "\"III CZP 50/22\" OR",
+   "\"394\" \"3942\" \"3941a\" \"3941\" OR",
+   "\"Art. 168.\" \"Art. 169.\" \"Kodeks postępowania cywilnego\" OR",
+   "\"III CZP 50/22\" \"23 czerwca 2022\"",
+   "\"Art. 169.\" \"Pismo z wnioskiem o przywrócenie terminu\" OR OR \"Dz.U. 2026 poz. 468\"",
+   "\"Art. 3942\" \"Zażalenie do innego składu sądu drugiej instancji przysługuje\" OR OR \"odrzucenie apelacji\"",
+   "\"Art. 3941.\" \"Zażalenie do Sądu Najwyższego przysługuje\" OR OR \"odrzucenie pozwu\"",
+   "\"Pismo z wnioskiem o przywrócenie terminu wnosi się do sądu\" \"Równocześnie z wnioskiem strona powinna dokonać\"",
+   "\"Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji odrzucające skargę kasacyjną\"",
+   "\"Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest\"",
+   "\"Jeżeli zażalenie, o którym mowa w § 1 i\" \"sąd odrzuca je w składzie jednego sędziego\"",
+   "\"Zażalenie do innego składu sądu pierwszej instancji przysługuje na postanowienia tego sądu, których przedmiotem jest\" \"odrzucenie zażalenia\"",
+   "\"III CZP 50/22\" \"3942\"",
+   "\"iii czp 50-22-1.pdf\" OR \"III CZP 50/22\"",
+   "\"XVIII GUz\" \"III CZP 50/22\"",
+   "\"Na postanowienie sądu upadłościowego jako sądu drugiej instancji o odrzuceniu zażalenia\" OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11108,
+   "wyjscie": 1461
+  },
+  "czas_s": 229,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

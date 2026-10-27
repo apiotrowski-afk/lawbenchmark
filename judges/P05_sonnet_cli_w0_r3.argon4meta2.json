@@ -1,0 +1,105 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2020 poz. 2320 — ustawa regulująca publiczną usługę rejestrowanego doręczenia elektronicznego (e-Doręczenia)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. (pkt 1: doręczenie przez portal informacyjny)",
+   "zrodlo": "Dz.U. 2026 poz. 468 — Art. 131¹ § 1: „Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego.” (doręczenia przez portal informacyjny reguluje art. 131¹ᵃ k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 2 § 1 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490 — Art. 2 § 1: „Przepisy niniejszego kodeksu mają na celu takie ukształtowanie postępowania karnego, aby: 1) sprawca przestępstwa został wykryty...”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 132 i n. k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490 — Rozdział 15 k.p.k. (w tym art. 132 § 3 oraz art. 133a § 1 k.p.k. o doręczeniach przez portal informacyjny)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 125 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 — Art. 125 § 2¹: „Jeżeli przepis szczególny tak stanowi albo dokonano wyboru wnoszenia pism procesowych za pośrednictwem systemu teleinformatycznego, pisma procesowe w tej sprawie wnosi się wyłącznie za pośrednictwem systemu teleinformatycznego.”",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. (pkt 2: obowiązek korzystania z doręczeń elektronicznych przez profesjonalnych pełnomocników)",
+   "zrodlo": "Dz.U. 2026 poz. 468 — Art. 131¹ § 1 k.p.c. dotyczy doręczeń w systemie teleinformatycznym po wniesieniu pisma lub wyborze tej drogi, a nie obowiązku odbioru pism w portalu informacyjnym przez zawodowych pełnomocników (ten wynika z art. 131¹ᵃ § 1 k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. (pkt 4: fikcja doręczenia po 14 dniach)",
+   "zrodlo": "Dz.U. 2026 poz. 468 — Art. 131¹ § 2 zd. 3: „W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie teleinformatycznym.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 — Art. 168 § 1: „Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 — Art. 131 § 1: „Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe (...), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową.”",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie wskazuje kierunek (dobrowolność doręczeń portalowych dla osoby fizycznej oraz fikcję doręczenia po 14 dniach), lecz myli doręczenia przez Portal Informacyjny (art. 131¹ᵃ k.p.c.) z doręczeniami w systemie teleinformatycznym z art. 131¹ k.p.c. W konsekwencji pomija wymagane podstawy prawne (A2 = 0) oraz kluczowy warunek złożenia oświadczenia o wyborze przez portal z podpisem kwalifikowanym, zaufanym lub osobistym z art. 131¹ᵃ § 1¹ k.p.c. (A-R = 1, R2 = 0, B1 = 1). Przypisanie art. 125 § 2¹ i art. 131¹ k.p.c. regulacji doręczeń przez portal informacyjny oraz obowiązku korzystania z nich przez pełnomocników zawodowych stanowi błąd klasy T (A6 = 0). Punktację A8 obniżono do 0.5 ze względu na dygresje o postępowaniu karnym i administracyjnym, powtórzone w osobnym punkcie zastrzeżenia weryfikacyjne oraz błędne uwagi poboczne.",
+ "_meta": {
+  "sedzia": "argon4meta2",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"art. 132\" \"Kodeks postępowania karnego\" OR OR",
+   "\"18 listopada 2020\" \"o doręczeniach elektronicznych\" OR",
+   "\"131\" \"portalu informacyjnym\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 133a\" \"Kodeks postępowania karnego\"",
+   "\"portalu informacyjnym\" \"Kodeks postępowania karnego\" \"133a\" OR \"132\"",
+   "\"Art. 1311a\" \" § 2.\" \"Kodeks postępowania cywilnego\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 19073,
+   "wyjscie": 1668,
+   "rozumowanie": 7835
+  },
+  "czas_s": 162,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 9, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 131¹ k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 131¹ k.p.c. reguluje doręczenie pism sądowych w postaci elektronicznej za pośrednictwem systemu teleinformatycznego (portalu informacyjnego).”\n    · uzasadnienie weryfikatora: Przepis wprost reguluje doręczenie elektroniczne dokonywane przez sąd za pośrednictwem systemu teleinformatycznego. Dopisek w nawiasie o portalu informacyjnym stanowi nieszkodliwe wyjaśnienie poza przypisywaną normą.\n    · kotwica (verbatim ze źródła): „Art. 131¹. § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycz…”\n    · brzmienie jednostki (fragment): „Art. 131¹. § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie tel…”\n- 2. art. 2 § 1 k.p.k. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: poza_brzmieniem; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 2 § 1 k.p.k. nie dotyczy doręczeń pism sądowych w innych postępowaniach.”\n    · uzasadnienie weryfikatora: Twierdzenie nie przypisuje przepisowi żadnej normy z zakresu doręczeń, lecz przeciwnie – trafnie wskazuje, że art. 2 § 1 k.p.k. tego zagadnienia nie dotyczy.\n    · brzmienie jednostki (fragment): „§ 1. Przepisy niniejszego kodeksu mają na celu takie ukształtowanie postępowania karnego, aby: 1) sprawca przestępstwa został wykryty i pociągnięty do odpowiedzialności karnej, a osoba niewinna nie poniosła tej odpowiedzialności; 2) przez trafne zastosowanie środków przewidzianych w prawie karnym oraz ujawnienie okoliczności sprzyjających popełnieniu przestępstwa osiągnięte zostały zadania postępowania karnego nie tylko w zwalczaniu przestępstw, lecz również w zapobieganiu im oraz w umacnianiu poszanowania prawa i zasad współżycia społecznego; 3) zostały uwzględnione prawnie chronione interes…”\n- 3. art. 132 [akt: nieustalony (w zdaniu inny akt: k.p.k., p.p.s.a.)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: k.p.k., p.p.s.a.\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 4. art. 125 § 2¹ k.p.c. [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 125 § 2¹ k.p.c. w powiązaniu z art. 131¹ k.p.c. nakłada obowiązek korzystania z doręczeń elektronicznych w szczególności na profesjonalnych pełnomocników oraz podmioty wskazane w ustawie.”\n    · uzasadnienie weryfikatora: Powołany przepis dotyczy wnoszenia pism procesowych przez system teleinformatyczny (gdy przepis szczególny tak stanowi lub dokonano wyboru), a nie doręczeń elektronicznych ani obowiązków profesjonalnych pełnomocników.\n    · brzmienie jednostki (fragment): „§ 2¹. Jeżeli przepis szczególny tak stanowi albo dokonano wyboru wnoszenia pism procesowych za pośrednictwem systemu teleinformatycznego, pisma procesowe w tej sprawie wnosi się wyłącznie za pośrednictwem systemu teleinformatycznego. Pisma niewniesione za pośrednictwem systemu teleinformatycznego nie wywołują skutków prawnych, jakie ustawa wiąże z wniesieniem pisma do sądu, o czym sąd poucza wnoszącego pismo. § 2¹ᵃ. Dokonanie wyboru wnoszenia pism procesowych za pośrednictwem systemu teleinformatycznego oraz dalsze wnoszenie tych pism za pośrednictwem tego systemu jest dopuszczalne, jeżeli z…”\n- 5. art. 131¹ k.p.c. [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 131¹ k.p.c. w powiązaniu z art. 125 § 2¹ k.p.c. nakłada obowiązek korzystania z doręczeń elektronicznych w szczególności na profesjonalnych pełnomocników oraz podmioty wskazane w ustawie.”\n    · uzasadnienie weryfikatora: Art. 131¹ k.p.c. uzależnia doręczenie elektroniczne od wniesienia pisma lub wyboru takiej drogi przez adresata i nie nakłada obowiązku korzystania z doręczeń elektronicznych na profesjonalnych pełnomocników.\n    · brzmienie jednostki (fragment): „Art. 131¹. § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie tel…”\n- 6. art. 131¹ k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 131¹ k.p.c. w razie nieodebrania pisma przez adresata uznaje się je za doręczone po upływie 14 dni od umieszczenia go w systemie.”\n    · uzasadnienie weryfikatora: Przepis w § 2 zd. 3 wprost przewiduje fikcję doręczenia z upływem 14 dni od umieszczenia pisma w systemie w razie braku potwierdzenia odbioru.\n    · kotwica (verbatim ze źródła): „W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie teleinformatycznym.”\n    · brzmienie jednostki (fragment): „Art. 131¹. § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie tel…”\n- 7. art. 168 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 168 k.p.c. dopuszcza przywrócenie terminu wyłącznie przy braku winy.”\n    · uzasadnienie weryfikatora: Przepis wprost uzależnia przywrócenie terminu od braku winy strony w uchybieniu terminowi.\n    · kotwica (verbatim ze źródła): „Art. 168. § 1. Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu.”\n    · brzmienie jednostki (fragment): „Art. 168. § 1. Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu. § 2. Przywrócenie nie jest dopuszczalne, jeżeli uchybienie terminu nie pociąga za sobą ujemnych dla strony skutków procesowych.”\n- 8. art. 131 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 131 k.p.c. przewiduje doręczenie w trybie tradycyjnym pism, których z przyczyn technicznych nie da się doręczyć elektronicznie.”\n    · uzasadnienie weryfikatora: Przepis został powołany w nawiasie na określenie trybu tradycyjnego doręczeń i rzeczywiście ten tryb reguluje, choć sam w sobie nie zawiera przesłanki dotyczącej przyczyn technicznych uniemożliwiających doręczenie elektroniczne.\n    · kotwica (verbatim ze źródła): „Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe (Dz. U. z 2025 r. poz. 366, 820 i 1456), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową.”\n    · brzmienie jednostki (fragment): „Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe (Dz. U. z 2025 r. poz. 366, 820 i 1456), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych (Dz. U. z 2024 r. poz. 1458, z 2025 r. poz. 1018 i 1172 oraz z 2026 r. poz. 26). § 1¹. W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu…”\n- 9. art. 131¹ k.p.c. [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · brzmienie jednostki (fragment): „Art. 131¹. § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie tel…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

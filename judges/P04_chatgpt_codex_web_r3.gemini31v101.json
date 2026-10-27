@@ -1,0 +1,87 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 583 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę aktu (decyzja, nie postanowienie), ale wpada w pułapkę, zalecając uzyskanie potwierdzenia ostateczności zamiast zaświadczenia o prawomocności (A-R = 0). System rozróżnia ostateczność i prawomocność decyzji administracyjnej, jednak nie odnosi tego do praktyki MSWiA. Brak powołania art. 217 k.p.a. skutkuje A2 = 0. Wszystkie powołane przepisy (w tym k.p.c. dla postanowień sądu) zostały przytoczone poprawnie, stąd A6 = 1. Odpowiedź odnosi się do pytania, uwzględniając również wariant postanowienia sądu (A8 = 1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"Art. 583\" \"Postanowienia orzekające co do istoty sprawy w postępowaniu opiekuńczym\" k.p.c.",
+   "\"Art. 583\" k.p.c. \"skuteczne\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmTNuBtS1ko9LpkFlLS5pts2Obb4WQv6HMkaFcRjWEH9UHnX76E4Ylt96Z4-Lyu_MeZnQAb3PIndAJBm_OIcZmRRUYxro6MOYeWI_J15ViwjxVcP8pvKLOYpwvuRpp1ff6VrhEvo6m0FtjrgnZRi3owHBi9cIcz-m8nR-iTNY6zOX6V54U5yHveI7zWxMNGCzAietD",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM20aKA3VtRlIspY0KSzQLmzhWI2BkQHs3YxcIBkYcA7Kcpdi--vAB3ae0D6utDMptvZrN3WlI1zm_teR5hniGSploPtrVGHRP28pGeKy90-8ZVNzvk2eBqxcDQCfKbnXCpiNOfFW4iyQoF8Kekto0csmz3eHeuhdw3Zawx9GIFEpOU6qrJHbuAe4JA-sGwEv9qsyRvzNFNKNzRA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDy6mWwFDRETZG5wX3M_-hJtiTubuluVyJr8wxB3ahKbSTeNYcS2aF-dazAmRXVnWl4bKD6uj362pRlSz2L6h5YPGvkDVcZ6lWUqVzz5viaVZpWp5dUSVJWK491UfHyPV0vhgVkc07II60V2mwUF5o3MouVPGdvA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIUmrrWQcdvK4EUW7shAfqXNuC_kBd5EdeIRjzjIb2ld1ofcsEmBdL2oW3E5xOhOal_Ho482iFpq8mE2nDwWT12EZXD-h_xcbB6CdnfEQCsuOs_8JaQEzizMPzyww_zfljOe9W7jRtgpuugFmWZsotqRTyivRqoZt_HmOoL3gUGKTFXSu1",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGiLK7cPk9ClLcTzSDc3MSpTcVqYwPe07M3dkcbwKKE4e3LwkV9iKx8tGwlxdtrzQTYa3m9Tmgj89APQ3PnRG_rYU-WpVvYa7s-0-lr1WFbCXkSct-FZODo2N93oO7SF5lENnoYgJ3ohkwlW1xQMNcJzj3Q4_vFas3aOUDpD9t-YMFYMoF8RIEcYL4vdFeWBsWZNwihVVg5dPFZF9wl_rM5Ei5beQltojktAXB0bBsJsLNE1g="
+  ],
+  "tokeny": {
+   "wejscie": 14971,
+   "wyjscie": 731
+  },
+  "czas_s": 138,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

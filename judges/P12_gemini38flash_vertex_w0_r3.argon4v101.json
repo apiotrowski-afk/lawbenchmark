@@ -1,0 +1,69 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 i § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia pełny rdzeń (A-R=2): wyklucza istnienie klauzuli przeciwko małżonkowi całkowicie „bez ograniczeń”, rozgranicza tryby z art. 787 i art. 787¹ k.p.c. w powiązaniu z art. 41 § 1 i § 2 k.r.o. oraz wyjaśnia, że o trybie decyduje przesłanka materialna wykazana dokumentem, a nie opis dłużnika w nakazie zapłaty. Wszystkie powołania przepisów są zgodne ze źródłem oficjalnym (A2=1, A6=1), a system nie utrwalił błędnego numeru art. 781¹ k.p.c. z pytania, stosując właściwy art. 787¹ k.p.c. W rubryce odjęto punkty za R[3] (brak wyraźnego sprostowania omyłki pisarskiej pytania dotyczącej art. 781¹ k.p.c.) oraz R[4] (brak wskazania zakresu egzekucji z majątku osobistego i dochodów dłużnika na podstawie art. 776¹ k.p.c. przy braku przesłanek z obu trybów). Konstrukcja wariantowa oparta na kryterium zgody małżonka daje pełną punktację w Bloku B (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "OR \"art. 787\" \"2026\" \"468\"",
+   "OR \"art. 41\" \"2026\" \"236\"",
+   "\"Jeżeli małżonek zaciągnął zobowiązanie bez zgody drugiego małżonka\" \"Art. 41\" OR OR",
+   "\"Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim\" OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12639,
+   "wyjscie": 853
+  },
+  "czas_s": 103,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

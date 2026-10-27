@@ -1,0 +1,104 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 747 pkt 1–2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 110 ustawy o księgach wieczystych i hipotece",
+   "zrodlo": "Dz.U. 2026 poz. 1066",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 744 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 746 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest w pełni trafny i znajduje się w pierwszym akapicie (A-R=2). System powołuje wymagane przepisy (A2=1), ale całkowicie zmyśla ich strukturę i treść: przypisuje treść art. 492 § 3 do § 2, a dla § 3 wymyśla nieistniejące brzmienie (A6=0, typ T). Dodatkowo przytacza nieaktualne brzmienie przepisu z „warrantem i rewersem” (typ W, kara K3). Wskazówka praktyczna o złożeniu kwoty do „depozytu sądowego” zamiast na rachunek depozytowy Ministra Finansów stanowi błąd obniżający przydatność (B1=1). Kalibracja pewności jest prawidłowa (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 492\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 492\" \"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\" OR",
+   "\"art. 110\" \"ustawy o księgach wieczystych i hipotece\"",
+   "\"art. 110\" \"ustawy o księgach wieczystych i hipotece\" \"nakaz zapłaty\"",
+   "\"hipoteka przymusowa\" \"nakaz zapłaty w postępowaniu nakazowym\" \"art. 110\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDZm_mnCtePuKithq5X22r3ATeJEWBmmRa-jMl4G7co_cm4shDqV74UAIcQmLx6oCmAW67SK0T4iHHRoivGKT7gFOg02B6OtqzyFsvc8EOzLIQM7AVN73UyIpJQK_wGmgjq90eAmLUhl4jWYevsxrq4o4HDpB3kW1XNF1zel5rQUk46JuFzmcXPrPelR07Gup-6pUJOMbhE-IlNElSNG7Xd99r93UWAFyPokryOlnkO57AEjI4QmAwwCU4ZxN3VCUfqljrlRdn8kMndfazRJpO-pu13YWQAA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkgj2vMBLqIafpUkQn0iLbaVnfXWyOkawQHAfOsTzPoT_dEnMQAv3y7n-ugMAr_c96fXt5UKHuWaIA-j0Rntca-TKiZyzEdQK09F1wofX1eyskoxIjiaiNomUpy6_8wwpiCzGO5ZecKc6IvO5PrB-ILtc6b1sJXZmYim6NbCw_2GjWVUwlIaRUnoMof6wC-ty7siISmvmc-uU1PrcdBCs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrCdy3p_45bKc8rzZxKM8JoZyCGEodTCMK1oi5h0bY6nsITgUaqG1J2m0JJOEOnf0ujsa3jw7uYuFmogeQBWhmTLV5w4T4Wvk1d726A0_QYMgmwCqYFpWkCpnxgAJiPQjA4jrkVcnJINs1-1CaK5FGpmUUEfTrJUTuoTKH9mbGcBjTowH3JMTNBNXX96OyBlX7QQ2Z7IwBZp_puik=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkls0HP59-mUazYFg9RpiutUYkT3O2O74AsV07a-h1yuAAHm7jMhI6WuWAsDeaEYKCugCWSKjougCQJGulr4wlvFo5wGJR02YoZDA-ocLMMR5DWUfL8-gBRz2kNxcB0rDYZPAZN_Wu1DNV6sw0m4EzGPWkz6r5h4FZGrx3J9-FKbXHCkLKTUpijV_VIUrCzHFmcZpUhSeIVTPosHc1",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMMzTxZpd9rnKRZgxVc7CDNEP35sIyevGF9q1CMwVsQnvUM7xY4YiI_2o8W1XpjG2maTvk7DTO2FszeFp_WZB4bbHFEpjjjXhyO8zvmq3rBuSsxiN948NevGSc-wH8w-Sf130jN_biBfbUdeAxXn-Px4Wh9pnCLJz2jGUEhSLTkQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER6KRhQHBch8uLlDOCfDtEX-jrLbDQZ9lZh0jqwaCn_bK99gx09UDiVFz0rfbql08wYnnjhByoU1tf6jsI_Ytiitv0js2f2PEyfvab-Uo9MAkpy9XSrA9Jm0JDqHLyBVo-Req2WEkMwrlhiiv2wS05zM5eFQv1hWMHsIqUBn_xTsyuWT89LnAPovr8fE3T0dXCPWVLVPrYyY2xT20CVW4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM_QI5pUQmKSoOP8BtkSNlMx9kb0GsnGLR3JA-lM1WvVLtK6H61B3oLLh1-MBA6Nc0hxQWXqawJ-p5npAbiEQ39Ai-k49z3q50JAKfFQso5LpA01lDusoKd_txxM_4TkZeYxTpeuMqs3N7biwmuvqs-GUrv-on_FPVnMQ5z4wKHyttbwRSzeSlBpNrB1DztrHBPnoAYWVaoZwIBVjIB4EXQxICmBOgxxO-nv7W903692W8ueCySw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyslHFDgL0UnSeqgHisrQ6XAhFjgTosdpkUN7Mq_jaCuB_Ux127bNzhRVdu9PYoyBIwFwvWDJqgYTqIWQeD1YFovoQJU5qZAUa6nSvSPaMvdHTENTHfdD__ETmwDRyQCBnOj4hEe7XkffwBB6kF_0oqrxbpLxWNZNZ57hLAGN0qq8uiaSqYsHN4Q4PTHj74J_6ee7Lqt2_Kp0NdfCLCKzqaP37nQn7TpLiU2uC1yUjx8SCsDvlQMwGiVXA78PFjzXM5-qlWx-2RxHJ37HV46nWlfk1nVayH8CB16EbyI_vWcSPvUjLHeJeq94JIbxP6YXI5sU="
+  ],
+  "tokeny": {
+   "wejscie": 10672,
+   "wyjscie": 887
+  },
+  "czas_s": 154,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

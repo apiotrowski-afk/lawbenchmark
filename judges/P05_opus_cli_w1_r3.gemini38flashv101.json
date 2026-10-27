@@ -1,0 +1,96 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 5 sierpnia 2025 r. (Dz.U. 2025 poz. 1172)",
+   "zrodlo": "Dz.U. 2025 poz. 1172",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź bezbłędnie omija odwróconą pułapkę aktualności, precyzyjnie wyjaśniając stan prawny po 1 czerwca 2026 r. Zawiera wszystkie wymagane podstawy prawne (art. 131¹ᵃ § 1, § 1¹ i § 2 k.p.c.) oraz kompletnie realizuje rubrykę (oświadczenie o wyborze, podpisy, skutek doręczenia po 14 dniach, tryb rezygnacji). Brak jakichkolwiek halucynacji prawnych i powołań fikcyjnych jednostek redakcyjnych. Odpowiedź jest wysoce przydatna praktycznie, uporządkowana i właściwie skalibrowana.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"131(1a)\" \"131¹ᵃ\" kpc \"wyboru\" \"zaufanym\"",
+   "\"Dz.U. 2025 poz. 1172\"",
+   "\"131¹ᵃ\" § 1¹ kpc portal informacyjny rezygnacji"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12495,
+   "wyjscie": 790
+  },
+  "czas_s": 31,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

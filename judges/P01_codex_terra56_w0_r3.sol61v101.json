@@ -1,0 +1,71 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "Powiązanie z 1/4 płacy minimalnej zostało zastąpione stałą kwotą 800 zł",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dawne powiązanie z 1/4 płacy minimalnej zastąpiono stałą kwotą 800 zł",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2018/2077/text.html ; https://eli.gov.pl/api/acts/DU/2022/2600/text.html",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo podaje 800 zł, niezależność progu od płacy minimalnej oraz właściwe podstawy prawne, w tym art. 124 § 1 k.w. Nie wskazuje daty 1.10.2023 ani wcześniejszej kwoty 500 zł, więc R3 wynosi 0. Zdanie o zastąpieniu powiązania z płacą minimalną kwotą 800 zł błędnie przedstawia historię zmian: nowelizacja z 2018 r. wprowadziła 500 zł, a dopiero nowelizacja z 2022 r. podniosła próg do 800 zł. Ten błędny opis historii zmian skutkuje A6 = 0 i klasą W, mimo poprawnej wskazówki dotyczącej obecnego progu. Brak cytatów i sporności uzasadnia nd w A3 i A5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 43,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

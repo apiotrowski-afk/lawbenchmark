@@ -1,0 +1,99 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaprzecza przesłance i wskazuje na konieczność wyraźnego wymienienia pól eksploatacji oraz zachowania formy pisemnej. Brakuje jednak kluczowego warunku z rdzenia, czyli wskazania na możliwość dookreślenia pól w drodze wykładni z art. 65 k.c. (linia orzecznicza SN), co skutkuje obniżeniem A-R do 1 oraz B2 do 0 (odpowiedź kategoryczna zamiast warunkowej). Wszystkie powołane przepisy zostały zweryfikowane i są zgodne z ustawą o prawie autorskim i prawach pokrewnych. Odpowiedź jest bardzo przydatna praktycznie (B1=2), ponieważ zawiera gotową listę przykładowych pól eksploatacji dla social mediów.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 41 ust. 2\" \"ustawy o prawie autorskim i prawach pokrewnych\" lex",
+   "\"art. 53\" \"ustawy o prawie autorskim i prawach pokrewnych\" lex",
+   "\"art. 41 ust. 4\" \"ustawy o prawie autorskim i prawach pokrewnych\" lex",
+   "\"art. 16\" \"ustawy o prawie autorskim i prawach pokrewnych\" lex",
+   "\"art. 45\" \"ustawy o prawie autorskim i prawach pokrewnych\" lex",
+   "\"art. 2 ust. 2\" \"ustawy o prawie autorskim i prawach pokrewnych\" lex",
+   "\"art. 46\" \"ustawy o prawie autorskim i prawach pokrewnych\" lex"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhw8xb_UhbXOydiJfJNHmaShcpImZsM44lbBSIPoyfgkRAOAzMLUVgE9un_HBPdvbJppuiTPH2kjOccK-LwYI7aAaXcqitmRyRDC4RDkZXlnEyLjIM3P26i3Udk9sll1lzZQYjD1pUJeRPfqzIsfqGKA4ktP1bJm1OF9s37NHJW7ipAomiUh8JBJY9Jc-dV9vIgYK1fujEQJGkmVLzorF7HHTmrpQRdkBui3I0OTY0N7_-rdHFHxhVpxRD7XBvDfITRopEyQqJCDmlxrJ1FzoyeLIViajpupfiKMLoeao7t4aCwqrUhAWXKsHQBf3ypQOxHqkRNBc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsUWEkBT0ptN1IBuuwS6K6arCbUGsj_l0SCkDtJM36UaKm57ocwgM_vVOgeD_h-9ZCaEB--PRWBF-BF6C9qRYW7ajbZp3S_qBiZhrv6rX6qkSdEt_JQXAJBmnYGwcfg6PxyZzKRpkcTpHxdKDcMC0oyfw77rcD2ZG6raLhQG2yplK-b8f4QkSc-A370mCMOphgfhBPNE0RBZN6q5s=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMVul3pw7jPi6DQ4eXUv8F5U7L7LR2z0iP8mdOigvSVWeT_3_NrgOp4H07c2YQlQ8fwYU5RZAyaMrBMH6GpgoEzoMQw2odXt_p9Y3V-o2Mo5GBtVQ8bcvtfg8V6Nn5kf3ZY09LiXpnjRjKcsCnXkwmInJ2WYXu-yPvYwVGG-_mTKm4lJcu3JPI",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtYJihqaA3fu3c1ZGIihfuzO_XPVvlh_U3BDjgHB_PAu3k0kPzKNBUTvIZZhTqt56QHKgMqEwdKCuV494FZw6fUrKLiO3aQ87zSBa3gvjmKyDwSqVZHWOReyr0Vhsnf0Ngs8tGuFqTC66fYJAiYRWCJX_e-O6EFUU2ONIBA9vRomQvv6L5RJiGtsA8XEMJ6HwOCDhJLlxAdCkWE1jx",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgCNJvXLBUmJUIfjceVG8EjhkjestVu3iA-viekgcYVWYbl9hxGR80Otp9-a_MEuA2RnEkr-Wadjd6cuCmTkU7DvIq3HTsKMgiEbVb-haZ_0opVQq5GYRkj28EH66puPa0Y2SI8zue7uMEhLTJw4p0HCxY2G_C0O0S7WdtePbpkoCHk3w=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv6fK0-jiWDeRTOerwPYff9_J1TcX3bxRSuFFGnSDMf4qBg0tCHZQ39f4zt-x69Dn5DzlSyTniqyDlmdyg18hhw4HZM9Q_FD1EgN_uJMa4ZHWI1a6QgihSSxZYPTf0xvHYrXK-_KhNkrhmj8v0lwFOBBmKMEyWZStuIYXUNCIX",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsyLso-FtKF4-Du3aB8xFY1hE8ItA-erWqMqwHftkEYgms-uF9uIhrEUlw4Zq4XeEXmfeElwVZ_yIr0OfH0pSFj0No-mnafKW6zTF_VEnrxh_QMbzBDI1gV_x5AN0VKRZ3AMdUr82QIJKNgJXxaUyXHZAbfWPiU3ywfUTAOnRzA=="
+  ],
+  "tokeny": {
+   "wejscie": 13490,
+   "wyjscie": 642
+  },
+  "czas_s": 106,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

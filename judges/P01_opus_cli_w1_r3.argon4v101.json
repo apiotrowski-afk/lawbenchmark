@@ -1,0 +1,132 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w. (t.j. Dz.U. 2025 poz. 734) — kradzież lub przywłaszczenie cudzej rzeczy ruchomej, stały próg 800 zł od 1.10.2023 r.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (art. 119 § 1 k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "historia zmian progu w k.w. — do 9 listopada 2018 r. 1/4 minimalnego wynagrodzenia, od 9 listopada 2018 r. stała kwota 500 zł",
+   "zrodlo": "ISAP Dz.U. 2018 poz. 2077 (ustawa z 4.10.2018 r. o zmianie k.w. — wejście w życie 15 listopada 2018 r., a nie 9 listopada 2018 r.; 9 listopada 2013 r. to data wejścia w życie Dz.U. 2013 poz. 1247)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. (Dz.U. 2022 poz. 2600) — podwyższenie progu do 800 zł od 1 października 2023 r. (pierwotny termin wejścia w życie 14 marca 2023 r. przesunięty)",
+   "zrodlo": "ISAP Dz.U. 2022 poz. 2600 oraz Dz.U. 2023 poz. 403",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w. (t.j. Dz.U. 2025 poz. 734) — kradzież lub wyrąb drzewa z lasu, próg 800 zł",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (art. 120 § 1 k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 k.w. (t.j. Dz.U. 2025 poz. 734) — paserstwo, próg 800 zł",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (art. 122 § 1 k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w. (t.j. Dz.U. 2025 poz. 734) — niszczenie lub uszkadzanie cudzej rzeczy, próg 800 zł",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (art. 124 § 1 k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278, art. 284, art. 288, art. 291–292 k.k. — odpowiedzialność za przestępstwo powyżej progu 800 zł",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (art. 278, 284, 288, 291, 292 k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 k.k. — kradzież z włamaniem jako przestępstwo bez względu na wartość mienia",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (art. 279 § 1 k.k.) w zw. z Dz.U. 2025 poz. 734 (art. 130 § 2 k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a k.k. — kradzież szczególnie zuchwała",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 oraz Dz.U. 2022 poz. 2600 (art. 1 pkt 104) — art. 278a k.k. został uchylony z dniem 1.10.2023 r., a kradzież szczególnie zuchwałą przeniesiono do art. 278 § 3a k.k.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 12 § 2 k.k. w zw. z art. 10a k.w. — odpowiedzialność jak za przestępstwo przy łącznej wartości mienia przekraczającej 800 zł",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (art. 12 § 2 k.k.) oraz Dz.U. 2025 poz. 734 (art. 10a k.w.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie podaje w pierwszym akapicie pełny rdzeń (próg 800 zł od 1.10.2023 r., brak wpływu płacy minimalnej), powołuje wymagany art. 119 § 1 k.w. oraz realizuje wszystkie cztery elementy rubryki (w tym wskazanie art. 120 § 1, 122 § 1 i 124 § 1 k.w.). Punktacja A6 spada jednak do 0 (klasa W, hallucinated=true) z dwóch powodów dotyczących nieaktualnego stanu prawnego i historii zmian. Po pierwsze, w sekcji o wyjątkach system powołuje jako obowiązujący art. 278a k.k. dla kradzieży szczególnie zuchwałej, podczas gdy przepis ten został uchylony z dniem 1 października 2023 r. (Dz.U. 2022 poz. 2600), a czyn ten przeniesiono do art. 278 § 3a k.k. Po drugie, opisując historię zmian progu, system podaje błędną datę wejścia w życie kwoty 500 zł jako 9 listopada 2018 r. (myląc ją z datą 9 listopada 2013 r. z Dz.U. 2013 poz. 1247), podczas gdy nowelizacja wprowadzająca próg 500 zł (Dz.U. 2018 poz. 2077) weszła w życie 15 listopada 2018 r. Zgodnie z regułą braku podwójnej kary w bloku B uchybienia te nie obniżają B1 (2/2), ponieważ nie zmieniają praktycznej porady w przedmiocie zadanego pytania.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 20,
+  "zapytania": [
+   "OR \"Dz.U. 2018 poz. 2077\"",
+   "OR \"Dz.U. 2022 poz. 2600\" \"14 marca\" OR \"wejścia w życie\"",
+   "OR \"Dz.U. 2025 poz. 734\" \"art. 10a\" OR \"art. 119\"",
+   "OR Kodeks karny \"art. 12\" \"art. 278a\" \"art. 279\"",
+   "\"2018\" \"2077\"",
+   "\"2022\" \"2600\"",
+   "\"2025\" \"734\"",
+   "\"2025\" \"383\"",
+   "\"Ustawa z dnia 4 października 2018 r. o zmianie ustawy – Kodeks wykroczeń\" \"2077\" \"wchodzi w życie\" OR \"listopada 2018\"",
+   "\"Kodeks wykroczeń\" \"Art. 10a\" OR \"art. 10\" \"Art. 119\" \"Art. 120\" \"Art. 122\" \"Art. 124\" \"Art. 130\"",
+   "\"Kodeks karny\" \"Art. 12\" \"§ 2\" \"odpowiada jak za jedno przestępstwo\"",
+   "\"Kodeks karny\" \"Art. 278\" \"Art. 278a\" \"Art. 279\" \"Art. 284\" \"Art. 288\" \"Art. 291\" \"Art. 292\"",
+   "\"Art. 10a\" \"Kodeks wykroczeń\" isap OR eli.gov.pl OR lexlege",
+   "\"Art. 278a\" \"uchylony\" \"2600\" OR \"2023\" \"Kodeks karny\"",
+   "\"9 listopada 2013\" OR \"9 listopada 2018\" \"Kodeks wykroczeń\" \"1/4 minimalnego\" OR \"500 zł\"",
+   "\"Art. 120\" \"Art. 122\" \"Art. 124\" \"800 złotych\" \"Kodeks wykroczeń\"",
+   "\"Art. 12.\" \"Odpowiada jak za jeden czyn zabroniony wyczerpujący znamiona przestępstwa\" \"Kodeks karny\"",
+   "\"Art. 10a.\" \"Jeżeli czyn będący wykroczeniem, za które wymierzono karę\" \"Kodeks wykroczeń\"",
+   "\"Art. 124.\" \"Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych\"",
+   "\"Art. 278.\" \"§ 3a.\" \"Kto dopuszcza się kradzieży szczególnie zuchwałej\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERX5rjrG4tOHzePZTXrwrEHS-1RDZLi5P-s1imbCbArve3Vc9d9HxhcUBQmckh7m5-bEk_sZP7rtXK0SJv4rZiQ0Shdy5fKN9_JlSmtPau5eJy1xwBVy7IfWGBaS4sLGT_bxW6s5a6ZH8tZgVGfdNShnFpyjrLU1O8_oFALGjcZb2RdfBMAqcsmN4sSu-pcw2lYvRrfm8Wf--oWq7Uri328nTdTsJJfCicBKmM7uSUTTlUzgbq",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAE6q63bgpP2KY_nmrHmm1xyQktEhuxRWP1KDIQg65INXYnoaz3POrbBJeGcd_Dwc7jrUboZemQbIHj7B00iYTyLLPs4xbKNK23QN76aGGgekMfLcYYybzSmDp508B67vHRqJ4IXvE5FBZaQZooU3oG4Add_oqQaanYhQ9kPAzo_Zb6izYo07LT2u5Srwzres=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk2VHSuGiO23d98vu02UmZMemI7100JVbMXGGa04UY3RzL-t0opM56mf7YkMGv1EKTeFNlYzItzV4KxNE1TNBachwY7RN01zN3VbRKgCQiIa2wCIkhv9aYt8Y8LPXIfDO7uQcqoEhKEMvQykU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYQMTrpRUJcMGQnsHJ9_px5bo4CmyIofQZytVYb2waHIQlXTovX2z9QOSyIyluJmLrYb23Mn5uLU7DRaDhyPZTa6ssC8KOJqLv_a5u7mAcPa146xr1OwY7wlVQhINGzJg0UvzGqifX_w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBwOIWU37AQXw6rGg8JXVmdkaic6Ly4QSW6p7H-1JwX4qm-C9wq7POSI80kpNU2M0JiohAjKajzR66AGLyFnad-jkY-uDxKyFDLWXKVzUiNEzuSKzmEKxEsknP97f_1PTeqjWZng==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqYwHxDDjYZ9mJNBgw2XEnAaR76QDHZdW4fB1dluLXZenbN4BzkfG2hunpmcSgRMLctwGalcatOhlNO4_j2GeF9am393HcYQXOty6q2ybMmtZhemNfx1AgI_3E3_AI1woS4zAfgFvYe-bZA82BVCIC-DawZWoKq1Qj6d2K0BJ3ln20BLJjSpUEmaATlSsJcGhpiQbBvnGef7K1EnqKiQh7AL_uy0N5",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxgqGf26kVZB3ltZRMwzxHsWi8VCuADHNqgX3_cCmT7E7S1xhgH8YSDTTyoEwNEpH_TVWZfyvjlm53cFLiH2eryionN-64Y6t2P0MD9SsKC6tk2Mqr89Qx6Re1YIGjy_FDhs0OGtJyUABkHEcQ-jJUq8BJbBzwf2Ha7a3aVA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO98Y-oD0TYN8UN9JOJWYD4An5XGRdybdY8AI3-E0e6h8Q9BAsivgHPh-IoTaapj4RBVF_lmgyZZIxmjhIv5YLaEioPCLJqs5rv-eSuPluBlBEos32TT7mH7rRd0B4OvA8yeVJ-AFnDDshoaw2LLJpxagtBJ8023t5",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA3TAgMdu33MOZa5onSX2WfyWwCpyxhdCaxf-K92E5o3wCeNuzoDy41tAHlbVBMbe2dTbtiHOjDbp6imk1ve2eQevJHVYa_dXPz0dEsx1cxMRXofS5vxmn7926h0ufeEwfKNzpq13lstJSew==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHVKCfgwSMkNbICHDLNdhnk2GF8K13FApxV4nSs0zhFyp43yoBxSu_2pEtRjYKsYRcIGWIg3c6AOtW6mSlqKpFa2Bwv_qzZV3V9Zh9tHTd0bujX-QgeuZbFgN6d7L06ICEMkxMEyR-igLx7HQqLQ8iJRQ8XfJ1KohUM1YcVb4XzFoiDKn-q38aP6ei-hlPE_RE-vtpeH7wkJo0VR4LHe_WwNcEZDBpgw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMegbBCsYsLUbwsgdJFmZ9Co3xp1IRcKPfu2aZN58MmVK0P8-uP7B12UIo8H99kcQhTVWEUZLiNBT6aoeLxf7y-LuyKWO9rVoUUveOz3T-CpAJRMxGHHVuZS8pIQiMl9WO"
+  ],
+  "tokeny": {
+   "wejscie": 13899,
+   "wyjscie": 2761
+  },
+  "czas_s": 264,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 326–328 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "SN, I CSK 1871/23",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przesądza, że podanie zasadniczych powodów nie zamyka drogi do wniosku o uzasadnienie postanowienia podlegającego zaskarżeniu (A-R=2). Kryterium A2 wynosi 0, ponieważ nie wskazano wymaganej jednostki art. 357 § 1 ani § 2¹ k.p.c., wywodząc termin błędnie z odesłania do art. 328 § 1 k.p.c. Ocena A6 wynosi 0 (hallucinated=true, klasa T), gdyż art. 328 § 4 k.p.c. przypisano treść o braku sporządzania uzasadnienia przy orzeczeniach niezaskarżalnych, a orzeczenie SN I CSK 1871/23 nie dotyczy tej materii. W rubryce zabrakło informacji o opłacie sądowej od wniosku ani o wyjątkach z § 2³–§ 2⁴ lub § 6 k.p.c. (R=[1,1,1,0]). Wskazówki praktyczne pozwalają prawnikowi zachować tygodniowy termin procesowy (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 37,
+  "zapytania": [
+   "\"art. 328\" kpc sejm",
+   "\"art. 328 § 1\" kpc \"art. 328 § 4\"",
+   "\"art. 357\" kpc \"328\"",
+   "\"I CSK 1871/23\"",
+   "\"Biuletyn Izby Cywilnej\" \"06/2020\" \"357\"",
+   "\"I CSK 1871/23\" \"357\"",
+   "\"Biuletyn Izby Cywilnej Sądu Najwyższego 06/2020\"",
+   "\"1871/23\"",
+   "\"1871-23\"",
+   "\"Biuletyn Izby Cywilnej\" \"2020\" \"357\"",
+   "\"zasadnicze powody rozstrzygnięcia\" \"Sąd Najwyższy\"",
+   "\"Biuletyn Izby Cywilnej Sądu Najwyższego 06/2020\" \"357\"",
+   "\"Biuletyn Izby Cywilnej\" \"06/2020\"",
+   "\"1871/23\" OR \"1871-23\"",
+   "\"I CSK 1871/23\" postanowienie",
+   "\"I CSK 1871\" SN",
+   "\"I CSK 1871/23\" \"odrzuca wniosek\"",
+   "\"I CSK 1871/23\" uzasadnienie",
+   "\"nieokreślenie w orzeczeniu statusu podanych motywów\"",
+   "\"statusu podanych motywów może uniemożliwić stronie\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11081,
+   "wyjscie": 688
+  },
+  "czas_s": 125,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

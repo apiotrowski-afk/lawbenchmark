@@ -1,0 +1,66 @@
+id: P01
+katalog_nr: 49
+wersja_klucza: 3
+data_klucza: 2026-10-18
+status: "zatwierdzony przez Adama 2026-10-18 (ze zmianami: tekst_benchmarkowy bez „Hej”, czwarty element rubryki o art. 120, 122, 124 k.w.)"
+# v3 (2026-10-18, decyzja Adama przy rozszerzeniu zbioru do 10 pytań): tekst_benchmarkowy bez powitania „Hej”;
+#   nowy element rubryki R4 (ten sam próg w art. 120 § 1, 122 § 1, 124 § 1 k.w. — sprawdzone w t.j. 2025/734).
+#   Punkty możliwe A rosną o 1 (R 3→4). Pilotaż P01 (v1–v2) liczony według starej rubryki.
+# v2 (2026-10-10): pola kalibracja_oczekiwana (kategoryczna) i warunek (decyzja Adama, README „B2 — kalibracja”);
+#   rdzeń, rubryka i punktacja bez zmian. v1: 2026-10-03.
+data_stanu_prawnego: 2026-10-01
+typ: obliczenie
+pulapka: true
+domena: karne
+tekst_oryginalny: "Hej, ile wynosi w tym roku wartość mienia przy wykroczeniu max ? Czy zmieniła się w zw. ze wzrostem płacy minmalnej ?"
+tekst_benchmarkowy: "Ile wynosi w tym roku wartość mienia przy wykroczeniu max ? Czy zmieniła się w zw. ze wzrostem płacy minmalnej ?"
+
+rdzen: >
+  800 zł. Od 1.10.2023 próg jest kwotą stałą wpisaną w przepis (art. 119 § 1 k.w.
+  przy kradzieży i przywłaszczeniu; tak samo art. 120 § 1, 122 § 1 i 124 § 1 k.w.),
+  więc wzrost płacy minimalnej go nie zmienia.
+wynik: "800 zł"
+tolerancja: "dokładnie"
+akceptowane_warianty:
+  - "Wartość nieprzekraczająca 800 zł = wykroczenie; powyżej = przestępstwo (to samo)."
+pulapka_opis: >
+  Pytanie zakłada powiązanie progu z płacą minimalną. To powiązanie nie obowiązuje:
+  w brzmieniu sprzed 1.10.2023 próg był kwotą stałą 500 zł, a od 1.10.2023 jest
+  kwotą stałą 800 zł.
+
+podstawy_wymagane:
+  - art. 119 § 1 k.w.
+podstawy_dopuszczalne:
+  - art. 120 § 1, art. 122 § 1, art. 124 § 1 k.w.
+  - art. 278 § 1, art. 284 k.k. (gdy próg przekroczony)
+  - ustawa z 7.07.2022 o zmianie k.k. (Dz.U. 2022 poz. 2600), w życie 1.10.2023
+
+wzorce_cytatow:
+  kw_119_1:
+    brzmienie: "Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+    zrodlo: Dz.U. 2025 poz. 734 (t.j.); nowele po t.j. (2025 poz. 1676, 1814, 1818, 1872) art. 119 nie zmieniają
+
+rubryka:
+  - podaje kwotę 800 zł
+  - wprost odpowiada, że płaca minimalna na próg nie wpływa
+  - wskazuje, że to kwota stała od 1.10.2023 albo że wcześniej było 500 zł
+  - zwraca uwagę, że ten sam próg 800 zł dotyczy także innych wykroczeń przeciwko mieniu (art. 120 § 1, 122 § 1, 124 § 1 k.w.)
+kary:
+  - wiąże próg z płacą minimalną (np. „1/4 minimalnego wynagrodzenia”) jako stan obecny
+  - podaje inną kwotę jako obowiązującą
+
+sporne: false
+kalibracja_oczekiwana: kategoryczna
+warunek: null
+
+zrodla_klucza:
+  - "ISAP DU/2025/734 — k.w. t.j., art. 119 § 1 (800 zł)"
+  - "ISAP DU/2022/2600 — art. 4 pkt 5–8: nowe brzmienie art. 119, 120, 122, 124 k.w. (800 zł), w życie 2023-10-01"
+  - "ISAP DU/2022/2151 — k.w. t.j. z 2022 r., art. 119 § 1 (500 zł)"
+weryfikacja: >
+  Sprawdzone w tekstach ISAP 2026-10-03, w tym cztery nowele k.w. ogłoszone po
+  tekście jednolitym. Niesprawdzone: od kiedy próg przestał być powiązany z płacą
+  minimalną (przed 2022 r.); klucz tego nie wymaga.
+reguly_oceny_20261018: >
+  (2026-10-18, decyzje Adama B1–B7) R4: wystarczy wskazać choćby jeden z art. 120 § 1, 122 § 1, 124 § 1 k.w. jako przepis z tym samym progiem.
+  A3: cytat = tylko tekst w cudzysłowie przypisany przepisowi; parafraza = n/d.

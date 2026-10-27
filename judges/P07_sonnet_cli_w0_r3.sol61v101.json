@@ -1,0 +1,95 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 326 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 k.p.c. — termin od ogłoszenia oraz doręczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 1 zd. 2 k.p.c. — opłata 100 zł",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 357 k.p.c. — uzasadnienie z urzędu postanowień kończących postępowanie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 2 k.p.c. — tygodniowy termin żądania uzasadnienia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1 i 2 k.p.c. — dokonanie czynności procesowej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 5 k.p.c. — wzmianka w zastrzeżeniu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie dopuszcza wniosek mimo podania zasadniczych powodów i podaje tygodniowy termin, ale pomija warunek zaskarżalności oraz wymagane § 1 lub § 2¹ art. 357. Art. 357 § 2 reguluje doręczenie i pouczenie, natomiast początek terminu przy doręczeniu wyroku określa art. 328 § 2. Art. 328 § 1 nie ma zdania drugiego, opłatę przewiduje art. 25b u.k.s.c., a równoczesne dokonanie czynności reguluje art. 169 § 3. Błędne twierdzenie o biegu terminu zaskarżenia po niezłożeniu wniosku ogranicza przydatność, a opłata omówiona wyłącznie dla wyroku nie zalicza czwartego elementu rubryki. Dygresje o wyrokach obniżają A8, natomiast jednoznaczna konkluzja uzasadnia B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 136,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

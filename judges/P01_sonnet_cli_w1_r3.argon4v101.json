@@ -1,0 +1,91 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w. (aktualny próg 800 zł i zagrożenie karą)",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 119 § 1 k.w. / ustawa z 7 lipca 2022 r. (historia zmian progu: przed 800 zł było 500 zł, a jeszcze wcześniej 250 zł, z odrzuceniem etapu 1/4 minimalnego wynagrodzenia)",
+   "zrodlo": "Dz.U. 2022 poz. 2600 (art. 4 pkt 5), Dz.U. 2018 poz. 2077 (art. 1 pkt 7) oraz Dz.U. 2013 poz. 1247 (art. 2 pkt 4)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w., art. 2 § 1)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 124 k.w. (jako przepis k.w. dotyczący mienia)",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi (800 zł jako kwota stała od 1.10.2023 r., niezależna od wzrostu płacy minimalnej) oraz wymagana podstawa prawna (art. 119 § 1 k.w.) zostały podane prawidłowo i kategorycznie (A_R=2, A2=1, B1=2, B2=1). System popełnił jednak dwa błędy skutkujące A6=0: opisał niepełną historię zmian progu w art. 119 § 1 k.w., pomijając etap 1/4 minimalnego wynagrodzenia z lat 2013–2018 i wprost uznając go za błędny (klasa W, co zgodnie z regułą z 18.10.2026 zeruje również element R3), oraz odwrócił w uwadze praktycznej zasadę intertemporalną z art. 2 § 1 k.w., twierdząc, że co do zasady stosuje się ustawę poprzednią, chyba że nowa jest względniejsza (klasa T). Ze względu na błąd prawny w uwadze pobocznej dotyczącej art. 2 k.w. oraz metakomentarz o wynikach wyszukiwania ocenę za ramy obniżono do A8=0.5. Element R4 nie został zaliczony, gdyż system nie wskazał, że próg 800 zł obowiązuje także w art. 124 k.w., a jedynie odesłał do jego samodzielnego sprawdzenia.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "OR Kodeks wykroczeń 2025 734 art 119 art 2",
+   "\"Jeżeli w czasie orzekania obowiązuje ustawa inna niż w czasie popełnienia wykroczenia\" \"art. 2\"",
+   "OR Kodeks karny art 278 art 12",
+   "OR minimalnego wynagrodzenia za pracę w 2026 r. 4806",
+   "\"Art. 12.\" \"czyn ciągły\" OR \"jednym czynem zabronionym\" \"Kodeks karny\" \"odpowiada jak za jeden czyn zabroniony\"",
+   "\"Art. 124.\" \"800 złotych\" \"Kodeks wykroczeń\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"500 złotych\" \"250 złotych\" \"119\" \"Kodeks wykroczeń\"",
+   "\"2025\" \"734\" OR \"1242\" OR \"2600\"",
+   "\"Dz.U. 2018 poz. 2077\" OR \"Dz.U. 2013 poz. 1247\" \"119\" \"Kodeks wykroczeń\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"ustawy z dnia 27 września 2013\" OR \"ustawy z dnia 4 października 2018\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13851,
+   "wyjscie": 1392
+  },
+  "czas_s": 177,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

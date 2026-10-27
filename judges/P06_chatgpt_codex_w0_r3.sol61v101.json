@@ -1,0 +1,54 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ pkt 7 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Art. 394² § 1¹ pkt 7 dotyczy odmowy zwolnienia świadka i biegłego od grzywny oraz świadka od przymusowego sprowadzenia, a nie odrzucenia zażalenia: przypisanie cudzej treści daje T i A6=0. Odpowiedź trafia w gałąź zażalenia poziomego, więc otrzymuje A_R=1 i drugi element rubryki. Nie przedstawia gałęzi dewolutywnej ani nie dopytuje z nazwaniem rozwidlenia; końcowe ogólne zastrzeżenie nie usuwa kary za odpowiedź „tak” bez rozróżnienia i nie zapewnia B2. Brakuje obu wymaganych podstaw oraz omówienia art. 130² k.p.c., natomiast powołania dotyczące tygodniowego terminu są zgodne. B1=1, ponieważ wskazówki praktyczne są częściowo użyteczne, lecz nie pozwalają prawidłowo ustalić dopuszczalności środka w obu konfiguracjach.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 68,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

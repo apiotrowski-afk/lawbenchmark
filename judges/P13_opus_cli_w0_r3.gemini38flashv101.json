@@ -1,0 +1,106 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 747 pkt 1–2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 110 u.k.w.h.",
+   "zrodlo": "Dz.U. 2023 poz. 1984",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 744 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 746 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi w pierwszym akapicie jest w pełni trafny (A_R=2), a kalibracja prawidłowo kategoryczna (B2=1). System dopuścił się jednak poważnych błędów w powołaniu jednostek redakcyjnych art. 492 k.p.c.: przypisał natychmiastową wykonalność nakazu wekslowego do § 2 zamiast § 3 zd. 1 (klasa T), a w § 3 sfabrykował rzekomy cytat o wstrzymaniu wykonania nakazu „o którym mowa w § 2” (T, A3=0). Przytoczył również dawne brzmienie przepisu z warrantem i rewersem (klasa W oraz kara K3). Z tego względu A6=0 (hallucinated=true), a A2=0 za błędną podstawę wykonalności. W rubryce zabrakło wskazania skutku wstrzymania z art. 820 § 2 k.p.c. (R4=0).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 16,
+  "zapytania": [
+   "\"art. 492\" kpc \"natychmiast wykonalny\" isap",
+   "\"art. 492\" kpc sip lex seym",
+   "art 492 kpc brzmienie 2026",
+   "art 492 § 1 § 2 § 3 kpc",
+   "\"nakazu zapłaty, o którym mowa w § 2\" kpc",
+   "\"art. 492 § 2\" \"staje się natychmiast wykonalny\" kpc",
+   "\"art. 492\" dawne brzmienie \"§ 2\" \"§ 3\" kpc",
+   "\"art. 492 § 3\" \"wstrzymać wykonanie\" kpc historia zmian",
+   "\"Art. 492.\" \"§ 1.\" \"§ 2.\" \"§ 3.\" \"k.p.c.\" \"warrantu\" isap",
+   "\"warrantu, rewersu\" kpc art 492",
+   "\"wstrzymać wykonanie nakazu zapłaty, o którym mowa w\" kpc",
+   "\"wstrzymać wykonanie\" \"o którym mowa w § 2\" kpc",
+   "\"nakazu zapłaty, o którym mowa w § 2\"",
+   "art. 492 kpc brzmienie 1996 2000 2004",
+   "\"wstrzymać wykonanie\" \"o którym mowa w §\"",
+   "\"wstrzymać wykonanie nakazu\" \"kpc\" \"sejm.gov.pl\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10696,
+   "wyjscie": 909
+  },
+  "czas_s": 50,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

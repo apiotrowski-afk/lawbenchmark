@@ -1,0 +1,140 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 25b u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Uchwała SN z dnia 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Postanowienie SN z dnia 29 kwietnia 2022 r., III CZ 163/22",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 361 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo i wyczerpująco wyjaśnia problem, trafnie rozróżniając postanowienia zaskarżalne i niezaskarżalne. Rdzeń odpowiedzi znajduje się na samym początku. System poprawnie powołuje przepisy k.p.c. oraz u.k.s.c. Niestety, odpowiedź zawiera halucynację orzecznictwa (klasa T): postanowienie SN III CZ 163/22 pochodzi z 16 września 2022 r. i dotyczy wartości przedmiotu sporu w powództwie przeciwegzekucyjnym, a nie art. 357 § 5 k.p.c. Z tego powodu A6 wynosi 0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"III CZP 38/20\"",
+   "\"III CZ 163/22\"",
+   "\"III CZP 33/22\"",
+   "\"III CZ 163/22\" \"357\"",
+   "\"29 kwietnia 2022\" \"357 § 5\" k.p.c.",
+   "\"III CZ 163/22\" \"zasadnicze powody\"",
+   "\"III CZ 163/21\"",
+   "\"III CZP 163/22\"",
+   "\"art. 394(1a) § 2 k.p.c.\"",
+   "\"art. 394(1a) k.p.c.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGPYXAldryWwOztwwkAN--PqHpHqBLYE8qrxh_Ss_D-uhhtHY3HUoMxLhlfCivci1TVdn3XD2W1P_2Jh56CrDSAJLLO0N1EBZ7OP53bgH7tK1fLODcwd2mPAXGcnh9lKTuHDHlqs3D7bPdK6NQrDkAKuAwItGkaIBtoZg-Y9C4TKQMOEg60G07qDktjLQoWe3eKHvU0z7qFx6f0cXqGNQJzj3WwoT1VxIilDO1Bz3c4TVeF60N8NlLBjXSHDo6pdEQyNwl56rIPW1WF3W_Iw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2X3qP9PB8uyZHsiRj_FwkxRDkfTxfbkbs1CGwG1-ogbN7M3X7FXVtVwpiVFCCqw-vzy_XXXVWwvQ94A5ipJyV2ELCn5fvmy_A9TYB4LrFfOuoJ3-_GkVgo8RnBzzOLHcf-IsZ2aD7OuTJRka7imEU30dQztaCjibvp7HC_9GCqaa50_Tar8dIDs3UgWRKQ7hikUePmqv0fe_i3pzb50tCWQn2rCYaFlWnw3Rp8n9qGJu30ja1FDig8A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUFlAwRzkMdx6yxRiAwty7v30s1L6mv6mzb5fMOSUQbGklu3Ai7BQwnXa0Qy6HvMIxlnj3L6K207F9asbuxDh4durF_wkmlwh_armu5KlxUZUkb1gnHN1ab1RBBv_PWPs5eVidCHq3RO2YNAewwSLuQXtzAI0lUai8HgrQ7Iaw9ilHSyOPnQLiWLIuzmbHTRiWdF-2ACoc2Qo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc4es0JlL0fYYgybMYGjjlk9exvRl_gMRT1qevOOgYoTddZM8fkZmTgQLso2kO8fRziPNPKsW_r9L_mKfq0bwi4_mJ9XuRF8-ZFvKYjahqOm02V7Tm4qQ9uXoSlmCHeB27MOBN05SH83qqj7cwqEmmKPXsqgSCtMcJwYOELHJrgpgE8Hc99glRJbdtEDcKYXR85-zc64B0S4BCp65L-wmujfxlCCebS8zsrpDgNMaIE27q2mspeV8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGOJBc81_Ls4pofNSL07mLVejsQC5RfLkLhiUD_TLhbtufjbrivnN_cH52z4ahh4dz5Vw7rm3mRpf0glpNvqs6FJYgh8BTXAiirO6gUBNnmLhcmSWr8nNHYzC8jFitrYkG6Nv28wc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgoQxKGnNn71sTGGwCEVGP6SIv6rYBG4ZhlbzE72M6XZ3iEik2UM_dzK9-ubcVfkXDEvDHFHW7oNnXonsl0KCsrsrMH6FirNLfgE91XlhOqngX5Cq7Gc2J4ee3lL1jVFojfdbnv36V-lYEV09rnWVtXT1yARPr09009IPz2qnNQut0Og7J583kE9A="
+  ],
+  "tokeny": {
+   "wejscie": 10124,
+   "wyjscie": 1312
+  },
+  "czas_s": 201,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — przepis przewiduje wykroczenie kradzieży lub przywłaszczenia cudzej rzeczy ruchomej do wartości 800 zł.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — próg szkody przy umyślnym niszczeniu lub uszkadzaniu cudzej rzeczy wynosi 800 zł.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf — przepis określa przestępstwo zaboru cudzej rzeczy ruchomej w celu przywłaszczenia; rozgraniczenie kwotowe wynika z zestawienia z k.w.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf — przepis penalizuje niszczenie, uszkadzanie lub czynienie cudzej rzeczy niezdatną do użytku.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Historia progu: powiązanie z 1/4 płacy minimalnej zastąpiono stałą kwotą 800 zł",
+   "zrodlo": "https://www.dziennikustaw.gov.pl/D2018000207701.pdf — art. 1 pkt 7 wprowadził do art. 119 § 1 słowa „jeżeli jej wartość nie przekracza 500 złotych”; https://eli.gov.pl/api/acts/DU/2022/2600/text.html — art. 4 pkt 5 wprowadził następnie próg 800 zł.",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo podaje 800 zł i niezależność obecnego progu od płacy minimalnej. Wskazuje wymaganą podstawę oraz dodatkowo art. 124 § 1 k.w., co zalicza R4. Błędnie przedstawia historię zmian jako zastąpienie ułamka wynagrodzenia bezpośrednio kwotą 800 zł, pomijając obowiązujący wcześniej stały próg 500 zł; zgodnie z regułą o błędnej historii zmian daje to W i A6 = 0. Nie podaje daty 1.10.2023 ani wcześniejszych 500 zł, dlatego R3 = 0. Błąd historyczny nie zmienia praktycznej wskazówki dotyczącej obecnego progu.",
+ "_meta": {
+  "sedzia": "sol61meta2",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 48,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 4, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 Kodeksu wykroczeń [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Kradzież rzeczy o wartości do 800 zł włącznie stanowi wykroczenie określone w art. 119 § 1 Kodeksu wykroczeń.”\n    · uzasadnienie weryfikatora: Przepis w brzmieniu na datę stanu prawnego wprost penalizuje kradzież rzeczy o wartości nieprzekraczającej 800 złotych jako wykroczenie.\n    · kotwica (verbatim ze źródła): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 124 § 1 k.w. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R4 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Uszkodzenie mienia o wartości do 800 zł włącznie stanowi wykroczenie określone w art. 124 § 1 Kodeksu wykroczeń.”\n    · uzasadnienie weryfikatora: Przepis w brzmieniu na datę stanu prawnego wprost określa uszkodzenie rzeczy przy szkodzie nieprzekraczającej 800 złotych jako wykroczenie.\n    · kotwica (verbatim ze źródła): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 3. art. 278 § 1 Kodeksu karnego [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Czyn o wartości mienia powyżej 800 zł stanowi co do zasady przestępstwo, np. kradzież z art. 278 § 1 Kodeksu karnego.”\n    · uzasadnienie weryfikatora: Przepis określa znamiona przestępstwa kradzieży, a próg 800 zł stanowi w odpowiedzi zestawienie z omówionym wcześniej przepisem Kodeksu wykroczeń (otoczka).\n    · kotwica (verbatim ze źródła): „§ 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n    · brzmienie jednostki (fragment): „§ 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n- 4. art. 288 § 1 Kodeksu karnego [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Czyn o wartości mienia powyżej 800 zł stanowi co do zasady przestępstwo, np. z art. 288 § 1 Kodeksu karnego.”\n    · uzasadnienie weryfikatora: Przepis określa znamiona przestępstwa uszkodzenia mienia, natomiast próg 800 zł wynika z zestawienia z Kodeksem wykroczeń w kontekście odpowiedzi (otoczka).\n    · kotwica (verbatim ze źródła): „§ 1. Kto cudzą rzecz niszczy, uszkadza lub czyni niezdatną do użytku, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz niszczy, uszkadza lub czyni niezdatną do użytku, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

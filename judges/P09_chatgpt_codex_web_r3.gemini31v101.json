@@ -1,0 +1,106 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni realizuje rdzeń, potwierdzając, że ogólny zapis nie wystarcza, ale wskazując na możliwość dookreślenia pól przez wykładnię z art. 65 k.c. (zgodnie z linią SN, np. I CSK 596/17). Prawidłowo powołuje wszystkie wymagane podstawy prawne, w tym wymóg formy pisemnej (art. 53 pr.aut.). Zalicza wszystkie elementy rubryki, w tym przykłady pól dla social mediów oraz różnicę względem utworów pracowniczych (art. 12 pr.aut.). Brak halucynacji, wszystkie powołania są zgodne ze źródłami oficjalnymi. Kalibracja warunkowa jest prawidłowa, a porada wysoce przydatna.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"I CSK 596/17\"",
+   "\"art. 41\" \"prawo autorskie\"",
+   "\"art. 50\" \"prawo autorskie\"",
+   "\"art. 12\" \"prawo autorskie\"",
+   "\"art. 46\" \"prawo autorskie\"",
+   "\"art. 53\" \"prawo autorskie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKyr8Q8idyk8ij7S73H-Q67o1-PCVA_xP0o3aN-l9XUF84YI9EzxQGoWIHarH40bWnqbh_h3YSCrV87yuHWg8mGLMJ06tlcaUg_FJjVz0iBbafn0g0DP1uiSCFdK9ij56y4_iYXW1W2pceQgvr0LC6ctgCYdfkmOhl_Z4RjAwM2Hc4EuuuRPFHty_mrrDoi0JmKvB-1DGDU8jiRPBGnHeZptxYKYbxMZyGpvYM5vmDMOLP-tYXE_bgsRkYDmI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfuz5SshpZdzxJnrg1mgzbTNTu29ed_ZWlKfyKytJbF0_7rsZE-C68I5VG4FQX7IxP-2SVfikkdPxyaHSk7VBOkCpUcX-8OvfyZ2Keju7XkkSbdnEQx9w7rKGa7Nw8n4puTeGQqOjyY3BjqXqD7iHsAV0iPqk7eyRNYsnMPJaqlEO90li_2HJ0cWCoBw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsqQ8OfyYoheDB6p9tP5qRTHevyFAwnKIad5jtGXHtTVt9lNeOYbsMhHnG2YZdG3Bh4DnmF_eLNeHEP339H8uHgH2esXWIRdveZ7prh_N3YOyFKCHWiOm9VkxM9ZcaZJ_RCcBm5tVEnZbTH30uQM0ObSsaEGkqrG2MwhL0TBUFX5SdWZIbJCU4wJAeMBfFZc946Mow1GqCb5IkzfjAy_z-30m9WME5CLdtCT8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9MJDAJEVkGfB2Mn96C8ZUBCwtDuT-Z4QMCK7S3FO1M7FVpRR-8U2qXBN0VKKTzKmf9nP6a6m9WEuyZ_Duo2RsdyJlfRVxjhdLQ_Rr_pE2VPHfTLlGB9GQWqA0YXJ5Si2Cqj0I5V8Xr2wJ7MnGgxVpSb2lAggjjb9LEDG7Hw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8npBHrH5yMaMhPb-yKE54hTnN9sg23Q62CeFmQ1UtKyX1LQ9hozGsiubQbf2voLKnXQIWxDRZvidDHXDQWDSodBqidMKjHHRsMi9nu_5zHfBESa9k7OXZ7UQQ8-_-1tGDL6NNaUdoss9O-VJXczWHUfhZx5UYI_wNHmx-kN4qCUj9GvQm0lyn8m3G0w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwYJX5c2krZLbUj9FZemjaX_drqhQ4bl39_PqDkJT_Ewdybzg3XoKGCauhDvcWdr6uNnfoRMVeoaN_Qv5w7AvrJiNuksTT14P3NM_VsafASzNyuH8_KOfr7NgoK2SO8CAm9xbDZN1MHBcq02rGCJLgfZXHRGU-cP12BDSYniIQAi6gl8EttBLOJheCqw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzYxsQt-C4aj6cqXC9hSSByDjzHJUorAv1OXhaIORhS27l8KL4rWMgdyqPxaiJBtlpxrssc7axTzADC4t_fVUrlWcZzOXDnuppvo1EOeqPdHoKT0q0ZXPnALcVkWfRQnMkhnDLba8P9SguY5IXfvVZKfjoRTKN3d9yvdIk86ZwT7BduqDos-iIuMCudKxeoUzJjs6Y_3RbSxRJvIKL",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE57eZwGjDAh2e-8VUNDenapWrxm7IqXSRKpN46sI5R9engnuuKetl8QUHKPFVDQoemdYb36l7EzhnGEqaga1VNUkaRZaqV-eCpR99bsiZqr6qzOdNvYBZ1DcLbhznxOJamjXHrjbUePgHwqrD03ULDP9z4JAe3cgkd_lHzvQJrIzNvm24iFDW5tNMdMQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER-7hitpcTi10IjJoyqOKS3NXMzS9ylFRq5rGGAA0VvKQXblxZazNg-Bufj6MGn5AYX-4-7qbSAIU5lWSfeEvQzBamUIRBmI7HtxO23e4OC2pZJwrsCs4K0BvDR5rHoN0F4rgEtze9VaeEEw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_ViShnIlw-aP2u6ZGClSxUirW3jinFMcw-W24vWB0FhML7J343bSUU0LpufJDQt5TxIrh3gqHi_LBL_VMBGdU-5To-C7Y1cjbbS6Jr8Vx-wRI43j22P0GxigOknrap6bhyUdbHoRh9jwMFpF6cTgaQTLwI5ZYtmhFL5uG9rDyNKNWSqVvcLlyvMWO_xXP3HU8cEiFqseihVH7X_XgElzjwGUReTxPPmM="
+  ],
+  "tokeny": {
+   "wejscie": 14732,
+   "wyjscie": 877
+  },
+  "czas_s": 105,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

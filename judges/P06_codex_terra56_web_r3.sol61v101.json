@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=74",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=74",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=74",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=75",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 99 u.k.s.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=23",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozróżnia oba rodzaje zażalenia i podaje właściwą konkluzję dla każdego, realizując pełny rdzeń oraz oczekiwaną kalibrację warunkową. A2 wynosi 0 z powodu pominięcia wymaganej podstawy art. 397 § 1¹ k.p.c. Wszystkie powołane jednostki istnieją i zawierają przypisaną im treść; brak cytatów dosłownych oznacza A3 niedotyczące. Nie omówiono art. 130² k.p.c., dlatego ostatni element rubryki nie został zaliczony. Osobny akapit o prawie UE stanowi dygresję obniżającą A8 do 0.5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 16,
+  "czas_s": 58,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

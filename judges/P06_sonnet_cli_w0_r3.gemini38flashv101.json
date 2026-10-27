@@ -1,0 +1,122 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 130 § 1-2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 370 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 373 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 ust. 2 pkt 2 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 27 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 139 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 111-117 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przyjęła jednostronne założenie, że zażalenie przysługuje (poziome), pomijając kluczowe rozróżnienie na zażalenie poziome w SA i zażalenie dewolutywne na postanowienie SO, dlatego zgodnie z regułą graniczną A-R wynosi 1. Nie powołano żadnej z podstaw wymaganych klucza (art. 394² § 1² k.p.c. ani art. 397 § 1¹ k.p.c.), co daje A2=0. Wystąpiły liczne błędy w powołaniach przepisów: wskazano uchylony w 2019 r. art. 370 k.p.c. (W) oraz przypisano zażalenie poziome do SA przepisom o zażaleniu do SN z art. 394¹ k.p.c. i art. 373 k.p.c., a także podano błędne jednostki u.k.s.c. (T), co skutkuje A6=0 i hallucinated=true. Naliczono karę za odpowiedź kategoryczną bez rozróżnienia (K=[0, 1]), a kalibrację B2 oceniono na 0 z powodu niespełnienia warunku. Przydatność B1 wynosi 1, ponieważ prawnik opierając się na odpowiedzi podjąłby próbę wniesienia niedopuszczalnego zażalenia w przypadku zażalenia dewolutywnego.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"370\" KPC uchylony Dz.U. 2019 poz. 1469",
+   "\"art. 373\" KPC treść 2026",
+   "\"art. 394(1)\" KPC zażalenie poziome odrzucenie zażalenia",
+   "\"art. 394(2)\" KPC zażalenie poziome odrzucenie zażalenia",
+   "\"art. 370 KPC\" uchylony",
+   "\"art. 373 zd. 2\" KPC",
+   "\"art. 111\" \"art. 112\" \"art. 113\" u.k.s.c. zwolnienie od kosztów",
+   "\"art. 19 ust. 2 pkt 2\" u.k.s.c."
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9998,
+   "wyjscie": 1143
+  },
+  "czas_s": 46,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

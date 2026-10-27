@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o. / art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Postanowienie SO w Szczecinie, VIII Gz 140/18",
+   "zrodlo": "SAOS / Portal Orzeczeń Sądów Powszechnych (postanowienie SO w Szczecinie z 7.05.2018 r., VIII Gz 140/18)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź bezbłędnie rozpoznaje wszystkie trzy pułapki pytania: wyklucza istnienie klauzuli przeciwko małżonkowi „bez ograniczeń”, prostuje omyłkę numeracyjną (art. 781¹ k.p.c. dotyczy 3-dniowego terminu, a ograniczenie do przedsiębiorstwa wynika z art. 787¹ k.p.c.) oraz wyjaśnia, że o trybie decydują przesłanki materialne wykazywane dokumentami, a nie wzmianka o działalności w nakazie zapłaty czy PESEL. System prawidłowo prowadzi obie ścieżki (art. 787 i art. 787¹ k.p.c.) oraz wskazuje składniki majątku podlegające egzekucji bez zgody małżonka na podstawie art. 41 § 2 k.r.o. Wszystkie powołane przepisy oraz wskazane w źródłach postanowienie SO w Szczecinie (VIII Gz 140/18) zostały zweryfikowane w źródłach urzędowych i są w pełni zgodne ze stanem prawnym.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 33,
+  "zapytania": [
+   "\"art. 787\" \"art. 781\" OR OR",
+   "\"art. 41\" \"zobowiązanie bez zgody\" OR OR",
+   "\"VIII Gz 140/18\" OR",
+   "\"VIII Gz 140/18\" Szczecin",
+   "\"VIII Gz 140/18\" \"787\"",
+   "\"DU/2020/1359\" \"Kodeks rodzinny\"",
+   "\"DU/1964/296\" \"Kodeks postępowania cywilnego\"",
+   "\"VIII Gz 140/18\" \"Patrycja Baranowska\"",
+   "\"VIII Gz 140/18\" \"B. K.\" \"J. K.\"",
+   "\"VIII Gz 140/18\" \"uzasadnienie\"",
+   "\"VIII Gz 140/18\"",
+   "\"VIII Gz 140/18\" \"postanawia\"",
+   "\"VIII Gz 140/18\" \"zważył\"",
+   "\"VIII Gz 140/18\" \"przedsiębiorstwa\"",
+   "\"VIII Gz 140/18\" \"CEIDG\"",
+   "\"sprawy z wniosku J. M. i A. M. z udziałem dłużnika J. K.\"",
+   "\"z udziałem dłużnika J. K. i małżonki dłużnika B. K.\"",
+   "\"J. M. i A. M. z udziałem dłużnika J. K.\" \"postanawia\"",
+   "\"J. M. i A. M. z udziałem dłużnika J. K.\" \"uzasadnienie\"",
+   "\"J. M. i A. M.\" \"B. K.\" \"787\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12357,
+   "wyjscie": 1845
+  },
+  "czas_s": 266,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

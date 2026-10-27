@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa znosząca powiązanie z płacą minimalną (Dz.U. 2018 poz. 2077)",
+   "zrodlo": "Dz.U. 2018 poz. 2077",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo i kategorycznie wskazuje aktualny próg 800 zł (art. 119 § 1 k.w.) oraz wyjaśnia brak powiązania z płacą minimalną od 2018 r. Wszystkie powołania przepisów i aktów prawnych są w pełni zgodne ze źródłami urzędowymi. W rubryce odpowiedź zalicza trzy pierwsze elementy, tracąc punkt za R4 wobec braku wzmianki o tożsamym progu w art. 120, 122 lub 124 k.w.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"DU/2018/2077\" seim",
+   "\"2018 poz. 2077\" \"15 listopada 2018\"",
+   "\"art. 130\" \"kodeksu wykroczeń\" kradzież z włamaniem",
+   "\"art. 130\" \"kodeks wykroczeń\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11687,
+   "wyjscie": 470
+  },
+  "czas_s": 32,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

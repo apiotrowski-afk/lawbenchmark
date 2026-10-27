@@ -1,0 +1,57 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 i nast. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System udzielił odpowiedzi całkowicie błędnej, twierdząc, że zasadnicze powody rozstrzygnięcia zastępują uzasadnienie i zamykają drogę do wniosku o jego sporządzenie. Jest to sprzeczne z art. 357 § 5 zd. 2 k.p.c., co skutkuje oceną A6=0 (typ T) oraz nałożeniem kary z klucza. Brak wskazania wymaganej podstawy prawnej (art. 357 § 1 lub § 2¹ k.p.c.) obniża A2 do 0. Odpowiedź jest bezużyteczna dla prawnika (B1=0), choć zachowuje odpowiednią, kategoryczną kalibrację (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 8773,
+   "wyjscie": 468
+  },
+  "czas_s": 53,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

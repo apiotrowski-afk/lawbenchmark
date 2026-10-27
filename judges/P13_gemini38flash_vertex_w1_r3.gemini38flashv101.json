@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 KPC",
+   "zrodlo": "ISAP DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 1 KPC",
+   "zrodlo": "ISAP DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 KPC",
+   "zrodlo": "ISAP DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 KPC",
+   "zrodlo": "ISAP DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie Sądu Okręgowego w Szczecinie z dnia 2 marca 2016 r., sygn. akt VIII Cz 83/16",
+   "zrodlo": "SAOS, orzeczenie SO w Szczecinie z 2.03.2016 r., sygn. akt VIII Gz 43/16",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 KPC",
+   "zrodlo": "ISAP DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 KPC w zw. z art. 492 § 2 zd. 3 KPC",
+   "zrodlo": "ISAP DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 zd. 2 KPC",
+   "zrodlo": "ISAP DU/2026/468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest pod względem merytorycznym znakomita – trafnie odpowiada 'nie', precyzyjnie rozróżnia funkcję nakazu jako tytułu egzekucyjnego od tytułu zabezpieczenia oraz wyczerpująco wymienia środki obrony dłużnika. Zaliczono komplet punktów w rubryce i nie naliczono żadnych kar. Jednak powołane orzeczenie Sądu Okręgowego w Szczecinie z 2 marca 2016 r. otrzymało zniekształconą sygnaturę (VIII Cz 83/16 zamiast rzeczywistej VIII Gz 43/16). Błąd ten stanowi klasę S, co zgodnie z kategorycznymi regułami obowiązującymi od 2026-10-11 wymusza A6 = 0 i status hallucinated = true.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"VIII Gz 43/16\" szczecin",
+   "\"VIII Cz 83/16\" szczecin",
+   "\"wstrzymanie wykonalności nakazu zapłaty wydanego na podstawie weksla nie pozbawia\"",
+   "\"VIII Gz 43/16\" \"Możliwość wstrzymania wykonania nakazu zapłaty\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12195,
+   "wyjscie": 773
+  },
+  "czas_s": 34,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

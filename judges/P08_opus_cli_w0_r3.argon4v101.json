@@ -1,0 +1,120 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 zd. 1 i 3 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motywy 133–134 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 7 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 i 24 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 85 i nast. pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 rozporządzenia (UE) 2016/679 (RODO)",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozbraja obie pułapki pytania (obiektywny charakter przesłanek definicji deepfake z art. 3 pkt 60 AI Act zamiast zamiaru lub „udawania” oraz niezależny obowiązek oznakowania maszynowego dostawcy z art. 50 ust. 2), co uzasadnia A-R = 2, A2 = 1 oraz B2 = 1. W kryterium A3 przyznano 0 pkt zgodnie z regułą nr 19 (zmiana definiowanego zwrotu w cytacie w cudzysłowie z „deepfake” oznacza na „treści typu deepfake” oznaczają), co na mocy reguły granicznej nr 3 nie obniża A6 (wszystkie powołania są merytorycznie zgodne ze źródłami oficjalnymi: A6 = 1). W rubryce odpowiedź spełnia elementy R1–R5, natomiast traci R6, ponieważ wzmiankuje wytyczne KE i kodeks praktyk wyłącznie jako dokumenty do śledzenia bez zaznaczenia ich niewiążącego charakteru (soft law) i bez odwołania do ich treści. Punktację A8 obniżono do 0,5 z uwagi na odrębną sekcję 4 („Poza AI Act”), stanowiącą wykraczającą poza zadane pytanie wycieczkę w inne gałęzie prawa (k.c., pr. aut., RODO) i inny stan faktyczny (klonowanie głosu realnej osoby).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"art. 50\" \"2024/1689\" \"ust. 1\" \"ust. 2\" \"ust. 4\" \"ust. 7\"",
+   "\"motyw\" \"133\" \"134\" \"2024/1689\"",
+   "\"art. 23\" \"art. 24\" \"Kodeks cywilny\" OR",
+   "\"art. 85\" \"o prawie autorskim\" OR",
+   "\"Artykuł 50\" \"Obowiązki w zakresie przejrzystości\" \"2024/1689\"",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi\"",
+   "\"Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake\"",
+   "\"Art. 9\" \"danych biometrycznych w celu jednoznacznego zidentyfikowania osoby fizycznej\" \"2016/679\"",
+   "\"Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków\" \"2024/1689\"",
+   "\"Komisja zachęca do opracowywania kodeksów praktyk na poziomie Unii\" \"2024/1689\"",
+   "\"Artykuł 96\" \"Wytyczne Komisji\" \"2024/1689\"",
+   "\"Obowiązek ten nie ma zastosowania w zakresie, w jakim systemy AI pełnią funkcję wspomagającą\" \"2024/1689\"",
+   "\"7. Komisja zachęca do opracowywania kodeksów praktyk na poziomie Unii\" \"2024/1689\"",
+   "\"Biuro AI zachęca do opracowywania kodeksów praktyk\" \"2024/1689\"",
+   "\"Komisja może przyjmować akty wykonawcze dotyczące zatwierdzenia tych kodeksów praktyk\" \"2024/1689\"",
+   "\"art. 50 ust. 7\" \"2024/1689\"",
+   "\"60)\" \"deepfake\" \"oznacza wygenerowane przez AI\" \"2024/1689\"",
+   "\"treści typu deepfake\" \"oznaczają wygenerowane przez AI\"",
+   "\"W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym\" \"2024/1689\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15652,
+   "wyjscie": 1924
+  },
+  "czas_s": 238,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "OSNC 2011/11/120",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa nowelizująca z 17 czerwca 2004 r.",
+   "zrodlo": "Dz.U. 2004 nr 162 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo identyfikuje problem i wyjaśnia, że nie istnieje klauzula na małżonka 'bez ograniczeń'. Trafnie rozróżnia tryby z art. 787 i 787¹ k.p.c., uzależniając je od zgody małżonka lub związku z przedsiębiorstwem, a nie od treści nakazu zapłaty. Prawidłowo prostuje omyłkę pytającego co do art. 781¹ k.p.c. Wszystkie powołane przepisy i orzeczenia są poprawne. Brakuje jedynie wskazania, z czego można prowadzić egzekucję w przypadku braku zgody i braku związku z przedsiębiorstwem (art. 776¹ k.p.c.).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"III CZP 117/10\"",
+   "\"III CZP 117/10\" domniemanie faktyczne",
+   "\"Dz.U. 2004 nr 162 poz. 1691\"",
+   "\"ustawa z 17 czerwca 2004 r. o zmianie ustawy - Kodeks rodzinny i opiekuńczy\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbPCSik6nKmXRgOZyiXVrtteLF3iI0THvgYkjQy_2n4Wa7vgAbZIAw87gE3NRb7D0BqaVZGBY9kyHjLPZGeYxPmVCbkEio3oi-NHnuBjofOwQbk6Wq1yF11QoeAvBEJ8Q293LmtwsQTsl3aaCJm-P9UrsmotosC7Di-rvaX6CfQYd63olxw43ZUQ=="
+  ],
+  "tokeny": {
+   "wejscie": 11129,
+   "wyjscie": 799
+  },
+  "czas_s": 102,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

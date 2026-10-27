@@ -1,0 +1,93 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — przepis określa wymagania pisma zawierającego zażalenie: „Zażalenie powinno czynić zadość wymaganiom przepisanym dla pisma procesowego”. Nie ustanawia opisanego wyłączenia zaskarżalności.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 k.p.c. — powtarzane odesłania ogólne",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — § 1 określa katalog zaskarżalnych postanowień sądu pierwszej instancji i zarządzeń przewodniczącego; zgodność ogólnego opisu katalogu według raportu.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 k.p.c. — zwrot nieopłaconego pisma i końcowe odesłanie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — § 1 przewiduje wezwanie do opłacenia pisma, § 2 jego zwrot przez przewodniczącego po bezskutecznym upływie terminu.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 362 w związku z art. 130 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — art. 362: „Przepisy niniejszego rozdziału stosuje się odpowiednio do zarządzeń przewodniczącego”. Żaden z powołanych przepisów nie ustanawia opisanego sprzeciwu.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — przewiduje wezwanie strony do poprawienia, uzupełnienia lub opłacenia pisma w terminie tygodniowym.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–169 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — art. 168 § 1 dotyczy uchybienia bez winy strony, art. 169 § 1 wyznacza tydzień od ustania przyczyny uchybienia.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf — ust. 1 przewiduje zwolnienie osoby fizycznej ze względu na niemożność poniesienia kosztów bez uszczerbku utrzymania koniecznego; pominięcie doprecyzowań nie obniża A6.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 Konstytucji RP",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/1997/483/text/U/D19970483Lj.pdf — ust. 1 przewiduje skargę dotyczącą zgodności z Konstytucją aktu normatywnego stanowiącego podstawę ostatecznego rozstrzygnięcia o prawach, wolnościach lub obowiązkach skarżącego.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 Konstytucji RP",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/1997/483/text/U/D19970483Lj.pdf — ust. 1 ustanawia prawo do sprawiedliwego i jawnego rozpatrzenia sprawy przez właściwy, niezależny, bezstronny i niezawisły sąd.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 EKPC",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/1993/284/text.pdf — ust. 1 gwarantuje sprawiedliwe i publiczne rozpatrzenie sprawy w rozsądnym terminie przez niezawisły i bezstronny sąd ustanowiony ustawą.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia w konkluzję dotyczącą zażalenia dewolutywnego, lecz pomija rozróżnienie wymagane kluczem i dopuszczalne zażalenie poziome, dlatego A_R = 1, R3 = 1 oraz naliczono drugą karę. Nie powołuje żadnej z dwóch wymaganych podstaw prawnych. Zgodnie z raportem i tekstem urzędowym art. 394 § 3 oraz art. 362 w związku z art. 130 przypisano nieistniejącą w nich treść, co daje A6 = 0 i typ T. B1 = 0 wynika z ryzyka utraty możliwości zaskarżenia oraz wskazania niewłaściwego środka w postaci sprzeciwu, a B2 = 0 z pominięcia warunku rozstrzygającego. Wywód o skardze konstytucyjnej stanowi dygresję uzasadniającą A8 = 0.5; odpowiedź nie zawiera cytatów przepisów.",
+ "_meta": {
+  "sedzia": "sol61meta",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 76,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 15, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 394 § 3 KPC [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 394 § 3 KPC wyłącza zażalenie na postanowienia sądu drugiej instancji wydane w postępowaniu zażaleniowym, z zastrzeżeniem wyjątków z § 1 i 2 tego artykułu.”\n    · uzasadnienie weryfikatora: Art. 394 § 3 KPC określa wymogi formalne i konstrukcyjne pisma zawierającego zażalenie, a nie wyłączenie zażalenia na postanowienia sądu drugiej instancji.\n    · brzmienie jednostki (fragment): „§ 3. Zażalenie powinno czynić zadość wymaganiom przepisanym dla pisma procesowego oraz zawierać wskazanie zaskarżonego postanowienia i wniosek o jego zmianę lub uchylenie, jak również zwięzłe uzasadnienie zażalenia ze wskazaniem w miarę potrzeby nowych faktów i dowodów.”\n- 2. art. 394 KPC [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie jednostki (fragment): „Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pisma wniesionego jako pozew, z którego nie wynika żądanie rozpoznania sprawy; 2) zwrot pozwu; 3) odmowa odrzucenia pozwu; 4) przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 5) zawieszenie postępowania i odmowa podjęcia zawieszonego postępowania; 5¹) sprostowanie lub wykładnia orzeczenia albo…”\n- 3. art. 130 KPC [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 130 KPC reguluje zwrot nieopłaconego pisma, którego sąd może dokonać zarządzeniem przewodniczącego.”\n    · uzasadnienie weryfikatora: Przepis wprost reguluje tryb wezwania do opłacenia pisma (§ 1), zwrot pisma przez przewodniczącego po bezskutecznym upływie terminu (§ 2) oraz określa tę czynność mianem zarządzenia przewodniczącego (§ 4).\n    · kotwica (verbatim ze źródła): „§ 1. Jeżeli pismo procesowe nie może otrzymać prawidłowego biegu wskutek niezachowania warunków formalnych lub jeżeli od pisma nie uiszczono należnej opłaty, przewodniczący wzywa stronę, pod rygorem zwrócenia pisma, do poprawienia, uzupełnienia lub opłacenia…”\n    · brzmienie jednostki (fragment): „Art. 130. § 1. Jeżeli pismo procesowe nie może otrzymać prawidłowego biegu wskutek niezachowania warunków formalnych lub jeżeli od pisma nie uiszczono należnej opłaty, przewodniczący wzywa stronę, pod rygorem zwrócenia pisma, do poprawienia, uzupełnienia lub opłacenia go w terminie tygodniowym. Mylne oznaczenie pisma procesowego lub inne oczywiste niedokładności nie stanowią przeszkody do nadania pismu biegu i rozpoznania go w trybie właściwym. § 1¹. Jeżeli pismo wniosła osoba zamieszkała lub mająca siedzibę za granicą, która nie ma w kraju przedstawiciela, przewodniczący wyznacza termin do p…”\n- 4. art. 362 KPC [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R3 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 362 KPC w zw. z art. 130 KPC na zarządzenie o zwrocie nieopłaconego pisma przysługuje sprzeciw do sądu w terminie 7 dni od doręczenia, a nie zażalenie.”\n    · uzasadnienie weryfikatora: Ani art. 362 KPC (nakazujący odpowiednie stosowanie przepisów o postanowieniach do zarządzeń przewodniczącego), ani art. 130 KPC nie przewidują środka zaskarżenia w postaci sprzeciwu do sądu od zarządzenia o zwrocie pisma.\n    · brzmienie jednostki (fragment): „Art. 362. Przepisy niniejszego rozdziału stosuje się odpowiednio do zarządzeń przewodniczącego.”\n- 5. art. 130 KPC [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 4; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n- 6. art. 394 KPC [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 394 KPC przewiduje wyjątki dotyczące dopuszczalności zażalenia.”\n    · uzasadnienie weryfikatora: Przepis określa katalog postanowień sądu pierwszej instancji oraz zarządzeń przewodniczącego, na które przysługuje zażalenie do sądu drugiej instancji.\n    · kotwica (verbatim ze źródła): „Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pi…”\n    · brzmienie jednostki (fragment): „Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pisma wniesionego jako pozew, z którego nie wynika żądanie rozpoznania sprawy; 2) zwrot pozwu; 3) odmowa odrzucenia pozwu; 4) przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 5) zawieszenie postępowania i odmowa podjęcia zawieszonego postępowania; 5¹) sprostowanie lub wykładnia orzeczenia albo…”\n- 7. art. 130 § 1 KPC [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 130 § 1 KPC dotyczy wezwania strony do uiszczenia opłaty.”\n    · uzasadnienie weryfikatora: Brzmienie art. 130 § 1 KPC wprost przewiduje wezwanie strony przez przewodniczącego do opłacenia pisma, od którego nie uiszczono należnej opłaty.\n    · kotwica (verbatim ze źródła): „§ 1. Jeżeli pismo procesowe nie może otrzymać prawidłowego biegu wskutek niezachowania warunków formalnych lub jeżeli od pisma nie uiszczono należnej opłaty, przewodniczący wzywa stronę, pod rygorem zwrócenia pisma, do poprawienia, uzupełnienia lub opłacenia…”\n    · brzmienie jednostki (fragment): „§ 1. Jeżeli pismo procesowe nie może otrzymać prawidłowego biegu wskutek niezachowania warunków formalnych lub jeżeli od pisma nie uiszczono należnej opłaty, przewodniczący wzywa stronę, pod rygorem zwrócenia pisma, do poprawienia, uzupełnienia lub opłacenia go w terminie tygodniowym. Mylne oznaczenie pisma procesowego lub inne oczywiste niedokładności nie stanowią przeszkody do nadania pismu biegu i rozpoznania go w trybie właściwym.”\n- 8. art. 168 KPC [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 168–169 KPC regulują wniosek o przywrócenie terminu składany w terminie tygodnia od ustania przeszkody, gdy opłatę uiszczono po terminie z przyczyn niezależnych od strony.”\n    · uzasadnienie weryfikatora: Powołane łącznie przepisy art. 168 i 169 KPC regulują przesłankę przywrócenia terminu (brak winy strony w uchybieniu terminu) oraz tryb i termin złożenia wniosku.\n    · kotwica (verbatim ze źródła): „Art. 168. § 1. Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu.”\n    · brzmienie jednostki (fragment): „Art. 168. § 1. Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu. § 2. Przywrócenie nie jest dopuszczalne, jeżeli uchybienie terminu nie pociąga za sobą ujemnych dla strony skutków procesowych.”\n- 9. art. 169 KPC [akt: wprost]\n    · powołanie zakres — ocena łącznie z powołaniem nr 8; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n- 10. art. 102 ustawy o kosztach sądowych w sprawach cywilnych [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 102 ustawy o kosztach sądowych w sprawach cywilnych normuje wniosek o zwolnienie od kosztów sądowych w sytuacji, gdy strona nie jest w stanie ich ponieść.”\n    · uzasadnienie weryfikatora: Przepis normuje wniosek o zwolnienie od kosztów sądowych z uwagi na niemożność ich poniesienia, przy czym twierdzenie pomija doprecyzowanie, że dotyczy to osoby fizycznej i uszczerbku utrzymania koniecznego dla siebie i rodziny.\n    · kotwica (verbatim ze źródła): „Art. 102. 1. Zwolnienia od kosztów sądowych może się domagać osoba fizyczna, jeżeli złoży oświadczenie, z którego wynika, że nie jest w stanie ich ponieść bez uszczerbku utrzymania koniecznego dla siebie i rodziny lub ich poniesienie narazi ją na taki uszczer…”\n    · brzmienie jednostki (fragment): „Art. 102. 1. Zwolnienia od kosztów sądowych może się domagać osoba fizyczna, jeżeli złoży oświadczenie, z którego wynika, że nie jest w stanie ich ponieść bez uszczerbku utrzymania koniecznego dla siebie i rodziny lub ich poniesienie narazi ją na taki uszczerbek. 2. Do wniosku o zwolnienie od kosztów sądowych powinno być dołączone oświadczenie obejmujące szczegółowe dane o stanie rodzinnym, majątku, dochodach i źródłach utrzymania osoby ubiegającej się o zwolnienie od kosztów. Oświadczenie sporządza się według ustalonego wzoru. Jeżeli oświadczenie nie zostało złożone albo nie zawiera wszystki…”\n- 11. art. 79 Konstytucji RP [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): nieobslugiwany\n    · istnienie: nieobsługiwany — do sprawdzenia ręcznie\n    · flagi kroku faktów: nieobslugiwany\n- 12. art. 45 Konstytucji [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): nieobslugiwany\n    · istnienie: nieobsługiwany — do sprawdzenia ręcznie\n    · flagi kroku faktów: nieobslugiwany\n- 13. art. 6 EKPC [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): nieobslugiwany\n    · istnienie: nieobsługiwany — do sprawdzenia ręcznie\n    · flagi kroku faktów: nieobslugiwany\n- 14. art. 394 KPC [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie jednostki (fragment): „Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pisma wniesionego jako pozew, z którego nie wynika żądanie rozpoznania sprawy; 2) zwrot pozwu; 3) odmowa odrzucenia pozwu; 4) przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 5) zawieszenie postępowania i odmowa podjęcia zawieszonego postępowania; 5¹) sprostowanie lub wykładnia orzeczenia albo…”\n- 15. art. 130 KPC. [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie jednostki (fragment): „Art. 130. § 1. Jeżeli pismo procesowe nie może otrzymać prawidłowego biegu wskutek niezachowania warunków formalnych lub jeżeli od pisma nie uiszczono należnej opłaty, przewodniczący wzywa stronę, pod rygorem zwrócenia pisma, do poprawienia, uzupełnienia lub opłacenia go w terminie tygodniowym. Mylne oznaczenie pisma procesowego lub inne oczywiste niedokładności nie stanowią przeszkody do nadania pismu biegu i rozpoznania go w trybie właściwym. § 1¹. Jeżeli pismo wniosła osoba zamieszkała lub mająca siedzibę za granicą, która nie ma w kraju przedstawiciela, przewodniczący wyznacza termin do p…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

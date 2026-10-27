@@ -1,0 +1,52 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — s. 67, art. 357 § 5",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — s. 67, art. 357 § 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — s. 67, art. 357 § 2¹",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, wymagane podstawy oraz poprawny warunek zaskarżalności i tygodniowe terminy z właściwymi początkami. Wszystkie trzy powołania odpowiadają numeracji i treści oficjalnego tekstu k.p.c.; nie przytoczono cytatów przepisów ani orzeczeń. Nie zaliczono czwartego elementu rubryki, ponieważ nie wskazano opłaty ani wyjątków z § 2³–§ 2⁴ lub § 6. A8 obniżono za niepotrzebną dygresję o prawie unijnym; jednozdaniowa formuła wniosku jest neutralna. Odpowiedź daje praktyczną instrukcję działania i stawia tezę z adekwatną pewnością.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 69,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

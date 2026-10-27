@@ -1,0 +1,104 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut. (t.j. Dz.U. z 2022 r. poz. 2509)",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24; poprzedni t.j. Dz.U. 2022 poz. 2509) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Orzecznictwo SN i doktryna (ogólnie): twierdzenie, że w orzecznictwie i doktrynie jednolicie przyjmuje się bezskuteczność klauzuli ogólnej, a SN wielokrotnie wskazywał, iż brak wyraźnego wymienienia pól powoduje, że prawa w ogóle nie przeszły",
+   "zrodlo": "Orzecznictwo SN (m.in. wyroki SN: z 14.09.2005 r., III CK 124/05; z 05.10.2018 r., I CSK 596/17; z 15.05.2019 r., I CSK 104/18; z 14.10.2021 r., IV CSKP 44/21 — sn.pl / SAOS)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 i art. 50 pkt 3 pr.aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Ustawa z dnia 23 kwietnia 1964 r. — Kodeks cywilny (t.j. Dz.U. 2026 poz. 795) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 w zw. z art. 2 pr.aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24) — ISAP/ELI",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie zaprzecza błędnej przesłance pytania i podaje wymagane przepisy (art. 41 ust. 2 i ust. 4 oraz art. 53 pr.aut.) wraz z przykładami pól eksploatacji dla social mediów, co daje pełny rdzeń (A-R = 2, gdyż liberalna linia SN stanowi w kluczu v3 nagrodę w R5, a nie wymóg rdzenia) oraz A2 = 1. Punkt A3 wynosi 0, ponieważ w cytacie art. 41 ust. 2 pr.aut. ujętym w cudzysłów zastąpiono ustawowy zwrot „, zwana dalej „licencją”,” skrótem „(licencja)” (reguła B10 i reguła nr 19). Punkt A6 wynosi 0 (klasa T wg reguły B9 i reguły 7 A6), gdyż system przypisał orzecznictwu SN i doktrynie jednolite stanowisko o bezskuteczności ogólnej klauzuli i nieprzejściu praw, co jest sprzeczne z rzeczywistą linią orzeczniczą SN (m.in. III CK 124/05, I CSK 596/17, IV CSKP 44/21) dopuszczającą dookreślenie pól w drodze wykładni umowy z art. 65 k.c. Zgodnie z regułą B11 teza o bezskuteczności ogólnego zapisu i nieprzejściu praw obniża kalibrację pewności do B2 = 0, natomiast praktyczna przydatność wskazówek dla prawnika pozostaje pełna (B1 = 2, brak podwójnej kary w bloku B).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"art. 41\" \"obejmuje pola eksploatacji wyraźnie w niej wymienione\" OR OR",
+   "\"Dz.U. 2025 poz. 24\" OR \"Dz.U. 2022 poz. 2509\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"art. 50\" \"art. 53\" \"art. 65\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"art. 781\" \"kwalifikowanym podpisem elektronicznym\" OR OR",
+   "\"2025\" \"24\" \"o prawie autorskim\"",
+   "\"2025\" \"24\" \"prawie autorskim\"",
+   "\"III CK 124/05\" OR \"I CSK 104/18\" OR \"I CSK 596/17\" OR \"IV CSKP 44/21\" OR",
+   "\"Art. 65.\" \"W braku wyraźnego postanowienia o przeniesieniu prawa\" \"licencji\"",
+   "\"I CSK 104/18\" OR \"I CSK 596/17\" OR \"IV CSKP 44/21\" \"pola eksploatacji\"",
+   "\"DU/2025/24\" OR \"DU/2022/2509\" OR OR",
+   "\"Art. 46.\" \"Art. 2.\" \"prawa zależnego\" \"o prawie autorskim i prawach pokrewnych\"",
+   "\"I CSK 596/17\" \"pola eksploatacji\" OR \"41 ust. 2\"",
+   "\"IV CSKP 44/21\" \"pola eksploatacji\" OR \"41 ust. 2\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13835,
+   "wyjscie": 2023
+  },
+  "czas_s": 199,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

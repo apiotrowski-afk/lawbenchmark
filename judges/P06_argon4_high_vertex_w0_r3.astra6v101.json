@@ -1,0 +1,143 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 394¹ § 1 k.p.c. — katalog zażaleń do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394² k.p.c. — niezaskarżalność odrzucenia zażalenia poziomego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=74",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394² § 1 k.p.c. — wyłącznie odrzucenie apelacji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=74",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394² § 1¹ k.p.c. — brak odrzucenia zażalenia w tej jednostce",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=74",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 373 § 1 w zw. z art. 397 § 3 k.p.c. — odrzucenie nieopłaconego środka",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=69",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394¹ § 3 w zw. z art. 398²¹ i art. 394 § 1 k.p.c. — dalsze zażalenie do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustalone orzecznictwo SN — dopuszczalność dalszego zażalenia do SN",
+   "zrodlo": "https://www.sn.pl/pl/aktualnosci/komunikaty-o-sprawach/uchwala-sadu-najwyzszego-w-sprawie-postanowien-sadu-drugiej-instancji-podlegajacych-zaskarzeniu-zazaleniem-do-sadu-najwyzszego",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394¹ k.p.c. — zażalenie na uchylenie wyroku i przekazanie sprawy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 87¹ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=16",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 398²² § 1 k.p.c. — dodatkowy wyjątek dla decyzji kończących postępowanie przed referendarzem",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=78",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 373 k.p.c. — odrzucanie środków przez referendarzy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=69",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 359 § 1 k.p.c. — reasumpcja wskutek oczywistego błędu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=68",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 391 § 1 i art. 397 § 3 k.p.c. — odpowiednie stosowanie przepisów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=72",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Orzecznictwo SN dopuszczające reasumpcję niezaskarżalnych postanowień formalnych z powodu oczywistego błędu",
+   "zrodlo": "Wyszukiwanie w sn.pl i SAOS nie pozwoliło zidentyfikować orzeczenia potwierdzającego podaną tezę.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "Art. 168 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=37",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 169 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=37",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dawny art. 130² k.p.c. — historyczny tryb odrzucenia bez wezwania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=27",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "Art. 380 w zw. z art. 398²¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf#page=70",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 429 k.p.c. — odmowa przyjęcia środka w procedurze karnej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/490/text/T/D20260490L.pdf",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "Art. 430 k.p.c. — pozostawienie środka bez rozpoznania w procedurze karnej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/490/text/T/D20260490L.pdf",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie zidentyfikowano orzeczenia SN potwierdzającego ogólną tezę o reasumpcji wskutek oczywistego błędu.",
+  "Nie zweryfikowano historycznego brzmienia art. 130² k.p.c. ani przypisanej mu ścieżki przywrócenia terminu."
+ ],
+ "uzasadnienie": "Odpowiedź trafia w gałąź dewolutywną, lecz łączy ją z poziomą i błędnie wyklucza zażalenie przewidziane w art. 394² § 1²; brakuje obu wymaganych podstaw. Naliczono obie kary, ponieważ wskazano dalsze zażalenie do SN oraz wspólną odpowiedź przeczącą bez wymaganego rozróżnienia. A6 obniżają fałszywe tezy dotyczące zaskarżalności, zakresu katalogu, referendarza i reasumpcji, a także przypisanie przepisów k.p.k. do k.p.c. Nie zaliczono elementu dotyczącego zwrotu pisma i tygodniowej dopłaty; dygresja karna obniża A8. Przydatność pozostaje ograniczona mimo poprawnych wskazówek dotyczących przywrócenia terminu, a wymaganej kalibracji warunkowej nie zachowano.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 127,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

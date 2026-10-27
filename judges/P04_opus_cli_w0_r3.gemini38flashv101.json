@@ -1,0 +1,124 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 3a ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a k.p.a. w zw. z art. 127 § 3",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 1 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 § 3 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ust. 2 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Zgodnie ze szczegółową regułą klucza teza o zasadniczej ostateczności i ewentualnej prawomocności daje A_R = 1. Kryterium A2 wynosi 0 z uwagi na brak wskazania konkretnej wymaganej jednostki redakcyjnej (art. 217 § 2 pkt 2 k.p.a., podano jedynie ogólnie art. 217). A6 wynosi 0 (T), ponieważ art. 3a u.n.n.c. dotyczy specjalnych stref ekonomicznych, a instytucja promesy uregulowana jest w art. 3d u.n.n.c. W rubryce zaliczono korektę formy (R1) i procedurę prawomocności z p.p.s.a. (R4), lecz nie zaliczono R2 i R3, gdyż odpowiedź utrwala pojęcie klauzuli/adnotacji i nie wskazuje, że organ zaświadcza prawomocność. Przydatność B1 oceniono na 1 przez wzgląd na skierowanie prawnika w stronę adnotacji ostateczności zamiast zaświadczenia o prawomocności.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P04",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"podstawy_wymagane\" \"art. 217\" \"P04\" benchmark",
+   "\"podstawy_wymagane\" \"art. 217 § 2 pkt 2\" \"A2\"",
+   "\"A2\" \"podstawy_wymagane\" \"art. 16 § 1\" \"217 § 2\"",
+   "\"art. 217\" \"217 § 2 pkt 2\" A2 0 1 benchmark prawniczy",
+   "\"art. 3a\" \"ustawy z dnia 24 marca 1920\" \"promesa\"",
+   "\"art. 3a\" \"o nabywaniu nieruchomości przez cudzoziemców\" \"promesa\"",
+   "\"art. 6 ust. 1\" \"o nabywaniu nieruchomości przez cudzoziemców\" \"nieważne\"",
+   "\"art. 6 ust. 1\" \"ustawy z dnia 24 marca 1920\" nieważność"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13715,
+   "wyjscie": 1176
+  },
+  "czas_s": 85,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

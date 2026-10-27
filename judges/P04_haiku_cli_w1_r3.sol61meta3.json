@@ -1,0 +1,104 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców — wymóg zezwolenia ministra i forma decyzji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html — art. 1 ust. 1 przewiduje zezwolenie wydawane decyzją administracyjną ministra właściwego do spraw wewnętrznych; pominięcie wyjątków nie stanowi błędu A6.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2025/1691/ogl/pol/pdf — art. 16 § 1 obejmuje brak odwołania „lub wniosek o ponowne rozpatrzenie sprawy”. Przyjmuję klasę W z raportu: odpowiedź stosuje wcześniejszą definicję ostateczności, opartą wyłącznie na braku odwołania.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. — ostateczność decyzji ministra z chwilą doręczenia lub ogłoszenia",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2025/1691/ogl/pol/pdf — art. 127 § 3: „strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy”. Przepis wyłącza odwołanie, lecz nie ustanawia automatycznej ostateczności przy doręczeniu; przeczy też twierdzeniu, że pozostaje co najwyżej skarga sądowa.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Prawo o postępowaniu przed sądami administracyjnymi — skarga nie wstrzymuje wykonania decyzji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf — art. 61 § 1 przewiduje brak automatycznego wstrzymania, a § 3 dopuszcza wstrzymanie przez sąd. Niewspomnienie kompetencji organu z § 2 stanowi pominięcie.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks postępowania cywilnego — klauzula prawomocności i wykonalności dotyczy tytułów egzekucyjnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — art. 364 § 1: „Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji”. Art. 776 wiąże z tytułem egzekucyjnym klauzulę wykonalności. Odpowiedź błędnie rozciąga tę charakterystykę na stwierdzenie prawomocności.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustawa o nabywaniu nieruchomości przez cudzoziemców — ważność zezwolenia i warunki decyzji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html — art. 3 ust. 2 określa dwuletnią ważność zezwolenia od wydania, a art. 2 ust. 2 pozwala ministrowi określić specjalne warunki nabycia.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń zasługuje na 1 punkt: odpowiedź wskazuje decyzję ministra i zaświadczenie organu, ale prawomocność traktuje marginalnie, bez rozróżnienia przesłanek obu przymiotów i mechanizmu trzydziestodniowej skargi do WSA. Brakuje wymaganych podstaw, zwłaszcza art. 16 § 3 i art. 217 § 2 pkt 2 k.p.a.; nie ma cytatów przepisów w rozumieniu klucza. Przyjmuję W z raportu, a niezależnie stwierdzam T przy przypisaniu art. 127 § 3 automatycznej ostateczności oraz przy utożsamieniu zakresu stwierdzenia prawomocności z klauzulą wykonalności. Nie naliczam K3, ponieważ odpowiedź dopuszcza prawomocność administracyjną; B1 obniża błędna praktyczna wskazówka dotycząca chwili ostateczności. A8 wynosi 0,5 z powodu błędnej uwagi pobocznej o instytucjach k.p.c. oraz powtórzonego zastrzeżenia dotyczącego nieweryfikowania podstaw.",
+ "_meta": {
+  "sedzia": "sol61meta3",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "site.eli.gov.pl 2025 1691 kodeks postępowania administracyjnego ...",
+   "site.eli.gov.pl 2025 1691 kodeks postępowania administracyjnego",
+   "site.eli.gov.pl 2017 2278 nabywaniu nieruchomości cudzoziemców",
+   "site.eli.gov.pl 2026 143 postępowaniu sądami administracyjnymi",
+   "site.eli.gov.pl 2026 468 kodeks postępowania cywilnego",
+   "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.html",
+   "site.eli.gov.pl \"2026\" \"143\" \"postępowaniu przed sądami\"",
+   "'Art. 16.'"
+  ],
+  "zrodla_sedziego": [
+   "https://dziennikustaw.gov.pl/DU/2017/2278",
+   "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.pdf",
+   "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000468/U/D20260468Lj.pdf",
+   "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20170002278/O/D20172278.pdf",
+   "https://eli.gov.pl/api/acts/DU/2017/2278/text.pdf",
+   "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "https://eli.gov.pl/eli/DU/2025/1691/ogl/pol/pdf",
+   "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.html",
+   "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.html",
+   "https://eli.gov.pl/eli/DU/2026/143/ogl",
+   "https://eli.gov.pl/eli/DU/2026/143/ogl/pol/pdf",
+   "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000143/T/D20260143L.pdf",
+   "https://monitorpolski.gov.pl/DU/2026/143",
+   "https://www.ekoinfonet.pl/dokument.php?j=DU&pos=143&rok=2026",
+   "https://bip.warszawa.wsa.gov.pl/278/prawo-o-postepowaniu-przed-sadami-administracyjnymi.html?searchKey=2026",
+   "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf"
+  ],
+  "czas_s": 63,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 2, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 16 § 1 KPA [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2011-10-01, fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 16 § 1 KPA decyzja, od której nie służy odwołanie, jest ostateczna.”\n    · uzasadnienie weryfikatora: Twierdzenie definiuje decyzję ostateczną wyłącznie przez brak odwołania, co odpowiada brzmieniu wcześniejszemu z atomu 2, podczas gdy na datę stanu prawnego (atom 1) definicja obejmuje także brak wniosku o ponowne rozpatrzenie sprawy.\n    · kotwica (verbatim ze źródła): „Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne.”\n    · brzmienie jednostki (fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych.”\n- 2. art. 127 § 3 KPA [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z art. 127 § 3 KPA decyzja ministra nie podlega odwołaniu i jest ostateczna z chwilą doręczenia lub ogłoszenia, ponieważ minister jest najwyższym organem w danym rodzaju spraw.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że od decyzji wydanej w pierwszej instancji przez ministra nie służy odwołanie, a odpowiedź pomija jedynie zastrzeżenie o przysługującym wniosku o ponowne rozpatrzenie sprawy (część o ostateczności to wniosek autora z wcześniejszego akapitu).\n    · kotwica (verbatim ze źródła): „Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy”\n    · brzmienie jednostki (fragment): „§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

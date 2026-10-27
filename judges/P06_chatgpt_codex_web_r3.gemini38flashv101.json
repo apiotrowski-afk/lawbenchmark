@@ -1,0 +1,70 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń już w pierwszym akapicie, prawidłowo przeprowadzając rozróżnienie na odrzucenie zażalenia poziomego oraz dewolutywnego. A2 wynosi 0 z uwagi na brak powołania art. 397 § 1¹ k.p.c., który należy do podstaw wymaganych. Wszystkie powołane przepisy oraz uchwała SN III CZP 50/22 są w pełni zgodne ze źródłami oficjalnymi (A6 = 1, brak halucynacji). W rubryce zabrakło jedynie wątku art. 130² k.p.c. dotyczącego pism wnoszonych przez profesjonalnego pełnomocnika. Kalibracja jest wzorowa (B2 = 1), a przydatność praktyczna pełna (B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"III CZP 50/22\"",
+   "\"III CZP 50/22\" \"23 czerwca 2022\"",
+   "\"art. 394² § 2\" kpc",
+   "\"art. 394 § 2\" kpc termin zażalenia"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9479,
+   "wyjscie": 538
+  },
+  "czas_s": 37,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2² i § 2³ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2⁴ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 25b ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 6.10.2022 r., III CZP 112/22",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Biuletyn Izby Cywilnej SN nr 6/2020",
+   "zrodlo": "sn.pl",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Biuletyn Izby Cywilnej SN nr 6/2020"
+ ],
+ "uzasadnienie": "Odpowiedź prawidłowo wskazuje, że zasadnicze powody nie są uzasadnieniem i należy złożyć wniosek o uzasadnienie. Wszystkie powołane przepisy k.p.c. oraz u.k.s.c. zostały przytoczone zgodnie z ich literalnym brzmieniem. Trafnie powołano uchwałę SN III CZP 112/22. Sformułowanie, że przy art. 357 § 2⁴ k.p.c. strona 'nie musi' składać wniosku, uznano za dopuszczalne uproszczenie zakazu z tego przepisu ('nie może żądać'). Zrealizowano wszystkie elementy rubryki.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"Art. 25b\" \"ustawy o kosztach sądowych w sprawach cywilnych\"",
+   "\"uchwała SN z 6.10.2022 r., III CZP 112/22\"",
+   "\"III CZP 112/22\"",
+   "\"Biuletyn Izby Cywilnej SN nr 6/2020\" \"zasadnicze powody\"",
+   "\"Biuletyn Izby Cywilnej\" \"6/2020\" \"357\"",
+   "\"Biuletyn Izby Cywilnej Sądu Najwyższego 06_2020.pdf\"",
+   "\"Biuletyn Izby Cywilnej\" \"6/2020\"",
+   "\"Biuletyn Izby Cywilnej\" 2020 \"357\"",
+   "\"Biuletyn Izby Cywilnej\" 2020 \"zasadnicze powody\"",
+   "\"Biuletyn Izby Cywilnej\" \"6/2020\" \"zasadnicze powody\"",
+   "\"Biuletyn Izby Cywilnej SN nr 6/2020\"",
+   "\"Biuletyn Izby Cywilnej\" \"2020\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1LTOAu1RVcTOGJrWqo7mQgU9TU9nN8AP2j8hdlRdbyfcr9ZXXoq4_0lE8kHMsx4xJlg7YplvTgRqkXhYplAmSoo1cL3JLm_S0fxKpUk3WaAPMKp0BWzrUQ1ifBG3WnwL3uimlyiK_p949G_dxI1nE",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpWDkZx9kLFA4DT7CyBWw70_3NMpcLgDor3o_ygK36TIoQ5Jd_t4xfKNTe4Hmf9eqGNGaKfOiHlKoGA0uMpP8aljjQYNkqN_cFrT_jkgEK8y8pci-jQPXG-vbGY_Wnz1jfKFax4HsYq-xFF9aV0CtvYl5mIMFIyaaD0H8sXPTrJDmYiGwrt8OEP8-ZW2PsQ0xSWwF5ErbvYBUv_xWir_QMeGFFIbP0KgyHhSlRdQHtf3pbrPU57CgcauBq9rV0",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeg2tRjvwlM6pKq2Qjfn9ug7_DQX_hxqpzq-iA5eMKdJidpvu-Vvdv9xDzhR6ycSNLe1pBPisLQH50Sm068m4VRdFdwJJVfTK2dRk1NDW6yfG8yEy0zM7B8kVjKBvxtnJTu0LQK14sLB33XSEwLWE6DmB7f6bJ3DEPB-yxhPbz01see5DCx6rjUSs9o_9ecfn_nEJKWtBifF8="
+  ],
+  "tokeny": {
+   "wejscie": 11502,
+   "wyjscie": 992
+  },
+  "czas_s": 198,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

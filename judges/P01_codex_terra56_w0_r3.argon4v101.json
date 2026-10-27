@@ -1,0 +1,81 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń (wraz z opisem historii zmian progu w ustawie)",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.); Dz.U. 2018 poz. 2077; Dz.U. 2022 poz. 2600",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 Kodeksu karnego",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 Kodeksu karnego",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie podaje obowiązujący próg 800 zł oraz brak wpływu wzrostu płacy minimalnej (A_R=2, R1=1, R2=1) i prawidłowo powołuje wymagany art. 119 § 1 k.w. oraz art. 124 § 1 k.w. (A2=1, R4=1). W ostatnim zdaniu błędnie opisuje jednak historię zmian ustawy, twierdząc, że powiązanie z 1/4 płacy minimalnej zostało zastąpione stałą kwotą 800 zł, podczas gdy w latach 2018–2023 obowiązywał pośredni próg 500 zł (Dz.U. 2018 poz. 2077). Zgodnie z regułami z 2026-10-18 pominięcie etapu progu w historii zmian przepisu stanowi błąd klasy W (A6=0, hallucinated=true) oraz skutkuje niezaliczeniem elementu R3 (0 pkt). Ponieważ błąd dotyczy wyłącznie tła historycznego i nie zmienia praktycznej porady na 2026 r., zgodnie z zakazem podwójnego karania w bloku B przyznano B1=2 oraz B2=1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"art. 119\" \"art. 124\" \"800 złotych\" OR OR",
+   "\"art. 278\" \"art. 288\" \"Kodeks karny\" OR OR",
+   "\"Art. 278.\" \"Art. 288.\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"500 złotych\" \"119\"",
+   "\"Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"500 złotych\" OR",
+   "\"Art. 278.\" \"Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą\" OR",
+   "\"Art. 288.\" \"Kto cudzą rzecz niszczy, uszkadza lub czyni niezdatną do użytku\" OR",
+   "\"2025\" \"383\" \"Kodeks karny\" OR",
+   "\"2018\" \"2077\" \"500 złotych\" OR",
+   "\"DU/2018/2077\" OR \"D20182077\" OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13176,
+   "wyjscie": 1227
+  },
+  "czas_s": 120,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

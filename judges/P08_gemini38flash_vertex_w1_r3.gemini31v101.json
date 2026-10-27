@@ -1,0 +1,83 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny (A-R=2), a system powołuje wszystkie wymagane przepisy (A2=1). Cytat art. 3 pkt 60 nie jest dosłowny (m.in. zmieniono słowo 'przedmioty' na 'obiekty'), co obniża A3 do 0. W odpowiedzi pojawia się halucynacja (T) dotycząca art. 50 ust. 1 AI Act – system błędnie przypisuje obowiązek informowania o interakcji z AI podmiotowi stosującemu, podczas gdy przepis ten nakłada ten obowiązek na dostawcę. Błąd ten ma charakter poboczny, ale wpływa na poradę praktyczną (kto ponosi odpowiedzialność), obniżając B1 do 1. Kalibracja jest prawidłowa (B2=1), ponieważ system wyraźnie oddziela brak obowiązków z tytułu deepfake od innych obowiązków z AI Act.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"AI Act\" \"art. 50\" \"podmiot stosujący\" OR \"deployer\"",
+   "\"AI Act\" \"art. 50 ust. 1\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuAuaGVc8yY5jhZgawO1tKrhsY0qYGpc1h4TaEKlXU_f3s3ze8-cKMU94MDoMOo0G2q0FLamhHrByuAm98KmyG11H5xcKNijAijN5dhB6QGCfzmTerE6QI8vwiR6VZF9Bxd1o16mNcDsTjbhXY7Gk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv8wDcTXVr-R4vXik4wzJYCb3fwRWI2BVX2BYTiJZAi5Sy62kK5NA6keDX8gnYsKzmehYbe59OpM-X0I4HloAJmWGGaiYw2zJK2IQhiGXTk_Vo_vxtqjqOXdA6kjWB9Va-P5zyqfIo1xYoE9OyB7cSDGCP7OuAnu4kzZ_7WK5uxGOoSqF4hSbGwKiN2rtVK9_Sb_tzPnJ9BYf6-yrFY_PFGo3R6I106ckP7HsZ16rjFjPnUHSlsMOScvJ2kwM8l_HwESblPTMM8Rr4rFBDoOUxn8DCBm8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb06nvpVpxwtLaMzY2uII3cnCCSzHJAHvNoA1NF7B0ns_uT7YQ9_sp8QPCafHJ8GId2b6SumIz0-M1Q_ya6LWP5TR-pDmOtRiFw2ao7K24w97VvAQK_KiSpdLnFCFPW2Xd_ZM6SgZ0MDlpvk0BYNz42io_njmIdIzDd0VpNMx-sC6JOBpwQ7dmTdg0nDrMZHBsGOfyB7aP",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBfcfsF8xzLw2-_bQEJXOA6CVdw-8eFfwDlYHAH1DtD35TgLSdUX7DGCmVctwrFhyvqcogMtrX2mLNWB_FOUvcwDU35feEDK-kggrPYVP1W0xtcOCWjw75P4PKCL8F1wRxdsZNdO-_5DrPH1OlAQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZo5pCL-jXkAb0vtQUxflxSaw9YldsCG-3qcxMHUmWl99DHpuXsZjvAAWCRmLnaORvW4PAwhVxywQK7mLQ8jn1ZIsj3e58rYv-fXwdHX8eu6sgqWfMCkkgV5-wzold1OVAmJQHwI5EjtEJ612tjnLXeYcw5QTMedJFNh6v",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI90DbRXvRxXYz6112hY4D50DqvKJvRIUK4pxhnnW_Eta2I7TvAmRujttqKjySo1CZR_RY0dhsZJUie2v5IvN72l1T5uk-AoyOG2ps_CgEMw89LwtghUYS2JkkHsjhBPUI7pdbR_EncmopCBWW6Rz7diMZkakTW4IE_FGOUINUSulcv0BPNrg="
+  ],
+  "tokeny": {
+   "wejscie": 15177,
+   "wyjscie": 693
+  },
+  "czas_s": 135,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

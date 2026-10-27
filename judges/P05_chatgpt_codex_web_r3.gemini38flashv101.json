@@ -1,0 +1,68 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1, § 1¹, § 2, § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie MS z 12 marca 2024 r. (Dz.U. 2024 poz. 368 ze zm. Dz.U. 2026 poz. 225) § 2 pkt 3, § 3 ust. 1, § 4 ust. 1 i 2",
+   "zrodlo": "Dz.U. 2024 poz. 368, Dz.U. 2026 poz. 225",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź bezbłędnie unika pułapki aktualności i prawidłowo identyfikuje stan prawny po 1 czerwca 2026 r., dopuszczający doręczenia przez Portal Informacyjny osobie fizycznej po złożeniu stosownego oświadczenia. Przytoczono wszystkie wymagane jednostki redakcyjne art. 131¹ᵃ k.p.c. oraz adekwatne przepisy wykonawcze z rozporządzenia z 12 marca 2024 r. Wyczerpano wszystkie cztery punkty rubryki, w tym warunki wyboru, regułę doręczenia po 14 dniach oraz zasady rezygnacji. Brak jakichkolwiek uchybień formalnych czy halucynacji.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"Dz.U. 2024 poz. 368\"",
+   "\"Dz.U. 2026 poz. 225\" portal informacyjny",
+   "\"131(1a)\" kpc \"portal informacyjny\" \"131\" \"133 par. 3\"",
+   "\"Dz.U. 2024 poz. 367\"",
+   " \"2024\" \"368\"",
+   " \"w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\"",
+   "\"w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 3\" \"§ 4\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10044,
+   "wyjscie": 538
+  },
+  "czas_s": 34,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

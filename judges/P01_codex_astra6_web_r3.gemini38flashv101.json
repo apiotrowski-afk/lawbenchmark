@@ -1,0 +1,71 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. 2025 poz. 734",
+   "zrodlo": "eli.gov.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń – trafnie wskazuje kwotę 800 zł oraz wyjaśnia brak powiązania z płacą minimalną. Wszystkie powołane przepisy (art. 119 § 1, art. 124 § 1 i art. 130 § 2 k.w.) są bezbłędne i w pełni zgodne z tekstem jednolitym. W rubryce zaliczono R1, R2 oraz R4 (wskazanie art. 124 § 1 k.w. z progiem 800 zł), natomiast nie zaliczono R3 z uwagi na brak wskazania daty 1.10.2023 lub dawnej kwoty 500 zł. Kalibracja jest kategoryczna i prawidłowa, a odpowiedź w pełni przydatna.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 130\" kodeks wykroczeń \"włamaniem\"",
+   "\"art. 130 § 2\" kodeks wykroczeń",
+   "art 130 kodeks wykroczeń treść"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11677,
+   "wyjscie": 510
+  },
+  "czas_s": 28,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

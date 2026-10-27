@@ -1,0 +1,60 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf; historycznie: https://eli.gov.pl/api/acts/DU/2018/618/text.html",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120 k.w. jako przepis odsyłający do opisanej granicy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 122 k.w. jako przepis odsyłający do opisanej granicy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 278 k.k. — możliwość kwalifikacji kradzieży jako przestępstwa",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Art. 119 § 1 k.w. przewiduje 800 zł, a odpowiedź przedstawia historyczne powiązanie z minimalnym wynagrodzeniem jako obowiązujące, co stanowi W i dotyczy rdzenia odpowiedzi. Art. 120 i 122 k.w. samodzielnie określają próg 800 zł, zamiast odsyłać do opisanej granicy zależnej od wynagrodzenia. Błędna kwota i mechanizm powodują niezaliczenie rdzenia, podstawy oraz wszystkich elementów rubryki i naliczenie obu kar. B1 wynosi 0, ponieważ zalecenie późniejszej weryfikacji nie naprawia głównej wskazówki błędnie rozgraniczającej wykroczenie i przestępstwo. Brak cytatów oznacza A3 nd; odpowiedź pozostaje w ramach pytania i stawia tezę wprost, zatem A8 i B2 wynoszą 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 47,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

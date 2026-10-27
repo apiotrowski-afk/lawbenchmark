@@ -1,0 +1,96 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 394 § 3 k.p.c. — wyłączenie zażalenia na postanowienia sądu drugiej instancji wydane w postępowaniu zażaleniowym",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394 § 1 i 2 oraz ogólne odesłania do art. 394 k.p.c. — wyjątki od wskazanego wyłączenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 130 k.p.c. — zwrot nieopłaconego pisma zarządzeniem przewodniczącego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 362 w związku z art. 130 k.p.c. — sprzeciw do sądu w terminie 7 dni zamiast zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustawa o kosztach sądowych w sprawach cywilnych — opłata stała za zażalenie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 130 § 1 k.p.c. — wezwanie do uiszczenia opłaty",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 168–169 k.p.c. — przywrócenie terminu i tydzień od ustania przyczyny uchybienia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 102 ustawy o kosztach sądowych w sprawach cywilnych — zwolnienie od kosztów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 79 Konstytucji RP — skarga konstytucyjna",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/1997/483/text/U/D19970483Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 45 Konstytucji RP — prawo do sądu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/1997/483/text/U/D19970483Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 6 EKPC",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/1993/284/text/T/D19930284L.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Art. 6 EKPC — tekst PDF ELI ma uszkodzone kodowanie ekstrakcji, a tekst ogłoszony nie został udostępniony przez narzędzie; nie potwierdzono literalnie jednostki i treści."
+ ],
+ "uzasadnienie": "Konkluzja odpowiada jednej gałęzi klucza, lecz nie rozróżnia zażalenia poziomego i dewolutywnego, co uzasadnia A_R=1, karę oraz B2=0. Brakuje obu wymaganych podstaw i omówienia art. 130² k.p.c. Art. 394 § 3 reguluje wymagania zażalenia, a art. 362 nie ustanawia sprzeciwu; przypisanie im cudzej treści daje T i A6=0. Ustawa kosztowa przewiduje zasadniczo pobranie piątej części opłaty od zażalenia, więc wskazanie opłaty stałej jako ogólnej reguły również jest błędne. Alternatywny scenariusz zwrotu pisma i dygresja konstytucyjna obniżają A8, a błędna instrukcja wniesienia sprzeciwu ogranicza B1 do 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 24,
+  "czas_s": 204,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

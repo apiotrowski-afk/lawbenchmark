@@ -1,0 +1,149 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ pkt 1–7 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1², w tym zd. 1 i 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 1¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 741 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 § 1 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1–1² k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2050-22-1.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ᵃ § 1¹ i § 1 pkt 12 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2² i § 2⁴ w zw. z art. 397 § 2 zd. 1 i art. 394² § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "por. uchwała SN z 24 stycznia 2023 r., III CZP 127/22",
+   "zrodlo": "https://www.sn.pl/pl/sprawy/zagadnienia-prawne/iii-czp-127-22",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 380 w zw. z art. 397 § 3 i art. 394² § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 359 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf; https://www.saos.org.pl/judgments/437515",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 220 § 3 p.p.s.a.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 178 w zw. z art. 197 § 2 p.p.s.a.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 194 § 1 pkt 7 p.p.s.a. jako podstawa zażalenia na odrzucenie zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 194 § 2 p.p.s.a.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/143/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń, rozróżnia oba rodzaje zażalenia i powołuje obie wymagane podstawy; cytat art. 394² § 1² jest zgodny ze źródłem. Nie uwzględnia art. 130² k.p.c., dlatego ostatni element rubryki pozostaje niezaliczony. A6 obniża przypisanie art. 194 § 1 pkt 7 p.p.s.a. treści pkt 8: pkt 7 dotyczy odrzucenia skargi kasacyjnej, a nie zażalenia. Uchwałę III CZP 127/22 przywołano porównawczo, natomiast pominięcie ograniczeń zastosowania art. 359 § 1 nie stanowi samoistnie błędu A6. Dygresja o postępowaniu sądowoadministracyjnym obniża A8 do 0.5, przy zachowaniu przydatności i właściwej warunkowej kalibracji głównej odpowiedzi.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 18,
+  "czas_s": 127,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

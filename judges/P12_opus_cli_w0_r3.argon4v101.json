@@ -1,0 +1,128 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 77³ k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j. k.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 243¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 30 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 47 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 840 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wyjaśnia rdzeń problemu (A_R=2): wyklucza istnienie klauzuli przeciwko małżonkowi „bez ograniczeń”, rozgranicza tryby z art. 787 i art. 787¹ k.p.c., wskazuje na rozstrzygające znaczenie przesłanki materialnej zamiast treści nakazu zapłaty oraz prostuje omyłkę pytania dotyczącą art. 781¹ k.p.c. W rubryce (R=[1,1,1,1,0]) zabrakło jedynie piątego elementu, tj. wskazania, z jakich składników można prowadzić egzekucję bez klauzuli na małżonka, gdy nie ma ani zgody, ani związku z przedsiębiorstwem (art. 776¹ § 1 k.p.c., art. 41 § 2 k.r.o.). Kryterium A6 oceniono na 0 (hallucinated=true, typ T/W), ponieważ w pkt 4.4 system przypisał art. 47 § 2 k.r.o. normę, zgodnie z którą umowa majątkowa małżeńska jest skuteczna wobec wierzyciela tylko wtedy, gdy wiedział o jej zawarciu i rodzaju. W stanie prawnym na 2026-10-01 (Dz.U. 2026 poz. 236) art. 47 § 2 k.r.o. reguluje zmianę i rozwiązanie umowy majątkowej małżeńskiej, natomiast jej skuteczność względem osób trzecich normuje art. 47¹ k.r.o. (gdzie normę tę przeniesiono z dawnego art. 47 § 2 k.r.o. z dniem 20 stycznia 2005 r.). W bloku B przyznano B2=1 za prawidłowe warunkowe rozprowadzenie obu ścieżek postępowania oraz B1=1 z uwagi na pominięcie art. 787² k.p.c. (intercyza nie stanowi przeszkody do samego nadania klauzuli w trybie art. 787 lub 787¹ k.p.c.) oraz art. 776¹ k.p.c.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 24,
+  "zapytania": [
+   "\"art. 47\" \"art. 471\" \"Kodeks rodzinny i opiekuńczy\" OR OR",
+   "\"Małżonek może powoływać się względem innych osób na umowę majątkową małżeńską\" OR OR",
+   "\"Art. 30.\" \"Oboje małżonkowie są odpowiedzialni solidarnie\" OR OR",
+   "\"Art. 773\" \"Dokumentem jest nośnik informacji umożliwiający zapoznanie się z jej treścią\" OR OR",
+   "\"2026\" \"236\" \"Art. 47\"",
+   "\"2026\" \"236\"",
+   "\"Art. 2431\" \"Przepisy niniejszego oddziału stosuje się do dokumentów zawierających tekst\" OR OR OR",
+   "\"Art. 840.\" \"Dłużnik może w drodze powództwa żądać pozbawienia tytułu wykonawczego\" OR OR OR",
+   "\"api.sejm.gov.pl/eli/acts/DU/2026/236\" OR \"eli.gov.pl/eli/DU/2026/236\" OR \"isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000236\"",
+   "\"api.sejm.gov.pl/eli/acts/DU/2026/468\" OR \"eli.gov.pl/eli/DU/2026/468\" OR \"isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000468\"",
+   "\"Art. 41.\" \"Jeżeli małżonek zaciągnął zobowiązanie za zgodą drugiego małżonka\" \"wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa\"",
+   "\"Art. 47.\" \"Umowa majątkowa małżeńska może być zmieniona albo rozwiązana\" \"Art. 471.\" \"Małżonek może powoływać się względem innych osób\"",
+   "\"Art. 7872\" \"Zawarcie umowy majątkowej małżeńskiej nie stanowi przeszkody\" OR OR OR",
+   "\"art. 47 § 2\" \"Małżonek może powoływać się względem innych osób na umowę\" k.r.o.",
+   "\"D20260236\" OR \"D20260236L.pdf\" \"Art. 47.\"",
+   "\"D20260795\" OR \"DU/2026/795\" \"Art. 77\"",
+   "\"Art. 47\" \"Małżonkowie mogą względem innych osób powoływać się na umowę\" OR \"względem innych osób na umowę\" \"§ 2\"",
+   "\"Art. 47 § 2\" \"Małżonkowie mogą\" \"wobec osób trzecich\" OR \"względem innych osób\" k.r.o.",
+   "\"Art. 47.\" \"Małżonkowie mogą względem innych osób powoływać się na umowę majątkową\"",
+   "\"względem innych osób powoływać się na umowę majątkową małżeńską, gdy jej zawarcie oraz rodzaj były tym osobom wiadome\" \"47 § 2\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11253,
+   "wyjscie": 2551
+  },
+  "czas_s": 247,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

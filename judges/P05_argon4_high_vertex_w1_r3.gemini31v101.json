@@ -1,0 +1,193 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1–4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. z 2025 r. poz. 1172",
+   "zrodlo": "Dz.U. 2025 poz. 1172",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym",
+   "zrodlo": "Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. z 2026 r. poz. 225",
+   "zrodlo": "Dz.U. 2026 poz. 225",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a § 1–5 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. z 2025 r. poz. 1178",
+   "zrodlo": "Dz.U. 2025 poz. 1178",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczeń pism w postaci elektronicznej w postępowaniu karnym",
+   "zrodlo": "Dz.U. 2024 poz. 367",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z dnia 20 lutego 2026 r. w sprawie portalu informacyjnego",
+   "zrodlo": "Dz.U. 2026 poz. 216",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a § 1a k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ zd. 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a § 2 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a § 4 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a § 3 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 2 pkt 3 rozporządzenia MS z dnia 12 marca 2024 r.",
+   "zrodlo": "Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 125¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 116a k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 125² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2020 poz. 2320",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna, wyczerpująca i uwzględnia stan prawny na październik 2026 r. Rdzeń odpowiedzi znajduje się w pierwszym akapicie. System prawidłowo powołał wszystkie wymagane przepisy k.p.c. oraz trafnie odniósł się do analogicznych regulacji w k.p.k. Wszystkie powołania, w tym numery dzienników ustaw z 2024, 2025 i 2026 r., zostały zweryfikowane jako zgodne ze źródłami oficjalnymi. Odpowiedź realizuje wszystkie punkty rubryki i nie zawiera błędów.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 1172\"",
+   "\"Dz.U. 2024 poz. 368\"",
+   "\"Dz.U. 2026 poz. 225\"",
+   "\"Dz.U. 2025 poz. 1178\"",
+   "\"art. 131(1a) k.p.c.\"",
+   "\"art. 133a k.p.k.\"",
+   "\"art. 125(1) k.p.c.\"",
+   "\"art. 116a k.p.k.\"",
+   "\"Dz.U. 2024 poz. 368\" \"Odbierz\"",
+   "\"Dz.U. 2024 poz. 368\" \"§ 2 pkt 3\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 2\"",
+   "\"art. 131(1a) § 4\" k.p.c.",
+   "\"art. 131(1a)\" k.p.c. \"§ 4\"",
+   "\"Dz.U. 2026 poz. 216\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7ianCnYyZwoiamQKvAg891ALlj4IEGjWs_9UWbnRfSUvvY_UjVinblaLjOZ15LDtHi5pDArqGuCn2h3a-lH7c3PtIm3_tX6Ms5eb57XAkCnbReRxORISfbB5VKIu5R8AOAXmFWCH_LqsEbSVHzi0C6xdNptc_8bJxsr0TIbRJMGkWdogsVwKrGVEtSj1ZvLOA",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhl3OZwLcdPvA4QcyurnVlTRdqXB_BNbavgOZKobkbyOb0hxkNybOocNhe-q9qJECXIcqyRID_I36hQWlyifcIEuS8_1nFjOqqgl5tO0mOa06riAklEyx1wvCWPoC_HPh7QEvl0mfHSgKzDwYzYLrnqVJE0BGYChwBlA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ5UJwUBz_SlRpBL9PnM2hY8s5CAu7RdDZZSMoa2WWjRrQGZNJfmgjwS-4xykY_KVa3WJOX8_mN0n39CvCc_gkxo5U1onQ0hUr7LiR7gsvpwH6ZEaPgE11ByHicnH4vxa2XNvY68hByrJdqI-LELl5_jpVSZ2MfNEI2ChWSV0mVn0uKXTdN5Iv0fPn7iHDTkuMPWq30ss2wjIaCwpf02UvpDxNwYav9Yj1zMe-LLgpW1oXgKkKZUt_",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdK8EWupi9GRmpLKmki_nx_N-LFyNvyIBDM2YTvvUPn0A0rbnouNq_4tuHV4xdm7CipBC8alpL8slTTcMvGFOJuVw7K5K23QKCZ8FMZpKRRPjXy7BQ1MlkyKVdf7QMZYMAsLsqOJ-k0K6aum-fD7thWiltx0o8TLviNxtvAAzXrBveLujUVA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM5sv8t_yCVp0NuDrpEKn82Fm4nHUu7JsQhoAC3tDAS4GwxJbMpaBNf77KOvkCEtoiN6zIxl4vTKkMi7YmehGeM1eHtd2mNeA8NtIbQxPeZEclkVNfkzkJvoSGyS6v2L9Erq78irYkU8HGYXsoIhQFyDADCPz1_mo-VVI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTBvKuHIEZMCA_Af4xg2E3_-l5a7U5-ghs7d0ja0HjCjreXyBZBepvbHrKKkmMkbypabv9ke3sB35f2BGdj-jKwucl3EQb6KeONkkJQPnmMEV-qq0y-nNlMjjDyQBICV5qj7j9Cd3dnKDY9NbBIdiMKh1ea-jQVftqyrUzAfNn2SInrg0i9f4mBF_ua2Fpwk5yFu0MjrBaHk1QbEJp4X1g_7bqIe7n0yXPlsCHairsRNXKvCKcSWqo3AHc-y5N31MQpz36WGNnj7r5cU-gd1QstW5wC_cIyiBLLOAl",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjrA46ckPYn3VNCkmgykRZHJ3qCtYh5rM6h43Q_NsTZr5F-bjxZb_Ww_oItExG61tgEXYX4f5xBTg2IK1G-DrGMOuC-abVbF8HtL6hzu_oVUEMschB1UnBu99xYXt29f0c9hkQyeBdR5L0DzC9N6pE5StAFTpQB1mbcQqnmA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1Q3-VJisdlG3vN367pzfQNUCqm7swbPocglHCA2Z6DPCxlya53VaAhwlGlU04RYOCuTanKPfZ6baWylNYnbym1fWl-nuUdgpiUNsbZSvBl3BIjDFEqgL6Cq4rAFJIR69relueia5wllnqc9fW1K0-TZXPmw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWTWHgpsdG_U_759DDQX1SsTIGQOBr7uXZ1IwqQGSVF6B9Bc5v10kxF3iTQNaxPKzDhYzfhZWUsWdlzrZoGqMEDrXpCmrriw4rteGYwTLo3YLpcv8rq4ypCIzQ7-Ndi5Ij4D3VGiCtjP2Elm5a69FoNeKs7zSCAqubOWEwLBG6GEhaDjE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKLG4G9CJcFdhT__T11AnUIUPTVA8KUBRQHYbTz3hw79MqG1yFiUL6lRZSrH-WqKz_rJNNW-OYJvnMiR_lv0ghTLMb5PyK6UXt1sPZ351oIh_LiO8SbeLrh2MMHg7sDq70HTShPfv5Zc2r0AFQ2C53ZPxHbuwKVyLyC3U="
+  ],
+  "tokeny": {
+   "wejscie": 14846,
+   "wyjscie": 1675
+  },
+  "czas_s": 229,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

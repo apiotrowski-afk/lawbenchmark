@@ -1,0 +1,82 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest częściowo trafny (A-R=1), ponieważ system wskazuje na ostateczność jako właściwe potwierdzenie, ale wspomina również o prawomocności decyzji administracyjnej. Brak powołania wymaganego art. 217 k.p.a. skutkuje A2=0. System trafnie koryguje formę aktu na decyzję administracyjną (R1=1). Dygresja o postanowieniu sądu opiekuńczego jest uprawniona zgodnie z regułami klucza (A8=1). Wszystkie powołane przepisy są zgodne ze źródłami oficjalnymi (A6=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Art. 364. § 1.\" \"Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji\" OR",
+   "\"Art. 13. § 2.\" \"Przepisy o procesie stosuje się odpowiednio do innych rodzajów postępowań\" OR",
+   "\"Art. 364\" \"Prawomocność orzeczenia stwierdza\" kpc OR",
+   "\"Art. 13\" \"Przepisy o procesie stosuje się odpowiednio\" kpc OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRCqWNwAhYMgYBiEOMGb2B3Boaf4wj5HI2DZHUWsXhjZv7QMTyuphqLMhPANPidoJXSA7XN9DjJnmpRq73YC1JmcXGshUSwnCcAjJ_zkLHV1_9f6NC1IaL5GgxAhI43mERyrTI1_eunwWKwqJ9IlHGCLdPnASbrbWi6JgSWtk-x4GcXmfYuaqpohUWA08-NGbEgvl4",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9ksURSKRt03iEzMU7V9rSknIItlMvaOddKdMTIh7J2fXGQ_1cDHO9A737DVB5xo2Zxkjz2llas62Z5uuZfuKYkNPRufjjEDDIOumBrJTPt6xVJl0K2kyDelAmzeJhfv8UynlAH0HCe0VPTI5gV2ayzcWbQaU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNegrkmjSO1uKkLYyBBVGdsIy324-akh76XyTeKSNACPa7a69gRYmLLBIol6fLvzdlZAAOVCUSNTYlqZZCIAkdD8eeExvw9OGJfZjaZJxnfaGF_MEaSp2Ht6gpOmsOA1SnXtsY2idpEjR-qz-mkeNsG5D7eYNrZ8bSQ9LrQPoQUyPHOKk="
+  ],
+  "tokeny": {
+   "wejscie": 14730,
+   "wyjscie": 664
+  },
+  "czas_s": 110,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

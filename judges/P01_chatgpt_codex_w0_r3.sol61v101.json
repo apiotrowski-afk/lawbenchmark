@@ -1,0 +1,57 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/U/D20250734Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 Kodeksu wykroczeń",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/U/D20250734Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Próg 800 zł obowiązuje od 1 października 2023 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2022/2600/text.html ; https://eli.gov.pl/api/acts/DU/2023/403/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Powiązanie progu z ¼ minimalnego wynagrodzenia zniesiono w 2018 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2018/618/text.html ; https://api.sejm.gov.pl/eli/acts/DU/2018/2077/text.html ; https://eli.gov.pl/eli/DU/2018/2077/ogl/pol",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje pełny rdzeń: 800 zł, brak wpływu płacy minimalnej i obowiązywanie tej kwoty od 1 października 2023 r. Literalne porównanie art. 119 § 1 i art. 124 § 1 z tekstem urzędowym potwierdza zgodność parafraz, w tym rozróżnienie wartości rzeczy i wysokości szkody. Wskazanie art. 124 § 1 wystarcza do zaliczenia R4. Informacja o zmianie z 2018 r. również jest zgodna ze źródłami, a krótkie zastrzeżenie dotyczące włamania i rozboju wyjaśnia zakres progu. Brak cytatów w cudzysłowie uzasadnia A3 jako nd; nie stwierdzono błędnych powołań ani podstaw do kar.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 49,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=180",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=180",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=178",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf#page=7",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf#page=7",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Pierwszy akapit trafnie wyklucza egzekucję bez ograniczeń, ale nie podaje kluczowego warunku zgody małżonka, dlatego A_R = 1. Dalsza odpowiedź prawidłowo rozróżnia oba tryby i uzależnia wybór od przesłanek materialnych, co uzasadnia B2 = 1. Sprostowanie numeru jest trafne, lecz pomija wymagane w rubryce wskazanie terminu 3 dni; nie przedstawiono również zakresu egzekucji przy braku zarówno zgody, jak i związku z przedsiębiorstwem. Wszystkie pięć powołanych jednostek sprawdzono w urzędowych tekstach i nie stwierdzono fałszywego przypisania treści. Nie ma cytatów przepisów, a jednozdaniowa formuła żądania i wyjaśnienie granic odpowiedzialności nie obniżają A8.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 50,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

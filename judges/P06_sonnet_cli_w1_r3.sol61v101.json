@@ -1,0 +1,123 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 394² § 1³ k.p.c.",
+   "pochodzenie": "źródło_wtórne"
+  },
+  {
+   "powolanie": "art. 394¹ w zw. z art. 398¹ i n. k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 397 § 2 k.p.c.",
+   "pochodzenie": "źródło_wtórne"
+  },
+  {
+   "powolanie": "daty zmian art. 394² k.p.c. w 2023 r.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1³ k.p.c. — trzyosobowy skład rozpoznający zażalenie na odrzucenie zażalenia poziomego",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 i 3 k.p.c. — odpowiednie stosowanie, tygodniowy termin",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 395–397 k.p.c. — odpowiednie stosowanie",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN, V CZ 48/16 — zamknięty katalog art. 394² k.p.c.",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/V%20CZ%2048-16.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ w zw. z art. 398¹ i n. k.p.c. — zażalenie do SN na postanowienia kończące postępowanie w sprawach kasacyjnych",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130 § 1 i 3 k.p.c. — wezwanie do opłaty i skutki uzupełnienia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 2 k.p.c. — podstawa wezwania do opłacenia zażalenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 k.p.c. — możliwość przywrócenia terminu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "zmiana art. 394² k.p.c. 30 czerwca 2023 r.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2023/614/ogl",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "zmiana art. 394² k.p.c. 27 września 2023 r.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2023/1860/ogl",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia obie ścieżki i pełny rdzeń, lecz pomija wymaganą podstawę art. 397 § 1¹ oraz art. 130². A6 obniżają przypisanie § 1³ składu dla zażalenia z § 1², powołanie art. 397 § 2 dotyczącego uzasadnienia jako podstawy wezwania do opłaty oraz błędny opis art. 394¹. Daty wejścia zmian w życie to 1 lipca i 28 września 2023 r. Pominięcie uzasadnienia przy opisie początku terminu traktuję jako pominięcie, bez obniżenia A6. Dygresje o innych środkach i ponowione zastrzeżenia obniżają A8, a błędna wskazówka dotycząca składu ogranicza B1; ogólny przykład zażalenia do SN nie stanowi zalecenia jego wniesienia w ocenianej sprawie.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 20,
+  "czas_s": 87,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

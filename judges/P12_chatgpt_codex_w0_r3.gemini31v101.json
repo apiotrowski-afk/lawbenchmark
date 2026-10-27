@@ -1,0 +1,89 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1-2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny i znajduje się na początku. System prawidłowo powołuje wymagane podstawy prawne (art. 787 i 787¹ k.p.c.) i bezbłędnie opisuje ich treść, a także trafnie prostuje pomyłkę pytającego co do art. 781¹ k.p.c. Odpowiedź realizuje 4 z 5 elementów rubryki, pomijając jedynie wskazanie na egzekucję z majątku osobistego dłużnika w razie braku zgody i związku z przedsiębiorstwem. Kalibracja jest prawidłowa (warunkowa), a odpowiedź wysoce przydatna dla prawnika.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 787\" \"Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim\"",
+   "\"art. 787\" \"k.p.c.\"",
+   "\"art. 781\" \"k.p.c.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEly6p1kSa7MPfc1jt1SKkXIjgKTAaMUh-j6wLY5Q1-uRL40xZALz5XUhxGFxC8U6nj60sTT6qyqMA2Axm76WGZlhVo-Jn-KUN6r-jtdSgYkl3kVWvc4U1DR98oZf9dCwoBCkvpLX5Y4-hlAMt0nn8sUh5Ye-uRLiG-Jsjs9M7PhbzvqYCuPMjpz99H1icsHwW1",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI1if0z48yBl5dR3i6Fzyjc988OUcFQZyjVBEVatyc_u05lxxCv1hSZWD_KjzUXx5X__rxQimfYkQZL356wGK9pMAyt5faCssBFY2-k3tknIjB4V17BVLXvKYNm-CpLkupikJXi0UJu79Igw-zNn-z_k4xUQ_n8jD65_FPapH8C9UmuwOsvcs4IWjOR0pj7EuPCGGQsbKu1aKxTw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0qvLkMiuwK2854uOmEzP82xIZhPIgryLIb9X_jBhwlJOM-u2AgRzVQiPevzIrDzUGzrK7duqR6FzblO_0rxXo5oQKbOiizWHEFWOOufKu5uGfz3D42zE5V2Uc_DSu3oJ2D2cljb85vHVy6Ri4UW2uB_07YSA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2uAO_s-GsE8NJITOA5KqwzsoATldGjVW8tszAz8b6BVq7AJpE1mlUsX9R527WCkk2XJOyvalCqlicotORcQw8gWqtrEVzNYcCRoomtFBar2DzSkc7BjZNuGG-qR8DNklSnR60w5MBLpdkQLMUPIqPwQ49bdEgSQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8bXJyqOILbjLmjakwL0naAevemUx8jRUMr45AvNX9VoJb8XpEqObbhTZfpK947iCYiogNQchbsoXag6kybLsjV97q4_yFMUqk6WComw77W0xwbTMvTiPBARv7hYkQFmqqt0ACuQmQ8nWpO0dYNE9M3bR_-E4A0FILpCI97H2VCfcJnpzrslGT5AsdXjgRS_HHFFXMf-p95qVh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2DYRyGZnxG0e4SpB0F56gYLuK4KiV4AFvFgu_KtLn1YoiBmxymKE5KTH0xG-rN-kT6Vykydnbgb7Z9G38uYl4ieMWtnmggrq8iBsyI_CK8t1TdgAfr1z_aG_wzOLi-LG1D-eT796nXF_91huM_qPhbNyiF2D5KgfUzov-YF4vD210VDHkMYOCnJ9EIpzFTpeUBqPk-2VcvkUPFa3q",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0NnzK0r2VlTRCNAXwOb6V78PhgnUqrYq44XKO4m0-vHmBy0NJSR_ENNcHqmLQMrw-AzzZfdys9hnxBopMrxMwT7_MPb8AyEiD3zzoazfk32wE7DkS2URaskWajOpqEs6Ch4RR7E-7kegVD5q8SvXa5RVWDjvGdIYkgjny6AOsOz0IUI72dG5MpG7Nu9no6UE6QKr1fWfZCX-syANWTLwWbwX6hosSEaEhyRVtI1LDQ4k=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxUo1_AjTn6tKLvvI6t02pPqM-aGSymBUYVZ8lzG3b3vlCUDE4-dVqobSb1FUIzbv0VvPqrWkf_Oq9PCIEtA5FCD0vHl2Odrqqdopmv5vP0eczUl1YvBNZabNKMrhApV6uQwQxZwXCKCKWeOdtEtijsC2gNiU2FIfxMzrVXEDFVVkSpavC9gvuTYfJqtoJyT65bg8HjiiFfA9EsH258WGaLsIrY3cTGAp3lHURGJmO9F99myM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIsuM3nZ-vFkBBupi1GqBWb9IQKaEnA4Zew9e1FqQhuNtkvFPsHZbQTbJ1zl1Fss14lNgb227ZUBgbJkZFRDeLtU9efxxWq5hVfZpV4yDTVy_FENltHSlGVZPOzKKqks4tMEeh58JN5BUjMmu9pj2Ti2e5fk-xtF_xgTIxfirpWZFv0r19HX8T-cRmEzUo2i41b3TQ9W_9UC0HHmLOMojKvyAdMQW6X6_SeUgp3XGYlaDLcP5-5My-W44uj_5yUyxNLEbDY9vH0cGX5tDZajDNy1k=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdNEX0mK9FHYSNw9KC16hKfQ-DRSQPu3YfPnUwopLMHKEhN9CuWsddU6u11Xkhmi5FU5St_1QgRIVCCfAqRcGGxx-11fL4XHTLfIB9P0U1S3M1AARTN8eIs05loie7y_ZMO1kYOkc8_Nld5lTidXf86jdj0vuH_0CmKVklF_WCIjNRRcvZfoKszZseqb40FaMBZIYE4GiLhKSVcEwSpzaavUiBtuFxiYGywpfMLIk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPhRbTvL2NZymJGGXmG4Okva_vuukWnUPZqZl2SWDK3EEGLZFiGRC_8ayq9XTz9hM10gNTHSHdHPCkJ8C-9eTXFojO_CO8cZVuTBVokYR3G2aJcWPSVPDPQCtuT5W6aIV1",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR6XDNiq3ic1eMNU_pBMDEM9hl3cfgUob24qDWy-lwO3O4i6TFUmXKQhD17-b2LdfoVm_F1Mbd9DIE9KM_CPCo4l955fgvZIF3PxbP6QrDkv4nR2LujnMtlDADbBhtBOzrA36DDA5b28xn2z9nnI_wUTMHEIzZZA=="
+  ],
+  "tokeny": {
+   "wejscie": 10796,
+   "wyjscie": 535
+  },
+  "czas_s": 90,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

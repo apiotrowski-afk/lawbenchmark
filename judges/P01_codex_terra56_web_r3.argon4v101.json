@@ -1,0 +1,95 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j. k.w.) / Dz.U. 2013 poz. 1247",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120 § 1 Kodeksu wykroczeń",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j. k.w.) / Dz.U. 2013 poz. 1247",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 122 § 1 Kodeksu wykroczeń",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j. k.w.) / Dz.U. 2013 poz. 1247",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 124 § 1 Kodeksu wykroczeń",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j. k.w.) / Dz.U. 2013 poz. 1247",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Kodeks wykroczeń – tekst jednolity, Dz.U. 2025 poz. 734",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Rozporządzenie RM z 11.09.2025 r., Dz.U. 2025 poz. 1242",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 1242",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpadł w pułapkę pytania i błędnie podał, że próg przepołowienia wynosi 1/4 minimalnego wynagrodzenia (1 201,50 zł w 2026 r.), podczas gdy od 1.10.2023 r. jest to stała kwota 800 zł (A_R=0, R=[0,0,0,0], K=[1,1]). Powołano wymaganą podstawę art. 119 § 1 k.w. (A2=1), jednak przypisano art. 119 § 1, art. 120 § 1, art. 122 § 1 i art. 124 § 1 k.w. nieaktualne brzmienie obowiązujące w latach 2013–2018 (W) oraz powołano tekst jednolity Dz.U. 2025 poz. 734 jako źródło nieistniejącej w nim normy (T), co skutkuje A6=0 i hallucinated=true. Samo rozporządzenie Dz.U. 2025 poz. 1242 poprawnie przytoczono co do kwoty płacy minimalnej 4 806 zł w 2026 r.. Ze względu na wprowadzenie w błąd co do granicy między wykroczeniem a przestępstwem B1=0, natomiast kategoryczny ton odpowiedzi przy oczekiwanej kalibracji kategorycznej daje B2=1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 734\" \"art. 119\" OR \"Kodeks wykroczeń\" OR",
+   "\"art. 119\" \"art. 120\" \"art. 122\" \"art. 124\" \"800 złotych\" \"Kodeks wykroczeń\" OR OR",
+   "\"Dz.U. 2025 poz. 1242\" \"4806\" OR \"minimalnego wynagrodzenia\" OR OR",
+   "\"WDU20250001242\" OR \"WDU20250000734\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"art. 119\" \"Kodeks wykroczeń\" OR OR",
+   "\"Dz.U. 2024 poz. 1362\" \"4666\" OR OR",
+   "\"1/4 minimalnego wynagrodzenia\" \"art. 120\" \"art. 122\" \"art. 124\" OR OR OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMQs4ZfDjGY4H0EQRyT6gCc6d_lW4XY1KNS8olcyXiKOlNgFYvNySHO8VX4icTlZV87I26QeKs56W3_4BTDWXaH9G6sotvM7XvpazBsn4rQTLEKAE63kYtNQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0459q9znus4xvMgJfmQOYTA1FmoHAVyCX1I8l5FqDUWiqfQWHGteQIbPbsuswaZJzi8MdCo7Vm6SpegUC5dyzHt_Q3lizrXioDXIaNar92y9c20LIIV2YQkepzDzYN2nTr2tl4Z3EgI8tOFex29p3uc_6L1leZOFxvq2_AKccF7CXvn5vH6buVGoCWsxUFY0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrkC3jT-l8wm1DV-eZWqkN5tKaxFITrA5Gd0Rc8-pFtlVgcg0_HGPjVVVyz2dUrTMJW1NNYGTXlnA_nNTeAYtiW9UPqNbxAZw9PxCJKc-SNKM9ugKwYZ6h7sP8pAGYaseD",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoNQKHSVZyRuu9E-Ws6rKajY-Og40eATIdSTm8JfdVpqEMuh5S9hHCf-z-iJK8ep2QErW5Jpczf7lCSme08VbcqfBLVRtBEeko2JhqBxlcrmKqeQHsbtM3HoiklnITV5N6fRRhtjul42qY8m0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExFz_6fnGLkCSjA5TqACin5Dw8zYWxYBT4D2ccvpI01KqZOmWybqkF21mszQzg4gMNT9UkfpLr0ESKvw4xpyCd5h0lFx3uXROPq8UdcbuXL8E5sW1BmS7BtG6vKHo-J8xtgao62tCc40-oAPrKOE6gAx9671VJkAEUHr54-Cvv5UOyc78N7ElTI7D1THc0YzQEmQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMfP7qsSzfjW6aCFjl9KeRn5BLbpXooKLTE9y-zSv3veaGTepwo0Uyq4SQ2uyJEvEr5aPzvHxhwRD9wZtMa9hKheLxQ1y2oyr-e8gi2QLL52zT5st6CSQztD-UbI4ZCVt-h54PwVxePJmeqrfRnp70TYh125c1"
+  ],
+  "tokeny": {
+   "wejscie": 13396,
+   "wyjscie": 1392
+  },
+  "czas_s": 179,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

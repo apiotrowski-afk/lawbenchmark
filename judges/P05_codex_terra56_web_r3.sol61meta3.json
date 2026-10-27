@@ -1,0 +1,76 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, § 1 i odnośnik 29: doręczenia również stronie wybierającej portal, od 1.06.2026.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c., objęty powołaniem § 1–3",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, § 1¹ i odnośnik 30: oświadczenie przez portal, trzy wskazane podpisy oraz rezygnacja również pisemnie, skuteczna po zawiadomieniu sądu.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29: chwila wskazana w potwierdzeniu doręczenia, a przy jego braku upływ 14 dni od umieszczenia pisma w portalu.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29: odstąpienie ze względu na charakter pisma, w szczególności przy wydaniu uwierzytelnionego odpisu orzeczenia lub tytułu wykonawczego.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie Ministra Sprawiedliwości z 12 marca 2024 r., ze zmianą od 1 marca 2026 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html — § 2 pkt 3, § 3 ust. 1 i § 4 ust. 1–2 potwierdzają opis odbioru, moduł oraz przesunięcie daty przypadającej w sobotę lub święto; https://eli.gov.pl/api/acts/DU/2026/225/text/I/D20260225.pdf — § 1 i § 3 potwierdzają zmianę i datę jej wejścia w życie.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie eIDAS nr 910/2014",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/PDF/?uri=OJ%3AL_202401183 — art. 1 pkt 22 dodaje art. 24a do rozporządzenia 910/2014, przewidujący wzajemne uznawanie kwalifikowanych podpisów elektronicznych.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie (UE) 2020/1784",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/pl/ALL/?uri=CELEX%3A32020R1784 — art. 1 oraz motywy 4–6 potwierdzają regulowanie transgranicznego doręczania dokumentów w sprawach cywilnych lub handlowych.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń i wszystkie cztery elementy rubryki. Powołanie zakresu § 1–3 obejmuje również § 1¹, więc wymagane podstawy są wskazane. Sprawdzone przepisy potwierdzają przypisane im treści; brak cytatów przepisów oznacza A3 nie dotyczy. Akapit o eIDAS i sprawach transgranicznych wykracza poza zadane pytanie, co obniża A8 do 0,5. Instrukcja działania jest przydatna, a pewność odpowiada kategorycznej kalibracji klucza.",
+ "_meta": {
+  "sedzia": "sol61meta3",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 16,
+  "czas_s": 102,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 4, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 131¹a § 1 k.p.c. [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (zapytano o art. 131[1a] § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizac…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2026-04-01, 2025-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2026-04-01, fragment): „§ 1. W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego, sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych oraz Prokuratorii Generalnej Rzeczypospolitej Polskiej pisma sądowe, wyłącznie poprzez umieszczenie ich treści w portalu informacyjnym w sposób umożliwiający uzyskanie przez odbiorcę dokumentu potwierdzającego doręczenie. Nie dotyczy to pism, które podlegają doręczeniu wraz z odpisami pism procesowych stron lub innymi dokumentami niepochodzącymi od sądu…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis stanowi podstawę prawną doręczania pism sądowych przez Portal Informacyjny, w tym wymogu wyboru tej formy doręczeń, reguł uznania pisma za doręczone (w chwili odbioru lub z upływem 14 dni) oraz zasad rezygnacji z doręczeń portalowy…”\n    · uzasadnienie weryfikatora: Powołane łącznie przepisy art. 131[1a] § 1 i § 2 KPC wprost regulują doręczenia przez portal informacyjny dla strony, która dokonała takiego wyboru, oraz skutek doręczenia w chwili wskazanej w potwierdzeniu lub z upływem 14 dni. Kwestia rezygnacji wynika z sąsiednich jednostek tego artykułu, więc p…\n    · kotwica (verbatim ze źródła): „sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi,…”\n    · brzmienie jednostki (fragment): „§ 1. W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania, pisma sądowe oraz odpisy pism procesowych lub innych dokumentów niepochodzących od sądu, którymi sąd dysponuje w postaci elektronicznej, wyłącznie przez umieszczenie ich treści w portalu info…”\n- 2. art. 131¹a § 2 k.p.c. [akt: wprost]\n    · powołanie zakres — ocena łącznie z powołaniem nr 1; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2025-10-01, 2016-10-01, 2011-10-01\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n- 3. art. 131¹a § 3 k.p.c. [akt: wprost]\n    · powołanie zakres — ocena łącznie z powołaniem nr 1; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2025-10-01, 2011-10-01\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n- 4. art. 131¹a k.p.c. [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2026-04-01, 2025-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2026-04-01, fragment): „Art. 131¹ᵃ. § 1. W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego, sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych oraz Prokuratorii Generalnej Rzeczypospolitej Polskiej pisma sądowe, wyłącznie poprzez umieszczenie ich treści w portalu informacyjnym w sposób umożliwiający uzyskanie przez odbiorcę dokumentu potwierdzającego doręczenie. Nie dotyczy to pism, które podlegają doręczeniu wraz z odpisami pism procesowych stron lub innymi dokumentami niepochodzą…”\n    · brzmienie jednostki (fragment): „Art. 131¹ᵃ. § 1. W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania, pisma sądowe oraz odpisy pism procesowych lub innych dokumentów niepochodzących od sądu, którymi sąd dysponuje w postaci elektronicznej, wyłącznie przez umieszczenie ich treści w…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

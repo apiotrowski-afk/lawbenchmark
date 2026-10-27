@@ -1,0 +1,93 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 788 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 40–41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System przejmuje z pytania błędny numer art. 781¹ k.p.c. (dotyczącego 3-dniowego terminu na rozpoznanie wniosku) i przypisuje mu nieistniejącą w nim treść o ograniczeniach egzekucji przeciwko małżonkowi przy działalności gospodarczej, co mimo zastrzeżenia o braku weryfikacji skutkuje A6 = 0 (klasa T) oraz naliczeniem trzeciej kary z klucza. Ponadto system fałszywie przypisuje art. 41 k.r.o. regułę, że poza działalnością gospodarczą potrzebny jest odrębny tytuł przeciwko małżonkowi (pomijając przesłankę zgody małżonka z art. 41 § 1 k.r.o. i art. 787 k.p.c.), oraz błędnie odsyła do art. 788 k.p.c. (przejście uprawnień lub obowiązków) zamiast do wymaganego art. 787¹ k.p.c. (A2 = 0). Odpowiedź całkowicie rozmija się z rdzeniem problemu (A-R = 0, R = [0,0,0,0,0]), gdyż nie odróżnia klauzuli z art. 787 k.p.c. (cały majątek wspólny za zgodą małżonka) od klauzuli z art. 787¹ k.p.c. (ograniczenie do przedsiębiorstwa bez zgody) i błędnie instruuje, by przy działalności gospodarczej wnosić o egzekucję z całego majątku wspólnego. Punktację A8 obniżono do 0.5 z uwagi na powtórzenie zastrzeżenia o konieczności sprawdzenia przepisów w drugim miejscu odpowiedzi (w rekomendacji końcowej) oraz nieproszone wywody o elementach formalnych wniosku i zarzutach małżonka. Ze względu na brak wskazania warunku rozstrzygającego (zgoda małżonka vs związek z przedsiębiorstwem) oraz bezużyteczne i wprowadzające w błąd wskazówki praktyczne przyznano B1 = 0 i B2 = 0.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 781\" \"787\" \"788\" OR OR",
+   "\"art. 40\" \"art. 41\" \"kodeks rodzinny\" OR OR",
+   "\"788\" \"Przejście uprawnienia lub obowiązku\" OR",
+   "\"Obojgu małżonkom\" \"art. 40\" \"art. 41\" OR",
+   "\"2026\" \"468\" \"788\" OR OR",
+   "\"2026\" \"236\" \"Art. 40\" \"Art. 41\" OR OR",
+   "\"788\" \"787\" \"uprawnienie lub obowiązek\"",
+   "\"Art. 40.\" \"Art. 41.\" \"zaciągnął zobowiązanie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3RoK1557a8C-IjztiXXhLmGSCNFM9_JytxTmr9UzD4oW25qLtNrVeDYc7ie0shi57z81An73lR6wesNc70NiKoUE8Zm8Pdar4gloLMDv4n4k8D949cn9eVFOcd0tflgOHkz2MPFf7CWsh826A__ji-zBR60W7MoT7XpOzxzCuA9TpmpLtT0pODjyCE2os5mCOWYH35DFv2O-nlw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9kbiiVJK1dJCYAKYvuGO9eK6g08zXNOBrKU_WIMNP2_DyS1ngDs7dD3AvuqPdmY1ntoiQpW85-suLrHL4epxRCO6cGhjjy5QojxjTPnh4NeDvX0N5Zcu3N4Jg9GsgXU7JxrVH8VxdiQInAB2eAQF40Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmpBPqu1BJJzECOIFfA0SberpbV_TmbYg5701Ux8bVlAFCgCko80-NUuu5wuKB0tmXX2jOlwsZmQ-u7sYs0P8udnEQb5qi0q2WKIh210NGTwx6MD7tNY0YxyyuiD2xyV1u9Xu0",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo_ySbWRaBRKgt-T56-6icGgU7_hSBa62GltJjC_Fs0TwABV9xRj9-dYgQ2WbUnitYkOH9JZeCXV8ol9caSeJAwih8mo_wQ5j1KZhPBOX3SqVD7pAIP9R4rtwtc7si6Td-Nq29vvWM-azs27leLz2I0Lk3n_8ZcpNzONoIF3kK_vlw6Wqg2OkOnb5mRg_a4eSFWThhCsuNKkIwCUKWmT7eM2afk8CWnC9hIAKMR2iO_82rd44=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4wyzKE6E29kUzT3YvWM7vAAGQ33UqH65Akt2TzpMD5y_XKbbXPPvqn5rQ_dRWtOmtQfOs1jqnn-u-2L_KfOSCU7Z9Qz9n1jj5yBX9CkFtXj0eKZ8wEOx5UOHy6q7phmAq6X67A2FDPUeWoV8pRWzHe71QGg1thSfrVPJBZtSZt2KXYudyhjkJiYK1XjukBML9gbK42FBpAq2bmevRehFo",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6tXfW2qYTwyHSQG71paQAp8ciueBt3ZjPcqdzxZSyBZ_GM-T78v3y92kcDRry6e9GokktK1MjOw__pmQsfFhAPzMzOTRQHFNwfTpZ51siPmL87Rh-NI29-IaXZ2urB5ZhPJqCETTUGXc6UyS3n32KuCeESto=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDwyz60zhfiZUYUgpf7Uk_-vmaYXWcuxpBujKF-FrqxzyAOHNyJQ-7KAE7BbJu2URY0wc-9w7AJoTJ36lpY_fPCH4jAuBaSzwtO8RWRMeDYQi_9RbFy-bl7kSsIw8VEalb6e1LU4fCsj-x0h-LFcKqZzLgAh2fYhdG-o_In0DUgF_cM2CsmeRhhnxzoXk0CtHdgQG27ryiS7uhgUYxPmS_pE-1uASbLxmI"
+  ],
+  "tokeny": {
+   "wejscie": 10378,
+   "wyjscie": 1458
+  },
+  "czas_s": 199,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

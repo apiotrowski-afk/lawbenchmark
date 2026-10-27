@@ -1,0 +1,80 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A6_pochodzenie": "nieustalone",
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 119 § 1 ustawy z dnia 20 maja 1971 r. – Kodeks wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 124 § 1 – Kodeks wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600 ze zm.)",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo wskazuje obecny próg 800 zł oraz brak jego powiązania z płacą minimalną, co wyczerpuje rdzeń (A-R=2). System podaje jednak błędną historię zmian przepisu, twierdząc, że przed 1 października 2023 r. próg wynosił 1/4 płacy minimalnej, pomijając etap stałej kwoty 500 zł obowiązującej od 2018 r. Zgodnie z regułami, taki błąd w historii zmian to halucynacja typu W w rdzeniu, która skutkuje A6=0 oraz utratą trzeciego elementu rubryki (R3=0). Odpowiedź powołuje wymagany art. 119 § 1 k.w. oraz dodatkowo art. 124 § 1 k.w., co zalicza czwarty element rubryki. Brak dosłownych cytatów w cudzysłowach oznacza A3=nd.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"Art. 119 § 1\" \"Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych\"",
+   "\"Art. 124 § 1\" \"Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych\"",
+   "\"Dz.U. 2022 poz. 2600\"",
+   "\"Art. 119. § 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą\"",
+   "\"Art. 124. § 1. Kto cudzą rzecz umyślnie niszczy\"",
+   "\"Dz.U. 2025 poz. 734\" \"800 złotych\"",
+   "\"Dz.U. 2022 poz. 2600\" \"800 złotych\"",
+   "\"Dz.U. 2018 poz. 2077\" \"119\"",
+   "\"zmiana progu kradzieży 2018\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGknFm5cH_RfhFsOWD6JHUVxSAW1YqLenBmEGe_UCve4tfwANjP3d3Z-kVCPRsY0a7uWw8ZNIu_gYZKh6gyAkBmwLkR3y9LZvJmZBq_-Vo0JPKQ9d5fjGpEqmk7gyc6mIQGgeAKy02P8Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIj7Nkk3JrK0aWdAq7drKAm5sCshiFWeT3b6lBoDnBXwPVv_LAep9wqjI3DZCzVGL9EvcOWWJok03PX_ESTJ80kg6UNVV_uLEsJ03pC4kNu4so_NzjWvdLQWm_4mGrw7LguTCBaxs4L_txflYh4DcZ-_ocYUcp_KS0ws0nYykIrItrdeZep7urKzDpTnq95wtcpQn4qM9__ifyylJKvNY-K2NQnTAxwzDhwt9Ut2zNvnw6rSjCDWHgauERCpRfWxRNkU-JbJq43izYnihR7dYRiLwpQx9N_4x7Wt22huhoxvCRNqCXeF2u",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAJutBA_7s46eixHzSPRyb1wHte_IdtE7YxrcmWl8t0-qUUOo5DvzCBspKPYn9YUAUGwGWigEGluHfy4igYzmz6PFDfMKAddSFLkGlYgzg69yAPolX2UvknEEbJcx10mvOgXBdzpOyveNwE8-h7rHVgxiDjem8aCHaQA=="
+  ],
+  "tokeny": {
+   "wejscie": 13593,
+   "wyjscie": 671
+  },
+  "czas_s": 123,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

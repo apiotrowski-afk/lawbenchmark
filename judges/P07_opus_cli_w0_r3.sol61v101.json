@@ -1,0 +1,79 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 357 § 5 k.p.c.: zasadnicze powody są uzasadnieniem i wyłączają wniosek; paragraf zastrzega pierwszeństwo przepisów szczególnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustawa z 4 lipca 2019 r., Dz.U. 2019 poz. 1469: dodanie art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2019/1469/text/O/D20191469.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 357 § 1 k.p.c.: uzasadnienie na wniosek wyłącznie przy braku uzasadnienia z urzędu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 357 § 2¹ k.p.c.: uzasadnienie na wniosek wyłącznie przy braku uzasadnienia z urzędu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394 § 2 k.p.c.: termin zażalenia od doręczenia zasadniczych powodów utożsamionych z uzasadnieniem",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 361 k.p.c.: odpowiednie stosowanie przepisów o wyrokach do postanowień",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 327¹ w związku z art. 357 § 5 i art. 361 k.p.c.: wymagania uzasadnienia zastosowane do zasadniczych powodów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 386 § 4 w związku z art. 397 § 3 k.p.c.: możliwość uchylenia postanowienia w postępowaniu zażaleniowym",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: art. 357 § 5 wyraźnie odróżnia zasadnicze powody od uzasadnienia i nie zawiera wskazanego zastrzeżenia dotyczącego przepisów szczególnych. Wymagane podstawy przywołano z błędną treścią, a termin wniosku i warunek zaskarżalności pominięto; zaliczono jedynie wzmiankę o uzasadnieniu z urzędu. Błędne utożsamienie powodów z uzasadnieniem prowadzi do szkodliwej wskazówki dotyczącej terminu zażalenia, dlatego B1 wynosi 0. Omówienie zarzutów zażalenia wykracza poza pytanie, co obniża A8 do 0.5. Kategoryczna teza daje B2 = 1 mimo błędu merytorycznego; pochodzenie błędnych powołań jest nieustalone.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 5340,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

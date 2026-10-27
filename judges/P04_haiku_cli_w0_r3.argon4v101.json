@@ -1,0 +1,76 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców — wymóg zezwolenia wydawanego w formie decyzji przez ministra właściwego do spraw wewnętrznych",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.), art. 1 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 KPA — decyzja staje się ostateczna m.in. gdy została wydana przez organ naczelny lub ministra bez możliwości odwołania",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j. k.p.a.), art. 16 § 1",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 127 § 3 KPA — od decyzji ministra w pierwszej instancji nie przysługuje odwołanie, co oznacza, że decyzja jest ostateczna z chwilą doręczenia",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j. k.p.a.), art. 127 § 3",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 61 § 3 PPSA — skarga do WSA nie wstrzymuje wykonania decyzji",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j. p.p.s.a.), art. 61 § 1 i § 3",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie koryguje formę rozstrzygnięcia (decyzja MSWiA zamiast postanowienia) oraz formę potwierdzenia (zaświadczenie zamiast klauzuli), jednak błędnie wyklucza prawomocność decyzji administracyjnej i nakazuje potwierdzać wyłącznie jej ostateczność, co skutkuje A_R = 0, R3 = 0, R4 = 0 oraz karą K3 = 1 (wbrew art. 16 § 3 k.p.a.). W kryterium A2 przyznano 0 punktów z uwagi na brak powołania art. 1 ust. 1 u.n.n.c., art. 16 § 3 k.p.a. oraz art. 217 § 2 pkt 2 k.p.a. Odpowiedź otrzymuje A6 = 0 (typ T, hallucinated = true), ponieważ przypisuje art. 61 § 3 p.p.s.a. normę z art. 61 § 1 p.p.s.a. (brak wstrzymania wykonania aktu wskutek wniesienia skargi, podczas gdy § 3 reguluje wstrzymanie wykonania przez sąd na wniosek), a ponadto przypisuje art. 16 § 1 i art. 127 § 3 k.p.a. fałszywą tezę, że decyzja ministra w I instancji staje się ostateczna z chwilą doręczenia z uwagi na brak odwołania (pomijając wniosek o ponowne rozpatrzenie sprawy). Przydatność praktyczną (B1) obniżono do 1, gdyż mimo wskazania właściwego organu i formy zaświadczenia odpowiedź wprowadza w błąd co do przedmiotu zaświadczenia (ostateczność zamiast prawomocności) oraz momentu uzyskania przymiotu ostateczności (z chwilą doręczenia).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 16\" \"art. 127\" OR kpa",
+   "\"art. 61\" \"wstrzymuje wykonania\" ppsa OR",
+   "\"Ustawa z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców\" OR",
+   "\"Od decyzji wydanej w pierwszej instancji przez ministra\" \"127\" kpa",
+   "\"lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne\" \"2011\" kpa"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14975,
+   "wyjscie": 1124
+  },
+  "czas_s": 147,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

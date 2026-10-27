@@ -1,0 +1,73 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "ustawa z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "ustawa – Prawo o postępowaniu przed sądami administracyjnymi",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę aktu (decyzja zamiast postanowienia) oraz formę potwierdzenia (zaświadczenie organu zamiast klauzuli). System błędnie jednak twierdzi, że decyzja ministra jest ostateczna z chwilą doręczenia i przypisuje ten skutek art. 127 § 3 k.p.a. oraz art. 16 § 1 k.p.a., podczas gdy od decyzji tej służy wniosek o ponowne rozpatrzenie sprawy. Błędne odczytanie treści art. 127 § 3 i 16 § 1 k.p.a. skutkuje kwalifikacją A6 = 0 (klasa T, hallucinated). Nie wskazano też wymaganych podstaw art. 1 ust. 1 u.n.n.c., art. 16 § 3 i art. 217 k.p.a. (A2 = 0), a mechanizm prawomocności nie został w pełni omówiony (A-R = 1, R3 = 0, R4 = 0).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P04",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 127 § 3\" kpa \"ostateczna\"",
+   "\"art. 16 § 1\" kpa wniosek o ponowne rozpatrzenie sprawy ostateczna"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13325,
+   "wyjscie": 597
+  },
+  "czas_s": 37,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

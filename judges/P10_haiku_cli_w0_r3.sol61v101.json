@@ -1,0 +1,79 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 PrAut",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 ust. 1 PrAut",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "Art. 65 PrAut — interpretacja umów na korzyść twórcy, zawężająco",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 16 PrAut — niezbywalność praw osobistych, autorstwo i nienaruszalność utworu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 734 KC — charakter zlecenia i brak automatycznego przeniesienia praw autorskich",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 627 i nast. KC — umowa o dzieło",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Orzecznictwo i doktryna nie są jednolite co do wymaganej precyzji wskazania pól",
+   "zrodlo": "Nie wskazano konkretnych orzeczeń ani publikacji pozwalających zweryfikować zakres tego uogólnienia.",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Ogólne twierdzenie o niejednolitości orzecznictwa i doktryny.",
+  "K2: nie przedstawiono odpowiedzi tego samego systemu na P09; nie naliczono kary."
+ ],
+ "uzasadnienie": "Odpowiedź zaprzecza przesłance i zaleca wyliczenie pól, ale nie wyjaśnia możliwości ich dookreślenia przez wykładnię umowy, dlatego A_R=1 i B2=0. Nie wskazuje art. 41 ust. 2, a art. 53 nie ma ustępu 1, co oznacza A2=0 oraz błąd F. Art. 65 PrAut ustanawia domniemanie udzielenia licencji przy braku wyraźnego postanowienia o przeniesieniu prawa, a nie przypisaną mu ogólną regułę wykładni, co stanowi T. Błędy dotyczą rdzenia, a ich pochodzenie pozostaje nieustalone bez śladu narzędzi ocenianego systemu. Dygresje o prawach osobistych i wyborze umowy o dzieło obniżają A8 do 0.5; praktyczne zalecenia pozostają częściowo przydatne, lecz wymagają korekty.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 53,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

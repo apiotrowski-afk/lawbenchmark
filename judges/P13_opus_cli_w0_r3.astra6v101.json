@@ -1,0 +1,122 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 492 § 2 k.p.c. — natychmiastowa wykonalność",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c. — odesłanie do § 2 i wniosek zgłoszony w zarzutach",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 492 k.p.c. — warrant i rewers",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c. — natychmiastowa wykonalność nakazu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c. — odesłanie do nakazu z § 2 oraz wymaganie zgłoszenia wniosku w zarzutach",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 492 k.p.c. — aktualna wykonalność nakazów z warrantu i rewersu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf ; https://api.sejm.gov.pl/eli/acts/DU/2018/155/text.html",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 743 k.p.c. — końcowe odesłanie do zakresu art. 742–747",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 744 k.p.c. — upadek zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 745 k.p.c. — końcowe odesłanie do zakresu art. 742–747",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 746 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 pkt 1–2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 110 ustawy o księgach wieczystych i hipotece",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/341/text/U/D20250341Lj.pdf ; https://www.sn.pl/sites/orzecznictwo/Orzeczenia2/III%20CSK%20326-12-1.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492¹ k.p.c. — wyłącznie zalecenie sprawdzenia aktualnego brzmienia, bez przypisania normy; przepis uchylony",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dominujący pogląd komentarzy i praktyki sądowej",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Dominacja wskazanego poglądu w komentarzach i praktyce sądowej: znalezione orzeczenie potwierdza tezę, ale nie jej dominujący charakter."
+ ],
+ "uzasadnienie": "Odpowiedź trafnie rozdziela funkcje nakazu i dopuszcza dalsze zabezpieczenie, lecz nie wskazuje zawieszenia egzekucji, dlatego R4=0. Przypisanie natychmiastowej wykonalności § 2 oraz nieistniejącego odesłania i wymogu zgłoszenia wniosku w zarzutach § 3 stanowi T; warrant i rewers odpowiadają dawnej regulacji, co uzasadnia W i K3. Błędne podstawy obniżają A2, natomiast uchybienia rozliczone w A6 nie obniżają ponownie A3. Pominięcie prawomocności przy art. 744 traktuję jako pominięcie przesłanki, bez obniżenia A6. Dygresja o odszkodowaniu obniża A8, błędne ograniczenie momentu zgłoszenia wniosku obniża B1, a jednoznaczna konkluzja uzasadnia B2=1.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 104,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

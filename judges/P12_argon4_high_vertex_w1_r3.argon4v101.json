@@ -1,0 +1,160 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 783 § 1 k.p.c. – wpisywanie w klauzuli wykonalności numeru PESEL dłużnika",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz § 2a ust. 1 pkt 1 rozporządzenia MS z 5.04.2012 r. w sprawie określenia brzmienia klauzuli wykonalności (Dz.U. 2021 poz. 2324, wyd. na podst. art. 783 § 2 k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "OSNC 2011/11/120 / sn.pl / orzeczenia.ms.gov.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 in fine k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 891² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 845 § 2⁴ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 923¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 § 1a k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 11 kwietnia 2019 r., III CZP 106/18",
+   "zrodlo": "OSNC 2019/12/120 / sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 319 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia pełny rdzeń (A-R = 2) oraz realizuje wszystkie pięć punktów rubryki: wyklucza istnienie klauzuli przeciwko małżonkowi „bez ograniczeń”, rozgranicza tryby z art. 787 i art. 787¹ k.p.c., prostuje omyłkę z art. 781¹ k.p.c. i wskazuje zakres egzekucji bez klauzuli na małżonka (art. 776¹ § 1 k.p.c.). Punkt A6 spada jednak do 0 (klasa T, hallucinated = true), ponieważ system przypisał art. 783 § 1 k.p.c. normę nakazującą wpisywanie w klauzuli wykonalności numeru PESEL dłużnika. W rzeczywistości art. 783 § 1 k.p.c. nie wspomina o numerze PESEL, a obowiązek jego zamieszczenia w treści klauzuli wynika z § 2a ust. 1 pkt 1 rozporządzenia Ministra Sprawiedliwości z dnia 5 kwietnia 2012 r. w sprawie określenia brzmienia klauzuli wykonalności, wydanego na podstawie delegacji z art. 783 § 2 k.p.c.. Pozostałe powołania przepisów k.p.c. i k.r.o. oraz obu uchwał Sądu Najwyższego (III CZP 117/10 i III CZP 106/18) są w pełni zgodne ze stanem prawnym, a przydatność i kalibracja odpowiedzi zasługują na maksymalną ocenę (B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 22,
+  "zapytania": [
+   "\"783\" \"PESEL\" \"klauzula wykonalności\" OR OR",
+   "\"891\" \"845\" \"923\" \"małżonka\" OR OR",
+   "\"III CZP 117/10\" OR",
+   "\"III CZP 106/18\" OR",
+   "\"Art. 783.\" \"Postanowienie o nadaniu klauzuli wykonalności\"",
+   "\"Art. 891\" \"Na podstawie tytułu wykonawczego wystawionego przeciwko dłużnikowi pozostającemu w związku małżeńskim\"",
+   "\"Art. 845.\" \"majątku wspólnego\" \"2\" \"klauzuli wykonalności przeciwko małżonkowi\"",
+   "\"Art. 923\" \"majątku wspólnego\" \"nieruchomości\"",
+   "\"Art. 783.\" \"§ 2.\" \"Minister Sprawiedliwości określi, w drodze rozporządzenia, brzmienie klauzuli wykonalności\"",
+   "\"Art. 783.\" \"PESEL\" kpc",
+   "\"Art. 52.\" \"§ 1a.\" \"Ustanowienia przez sąd rozdzielności majątkowej może żądać także wierzyciel\"",
+   "\"Art. 319.\" \"Jeżeli pozwany ponosi odpowiedzialność z określonych przedmiotów majątkowych\"",
+   "\"Art. 783.\" OR OR",
+   "\"783\" \"PESEL\" \"Kodeks postępowania cywilnego\"",
+   "\"numer PESEL\" \"klauzuli wykonalności\" \"k.p.c.\"",
+   "\"783 § 1\" \"PESEL\"",
+   "\"III CZP 117/10\"",
+   "\"III CZP 106/18\"",
+   "\"776\" \"845\" \"891\" \"923\" \"468\" OR OR",
+   "\"236\" \"41\" \"52\" \"rozdzielności\" OR OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuqxi77SWLpqJjjnuEM_sz3oD5n_6kpd0XBdsVbaU4K5GVbrAASFjEwdqQ1QVVEw-l0Qyr3vyUz81FNrgIr0wq7nEijAEAn6fflG7B1-Y9Sgfj6T951DayN2kIiF4djE1S6a7fgDsI1lJOzkU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1CGC-WpRWE0c4xjluGv8UQQWp0pxydqDqkTq9IP2kWNtE8DP0MJbwj8VexLeMFTEH0jIlN2ytqYivD6CoBdedv5nh6-1BXSuDBy8tUf-DGN-h0GtQjAKT40sgEIIpOteMTGiHvVGEisPkVQTSTSBS1BvBdJRF7DfhM1WKZspWzaLDQy6tt68sQv-oWPCLyaz3Nl25DWg4EfEuEQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx24r72e0ylYx8uc7ndkWNyfu_ICXw7CMV1EKHvg4kSlFh-cDZZvMS7nDOY9iMbJOtWTvWjIRM57ZsWcHGfgwxfvk5NloGlBvsiNPjDzU-KT7cdTrwt2uOjAhAfAd9vMDXLrukP5YGCeuFu0QTdMITgXVWpMv7Bfh2B0HnGOkJvOORu2lvhJv8rlITV9QOqPWRcjnvv5RCtC9_64nUzdc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFabU5gU4cReZ-2jIktQxoMYlqzym_DXkTeoCdvm4drtymb9WZkBt7GwHb_Wfttd96tHSz7tc1pcxz_W-Ud7aWSCqpJX0eKh3Ra6f2oVZ-a2TvICxO4BBrFTz7oFvu7NTc_RwH490sqy0O3DWVg5C3ari8WE1T02xgoa6qQ2q-SgG8c8QrsSENenN569jY8mkT25Oo9Ey_Sbu7Dsw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLwfRAYt2F-nFzyVgkyBgyjvzms0xhAEfzz2K2SJTojYIIZBfu8HuliOUKLBIkxFMp488iFcRNIgMLsCIJE2NoxcgARVv1UTUpISeeeTHRuKpMO6ANkugTHu2788H48zezMRJcdl9oTIIy-IbeMkpNS877Z8g=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9v7xI65hMcY23uH2r7UloGHZtkIQMB8h8oYfoiduaocfxvMgid-qnVf5dk8cttNf8hMgOPkDcYOLM9kON26K3V6A_IDDaLNhISJUZMGlLUyMOil75D_zzZfU06bvOSkVp41yLHrC1WYbQAGXCnwK4YBzEOhwyXZD3R_dnGeqM6cvQftiD__Whajz5YFK-Lrvz3Pxz3riM82N50F_bnWTluKgY",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3hqJNoMJ8Wm58Ro3aoZp7XC7hCi5gIVDSofKKWeb9uY6-9--by7uWfBv3jPhfHU-rpD0mivsncEbtUwYmBwB4pd_AYvzUlp2c4PF6xsSUXj0ecz-abuuK6DE4kBqEGKfBjDK1lPDMsckL2kB9LjH2tF0RWHptl6Pf-BMOnX7NoeB0RDf1RhmzlOjao2jMGn74RQvxVEB-f0NpNfZU2OYpd7kuJsexp_LkVEUEm5Uz-LIrEN4v6lK78H_7-_wd7PxRPBxpIRpXgiqoLApMGldvR9mL_PdBj4HLZeyf5iBPubN628IXAmoox8Zbg-D0JUwHv8AFJr5NK-kf-hmoW2TbQDpGytDkXsrf9nGZ8TfhGnjOjor7JwCDdCf-z1ekWZrpe0AgrlsFgF1_PGCV4-Pqw-3RfAjK3ywWSGRRNByD3LpDWDyDPQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIHlr_-wvCuYjQca0RKZpaIq1FdzMh9sKktbAD7Wc232IEIHISRxpMUjxNVbH1sTiM7_R_kDjV3_HFiW_FhOF6ftZbC-ArhrpsHYXtdk1OZg11PI6dnRqSPIX8-HrE0bDqyfTNJimMUukCCpW2JbHTRTwmZkEX477IQon5w83H7wWH-N5MrFRwBjEzI0gQ5xgFP3ar",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2b4Z_-SqsZiJKGJGQYWTfjth2pXSE1OV3nmDsWiCa-Bfar9KiykwxwERK_rB7uW9IrW9wlnGoo3RHTzvZFtOt-csXcbsJQh6ApVk8J-fudGsTZVemNpKHInfqn7IdddwOrbwEL5fhpdy9nsRGXbHdAN3moGUwxUPSBRyjVHP6-OPZA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbbEMg02t8I6BN-3N47xFG7hmicAal7jnb65SC1YSK7nJkMDyS1Gbn3O_JiKu17pPftS50Ug_VEyOVQKRYbuQLcuoG8ln6Z0oySk4hsBE1sAs9n4SRotzmQ9Lh-2WzNWVGrYVK4hYb-3AhNeCfT5sQTrYoV0E--i2OKXpU7ujwXVwJd1emAaM7IhCVWYUMHpjwBYV6GoQNE38R5ed-",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5MT7layq2p58H06OpjKhMBEvgVzy2uvP_0HmcFZSfeR75rgT02gH8apR_2jysDueYZthDoLH6tlq70sSzPqnO5cVKjxotpHYzWCSGm-BVICRZH4Q-iukVKsFfofVcpJyYTf5aVTrx4VQClEHHbedAHVneH5Y=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQVhk5ludHEyHvdWhg6U7rM2zXbT_VCvokDdUiq26EPbxuQbhSWbJrjzjqbQRUDoKPLFa3-tRnc1CbsfJsUSCLOya_2bKyK0WPgJGFM80Nsax0FH1U6yLVPk-M6lHIhJmmAnTUie0nEO2VeV9LemT-qGU0nZ1QxQ1v_sPUzNQ-bQiig2GX-w7CiXiO3q-mNcAY",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrHyGmkWx2bVBlEqP1Y4eTPlTrAIVFfCFiimnCCXx2Xv82EyOMbndEBj6vnpi9g369qp8vXUPhymaYvxUmiKfRXHiL3MvICSeXTo1f5PdpIEu45t1ZlafQiRQedq_f92fpF4C9bFqyHFGTLWjD00sO2-5Z",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuZZsXPF850NwcII7TaNrmaP7o_TXakfp9zf9TbYS9ThBQSOXv5Jjio4HdWvP-ZHGXmaT5c3Y27-ArB9_O-BuY1f-pANoANigLjFNKHTsWU0T1npBjZfbqlDGzBtst6HY85kPRCVolLvwdR4wjKUUlRWlJ7q4kewRz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDZs-y7wEMAYM997ubC3LkBVs-mBQGue5Gd9aF6IOrM9m5-Y5yDsOSqvn9diGXbRKz2GasutfdouPCjOFtWgCSQxjCSabj6qpswM79UUauU0EXgEDJY38txF4NdQsvupQUndyVKEXP6d6tSoyEOK3G8zC_0EekOo39hG6gIeDks7QUdjSMA5ZSIPVdy-TdQsHkkKg2NeOeVy0pnhNXru0oIdKRo0MdUMtEzK5FrSHg418K5iQDj8Q0zTpNRIFc_5Kn05c=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH011GWG0d3BY2u0VmZ78L3rSetRWw1vIPcTk3O1nj8kje6vnFjXwM3HTL_ycZXTRxp85MsAYk0bk6PRPU-HhVYyH0iH0rHCpO0qwQK7squBcZlPAGN8q9iypopXc7kFiolmbrNmh7OxaDA4bd4Z-ExswuPJMt_o6bjK25iofoqC1p0Mvufj439UHmS4YAe3tFlUMgLvyraf6jqaFGRE5qRMHmM1MKS3BMOFQE4",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvz_gmzETYYE0HQZqrD2tNOhN0kyYxqFOZvSqODSIH9corv2DSh3XepOHcuWgk4eQ2SlMqpY3b_DQ_iDea49Vs-HHtqWOEnn_EJi3jv_oRs60d8t_F9QzPjbqW3XdcOyx8bZa2UCV4eEGBe6ofNcP0GlAmM6D18xuJqmk0x3htdng="
+  ],
+  "tokeny": {
+   "wejscie": 14824,
+   "wyjscie": 2785
+  },
+  "czas_s": 289,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

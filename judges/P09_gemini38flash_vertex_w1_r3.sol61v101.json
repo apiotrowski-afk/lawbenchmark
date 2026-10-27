@@ -1,0 +1,97 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych, t.j. Dz.U. 2022 poz. 2509 ze zm.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2022/2509/ogl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 ust. 2 pr.aut. — wymóg wyraźnego wymienienia pól; cytat niedosłowny, oceniony w A3",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ugruntowany pogląd SN, że blankietowe klauzule nie przenoszą praw na żadne konkretne pole",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iv%20cskp%2044-21.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Wyrok SN z 23 września 2004 r., III CK 400/03 — przypisana teza o blankietowych klauzulach",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/i%20csk%20250-16-1.pdf — potwierdzenie powoływania orzeczenia; brak dostępu do jego pełnego tekstu",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "Art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 65 pr.aut. — domniemanie licencji niewyłącznej na pięć lat przy nieskutecznym przeniesieniu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 50 pr.aut., w tym pkt 1 i pkt 3",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 46 w związku z art. 2 pr.aut. — obowiązek uzyskania zgody także na samo tworzenie opracowań",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 16 pr.aut. — niezbywalność praw osobistych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 45 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełna treść wyroku SN z 23 września 2004 r., III CK 400/03, oraz zgodność przypisanej mu tezy; znaleziono oficjalne odwołania, lecz nie uzyskano tekstu źródłowego."
+ ],
+ "uzasadnienie": "Kierunek odpowiedzi jest trafny, ale kategoryczna bezskuteczność pomija możliwość ustalenia pól przez wykładnię umowy, co daje A_R=1 i B2=0. Wbrew twierdzeniu o utrwalonym stanowisku SN wyrok IV CSKP 44/21 dopuszcza dookreślenie pól przez wykładnię, dlatego A6=0. Art. 65 pr.aut. nie ustanawia pięcioletniego okresu licencji, a art. 2 nie wymaga zasadniczo zgody na samo sporządzenie opracowania. Niedosłowny cytat art. 41 ust. 2 obniża wyłącznie A3; brakuje rozróżnienia zlecenia i stosunku pracy oraz liberalnej linii SN. Błędne uwagi poboczne uzasadniają A8=0.5, a myląca wskazówka dotycząca okresu korzystania ogranicza B1 do 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 12,
+  "czas_s": 100,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

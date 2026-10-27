@@ -1,0 +1,70 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 Kodeksu karnego",
+   "zrodlo": "Dz.U. 2024 poz. 17 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 Kodeksu karnego",
+   "zrodlo": "Dz.U. 2024 poz. 17 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź precyzyjnie i wprost wskazuje obowiązujący próg 800 zł oraz wyjaśnia, że wzrost płacy minimalnej nie ma na niego wpływu. Wszystkie powołane jednostki redakcyjne k.w. i k.k. są poprawne i zgodne ze stanem prawnym. W rubryce odpowiedź nie zalicza jedynie elementu R3, gdyż nie podano daty 1.10.2023 ani poprzedniej kwoty 500 zł (wskazano jedynie ogólnie zastąpienie dawnego wskaźnika 1/4 płacy minimalnej stałą kwotą 800 zł). Kalibracja i ramy odpowiedzi są nienaganne.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"1/4 minimalnego wynagrodzenia\" kodeks wykroczen 500 zł",
+   "kradzież 1/4 minimalnego wynagrodzenia 500 zł 800 zł"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11578,
+   "wyjscie": 589
+  },
+  "czas_s": 25,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

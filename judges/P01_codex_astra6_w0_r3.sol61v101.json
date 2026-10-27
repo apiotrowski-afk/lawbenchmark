@@ -1,0 +1,62 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw, Dz.U. 2022 poz. 2600 ze zm.; próg obowiązujący od 1 października 2023 r.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2022/2600/ogl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje pełny rdzeń: 800 zł włącznie, niezależnie od płacy minimalnej, od 1 października 2023 r. Wszystkie powołania są zgodne z urzędowymi tekstami, w tym zmiana progu w art. 4 pkt 5–8 ustawy nowelizującej. Wskazanie art. 124 § 1 k.w. wystarcza do zaliczenia R4. Brak cytatów w cudzysłowie uzasadnia A3 nd, a krótkie wyjaśnienie wyjątku dotyczącego włamania pozostaje w ramach pytania.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 37,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

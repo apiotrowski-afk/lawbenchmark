@@ -1,0 +1,96 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 326 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2²–§ 2⁴ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 25b u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 06.10.2022 r., III CZP 112/22",
+   "zrodlo": "OSNC 2023/4, poz. 35 / sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź precyzyjnie i w pełni wyczerpuje rdzeń pytania już w pierwszym akapicie, potwierdzając dopuszczalność wniosku o sporządzenie uzasadnienia. Przywołano wszystkie wymagane podstawy prawne (art. 357 § 5 oraz § 1 i § 2¹ k.p.c.), a zacytowany fragment przepisu odpowiada dosłownemu brzmieniu ustawy. Spełniono wszystkie elementy rubryki, w tym warunek zaskarżalności, termin tygodniowy z określeniem jego biegu oraz opłatę stałą i wyjątki. Przywołane orzecznictwo (uchwała III CZP 112/22) jest w pełni trafne i poprawnie zidentyfikowane. Kalibracja pewności oraz przydatność praktyczna stoją na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"III CZP 112/22\"",
+   "\"III CZP 112/22\" \"zasadnicze\"",
+   "\"III CZP 112/22\" uchwała SN"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11526,
+   "wyjscie": 810
+  },
+  "czas_s": 22,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 119 § 1 k.w. — próg 800 zł i wymienione kary",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 278 § 1 k.k. — odpowiedzialność za kradzież powyżej progu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 12 k.k. — możliwość sumowania wartości",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Nowelizacja z 7 lipca 2022 r. — wprowadzenie 800 zł od 1 października 2023 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2022/2600/text.html ; https://eli.gov.pl/eli/DU/2022/2600/ogl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 119 § 1 k.w. — historyczne progi 500 zł i 250 zł",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2022/2151/text.html ; https://eli.gov.pl/api/acts/DU/2013/482/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 2 k.w. — stosowanie poprzedniego brzmienia, chyba że nowe jest względniejsze",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 124 k.w. jako przepis dotyczący mienia, bez potwierdzenia wysokości progu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje pełny rdzeń: 800 zł, brak powiązania z płacą minimalną i datę zmiany; nie zalicza R4, ponieważ nie potwierdza wspólnego progu dla innych wykroczeń. Art. 2 § 1 k.w. ustanawia stosowanie ustawy nowej z wyjątkiem względniejszej ustawy poprzedniej, a odpowiedź odwraca tę regułę, co daje A6=0 i ogranicza B1 do 1. Jest to błąd poboczny; jego pochodzenie pozostaje nieustalone wobec braku śladu otwarcia tego przepisu przez oceniany system. A8=0 wynika z ujawnienia technicznego toku pracy dotyczącego poleceń znalezionych w wynikach wyszukiwania i zasad sesji. Brak cytatów dosłownych oznacza A3=nd, a wyraźna konkluzja uzasadnia B2=1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 14,
+  "czas_s": 70,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

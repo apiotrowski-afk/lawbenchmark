@@ -1,0 +1,114 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ pkt 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1¹ K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 27 listopada 2020 r., sygn. akt III CZP 13/20",
+   "zrodlo": "sn.pl / SAOS (postanowienie SN z 18.02.2021 r., III CZP 13/20; por. uchwała SN z 27.11.2020 r., III CZP 12/20)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "postanowienie SN z dnia 25 lutego 2021 r., sygn. akt III CZ 6/21",
+   "zrodlo": "sn.pl / SAOS (postanowienie SN z 28.04.2021 r., III CZ 6/21)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 373 § 1 w zw. z art. 397 § 3 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 365 § 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 89 ustawy o Sądzie Najwyższym",
+   "zrodlo": "Dz.U. 2024 poz. 622 (t.j. ustawy o Sądzie Najwyższym)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia wyłącznie w jedną gałąź pytania warunkowego (niedopuszczalność zażalenia przy odrzuceniu przez SA zażalenia dewolutywnego), całkowicie pomijając art. 394² § 1² zd. 2 k.p.c. i wprost negując istnienie zażalenia poziomego na odrzucenie zażalenia (A_R=1, A2=0, K[1]=1, B1=0, B2=0). W A6 przyznano 0 (klasa T) z uwagi na cztery halucynacje: przypisanie art. 394² § 1¹ pkt 1 k.p.c. normy o odrzuceniu apelacji (ujętej w § 1, podczas gdy § 1¹ pkt 1 dotyczy zwolnienia od kosztów i pełnomocnika z urzędu) oraz przypisanie art. 394¹ § 1¹ k.p.c. uchylonej w 2019 r. normy z dawnego § 2 (podczas gdy § 1¹ dotyczy wyroku kasatoryjnego). Ponadto oba powołane orzeczenia SN (III CZP 13/20 i III CZ 6/21) mają inne daty wydania i dotyczą zupełnie innych kwestii (odpowiednio egzekucji ze spółdzielczego prawa do lokalu oraz zniesienia współwłasności nieruchomości), a nie zaskarżalności postanowienia SA o odrzuceniu zażalenia. Ostatnia sekcja o błędzie księgowym sądu, piśmie sygnalizacyjnym i skardze nadzwyczajnej wykracza poza ramy pytania, co obniża A8 do 0.5.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"394^2\" \"odrzucenie apelacji\" kpc isap OR eli.gov.pl OR sejm.gov.pl",
+   "\"394^1\" \"skargę kasacyjną\" kpc isap OR eli.gov.pl OR sejm.gov.pl",
+   "\"III CZP 13/20\" sn.pl OR saos.org.pl",
+   "\"III CZ 6/21\" sn.pl OR saos.org.pl",
+   "\"Zażalenie do Sądu Najwyższego przysługuje na postanowienie sądu drugiej instancji\" \"394\" kpc",
+   "\"Zażalenie do innego składu sądu drugiej instancji przysługuje także na postanowienia tego sądu, których przedmiotem jest\"",
+   "\"III CZP 13/20\" \"27 listopada 2020\" OR \"18 lutego 2021\"",
+   "\"III CZ 6/21\" \"25 lutego 2021\" OR \"postanowienie\"",
+   "\"27 listopada 2020\" \"III CZP\" sn.pl OR saos.org.pl",
+   "\"25 lutego 2021\" \"III CZ\" sn.pl OR saos.org.pl",
+   "\"373\" \"397\" \"365\" kpc eli.gov.pl OR isap.sejm.gov.pl",
+   "\"Art. 89\" \"skarga nadzwyczajna\" \"o Sądzie Najwyższym\" eli.gov.pl OR isap.sejm.gov.pl",
+   "\"Art. 365.\" \"Orzeczenie prawomocne wiąże\" kpc eli.gov.pl OR isap.sejm.gov.pl",
+   "\"Art. 397.\" \"Do postępowania toczącego się na skutek zażalenia\" kpc",
+   "\"III CZ 6/21\" \"28 kwietnia 2021\" sn.pl OR saos.org.pl",
+   "\"III CZP 13/20\" \"18 lutego 2021\" sn.pl OR saos.org.pl",
+   "\"25 lutego 2021\" \"III CZ\" \"Postanowienie SN z dnia 25 lutego 2021\"",
+   "\"III CZ 6/21\" \"28 kwietnia 2021\" \"zniesienie współwłasności\"",
+   "\"Art. 89.\" \"Skargę nadzwyczajną może wnieść Prokurator Generalny, Rzecznik Praw Obywatelskich\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11374,
+   "wyjscie": 1877
+  },
+  "czas_s": 298,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 4 pkt 5 ustawy z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny",
+   "zrodlo": "Dz.U. 2022 poz. 2600 (zm. Dz.U. 2023 poz. 403)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "nowelizacja z 2018 r. (ustawa z 4 października 2018 r. o zmianie ustawy – Kodeks wykroczeń oraz niektórych innych ustaw)",
+   "zrodlo": "Dz.U. 2018 poz. 2077 (art. 1 pkt 7)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 1997 nr 88 poz. 553 ze zm. (k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 24 § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Wyrok SN V KK 137/24 (w stopce Sources)",
+   "zrodlo": "sn.pl / SAOS",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Wyrok SN V KK 137/24 (podany wyłącznie jako link PDF w sekcji Sources bez przypisanej tezy w treści odpowiedzi; plik nieindeksowany w wyszukiwarce)"
+ ],
+ "uzasadnienie": "Odpowiedź trafnie i kategorycznie podaje próg 800 zł z art. 119 § 1 k.w., wyjaśnia brak wpływu płacy minimalnej oraz prawidłowo wskazuje historię zmian progu (A-R=2, A2=1, R=[1,1,1,0]). Nie powołuje jednak pozostałych wykroczeń przeciwko mieniu objętych tym samym progiem (art. 120 § 1, 122 § 1, 124 § 1 k.w.), przez co traci czwarty punkt rubryki (R4=0). Punktacja A6 spada do 0 (klasa T, zakres: poboczne, pochodzenie: pamięć), ponieważ w uwadze o karze maksymalną grzywnę 5000 zł przypisano art. 24 § 2 k.w., który reguluje orzekanie grzywny obok aresztu za czyn popełniony w celu osiągnięcia korzyści majątkowej, podczas gdy górną granicę grzywny określa art. 24 § 1 k.w. Zgodnie z regułą o zakazie podwójnej kary w bloku B oraz regułą A8 dla uwag pobocznych, błąd ten nie obniża A8 (1) ani B1 (2).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 60,
+  "zapytania": [
+   "\"art. 24\" \"5000\" kodeks wykroczeń eli.gov.pl OR isap.sejm.gov.pl",
+   "\"art. 24\" kodeks wykroczeń \"Grzywnę wymierza się w wysokości\"",
+   "\"V KK 137/24\" sn.pl OR saos.org.pl",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 4\" isap.sejm.gov.pl OR eli.gov.pl",
+   "\"V KK 137-24\" OR \"V KK 137/24\" sn.pl",
+   "\"art. 278\" \"§ 1\" kodeks karny eli.gov.pl OR isap.sejm.gov.pl",
+   "\"W ustawie z dnia 20 maja 1971\" \"119\" \"800\" eli.gov.pl OR isap.sejm.gov.pl",
+   "\"500 złotych\" \"119\" kodeks wykroczeń \"2018\" eli.gov.pl OR isap.sejm.gov.pl",
+   "\"V KK 137/24\" OR \"V KK 137-24\"",
+   "\"art. 4\" \"pkt 5\" \"800 złotych\" \"2600\" 2022",
+   "\"500 złotych\" \"1/4 minimalnego wynagrodzenia\" \"2018\" \"119\" kodeks wykroczeń",
+   "\"Art. 19\" \"aresztu\" \"30\" kodeks wykroczeń eli.gov.pl OR isap.sejm.gov.pl",
+   "\"V KK 137/24\"",
+   "\"137/24\" \"800\" \"119\" sn.pl OR saos.org.pl",
+   "\"V KK 137\"",
+   "\"V KK 137-24.pdf\"",
+   "\"544,97\" OR \"544, 97\" sn.pl OR brpo.gov.pl",
+   "\"Orzeczenia3/V KK 137-24.pdf\" OR \"V KK 137-24\"",
+   "\"V KK\" \"137/24\"",
+   "\"130\" kodeks wykroczeń \"gwałtu\" \"broń\" eli.gov.pl OR isap.sejm.gov.pl"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEosORvZJqrEwi44hRr4ng6BLRwbAQHfXcfg98mqqmmFDH1HrFDfzwpSyjq8QyaBVuTMZ3vb0XY6_Cg1R1UqmVZWgNB0dbs-N5fGOgkq-z1y-7DNPNWFOp9X0BseoFZIGbKUQP8KiKR_sL1kXuSpzTU3zYEF4lF_sNGzDxgMm8YQjH5MPCnCruVck-aAUY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE158tkE70yc7M_qaLHeBAwowawRxoWU5sTyu73SN9tw8gCOke5p_gYCNFEheh0taaco-sBfLD6In7lLkkKM_SD-xf_mDqQ4qRL4zquKRixL_sUe0OwVCh55lQ1gxgm9ZrYjZW_lAGwsGu1ynGVq3tyTmN20k2vAWauJxcGEFp_g4Cm53X42emTqIoHhfIheeI4T5nKmuBz8TgcO941mREYcQ5YzTk5IstJuBr9DpiMVlUQ8E-zHb1fLRtM91BXvJ0-kffIGRf3fLfK8eyDZIoFIi4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF175Z2oic2NYTTSK9HengTEU-eE3vV1vAmkckqMlvypaRyu7effdiSV0Mn-Tc5Eu6lx7JyJXICDvQyefpXy38p4hlGGHkFluUWEct9B57IwLAW8L9AhS4FHwcfBLcxyTaJ1fPM9nk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf6A6ujmfBew6zWkwUEzkgd42-jApo0YxaoBRJ98xtL8MaSXeUa57L9xcq-b3NiVC7-R6NQRHCtSbMYiaCGSi7yur30nl9DdQDibXB6iE7peXeXft6MWYlZYr5ATdTtfnU5QR1kY8NalvyLEbIVy_OmycBI6naUdxYs9RfFw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU-_l4HnlB_xC9T6vMt2KDKf9c0JZli_y2x7-Z16Odpj7I8DRPtI_zqp3_tjP2Cpvb-sq-EpRtuUh9GV0C9IO7YbdvKm_G1hg2vFOEWVZQNaga4j7CzutIcwQVajVgWM46pDKsn3jUPjsKuFGWxr4FyUut0STiboDthzJNQYv1CftOQm__SGjf4vXFQwOZg6mADQnUtGi1zDI1a_JdntZXeS6otkUUrfeR5pmIrLuOcTBPmJSd9qqSD1de1iSRQ6E34_tye93zKtWJxU1ToVY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFYxIL1JQaZ0KMku5u8gQr6SSGY7cH_VGREVjTyUHO18zBINSqBjHd0rRBDpPRG53XmzJ2peK4Bg6b05NJcak9GZ_Qm1DOu78vLXjJaQb4ONH4kJMEIVAXcJILo-byPwh2q-FuQLH6R8DhxC4="
+  ],
+  "tokeny": {
+   "wejscie": 13764,
+   "wyjscie": 2963
+  },
+  "czas_s": 283,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

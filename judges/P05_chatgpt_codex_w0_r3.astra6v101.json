@@ -1,0 +1,57 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131 i nast. k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=30",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=29",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź pomija rdzeń: możliwość wyboru doręczeń portalowych przez samą stronę od 1 czerwca 2026 r., sposób złożenia oświadczenia oraz rezygnację. Nie przedstawia wszystkich wymaganych podstaw, ale poprawnie opisuje moment doręczenia i regułę 14 dni. A6 pozostaje równe 1, ponieważ powołanym przepisom nie przypisano fałszywej treści: opis zwykłych doręczeń zawiera zastrzeżenie „co do zasady”, a pominięcie dodatkowej kategorii odbiorców jest pominięciem, nie zaprzeczeniem. Nie naliczam kar, ponieważ system nie twierdzi, że doręczenie portalowe osobie bez pełnomocnika jest niemożliwe, ani nie stosuje awiza do portalu. Odpowiedź pozostaje w ramach pytania i stawia tezy wprost, lecz brak instrukcji wyboru doręczeń ogranicza jej przydatność.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 55,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

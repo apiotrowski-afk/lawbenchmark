@@ -1,0 +1,289 @@
+{
+ "meta": {
+  "pytanie": "P10",
+  "system": "haiku_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P10/haiku_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-23T17:27:03",
+  "czas_s": 0.1,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 7,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 0,
+  "flagi": {
+   "nie_znaleziono": 1,
+   "nie_znaleziono_akt_domniemany": 1
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 41 PrAut",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "wprost"
+   },
+   "kontekst": "- Art. 41 PrAut (ustawa o prawie autorskim i prawach pokrewnych): przeniesienie autorskich praw majątkowych dotyczy pól eksploatacji wskazanych w umowie.",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 41 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 2024-12-06 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 1c2e9a082a66fad6…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdftotext 24.02.0) — zaliczona; względem starszego t.j.: różne od t.j. DU/2022/2509 (HTML); odnośnik przy jednostce: W brzmieniu ustalonym przez art. 1 pkt 13 ustawy, o której mowa w odnośniku 2.)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 41. 1. Jeżeli ustawa nie stanowi inaczej: 1) autorskie prawa majątkowe mogą przejść na inne osoby w drodze dziedziczenia lub na podstawie umowy; 2) nabywca autorskich praw majątkowych może przenieść je na inne osoby, chyba że umowa stanowi inaczej. 2. Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione. 3. Nieważna jest umowa w części dotyczącej wszystkich utworów lub wszystkich utworów określonego rodzaju tego samego twórcy mających powstać w przyszłości. 4. Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia. 5. Twórca utworu wykorzystanego lub włączonego do utworu audiowizualnego oraz utwor…"
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28",
+    "fragment_wczesniejszy": "Art. 41. 1. Jeżeli ustawa nie stanowi inaczej: 1) autorskie prawa majątkowe mogą przejść na inne osoby w drodze dziedziczenia lub na podstawie umowy; 2) nabywca autorskich praw majątkowych może przenieść je na inne osoby, chyba że umowa stanowi inaczej. 2. Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu, zwana dalej „licencją”, obejmuje pola eksploatacji wyraźnie w niej wymienione. 3. Nieważna jest umowa w części dotyczącej wszystkich utworów lub wszystkich utworów określonego rodzaju tego samego twórcy mających powstać w przyszłości. 4. Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia. 5. Twórca utworu wykorzystanego lub wł…"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "fragment": "Art. 41. 1. Jeżeli ustawa nie stanowi inaczej: 1) autorskie prawa majątkowe mogą przejść na inne osoby w drodze dziedziczenia lub na podstawie umowy; 2) nabywca autorskich praw majątkowych może przenieść je na inne osoby, chyba że umowa stanowi inaczej. 2. Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu, zwana dalej „licencją”, obejmuje pola eksploatacji wyraźnie w niej wymienione. 3. Nieważna jest umowa w części dotyczącej wszystkich utworów lub wszystkich utworów określonego rodzaju tego samego twórcy mających powstać w przyszłości. 4. Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia. 5. Twórca utworu wykorzystanego lub wł…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.44
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 53 ust. 1 PrAut",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "wprost"
+   },
+   "kontekst": "- Art. 53 ust. 1 PrAut: umowa o przeniesienie majątkowych praw autorskich wymaga formy pisemnej pod rygorem nieważności.",
+   "cytat": null,
+   "flagi": [
+    "nie_znaleziono"
+   ],
+   "cytowanie_legal_cite": "art. 53 ust. 1 PrAut",
+   "weryfikacja": {
+    "status": "nie istnieje",
+    "komunikat": "art. 53 ust. 1 nie znaleziony w Prawo autorskie i prawa pokrewne (Dz.U. 2025 poz. 24). Sprawdź numer ustępu."
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 65 PrAut",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "wprost"
+   },
+   "kontekst": "- Art. 65 PrAut: w razie wątpliwości umowy interpretuje się w sposób korzystny dla twórcy, czyli zawężająco.",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 65 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2022/2509; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 24 z 2024-12-06, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 65. W braku wyraźnego postanowienia o przeniesieniu prawa, uważa się, że twórca udzielił licencji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.14
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 16 PrAut",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "wprost"
+   },
+   "kontekst": "- Art. 16 PrAut: prawa osobiste (autorstwo, nienaruszalność utworu) są nieprzenoszalne, więc klauzule typu „zrzeczenie się praw osobistych” mają ograniczoną skuteczność.",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 16 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2022/2509; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 24 z 2024-12-06, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 16. Jeżeli ustawa nie stanowi inaczej, autorskie prawa osobiste chronią nieograniczoną w czasie i niepodlegającą zrzeczeniu się lub zbyciu więź twórcy z utworem, a w szczególności prawo do: 1) autorstwa utworu; 2) oznaczenia utworu swoim nazwiskiem lub pseudonimem albo do udostępniania go anonimowo; 3) nienaruszalności treści i formy utworu oraz jego rzetelnego wykorzystania; 4) decydowania o pierwszym udostępnieniu utworu publiczności; 5) nadzoru nad sposobem korzystania z utworu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.56
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 16 PrAut.",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "wprost"
+   },
+   "kontekst": "5. Zapis o autorstwie i nienaruszalności, zgodny z art. 16 PrAut.",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 16 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2022/2509; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 24 z 2024-12-06, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 16. Jeżeli ustawa nie stanowi inaczej, autorskie prawa osobiste chronią nieograniczoną w czasie i niepodlegającą zrzeczeniu się lub zbyciu więź twórcy z utworem, a w szczególności prawo do: 1) autorstwa utworu; 2) oznaczenia utworu swoim nazwiskiem lub pseudonimem albo do udostępniania go anonimowo; 3) nienaruszalności treści i formy utworu oraz jego rzetelnego wykorzystania; 4) decydowania o pierwszym udostępnieniu utworu publiczności; 5) nadzoru nad sposobem korzystania z utworu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 734 KC",
+   "akt": {
+    "nazwa": "Kodeks cywilny",
+    "kod_legal_cite": "KC",
+    "ustalenie": "wprost"
+   },
+   "kontekst": "- Umowa zlecenia (art. 734 KC) nie gwarantuje rezultatu, więc sama w sobie nie przenosi praw do utworu.",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 734 KC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1061; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 795 z 2026-05-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2026-05-27) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 507 (01.11.2028)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 795 z 27.05.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (27.05.2026) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 734. § 1. Przez umowę zlecenia przyjmujący zlecenie zobowiązuje się do dokonania określonej czynności prawnej dla dającego zlecenie. § 2. W braku odmiennej umowy zlecenie obejmuje umocowanie do wykonania czynności w imieniu dającego zlecenie. Przepis ten nie uchybia przepisom o formie pełnomocnictwa."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1061 (HTML, 2024-06-21)",
+    "tj": "DU/2024/1061",
+    "data": "2024-06-21"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.2
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 627",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "kontekst": "Jeśli strony chcą rezultatu, rozważ umowę o dzieło (art. 627 i nast.",
+   "cytat": null,
+   "flagi": [
+    "nie_znaleziono_akt_domniemany"
+   ],
+   "cytowanie_legal_cite": "art. 627 PrAut",
+   "weryfikacja": {
+    "status": "nie istnieje",
+    "komunikat": "art. 627 nie znaleziony w Prawo autorskie i prawa pokrewne (Dz.U. 2025 poz. 24). Sprawdź numer artykułu."
+   },
+   "wersje": "wersje wcześniejsze: nieobsługiwane",
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": []
+}

@@ -1,0 +1,49 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 i nast. k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Art. 357 § 5 zdanie drugie nakazuje odróżniać zasadnicze powody rozstrzygnięcia od uzasadnienia, więc przypisanie im funkcji skróconego uzasadnienia wyłączającego wniosek stanowi T i uzasadnia pierwszą karę; pochodzenie błędu jest nieustalone wobec braku śladu narzędzi ocenianego systemu. Odpowiedź odwraca rdzeń, nie wskazuje wymaganej podstawy z § 1 albo § 2¹ ani warunku zaskarżalności, terminu wniosku, opłaty lub wyjątków. Ogólne odesłanie do art. 394 i następnych w zakresie terminu i wymogów zażalenia jest zgodne ze źródłem. Akapit dotyczący wyłącznie nieformalnego podania motywów wprowadza wariant sprzeczny z założeniem pytania, co obniża A8 do 0.5. B1 wynosi 0 ze względu na zalecenie zaniechania właściwej czynności, natomiast B2 wynosi 1, ponieważ odpowiedź stawia kategoryczną tezę zgodnie z oczekiwanym poziomem pewności.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 52,
+  "data": "2026-10-15",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

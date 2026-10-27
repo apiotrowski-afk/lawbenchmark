@@ -1,0 +1,110 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 77³ k.c.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 243¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 30 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 47 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 840 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo identyfikuje brak trybu 'bez ograniczeń' i wyjaśnia różnicę między art. 787 a 787¹ k.p.c. w zależności od zgody małżonka. Prawidłowo prostuje numer przepisu z pytania (781¹ na 787¹). Nie wskazuje jednak wprost, co dzieje się w przypadku braku zgody i braku związku z przedsiębiorstwem (egzekucja z majątku osobistego dłużnika), przez co traci ostatni element rubryki. Wszystkie powołania przepisów są poprawne i zgodne z ich literalnym brzmieniem. Kalibracja warunkowa została zachowana poprzez wskazanie dwóch ścieżek w zależności od istnienia dokumentu potwierdzającego zgodę.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Jeżeli wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa\" \"art. 41\" k.r.o.",
+   "\"art. 41\" \"Kodeks rodzinny i opiekuńczy\" lex",
+   "\"art. 77^3\" k.c.",
+   "\"art. 243^1\" k.p.c."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYrFQuYh8zrnUGBEzgAvHQK35yL0b8rwujUVbAMfsOpeNXUYpP0ZJfdfL5k9XsRV32uahaN3L0KLHBY9k0RjO8MBHxfNgDsiRYT0cIBHQI7P7B2T55fzjOyEuRdCuyT1YAdjS51KTNWIk9_EFt4i1_t9_ujokFrLeXLmCDgzDAVl0XHjZj5BvVngMvVCyOCAJD6yHuKLtN",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU6DcZiBN7HJ8TMKgUOSFGNk6bi3-MzO2-7EjnOc3TTm30SrOSTtfjBcbD7gYQGB75vre05GLjqbvW4gjr3nUypMTMac_v-kI0vRAmNcBwgxa44Ju6IXUecUIFzH5XH6Cw8A5tEqU-uZ9sJc503E8tl8iD8e0pONjk_KMOSp9hj2Jif690qENMbUDGhUp1t9OvptOB-mN4sXewZub-"
+  ],
+  "tokeny": {
+   "wejscie": 11352,
+   "wyjscie": 842
+  },
+  "czas_s": 190,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

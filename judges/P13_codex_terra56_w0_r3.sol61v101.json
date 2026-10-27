@@ -1,0 +1,60 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c. oraz art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c. — wstrzymanie wykonania obejmuje również użycie nakazu jako tytułu zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c. w zw. z art. 776 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: wstrzymanie wykonania z art. 492 § 3 nie odbiera nakazowi funkcji tytułu zabezpieczenia wynikającej z § 1. Przypisanie § 3 skutku blokującego zabezpieczenie stanowi T, powoduje A6=0 i pierwszą karę. Obie wymagane podstawy zostały wskazane, lecz nie zaliczono żadnego pełnego elementu rubryki; brak dosłownych cytatów oznacza A3=nd. Opis art. 743 § 1 w związku z art. 776 pomija warunek wykonania zabezpieczenia drogą egzekucji, co jest pominięciem, a nie dodatkową halucynacją. Odpowiedź pozostaje w ramach pytania i stawia tezę wprost, dlatego A8=1 i B2=1, ale błędna wskazówka dotycząca możliwości zabezpieczenia uzasadnia B1=0.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 16,
+  "czas_s": 94,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

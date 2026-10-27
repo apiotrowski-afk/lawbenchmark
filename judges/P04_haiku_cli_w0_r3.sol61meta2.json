@@ -1,0 +1,65 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców — zezwolenie i właściwość ministra",
+   "zrodlo": "[Tekst urzędowy, art. 1 ust. 1](https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html): przepis przewiduje zezwolenie wydawane decyzją administracyjną przez ministra właściwego do spraw wewnętrznych.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a.",
+   "zrodlo": "[Dz.U. 2025 poz. 1691](https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf), s. 5: aktualna definicja obejmuje również brak wniosku o ponowne rozpatrzenie sprawy; odpowiedź stosuje dawną definicję ograniczoną do odwołania.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. — ostateczność decyzji ministra z chwilą doręczenia",
+   "zrodlo": "[Dz.U. 2025 poz. 1691](https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf), s. 29: „strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy”. Brak odwołania nie oznacza automatycznej ostateczności przy doręczeniu.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 61 § 3 p.p.s.a.",
+   "zrodlo": "[Dz.U. 2026 poz. 143](https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf), s. 17: „sąd może na wniosek skarżącego wydać postanowienie o wstrzymaniu wykonania”. Zasada niewstrzymywania wykonania przez wniesienie skargi znajduje się w § 1.",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wyklucza prawomocność decyzji administracyjnej, dlatego otrzymuje A_R = 0, R3 = 0 i karę K3; przeczy temu art. 16 § 3 k.p.a. Trafnie wskazuje decyzję ministra oraz zaświadczenie organu, lecz pomija wymagane podstawy i mechanizm prawomocności. Przyjęto W z raportu dla art. 16 § 1 oraz T dla art. 61 § 3, a dodatkowo błędny skutek przypisany art. 127 § 3 uzasadnia T. A8 obniżają błędna uwaga poboczna o klauzuli wykonalności i powtórzone zastrzeżenie dotyczące weryfikacji źródeł. B1 = 1 za wskazanie właściwego organu i rodzaju dokumentu przy błędnej wskazówce dotyczącej jego treści oraz momentu ostateczności; kategoryczna konkluzja uzasadnia B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61meta2",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 55,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 3, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 16 § 1 KPA [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2011-10-01, fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Decyzja staje się ostateczna, gdy nie służy od niej odwołanie, w tym gdy strona zrzekła się odwołania albo gdy została wydana przez organ naczelny lub ministra bez możliwości odwołania.”\n    · uzasadnienie weryfikatora: Twierdzenie definiuje decyzje ostateczne jako te, od których nie służy odwołanie (co pozwala zaliczyć do nich od razu decyzje ministra bez możliwości odwołania), pomijając wniosek o ponowne rozpatrzenie sprawy. Definicja ta pokrywa się z dawnym brzmieniem art. 16 § 1 KPA (sprzed dodania wniosku o p…\n    · kotwica (verbatim ze źródła): „Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne.”\n    · brzmienie jednostki (fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych.”\n- 2. art. 127 § 3 KPA [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Od decyzji ministra (organu naczelnego) w pierwszej instancji zwykle nie przysługuje odwołanie, co skutkuje jej ostatecznością z chwilą doręczenia.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że od decyzji wydanej w pierwszej instancji przez ministra nie służy odwołanie. Pominięcie informacji o możliwości złożenia wniosku o ponowne rozpatrzenie sprawy stanowi pominięcie elementu przepisu, a błędny wniosek o ostateczności wynika z nałożenia dawnej definicji z art.…\n    · kotwica (verbatim ze źródła): „Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie”\n    · brzmienie jednostki (fragment): „§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji.”\n- 3. art. 61 § 3 PPSA [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Skarga do WSA nie wstrzymuje wykonania decyzji.”\n    · uzasadnienie weryfikatora: Wskazana jednostka (art. 61 § 3 PPSA) reguluje przesłanki wstrzymania wykonania aktu przez sąd na wniosek skarżącego, natomiast sama zasada, że wniesienie skargi nie wstrzymuje wykonania aktu, znajduje się w innej jednostce redakcyjnej (art. 61 § 1 PPSA), do której § 3 jedynie odsyła.\n    · brzmienie jednostki (fragment): „§ 3. Po przekazaniu sądowi skargi sąd może na wniosek skarżącego wydać postanowienie o wstrzymaniu wykonania w całości lub w części aktu lub czynności, o których mowa w § 1, jeżeli zachodzi niebezpieczeństwo wyrządzenia znacznej szkody lub spowodowania trudnych do odwrócenia skutków, z wyjątkiem przepisów prawa miejscowego, które weszły w życie, chyba że ustawa szczególna wyłącza wstrzymanie ich wykonania. Odmowa wstrzymania wykonania aktu lub czynności przez organ nie pozbawia skarżącego złożenia wniosku do sądu. Dotyczy to także aktów wydanych lub podjętych we wszystkich postępowaniach prow…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

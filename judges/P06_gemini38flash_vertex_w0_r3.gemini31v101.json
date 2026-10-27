@@ -1,0 +1,109 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ pkt 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1¹ K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 27 listopada 2020 r., sygn. akt III CZP 13/20",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "postanowienie SN z dnia 25 lutego 2021 r., sygn. akt III CZ 6/21",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 373 § 1 w zw. z art. 397 § 3 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 365 § 1 K.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 89 ustawy o Sądzie Najwyższym",
+   "zrodlo": "Dz.U. 2024 poz. 622",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System nie dostrzega rozróżnienia na zażalenie poziome i dewolutywne, kategorycznie odmawiając prawa do zażalenia w każdym przypadku (A-R=1 za trafność dla jednej gałęzi, K naliczona, B2=0). Całkowicie pomija art. 394² § 1² k.p.c., twierdząc, że ustawodawca nie przewidział takiego środka. Dopuszcza się halucynacji (A6=0, T), przypisując odrzucenie apelacji do art. 394² § 1¹ pkt 1 k.p.c. (zamiast § 1) oraz powołując orzeczenia SN (III CZP 13/20, III CZ 6/21), które dotyczą innych kwestii. Błędna porada grozi utratą terminu na wniesienie zażalenia poziomego (B1=0).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"art. 394\" \"§ 1\" \"odrzuceniu apelacji\"",
+   "\"art. 394\" \"§ 1\" \"odmowa zwolnienia od kosztów\"",
+   "\"III CZP 13/20\"",
+   "\"III CZ 6/21\"",
+   "\"art. 373\" \"k.p.c.\"",
+   "\"art. 89\" \"ustawy o Sądzie Najwyższym\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0CikrFJ37HXF5G8m3cQrLLXKCPU-Rs6nVb8IlMJBZa0J5Lq54hjob6zchbO-0-3cjd68raG4VYEbcpl3NREYXdrEi_Fun8NswKtdrCQ4ky8rOT8gZFnfmMBwgE7-PWFdLXSymLHJFoIOcd-_f37Lm_EuM4gc9KylQTTXqHO0PzyZmQwwWyN8Tt0QpfWTsn4qg52bvOg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQMY4mJEqJPxvPo-WS1NbZQQm-HGpVVljdNX-N3e_pN8CFFd2HC92NikswLiAb0RsWteJOYh7wcPi3HCiDnfw_sgudhUPB7cw5sIIOXqpXyXCJIR17Q4ACKfcM0ILHzVXm8lbVVJ0jRzJfDzQ2wrcXiEim26o="
+  ],
+  "tokeny": {
+   "wejscie": 11516,
+   "wyjscie": 1069
+  },
+  "czas_s": 230,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 3a ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (jako przepis regulujący promesę)",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a i art. 127a § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 1 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 § 3 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ust. 2 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę rozstrzygnięcia na decyzję administracyjną MSWiA oraz wyjaśnia mechanizm uzyskania ostateczności i prawomocności (w tym skargę do WSA w 30 dni bez wniosku o ponowne rozpatrzenie), lecz ujmuje rozstrzygnięcie jako „zasadniczo ostateczność, a w praktyce także prawomocność”, co zgodnie z regułami klucza daje A-R = 1 i R[2] = 0 (brak wskazania, że organ zaświadcza prawomocność). Ponieważ odpowiedź nie wyklucza prawomocności ani nie ogranicza potwierdzenia wyłącznie do ostateczności, kara K[2] nie zostaje naliczona. Kryterium A6 wynosi 0 (typ T, hallucinated = true), gdyż system przypisał regulację promesy przepisowi art. 3a u.n.n.c., który dotyczy miesięcznego terminu na wydanie decyzji dla nieruchomości w specjalnej strefie ekonomicznej, podczas gdy promesę reguluje art. 3d tej ustawy. Punkt A2 wynosi 0 z uwagi na brak powołania pełnej jednostki wymaganej w kluczu (art. 217 § 2 pkt 2 k.p.a. — wskazano tylko ogólnie art. 217 k.p.a.) oraz powołanie błędnego art. 3a u.n.n.c.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"art. 3a\" \"promesy\" \"nabywaniu nieruchomości przez cudzoziemców\" OR",
+   "\"art. 6\" \"art. 8\" \"nabywaniu nieruchomości przez cudzoziemców\" OR",
+   "\"art. 127a\" \"art. 127\" \"Kodeks postępowania administracyjnego\" OR",
+   "\"W20170002278\" OR \"DU/2017/2278\" OR",
+   "\"Art. 3a.\" \"Art. 3d.\" \"o nabywaniu nieruchomości przez cudzoziemców\"",
+   "\"Art. 8.\" \"samodzielnego lokalu mieszkalnego\" \"o nabywaniu nieruchomości przez cudzoziemców\"",
+   "\"Art. 127a.\" \"zrzeczeniu się prawa do wniesienia odwołania\" \"Kodeks postępowania administracyjnego\"",
+   "\"Decyzję w sprawie zezwolenia na nabycie nieruchomości położonej na terenie specjalnej strefy ekonomicznej\" OR",
+   "\"Nabycie nieruchomości przez cudzoziemca wbrew przepisom ustawy jest nieważne\" OR",
+   "\"Nie wymaga uzyskania zezwolenia, z zastrzeżeniem ust. 3\" OR",
+   "\"Przed upływem terminu do wniesienia odwołania strona może zrzec się prawa\" OR",
+   "\"Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze\"",
+   "\"Art. 217.\" \"Zaświadczenie wydaje się\" \"Kodeks postępowania administracyjnego\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15213,
+   "wyjscie": 1770
+  },
+  "czas_s": 158,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

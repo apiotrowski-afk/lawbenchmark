@@ -1,0 +1,71 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/i%20csk%20596-17-1.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie udało się otworzyć pełnego uzasadnienia I CSK 596/17 w źródle oficjalnym; wynik wyszukiwania SN potwierdza sygnaturę i datę, a uzasadnienie IV CSKP 44/21 pośrednio potwierdza przypisaną tezę.",
+  "K2: nie dostarczono odpowiedzi tego samego systemu na P09, więc nie można sprawdzić spójności; kary nie naliczono."
+ ],
+ "uzasadnienie": "Odpowiedź wprost odrzuca błędną przesłankę, podaje wymagane podstawy, przykłady pól oraz formę pisemną pod rygorem nieważności. Uwzględnia możliwość ustalenia zakresu praw przez wykładnię umowy, co uzasadnia pełny rdzeń i B2 = 1. R5 = 0, ponieważ pomija regułę in favorem auctoris; samo pominięcie nie obniża A6. Nie zawiera cytatów przepisów w rozumieniu klucza ani dygresji. Nie stwierdzono niezgodnego powołania, z zastrzeżeniem niepełnej weryfikacji uzasadnienia SN.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 20,
+  "czas_s": 82,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

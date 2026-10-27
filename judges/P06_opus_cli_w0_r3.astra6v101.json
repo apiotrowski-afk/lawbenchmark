@@ -1,0 +1,140 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c. — zażalenie na odrzucenie zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=74",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Nowelizacja z 4 lipca 2019 r., Dz.U. 2019 poz. 1469 — przypisane brzmienie art. 394² § 1¹",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2019/1469/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 397 § 1 i 3 k.p.c. — tygodniowy termin zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c. — wniosek o uzasadnienie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=67",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 ust. 4 u.k.s.c. — opłata od zażalenia poziomego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=7",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 19 ust. 3 u.k.s.c. — opłata od zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=6",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130² § 3 k.p.c. — odrzucenie nieopłaconego zażalenia profesjonalnego pełnomocnika bez wezwania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=27 ; dawne brzmienie: https://eli.gov.pl/api/acts/DU/2005/1398/text.html",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 130² § 4 k.p.c. — sanowanie odrzucenia przez dopłatę w tygodniu, raz w postępowaniu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=27 ; dawne brzmienie: https://eli.gov.pl/api/acts/DU/2005/1398/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 94–96 u.k.s.c. — zwolnienia od opłat i kosztów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=20",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 ust. 1 i 4 u.k.s.c. — procesowy skutek nierozpoznanego wniosku o zwolnienie od kosztów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf#page=23",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c. — zażalenie do SN w sprawie kasacyjnej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73 ; dawne brzmienie: https://eli.gov.pl/api/acts/DU/2018/1360/text/T/D20181360L.pdf#page=60",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 398² k.p.c. — dopuszczalność skargi kasacyjnej i wartość przedmiotu zaskarżenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=75",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–169 k.p.c. — przywrócenie terminu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=37",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 k.p.c. — wezwanie do opłacenia pisma",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=26",
+   "werdykt": "zgodne"
+  }
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "Nowelizacja z 4 lipca 2019 r., Dz.U. 2019 poz. 1469",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 19 ust. 4 u.k.s.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 130² § 3 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 130² § 4 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 102 ust. 1 i 4 u.k.s.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia w konkluzję dotyczącą zażalenia poziomego, lecz nie rozróżnia dwóch wymaganych ścieżek i nie powołuje żadnej z wymaganych podstaw, dlatego A_R=1, A2=0 i B2=0. Art. 394² § 1¹ nie przewiduje opisanego zażalenia, art. 130² § 4 nie ustanawia wskazanej sanacji, a art. 130² § 3 i art. 394¹ § 2 przedstawiono według nieobowiązujących regulacji. Art. 19 ust. 4 dotyczy zarzutów od nakazu zapłaty, natomiast art. 102 ust. 1 i 4 nie reguluje przypisanego skutku procesowego, co dodatkowo uzasadnia A6=0. Naliczono obie kary; poprawne wskazówki dotyczące terminu i kontroli opłaty dają ograniczoną przydatność B1=1, ale nie zaliczają elementu rubryki dotyczącego zwrotu i dopłaty. A8=0.5 wynika z odrębnego omówienia innych środków poza pytaniem, a A3=1 z dosłowności krótkiego cytatu, bez ponownego karania za nieaktualność przepisu.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 20,
+  "czas_s": 170,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

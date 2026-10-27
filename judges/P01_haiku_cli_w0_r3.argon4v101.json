@@ -1,0 +1,86 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń — granica wykroczenia to wartość nieprzekraczająca 1/4 najniższego wynagrodzenia (w 2026 r. 1201,50 zł)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j. k.w.) oraz Dz.U. 2022 poz. 2600",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120, 122 KW — przepisy odsyłające do granicy 1/4 minimalnego wynagrodzenia z art. 119 KW",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 734 (t.j. k.w., art. 120 § 1 i art. 122 § 1)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "rozporządzenie Rady Ministrów — minimalne wynagrodzenie na 2026 r. wynosi 4806 zł brutto (w 2025 r. 4666 zł, od lipca 2024 r. 4300 zł)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 1242 (§ 1)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 KK — powyżej granicy wykroczenia czyn może być przestępstwem kradzieży",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j. k.k., art. 278 § 1)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks karny — odrębne progi dla wartości małej",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 383 (t.j. k.k., art. 115 § 5–6)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpada w pułapkę pytania i podaje nieaktualny od 15.11.2018 r. mechanizm 1/4 minimalnego wynagrodzenia jako obowiązujący w 2026 r., wyliczając błędny próg 1201,50 zł zamiast stałej kwoty 800 zł obowiązującej od 1.10.2023 r. (A_R=0, R=[0,0,0,0], K=[1,1], B1=0). Powołano wymagany art. 119 § 1 k.w. (A2=1), jednak przypisano mu oraz art. 120 i 122 k.w. dawne brzmienie jako aktualne (W), a ponadto w uwagach przypisano Kodeksowi karnemu nieistniejące w nim progi dla „wartości małej” (T), co skutkuje A6=0 i hallucinated=true. W odpowiedzi brak cytatów w cudzysłowie (A3=nd), a teza — choć merytorycznie błędna — została postawiona kategorycznie (B2=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"art. 119\" \"800 złotych\" OR OR",
+   "\"art. 120\" \"art. 122\" \"800 złotych\" OR OR",
+   "\"art. 278\" \"Kodeks karny\" OR OR",
+   "\"4806\" \"minimalnego wynagrodzenia\" \"2026\" OR OR",
+   "\"małej wartości\" \"Kodeks karny\" \"115\"",
+   "\"WDU20250000734\" OR \"DU/2025/734\" OR",
+   "\"DU/2025/1242\" OR \"poz. 1242\" \"4806\" OR",
+   "\"art. 119\" \"1/4\" \"minimalnego wynagrodzenia\" \"2013\" \"2018\" kodeks wykroczeń",
+   "\"małej wartości\" \"Kodeks karny\" OR",
+   "\"Art. 115\" \"znacznej wartości\" \"wielkiej wartości\" \"Kodeks karny\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13404,
+   "wyjscie": 1336
+  },
+  "czas_s": 175,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

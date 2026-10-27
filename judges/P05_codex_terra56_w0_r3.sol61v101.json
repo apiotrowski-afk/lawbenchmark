@@ -1,0 +1,54 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹a § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, odnośnik 29",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 28; przepis wymaga wniesienia pisma przez system albo wyboru wnoszenia pism przez system, nie przewiduje odrębnej przesłanki ogólnej woli komunikacji elektronicznej",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 28; moment doręczenia wskazuje elektroniczne potwierdzenie odbioru, a regułę 14 dni uruchamia brak potwierdzenia, nie samo niezapoznanie się z pismem",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź nie przedstawia wyboru doręczeń portalowych przez osobę fizyczną, dostępnego od 1 czerwca 2026 r., ani wymaganej formy oświadczenia i możliwości rezygnacji. Regułę 14 dni opisuje dla odrębnego systemu teleinformatycznego, dlatego nie zaliczam elementu dotyczącego momentu doręczenia portalowego. Pominięcie stron w omówieniu art. 131¹a § 1 samo nie obniża A6, lecz rozszerzenie przesłanek art. 131¹ § 1 i zmiana kryterium doręczenia z § 2 stanowią T; pochodzenie błędów jest nieustalone. Nie naliczam kar, ponieważ brak obowiązku odbioru nie oznacza twierdzenia o niemożności doręczeń portalowych, a art. 139 nie powołano. Odpowiedź pozostaje w ramach pytania i stawia tezę wprost, ale jej praktyczna przydatność jest ograniczona.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 75,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

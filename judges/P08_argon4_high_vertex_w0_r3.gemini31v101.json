@@ -1,0 +1,75 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo identyfikuje definicję deepfake i trafnie wskazuje, że wyłączenie z tej definicji nie zwalnia z obowiązku znakowania maszynowego z art. 50 ust. 2 AI Act (pełny rdzeń). Wszystkie powołane przepisy i ich treść są zgodne z tekstem rozporządzenia (A6=1). W cytacie art. 3 pkt 60 dodano słowo 'i', co skutkuje obniżeniem A3 do 0. Odpowiedź nie odwołuje się do wytycznych KE (brak R6) i nie wspomina wprost, że intencja nie jest kryterium (brak R2), ale poprawnie rozdziela adresatów i podaje datę stosowania. Kalibracja jest prawidłowo warunkowa.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P08",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15758,
+   "wyjscie": 622
+  },
+  "czas_s": 109,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=160",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=162",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN z 4 września 2009 r., I CZ 83/09",
+   "zrodlo": "https://www.saos.org.pl/files/judgments/supreme/2009/9/4/027d327e4b0991909bb64986ec0f95c2.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozdziela funkcję egzekucyjną nakazu i jego funkcję tytułu zabezpieczenia oraz wskazuje wymagane podstawy i środki obrony pozwanego. Powołane przepisy odpowiadają treści tekstu urzędowego. Postanowieniu I CZ 83/09 przypisano jednak tezę, której nie zawiera: SN rozstrzygał dopuszczalność zażalenia na wstrzymanie wykonania postanowienia o zabezpieczeniu, a wzmianka o nakazie dotyczy zakresu wcześniejszego orzecznictwa o zażaleniu, nie zachowania cech tytułu zabezpieczenia po wstrzymaniu. To błąd T, skutkujący A6 = 0 i etykietą hallucinated. Nie zaliczono czwartego elementu rubryki, ponieważ odpowiedź nie wskazuje zawieszenia egzekucji jako skutku wstrzymania; praktyczne wskazówki pozostają przydatne, a pewność odpowiada kluczowi.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 12,
+  "czas_s": 63,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

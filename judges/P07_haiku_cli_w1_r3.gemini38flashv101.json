@@ -1,0 +1,100 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje kierunek ('tak'), lecz nie podaje kluczowego warunku zaskarżalności postanowienia ani nie przywołuje art. 357 § 1 bądź § 2¹ k.p.c., co skutkuje A_R=1 i A2=0. Przepisowi art. 130¹ § 2 k.p.c. przypisano treść o wniosku o uzasadnienie przy uchybieniach w postanowieniu, której przepis ten w ogóle nie zawiera, co stanowi halucynację klasy T i skutkuje A6=0 oraz hallucinated=true. Z uwagi na obszerną dygresję dotyczącą uzasadnienia wyroku i apelacji (art. 328 i 369 k.p.c.) przy pytaniu o postanowienie z art. 357 § 5 k.p.c., ramy oceniono na A8=0.5. Poziom pewności jest nieadekwatny (B2=0), gdyż system niezasadnie asekuruje się nieweryfikowalnością przepisu przy jednoznacznym stanie prawnym.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"art. 130(1)\" kpc sejm",
+   "\"130(1)\" kpc \"wniosek o uzasadnienie\"",
+   "\"art. 1301\" kpc sejm",
+   "\"art. 130^1\" kpc sejm",
+   "\"art. 130(1)\" \"k.p.c.\" isap",
+   "\"art. 1301\" \"k.p.c.\" sejm",
+   "\"art. 1301 § 2\" kpc",
+   "\"1301a\" § 2 kpc",
+   "\"art. 394 § 2\" kpc sejm",
+   "\"art. 394 par 2\" kpc isap"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11115,
+   "wyjscie": 799
+  },
+  "czas_s": 89,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

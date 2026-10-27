@@ -1,0 +1,85 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 125 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 132 k.p.k.",
+   "zrodlo": "Dz.U. 2025 poz. 1876",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2024 poz. 1045",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie oddaje ogólny kierunek co do dobrowolności doręczeń portalowych dla osoby fizycznej oraz 14-dniowej fikcji doręczenia, jednak zupełnie pomija właściwą podstawę prawną (art. 131¹ᵃ k.p.c., w tym § 1¹ dodany od 1.06.2026 r.) i błędnie przypisuje regulację Portalu Informacyjnego przepisowi art. 131¹ k.p.c. regulującemu doręczenia przez system teleinformatyczny, co skutkuje dyskwalifikacją w A2 oraz A6 (klasa T, hallucinated=true). W rubryce brak omówienia wymogów oświadczenia o wyborze (przez portal, opatrzone jednym z trzech kwalifikowanych podpisów), choć odnotowano możliwość rezygnacji i skutki fikcji doręczenia. Kryterium A8 obniżono do 0.5 z uwagi na powtórzenie zastrzeżeń i asekuracyjnych wezwań do weryfikacji przepisów w dwóch różnych miejscach tekstu (na wstępie i w sekcji 6). Kalibracja B2 wynosi 0 z uwagi na rozmycie pewności i przerzucenie ustalenia stanu prawnego na użytkownika, a B1 oceniono na 1, gdyż mylna podstawa prawna i brak wymogów formalnych oświadczenia wprowadzają prawnika w błąd co do procedury.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 131(1)\" kpc sejm",
+   "\"art. 131(1a)\" kpc sejm",
+   "art 131(1) kpc portal informacyjny",
+   "art 131(1a) kpc portal informacyjny 2026",
+   "\"art. 125 § 2(1)\" kpc",
+   "\"art. 125 § 21\" kpc",
+   "art 125 kpc sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9953,
+   "wyjscie": 767
+  },
+  "czas_s": 60,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

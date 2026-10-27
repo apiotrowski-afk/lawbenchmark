@@ -1,0 +1,102 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "sn.pl / OSNC 2011 nr 11 poz. 120",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 17 czerwca 2004 r. o zmianie ustawy - Kodeks rodzinny i opiekuńczy oraz niektórych innych ustaw (Dz.U. 2004 poz. 1691)",
+   "zrodlo": "ELI DU/2004/1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń merytoryczny: prostuje omyłkę pisarską w numerze przepisu (art. 787¹ zamiast 781¹ k.p.c.), wyjaśnia, że o trybie nadania klauzuli przeciwko małżonkowi decydują przesłanki materialne (udokumentowana zgoda małżonka w trybie art. 787 k.p.c. albo związek z przedsiębiorstwem w trybie art. 787¹ k.p.c.), a nie treść nakazu zapłaty, oraz że każda taka klauzula zawiera ograniczenie odpowiedzialności. Wszystkie powołane przepisy (k.p.c., k.r.o., ustawa nowelizująca z 2004 r.) oraz uchwała SN III CZP 117/10 są w pełni zgodne ze źródłami oficjalnymi (A6 = 1). W rubryce odjęto jeden punkt za brak wskazania zakresu egzekucji przysługującego wierzycielowi bez klauzuli przeciwko małżonkowi, gdy brakuje zarówno zgody, jak i związku z przedsiębiorstwem (art. 776¹ § 1 k.p.c.). Poziom pewności (warunkowy względem posiadania dokumentu wykazującego zgodę) oraz praktyczna przydatność wskazówek zasługują na maksymalną ocenę w bloku B.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"III CZP 117/10\" OR",
+   "\"Art. 41\" \"Jeżeli małżonek zaciągnął zobowiązanie\" OR",
+   "\"1691\" \"17 czerwca 2004\" \"20 stycznia 2005\" OR",
+   "\"Art. 787\" \"Art. 781\" OR",
+   "\"III CZP 117/10\" \"domniemania faktycznego\"",
+   "\"III CZP 117/10\"",
+   "\"W20041621691\" OR \"1691\" \"17 czerwca 2004\"",
+   "\"2004\" \"1691\"",
+   "\"III CZP 117-10.pdf\" OR \"III CZP 117/10\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUmhvjOwVfZSiVBXxrWY-0wsyxo_FifQXkFKnsZny6lCyG5ebGc3rDjCk8zGdoqNKp3tLHSW538OdaMolCYC-yi91CbsqXMXrFuyrM6L9u7J4genbOE716cho9uGCI_Fm8CxMFOKrBm2paE4pFtHEQHFQKR1NZ7dF6tZYQlvleHsH159rLICs0gPltaYilIkDnFdKP8WJ1kNbwWQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwKzG-4htxHaHVdJR00o7SIk4vj03furwenQwDH6vSDIgC-8YXtafuOGPG08K5cFuSH9iPz_MO6NthonUqPSeyudBnZoeODsqZJfZ0ukHsH1XMoy7r1w3UOVjsZn_0aN7MuYAq4HA1-AjMcR_U6xN3NV_jOR_yH5z4S9abfIDFMJRrEG9EI0bv7oBMXqDPQmLDTPdi",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE34LlEKUORUySjs8HDhE9Di6ww3Gc57GPgLwHr8cbBgStMcvKT-bIYiZQ0FDK2odr3U7oTdcFOeORXNqWpHGM7IAigj90F1PEsI04KxpEJOkk7lZ1apDRQajwZHioL1pNhFguFv6xdNwuB1GOKQz7AoROB5fw8ZszVYAcoITs61ro6CClYw9BxB8d6udQAEjKGf7n_ovQlLaiTESZfAloaxScKUDy1piTNXbecei5Def_HBcezProxcb70xfYbNi8qupMOeoQ1dnn_flas0L6bLBnFKDdwdiDA0eZaZnirV-gxi2fn5rWNSoldDkD_ZkCScpiUHlwwu9nj9-DORpcMT2icGhdYWRdQvlJCDx3NQxIVbw4wXq_YqB2zgacizH5PTY2pId_ITGVCkOH64zB4mdcdjuwv4eqB8muaCugi-8ecnw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPppPtEDkCp6u6csvHS0kaoknA6VGUo4roxYvHu7qChJ1wJW2QxW4iMpDoFq0GXiAHypdB4UHTLasbZ5p6ECYVAU626DR1ZIQnUM3FoSV0KIpmRuFow8vvXgrQ43yscbpIWnWdBZoybDFSB8CUGxb-bIqE809ZAgcSiR866z920rDz5CFUie7fYWiIx3eYr2tG7w2ave0d1jY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKy9d4YEtA_HaHZhPtHc6G_PDzTMETN8YNubsaxApmfM0b8Dj1zePIeXYUylqtNSJTx26aHPX3296GlLinQqUMD_Bv7-ClElEdnjuInNw6Sd3F1GtZ3bMOF5NntyY9wCdPTCJRqXfWucW8hJ65wRcTx8emXjMKzxxcucLVmbe1hI2qR96EBo1Hir9hmrY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxCEZ5uJ3UBIyEHNlOPKaZyqTLRDsJIgyg3KR7JoIh_yksxwHUA4so-E-BJ-7xS3geg6TgDpoHG-oiZOsmIGS5ONy4DO54yYPnVDGrT--a9oXFaxoLG5I8X3ZQ7f1-PoJg2VdF98pnaxUjHB3NrJrnpvn5XLAH0uixMIvZCeZvCfimX6sby-Bel3uwetWtD3v2Dbt8",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETssrt3YkFm1DT6EQPeSiNyDFA7r5-hbRUDc4KF_wbOdiWUGl1-ehOahfjeyuBoh6Y9iVUu8-tc2-9hMaiA-2mh21fL3CLeypXGPW82zTr3M5DDf4iruk2t7OxLV1WRRn_7Q=="
+  ],
+  "tokeny": {
+   "wejscie": 11032,
+   "wyjscie": 1388
+  },
+  "czas_s": 112,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

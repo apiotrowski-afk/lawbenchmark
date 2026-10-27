@@ -1,0 +1,108 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "data stosowania art. 50 AI Act od 2 sierpnia 2026 r. (art. 113 AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23–24 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 190a k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie ujmuje pełny rdzeń (A-R = 2) oraz wszystkie wymagane podstawy prawne z AI Act (A2 = 1), odróżniając przesłanki definicji deepfake'a (art. 3 pkt 60) i obowiązek podmiotu stosującego (art. 50 ust. 4) od niezależnego obowiązku dostawcy w zakresie oznakowania maszynowego syntetycznego audio (art. 50 ust. 2). Brak cytatów w cudzysłowie daje A3 = nd, a wszystkie powołane przepisy są zgodne ze źródłami urzędowymi na datę stanu prawnego (A6 = 1). W rubryce odpowiedź realizuje pięć pierwszych elementów, tracąc jedynie punkt R6 za brak odwołania do niewiążących wytycznych KE C(2026) 5054 lub kodeksu praktyk. Kryterium A8 obniżono do 0,5 z uwagi na dygresję o innych gałęziach prawa (art. 23–24 k.c., art. 81 pr.aut., art. 9 RODO, art. 190a k.k.) wykraczającą poza pytanie ograniczone wprost do gruntu AI Act. Kalibracja warunkowa (B2 = 1) oraz przydatność praktyczna wraz ze wskazówką weryfikacji przepisów przejściowych z pakietu Digital Omnibus (B1 = 2) są bez zarzutu.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"32024R1689\" \"Artykuł 50\" eur-lex",
+   "\"2024/1689\" \"wchodzi w interakcję\" \"oczywiste\" \"art. 50\" OR \"Artykuł 50\"",
+   "OR \"art. 23\" \"dobra osobiste\" kodeks cywilny",
+   "OR \"art. 81\" \"wizerunku\" prawo autorskie",
+   "\"Artykuł 50\" \"Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania\" \"Podmioty stosujące system AI\"",
+   "\"32016R0679\" \"Artykuł 9\" \"biometrycznych\"",
+   "\"art. 190a\" \"podszywa się\" kodeks karny OR OR \"Dz.U.\"",
+   "\"Dz.U. 2026 poz. 795\" OR \"Dz.U. 2025 poz. 24\" OR",
+   "\"Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake\" \"artystyczn\" OR \"satyryczn\"",
+   "\"Dz.U. 2025 poz. 383\" OR \"kodeks karny\" \"190a\" OR OR",
+   "\"Podmioty stosujące system AI, który generuje obrazy\" \"w przypadku gdy treść stanowi część\" OR \"utworu\" OR \"artystycznego\"",
+   "\"satyryczn\" \"50\" \"2024/1689\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15224,
+   "wyjscie": 1614
+  },
+  "czas_s": 144,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

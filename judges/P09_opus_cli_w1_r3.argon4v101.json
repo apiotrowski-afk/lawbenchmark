@@ -1,0 +1,142 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 64 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 12 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 5 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia główną zasadę z art. 41 ust. 2, ust. 4 i art. 53 pr. aut. oraz zaleca wyliczenie pól eksploatacji właściwych dla social mediów (A-R = 2, A2 = 1, R1–R4 = 1), lecz pomija liberalną linię SN dopuszczającą dookreślenie pól w drodze wykładni z art. 65 k.c. (R5 = 0). W kryterium A6 otrzymuje 0 (klasa T) z uwagi na dwa błędne przypisania norm: art. 64 pr. aut. przypisano normę z art. 52 ust. 1 pr. aut. (brak przejścia praw autorskich przy przeniesieniu własności egzemplarza), a art. 41 ust. 5 pr. aut. (dotyczącemu utworów audiowizualnych i zbiorowych na nieznanych polach) przypisano normę z art. 41 ust. 1 pkt 2 pr. aut. o dopuszczalności dalszego przenoszenia praw przez nabywcę. Cytat z art. 41 ust. 2 pr. aut. w cudzysłowie („obejmuje pola eksploatacji wyraźnie w niej wymienione”) podano w brzmieniu sprzed nowelizacji z 2024 r. zamiast obecnej liczby mnogiej („obejmują... w nich wymienione”), co zgodnie z regułą B10 obniża wyłącznie A3 do 0. W kryterium B2 przyznano 0 zgodnie z regułą B11, ponieważ odpowiedź kategorycznie przesądza, że ogólna klauzula „w zakresie przeniesienia praw jest nieskuteczna”, „nie dochodzi do przeniesienia praw”, a prawa majątkowe zostają przy zleceniobiorcy.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"Art. 41.\" \"Art. 43.\" \"Art. 46.\" \"Art. 50.\" \"Art. 53.\" OR",
+   "\"Art. 64.\" \"Art. 65.\" \"Art. 67.\" \"Art. 81.\" \"prawie autorskim\" OR",
+   "\"Art. 1.\" \"Art. 12.\" \"Art. 16.\" \"prawie autorskim\" OR",
+   "\"Dz.U. 2025 poz. 24\" \"Art. 41\"",
+   "\"Art. 52.\" \"Art. 53.\" \"Art. 64.\" \"prawie autorskim\"",
+   "\"Art. 41.\" \"Art. 43.\" \"Art. 46.\" \"Art. 50.\" \"prawie autorskim\"",
+   "\"Art. 67.\" \"ust. 5\" \"prawie autorskim\"",
+   "\"Art. 41.\" \"ust. 5\" \"prawie autorskim\"",
+   "\"Art. 46.\" \"prawie autorskim\"",
+   "\"Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia\" \"Art. 42\"",
+   "\"Art. 41\" \"Twórca utworu wykorzystanego lub włączonego do utworu audiowizualnego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ27pqKE0p2uBo2lsd6FMzOQE2-cM2J7RGDIBiDYg7_82k0kyPAj1Qf5SpW0DW-aLw7LXIuShZtkDLm4oUt2EddHluelo5AmxdPKYVv5tJqYjb3xOSK4X__HpKAlRCZMkCyxqdp6wE7h-3bg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOrBObbF_EAOrf_zrHRIR6SCN9MQV3oWnIt6fOaiLkuL5cKYZRCNZwBzcnyYGeuDugl14KpJz2u_yBtJsoldfj78Xey6zvbXp-qm8Bixtwc1O_I8Px2rL2PwXkrIg4n72Wy55HsXQGZgo_sGlvHqIkK-lZY8Fe_vC6qNCfcfrQOV3gEIUc9q6BLHQX7hCp84M=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyd40tf9FawD4BcgyE4gjLppnRF98UaDerrBg2FoZ2hmQFU7zJ1nI5rTeeTm9K_H13ye4HwzP02Ld3uUD02gxTzHc3zp2qMjpBdh8GY219dLp4E59LnOBz-URCEJA-7LxE8ktx9HoP0PLaVREGXLHTROU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF5e7y3g6OqCuKhASDz-dmdXKjMCPgeM0aF6u3iya7yxJ6q-TF88XxET1Lw4rHUUZ7H9daMhXJvQNzDurrLKkiSoIswtCRRqbWFPND5Z8RhaYsL2iOJErz3NBLOJ72CCFDMwLRr6HSVfpyxSSkz-ElrdOVV9MDkSeD2l2rBR8tDsY-iyPp0_dRB3fHKdt9c_7g_-AlMkzvE2Pav9A="
+  ],
+  "tokeny": {
+   "wejscie": 15167,
+   "wyjscie": 1717
+  },
+  "czas_s": 183,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

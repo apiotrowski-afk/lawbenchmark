@@ -1,0 +1,103 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ § 1, § 1¹ i § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1, § 1¹, § 1² i § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2023 poz. 614",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 23 czerwca 2022 r., sygn. akt III CZP 50/22",
+   "zrodlo": "sn.pl / OSNC 2023 nr 2 poz. 14",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 359 § 1 w zw. z art. 397 § 3 i art. 391 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie uzależnia dopuszczalność zażalenia od tego, czy Sąd Apelacyjny odrzucił zażalenie dewolutywne na postanowienie sądu I instancji (brak zaskarżalności), czy zażalenie poziome z art. 394² § 1 lub § 1¹ k.p.c. (przysługuje zażalenie do innego składu SA na podstawie art. 394² § 1² k.p.c.), co daje pełne punkty za A-R i B2. Punkt za A2 nie został przyznany z uwagi na brak powołania wymaganego w kluczu art. 397 § 1¹ k.p.c. Cytat z art. 394² § 1² k.p.c. jest dosłowny (A3 = 1), a wszystkie powołane przepisy oraz uchwała SN III CZP 50/22 są zgodne ze źródłami oficjalnymi (A6 = 1). W rubryce odpowiedź zalicza trzy pierwsze elementy, tracąc jedynie punkt za brak wzmianki o art. 130² k.p.c.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 26,
+  "zapytania": [
+   "\"III CZP 50/22\" sn.pl OR saos.org.pl",
+   "\"394\"",
+   "\"394\" \"359\" \"327\" \"168\" kpc OR",
+   "\"III CZP 50/22\" \"23 czerwca 2022\"",
+   "\"Art. 394\" \"Kodeks postępowania cywilnego\" \"odrzucenie skargi kasacyjnej\"",
+   "\"Art. 394\" \"do innego składu sądu drugiej instancji\" \"nieopłacone\"",
+   "\"Art. 359\" \"Postanowienia niekończące postępowania w sprawie mogą być uchylane\"",
+   "\"Art. 327\" \"Stronie działającej bez adwokata\" \"pouczenia\" kpc",
+   "\"Art. 394.\" \"Termin do wniesienia zażalenia wynosi tydzień\" kpc",
+   "\"Art. 168.\" \"Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy\" kpc",
+   "\"Art. 397.\" \"Do postępowania toczącego się na skutek zażalenia\" kpc",
+   "\"3942\" \"1 lipca 2023\" \"614\" kpc",
+   "\"Art. 169.\" \"Pismo z wnioskiem o przywrócenie terminu\" kpc",
+   "\"Art. 327.\" \"Stronę niezastępowaną\" OR \"Stronie działającej bez adwokata\" kpc",
+   "\"Art. 357.\" \"pouczenia\" OR \"uzasadnieniem\" kpc",
+   "\"Art. 391.\" \"Jeżeli nie ma szczególnych przepisów o postępowaniu przed sądem drugiej instancji\" kpc",
+   "\"Art. 327.\" \"§ 3. Sąd z urzędu doręcza stronom wyrok wydany\" \"§ 4\" kpc",
+   "\"Art. 327.\" \"§ 1.\" \"§ 2.\" \"§ 3.\" \"Art. 3271\" kpc",
+   "\"3942\" \"§ 12\" \"1469\" \"2019\" kpc",
+   "\"po § 11 dodaje się § 12\" \"3942\" kpc"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12355,
+   "wyjscie": 1815
+  },
+  "czas_s": 212,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

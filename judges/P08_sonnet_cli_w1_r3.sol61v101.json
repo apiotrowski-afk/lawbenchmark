@@ -1,0 +1,99 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 3 pkt 60 AI Act — definicja i wyłączenie generycznego głosu TTS",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727 ; https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 3 pkt 60 AI Act — cytat angielski",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 1 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Motyw 134 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/EN-DE/TXT/?uri=CELEX:32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Stosowanie art. 50 od 2 sierpnia 2026 r.",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 23 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 24 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 9 RODO",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "DSA — ogólna wzmianka o odrębnej regulacji",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj?locale=pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Twierdzenie o braku orzecznictwa TSUE dotyczącego wpływu oznaczenia na kwalifikację deepfake."
+ ],
+ "uzasadnienie": "Kategoryczne wyłączenie generycznego TTS nawet przy nieświadomości odbiorcy błędnie zawęża art. 3 pkt 60: oficjalne objaśnienia KE obejmują także osoby mogące realnie istnieć, więc decyduje możliwość uznania głosu za autentyczny. Jest to T w rdzeniu, pochodzące z pamięci według deklaracji nieweryfikowania źródeł; nie stanowi samego pominięcia wyjątku. Wymagane podstawy, obiektywny test, rozdzielenie adresatów i data stosowania zostały wskazane, a cytat angielski jest dosłowny. R6 wynosi 0, ponieważ brak merytorycznego odwołania do wytycznych lub kodeksu z zaznaczeniem ich niewiążącego charakteru. Dygresja o ochronie cywilnej, RODO i DSA obniża A8, a błędna wskazówka dotycząca TTS ogranicza przydatność do B1 = 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 14,
+  "czas_s": 56,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 i § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600)",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 k.k.s.",
+   "zrodlo": "Dz.U. 2025 poz. 633 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź precyzyjnie wyjaśnia stały próg 800 zł oraz brak powiązania z płacą minimalną w Kodeksie wykroczeń, realizując wszystkie elementy rubryki. Wszystkie powołane jednostki redakcyjne i akty prawne są w pełni zgodne ze źródłami urzędowymi. Wprowadzenie pobocznego wątku prawa karnego skarbowego (art. 53 k.k.s.) stanowi nieproszony alternatywny scenariusz obniżający ocenę ram (A8) do 0,5.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 53\" \"Kodeks karny skarbowy\" \"pięciokrotnej wysokości minimalnego wynagrodzenia\"",
+   "\"art. 53 par. 3\" \"art. 53 par. 6\" kks \"minimalnego wynagrodzenia\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12315,
+   "wyjscie": 731
+  },
+  "czas_s": 17,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

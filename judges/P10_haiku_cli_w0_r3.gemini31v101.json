@@ -1,0 +1,92 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 ust. 1 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "Art. 65 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 16 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 734 KC",
+   "zrodlo": "Dz.U. 2025 poz. 1145",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 627 KC",
+   "zrodlo": "Dz.U. 2025 poz. 1145",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaprzecza przesłance i wyjaśnia potrzebę wyliczenia pól eksploatacji (A-R = 2). Występują jednak halucynacje (A6 = 0): powołano nieistniejącą jednostkę redakcyjną „art. 53 ust. 1 PrAut” (art. 53 nie ma ustępów) oraz przypisano art. 65 PrAut treść dotyczącą ogólnej wykładni umów na korzyść twórcy, podczas gdy przepis ten dotyczy jedynie domniemania licencji (błąd T). Z powodu błędnego powołania art. 53 ust. 1 oraz braku wskazania ust. 2 w art. 41, nie zaliczono pełnych podstaw (A2 = 0). Odpowiedź jest bardzo przydatna praktycznie (B1 = 2) i dobrze skalibrowana (B2 = 1).",
+ "A6_zakres": "rdzeń",
+ "A6_pochodzenie": "nieustalone",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"Art. 41\" \"ustawa o prawie autorskim i prawach pokrewnych\"",
+   "\"Art. 65\" \"ustawa o prawie autorskim i prawach pokrewnych\"",
+   "\"Art. 53\" \"ustawa o prawie autorskim i prawach pokrewnych\"",
+   "\"Art. 16\" \"ustawa o prawie autorskim i prawach pokrewnych\"",
+   "\"Art. 53.\" \"Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania formy pisemnej pod rygorem nieważności.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRSHpZ9uVWRX_QvMyDwjE4GZPt3O0VoYH1OD_7Oyt-wVOkMtKPFxfm78dJ5JEcS9x38ausy5YKJbd0t_bXQXEe5iDT8vKM4SAsd0SX3f4t6mY4BB-JJiedNESWiFMmQrSs5229bwK9IO3x7d2WmQW9hLfpqLjqvS0csJmbgDZ8HmRkVl8Ckw8ACdBNlhVufiw4FBhGtyaY0ZGQuEE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6GTS0RBDmg3UzRLsCXG23Or1Jf1vcgZYD0rNKPymFK3gb7kpxpw-ZRKJEnIFf_zafkcNIbAXpp9MhB6qQMBSH-t14kNJshO9CrmcmY3yTAmqrLPTD0BT3FC9Nr9wmdkBC5ja0B9MTTTb08Y4HfbmgRIyTVY1KG2YcBO6vpf5n3ezdELSbVRbc3civS8dnVXFYp7Tc9LmaIKK4ql4-sMY="
+  ],
+  "tokeny": {
+   "wejscie": 13729,
+   "wyjscie": 773
+  },
+  "czas_s": 117,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

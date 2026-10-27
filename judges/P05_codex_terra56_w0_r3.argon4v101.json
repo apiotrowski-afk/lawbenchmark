@@ -1,0 +1,86 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹a § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c., w brzmieniu od 1.06.2026 nadanym Dz.U. 2025 poz. 1172)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpadł w pułapkę aktualności i pominął obowiązującą od 1.06.2026 nowelizację art. 131¹a § 1 i § 1¹ k.p.c. (Dz.U. 2025 poz. 1172), która umożliwia osobie fizycznej będącej stroną wybór doręczeń przez Portal Informacyjny poprzez złożenie oświadczenia opatrzonego podpisem kwalifikowanym, zaufanym lub osobistym (A-R=0, A2=0). Powołując art. 131¹a § 1 k.p.c., system odwołał się do nieaktualnego zakresu podmiotowego sprzed 1.06.2026 ograniczającego doręczenia portalowe do pełnomocników zawodowych i wybranych podmiotów publicznych oraz dopisał nieistniejącą w przepisie przesłankę dysponowania przez sąd warunkami technicznymi (W/T), a w art. 131¹ § 1 k.p.c. dopisał przesłankę wyrażenia woli komunikacji elektronicznej w danej sprawie i powiązał ją ze skutkiem doręczenia w Portalu Informacyjnym, który stanowi odrębny kanał (A6=0, hallucinated=true). W rubryce zaliczono jedynie podanie momentu doręczenia wraz z regułą 14 dni (R=[0,0,1,0]), a kar nie naliczono, ponieważ system nie sformułował kategorycznego zakazu doręczeń portalowych osobie fizycznej ani nie zastosował art. 139 k.p.c. (K=[0,0]). Odpowiedź jest nieprzydatna praktycznie z uwagi na pomylenie trybu portalowego z systemem teleinformatycznym (B1=0), lecz zachowuje oczekiwaną kategoryczną kalibrację (B2=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 30,
+  "zapytania": [
+   "\"art. 131\" \"systemu teleinformatycznego\" kpc OR OR",
+   "\"131\" \"1a\" \"portalu informacyjnym\" kpc OR OR",
+   "\"131\" \"dokonała wyboru wnoszenia pism\" kpc",
+   "\"131\" \"elektronicznym potwierdzeniu odbioru\" kpc",
+   "\"468\" \"131\"",
+   "\"2026\" \"468\"",
+   "\"2025\" \"1172\"",
+   "\"eli.gov.pl\" \"2026\" \"468\"",
+   "\"api.sejm.gov.pl\" \"2026\" \"468\"",
+   "\"isap.sejm.gov.pl\" \"1172\" \"2025\"",
+   "\"W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi\"",
+   "\"D20260468Lj.pdf\" OR \"D20260468.pdf\" \"131\"",
+   "\"D20251172\" \"131\"",
+   "\"eli.gov.pl/eli/DU/2025/1172\"",
+   "\"Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne)\" \"Kancelaria Sejmu\"",
+   "\"Kancelaria Sejmu\" \"571\" \"131\" \"doręczenie elektroniczne\"",
+   "\"Kancelaria Sejmu\" \"571\" \"portalu informacyjnym\" \"131\"",
+   "\"2026-08-18\" \"131[1]\"",
+   "\"2026-08-18\" \"131[1a]\"",
+   "\"2026-08-18\" \"Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9200,
+   "wyjscie": 1859
+  },
+  "czas_s": 285,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

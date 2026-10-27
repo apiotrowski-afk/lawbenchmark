@@ -1,0 +1,93 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 i 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "uchwała SN III CZP 106/18",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN III CZP 117/10",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wyjaśnia brak klauzuli 'bez ograniczeń' i rozróżnia tryby z art. 787 i 787¹ k.p.c. w zależności od zgody małżonka. Prawidłowo prostuje numer art. 781¹ k.p.c. i wskazuje, że treść nakazu nie decyduje o trybie. Zalicza 4 z 5 elementów rubryki (pomija wskazanie art. 776¹ k.p.c. jako skutku braku obu przesłanek). System podał jednak nieaktualny identyfikator Dz.U. dla k.r.o. w linkach (Dz.U. 2023 poz. 2809 zamiast Dz.U. 2026 poz. 236), co stanowi błąd klasy S i skutkuje oceną A6 = 0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"III CZP 106/18\"",
+   "\"III CZP 117/10\"",
+   "\"Dz.U. 2023 poz. 2809\"",
+   "\"Dz.U. 2026 poz. 236\" kro",
+   "\"https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%20106-18.pdf\"",
+   "\"https://www.saos.org.pl/judgments/94458\"",
+   "\"saos.org.pl/judgments/94458\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRfWAC9eRpYwXkLpT5--XplH3YdEc84ZmgWbnGOefaymRfRHnvNAlywx2fU7HqjWulfkAUbgyXKfD1UQi32mGnsLxtYRdk6GiaG3vYtXkx_7OLbzy6RvxNuF80bySEFmQeIDdTW89ZgEMXTKff3D-T1ZcEqrukNqBg1SMM3qZwRpO1t0HN5Cb8-_qTmKWcAQUOh_FC",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6HKpcGEr3pyGHykQRTXL1FW-J8G3OF93HGK8K09GRbq_pAwGnNMoQ0NdcqueHaD-N5XFmgSpaFybGfoET_2OqjXm3bRxymCz1jfC10VnVFSmxQJbNW87K8UXMkqVmPbx0kI2KO8xGQLKyKjtslPA-AHM25Eq9kxE2u03S2jHsOj-QlZ0waEc4SVgKcBTAMnE0dRW8RLEOqkTxD3TJYS2YSTM-Of-Ie_P91Gx_PS25jBc0TT3S87SxglqlpUwZd99cD4gjeFacvd9LoXf2AD8cxpE5TmZBpW0HxuAdrSHcOYSRcpjZheoaetHTe25TRkfjB07FeCKcgcKLEZ2BRGqw8U7AiDgVKuzE2axIiAZHpZYpmgogigMZsBrxnslDqE-ANuAYoA4xAEI_U-CXhwodi3ZMKnNRV2p3oxEucZdb731x-PRfoA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlWyDFYanSrimtGg7rNQXpjVp8TTmfVsRGQEgbmm_KUnQmaqsY1jQC5LRXoqfbkh97x7npjCPtlszi8LY492mg6k31gGvZZ8Fi-mDMe_XPF1WdB4YL0_t9LFEw3RdtS4jrIzxcy90AEN0FVyCg-JKl6y7L69PlLYByX3xYEhQC0H4i51IRJbUVzyBIi3La1w5UdAktzuQnpyZRjw=="
+  ],
+  "tokeny": {
+   "wejscie": 12601,
+   "wyjscie": 740
+  },
+  "czas_s": 211,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

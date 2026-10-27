@@ -1,0 +1,91 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 15zzs⁹ ustawy covidowej; nowelizacja z 7 lipca 2023 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/1860/text.pdf — art. 28 pkt 3: „uchyla się art. 15zzs9”; art. 39 ust. 3 wiąże wcześniejsze czynności z art. 131¹ᵃ k.p.c., a art. 40 pkt 4 określa wejście zmiany w życie.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29: „a także stronie, która dokonała wyboru takiego sposobu doręczania”; katalog obejmuje komornika i stałego mediatora, nie wymienia biegłego.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. — oba ogólne odesłania",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — art. 131¹ § 1 reguluje doręczenia przez system teleinformatyczny po wniesieniu pisma przez system albo wyborze tej drogi.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a § 1 k.p.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/490/text.pdf — s. 27, nowe brzmienie obejmuje również stronę wybierającą doręczenia portalowe; odpowiedź przedstawia wcześniejszy katalog jako aktualny, zgodnie z klasyfikacją W w raporcie.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131 i nast. k.p.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/490/text.pdf — art. 131 § 1 przewiduje tradycyjne kanały doręczeń, ale dalszy art. 133a § 1 obejmuje również stronę wybierającą portal; przypisanie całemu zakresowi wyłączności doręczeń tradycyjnych przeczy temu przepisowi.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — § 2 określa chwilę doręczenia i fikcję po 14 dniach; przesłanki korzystania z doręczeń elektronicznych zawiera § 1.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 216aa Prawa upadłościowego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/614/text/T/D20250614L.pdf — sprawdzono tekst jednostki, jednak nie rozstrzygnięto pełnej zgodności przypisanej jej tezy i stanu na 1 października 2026 r.; raport pozostawia powołanie niezweryfikowane.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 133 § 3 w zw. z art. 131¹ᵃ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — art. 133 § 3 nakazuje doręczać ustanowionemu pełnomocnikowi, a art. 131¹ᵃ obejmuje adwokatów i radców prawnych; pominięcie wyjątków nie obniża A6.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa o doręczeniach elektronicznych — termin obowiązku dla sądów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/285/text.html — art. 155 ust. 7 przewiduje obowiązek dla sądów od 1 października 2029 r.; aktualny tekst jednolity: https://api.sejm.gov.pl/eli/acts/DU/2026/3/text.pdf.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełna zgodność twierdzenia przypisanego art. 216aa Prawa upadłościowego ze stanem prawnym na 1 października 2026 r."
+ ],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: osoba fizyczna może wybrać doręczenia portalowe, dlatego A_R=0, wszystkie elementy rubryki są niezaliczone i naliczono pierwszą karę. Zgodnie z raportem występują błędy T oraz W, a brak wymaganych podstaw skutkuje A2=0; nie ma cytatów przepisów ocenianych w A3. A8=0,5 za rozbudowane wyjście w procedurę karną i inne systemy doręczeń. B1=0, ponieważ zalecenie oczekiwania na papierowe doręczenie może prowadzić do utraty terminu. B2=1, gdyż odpowiedź stawia tezę kategorycznie, zgodnie z oczekiwaną kalibracją.",
+ "_meta": {
+  "sedzia": "sol61meta",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 62,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 10, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 15zzs⁹ [akt: nieustalony (w zdaniu inny akt: ustawy covidowej)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: ustawy covidowej\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 2. art. 131¹ᵃ § 1 KPC [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: przeczy; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza pisma procesowe wyłącznie przez umieszczenie ich treści w Portalu Informacyjnym ściśle określonej, zamkniętej grupie podmiotów (adwokatom, radcom prawn…”\n    · uzasadnienie weryfikatora: Przepis w brzmieniu na datę stanu prawnego wprost wymienia jako adresata doręczeń w Portalu Informacyjnym także „stronę, która dokonała wyboru takiego sposobu doręczania”, a ponadto nie wymienia biegłych sądowych (lecz komornika sądowego i stałego mediatora). Twierdzenie o ograniczeniu doręczeń wył…\n    · kotwica (verbatim ze źródła): „W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii General…”\n    · brzmienie jednostki (fragment): „§ 1. W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania, pisma sądowe oraz odpisy pism procesowych lub innych dokumentów niepochodzących od sądu, którymi sąd dysponuje w postaci elektronicznej, wyłącznie przez umieszczenie ich treści w portalu info…”\n- 3. art. 131¹ KPC [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis reguluje system teleinformatyczny, za pośrednictwem którego doręcza się pisma procesowe.”\n    · uzasadnienie weryfikatora: Przepis wprost reguluje dokonywanie przez sąd doręczeń za pośrednictwem systemu teleinformatycznego.\n    · kotwica (verbatim ze źródła): „§ 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego.”\n    · brzmienie jednostki (fragment): „Art. 131¹. § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie tel…”\n- 4. art. 133a § 1 KPK [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Doręczeń przez umieszczenie treści pisma w Portalu Informacyjnym dokonuje się wyłącznie prokuratorowi, obrońcy i pełnomocnikowi będącemu adwokatem lub radcą prawnym oraz Prokuratorii Generalnej RP.”\n    · uzasadnienie weryfikatora: Na datę stanu prawnego przepis obejmuje również „stronę, która dokonała wyboru takiego sposobu doręczania”. Zamknięty katalog ograniczony do wymienionych podmiotów profesjonalnych odpowiada wcześniejszej wersji przepisu (atom 2).\n    · kotwica (verbatim ze źródła): „§ 1. Sąd dokonuje doręczeń pism procesowych lub innych pism prokuratorowi, obrońcy i pełnomocnikowi będącemu adwokatem lub radcą prawnym, Prokuratorii Generalnej Rzeczypospolitej Polskiej, przez umieszczenie ich treści w portalu informacyjnym”\n    · brzmienie jednostki (fragment): „§ 1. Sąd dokonuje doręczeń pism procesowych lub innych pism prokuratorowi, obrońcy i pełnomocnikowi będącemu adwokatem lub radcą prawnym, Prokuratorii Generalnej Rzeczypospolitej Polskiej, a także stronie, która dokonała wyboru takiego sposobu doręczania, przez umieszczenie ich treści w portalu informacyjnym w sposób, który umożliwia uzyskanie przez nadawcę i odbiorcę dokumentu potwierdzającego doręczenie.”\n- 5. art. 131 [akt: nieustalony (w akapicie inny akt: KPK)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w akapicie inny akt: KPK\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 6. art. 131¹ KPC [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis dotyczy systemów teleinformatycznych obsługujących konkretne postępowania, w których osoba fizyczna może lub musi odbierać pisma elektronicznie.”\n    · uzasadnienie weryfikatora: Przepis reguluje ogólne zasady doręczeń elektronicznych za pośrednictwem systemu teleinformatycznego po wniesieniu pisma lub dokonaniu wyboru przez adresata.\n    · kotwica (verbatim ze źródła): „§ 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego.”\n    · brzmienie jednostki (fragment): „Art. 131¹. § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie tel…”\n- 7. art. 131¹ § 2 KPC [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Wniesienie przez osobę fizyczną pozwu w EPU albo wniesienie pisma przez system EPU oznacza wyrażenie zgody na doręczenia elektroniczne w tym systemie.”\n    · uzasadnienie weryfikatora: Powołana jednostka (art. 131¹ § 2 KPC) reguluje wyłącznie chwilę uznania pisma za doręczone oraz fikcję doręczenia po 14 dniach, natomiast przesłanki dokonywania doręczeń elektronicznych (wniesienie pisma przez system) znajdują się w § 1 (wskazana jednostka z cudzą treścią = T).\n    · brzmienie jednostki (fragment): „§ 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie teleinformatycznym.”\n- 8. art. 216aa [akt: domniemany (akt z podstaw klucza)]\n    · STATUS WERYFIKACJI (nie jest błędem): niepewne\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis przewiduje dla osób fizycznych wyłączenia pozwalające im na działanie poza systemem KRZ i odbieranie pism tradycyjnie, o ile nie zrezygnują z tego prawa.”\n    · uzasadnienie weryfikatora: Odpowiedź wprost powołuje art. 216aa ustawy Prawo upadłościowe, natomiast w podanym materiale źródłowym omyłkowo załączono informację o braku tego artykułu w KPC, co uniemożliwia weryfikację tekstu właściwego aktu prawnego.\n    · brzmienie jednostki (fragment): „W tym tekście nie ma art. 216aa.”\n- 9. art. 133 § 3 KPC [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · twierdzenie odpowiedzi (wg weryfikatora): „Z chwilą zgłoszenia się adwokata lub radcy prawnego do sprawy jako pełnomocnika, sąd ma obowiązek przejść na doręczenia pism przez Portal Informacyjny bezpośrednio na jego konto.”\n    · uzasadnienie weryfikatora: Z zestawienia art. 133 § 3 KPC (obowiązek doręczania pism ustanowionemu pełnomocnikowi procesowemu) oraz powołanego łącznie art. 131¹ᵃ § 1 KPC (doręczanie adwokatom i radcom prawnym przez Portal Informacyjny) wynika obowiązek doręczania pism pełnomocnikowi zawodowemu przez Portal Informacyjny (przy…\n    · kotwica (verbatim ze źródła): „§ 3. Jeżeli ustanowiono pełnomocnika procesowego lub pełnomocnika do doręczeń, pisma sądowe doręcza się tym osobom.”\n    · brzmienie jednostki (fragment): „§ 3. Jeżeli ustanowiono pełnomocnika procesowego lub pełnomocnika do doręczeń, pisma sądowe doręcza się tym osobom. Pismo wzywające stronę do osobistego stawiennictwa doręcza się tylko bezpośrednio tej stronie, z wyjątkiem strony, o której mowa w art. 1135⁵ § 1.”\n- 10. art. 131¹ᵃ KPC [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 9; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

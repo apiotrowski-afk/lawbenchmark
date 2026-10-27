@@ -1,0 +1,78 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹a § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T",
+   "A6_pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź nie trafia w rdzeń pytania (A-R=0), ponieważ pomija nowelizację z 1.06.2026 r., która umożliwiła doręczenia przez Portal Informacyjny osobom fizycznym po dokonaniu wyboru. Zamiast tego system omawia doręczenia przez system teleinformatyczny (art. 131¹ k.p.c.). System przypisuje art. 131¹a § 1 k.p.c. nieistniejący warunek „jeżeli sąd dysponuje odpowiednimi warunkami technicznymi”, co stanowi halucynację (A6=0, błąd typu T). Z powodu braku kluczowej informacji o możliwości wyboru doręczeń przez portal dla osób fizycznych, odpowiedź jest nieprzydatna dla prawnika (B1=0). Kary nie naliczono, ponieważ system nie stwierdził wprost, że doręczenie osobie fizycznej przez portal jest niemożliwe.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 131\" \"1a\" \"k.p.c.\" \"stronie, która dokonała wyboru\"",
+   "\"art. 131\" \"1a\" \"k.p.c.\" \"W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego\"",
+   "\"art. 131\" \"1\" \"k.p.c.\" \"W przypadku doręczenia elektronicznego\"",
+   "\"art. 131\" \"1\" \"k.p.c.\" \"14 dni\"",
+   "\"art. 131\" \"1a\" \"k.p.c.\" \"warunkami technicznymi\"",
+   "\"art. 131\" \"1a\" \"k.p.c.\" \"warunków technicznych\"",
+   "\"art. 131\" \"1a\" \"k.p.c.\" \"warunkami technicznymi\" \"uchylony\"",
+   "\"art. 131\" \"1a\" \"k.p.c.\" \"warunków technicznych\" \"uchylony\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4eLMct5K_LsBLfc30z9e3bb74KGeEef8ACzt4g9kYR0j-XaLtZ77Y1k5eTc9Cj2yljMnGYER53nWk5-ntrSWw4Omwy0JzpLF0GCzIHZDw8l4E2QivL6Cd98yQ_e1NHlb9CrHVfMZZdCbfnvhFz--wAza_J-JVznTHL3UmSfAC77_wAQj2H5d-DAaxpyVO75Ewy5sS5nrnhokiUQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfXG0ut0TjCrv1hRSNQHToPwDUMDduaSHLYmKsy0jwJhAmyKeXhZ5wVG3IRXO0baU_rx9yVhQh2i0TUp8ymBNcISio0_y16PEtxP1gdrA2TK9KhbzxZFT29KAZAX3WQ6OuDSPxRvFvq2g9piR88X0Sa3vIL7WT_160MrbUJ9EgVkpI67nhLpp3fCwA6GDjcBPsG5TY8g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRorHSkJrHo1HaLdP9BwP4yUjJ_yWM8CSGQe-QwVD7viTWUsq2ZeE1mcP-pHimy7lgVorWafUZd3gXQ_2zWoEXugFKA2CCG3pUmpmsINWV4V7mxUrN1x4oIvngdmXnFTSB_lofPa4nVfQE151eW3d_yyxM1HLUCe8Be0vO-Lah5B6GI6pvMk5GsUkTIR7kQX4GPErh6sshaY1Vk8oGiqqODGnrcqI7_ufQ7MB6Hf-7wmS",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAXKppvbS1GJ2EEw_LLfoeCbDSVIjJzoJFuRN-zzFVKhI-_Xg6bP4tdSQcFP7GSK7As_Co0jnhX9Gfe0r3BN_YtWY1-npj7tBrRujxpx858PUhWGkt0YGMjJA0wcHp9LxtStcfYb8pZJPkBxtRTl__-czZHtjZaCefK533joOr44oS8du63HvzkQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELV0kcMJipFvU1l_juIZPs6dekCjeqHGBjh6t5CkT5RaQ-5X9Lz73jXhLwtg4TN27szfAFwRxJ6dvf0pk6LWykbPEEpG8tH9pusg2o-I-uY7-YO7B7vjrQXXrZJ9oZYbixAEKDhHPLtHxX69WR6_hhLb_igMy9NInZssbY85FCrGr47uQwE-3nEQ=="
+  ],
+  "tokeny": {
+   "wejscie": 9263,
+   "wyjscie": 602
+  },
+  "czas_s": 197,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

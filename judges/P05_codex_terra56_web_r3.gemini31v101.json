@@ -1,0 +1,94 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹a § 1–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie Ministra Sprawiedliwości z 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym",
+   "zrodlo": "Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie eIDAS nr 910/2014",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie (UE) 2020/1784",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna i wyczerpująca. Trafnie wskazuje, że od 1 czerwca 2026 r. osoba fizyczna może wybrać doręczenia przez portal, podaje wymogi co do podpisów oraz zasady fikcji doręczenia po 14 dniach. Prawidłowo przywołuje przepisy k.p.c. oraz rozporządzenia wykonawczego, w tym regułę przesunięcia terminu przypadającego na sobotę lub dzień wolny. Wszystkie powołania są zgodne ze źródłami oficjalnymi.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 21,
+  "zapytania": [
+   "\"art. 131(1a)\" \"k.p.c.\" \"1 czerwca 2026\"",
+   "\"rozporządzenie Ministra Sprawiedliwości z 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego\"",
+   "\"rozporządzenie Ministra Sprawiedliwości\" \"doręczania pism sądowych za pośrednictwem portalu informacyjnego\" 2024",
+   "\"rozporządzenie Ministra Sprawiedliwości\" \"doręczania pism sądowych za pośrednictwem portalu informacyjnego\" 2026",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"sobotę\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"czternasty dzień\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"dzień roboczy\"",
+   "\"Dz.U. 2024 poz. 368\" \"sobotę\"",
+   "\"Dz.U. 2024 poz. 368\" \"dzień ustawowo wolny\"",
+   "\"Dz.U. 2024 poz. 368\" \"czternasty dzień\"",
+   "\"Dz.U. 2024 poz. 368\" \"14 dni\"",
+   "\"Dz.U. 2024 poz. 368\" \"dzień roboczy\"",
+   "\"Rozporządzenie określa szczegółowy tryb i sposób doręczania pism sądowych za pośrednictwem portalu informacyjnego\" \"sobotę\"",
+   "\"Rozporządzenie określa szczegółowy tryb i sposób doręczania pism sądowych za pośrednictwem portalu informacyjnego\" \"dzień roboczy\"",
+   "\"Rozporządzenie określa szczegółowy tryb i sposób doręczania pism sądowych za pośrednictwem portalu informacyjnego\" \"czternasty dzień\"",
+   "\"Rozporządzenie określa szczegółowy tryb i sposób doręczania pism sądowych za pośrednictwem portalu informacyjnego\" \"14 dni\"",
+   "\"Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1, lub oświadczenie o rezygnacji z nich strona składa za pośrednictwem portalu informacyjnego\"",
+   "\"rezygnacja z doręczeń przez portal informacyjny\" \"pisemnie\" k.p.c.",
+   "\"Oświadczenie o wyborze sposobu doręczeń, o którym mowa w § 1, lub oświadczenie o rezygnacji z nich strona składa za pośrednictwem portalu informacyjnego i opatruje kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo podpisem osobistym.\"",
+   "\"Art. 131(1a)\" \"§ 1(1)\" k.p.c."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr4FliNLqEM3Cpbqi4UK_uCZoEq62QoWnbfKZoMhC7K3MPwbfbi_TV5GTW7zYMdRQPrSYLbuZYm3o0ufd14gAAH_oFjS_XVNnAzoMEBxbMe1L-o_cRSiGu-Kk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6c5Rb27XIGpwEkpkX6ZggAv5U7PATB6bD5Kitkx_h8zHm_TB0pg8xsc1Lb7BpGAcNnV4mNAj8LCXcv2wrHPQ7XzSiZ3qEQkakg_R_zEkhGQWfMVrXTKc0ByLJlQBtvJuiIpWdq8NocdTLs_f2iFECOS65nrUth9MYPvhJcJcG0Rj33zT3mz4mMVWMMxirD8RI5mrW6NYNA0dIaBpZcmWn5pNvOJoB1jrOmp0TltLTYeDhNUOvld3hkA_1_Pc3LlCrwgSGL-PJcv41",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJTRkT4YBq2uSL_DSfapKQfQjmcEkWwIojDw8wmDotRc6NsitcIuA67InqoM8sQOLCPoOfgPourgA4-zI6p-IKq1SNDCHneCPz3EDoVD3zEdyC2b5C59X-W-BDvTfc7tGpAPn54_e76na2Buj232FtQxxO29a64cqlcT5LcKxcXhhHVareoY3AgKHIWehtkHlOPIOIXC-06QkrRhBE_K_FBn6nDRg--ohXLI719MSh3DFWugE9qPQtfSJkl9DtMkVlqcr_Jm0d3ZZhnncVTVUSXs0fChlrPHSLwhA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGr29z5S__aIM9CkEciDcPzYHx0PdFEtI7LCHuXmAcbdR5uScqju1CvcygK9wr_jStoV2xfzOuCKUqe_8j7Gk6JBtsTR3zNW2Idh_p_1x06P4G_wUxoshG4VIwG0WSFZsDFjB_W9NLDt_Xkt2WCDciETrtSTg6TJByL2ZY9u5DQWTaxd7kVhxig5fb8A7kfR2Ihf2oa8cA6b2lvtDZ1eRGitAFiwxS",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw1jw014ZDIi3k6CLfL1KfB2tp_5QXSLr6fh8E3U7pfESOAMRuJBT-RCKCpx0t4JVdrEVyZmIXG9YLH34kv-Xx0zC3i6gxIoz7Pcu3AtDAFGgMrUToeQFxCXZCNS_rmP41AbrJGrS9JrGontv-8ObOZWJCjTNyMhbTnyr5my6c3PkuQPFt4YrlIAO_rD4dWmpqKz_u383pY8iZbyx3PrPhjPgXC5xr7MixWlrZU5VIB0XwkTdZPMRrLFU1DnUde06GtlCcjVilLqQFmUxCZD7MjUmCCC574owcfwvY8scQypJJba-X7rxkoVQ3vqVYpLc5OUXB7yPf"
+  ],
+  "tokeny": {
+   "wejscie": 11277,
+   "wyjscie": 478
+  },
+  "czas_s": 141,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

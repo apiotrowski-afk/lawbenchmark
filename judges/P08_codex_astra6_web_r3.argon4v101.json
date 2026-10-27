@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727 (Rozporządzenie (UE) 2024/1689)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727 (Rozporządzenie (UE) 2024/1689)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727 (Rozporządzenie (UE) 2024/1689)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wyjaśnienia Komisji Europejskiej / objaśnienia art. 50 (digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act)",
+   "zrodlo": "Komisja Europejska — FAQ on Transparency obligations under Article 50 of the AI Act (digital-strategy.ec.europa.eu)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń (A-R=2) oraz wszystkie wymagane podstawy prawne (A2=1): prawidłowo wyjaśnia przesłanki definicji deepfake z art. 3 pkt 60 AI Act (w tym brak wymogu zamiaru wprowadzenia w błąd) oraz wskazuje na niezależny obowiązek dostawcy z art. 50 ust. 2 AI Act odrębny od obowiązku podmiotu stosującego z art. 50 ust. 4. Wszystkie powołania przepisów i materiałów Komisji Europejskiej są zgodne z oficjalnymi źródłami (A6=1). W rubryce odpowiedź traci punkty za R5 (brak wskazania daty rozpoczęcia stosowania przepisów lub terminu przejściowego) oraz R6 (odwołuje się do wskazówek/wyjaśnień KE bez wyraźnego zaznaczenia, że stanowią one niewiążące soft law, zgodnie z regułą oceny z 2026-10-18). Kalibracja jest prawidłowo warunkowa (B2=1), a odpowiedź zwięzła i w pełni użyteczna praktycznie (B1=2, A8=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 3 pkt 60\" \"2024/1689\" eur-lex",
+   "\"Artykuł 50\" \"2024/1689\" eur-lex",
+   "\"digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act\"",
+   "\"digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act\" \"deepfake\"",
+   "\"Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3wP1qkCZdFV-X9pIK-iYaxseOj3ZdvVWP357I7hFH42l6rfUt5qVu5FRvJs4CLbVq69tDgykFRKnizPWWf8hT6lm9zjoZA4Zr3ysCYCQGS8qMZWQ1YgIAJiL1vPV-oiwO67JHvluvjiRef4MqSdHgU4OMFxG2a31DssKa7RxQRA1u",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxnTdo_stfOkVMRKGaKNXi6DeOmnE4ygoL4qhtS8FRU2CMzLCbZQIKeTyJlNGintlkG0LAbqQdDbeARPLAEx1V2bUWZKwH9p2Af2oPiQs9GULC45SmO86rXOH-9rVvlhCE_hGaQkwqJJu_NnatgzGWAA3a6I6vHDs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRvrhk6EAgWtl2LedA7HsRnysVOsaEol7pOeE6I8wbbIytuUbdcpusxDkZ9Eme4TXpjRR8M84Zn2a8rxY8TJw8dqXGMFYO8hukGiKqZ7r9TKyzrcXJ7oWEJjXvnnGDnwH6Urvg9hYCT1yqog17ABPMZwz--qTt_6lNmeyKPLk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpX90QoRyufSGOw-LFZrRhIe5kRUK7NoZBurntA9_12o4Nwi0BSoFNc2VO0SSfYOkhOUpDWj5gfQUV26RSHatjwMmRF8HVDK2aiobnB80jdFKYO8rVYyBMZIfyzZ1hN5PBG8Gp0qR4NLvrBG0XJw_kRNyWfZVZ7fKNeg_4eTA7xbeGNd7V7I3YUUPtzL52VlZg9yii5gnL-w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-hHINCJJGgT22v5HDWagg7nhQAXGvI-A8p_GTlmUgNJa4OCzLvz6XiWnPa7PSwfEJNUEOTqKr5Lsqe0VARFw27b5aiW5IBJ772Fnqf-l2Q2WbFyTbj8xZyzebbyyoh5m-hW5uR1Nj-Ja9LwNZuZ2CpilA1abRO5n-0Fn29skraxhm1LdoT_LFdZ1T4JkESG2fC8wxMB059S8="
+  ],
+  "tokeny": {
+   "wejscie": 14981,
+   "wyjscie": 987
+  },
+  "czas_s": 77,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

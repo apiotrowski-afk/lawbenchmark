@@ -1,0 +1,98 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców — wymóg zezwolenia ministra właściwego do spraw wewnętrznych w drodze decyzji administracyjnej",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.), art. 1 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 KPA — decyzja, od której nie służy odwołanie, jest ostateczna (jako przesłanka tezy, że decyzja ministra jest ostateczna z chwilą doręczenia)",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j. k.p.a.), art. 16 § 1",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 127 § 3 KPA — decyzja ministra nie podlega odwołaniu, więc jest ostateczna z chwilą doręczenia lub ogłoszenia",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j. k.p.a.), art. 127 § 3",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustawa – Prawo o postępowaniu przed sądami administracyjnymi — skarga do sądu administracyjnego nie wstrzymuje wykonania decyzji, chyba że sąd postanowi inaczej",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j. p.p.s.a.), art. 61 § 1 i § 3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks postępowania cywilnego — klauzula prawomocności i wykonalności dotyczy orzeczeń sądowych i tytułów egzekucyjnych",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.), art. 364, art. 776–777",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie koryguje formę zgody (decyzja administracyjna MSWiA, a nie postanowienie sądowe) i wskazuje na zaświadczenie organu zamiast klauzuli, lecz utożsamia ostateczność z prawomocnością i pomija mechanizm uprawomocnienia po bezskutecznym upływie 30 dni na skargę do WSA (A-R = 1, R = [1,1,0,0], K = [0,0,0] zgodnie z regułami z 2026-10-18). W A2 przyznano 0 pkt z uwagi na brak powołania art. 1 ust. 1 u.n.n.c., art. 16 § 3 k.p.a. oraz art. 217 § 2 pkt 2 k.p.a. W A6 przyznano 0 pkt (hallucinated = true, typy T i W), ponieważ system opisuje art. 16 § 1 k.p.a. według stanu prawnego sprzed 1.06.2017 r. (z pominięciem wniosku o ponowne rozpatrzenie sprawy) oraz przypisuje art. 127 § 3 k.p.a. fałszywą normę, jakoby decyzja ministra stawała się ostateczna z chwilą doręczenia lub ogłoszenia. Błąd ten przekłada się na mylącą wskazówkę praktyczną co do terminu uzyskania przymiotu ostateczności/prawomocności oraz możliwości posłużenia się samym dowodem doręczenia decyzji (B1 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"art. 127\" \"wniosek o ponowne rozpatrzenie sprawy\" OR",
+   "\"Decyzje, od których nie służy odwołanie w administracyjnym toku instancji\" \"art. 16\" kpa OR",
+   "\"Od decyzji wydanej w pierwszej instancji przez ministra\" \"art. 127\" kpa",
+   "\"ustawa z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców\" OR",
+   "\"lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne\" \"16\" kpa nowelizacja",
+   "\"eli.gov.pl/eli/DU/2025/1691\" OR \"isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250001691\"",
+   "\"eli.gov.pl/eli/DU/2017/2278\" OR \"isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20170002278\"",
+   "\"eli.gov.pl/eli/DU/2026/143\" OR \"isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000143\"",
+   "\"lub wniosek o ponowne rozpatrzenie sprawy\" \"art. 16\" \"2017\" kpa",
+   "\"z chwilą doręczenia lub ogłoszenia\" \"127 § 3\" kpa",
+   "\"Wniesienie skargi nie wstrzymuje wykonania aktu lub czynności\" \"art. 61\" ppsa"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRYcOFKcF7E4QAWQIrsoci5i1DyND-2UJif64BLZSGtXCBjtX9UZ6jTArG2BEcjVIUkJ9NlWb_KTtMd6JN9uUssKygsygDBELby6OZJ39ntCVq3_kymDk5bfcOsati3tvx8hbF6nKPkGdLMiGa20NnMdCmYTTwjKej-l7fkbrCApvSxxZg7zePPZqpwOF856-_s1sUbPv8NBFT54RxR89okKbI3huv_Kfs0w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwtNGK0LZRzlJK_VKC_j9ACNgnNLLIqLBY7hh2Vh4rpzGvH8S9C1MhMaG62s_vXSHv1SgyroOjO4pb3eauAl4gsTn0qYpkuEiFrO7mv0OQ04PiqgdyjcrvwiAVnTeDR794tiuvAOep14XhVnER1lLeTK3KisnZ9m_YUNukTijCtZcae6XRpbqdFUgW4JiWMWozTG3atuZqerF-03n5LmXbJ4zldU8uvBtNmQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFz6XON6Qqr4Fl31bVzM2_Si5KYs3PDTh0c2oGCsEHtejOIk8M0lTujwIlVE88NaRnaIpNNfa0eSku4_xVYZkxtJ0W9S44ymZG0Kfc5T6zMjs_tOMLRjaCoz6jvk2rOg5lOHfgoM87JYRrrEnhr63rAj6YzemZLVi4tg1xDYM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVvdr2mJjc_XH_FFNLodXQVAojNpVFHSoeZy0oPHLLGsC1gSB5neBsrHX_wU5qR-MSA5X00hgxSdq4Apr1rTeOi76nuVb2pQh-uAKvaUxy2Cel1CsSXIIdYfGfaN2cLRB-KgF7aPC0IX4wUNV9tWkpwxZN6gzmjWi6Lbq1Iw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4hCXiBxZBcAd-DXQTWgjmTG7z2uYjpnkWaHjFrIw5X6DEFphj2TgMN_5mnniGxZWCfwgENgrB_zmQeeaJI9VyQqyDdv57hTEH7OOyaLzwcTCEQHFe86cNq3djwW47He8wSFkyRBLnyxtqqwHX4Wxf_0dp8naUY0Mq1Wi_SyNebuNLBpexPGlq11GWz1FL26N0pUrgl-ISML6OvcLhFoqtu2af",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGcYvQRsWtU2PMiqwadhC-ho0BPh71GEnlRTmIZ-PeLaVajsFTwYZYCAV5UlALjDA8Sg8UzDoSlLyLf8s0uI65EiIfVQlGaZNXUekWkJ9TTEqCzdANhfB2IcXV8cwo3k2FGw2P6ryKidLF0wzr_qLv976s4uyu3jYBKDTj_gEuzJ9jdA-azCUVvgGXgz4sRNgfwIsLmcqYCB3r1sRiiR8esB3eZTznFSfC",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT08gBOX6IguiYIRNUO2wzTN_6cMPNSX4MU7dzr3Wn9_fhCckf2fXBoF0G-zLVB439uLRCYMdplaYlx86CJ8OIAJbOwljS5NxVklajFQVMrNZqzJT82TJsN54u56Z6j6fctvLHUDVxCNboCoueaIZIN_fM1LuqseFJXxHP2BXNdnT2zQZY6ahz7Tglz6KiQbPc-TKnl0rS_uCYNipT2pg9DbQvWtZby3xrVwrOvioh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-mnqypfchys8I1Ehq-gh1XAebBzDgM2Pe7o-bA-7Zd7zJzbG8qruiG7okmhlocFbgO8vE50Wphr2kEL3fJSb1xbWyR7wZwXnAF0m0x0K1EzeZVSyUyd6iYuZ9arGwn1aUYQ4t7NPpg1ylHsqDBUG94vw05_h3kg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVB3b8rQ6oOawrmDSjGIM3lQxroxq69MyREIG1ongnnchHXSJjrI7Glz0pGc2zQGKCJDXyBGYkPKjVS9BDUYxcIWDfW1BmO9ZbqP_hgwz8D-zQgCeIlSzApnmJyUpi8yE4MpayDAp9n_OTVV9Z-bpwoVKsqG1cK4cnX-73gL9sUUrZ2GiJyqm0bk0Twt-5LlWq6aaVAmjN8I2rFLjh36Aiqyc1zeJd0UiQa-7uzZcY-n4MqieMHRwebMfp7j0IL2RP"
+  ],
+  "tokeny": {
+   "wejscie": 14848,
+   "wyjscie": 1584
+  },
+  "czas_s": 179,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

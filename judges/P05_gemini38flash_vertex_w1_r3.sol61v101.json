@@ -1,0 +1,89 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29, brzmienie od 1.06.2026",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 1¹ k.p.c. — wybór doręczeń i rezygnacja",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 134 § 1 k.p.c. — wyłączenie stosowania przy doręczeniu portalowym",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29–30, art. 131¹ᵃ § 2 i art. 134 § 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 29",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. — doręczenia przez system teleinformatyczny, także w EPU",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf — s. 28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks postępowania cywilnego z 17 listopada 1964 r., Dz.U. 2023 poz. 1550 ze zm.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2023/1550/ogl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Ministra Sprawiedliwości z 12 marca 2024 r., Dz.U. poz. 368 ze zm.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html oraz https://eli.gov.pl/api/acts/DU/2026/225/text/O/D20260225.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych, Dz.U. 2023 poz. 285 ze zm.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/285/text.html",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Praktyczne działanie powiadomień telefonicznych oraz wskazanej metody potwierdzania tożsamości przez mObywatela."
+ ],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń i wszystkie cztery elementy rubryki, wskazując wymagane podstawy prawne. Sprawdzone powołania nie przypisują przepisom treści sprzecznej ze źródłami; starszy, prawidłowy publikator z dopiskiem „ze zm.” nie stanowi błędu identyfikatora. Nie przytoczono dosłownych cytatów przepisów. Rozbudowana sekcja o odrębnych kanałach, zwłaszcza e-Doręczeniach w administracji, uzasadnia A8 = 0,5. Główna instrukcja jest przydatna i sformułowana z właściwą pewnością.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 16,
+  "czas_s": 62,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

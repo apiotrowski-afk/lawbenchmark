@@ -1,0 +1,68 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 583 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "A_R = 1: odpowiedź wskazuje przede wszystkim potwierdzenie ostateczności, ale następnie wyraźnie dopuszcza prawomocność decyzji. Brakuje zaświadczenia organu, podstawy z art. 217 § 2 pkt 2 k.p.a. oraz mechanizmu uzyskania prawomocności, dlatego A2 = 0 i zaliczono tylko R1. Wszystkie sześć powołanych jednostek sprawdzono literalnie w źródłach oficjalnych; przypisane im treści są zgodne, a pominięcia nie obniżają A6. Nie naliczono K3, ponieważ odpowiedź nie wyklucza prawomocności ani nie mówi o wyłączności ostateczności; wariant postanowienia sądu jest dopuszczalny według klucza. B1 = 1 za częściowo przydatną wskazówkę bez wskazania właściwego zaświadczenia o prawomocności, a B2 = 1 za jednoznaczną tezę.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 8,
+  "czas_s": 40,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

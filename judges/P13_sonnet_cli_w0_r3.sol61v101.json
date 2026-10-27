@@ -1,0 +1,65 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 493 § 4 k.p.c. — oba powołania dotyczące wstrzymania wykonania",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 820 i następne k.p.c. w związku z art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=191",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 730 i następne k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=160",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=160",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: wstrzymanie wykonania nakazu z weksla dotyczy egzekucji, a jego funkcja tytułu zabezpieczenia pozostaje zachowana. Art. 492 § 1 nie uzasadnia wyłączenia funkcji egzekucyjnej nakazu z weksla, art. 493 § 4 reguluje rozstrzygnięcia po zarzutach, a art. 820 bezpodstawnie rozciągnięto na zabezpieczenie w opisanej sytuacji; błędy mają deklarowane pochodzenie z pamięci. Brakuje wymaganej podstawy z art. 492 § 3, wszystkich elementów rubryki i prawidłowych wskazówek działania, dlatego B1 wynosi 0 i naliczono pierwszą karę. A8 obniża omówienie odrębnego zabezpieczenia na zasadach ogólnych, wykraczające poza pytanie o zabezpieczenie na podstawie nakazu. B2 wynosi 1, ponieważ tezę postawiono wprost, a jej błędność oceniono odrębnie.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 117,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

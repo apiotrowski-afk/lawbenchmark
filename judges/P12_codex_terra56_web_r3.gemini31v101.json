@@ -1,0 +1,96 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o. (link do Dz.U. 2020 poz. 1359)",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "Postanowienie SO w Szczecinie, VIII Gz 140/18",
+   "zrodlo": "orzeczenia.ms.gov.pl",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wyjaśnia brak możliwości uzyskania klauzuli „bez ograniczeń”, prawidłowo rozróżnia tryby z art. 787 i 787¹ k.p.c. oraz prostuje błąd co do art. 781¹ k.p.c. Zalicza wszystkie elementy rubryki. Niestety, w sekcji źródeł powołuje postanowienie SO w Szczecinie VIII Gz 140/18, które w rzeczywistości dotyczy nadania klauzuli na rzecz następcy prawnego (art. 788 k.p.c.), a nie małżonka, co stanowi przypisanie orzeczeniu cudzej treści (błąd T). Ponadto link do k.r.o. wskazuje nieaktualny tekst jednolity z 2020 r. (błąd S). Skutkuje to oceną A6=0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P12",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"VIII Gz 140/18\" \"Szczecin\"",
+   "\"VIII Gz 140/18\" orzeczenia",
+   "\"VIII Gz 140/18\" \"787\"",
+   "\"VIII Gz 140/18\" \"787¹\"",
+   "\"VIII Gz 140/18\" \"uzasadnienie\" \"Sąd Okręgowy w Szczecinie\"",
+   "\"VIII Gz 140/18\" \"788\"",
+   "\"VIII Gz 140/18\"",
+   "\"VIII Gz 140/18\" \"uzasadnienie\" \"Sąd Okręgowy w Szczecinie\" \"787\"",
+   "\"VIII Gz 140/18\" \"uzasadnienie\" \"Sąd Okręgowy w Szczecinie\" \"788\"",
+   "\"VIII Gz 140/18\" \"788\" \"Szczecin\"",
+   "\"VIII Gz 140/18\" \"787\" \"Szczecin\"",
+   "\"VIII Gz 140/18\" \"małżonek\"",
+   "\"VIII Gz 140/18\" \"małżonek\" \"Szczecin\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12496,
+   "wyjscie": 787
+  },
+  "czas_s": 263,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2023 poz. 2119 / Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2023 poz. 2119 / Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r., Dz.U. 2022 poz. 2600",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 k.k.s.",
+   "zrodlo": "Dz.U. 2024 poz. 628",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1a k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 § 2 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni realizuje klucz odpowiedzi, precyzyjnie wyjaśniając, że od 1.10.2023 r. obowiązuje stały próg 800 zł niemający powiązania ze wzrostem płacy minimalnej. Wszystkie przywołane przepisy k.w., k.k. oraz k.k.s. (wraz z publikatorami) są w pełni zgodne ze źródłami oficjalnymi. Wskazano art. 124 § 1 k.w., co zalicza element R4 rubryki. Brak dosłownych cytatów w cudzysłowie czyni A3 bezprzedmiotowym (nd). Kalibracja i przydatność praktyczna są na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 17,
+  "zapytania": [
+   "\"Dz.U. 2023 poz. 2119\"",
+   "\"Dz.U. 2024 poz. 17\"",
+   "\"art. 278 § 1a\" kk",
+   "\"art. 53 § 3\" \"art. 53 § 6\" kks",
+   "\"art. 278 § 1a\" \"Kodeks karny\"",
+   "\"art. 12 § 2\" \"Kodeks karny\" \"krótkich odstępach czasu\"",
+   "\"art. 278 § 5\" kradzież karty",
+   "\"art. 278 § 1a\" \"karty\" k.k.",
+   "\"art. 278 § 1a\" Kodeks karny",
+   "\"art. 278 § 1a\"",
+   "\"art. 278\" \"§ 1a\" \"Kodeks karny\"",
+   "\"art. 278 § 1a\" k.k.",
+   "\"art. 278 § 5\" \"uprawniającej do podjęcia pieniędzy z automatu bankowego\"",
+   "\"art. 53 § 3\" \"art. 53 § 6\" kks \"pięciokrotność\"",
+   "\"pięciokrotnej wysokości minimalnego wynagrodzenia\"",
+   "\"art. 53 § 3\" kks",
+   "\"art. 53 § 6\" kks"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12458,
+   "wyjscie": 841
+  },
+  "czas_s": 72,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 1 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z dnia 23 września 2004 r., sygn. akt III CK 400/03",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "A-R: 1, ponieważ odpowiedź trafnie wskazuje, że ogólny zapis nie wystarcza, ale pomija kluczowy warunek (możliwość dookreślenia pól w drodze wykładni z art. 65 k.c.). A3: 0, ponieważ cytat art. 41 ust. 2 pr.aut. zawiera dodane słowa i zmienioną formę gramatyczną. A6: 0 (T), ponieważ system przypisuje art. 65 pr.aut. treść dotyczącą 5-letniego okresu licencji i jej zakresu, które wynikają z innych przepisów (art. 66 i 49 pr.aut.). B2: 0, ponieważ przy oczekiwanej kalibracji warunkowej system odpowiada kategorycznie, pomijając możliwość wykładni umowy. B1: 2, ponieważ odpowiedź zawiera bardzo przydatne i praktyczne wskazówki dla prawnika.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu (licencja) obejmuje pola eksploatacji wyraźnie w niej wymienione\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"III CK 400/03\"",
+   "\"III CK 400/03\" orzeczenie Sąd Najwyższy",
+   "\"III CK 400/03\" \"blankietowe\"",
+   "\"III CK 400/03\" \"wszystkich polach\"",
+   "\"III CK 400/03\" \"żadne konkretne pole\"",
+   "\"III CK 400/03\" teza",
+   "\"art. 65\" \"prawo autorskie\" \"domniemanie\" \"licencji\"",
+   "\"art. 65\" \"prawo autorskie\" \"5 lat\"",
+   "\"art. 66\" \"prawo autorskie\"",
+   "\"art. 67\" \"prawo autorskie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp_opQnOI5f_vrUnzVpnxOUtItPuzuTWbqDaR27bZd7RRneZUeB8FcxOQt22shb9x_DeU9EszGF4hIcfI44iR-rtyaZM__Ga93a7u9BcQaG824dkJg09j0ZrBY--aMl16zJ4TL",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw5ENeaIrTAj1rcICSlZuZcA2fCL-byNLV_j5fgzF-aVPPUzcSLwUlb1BAQ7etG-o2vxPEVzRIxmJUxFKjLrwS4CSgrDmEcVBo362UeLstK_AI4B_edOOxpvEqMPYHCy_qCBsG6gkCW0WiBQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtfRA0j5b4t9cXEtrtWxNeUm97O2DTW9vl5_qL9gQoiQgw-yWqMwYuf_CXBBrZSJnGQcfE1W-0mCHwi5QYg1hm0hR65-yBT3Zqi7L0lEa4yW6KHVK7rO0o0DnaZ2ylYb2uda2dQMQaMXfMYgzfIkVK7Nydle3v7aIDTqiw-kpjc_SXpaBkh342TMBKWASv3UJlBKYQwwKo6D1nUkC-N-ijseKRpVeQUy7WMCuhcMq7YRioFZP-Zj6e8tMNPBqShZ4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvPbRVJGDAx4YrZhcX-uY6vIfDJU4tGs9S0EJzTk8rWaf7ZfERPcn8oj-45YhmL8rCCsqE7stIbh01oRiJKWsosDGv0K0tYxB_4kH-QSwPL06w5qx-AFMxvDCnFApe6ph8uGjJZXAii4dfu910A42MkkmJMcw91CEUd0cCb0lfMd4wHlnJN8h5",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1f0Qqxox2j4o_aXNsJ2KBjTqNE2C9Gfq4t5uKqP05kRlrV3NelzXZhQpXfg63EyGB69-k8UaB_uhhsJpK9tRjGZbex7MmZS_NtktxtfJfSFXuoHZ6pdTtHOHQLUq8qTv79PrEEvWgRwITW0Upx2tomq2NniHKE1vsSlXS11U=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNHMT7s-H0XQNl0SYYBouWSwC49VSyVAMLgLraz8Uj4bhaMzZbe4sBFk0URRl9gzSs6cewwlL24eTBxAW81RZFs7TzLJzEEwY0z97cTmELY0QQjoHXHFcIcMUbnhwslTNbjHWoQw5HaV7Vz2BGiQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY4M3O9Gw88IV9HgnoLIf0vmb1oZDLig__exKW7RulLabimBLmtUkFGmLohMA-IrVenH8v4_MCNFRnaFq5AQmwgBDAQ-GVLG5Hyp6KvuRXhLroJfEVDtWim3qz4ok6eR7afTvMGa-IZq-z56Eiv_OZjDuk7rYx9T8CtIHw7WwaJWcgMVg2_Ggnh6SwFAYrPulZ7ezdrzCcJyhQQUpZBNk="
+  ],
+  "tokeny": {
+   "wejscie": 15282,
+   "wyjscie": 1142
+  },
+  "czas_s": 259,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

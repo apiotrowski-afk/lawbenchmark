@@ -1,0 +1,73 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 111 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 368 § 1 pkt 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie odnosi art. 357 § 5 k.p.c. do wyroku i apelacji zamiast do postanowienia (klasa T), a także powołuje uchylony art. 111 k.p.c. jako rzekomą podstawę liczenia terminów procesowych. W konsekwencji nie powołano wymaganej podstawy art. 357 § 1 ani § 2¹ k.p.c. (A2 = 0). Całość wywodu skupia się na apelacji od wyroku, co wypacza ramy pytania o postanowienie (A8 = 0). Z powodu kardynalnego pomylenia trybów procesowych oraz asekuranckich zastrzeżeń przyznano 0 punktów w B1 i B2.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art 111 kpc\" sejm isap",
+   "\"art. 111 k.p.c.\" sejm isap",
+   "\"art 357 kpc\" sejm isap",
+   "\"art 111 kpc\" treść sejm",
+   "\"art. 111 §\" kpc sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9070,
+   "wyjscie": 509
+  },
+  "czas_s": 32,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

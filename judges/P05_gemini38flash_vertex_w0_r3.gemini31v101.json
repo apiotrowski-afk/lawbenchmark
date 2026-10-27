@@ -1,0 +1,96 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 i § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpadł w pułapkę aktualności, opierając się na nieaktualnym brzmieniu art. 131¹ᵃ § 1 k.p.c. (sprzed 1.06.2026 r.) i błędnie twierdząc, że doręczenia przez portal nie obejmują osób fizycznych bez pełnomocnika (A-R = 0, A2 = 0, A6_typ = W). Ponadto system przypisał art. 131¹ § 2¹ k.p.c. treść dotyczącą fikcji doręczenia, podczas gdy przepis ten dotyczy rezygnacji z doręczeń elektronicznych, a art. 131 § 1 k.p.c. treść o doręczaniu do rąk własnych (A6_typ = T). Błędna i kategoryczna porada, że konto na portalu ma charakter wyłącznie wglądowy, grozi utratą terminu, co obniża B1 do 0. Kategoryczny ton przy błędnej tezie daje B2 = 1.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 131\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 131^1\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 131^1\" \"Kodeks postępowania cywilnego\" \"§ 2^1\"",
+   "\"art. 131^1\" \"§ 2^1\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 131^1a\" \"§ 2\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 131^1\" \"§ 2^1\" \"Kodeks postępowania cywilnego\" \"fikcja\"",
+   "\"art. 131^1\" \"§ 2^1\" \"Kodeks postępowania cywilnego\" \"14 dni\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIYXVvwfGadoFTme4Dr3lwHYf7H6r4EsKrNYkSr0sYEIyCCc9fw9RkmcOpzQik-FeQlcIY1Lk4mvNuVgqb-CnZw5KxdnKshfALp1tsiD7_MV7ENQWnraKjC7TLJTwS4DYs38RvxqoXMeCFN_UDDw1GxYu4Ww_Hi3tNSmqzID5T40SMJRnH79QWHxInAT3w1OHQxxrWX-gjGn1v30zv",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmRQXwaOe0q3ig6U26giv2yDEe6w67J9fyX3UhinbvgBpKRUOJbglqfAWWZnoVrAGBYVdeCCApivp8W2vVNW_uNm5ObF1i-xP6bQW00EJ0TiUfEF1xHjoA1RJcKtjB6d2TeqnA1FxZEBvIyrqydOaCTUfiuu2KDh2pqzk=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIHklKzROd6hAJeAiL2rvU412shH61FaL54rFj36Hwcb2-_kCHXddjfaZtmd-r5WWLXFcpT6mgM3gaKJwp1YMtXeKag4bqH7JU-MmGXi5u0_w23O3tDkQk4t8pAwNquLYmniNYb-m8N0KSDc-zgXK6IA82CYtKaeoC",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtzvYurRI7cUow5JlBKwFYfmIENBIfExngTMy7kUApM9BCtYzWnBcoz-0WGETdxAd-OkHM0CGqQHDIVInUstU8dMNISxlNwFqyVgd9oqCtj0RbUH2q-9O6yLfKd5_z_aVLHPyBx7Wb5x_dVJl1r26ZaX-fv-6q0Y5BzjY3fDFhGZlRsU83c7fh7MVh4Y2b2JRRK1rweNU4RKPw8OQF",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6wXYPkycg_O07PqBq_FQEjkPqVDADCWPW-b2rX3tGGpS6wU3ZiwTz8c4VRcgxrFW57vnLh01N3UiK47uWvFqp8rk0hpPXdtLVxtRUdr__CF6xaGQoZBIZ-t5sTDWXT1jzxS47h1TYK8P4t3vKWOQWIA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER23VpuuSkEzukuMGCzd-55JsyTyoRfnnyJ0JKUOhGD63qeJW_G4tTREccGFZ5ukS1LlB9ZDeuQVTrxlv3UOFTX4_xlt_Q83euKPlsXshCqwMaiXyEIzMwob6rW3AYrjl8Aw9ddXp9O7RWMsGPeVVFN3EoMg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTMtPmYoSQufKoMxMsRqsSf-c7SqgKY64LEeucf1efeYGB7r1b0UJhJE9MccocnDVoyOODVNAyZ9-3-sFrGV2VzjcKB6PRyFZUUgopwYXE5XiUS-b8GvieOuFB"
+  ],
+  "tokeny": {
+   "wejscie": 12019,
+   "wyjscie": 817
+  },
+  "czas_s": 204,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

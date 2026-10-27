@@ -1,0 +1,90 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych — umowa o przeniesienie praw majątkowych obejmuje tylko pola eksploatacji w niej wyraźnie wymienione",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.), art. 41 ust. 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 u.p.a. — ustawowe nazewnictwo pól eksploatacji",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.), art. 50",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 u.p.a. — umowa może objąć tylko pola znane w chwili jej zawarcia",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.), art. 41 ust. 4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 u.p.a. — nieważność umowy w części dotyczącej wszystkich utworów lub wszystkich przyszłych utworów określonego rodzaju tego samego twórcy",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.), art. 41 ust. 3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 u.p.a. — licencja wyłączna wymaga formy pisemnej pod rygorem nieważności",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.), art. 67 ust. 5",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 u.p.a. — autorskie prawa osobiste twórcy nie podlegają przeniesieniu",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.), art. 16",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 u.p.a. — przeniesienie autorskich praw majątkowych wymaga formy pisemnej pod rygorem nieważności",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.), art. 53",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo zaprzecza błędnej przesłance pytania już w pierwszym zdaniu, wskazując wymóg wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 pr.aut.), ograniczenie do pól znanych w chwili zawarcia umowy (art. 41 ust. 4) oraz wymóg formy pisemnej pod rygorem nieważności (art. 53), co daje pełny rdzeń (A_R = 2) i komplet podstaw wymaganych (A2 = 1). Wszystkie powołane przepisy ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24) są zgodne ze stanem prawnym na 2026-10-01 (A6 = 1), a wobec braku dosłownych cytatów w cudzysłowie A3 = nd. W rubryce odpowiedź traci wyłącznie punkt dodatkowy (R5) za brak wskazania liberalnej linii orzeczniczej SN i wykładni umowy z art. 65 k.c. (system wprost przyznaje, że nie odnalazł orzecznictwa). Praktyczne wyliczenie pól eksploatacji dla social mediów oraz prawidłowa kalibracja (zaznaczenie, że ogólna klauzula nie jest wprost nieważna, lecz rodzi spór co do wykładni) uzasadniają maksymalną ocenę w bloku B (B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"art. 41\" \"pola eksploatacji\" \"Dz.U. 2025 poz. 24\" OR \"isap.sejm.gov.pl\" OR \"eli.gov.pl\"",
+   "\"art. 50\" \"art. 53\" \"art. 67\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"art. 16\" \"art. 41\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"art. 41\" \"wszystkich utworów\" \"o prawie autorskim\"",
+   "\"Art. 67\" \"Umowa licencyjna wyłączna wymaga zachowania formy pisemnej pod rygorem nieważności\"",
+   "\"eli/acts/DU/2025/24\" OR \"WDU20250000024\" \"Art. 67\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13746,
+   "wyjscie": 1326
+  },
+  "czas_s": 105,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/U/D20250734Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/U/D20250734Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/U/D20250734Lj.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo podaje próg 800 zł włącznie i wyklucza jego zależność od płacy minimalnej. Wszystkie trzy powołane jednostki sprawdzono literalnie w urzędowym tekście; przypisane im treści są zgodne. Nie zaliczono R3, ponieważ nie wskazano daty 1.10.2023 ani wcześniejszego progu 500 zł. Omówienie art. 124 § 1 spełnia R4, a krótka uwaga o włamaniu wyjaśnia zakres progu i pozostaje w ramach pytania. Brak cytatów w cudzysłowie uzasadnia A3 jako nd.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 6,
+  "czas_s": 28,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

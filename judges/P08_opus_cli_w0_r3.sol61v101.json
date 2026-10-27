@@ -1,0 +1,102 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 3 pkt 60 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=pl ; https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 50 ust. 1 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 4, w tym zdanie trzecie, AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 7 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 113 AI Act — stosowanie art. 50 od 2 sierpnia 2026 r.",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=pl ; https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Motywy 133–134 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 23 i 24 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ogólne odwołanie do orzecznictwa chroniącego głos jako element tożsamości lub wizerunku",
+   "zrodlo": "https://www.saos.org.pl/judgments/164846",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 85 i następne prawa autorskiego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/I/D20250024.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 9 RODO",
+   "zrodlo": "https://www.gov.pl/attachment/6ad1668e-e043-4c47-8455-870a6dd1ea80",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wytyczne Komisji i kodeks praktyk dotyczący oznaczania treści generowanych przez AI",
+   "zrodlo": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems ; https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Podsumowanie zawiera pełny rdzeń, wszystkie wymagane podstawy i prawidłowe rozdzielenie adresatów obowiązków. A6 obniża zawężenie art. 3 pkt 60 w przykładzie generycznego TTS: brak naśladowania konkretnej istniejącej osoby nie wyklucza podobieństwa do osoby mogącej realnie istnieć, co potwierdza oficjalne objaśnienie Komisji; błąd może prowadzić do pominięcia ujawnienia, stąd B1 = 1. A3 = 0 za zmianę definiowanego zwrotu z „deepfake” na „treści typu deepfake” oraz „oznacza” na „oznaczają”, niezależnie od błędu interpretacyjnego. R6 = 0, ponieważ wzmiance o wytycznych i kodeksie nie towarzyszy wskazanie ich niewiążącego charakteru. A8 = 0,5 za osobną sekcję dotyczącą innych gałęzi prawa.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 83,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

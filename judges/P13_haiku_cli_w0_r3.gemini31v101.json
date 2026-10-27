@@ -1,0 +1,96 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 730 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 739 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 493 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System błędnie zakłada konieczność uzyskania odrębnego postanowienia o zabezpieczeniu, ignorując art. 492 § 1 k.p.c. (A-R=0, kara K2). Odpowiedź zawiera liczne halucynacje (A6=0, typ T): przypisuje art. 739 k.p.c. zasady wykonania zabezpieczenia (właściwy art. 743), art. 493 § 3 k.p.c. wstrzymanie wykonania nakazu (właściwy art. 492 § 3), a art. 394 k.p.c. zażalenie na zabezpieczenie (właściwy art. 741). Ponadto system niepotrzebnie warunkuje odpowiedź, co obniża kalibrację (B2=0), a błędne wskazówki czynią ją nieprzydatną (B1=0).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 739\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 493\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 394\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 741\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 394 § 1\" \"Kodeks postępowania cywilnego\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy5DerjpquI547lMEXjE2QX9SH0rOAmXl03hf5wmGOETqiEuZ0fejiVVLYo2sXTXz_A5_BCWCE_4aYUVZQyIbMcyWfG05XqEenpqOfs9ypOmUPyVg8ASVl227urao4QVY4PPndIWLH-J-8FrDlHIg-zAOC9RIlmt_m",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhxGIcywIcF7Cy-wxF2ftB5dETJ24QRNkRS6YdnvdUDQbH2X_1GmChiUg2LoMtKj6RemSMJz9acnsTmW9Rq0mmx6pMHSApdcbAxiSfoR5F8TtqAr2y5WuaY2_fXhFk1O4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjj9ZRZbC6CKCin7y7rgnJcp5pb2YF_BLd3W_gIvEdXqweQ_KoEcqMsmglQ_6ktASC9KJPuQzZvV61slqeh7ErKhoAeHpDtCX1BIqNwc5Iz1dRyUXRwA-BpABkM4rORDzYK_jRhAhRc52I5J61eXyzV57KW6Tx4Zc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3v58o4n1yf_XB6VzUMAdoaypIS8QVAzHAeslVIiSBep6lyOsSVuFJGXIlHMFUYS4gzpx9NoMq_BIao1daB2r_5RB4_q115mEla9ffmDQXH7k6VI1hZYXMpZTKL2EOrk8ZV9EStgq3wjMNuocs3Cjps_3J7lj5",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIl04hJ58yTXTp5tL9lOSyQ4oIjAQqNPdb1ekzGzudUrzig62JUFR5AEFKiivWVPh9F_h4fvVDYNP8DqXzP307_83wFt5jGR07uddnlBQ44DpyhC3mvdsSEnsLMvVXJlmcgoD9azCGu6RxOTuAxhBm4H41FNsVJOr1sRFUjbz6mrnY432IkUY0cIjE5zXudy7c7nugjNFXWnvUGNV6dnf3hKAfIL-KDFcjKjKB9a7j",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMh7PnvGtnypw3yh6o8giJdk3h5gjof4ml32DApPbOXEIL3i_5OZXgbRZfd2wad9GdWPShl0glROWEjypshkRFijYFM2bc5u5PyNaXhc9Tka2VnIZ-QZoDp2lFxcYh_sQRrTvwatGX4RYMOlO2QNX87IZqhXQDETv-OCgEM_b_4Ch1jB0cjo3_EIduzBZBCX8kzjqr9oIO45QL",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuqC9AEvMu3qHfcsQzp8DYjf4LvVu-h4hZ9CjUsBGa9dkD3MOwl75fTNGecwUD0Ts-49ZyUsXqOxJ_s3LrtWoeW9QNwLHz6Yza06BTOsJ8BUKXcsYbqE0iRX9OT9JcVol0smGsVFxp4hJDC2s=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0LGU9IMOb44L8eobrmfbLw2ffgPV32klVofcqfhZ1FSdhvMRWekvfgetGOmVMQ9yAg7cUOppHACdGD_lzk0rZTN25P6UjPkJx86znvgmcwCTOIq87n8VvdQPuGSWEqPUHpoVsfysNENstaPXqT-Kbc9PcgQIQxg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJHIEQFGGPsMHkuc-1OuquGaUcDnHlg7jgEKy17dFpkE42IA5MNlszud8_ZwgrmqOZPVu62vmyFUqLdI-youvS9ONfFMchZbXnDLLpmRP7Cndl-nGh0pGxzeMeAIPyuxnCs_EZGuMTGwCQ7TbLMDoSlqjCOGaCiRWt",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5QXuWy-8OIg6ECpit6PBuvAfuNF66aFui08nVYfkslMkiKvYC8NziD-sLh2ec1CYcWhejou0K8-sRX25K_9C5k5wqvYqSB2-iiqh_lKB7yf47tAxYml-6r91tmp972UVxOaEuXHEPqlVPaUDDocOENkscHFyEvv6ENg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT4uIR-s5AYrl-cVU4i_kq3BDmWxzZFeF6H5KNz1XwAqbplg_LJadyYrwccb1__LCGfaF5OLJa-YknJm7cnKwFqpZaLXophUYV9uHoDBStEcMJHtO7QKk432tq9f8M0iqs9eGBktDgRowD1hHIutGg0vPauNj50AGjtlk8dJPYk8MQP8FGUWU7ToHm",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMcLGXCVszmZynzxtNsTfNUeLZWSKmkc8eZcTFhlP1GMYW-4cdV464U8bs4ei1lcuuOqF17NK_OM48I9jxXKKzgYmbZ8x1LbjcqzHROhwkEmtBIfLVasgvDBmnhVr2q3aF_uXZu2dAkO7oYgrnRN_09R4CBr2eUNOQUg6XRTE75etgN3xKoOaeIWic6Qwf2eBqDL-_-bBH0aFS54rBkYoEhONL7rLMzGQBm2sRjWJnwEmMxw0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUhzkaoEeQR-_SR1IaTOtlQ4obskV1VMZmKmgM6_JE9bu7xnEvxq3OPEyeL3DaKV1Gqdh2_epQ9SvLr9EKABJOBL4iILb7fcgScabAGcDcywGf0lTuUBPA-MZwC7XFBKX0izp9_vz9t7LHtnHaIfofSqFgoRfjKNcKVmft63Zm3UGmRpFUURhCupizAB0H6GEC77GER7sqLrwjq0M=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE84VDt5rYExweZV8rax0m471wFEleekvQ3nYwPQEi9BZYcuIcNQRLw1oRC-BZh1GRMa4PrAAvLkEpZZmQiLpyPEuS7YtGcCf97MKTbp3oDocs3w-aiSmj1YcpSx_3hq9PPRymSrC-EhiGx6VcOkw_90FJQDiKCYPUSNCRIMy0iyGj1fKfDvSr_Xa3yJ0cDWjFmdd6lhVMUI_IhzIe3udE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXSBqMv97yVwsqOUjW9hwJIcOtKyTVk7oMRiw0T0NhXss6r9WS1kAI9c0FVFN07XoUwtpszSyOTG0QHGN0TStZVi9EPAzGKxesMPLEvL9Pxx53lFyOLIvvxtKQR4nGsX5clK_r8PRHwnPqxDDtylx1AakWDVhEXpETThPUv-0oFLNVFzVSHPTCb7SijICf0Bi2AI0zFYRe3mhsb68SWUiO1JNUwUmslTwd1Gg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6HCG_tnMqnaqtucj2HumFwR0JeQWCNtnjOmPbwUAbRA94-_yXslzDMKNzK8EqsBIVPhih8EOY4mjzxPpIUptOGGy4192GI7RtnD74G0PdffSrlLTnvB94EYQ5jsFLbOua6zwtL62oUdjCv33N9OG_hXZsAaE="
+  ],
+  "tokeny": {
+   "wejscie": 10399,
+   "wyjscie": 704
+  },
+  "czas_s": 135,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

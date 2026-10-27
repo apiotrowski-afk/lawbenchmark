@@ -1,0 +1,98 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 ust. 1 pr.aut. jako podstawa wykładni na korzyść twórcy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "Ogólne odwołanie do orzecznictwa i doktryny wymagających oznaczenia sposobów korzystania",
+   "zrodlo": "https://www.sn.pl/orzecznictwo/Biuletyn_IC_SN/Biuletyn_IC_SN_11_2006.pdf",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 3 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text/T/D20251071L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie można w pełni zweryfikować ogólnego twierdzenia o konsekwentnym stanowisku orzecznictwa i doktryny bez wskazania konkretnych źródeł; oficjalny biuletyn SN potwierdza dopuszczalność ustalania pól przez wykładnię.",
+  "K2: nie dostarczono odpowiedzi tego samego systemu na P09; brak podstaw do naliczenia kary."
+ ],
+ "uzasadnienie": "Odpowiedź od razu zaprzecza przesłance, podaje wymagane podstawy, przykłady pól oraz formę pisemną, lecz pomija możliwość dookreślenia pól przez wykładnię umowy, co obniża A_R i B2. Art. 65 pr.aut. nie ma ustępu 1 i ustanawia domniemanie udzielenia licencji, więc powołanie nieistniejącej jednostki daje F oraz A6=0. Nie ma cytatów przepisów w rozumieniu klucza. Rozważania o wynagrodzeniu, dalszym rozporządzaniu, prawach osobistych i wizerunku wykraczają poza pytanie, obniżając A8. Wskazówki dotyczące sporządzenia klauzuli są użyteczne, ale stanowcze wykluczenie przejścia niewymienionych pól bez uwzględnienia wykładni ogranicza przydatność przy ocenie istniejącej umowy.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 72,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "nowelizacja z 4 lipca 2019 r., Dz.U. 2019 poz. 1469 — przypisana treść art. 394² § 1¹",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2019/1469/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c. — tygodniowy termin",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 1 k.p.c. — powołany w związku z terminem zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 397 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 ust. 4 u.k.s.c. — opłata od zażalenia poziomego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 19 ust. 3 u.k.s.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130² § 3 k.p.c. — odrzucenie nieopłaconego zażalenia bez wezwania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf ; dawne brzmienie: https://eli.gov.pl/api/acts/DU/2005/1398/text/O/D20051398.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 130² § 4 k.p.c. — sanowanie odrzucenia przez opłatę w tygodniu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf ; dawne brzmienie: https://eli.gov.pl/api/acts/DU/2005/1398/text/O/D20051398.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 94–96 u.k.s.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 ust. 1 u.k.s.c. — podstawa wniosku o zwolnienie od kosztów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 ust. 4 u.k.s.c. — znaczenie nierozpoznanego wniosku dla odrzucenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/T/D20251228L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf ; dawne brzmienie: https://eli.gov.pl/api/acts/DU/2018/1360/text.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 398² k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–169 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "A_R=1: wskazano środek właściwy dla jednej gałęzi, lecz nie rozróżniono zażalenia poziomego i dewolutywnego ani nie powołano wymaganych podstaw. Art. 394² § 1¹ nie zawiera przypisanej normy, art. 397 § 1 reguluje skład i posiedzenie, a art. 130² § 4 nie przewiduje opisanej sanacji; art. 130² § 3 i art. 394¹ § 2 są uchylone. Art. 19 ust. 4 u.k.s.c. dotyczy zarzutów od nakazu zapłaty, natomiast art. 102 ust. 4 dotyczy zwrotu wniosku bez oświadczenia. Naliczono obie kary, B2=0 za pominięcie rozwidlenia, B1=1 za błędne wskazówki praktyczne i A8=0.5 za osobne omówienie innych środków poza pytaniem o zaskarżalność; historyczny fragment cytatu nie obniża dodatkowo A3. Pochodzenie wszystkich błędnych powołań jest nieustalone, ponieważ nie udostępniono śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 18,
+  "czas_s": 133,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

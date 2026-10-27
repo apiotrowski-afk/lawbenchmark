@@ -1,0 +1,121 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 49 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pierwszym zdaniu trafnie zaprzecza błędnej przesłance z pytania i zawiera pełny rdzeń wraz z wymaganymi podstawami prawnymi (art. 41 ust. 2 i art. 53 pr.aut.) oraz zastrzeżeniem dotyczącym wykładni umowy na gruncie art. 65 k.c. (A-R = 2, A2 = 1, B2 = 1). Zrealizowano wszystkie pięć elementów rubryki, w tym element R5 dotyczący możliwości ustalenia zakresu pól eksploatacji w drodze wykładni z art. 65 k.c. zgodnie z regułą B12. Wszystkie dwanaście powołanych przepisów prawa autorskiego i Kodeksu cywilnego jest w pełni zgodnych z oficjalnymi tekstami jednolitymi na datę stanu prawnego (A6 = 1). Brak dosłownych cytatów przepisów w cudzysłowie skutkuje oceną n/d w A3. Praktyczne i trafne wskazówki dotyczące formy elektronicznej, praw zależnych, wynagrodzenia oraz braku automatycznego przejścia praw przy umowie zlecenia mieszczą się w ramach pytania i podnoszą użyteczność odpowiedzi (A8 = 1, B1 = 2).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"art. 41\" \"art. 45\" \"art. 46\" \"art. 49\" \"art. 50\" \"art. 53\" \"prawie autorskim\" OR OR",
+   "\"art. 2\" \"art. 12\" \"art. 16\" \"prawie autorskim\" OR OR",
+   "\"art. 65\" \"art. 78\" \"kodeks cywilny\" OR OR",
+   "\"Dz.U. 2025 poz. 24\" \"art. 41\" OR \"art. 49\" OR \"art. 45\"",
+   "\"DU/2025/24\" OR \"DU/1994/83\"",
+   "\"DU/2025/24\" OR \"prawie autorskim\"",
+   "\"WDU20250000024\" OR \"2025\" \"24\" \"prawie autorskim\"",
+   "\"78^1\" OR \"formy elektronicznej\" \"kwalifikowanym podpisem elektronicznym\"",
+   "\"Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia\" \"Art. 50\" \"Art. 53\"",
+   "\"Autorskie prawa osobiste chronią nieograniczoną w czasie i niepodlegającą zrzeczeniu się lub zbyciu\" \"Art. 16\"",
+   "\"DU/2026/795\" OR \"DU/2024/1061\"",
+   "\"Odrębne pola eksploatacji stanowią w szczególności\" \"w zakresie utrwalania i zwielokrotniania utworu\" \"Art. 50\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13566,
+   "wyjscie": 1683
+  },
+  "czas_s": 105,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

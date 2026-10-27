@@ -1,0 +1,87 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78 § 1–2 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie udostępniono odpowiedzi tego samego systemu na P09."
+ ],
+ "uzasadnienie": "Odpowiedź zaprzecza przesłance, podaje wymagane podstawy, przykłady pól oraz formę pisemną pod rygorem nieważności, co uzasadnia pełny rdzeń i cztery elementy rubryki. Pomija możliwość dookreślenia pól przez wykładnię i regułę in favorem auctoris, dlatego R5 i B2 wynoszą 0, bez dodatkowego obniżenia A6 za samo pominięcie. Równoważność formy elektronicznej błędnie przypisano art. 78 § 1–2 k.c.: § 2 jest uchylony, a właściwa regulacja znajduje się w art. 78¹ § 1–2, co stanowi T i skutkuje A6 = 0. Uwagi o prawach osobistych i przesłankach uznania materiału za utwór wykraczają poza pytanie, obniżając A8 do 0.5. Wskazówki praktyczne pozostają użyteczne, natomiast brak odpowiedzi P09 uniemożliwia ustalenie sprzeczności wymaganej do naliczenia K2.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 12,
+  "czas_s": 58,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

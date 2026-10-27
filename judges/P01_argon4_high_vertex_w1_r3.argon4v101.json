@@ -1,0 +1,164 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 284 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 290 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 i 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 291 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 292 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600)",
+   "zrodlo": "Dz.U. 2022 poz. 2600 (art. 4 pkt 5–8)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a § 1 k.k. (kradzież szczególnie zuchwała)",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.) oraz Dz.U. 2022 poz. 2600 (art. 1 pkt 103 lit. c i pkt 104) — od 1.10.2023 r. art. 278a k.k. jest uchylony, a kradzież szczególnie zuchwałą reguluje art. 278 § 3a k.k.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 115 § 9a k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 280 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 i 3 k.w. (kradzież broni, amunicji, materiałów lub przyrządów wybuchowych)",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.) — broń, amunicja, materiały lub przyrządy wybuchowe są w art. 130 § 1 pkt 2 k.w., natomiast § 2 i 3 dotyczą kradzieży szczególnie zuchwałej, z włamaniem oraz użycia gwałtu na osobie",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 278 § 5 k.k. (kradzież karty uprawniającej do podjęcia pieniędzy z automatu bankowego)",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j. k.k.) oraz Dz.U. 2022 poz. 2600 (art. 1 pkt 103 lit. a i d) — od 1.10.2023 r. § 5 dotyczy wyłącznie kradzieży energii, a kradzież karty bankomatowej reguluje art. 278 § 1a k.k.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 k.k.s.",
+   "zrodlo": "Dz.U. 2025 poz. 633 (t.j. k.k.s.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Rady Ministrów w sprawie wysokości minimalnego wynagrodzenia za pracę oraz wysokości minimalnej stawki godzinowej w 2026 r.",
+   "zrodlo": "Dz.U. 2025 poz. 1242 (§ 1)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo podał rdzeń odpowiedzi (800 zł, brak wpływu płacy minimalnej, historia zmian progu z 500 zł na 800 zł od 1.10.2023 r.) oraz wszystkie wymagane i dopuszczalne przepisy Kodeksu wykroczeń (art. 119 § 1, art. 120 § 1, art. 122 § 1 i 2, art. 124 § 1 k.w.), realizując komplet punktów w A-R, A2 i rubryce R. Punktacja A6 spada jednak do 0 (hallucinated=true, klasy T i W) z uwagi na błędy w uwadze pobocznej o wyjątkach od progu 800 zł: system przypisał wyłączenie dotyczące kradzieży broni, amunicji i materiałów wybuchowych do art. 130 § 2 i 3 k.w. zamiast do art. 130 § 1 pkt 2 k.w. (klasa T). Ponadto w tej samej uwadze powołał jako obowiązujące przepisy w brzmieniu sprzed nowelizacji z 1.10.2023 r. (Dz.U. 2022 poz. 2600): uchylony art. 278a § 1 k.k. zamiast art. 278 § 3a k.k. dla kradzieży szczególnie zuchwałej oraz art. 278 § 5 k.k. zamiast art. 278 § 1a k.k. dla kradzieży karty bankomatowej (klasa W). Zgodnie z regułą z 2026-10-18 uwaga poboczna z błędem oraz dygresja o Kodeksie karnym skarbowym obniżają A8 do 0.5, natomiast B1 pozostaje na poziomie 2 (brak podwójnej kary w bloku B za błąd poboczny niezmieniający głównej porady praktycznej).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "OR \"art. 119\" \"art. 120\" \"art. 122\" \"art. 124\" \"art. 130\" kodeks wykroczen",
+   "OR \"art. 130\" \"Kodeks wykroczeń\" \"broń\" \"amunicj\"",
+   "OR \"15 listopada 2018\" \"500 złotych\" \"art. 119\" kodeks wykroczen",
+   "OR \"4806\" \"minimalnego wynagrodzenia za pracę\" \"2026\"",
+   "\"Art. 130.\" \"Przepisów art. 119, art. 122 i art. 124 nie stosuje się\" \"broń, amunicja\"",
+   "\"Art. 122.\" \"Kto nabywa mienie\" \"800 złotych\" kodeks wykroczeń",
+   "\"Art. 53.\" \"pięciokrotnej wysokości minimalnego wynagrodzenia\" kodeks karny skarbowy",
+   "\"art. 278a\" \"115 § 9a\" \"278 § 5\" kodeks karny",
+   "OR \"Dz.U. 2025 poz. 734\" OR \"Dz.U. 2022 poz. 2600\"",
+   "\"art. 278a\" \"art. 115 § 9a\" \"art. 278 § 5\" kodeks karny",
+   "\"art. 290 § 1\" \"art. 291 § 1\" \"art. 292 § 1\" \"art. 288 § 1\" kodeks karny",
+   "\"art. 53\" \"§ 6. Ustawowy próg\" kodeks karny skarbowy",
+   "\"Art. 278.\" \"Art. 278a.\" \"Art. 279.\" \"Art. 280.\" \"Kodeks karny\"",
+   "\"Art. 284.\" \"Art. 288.\" \"Art. 290.\" \"Art. 291.\" \"Art. 292.\" \"Kodeks karny\"",
+   "\"Art. 115.\" \"§ 9a.\" \"kradzież szczególnie zuchwała\" \"Kodeks karny\"",
+   "\"Art. 278.\" \"§ 5.\" \"kartę uprawniającą do podjęcia pieniędzy\" \"Kodeks karny\"",
+   "\"278a\" \"278\" \"1a\" \"2600\" \"kartę uprawniającą do podjęcia pieniędzy\"",
+   "\"uchyla się art. 278a\" OR \"art. 278a uchyla się\" \"2600\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14411,
+   "wyjscie": 2878
+  },
+  "czas_s": 226,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

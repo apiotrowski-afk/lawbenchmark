@@ -1,0 +1,112 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 326 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1 i 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje kierunek ('tak'), jednak pomija kluczowy warunek dopuszczalności wniosku o sporządzenie uzasadnienia postanowienia, jakim jest jego zaskarżalność (A_R = 1). Nie powołano wymaganych podstaw prawnych (art. 357 § 5 k.p.c. oraz art. 357 § 1 / § 2¹ k.p.c.), co skutkuje A2 = 0. Przepisowi art. 357 § 2 k.p.c. przypisano regulację wniosku o uzasadnienie i terminu tygodniowego (znajdującą się w § 1 i § 2¹), a art. 328 § 1 zd. 2 k.p.c. przypisano opłatę 100 zł wynikającą z ustawy o kosztach sądowych w sprawach cywilnych, co oznacza błędy typu T (A6 = 0, hallucinated = true). Ponadto odpowiedź zawiera obszerną dygresję dotyczącą uzasadniania wyroków i apelacji, co obniża ocenę ram do A8 = 0.5.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"art. 357\" kpc sejm ISAP",
+   "\"art. 328\" kpc sejm ISAP opłata",
+   "\"art. 357 § 2\" kpc treść",
+   "\"art. 328 § 1\" kpc treść ISAP",
+   "\"art. 328\" kpc treść ISAP",
+   "\"art. 357 § 2\" kpc brzmienie sejm ISAP",
+   "\"art. 328 § 1\" \"Kodeks postępowania cywilnego\" sejm pisemnego uzasadnienia wyroku",
+   "\"art. 357 § 2\" \"Kodeks postępowania cywilnego\" sejm posiedzeniu niejawnym uzasadnia",
+   "\"art. 357\" \"Postanowienie wydane na posiedzeniu jawnym sąd uzasadnia\" ISAP",
+   "\"Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia\" ISAP",
+   "\"Art. 328. § 1.\" \"Kodeks postępowania cywilnego\" sejm pisemnego uzasadnienia wyroku sporządza się",
+   "\"art. 328 § 1\" \"Kodeks postępowania cywilnego\" \"Pisemne uzasadnienie wyroku sporządza się na wniosek\"",
+   "\"art. 328 § 1 zd. 2\" kpc treść",
+   "\"Wniosek podlega opłacie\" \"art. 328\" kpc"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9308,
+   "wyjscie": 1070
+  },
+  "czas_s": 45,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

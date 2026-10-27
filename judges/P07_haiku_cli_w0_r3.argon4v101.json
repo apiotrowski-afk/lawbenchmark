@@ -1,0 +1,89 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 111 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 368 § 1 pkt 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie odpowiada „tak” i wskazuje termin tygodniowy (A_R=1, R[2]=1), ale myli postanowienie z wyrokiem i pomija kluczowy warunek zaskarżalności postanowienia oraz wyjaśnienie, że zasadnicze powody nie są uzasadnieniem. W A2 otrzymuje 0 z uwagi na brak powołania art. 357 § 1 lub § 2¹ k.p.c. W A6 otrzymuje 0 (klasa T), ponieważ przypisuje art. 357 § 5 k.p.c. regulację wniosku o uzasadnienie wyroku oraz odsyła do uchylonego art. 111 k.p.c. jako przepisu o liczeniu terminów przy dniach wolnych (zamiast art. 115 k.c. w zw. z art. 165 § 1 k.p.c.). Dygresje o apelacji od wyroku i powtarzane zastrzeżenia o konieczności samodzielnego sprawdzenia przepisów obniżają A8 do 0,5. Ze względu na pomylenie wyroku z postanowieniem, błędną wskazówkę o doręczeniu wyroku przy nieobecności strony oraz asekuracyjne odsyłanie do ISAP i komentarzy ocena w bloku B wynosi B1=0 i B2=0.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"art. 357\" \"357\" \"zasadnicze powody rozstrzygnięcia\" OR OR",
+   "\"art. 111\" kpc OR OR",
+   "\"art. 369\" \"art. 368\" kpc OR OR",
+   "\"Art. 111.\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 368\" \"Art. 369\" OR",
+   "\"Art. 357\" \"zasadnicze powody rozstrzygnięcia\" OR",
+   "\"Art. 357\" \"zasadnicze powody\"",
+   "\"Art. 368\" \"zwięzłe przedstawienie zarzutów\"",
+   "\"Art. 369\" \"Apelację wnosi się do sądu\"",
+   "\"DU/2026/468\"",
+   "\"Wydając postanowienie, nawet niepodlegające zaskarżeniu\"",
+   "\"Apelację wnosi się do sądu, który wydał zaskarżony wyrok\"",
+   "\"Art. 357.\" \"Wydając postanowienie\"",
+   "\"Art. 368.\" \"Art. 369.\"",
+   "\"Art. 165.\" \"Terminy oblicza się\"",
+   "\"Art. 115\" \"Jeżeli koniec terminu\"",
+   "\"Art. 111\" \"Termin oznaczony w dniach\"",
+   "\"Art. 357.\" \"Wydając postanowienie, nawet niepodlegające zaskarżeniu\"",
+   "\"Art. 368.\" \"Apelacja powinna czynić zadość\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 8952,
+   "wyjscie": 1398
+  },
+  "czas_s": 178,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

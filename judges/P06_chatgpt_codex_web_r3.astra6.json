@@ -1,0 +1,66 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2050-22-1.pdf ; https://www.sn.pl/publikacje/BSiA_Przeglad_orzecznictwa/Studia%20i%20Analizy%20SN%20Przegl%C4%85d%20Orzecznictwa%20za%20rok%202022%20e-book.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia już na początku właściwe rozróżnienie i podaje osobne konkluzje dla obu rodzajów zażalenia. A2 wynosi 0 z powodu braku wymaganego art. 397 § 1¹ k.p.c., a ostatni element rubryki pozostaje niezaliczony wobec pominięcia art. 130² k.p.c. Powołane jednostki i opisane normy potwierdzono w urzędowym tekście k.p.c.; samo odwołanie do starszego tekstu jednolitego nie stanowi błędu wersji przy zgodności opisanej treści. Datę, sygnaturę i sentencję uchwały potwierdza wynik wyszukiwania w SN, a przypisaną argumentację także oficjalny przegląd orzecznictwa SN. Odpowiedź jest praktycznie przydatna, pozostaje w granicach pytania i prawidłowo uzależnia rozstrzygnięcie od rodzaju odrzuconego zażalenia.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 10,
+  "czas_s": 59,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

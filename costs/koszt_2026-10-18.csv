@@ -1,0 +1,17 @@
+system,model,wariant,rozliczenie,odpowiedzi,koszt_laczny_usd,koszt_sredni_usd,mediana_czasu_s,poprawnie_ugruntowane,koszt_na_poprawnie_ugruntowana_usd,wyszukania,dolna_granica
+chatgpt_codex_w0_r3,gpt-6.1-sol,W0,równoważnik (subskrypcja ChatGPT/Codex),10,0.250173,0.025017,31.2,6,0.041695,0,False
+chatgpt_codex_web_r3,gpt-6.1-sol,W1,równoważnik (subskrypcja ChatGPT/Codex),10,1.544288,0.154429,37.9,7,0.220613,72,True
+codex_astra6_w0_r3,gpt-6-astra,W0,równoważnik (subskrypcja ChatGPT/Codex),10,1.414914,0.141491,30.3,6,0.235819,0,False
+codex_astra6_web_r3,gpt-6-astra,W1,równoważnik (subskrypcja ChatGPT/Codex),10,3.815732,0.381573,34.65,7,0.545105,54,False
+codex_terra56_w0_r3,gpt-5.6-terra,W0,równoważnik (subskrypcja ChatGPT/Codex),10,0.205788,0.020579,29.5,3,0.068596,0,False
+codex_terra56_web_r3,gpt-5.6-terra,W1,równoważnik (subskrypcja ChatGPT/Codex),10,1.321104,0.13211,43.15,4,0.330276,56,False
+haiku_cli_w0_r3,claude-haiku-5-5,W0,równoważnik (subskrypcja Claude Code),10,0.029302,0.00293,20.95,0,n/d,0,False
+haiku_cli_w1_r3,claude-haiku-5-5,W1,równoważnik (subskrypcja Claude Code),10,0.224664,0.022466,38.2,0,n/d,n/d,True
+sonnet_cli_w0_r3,claude-sonnet-5-5,W0,równoważnik (subskrypcja Claude Code),10,0.612654,0.061265,41.55,0,n/d,0,False
+sonnet_cli_w1_r3,claude-sonnet-5-5,W1,równoważnik (subskrypcja Claude Code),10,0.842217,0.084222,39.6,0,n/d,n/d,True
+opus_cli_w0_r3,claude-opus-5-5,W0,równoważnik (subskrypcja Claude Code),10,0.960524,0.096052,39.15,0,n/d,0,False
+opus_cli_w1_r3,claude-opus-5-5,W1,równoważnik (subskrypcja Claude Code),10,1.467281,0.146728,68.85,4,0.36682,n/d,True
+gemini38flash_vertex_w0_r3,gemini-3.8-flash,W0,"faktyczny (Vertex, global)",10,0.11648,0.011648,22.9,2,0.05824,0,False
+gemini38flash_vertex_w1_r3,gemini-3.8-flash,W1,"faktyczny (Vertex, global)",10,0.51392,0.051392,27.2,4,0.12848,27,True
+argon4_high_vertex_w0_r3,gemini-4-argon,W0,"faktyczny (Vertex, global)",10,0.371558,0.037156,38.3,2,0.185779,0,False
+argon4_high_vertex_w1_r3,gemini-4-argon,W1,"faktyczny (Vertex, global)",10,2.085406,0.208541,169.15,1,2.085406,87,True

@@ -1,0 +1,141 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 64 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 5 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 81 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest trafny co do zasady (ogólna klauzula nie wystarcza), ale pomija kluczowy warunek z orzecznictwa SN o możliwości dookreślenia pól przez wykładnię z art. 65 k.c. (A-R = 1). Z tego samego powodu kalibracja pewności jest błędna, gdyż odpowiedź kategorycznie wyklucza przeniesienie praw (B2 = 0). System powołuje właściwe podstawy prawne, ale niedosłownie cytuje art. 41 ust. 2 pr.aut., zmieniając formę gramatyczną (A3 = 0). W odpowiedzi występują dwie halucynacje poboczne: przypisanie art. 64 pr.aut. treści art. 52 pr.aut. oraz przypisanie art. 41 ust. 5 pr.aut. treści art. 41 ust. 1 pkt 2 pr.aut. (A6 = 0, typ T).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmuje pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"Art. 67\" \"ustawy o prawie autorskim\"",
+   "\"Art. 43\" \"ustawy o prawie autorskim\"",
+   "\"Art. 65\" \"ustawy o prawie autorskim\"",
+   "\"Art. 64\" \"ustawy o prawie autorskim\"",
+   "\"Art. 46\" \"ustawy o prawie autorskim\"",
+   "\"Art. 41 ust. 5\" \"ustawy o prawie autorskim\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWt-d3kitOfmLAxXigVsE-wGIo1albzo5jpOUL9w5DHajHcO8GAkz6FKv-3eEeZhV3iEhgriKox-WRxGwMTEnai4ar9fo9Ke-O4bAVlo9Q01zSwW86YjI-O3uXv15faggxdFqCOZVQTHQsuR24rp280vPDVsM_udDAjyk61ZDT4zCQw72weJuurQFysEzVw4lPy-yZ5xNoLqllQhlUqOOEqkk3MjpiQfkkUWTD0rIsBuGCwxePVmkpjV6nnXujGGBtf9bppNpXiKpZeBgUQphhXcZwcgl-pVzRDBFjk7x0uNqjdwfQheyB-Gwcb2KiLJ1T160X0hD5fJc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4adSzPnvnzU8omoirwuXKwWOLqwTX1m8nXzVLP5ibbt2jtQOvx-1Cr9X8gpbER_Sf-5YIIiKCea97QjNkv1ztG4im6y5qODcQbajHfBgncusNXDmkIQziuhBo64mFvlgRIKipwsUsyoHgJssOq8eV35i0JX5SRqSZ_xPB6vuScZtfzMpeggKakkQmAegQ6lh7wo4W9kEDcaxjjwbIBBTeQVIzqCKIZ-qxb3RRw3R4sdGHUcUh53XW8Irdn2QTPmvp2v6_",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiz5KRGYU7bp64x9YS8QWmx6FdrGdrkChv9SDSKs1_EIakUpEZeEeSFG0brA-x8M5_yqtmPBkKwMIRW4WXSXlOxyWt_PWEVv_1DVLc5CAdfD9On6CHD1PQLYtBFvDctDZs2I8K7PX1QlVnhm3shgj1OdHriNZGhnD8s_Aj5KwKyCNEFmbXSg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFDPwqJo_ldgLZaYwznjEt2CwaL7MmJjumzNTY-0TwiJ1hlK_WKWiXm9G178U2MjTDtjEjXzO_sD9qiSrdk-REDkVOzDPNUX7LR8KqCyZqCiIlCIbgP6yRyvj7dd-9Or36EATDNQ8GAgZKcU0zG-ym1le7zmidzYRkKzaSdiu_Nf-86gMv0xVypwmXpIaE1_FHikmlPpnn9CdUoZYdTOCvJlmgWZQHy1gxj-gwAlpLWfj2BafP6Ks-Jejd7F5IuaHb2p0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQpH8Z5hOAPLLKDXkVIE5A2lAsGc-FGUrul339152WpweBHqDxy_Z8uZXuTPBXgLEcIMKHH6Io3HLOsAMOOxUd4Mz9z-B8CTpFJfKldXxPXm5XM6OEv32rJ0pSDnAOqJ-QSs3PMVxfU5iI94nRERTeLHeKNFMmoBorEEYzNpZa02lCAOa1KHqZIn8pLUPO7UH3G4kfMckumnr6302n1kL4lX7",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPHvE1QKwbJLEAl_vBC1Dg0jiQJhVZt5T-NlJ41LOE6Eu-FQqfQslTO65r3HfPS79MV141mVkjbHzY4TOdfcwqwYTRBlIJRpALmn411hdExkbP_sORhNg6NrtyYnjLM1W7bOuRm7Y3X2sjqUrGCu3DSNBjEujgqVuXwpyf72P6nglSXQ=="
+  ],
+  "tokeny": {
+   "wejscie": 15423,
+   "wyjscie": 1294
+  },
+  "czas_s": 140,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

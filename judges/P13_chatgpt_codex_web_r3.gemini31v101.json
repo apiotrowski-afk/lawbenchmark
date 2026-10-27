@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "odczyt_źródła"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN z 4 września 2009 r., I CZ 83/09",
+   "zrodlo": "SAOS",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozróżnia funkcje nakazu zapłaty i wskazuje właściwe środki obrony pozwanego (pełny rdzeń, R1-R3). Niestety system powołał postanowienie SN I CZ 83/09 i przypisał mu tezę dotyczącą nakazu z weksla, podczas gdy orzeczenie to dotyczy zażalenia na wstrzymanie wykonania postanowienia o zabezpieczeniu (art. 396 k.p.c.). Jest to błąd typu T (przypisanie cudzej tezy), co skutkuje A6 = 0 i etykietą hallucinated. Błąd ten ma pochodzenie 'odczyt_źródła', gdyż system podał link do bazy SAOS. Mimo błędu w orzecznictwie, wskazówki praktyczne są trafne (B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"I CZ 83/09\" OR",
+   "\"I CZ 83/09\" wstrzymanie wykonania nakazu z weksla",
+   "\"90795\"",
+   "\"I CZ 83/09\"",
+   "\"90795\" saos",
+   "\"site:saos.org.pl/judgments/90795\"",
+   "\"I CZ 83/09\" saos",
+   "\"90795\" \"saos\"",
+   "\"I CZ 83/09\" \"saos\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsFAR2HIa1q1O0UNUNW5xb1OplT4B_COGX3xz34QWS-KRtKlJpklOqkdORncrziwA94f-fLM7wsOF8BM1OVRPj3rTqrE4Eu66tiJPVs3U_1PSL__Y9FFGha04h-aZIFO0EMst8XLI235Pi33rOzi9hc2JpS25LntDpjLRAlgtkPSvbAk2z-M0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4XsHJg5kY4C5pp7hqIUZ0zQfEGjlL6FBDctRdvrI3NZ3Jl2L4fEIwI_m4etFiXpagi9Sh8yKCpH0izMIvLcXUSFijfL1vPTt3ZZBZV60dpMKz5DIxtB4mp8mnWJJTvZC64i0cKMm4U90t1JnLSot4y0Jw6SqHfjTO3IC4riNMr__xR3hIzx0-GxTF8l5pL6IQ_iZqGBNXjhABTZzWhKkrl-Kb25hsmSPxXG1VTihUuTtsk9OshV1N",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSbWGhiNkeHzkFjbg3J1AWuIsRe5drUPWpkZpUnnVUaE7UB2YmuybedH6QunggX5_JOc8uXfJiA9neRi1GWXSjK77MZkMwhcH5GmfxkQ13YJjU2baydPKUmxJVffS_qS1wqekEx4tL5X7oztSJeF3A-tYESJwY-e-eGzz06Sa_UpN61w=="
+  ],
+  "tokeny": {
+   "wejscie": 10231,
+   "wyjscie": 647
+  },
+  "czas_s": 206,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

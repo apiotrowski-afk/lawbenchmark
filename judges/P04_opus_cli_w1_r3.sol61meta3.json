@@ -1,0 +1,168 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców; Dz.U. 2017 poz. 2278",
+   "zrodlo": "[ELI, tekst jednolity](https://eli.gov.pl/api/acts/DU/2017/2278/text.html): przepis wskazuje decyzję administracyjną ministra właściwego do spraw wewnętrznych.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 k.p.c.",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468](https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf), s. 68: regulacja prawomocności orzeczeń sądu; sprawdzono tekst jednolity, nie rozstrzygnięto wpływu wszystkich późniejszych nowelizacji.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 364 k.p.c.",
+   "zrodlo": "[ELI, Dz.U. 2026 poz. 468](https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf), s. 68: stwierdzanie prawomocności przez sąd; sprawdzono tekst jednolity, nie rozstrzygnięto wpływu wszystkich późniejszych nowelizacji.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "[ELI, Dz.U. 2025 poz. 1691](https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf), s. 5: definicja ostateczności odpowiada opisowi.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 w zw. z art. 129 § 2 k.p.a.",
+   "zrodlo": "[ELI, Dz.U. 2025 poz. 1691](https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf), s. 29: wniosek o ponowne rozpatrzenie, odpowiednie stosowanie przepisów o odwołaniach i termin czternastodniowy.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a w zw. z art. 127 § 3 k.p.a.",
+   "zrodlo": "[ELI, Dz.U. 2025 poz. 1691](https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf), s. 29: zrzeczenie przez ostatnią ze stron powoduje ostateczność i prawomocność; niewskazanie drugiego skutku jest pominięciem.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 § 3 p.p.s.a.",
+   "zrodlo": "[Urzędowy tekst, Dz.U. 2026 poz. 143](https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf), s. 14: dopuszcza skargę bez wniosku o ponowne rozpatrzenie; nie rozstrzygnięto wpływu wszystkich późniejszych nowelizacji.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "[ELI, Dz.U. 2025 poz. 1691](https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf), s. 5: „Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 1 p.p.s.a.",
+   "zrodlo": "[Urzędowy tekst, Dz.U. 2026 poz. 143](https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf), s. 14: termin trzydziestu dni od doręczenia; nie rozstrzygnięto wpływu wszystkich późniejszych nowelizacji.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "art. 217 k.p.a.",
+   "zrodlo": "[ELI, Dz.U. 2025 poz. 1691](https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf), s. 39: wydawanie zaświadczeń potwierdzających fakty lub stan prawny na żądanie zainteresowanego.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "[ELI, Dz.U. 2017 poz. 2278](https://eli.gov.pl/api/acts/DU/2017/2278/text.html): nabycie nieruchomości wbrew przepisom ustawy jest nieważne.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "[ELI, Dz.U. 2017 poz. 2278](https://eli.gov.pl/api/acts/DU/2017/2278/text.html): ust. 1 pkt 1 i 2 przewidują opisane zwolnienia; niewymienienie wszystkich ograniczeń jest pominięciem.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 12 marca 2022 r. — brak ogólnego zwolnienia obywateli Ukrainy",
+   "zrodlo": "Nie przeprowadzono pełnego sprawdzenia treści i zmian specustawy na 2026-10-01.",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "MSWiA — zaświadczenie zamiast klauzuli, opłata 17 zł i oryginał potwierdzenia wpłaty",
+   "zrodlo": "[MSWiA, Najczęściej zadawane pytania](https://www.gov.pl/web/mswia/najczesciej-zadawane-pytania): urzędowy wynik wyszukiwania potwierdza wszystkie te informacje.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Aktualność art. 363 i 364 k.p.c. na 2026-10-01 po wszystkich nowelizacjach tekstu jednolitego.",
+  "Aktualność art. 52 § 3 i art. 53 § 1 p.p.s.a. na 2026-10-01 po wszystkich nowelizacjach tekstu jednolitego.",
+  "Pełna weryfikacja specustawy z 12 marca 2022 r. pod kątem braku ogólnego zwolnienia z zezwolenia."
+ ],
+ "uzasadnienie": "Pełny rdzeń wynika z całej odpowiedzi: decyzja ministra może być ostateczna i prawomocna, a organ wydaje zaświadczenie. A2 obniżono za brak wymaganej podstawy na poziomie art. 217 § 2 pkt 2 k.p.a., zamiast której wskazano tylko cały artykuł. R4 nie zaliczono, ponieważ przy trzydziestodniowym terminie skargi nie podano początku biegu od doręczenia. Nie stwierdzono fałszywego powołania; pominięcie skutku prawomocności przy zrzeczeniu nie obniża A6. Uwagi dodatkowe są związane ze sprawą, a odpowiedź daje użyteczną i stanowczą wskazówkę praktyczną.",
+ "_meta": {
+  "sedzia": "sol61meta3",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "https://eli.gov.pl/api/acts/DU/2025/1691/text.html",
+   "site.eli.gov.pl \"2025\" \"1691\" \"Kodeks\" ...",
+   "site.eli.gov.pl \"2025\" \"1691\" \"Kodeks\"",
+   "site.api.sejm.gov.pl \"2026\" \"143\" \"sądami\"",
+   "site.api.sejm.gov.pl \"2026\" \"468\" \"363\"",
+   "site.gov.pl mswia \"zaświadczenie\" \"prawomocna\" \"17\" ...",
+   "site.gov.pl mswia \"zaświadczenie\" \"prawomocna\" \"17\"",
+   "site.eli.gov.pl \"2026\" \"1003\" kodeks",
+   "site.gov.pl \"nie wydaje\" \"klauzulą\" \"MSWiA\" ...",
+   "site.gov.pl \"nie wydaje\" \"klauzulą\" \"MSWiA\"",
+   "site.gov.pl \"ostateczna i prawomocna\" \"zaświadczenia\" \"nieruchomości\"",
+   "https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf",
+   "https://eli.gov.pl/api/acts/DU/2026/143",
+   "site.gov.pl \"Ukrainy\" \"zezwolenia\" \"nabywanie nieruchomości\" \"obywatelstwo\" ...",
+   "site.gov.pl \"Ukrainy\" \"zezwolenia\" \"nabywanie nieruchomości\" \"obywatelstwo\"",
+   "site.eli.gov.pl/eli/DU/2026/143 \"zmieniające\"",
+   "site.eli.gov.pl \"2026\" \"473\" \"Art. 1.\" \"Kodeks\"",
+   "site.eli.gov.pl \"2026\" \"830\" \"Art. 1.\""
+  ],
+  "zrodla_sedziego": [
+   "https://eli.gov.pl/api/acts/DU/2025/1691/text.html",
+   "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "https://www.gov.pl/web/mswia/najczesciej-zadawane-pytania",
+   "https://eli.gov.pl/api/acts/DU/2026/468/text.html",
+   "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "https://eli.gov.pl/eli/DU/2025",
+   "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "https://www.epuap.gov.pl/wps/portal/strefa-urzednika/katalog-spraw/geodezja-i-kartografia/najczesciej-zalatwiane-sprawy/zmiany-danych-objetych-ewidencja-gruntow-i-budynkow",
+   "https://lexeva.pl/akt/du/1964/296/przepis/art-363",
+   "https://ulc.gov.pl/lotniska/przepisy-i-uregulowania-prawne/uregulowania-prawne-dot-lotnisk",
+   "https://www.sejm.gov.pl/Sejm10.nsf/agent.xsp?SessionID=1F8FFBEA79E013F6A17606246F4E6DE51C3C81CB&WSK=A&symbol=TEKSTY_JEDNOLITE",
+   "https://sip.lex.pl/akty-prawne/dzu-dziennik-ustaw/ewidencja-ludnosci-17659012/roz-4",
+   "https://www.assemblee-nationale.fr/dyn/17/rapports/cion_fin/l17b0468-v1_rapport-fond.pdf",
+   "https://sip.lex.pl/akty-prawne/dzu-dziennik-ustaw/prawo-budowlane-16796118/roz-1",
+   "https://eli.gov.pl/api/acts/DU/2025/1696/text/T/D20251696L.pdf",
+   "https://eli.gov.pl/eli/DU/2026/1003",
+   "https://eli.gov.pl/api/acts/DU/2026/795/text.pdf",
+   "https://sejmdiff.pl/act/DU/2026/1003",
+   "https://www.ustawa.info/dziennik-ustaw/2026/poz/1003",
+   "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=1003&lsiSeq=284415&urlMode=lsScJoRltInfoR",
+   "https://eli.gov.pl/eli/DU/2026",
+   "https://samopis.pl/dziennik-ustaw/kodeks-postepowania-cywilnego",
+   "https://eli.sejm.gov.pl/eli/DU/2026",
+   "https://pelnora.app/prawo/kodeks-postepowania-cywilnego/art-1003",
+   "https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf",
+   "https://biznes.gov.pl/pl/opisy-procedur/-/proc/209",
+   "https://www.gov.pl/web/kowr/ostatecznosc-decyzji-wydanych-bez-zastosowania-przepisow-art-127-1a-kpa2",
+   "https://samorzad.gov.pl/attachment/b820e521-2959-48f8-8205-37ae4e7e1065",
+   "https://www.gov.pl/attachment/b70c1761-bf9e-4ae9-b343-5776050a2dea",
+   "https://eli.gov.pl/api/acts/DU/2021/735/text.html"
+  ],
+  "czas_s": 106,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 14, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zezwolenie na nabycie nieruchomości wydaje w drodze decyzji administracyjnej minister właściwy do spraw wewnętrznych.”\n    · uzasadnienie weryfikatora: Przepis wprost wskazuje organ i formę rozstrzygnięcia, a twierdzenie pomija jedynie przesłankę braku sprzeciwu innych ministrów.\n    · kotwica (verbatim ze źródła): „Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych”\n    · brzmienie jednostki (fragment): „1. Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi.”\n- 2. art. 363 k.p.c. [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z te…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2011-10-01, fragment): „Art. 363. § 1. Orzeczenie sądu staje się prawomocne, jeżeli nie przysługuje co do niego środek odwoławczy lub inny środek zaskarżenia. § 2. Mimo niedopuszczalności odrębnego zaskarżenia nie stają się prawomocne postanowienia podlegające rozpoznaniu przez sąd rewizyjny, gdy sąd ten rozpoznaje sprawę, w której je wydano. § 3. Jeżeli zaskarżono tylko część orzeczenia, staje się ono prawomocne w części pozostałej z upływem terminu do zaskarżenia, chyba że sąd rewizyjny może z urzędu rozpoznać sprawę także w tej części.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Pojęcie klauzuli prawomocności wynikające z tego przepisu nie ma zastosowania w postępowaniu toczącym się według Kodeksu postępowania administracyjnego.”\n    · uzasadnienie weryfikatora: Odpowiedź wskazuje art. 363 k.p.c. jako regulację z postępowania cywilnego, która nie ma zastosowania w postępowaniu administracyjnym (komentarz wokół przepisu).\n    · brzmienie jednostki (fragment): „Art. 363. § 1. Orzeczenie sądu staje się prawomocne, jeżeli nie przysługuje co do niego środek odwoławczy lub inny środek zaskarżenia. § 2. Mimo niedopuszczalności odrębnego zaskarżenia nie stają się prawomocne postanowienia podlegające rozpoznaniu przez sąd drugiej instancji, gdy sąd ten rozpoznaje sprawę, w której je wydano. § 3. Jeżeli zaskarżono tylko część orzeczenia, staje się ono prawomocne w części pozostałej z upływem terminu do zaskarżenia, chyba że sąd drugiej instancji może z urzędu rozpoznać sprawę także w tej części.”\n- 3. art. 364 k.p.c. [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z te…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „Art. 364. § 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji na posiedzeniu niejawnym, a dopóki akta sprawy znajdują się w sądzie drugiej instancji - ten sąd. Stwierdzenia dokonuje sąd jednoosobowo. § 2. Postanowienia w sprawie, o której mowa w § 1, może wydać także referendarz sądowy.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Pojęcie klauzuli prawomocności wynikające z tego przepisu nie ma zastosowania w postępowaniu toczącym się według Kodeksu postępowania administracyjnego.”\n    · uzasadnienie weryfikatora: Odpowiedź przywołuje art. 364 k.p.c. jako instytucję procedury cywilnej niemającą zastosowania w k.p.a., nie przypisując przepisowi fałszywej normy.\n    · brzmienie jednostki (fragment): „Art. 364. § 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji, a dopóki akta sprawy znajdują się w sądzie drugiej instancji – ten sąd. § 2. Postanowienia w sprawie, o której mowa w § 1, może wydać także referendarz sądowy.”\n- 4. art. 16 § 1 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2011-10-01, fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub w ustawach szczególnych.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis reguluje kwestię ostateczności decyzji administracyjnej.”\n    · uzasadnienie weryfikatora: Art. 16 § 1 k.p.a. wprost definiuje pojęcie ostateczności decyzji administracyjnych.\n    · kotwica (verbatim ze źródła): „Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne.”\n    · brzmienie jednostki (fragment): „§ 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych.”\n- 5. art. 127 § 3 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R4 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Strona może złożyć wniosek o ponowne rozpatrzenie sprawy w terminie 14 dni.”\n    · uzasadnienie weryfikatora: Z zestawienia art. 127 § 3 (odpowiednie stosowanie przepisów o odwołaniach) oraz art. 129 § 2 k.p.a. (termin 14-dniowy) wprost wynika 14-dniowy termin na złożenie wniosku.\n    · kotwica (verbatim ze źródła): „strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji.”\n    · brzmienie jednostki (fragment): „§ 3. Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze nie służy odwołanie, jednakże strona niezadowolona z decyzji może zwrócić się do tego organu z wnioskiem o ponowne rozpatrzenie sprawy; do wniosku tego stosuje się odpowiednio przepisy dotyczące odwołań od decyzji.”\n- 6. art. 129 § 2 k.p.a. [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 5; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n- 7. art. 127a k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R3 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 127a. § 1. W trakcie biegu terminu do wniesienia odwołania strona może zrzec się prawa do wniesienia odwołania wobec organu administracji publicznej, który wydał decyzję. § 2. Z dniem doręczenia organowi administracji publicznej oświadczenia o zrzeczeniu się prawa do wniesienia odwołania przez ostatnią ze stron postępowania, decyzja staje się ostateczna i prawomocna.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „W przypadku zrzeczenia się przez stronę prawa do złożenia wniosku o ponowne rozpatrzenie sprawy decyzja staje się ostateczna z dniem doręczenia organowi oświadczenia o zrzeczeniu.”\n    · uzasadnienie weryfikatora: Z połączenia art. 127a i art. 127 § 3 k.p.a. wynika opisany skutek ostateczności decyzji (z pominięciem doprecyzowania o ostatniej ze stron oraz skutku prawomocności).\n    · kotwica (verbatim ze źródła): „Z dniem doręczenia organowi administracji publicznej oświadczenia o zrzeczeniu się prawa do wniesienia odwołania przez ostatnią ze stron postępowania, decyzja staje się ostateczna i prawomocna.”\n    · brzmienie jednostki (fragment): „Art. 127a. § 1. Przed upływem terminu do wniesienia odwołania strona może zrzec się prawa do wniesienia odwołania wobec organu administracji publicznej, który wydał decyzję. § 2. Z dniem doręczenia organowi administracji publicznej oświadczenia o zrzeczeniu się prawa do wniesienia odwołania przez ostatnią ze stron postępowania, decyzja staje się ostateczna i prawomocna.”\n- 8. art. 127 § 3 k.p.a. [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 7; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n- 9. art. 52 § 3 p.p.s.a. [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (zapytano o art. 52 § 3 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 143 z 21.01.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje us…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2024-10-01, 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2024-10-01, fragment): „§ 3. Jeżeli stronie przysługuje prawo do zwrócenia się do organu, który wydał decyzję z wnioskiem o ponowne rozpatrzenie sprawy, strona może wnieść skargę na tę decyzję bez skorzystania z tego prawa. Prawo do wniesienia skargi bez zwrócenia się do organu, który wydał decyzję, z wnioskiem o ponowne rozpatrzenie sprawy nie przysługuje stronie, gdy organem, który wydał decyzję, jest minister właściwy do spraw zagranicznych w zakresie spraw uregulowanych w ustawie z dnia 12 grudnia 2013 r. o cudzoziemcach ( Dz. U. z 2023 r. poz. 519 , 185 i 547 ) albo konsul.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Stronie od razu przysługuje skarga do wojewódzkiego sądu administracyjnego, bez konieczności składania wniosku o ponowne rozpatrzenie sprawy.”\n    · uzasadnienie weryfikatora: Przepis wprost wyraża tę zasadę w zdaniu pierwszym, a twierdzenie pomija jedynie wyjątek dotyczący ministra właściwego do spraw zagranicznych i konsula.\n    · kotwica (verbatim ze źródła): „Jeżeli stronie przysługuje prawo do zwrócenia się do organu, który wydał decyzję lub postanowienie, z wnioskiem o ponowne rozpatrzenie sprawy, strona może wnieść skargę na tę decyzję lub to postanowienie bez skorzystania z tego prawa.”\n    · brzmienie jednostki (fragment): „§ 3. Jeżeli stronie przysługuje prawo do zwrócenia się do organu, który wydał decyzję lub postanowienie, z wnioskiem o ponowne rozpatrzenie sprawy, strona może wnieść skargę na tę decyzję lub to postanowienie bez skorzystania z tego prawa. Prawo do wniesienia skargi bez zwrócenia się do organu, który wydał decyzję lub postanowienie, z wnioskiem o ponowne rozpatrzenie sprawy nie przysługuje stronie, gdy organem, który wydał decyzję lub postanowienie, jest minister właściwy do spraw zagranicznych w zakresie spraw uregulowanych w ustawie z dnia 12 grudnia 2013 r. o cudzoziemcach (Dz. U. z 2025 r…”\n- 10. art. 16 § 3 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „Art. 16. § 1. Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne. Uchylenie lub zmiana takich decyzji, stwierdzenie ich nieważności oraz wznowienie postępowania może nastąpić tylko w przypadkach przewidzianych w kodeksie lub ustawach szczególnych. § 2. Decyzje mogą być zaskarżane do sądu administracyjnego z powodu ich niezgodności z prawem, na zasadach i w trybie określonych w odrębnych ustawach.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Prawomocną decyzją administracyjną jest decyzja, od której nie przysługuje skarga do sądu administracyjnego.”\n    · uzasadnienie weryfikatora: Przepis wprost definiuje prawomocność decyzji jako brak możliwości zaskarżenia decyzji ostatecznej do sądu.\n    · kotwica (verbatim ze źródła): „§ 3. Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne.”\n    · brzmienie jednostki (fragment): „§ 3. Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne.”\n- 11. art. 53 § 1 p.p.s.a. [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (zapytano o art. 53 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 143 z 21.01.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje us…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „§ 1. Skargę wnosi się w terminie trzydziestu dni od dnia doręczenia skarżącemu rozstrzygnięcia w sprawie.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Termin na wniesienie skargi do wojewódzkiego sądu administracyjnego wynosi 30 dni.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi o trzydziestodniowym terminie na wniesienie skargi.\n    · kotwica (verbatim ze źródła): „§ 1. Skargę wnosi się w terminie trzydziestu dni od dnia doręczenia skarżącemu rozstrzygnięcia w sprawie albo aktu, o którym mowa w art. 3 § 2 pkt 4a.”\n    · brzmienie jednostki (fragment): „§ 1. Skargę wnosi się w terminie trzydziestu dni od dnia doręczenia skarżącemu rozstrzygnięcia w sprawie albo aktu, o którym mowa w art. 3 § 2 pkt 4a.”\n- 12. art. 217 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „Art. 217. § 1. Organ administracji publicznej wydaje zaświadczenie na żądanie osoby ubiegającej się o zaświadczenie. § 2. Zaświadczenie wydaje się, jeżeli: 1) urzędowego potwierdzenia określonych faktów lub stanu prawnego wymaga przepis prawa; 2) osoba ubiega się o zaświadczenie ze względu na swój interes prawny w urzędowym potwierdzeniu określonych faktów lub stanu prawnego. § 3. Zaświadczenie powinno być wydane bez zbędnej zwłoki, nie później jednak niż w terminie siedmiu dni. § 4. Zaświadczenie wydaje się w formie dokumentu elektronicznego, opatrzonego bezpiecznym podpisem elektronicznym w…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Organ na wniosek strony wydaje zaświadczenie administracyjne potwierdzające, że decyzja jest ostateczna i prawomocna.”\n    · uzasadnienie weryfikatora: Przepis przewiduje wydawanie na wniosek zaświadczeń potwierdzających fakty lub stan prawny, a odniesienie tego do ostateczności i prawomocności decyzji stanowi zastosowanie normy do sytuacji z pytania.\n    · kotwica (verbatim ze źródła): „Art. 217. § 1. Organ administracji publicznej wydaje zaświadczenie na żądanie osoby ubiegającej się o zaświadczenie. § 2. Zaświadczenie wydaje się, jeżeli: 1) urzędowego potwierdzenia określonych faktów lub stanu prawnego wymaga przepis prawa; 2) osoba ubiega…”\n    · brzmienie jednostki (fragment): „Art. 217. § 1. Organ administracji publicznej wydaje zaświadczenie na żądanie osoby ubiegającej się o zaświadczenie. § 2. Zaświadczenie wydaje się, jeżeli: 1) urzędowego potwierdzenia określonych faktów lub stanu prawnego wymaga przepis prawa; 2) osoba ubiega się o zaświadczenie ze względu na swój interes prawny w urzędowym potwierdzeniu określonych faktów lub stanu prawnego. § 3. Zaświadczenie powinno być wydane bez zbędnej zwłoki, nie później jednak niż w terminie siedmiu dni. § 4. (uchylony)”\n- 13. art. 6 ust. 1 [akt: nieustalony (brak aktu; klucz wieloaktowy)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 14. art. 8 [akt: nieustalony (brak aktu; klucz wieloaktowy)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n\nORZECZENIA: brak sygnatur w odpowiedzi.\n\nPUBLIKATORY: Dz.U. z 2017 r. poz. 2278 — tekst jednolity: Ustawa o nabywaniu nieruchomości przez cudzoziemców; najnowszy t.j. przed datą stanu prawnego: DU/2017/2278"
+}

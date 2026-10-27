@@ -1,0 +1,90 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c. / art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System udzielił błędnej odpowiedzi („Tak”), twierdząc, że wstrzymanie wykonania nakazu zapłaty z weksla na podstawie art. 492 § 3 k.p.c. wyłącza możliwość wszczęcia postępowania zabezpieczającego, co skutkuje A-R = 0, brakiem punktów z rubryki (R = [0,0,0,0]) oraz naliczeniem pierwszej kary (K = [1,0,0]). Wymagane podstawy prawne (art. 492 § 1 i § 3 k.p.c.) zostały powołane (A2 = 1), a przywołane w odpowiedzi brzmienie przepisów odpowiada stanowi prawnemu w Dz.U. 2026 poz. 468 (A6 = 1), gdyż błędny wniosek wynikał z wadliwej wykładni celowościowej, a nie z przypisania przepisom fałszywej treści literalnej. Z uwagi na całkowicie błędną rekomendację praktyczną przydatność oceniono na B1 = 0, natomiast kalibracja pewności przy oczekiwanej odpowiedzi kategorycznej wynosi B2 = 1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 492\" \"Nakaz zapłaty z chwilą wydania\" OR",
+   "\"art. 743\" \"art. 730\" \"k.p.c.\" OR",
+   "\"art. 743\" \"Do wykonania postanowienia o udzieleniu zabezpieczenia\"",
+   "\"art. 776\" \"Podstawą egzekucji jest tytuł wykonawczy\"",
+   "\"Przy wyborze sposobu zabezpieczenia sąd uwzględni interesy stron\"",
+   "\"art. 492\" OR OR",
+   "\"art. 743\" OR OR",
+   "\"art. 776\" OR OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVdv-q7triWq7j0MCkiaR2v3bLfVbFiVoulkmmg2XsKELg3i_R9Al23roTwkkWtlCK5Gd_RJZhB1gC5DPWjzPk1-N2aH5hwCKo34lNiqPeoPAebDaUpqOOnuQszCV7u7pGF8rC5C63-gQBwiLZ7RwA6GhMldoaXVHXOOm5VH9q7_qeAwjNlX2IzJmGky7gDuH76OGITggAZa5dbQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhjc45sNUMtj-XfH7tlf2etCWo3IdM3FxOiHP6H4pKPG6sfdtEP-2GYRCZ4Tv61XrCn4CFBY3Y0PLQh10Q1MA3OaoUNwPyuO-_h_d0GMKpe1_1fXY2G1bPghd_h40s91jeKwz3lb0Zcjdu7mnq6i5xlHFax3QGRExNEZEeEahMR6XrXkNGW3gXYyk9fnp-Htl852ZHgfNgxQecPNHr",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFssiOGG7oXmzage_zzW7GM00746GS837TuWuA3BCF_WM7OYGYzCpI7MHrtIAUebQLdKGi5Av5ZmyCHHDvmQ6Kuvd1m6yQyYM18BmUh8gH0fqJjwDIXBf1j0Xjk4LCRqJMSv8ln0EUtNjFQIFaif5CnRuz2Mac=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_TMJbZKFELtzap3g_nCHJwkTVVPWqlvcOZcTUANnrweZVD9XRx38YHzHi8epzHl8wIV2JRYryodqfW8HfN5Dd_SFJ_XOCq-qYHKJ5ybOmJ9unJCAnmNpp9JSyUm617MkDcJYGm2DQLgML4Wk7qg2VoGq7ARFfGcHAxHxQbwQefBLPsoHQOeDN8LC_viRFk0VjhMN8QseoyjwuXho8k1lu81GURnL3q3ZrY0fR9d7dARuu9A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnUJAuyriieFDPO7YqWtlv5zUo_ljSa1Ui-Q7asptZgWvpAgQEM7lAs-UnyKrJ-kRPnd3YAksxCDMtQ1GbDKSDSLVNNxR3s1TuPKFfTM2vRKVPjYF7qFfsyKRANIH9FTyIVwW28ukY1e2TLsxbXn5m72IJUgmKPu_KTE1MC5YMWK4V6mY7RcwLy30ThP5JiHbK5vfzt8U9O1sAYQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaHQVdh4jCNIq9Lk9otJRnE_WhAEfnsdDxRCuOJ06ONSU7phbMcP_n2cHD4JTjm4o9ezCk3nDMBSEcknxRWCly_gjqSy8-HUvIBAUylQdkoXySth5RVZ9X5sHIqFrYeiuVLYzhG3mkjGH2YJzcUumIOgb9WXk0U66OShhlRxubRCilUU3Y2-B6ALmUkxrw2C2JhEKq_gvytg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRq2FS3fvQ_OGoybhHBl6YRT0p-zZ0pSQu9TDSn8GipIVLAFRqUkYacKepaFO_u4nGhlJ9oCc_m4adwazSQLJeo6pTKCtLDdiNenutLu3T_FL_IS9g6WmBkZK_XHhoHSWZIghd_3hSHXqVcayj9F4jf_Ejdc4R904yLlnWyvRPdIXrgLTAjm_3fAXq-Fi5UNFyRlYfRMRy_MrLMmuO"
+  ],
+  "tokeny": {
+   "wejscie": 10091,
+   "wyjscie": 1076
+  },
+  "czas_s": 150,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

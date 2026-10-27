@@ -1,0 +1,120 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c. (w brzmieniu nadanym ustawą z 4 lipca 2019 r., Dz.U. 2019 poz. 1469)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2019 poz. 1469",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 1 i § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 361 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 386 § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System udzielił odpowiedzi całkowicie przeciwnej do stanu prawnego (A_R = 0), twierdząc, że zasadnicze powody rozstrzygnięcia stanowią formę uzasadnienia postanowienia i wykluczają skuteczne złożenie wniosku o uzasadnienie. W konsekwencji nie zrealizował żadnego elementu rubryki (R = [0, 0, 0, 0]) i otrzymał pierwszą karę z klucza (K = [1, 0]). W kryterium A6 przyznano 0 pkt (klasa T, hallucinated = true), ponieważ model przypisał art. 357 § 5 k.p.c. treść wprost sprzeczną z jego zdaniem drugim („Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia”) oraz nieistniejące w tej jednostce zastrzeżenie pierwszeństwa przepisów szczególnych. Ponadto błędnie przypisał art. 394 § 2 k.p.c. normę, jakoby termin do wniesienia zażalenia biegł od doręczenia postanowienia z zasadniczymi powodami, a art. 357 § 1 i § 2¹ k.p.c. normę o uzasadnieniu z urzędu (regulowaną w § 2²–2⁴). Ze względu na skrajnie szkodliwą praktycznie rekomendację (grożącą odrzuceniem zażalenia wniesionego bez uprzedniego wniosku o uzasadnienie) przyznano B1 = 0, przy zachowaniu B2 = 1 za stanowczą kalibrację wypowiedzi.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" OR",
+   "\"art. 394\" \"Termin do wniesienia zażalenia\" OR",
+   "\"art. 361\" \"art. 327\" OR",
+   "\"art. 386\" \"art. 397\" OR",
+   "\"Art. 357.\" \"Postanowienia ogłoszone na posiedzeniu jawnym\" \"Postanowienie wydane na posiedzeniu niejawnym\"",
+   "\"Art. 361.\" \"Do postanowień stosuje się odpowiednio przepisy o wyrokach\"",
+   "\"Art. 327\" \"Uzasadnienie wyroku powinno zawierać\"",
+   "\"Art. 386.\" \"Poza wypadkami określonymi w § 2 i 3\" \"Art. 397.\" \"Do postępowania toczącego się na skutek zażalenia\"",
+   "\"Art. 386.\" \"Poza wypadkami określonymi w § 2 i 3 sąd drugiej instancji może uchylić\"",
+   "\"Art. 397.\" \"Do postępowania toczącego się na skutek zażalenia stosuje się odpowiednio\"",
+   "\"Dz.U. 2019 poz. 1469\" OR \"Dz. U. z 2019 r. poz. 1469\" \"357\" \"zasadnicze powody\"",
+   "\"Art. 386.\" \"§ 4. Poza wypadkami określonymi w § 2 i 3\"",
+   "\"Art. 386\" \"sąd drugiej instancji może uchylić zaskarżony wyrok i przekazać sprawę do ponownego rozpoznania\"",
+   "\"Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia\"",
+   "\"eli.gov.pl\" \"DU/2026/468\" OR \"DU/2019/1469\"",
+   "\"Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia\" \"ustawy z dnia\"",
+   "\"Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia\" \"2023\"",
+   "\"Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia\" \"1469\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE79Jv_ADrOPu-i2aGzcUR3WeN9DQNmbAdWaTw9BMUIc_xMPxFXFkMMXm284RI33qQJKGq6nIHO3RuJ33aDzSZCyyRpe2CFgCXY88Q8UGbfkc1gQT3fdBNZQIWG3iISlBLvFjMjl18SKaXFDZA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMbf5rYzNjaLpAfoyA23bP9vlBNg6TanyC5Acw5ncJjJ_VZIePMlbbFyRn0WF4qbYcjvk3Tou63p36E6IybJSp3jt-EltZIriIR6_U64Zh2sJJd3r2jH-sTKgYiuN6wVA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs5CkeuMbLBC_xswSs0qo6aAEErsbWIJu6F-cYnAgs8LJ54lYi50K7DY9gOncYcX0RmGrFJDA-wM4_-7e8xvdUia-Tzxr_d7IDAWTKEew0I5xLTT7yhMdebVZacZk7MlI1GYIMUQ0zbyNWkezS1yEZgtZOKPZmO5grt4lzKePsfpVF-xwYsAvZaAoFeoEM_NM6bSFu00qncz_ogxj18-eiwGZ2l3Hnibuwy9qwO1YQyX8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH1CFurTvuIXyttVKdPFlEDmPDHZ9O2NIkyI_-ZilFpSyAEsUM-QQMnO-A8eOfGQYx5U-CM4S5cNbf_bQKXW8xXTwBjOlG1dDhTbMR6r9a2fn12QJHBsCGtwfx0JZqugvnf1tBG7bzDVQBcGnhf3uphD7X1FrUGa5GYnM0bQsSI1FBag70PYgcMsDIz1DsNbV-1ZoHG5uQdJFm",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU8vN1JCOJs6O9_UFxeJz_XWpjW38BB2nGzfpytOXfavysCps1WxzKIosqhk9s_ZiyuOff_15ZALuo4NG0QvquqO0jpc-9FJu8dy1tjfalNG91mKqNFvX3R_sfduHfYE_PJYzDjOCXUy4igHkUfiWh7OKOhpZRV2dCZ7OPD1xGIue7Ar3N2CDc4owQkwjCGwXmqkRVp_B-_OzgfwU1vVsuU_UeBV1TZ1PcFXc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1FohKPJLMl6mIBPCrxxhU1bcNks50OipvUFaWgJLpnt79GUdLlmrvzvcP162jkMlpKsXNDMnuuvw2GrKnWWZmNmyvEk5g1M81bR5xHXohRfAwMYXnD9nEdUwjIY6gmtpzrck_D38gOoLRxmR-wmLf8e7CJGJUj2kTNjON4YGWpWXUVSsr8z1WtOZbZx3Wor7zZqC6VJwmSM3RCw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHlHSUhzJaRu-jj6k6xJMMR9z1Jl9Ns850HD_ek8f_JHqi3ccTNEUZUjGLfrJTHg5mdtsf6nNhZQevcyeHc6wlfodhzusYz-0OsWARbAjUHHSsg8Gtlq30uF9wfZ_PKV0wLUmKlFfmEBcEKSJvDbTAQq3xcIz4rruE_w66WlUzE4KxtreW_p3fXmeYkmTYB32PvO-eK56ycfFt",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBN5HPVJ95oeO2s0BjPrgR9HyKPbbazOj5cDhJGd8gH2ESkKA2fa9sfC57jicpiIb8TalNdyaBlQo6jLvFuzvBbKsITHZwbQ4kK8jFpgEj1v-31II6MWWBvImsB-I60eVzzKxVDOMfApjkTxxdeCIsYUfe6A3dCJE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNwmfPouRvKsPBWNzsWQM7oQeYwtniloYBa0KD2aMF_NKwEsFeG3acszCoQAl2x0yuPUgqHyvmv56_zoWFvpYUCqUZaEBXCuNH9cvtLGLfvw-pZtzUpHsDBqUsoLSea2VHKCiD2490WCnBkjx1_aR0vh6EWkxY19wEjlvGKdJZtVDsPA5v_iwGbVbL36VAbZLPUymPhUZ7hbcm-QA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWFzDX_VTv93KM4LpGLHRGJrjMP6v95B5oO4BZe0DOrc4vOMT6ZX6jED49bi5AOzAnO8GtbGQHCgRb7RzCttjmWIvHcK5qSsLlsU7TQgLlB4KxA9xl-D9jK61P35HcjyUYx37GrFXeUgSTFcie3R1Lfz_qPa2BN0-jm2JI5SOGTNACHGqxUTEhdlKS4QfD83IKSHnOU1VQw4cC7g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrfCE_BIa__090heWMAgKVsvXuEnz56Y9HVZL3iNsqm1OYozOLTMO4i875lY5RICeVZdmk73ix-Y4w3ZAgweifgv1iAVn6LtEfUUupaNNoH-vOUHgaCXGwnmK7fQSKSt_pf_e1Os11nI-w5qlNzUn49rYmaTaMI7TTElYm8yzqPmq44fTxHXwq_4yUjzX87YN2oY8_sZZHdEenZZvQyoqy9PHUOPfjg7hwJ9FfBCbYf1PlI5_EZfSK70WaWtGpIyW7zrT9TbyOFhu2inVyzoFhpMMkRXvitdwDdRjeWhzAks5HODE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz-pwCEvsws3YukJddtWKhbU3cFbLeVNC7WVvG7x7y-WTRtREmCeCartQWXV2DYl2boQGichCLgMjXqDmU3YwrwR1uNAHmCopCyuEEt4srCNpnPoimfqSySGPoNYiH6VBv3vU75EWPRS5XVvmjErnm42O2P4XToGMTEQEG12wSG_18gpETC-dJFoxU_ehVyEAdniK5cCDM6ZPpmg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHew772MBkBpDb2GVadWs44zM0is_wdgJBW1c25Q95lHg80AiNNFBgcFdM-EzbkyJ_A2wJtewtoLdIM-ID6vjuhc_QILQmYvJBblEQizVtuZBSFk1ojCqc-qAGzlbxXEP89qH49WUViwQwKeYEhVmflC-BPl4oX94WAx0s4dRF07D9wGV_J0ao=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTJGLdZxiriOWkposviGYZb88nLS5nBPG5Q9UmxIDrZISb-Ns9SssAg2Xex6PsTlw0ZkgD95X_F1chJj25av7erS8howCzVuG3grNTYXcGYaTw7RViTjCSKDDoNI-4e9u7N5jUcMs2EDJNLa4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Gjorkf6tc3OxtpaBMIHqkwZ6x0DvrXd_FnV_HOPpHf7ZJPKbZeIXOsg28ZJmg47duO7nfRHzflxjRWCDl4lNScKyeyO0Y5hfk9SR2_IhD7XcbXbH7hh34V8LxRqqCW9qoZ3xKoAvkY2whG5JWJVNANI09n1OJlnBxJlmVOhMtRR5zTbE6wzZJMx45tzo5ZTYzj_2G1SYODZCpOiwx5GiKUPMl7IGIWKHU0eYIq7Ti_oX-psDIZ2HPmr4TGrMCL50WLVRh1WztrYP29BdlIfY0vGhac8lIeS0-R4GcK1uTW8IjNWksySIaPmCD4s2",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaGSjsPBZRTJauAfwFClAdSswVbgdH57aVvnI4zmZvNDgAGYUXB3s3nyjVNpNy0QKoD2CxWtEIOjNMRJwWGtRcANy2jdlS5A4d0FAeGyQFrORcfOSrd-F5HP1JkWUMo0RPeC4wg0A6A5qik5ZdkCV10m7VTGMQYrSdMC7yd8274--oclIAojmdloOvLDwWNkNXzZ8OyIK2NmBs3s2K"
+  ],
+  "tokeny": {
+   "wejscie": 9224,
+   "wyjscie": 1925
+  },
+  "czas_s": 250,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 730 i nast. k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 739 k.p.c. — wykonanie zabezpieczenia według przepisów o egzekucji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 493 § 3 k.p.c. — podstawa wstrzymania wykonania nakazu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 k.p.c. — właściwy punkt przewidujący zażalenie na zabezpieczenie",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Początkowa konkluzja jest kierunkowo trafna, ale odpowiedź pomija obie funkcje nakazu i wymagane podstawy z art. 492 § 1 i § 3. Art. 739 reguluje kaucję, art. 493 § 3 ograniczenia postępowania po zarzutach, a podstawą dopuszczalności zażalenia na zabezpieczenie jest art. 741, nie wskazany punkt art. 394. Pochodzenie każdego błędnego powołania jest nieustalone wobec braku śladu narzędzi ocenianego systemu. Odpowiedź zastępuje wszczęcie zabezpieczenia na podstawie istniejącego nakazu procedurą uzyskania osobnego postanowienia, co uzasadnia karę drugą i A8=0. Praktyczne wskazówki kierują na błędną ścieżkę, a warunkowa konkluzja rozmywa jednoznaczny stan prawny.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 141,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

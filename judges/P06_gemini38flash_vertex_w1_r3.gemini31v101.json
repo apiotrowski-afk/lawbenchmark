@@ -1,0 +1,112 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 23 czerwca 2022 r., sygn. akt III CZP 50/22",
+   "zrodlo": "OSNC 2023/2/14",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 w zw. z art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 359 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny (A-R=2), system prawidłowo rozróżnia dwa warianty zażalenia i podaje trafne konkluzje. Brak powołania wymaganego art. 397 § 1¹ k.p.c. skutkuje A2=0. Cytat z art. 394² § 1² k.p.c. jest dosłowny (A3=1). System halucynuje (A6=0, T), twierdząc, że postanowienie o odrzuceniu zażalenia można uchylić w trybie art. 359 § 1 k.p.c. – przepis ten dotyczy wyłącznie postanowień niekończących postępowania w sprawie, a odrzucenie zażalenia kończy postępowanie. Błędna wskazówka praktyczna obniża B1 do 1. Kalibracja (B2=1) jest idealna, system prowadzi dwie ścieżki z osobnymi konkluzjami.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "\"Jeżeli zażalenie, o którym mowa w § 1 i 1\" \"sąd odrzuca je w składzie jednego sędziego\" \"Na postanowienie przysługuje zażalenie do innego składu sądu drugiej instancji\"",
+   "\"art. 394\" \"§ 1²\" \"kodeks postępowania cywilnego\"",
+   "\"art. 394¹\" \"kodeks postępowania cywilnego\"",
+   "\"Art. 394¹\" \"§ 1\" \"Zażalenie do Sądu Najwyższego przysługuje\" \"kodeks postępowania cywilnego\"",
+   "\"art. 394²\" \"§ 1¹\" \"kodeks postępowania cywilnego\"",
+   "\"III CZP 50/22\"",
+   "\"art. 394²\" \"§ 2\" \"kodeks postępowania cywilnego\"",
+   "\"art. 359\" \"§ 1\" \"kodeks postępowania cywilnego\"",
+   "\"uchylenie postanowienia o odrzuceniu zażalenia\" \"art. 359 § 1\"",
+   "\"uchylenie postanowienia o odrzuceniu apelacji\" \"art. 359 § 1\"",
+   "\"postanowienie o odrzuceniu zażalenia\" \"postanowienie niekończące postępowania\"",
+   "\"postanowienie o odrzuceniu zażalenia\" \"kończące postępowanie w sprawie\"",
+   "\"omyłkowe odrzucenie zażalenia\" \"art. 359\"",
+   "\"omyłkowe odrzucenie apelacji\" \"art. 359\"",
+   "\"uchylenie postanowienia o odrzuceniu\" \"art. 359\"",
+   "\"art. 359 § 1\" \"postanowienie o odrzuceniu zażalenia\"",
+   "\"art. 359 § 1\" \"postanowienie o odrzuceniu apelacji\"",
+   "\"art. 359\" \"postanowienie kończące postępowanie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBxGlb9nkjLBZhMC7aGUgRN_AQf9X2stziGT_GYwoPHLu1St9PqZ-chqeicO5pwGrKsMBSHfGAkI46zhM-zZy3T85GoT53dJStOTkziNZmqRMkPeYoryRkWuns8hFFQj6QG7eDKTBWMFKTGb2RsCosP9PtlhaQGUk_B7qOzBmyfl1FmgUCae9oANiUtitmG5CMhpiXJJ2rWg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIr8fSut95I5mOsas0gkHe5Y3N2cbDnIG8z0PZ5F6tFWbexp39fnFFM4bWBPv-7xIDfonLvvZaMEOfOyecMpolXhw0fmQbEXSQERHRRv_ZToAgrGCaitycYCYfR1JrCMMFWRQe20HznCBkfnn57ULXjEcJU3Ubw_gYleIzjuLD92pBP1pynLVxOtw6kYBhvDDizNJxWutFJX11jTBSmewKHmw4_eme7lUGuExpaYXEvZ5ExFkTacQDeNu3J0hoebTvnb186dtPMH7N0nznHfI98Wx8UIni2jFlSzrqDMSAbRQuOvZl5FmxG7tbPwVIsLBzeGqOrSD9bqF_MST8fveZ5wuPXcozxtumyzie_Ag8B1cZqK3uX8R0",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGukdEdpxEAQWtVd5aatjtLsXvEAELQjk1sXGyABbMWNno6qNE3pVcvm1pk-KXHht9qemCKUd2n5cWwsPz--vSeS0Cy5CexE1sgS0ELfsvfSUFWzXmmBqZKJp6VpU758Ktmq6HjYIi8GonToyrwlpe3_-0ulf_ew40zQDT_4DYOfdfHDIMw4z359-HLkK3U0xRjz0DQlFAhCM9j98XFTXlaIUbO8-uEbfRHVSkiPuqr0EYDtSRLZHbPRWbaMduscoVAgkyQew=="
+  ],
+  "tokeny": {
+   "wejscie": 11823,
+   "wyjscie": 806
+  },
+  "czas_s": 236,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 i nast. ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 365 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 § 2 pkt 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie koryguje formę zgody na decyzję administracyjną MSWiA oraz wskazuje na zaświadczenie z art. 217 § 2 pkt 2 k.p.a. zamiast sądowej klauzuli (R1=1, R2=1), jednak wprost wyklucza istnienie prawomocności decyzji administracyjnej i ogranicza potwierdzenie do ostateczności, co zgodnie z kluczem v3 skutkuje A_R=0, R3=0, R4=0 oraz naliczeniem kary K3. W A2 przyznano 0 pkt z uwagi na brak powołania wymaganego art. 16 § 3 k.p.a. (oraz precyzyjnego art. 1 ust. 1 u.n.n.c.). W A6 przyznano 0 pkt (typy T i W, hallucinated=true), ponieważ system opisuje art. 16 § 1 k.p.a. w brzmieniu sprzed nowelizacji z 1.06.2017 r. (Dz.U. 2017 poz. 935) i wprost wywodzi z niego oraz z art. 127 § 3 k.p.a. nieprawdziwą w obecnym stanie prawnym normę, jakoby decyzja ministra w I instancji stawała się ostateczna już z chwilą doręczenia stronie, gdyż służy od niej tylko wniosek o ponowne rozpatrzenie sprawy, a nie odwołanie (podczas gdy art. 16 § 1 k.p.a. na równi z odwołaniem wymienia wniosek o ponowne rozpatrzenie sprawy). W bloku B obniżono B1 do 1 pkt, gdyż błędne wskazanie momentu uzyskania ostateczności (z chwilą doręczenia) oraz przedmiotu zaświadczenia zmienia praktyczne działanie pełnomocnika, natomiast B2 oceniono na 1 pkt ze względu na oczekiwaną kategoryczną kalibrację wypowiedzi.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 16,
+  "zapytania": [
+   "\"art. 363\" \"art. 364\" \"art. 365\" OR",
+   "\"art. 16\" \"art. 127\" \"art. 217\" \"Kodeks postępowania administracyjnego\" OR",
+   "\"art. 8\" \"o nabywaniu nieruchomości przez cudzoziemców\" OR",
+   "\"Art. 363\" \"Art. 364\" \"Art. 365\" \"prawomocne\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 364\" \"prawomocności\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 16.\" \"Kodeks postępowania administracyjnego\" \"prawomocne\"",
+   "\"Art. 16.\" \"1691\" OR",
+   "\"Art. 8.\" \"2278\" OR",
+   "\"Decyzje ostateczne, których nie można zaskarżyć do sądu, są prawomocne\"",
+   "\"Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia\"",
+   "\"osoba ubiega się o zaświadczenie ze względu na swój interes prawny\"",
+   "\"Od decyzji wydanej w pierwszej instancji przez ministra\"",
+   "\"lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne\" \"935\"",
+   "\"staje się ostateczna z chwilą doręczenia\" \"wniosek o ponowne rozpatrzenie sprawy\" \"art. 16\"",
+   "\"127 § 1a\" \"Kodeks postępowania administracyjnego\"",
+   "\"Decyzja wydana w pierwszej instancji, od której uzasadnienia organ odstąpił\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaH4bG_a0Pd2Zt9Ttto1qN7gJgLk0mU46FnFY-yu4ci0LCR8-TWsC379UtFdQibVXk7CYxOFdCdSkJgfeMjeLPAjqW6d4Yj806U6tpeHFQfpxxsiwqPUeyRGhEVNeytF3slr2KamAiMiWhhLpulsZ5ywU9PmBplGLJb6jk-psux8ifl92aEPZZxVbWh0Z1ZY7AQ94xTpWZ6b1dCGey_1BGPMN1",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEziE_GYxJR2PymVkZFZCtrhtPRk1vQ2BZbB557A4S4Im19APKPNP7IYMRlpo0dK5VtThSfwFvU6TT5ScdblDwpIUvYvCEDV-xPXREi76d-nt9fIRi2mQ7oWXF3BC_j6vFOStJm4RvNhY4L39IQxsMzDnA="
+  ],
+  "tokeny": {
+   "wejscie": 14986,
+   "wyjscie": 1715
+  },
+  "czas_s": 232,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

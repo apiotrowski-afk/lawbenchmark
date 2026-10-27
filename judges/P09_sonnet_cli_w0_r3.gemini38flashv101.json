@@ -1,0 +1,114 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przesądza, że ogólny zapis o wszelkich polach nie wystarcza i podaje wymagane podstawy (art. 41 ust. 2 i art. 53 pr.aut.). Ocena A6 wynosi 0 z klasą T (hallucinated = true) z powodu przypisania art. 41 ust. 4 pr.aut. normy z sąsiedniego art. 41 ust. 3 pr.aut. (zakaz zbywania praw do wszystkich przyszłych utworów). W rubryce zaliczono potwierdzenie reguły z art. 41 ust. 2, wymóg formy pisemnej oraz przykłady pól pod social media; pominięto wyłączenie art. 12 pr.aut. przy zleceniu oraz linię SN in favorem auctoris. Odpowiedź jest bardzo przydatna praktycznie (B1 = 2) i zachowuje prawidłową kalibrację (B2 = 1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 41 ust. 4\" prawo autorskie",
+   "\"art. 41 ust. 3\" prawo autorskie",
+   "\"art. 67 ust. 5\" prawo autorskie"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13572,
+   "wyjscie": 919
+  },
+  "czas_s": 59,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

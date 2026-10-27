@@ -1,0 +1,74 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 326–328 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 w zw. z art. 328 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 w zw. z art. 328 § 4 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Sąd Najwyższy o nieokreśleniu statusu motywów — Biuletyn Izby Cywilnej SN 06/2020",
+   "zrodlo": "https://www.sn.pl/orzecznictwo/Biuletyn_IC_SN/Biuletyn%20Izby%20Cywilnej%20S%C4%85du%20Najwy%C5%BCszego%2006_2020.pdf",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "SN, I CSK 1871/23",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/i%20csk%201871-23-1.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń, warunek zaskarżalności oraz tygodniowy termin z początkiem jego biegu. A2 wynosi 0, ponieważ nie wskazano wymaganego art. 357 § 1 ani § 2¹; pominięto również opłatę i wyjątki wymagane w ostatnim elemencie rubryki. Biuletyn SN na stronach 3–4 przytacza stanowisko Sądu Apelacyjnego w Warszawie, w tym uwagę o nieokreśleniu statusu motywów, którą odpowiedź przypisała Sądowi Najwyższemu: błędne oznaczenie sądu daje S i A6 = 0. Pochodzenie tego błędu to odczyt_źródła według reguły uznającej adres właściwego źródła oficjalnego w odpowiedzi za wystarczający ślad. Pozostałe powołania są zgodne, a praktyczna konkluzja pozostaje przydatna i dostatecznie stanowcza.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 16,
+  "czas_s": 83,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

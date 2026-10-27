@@ -1,0 +1,87 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN V CZ 48/16 — ogólna niedopuszczalność zażalenia na odrzucenie zażalenia i możliwość zastąpienia go wnioskiem z art. 380 k.p.c.",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/V%20CZ%2048-16.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 380 k.p.c. — kontrola przedstawiona jako samodzielna alternatywa po odrzuceniu zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 79 ust. 1 Konstytucji RP",
+   "zrodlo": "https://trybunal.gov.pl/o-trybunale/akty-normatywne/konstytucja-rzeczypospolitej-polskiej",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ust. 1 ustawy o TK — trzymiesięczny termin skargi konstytucyjnej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2019/2393/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "ustawa o kosztach sądowych w sprawach cywilnych — obowiązek opłaty i zwolnienia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/O/D20251228.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 u.k.s.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1228/text/O/D20251228.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 379 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN III CZ 468/22",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/III%20CZ%20468-22.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "SN III CZ 468/22: potwierdzono sygnaturę w oficjalnej wokandzie SN, lecz nie uzyskano treści orzeczenia.",
+  "Art. 79 ust. 1 Konstytucji RP: treść potwierdzono w oficjalnym serwisie TK; nie uzyskano tekstu przez wskazane przez użytkownika serwisy aktów."
+ ],
+ "uzasadnienie": "A_R=1 zgodnie z przykładem granicznym: odpowiedź trafia w jedną gałąź, lecz nie rozróżnia zażalenia poziomego i dewolutywnego ani nie powołuje wymaganych podstaw. Art. 53 ust. 1 reguluje zawartość skargi konstytucyjnej, a termin określa art. 77 ust. 1, co samodzielnie przesądza A6=0. V CZ 48/16 dotyczyło kontroli incydentalnej przy dopuszczalnym zażaleniu na odrzucenie skargi kasacyjnej i nie ustanawia opisanej samodzielnej drogi kontroli odrzucenia zażalenia. Rozważania o skardze konstytucyjnej stanowią dygresję uzasadniającą A8=0.5. B1=0, ponieważ pominięcie dostępnego zażalenia poziomego grozi utratą środka zaskarżenia, a wskazówki kontrolne nie naprawiają głównej konkluzji.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 18,
+  "czas_s": 99,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

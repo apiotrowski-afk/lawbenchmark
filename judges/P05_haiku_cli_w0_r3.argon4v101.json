@@ -1,0 +1,99 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131 KPC (doręczenia elektroniczne)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 132–146 KPC (ogólne zasady doręczeń, w tym doręczenie zastępcze i awizo)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych (jako podstawa doręczeń sądowych na ADE i 14-dniowego domniemania doręczenia pisma sądowego)",
+   "zrodlo": "Dz.U. 2026 poz. 3 (u.d.e., w szczególności art. 155 ust. 7)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 136 i nast. KPC (doręczenie tradycyjne pocztą / obowiązek zgłaszania zmiany adresu)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 139 KPC (awizo przy 14-dniowym domniemaniu doręczenia elektronicznego)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 i nast. KPC (przywrócenie terminu)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System całkowicie pomija instytucję doręczeń przez Portal Informacyjny Sądów Powszechnych (art. 131¹ᵃ k.p.c. w brzmieniu od 1.06.2026 r.), myląc ją z systemem e-Doręczeń (ADE) oraz ePUAP, przez co traci punkty za rdzeń (A-R=0) i podstawy prawne (A2=0). W zakresie A6 odpowiedź otrzymuje 0 pkt (klasa T), ponieważ przypisuje art. 131 k.p.c. regulację doręczeń elektronicznych (podczas gdy przepis ten dotyczy doręczeń tradycyjnych, a elektroniczne i portalowe regulują art. 131¹ i 131¹ᵃ k.p.c.) oraz powołuje ustawę o doręczeniach elektronicznych jako obowiązującą podstawę doręczeń sądowych (mimo że zgodnie z art. 155 ust. 7 u.d.e. sądy stosują ją dopiero od 1.10.2029 r.). W rubryce zaliczono wyłącznie trzeci element za wskazanie momentu doręczenia wraz z regułą 14 dni (R=[0,0,1,0]), natomiast naliczono drugą karę za odwołanie do przepisów o awizie (art. 139 k.p.c.) przy doręczeniu elektronicznym. Przydatność odpowiedzi oceniono na B1=0 z uwagi na błędne wskazówki praktyczne (weryfikacja ADE i braku sprzeciwu zamiast oświadczenia o wyborze w Portalu Informacyjnym opatrzonego odpowiednim podpisem), przy zachowaniu B2=1 za kategoryczny ton wypowiedzi.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 19,
+  "zapytania": [
+   "\"Dz.U. 2026 poz. 468\" \"Art. 131\"",
+   "OR \"Art. 131\" \"131\" kodeks postępowania cywilnego doręczeń",
+   "OR \"o doręczeniach elektronicznych\" \"18 listopada 2020\" sąd",
+   "\"2026\" \"468\"",
+   "\"DU/2026/468\"",
+   "\"o doręczeniach elektronicznych\" \"155\"",
+   "\"o doręczeniach elektronicznych\"",
+   "\"Dz. U. z 2026 r. poz. 468\" \"Art. 131.\"",
+   "\"Dz. U. z 2026 r. poz. 468\" \"Art. 136.\" \"Art. 139.\"",
+   "\"Dz. U. z 2026 r. poz. 468\" \"Art. 168.\"",
+   "OR \"o doręczeniach elektronicznych\" \"Sądy i trybunały\" \"155\"",
+   "\"D20260468Lj.pdf\" OR \"WDU20260000468\"",
+   "\"Art. 131\" \"sądową służbę doręczeniową\" \"1311a\"",
+   "\"o doręczeniach elektronicznych\" \"1 października 2029\"",
+   "\"Art. 136.\" \"Art. 139.\" \"Kodeks postępowania cywilnego\"",
+   "\"DU/2026/3\"",
+   "\"Art. 131\" \"sądową służbę doręczeniową\"",
+   "\"Art. 139.\" \"W razie niemożności doręczenia\"",
+   "\"Art. 155\" \"Sądy i trybunały\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9694,
+   "wyjscie": 1680
+  },
+  "czas_s": 211,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

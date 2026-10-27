@@ -1,0 +1,83 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 / Dz.U. 2025 poz. 1172 (ISAP/sejm.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 / Dz.U. 2025 poz. 1172 (ISAP/sejm.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 / Dz.U. 2025 poz. 1172 (ISAP/sejm.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ISAP/sejm.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 5 sierpnia 2025 r., Dz.U. 2025 poz. 1172",
+   "zrodlo": "Dz.U. 2025 poz. 1172 (ELI/sejm.gov.pl)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo rozpoznał wejście w życie nowelizacji z 5.08.2025 r. (Dz.U. 2025 poz. 1172) i od razu w drugim akapicie oraz w punktach 1–3 wyłożył pełny rdzeń odpowiedzi (A_R = 2). Wszystkie wymagane podstawy prawne (art. 131¹ᵃ § 1, § 1¹ i § 2 k.p.c.) oraz dodatkowo powołany art. 133 § 3 k.p.c. zostały przywołane i opisane w pełni zgodnie z brzmieniem obowiązującym od 1.06.2026 r. (A2 = 1, A6 = 1). Odpowiedź realizuje wszystkie cztery punkty rubryki, w tym zasady wyboru doręczeń z trzema rodzajami podpisów, fikcję doręczenia po 14 dniach oraz formę i skutek rezygnacji, nie naruszając żadnej z kar. Wywód jest zwięzły, utrzymany w ramach pytania (A8 = 1) oraz kategoryczny i bezpośrednio przydatny w praktyce (B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"art. 133\" \"§ 3\" kodeks postępowania cywilnego eli.gov.pl OR sejm.gov.pl",
+   "\"1311a\" kodeks postępowania cywilnego eli.gov.pl OR sejm.gov.pl",
+   "\"Dz.U. 2025 poz. 1172\" OR \"2025/1172\" eli.gov.pl OR sejm.gov.pl",
+   "\"ustanowiono pełnomocnika procesowego\" \"art. 133\" kpc",
+   "\"Pismo wzywające stronę do osobistego stawiennictwa doręcza się tylko bezpośrednio tej stronie\" eli.gov.pl OR sejm.gov.pl",
+   "\"Oświadczenie o wyborze sposobu doręczeń, o którym mowa w\" \"portalu informacyjnego\" eli.gov.pl OR sejm.gov.pl",
+   "\"DU/2026/468\" \"133\" OR \"1311a\" eli.gov.pl OR sejm.gov.pl",
+   "\"Oświadczenie o rezygnacji ze sposobu doręczeń, o którym mowa w § 1, odnosi skutek prawny z chwilą zawiadomienia sądu\" sejm.gov.pl",
+   "\"odnosi skutek prawny z chwilą zawiadomienia sądu\" sejm.gov.pl OR eli.gov.pl",
+   "\"w § 2 zdanie\" \"1311a\" sejm.gov.pl OR eli.gov.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11263,
+   "wyjscie": 1198
+  },
+  "czas_s": 252,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

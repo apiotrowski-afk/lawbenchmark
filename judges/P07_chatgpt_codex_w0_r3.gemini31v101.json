@@ -1,0 +1,75 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo i kategorycznie odpowiada na pytanie, podając pełny rdzeń w pierwszym akapicie. Powołuje wszystkie wymagane przepisy k.p.c., a ich treść jest zgodna ze stanem prawnym. Zalicza trzy z czterech elementów rubryki, pomijając jedynie kwestię opłaty od wniosku. Nie popełnia błędów skutkujących karami. Odpowiedź jest zwięzła, na temat i wysoce przydatna.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"art. 357\" \"k.p.c.\" \"Dz.U. 2026 poz. 468\"",
+   "\"art. 357 § 1\" \"k.p.c.\"",
+   "\"art. 357 § 2\" \"k.p.c.\"",
+   "\"art. 357 § 5\" \"k.p.c.\"",
+   "\"art. 357\" \"k.p.c.\" \"Postanowienie ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy\"",
+   "\"art. 357\" \"k.p.c.\" \"Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN74uBcb3-pQ_u6Q57cToASZ0CbH4SFyXdJt_qvwjp256xwfdboo-9B9xFbUCFl1JSHpJts85dk8CP5cI3XTwNfFqreoEN2CM_yNVvZ6MCjsoawHlWdkdIaz5811pKHWEwA_OzL3xG_GKHjoFK9RhqmKOfcpZcrN_uomaTJbs9mJAjF4GQdUZN6g62ciBrQnpkRvjx_pK8utYXpMLNXbhoBR6UF6OGCa2SXmcuKTe51etLD9BYZJ5A09yQhV-UWA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeqmomjBUu27mGle198xlSCH9LCLzJhxZDRzWnyl75ApUOpgnr_z8-eAVRTwLnrEdOJWd9AGeFoFVzK_jUzo1vq25BUqPs5DRp1MXakmE2zSCbUKN4D3POY0G4UiXRaO893IkcJn-jvn1weLD_E6K72lkEDSmPSz6TADMNOsS0pR3pWdWAHrZ6SAS1HaNEaORJ_8PXIIgla-ZdE8NlFp2yVRoFw0ZkeFL_",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0IQ6mS14YlMf2XPVmI5zBefsOr6T9BeaSF5IN2htC9OVzduHZCDKI1Ro76oS38fHXukrhUORUxYbVpJcgtYSVmP8bWk61t2MbRNJ_OIUEpi7Nx4Qu0oYC0uElVUMZAEshmzz_s0p6ch0PdHJUerULlH-oezwWWGvrl90soqDL40nASnNWZOkGIFXKJ9AfJeRoPUgCR8h5ptnlqr54b5TeVNBDpD23TrO9XpK2Tm7HEupYkXyCqZm6B_tLiA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrluqoadsfFaRPienrHKRaCqUI9_puWyx2iV-UH4absaXAxfS-pLTkqUKpO233gXy3XKj0USSzBzzfj29xMuAhA3xGPStZQ_C8ayOWm7zbjS_wLa7UPvuQL59tFRNjHbEa-qQkxR2VBDSatFsuBngOKF9-l_8nnqs4YXmRwGZynzm6lPagv-Q0DwoMUv_II_KOeRsepWx1vbMAMHtqbxwAusKjJrOIQZBpVMPPC8sMmQnL9X7GX-g-uuXjTMnJ-pgxsx7OK9R9ZsdMHuSmC3RzZ5LL_-gutuV2NP3R_ElClpAChb-hfzPHOk53Ex9N",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOu_id4JC-hUcr_TN4R37MrB0k_lr_gsPk2De_nSfRFuaAfh3TRHX0-yGjbHfRZpiAmHAdsDGqgnk7J2iNEZMpdzkVIkxoRbMf8i8KYINpXeMWyg1DBxUa4zYlZPIt-fhtGL0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsCI8UqaGMwM2kqrk3q2m9vHdK_qdDCiQ_yDvs4J9SBoWMcqBL66Zvp9rLHdPbswTVAmlKTMgMX4fCB2XO0kYWOByFlzjJzYvVng9yJuY3E5rwF3SC7FZi5LHTC-7XhlxRBv_c7B9ZgNnqwf0ZqLyCuo1zQeukr-Y7-j0m7wqw5Lm5oh_WPCEzen-NkHQplpDceoKPuCEb2a-e0hkkvmnGY29FG3gc1BgFjx4P9Us-nBri5OTCGCx5ZVUBZno=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEX8BzWAFu5cUcxi6I55rdzVRa4yBuSVVlNMfBAC4HCNxPAQFwlNsH7AK9YiaU5mbe0qukgxCdw_9eqtl6TR_Eq41oVXMed2ROEf7zyoQ2iRuF5kP8NHCE_fONKI43hydo07YLPfAb2CU6e-9WsoGOw5up1VSspviceS9CiK6qCMBZzX5gCmqcczUkvAViAhD_jEjyxXx-sb8="
+  ],
+  "tokeny": {
+   "wejscie": 8906,
+   "wyjscie": 459
+  },
+  "czas_s": 76,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 326 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 369 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 328 § 1 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 169 § 1 i 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie odpowiada, że podanie zasadniczych powodów rozstrzygnięcia nie wyłącza wniosku o uzasadnienie w terminie tygodniowym od ogłoszenia lub doręczenia, lecz myli instytucję z art. 357 § 5 k.p.c. z ustnymi powodami wyroku (art. 326 § 3 k.p.c.) i pomija kluczowy warunek zaskarżalności postanowienia (A-R = 1, R[1] = 0). W zakresie podstaw prawnych brak wymaganych art. 357 § 1 albo § 2¹ k.p.c., a art. 357 § 5 k.p.c. pojawia się wyłącznie w zastrzeżeniu o braku weryfikacji (A2 = 0). Punkt A6 spada do 0 (hallucinated = true), ponieważ odpowiedź przypisuje opłatę 100 zł nieistniejącemu zdaniu drugiemu art. 328 § 1 k.p.c. (zamiast art. 25b u.k.s.c., klasa T), termin tygodniowy na wniosek o uzasadnienie postanowienia oraz uzasadnianie z urzędu postanowień kończących postępowanie przypisuje art. 357 § 2 k.p.c. (zamiast § 1 i § 2¹, klasa T), obowiązek równoczesnego dokonania czynności procesowej wiąże z art. 169 § 1 i 2 zamiast § 3 k.p.c. (klasa T), a bieg terminu od doręczenia sentencji wyroku lokuje w art. 328 § 1 zamiast § 2 k.p.c. (dawne brzmienie, klasa W). Rozbudowane omówienie uzasadniania wyroków i przywrócenia terminu wykracza poza pytanie o art. 357 § 5 k.p.c. (A8 = 0.5). Przydatność obniża do 1 m.in. błędna teza, że po bezskutecznym upływie terminu na wniosek o uzasadnienie termin na zaskarżenie biegnie od doręczenia orzeczenia bez uzasadnienia.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 20,
+  "zapytania": [
+   "\"art. 326\" \"327\" \"328\" OR OR",
+   "\"art. 357\" \"art. 369\" \"art. 394\" OR OR",
+   "\"art. 168\" \"art. 169\" \"Kodeks postępowania cywilnego\" OR OR",
+   "\"api.sejm.gov.pl/eli/acts/DU/2026/468\"",
+   "\"Art. 326.\" \"Art. 327\" \"Art. 328.\" \"uzasadnienie\" \"wyroku\"",
+   "\"Art. 357.\" \"postanowienie\" \"zasadnicze powody\" \"tygodnia\"",
+   "\"Art. 369.\" \"Art. 394.\" \"apelację\" \"zażalenie\" \"k.p.c.\"",
+   "\"Art. 168.\" \"Art. 169.\" \"przywrócenie terminu\" \"równocześnie\"",
+   "\"Art. 357.\" \"Postanowienia ogłoszone na posiedzeniu jawnym\" \"Dz.U.2026.468\" OR \"Kodeks postępowania cywilnego\"",
+   "\"Art. 394.\" \"Termin do wniesienia zażalenia jest tygodniowy\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 169.\" \"Pismo z wnioskiem o przywrócenie terminu\" \"równocześnie z wnioskiem\"",
+   "\"Art. 328.\" \"Pisemne uzasadnienie wyroku sporządza się na wniosek strony\" \"Dz.U.2026.468\" OR \"Kodeks postępowania cywilnego\"",
+   "\"Art. 357.\" \"§ 2.\" \"§ 3.\" \"§ 5.\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 369.\" \"§ 1.\" \"Apelację wnosi się\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 357 § 2\" \"przed\" \"2019\" \"posiedzeniu niejawnym\" \"uzasadnia\"",
+   "\"art. 328 § 1\" \"przed\" \"2019\" \"doręczenia sentencji\"",
+   "\"Art. 328.\" \"§ 1.\" \"doręczenia sentencji\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 357.\" \"§ 2.\" \"posiedzeniu niejawnym\" \"uzasadnia\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 357.\" \"§ 2.\" \"Postanowienia wydane na posiedzeniu niejawnym sąd doręcza z urzędu obu stronom\"",
+   "\"Postanowienia wydane na posiedzeniu niejawnym sąd uzasadnia tylko wtedy, gdy przysługuje na nie środek zaskarżenia\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9188,
+   "wyjscie": 2168
+  },
+  "czas_s": 216,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 02.03.2016 r., VIII Gz 43/16",
+   "zrodlo": "SAOS (orzeczenie 213643)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 753, 753¹, 754 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1043¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Merytorycznie odpowiedź jest wzorcowa: precyzyjnie wyjaśnia odrębność funkcji nakazu jako tytułu wykonawczego podlegającego wstrzymaniu od tytułu zabezpieczenia, zaliczając wszystkie elementy rubryki i powołując trafne orzecznictwo SO w Szczecinie. Kryterium A6 wynosi jednak 0 z oznaczeniem hallucinated=true ze względu na wskazanie nieistniejącej jednostki redakcyjnej (art. 1043¹ k.p.c. jako podstawy dotyczącej kaucji). Wymagane podstawy prawne zostały powołane prawidłowo (A2=1), a ramy wypowiedzi zachowano w całości (A8=1). Przydatność dla praktyka pozostaje pełna, a kalibracja pewności jest zgodna z kluczem.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"1043(1)\" kpc OR \"1043^1\" kpc OR \"1043¹\" kpc",
+   "\"art. 1043\" kpc"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12304,
+   "wyjscie": 848
+  },
+  "czas_s": 26,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

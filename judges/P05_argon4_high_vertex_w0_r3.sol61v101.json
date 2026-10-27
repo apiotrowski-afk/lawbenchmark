@@ -1,0 +1,95 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 7 lipca 2023 r. — wprowadzenie doręczeń portalowych do k.p.c. i k.p.k. od 14 marca 2024 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/1860/text.html — art. 1, art. 3 i art. 40 pkt 4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 15zzs⁹ ustawy covidowej — uchylenie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2023/1860/text.html — art. 28 pkt 3 i art. 40 pkt 4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 1 k.p.c. — wyłączenie samodzielnie działających stron z doręczeń portalowych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 29, § 1 i odnośnik 29; od 1 czerwca 2026 r. katalog obejmuje także stronę, która wybrała ten sposób doręczania",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 1 k.p.c. — zaliczenie biegłych sądowych do wskazanego katalogu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 28–29; biegłych nie wymienia ani poprzednie, ani nowe brzmienie § 1",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. — doręczenia za pośrednictwem systemu teleinformatycznego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 28, § 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133a § 1 k.p.k. — doręczenia portalowe wyłącznie podmiotom profesjonalnym",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/490/text.pdf — s. 27, § 1 i odnośnik 42; od 1 czerwca 2026 r. obejmuje także stronę, która wybrała doręczenia portalowe",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 131 i następne k.p.k. — tradycyjne sposoby doręczania osobom fizycznym",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/490/text.pdf — s. 26–27; regulują doręczenia tradycyjne, lecz zakres odesłania obejmuje również art. 133a umożliwiający stronie wybór portalu",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ § 2 k.p.c. — wniesienie pisma jako wybór doręczeń elektronicznych w EPU",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 28; § 2 określa moment doręczenia i jego fikcję, natomiast przesłankę wniesienia pisma lub wyboru systemu reguluje § 1",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 216aa Prawa upadłościowego — możliwość działania z pominięciem systemu teleinformatycznego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/913/text.pdf — s. 47, art. 216aa; stosowanie do dłużnika konsumenckiego wynika z art. 491² ust. 3, a doręczenia reguluje art. 220",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa o doręczeniach elektronicznych — dobrowolny adres osoby fizycznej i obowiązek stosowania przez sądy od 2029 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text.pdf — art. 10 oraz art. 155 ust. 7–8; termin dla sądów to 1 października 2029 r.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133 § 3 k.p.c. w związku z art. 131¹ᵃ k.p.c. — doręczanie ustanowionemu profesjonalnemu pełnomocnikowi przez portal",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 29 i 30",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: na 1 października 2026 r. osoba fizyczna może wybrać doręczenia portalowe, a system stanowczo temu zaprzecza. Nie opisuje oświadczenia, podpisów, momentu doręczenia ani rezygnacji, dlatego nie zalicza żadnego elementu rubryki i otrzymuje pierwszą karę. A6 obniżają nieaktualne opisy art. 131¹ᵃ § 1 k.p.c. i art. 133a § 1 k.p.k. oraz przypisanie art. 131¹ § 2 k.p.c. treści § 1 i dopisanie biegłych do katalogu. Dygresje o procedurze karnej i innych systemach obniżają A8, a błędne wskazówki dotyczące biegu terminów uzasadniają B1 = 0. B2 = 1, ponieważ klucz wymaga odpowiedzi kategorycznej; pochodzenie błędów pozostaje nieustalone bez śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 116,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

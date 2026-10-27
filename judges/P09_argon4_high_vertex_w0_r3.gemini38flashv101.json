@@ -1,0 +1,114 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14.09.2005 r., III CK 124/05",
+   "zrodlo": "SAOS id 163531",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 KC",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 i art. 46 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 PrAut",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ KC",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozstrzyga problem prawny, potwierdzając nieskuteczność ogólnego sformułowania i wskazując na możliwość ratowania umowy przez wykładnię (art. 65 k.c., III CK 124/05). Przytoczenie art. 41 ust. 2 pr.aut. nastąpiło jednak w brzmieniu sprzed nowelizacji z 2024 r. (przed t.j. Dz.U. 2025 poz. 24), co kwalifikuje się jako błąd wersji W, skutkując A6=0 i hallucinated=true. Zgodnie z regułą rozgraniczenia uchybienie to obniża A6, nie wpływając na A3 (A3=1). W kryterium A8 przyznano 0.5 punktu z uwagi na dodanie nieproszonego, rozbudowanego projektu klauzuli (przekraczającego próg dwóch zdań). W rubryce pominięto jedynie kwestię wyłączenia działania art. 12 pr.aut. przy umowie zlecenia.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu, zwana dalej\" isap sejm",
+   "\"obejmuje pola eksploatacji wyraźnie w niej wymienione\" isap",
+   "\"Art. 41. 1.\" \"pola eksploatacji wyraźnie\" \"Dz.U. 2025 poz. 24\" sejm isap",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują\" sejm",
+   "\"lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"Dz.U. 2024 poz. 1254\" \"art. 41\"",
+   "\"Dz.U. 2024 poz. 1254\" \"art. 41\" \"licencja obejmują\"",
+   "\"w art. 41\" \"Dz.U. 2024 poz. 1254\" \"obejmują pola\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14387,
+   "wyjscie": 901
+  },
+  "czas_s": 78,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W",
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1³ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN V CZ 48/16",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 3941 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "art. 397 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 130 § 1 i 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie formułuje rdzeń poprzez konieczne rozróżnienie zażalenia poziomego i dewolutywnego (A_R=2), realizując trzy pierwsze punkty rubryki. Nie wskazano jednak wymaganej podstawy z art. 397 § 1¹ k.p.c. (A2=0) ani regulacji art. 130² k.p.c. dot. profesjonalnego pełnomocnika. Postanowieniu SN V CZ 48/16 przypisano nieistniejącą w nim tezę o zamkniętym katalogu art. 394² k.p.c. (klasa T), odesłanie do procedury apelacyjnej oparto na nieaktualnym brzmieniu art. 397 § 2 k.p.c. zamiast § 3 (klasa W), a art. 394¹ zapisano jako 'art. 3941' (klasa S), co skutkuje A6=0 i etykietą hallucinated. Naliczono karę za sugerowanie dopuszczalności zażalenia do SN na podstawie art. 394¹ k.p.c., które nie ma w tej sytuacji zastosowania.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 25,
+  "zapytania": [
+   "\"art. 394(2)\" \"§ 1(3)\" kpc or \"394² § 1³\" sejm",
+   "\"art. 394(2)\" \"1(3)\" kpc or",
+   "\"art. 394²\" \"§ 1³\" kpc",
+   "\"art. 394²\" k.p.c. treść \"Dz.U. 2026 poz. 468\" or \"Dz.U. 2023 poz.\"",
+   "\"V CZ 48/16\" sn.pl or saos",
+   "\"V CZ 48/16\" postanowienie Sądu Najwyższego",
+   "\"V CZ 48/16\"",
+   "\"V CZ 48/16\" \"394\"",
+   "\"V CZ 48/16\" postanowienie 9 września 2016",
+   "\"Orzeczenia3/V CZ 48-16.pdf\" or \"V CZ 48/16\" \"zażalenie\"",
+   "\"V CZ 48/16\" \"postanowienie\" sn",
+   "\"V CZ 48/16\" \"sąd drugiej instancji\" or \"zażalenie\"",
+   "\"III CZ 22/04\" \"IV CZ 75/09\" \"II CZ 12/11\"",
+   "\"9 września 2016\" \"V CZ 48/16\"",
+   "\"V CZ 48/16\" \"odrzucenie\"",
+   "\"V CZ 48/16\" \"394(2)\" or \"394²\"",
+   "\"art. 397 § 2\" \"art. 397 § 3\" kpc \"stosuje się odpowiednio\"",
+   "\"art. 397\" kpc sejm t.j. 2026 poz. 468",
+   "\"art. 397\" kpc \"Do postępowania toczącego się na skutek zażalenia\"",
+   "\"V CZ 48/16\" \"postanowienie z dnia 9 września 2016\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11983,
+   "wyjscie": 921
+  },
+  "czas_s": 291,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

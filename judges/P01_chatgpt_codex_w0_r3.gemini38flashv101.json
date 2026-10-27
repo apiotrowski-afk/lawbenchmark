@@ -1,0 +1,60 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734 (k.w. t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734 (k.w. t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni trafna i wyczerpująca. Prawidłowo wskazuje sztywny próg 800 zł od 1.10.2023 r., zaprzecza powiązaniu z płacą minimalną oraz powołuje właściwe podstawy prawne (art. 119 § 1 i dopuszczalny art. 124 § 1 k.w.). Spełnia wszystkie elementy rubryki i nie zawiera halucynacji.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 124\" kodeks wykroczen \"800\"",
+   "\"art. 119\" kodeks wykroczen \"800\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11678,
+   "wyjscie": 351
+  },
+  "czas_s": 22,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

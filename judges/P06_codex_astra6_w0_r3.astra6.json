@@ -1,0 +1,53 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0.5,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ᵃ § 1 pkt 12 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — s. 73–74",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — s. 74–75",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf — s. 73, przepis uchylony; https://eli.gov.pl/api/acts/DU/2018/1360/text/T/D20181360L.pdf — s. 60, dawne brzmienie odpowiadające opisowi",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź nazywa rozwidlenie w końcowym pytaniu, co zalicza pierwszy element rubryki i uzasadnia B2 = 1, lecz przedstawia tylko negatywną gałąź odpowiedzi. Brakuje obu wymaganych podstaw, pozytywnej konkluzji dla zażalenia poziomego oraz uwagi o art. 130² k.p.c. Twierdzenie o braku ogólnej zaskarżalności w art. 394² jest poprawne, ale pomija szczególną podstawę z § 1². Opis art. 394¹ § 2 odpowiada rzeczywistemu dawnemu brzmieniu przepisu obecnie uchylonego, dlatego jest błędem W, a nie F lub T. Wskazanie ewentualnego zażalenia do SN skutkuje pierwszą karą i ogranicza przydatność odpowiedzi do B1 = 1.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 42,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

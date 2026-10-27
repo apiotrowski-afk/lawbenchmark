@@ -1,0 +1,92 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi trafnie wskazuje, że ogólna formuła co do zasady nie wystarcza, i prawidłowo warunkuje ocenę wykładnią umowy (A_R=2, B2=1). W A2 przyznano 0 ze względu na brak wskazania wymaganej jednostki redakcyjnej (art. 41 ust. 2 pr.aut.), co skutkuje też niezaliczeniem R1. Kluczowym uchybieniem dyskwalifikującym odpowiedź w A6 jest przypisanie artykułowi 65 pr.aut. zasad wykładni umów i celu umowy, podczas gdy art. 65 pr.aut. normuje domniemanie licencji, a reguły wykładni wynikają z art. 65 k.c. (klasa T/S, hallucinated=true). Z tego powodu nie zaliczono również elementu R5 o linii orzeczniczej SN opartej na art. 65 k.c. Błąd w powołaniu podstawy wykładni obniża przydatność praktyczną odpowiedzi do B1=1.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"Art. 65\" prawo autorskie treść ISAP",
+   "ustawa o prawie autorskim i prawach pokrewnych art 65",
+   "art 65 pr aut",
+   "\"art. 2 ust. 2\" prawo autorskie treść ISAP",
+   "art 2 ust 2 pr aut"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13117,
+   "wyjscie": 689
+  },
+  "czas_s": 51,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

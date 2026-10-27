@@ -1,0 +1,103 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727 (oraz wersja EN: „would falsely appear to a person to be authentic or truthful”)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motyw 134 AI Act",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 k.c.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 1071 (k.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 24 k.c.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 1071 (k.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "EUR-Lex CELEX 32016R0679 (art. 9 ust. 1 — dane biometryczne przetwarzane w celu jednoznacznego zidentyfikowania osoby fizycznej)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "W kryterium A-R przyznano 1 pkt, ponieważ odpowiedź trafnie wskazuje obiektywny charakter przesłanki wprowadzenia w błąd oraz niezależny obowiązek dostawcy z art. 50 ust. 2 AI Act, ale w sekcji 2 zawęża wykładnię pojęcia „istniejącej osoby” wbrew wytycznym KE C(2026) 5054 (twierdząc, że syntetyczny głos nieodwzorowujący konkretnej istniejącej osoby nie jest deepfake'iem, nawet gdy odbiorca nie wie, że to AI). Zgodnie z regułą z README („Zawężenie definicji wbrew wytycznym (soft law) = błąd wykładni, płaci w A-R; nie T”) nie obniża to A6. Wszystkie powołane przepisy AI Act, k.c. oraz art. 9 RODO są zgodne ze źródłami urzędowymi (A6 = 1), a przytoczony w cudzysłowie angielski fragment art. 3 pkt 60 AI Act jest dosłowny (A3 = 1). W rubryce odpowiedź zalicza elementy R1–R5, tracąc jedynie punkt R6 za brak omówienia wytycznych KE lub kodeksu praktyk z zaznaczeniem ich niewiążącego charakteru (soft law).",
+ "_meta": {
+  "sedzia": "argon4meta2",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"would falsely appear to a person to be authentic or truthful\"",
+   "\"134\" \"deepfake\" 2024/1689",
+   "\"Artykuł 9\" \"dane biometryczne\" 2016/679"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 22039,
+   "wyjscie": 1073,
+   "rozumowanie": 7003
+  },
+  "czas_s": 104,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 11, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 3 pkt 60 AI Act [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten definiuje deepfake jako wygenerowane lub zmanipulowane przez AI obrazy, treści audio lub wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia oraz mogłyby zostać niesłusznie uznane przez odbio…”\n    · uzasadnienie weryfikatora: Wskazana jednostka (art. 3 pkt 60 AI Act) wprost zawiera przytoczoną definicję deepfake'a.\n    · kotwica (verbatim ze źródła): „60) „deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub pra…”\n    · brzmienie jednostki (fragment): „Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szko…”\n- 2. art. 50 ust. 4 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten zakłada obowiązek ujawnienia, że dana treść jest sztuczna.”\n    · uzasadnienie weryfikatora: Przepis wprost nakłada obowiązek ujawnienia, że określone treści (deepfake, tekst publikowany w interesie publicznym) zostały sztucznie wygenerowane lub zmanipulowane.\n    · kotwica (verbatim ze źródła): „Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane.”\n    · brzmienie jednostki (fragment): „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowania, w przypadku gdy wykorzystywanie jest dozwolone na mocy prawa w celu wykrywania przestępstw, zapobiegania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców. W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze…”\n- 3. art. 50 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten ma szerszy zakres zastosowania niż same deepfake'i i nakłada obowiązki także w przypadkach, gdy treść nimi nie jest.”\n    · uzasadnienie weryfikatora: Art. 50 reguluje nie tylko deepfake'i (ust. 4), ale też interakcję z systemami AI (ust. 1), oznaczanie wszelkich syntetycznych treści (ust. 2) czy systemy rozpoznawania emocji (ust. 3).\n    · kotwica (verbatim ze źródła): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykr…”\n    · brzmienie jednostki (fragment): „Artykuł 50 Obowiązki w zakresie przejrzystości dla dostawców i podmiotów stosujących niektóre systemy AI 1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzys…”\n- 4. art. 50 ust. 1 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten nakazuje informowanie o interakcji z systemem AI (np. voicebotem), chyba że jest to oczywiste.”\n    · uzasadnienie weryfikatora: Przepis wprost ustanawia obowiązek projektowania systemów AI wchodzących w bezpośrednią interakcję z osobami fizycznymi tak, by informowały o interakcji z AI, z wyjątkiem sytuacji, gdy jest to oczywiste.\n    · kotwica (verbatim ze źródła): „1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że j…”\n    · brzmienie jednostki (fragment): „1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzystywanie jest dozwolone na mocy prawa do celów wykrywania przestępstw, przeciwdziałania im, prowadzenia po…”\n- 5. art. 50 ust. 2 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten nakłada na dostawców systemów generujących syntetyczne audio obowiązek oznaczania wyników w formacie nadającym się do odczytu maszynowego, niezależnie od tego, czy stanowią one deepfake.”\n    · uzasadnienie weryfikatora: Przepis wprost zobowiązuje dostawców systemów generujących syntetyczne dźwięki do oznaczania wyników w formacie nadającym się do odczytu maszynowego, bez ograniczania tego obowiązku do deepfake'ów.\n    · kotwica (verbatim ze źródła): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykr…”\n    · brzmienie jednostki (fragment): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych w zakresie, w jakim jest to technicznie wykonalne, uwzględniając przy tym specyfikę i ograniczenia różnych rodzajów treści, koszty wdrażania oraz powszechnie uznany stan wiedzy te…”\n- 6. art. 50 ust. 4 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten nakłada na podmiot stosujący obowiązek ujawnienia odnoszący się do deepfake'ów, przy czym w przypadku treści ewidentnie artystycznych, satyrycznych lub fikcyjnych ogranicza go do ujawnienia w sposób niezakłócający odbioru.”\n    · uzasadnienie weryfikatora: Przepis wprost nakłada ten obowiązek na podmioty stosujące w odniesieniu do deepfake'ów i zawiera przytoczone ograniczenie dla utworów artystycznych, satyrycznych lub fikcyjnych.\n    · kotwica (verbatim ze źródła): „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastos…”\n    · brzmienie jednostki (fragment): „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowania, w przypadku gdy wykorzystywanie jest dozwolone na mocy prawa w celu wykrywania przestępstw, zapobiegania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców. W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze…”\n- 7. art. 23 k.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten reguluje ochronę dóbr osobistych, w tym wizerunku i głosu.”\n    · uzasadnienie weryfikatora: Art. 23 k.c. ustanawia ochronę dóbr osobistych i zawiera otwarty katalog („w szczególności”), w którym wprost wymieniono wizerunek (głos mieści się w otwartym katalogu dóbr osobistych).\n    · kotwica (verbatim ze źródła): „Art. 23. Dobra osobiste człowieka, jak w szczególności zdrowie, wolność, cześć, swoboda sumienia, nazwisko lub pseudonim, wizerunek, tajemnica korespondencji, nietykalność mieszkania, twórczość naukowa, artystyczna, wynalazcza i racjonalizatorska, pozostają p…”\n    · brzmienie jednostki (fragment): „Art. 23. Dobra osobiste człowieka, jak w szczególności zdrowie, wolność, cześć, swoboda sumienia, nazwisko lub pseudonim, wizerunek, tajemnica korespondencji, nietykalność mieszkania, twórczość naukowa, artystyczna, wynalazcza i racjonalizatorska, pozostają pod ochroną prawa cywilnego niezależnie od ochrony przewidzianej w innych przepisach.”\n- 8. art. 24 k.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 24. § 1. Ten, czyje dobro osobiste zostaje zagrożone cudzym działaniem, może żądać zaniechania tego działania, chyba że nie jest ono bezprawne. W razie dokonanego naruszenia może on także żądać, ażeby osoba, która dopuściła się naruszenia, dopełniła czynności potrzebnych do usunięcia jego skutków, w szczególności ażeby złożyła oświadczenie odpowiedniej treści i w odpowiedniej formie. Na zasadach przewidzianych w kodeksie może on również żądać zadośćuczynienia pieniężnego lub zapłaty odpowiedniej sumy pieniężnej na wskazany cel społeczny. § 2. Jeżeli wskutek naruszenia dobra osobistego zo…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten reguluje ochronę dóbr osobistych, w tym wizerunku i głosu.”\n    · uzasadnienie weryfikatora: Art. 24 k.c. powołany łącznie z art. 23 k.c. reguluje roszczenia przysługujące w razie zagrożenia lub naruszenia dóbr osobistych (w tym wizerunku i głosu).\n    · kotwica (verbatim ze źródła): „Art. 24. § 1. Ten, czyje dobro osobiste zostaje zagrożone cudzym działaniem, może żądać zaniechania tego działania, chyba że nie jest ono bezprawne.”\n    · brzmienie jednostki (fragment): „Art. 24. § 1. Ten, czyje dobro osobiste zostaje zagrożone cudzym działaniem, może żądać zaniechania tego działania, chyba że nie jest ono bezprawne. W razie dokonanego naruszenia może on także żądać, ażeby osoba, która dopuściła się naruszenia, dopełniła czynności potrzebnych do usunięcia jego skutków, w szczególności ażeby złożyła oświadczenie odpowiedniej treści i w odpowiedniej formie. Na zasadach przewidzianych w kodeksie może on również żądać zadośćuczynienia pieniężnego albo zapłaty odpowiedniej sumy pieniężnej na wskazany cel społeczny. § 2. Jeżeli wskutek naruszenia dobra osobistego z…”\n- 9. art. 9 [akt: nieustalony (w zdaniu inny akt: k.c., RODO, DSA)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — w zdaniu inny akt: k.c., RODO, DSA\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 10. art. 50 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Obowiązki wynikające z tego artykułu mogą mieć zastosowanie również wtedy, gdy dana treść nie stanowi deepfake'a.”\n    · uzasadnienie weryfikatora: Z tekstu art. 50 (ust. 1, 2, 3 oraz ust. 4 akapit drugi) wprost wynika, że obowiązki przejrzystości obejmują również przypadki niebędące deepfake'iem.\n    · kotwica (verbatim ze źródła): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykr…”\n    · brzmienie jednostki (fragment): „Artykuł 50 Obowiązki w zakresie przejrzystości dla dostawców i podmiotów stosujących niektóre systemy AI 1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzys…”\n- 11. art. 50 [akt: domniemany (akt z podstaw klucza)]\n    · KLASA A6: ✓ (etykieta weryfikatora: poza_brzmieniem; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten stosuje się od 2 sierpnia 2026 r.”\n    · uzasadnienie weryfikatora: Art. 50 jest tu przedmiotem wypowiedzi o dacie wejścia w życie / stosowania (regulowanej w przepisach końcowych aktu) oraz o pracach legislacyjnych, a nie źródłem, któremu przypisano normę o własnym terminie stosowania.\n    · brzmienie jednostki (fragment): „Artykuł 50 Obowiązki w zakresie przejrzystości dla dostawców i podmiotów stosujących niektóre systemy AI 1. Dostawcy zapewniają, aby systemy AI przeznaczone do wchodzenia w bezpośrednią interakcję z osobami fizycznymi projektowano i rozwijano w taki sposób, aby zainteresowane osoby fizyczne były informowane o tym, że prowadzą interakcję z systemem AI, chyba że jest to oczywiste z punktu widzenia osoby fizycznej, która jest dostatecznie poinformowana, uważna i ostrożna, z uwzględnieniem okoliczności i kontekstu wykorzystywania. Obowiązek ten nie ma zastosowania do systemów AI, których wykorzys…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

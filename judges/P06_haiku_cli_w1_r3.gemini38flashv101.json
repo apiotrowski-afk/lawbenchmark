@@ -1,0 +1,106 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SN z dnia 9 września 2016 r., sygn. akt V CZ 48/16",
+   "zrodlo": "sn.pl",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 380 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 79 ust. 1 Konstytucji RP",
+   "zrodlo": "Dz.U. 1997 nr 78 poz. 483",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ust. 1 ustawy o TK",
+   "zrodlo": "Dz.U. 2019 poz. 2393",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 102 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 379 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje, że zażalenie nie przysługuje (co jest poprawne dla zażalenia dewolutywnego), lecz pomija rozróżnienie i możliwość wniesienia zażalenia poziomego do innego składu SA z art. 394² § 1² zd. 2 k.p.c. Skutkuje to zaliczeniem A_R na 1 oraz naliczeniem kary za odpowiedź jednoznaczną bez rozróżnienia (K[1]=1), a także ocenami A2=0 i B2=0. W A6 stwierdzono błędy klasy T (postanowieniu SN V CZ 48/16 oraz art. 380 k.p.c. przypisano kreację samodzielnego środka zaskarżenia) oraz W (powołano art. 53 ust. 1 uchylonej ustawy o TK zamiast art. 77 ust. 1 obowiązującej ustawy). Wskazówki grożące utratą terminu na zaskarżenie odrzucenia zażalenia poziomego i sugerujące nieistniejący tryb z art. 380 k.p.c. skutkują B1=0. Zamieszczenie obszernych dygresji dotyczących skargi konstytucyjnej i weryfikacji doręczeń obniża ocenę ram do A8=0.5.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 22,
+  "zapytania": [
+   "\"V CZ 48/16\"",
+   "\"V CZ 48/16\" sn",
+   "\"380\" \"V CZ 48/16\"",
+   "\"V CZ 48/16\" \"380\"",
+   "\"V CZ 48/16\" \"9 września 2016\"",
+   "\"V CZ 48/16\" \"postanowienie Sądu Apelacyjnego\"",
+   "\"V CZ 48/16\" odrzucenie zażalenia",
+   "\"V CZ 48/16\" \"380 k.p.c.\"",
+   "\"V CZ 48/16\" \"postanowienie z dnia 9 września 2016\"",
+   "\"V CZ 48/16\" treść",
+   "\"V CZ 48/16\" filetype:pdf",
+   "\"V CZ 48/16\" \"odrzuca zażalenie\"",
+   "\"V CZ 48/16\" uzasadnienie",
+   "\"V CZ 48/16\" \"380 k.p.c.\" \"odrzuca\"",
+   "\"V CZ 48/16\" \"uczestniczki\"",
+   "\"8 lipca 2016\" \"V CZ 48/16\"",
+   "\"V CZ 48/16\" \"Sąd Najwyższy\" uzasadnienie",
+   "\"V CZ 48/16\" \"3 lipca 2014\"",
+   "\"V CZ 48/16\" \"postanowieniem z dnia 8 lipca 2016\"",
+   "\"V CZ 48/16\" \"odrzuceniu skargi kasacyjnej\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11502,
+   "wyjscie": 801
+  },
+  "czas_s": 101,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

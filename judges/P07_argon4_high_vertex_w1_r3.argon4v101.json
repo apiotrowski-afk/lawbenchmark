@@ -1,0 +1,48 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "pusta"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź systemu jest całkowicie pusta (brak tekstu). Zgodnie z regułami benchmarku dla pustej odpowiedzi przyznano 0 punktów we wszystkich aktywnych kryteriach (A-R, A2, A6, A8, R, B1, B2), natomiast A3 (brak cytatów) i A5 (sporne: false) oznaczono jako n/d. W kryterium A6 pusta odpowiedź otrzymuje 0 punktów z typem „pusta”, lecz bez etykiety hallucinated (false).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10683,
+   "wyjscie": 238
+  },
+  "czas_s": 23,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

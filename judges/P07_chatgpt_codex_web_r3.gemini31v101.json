@@ -1,0 +1,70 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna i wyczerpująca. Rdzeń odpowiedzi znajduje się w pierwszym akapicie. System prawidłowo powołał wszystkie wymagane przepisy k.p.c. oraz trafną uchwałę Sądu Najwyższego. Z rubryki zabrakło jedynie wzmianki o opłacie od wniosku lub wyjątkach od obowiązku uzasadnienia. Kalibracja pewności jest kategoryczna, co odpowiada stanowi prawnemu.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 1,
+  "zapytania": [
+   "\"III CZP 38/20\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP0I1FhZRaR9mmzrDsE6Gbkj9rdVdDu56bJZ1ihDoJqURzlLcFuoPdaPWTASZUb7fzWH8UJO505OiT6DEXEXGWipZe_T8hgtYN87bnOd58CHLIHN-8GweKvCwPi5kU8xuUMzo1f0-N2WfhrWbFNE58xr7XGvazMSET2kkiNd8ASigyPdlilqZ7XvchuNyvnRppJJz7mMNYhA08lYb7LuhaOB2AoWYNR9MqHPqd",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE979mzfhT-YkNy6YU36G9iHROZ061qKXMwrIMJRGvdISUeTsi5BPOREH0h32-fw5M0RPlQUXigZwSdwCasV0dWaIEkIknl5DXGN6VVarlI6xD8f28_iGHvV0oGG3-mdtIl2bZwjoDJe0g-q7gpSh7wUD5uT7lChuW7TqyKW-Ok5dcp1CHMHEhKlNsfDYrW48c0qdUN"
+  ],
+  "tokeny": {
+   "wejscie": 9205,
+   "wyjscie": 518
+  },
+  "czas_s": 71,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 131¹ᵃ § 1–4 k.p.c., w tym § 1, § 1¹, § 1¹ zd. 3, § 2 i § 3",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 5 sierpnia 2025 r., Dz.U. 2025 poz. 1172 — rozszerzenie doręczeń portalowych od 1 czerwca 2026 r.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2025/1172/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie MS z 12 marca 2024 r., Dz.U. 2024 poz. 368, w tym § 2 pkt 3",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2024/368/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie MS z 23 lutego 2026 r., Dz.U. 2026 poz. 225",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2026/225/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133a § 1–5 k.p.k., w tym § 1a, § 2 i § 3",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2025/1178/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133a § 4 i § 5 k.p.k.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/37/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 9 lipca 2025 r., Dz.U. 2025 poz. 1178",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2025/1178/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie MS z 12 marca 2024 r., Dz.U. 2024 poz. 367",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2024/367/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie MS z 20 lutego 2026 r., Dz.U. 2026 poz. 216",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2026/216/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 134 § 1 k.p.c. — wyłączenie stosowania przy doręczeniach portalowych",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 125¹ § 2 k.p.c. jako podstawa wnoszenia pism obowiązująca od 1 marca 2026 r.; przepis wchodzi w życie 1 marca 2027 r., a wcześniejszą możliwość przewiduje przepis przejściowy",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2025/1172/ogl/pol/pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 116a k.p.k. — wnoszenie pism przez portal w przypadkach przewidzianych ustawą",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2025/1178/ogl/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 125² § 1 k.p.c. — przypisanie bezskuteczności pisma wniesionego przez osobę nieuprawnioną; wskazana jednostka reguluje załączniki, a właściwa norma znajduje się w art. 125³ § 2",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c. — doręczenia przez system teleinformatyczny",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych — termin 1 października 2029 r. dla sądów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text/I/D20260003.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń, wszystkie wymagane podstawy i cztery elementy rubryki, bez uruchomienia kar. A6 obniżają przypisanie art. 125² § 1 cudzej treści oraz przedstawienie art. 125¹ § 2 jako obowiązującego przed datą jego wejścia w życie. Pochodzenie obu błędów pozostaje nieustalone na podstawie dostępnych adresów i braku śladu narzędzi. Rozbudowane omówienie procedury karnej i wnoszenia pism wykracza poza zakres klucza, dlatego A8 wynosi 0,5. Praktyczne wskazówki dotyczące doręczeń są użyteczne, lecz błędne podstawy i data ograniczają B1 do 1; kategoryczny poziom pewności odpowiada kluczowi.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 18,
+  "czas_s": 111,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A6_pochodzenie": "źródło_wtórne",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2 marca 2016 r. (VIII Gz 43/16)",
+   "zrodlo": "SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730 i nast. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny i trafny (A-R=2). System powołuje właściwe podstawy (A2=1), ale przytacza art. 492 § 3 k.p.c. w nieaktualnym brzmieniu obejmującym warrant i rewers, co skutkuje halucynacją klasy W (A6=0) oraz naliczeniem kary z klucza. Wskazówka o zażaleniu na postanowienie o zabezpieczeniu jest błędna, gdyż nakaz zapłaty jest samodzielnym tytułem zabezpieczenia i sąd nie wydaje odrębnego postanowienia, co obniża przydatność (B1=1). System niepotrzebnie rozmywa kategoryczną tezę, nazywając ją kwestią sporną (B2=0).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Dz.U. 2026 poz. 468\" \"art. 492\" k.p.c.",
+   "\"VIII Gz 43/16\" orzeczenia",
+   "\"Dz.U. 2026 poz. 468\" \"art. 492\" \"warrantu\"",
+   "\"Dz.U. 2026 poz. 468\" \"art. 492\" \"weksla lub czeku\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsuqTQVyd181quZG2UpHADfhGKpivvdzG3fu_mf1A1fFTYbGAW48YkoZZt-synglmpqkPl_0z5Yr__rfivjUjnkXDoA9njwjOCb82GRuhlppu1I9TC0ZhsvY4B5c3iL7QGEc_8BYYWvxxmn2BQLaBI2JG0blNkrALwtHuURMQj2nnIM2DRE1Tg2EbqPuGNqfJbMLj9KhV0bAfrZ_NJEss=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvAbGyvDIDuiVTrfUW260haT_ssVFuwQjnXZX0objpdAUZfdKnn3m77LYlYpf9nQXWHONGnP1GCSPvORG1AQ8Z4q0hu36yj7qqDDWrWcRCyrIF55M9yrVxqF4OJ-yiii3KiXFwj9Qs7_FREmung___JSN0uGyRTb74O8MmDNWhGTUkocZwiZeWua58glk3RGqJncguUInR",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUP0gwF9Bf-KhhAWkOm5oplgezazU1jMb4Qf5gW4u5hOBfYvE6QKC0S4sjWwvN0WYc90b0sZYG-YSYSDBk__dPLUJvOH4cpY1G-RJf35zmulP22AEqfdJIb7liSIaK-1M2gkDhlLAGyfVtY1eligqfrhVu_LnjDN6sbxX6jW4hTcI4F6D9Pu4O1DsDpp7L3wWOQmbmbp0-T-1KXZh2e5J8mFnJrQ=="
+  ],
+  "tokeny": {
+   "wejscie": 12572,
+   "wyjscie": 698
+  },
+  "czas_s": 117,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

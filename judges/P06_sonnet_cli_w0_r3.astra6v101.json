@@ -1,0 +1,132 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 130 § 1–2 k.p.c. jako podstawa odrzucenia pisma: przepis przewiduje wezwanie pod rygorem zwrotu i zwrot pisma.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 397 § 2 k.p.c. jako podstawa odrzucenia i zażalenia poziomego: jednostka reguluje uzasadnianie postanowień.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 370 k.p.c. jako obowiązująca podstawa odrzucenia: przepis uchylony.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 394¹ k.p.c. jako katalog zażaleń do SN.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 373 zd. 2 k.p.c. jako podstawa zażalenia na odrzucenie apelacji: artykuł nie ustanawia tego środka.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394¹ w związku z art. 397 § 2 k.p.c. jako podstawa zażalenia poziomego: przepisy nie zawierają przypisanej normy.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394 § 2 k.p.c. — tygodniowy termin; pominięcie uzasadnienia i wyjątków samo nie obniża A6.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394¹ k.p.c. jako łącznik dla terminu zażalenia poziomego: dotyczy postępowania przed SN.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustawa o kosztach sądowych w sprawach cywilnych jako akt regulujący opłaty.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 19 ust. 2 pkt 2 u.k.s.c.: dotyczy czwartej części opłaty od pozwu w EPU, nie opłaty stałej od zażalenia.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 27 u.k.s.c.: określa opłaty od pozwów w wymienionych sprawach, nie od zażalenia.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 139 k.p.c. — doręczenie zastępcze.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 139 k.p.c. — przypisanie pouczenia o skutkach nieopłacenia pisma, którego przepis nie reguluje.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 130 § 1 k.p.c. — wezwanie do uiszczenia należnej opłaty w terminie tygodniowym.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 130 § 1¹ k.p.c. — wskazany przy wpłacie na rachunek; dotyczy terminów dla osoby zamieszkałej lub mającej siedzibę za granicą.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 111–117 u.k.s.c. — wpływ terminowego wniosku o zwolnienie na opłacenie pisma mieści się w art. 112 tego zakresu.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 113 u.k.s.c. jako podstawa skutków wniosku o zwolnienie dla opłaty: reguluje rozliczenie nieuiszczonych kosztów w orzeczeniu kończącym sprawę.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1228/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 168 k.p.c. — przywrócenie terminu przy braku winy strony.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie potwierdzono niezależnie pełnego wpływu wszystkich nowelizacji po tekstach jednolitych na stan prawny z 2026-10-01."
+ ],
+ "uzasadnienie": "A_R=1 zgodnie z przykładem granicznym: odpowiedź trafia w gałąź zażalenia poziomego, lecz nie rozróżnia jej od odrzucenia zażalenia dewolutywnego, a końcowa prośba o dane nie nazywa tego rozwidlenia. Brakuje obu wymaganych podstaw i omówienia art. 130², dlatego A2=0, R=[0,1,0,0], K=[0,1] oraz B2=0. A6=0 wynika z licznych przypisań cudzej treści przepisom oraz powołania uchylonego art. 370 jako obowiązującej podstawy; zastrzeżenia o konieczności weryfikacji tego nie naprawiają. A8=0.5 za dygresję o skardze kasacyjnej i wznowieniu, a B1=1 za częściowo użyteczne wskazówki obciążone błędami dotyczącymi dopuszczalności środka i opłat. Nie ma cytatów ani powołań orzeczeń.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 122,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

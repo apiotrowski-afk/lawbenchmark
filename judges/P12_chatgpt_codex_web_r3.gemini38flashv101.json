@@ -1,0 +1,85 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "OSNC 2011 nr 11, poz. 120",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 17 czerwca 2004 r. (Dz.U. 2004 nr 162 poz. 1691)",
+   "zrodlo": "Dz.U. 2004 nr 162 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco wyjaśnia problematykę, precyzyjnie korygując błędne założenia pytającego (sprostowanie art. 781¹ k.p.c. na art. 787¹ k.p.c. oraz wyjaśnienie braku trybu 'bez ograniczeń'). Wszystkie powołane przepisy oraz orzeczenie SN III CZP 117/10 zostały przytoczone ściśle i bezbłędnie. Z rubryki nie zrealizowano jedynie elementu wskazującego, co dzieje się przy braku zarówno zgody, jak i związku z przedsiębiorstwem (art. 776¹ k.p.c.). Kalibracja i przydatność praktyczna odpowiedzi są na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"III CZP 117/10\"",
+   "\"Dz.U. 2004\" \"162\" \"1691\" \"20 stycznia 2005\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11153,
+   "wyjscie": 822
+  },
+  "czas_s": 31,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

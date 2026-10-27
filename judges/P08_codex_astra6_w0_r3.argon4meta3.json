@@ -1,0 +1,78 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727: „deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub prawdziwe",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727: Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727: Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia pełny rdzeń zagadnienia (A-R = 2) oraz wszystkie wymagane podstawy prawne (A2 = 1): wyjaśnia przesłanki definicji z art. 3 pkt 60 AI Act, odrzuca subiektywny zamiar wprowadzenia w błąd na rzecz obiektywnej możliwości uznania nagrania za autentyczne i rozgranicza obowiązek podmiotu stosującego z art. 50 ust. 4 od szerszego obowiązku dostawcy z art. 50 ust. 2. Wszystkie powołania przepisów są w pełni zgodne z tekstem skonsolidowanym rozporządzenia (UE) 2024/1689 na datę stanu prawnego (A6 = 1), a wobec braku cytatów w cudzysłowie przepisów kryterium A3 jest nieadekwatne (nd). System traci wyłącznie dwa punkty rubryki (R5 i R6) za brak podania dat stosowania przepisów (2.08.2026 / 2.12.2026) oraz brak odwołania do wytycznych KE C(2026) 5054 / kodeksu praktyk jako soft law.",
+ "_meta": {
+  "sedzia": "argon4meta3",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"32024R1689\" \"deepfake\" \"art. 3\" \"art. 50\" eur-lex",
+   "\"2024/1689\" \"przypominają istniejące osoby, przedmioty, miejsca\" eur-lex"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF8Bz7IcNgC3rwfZxVRHlqkri5HR2_tzLrUEKzw1yMDFzPtbDqZFxHpCt9aHAw4ceCpNB24JiyYniLPgfwTwJV600LO9yb7AJzoeE-Otrr3TukxmolWSt72UXrQJvh99ykMkle5vYDZUcCMAW5XNPgsaMMhR6vAB8mo6YJQ1KiBC3yt9iFm6gQa9MhrxvXFT1AkHw8F3msPII-2AGVT9xvXUQ1I-Y1_IOgxJSa_E_Cq0d59kEiew==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5axxnIhcIcbhHtHKZ1YtRkPwWUlyzL14jczqOC8OyguKj-KBq4ryjwQzo30V_n_jQ2JzbFNRTD1iNsHwzrgcz1BY2J97OJXRiSNoFs8MkiI02GSF4byuNrfcqxRbtqoiT0GANkLIz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Hs3CJ1tbKUOd8UZy16dmEu6xIzXDmOs2fh4wBfr2KBLxCUUIddSy6gC5_w6RP86798OT2J6WPDdMIRaUYq6inNVqtiWyqCapjeENV2GOAqvHdvzIZ7MfLQB48sF85O3slW_Py-SPhkOpAVIZpAIzkk6-UN9sEGJrVK1IV-DkfymSlP_Nb0PQD5sU7DlZH4VpTivxk2PClSfND4JbOIo=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq1mQzfURKQU7mHizcbsZWE-hsYxbLAXixhDi-K0Id3Gb1mOUpTqhp-xCH9eJYjN8pbF9bB_CqunVAS87_qk_rnyoXt9nWTTPBkGwQLuPlKXlOuDLIVs_Zqzuz2tzBXh8mrs0MhCPOAW511pTl0LazBjxl0PmdyQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwcFWF7_ba8SNZ8fozulNTWhjCO6VLSYJGHB9BVYnv7_him44bCuxg3rdfwwsJu_h-NLM81gNbd3-mv9HQSfc4_ND0Q6vV5DizsQDqB5Mwx7C0pEeGt8eRENs6Iu9abiDMhgf_P7Wgtvw="
+  ],
+  "tokeny": {
+   "wejscie": 18982,
+   "wyjscie": 957,
+   "rozumowanie": 6796
+  },
+  "czas_s": 109,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 4, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 3 pkt 60 rozporządzenia (UE) 2024/1689 [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Zgodnie z tym przepisem deepfake oznacza wygenerowane lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia oraz mogłyby zostać przez odbiorcę…”\n    · uzasadnienie weryfikatora: Twierdzenie wiernie przytacza definicję legalną pojęcia „deepfake” zawartą w art. 3 pkt 60 AI Act.\n    · kotwica (verbatim ze źródła): „60) „deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub pra…”\n    · brzmienie jednostki (fragment): „Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szko…”\n- 2. art. 50 ust. 4 AI Act [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten nakłada na podmioty stosujące systemy AI obowiązek ujawnienia sztucznego wygenerowania lub zmanipulowania treści stanowiących deepfake, z przewidzianymi w nim wyjątkami i szczególnymi zasadami.”\n    · uzasadnienie weryfikatora: Przepis wprost nakłada na podmioty stosujące obowiązek ujawnienia wygenerowania lub zmanipulowania treści deepfake oraz określa wyjątki (organy ścigania) i szczególne zasady (treści artystyczne/satyryczne).\n    · kotwica (verbatim ze źródła): „Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowa…”\n    · brzmienie jednostki (fragment): „4. Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake lub który manipuluje takimi obrazami lub treściami, ujawniają, że treści te zostały sztucznie wygenerowane lub zmanipulowane. Obowiązek ten nie ma zastosowania, w przypadku gdy wykorzystywanie jest dozwolone na mocy prawa w celu wykrywania przestępstw, zapobiegania im, prowadzenia postępowań przygotowawczych w ich sprawie lub ścigania ich sprawców. W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym lub analogicznym charakterze…”\n- 3. art. 50 ust. 2 AI Act [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten nakłada na dostawców systemów generujących syntetyczne treści, w tym dźwięk, obowiązek zapewnienia oznakowania wyników w formacie nadającym się do odczytu maszynowego i możliwości wykrycia ich sztucznego pochodzenia, z określon…”\n    · uzasadnienie weryfikatora: Przepis wprost zobowiązuje dostawców systemów AI generujących m.in. syntetyczne dźwięki do oznakowania wyników w formacie do odczytu maszynowego i zapewnienia ich wykrywalności, przewidując jednocześnie stosowne zastrzeżenia i wyłączenia.\n    · kotwica (verbatim ze źródła): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykr…”\n    · brzmienie jednostki (fragment): „2. Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych dźwięków, obrazów, wideo lub tekstu, zapewniają, aby wyniki systemu AI zostały oznakowane w formacie nadającym się do odczytu maszynowego i były wykrywalne jako sztucznie wygenerowane lub zmanipulowane. Dostawcy zapewniają skuteczność, interoperacyjność, solidność i niezawodność swoich rozwiązań technicznych w zakresie, w jakim jest to technicznie wykonalne, uwzględniając przy tym specyfikę i ograniczenia różnych rodzajów treści, koszty wdrażania oraz powszechnie uznany stan wiedzy te…”\n- 4. art. 3 pkt 60 AI Act [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01\n    · istnieje; brzmienie na datę stanu prawnego: na dziś (na_dzien nie ustalono); nieurzędowy odczyt PDF / tekst skonsolidowany\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis ten określa przesłanki uznania treści za deepfake, w szczególności wymóg możliwości niesłusznego odebrania jej jako autentycznego lub prawdziwego nagrania istniejącej osoby albo zdarzenia.”\n    · uzasadnienie weryfikatora: Przepis art. 3 pkt 60 AI Act wprost wymienia jako element definicji deepfake przypominanie istniejących osób lub zdarzeń oraz możliwość niesłusznego uznania treści przez odbiorcę za autentyczną lub prawdziwą.\n    · kotwica (verbatim ze źródła): „60) „deepfake” oznacza wygenerowane przez AI lub zmanipulowane przez AI obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub pra…”\n    · brzmienie jednostki (fragment): „Artykuł 3 Definicje Do celów niniejszego rozporządzenia stosuje się następujące definicje: 1) „system AI” oznacza system maszynowy, który został zaprojektowany do działania z różnym poziomem autonomii po jego wdrożeniu oraz który może wykazywać zdolność adaptacji po jego wdrożeniu, a także który – na potrzeby wyraźnych lub dorozumianych celów – wnioskuje, jak generować na podstawie otrzymanych danych wejściowych wyniki, takie jak predykcje, treści, zalecenia lub decyzje, które mogą wpływać na środowisko fizyczne lub wirtualne; 2) „ryzyko” oznacza połączenie prawdopodobieństwa wystąpienia szko…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

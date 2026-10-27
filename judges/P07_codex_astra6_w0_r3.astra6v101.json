@@ -1,0 +1,52 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń: odróżnia zasadnicze powody od uzasadnienia, wskazuje warunek zaskarżalności oraz tygodniowy termin i jego początek. Wszystkie trzy powołane jednostki sprawdzono literalnie w oficjalnym tekście k.p.c.; przypisane im treści są zgodne. Brakuje informacji o opłacie albo konkretnych wyjątkach wskazanych w rubryce. A8 obniża zbędna dygresja o prawie unijnym; jednozdaniowa formuła wniosku pozostaje neutralna. Odpowiedź daje praktyczną wskazówkę i zachowuje właściwą pewność.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 45,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

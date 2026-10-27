@@ -1,0 +1,62 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=160",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=162",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozdziela funkcję egzekucyjną nakazu od jego funkcji tytułu zabezpieczenia i jasno potwierdza możliwość wszczęcia zabezpieczenia mimo wstrzymania wykonania. Wszystkie pięć powołanych jednostek sprawdzono w oficjalnym tekście k.p.c.; przypisane im treści są zgodne. Wskazano wymagane podstawy oraz środki obrony pozwanego, lecz pominięto zawieszenie egzekucji na podstawie art. 820 § 2, dlatego ostatni element rubryki nie został zaliczony. Nie ma cytatów przepisów ani powołań orzeczeń. Zastrzeżenie dotyczące odrębnego rozstrzygnięcia o zabezpieczeniu odnosi się do nieznanej treści sentencji i nie rozmywa zasadniczej tezy.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 36,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

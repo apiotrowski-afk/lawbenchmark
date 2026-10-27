@@ -1,0 +1,96 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061 ze zm. (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl / SAOS / zrodla_klucza",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni realizuje rdzeń klucza v4 (A-R = 2, B2 = 1): wskazuje, że ogólna formuła „na wszelkich polach eksploatacji” nie wystarcza do nabycia praw na wszystkich polach wobec wymogu z art. 41 ust. 2 pr.aut., ale trafnie zaznacza możliwość dookreślenia pól eksploatacji w drodze wykładni umowy z art. 65 k.c. zgodnie z wyrokiem SN z 5.10.2018 r., I CSK 596/17. Powołano obie podstawy wymagane (art. 41 ust. 2 i art. 53 pr.aut.), a wszystkie przepisy i orzeczenie SN są zgodne ze źródłami oficjalnymi (A2 = 1, A6 = 1). Zrealizowano wszystkie pięć punktów rubryki, w tym przykłady pól dla social mediów z art. 50 pr.aut., brak działania mechanizmu pracowniczego z art. 12 pr.aut. przy zleceniu oraz linię orzeczniczą SN (zgodnie z regułą B12). Ze względu na brak dosłownych cytatów ustawowych w cudzysłowie oraz niesporny charakter pytania kryteria A3 i A5 otrzymują status n/d.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 41\" \"art. 50\" \"art. 53\" \"Dz.U. 2025 poz. 24\" OR",
+   "\"art. 2\" \"art. 12\" \"art. 46\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"I CSK 596/17\" OR",
+   "\"Art. 65.\" \"Kodeks cywilny\" \"oświadczeń woli\" OR",
+   "\"Art. 46.\" \"Jeżeli umowa nie stanowi inaczej, twórca zachowuje\"",
+   "\"Art. 50.\" \"Odrębne pola eksploatacji stanowią w szczególności\"",
+   "\"i csk 596-17\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14509,
+   "wyjscie": 1170
+  },
+  "czas_s": 78,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

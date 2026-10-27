@@ -1,0 +1,127 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A6_pochodzenie": "nieustalone",
+ "A6_zakres": "rdzeń",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Dz.U. 2022 poz. 2600",
+   "zrodlo": "ISAP",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "ISAP",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 k.w.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 k.k.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 284 k.k.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 291 k.k.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 k.k.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 k.k.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a k.k.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 280 k.k.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny (A-R=2), system prawidłowo wskazuje kwotę 800 zł i brak powiązania z płacą minimalną. Występują jednak błędy w opisie historii zmian (klasa W): system pomija etap progu 500 zł (twierdząc, że do 2023 r. obowiązywał ułamek płacy minimalnej) oraz błędnie przypisuje wprowadzenie sumowania wartości noweli z 2022 r. (wprowadzono je w 2018 r.). Ponadto system błędnie twierdzi, że sumowanie dotyczy okresu 12 miesięcy, podczas gdy ustawa mówi o krótkich odstępach czasu (klasa T). Zgodnie z regułami, pominięty etap progu skutkuje oceną A6=0 (hallucinated) i utratą elementu rubryki R3. Błąd w uwadze pobocznej o sumowaniu wartości obniża A8 do 0,5.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"Dz.U. 2022 poz. 2600\" \"art. 12\" kodeks karny",
+   "\"art. 12 § 2\" kodeks karny \"wykroczeń\"",
+   "\"art. 119\" kodeks wykroczeń \"1/4 minimalnego wynagrodzenia\"",
+   "\"art. 119\" kodeks wykroczeń \"500 zł\" \"2018\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 12\" kodeks karny \"zmiana\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 10a\" kodeks wykroczeń",
+   "\"Dz.U. 2018 poz. 2077\" \"art. 12\" kodeks karny",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 12\" \"art. 10a\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 12\" k.k. zmiana",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 10a\" k.w. zmiana",
+   "\"art. 10a\" kodeks wykroczeń \"12 miesięcy\"",
+   "\"art. 10a\" kodeks wykroczeń",
+   "\"płaca minimalna\" 2026 Polska",
+   "\"minimalne wynagrodzenie\" 2026"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13772,
+   "wyjscie": 1015
+  },
+  "czas_s": 244,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

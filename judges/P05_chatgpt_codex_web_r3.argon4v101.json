@@ -1,0 +1,99 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c. (Dz.U. 2026 poz. 468)",
+   "zrodlo": "ISAP / ELI Dz.U. 2026 poz. 468 (w brzmieniu od 1.06.2026 nadanym Dz.U. 2025 poz. 1172)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c. (Dz.U. 2026 poz. 468)",
+   "zrodlo": "ISAP / ELI Dz.U. 2026 poz. 468 (w brzmieniu od 1.06.2026 nadanym Dz.U. 2025 poz. 1172)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c. (Dz.U. 2026 poz. 468)",
+   "zrodlo": "ISAP / ELI Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c. (Dz.U. 2026 poz. 468)",
+   "zrodlo": "ISAP / ELI Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c. (Dz.U. 2026 poz. 468)",
+   "zrodlo": "ISAP / ELI Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 2 pkt 3 i § 3 ust. 1 rozporządzenia Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym (Dz.U. 2024 poz. 368 ze zm., Dz.U. 2026 poz. 225)",
+   "zrodlo": "ELI Dz.U. 2024 poz. 368 oraz Dz.U. 2026 poz. 225",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 4 ust. 1 i ust. 2 rozporządzenia Ministra Sprawiedliwości z dnia 12 marca 2024 r. (Dz.U. 2024 poz. 368 ze zm., Dz.U. 2026 poz. 225)",
+   "zrodlo": "ELI Dz.U. 2024 poz. 368 oraz Dz.U. 2026 poz. 225",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System bezbłędnie rozpoznał stan prawny obowiązujący od 1 czerwca 2026 r., wskazując możliwość wyboru doręczeń przez Portal Informacyjny przez stronę będącą osobą fizyczną (art. 131¹ᵃ § 1 i § 1¹ k.p.c.). Odpowiedź zawiera pełny rdzeń, wszystkie wymagane podstawy prawne oraz realizuje wszystkie cztery elementy rubryki (wybór z jednym z trzech podpisów, moment doręczenia wraz z regułą 14 dni oraz zasady rezygnacji). Powołane przepisy kodeksowe oraz przepisy rozporządzenia wykonawczego (Dz.U. 2024 poz. 368 ze zm. w Dz.U. 2026 poz. 225) są w pełni zgodne ze źródłami oficjalnymi (A6 = 1). Odpowiedź jest zwięzła, praktyczna i kategorycznie skalibrowana (B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 16,
+  "zapytania": [
+   "\"1311a\" \"131\" \"portalu informacyjnym\" \"podpisem zaufanym\" kpc sejm.gov.pl OR isap.sejm.gov.pl",
+   "\"Dz.U. 2024 poz. 368\" OR \"DU/2024/368\" \"Moje doręczenia\" OR \"Odbierz\"",
+   "\"Dz.U. 2026 poz. 225\" OR \"DU/2026/225\" sejm.gov.pl",
+   "\"art. 133\" \"§ 3\" \"osobistego stawiennictwa\" \"pełnomocnika\" kpc sejm.gov.pl",
+   "\"w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"Moje doręczenia\" OR \"Odbierz\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r.\" \"§ 2\" \"§ 3\" \"§ 4\" \"portalu informacyjnego\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 23 lutego 2026 r.\" \"portalu informacyjnego\"",
+   "\"Art. 131\" \"W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego\" \"Rezygnacja\" OR \"rezygnacji\"",
+   "\"Pismo doręcza się za pośrednictwem portalu informacyjnego przez umieszczenie pisma w module\" \"368\" OR \"1311a\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych\" \"§ 3.\" \"§ 4.\"",
+   "\"art. 1311a\" \"§ 3\" \"tytułu wykonawczego\" OR \"uwierzytelnionego odpisu\"",
+   "\"Pismo doręcza się za pośrednictwem portalu informacyjnego przez umieszczenie pisma w module\" \"cywilnym\" OR \"k.p.c.\"",
+   "\"§ 3.\" \"Moje doręczenia\" \"368\"",
+   "\"§ 3. [Sposób doręczenia\" OR \"Pismo doręcza się za pośrednictwem portalu informacyjnego\" \"368\"",
+   "\"Elektroniczne potwierdzenie odbioru korespondencji jest automatycznie generowane po odbiorze pisma\"",
+   "\"e-doreczenia-z-sadow-nowe-mozliwosci-dla-obywateli\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9936,
+   "wyjscie": 1759
+  },
+  "czas_s": 148,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

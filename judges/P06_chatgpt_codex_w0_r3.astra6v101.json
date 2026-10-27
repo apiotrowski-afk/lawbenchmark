@@ -1,0 +1,54 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ pkt 7 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=74",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=75",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Art. 394² § 1¹ pkt 7 dotyczy odmowy zwolnienia świadka i biegłego od grzywny oraz świadka od przymusowego sprowadzenia, a nie odrzucenia zażalenia, co stanowi błąd T. Odpowiedź trafia w gałąź dotyczącą zażalenia poziomego, lecz nie rozróżnia jej od zażalenia dewolutywnego; końcowa ogólna uwaga o konfiguracji procesowej nie spełnia wymogu rozwidlenia. Brakuje obu wymaganych podstaw oraz omówienia art. 130² k.p.c. Powołania dotyczące tygodniowego terminu są zgodne, ale błędna ogólna wskazówka o dopuszczalności środka ogranicza przydatność odpowiedzi. Pochodzenie błędnego powołania jest nieustalone z uwagi na brak śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 55,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

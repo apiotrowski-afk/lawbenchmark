@@ -1,0 +1,78 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 61 § 3 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę rozstrzygnięcia na decyzję ministra oraz formę potwierdzenia na zaświadczenie zamiast klauzuli, lecz błędnie twierdzi, że decyzje nie uzyskują prawomocności i wskazuje wyłącznie ostateczność, co skutkuje A_R=0 oraz naliczeniem kary K3. Nie powołano kompletu wymaganych podstaw prawnych (brak art. 1 ust. 1 ustawy, art. 16 § 3 oraz art. 217 k.p.a.), co daje A2=0. Wystąpiły błędy klasy T (A6=0): art. 127 § 3 k.p.a. przypisano twierdzenie, że decyzja ministra jest ostateczna z chwilą doręczenia (choć przysługuje wniosek o ponowne rozpatrzenie sprawy), a brak wstrzymania wykonania skargą przypisano do art. 61 § 3 zamiast art. 61 § 1 p.p.s.a. Ramy odpowiedzi są zachowane (A8=1), a kalibracja adekwatna do kategorycznego charakteru pytania (B2=1). Ocena B1 wynosi 1, gdyż mimo trafnego skierowania do organu po zaświadczenie odpowiedź dezinformuje co do możliwości i trybu uzyskania prawomocności oraz momentu ostateczności.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P04",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 16\" \"Decyzje, od których nie służy odwołanie\" kpa sejm",
+   "\"art. 127 § 3\" kpa sejm",
+   "\"art. 61 § 3\" ppsa sejm",
+   "\"art. 127 § 3\" \"kpa\" \"Od decyzji wydanej w pierwszej instancji przez ministra\"",
+   "\"art. 127\" \"kpa\" sejm isap",
+   "\"art. 127 § 3\" \"Od decyzji wydanej w pierwszej instancji przez ministra\" kpa",
+   "\"Od decyzji wydanej w pierwszej instancji przez ministra\" kpa"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13474,
+   "wyjscie": 663
+  },
+  "czas_s": 90,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

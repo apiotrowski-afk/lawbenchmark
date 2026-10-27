@@ -1,0 +1,75 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1–2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wyklucza istnienie klauzuli przeciwko małżonkowi „bez ograniczeń”, rozgranicza tryby z art. 787 i art. 787¹ k.p.c., wyjaśnia brak wpływu opisu dłużnika w nakazie zapłaty na wybór trybu oraz prostuje omyłkę pisarską dotyczącą art. 781¹ k.p.c. (A-R=2, A2=1). Wszystkie powołane przepisy (art. 787, 787¹, 781¹ k.p.c. oraz art. 41 § 1–2 k.r.o.) zostały przywołane i opisane zgodnie z aktualnym stanem prawnym (A6=1). System nie przytacza dosłownie treści przepisów (A3=nd), a jednozdaniowa formuła żądania wniosku jest neutralna w ramach kryterium A8 (A8=1). W rubryce odjęto jeden punkt za brak wskazania, z jakich składników majątku dłużnika (majątek osobisty, wynagrodzenie za pracę, dochody — art. 776¹ § 1 k.p.c. / art. 41 § 2 k.r.o.) wierzyciel może prowadzić egzekucję bez klauzuli na małżonka (R=[1,1,1,1,0]).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 787\" \"781\" OR",
+   "\"art. 41\" \"Jeżeli małżonek zaciągnął zobowiązanie za zgodą\" OR",
+   "\"20 stycznia 2005\" \"787\" \"41\" małżonka ustawa z dnia 17 czerwca 2004 OR",
+   "\"Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim\" \"787\"",
+   "\"Wniosek o nadanie klauzuli wykonalności sąd rozpoznaje niezwłocznie\" \"781\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10708,
+   "wyjscie": 924
+  },
+  "czas_s": 98,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

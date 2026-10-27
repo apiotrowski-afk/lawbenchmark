@@ -1,0 +1,55 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie przedstawia elementy definicji deepfake i obiektywny charakter oceny, ale pomija niezależny obowiązek oznakowania maszynowego dostawcy z art. 50 ust. 2, dlatego rdzeń jest niepełny, A2 = 0 i B2 = 0. Wszystkie trzy powołane jednostki sprawdzono w oficjalnym tekście skonsolidowanym EUR-Lex; nie przypisano im treści sprzecznej ze źródłem. Warunek braku podobieństwa do konkretnej osoby połączono z brakiem pozoru autentyczności, więc nie stwierdzono, że sam brak imitowania konkretnej osoby wyklucza deepfake. Brakuje rozdzielenia adresatów obowiązków, daty stosowania oraz odwołania do soft law. Nie ma cytatu przepisu ani podstaw do naliczenia kar; pominięcie obowiązku dostawcy ogranicza przydatność odpowiedzi.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 31,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

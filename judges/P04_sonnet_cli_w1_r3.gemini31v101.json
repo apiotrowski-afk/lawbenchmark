@@ -1,0 +1,85 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 i nast. ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ustawy z 1920 r.",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 i 364 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 365 i 366 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 127 § 3 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 217 § 2 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie twierdzi, że decyzja administracyjna nie może być prawomocna, co skutkuje oceną A-R = 0 oraz nałożeniem kary K3. System halucynuje (T), zawężając treść art. 16 § 1 k.p.a. i twierdząc, że wniosek o ponowne rozpatrzenie sprawy z art. 127 § 3 k.p.a. nie odracza ostateczności decyzji ministra, która rzekomo jest ostateczna od doręczenia. Z powodu braku powołania art. 16 § 3 k.p.a. ocena A2 wynosi 0. Błąd co do momentu uzyskania ostateczności i zaprzeczenie prawomocności to rażące błędy merytoryczne, które obniżają przydatność porady (B1 = 0). Odpowiedź jest kategoryczna, więc B2 = 1.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15297,
+   "wyjscie": 855
+  },
+  "czas_s": 116,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

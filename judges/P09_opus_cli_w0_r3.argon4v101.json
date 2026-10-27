@@ -1,0 +1,161 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy z 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych — umowa obejmuje pola eksploatacji wyraźnie w niej wymienione",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Doktryna i orzecznictwo jednolicie przyjmują, że ogólne sformułowania tego wymogu nie spełniają",
+   "zrodlo": "Linia orzecznicza SN (m.in. III CK 124/05, IV CSKP 44/21) — reguła B9 (ogólnik łagodny i zgodny z linią)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut. — umowa może dotyczyć tylko pól znanych w chwili jej zawarcia",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut. — nieważna jest umowa w części dotyczącej wszystkich utworów (lub wszystkich utworów określonego rodzaju) twórcy mających powstać w przyszłości",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut. — przeniesienie praw majątkowych wymaga formy pisemnej pod rygorem nieważności",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c. — wystarczy też podpis kwalifikowany (forma elektroniczna równoważna formie pisemnej)",
+   "zrodlo": "Kodeks cywilny (isap.sejm.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr. aut. — w braku wyraźnego postanowienia o przeniesieniu uważa się, że twórca udzielił licencji",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut. — bez odmiennego postanowienia twórca zachowuje prawo zezwalania na wykonywanie zależnego prawa autorskiego",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 i 45 pr. aut. — twórcy przysługuje wynagrodzenie, odrębne za korzystanie na każdym polu eksploatacji",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 pr. aut. — przeniesienie własności egzemplarza nie oznacza przeniesienia praw",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr. aut. — nabycie praw przez pracodawcę z mocy prawa dotyczy wyłącznie stosunku pracy",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut. — przykładowy katalog pól eksploatacji",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr. aut. — zależne prawa autorskie",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut. — niezbywalność autorskich praw osobistych (prawo do autorstwa i integralności utworu)",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 49 ust. 2 pr. aut. — zakaz czynienia zmian w utworze przez następcę prawnego bez zgody twórcy",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut. — zgoda na rozpowszechnianie wizerunku",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr. aut. — możliwość żądania podwyższenia wynagrodzenia przy rażącej dysproporcji",
+   "zrodlo": "Dz.U. 2025 poz. 24 (eli.gov.pl) / Dz.U. 2024 poz. 1254",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 65 k.c. — wykładnia celu umowy",
+   "zrodlo": "Kodeks cywilny (isap.sejm.gov.pl)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi (A-R=2) oraz podstawy wymagane (A2=1) są trafne: wskazano niespełnienie wymogu z art. 41 ust. 2 pr.aut., wymóg znajomości pól w chwili zawarcia umowy (art. 41 ust. 4), formę pisemną pod rygorem nieważności (art. 53) oraz konieczność wyliczenia pól w praktyce. W A6 przyznano 0 (klasa W, zakres poboczny, zgodnie z regułą B10a), ponieważ przy art. 44 pr.aut. powołano nieaktualną od 20.09.2024 r. przesłankę „rażącej dysproporcji” zamiast „wynagrodzenia niewspółmiernie niskiego” (Dz.U. 2024 poz. 1254; t.j. Dz.U. 2025 poz. 24), natomiast zdanie o doktrynie i orzecznictwie mieści się w łagodnym ogólniku zgodnym z linią (reguła B9). W rubryce zaliczono 4 z 5 elementów (brak R5 — system wyklucza przeniesienie praw na jakiekolwiek pole i odnosi art. 65 k.c. jedynie do domniemanej licencji z art. 65 pr.aut., a nie do dookreślenia pól przeniesienia zgodnie z liberalną linią SN). A8 obniżono do 0.5 ze względu na uwagę poboczną obarczoną błędem (nieaktualny art. 44 pr.aut. oraz błędne zastosowanie art. 65 pr.aut. przy wyraźnym postanowieniu o przeniesieniu). W bloku B przyznano B1=2 (brak podwójnej kary za błąd poboczny uwzględniony w A6) oraz B2=0 zgodnie z regułą B11, gdyż system stawia kategoryczną tezę, że ogólna formuła jest bezskuteczna i nie przenosi praw na żadne konkretne pole.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 22,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 24\" \"art. 41\" \"art. 44\" \"art. 53\" eli.gov.pl OR isap.sejm.gov.pl OR api.sejm.gov.pl",
+   "OR \"o prawie autorskim i prawach pokrewnych\" \"2025\" \"24\"",
+   "\"W razie niewspółmierności\" OR \"rażącej dysproporcji\" \"Art. 44\" \"o prawie autorskim\" eli.gov.pl OR sejm.gov.pl",
+   "\"art. 781\" OR \"art. 78\" \"kwalifikowanym podpisem elektronicznym\" \"formie pisemnej\" eli.gov.pl OR sejm.gov.pl",
+   "\"Art. 44.\" \"niewspółmiernie niskie\" \"korzyści nabywcy\" sejm.gov.pl OR eli.gov.pl OR gov.pl",
+   "\"Art. 41.\" \"Art. 43.\" \"Art. 45.\" \"Art. 46.\" \"Art. 50.\" \"Art. 52.\" \"Art. 53.\" \"Art. 65.\" \"o prawie autorskim\" sejm.gov.pl OR eli.gov.pl OR gov.pl",
+   "\"Art. 2.\" \"Art. 12.\" \"Art. 16.\" \"Art. 49.\" \"Art. 81.\" \"o prawie autorskim\" sejm.gov.pl OR eli.gov.pl OR gov.pl",
+   "\"Art. 65.\" \"Oświadczenie woli należy tak tłumaczyć\" \"Art. 78\" sejm.gov.pl OR eli.gov.pl OR gov.pl",
+   "\"Poz. 24\" \"Art. 45.\" \"Art. 46.\" \"Art. 49.\" \"Art. 50.\" eli.gov.pl OR sejm.gov.pl",
+   "\"Poz. 24\" \"Art. 52.\" \"Art. 53.\" \"Art. 65.\" eli.gov.pl OR sejm.gov.pl",
+   "\"Poz. 24\" \"Art. 2.\" \"Art. 16.\" \"Art. 81.\" eli.gov.pl OR sejm.gov.pl",
+   "\"Art. 78\" \"Do zachowania elektronicznej formy czynności prawnej\" eli.gov.pl OR sejm.gov.pl",
+   "\"Dziennik Ustaw\" \"Poz. 24\" \"Art. 50.\" \"Art. 52.\" eli.gov.pl",
+   "\"Dziennik Ustaw\" \"Poz. 24\" \"Art. 2.\" \"Art. 16.\" eli.gov.pl",
+   "\"Dziennik Ustaw\" \"Poz. 24\" \"Art. 81.\" eli.gov.pl",
+   "\"Dziennik Ustaw\" \"Poz. 24\" \"odrębne pola eksploatacji stanowią w szczególności\" eli.gov.pl",
+   "\"Dziennik Ustaw\" \"Poz. 24\" \"autorskie prawa osobiste chronią\" eli.gov.pl",
+   "\"Dziennik Ustaw\" \"Poz. 24\" \"obejmuje pola eksploatacji wyraźnie\" eli.gov.pl",
+   "\"Poz. 24\" \"Art. 50.\" \"Art. 51.\" eli.gov.pl",
+   "\"Poz. 24\" \"Art. 41.\" \"Art. 42.\" eli.gov.pl"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15367,
+   "wyjscie": 2970
+  },
+  "czas_s": 306,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "meta": {
+  "pytanie": "P10",
+  "system": "codex_terra56_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P10/codex_terra56_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-23T17:27:02",
+  "czas_s": 0.0,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 7,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 0,
+  "flagi": {}
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "wprost"
+   },
+   "kontekst": "Zgodnie z art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych umowa o przeniesienie praw albo licencja obejmuje wyłącznie pola eksploatacji wyraźnie w niej wymienione.",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 41 ust. 2 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 2024-12-06 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 1c2e9a082a66fad6…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdftotext 24.02.0) — zaliczona; względem starszego t.j.: różne od t.j. DU/2022/2509 (HTML); odnośnik przy jednostce: W brzmieniu ustalonym przez art. 1 pkt 13 ustawy, o której mowa w odnośniku 2.)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 41 ust. 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "2. Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione."
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28",
+    "fragment_wczesniejszy": "2. Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu, zwana dalej „licencją”, obejmuje pola eksploatacji wyraźnie w niej wymienione."
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "fragment": "2. Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu, zwana dalej „licencją”, obejmuje pola eksploatacji wyraźnie w niej wymienione."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.86
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 53",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "kontekst": "- umowa przenosząca autorskie prawa majątkowe wymaga formy pisemnej pod rygorem nieważności (art. 53);",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 53 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2022/2509; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 24 z 2024-12-06, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 53. Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania formy pisemnej pod rygorem nieważności."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 1.0
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 41 ust. 4",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "kontekst": "- można objąć tylko pola eksploatacji znane w chwili zawarcia umowy (art. 41 ust. 4);",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 41 ust. 4 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 2024-12-06 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 1c2e9a082a66fad6…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdftotext 24.02.0) — zaliczona; względem starszego t.j.: różne od t.j. DU/2022/2509 (HTML); odnośnik przy jednostce: W brzmieniu ustalonym przez art. 1 pkt 13 ustawy, o której mowa w odnośniku 2.)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 41 ust. 4 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "4. Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.67
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 16",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "kontekst": "- przeniesienie nie obejmuje automatycznie autorskich praw osobistych — są niezbywalne (art. 16).",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 16 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2022/2509; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 24 z 2024-12-06, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 16. Jeżeli ustawa nie stanowi inaczej, autorskie prawa osobiste chronią nieograniczoną w czasie i niepodlegającą zrzeczeniu się lub zbyciu więź twórcy z utworem, a w szczególności prawo do: 1) autorstwa utworu; 2) oznaczenia utworu swoim nazwiskiem lub pseudonimem albo do udostępniania go anonimowo; 3) nienaruszalności treści i formy utworu oraz jego rzetelnego wykorzystania; 4) decydowania o pierwszym udostępnieniu utworu publiczności; 5) nadzoru nad sposobem korzystania z utworu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.2
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 45",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "kontekst": "- co do zasady twórcy przysługuje odrębne wynagrodzenie za korzystanie na każdym odrębnym polu eksploatacji, chyba że umowa stanowi inaczej (art. 45).",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 45 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2022/2509; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 24 z 2024-12-06, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 45. Jeżeli umowa nie stanowi inaczej, twórcy przysługuje odrębne wynagrodzenie za korzystanie z utworu na każdym odrębnym polu eksploatacji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.8
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 2 ust. 2",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "kontekst": "Warto również osobno przewidzieć zgodę na wykonywanie opracowań oraz przeniesienie prawa do zezwalania na wykonywanie praw zależnych (art. 2 ust. 2 i art. 46), np. do skracania filmów, kadrowania grafik, dodawania napisów, logo, muzyki czy adaptacji materiału na inne formaty.",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 2 ust. 2 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2022/2509; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 24 z 2024-12-06, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(zapytano o art. 2 ust. 2 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "2. Rozporządzanie i korzystanie z opracowania zależy od zezwolenia twórcy utworu pierwotnego (prawo zależne), chyba że autorskie prawa majątkowe do utworu pierwotnego wygasły. W przypadku baz danych spełniających cechy utworu zezwolenie twórcy jest konieczne także na sporządzenie opracowania."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.11
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 46",
+   "akt": {
+    "nazwa": "Prawo autorskie i prawa pokrewne",
+    "kod_legal_cite": "PrAut",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "kontekst": "Warto również osobno przewidzieć zgodę na wykonywanie opracowań oraz przeniesienie prawa do zezwalania na wykonywanie praw zależnych (art. 2 ust. 2 i art. 46), np. do skracania filmów, kadrowania grafik, dodawania napisów, logo, muzyki czy adaptacji materiału na inne formaty.",
+   "cytat": null,
+   "flagi": [],
+   "cytowanie_legal_cite": "art. 46 PrAut",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2022/2509; brzmienie identyczne w najnowszym t.j. Dz.U. 2025 poz. 24 z 2024-12-06, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "wg wykazu aktów zmieniających w API ELI po dacie tego t.j. (2024-12-06) nie weszła w życie żadna nowelizacja. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "potwierdzone_brak_nowelizacji",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2025 poz. 24 z 06.12.2024, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: potwierdzone — od daty tego tekstu (06.12.2024) do 01.10.2026 nie weszła w życie żadna nowelizacja ustawy.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 46. Jeżeli umowa nie stanowi inaczej, twórca zachowuje wyłączne prawo zezwalania na wykonywanie zależnego prawa autorskiego, mimo że w umowie postanowiono o przeniesieniu całości autorskich praw majątkowych."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2022/2509 (HTML, 2022-11-28)",
+    "tj": "DU/2022/2509",
+    "data": "2022-11-28"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.21
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": []
+}

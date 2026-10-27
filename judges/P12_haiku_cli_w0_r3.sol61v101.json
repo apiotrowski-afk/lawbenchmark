@@ -1,0 +1,66 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 781¹ k.p.c. — ograniczenia egzekucji i warunki klauzuli przeciwko małżonkowi",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 787 k.p.c. — wymieniony do sprawdzenia, bez przypisania konkretnej treści",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 788 k.p.c. — wymieniony do sprawdzenia, bez przypisania konkretnej treści",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 k.r.o. — konieczność odrębnego tytułu przeciwko małżonkowi, gdy zobowiązanie nie wynika z działalności",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 40 k.r.o. w odesłaniu „art. 40–41” — wymieniony do sprawdzenia, bez przypisania konkretnej treści",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie odrzuca możliwość obejścia ograniczeń i wskazuje, że treść nakazu nie przesądza trybu, ale nie przedstawia rozróżnienia zgody małżonka i związku wierzytelności z przedsiębiorstwem. Art. 781¹ reguluje termin trzech dni na rozpoznanie wniosku, a przypisanie mu ograniczeń egzekucji stanowi T i uruchamia trzecią karę. Teza przypisana art. 41 k.r.o. jest fałszywa: zgoda małżonka pozwala sięgnąć do majątku wspólnego również przy zobowiązaniu niezwiązanym z działalnością, bez odrębnego tytułu egzekucyjnego przeciwko małżonkowi. Brakuje art. 787¹, prawidłowych konkluzji warunkowych i wskazania egzekucji z majątku oraz dochodów dłużnika, dlatego A2 i B2 wynoszą zero, a błędne wskazówki ograniczają B1 do jednego punktu. Powtórzenie zastrzeżenia o konieczności sprawdzenia źródeł w końcowej rekomendacji obniża A8 do 0,5; pochodzenie błędnych powołań pozostaje nieustalone wobec braku śladu narzędzi.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 186,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

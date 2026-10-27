@@ -1,0 +1,56 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf, s. 67: „Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 i nast. k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf, s. 73: art. 394 § 2 określa tygodniowy termin zażalenia, a § 3 jego wymagania formalne. Potwierdzono treść w tekście jednolitym; nie ustalono wpływu późniejszych nowelizacji na stan z 2026-10-01.",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Aktualność art. 394 k.p.c. na 2026-10-01 po nowelizacjach późniejszych niż stan uwzględniony w Dz.U. 2026 poz. 468.",
+  "Pełna historia zmian art. 357 § 5 k.p.c. do 2026-10-01; ocenę T potwierdza tekst urzędowy i przyjęte rozstrzygnięcie raportu faktów."
+ ],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: zasadnicze powody należy odróżnić od uzasadnienia, więc nie zamykają drogi do wniosku. Przypisanie art. 357 § 5 przeciwnej treści oznacza T i A6 = 0. Brakuje wymaganej podstawy z § 1 albo § 2¹, warunku zaskarżalności, terminu oraz informacji o opłacie lub wyjątkach. Alternatywny scenariusz nieformalnego wyjaśnienia motywów wykracza poza wskazany w pytaniu tryb, co obniża A8 do 0,5. B1 = 0, ponieważ zalecenie niezłożenia wniosku grozi utratą możliwości zaskarżenia; B2 = 1 za jednoznaczną tezę przy oczekiwanej kalibracji kategorycznej.",
+ "_meta": {
+  "sedzia": "sol61meta3",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 35,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 4, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 357 § 5 k.p.c. [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: przeczy; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 357 § 5 k.p.c. przewiduje podanie zasadniczych powodów rozstrzygnięcia, które stanowią ustawowo określoną, skróconą formę uzasadnienia postanowienia.”\n    · uzasadnienie weryfikatora: Przepis w brzmieniu na datę stanu prawnego wprost nakazuje odróżnienie zasadniczych powodów rozstrzygnięcia od uzasadnienia postanowienia, co przeczy twierdzeniu, że stanowią one ustawową formę uzasadnienia.\n    · kotwica (verbatim ze źródła): „Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”\n    · brzmienie jednostki (fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”\n- 2. art. 357 § 5 k.p.c. [akt: wprost]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (zapytano o art. 357 § 5 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje u…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania.”\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 357 § 5 k.p.c. reguluje formalne podanie motywów rozstrzygnięcia przez sąd, odmienne od ich zwykłego, nieformalnego wyjaśnienia na posiedzeniu.”\n    · uzasadnienie weryfikatora: Przepis reguluje instytucję zwięzłego wskazania zasadniczych powodów rozstrzygnięcia przy wydawaniu postanowienia, a odróżnienie tego trybu od nieformalnego wyjaśnienia stanowi trafny komentarz zastosowania normy.\n    · kotwica (verbatim ze źródła): „Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania.”\n    · brzmienie jednostki (fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”\n- 3. art. 357 § 5 k.p.c. [akt: wprost]\n    · STATUS WERYFIKACJI (nie jest błędem): brak_twierdzenia\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania.”\n    · flagi kroku faktów: slowa_wersji_wczesniejszej\n    · brzmienie jednostki (fragment): „§ 5. Wydając postanowienie, nawet niepodlegające zaskarżeniu, sąd może przy nim zwięźle wskazać zasadnicze powody rozstrzygnięcia, jeżeli mając na względzie okoliczności sprawy uzna, że pozwoli to na usprawnienie postępowania. Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia.”\n- 4. art. 394 [akt: domniemany (akt z podstaw klucza)]\n    · STATUS: BRZMIENIE NA 2026-10-01 NIEUSTALONE — jednostka istnieje, a treść przypisana przez odpowiedź zgadza się z brzmieniem na dziś; aktualności na datę stanu prawnego NIE sprawdzono. To nie jest ani potwierdzenie (✓), ani błąd. Oceń sam, czy opisany w odpowiedzi stan prawa obowiązywał w dniu 2026-10-01 (źródło brzmienia: (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z te…)\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pisma wniesionego jako pozew, z którego nie wynika żądanie rozpoznania sprawy; 2) zwrot pozwu; 3) odmowa odrzucenia pozwu; 4) przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 5) zawieszenie postępowania i odmowa podjęcia zawieszonego postępowania; 6) zwrot kosztów, określenie zasad ponoszenia p…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Art. 394 k.p.c. reguluje kwestie terminu i wymogów formalnych zaskarżenia orzeczenia zażaleniem.”\n    · uzasadnienie weryfikatora: Paragrafy 2 i 3 art. 394 k.p.c. bezpośrednio regulują odpowiednio termin do wniesienia zażalenia oraz wymagania formalne, jakim pismo to powinno czynić zadość.\n    · kotwica (verbatim ze źródła): „§ 2. Termin do wniesienia zażalenia wynosi tydzień od dnia doręczenia postanowienia z uzasadnieniem, w tym także w przypadku, gdy doręczenie to nastąpiło z urzędu. Jeżeli przy wydaniu postanowienia sąd odstąpił od jego uzasadnienia, termin liczy się od dnia o…”\n    · brzmienie jednostki (fragment): „Art. 394. § 1. Zażalenie do sądu drugiej instancji przysługuje na postanowienia sądu pierwszej instancji kończące postępowanie w sprawie, a ponadto na postanowienia sądu pierwszej instancji i zarządzenia przewodniczącego, których przedmiotem jest: 1) zwrot pisma wniesionego jako pozew, z którego nie wynika żądanie rozpoznania sprawy; 2) zwrot pozwu; 3) odmowa odrzucenia pozwu; 4) przekazanie sprawy sądowi równorzędnemu lub niższemu albo podjęcie postępowania w innym trybie; 5) zawieszenie postępowania i odmowa podjęcia zawieszonego postępowania; 5¹) sprostowanie lub wykładnia orzeczenia albo…”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

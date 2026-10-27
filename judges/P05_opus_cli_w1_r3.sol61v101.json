@@ -1,0 +1,115 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 131¹ᵃ k.p.c., Dz.U. 2026 poz. 468",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 5 sierpnia 2025 r., Dz.U. 2025 poz. 1172 — daty wejścia w życie zmian portalowych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1172/text/O/D20251172.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 165 § 2 k.p.c. — nadanie rezygnacji a zawiadomienie sądu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 4 k.p.c. i rozporządzenie wykonawcze",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html ; https://eli.gov.pl/api/acts/DU/2026/225/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ᵃ § 2 k.p.c. — generowanie potwierdzenia przy otwarciu lub pobraniu pisma",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf ; https://eli.gov.pl/api/acts/DU/2024/368/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 134 § 1 k.p.c. — wyłączenie ograniczeń doręczania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131¹ k.p.c., w tym § 2¹",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131² k.p.c. — dawna treść i uchylenie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/1568/text/O/D20241568.pdf ; https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa o doręczeniach elektronicznych — odrębność od portalu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text/O/D20260003.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 168 i nast. k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 133a k.p.k. — wyłączenie stron będących osobami fizycznymi",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/490/text/O/D20260490.pdf",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny rdzeń, wszystkie wymagane podstawy i cztery elementy rubryki, bez podstaw do kar. A6 obniżają nieaktualny opis art. 133a k.p.k., który od 1 czerwca 2026 r. obejmuje także stronę wybierającą portal, oraz błędna historia zmian: zmiana art. 131¹ᵃ § 2 weszła w życie już 10 września 2025 r. Ponadto potwierdzenie generuje odbiór przez funkcję „Odbierz”, a nie samo otwarcie lub pobranie pisma, co stanowi T i ogranicza B1 do 1. A8 wynosi 0.5 ze względu na poboczne omówienie postępowania karnego; główna konkluzja pozostaje kategoryczna, więc B2 wynosi 1. Pochodzenie błędów pozostaje nieustalone bez śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 20,
+  "czas_s": 99,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

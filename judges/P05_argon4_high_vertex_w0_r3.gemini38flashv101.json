@@ -1,0 +1,78 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a § 1 k.p.k.",
+   "zrodlo": "Dz.U. 2024 poz. 360",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 216aa ustawy – Prawo upadłościowe",
+   "zrodlo": "Dz.U. 2024 poz. 794",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wpadła w odwróconą pułapkę aktualności, opierając się na stanie prawnym sprzed 1 czerwca 2026 r. i kategorycznie twierdząc, że sąd nie może doręczać pism przez Portal Informacyjny osobie fizycznej bez pełnomocnika (naliczona kara K1). Na dzień 1 października 2026 r. art. 131¹ᵃ § 1 k.p.c. w brzmieniu nadanym przez Dz.U. 2025 poz. 1172 wprost przewiduje doręczenia portalowe także stronie, która dokonała wyboru tego sposobu doręczeń. W związku z powołaniem nieaktualnego brzmienia przepisu oraz dopisaniem do niego niewymienionych w nim biegłych sądowemu A6 wynosi 0 (klasy W i T, hallucinated=true), a A2 i A_R wynoszą 0. Z uwagi na wprowadzenie w błąd co do biegu terminów procesowych wskaźnik B1 wynosi 0, natomiast kalibracja B2 wynosi 1, ponieważ kategoryczna forma odpowiadała oczekiwaniom klucza.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"131(1a)\" \"która dokonała wyboru\" kpc",
+   "\"131[1a]\" kpc portal informacyjny \"stronie\" 2025",
+   "\"Dz.U. 2025 poz. 1172\"",
+   "\"Dz.U. 2026 poz. 468\" \"131\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10486,
+   "wyjscie": 748
+  },
+  "czas_s": 38,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

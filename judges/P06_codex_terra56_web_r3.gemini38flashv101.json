@@ -1,0 +1,83 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 99 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo formułuje rdzeń i trafnie przeprowadza rozróżnienie pomiędzy odrzuceniem zażalenia poziomego a dewolutywnego. A2 wynosi 0 z uwagi na pominięcie art. 397 § 1¹ k.p.c. wskazanego w kluczu jako podstawa wymagana. Wszystkie powołane przepisy istnieją i zostały zinterpretowane zgodnie z ich treścią, co daje A6 równe 1. W rubryce zabrakło jedynie wątku art. 130² k.p.c. Kalibracja i przydatność praktyczna stoją na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 99\" \"kosztach sądowych w sprawach cywilnych\"",
+   "\"art. 99\" u.k.s.c. \"oczywiście uzasadnione\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfNFwm6Tr7nukTJ5PYYvMh9P-XgorNNwj-DGTl2gjW-TzODdrNC5EiO-KXa5DrlcdOUwaGq_brnAmwFaqCHpoqqnytI-OrcYqN0TxTzKaf6tBipQSYSP7NFUc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPZScYhRcJV7eMiOSqlKJHd5yvOKCYQMJ1n6IGHqyPTaohahJ4ds637szkcTBmE3QCcCqgl2uzXZM-iv9AuzNah5-1j7PkbwRdhqT8oltGT1U0d0IA28j5MyV5DLQLI4PKPqshZ4hK_NPdjTbpIqZFgwpmKwidP6h6lJ2VIhaf8XOpgq1snjhYJhJHGD8p09CJvzVc6pygdH4EEToXPg=="
+  ],
+  "tokeny": {
+   "wejscie": 11062,
+   "wyjscie": 620
+  },
+  "czas_s": 20,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

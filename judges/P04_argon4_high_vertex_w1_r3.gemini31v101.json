@@ -1,0 +1,161 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": "pamięć",
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1a ww. ustawy",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2a ust. 4 ustawy o kształtowaniu ustroju rolnego",
+   "zrodlo": "Dz.U. 2026 poz. 941",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 § 1 i § 2 pkt 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a § 1 w zw. z art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 101 § 3 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 156 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 583 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 521 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c. w zw. z art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 77 ust. 1 pkt 1 ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest trafny, ale niepełny (brak wzmianki o skardze do WSA bez wniosku o ponowne rozpatrzenie), stąd A-R=1 i R4=0. System prawidłowo rozróżnia tryb administracyjny i cywilny, co uzasadnia A8=1. Występuje jedna halucynacja (T): system przypisał opłatę za odpis ze stwierdzeniem prawomocności do art. 77 ust. 1 pkt 1 u.k.s.c., podczas gdy właściwą jednostką jest pkt 2 (pkt 1 dotyczy zwykłego odpisu). Błąd ten ma charakter poboczny, ale skutkuje A6=0. Odpowiedź jest wysoce przydatna (B1=2) i kategoryczna (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 15,
+  "zapytania": [
+   "\"ustawa o kształtowaniu ustroju rolnego\" \"art. 2a ust. 4\"",
+   "\"art. 16 § 1\" kpa ostateczna",
+   "\"art. 16 § 3\" kpa prawomocna",
+   "\"art. 127 § 3\" kpa",
+   "\"art. 521 § 1\" kpc",
+   "\"art. 364 § 1\" kpc",
+   "\"art. 77 ust. 1 pkt 1\" \"kosztach sądowych w sprawach cywilnych\"",
+   "\"art. 364\" kpc prawomocność",
+   "\"art. 364 § 1\" kpc prawomocność",
+   "\"art. 364\" kodeks postępowania cywilnego",
+   "\"art. 77 ust. 1\" \"kosztach sądowych w sprawach cywilnych\" 20 zł",
+   "\"art. 77\" \"kosztach sądowych w sprawach cywilnych\" 20 zł",
+   "\"art. 77 ust. 1\" \"kosztach sądowych w sprawach cywilnych\"",
+   "\"art. 521\" kpc",
+   "\"art. 521 § 1\" kodeks postępowania cywilnego"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTJIWKKXVeHGquBVMkffTyJsGn2fBjA-mqP3amHrSHn8W7xT0yx81gEiEB8mf_ZJjt5iNFcDm8anBb5ozavinSfAvCxlWGVZuIWesbGEZhfcxzBx0tG9I0gP2vDJw53GyCg8Xx0PT8YHXuFS-0hDHFWVrgKxy4q-7U3R8igrevnSTwXK5UMkYC",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKze2JrLq8FIkWmwi1viY-H829BZE_17Mv8_uGSRs9X67t7npQpvrZuhhpH-sJWYbLGmPt2Uqb4mE2l-rPwLtD-7-jqLvS9uASRYYKd5JTZjR1fD6pzU9ajMsRzz20l0OVCt85oAgmMAM0dN1eK98_gs56U7h4EGAshwRRt-KkK0wMKU9as4O3Ccm0KyXiVr9luLA9ahC-oA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2OO7m-ERozX-I9N5oA8UfqKFBvqDSj-9D51JPmwg38XMDDRf7kuvreruoD3xBBteMa__RRwVkUlHo-efLP881-NDBLPPNpga1vcgv4xC9RWJFdVsW10DiQ3vilWAivzUaCq4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7P7a0WZ-32lWfBSCnBWn1gblT6Z6l9-I6E6TEEORFrOBFtT3Aegr0i3qgf7z7YZETf5Rocb-ikjtQnjL_7OxurPCzjz2ZUF_B1gNv3-CQfIlYj5r1ZxJbat9vKlsVBJs1qb_pExRlmAhnnWSyHLvtJWujCVby4w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFluQslFkOecMr79yb7xniGC8eVxaC22c9L_iRaA1lKLT3c8spgQmYXEGfaxCUB3GkLW8-F1Un7WoVislT2_F48oJ33V2rDO2XQqmcjvm10oWDrC5O52G4Jco1frSpEtXCx4W8JkRAShIRW6khTLHhDwh8ZSpLJJJg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHICDI03kOwaTx15tiTadsIl7QFYKAKUwSdIQwlp_C8j_Wp8mwYOWabQTgCkz5-n0PZFlIMw2t5NHSBaAetnQR5erET-YdSACpNFDMRDF_ptBMi4PHV4WgHSPSbMRlMu5RwtlgLBVjw9AC7ZZ1kDWI7FnSFRqlRmKwraeHq7Iw_d5sHY1KD0VyQdJ_bJ_vYDOxalbssFkDcOicJls05Dsqb74B1DBSPfcwbt1Zcg6kTcxY1v0uzJt_QQDCb4LuXyjH8jcgX6nYym98i195WSeQMde4GPybW",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj6NrpJ9N7CKilDP_2F5J_SDwL-mlx1PWrGsi079LTjqROw5BrRLNLDTEW7oMU7Th6e5xdOFo_0Cfnh9tuU6DZeEfF1BSrWP1LThdUBT0VRc38F51NGA20yP4kyKMig6qewp0hajouXfyP7xEbLWb_xz7EjJDK4uDh0XzotFszEUIrgMt0r_dM1w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRj-7Tu5B-Zrf2u41xXTCh_GKk5kjG1uwMvICGop3cCS4chfUex2YtG73Mrqlr_r3icj9HsT7dltr_gqmZwU0EZ-Q8KQZ6gzsFMrW3XZeuXIWeWjCZIzTcN9pnsOcNzQMvDyEaqBpNhlhx5adUlk5yyjZing0NsDH2xmspCpMP6_5VjBLZKg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKJy3mjqUYIT_XUm-Xb7xTUYD23D5aHUV0zR4qDZxZtK2K5VCnHyADwtKdiBXsEuNNMTexNbHT9EGtqjw7coDGz5F4L7zVX4WBAzBSg9LVEXDUhSo8YAL1P-cKzTQdpNr0Bt2XhHmSuGEwsvCR-Sx_M6cAx2n9In_L_3qrSFeIF90LRHEngbRoOrOx3spx32ovjmIu5AxlTHtz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF1c7epraCeU8RIDScFCkvCYAvkDzh6tclH8o6i4gsklnA4RgAaGQzd9EEA32554kE0XPFvze7UKpnErvoWL6xQQ_1HjG0lYwRXn_gcKsnTuUDbiAjieWKeEGy56BnejCU4bxP8_AjG8L02hrcnuzRnOZLv-o2vkVwe4MZEXxqWxXv6-g2P_aL_AqExNRu27bbceUk5L-q8edpNL3uyMTBDanZg6_rmuYgmWOeZLAAWHNEQKRCccY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGib0A4SHnxTWc8fVrOHFUqLFXv5d6aZogJhyI1S9jzrIpTpnllzzTvmyAIZNU4feRFVSXrTGZdOe8iG_H079UqGnggBa4KbhFjJfLYQ8P_RCCd77Jyo-IoFQbu2Sdx5AkExjP7q16myNo7FQ7G7kuvjUuMWNOnwdkdgOA9iOy50U3Aq4N0l9QpmoKELJJthCxJTjhcCXnYfRFdjBxfaiwMaS-KUOi6BLffY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAWm_16eSy3XtBI4c9Hbovck5WIjFCos9rxS7GbsD4kFQ4WVbZuAy1NdBMyplt-0qGQ3iP2Z5mbN0Bag19M6BhJfLncWLmvTOO40EoLUSI1kYigwivgaUrjFoGcBitydSw1pRmjzD9TlF_pouxrVUKlTti68rsGRkgZLwj6snCA6yhwK1CaMN-X8AtXVwIRJOajLdxXM3f1oF_UaJMjm56iskjwwURxi9HXwbQwZiSiQ=="
+  ],
+  "tokeny": {
+   "wejscie": 16972,
+   "wyjscie": 1518
+  },
+  "czas_s": 208,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776¹ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 126 § 2 pkt 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia oba tryby, ich ograniczenia i przesłanki oraz prostuje numer przepisu; dalsze wyjaśnienia usuwają niejasność początkowego określenia „bez ograniczeń”. Art. 126 § 2 pkt 1 dotyczy adresów stron, a nie numeru PESEL, co samodzielnie przesądza A6=0. Art. 787 wymaga dokumentowego wykazania zgody, nie bezwzględnie przedłożenia pisemnej zgody małżonka, natomiast art. 787¹ nie ustanawia obowiązku załączenia wydruku CEIDG potwierdzającego także obecne prowadzenie działalności. Rozbudowane instrukcje dowodowe wykraczają poza pytanie o tryb, obniżając A8, a błędne wymagania dokumentowe i zapewnienie uzyskania klauzuli „bez problemu” ograniczają B1 do 1. Konkluzje zależą od zgody i związku wierzytelności z przedsiębiorstwem, dlatego B2=1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 114,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 131¹ k.p.c. jako podstawa doręczeń przez Portal Informacyjny, ich wyboru i fikcji doręczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 125 § 2¹ i art. 131¹ k.p.c. jako podstawa obowiązku doręczeń elektronicznych profesjonalnym pełnomocnikom",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 168 k.p.c. — przywrócenie terminu przy braku winy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 131 k.p.c. — techniczna niemożność doręczenia elektronicznego jako przesłanka doręczenia tradycyjnego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 2 § 1 k.p.k. — wskazanie, że nie dotyczy omawianych doręczeń",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/490/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 132 i następne k.p.k. — doręczenia elektroniczne",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/490/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2020/2320/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ogólne odesłanie do przepisów p.p.s.a. o doręczeniach elektronicznych",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20260000143/T/D20260143L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Niesprecyzowane rozporządzenie Ministra Sprawiedliwości dotyczące systemu teleinformatycznego i korespondencji elektronicznej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/368/text.html; https://eli.gov.pl/eli/DU/2026/225/ogl",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie można jednoznacznie zidentyfikować rozporządzenia wskazanego bez daty, tytułu i publikatora; znaleziono przepisy wykonawcze dotyczące doręczeń portalowych, lecz nie ustalono, który akt powoływała odpowiedź."
+ ],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje dobrowolność i regułę 14 dni, ale nie opisuje wymaganego oświadczenia przez portal z odpowiednim podpisem, dlatego rdzeń jest niepełny. A2 wynosi 0, ponieważ nie powołano żadnej wymaganej jednostki art. 131¹ᵃ; A6 obniżają przypisanie regulacji portalowej art. 131¹, przypisanie obowiązku zawodowych pełnomocników art. 125 § 2¹ oraz przypisanie art. 131 przesłanki technicznej niemożności doręczenia elektronicznego, której ten przepis nie zawiera. Pochodzenie tych błędów jest nieustalone, ponieważ nie przedstawiono śladu narzędzi ocenianego systemu. Element dotyczący rezygnacji pozostaje niepełny z powodu pominięcia możliwości złożenia jej na piśmie, a dygresje o innych postępowaniach i powtórzone zastrzeżenia weryfikacyjne obniżają A8. Nie naliczam kar: odpowiedź dopuszcza doręczenia osobie fizycznej, a porównanie do awiza nie oznacza zastosowania art. 139; błędna instrukcja wyboru trybu ogranicza B1, natomiast zasadniczą tezę przedstawiono dostatecznie stanowczo dla B2.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P05",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 97,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

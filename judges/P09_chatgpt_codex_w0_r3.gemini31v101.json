@@ -1,0 +1,100 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 prawa autorskiego",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 prawa autorskiego",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 prawa autorskiego",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 prawa autorskiego",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 prawa autorskiego",
+   "zrodlo": "ISAP",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni realizuje rdzeń, wskazując, że ogólna formuła co do zasady nie wystarcza (art. 41 ust. 2 pr.aut.), ale dopuszcza dookreślenie pól przez wykładnię z art. 65 k.c. Powołane przepisy są poprawne i zgodne ze źródłami oficjalnymi (A6=1). System trafnie kalibruje pewność (B2=1), uzależniając skuteczność od możliwości ustalenia pól z reszty umowy. Odpowiedź jest wysoce przydatna (B1=2), zawiera konkretne przykłady pól dla social mediów i przypomina o formie pisemnej pod rygorem nieważności.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 41 ust. 2\" \"prawo autorskie\" lex lexisnexis isap",
+   "\"art. 65\" \"kodeks cywilny\" isap",
+   "\"art. 50\" \"prawo autorskie\" isap",
+   "\"art. 53\" \"prawo autorskie\" isap"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw3jOXDJkbbc7oW13CuiqNGJP3CBZ3rKQwY-_vQ47tx_cORCjNlrqHdqjd7J5vvMTDAx_3-Xo3GnMINRtTToHBGUr-V2vepMXDASlGjVag5dreidkBhLE6a04uQT6i_kmFDPSuMG8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC0-kieYJEC4sPlEyyBjBZ9yq8H8z0baCEtIeY2Sar708MTRcXpegg1QhWzLMAi7LPuBhcnJXtANRn595fsoI-6aVHA5Pnx-DoLOPiAA6xOX0U26TjodwNIpGFZt5R4ejhfWCmpEoxm7WTJQ68Z9d-oXKnTz8Hh_Q=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS_cdFkfTfSKsFHjJI9ISBsHbsGnNISId6rCbn0cugK63NEPcXsHBbpZi1c1jXxi5n1PyFHDehuwoWeJftSsplPQ3HpiaqQinEstIRLWk70zyabt-Ob8z5h7BhyhQhY5QGc-kl0uJYLi1_xPHZEJFJKEAUqDDuTGyap178Ud4-Suj8STTYND_f2jCb",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq6Je2APgXqVcb-UCFb302yUi6WfZHJI3YJWPZU7DEpdb4nM3MuRUCXdSWNCgr62e6-Bvm8_9U6M6s_UIjoB3ZdNLD4D2rCp8SQH9g_yNeHFtlDtlcPxvJuQyG-JwrGKgvGsYHWq_XyjWGsvuzFJtP8zbTp95awUzKRr_jhASHJw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERNjSsF0ZydAf9kwrpu3Y0MbBdxP4MPpeuvNlFpFjjuEpcQ8U4HyiZsoJPkfiSKbNrbaPazZn6MW0nFAajE-_9tp8CmfmFJ_PwbuAQ-J9qb5o9aTy-01FG1zXi_PqRouM-2drxJeCj9jMsRiTEOwyEAzqxErw-xEGhibgcADwEZRlc1lGYI-Vh9bRdkR7vai6Yht7eyVTB6T2PItg_N_XdJfLBObj1rpLznsMfi3C31eCu4sY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaZtyjrBYHVC5Mkx1B5gWolXcuXvU5CTHT7tFQMuvD772JQJLmuLshaQ_Z3DjnWvLcmv7Daoul9lJwcytokU6jFQ4iN1hJRcRj2CtEQWCqEKsMJsTEWgRxM6RgWH_pvBlv1q0J4AJ2DD3BJtQT3W3Ed-UzyGNdUJcQDN-lMsO-qDhOQrRq-2O76EQ22I3Told21lY="
+  ],
+  "tokeny": {
+   "wejscie": 14611,
+   "wyjscie": 582
+  },
+  "czas_s": 124,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

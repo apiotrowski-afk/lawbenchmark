@@ -1,0 +1,94 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl / OSNC 2021/12/80",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 25b ust. 1 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2³ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 328 § 4 w zw. z art. 361 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni poprawna pod względem prawnym i kompletnie realizuje klucz. Wskazuje pełny rdzeń, odróżnia zasadnicze powody od uzasadnienia oraz prawidłowo podaje termin tygodniowy i opłatę 100 zł. Cytat z art. 357 § 5 k.p.c. jest dosłowny, a przywołana uchwała SN III CZP 38/20 rzeczywiście dotyczy tej materii. Wszystkie powołania przepisów i orzecznictwa są w 100% zgodne ze źródłami urzędowymi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"III CZP 38/20\" sn.pl",
+   "\"III CZP 38/20\" zasadnicze powody rozstrzygnięcia",
+   "\"art. 328 § 4\" kpc sejm",
+   "\"art. 328 § 4\" odrzucenie wniosku o uzasadnienie kpc",
+   "\"art. 328\" \"k.p.c.\" \"odrzuca\"",
+   "\"art. 328\" kpc odrzucenie wniosku o doręczenie wyroku z uzasadnieniem"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11166,
+   "wyjscie": 706
+  },
+  "czas_s": 30,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

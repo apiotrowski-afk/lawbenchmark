@@ -1,0 +1,108 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 362 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168-169 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 Konstytucji RP",
+   "zrodlo": "Dz.U. 1997 nr 78 poz. 483",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 Konstytucji RP",
+   "zrodlo": "Dz.U. 1997 nr 78 poz. 483",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 EKPC",
+   "zrodlo": "Dz.U. 1993 nr 61 poz. 284",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest trafny tylko dla jednej gałęzi (zażalenie dewolutywne), co daje 1 pkt w A-R. System nie powołał wymaganych podstaw prawnych (A2=0). Wystąpiły poważne halucynacje (A6=0, typ T): system przypisał art. 394 § 3 k.p.c. treść dotyczącą wyłączenia zażalenia (która znajduje się w art. 394² § 1¹ k.p.c.) oraz wymyślił nieistniejący środek zaskarżenia w postaci 'sprzeciwu do sądu' na zarządzenie przewodniczącego, przypisując go do art. 362 k.p.c. Odpowiedź zawiera dygresje o środkach alternatywnych (A8=0,5). Ze względu na kategoryczny ton przy wymaganej kalibracji warunkowej (B2=0) oraz rażące błędy merytoryczne w poradzie praktycznej, przydatność oceniono na 0 (B1=0).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"Art. 394\" \"Kodeks postępowania cywilnego\" lex",
+   "\"Art. 362\" \"Kodeks postępowania cywilnego\" lex",
+   "\"Art. 394\" \"§ 3\" \"Kodeks postępowania cywilnego\" lex",
+   "\"Art. 394\" \"§ 3\" \"KPC\"",
+   "\"Art. 397\" \"§ 3\" \"Kodeks postępowania cywilnego\" lex",
+   "\"Art. 394\" \"§ 3\" \"KPC\" wyłącza zażalenie na postanowienia sądu drugiej instancji",
+   "\"Art. 394^2\" \"Kodeks postępowania cywilnego\" lex",
+   "\"Art. 394(2)\" \"Kodeks postępowania cywilnego\" lex",
+   "\"Art. 362\" \"KPC\" sprzeciw do sądu"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExeSpS1kbFib0x1brVwZbMXa64l2KlbNjfE3W4g7KQuH7Xvt6pDHrFFRXOSFM6h8BsuKasghWgAAAnYeQW0v7GYRw0LdqVaxE0HHEVz0D4IziBp2yAwMSpGoxvr5u6KCgUEtGr6-6VtnGe3s3qs8yB9mc3SMmj8I-o44bVRGAjitNlmV822N5UFY9CjiijNLsZmYPJMtmZrCz-AVtwNkv5VMoEIF8Ms3zZk7iWkMEBUt7UOZP7WUCGnsevjrJEzRBEPG9XSWVqV9BV01AFLyfUOlKrDw8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_mjv7Prj2N2jq07qjs4ObG-rLiwb5gpNc7z5f9LSEB1rpPiMOV473xVDBKMDoAeyZzXSNAzlnPFYxOC3MYQS-CTwrnmXePz2OTG4MIlxVpXzSTlNeIer8EG5EHfkSe1gi-iOmPnaNELILDNeWfb8f9RyaiBcnp8dwiNvDNIieA209DE4ORuNf1EfyFnePbUPADg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBIx5abU3eHzQ0vyIXwINS1-yh9_hpqEgEYPnD2ov2HP0K0bH3jZhI7dMUe4IIn4LH5p6xmbjD4gstGsCOZLKttpDlmVcbuLaNZPCH_F-Ikwtk6W6_-n48vrnRpShs5Vk7feQp8PmNZqVVdh9WD-U0hFK2LeMkcwZDfC97gNEcbWlD9lz5G87jPHQCov7tQSzEZw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAPS4QzTRNr-NnngmGpBBIFzvLBiNFytm5TbID-g6VKeYuQ842xhQ6AGTUGL_AcdfPZOB6xB18nOnWuHDqZCVcefEJsb3zz6GUWieb3IMGzj0L2hQGdB60GD_Nh2YaPI73_RcYdUt4nIjvdrvp9nFHdC7QBe6A8DrpV2EuItlYQwMlZ67Zv8NJKjMoETCBbwtq8U2BlOC6",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQJMLFH-MHxM3Tgt_HiIqQhmf9HxEFvjVhNoW7wqadguJkBDB1W-IW9JcliJCiW23T1lcMBq-akKZOeTgF4tSTnhMufbCDEQkOzJeS1GaePq3ChAIf6OwWUKlutv4bPdmJO4n1udd3HxlGTprwReYTC5h2YAT6R1zQH7Rv1IyE7qlohNXm4ZPj5K1SS2trbYvYVgAPBbW9jHSB0GTIA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXSm-E1sGYxGTtNAiry5YLVrsAXnpvjKdavytfRyOQW808Kg1vkFTPdzB_m393uF292oI2_bDJNo3sCcUQweQ1pPyF3UjMk2CbV8EtCmOx31EFMOKGoqHoJ7wkX2w87kIFwxfsF34Pe1KMts4dy_U=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqe4g1IYnKE8YyUABGJ_dc84gOqhhyZA2F1_xZTFe0MbiWlAjoAEzKQIRwjmnkH0RKxKXOyh4B480bUSaA-0F6y_PEEomG2FTmindnMaiWgkFYJwbzAbyxThCYJ1y8xnIVGQ409pRL2wNfrxDPTsk9HZUh5pDW3JTDBljKV4BJCaroOELNe_Yq2jPBtjNgjF0yzYcZgO0atAGh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNH0K35o5iO-z2ZBSteuJ_vT1jM_iiQbliL0qGbSyMNj0HRahsYDzFPWbFMUborQMcJHPsYcZpFHRr4a-ILQheycnsnbtaPRAcMSplEFtUX1N4wmSmWxo1XXDOSP4XSTIbm6g5fxjKonzcmHRZcPbkLP7CAy6jbD1cG2m7qZXYpxpzazULyId3n3v7v1EPR1RSWnUNWMvl8lzfw1WHkslvqA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj42sfu3wofaNRl4tkv031-6hvSgM8vR8zSbzbJb2JYowxbLtJpAoG4bSyUtTEOrEu03zsb1jEAp7aFFpf9ZtcAr1f9709hq1iMCDZyJWBqdE77bQyBXqihfS3nJ-h8UP_eeEzt1ca6SuxoAPZ4GPU8r-jNXqA2_nAa8QR4A_DY7aHn04JBZwnCgtFAV3axPMOSgZSNrdqQoQz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmUePeUHvWJgx9_1A27UtUwPKti9iJ69M8pRM4DT-IUV52ts6SMB--sp65pp9btC3ytXbi-1tXI-QgrcTFlByrM1xYotX1zsVV2UzchmIG17qsdsrc9cZB2rXwmp1ig26ICfpNtoxEyGuxEJrqGTbJipnRAiLEjJB3_Ed8-tSCPMbmVgS2Nnwg-8Phzs0="
+  ],
+  "tokeny": {
+   "wejscie": 9730,
+   "wyjscie": 933
+  },
+  "czas_s": 136,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

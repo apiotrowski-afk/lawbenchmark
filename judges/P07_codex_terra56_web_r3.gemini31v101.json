@@ -1,0 +1,79 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "F"
+ ],
+ "A6_pochodzenie": "odczyt_źródła",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 25b ust. 1 ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2.07.2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo wyjaśnia, że zasadnicze powody nie zastępują uzasadnienia i podaje właściwe terminy na złożenie wniosku. Rdzeń i wszystkie elementy rubryki zostały spełnione. System błędnie wskazał jednak art. 357 § 2-3 k.p.c. jako podstawę prawną terminów do złożenia wniosku, podczas gdy wynikają one z § 1 i § 2¹, a § 3 jest uchylony. Stanowi to halucynację typu T i F, co skutkuje oceną A6 = 0 oraz brakiem punktu za wymagane podstawy prawne (A2 = 0). Pozostałe powołania są poprawne.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 357\" \"Kodeks postępowania cywilnego\"",
+   "\"III CZP 38/20\"",
+   "\"art. 25b\" \"kosztach sądowych w sprawach cywilnych\"",
+   "\"art. 357\" \"Kodeks postępowania cywilnego\" \"§ 3\"",
+   "\"art. 357\" \"Kodeks postępowania cywilnego\" \"§ 2\" \"§ 3\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaOquIGSMgUSJrDltn_99GD6hwtKP-TkCjNpd_iO9BKIwNwynYchw5zcqN5VB6glC5519lxyx7oy8khiJ5JJ4VTsuSMH8f9cnWztmE0WhQx_3CJ8O-VEjBP0q2At3ITp7CGE4B_ec4_miY2JAoq7WEutle98h1-jLVprA7-Vp1R-cn3jYBp4AJ_sVBglre_7LA4VMlCGvlZyfJE_uCpRmTANnL90hUvobM49hR"
+  ],
+  "tokeny": {
+   "wejscie": 10660,
+   "wyjscie": 620
+  },
+  "czas_s": 140,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

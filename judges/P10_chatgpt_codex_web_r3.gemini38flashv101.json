@@ -1,0 +1,86 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1071",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14 października 2021 r., IV CSKP 44/21",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo zaprzecza błędnej przesłance pytania w pierwszym zdaniu, wskazując na konieczność wymienienia pól eksploatacji oraz formę pisemną pod rygorem nieważności. Prawidłowo i z właściwą kalibracją przedstawiono liberalną linię SN dotyczącą wykładni oświadczeń woli (art. 65 k.c., IV CSKP 44/21) wraz z regułą in favorem auctoris. Wskazano trafne i praktyczne przykłady pól eksploatacji w kontekście social mediów zgodnie z art. 50 pr.aut. Wszystkie powołania ustawowe i orzecznicze są w pełni zgodne ze źródłami oficjalnymi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"IV CSKP 44/21\"",
+   "\"IV CSKP 44/21\" \"pola eksploatacji\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11847,
+   "wyjscie": 635
+  },
+  "czas_s": 23,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

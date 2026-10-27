@@ -1,0 +1,76 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "stosowanie przepisów art. 50 AI Act od 2 sierpnia 2026 r. (art. 113 rozporządzenia (UE) 2024/1689)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń (A-R=2) i wszystkie wymagane podstawy prawne (A2=1): poprawnie parafrazuje dwie przesłanki definicji deepfake z art. 3 pkt 60 AI Act, wskazuje na obiektywny charakter oceny niezależny od deklaracji twórcy oraz odróżnia brak obowiązku ujawnienia z art. 50 ust. 4 od niezależnego obowiązku dostawcy w zakresie oznakowania maszynowego z art. 50 ust. 2 (B2=1). Wszystkie powołania przepisów oraz data rozpoczęcia stosowania art. 50 (2.08.2026) są zgodne z tekstem rozporządzenia w EUR-Lex (A6=1), a wobec braku dosłownych cytatów w cudzysłowie kryterium A3 jest n/d. W rubryce odpowiedź traci punkt R4, ponieważ przy art. 50 ust. 4 nie wskazuje adresata tego obowiązku (podmiotu stosującego), poprzestając na wskazaniu dostawcy przy ust. 2. Odpowiedź nie odwołuje się też do wytycznych KE C(2026) 5054 ani kodeksu praktyk (R6=0), co zgodnie z regułą dotyczącą soft law skutkuje wyłącznie utratą tego punktu rubryki.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"2024/1689\" \"deepfake\" \"art. 3\" OR \"pkt 60\"",
+   "\"2024/1689\" \"Artykuł 50\" \"Dostawcy systemów AI\"",
+   "\"2024/1689\" \"Artykuł 113\" \"2 sierpnia 2026\"",
+   "\"60) „deepfake” oznacza\"",
+   "\"Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14738,
+   "wyjscie": 964
+  },
+  "czas_s": 81,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

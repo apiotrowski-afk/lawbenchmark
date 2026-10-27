@@ -1,0 +1,75 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks postępowania administracyjnego — art. 16, tekst jednolity Dz.U. 2024 poz. 572",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/572/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "procedura MSWiA — odnośnik biznes.gov.pl",
+   "zrodlo": "https://www.biznes.gov.pl/pl/opisy-procedur/-/proc/209",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Treść procedury pod wskazanym adresem biznes.gov.pl — błąd pobrania strony."
+ ],
+ "uzasadnienie": "A-R=1 zgodnie z regułą dla odpowiedzi preferującej ostateczność i dopuszczającej dodatkowo prawomocność. Brakuje art. 217 § 2 pkt 2 k.p.a., jednoznacznego odrzucenia klauzuli oraz mechanizmu skargi w terminie 30 dni, także bez ponownego rozpatrzenia. R3 zaliczono, ponieważ odpowiedź rozróżnia oba przymioty i wskazuje możliwość ich potwierdzenia zaświadczeniem MSWiA. Nie naliczono K3, gdyż dalsza treść wyraźnie dopuszcza zaświadczenie obejmujące prawomocność. Sprawdzone powołania oddają treść właściwych jednostek; wadliwa rekomendacja praktyczna obniża B1 do 1, ale nie stanowi fałszywego przypisania treści przepisowi.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 8,
+  "czas_s": 39,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

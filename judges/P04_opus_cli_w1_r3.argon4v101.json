@@ -1,0 +1,122 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (t.j. Dz.U. z 2017 r. poz. 2278 ze zm.)",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 i 364 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 w zw. z art. 129 § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a w zw. z art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 § 3 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 1 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 12 marca 2022 r. o pomocy obywatelom Ukrainy w związku z konfliktem zbrojnym na terytorium tego państwa",
+   "zrodlo": "Dz.U. 2026 poz. 1293",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wychwytuje obie pułapki pytania: prostuje formę rozstrzygnięcia (decyzja administracyjna MSWiA zamiast postanowienia) oraz sposób potwierdzenia jej stanu (zaświadczenie organu zamiast klauzuli), a także wskazuje, że MSWiA zaświadcza, iż decyzja jest ostateczna i prawomocna (A-R = 2, wszystkie elementy rubryki R1–R4 spełnione). Punkt za A2 nie został przyznany, ponieważ system powołał ogólnie art. 217 k.p.a. bez wymaganej w kluczu szczegółowej jednostki redakcyjnej (art. 217 § 2 pkt 2 k.p.a.). Wszystkie powołane przepisy i przypisane im treści są zgodne z oficjalnymi tekstami aktów prawnych na dzień stanu prawnego (A6 = 1). System nie przytacza dosłownych cytatów przepisów w cudzysłowie (A3 = nd), a dodatkowe uwagi praktyczne są trafne i mieszczą się w ramach pytania (A8 = 1, B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"art. 363\" \"art. 364\" \"Kodeks postępowania cywilnego\" prawomocności OR OR",
+   "\"art. 127\" \"art. 127a\" \"art. 129\" \"Kodeks postępowania administracyjnego\" OR OR",
+   "\"art. 6\" \"art. 8\" \"o nabywaniu nieruchomości przez cudzoziemców\" OR OR",
+   "\"najczęściej zadawane pytania\" \"ostateczna i prawomocna\"",
+   "\"Art. 8.\" \"Nie wymaga uzyskania zezwolenia\" \"samodzielnego lokalu mieszkalnego\" \"5 lat\"",
+   "\"ustawa z dnia 12 marca 2022\" \"nabywaniu nieruchomości\" OR \"zezwolenia na nabycie nieruchomości\"",
+   "\"najczesciej-zadawane-pytania\" \"klauzul\" OR \"zaświadczenie\"",
+   "\"Art. 217.\" \"Kodeks postępowania administracyjnego\" OR",
+   "\"gov.pl/web/mswia/najczesciej-zadawane-pytania\"",
+   "\"nie wydaje odpisu decyzji\" OR \"ostateczna i prawomocna\" \"MSWiA\" \"zaświadczenie\" \"17 zł\"",
+   "\"zaświadczenie\" \"17 zł\"",
+   "\"Najczęściej zadawane pytania\" \"nabycie nieruchomości\" \"MSWiA\" OR \"zaświadczenie\"",
+   "\"odpisu decyzji\" \"zaświadczenie\" \"nabycie nieruchomości\" \"17 zł\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15443,
+   "wyjscie": 1697
+  },
+  "czas_s": 201,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

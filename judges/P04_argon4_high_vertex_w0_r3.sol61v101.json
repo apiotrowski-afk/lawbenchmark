@@ -1,0 +1,90 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców, Dz.U. 2017 poz. 2278",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a. jako podstawa klauzuli ostateczności",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 127a k.p.a. — zrzeczenie się prawa do wniosku o ponowne rozpatrzenie sprawy",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 3 k.p.a. — prawomocność decyzji administracyjnej",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 1 ust. 2 ustawy o nabywaniu nieruchomości przez cudzoziemców — sprzeciw w drodze postanowienia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 101 § 3 k.r.o. w związku z art. 583 k.p.c. — zezwolenie sądu opiekuńczego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf ; https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 363 § 1 k.p.c. — przesłanka prawomocności orzeczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 13 § 2 k.p.c. — odpowiednie stosowanie przepisów o procesie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 579 k.p.c. jako podstawa prawomocności postanowienia zezwalającego na nabycie nieruchomości przez dziecko",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 364 § 1 k.p.c. — stwierdzenie prawomocności na wniosek strony przez sąd pierwszej instancji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie wskazuje decyzję ministra i dopuszcza jej prawomocność, lecz zaleca klauzulę ostateczności zamiast zaświadczenia organu oraz pomija mechanizm trzydziestodniowego terminu skargi do WSA. Art. 16 § 1 k.p.a. definiuje ostateczność, ale nie ustanawia przypisanej mu klauzuli; sprzeciw reguluje art. 1 ust. 1a ustawy, natomiast wskazany ust. 2 definiuje cudzoziemca. Art. 579 k.p.c. dotyczy wskazanych spraw władzy rodzicielskiej i kontaktów, a właściwa regulacja zezwolenia majątkowego znajduje się w art. 583 k.p.c. Nie naliczono K3, ponieważ odpowiedź wyraźnie uznaje możliwość prawomocności decyzji, a gałąź sądowa jest dopuszczona kluczem; A8 obniża błędna uwaga poboczna o sprzeciwie. B1 obniża praktyczne zalecenie niewłaściwej formy potwierdzenia, natomiast B2 zachowano, ponieważ konkluzje dla opisanych organów przedstawiono stanowczo.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 72,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

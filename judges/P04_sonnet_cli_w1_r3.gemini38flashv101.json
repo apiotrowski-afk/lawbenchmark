@@ -1,0 +1,79 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 16 § 1 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 127 § 3 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 217 § 2 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 i nast. ustawy z 24 marca 1920 r.",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 i 364 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie neguje instytucję prawomocności decyzji administracyjnej (art. 16 § 3 k.p.a.) oraz twierdzi, że decyzja ministra jest ostateczna już od doręczenia i wniosek o ponowne rozpatrzenie sprawy nie odracza jej ostateczności, co wprost narusza treść art. 16 § 1 k.p.a. w brzmieniu obowiązującym od 2017 r. Z tego względu nałożono karę K3, a A-R i A2 wynoszą 0. Prawidłowo skorygowano natomiast formę aktu (decyzja, a nie postanowienie) oraz formę potwierdzenia (zaświadczenie z art. 217 k.p.a., a nie klauzula), co daje 2 punkty w rubryce. Za błędne twierdzenia o treści art. 16 § 1 i art. 127 § 3 k.p.a. oraz wykluczenie prawomocności decyzji A6 wynosi 0 (T, W) ze statusem hallucinated.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P04",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne\"",
+   "art 16 kpa brzmienie sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13523,
+   "wyjscie": 642
+  },
+  "czas_s": 30,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

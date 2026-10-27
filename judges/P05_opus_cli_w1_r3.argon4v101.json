@@ -1,0 +1,144 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c. (Dz.U. 2026 poz. 468; ustawa z 5.08.2025 r., Dz.U. 2025 poz. 1172)",
+   "zrodlo": "ELI DU/2026/468 oraz DU/2025/1172 (art. 1 pkt 11 lit. a, wejście w życie 1.06.2026)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "ELI DU/2026/468 oraz DU/2025/1172 (art. 1 pkt 11 lit. b, wejście w życie 1.06.2026)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "ELI DU/2026/468 oraz DU/2025/1172 (art. 1 pkt 11 lit. c)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "ELI DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 4 k.p.c.",
+   "zrodlo": "ELI DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 § 1 k.p.c.",
+   "zrodlo": "ELI DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 165 § 2 k.p.c.",
+   "zrodlo": "ELI DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 k.p.c.",
+   "zrodlo": "ELI DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. (w tym § 2¹)",
+   "zrodlo": "ELI DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131² k.p.c. (uchylony) i ustawa o doręczeniach elektronicznych",
+   "zrodlo": "ELI DU/2026/468 oraz DU/2025/1172 (art. 1 pkt 12)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 i nast. k.p.c.",
+   "zrodlo": "ELI DU/2026/468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133a k.p.k.",
+   "zrodlo": "ELI DU/2026/490 (t.j. k.p.k.) oraz DU/2025/1178 (art. 1 pkt 6 lit. a i b, wejście w życie 1.06.2026)",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo rozpoznał pułapkę aktualności w postępowaniu cywilnym, przytaczając pełny rdzeń odpowiedzi (A-R=2), wszystkie wymagane podstawy prawne z art. 131¹ᵃ § 1, § 1¹ i § 2 k.p.c. (A2=1) oraz komplet elementów rubryki (R=[1,1,1,1]). W punkcie 7 dodał jednak dygresję o postępowaniu karnym (art. 133a k.p.k.), opisując ten przepis w nieaktualnym brzmieniu sprzed 1 czerwca 2026 r., jakoby obejmował on wyłącznie podmioty profesjonalne, a nie strony będące osobami fizycznymi. Tymczasem nowelizacja k.p.k. z 9 lipca 2025 r. (Dz.U. 2025 poz. 1178, art. 1 pkt 6 lit. a i b) z dniem 1 czerwca 2026 r. rozszerzyła art. 133a § 1 k.p.k. także na stronę, która dokonała wyboru takiego sposobu doręczania, oraz dodała § 1a. Zgodnie z regułami A6 zastrzeżenie systemu o niesprawdzeniu nowelizacji k.p.k. nie znosi błędu polegającego na podaniu dawnego brzmienia przepisu jako obowiązującego na datę stanu prawnego (klasa W, A6=0, hallucinated=true). Ze względu na dygresję dotyczącą procedury karnej oraz powtórzone w końcowym akapicie zastrzeżenie o źródłach internetowych ocenę ram obniżono do A8=0.5.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 23,
+  "zapytania": [
+   "\"131\" \"468\" OR OR",
+   "\"1172\" \"2025\" \"131\" OR OR",
+   "\"art. 131\" \"134\" \"165\" \"168\" \"Kodeks postępowania cywilnego\" OR",
+   "\"133a\" \"Kodeks postępowania karnego\" OR OR",
+   "\"2026\" \"468\" \"131\"",
+   "\"2025\" \"1172\"",
+   "\"Oświadczenie o wyborze sposobu doręczeń\" \"165\" \"131\"",
+   "\"odnosi skutek prawny z chwilą zawiadomienia sądu\"",
+   "\"131\" \"21\" \"Adresat, który dokonał wyboru wnoszenia pism\"",
+   "\"Art. 1312\" OR \"131²\" \"Kodeks postępowania cywilnego\" uchylony",
+   "\"Art. 165\" \"Oddanie pisma procesowego\" \"Kodeks postępowania cywilnego\"",
+   "\"2025\" \"1178\" \"133a\"",
+   "\"133a\" \"dokonała wyboru takiego sposobu doręczania\" \"1178\"",
+   "\"168\" \"Kodeks postępowania cywilnego\" \"przywrócenie terminu\"",
+   "\"2025\" \"1178\"",
+   "\"2026\" \"490\"",
+   "\"2026\" \"468\"",
+   "\"eli.gov.pl/eli/DU/2025/1178\" OR \"D20251178\"",
+   "\"eli.gov.pl/eli/DU/2026/490\" OR \"D20260490\"",
+   "\"eli.gov.pl/eli/DU/2026/468\" OR \"D20260468\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd-vNrJtwCMD1JI4c64n8ag-GAfMKMlJRv0mVDmTuwDHMD4BRFxsPXbWh6vS8Ic96SEfLeCql8B8QdpLrW387wSIv11NBcaJ28yR_xJy7WzMRuAy8n0NylYjEibIvVEzq6SA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOcEEKeATOnfHEtxK5rgWdYvqVvEjjWAwQYzGEGL6cJxw8lazrvdEZDjeBbCriX1P4hr1c3uAw55HwcxPL29Z_woAZg6svob4ZAuc7WgtKImo9X6SpXyM_OjKY6ZlCB3pflg6KrbaOzJAzNOrXRJlzzy08M0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3sOvVCz0TPV3kWpBQ1RN_txNGL57WhXbBIlU5K7TdINWVgNZcQafICukVcecSQCK3xcClzWfAcafth8_Lr8vH0KhnjHpPHPEwFx7X_bYJc34rTOYPcc66cD7dWsjGDx33Ljjki5YB-gRCNEZz4MQdMz7-47K8Lxjb7L7lCe6wQr-FtWqS8dS9kslBA13UP-byVGdkQV9zOLooqQvI2HU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmMuPzzW6QgmDOf-UBau31MxP0eyvwNUi_A752zo_lqJS0ekQuv16ACI34jK84Xo0VVsRdkXViUHwU30RRzIr46qXXVxOKdecUerJPzgxBfs_mmd7EcI39876pL2HjmNRnIkyCRw_EEMVP8bH38QC9GPxY8RyQJFUUhn0plLgueKy4XclyWgcBcTf-6AMDgC6FoDbMVf7FnBc3VmzFug==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNRtSQ7T7nU6bKLabuf86QCN3JWGNNVOsIX4yXbmAi5HBCUhjJs2KdVV-2qkbHmx3mAR2wgsuPc38fGGQ7G1uT1lI8MDQsXyUnZshY9KXhtHr9bZrL98haYrh9nNQ42dU5yQKsnRr41LyHrinE-Y4vnA5_0J6QGigqYWZd1ZMWLp9eFdOFHrvJq5-LiMZo4gcBm3f5HVEcsR6M",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU0JozDMXPwWYFUHhP2rWjimFmcPYzjvNoqHnG6G2QRH3RfiWosrwaxfHZMeK7JqGz8ejuWu9k79OCFKoU9YSCZWzYQdIR9-1AVw5Pk0VH_YBQiTIXq6-phg3_Q6sBR4zWnN4EIFRObfm4RPictjbA6dq6EuZdVsJ6Cd0uQ_h_ACgj8GfGVf_J7ADoydlFIlBP-ezApg6BasK-OaGuk0b_rI7jfyaX4lJap-iS9Y1w2V6ARzXd-q5uPOzq8h84HPYi9V6XPmkPEPcX6o2Ae_bA0lAwM6cJFEFvKXIq7agGEQUTbuct",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGc-zBSZC9cQs4EB8NC1pdL95MK7jvrbdWLQn7FoyGOyFy_QJiWQf5CryUYgEgnjPtuX389BFYSPrqa1vvDGrTuZTQShfpYlW4P_LqPgilDDUspOCmA3LIKt7x7--KMMttoBEONiIEzdZHFeMzG6Q4ZumRx-SqowEZro7yFg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdh6SS2VgqdAjapI-8zDyFam8YBjP3jxC48EOI3M1jff4xv5pbPAtq9aBqJ1lkeHnlycAMy3SizGiU41Bs9BQGvtFHJlm6S8Px0bTcKNiMbGgprhguVRXaNx0YYDMMNEr4Yh1TibA0xu4CCzsQAtN4562JWE2vUQeGgs0tdfhufSI7RL1-3PHFwGWObd5xD9ejD5nYLkehBVC-BQUlJmEsRbHaQpAvF_HBH7Bn_IVFKxP60KuZascnSJij-exQ7saODzs75vlk1nSgN8kp0OXP9JnXT4O1nQs4QhXeLGq3ET8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPR0yirktPeFV36qmf7TYIQcMBfKO2g6ZM0ybIyLnzdLo62mpIriaT5bx9KKwwwEi_4WspYtCrdYUpmp4IUQb7rkINUU-0Di60DUe2JurRVkNz0qfw35hpfW1sGPuqK1M6vTqjoLT3Zig2O5TvU_zRK1K7Iue0374ZTxAq9J4icyWK5x2DEayXGu4bvFkk",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxYoO7a4JiKp-AWhzUfZsMeND6HRj2tGA81dNT64u94iycpTLTGYFKo1toLlIPII2PVG3hu7Oglevu646SptbA_60TucBim9OTgXJ4JQjFIkqrkQ1WV5-pLwdMVmipRaY0TA8yt1qbW8tMpFMV1Ze0eSgYqJOd55mfSWztrRQU_z8Xev-lmampeR2ECtAvcnI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoT_HUblr8yJwdJ5FFxf6DdAexeLUOi-itEv33njzfw7Dl0-ioynxizTyhhaj_V5QKQZjdvpewPUaEJh6pIBIGb-IqUKEYWvcBVJXfayjzmhDfo_Fu95wnMtC5z-tgSdPK",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX--kbUdaDlMvpRg4wuH-r8zjkfO_tHnJqfWsEF_8diwhDZSAOxM2BTPtS4Yz5ADefOshdNFOr9igK2-WPUpGEou60PYu6JBl2RggRSsGZmksQ3oEdb0rocz-DX57nBXucQooZ363jvJ9XIlN7mqikG0WnRP4uNnFt424RrWazuqsdDC7sqTqD2otxyd3s-odpKaBpco9r5SX5mHNzQg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjBcbkM1v3xGxGrfXrIvG4clnQ1kRObPOCAJ6LoVkhjBZhrkDJGMGu59Az2fkAUgAaRsfCsFrBMNkP0eFNzsQmAG8MRbZzyBDX2Rn1icTGKGkNbBQl1ghA10vo1R6y-n4s"
+  ],
+  "tokeny": {
+   "wejscie": 12311,
+   "wyjscie": 2355
+  },
+  "czas_s": 273,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

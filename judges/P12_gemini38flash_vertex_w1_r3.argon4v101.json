@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c. — nadanie klauzuli wykonalności przeciwko małżonkowi dłużnika z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową, gdy wierzyciel wykaże dokumentem urzędowym lub prywatnym, że wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka dłużnika",
+   "zrodlo": "ISAP / ELI Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787[1] (787¹) k.p.c. — nadanie klauzuli wykonalności przeciwko małżonkowi dłużnika z ograniczeniem jego odpowiedzialności do przedsiębiorstwa wchodzącego w skład majątku wspólnego, gdy wierzyciel wykaże dokumentem urzędowym lub prywatnym, że wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa",
+   "zrodlo": "ISAP / ELI Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o. (w tym § 1 i § 2) — materialnoprawne podstawy odpowiedzialności majątkiem wspólnym za zobowiązanie zaciągnięte za zgodą małżonka (§ 1) oraz zaspokojenia z majątku osobistego, wynagrodzenia za pracę, dochodów z innej działalności zarobkowej i przedsiębiorstwa przy braku zgody (§ 2)",
+   "zrodlo": "ISAP / ELI Dz.U. 2026 poz. 236 (t.j. k.r.o.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wyjaśnia rdzeń problemu (A-R=2): o trybie nadania klauzuli przeciwko małżonkowi decyduje przesłanka materialna (zgoda małżonka z art. 787 k.p.c. albo związek wierzytelności z prowadzeniem przedsiębiorstwa z art. 787¹ k.p.c.), a nie wzmianka o działalności gospodarczej lub numer PESEL w nakazie zapłaty. System już w pierwszym zdaniu prostuje omyłkę numeracyjną z pytania (art. 781¹ na art. 787¹ k.p.c.), prawidłowo prowadzi obie ścieżki warunkowe (B2=1, B1=2) i wskazuje składniki majątku dostępne bez klauzuli na małżonka na podstawie art. 41 § 2 k.r.o. W rubryce odjęto wyłącznie punkt R[0], ponieważ mimo wskazania ograniczeń przy obu trybach (do majątku wspólnego albo do przedsiębiorstwa) odpowiedź nie formułuje wprost tezy, że klauzula przeciwko małżonkowi „bez ograniczeń” w ogóle nie istnieje. Wszystkie powołane przepisy (art. 787 i 787¹ k.p.c., art. 41 § 1 i § 2 k.r.o.) są zgodne ze źródłem oficjalnym (A2=1, A6=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"787\" \"Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim\" OR OR",
+   "\"art. 41\" \"Jeżeli małżonek zaciągnął zobowiązanie za zgodą drugiego małżonka\" OR OR",
+   "\"781\" \"Wniosek o nadanie klauzuli wykonalności sąd rozpoznaje niezwłocznie\" OR OR",
+   "\"do przedsiębiorstwa wchodzącego w skład majątku wspólnego małżonków\" \"787\"",
+   "\"z wynagrodzenia za pracę lub z dochodów uzyskanych przez dłużnika z innej działalności zarobkowej\" \"art. 41\"",
+   "\"DU/2026/468\" OR \"DU/2026/468\"",
+   "\"DU/2026/236\" OR \"DU/2026/236\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12863,
+   "wyjscie": 1248
+  },
+  "czas_s": 188,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

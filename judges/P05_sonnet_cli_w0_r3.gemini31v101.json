@@ -1,0 +1,98 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 2 § 1 k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 132 i n. k.p.k.",
+   "zrodlo": "Dz.U. 2026 poz. 490",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 125 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2020 poz. 2320",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "rozporządzenie Ministra Sprawiedliwości dotyczące systemu teleinformatycznego i korespondencji elektronicznej w sądach"
+ ],
+ "uzasadnienie": "Rdzeń (A-R=1): System trafnie wskazuje, że doręczenia przez portal dla osoby fizycznej są dobrowolne, ale pomija kluczowy warunek z art. 131¹ᵃ § 1¹ k.p.c. (oświadczenie przez portal z odpowiednim podpisem). Podstawy (A2=0): Brak wymaganych przepisów (system powołuje art. 131¹ zamiast art. 131¹ᵃ k.p.c.). Halucynacja (A6=0): System przypisuje regulację doręczeń przez portal informacyjny do art. 131¹ k.p.c., podczas gdy przepis ten dotyczy systemu teleinformatycznego (np. e-Sądu), a portal informacyjny uregulowany jest odrębnie w art. 131¹ᵃ k.p.c. (błąd typu T). Ramy (A8=0.5): Zastrzeżenie o konieczności weryfikacji powtórzone w dwóch miejscach (na wstępie oraz jako osobna sekcja 6 na końcu) stanowi dygresję. Przydatność (B1=1): Wskazówki praktyczne są częściowo mylące przez odesłanie do niewłaściwego trybu (wniesienie pisma przez system z art. 131¹ zamiast oświadczenia z art. 131¹ᵃ).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Art. 131(1)\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 131(1a)\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 132\" \"Kodeks postępowania karnego\"",
+   "\"Art. 133a\" \"Kodeks postępowania karnego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVjyDM-DqDS_xWXf6vb50Jt4kvgH8Hwfnwfqo8lt25ox8ZkzrXT2LZEaem2v97RSYbQ0eLpKpS0HC0bwJFVen8ys6i4pDWSphfeqtKIuVvK3embfyO20udgITRR2MTfzoQZ-6FlGhdkjgZBc2SHpWSy8s0ZLVGvkErdlV6adRje35BHKJ8tr9UP6_kqPDGIvXBP8kaRTtHY5Ivph9iqCLtSrD6TUJJ3VfQ41dQ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFS-5IMMIYx6NRNpvZH8xOEy-6qF_2UiXYJYsF5nQiErVbL9dPTfDbMrO40o8dM8C72jMsrSVpt4OnnISqYRWIsKucDLXMmBNn_J0kbcsQcR-ZhoGzZK9zpCBushNqIyWwwzIbBUo08rB7wkbbE2gLEopCERBcHfny7iyZ1B_IoN1MnX7ng0vY-7srWAxHZsf4z7DU0Sw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Kft-qgQjF_1Suober7FIaR9zkZJA0tfEe_VrQMOF4We6mt-vwXpT0UTjlXKvSw2kEh3JV8rqZsFyruI7gqOmIVXJ14dTk9QRHal608ecKhc3s6tzjxJbqx-dvD08ZFR_pOMZV1cEn9g=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkgTU2rBN1-1hJiGKtEUj9xd3tSNF3kStbIXRoZKCgTRr-KGcFJymHRWEGfgPIGD031f6XFq4SgPTI9noBVCaNTaYIyBpdG5rlNuIM1A8qKi8Pn78bk6OMSo78H877L5mK4s_lvhd6W0vMOSyQCDGHn6zB763giD6YTXL_Dv8zKBZVS0yURxL-3oPpwXCo5u4VD6BiDxkn28I=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSPdnU6LHlPVZ-WZa-hyYXg87pPOfAh0Jx6As9aO8d89ZZUSltTP6oFldgxQZ3GBmTjttuWqRMqCp24uTO50Chtm49fZR6Y3qPhVI0u1wsm4qSfz0K2Bj0qXQGT7RTzhKfIkR8zTNhaLHYT9z2LW8Q1C-3OnI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdGh9fbFeM52LGr_YgRkKIQ0WI1wdNEzr1ewM0CkP2KxHm3_F-3OKh2oxo37o3413OHrcVv4cnizIsgxbwKRN5EY0_RTWKplCfSrrLei-ENf2xvYvsnM3aUf5yJGqnNpeSidp__kgaYlhD0OboJ5oo93W1aOmvSKPmFA0ci52G4ZpZsraO",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNrQRK1DTyQiHCtcGPJAQR3RGDwUeD03EqSgDYNU_smLhHfeFkzVI9SPL8FYiZdO6VRfgW5ebuO-NLZKeT4imvlCmfykBouGRQlELePUAOikXYFJHXw2jmTh4vug93wdnuRffgQs-fvbmyNw_sIh0WP7vZ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo1irOtbf3rQeidyk903n8Yev3nH8CrfxR4QyuSwysVmwYMYam2K71tAulm2ztJw5bOi9xaXfsKQ0SMzcdmkyAR6xtYJAxdYU71ipMnROv70evdWO1DYIaHQHK_lPZXip68_s4CoWVWmcbQ8N11_lvarJlA8UW5IICt8zt-T002jkxZlejNlFaOeETVfCWnQ_taIyDmZ6nzZWubrQ41QTln0TpDgeIFhi-g5YuzebFheshwfFmLJ2tj7zmYQ=="
+  ],
+  "tokeny": {
+   "wejscie": 9929,
+   "wyjscie": 979
+  },
+  "czas_s": 165,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

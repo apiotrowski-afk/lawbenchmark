@@ -1,0 +1,120 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ KPC (w zakresie kręgu adresatów z § 1 oraz wyboru i rezygnacji z § 1¹)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2025 poz. 1172",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 4 KPC oraz rozporządzenie Ministra Sprawiedliwości z 12.03.2024 r. (Dz.U. 2024 poz. 368)",
+   "zrodlo": "Dz.U. 2026 poz. 468 oraz eli.gov.pl DU/2024/368 i DU/2026/225",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 134 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 20.10.2023 r., III CZP 24/23",
+   "zrodlo": "sn.pl / OSNC 2024 nr 2 poz. 15",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18.11.2020 r. o doręczeniach elektronicznych (Dz.U. 2020 poz. 2320 ze zm.)",
+   "zrodlo": "ISAP DU/2020/2320 (t.j. Dz.U. 2024 poz. 1045 ze zm.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131² KPC (jako uchylony z datą 03.08.2026 r.)",
+   "zrodlo": "Dz.U. 2025 poz. 1172 (art. 1 pkt 12 i art. 14) oraz Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie przedstawia pełny rdzeń oraz wszystkie cztery elementy rubryki (A-R=2, R=[1,1,1,1]), wskazując na możliwość wyboru doręczeń przez portal przez osobę fizyczną, wymóg jednego z trzech podpisów, skutek doręczenia (w tym fikcję po 14 dniach) oraz zasady rezygnacji. W kryterium A2 przyznano 0 pkt z uwagi na brak precyzyjnego powołania wymaganych jednostek redakcyjnych art. 131¹ᵃ § 1 i § 1¹ k.p.c. (wskazano jedynie ogólnie art. 131¹ᵃ oraz § 2, § 3 i § 4). W kryterium A6 przyznano 0 pkt (klasa W, hallucinated=true), ponieważ system za nieaktualnym serwisem wtórnym opisał obowiązujące już od 1.06.2026 r. brzmienie art. 131¹ᵃ § 1 k.p.c. (obejmujące komorników i stałych mediatorów) jako wersję dopiero późniejszą, a ponadto podał błędną datę uchylenia art. 131² k.p.c. (03.08.2026 r. zamiast 01.03.2026 r., myląc datę stanu prawnego w serwisie Lexlege z datą wejścia w życie nowelizacji z Dz.U. 2025 poz. 1172). Ramy odpowiedzi obniżono do 0,5 pkt (A8=0.5) ze względu na rozbudowaną dygresję w pkt 5 o e-Doręczeniach i druku sejmowym nr 1362 z 2025 r. (dotyczącym procedury karnej) oraz powtórzenie zastrzeżeń o brakach weryfikacji źródeł poza wstępem. Przydatność oceniono na 1 pkt (B1=1), gdyż mimo trafnego opisu procedury odpowiedź pozostawia prawnika z koniecznością weryfikacji stanu prawnego i mylącym tropem co do rzekomo nieuchwalonego projektu z 2025 r., natomiast kalibracja jest właściwa (B2=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 28,
+  "zapytania": [
+   "\"131\" \"133\" \"134\" OR \"468\" 2026",
+   "\"Dz.U. 2024 poz. 368\" OR \"2024\" \"368\" OR",
+   "\"III CZP 24/23\" OR",
+   "\"Dz.U. 2020 poz. 2320\" OR \"2020\" \"2320\" OR",
+   "\"Dz.U. 2024 poz. 368\" OR \"poz. 368\" \"portal\" \"Ministra Sprawiedliwości\"",
+   "\"Art. 131\" \"Art. 133\" \"Art. 134\" \"Kodeks postępowania cywilnego\" \"operatora pocztowego\"",
+   "\"Art. 131\" \"1312\" \"doręczeń elektronicznych\" \"Kodeks postępowania cywilnego\" uchylony 2026",
+   "\"III CZP 24/23\" \"Sąd Najwyższy\" \"20 października 2023\"",
+   "\"1172\" \"2025\" \"131\" \"Kodeks postępowania cywilnego\" \"rezygnacji\"",
+   "\"1312\" \"uchyla się\" \"Kodeks postępowania cywilnego\" 2025 OR 2026",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 23 lutego 2026\" \"portalu informacyjnego\"",
+   "\"Art. 134.\" \"w porze nocnej\" \"Kodeks postępowania cywilnego\"",
+   "\"1312\" \"03.08.2026\" OR \"3 sierpnia 2026\" OR \"sierpnia 2026\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 1312\" \"lexlege\" OR \"uchylony\" \"Kodeks postępowania cywilnego\"",
+   "\"1362\" \"2025\" \"portalu informacyjnym\" sejm",
+   "\"III CZP 24/23\" sn.pl OR saos.org.pl",
+   "\"lexlege.pl/kpc/art-131-2\" OR \"Art. 1312. KPC\" OR \"Art. 1312 KPC\"",
+   "\"Art. 1312\" \"bazy adresów elektronicznych\" \"Kodeks postępowania cywilnego\" 2026 OR 2028 OR 2029",
+   "\"155\" \"doręczeniach elektronicznych\" \"1312\" \"Kodeks postępowania cywilnego\"",
+   "\"eli.gov.pl/eli/DU/2026/468\" OR \"DU/2026/468\" \"131\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12003,
+   "wyjscie": 2593
+  },
+  "czas_s": 302,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

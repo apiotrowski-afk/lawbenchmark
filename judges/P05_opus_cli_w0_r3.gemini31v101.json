@@ -1,0 +1,103 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131 i nast. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–172 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2023 r., Dz.U. 2023 poz. 1860",
+   "zrodlo": "Dz.U. 2023 poz. 1860",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2020 poz. 2320",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie Ministra Sprawiedliwości w sprawie trybu i sposobu dokonywania doręczeń elektronicznych przez portal informacyjny (wydane na podstawie delegacji z art. 131¹ k.p.c.)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System przypisuje zasady doręczeń przez Portal Informacyjny (w tym fikcję 14 dni i obowiązek dla profesjonalistów) do art. 131¹ k.p.c., który reguluje doręczenia przez system teleinformatyczny (np. EPU). Właściwą podstawą jest art. 131¹ᵃ k.p.c., co stanowi błąd typu T (A6=0). Rdzeń jest trafny co do kierunku, ale pomija kluczowy warunek formy oświadczenia (A-R=1). Błędna wskazówka praktyczna o możliwości złożenia oświadczenia w zwykłym piśmie procesowym obniża B1 do 1.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"Dz.U. 2026 poz. 468\" \"131\" k.p.c.",
+   "\"art. 131\" \"kodeks postępowania cywilnego\" portal informacyjny",
+   "\"art. 133\" \"kodeks postępowania cywilnego\"",
+   "\"art. 133 § 3\" \"kodeks postępowania cywilnego\"",
+   "\"Jeżeli ustanowiono pełnomocnika procesowego lub osobę upoważnioną do odbioru pism sądowych, doręczenia należy dokonać tym osobom\" \"art. 133\" k.p.c.",
+   "\"art. 133 § 3\" k.p.c. pełnomocnik",
+   "\"art. 168\" \"kodeks postępowania cywilnego\" przywrócenie terminu",
+   "\"art. 131\" \"kodeks postępowania cywilnego\" rozporządzenie",
+   "\"art. 131\" \"kodeks postępowania cywilnego\" delegacja",
+   "\"Dz.U. 2023 poz. 1860\"",
+   "\"ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZNArlfnlbpCWIbWU1bcKIBFKUWH32pFxHyPLigriXzGX6LDgucfR-KxHFHbW60L5EtL3fnTI8dHCNRR5dnSfD9pXIf4esO6IVQARxJS2m3hEPqlJ0y4zzHHhaCpOhTIsanb0NU_V8TtU8MRjhjrB1ftI1urDC7wobJFj6mdsBgTzdWQsyxWRKTasGVioDfdIm32xTDHrb",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbEzlwV8pmgW5cr2E_i6geVBbliJ3J8cSLKWwcEYD1bXiX_2LQ7DHEigHi7Y5uSbm6QkaFbIoDtKwciq70XtwjOwUjbDDdxFqsUiSFCNFSND7XvJWog_RefytTfvGMs_CoxWUXlbKOyf0EHsOv2gPsNik6kJbpei6LbKLl0mY_iXXTYksPMHGh01jNi8fuauFDE6Z40DPsTEXR",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHteOWrKkRMcE3CXkOTMw3A-CHru42KQP5YBlSE10HAeoKS6pnp66g0Pzm_xAYlp_1w5aGNeB6Q53jKtdcUNQoCz4k2Pe0zkxmdx6_sNMRUj84RyPG3WKFDeTYu2UiymTW61jEt-_44KE_SBfuANrNrWuT5CEZPrdyxKBD9Bgv1BK1B3TYVYHMEU9KoW34Gpjhd_8vcVOSazuJwkTrmDSJvjIccAdyWw__4TdWaVj6EuiAdYrAcJyNspulMXJKthCOyWMTxaNf0LDErQUskmD7FgrRtHCfxPw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe0TAIL6YcUeK3sfrGXLUXjzSJ2GazPca-ebFwWeom6Khdv6mfm8JvsYiifcz3G3Q-U1s7fRPRsgfIyQ2QjVLMLgwJYLZBp0LcNZwdNtWiwhWjmQLO30YK2YHQJ2lo_W3DkG9jXU8Ubhv5vU54zUx-sgOiDWTPYqv9UYRmzyhc3c6FT6ygDJAxtIdENEhX_1ANgHzoMJ_6siOepJ5jqzTLaJ-g-1pOSopI7vJ7l4CEiX04Oz_W_pfOtoNyaPPXBCH83vSLiJWKiY_o3hBSDosk4CDzEGMCPqBuuA48tfLsCVpQ_xMLY6ytEcQwLspv_yzbf0jnbPKry_EZ8Ni9SnH0E-x7E0ZIpCI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEexpG1XmuI4hgrdPF48NpHEkPDQwEM6ljO5FE7KboudyUlv1pt2Kuw5k1fzz7rPLNn6FY5J-yOxqYgSobwuW21t5zUmRon0BLMEYKxQqg3b8s4PmWv5kvkEEVDTmR3pLgcaV1yTCGb0ugcgQ0kVkeV4VhEGTBRt4kSKc1UEArR6Ay3Jmr4-JOMMQE-CbCmbVQvYbiBm62PmGazfhvNuo7M954v7ZWQ-P787dwTo7uZbgaR_DDuVTa1QaREewyeRQY2nfNgkYTLhi2WaS0bjZgVEc1VXMmnSGN2S0saMgiw",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4igWBwpb9CTE1L85dt2x2pMr5eQUCjiHxcDt6bFVdX5a2eLoCx9_AyfpBAyZgN8ASey581JY4EDL6izH3ECDbgIs_bn_fONjbH2DZ1qND6_9vBzNm7_c_0fj--pXH23Tf--yOTbKGSEz74zK3mxIrWoKZ84YWJwLBQK1MEUPBMMa27JxLYRc2h5facGcZeMroTqdy8Vc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa629bUzRBmmpJb6rLI5SLLF25GdG_AJQH1mTYCRycVjXEQimVZpRQ1btmlrW1_hD56MruUhQdwSHhbx398k8wx9yqbHVYiy9dbn9OyAGKZtnXRuRfZrwSlGpOAPZiT4ajGhG7Gyv0CPo7X--3KlmAlUXSQBu133IHoIOOFyqdD48La1JaDQsIKqKnavcr82VqOSxJueZczDy_DlTM0bWisWSt_ntLK_9ei4A--H6y_HHlCkeGqfukxg-ptAuUdkmtsmt9Kps-H8ztt_wF1lzbGnbwUmd1mJnbGmQ4wWfFAJMK",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKHIdeS_dwKuvGFhJqPBoMvs2moNKDE_DPqiInuaHZ_dcwTQzoSWdiVxbJTwXb_0enSeVJeJwtb4-1yQxgAx7xZF4sUCnGg-yKbgO1nnOhh9P0L39yI36BPZdnSti7fnA1Qm3wlW4oCtJOJ9U_-qgUE4XUR_WGHpLl21aVJzBO5DvGMS3bOkxSfg=="
+  ],
+  "tokeny": {
+   "wejscie": 10108,
+   "wyjscie": 845
+  },
+  "czas_s": 232,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

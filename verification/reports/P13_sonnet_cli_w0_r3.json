@@ -1,0 +1,631 @@
+{
+ "meta": {
+  "pytanie": "P13",
+  "system": "sonnet_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P13/sonnet_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:45:38",
+  "czas_s": 3.8,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 10,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 0,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 10
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 492 § 1 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 492 § 1 KPC",
+   "kontekst": "1. Nieprawomocny nakaz zapłaty w postępowaniu nakazowym nie jest tytułem egzekucyjnym do zaspokojenia, lecz tytułem zabezpieczenia (art. 492 § 1 KPC).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 492 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 492 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika do depozytu sądowego wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Nakaz od chwili wydania stanowi tytuł zabezpieczenia, a jeżeli był wydany na podstawie wekslu lub czeku, staje się on natychmiast wykonalny z upływem terminu udzielonego do zaspokojenia roszczenia."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.5,
+    "slowa_wersji_wczesniejszej": [
+     "zaspo"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 493 § 4 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 493 § 4 KPC",
+   "kontekst": "2. Wstrzymanie wykonania nakazu (art. 493 § 4 KPC) dotyczy więc właśnie tego trybu.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 493 § 4 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 493 § 4 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 4. Jeżeli zachodzą podstawy do odrzucenia pozwu lub umorzenia postępowania, sąd z urzędu postanowieniem uchyla nakaz zapłaty i wydaje odpowiednie rozstrzygnięcie. W innym przypadku sąd wydaje wyrok, którym w całości lub części utrzymuje nakaz zapłaty w mocy albo go uchyla i orzeka o żądaniu pozwu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 4. Powództwo wzajemne jest niedopuszczalne."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 493. § 1. Pismo zawierające zarzuty wnosi się do państwowego biura notarialnego, które wydało nakaz. Zarzuty, które pod rygorem ich utraty należy zgłosić przed wdaniem się w spór, powinny być przedstawione już w tym piśmie. Fakty i dowody mogą być przytaczane aż do zamknięcia rozprawy. Wniesienie powództwa wzajemnego nie jest dopuszczalne. § 2. Do potrącenia mogą być przedstawione tylko roszczenia, których podstawa faktyczna jest udowodniona dokumentem."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.17
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 820",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 820",
+   "kontekst": "Dłużnik może przedstawić komornikowi postanowienie o wstrzymaniu wykonania, a w razie potrzeby wnieść o zawieszenie postępowania (art. 820 i n. KPC w zw. z art. 492 § 1 KPC).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 820 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 820. § 1. Organ egzekucyjny zawiesza postępowanie na wniosek wierzyciela, chyba że wniosek ten zmierza jedynie do przedłużenia postępowania. Zawieszenie postępowania nie stoi na przeszkodzie jego umorzeniu, jeżeli w tym czasie ujawnią się okoliczności, o których mowa w art. 824 § 1. § 2. Na wniosek dłużnika postępowanie ulega zawieszeniu, jeżeli sąd zawiesił natychmiastową wykonalność tytułu lub wstrzymał jego wykonanie albo dłużnik złożył zabezpieczenie konieczne według orzeczenia sądowego do zwolnienia go od egzekucji."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 820. Organ egzekucyjny zawiesza postępowanie na wniosek wierzyciela. Na wniosek dłużnika postępowanie ulega zawieszeniu, jeżeli sąd zawiesił natychmiastową wykonalność tytułu lub wstrzymał jego wykonanie albo dłużnik złożył zabezpieczenie konieczne według orzeczenia sądowego do zwolnienia go od egzekucji."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 820. Organ egzekucyjny zawiesza postępowanie na wniosek wierzyciela. Na wniosek dłużnika postępowanie ulega zawieszeniu, jeżeli sąd uchylił natychmiastową wykonalność tytułu lub wstrzymał jego wykonanie albo dłużnik złożył zabezpieczenie konieczne według orzeczenia sądowego do zwolnienia go od egzekucji."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.55
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 492 § 1 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 492 § 1 KPC",
+   "kontekst": "Dłużnik może przedstawić komornikowi postanowienie o wstrzymaniu wykonania, a w razie potrzeby wnieść o zawieszenie postępowania (art. 820 i n. KPC w zw. z art. 492 § 1 KPC).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 492 § 1 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 492 § 1 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika do depozytu sądowego wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "§ 1. Nakaz od chwili wydania stanowi tytuł zabezpieczenia, a jeżeli był wydany na podstawie wekslu lub czeku, staje się on natychmiast wykonalny z upływem terminu udzielonego do zaspokojenia roszczenia."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.27
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 730",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 730",
+   "kontekst": "Wstrzymanie wykonania nakazu nie wyłącza formalnie możliwości złożenia przez powoda wniosku o udzielenie zabezpieczenia na zasadach ogólnych (art. 730 i n. KPC).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 730 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 730. § 1. W każdej sprawie cywilnej podlegającej rozpoznaniu przez sąd lub sąd polubowny można żądać udzielenia zabezpieczenia. § 2. Sąd może udzielić zabezpieczenia przed wszczęciem postępowania lub w jego toku. Po uzyskaniu przez uprawnionego tytułu wykonawczego dopuszczalne jest udzielenie zabezpieczenia tylko wtedy, jeżeli ma ono na celu zabezpieczenie roszczenia o świadczenie, którego termin spełnienia jeszcze nie nastąpił."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 730. § 1. W celu zabezpieczenia roszczenia, którego dochodzić można w sądzie powszechnym lub przed sądem polubownym, sąd może wydać zarządzenie tymczasowe, jeżeli roszczenie nie jest wiarogodne, a brak zabezpieczenia mógłby wierzyciela pozbawić zaspokojenia. Wydanie zarządzenia tymczasowego jest dopuszczalne także w innych wypadkach, gdy jest to konieczne do zabezpieczenia wykonalności orzeczenia w sprawie. § 2. Dopuszczalne jest także zabezpieczenie roszczenia o przyszłe powtarzające się świadczenia, jednakże za okres nie dłuższy niż za jeden rok, jeżeli roszczenia tego można dochodzić, zanim stanie się wymagalne. § 3. Także po uzyskaniu przez wierzyciela orzeczenia podlegającego wyko…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.23
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 730¹ KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 6,
+   "napis_grupy": "art. 730¹ KPC",
+   "kontekst": "Powód musi wówczas uprawdopodobnić roszczenie i interes prawny w zabezpieczeniu (art. 730¹ KPC).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 730[1] KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 730¹. § 1. Udzielenia zabezpieczenia może żądać każda strona lub uczestnik postępowania, jeżeli uprawdopodobni roszczenie oraz interes prawny w udzieleniu zabezpieczenia. § 1¹. W sprawach wymienionych w art. 479⁸⁹ sąd w ramach oceny, czy uprawdopodobniono roszczenie, bierze pod uwagę prawdopodobieństwo unieważnienia prawa wyłącznego w innym toczącym się postępowaniu. Okoliczność tę ustala się w oparciu o informacje pochodzące od stron, chyba że jest ona znana sądowi z urzędu. § 2. Interes prawny w udzieleniu zabezpieczenia istnieje wtedy, gdy brak zabezpieczenia uniemożliwi lub poważnie utrudni wykonanie zapadłego w sprawie orzeczenia lub w inny sposób uniemożliwi lub poważnie utrudni…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 730 1 . § 1. Udzielenia zabezpieczenia może żądać każda strona lub uczestnik postępowania, jeżeli uprawdopodobni roszczenie oraz interes prawny w udzieleniu zabezpieczenia. § 2. Interes prawny w udzieleniu zabezpieczenia istnieje wtedy, gdy brak zabezpieczenia uniemożliwi lub poważnie utrudni wykonanie zapadłego w sprawie orzeczenia lub w inny sposób uniemożliwi lub poważnie utrudni osiągnięcie celu postępowania w sprawie. § 2 1 . Interes prawny w udzieleniu zabezpieczenia uważa się za uprawdopodobniony, gdy żądającym zabezpieczenia jest powód dochodzący należności zapłaty z tytułu transakcji handlowej w rozumieniu ustawy z dnia 8 marca 2013 r. o przeciwdziałaniu nadmiernym opóźnieniom…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 730 1 . § 1. Udzielenia zabezpieczenia może żądać każda strona lub uczestnik postępowania, jeżeli uprawdopodobni roszczenie oraz interes prawny w udzieleniu zabezpieczenia. § 2. Interes prawny w udzieleniu zabezpieczenia istnieje wtedy, gdy brak zabezpieczenia uniemożliwi lub poważnie utrudni wykonanie zapadłego w sprawie orzeczenia lub w inny sposób uniemożliwi lub poważnie utrudni osiągnięcie celu postępowania w sprawie. § 3. Przy wyborze sposobu zabezpieczenia sąd uwzględni interesy stron lub uczestników postępowania w takiej mierze, aby uprawnionemu zapewnić należytą ochronę prawną, a obowiązanego nie obciążać ponad potrzebę."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "W tym tekście nie ma art. 730[1]."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.86
+   }
+  },
+  {
+   "id": 7,
+   "powolanie": "art. 492 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 492 i 493 KPC",
+   "kontekst": "Numerację paragrafów (zwłaszcza art. 492 i 493 KPC po nowelizacjach) proszę zweryfikować w aktualnym tekście ustawy, bo cytuję ją z pamięci.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 7,
+   "cytowanie_legal_cite": "art. 492 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika na rachunek depozytowy Ministra Finansów w rozumieniu przepisów o finansach publicznych, zwany dalej „rachunkiem depozytowym Ministra Finansów”, wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania.…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 492. § 1. Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia, wykonalny bez nadawania mu klauzuli wykonalności. Kwota zasądzona nakazem wraz z wymagalnymi odsetkami stanowi sumę, której złożenie przez dłużnika do depozytu sądowego wystarczy do zabezpieczenia. Jeżeli nakaz zobowiązuje do wydania rzeczy zamiennych, do zabezpieczenia wystarczy złożenie sumy równej wartości przedmiotu sporu. § 2. Powód wnosząc o dokonanie zabezpieczenia jest obowiązany wskazać sposób zabezpieczenia. Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania. Przepis art. 742 oraz przepisy o ograniczeniu zabezpieczenia przeciwko Skarbowi Państwa stosuje się odpowiednio. § 3. Nakaz…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 492. § 1. Nakaz od chwili wydania stanowi tytuł zabezpieczenia, a jeżeli był wydany na podstawie wekslu lub czeku, staje się on natychmiast wykonalny z upływem terminu udzielonego do zaspokojenia roszczenia. § 2. Państwowe biuro notarialne na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania, a w razie wniesienia zarzutów wstrzymać wykonanie nakazu. § 3. Przepisy o ograniczeniu zabezpieczenia i natychmiastowej wykonalności w sprawach przeciwko jednostkom gospodarki uspołecznionej stosuje się odpowiednio."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 8,
+   "powolanie": "art. 493 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 7,
+   "napis_grupy": "art. 492 i 493 KPC",
+   "kontekst": "Numerację paragrafów (zwłaszcza art. 492 i 493 KPC po nowelizacjach) proszę zweryfikować w aktualnym tekście ustawy, bo cytuję ją z pamięci.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 8,
+   "cytowanie_legal_cite": "art. 493 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 493. § 1. Od nakazu zapłaty pozwany może wnieść zarzuty. § 2. W piśmie zawierającym zarzuty pozwany powinien, poza elementami wskazanymi w art. 480³ § 2, wymienić fakty, z których wywodzi żądania, i dowody na wykazanie każdego z nich. § 3. W postępowaniu po wniesieniu zarzutów: 1) nie stosuje się przepisów art. 194–196 i art. 198; 2) powództwo wzajemne jest niedopuszczalne; 3) nie można występować z nowymi roszczeniami zamiast lub obok dotychczasowych; jednakże w przypadku zmiany okoliczności powód może żądać zamiast pierwotnego przedmiotu sporu jego równowartości lub innego przedmiotu, a w sprawach o świadczenie powtarzające się może nadto rozszerzyć powództwo o świadczenia za kolejne…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 493. § 1. Pismo zawierające zarzuty wnosi się do sądu, który wydał nakaz zapłaty. W piśmie pozwany powinien wskazać, czy zaskarża nakaz w całości, czy w części, przedstawić zarzuty, które pod rygorem ich utraty należy zgłosić przed wdaniem się w spór co do istoty sprawy oraz okoliczności faktyczne i dowody. Sąd pomija spóźnione twierdzenia i dowody, chyba że strona uprawdopodobni, że nie zgłosiła ich w zarzutach bez swojej winy lub że uwzględnienie spóźnionych twierdzeń i dowodów nie spowoduje zwłoki w rozpoznaniu sprawy albo że występują inne wyjątkowe okoliczności. § 2. Jeżeli pozew wniesiono na urzędowym formularzu, wniesienie zarzutów wymaga również zachowania tej formy. § 3. Do po…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 493. § 1. Pismo zawierające zarzuty wnosi się do państwowego biura notarialnego, które wydało nakaz. Zarzuty, które pod rygorem ich utraty należy zgłosić przed wdaniem się w spór, powinny być przedstawione już w tym piśmie. Fakty i dowody mogą być przytaczane aż do zamknięcia rozprawy. Wniesienie powództwa wzajemnego nie jest dopuszczalne. § 2. Do potrącenia mogą być przedstawione tylko roszczenia, których podstawa faktyczna jest udowodniona dokumentem."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 9,
+   "powolanie": "art. 493 § 4 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 8,
+   "napis_grupy": "art. 493 § 4 KPC",
+   "kontekst": "Przy pisemnej opinii warto też sprawdzić najnowsze orzecznictwo sądów apelacyjnych dotyczące relacji art. 493 § 4 KPC do zabezpieczenia z art. 730 i n. KPC.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 9,
+   "cytowanie_legal_cite": "art. 493 § 4 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(zapytano o art. 493 § 4 — podaję cały artykuł; wskaż jednostkę z treści) (źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "§ 4. Jeżeli zachodzą podstawy do odrzucenia pozwu lub umorzenia postępowania, sąd z urzędu postanowieniem uchyla nakaz zapłaty i wydaje odpowiednie rozstrzygnięcie. W innym przypadku sąd wydaje wyrok, którym w całości lub części utrzymuje nakaz zapłaty w mocy albo go uchyla i orzeka o żądaniu pozwu."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "§ 4. Powództwo wzajemne jest niedopuszczalne."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 493. § 1. Pismo zawierające zarzuty wnosi się do państwowego biura notarialnego, które wydało nakaz. Zarzuty, które pod rygorem ich utraty należy zgłosić przed wdaniem się w spór, powinny być przedstawione już w tym piśmie. Fakty i dowody mogą być przytaczane aż do zamknięcia rozprawy. Wniesienie powództwa wzajemnego nie jest dopuszczalne. § 2. Do potrącenia mogą być przedstawione tylko roszczenia, których podstawa faktyczna jest udowodniona dokumentem."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0
+   }
+  },
+  {
+   "id": 10,
+   "powolanie": "art. 730",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 9,
+   "napis_grupy": "art. 730",
+   "kontekst": "Przy pisemnej opinii warto też sprawdzić najnowsze orzecznictwo sądów apelacyjnych dotyczące relacji art. 493 § 4 KPC do zabezpieczenia z art. 730 i n. KPC.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 10,
+   "cytowanie_legal_cite": "art. 730 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 730. § 1. W każdej sprawie cywilnej podlegającej rozpoznaniu przez sąd lub sąd polubowny można żądać udzielenia zabezpieczenia. § 2. Sąd może udzielić zabezpieczenia przed wszczęciem postępowania lub w jego toku. Po uzyskaniu przez uprawnionego tytułu wykonawczego dopuszczalne jest udzielenie zabezpieczenia tylko wtedy, jeżeli ma ono na celu zabezpieczenie roszczenia o świadczenie, którego termin spełnienia jeszcze nie nastąpił."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 730. § 1. W celu zabezpieczenia roszczenia, którego dochodzić można w sądzie powszechnym lub przed sądem polubownym, sąd może wydać zarządzenie tymczasowe, jeżeli roszczenie nie jest wiarogodne, a brak zabezpieczenia mógłby wierzyciela pozbawić zaspokojenia. Wydanie zarządzenia tymczasowego jest dopuszczalne także w innych wypadkach, gdy jest to konieczne do zabezpieczenia wykonalności orzeczenia w sprawie. § 2. Dopuszczalne jest także zabezpieczenie roszczenia o przyszłe powtarzające się świadczenia, jednakże za okres nie dłuższy niż za jeden rok, jeżeli roszczenia tego można dochodzić, zanim stanie się wymagalne. § 3. Także po uzyskaniu przez wierzyciela orzeczenia podlegającego wyko…"
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.18,
+    "slowa_wersji_wczesniejszej": [
+     "orzec"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": []
+}

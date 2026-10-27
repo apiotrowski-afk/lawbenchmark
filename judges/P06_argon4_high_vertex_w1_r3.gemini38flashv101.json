@@ -1,0 +1,107 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 23 czerwca 2022 r., sygn. akt III CZP 50/22",
+   "zrodlo": "sn.pl / OSNC 2023/2/14",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 24 stycznia 2023 r., sygn. akt III CZP 127/22",
+   "zrodlo": "sn.pl / OSNC 2023/7-8/71",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 pkt 12 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2² i § 2⁴ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 194 § 1 pkt 7 p.p.s.a.",
+   "zrodlo": "Dz.U. 2026 poz. 143",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo identyfikuje warunkowy charakter zagadnienia, trafnie rozróżniając zażalenie poziome w SA (gdzie zażalenie przysługuje na podstawie art. 394² § 1² zd. 2 k.p.c.) od zażalenia dewolutywnego na postanowienie SO (gdzie środek nie przysługuje). Wymagane podstawy prawne zostały powołane i dosłownie zacytowane, a w rubryce zabrakło jedynie omówienia art. 130² k.p.c. Dodana na końcu dygresja dotycząca postępowania sądowoadministracyjnego (WSA/NSA) obniża A8 do 0.5. W dygresji tej popełniono błąd przypisania zaskarżalności postanowienia o odrzuceniu zażalenia do art. 194 § 1 pkt 7 p.p.s.a. (który dotyczy odrzucenia skargi kasacyjnej, podczas gdy odrzucenie zażalenia normuje pkt 8), co skutkuje oceną A6 = 0 (klasa T) i oznaczeniem hallucinated.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"III CZP 50/22\"",
+   "\"III CZP 127/22\"",
+   "art 394(2) par 1(2) kpc",
+   "art 397 par 1(1) kpc",
+   "\"art. 194\" \"p.p.s.a.\" \"pkt 7\"",
+   "\"194 § 1 pkt 7\" ppsa",
+   "\"art. 194\" \"p.p.s.a.\" \"Dz.U.\" sejm",
+   "\"art. 194 § 1\" ppsa treść",
+   "\"odrzuceniu zażalenia\" \"194 § 1\" ppsa",
+   "\"odrzucenie zażalenia\" zażalenie do nsa art. 194",
+   "\"III CZP 50/22\" \"394(2)\" odrzucenie zażalenia",
+   "\"III CZP 50/22\" treść uzasadnienia \"394\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14103,
+   "wyjscie": 943
+  },
+  "czas_s": 65,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

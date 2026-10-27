@@ -1,0 +1,104 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 rozporządzenia 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motywy 133–134 rozporządzenia 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 7 rozporządzenia 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 i 24 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ISAP/k.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 85 i nast. ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2026 (ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź precyzyjnie trafia w rdzeń problemu i wyjaśnia pułapkę pytania (A_R=2). Wymagane podstawy prawne zostały powołane i są w pełni poprawne (A2=1, A6=1), jednak w dosłownym cytacie z art. 3 pkt 60 zmieniono pierwsze słowa („treści typu deepfake oznaczają” zamiast „deepfake oznacza”), co obniża A3 do 0. Cały akapit sekcji 4 poświęcono reżimom spoza AI Act (k.c., pr. aut., RODO), co stanowi dygresję uzasadniającą obniżenie A8 do 0.5. W rubryce nie zaliczono R6 z powodu braku zaznaczenia charakteru soft law przy wzmiance o wytycznych KE i kodeksie praktyk.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"artykul 3\" \"60\" \"rozporzadzenie 2024/1689\" \"deepfake\" eur-lex",
+   "\"treści typu deepfake\" \"oznaczają wygenerowane przez AI\" eur-lex",
+   "\"02024R1689-20260727\" \"60)\" \"deepfake\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14143,
+   "wyjscie": 989
+  },
+  "czas_s": 51,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

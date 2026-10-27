@@ -1,0 +1,60 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 i nast. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest całkowicie błędna co do zasady – zasadnicze powody rozstrzygnięcia nie zastępują uzasadnienia, a ich podanie nie wyłącza prawa do złożenia wniosku o uzasadnienie (art. 357 § 5 zd. 2 k.p.c.). Przepisowi art. 357 § 5 k.p.c. przypisano treść sprzeczną z ustawą, uznając motywy za skróconą formę uzasadnienia wykluczającą wniosek (klasa T, A6 = 0, hallucinated). Z tego powodu naliczono przewidzianą w kluczu karę umowną. Błąd niesie bezpośrednie ryzyko uchybienia terminowi do zaskarżenia orzeczenia, co skutkuje B1 = 0, natomiast poziom pewności odpowiada kategorycznemu charakterowi pytania (B2 = 1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P07",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 357\" \"Wskazanie zasadniczych powodów rozstrzygnięcia następuje w sposób odróżniający je od uzasadnienia postanowienia\"",
+   "\"art. 357\" kpc \"zasadnicze powody rozstrzygnięcia\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 8797,
+   "wyjscie": 431
+  },
+  "czas_s": 27,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

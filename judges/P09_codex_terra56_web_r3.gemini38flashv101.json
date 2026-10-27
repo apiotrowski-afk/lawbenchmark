@@ -1,0 +1,100 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ § 2 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 64 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN III CK 124/05",
+   "zrodlo": "SAOS 163531",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco potwierdza przesłankę pytania, wskazując art. 41 ust. 2 pr.aut., wymóg formy pisemnej z art. 53 pr.aut. oraz brak automatycznego przejścia praw z art. 12 pr.aut. przy zleceniu. Wszystkie powołane przepisy są w pełni zgodne ze stanem prawnym (brak halucynacji). System nie omówił w tekście liberalnej linii orzeczniczej SN dopuszczającej ustalenie pól w drodze wykładni (art. 65 k.c., in favorem auctoris), ograniczając się do podania linku w źródłach, co skutkuje brakiem punktu w R5 oraz B2=0 wobec oczekiwanej kalibracji warunkowej. Instruktaż dla praktyka jest kompletny i bezpieczny (B1=2, A8=1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"art. 2 ust. 2\" \"prawo autorskie\" ISAP",
+   "\"art. 64\" \"prawo autorskie\" ISAP",
+   "\"art. 2\" \"Rozporządzanie i korzystanie z opracowania\" \"prawo autorskie\" ISAP",
+   "\"art. 2 ust. 5\" \"prawo autorskie\" ISAP",
+   "\"DU/2019/1231\" ISAP",
+   "\"Dz.U. 2019 poz. 1231\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13128,
+   "wyjscie": 899
+  },
+  "czas_s": 70,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

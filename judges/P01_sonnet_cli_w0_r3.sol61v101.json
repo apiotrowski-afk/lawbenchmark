@@ -1,0 +1,130 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 119 § 1 k.w. — próg 1/4 minimalnego wynagrodzenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf ; historycznie: https://eli.gov.pl/api/acts/DU/2013/1247/text/T/D20131247L.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 119 § 1 k.w. — obejmuje oszustwo",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 120 k.w. — paserstwo",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 120 k.w. — próg 1/4 minimalnego wynagrodzenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf ; historycznie: https://eli.gov.pl/api/acts/DU/2013/1247/text/T/D20131247L.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 122 k.w. — kradzież szczególnego rodzaju",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 122 k.w. — próg 1/4 minimalnego wynagrodzenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf ; historycznie: https://eli.gov.pl/api/acts/DU/2013/1247/text/T/D20131247L.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 124 § 1 k.w. — niszczenie i uszkodzenie mienia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 124 § 1 k.w. — próg 1/4 minimalnego wynagrodzenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf ; historycznie: https://eli.gov.pl/api/acts/DU/2013/1247/text/T/D20131247L.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Ustawa z 7 lipca 2022 r. — zastąpienie 800 zł progiem zależnym od wynagrodzenia od 1 października 2023 r.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2022/2600/text/U/D20222600Lj.pdf ; https://eli.gov.pl/eli/DU/2022/2600/ogl",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Do 30 września 2023 r. obowiązywała stała kwota 800 zł",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2022/2151/text.html ; https://eli.gov.pl/api/acts/DU/2022/2600/text/U/D20222600Lj.pdf",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 278 § 1 k.k. — kradzież",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 284 § 1 k.k. — przywłaszczenie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 288 § 1 k.k. — uszkodzenie mienia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie Rady Ministrów z 2025 r. — minimalne wynagrodzenie w 2026 r. wynosi 4806 zł",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1242/text/O/D20251242.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Minimalne wynagrodzenie w 2025 r. wynosiło 4666 zł",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/1362/text/O/D20241362.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 2 k.w. — zasada lex mitior",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 12 k.w. — czyny ciągłe lub wielokrotne i sumowanie wartości",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Fragment cytatu „nie przekracza” przypisany przepisom określającym próg",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie podaje 1201,50 zł i uzależnia próg od płacy minimalnej, podczas gdy od 1 października 2023 r. obowiązuje stałe 800 zł, wcześniej 500 zł. Nie zaliczono A2, ponieważ wskazanemu art. 119 § 1 k.w. przypisano błędną normę, a pozostałe elementy rubryki również nie zostały spełnione. Art. 120 dotyczy drzewa z lasu, art. 122 paserstwa, art. 12 podżegania, a art. 119 § 1 nie obejmuje oszustwa; błędy te oraz pomylenie wersji czasowych uzasadniają A6 = 0. A3 = 1 za zgodny dosłownie fragment „nie przekracza”, A8 = 0,5 za dygresję o czynach ciągłych i sumowaniu wartości, a B1 = 0 za zasadniczo mylącą wskazówkę praktyczną. B2 = 1, ponieważ odpowiedź stawia kategoryczną tezę zgodnie z oczekiwaną kalibracją, choć teza jest błędna.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 68,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

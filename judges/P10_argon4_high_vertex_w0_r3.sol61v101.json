@@ -1,0 +1,117 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "SN, II CSKP 526/22",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 50 pkt 3 pr.aut. — ustawowa definicja Internetu",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "art. 46 pr.aut. — konieczność przeniesienia praw zależnych",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 4 lutego 1994 r., t.j. Dz.U. 2022 poz. 2509 ze zm.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2022/2509/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14.09.2022 r., II CSKP 526/22 — wykładnia umów autorskich",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/ii%20cskp%20526-22.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut. — przykładowy katalog pól eksploatacji",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 3 pr.aut. — publiczne udostępnianie jako ustawowa definicja Internetu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 3 ust. 1 dyrektywy 2001/29/WE",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/ALL/?uri=CELEX:32001L0029",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut. — konieczność przeniesienia prawa do wykonywania i zezwalania na wykonywanie praw zależnych",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 pr.aut. — prawo do oznaczenia autorstwa i nadzoru",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/24/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie przedstawiono odpowiedzi tego samego systemu na P09, więc nie można sprawdzić sprzeczności; kary nie naliczono."
+ ],
+ "uzasadnienie": "Odpowiedź zaprzecza przesłance, podaje wymagane podstawy, przykłady pól, formę pisemną oraz możliwość wykładni z art. 65 k.c., co uzasadnia pełny rdzeń i wszystkie elementy rubryki. Cytat art. 41 ust. 2 ma dawną redakcję bez zmiany sensu normy, dlatego obniża wyłącznie A3. Oficjalny wynik wyszukiwania SN wskazuje, że II CSKP 526/22 to wyrok z 12 stycznia 2023 r. dotyczący zadośćuczynienia po wypadku, a przypisana mu teza autorska stanowi T. Art. 50 pkt 3 nie definiuje Internetu, natomiast art. 46 pozostawia twórcy prawo zezwalania i nie wymaga jego przeniesienia, przez co praktyczna wskazówka jest nadmierna i B1 wynosi 1. Wielozdaniowy, nieproszony wzór klauzuli obniża A8 do 0.5.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 77,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=67",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 328 § 4 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=63",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 362 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=68",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹a § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=73",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394² § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=74",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 327¹ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf#page=63",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: art. 357 § 5 nakazuje odróżniać zasadnicze powody od uzasadnienia; fałszywa interpretacja poza cytatem samodzielnie uzasadnia A6=0, a zmyślony cytat daje A3=0. Brakuje właściwej podstawy żądania uzasadnienia, warunku jego dopuszczalności oraz terminu wniosku. Art. 362 dotyczy zarządzeń przewodniczącego, a wskazane § 1 art. 394¹a i 394² nie regulują terminu zażalenia; prawidłowe powołania art. 328 § 4, art. 394 § 2 i art. 327¹ § 1 nie naprawiają błędnego utożsamienia powodów z uzasadnieniem. Sekcja o zarzutach zażalenia stanowi dygresję według przykładu granicznego P07, stąd A8=0,5. Wskazówka grozi utratą prawa do zaskarżenia, więc B1=0; kategoryczność odpowiada kluczowi, więc B2=1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 45,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

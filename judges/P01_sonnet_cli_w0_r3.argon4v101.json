@@ -1,0 +1,118 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. (nowelizacja KW i KK, w życie 1.10.2023 r.)",
+   "zrodlo": "Ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. 2022 poz. 2600, art. 4 pkt 5–8)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 119 § 1 KW (kradzież, przywłaszczenie, oszustwo; próg 1/4 minimalnego wynagrodzenia od 1.10.2023 r.)",
+   "zrodlo": "Ustawa z dnia 20 maja 1971 r. – Kodeks wykroczeń (Dz.U. 2025 poz. 734)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 120 KW (paserstwo)",
+   "zrodlo": "Ustawa z dnia 20 maja 1971 r. – Kodeks wykroczeń (Dz.U. 2025 poz. 734)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 122 KW (kradzież szczególnego rodzaju)",
+   "zrodlo": "Ustawa z dnia 20 maja 1971 r. – Kodeks wykroczeń (Dz.U. 2025 poz. 734)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 124 § 1 KW (niszczenie, uszkodzenie mienia; próg 1/4 minimalnego wynagrodzenia od 1.10.2023 r.)",
+   "zrodlo": "Ustawa z dnia 20 maja 1971 r. – Kodeks wykroczeń (Dz.U. 2025 poz. 734)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 278 § 1 KK (kradzież)",
+   "zrodlo": "Ustawa z dnia 6 czerwca 1997 r. – Kodeks karny (Dz.U. 2025 poz. 383)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 284 § 1 KK (przywłaszczenie)",
+   "zrodlo": "Ustawa z dnia 6 czerwca 1997 r. – Kodeks karny (Dz.U. 2025 poz. 383)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 KK (uszkodzenie mienia)",
+   "zrodlo": "Ustawa z dnia 6 czerwca 1997 r. – Kodeks karny (Dz.U. 2025 poz. 383)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie Rady Ministrów z 2025 r. (minimalne wynagrodzenie w 2026 r. w wysokości 4806 zł)",
+   "zrodlo": "Rozporządzenie Rady Ministrów z dnia 11 września 2025 r. w sprawie wysokości minimalnego wynagrodzenia za pracę oraz wysokości minimalnej stawki godzinowej w 2026 r. (Dz.U. 2025 poz. 1242)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 KW (zasada lex mitior)",
+   "zrodlo": "Ustawa z dnia 20 maja 1971 r. – Kodeks wykroczeń (Dz.U. 2025 poz. 734)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 KW (czyny ciągłe lub wielokrotne i sumowanie wartości)",
+   "zrodlo": "Ustawa z dnia 20 maja 1971 r. – Kodeks wykroczeń (Dz.U. 2025 poz. 734)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpada w pułapkę pytania i odwraca stan prawny oraz historię legislacyjną, twierdząc, że od 1.10.2023 r. stały próg 800 zł zastąpiono ułamkiem 1/4 minimalnego wynagrodzenia (1201,50 zł w 2026 r.), co skutkuje A_R=0, R=[0,0,0,0], obiema karami K=[1,1] oraz B1=0. W A6=0 występuje zarówno klasa W (podanie dawnego kryterium ułamkowego sprzed 15.11.2018 r. jako obecnego oraz fałszywa historia zmian), jak i klasa T (przypisanie ustawie z 7.07.2022 r. odwrotnej zmiany, przypisanie oszustwa do art. 119 § 1 k.w., zamiana przedmiotu regulacji art. 120 i 122 k.w. oraz przypisanie czynu ciągłego do art. 12 k.w., który dotyczy podżegania). Wymagana podstawa art. 119 § 1 k.w. została powołana (A2=1), a brak cytatów przepisów i brak sporności dają A3=nd i A5=nd. A8 obniżono do 0.5 z uwagi na obarczoną błędem prawnym uwagę poboczną o czynie ciągłym na gruncie art. 12 k.w. B2 wynosi 1, ponieważ przy oczekiwanej kalibracji kategorycznej system sformułował tezę stanowczo.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"art. 119\" \"art. 120\" \"art. 122\" \"art. 124\" \"Kodeks wykroczeń\" OR OR",
+   "\"art. 2\" \"art. 12\" \"Kodeks wykroczeń\" OR OR",
+   "\"art. 278\" \"art. 284\" \"art. 288\" \"Kodeks karny\" OR OR",
+   "\"4806\" minimalnego wynagrodzenia 2026 rozporządzenie OR OR",
+   "\"2025\" \"734\" \"Kodeks wykroczeń\"",
+   "\"2025\" \"1242\" \"minimalnego wynagrodzenia\"",
+   "\"2022\" \"2600\" \"Kodeks karny\"",
+   "\"2025\" \"734\" OR \"1242\"",
+   "\"Obwieszczenie Marszałka Sejmu\" \"Kodeks karny\" 2025 OR 2026 OR",
+   "\"Art. 124.\" \"800 złotych\" \"Kodeks wykroczeń\"",
+   "\"rozporządzenie Rady Ministrów\" \"4666 zł\" 2024 2025 minimalnego wynagrodzenia OR",
+   "\"6 marca 2025\" \"Kodeks karny\" \"poz.\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13570,
+   "wyjscie": 2042
+  },
+  "czas_s": 184,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

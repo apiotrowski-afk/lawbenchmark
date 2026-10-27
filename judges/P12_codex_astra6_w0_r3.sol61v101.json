@@ -1,0 +1,64 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wyraźnie wyklucza klauzulę bez ograniczeń i rozróżnia zakres odpowiedzialności według zgody małżonka oraz związku wierzytelności z przedsiębiorstwem. Trafnie wskazuje, że oznaczenie dłużnika w tytule nie przesądza trybu, oraz prostuje numer przepisu, choć nie podaje długości terminu. Wszystkie powołane jednostki i przypisane im treści sprawdzono w oficjalnych tekstach; nie stwierdzono błędów objętych A6. Nie zaliczono ostatniego elementu rubryki, ponieważ odpowiedź nie przedstawia konsekwencji braku zarówno zgody, jak i związku z przedsiębiorstwem oraz dostępnych wtedy składników majątku dłużnika. Jednozdaniowa formuła wniosku jest neutralna dla A8, a odpowiedź daje prawnikowi użyteczne wskazówki i warunkuje wybór trybu właściwymi przesłankami.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 75,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

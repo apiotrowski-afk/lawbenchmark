@@ -1,0 +1,62 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/383/text/T/D20250383L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. 2018 poz. 2077 — zniesienie powiązania z płacą minimalną od 15 listopada 2018 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2018/2077/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Próg 800 zł obowiązuje od 1 października 2023 r.",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2022/2600/ogl",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź podaje pełny rdzeń: 800 zł włącznie, brak wpływu płacy minimalnej i obowiązywanie kwoty od 1 października 2023 r. Powołane przepisy oraz datę zmiany z 2018 r. potwierdzają źródła urzędowe. Nie zaliczono R4, ponieważ odpowiedź nie wskazuje żadnego z innych wykroczeń objętych tym samym progiem. Brak cytatów w cudzysłowie oznacza A3 = nd, a krótka uwaga o włamaniu wyjaśnia zakres odpowiedzi i nie obniża A8.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 10,
+  "czas_s": 40,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

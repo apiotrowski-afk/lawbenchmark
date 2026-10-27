@@ -1,0 +1,147 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut. — umowa o przeniesienie praw majątkowych obejmuje pola eksploatacji wyraźnie w niej wymienione",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 41 ust. 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut. — umowa nie może dotyczyć pól nieznanych w chwili jej zawarcia",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 41 ust. 4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut. — umowa o przeniesienie praw wymaga formy pisemnej pod rygorem nieważności",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 53",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c. — forma elektroniczna z kwalifikowanym podpisem jest równoważna formie pisemnej",
+   "zrodlo": "Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny (t.j. Dz.U. 2026 poz. 795), art. 78¹ § 1 i 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr. aut. — nabycie praw przez pracodawcę z mocy prawa dotyczy wyłącznie stosunku pracy",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 12 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "orzecznictwo i doktryna (ogólnie) — ogólnikowe określenie pól powoduje, że prawa nie przechodzą albo przechodzą tylko w zakresie, który da się jednoznacznie odczytać z umowy",
+   "zrodlo": "Linia orzecznicza SN (m.in. I CSK 104/18, I CSK 596/17, IV CSKP 44/21)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr. aut. — w razie wątpliwości przyjmuje się licencję",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 65",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 1 pr. aut. — licencja również wymaga określenia pól eksploatacji",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 67 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut. — katalog pól eksploatacji (utrwalanie i zwielokrotnianie, obrót oryginałem lub egzemplarzami, publiczne udostępnianie, nadawanie i reemitowanie)",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 50",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut. — zezwolenie na wykonywanie praw zależnych trzeba zastrzec wyraźnie, bez tego twórca zachowuje wyłączne prawo zezwalania na opracowania",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 46",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut. — autorskie prawa osobiste są niezbywalne (m.in. prawo do oznaczania autorstwa i nadzoru autorskiego)",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 16",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr. aut. — wynagrodzenie za przeniesienie praw",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 43",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr. aut. — rażąca dysproporcja wynagrodzenia",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24; zm. Dz.U. 2024 poz. 1254 od 20.09.2024 r.), art. 44 ust. 1",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 52 pr. aut. — przejście praw a prawo własności nośników (egzemplarzy)",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 52",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut. — rozpowszechnianie wizerunku",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24), art. 81",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 26³ pr. aut. (implementacja dyrektywy DSM 2019/790) — eksploracja tekstów i danych",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (t.j. Dz.U. 2025 poz. 24; dodany przez Dz.U. 2024 poz. 1254), art. 26³",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System prawidłowo zaprzecza błędnej przesłance pytania i przedstawia pełny rdzeń odpowiedzi wraz z wymaganymi podstawami z art. 41 ust. 2 i art. 53 pr. aut. (A-R = 2, A2 = 1). W uwadze pobocznej dotyczącej wynagrodzenia powołuje jednak nieaktualną przesłankę z art. 44 pr. aut. („rażąca dysproporcja wynagrodzenia”), podczas gdy od 20 września 2024 r. (Dz.U. 2024 poz. 1254; t.j. Dz.U. 2025 poz. 24) przepis ten wymaga, aby wynagrodzenie było „niewspółmiernie niskie”, co zgodnie z regułą B10a skutkuje klasą W i obniżeniem A6 do 0 (zakres: poboczne). Z uwagi na uwagę poboczną z błędem oraz nieproszony dwuzdaniowy wzór klauzuli A8 wynosi 0,5. W rubryce nie zaliczono piątego elementu (R5 = 0), gdyż odpowiedź jedynie ogólnikowo wspomina o odczytaniu zakresu z umowy, bez wskazania wykładni z art. 65 k.c. czy reguły in favorem auctoris (reguła B12). Zgodnie z regułą B11 oraz zakazem podwójnego karania w bloku B odpowiedź zachowuje pełną punktację ocenną (B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 16,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 24\" \"Art. 41\" \"Art. 44\" \"Art. 53\" OR OR",
+   "\"Art. 44\" \"niewspółmiernie niskie\" \"rażącej dysproporcji\" prawo autorskie OR OR",
+   "\"Art. 65\" \"Art. 67\" \"Art. 52\" \"Art. 81\" \"Art. 26\" prawo autorskie OR OR",
+   "\"Art. 78\" \"kwalifikowanym podpisem elektronicznym\" kodeks cywilny OR",
+   "\"WDU20250000024\" OR \"2025\" \"poz. 24\" \"prawie autorskim\"",
+   "\"WDU20250000024\" OR \"WDU19940240083\"",
+   "\"Art. 26\" \"eksploracji tekstów i danych\" prawo autorskie \"2019/790\" OR OR",
+   "\"Art. 41\" \"Art. 43\" \"Art. 46\" \"Art. 50\" \"Art. 81\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"Art. 41.\" \"pola eksploatacji wyraźnie w niej wymienione\"",
+   "\"Art. 12.\" \"Art. 16.\" \"o prawie autorskim i prawach pokrewnych\"",
+   "\"Art. 46.\" \"Art. 50.\" \"Art. 52.\" \"Art. 53.\" \"o prawie autorskim\"",
+   "\"Art. 65.\" \"Art. 67.\" \"Art. 81.\" \"o prawie autorskim\"",
+   "\"Dz. U. z 2024 r. poz. 1254\" OR \"poz. 1254\" \"Art. 44\" \"Art. 26\" OR",
+   "\"niewspółmiernie niskie w stosunku do korzyści\" OR OR OR",
+   "\"Wolno zwielokrotniać rozpowszechnione utwory w celu eksploracji tekstów i danych\" OR",
+   "\"Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania formy pisemnej pod rygorem nieważności\" OR OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14108,
+   "wyjscie": 3105
+  },
+  "czas_s": 179,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text/O/D20172278.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 § 2 pkt 2 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Art. 3 ust. 1 określa zawartość zezwolenia, natomiast organ i formę decyzji reguluje art. 1 ust. 1, co oznacza błąd T i brak wymaganej podstawy. A_R=1, ponieważ odpowiedź preferuje ostateczność, ale dostrzega możliwość uzyskania prawomocności. Nie prostuje jednoznacznie pojęcia klauzuli, nie wskazuje zaświadczenia organu o prawomocności ani mechanizmu trzydziestodniowej skargi do WSA. K3 nie naliczono, ponieważ odpowiedź wyraźnie dopuszcza prawomocność decyzji; pominięcie wniosku o ponowne rozpatrzenie przy art. 16 § 1 nie obniża A6. Praktyczna wskazówka jest niepełna i uzasadnia B1=1, a teza pozostaje dostatecznie stanowcza dla B2=1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 28,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A6_zakres": "rdzeń",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 i nast. ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 365 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 § 2 pkt 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest błędny (A-R=0), ponieważ system twierdzi, że decyzja administracyjna nie może być prawomocna, co skutkuje też karą K3. Brak powołania wymaganego art. 16 § 3 k.p.a. (A2=0). System halucynuje (A6=0, typ T), przypisując art. 16 § 1 k.p.a. zawężony zakres (pomija wniosek o ponowne rozpatrzenie sprawy) i wywodząc z tego fałszywy wniosek, że decyzja ministra staje się ostateczna z chwilą doręczenia. Błędna porada co do statusu decyzji i rodzaju zaświadczenia obniża B1 do 0. Kalibracja kategoryczna jest zgodna z kluczem (B2=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"Art. 16. § 1. Decyzje, od których nie służy odwołanie\" kpa",
+   "\"Art. 16\" kpa prawomocne ostateczne",
+   "\"Art. 127. § 3.\" kpa",
+   "\"Art. 8\" \"o nabywaniu nieruchomości przez cudzoziemców\"",
+   "\"kiedy decyzja ministra staje się ostateczna\" kpa",
+   "\"decyzja ministra\" ostateczna \"z chwilą doręczenia\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhnWOw5_7MQWZXmYXiPD9QgaYHlnkIMbUlSDfuyjW9DQ8xuJV6RiGQ_9NBVQ3bxI_rzMu3zkPsGp7SryE9dVVhVBXXJCQR6wq7HSHxw-uGgIa_Q_odXnsaFwuMvaF2lHPLlAQjx3ULCFGJ1_C89V9264yDPrzPXAFY",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQpA1Q5pSJK4hLReBXMREPDxePflRRSsrSTd-IRNzrJaNhWRgdsk8qQMrqgFvb_KYTTS-Nf2CZIQLgT-9Bptp6B9l3ApTinheg2ZypXTYZxEGks7E5EkkWpa-GAuMI4c9yMn5bCcTYZ1A3FQ3lcRDJZAte_YKge4dEkz4AvdXUNtJMIlXF5MNBV4dRi-UuKnnegE8H4xwu5IZyQvxn82M=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyYxg9g8gzYQ8Si2ipbfT4BcKxfxOMwPLdzyQFlv2uPT5S0HIFHsqrkALyqjiRTqwlK9-f6wqI1RZhLA5ej9hvnvLxMbRvze6iv7cZzD1FMw62Utx1tvMQdUMaJSg3sZtna0wKGHndXQN-V5p9g3owIJybbcM7e3LHIeUTdkHWYocr6BAWpA=="
+  ],
+  "tokeny": {
+   "wejscie": 15254,
+   "wyjscie": 1010
+  },
+  "czas_s": 295,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

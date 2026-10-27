@@ -1,0 +1,63 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "A-R = 1: odpowiedź zaleca potwierdzenie ostateczności, ale wyraźnie dopuszcza również prawomocność decyzji. Brakuje podstawy z art. 217 § 2 pkt 2 k.p.a., wskazania zaświadczenia organu o prawomocności oraz mechanizmu skargi do WSA, dlatego A2 = 0 i R2–R4 = 0. Wszystkie powołane jednostki sprawdzono w tekstach urzędowych; przypisane im treści są zgodne, a pominięcia nie obniżają A6. Nie naliczono K3, ponieważ odpowiedź nie wyklucza prawomocności; wariant postanowienia sądu jest dopuszczony przez klucz i nie obniża A8. B1 = 1 za niepełną wskazówkę praktyczną, B2 = 1 za jednoznaczne stanowisko.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 8,
+  "czas_s": 42,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

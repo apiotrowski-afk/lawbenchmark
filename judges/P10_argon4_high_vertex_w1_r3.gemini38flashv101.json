@@ -1,0 +1,118 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 3 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14 września 2005 r., sygn. III CK 124/05",
+   "zrodlo": "Biul. SN 2005, nr 12, s. 8; SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SA w Warszawie z 17 października 2012 r., sygn. I ACa 1244/11",
+   "zrodlo": "Portal Orzeczeń SA w Warszawie / SAOS",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SA w Łodzi z 27 lutego 2013 r., sygn. I ACa 1188/12",
+   "zrodlo": "Portal Orzeczeń SA w Łodzi (właściwa sygnatura: I ACa 1157/12)",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo i kategorycznie zaprzecza błędnej przesłance z pytania w pierwszym zdaniu, realizując wszystkie wymagania klucza i rubryki (w tym omówienie liberalnej linii orzeczniczej z art. 65 k.c. oraz formy pisemnej z art. 53). Cytat z art. 50 pkt 3 in fine pr.aut. jest dosłowny. A6 wynosi 0 (hallucinated=true) z powodu błędu klasy S: orzeczenie SA w Łodzi z 27 lutego 2013 r. dotyczące dopuszczalności odesłania do art. 50 pr.aut. zapadło pod sygnaturą I ACa 1157/12, a nie I ACa 1188/12. Błąd dotyczy kwestii pobocznej (A6_zakres: poboczne, pochodzenie: źródło_wtórne). Walory praktyczne odpowiedzi dla prawnika są bardzo wysokie (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"III CK 124/05\" saos sn.pl",
+   "\"I ACa 1188/12\" łódź orzeczenia",
+   "\"I ACa 1244/11\" warszawa orzeczenia",
+   "\"I ACa 1188/12\" orzeczenia.ms.gov.pl",
+   "\"I ACa 1188/12\" \"art. 50\"",
+   "\"27 lutego 2013\" \"Łodzi\" \"art. 50\" \"pola eksploatacji\"",
+   "\"27 lutego 2013\" \"Łódź\" \"art. 41 ust. 2\"",
+   "\"I ACa 1188/12\" \"Łodzi\"",
+   "\"I ACa 1188/12\" \"27 lutego 2013\"",
+   "\"27 lutego 2013\" \"Łodzi\" \"umowie darowizny z 22 stycznia 2008\"",
+   "\"27 lutego 2013 r.\" \"Sąd Apelacyjny w Łodzi\" \"art. 50 ustawy o prawie autorskim\"",
+   "\"I ACa\" \"27 lutego 2013\" \"Łodzi\" \"art. 50\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15712,
+   "wyjscie": 1206
+  },
+  "czas_s": 37,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

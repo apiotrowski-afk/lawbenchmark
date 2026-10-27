@@ -1,0 +1,64 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia pełny zasadniczy rdzeń: wyklucza klauzulę bez ograniczeń, rozróżnia oba tryby i uzależnia zakres odpowiedzialności od zgody małżonka albo związku wierzytelności z przedsiębiorstwem. Prawidłowo wyjaśnia znaczenie treści nakazu i prostuje numer przepisu; zaliczam sprostowanie mimo niewskazania długości terminu. Wszystkie powołania odpowiadają treści jednostek sprawdzonych w oficjalnych tekstach, a odpowiedź nie zawiera cytatów przepisów ani orzeczeń. Nie wyjaśnia jednak, jakie składniki majątku dłużnika pozostają dostępne przy braku zarówno zgody, jak i związku z przedsiębiorstwem, dlatego R5 wynosi 0. Jednozdaniowa formuła żądania oraz wyjaśnienie granic egzekucji z majątku osobistego małżonka nie obniżają A8.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P12",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 58,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

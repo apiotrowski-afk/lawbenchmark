@@ -1,0 +1,127 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 41 ust. 2 pr. aut. (ustawa z 4.02.1994 r. o prawie autorskim i prawach pokrewnych)",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 41 ust. 2 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 50 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 53 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 67 ust. 5 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 67 ust. 5 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 ust. 4 pr. aut. — nieważna jest umowa w części dotyczącej wszystkich utworów (lub wszystkich określonego rodzaju) mających powstać w przyszłości",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 41 ust. 3 i 4 pr.aut.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 79 pr. aut. — roszczenia o zaniechanie, usunięcie skutków, odszkodowanie, w tym zasady dwukrotności lub trzykrotności wynagrodzenia",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 79 ust. 1 pkt 3 lit. b pr.aut.) oraz wyrok TK z 23.06.2015 r., SK 32/14 (Dz.U. 2015 poz. 932)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "Art. 65 KC",
+   "zrodlo": "ISAP Dz.U. 2024 poz. 1061 (art. 65 k.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 2 ust. 2 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 2 ust. 2 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 16 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 43 ust. 1 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 43 ust. 1 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 81 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 81 pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 52 ust. 1 pr. aut.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 24 (art. 52 ust. 1 pr.aut.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi (A-R = 2) oraz wymagane podstawy prawne z art. 41 ust. 2 i art. 53 pr.aut. (A2 = 1) zostały podane prawidłowo, ze wskazaniem możliwości ratowania klauzuli wykładnią z art. 65 k.c. (R5 = 1 wg reguły B12). A6 wynosi 0 (hallucinated = true), ponieważ system przypisał art. 41 ust. 4 pr.aut. treść art. 41 ust. 3 pr.aut. dotyczącą zakazu objęcia umową wszystkich utworów mających powstać w przyszłości, podczas gdy ust. 4 dotyczy wyłącznie pól eksploatacji znanych w chwili zawarcia umowy (klasa T). Ponadto przy art. 79 pr.aut. system wskazał jako aktualną zasadę dochodzenia trzykrotności stosownego wynagrodzenia, która utraciła moc 1 lipca 2015 r. na skutek wyroku TK o sygn. SK 32/14 (klasa W). W rubryce odpowiedź traci wyłącznie punkt R4 za brak wzmianki o niedziałaniu art. 12 pr.aut. przy umowie zlecenia. Ze względu na błędy prawne w uwagach pobocznych punktacja za ramy zostaje obniżona do A8 = 0.5 (zgodnie z regułą o uwagach pobocznych z błędem), natomiast przydatność praktyczna i kalibracja otrzymują maksymalne noty (B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P09",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 15,
+  "zapytania": [
+   "\"art. 41\" \"ustawa z dnia 4 lutego 1994\" OR",
+   "\"art. 50\" \"art. 52\" \"art. 53\" \"art. 67\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"art. 2\" \"art. 16\" \"art. 43\" \"art. 79\" \"art. 81\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"art. 65\" kodeks cywilny OR",
+   "\"Dz.U. 2025 poz. 24\" OR \"DU/2025/24\" \"Art. 41\"",
+   "\"Art. 67\" \"umowa licencyjna wyłączna\" \"o prawie autorskim\"",
+   "\"Art. 79\" \"dwukrotności\" \"trzykrotności\" \"o prawie autorskim\"",
+   "\"Art. 81\" \"Rozpowszechnianie wizerunku\" \"o prawie autorskim\"",
+   "\"Art. 79.\" \"DU/2025/24\" OR \"Dz. U. z 2025 r. poz. 24\" OR",
+   "\"Art. 79.\" \"1. Uprawniony, którego autorskie prawa majątkowe zostały naruszone\" \"trzykrotności\"",
+   "\"Art. 46.\" \"Art. 43.\" \"o prawie autorskim i prawach pokrewnych\" OR",
+   "\"Art. 50\" \"wprowadzanie do pamięci komputera\" \"o prawie autorskim\"",
+   "\"wprowadzanie do pamięci komputera\" \"DU/1994/83\" OR \"Dz.U. 1994 nr 24 poz. 83\"",
+   "\"Art. 50.\" \"wprowadzanie do pamięci komputera\" \"zwielokrotnianie\" \"1994\"",
+   "\"Art. 50.\" \"Odrębne pola eksploatacji stanowią w szczególności\" \"pamięci komputera\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15093,
+   "wyjscie": 2021
+  },
+  "czas_s": 192,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

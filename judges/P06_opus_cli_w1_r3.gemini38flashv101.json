@@ -1,0 +1,136 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 w zw. z art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 370 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (uchylony ustawą z dnia 4 lipca 2019 r., Dz.U. poz. 1469)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ᵃ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 373 w zw. z art. 397 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 3 w zw. z art. 398⁶ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–169 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 430 § 2 k.p.k.",
+   "zrodlo": "Dz.U. 2024 poz. 37",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie formułuje rdzeń w pierwszym akapicie, prawidłowo przeprowadzając rozwidlenie na zażalenie poziome i dewolutywne (A_R=2, B2=1, R1-R3 zaliczone). W A2 przyznano 0 z powodu braku powołania art. 397 § 1¹ k.p.c. oraz powołania uchylonego art. 370 k.p.c. A6 oceniono na 0 (hallucinated=true) ze względu na powołanie nieobowiązującego art. 370 k.p.c. jako podstawy odrzucenia zażalenia (klasa W) oraz przypisanie art. 394¹ § 3 w zw. z art. 398⁶ k.p.c. nieistniejącej normy o dopuszczalności zażalenia do SN (klasa T). Naliczono karę K[0] za twierdzenie w punkcie 3, że na odrzucenie zażalenia przysługuje zażalenie do SN. A8 obniżono do 0.5 z uwagi na wykraczający poza pytanie akapit dotyczący procedury karnej (art. 430 § 2 k.p.k.).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 22,
+  "zapytania": [
+   "\"art. 397\" kpc \"370\" \"373\" \"sąd drugiej instancji odrzuca zażalenie\"",
+   "\"art. 397 § 1[1]\" kpc odrzuca zażalenie",
+   "\"art. 370\" uchylony kpc",
+   "\"art. 373\" kpc uchylony albo brzmienie",
+   "\"art. 394(1) § 1\" odrzucenie zażalenia",
+   "\"art. 394(1)\" odrzucenie zażalenia do sądu najwyższego",
+   "postanowienie o odrzuceniu zażalenia do SN czy przysługuje zażalenie",
+   "\"art. 398(6)\" odrzucenie zażalenia zażalenie do SN",
+   "\"zażalenie na odrzucenie zażalenia do sądu najwyższego\"",
+   "\"odrzucenie zażalenia do sądu najwyższego\" zażalenie",
+   "postanowienie o odrzuceniu zażalenia do SN czy przysługuje zażalenie do SN",
+   "\"art. 394(1)\" \"odrzucenie zażalenia\" dopuszczalność zażalenia",
+   "\"odrzucenie zażalenia do Sądu Najwyższego\" zażalenie \"398(6)\"",
+   "\"zażalenie na odrzucenie zażalenia\" \"394(1)\" \"398(6)\"",
+   "\"zażalenie na postanowienie sądu drugiej instancji odrzucające zażalenie do Sądu Najwyższego\"",
+   "\"zażalenie do Sądu Najwyższego\" przysługuje na postanowienie sądu drugiej instancji odrzucające zażalenie",
+   "\"odrzucenie zażalenia do Sądu Najwyższego\" \"przysługuje zażalenie\"",
+   "\"na postanowienie sądu drugiej instancji odrzucające zażalenie do Sądu Najwyższego\"",
+   "postanowienie sądu odrzucające zażalenie do SN zaskarżalne",
+   "\"art. 394[1]\" \"art. 398[6]\" odrzucenie zażalenia zażalenie"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12140,
+   "wyjscie": 1168
+  },
+  "czas_s": 106,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

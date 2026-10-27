@@ -1,0 +1,140 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "S"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 7 lipca 2022 r., Dz.U. z 2022 r. poz. 2600",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 k.k.s.",
+   "zrodlo": "Dz.U. 2024 poz. 628",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 278 § 1a k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 § 2 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dz.U. z 2023 r. poz. 2119 ze zm. (k.w.)",
+   "zrodlo": "ISAP",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "Dz.U. z 2024 r. poz. 17 ze zm. (k.k.)",
+   "zrodlo": "ISAP",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest w pełni trafny, a system realizuje wszystkie elementy rubryki. A8 obniżono do 0,5 z powodu dygresji o prawie karnym skarbowym i innych typach kradzieży. A6 wynosi 0 z powodu powołania uchylonego art. 278a k.k. (błąd W - kradzież zuchwała jest obecnie w art. 278 § 3a k.k.) oraz wskazania nieaktualnych publikatorów t.j. dla k.k. i k.w. (błąd S). Błędy te mają charakter poboczny.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 16,
+  "zapytania": [
+   "\"art. 53\" \"Wykroczeniem skarbowym jest czyn zabroniony\"",
+   "\"art. 53\" \"Przestępstwem skarbowym jest czyn zabroniony\"",
+   "\"art. 53\" \"kodeks karny skarbowy\" \"§ 6\"",
+   "\"art. 12\" \"kodeks karny\" \"§ 2\"",
+   "\"Dz.U. z 2023 r. poz. 2119\"",
+   "\"Dz.U. 2023 poz. 2119\"",
+   "\"Dz.U. z 2024 r. poz. 17\" \"Kodeks karny\"",
+   "\"Dz.U. 2024 poz. 17\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"kodeks wykroczeń\" \"2013\"",
+   "\"1/4 minimalnego wynagrodzenia\" \"kodeks wykroczeń\" \"2018\"",
+   "\"art. 278 § 1a\" \"kodeks karny\"",
+   "\"art. 278\" \"kodeks karny\" \"karta uprawniająca\"",
+   "\"art. 278\" \"kodeks karny\" \"§ 1a\"",
+   "\"art. 278\" \"kodeks karny\" \"§ 5\"",
+   "\"art. 278a\" \"kodeks karny\"",
+   "\"art. 278a\" \"kradzież szczególnie zuchwała\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmmD5zM6_HhVYEtpzoBOCJz8XzZ9Ku2-29IXQIGUrdTJYcNMDc7WLULuOEQfNB4cF3yggPt_3ImluNRHWpnSBMPcxqMuP6BAN4GlEUi5jg1bd9V7Q56SKQcvoVaigm7DtlC9jd2GTJgc0g8qGat0mj8ZLhPaZNStwX9MF7WHycC_koQKmIRFFT-DQO4eaedUDTvOQwOUXY",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKPa0al2nbwBMu69HyE3ZpW8A1QF3fj9HNKaDSIqqBJIdrmo2-Dy0EGIkEQ6dpjPcir5K-NANk79LFEpaKtUHmao4A-Aw7JYbld8pFnLQNokm0tS718DR4BTe_0R1AN94Y7NBhjoF2CcRthdZfYMcaYxgzKlnWPTjgIJCh9YZMt8O1iULPo22wLgWVqpcW5wEM5syCbjWMD6erRdd3yfMdQ_RwkJw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOW1JOToneVBYh_r_plak6SXz3Gs1sJgfD8K-wPmDN_avQRang5L7FC5M8TvW5MrB-FxVMs-FRFtzTpfnDBxku3bsKNCXPD7LDF42XVyZhmaLA1UaER8onHoMZhp7gsyeX27yx1j9sA7BmxPxPoanLcSalyTEeBBPu-9xkKHTfhXtxorz-uuSrkVqSrrvsg8uFe4VNt_N0t_ZEELsb0WxftocrfYY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWOdz9GYmSs2bY1tNAZj_uvNxrl8BGD_SvJsrMth1Uqc8WVUhsxGmceC063-YMlap_aQs1FDjhEMhiWxCuILcA7noNbopAU9LaJcMd0I3xn782zAr55E5E2H3haE_obevm1LLouA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF4tNzIegRkvAl937EeR8VRerNbgCPO4KWi_IjCYNnLLk14PMKI2ZZunjE6hGCGyB7jw-fuDE_iqZ0X37_LdMBfDVUX2iVDDEia6yBUXrfULvfSCdDxVEMxD_tEK6fLXOBoOA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGD4pqs89lIEG0_an--tC7n1CLQiC4pg28OLjY8g5eZTUuIDsNgo1DPYDrBcN3JdgrqPWPclDrjqUHhzIxGZ-iVeo3ncrc2iTpWcxxee0DMr64py8zsZjoCXc8svblCiE2NHgvy9LzirZ1Dc1qun2dfbzjDFMx4vUV4wB7QznOx3BIXimskj77WWe7",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK_ryxKwM_k4OwptUZusOztM25kK29JMF7Y-fBNBA--XDFGelPtg82pXk1LREN5DY18BSKsUTCmX_bvuLSXW511AixVkLVsWbAgaUI3oeQ693RPg3UXLp7KV0L31QqZvF7GCNicepmDKVy1ZMEaeGUUA32sxXcHadytsk1zHQgk4JDfAO7-rJ1eMbpv5Le5wMyaj6tkk4reUC1lOA_",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH70xrXMyApMIzvHdXVsBm2EqEzDJY7TOS07xnG11l-avqtqlB8oCFiP8VBFBgUtgqxkOnARO4DfFVFc3pclV1nrWFNBaucrDTRcNXAybr2xU4aMHM73GPHg5PCGAeP3k74DIhZXSG5yg=="
+  ],
+  "tokeny": {
+   "wejscie": 14232,
+   "wyjscie": 1129
+  },
+  "czas_s": 223,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

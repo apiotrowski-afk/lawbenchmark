@@ -1,0 +1,71 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131 i nast. k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹a k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System wpadł w odwróconą pułapkę aktualności i pominął nowelizację obowiązującą od 1.06.2026 r. (Dz.U. 2025 poz. 1172), na mocy której doręczenie przez Portal Informacyjny dotyczy również strony, która dokonała takiego wyboru. Z tego względu rdzeń odpowiedzi nie został zrealizowany (A_R = 0), nie wskazano wymaganych podstaw z art. 131¹ᵃ k.p.c. (A2 = 0) oraz naliczono karę za błędne wykluczenie doręczeń portalowych dla samodzielnie występującej osoby fizycznej. Przepis art. 131¹ᵃ k.p.c. opisano w brzmieniu sprzed nowelizacji, co kwalifikuje błąd jako W/T i skutkuje A6 = 0 oraz statusem hallucinated. Odpowiedź jest zwięzła i trzyma się ram (A8 = 1), a poziom pewności odpowiada kategorycznemu wzorcowi (B2 = 1), lecz z uwagi na całkowitą dezinformację co do stanu prawnego jej wartość praktyczna wynosi zero (B1 = 0).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"131(1a)\" kpc sejm \"Dz.U. 2025\" \"1172\"",
+   "\"art. 131(1a)\" \"portalu informacyjnym\" \"stronie, która\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9591,
+   "wyjscie": 690
+  },
+  "czas_s": 32,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

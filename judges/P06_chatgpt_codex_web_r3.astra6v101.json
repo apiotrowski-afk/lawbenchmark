@@ -1,0 +1,64 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22 — identyfikator, kontekst upadłościowy i niezaskarżalność odrzucenia zażalenia",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2050-22-1.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "III CZP 50/22 — podkreślenie zamkniętego charakteru katalogu w uzasadnieniu",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2050-22-1.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie uzyskano pełnego uzasadnienia III CZP 50/22 ze źródła oficjalnego; oficjalny wynik wyszukiwania potwierdził identyfikator, kontekst i sentencję, lecz nie fragment dotyczący zamkniętego katalogu."
+ ],
+ "uzasadnienie": "Odpowiedź prawidłowo rozróżnia oba rodzaje zażalenia i podaje osobne konkluzje, realizując pełny rdzeń oraz wymaganą kalibrację warunkową. A2 wynosi 0 z powodu braku art. 397 § 1¹ k.p.c. Nie zaliczono czwartego elementu rubryki, ponieważ pominięto art. 130² k.p.c. Sprawdzone powołania odpowiadają treści oficjalnych źródeł; pominięcie wyjątków dotyczących terminu nie stanowi fałszywego twierdzenia według przyjętej reguły A6. Nie stwierdzono halucynacji, z zastrzeżeniem wskazanego zakresu nieweryfikowalności uzasadnienia uchwały.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P06",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 12,
+  "czas_s": 108,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

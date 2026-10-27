@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c. — dwukrotne objęcie warrantu i rewersu aktualnym zakresem przepisu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf ; dawne brzmienie: https://eli.gov.pl/api/acts/DU/2019/1460/text.html",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 730 i następne k.p.c. — przepisy o zabezpieczeniu i zażaleniu",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2 marca 2016 r., VIII Gz 43/16",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "komentarze D. Zawistowskiego",
+   "zrodlo": "https://www.saos.org.pl/judgments/213643 — potwierdza przywołanie komentarza przez sąd, bez bezpośredniej weryfikacji publikacji",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Bezpośrednia treść komentarzy D. Zawistowskiego i podstawa określenia stanowiska jako przeważającego."
+ ],
+ "uzasadnienie": "Odpowiedź przedstawia pełne rozróżnienie funkcji nakazu, wskazuje zabezpieczenie od chwili wydania bez klauzuli oraz ograniczenie zabezpieczenia, lecz pomija zawieszenie egzekucji. Aktualny art. 492 § 3 obejmuje weksel i czek; dodanie warrantu i rewersu odtwarza dawne brzmienie, co daje W, A6=0 i trzecią karę. Teza przypisana postanowieniu VIII Gz 43/16 jest zgodna ze źródłem SAOS. Nieuzasadnione przedstawienie kwestii jako spornej obniża B2, a wskazówki dotyczące rozszerzenia wstrzymania i zaskarżania osobnego postanowienia ograniczają przydatność do B1=1. A8=0,5 wynika z dodatkowego scenariusza nakazu opartego na innej podstawie niż wskazany w pytaniu weksel.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 8,
+  "czas_s": 50,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

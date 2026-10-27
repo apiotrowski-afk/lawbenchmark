@@ -1,0 +1,124 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 56 pr. aut. w zw. z art. 49",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 436 KC",
+   "zrodlo": "ISAP",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest prawidłowy (A-R=2) i zawiera wymagane podstawy prawne (A2=1). Odpowiedź zawiera jednak rażące halucynacje w uwagach pobocznych (A6=0, typ T): art. 436 k.c. powołano jako podstawę roszczenia o dodatkowe wynagrodzenie twórcy (w rzeczywistości dotyczy odpowiedzialności za wypadki komunikacyjne), art. 56 w zw. z art. 49 pr. aut. jako podstawę przeniesienia własności nośników (art. 56 dotyczy odstąpienia od umowy), a art. 41 ust. 3 pr. aut. przypisano normę sprzeczną z jego literalnym brzmieniem. Mimo to, ze względu na trafność głównej porady, B1 oceniono na 2, a kalibrację na 1.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"Art. 56\" \"prawo autorskie\" lex",
+   "\"Art. 56\" \"ustawa o prawie autorskim i prawach pokrewnych\" isap"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIUi5bUcZpMUhngRb0HniNfMlV-_g_cIksPehhQPIuOL_TiLJlql2CP1AtBMCm_zF-pPHjnJoY1INp0xvG95Tp1ydIo2GzwNSLKW8uGMiifDh-ebOT0G_WdrtC20bxznD3dHQlFNoo_Q8FNaEY_58whsLduUUPE8mKRO4IWNiF88fcirJwFe0vW4o_BA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb6cytZ9cMh6d8r2byQZZQ9sf_eR-zKS090vW2qouPk4s6ijcqZDeJXvy6FagF_0sItGzjD903dovBqvH3K14ADEDGF0QDWowhhu67Fcpnghe4OWbF1wHhvAM5i-_G5Yp4AGERY_BoNAoJd8cdltTy_O4JaaH4hkWiwrXq3m_4kvbTWluKrD4dleKGqZtXXXjRFO1MKZSOB0rGNE0M",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWcc3u_Oh81dtjHANVbvgEP6iitK6LjHh4MPRP2mcpYpzRsPlCQ33yyceSDfsuoMSoBcq-HQDgo3aollaHb0uas7R1lfhZXSi80SkA881EXeScE8nl7ov0EMvKVYw3IAHztV40MtghpoyZ5Cp9A0BV7Ca2ThdHWxa3ttipUnakqKNePW3u",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmLvj435WBeEOGdaR0gtiqQ2QOum7PV8-jxl4g9bwB3gso4UfoREeqrDy5d0eNuNHHqYkLGbf_StM81Enb4XlJnQ1-o59BN47_Z-J51gZVHZlfyLMu_McARAJfOWiYsm-QzTzsEy8w1g9qAGcuXysE",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7ebn_t8XquygAIxlRLb7gFq-vmZInV-e18cqvX3vVFPU_JzbwLVHCX5W9BzxQidXi5F8Qanb3FEOzrIEEACjDvsKuK9zD-rV9Fuyj4dwM51hwrhaFZ3iqSt1strPZCCQs1ppjxjko2WKj4KM8_5DiwzuwN2-A7KvXT0GWKgxXZd9HiDrK4wJA-heuI8jL5gHod6Y_eNm3gpwQA6RlHE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF38LcdmnCUhbqIvik3vhXJY3ivx2uDsz8_Fcc4pxH7nzMm0pYM0vVWqriQJjhADOMt2bbIp2Rl9xF202dkLeqa459IhPq1RlFIGOLUfd3Z5SJtFotIxUYWZVMTnAnOiQRaITHcyTcYcaJRVz0uovb5E-sw-HYZOj-sRB20CZZG_g==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWVtZt8aUtyXYjpUm73hnOH9oQkmv6fi91bIiuKQ5URErTPdgi5yxv6Tk0P4nf8G8JRSIpqZaCQKywvdhz1xYJnwW34kTGFTZwlD-FcL30rDzPD13Hd6OVVbmvYPdIwDFcslb2Jai6YSI8ju45X_tzikJZgOjYRq710wdZzMdhYN5l",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq4gLMfbnxADpUAo61Z5n-8DdUUyeiWgN71Izd4KyZXIBKPSKoBATBavqTilKdI_hAnKY9raY4MSL_8a_PNyuvIwouHHErodGZ6bYyHGRQ_c2p2biNClllRZL2m4cAOWbgTl1VaoGnGZvC6urljfXYCtKUwXJzIehl4wpH-KOJFpUCn0nbLVHJWDVNDSLFTx54vSleXTEAoNFWi53WXtMrfvdBneMtMHU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdXj8oUrHjS9FZQofr6wuUB5mbN_vwr2BIapXwIEP-yZKWZ9u2mMp_LmutheBE-E3lpTLwl0IX4w-on_pqyDQgyd4d7DU_l-mNmwa0WGkM0LqjIWZe7bp22YClPvPcRNkWHUJPSWacD6yR14Ko5YnXFpRzml-0jlsKzZOfWpQriBVyEhdk0gvIlVZ3jZsK5WbqvKxdASMSCgTtgw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNHxJ1LKEWtdbuIi2PAQHifdCSWQdKhO4KSjbNUz_R5sZFlo3cHrXWC_-I47Ri-RYFhmxkHwq_nNl5wrwmK2xPl2Q_YMzzzvxmJSJxG7CYyFhLU1bbRlxZjDrW7E66BoUFkRQOTwznatKh7f-BK16X5x-lMvkNGF5QD2VXb3mJsA59bgHjC7sITLUom7LwpvN2_XduGxAF6AcdJpAXwTLVa-6hNBlaeJitL0e-aMru3sUsUYxzA_gCFjrxrtFwy_BHWlfUgHH0saGDK42EP1TxhYOPYHLC6w=="
+  ],
+  "tokeny": {
+   "wejscie": 14507,
+   "wyjscie": 1074
+  },
+  "czas_s": 152,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

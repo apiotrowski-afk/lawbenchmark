@@ -1,0 +1,129 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 5 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 64 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 12 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 5 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 81 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo trafia w rdzeń (ogólna klauzula nie wystarcza) i przywołuje obie wymagane podstawy prawne (art. 41 ust. 2 i art. 53 pr. aut.). A6 wynosi jednak 0 (hallucinated: true) z powodu błędów typu T: zasadę, że nabycie egzemplarza nie przenosi praw autorskich (art. 61 pr. aut.), przypisano do art. 64 pr. aut., a ogólne dopuszczenie dalszego zbycia praw (art. 41 ust. 1 pkt 2 pr. aut.) przypisano do art. 41 ust. 5 pr. aut. (dotyczącego utworów audiowizualnych i zbiorowych). W rubryce zrealizowano 4 z 5 elementów bez naliczenia kar. Kalibracja B2 wynosi 0, ponieważ odpowiedź postawiła tezę w sposób kategoryczny, nie uwzględniając liberalnej linii SN dopuszczającej dookreślenie pól wykładnią w oparciu o cel umowy (art. 65 k.c.).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 41 ust. 2\" \"pr. aut.\" \"wyraźnie w niej wymienione\" \"Dz.U.\"",
+   "\"art. 41 ust. 3\" \"pr. aut.\" \"utworów określonego rodzaju\"",
+   "\"art. 43 ust. 1\" \"prawo autorskie\" \"wynagrodzenie przysługuje\"",
+   "\"art. 65\" \"prawo autorskie\" \"uważa się, że twórca udzielił licencji\"",
+   "\"art. 61\" \"prawo autorskie\" \"nabycie odrębnego egzemplarza\"",
+   "\"art. 64\" \"prawo autorskie\" \"Skutek rozporządzający\"",
+   "\"art. 41 ust. 5\" \"prawo autorskie\"",
+   "\"art. 41 ust. 5\" \"pr. aut.\" \"dopuszcza\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13649,
+   "wyjscie": 1041
+  },
+  "czas_s": 70,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 1 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców, Dz.U. 2017 poz. 2278",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 363 i 364 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 127 § 3 w zw. z art. 129 § 2 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 127a w zw. z art. 127 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 52 § 3 p.p.s.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Nowelizacja k.p.a. z 2017 r. wprowadzająca art. 16 § 3",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/935/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 § 1 p.p.s.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 217 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 6 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 8 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa z 12 marca 2022 r. o pomocy obywatelom Ukrainy — brak ogólnego zwolnienia z zezwolenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/1293/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Informacja MSWiA o zaświadczeniu o ostateczności i prawomocności, opłacie 17 zł i potwierdzeniu wpłaty",
+   "zrodlo": "https://www.gov.pl/web/mswia/najczesciej-zadawane-pytania",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dwuletnia ważność zezwolenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Pełny rdzeń został przedstawiony: zezwolenie jest decyzją ministra, a organ zaświadcza jej ostateczność i prawomocność. A2 = 0 za niewskazanie wymaganej jednostki art. 217 § 2 pkt 2 k.p.a., przy powołaniu jedynie całego artykułu. R4 = 0, ponieważ podano termin 30 dni i możliwość bezpośredniej skargi, lecz pominięto liczenie terminu od doręczenia. Zweryfikowane powołania nie zawierają fałszywych twierdzeń; pominięcia przesłanek i skutku prawomocności przy zrzeczeniu nie obniżają A6, a trafne uwagi poboczne nie obniżają A8.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 10,
+  "czas_s": 69,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

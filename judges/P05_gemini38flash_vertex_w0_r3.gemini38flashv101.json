@@ -1,0 +1,75 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) w zw. z Dz.U. 2025 poz. 1172",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 1, § 2 i § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wpadła w pułapkę aktualności: twierdzi, że odczytanie pisma z portalu przez osobę fizyczną nie wywołuje skutku doręczenia procesowego, a art. 131¹ᵃ § 1 k.p.c. nie obejmuje stron działających osobiście, co stanowi stan prawny sprzed noweli z 5.08.2025 r. (obowiązującej od 1.06.2026 r., Dz.U. 2025 poz. 1172). Z tego względu naliczono karę za twierdzenie o niedopuszczalności doręczeń portalowych osobie fizycznej oraz zerowano A_R, A2 i rubrykę, a powołanie nieaktualnego brzmienia art. 131¹ᵃ § 1 k.p.c. skutkuje A6 = 0 (klasy W i T). Zgodnie z precedensem P05 wprowadzenie w błąd grożące utratą terminu procesowego skutkuje B1 = 0. Przy oczekiwanej kalibracji kategorycznej pewny ton wypowiedzi daje B2 = 1, natomiast dygresje o PURDE/BAE oraz osobie fizycznej będącej adwokatem obniżają A8 do 0.5.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12043,
+   "wyjscie": 833
+  },
+  "czas_s": 35,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "S"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2.03.2016 r., VIII Cz 83/16",
+   "zrodlo": "SAOS",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozróżnia funkcje nakazu zapłaty i trafnie wskazuje, że wstrzymanie wykonania dotyczy tylko egzekucji, a nie zabezpieczenia. Zalicza wszystkie elementy rubryki i nie wpada w kary. Niestety, system przekręcił sygnaturę powołanego orzeczenia Sądu Okręgowego w Szczecinie (podał VIII Cz 83/16 zamiast prawidłowej VIII Gz 43/16), co skutkuje błędem klasy S i obniżeniem A6 do 0. Poza tym błędem odpowiedź jest wysoce przydatna i dobrze skalibrowana.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"VIII Cz 83/16\" \"Szczecinie\"",
+   "\"VIII Gz 43/16\" \"Szczecinie\"",
+   "\"wstrzymanie wykonalności nakazu zapłaty wydanego na podstawie weksla nie pozbawia takiego nakazu zapłaty cech tytułu zabezpieczającego\"",
+   "\"nie pozbawia takiego nakazu zapłaty cech tytułu zabezpieczającego\"",
+   "\"wstrzymanie wykonalności nakazu zapłaty wydanego na podstawie weksla nie pozbawia\"",
+   "\"wstrzymanie wykonania tytułu wykonawczego rodzi przy tym skutki\"",
+   "\"nie pozbawia takiego nakazu zapłaty cech tytułu zabezpieczającego\" \"VIII Gz 43/16\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12171,
+   "wyjscie": 717
+  },
+  "czas_s": 149,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

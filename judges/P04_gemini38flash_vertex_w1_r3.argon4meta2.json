@@ -1,0 +1,103 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (ELI/ISAP): „Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia. Zezwolenie jest wydawane, w drodze decyzji administracyjnej, przez ministra właściwego do spraw wewnętrznych, jeżeli sprzeciwu nie wniesie Minister Obrony Narodowej, a w przypadku nieruchomości rolnych, jeżeli sprzeciwu również nie wniesie minister właściwy do spraw rozwoju wsi.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (ELI/ISAP): „Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy, są ostateczne.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (ELI/ISAP): „Art. 217. § 1. Organ administracji publicznej wydaje zaświadczenie na żądanie osoby ubiegającej się o zaświadczenie. § 2. Zaświadczenie wydaje się, jeżeli: 1) urzędowego potwierdzenia określonych faktów lub stanu prawnego wymaga przepis prawa; 2) osoba ubiega się o zaświadczenie ze względu na swój interes prawny w urzędowym potwierdzeniu określonych faktów lub stanu prawnego.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (ELI/ISAP): „§ 2. Z dniem doręczenia organowi administracji publicznej oświadczenia o zrzeczeniu się prawa do wniesienia odwołania przez ostatnią ze stron postępowania, decyzja staje się ostateczna i prawomocna.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 101 § 3 Kodeksu rodzinnego i opiekuńczego",
+   "zrodlo": "Dz.U. 2026 poz. 236 (ELI/ISAP): „§ 3. Rodzice nie mogą bez zezwolenia sądu opiekuńczego albo, w przypadkach wskazanych w art. 640¹ ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego (Dz. U. z 2024 r. poz. 1568, z późn. zm.), sądu spadku dokonywać czynności przekraczających zakres zwykłego zarządu ani wyrażać zgody na dokonywanie takich czynności przez dziecko.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ELI/ISAP): „§ 1. Orzeczenie sądu staje się prawomocne, jeżeli nie przysługuje co do niego środek odwoławczy lub inny środek zaskarżenia.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 364 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ELI/ISAP): „Art. 364. § 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji, a dopóki akta sprawy znajdują się w sądzie drugiej instancji – ten sąd. § 2. Postanowienia w sprawie, o której mowa w § 1, może wydać także referendarz sądowy.”",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 13 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (ELI/ISAP): „§ 2. Przepisy o procesie stosuje się odpowiednio do innych rodzajów postępowań unormowanych w niniejszym kodeksie, chyba że przepisy szczególne stanowią inaczej.”",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie koryguje formę zgody MSWiA na decyzję administracyjną (R1) oraz wskazuje na zaświadczenie organu w trybie art. 217 k.p.a. zamiast klauzuli (R2), jednak w konkluzji dla decyzji MSWiA wskazuje na potwierdzanie ostateczności, pomijając zaświadczanie prawomocności po upływie 30 dni na skargę do WSA (A-R = 0, R3 = 0, R4 = 0 wg reguł oceny z 2026-10-18). Kara K3 nie została naliczona, gdyż system nie wykluczył prawomocności decyzji administracyjnej (wspomniał o niej przy art. 127a § 2 k.p.a.) ani nie użył dla niej zastrzeżenia „wyłącznie ostateczność”. Punkt A2 wynosi 0 z uwagi na brak powołania art. 16 § 3 k.p.a. oraz szczegółowej jednostki art. 217 § 2 pkt 2 k.p.a. Wszystkie powołane przepisy są zgodne z oficjalnymi tekstami jednolitymi (A6 = 1), a omówienie wariantu postanowienia sądu opiekuńczego jest uprawnione wobec brzmienia pytania (A8 = 1). W bloku B odpowiedź otrzymuje B1 = 1 (trafny organ, tryb zaświadczenia i wskazówka o art. 127a k.p.a., lecz brak 30-dniowego terminu skargi do WSA i zaświadczenia o prawomocności) oraz B2 = 1 za stanowczą kalibrację w ramach wyróżnionych wariantów.",
+ "_meta": {
+  "sedzia": "argon4meta2",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Dz.U. 2017 poz. 2278\" \"art. 1\" OR",
+   "\"Dz.U. 2025 poz. 1691\" \"art. 16\" \"art. 127a\" \"art. 217\" OR",
+   "\"Dz.U. 2026 poz. 236\" \"art. 101\" OR",
+   "\"Dz.U. 2026 poz. 468\" \"art. 363\" \"art. 364\" \"art. 13\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUBHJzARnkSa61LYtcZrxW5QyWAgmxLuS6Bv3NO_k_169ZNauS8O4wIvSwKgHv5eAW3gB4Lw8aZlvVoYH8hkQAFkp1-ydoHw1pvK-H0TYxZo95ZdpLV2bcJMsYke1_Np42DQ-1U0w5d5k-Wyxz8wRsBzUNLCuvMKzJrFT_OLUzMDKWduLp6mbBXKKqb8sqep2KpWo8Eoj6HCmEpQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHjIhpOxUebHZ_a7ulUDOTSRc6wwCs78JXUw0-dPAOni-85mVSIlQ3_7ONiJqsp9yjIPAO3pCS2sO4gYJ2dger-gMlIInk9-ob7i7fpYdhv2aEPuq3zhFZuVT1rnd5r321ZvwTr3U4Du3HaFP5OogRFeSgIPcLUTesJ-2djkcN",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXfGG49uweezVQJ4h9pKm-Bon7XhqSdgeSrkYWwxlQmCvtdtLd4MqOirJq5rKxPTvyYVlYO5i9hNddALjE62q8MdCBLjEXAdRARNkLPL5FQ4vZ3LhOBZhOo_maCwn1WqFNd_VxnAhqzOtYNrBpaU8dMdIAmZttvw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbMs743f-Y_mwT959lBQcnrBhcEiShYIyDW-tfbrN7vsrohQSbMZCtSztjLnovjRuRuSNlv0xOHOyYskBuPSmRqF_uYXErDG-duucoBiiblEfnLuaWCyYhrk5Uxodtx9sfmReya0UDqBSNLgL0Y8LPR1OeMCMeaPhujC_o52llnojO6rdNgNEWDP18nXB66Rk1lYCiKcZCDkNTxxfxzpBGHsFM15COMnEwcZSUYDB23wX5ZqC6",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjWtuN7OVcgixo4PMbQlcguP4D3kofF5nbBRlmgdyTy5JhsK9vM684HveYYDEKv-DooicR5ozkEV-3Xhfuwc6H3yRC4wy3TTaYlPFJpDQPvtUDt5PXltxShPdFcK-s7Xvpoiy7fSE0OZau6V2y17jdmXiufV__MBLffg-afFCMrFzqmE1UBJPZO2MxecSfrcA="
+  ],
+  "tokeny": {
+   "wejscie": 19931,
+   "wyjscie": 1836,
+   "rozumowanie": 6638
+  },
+  "czas_s": 125,
+  "data": "2026-10-24",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 8, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 1 ust. 1 [akt: nieustalony (brak aktu; klucz wieloaktowy)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 2. art. 16 § 1 [akt: nieustalony (brak aktu; klucz wieloaktowy)]\n    · STATUS WERYFIKACJI (nie jest błędem): akt_nieustalony — brak nazwy aktu przy powołaniu; klucz nazywa kilka aktów w podstawach wymaganych\n    · istnienie: akt nieustalony — do sprawdzenia ręcznie\n    · flagi kroku faktów: akt_nieustalony\n- 3. art. 217 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „Art. 217. § 1. Organ administracji publicznej wydaje zaświadczenie na żądanie osoby ubiegającej się o zaświadczenie. § 2. Zaświadczenie wydaje się, jeżeli: 1) urzędowego potwierdzenia określonych faktów lub stanu prawnego wymaga przepis prawa; 2) osoba ubiega się o zaświadczenie ze względu na swój interes prawny w urzędowym potwierdzeniu określonych faktów lub stanu prawnego. § 3. Zaświadczenie powinno być wydane bez zbędnej zwłoki, nie później jednak niż w terminie siedmiu dni. § 4. Zaświadczenie wydaje się w formie dokumentu elektronicznego, opatrzonego bezpiecznym podpisem elektronicznym w…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Organ wydaje na wniosek odrębne zaświadczenie o ostateczności decyzji w trybie przewidzianym w tym przepisie.”\n    · uzasadnienie weryfikatora: Przepis wprost reguluje wydawanie zaświadczeń na żądanie (wniosek) w celu urzędowego potwierdzenia faktów lub stanu prawnego, a zastosowanie tego trybu do ostateczności decyzji jest otoczką praktyczną.\n    · kotwica (verbatim ze źródła): „Art. 217. § 1. Organ administracji publicznej wydaje zaświadczenie na żądanie osoby ubiegającej się o zaświadczenie.”\n    · brzmienie jednostki (fragment): „Art. 217. § 1. Organ administracji publicznej wydaje zaświadczenie na żądanie osoby ubiegającej się o zaświadczenie. § 2. Zaświadczenie wydaje się, jeżeli: 1) urzędowego potwierdzenia określonych faktów lub stanu prawnego wymaga przepis prawa; 2) osoba ubiega się o zaświadczenie ze względu na swój interes prawny w urzędowym potwierdzeniu określonych faktów lub stanu prawnego. § 3. Zaświadczenie powinno być wydane bez zbędnej zwłoki, nie później jednak niż w terminie siedmiu dni. § 4. (uchylony)”\n- 4. art. 127a § 2 k.p.a. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R3 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „W tym tekście nie ma art. 127a.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Z dniem doręczenia organowi oświadczenia stron o zrzeczeniu się prawa do wniesienia wniosku o ponowne rozpatrzenie sprawy decyzja staje się jednocześnie ostateczna i prawomocna.”\n    · uzasadnienie weryfikatora: Przepis wprost stanowi, że z dniem doręczenia organowi oświadczenia o zrzeczeniu się prawa do wniesienia odwołania decyzja staje się jednocześnie ostateczna i prawomocna (odniesienie w odpowiedzi do wniosku o ponowne rozpatrzenie sprawy to zastosowanie normy do sytuacji z pytania).\n    · kotwica (verbatim ze źródła): „§ 2. Z dniem doręczenia organowi administracji publicznej oświadczenia o zrzeczeniu się prawa do wniesienia odwołania przez ostatnią ze stron postępowania, decyzja staje się ostateczna i prawomocna.”\n    · brzmienie jednostki (fragment): „§ 2. Z dniem doręczenia organowi administracji publicznej oświadczenia o zrzeczeniu się prawa do wniesienia odwołania przez ostatnią ze stron postępowania, decyzja staje się ostateczna i prawomocna.”\n- 5. art. 101 § 3 Kodeksu rodzinnego i opiekuńczego [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R1 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_brak_nowelizacji; nieurzędowy odczyt PDF / tekst skonsolidowany\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2025-10-01, 2021-10-01\n    · brzmienie wcześniejsze (na dzień 2025-10-01, fragment): „§ 3. Rodzice nie mogą bez zezwolenia sądu opiekuńczego albo, w przypadkach wskazanych w art. 640 1 ustawy z dnia 17 listopada 1964 r. - Kodeks postępowania cywilnego ( Dz. U. z 2023 r. poz. 1550 , 1429 , 1606 , 1615 , 1667 i 1860 ) , sądu spadku dokonywać czynności przekraczających zakres zwykłego zarządu ani wyrażać zgody na dokonywanie takich czynności przez dziecko.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Sąd opiekuńczy wydaje rodzicom zezwolenie na dokonanie czynności przekraczającej zakres zwykłego zarządu majątkiem dziecka.”\n    · uzasadnienie weryfikatora: Przepis potwierdza wymóg uzyskania zezwolenia sądu opiekuńczego na dokonanie czynności przekraczających zakres zwykłego zarządu majątkiem dziecka, a niewspomnienie w tym przykładzie o właściwości sądu spadku stanowi jedynie pominięcie wyjątku.\n    · kotwica (verbatim ze źródła): „§ 3. Rodzice nie mogą bez zezwolenia sądu opiekuńczego albo, w przypadkach wskazanych w art. 640¹ ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego (Dz. U. z 2024 r. poz. 1568, z późn. zm.), sądu spadku dokonywać czynności przekraczających za…”\n    · brzmienie jednostki (fragment): „§ 3. Rodzice nie mogą bez zezwolenia sądu opiekuńczego albo, w przypadkach wskazanych w art. 640¹ ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego (Dz. U. z 2024 r. poz. 1568, z późn. zm.), sądu spadku dokonywać czynności przekraczających zakres zwykłego zarządu ani wyrażać zgody na dokonywanie takich czynności przez dziecko.”\n- 6. art. 363 § 1 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_czesciowo; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Postanowieniu sądu nadaje się wyłącznie stwierdzenie prawomocności.”\n    · uzasadnienie weryfikatora: Powołany łącznie z art. 364 k.p.c. przepis określa pojęcie prawomocności orzeczenia sądu, natomiast samo stwierdzanie prawomocności wynika z sąsiedniego, powołanego obok art. 364 k.p.c.\n    · kotwica (verbatim ze źródła): „§ 1. Orzeczenie sądu staje się prawomocne, jeżeli nie przysługuje co do niego środek odwoławczy lub inny środek zaskarżenia.”\n    · brzmienie jednostki (fragment): „§ 1. Orzeczenie sądu staje się prawomocne, jeżeli nie przysługuje co do niego środek odwoławczy lub inny środek zaskarżenia.”\n- 7. art. 364 k.p.c. [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2016-10-01, fragment): „Art. 364. § 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji na posiedzeniu niejawnym, a dopóki akta sprawy znajdują się w sądzie drugiej instancji - ten sąd. Stwierdzenia dokonuje sąd jednoosobowo. § 2. Postanowienia w sprawie, o której mowa w § 1, może wydać także referendarz sądowy.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Postanowieniu sądu nadaje się wyłącznie stwierdzenie prawomocności.”\n    · uzasadnienie weryfikatora: Powołane łącznie przepisy art. 364 i art. 13 § 2 k.p.c. wprost przewidują instytucję stwierdzenia prawomocności orzeczenia sądowego.\n    · kotwica (verbatim ze źródła): „Art. 364. § 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji, a dopóki akta sprawy znajdują się w sądzie drugiej instancji – ten sąd.”\n    · brzmienie jednostki (fragment): „Art. 364. § 1. Prawomocność orzeczenia stwierdza na wniosek strony sąd pierwszej instancji, a dopóki akta sprawy znajdują się w sądzie drugiej instancji – ten sąd. § 2. Postanowienia w sprawie, o której mowa w § 1, może wydać także referendarz sądowy.”\n- 8. art. 13 § 2 k.p.c. [akt: wprost]\n    · powołanie w_zwiazku — ocena łącznie z powołaniem nr 7; istnienie: istnieje\n    · istnieje; brzmienie na datę stanu prawnego: nieustalone; urzędowy HTML\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

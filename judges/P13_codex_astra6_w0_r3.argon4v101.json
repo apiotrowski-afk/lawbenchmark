@@ -1,0 +1,94 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c. z późn. zm., tekst Kancelarii Sejmu z 2026-08-18)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c. z późn. zm., tekst Kancelarii Sejmu z 2026-08-18)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c. z późn. zm., tekst Kancelarii Sejmu z 2026-08-18)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c. z późn. zm., tekst Kancelarii Sejmu z 2026-08-18)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c. z późn. zm., tekst Kancelarii Sejmu z 2026-08-18)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozstrzyga problem (A-R=2), wyraźnie rozdzielając funkcję nakazu zapłaty jako tytułu zabezpieczenia wykonalnego z chwilą wydania bez klauzuli wykonalności (art. 492 § 1 k.p.c.) od natychmiastowej wykonalności nakazu z weksla i wstrzymania jego wykonania (art. 492 § 3 k.p.c.). Wszystkie powołane przepisy (art. 492 § 1–3, art. 731 i art. 742 k.p.c.) zostały zweryfikowane w tekście oficjalnym (Dz.U. 2026 poz. 468) i opisane bezbłędnie (A2=1, A6=1). W rubryce zaliczono trzy z czterech elementów, ponieważ system prawidłowo wskazał środki obrony pozwanego (art. 492 § 2 i art. 742 k.p.c.), lecz pominął skutek wstrzymania wykonania nakazu w postaci zawieszenia egzekucji z art. 820 § 2 k.p.c. (R=[1,1,1,0]). Wypowiedź jest zwięzła, ściśle w ramach pytania (A8=1), praktycznie użyteczna (B1=2) i właściwie skalibrowana (B2=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 21,
+  "zapytania": [
+   "\"art. 731\" \"Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia\" OR",
+   "\"art. 742\" \"uchylenia lub zmiany\" OR",
+   "\"art. 492\" \"Nakaz zapłaty z chwilą wydania\" OR",
+   "\"art. 731\" \"zaspokojenia roszczenia\"",
+   "\"art. 492\" \"tytuł zabezpieczenia\"",
+   "\"art. 742\" \"uchylenia lub zmiany\"",
+   "\"2026\" \"468\"",
+   "\"api.sejm.gov.pl/eli/acts/DU/2026/468\"",
+   "\"isap.sejm.gov.pl\" \"2026\" \"468\" \"Kodeks postępowania cywilnego\"",
+   "\"Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia, chyba że ustawa stanowi inaczej\"",
+   "\"Art. 492.\" \"468\"",
+   "\"Art. 731.\" \"468\"",
+   "\"Art. 742.\" \"468\"",
+   "\"Kancelaria Sejmu\" \"Art. 492.\" \"Nakaz zapłaty z chwilą wydania\"",
+   "\"Kancelaria Sejmu\" \"Art. 731.\" \"Zabezpieczenie nie może zmierzać\"",
+   "\"Kancelaria Sejmu\" \"Art. 742.\" \"Obowiązany może w każdym czasie\"",
+   "\"2026-08-18\" \"Kancelaria Sejmu\" \"Art. 492.\"",
+   "\"2026-08-18\" \"Kancelaria Sejmu\" \"Art. 731.\"",
+   "\"2026-08-18\" \"Kancelaria Sejmu\" \"Art. 742.\"",
+   "\"2026-08-18\" \"Kancelaria Sejmu\" \"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10001,
+   "wyjscie": 1620
+  },
+  "czas_s": 126,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

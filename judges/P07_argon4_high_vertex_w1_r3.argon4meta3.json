@@ -1,0 +1,52 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "pusta"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź systemu jest całkowicie pusta (brak tekstu i sygnału o blokadzie dostawcy). Zgodnie z regułami benchmarku pusta odpowiedź otrzymuje 0 punktów we wszystkich ocenianych kryteriach merytorycznych (A-R, A2, A8, R, B1, B2) oraz A6 = 0 z typem 'pusta', ale bez etykiety hallucinated (false). Kryteria A3 i A5 są nieoceniane (nd) z uwagi na brak cytatów oraz brak sporności zagadnienia w kluczu.",
+ "_meta": {
+  "sedzia": "argon4meta3",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 14379,
+   "wyjscie": 246,
+   "rozumowanie": 869
+  },
+  "czas_s": 20,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json",
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 0, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

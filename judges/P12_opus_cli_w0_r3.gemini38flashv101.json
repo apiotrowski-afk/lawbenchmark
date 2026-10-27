@@ -1,0 +1,109 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 77³ k.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1040",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 243¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 30 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 47 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 840 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco wyjaśnia strukturę rozróżnienia art. 787 i 787¹ k.p.c. oraz prostuje błędne założenia z pytania (art. 781¹ k.p.c. i brak trybu bez ograniczeń), co uzasadnia wysokie oceny w blokach A-R, B1 i B2. A6 wynosi jednak 0 (hallucinated=true) ze względu na przypisanie treści o skuteczności intercyzy wobec wierzyciela do art. 47 § 2 k.r.o. zamiast art. 47¹ k.r.o. (treść ta znajdowała się w art. 47 § 2 k.r.o. przed nowelizacją z 2004 r., zatem zachodzi klasa T oraz W). W rubryce zabrakło jedynie wskazania reżimu z art. 776¹ k.p.c. na wypadek braku zarówno zgody, jak i powiązania z przedsiębiorstwem.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art 47\" kro \"małżonek może powołać się\" OR \"skuteczna wobec wierzyciela\"",
+   "\"art 47 § 2\" kro",
+   "\"art 47[1]\" kro \"względem innych osób\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11376,
+   "wyjscie": 921
+  },
+  "czas_s": 40,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

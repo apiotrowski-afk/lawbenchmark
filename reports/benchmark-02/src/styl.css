@@ -1,0 +1,76 @@
+
+:root{--paper:#ffffff;--navy:#293239;--navy2:#323c44;--blue:#1f60e8;--blue-ink:#2060e8;--sky:#eaf0fd;--sky2:#d6e3fb;--line:#c7d6ee;--line2:#e3e8ef;--panel:#f7f8fa;
+--ink:#1f272d;--muted:#4a535a;--ok:#e6f1e8;--ok-ink:#2f6e4f;--half:#fdf2d8;--half-ink:#8a6013;--bad:#fbe8e6;--bad-ink:#a83a2c;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,'Liberation Sans',Helvetica,sans-serif;font-size:10.5pt;line-height:1.65}
+.page{max-width:820px;margin:0 auto;padding:0 20px 60px}
+.cover{background:var(--navy);color:#fff;padding:40px 44px 30px;margin:24px 0 36px;border-radius:4px;position:relative}
+.cover-head{display:flex;align-items:center;gap:16px;margin-bottom:44px}
+.cover .logo{width:44px;height:auto}
+.cover-brand{font-size:9.5pt;font-weight:700;letter-spacing:.22em;color:#fff;margin-bottom:5px}
+.cover-kicker{font-size:8pt;font-weight:700;letter-spacing:.14em;color:#c7d6ee}
+.cover h1{font-weight:700;font-size:30pt;line-height:1.12;margin:0 0 18px;color:#fff;text-wrap:balance;max-width:22ch;letter-spacing:-.01em}
+.bar{width:48px;height:5px;background:var(--blue);margin:0 0 22px}
+.cover-sub{font-size:14pt;font-weight:700;color:#fff;margin:0 0 8px}
+.cover-sub2{font-size:10.5pt;color:#c7d6ee;max-width:58ch;margin:0 0 28px;line-height:1.5}
+.grupy{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:24px}
+.grupa{background:#fff;border-radius:6px;padding:14px 16px 12px;color:var(--ink);font-size:9.5pt;line-height:1.5}
+.grupa-h{font-weight:700;font-size:10.5pt;color:var(--ink);padding-bottom:9px;border-bottom:1px solid var(--line2);margin-bottom:10px}
+.grupa b{display:block;color:var(--blue-ink);font-weight:700;font-size:10pt;margin-bottom:3px}
+.grupa span{display:block;color:var(--muted);font-size:8.5pt;margin-top:4px}
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:24px}
+.tile b{display:block;font-size:17pt;font-weight:700;color:#fff;margin-bottom:5px;letter-spacing:-.01em;white-space:nowrap}
+.tile span{font-size:8.5pt;color:#c7d6ee;line-height:1.4;display:block}
+.cover-line{font-size:8pt;font-weight:700;letter-spacing:.12em;color:var(--blue);margin-bottom:22px}
+.cover-aut{font-size:10pt;color:#fff;font-weight:700;margin-bottom:22px}
+.cover-foot{display:flex;justify-content:space-between;font-size:7.5pt;font-weight:700;letter-spacing:.14em;color:#c7d6ee;border-top:1px solid #3f4a53;padding-top:12px}
+.runhead{display:flex;justify-content:space-between;align-items:center;font-size:7.5pt;font-weight:700;letter-spacing:.14em;color:var(--muted);border-bottom:1px solid var(--line2);padding-bottom:10px;margin:40px 0 26px}
+.rh-l{display:inline-flex;align-items:center;gap:12px}.rh-l img{width:26px;height:auto}
+.eyebrow{font-size:8.5pt;letter-spacing:.14em;color:var(--blue-ink);font-weight:700;margin:0 0 10px}
+.rozdzial h2{font-weight:700;font-size:21pt;line-height:1.15;margin:0 0 12px;color:var(--ink);text-wrap:balance;letter-spacing:-.01em}
+.rozdzial h3{font-weight:700;font-size:12pt;margin:24px 0 8px;color:var(--ink)}
+.lead{color:var(--muted);font-size:11pt;margin:0 0 18px;max-width:64ch;line-height:1.5}
+.autorzy{color:var(--muted);font-size:10pt;margin:-4px 0 16px}
+p{margin:0 0 11px;color:var(--ink)}
+.kol p,.kol li,.abstrakt-blok p{text-align:justify;hyphens:auto;line-height:1.65}
+.kol li{margin-bottom:5px}
+.box{background:var(--sky);border-left:4px solid var(--blue);border-radius:4px;padding:14px 18px;margin:14px 0 18px}
+.box p:last-child{margin-bottom:0}
+.card{background:#fff;border:1px solid var(--line2);border-radius:6px;padding:14px 16px;margin:14px 0 18px}
+.card p:last-child{margin-bottom:0}
+.tabela p{margin:0 0 8px;font-size:9.5pt}
+table{border-collapse:collapse;width:100%;font-size:8.2pt;line-height:1.33;font-variant-numeric:tabular-nums}
+th{font-weight:700;font-size:6.8pt;letter-spacing:.06em;text-transform:uppercase;color:var(--blue-ink);background:var(--sky);text-align:left;padding:7px 8px;border-bottom:1px solid var(--line)}
+td{padding:5px 6px;border-bottom:1px solid var(--line2);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.c{text-align:center;font-weight:700}
+td.ok{background:var(--ok);color:var(--ok-ink)}td.half{background:var(--half);color:var(--half-ink)}td.bad{background:var(--bad);color:var(--bad-ink)}
+.kazus blockquote{margin:0;background:var(--panel);border:1px solid var(--line2);border-left:4px solid var(--blue);border-radius:4px;padding:12px 16px;font-size:9.5pt;line-height:1.55;white-space:normal;color:var(--ink)}
+.kazus blockquote p{margin:0 0 8px}
+mark.todo{background:#fff3b0;color:#6b4e00;padding:0 3px;border-radius:2px}
+.odp{white-space:pre-wrap;word-wrap:break-word;font-family:Arial,'Liberation Sans',Helvetica,sans-serif;font-size:8.5pt;line-height:1.45;background:var(--panel);border:1px solid var(--line2);border-left:4px solid var(--sky2);border-radius:4px;padding:12px 14px;margin:8px 0 22px;color:var(--ink)}
+.odp-meta{font-weight:400;font-size:9pt;color:var(--muted)}
+.karta{font-size:8.5pt;line-height:1.45;margin:6px 0 22px}
+.karta table{font-size:8pt;line-height:1.35;margin:6px 0 10px}
+.karta th{font-size:7pt}
+.karta td:nth-child(3){white-space:nowrap}
+.karta h2{font-size:10pt;margin:10px 0 4px;color:var(--blue-ink)}
+.karta p{margin:0 0 6px}
+strong{font-weight:700}
+.rozdzial.literatura .kol p{font-size:9pt}
+em{font-style:italic}
+.abstrakt .box p{font-size:10.5pt}
+.tytul-art{font-weight:700;font-size:20pt;line-height:1.2;margin:0 0 10px;color:var(--ink);text-wrap:balance}
+.abstrakt-blok{background:var(--sky);border-left:4px solid var(--blue);border-radius:4px;padding:14px 18px;margin:14px 0 8px}
+.abstrakt-blok p{font-size:10pt;line-height:1.5}
+.abstrakt-blok p:last-child{margin-bottom:0}
+.kol h3,.kol p,.kol ul,.kol ol{}
+.kol .tabela,.kol .card,.kol .kazus,.kol table{column-span:all}
+.kol h3{margin-top:14px}
+@media (min-width:1000px){.rozdzial:not(.abstrakt):not(.aneks) .kol{column-count:2;column-gap:28px}.rozdzial .kol .tabela{column-span:all}}
+.tabela{overflow-x:auto}
+code{font-family:'DejaVu Sans Mono',Consolas,monospace;font-size:.86em;background:var(--panel);padding:0 2px;border-radius:2px;word-break:break-all}
+.rozdzial.aneks .kol p,.rozdzial.aneks .kol li{text-align:left}
+.literatura .kol p{font-size:9pt}
+.rozdzial h3{font-size:11.5pt}
+.tabela td:first-child{white-space:nowrap}.karta td:first-child{white-space:normal}

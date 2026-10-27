@@ -1,0 +1,90 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 i art. 357 § 5 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — ISAP/ELI",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 2 lipca 2021 r., III CZP 38/20",
+   "zrodlo": "sn.pl / OSNC 2021 nr 12 poz. 80",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 6 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) — ISAP/ELI",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź już w pierwszych dwóch akapitach zawiera pełny rdzeń (A-R = 2) oraz powołuje wszystkie wymagane podstawy prawne z art. 357 § 1, § 2¹ i § 5 k.p.c. (A2 = 1). Wszystkie powołania przepisów oraz uchwały SN z 2 lipca 2021 r., III CZP 38/20 są w pełni zgodne ze źródłami oficjalnymi (A6 = 1). Zrealizowano wszystkie cztery elementy rubryki, w tym odniesienie do art. 357 § 6 k.p.c., i nie naliczono żadnej kary. Jednozdaniowa formuła wniosku o uzasadnienie jest neutralna zgodnie z regułą graniczną nr 5 dla A8 (A8 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 17,
+  "zapytania": [
+   "\"357\" \"zasadnicze powody rozstrzygnięcia\" OR OR",
+   "\"III CZP 38/20\" OR",
+   "\"Postanowienie ogłoszone na posiedzeniu jawnym sąd uzasadnia tylko wtedy\" OR OR",
+   "\"III CZP 38/20\" \"2 lipca 2021\"",
+   "\"III CZP 38/20\"",
+   "\"DU/2026/468\" OR OR",
+   "\"Art. 357\" \"zasadnicze powody\" OR OR",
+   "\"III CZP 38/20\" \"zarządzenie o zwrocie pozwu\" OR",
+   "\"301f4741-66aa-4980-b9fa-873e90506a11\"",
+   "\"Art. 357.\" \"zasadnicze powody\" OR",
+   "\"Termin do wniesienia zażalenia na zarządzenie o zwrocie pozwu, w którym wskazano zasadnicze powody rozstrzygnięcia\" OR",
+   "\"Art. 357.\" \"zasadnicze powody rozstrzygnięcia\"",
+   "\"zasadnicze powody rozstrzygnięcia\"",
+   "\"Kancelaria Sejmu\" \"Art. 357.\" \"Wydając postanowienie, nawet niepodlegające zaskarżeniu\"",
+   "\"sn.pl\" \"III CZP 38/20\"",
+   "\"1377-301f4741-66aa-4980-b9fa-873e90506a11\"",
+   "\"saos.org.pl\" \"III CZP 38/20\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10838,
+   "wyjscie": 1407
+  },
+  "czas_s": 119,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

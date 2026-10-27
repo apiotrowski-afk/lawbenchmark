@@ -1,0 +1,107 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 752 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 zd. 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź jest w pełni trafna merytorycznie i zawiera kompletny rdzeń już w pierwszym akapicie, prawidłowo rozróżniając funkcję egzekucyjną nakazu z weksla od funkcji tytułu zabezpieczenia (A_R=2, B2=1). Wymagane podstawy prawne (art. 492 § 1 i § 3 k.p.c.) oraz przytoczone cytaty są w pełni zgodne ze stanem prawnym Dz.U. 2026 poz. 468 (A2=1, A3=1, A6=1). W rubryce przyznano punkty za rozdzielenie funkcji, wyjaśnienie roli nakazu jako zabezpieczenia ex lege oraz wskazanie środków obrony dłużnika; utracono punkt czwarty z uwagi na brak wzmianki o zawieszeniu egzekucji z art. 820 § 2 k.p.c. Kary nie zostały naliczone. Wywód jest zwięzły, pozbawiony zbędnych dygresji i daje precyzyjne wskazówki praktyczne dla obu stron postępowania (A8=1, B1=2).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 752\" kpc",
+   "\"art. 752\" \"rachunek depozytowy Ministra Finansów\"",
+   "\"art. 752\" kodeks postępowania cywilnego",
+   "\"752\" kpc treść",
+   "\"art. 492\" kpc \"Dz.U. 2026 poz. 468\"",
+   "\"art. 492\" \"k.p.c.\" \"z chwilą wydania\"",
+   "\"art. 492\" \"Przepis art. 742\" kpc",
+   "\"art. 492 § 1\" kpc treść"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12388,
+   "wyjscie": 929
+  },
+  "czas_s": 61,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

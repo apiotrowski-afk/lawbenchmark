@@ -1,0 +1,90 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 albo § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 394² § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 99 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź prawidłowo rozróżnia dwa rodzaje zażaleń i podaje trafne konkluzje dla obu ścieżek, co w pełni wyczerpuje rdzeń (A-R=2). Brakuje powołania wymaganego art. 397 § 1¹ k.p.c., co skutkuje utratą punktu za podstawy (A2=0). Wszystkie powołane przepisy zostały zinterpretowane zgodnie z ich literalnym brzmieniem w źródłach oficjalnych (A6=1). Odpowiedź jest wysoce przydatna dla prawnika i odpowiednio uwarunkowana (B1=2, B2=1). Krótka wzmianka o prawie UE ma charakter neutralnej informacji i nie obniża oceny ram (A8=1).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"Dz.U. 2026 poz. 468\" \"394\"",
+   "\"Dz.U. 2026 poz. 468\" \"394 ze zn 2\"",
+   "\"Dz.U. 2025 poz. 1228\" \"art. 99\"",
+   "\"Dz.U. 2026 poz. 468\" \"394 ze zn 1\"",
+   "\"Art. 394\" \"Kodeks postępowania cywilnego\" lex",
+   "\"Art. 394\" \"§ 1\" \"§ 1(1)\" \"§ 1(2)\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 99\" \"kosztach sądowych w sprawach cywilnych\" lex",
+   "\"Art. 394(1)\" \"Kodeks postępowania cywilnego\" lex"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW3mfD68kwmb445UNTzestzPlanhAoK3HuopjswNHIwxPNmsix2z1i_lup767jegh-eovV5SiuOHyTJq_pMovIKwAz-WLlV6pbnVj0jOH8UdvRLrWTkiui_o9kw5gkNYWP",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXiQD4WymwqSmWcAjGlH8iBXgNChwVdrCUIXaHFgJl93DdW5SWKOvNpB2yidsidpEotQXWiaoWlgCX9qjaqJgoQwDfhX0eUvwo_4K8gUhFX8ocC4C4lTJWVZNAjSzN8kgeh0Isd5jAAHxuESbrhem2nQJcZeQfumRdSR9L81528emije6nINXgD4v2fKNo_l12Ao443nLN_FDfYlb_y0U=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7g64Mm9Ql0Ihoz3PA2z_lz0_Zrjo-GI57yEpVtk00y-j2Jy2rjZUvPOawWtDlilBLtzn2JFrPLdqAnORCxWXSDTnm9WrPga6r7R5qPFYOH35PKd_pFv-p94fsVBiCI65qZqrnK1WDJ78X1_QDGsWbEQ5JKsJkHay3yt1_kBkokzfzb7PdQbfQx2Md-5KGnYxPMecqJIVsL7LjVCmz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUd8Jubvu9JFtjquPf6h6-gcgebAbJMVxcIip0yuPNYi1JbyCqt0iOWW1IiWpeHTe65sOnwcVi9WxsWft4Ne-DbRJiwIthEKh2P2KU5Zm8MYAeMz88fw-IhhKQyoNdSzKkrUENz-shPlsyce7nr5U3Fc3avb3lgLUx6CXRGgdM2GRkIlBhcef2EO0ncXDdY5IAJ2Mj3UDN6TlIRw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXjzwsGvJIWC8NY9DFr9tfw8L_kGoBB68QVrx1Ht1ysE7DOCqnzGtXHBe0cI4FROeKrAW0R5sGbPEbwlQeX5xZn1KcggJdXGhidqAa8EpZDikwikIbL_Rdc2A_hbHNjjbxMkSfVa60LbZKFLu1uSG4pMuksMtyxDNSnAu_40mBOLZ2tywyozoKO50WNIvq86nAAkVOcd99BwsNRxwkc4dJ5EQvkuv1EQ6xI6_eNITXXBbs",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuHYKBmvRnI_7txd4ylji0PM8u9Pva_K1ybQrhtqyIynjVKpcYS5ohAyYbzgDKdzcQhzm-oMAFL2IM7sEJGSjqZc0ZCsr8iQgdteO9exTqjK1p4tymKfmqPyRsifaUlPNKvP8-Ddi8vE67M5x1Dz-N7p3sRHBzjfM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEERsV58Z9Iu-HH9xTjHaUJ8_7B-LuQS-KmAxerAIIAn7pjufswpN8dDOl6LUT8GZG04j4alQjyTBBfoj7jPyjTmmtIcNPZ-dXUSe5R3_jgHAO30xumNqT2pEkxAd9U-NAZrtKS-FkeaVKFnTNIaR5dVU59Nvaj8Unj",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEii2VSUVNfNNQ3YNqEl2lY7chQsJIodsgeW4Ln4ZfzZbNbOf254sUVLRP_NlmiQW_fFmRONWAkp93W7IbrP4DJYfH5v5s1GDp6dMnZy6qIIxeYZgo7CQOpGDSfSXXikpBPnsH_6jYuj5GWA9OeETbBBpHbJqCaMKYQCUffNqaKmxNbFiEgxRkAYyBN"
+  ],
+  "tokeny": {
+   "wejscie": 11770,
+   "wyjscie": 695
+  },
+  "czas_s": 113,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

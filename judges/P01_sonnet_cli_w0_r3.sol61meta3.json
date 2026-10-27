@@ -1,0 +1,134 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — przepis dotyczy kradzieży i przywłaszczenia cudzej rzeczy ruchomej, z progiem 800 zł; nie obejmuje oszustwa.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 120 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — § 1 dotyczy wyrębu drzewa w lesie oraz kradzieży lub przywłaszczenia drzewa, z progiem 800 zł, a nie paserstwa.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 122 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — przepis dotyczy paserstwa mienia pochodzącego z kradzieży lub przywłaszczenia, z progiem 800 zł, a nie kradzieży szczególnego rodzaju.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — umyślne niszczenie, uszkadzanie lub czynienie rzeczy niezdatną do użytku; próg szkody wynosi 800 zł, a nie 1/4 minimalnego wynagrodzenia.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2022/2600/text.pdf — art. 4 pkt 5–8 wprowadza do art. 119, 120, 122 i 124 k.w. próg 800 zł; odpowiedź odwraca kierunek zmiany.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf — przepis typizuje zabór cudzej rzeczy ruchomej w celu przywłaszczenia; wskazanie typu przestępstwa jest zgodne.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 284 § 1 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf — przepis typizuje przywłaszczenie cudzej rzeczy ruchomej lub prawa majątkowego; wskazanie typu przestępstwa jest zgodne.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 k.k.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf — przepis typizuje niszczenie, uszkadzanie lub czynienie cudzej rzeczy niezdatną do użytku; wskazanie typu przestępstwa jest zgodne.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — § 1 przewiduje stosowanie ustawy poprzedniej, jeżeli jest względniejsza dla sprawcy.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 k.w.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf — przepis określa odpowiedzialność za podżeganie, a nie czyn ciągły ani sumowanie wartości.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "rozporządzenie Rady Ministrów z 2025 r. dotyczące minimalnego wynagrodzenia w 2026 r.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1242/text.pdf — § 1 ustala od 1 stycznia 2026 r. minimalne wynagrodzenie w wysokości 4806 zł.",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie podaje próg 1201,50 zł i wiąże go z płacą minimalną, podczas gdy obowiązuje stałe 800 zł, dlatego nie realizuje rdzenia ani elementów rubryki i otrzymuje obie kary. Przypisuje przepisom cudzą treść oraz odwraca historię zmian, co uzasadnia A6 = 0 z klasami T i W. Dosłowny fragment „nie przekracza” jest zgodny ze źródłem, więc A3 = 1. Błędna uwaga o art. 12 k.w. obniża A8 do 0,5, a zasadniczo błędna wskazówka dotycząca kwalifikacji czynu uzasadnia B1 = 0. Tezę postawiono wprost, zatem przy oczekiwanej kalibracji kategorycznej B2 = 1.",
+ "_meta": {
+  "sedzia": "sol61meta3",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P01",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "site.eli.gov.pl 2025 734 kodeks wykroczeń ...",
+   "site.eli.gov.pl 2025 734 kodeks wykroczeń",
+   "site.eli.gov.pl kodeks karny 2025 383",
+   "site.eli.gov.pl 2022 2600",
+   "site.eli.gov.pl 2025 1242 minimalnego wynagrodzenia 4806",
+   "site.eli.gov.pl \"2025\" \"4806\" \"1242\" ...",
+   "site.eli.gov.pl \"2025\" \"4806\" \"1242\"",
+   "site.eli.gov.pl \"2024\" \"4666\" \"1362\"",
+   "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "'Art. 119.'",
+   "'Kto kradnie lub'"
+  ],
+  "zrodla_sedziego": [
+   "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20250000734",
+   "https://eli.gov.pl/api/acts/DU/2025/734/text/T/D20250734L.pdf",
+   "https://dziennikustaw.gov.pl/DU/2025/383",
+   "https://api.sejm.gov.pl/eli/acts/DU/2025/734/text.pdf",
+   "https://www.gov.pl/web/rodzina/minimalne-wynagrodzenie-za-prace",
+   "https://lexeva.pl/akt/du/2025/734",
+   "https://eli.sejm.gov.pl/eli/DU/2025",
+   "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970880553",
+   "https://www.pap.pl/sites/default/files/2025-12/Raport_20%20lat%20bez%20wzrostu%20p%C5%82ac.pdf",
+   "https://lang.zus.pl/en/web/guest/baza-wiedzy/skladki-wskazniki-odsetki/wskazniki/minimalne-wynagrodzenie-za-prace-od-2003-r",
+   "https://orzeczenia.uzp.gov.pl/Home/PdfContent/34150?Kind=KIO",
+   "https://www.gov.pl/attachment/6b1d6a31-265a-4088-a91a-d54c18f120e0",
+   "https://oilkrakow.pl/biuletyn-sierpien-wrzesien-2025/",
+   "https://eli.gov.pl/api/acts/DU/2025/734/text.html",
+   "https://eli.gov.pl/api/acts/DU/2025/383/text.html",
+   "https://eli.gov.pl/eli/DU/2022/2600/ogl",
+   "https://api.sejm.gov.pl/eli/acts/DU/2025/383/text.pdf",
+   "https://api.sejm.gov.pl/eli/acts/DU/2022/2600/text.pdf",
+   "https://api.sejm.gov.pl/eli/acts/DU/2025/1242/text.pdf",
+   "https://api.sejm.gov.pl/eli/acts/DU/2024/1362/text.pdf"
+  ],
+  "czas_s": 56,
+  "data": "2026-10-25",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "z_raportem_faktow": true,
+  "poparcie_plik": "_poparcie_8pytan_2026-10-24c.json"
+ },
+ "raport_faktow_uzyty": "Data stanu prawnego (klucz): 2026-10-01. Powołania: przepisy 9, orzeczenia 0. Źródła: legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML; orzeczenia: SAOS API; gdy brak — baza LexAlpha (odczyt).\n\nPRZEPISY:\n- 1. art. 119 § 1 KW [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (podstawy_wymagane)\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis reguluje wykroczenie kradzieży, przywłaszczenia lub oszustwa, w którym od 1 października 2023 r. stała kwota 800 zł została zastąpiona progiem 1/4 minimalnego wynagrodzenia za pracę obowiązującego w dniu popełnienia czynu.”\n    · uzasadnienie weryfikatora: Przepis art. 119 § 1 KW w żadnej wersji nie obejmuje oszustwa (dotyczy wyłącznie kradzieży i przywłaszczenia rzeczy ruchomej), a na datę stanu prawnego obowiązuje w nim próg 800 złotych, a nie 1/4 minimalnego wynagrodzenia (który obowiązywał w wersji wcześniejszej z 2016 r., a od 1.10.2023 r. wprow…\n    · brzmienie jednostki (fragment): „§ 1. Kto kradnie lub przywłaszcza sobie cudzą rzecz ruchomą, jeżeli jej wartość nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 2. art. 120 KW [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R3 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowarto…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis reguluje wykroczenie paserstwa, w którym od 1 października 2023 r. stała kwota 800 zł została zastąpiona progiem 1/4 minimalnego wynagrodzenia za pracę obowiązującego w dniu popełnienia czynu.”\n    · uzasadnienie weryfikatora: Przepis art. 120 KW reguluje wyrąb, kradzież lub przywłaszczenie drzewa z lasu, a nie paserstwo (ponadto na datę stanu prawnego próg wynosi 800 zł, a nie 1/4 minimalnego wynagrodzenia).\n    · brzmienie jednostki (fragment): „Art. 120. § 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie albo kradnie lub przywłaszcza sobie z lasu drzewo wyrąbane lub powalone, jeżeli wartość drzewa nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Usiłowanie oraz podżeganie i pomocnictwo są karalne. § 3. W razie popełnienia wykroczenia określonego w § 1 orzeka się nawiązkę w wysokości podwójnej wartości wyrąbanego, ukradzionego lub przywłaszczonego drzewa, a ponadto, jeżeli ukradzione lub przywłaszczone drzewo nie zostało odebrane, orzeka się obowiązek zapłaty jego równowarto…”\n- 3. art. 122 KW [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R3 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jeg…”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis reguluje wykroczenie kradzieży szczególnego rodzaju, w którym od 1 października 2023 r. stała kwota 800 zł została zastąpiona progiem 1/4 minimalnego wynagrodzenia za pracę obowiązującego w dniu popełnienia czynu.”\n    · uzasadnienie weryfikatora: Przepis art. 122 KW reguluje wykroczenie paserstwa (nabycie, pomoc do zbycia, przyjęcie lub pomoc do ukrycia mienia pochodzącego z kradzieży lub przywłaszczenia), a nie kradzież szczególnego rodzaju, a ponadto na datę stanu prawnego próg wynosi 800 zł.\n    · brzmienie jednostki (fragment): „Art. 122. § 1. Kto nabywa mienie, wiedząc o tym, że pochodzi ono z kradzieży lub z przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jego ukrycia, jeżeli wartość mienia nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny. § 2. Kto nabywa mienie, o którym na podstawie towarzyszących okoliczności powinien i może przypuszczać, że zostało uzyskane za pomocą kradzieży lub przywłaszczenia, lub pomaga do jego zbycia albo w celu osiągnięcia korzyści majątkowej mienie to przyjmuje lub pomaga do jeg…”\n- 4. art. 124 § 1 KW [akt: wprost]\n    · KLASA A6: W (etykieta weryfikatora: popiera_wersja_wczesniejsza; rozstrzygnięcie: poparcie)\n    · A6_zakres: rdzeń (rubryka R3 (leksykalnie))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · wersje wcześniejsze o innym brzmieniu: na dzień 2021-10-01, 2016-10-01, 2011-10-01\n    · brzmienie wcześniejsze (na dzień 2021-10-01, fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 500 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis reguluje wykroczenie niszczenia lub uszkodzenia mienia, w którym od 1 października 2023 r. stała kwota 800 zł została zastąpiona progiem 1/4 minimalnego wynagrodzenia za pracę obowiązującego w dniu popełnienia czynu.”\n    · uzasadnienie weryfikatora: Na datę stanu prawnego (od 1.10.2023 r.) w art. 124 § 1 KW obowiązuje próg 800 złotych, natomiast przypisany przez odpowiedź próg 1/4 minimalnego wynagrodzenia pokrywa się z brzmieniem wcześniejszym tego przepisu (atom 4) i został błędnie podany jako aktualny wraz z odwróconą historią zmian.\n    · kotwica (verbatim ze źródła): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 1/4 minimalnego wynagrodzenia, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych, podlega karze aresztu, ograniczenia wolności albo grzywny.”\n- 5. art. 278 § 1 KK [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis określa występek kradzieży, pod który co do zasady kwalifikuje się czyn, jeżeli wartość mienia przekracza próg 1/4 minimalnego wynagrodzenia za pracę.”\n    · uzasadnienie weryfikatora: Przepis wprost typizuje czyn polegający na zaborze w celu przywłaszczenia cudzej rzeczy ruchomej (kradzież), a odniesienie do progu stanowi otoczkę połączenia z przepisami KW.\n    · kotwica (verbatim ze źródła): „§ 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n    · brzmienie jednostki (fragment): „§ 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n- 6. art. 284 § 1 KK [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis określa występek przywłaszczenia, pod który co do zasady kwalifikuje się czyn, jeżeli wartość mienia przekracza próg 1/4 minimalnego wynagrodzenia za pracę.”\n    · uzasadnienie weryfikatora: Przepis wprost typizuje występek przywłaszczenia, natomiast kwestia progu rozgraniczającego wykroczenie od występku stanowi otoczkę wynikającą z zestawienia z KW.\n    · kotwica (verbatim ze źródła): „§ 1. Kto przywłaszcza sobie cudzą rzecz ruchomą lub prawo majątkowe, podlega karze pozbawienia wolności do lat 3.”\n    · brzmienie jednostki (fragment): „§ 1. Kto przywłaszcza sobie cudzą rzecz ruchomą lub prawo majątkowe, podlega karze pozbawienia wolności do lat 3.”\n- 7. art. 288 § 1 KK [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis określa występek uszkodzenia mienia, pod który co do zasady kwalifikuje się czyn, jeżeli wartość mienia przekracza próg 1/4 minimalnego wynagrodzenia za pracę.”\n    · uzasadnienie weryfikatora: Przepis wprost typizuje występek zniszczenia lub uszkodzenia cudzej rzeczy, a powiązanie z progiem wartości mienia jest otoczką zastosowania przepisu w zbiegu z KW.\n    · kotwica (verbatim ze źródła): „§ 1. Kto cudzą rzecz niszczy, uszkadza lub czyni niezdatną do użytku, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n    · brzmienie jednostki (fragment): „§ 1. Kto cudzą rzecz niszczy, uszkadza lub czyni niezdatną do użytku, podlega karze pozbawienia wolności od 3 miesięcy do lat 5.”\n- 8. art. 2 KW [akt: wprost]\n    · KLASA A6: ✓ (etykieta weryfikatora: popiera_wprost; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis statuuje zasadę lex mitior mającą zastosowanie, jeśli ustawa uległa zmianie po popełnieniu czynu.”\n    · uzasadnienie weryfikatora: Brzmienie art. 2 § 1 KW wprost statuuje regułę intertemporalną nakazującą stosowanie ustawy poprzedniej, jeżeli jest względniejsza dla sprawcy.\n    · kotwica (verbatim ze źródła): „Art. 2. § 1. Jeżeli w czasie orzekania obowiązuje ustawa inna niż w czasie popełnienia wykroczenia, stosuje się ustawę nową, jednakże należy stosować ustawę obowiązującą poprzednio, jeżeli jest względniejsza dla sprawcy.”\n    · brzmienie jednostki (fragment): „Art. 2. § 1. Jeżeli w czasie orzekania obowiązuje ustawa inna niż w czasie popełnienia wykroczenia, stosuje się ustawę nową, jednakże należy stosować ustawę obowiązującą poprzednio, jeżeli jest względniejsza dla sprawcy. § 2. Jeżeli według nowej ustawy czyn objęty orzeczeniem nie jest już zabroniony pod groźbą kary, ukaranie uważa się za niebyłe.”\n- 9. art. 12 KW [akt: wprost]\n    · KLASA A6: T (etykieta weryfikatora: nie_na_temat; rozstrzygnięcie: poparcie)\n    · A6_zakres: poboczne (domyślnie (poza podstawami i rubryką))\n    · istnieje; brzmienie na datę stanu prawnego: potwierdzone_identyczne_w_kolejnym_tj; urzędowy HTML\n    · twierdzenie odpowiedzi (wg weryfikatora): „Przepis odnosi się do czynów ciągłych lub wielokrotnych oraz kwestii sumowania wartości mienia.”\n    · uzasadnienie weryfikatora: Przepis art. 12 KW reguluje odpowiedzialność za podżeganie, a nie czyn ciągły czy sumowanie wartości przy czynach wielokrotnych (odpowiedź pomyliła go z art. 12 KK).\n    · brzmienie jednostki (fragment): „Art. 12. Odpowiada za podżeganie, kto chcąc, aby inna osoba dokonała czynu zabronionego, nakłania ją do tego.”\n\nORZECZENIA: brak sygnatur w odpowiedzi."
+}

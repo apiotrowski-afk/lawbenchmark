@@ -1,0 +1,72 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1689",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 3 pkt 60 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 AI Act — ogólne wymogi przejrzystości",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/pol/pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zachowuje niezależny obowiązek oznakowania maszynowego dostawcy, ale zawęża definicję deepfake do faktycznego wprowadzenia odbiorcy w błąd zamiast obiektywnej możliwości niesłusznego uznania treści za autentyczną. Cytat definicji jest niedosłowny, co osobno obniża A3. Art. 50 ust. 1 nakłada obowiązek na dostawców, więc przypisanie go także podmiotowi wdrażającemu stanowi T i błędną wskazówkę praktyczną; ta uboczna uwaga obniża również A8. Nie rozdzielono wyraźnie adresatów ust. 2 i 4, nie podano daty stosowania ani niewiążących wytycznych, natomiast rozróżnienie definicji i pozostałych obowiązków uzasadnia B2 = 1. Błąd A6 dotyczy rdzenia; jego pochodzenia nie można ustalić bez śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 6,
+  "czas_s": 41,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

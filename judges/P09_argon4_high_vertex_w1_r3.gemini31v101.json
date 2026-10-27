@@ -1,0 +1,166 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 58 § 1 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 27 stycznia 2011 r., I CSK 237/10",
+   "zrodlo": "SAOS",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "wyrok SN z 15 czerwca 2011 r., V CSK 373/10",
+   "zrodlo": "SAOS",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 65 § 2 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pkt 1-3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 73 § 1 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ § 1 i 2 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 2 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 44 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok TSUE C-5/08 Infopaq",
+   "zrodlo": "EUR-Lex",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie wskazuje, że ogólna klauzula jest niewystarczająca i omawia liberalną linię orzeczniczą (art. 65 k.c.), co wyczerpuje rdzeń (A-R=2) i spełnia warunkową kalibrację (B2=1). System halucynuje jednak tezy dwóch orzeczeń SN (I CSK 237/10 dotyczy domniemania autorstwa, a V CSK 373/10 wynagrodzenia za reemisję, żadne nie dotyczy art. 41 ust. 2 pr.aut.), co skutkuje A6=0 (typ T). Projekt klauzuli umownej przekracza dwa zdania, co stanowi dygresję obniżającą ramy (A8=0.5). Zgodnie z regułą B12, wzmianka o art. 65 k.c. wystarcza do zaliczenia ostatniego elementu rubryki.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P09",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"I CSK 237/10\"",
+   "\"V CSK 373/10\"",
+   "\"art. 43 ust. 2\" \"prawo autorskie\" \"godziwe i odpowiednie\"",
+   "\"art. 44\" \"prawo autorskie\" \"niewspółmiernie niskie\"",
+   "\"I CSK 237/10\" \"art. 41 ust. 2\"",
+   "\"V CSK 373/10\" \"art. 41 ust. 2\"",
+   "\"I CSK 237/10\" \"pola eksploatacji\"",
+   "\"V CSK 373/10\" \"pola eksploatacji\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6u9iV9eSX8LM3D0hYYPt5hFMN3sKkZQkV_nojH_UBRHfJg-0FOFQ6h6cZVe0WRUdu_CLVJxpYA7gn7mT3CfmHVPbqIX_g9eC0a6hg8yBrZg-u38hrRVXXy3j3_NN5kEIUmjvD9Ll0L3yUo-3ebgYeAqotaCcbBc06qcSuOqYODMV01wEcn1pKz7mFT1gbHgi1iZs9N7c2EF9mBrPe1CnYDXMgoo61Z2UgBBCi8LZCTIGAjvi8Fdyy4-xvoq7gyr1wRY746Wh4tFk_Zd-1dyE1RMvAMisBY3UzS1s=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4rhOyGDVqyrEQmTiKRQa6PZXnawIAqGdLpJ2Ueb4QuKnLl8VtEtxUj8zkOOJ91EgYl2PTqE7goXKi8CV9v-LjF6Do-F4NYa9wCHOArkHvBpzKWMnViC_l-ib0dop_Sz26bIS-Kmh_BV9paPnaLBASu7_sYf6tF74bq3QmWSyWAxZnOGbi80i7Dkg4YKl6U4c4tUfUKDaP4pKliVSlYwxNW3ymCWkeSoC9gbHfBWgQEm2zUGXC4mIGHgRzCNJqrRh8sDFB",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOqlZJdgonw_NWKm1XbWihBYJ34hfgVyV8YXiqF3-ug21w8JICf2leJYwPV-38v8Vwv40jN9jCW3vGQhhiuAvGimqnUjJ9JdED1jtcDTT-50_Ff0UB6PVXQyUvfNDW-C9v1OF3e8ufJxITJ_GixqaAbIuSQuHuPURn0CQuqF0jmmiO1VNQw30n7IgsfA13H_NYJt5ZrBgEg17RUu09fo-1WRC9QAo2FdHxBmzu97M8hvGmlYjVJ4ffuBIxJDL-THoX9TKj58OB7MNZA0ImM6S8dQ7qWdL3qU4LAnvCME=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsijco513wURMVcCkIOW12gtvH5HHtkbk8M51H5Yk-7FDY8c1SMqIacDQN7pRM7vIQN4Eq-IBvcb8aPA98ulAZjoASO3YgWEXjEctnmQP2_XW4PX3E4SdmT9hKhHPJq1x_uGZv5JhbU-gZZJ1GLypCE5XeuWelFXxQI0ltl2C5Y4aQhL-_8DzsLwfe2mKmh6aBO8Am3RJggNSMyY46kSNIHgZk6JCfdtbM5VwbeIKNwbQe",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDXNABzdrpg2luIF-m3dL3edxQ42Uz2BeJCeYYQ_ne8R9vjkUE_x6etUYGTD59ItlZmK2NnpNcjHtAQBkSnC_Atq0RGFqBn3azRZ_X96MMCdlhpzgeGVctGoagBiiAjmnc",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOHLvzVzjl0Nrwxk2RPy3moHX_girTIjt3aXAdRsoisvl_92bPik5H6Eve5OWRNDbGAqtFP4to3dQ_XPRmkUWWI5C7O6vxjk04_oOrO27mCzWIZ7rsJjYTsFa0MedMqT-85k=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuqhfWiAePHkL1-ITd2zjAD6j-g-jJVw8GAolycQPMH3Em3wUnmaH_h-WO3WYBgvko6ufAXHIBRSdYPyuJsdfsg-C89RtXHZ2aR5ZtMcZuGgF21Tz-IwwcNzBRUjxBxKJHfCvrfi_BnJztyhXq3FHISvQMAIV8XlEtUItaWLE1Oq8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZyAWk9g__w9MT1LIcLAWBBQj_JxQ9sQ-z0k_c0WJ77k_QvIy-25-zXXPMOwjhwz-U5vulZ4fCJbbRKD2dr0JgqtT2_GljEPYHia33W1yAscT7WYzeWtq9IF6Na4w2RjURfG7Xpy6IJ_DhtYxAOf6OvVdahkcU8jOh95Gwj-trYQojEMzF97hcpdFlkT7VnDdle-R_ou8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIsd1hlzemHFBAbkmt6obvOIwTEPoUAGO3_Ai86IENyoRxaR36l6_sg16JiPbbhUp_266yUxMfcVeez1Mterqy27EJZZrTCaQWwL_ckeqCF9SZg7EJiKOwAl8DHLdShh-J3ycd9YlGEjpbrqgFwkh6e4drO9ZVpxUcRAXdCdh39p6_a-FI3rNfLut0-gWdmGgXLA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRxRaat-nR0Ax8t29zFG1IGDkSATCXb7XCnm8bBvCvPj0LMvFtdf6Tq8ThkX8LNGVOxnLZuNSzAKMhbL--8ZO2CmScbh1YlEsavhwLdcDqJSTuxD0EiVQJY7dp61ei3TKUIBT0t4WNEFo-dhROXASQoH75Ex-D2DCMsPUp84fb_OYlQhZaaQKEx585Yzs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKxo3b4-rrQuhxZ2OGtReQgHNW_2ysyIRAUoq-hEbG23pU0om9TGG3kH-fPDjhQ03iIYSXPWj9PPP2AyKaueUyQ54BiHmshx4huTlmU-Vil4qaBMX8MLxEcepSadvwzor4CbVN9mOp2m9vkqex2siB471WMYS0Rd3eDo0IqNBua_3Hi__flZtDq4-S9n0pqpOM7P-aU37X30_mFCeTU44cMVEPADatcNyrjJFV03jE7YASOt0X_J8nLGwvuLIZE9oJjxMvKlxjTB6KJYUSjXl0R7Rjt7X1tf3wTlNXZAuiMx4="
+  ],
+  "tokeny": {
+   "wejscie": 18613,
+   "wyjscie": 1552
+  },
+  "czas_s": 155,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 § 2 k.p.c. — ograniczenie lub wyłączenie zaspokojenia z majątku wspólnego",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c. — związek wierzytelności z przedsiębiorstwem i brak wymogu zgody małżonka; opis zakresu odpowiedzialności niepełny",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c. — powiązanie z zasadami składania wniosku",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787² k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o. — wyłączenie wynagrodzenia za pracę i dochodów z innej działalności zarobkowej",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 § 3 k.r.o. — wyłączenie wynagrodzenia za pracę i dochodów z innej działalności zarobkowej",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/III%20CZP%20117-10.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SO w Łodzi, VII Pz 38/16",
+   "zrodlo": "https://www.saos.org.pl/judgments/220279",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SO w Łodzi, VII Pz 39/16",
+   "zrodlo": "https://www.saos.org.pl/judgments/220280",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "SO w Łodzi, VII Pz 122/15",
+   "zrodlo": "https://www.saos.org.pl/judgments/content/188255.html",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "Teza uzasadnienia SO w Łodzi, VII Pz 39/16: potwierdzono istnienie orzeczenia, sąd i sygnaturę, lecz nie uzyskano treści uzasadnienia pozwalającej zweryfikować przypisaną tezę.",
+  "Twierdzenie literatury o braku synchronizacji art. 787¹ k.p.c. z art. 41 § 2 k.r.o."
+ ],
+ "uzasadnienie": "Odpowiedź rozróżnia podstawy zależnie od zgody małżonka i trafnie uznaje brak wzmianki o działalności w tytule za obojętny dla art. 787, ale nie wyjaśnia jednoznacznie, że każda klauzula przeciwko małżonkowi jest ograniczona, ani nie przedstawia trzeciej gałęzi klucza. Art. 787 nie zawiera § 2, natomiast art. 41 § 2–3 k.r.o. dopuszcza zaspokojenie z wynagrodzenia i dochodów dłużnika, zamiast je wyłączać, co przesądza A6 = 0. Sprostowanie numeracji jest niepełne: art. 781¹ ustanawia termin trzech dni, a nie zasady składania wniosku. Powtórzone zastrzeżenia o źródłach obniżają A8, a błędny opis zakresu egzekucji ogranicza przydatność do B1 = 1. B2 = 0, ponieważ rekomendacja bez dokumentu zgody odsyła do art. 787¹ bez dostatecznie wyraźnego uzależnienia konkluzji od związku wierzytelności z przedsiębiorstwem.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 16,
+  "czas_s": 93,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

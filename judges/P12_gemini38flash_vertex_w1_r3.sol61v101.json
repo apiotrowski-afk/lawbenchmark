@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "art. 787 k.p.c. — wymóg zgody małżonka na piśmie",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/236/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź przedstawia oba ograniczone zakresy odpowiedzialności oraz trafnie uzależnia wybór trybu od zgody małżonka i związku wierzytelności z przedsiębiorstwem, zamiast od oznaczenia dłużnika w tytule. Art. 787 wymaga jednak dokumentu wykazującego zgodę, a nie samej zgody udzielonej na piśmie; powtarzane utożsamienie tych wymogów zawęża treść przepisu, co daje T i A6 = 0 oraz ogranicza B1 do 1. Sprostowano numer przepisu, lecz nie wyjaśniono, że art. 781¹ określa termin trzech dni, dlatego nie zaliczono czwartego elementu rubryki. Końcowe wskazanie egzekucji z majątku osobistego, wynagrodzenia i dochodów dłużnika zaliczono jako wskazanie drogi pozostającej bez klauzuli przeciwko małżonkowi.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 12,
+  "czas_s": 65,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

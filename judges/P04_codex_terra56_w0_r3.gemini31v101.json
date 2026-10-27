@@ -1,0 +1,83 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 3 ust. 1 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 § 2 pkt 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź błędnie wskazuje, że właściwe jest potwierdzenie ostateczności, a nie prawomocności, co skutkuje oceną A-R = 0 oraz nałożeniem kary K3. Brak powołania wymaganego art. 1 ust. 1 u.n.n.c. obniża A2 do 0. System przypisał normę o wydawaniu zezwolenia w formie decyzji do art. 3 ust. 1 u.n.n.c., który w rzeczywistości określa elementy zezwolenia (błąd T, A6 = 0). Błędna wskazówka praktyczna co do rodzaju zaświadczenia obniża B1 do 0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P04",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"ustawa o nabywaniu nieruchomości przez cudzoziemców\" \"art. 3 ust. 1\"",
+   "\"ustawa o nabywaniu nieruchomości przez cudzoziemców\" \"art. 1 ust. 1\"",
+   "\"ustawa o nabywaniu nieruchomości przez cudzoziemców\" \"art. 3\"",
+   "\"ustawa o nabywaniu nieruchomości przez cudzoziemców\" \"art. 3\" \"Dz.U.\"",
+   "\"art. 16\" \"Decyzje, od których nie służy odwołanie w administracyjnym toku instancji\" \"k.p.a.\"",
+   "\"art. 16\" \"kodeks postępowania administracyjnego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0bzhAeX_cIavNgE_tVBKqTxJnq_spyQSMGKKNQMnahK8uTVZ7TBF7gyAVXwRlmXzrFnqOjAVzIwfQ222WngArAtptpLvL790du3BDdTHpDeScRux0yw2KvMlu9O8iognThur-6SSAFQ9KuAesEfEUEQfCFhIRsZTMLkm4xDUrCag74hsryMvy0c5tBx6ncOcJinDBP5X8X6xI2tH0QUcIAxSOEleGHLxo6_ASykzk9rfQlkH41hDV_A1kKfsBB725YxVN8pGeF6QNGd2VCeLDXtme",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE-w2HRWGKDw_MTElGSngdQoSePgQimHiRR27DsmnBWaJ-2Qhrv-XXOuS3bIhaNQ76KHenfIDW5tVM9bRHk5ZDNsEmmVerN7TAdnjz2FtUo-gebjMjZJILPeEes7FXAZA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTmMRmiV2WhYVAhDKc_sgzNmVoQYnNVStAW5jUqaERsjmlrhWcXpk0mOe-cGWmOlIklsvsEAFfeFIZ3TA1OTl_xgf7CtqCpS1phWl5S0LyzU-97YHK4V89kg6WmWquagcKf5UVfOQwMz2KlxLsWg1-1y4vZI8-R97JZCnHEE6_9hgtb0fIb7lFVZ7M7fjpP2RSMzE=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9c2sB6cg6Bwm4MmGQmX-7pod5zQVVxCbfAUs3miRlt8c1ZL0lVTMd2n5rFAFjwHOUkIr-X25SgUU2QHi8qrNGRTbEca_0xVmG0m-B_qnE7C492sGNDgPzZhWOuAuV2e1uF0MP3YFdm-m_g1Z6NSWqLlN7FVfFqmVA8Iyi",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAYRCpdrI63t0AsqEueNDCQDvPxQ2b0M1tlWStG-7nifRZ9sofDil-Jm1YPcGKx4bE8cu1JnsDsVOPUqz0qfFUV5N5UmZmoQdTjIvks3NpCo8Y-QMvXuYfzTv1bjsLP6l_QlmCKFAIIGRe9jrw0tzL6TMu5J69LwRAnjfHcRJVIbtTN3Pqu1JoQ5SG1_ZS36ZWzFqV7VmGcA=="
+  ],
+  "tokeny": {
+   "wejscie": 14717,
+   "wyjscie": 618
+  },
+  "czas_s": 148,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

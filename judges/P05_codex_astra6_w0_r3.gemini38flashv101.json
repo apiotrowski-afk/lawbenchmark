@@ -1,0 +1,74 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹a k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 rozporządzenia (UE) 2020/1784",
+   "zrodlo": "Dz.Urz. UE L 405 z 2.12.2020",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź pominęła kluczową reformę obowiązującą od 1.06.2026 r., na mocy której osoba fizyczna (strona) może wybrać doręczanie pism przez Portal Informacyjny (art. 131¹ᵃ § 1 i § 1¹ k.p.c.), dlatego A-R wynosi 0, a A2 nie zostało zaliczone z uwagi na brak wymaganych jednostek redakcyjnych. Z rubryki zaliczono wyłącznie element dotyczący momentu doręczenia (w tym reguły 14 dni), który system prawidłowo opisał przy doręczeniach dla pełnomocników. Kary nie naliczono, gdyż system nie stwierdził kategorycznie, że doręczenie osobie fizycznej przez portal jest niemożliwe, a jedynie wskazał, że samo założenie konta nie oznacza automatycznej zgody. Powołane przepisy istnieją i odpowiadają przypisanej im treści, więc A6 wynosi 1 (brak halucynacji). Punkty A8 obniżono do 0.5 ze względu na dygresje dotyczące doręczeń transgranicznych w UE i odrębnego trybu z art. 131¹ k.p.c.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 131(1a)\" k.p.c. stan prawny 2026 sejm",
+   "\"131(1a)\" kpc \"wyboru takiego sposobu doręczania\"",
+   "\"art. 19\" \"2020/1784\" doręczenie"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9703,
+   "wyjscie": 667
+  },
+  "czas_s": 141,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

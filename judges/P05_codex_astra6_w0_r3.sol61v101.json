@@ -1,0 +1,62 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c. (także w odesłaniu art. 131¹–131¹a)",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 28",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹a k.p.c. (także w odesłaniu art. 131¹–131¹a)",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 28–29, brzmienie od 1.06.2026 wskazane odnośnikami 29–30",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf — s. 30",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 rozporządzenia (UE) 2020/1784",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02020R1784-20250501 — treść potwierdzona w wynikach wyszukiwania EUR-Lex",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Kierunek jest częściowo trafny: samo konto i udostępnienie pisma nie oznaczają formalnego doręczenia, lecz odpowiedź pomija obowiązującą od 1.06.2026 możliwość wyboru doręczeń portalowych przez stronę. Nie opisuje oświadczenia, wymaganych podpisów ani rezygnacji, dlatego A2=0 i nie zaliczono trzech elementów rubryki. Poprawnie przedstawia moment doręczenia portalowego i regułę 14 dni. Pominięcie możliwości wyboru nie stanowi fałszywego twierdzenia o przepisie, a odpowiedź nie wyklucza kategorycznie doręczeń osobie bez pełnomocnika, więc A6=1 i K=[0,0]. Dygresja o doręczeniach transgranicznych obniża A8, a brak praktycznej ścieżki wyboru ogranicza B1 do 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 18,
+  "czas_s": 94,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wprost rozstrzyga problem w pierwszym akapicie oraz precyzyjnie rozróżnia funkcję nakazu zapłaty jako tytułu zabezpieczenia (art. 492 § 1 k.p.c.) od jego natychmiastowej wykonalności z weksla jako tytułu egzekucyjnego (art. 492 § 3 k.p.c.). System prawidłowo wskazał obie wymagane podstawy prawne oraz środki obrony pozwanego przeciwko zabezpieczeniu (art. 492 § 2 i art. 742 k.p.c.). W rubryce nie przyznano jedynie czwartego punktu za brak wzmianki o skutku wstrzymania wykonania nakazu na gruncie trwającej egzekucji (zawieszenie z art. 820 § 2 k.p.c.). Wszystkie powołane przepisy k.p.c. są zgodne z tekstem jednolitym Dz.U. 2026 poz. 468.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 731\" \"Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia\" kpc",
+   "OR \"art. 731\" \"zaspokojenia roszczenia\"",
+   "\"art. 492\" \"art. 742\" kpc eli.gov.pl OR api.sejm.gov.pl",
+   "\"Art. 731.\" \"Zabezpieczenie nie może zmierzać\"",
+   "\"Art. 492.\" \"Nakaz zapłaty z chwilą wydania\"",
+   "\"Art. 742.\" \"Obowiązany może w każdym czasie\"",
+   "\"DU/2026/468\"",
+   "\"Dz.U.2026.468\" \"Art. 731.\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAEIlE7CEgHzVf0wbrf340IY6Zp2VS9eQxbJAtPh6ptzQAe__qFckQdLKcx5MldpXZ42nDBD2RZBbwIwHKH2baXfxnXxEu0GeO0mGC_HQ5HtsIWx6mC3eG_N5fWlud2_XxQokLoc89z_qCUppo5BWbwqSE4LW7PPaPn7llW3wS-2xixBNMNf9I3bBupWu8rWMBhZ30U07i2weNtw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUO1udMfAi_WyXw7oDqx_akaISWEEsvUdsC9-ORycCQcMZNbwiJASMjbcYwM9KcK0yiYV1UGy9BsyFj7zoAVnzU1HvjAMpGMn46GgQGlDUv0MDP7VvtBdIYJKpyksmovDIjCiuQg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGETxIHt2s55ZR22_bjzbG9JXixL6DZOP7Q_CXe2dcdQV1tBT1iVmZiX5ybWejF7-8GviJAwzlev82897FANCof9aUrItswU5Jr1H4ElZuVDggG20A8JcnEENMM92VsKznprmLSG_fNo7UEKRjjIcHI8jROHamlvwC4Ro53NzE42TNw0spzxyVfsC0SFY7qQzjwt2MhFTP0i1FW",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaUOEMcKw8tb_jX-y8RG8GMw3DVUhBNKH7xcwyxs2FI06_q5V8lBqJZkBeo6eJ80OfP6hM2UsEfxJ2BxOIgxR8HVREmsdW6FxTCTf42zX0-98yUYEZxPp_Vwilbzmc3JsvONdOXzrvALLzdbWjKHsan5X6T-cEW61e9uV-G740F2_SM7YiavdrhhKMmt1Mn4xkFhbYJ-hIeb4iGQ=="
+  ],
+  "tokeny": {
+   "wejscie": 9982,
+   "wyjscie": 1021
+  },
+  "czas_s": 76,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

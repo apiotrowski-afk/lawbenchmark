@@ -1,0 +1,81 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń w pierwszym akapicie i rozwija go w kolejnych zdaniach (A-R = 2) oraz prawidłowo powołuje wymagane podstawy prawne z art. 357 § 5, § 1 i § 2¹ k.p.c. (A2 = 1). Wszystkie twierdzenia o treści przepisów są zgodne z tekstem jednolitym k.p.c. (Dz.U. 2026 poz. 468), co daje A6 = 1. Jednozdaniowa formuła wniosku jest neutralna zgodnie z regułą graniczną nr 5 dla A8 (A8 = 1). W rubryce nie zaliczono wyłącznie czwartego elementu (R[3] = 0), ponieważ odpowiedź nie wspomina o opłacie od wniosku ani o wyjątkach z art. 357 § 2³–2⁴ lub § 6 k.p.c..",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P07",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 13,
+  "zapytania": [
+   "\"art. 357\" \"zasadnicze powody rozstrzygnięcia\" OR OR",
+   "\"357\" \"Postanowienie wydane na posiedzeniu jawnym\" OR",
+   "\"2026\" \"468\"",
+   "\"2026\" \"468\" \"357\"",
+   "\"Postanowienie wydane na posiedzeniu niejawnym sąd uzasadnia tylko wtedy, gdy podlega ono zaskarżeniu, i tylko na żądanie strony zgłoszone w terminie tygodnia od dnia doręczenia postanowienia\"",
+   "\"WDU20260000468\" OR \"2026\" \"468\" \"Kodeks postępowania cywilnego\"",
+   "\"DU/2026/468\" OR \"DU/1964/296\"",
+   "\"Art. 357.\" \"zasadnicze powody\"",
+   "\"©Kancelaria Sejmu\" \"Art. 357.\" \"zasadnicze powody rozstrzygnięcia\"",
+   "\"©Kancelaria Sejmu\" \"Art. 357.\" \"Postanowienia ogłoszone na posiedzeniu jawnym\"",
+   "\"Kancelaria Sejmu\" \"2026-08-18\" \"Art. 357.\" \"zasadnicze powody\"",
+   "\"Kancelaria Sejmu\" \"2026-08-18\" \"Postanowienie wydane na posiedzeniu niejawnym sąd uzasadnia\"",
+   "\"Kancelaria Sejmu\" \"2026-08-18\" \"Wydając postanowienie, nawet niepodlegające zaskarżeniu\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu348zMCx2BrLUmpiUM6HBXFSWlCvU-6bMftxsHKGNGk7YVXF8sRADkAtf_ne9m1YUVgxs58SQd3zITLGa-bH-U5wqia15x1hrH6UnDZ2j8G0Ov6f2SUfWPSBcOWD6mnA1KnLOk-7TVF8Z1I-SJWCIR6QHtFO5SMrME4N6zA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFTkBt3ZboCX9KouElUr5rrLfEqygUUsCgAAZsU5PQvEuPXCZs3W0BWWk9X0om9v58SwvPQcVDrt_Ex4U--G5-qbJPl4ZqUvqRUCsbOrvV9FYTDtuCHfH6uNGjxowq_ho0bOvyfQ-3WcBQ95xXpZ2ZdcdM2jVc7pst2GD3LRM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz5APC1i8ZLgMn5Lha_9LqRBZWFAh2pNOygHCB2V76CRXQL6g_ICXhPGMbk9lxtRVsyKU9_lgeg6O2g7FnFu_OvVuUWz_irersF9vR_hKOgxhZeVfyeK5sasRToUtf0cy0i7P9Id3Faq9adeME5LAAJQDt7ogjRvw0hK_mpw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNsjtP2NLjIifecBuOLIR7-iZXXCzsXwFM8_s_y0XMJtajCPmzESVQT9x522TAxZM11hP1H9TWKUK3qqI6j_XmSvCHkbUYWyEwtD7lyet1qwYoeMAJxqrdir4QtG17JeM1zt-nnmMu9sAw0k2WpkQ64gsGoL9nBskXQYlErqU="
+  ],
+  "tokeny": {
+   "wejscie": 8827,
+   "wyjscie": 1278
+  },
+  "czas_s": 105,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

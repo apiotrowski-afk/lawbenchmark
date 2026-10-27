@@ -1,0 +1,72 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c. w zw. z art. 776 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 730¹ § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera kardynalny błąd co do istoty instytucji: wstrzymanie wykonania nakazu zapłaty z weksla (art. 492 § 3 k.p.c.) tamuje jedynie natychmiastową wykonalność w drodze egzekucji, nie pozbawiając nakazu funkcji tytułu zabezpieczenia (art. 492 § 1 k.p.c.). W rezultacie rdzeń odpowiedzi jest negatywny (A_R = 0), a rubryka nie została zaliczona. Naliczono karę K1 za twierdzenie, że wstrzymanie wykonania wyłącza zabezpieczenie. Ocena A6 wynosi 0 z klasą T z uwagi na przypisanie art. 492 § 3 k.p.c. skutku rozciągającego się na postępowanie zabezpieczające. B1 oceniono na 0 z uwagi na szkodliwą poradę procesową, zaś B2 na 1 z racji zachowania oczekiwanej kategoryczności.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P13",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 492\" kpc \"wstrzymać wykonanie\" sejm",
+   "\"art. 743\" kpc sejm",
+   "\"art. 776\" kpc sejm"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10238,
+   "wyjscie": 581
+  },
+  "czas_s": 30,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

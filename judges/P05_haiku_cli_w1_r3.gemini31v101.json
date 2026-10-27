@@ -1,0 +1,75 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 133 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 138 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 139 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 1361 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "F"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System całkowicie mija się z rdzeniem, błędnie twierdząc, że osobie fizycznej zwykle nie doręcza się pism przez portal, i pomijając nowelizację z 1.06.2026 r. (A-R = 0, A2 = 0). Odpowiedź w przeważającej części dotyczy doręczeń tradycyjnych, co stanowi dygresję dominującą objętościowo (A8 = 0). System halucynuje, powołując nieistniejący art. 1361 k.p.c. (F) oraz przypisując art. 133, 138, 139 i 131¹ k.p.c. treść, której nie zawierają (T, m.in. doręczenie sąsiadowi z k.p.a. przypisane do k.p.c.). Ze względu na błędne i mylące informacje przydatność (B1) wynosi 0, a asekuracyjny ton obniża B2 do 0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "haiku_cli_w1_r3",
+  "wyszukan": 0,
+  "zapytania": [],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11528,
+   "wyjscie": 725
+  },
+  "czas_s": 105,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

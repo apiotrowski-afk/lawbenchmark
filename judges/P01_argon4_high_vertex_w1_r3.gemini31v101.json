@@ -1,0 +1,156 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A6_pochodzenie": [
+  "nieustalone"
+ ],
+ "A6_zakres": "poboczne",
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 284 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 290 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 i 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 291 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 292 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 288 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600)",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a § 1 k.k. w zw. z art. 115 § 9a k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 280 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 i 3 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 278 § 5 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 k.k.s.",
+   "zrodlo": "Dz.U. 2025 poz. 633",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń odpowiedzi jest pełny (A-R=2) i kategoryczny (B2=1). System prawidłowo wskazuje kwotę 800 zł, brak powiązania z płacą minimalną, datę zmiany (1.10.2023) oraz inne przepisy k.w. z tym samym progiem, co wyczerpuje rubrykę. Występuje jednak halucynacja w uwadze pobocznej: system przypisuje kradzież broni i amunicji do art. 130 § 2 i 3 k.w., podczas gdy reguluje to art. 130 § 1 pkt 2 k.w. (T, A6=0, zakres poboczne). Brak cytatów w cudzysłowie (A3=nd).",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P01",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"art. 122\" \"Kodeks wykroczeń\"",
+   "\"art. 122 § 1\" \"Kodeks wykroczeń\"",
+   "\"art. 124 § 1\" \"Kodeks wykroczeń\"",
+   "\"art. 288 § 1\" \"Kodeks karny\"",
+   "\"art. 130\" \"Kodeks wykroczeń\"",
+   "\"art. 130 § 2\" \"Kodeks wykroczeń\"",
+   "\"art. 53\" \"Kodeks karny skarbowy\"",
+   "\"art. 53 § 3\" \"Kodeks karny skarbowy\"",
+   "\"art. 53 § 6\" \"Kodeks karny skarbowy\"",
+   "\"art. 53\" \"Kodeks karny skarbowy\" \"§ 6\"",
+   "\"art. 53 § 6\" \"k.k.s.\"",
+   "\"minimalne wynagrodzenie 2026\"",
+   "\"płaca minimalna 2026\"",
+   "\"art. 278 § 5\" \"Kodeks karny\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA5OC65YS3QnDGex6CrF2q4BrDPwlBjVRJOj-NJo-iblhtOrXftfpkUOmDiCpc_99RneI-B8MMiqAuGI2DKd7Cxztz7gTE454Q9P_uYyE7MMbTpyIfPVUIgxqYPTErmkP5em93aUsoow2X-cVvMaM5psFV8tTKgyazfY7e",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTRPmCgU_XADrfi4949AYEAJVRt_q7UZAV006wRhNSx7KtYBDvwb-qyYJ1OPonVCby5QWkjHTjRnHO3C586WlFnGYcsop7KrMkldN4-9LwmYFW-fBCB0WD8JpiiO5WJvraQU1MmWIrVOsxwPyfZxBf7yEJztfNudkr"
+  ],
+  "tokeny": {
+   "wejscie": 14610,
+   "wyjscie": 1526
+  },
+  "czas_s": 184,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

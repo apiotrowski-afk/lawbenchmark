@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 i 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600)",
+   "zrodlo": "Dz.U. 2022 poz. 2600",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 3 i § 6 k.k.s.",
+   "zrodlo": "Dz.U. 2024 poz. 628",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź precyzyjnie i bezbłędnie wyjaśnia, że maksymalny próg wynosi 800 zł i nie jest powiązany z płacą minimalną. Spełnione zostały wszystkie wymagania rubryki (wskazanie 800 zł, brak wpływu płacy minimalnej, data 1.10.2023 r. oraz wcześniejszy próg 500 zł, a także powołanie art. 120 § 1, 122 § 1 i 124 § 1 k.w.). Wszystkie powołane jednostki redakcyjne i publikatory są w pełni zgodne ze stanem prawnym. Ocena A8 została obniżona do 0.5 ze względu na rozwinięcie alternatywnego scenariusza dotyczącego wykroczeń skarbowych (k.k.s.), którego pytanie wprost nie zakładało.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"4806\" \"minimalne wynagrodzenie\" 2026",
+   "\"minimalnego wynagrodzenia za pracę w 2026\" \"4806\"",
+   "minimalne wynagrodzenie 2026 rozporządzenie \"4806\"",
+   "minimalne wynagrodzenie w 2026 roku \"4806\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12836,
+   "wyjscie": 780
+  },
+  "czas_s": 27,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "A_R": 2,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z dnia 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "OSNC 2023/2/14",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 1² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² § 2 w zw. z art. 394 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 359 § 1 w zw. z art. 397 § 3 i art. 391 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i wyczerpująco przedstawia pełny rdzeń problemu, rozróżniając zażalenie poziome i dewolutywne (A_R=2, B2=1). A2 wynosi 0 z uwagi na brak powołania art. 397 § 1¹ k.p.c. jako podstawy odrzucenia zażalenia dewolutywnego przez sąd II instancji. Cytat z art. 394² § 1² k.p.c. jest w pełni dosłowny (A3=1), a wszystkie powołania przepisów oraz orzeczenia SN są bezbłędne (A6=1). A8 obniżono do 0.5 za dygresję dotyczącą trybów sygnalizacji błędu i przywrócenia terminu (art. 359 i 168 k.p.c.) w alternatywnym scenariuszu nieobjętym pytaniem. W rubryce zabrakło jedynie wzmianki o rygorze z art. 130² k.p.c.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"397 § 1[1]\" kpc odrzucenie zażalenia",
+   "\"397 § 1¹\" kpc odrzucenie zażalenia",
+   "\"art. 397\" kpc \"Sąd drugiej instancji odrzuca zażalenie\"",
+   "\"art. 397 § 1\" kpc isap",
+   "\"III CZP 50/22\"",
+   "\"III CZP 50/22\" saos"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11847,
+   "wyjscie": 980
+  },
+  "czas_s": 72,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

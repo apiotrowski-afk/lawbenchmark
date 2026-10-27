@@ -1,0 +1,69 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 130² § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź nie dostrzega kluczowego rozróżnienia na zażalenie poziome w SA oraz zażalenie dewolutywne na orzeczenie SO odrzucone przez SA jako sąd II instancji (stąd A_R=1 i utrata elementów rubryki). Naliczono obie kary z klucza za kategoryczną odpowiedź twierdzącą oraz wskazanie zażalenia do Sądu Najwyższego na podstawie uchylonego w 2019 r. art. 394¹ § 2 k.p.c. A6 wynosi 0 (hallucinated), ponieważ przepisowi art. 394² § 1¹ k.p.c. przypisano treść z § 1² (klasa T), a zażalenie do SN oparto na nieobowiązującym przepisie (klasa W). B2 wynosi 0 z uwagi na brak kalibracji warunkowej, a B1 obniżono do 1 przez wprowadzenie w błąd co do zażalenia do SN i pominięcie braku zaskarżalności w drugim wariancie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P06",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 5,
+  "zapytania": [
+   "\"art. 394(2)\" kpc sejm gov pl",
+   "\"394(2) § 1(1)\" kpc treść",
+   "\"art. 394(2)\" \"Jeżeli zażalenie, o którym mowa\"",
+   "\"art. 394(1)\" kpc sejm gov pl",
+   "\"art. 394(1) § 2\" kpc uchylony"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10562,
+   "wyjscie": 530
+  },
+  "czas_s": 27,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

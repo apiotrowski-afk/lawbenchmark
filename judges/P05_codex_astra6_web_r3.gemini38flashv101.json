@@ -1,0 +1,76 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 5 sierpnia 2025 r. (Dz.U. 2025 poz. 1172)",
+   "zrodlo": "Dz.U. 2025 poz. 1172",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź bezbłędnie omija odwróconą pułapkę aktualności i precyzyjnie wyjaśnia zasady doręczeń przez Portal Informacyjny osobie fizycznej po 1 czerwca 2026 r. Przywołano wszystkie wymagane podstawy prawne z art. 131¹ᵃ k.p.c. oraz zrealizowano wszystkie punkty rubryki (wybór, formy podpisu, termin 14 dni, rezygnacja). Wszystkie przytoczone normy i jednostki redakcyjne są w pełni zgodne ze stanem prawnym.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P05",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"131(1a)\" kpc \"wyboru takiego sposobu doręczania\"",
+   "\"131(1a)\" \"oświadczenie o wyborze sposobu doręczeń\" kpc",
+   "\"133 § 3\" kpc orzeczenie albo przepis"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11419,
+   "wyjscie": 542
+  },
+  "czas_s": 21,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

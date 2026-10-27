@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń — kradzież lub przywłaszczenie rzeczy ruchomej o wartości nieprzekraczającej 800 zł (od 1.10.2023 r., zniesienie powiązania z 1/4 minimalnego wynagrodzenia w 2018 r.)",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.), Dz.U. 2022 poz. 2600 w zw. z Dz.U. 2023 poz. 403, Dz.U. 2018 poz. 2077",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 Kodeksu wykroczeń — umyślne zniszczenie, uszkodzenie lub uczynienie cudzej rzeczy niezdatną do użytku, jeżeli szkoda nie przekracza 800 zł",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pierwszym akapicie i w dalszej części precyzyjnie podaje pełny rdzeń (próg 800 zł obowiązujący od 1 października 2023 r. oraz brak wpływu wzrostu płacy minimalnej na ten próg). System prawidłowo powołuje wymagany art. 119 § 1 k.w. oraz dodatkowo art. 124 § 1 k.w., dzięki czemu realizuje wszystkie cztery punkty rubryki (zgodnie z regułą do R4 wystarcza wskazanie jednego z przepisów pokrewnych). Informacja o zniesieniu powiązania z 1/4 minimalnego wynagrodzenia w 2018 r. jest historycznie ścisła (Dz.U. 2018 poz. 2077) i nie zawiera fałszywego twierdzenia o stanie prawnym w latach 2018–2023. Brak cytatów w cudzysłowie skutkuje oceną n/d w kryterium A3, a trafne uwagi praktyczne (dokładnie 800 zł jako wykroczenie, kryterium szkody w art. 124 § 1 k.w. oraz brak przepołowienia przy kradzieży z włamaniem i rozboju) uzasadniają maksymalne noty w A8, B1 i B2.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "OR \"art. 119\" \"art. 124\" \"800 złotych\" \"Kodeks wykroczeń\"",
+   "OR \"2025\" \"734\" \"Kodeks wykroczeń\"",
+   "OR \"2018\" \"2077\" \"Kodeks wykroczeń\" \"500 złotych\"",
+   "\"art. 124\" \"Kto cudzą rzecz umyślnie niszczy, uszkadza lub czyni niezdatną do użytku, jeżeli szkoda nie przekracza 800 złotych\"",
+   "\"2018\" \"2077\"",
+   "\"2022\" \"2600\"",
+   "\"2025\" \"734\"",
+   "\"Dz. U. z 2018 r. poz. 2077\" OR \"Dz.U. 2018 poz. 2077\" \"art. 119\" \"500 złotych\"",
+   "\"Dz. U. z 2025 r. poz. 734\" \"art. 119\" \"art. 124\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdUaS5N94YnOHOCvOAhy8Rn8-TpgOdfmZtkHweWdzIgWG7WCdzqmPD85siKQ8z-wL4SAgF-y1ola7ExTc63ZdyXYxs6gCIXsJSabXj4ebhEoScS9obaFKIEteNUWjYOKrVOQ_rgzbyUYXU",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE0v68E8L0mzUGN0Ejb09LGzgwWnLjYPCIFIACyr3PrKiCLdEz3iisykbkz4vqWqvjsYeDq9afOi3Ump1Dk8t5X1uKuJuuZBjaAZg2qha60NY_qhqiZ88mVS7iT8BV2jVAcSKl-h8wnWDFT5mkEy1CsMtv3gTNBA8O1h9NXRiFRs2e2rt7BJYfXLXgXSwVNLdHhCUP_tIyAwyglFUNOSKpbhphdQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX13uJNWsGkBy_B5NfB7Qu1ARFU_7CWVClsQU51HtafVc2-HngJbi3cYe7nVHqChFHrwVhhDKWNP5jZuO40kH_4Wh5DaLvqo6878dnZbCalg-vBOHKnIJ5oBuQvbLPIXmdcTbsXACex7hU8L6oboWoEM1m0IuFa__F1HMyCeVtVdBy_e8JMS7CYd2lL3nP",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcqqSJdrJ1adn9j9GOnMtv1r4AQ_KQAwJp1XjWUHxpbFrZOjv9drlI-YFaY7kEaVb96mbVXhS-b2iJyS0oqo8rHv_C1hpxAR6KB77KJUv4mY7DhuXCZ-WNlQiWDr_XwakhbysV1y8xMRRG"
+  ],
+  "tokeny": {
+   "wejscie": 13272,
+   "wyjscie": 1154
+  },
+  "czas_s": 122,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

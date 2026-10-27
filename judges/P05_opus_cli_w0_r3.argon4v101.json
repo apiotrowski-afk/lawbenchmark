@@ -1,0 +1,100 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "ustawa z 7 lipca 2023 r., Dz.U. 2023 poz. 1860",
+   "zrodlo": "ISAP Dz.U. 2023 poz. 1860 — ustawa z dnia 7 lipca 2023 r. o zmianie ustawy – Kodeks postępowania cywilnego, ustawy – Prawo o ustroju sądów powszechnych, ustawy – Kodeks postępowania karnego oraz niektórych innych ustaw (wprowadziła art. 131¹ᵃ k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 131¹ k.p.c. reguluje doręczenia za pośrednictwem systemu teleinformatycznego obsługującego postępowanie sądowe, natomiast doręczenia przez portal informacyjny (w tym dla pełnomocników i stron oraz chwilę doręczenia) reguluje art. 131¹ᵃ k.p.c.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131 i nast. k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 131 § 1 k.p.c. reguluje tradycyjne sposoby doręczeń przez operatora pocztowego, osoby zatrudnione w sądzie, sądową służbę doręczeniową oraz komornika",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 133 § 3 zd. 1 k.p.c. stanowi, że jeżeli ustanowiono pełnomocnika procesowego lub osobę upoważnioną do odbioru pism sądowych, doręczenia należy dokonać tym osobom",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–172 k.p.c.",
+   "zrodlo": "ISAP Dz.U. 2026 poz. 468 (t.j. k.p.c.) — art. 168–172 k.p.c. regulują wniosek o przywrócenie terminu, w tym przesłankę braku winy strony (art. 168 § 1 k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "ISAP Dz.U. 2020 poz. 2320 (t.j. Dz.U. 2026 poz. 3) — ustawa o doręczeniach elektronicznych reguluje odrębny system e-Doręczeń, którego stosowanie przez sądy w postępowaniu cywilnym odroczono do 1.10.2029 r. (art. 155 ust. 7)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "rozporządzenie Ministra Sprawiedliwości w sprawie trybu i sposobu dokonywania doręczeń elektronicznych przez portal informacyjny (wydane na podstawie delegacji z art. 131¹ k.p.c.)",
+   "zrodlo": "ISAP Dz.U. 2024 poz. 368 (ze zm. Dz.U. 2026 poz. 223) oraz Dz.U. 2023 poz. 452 — system skrzyżował tytuł rozporządzenia MS z 20.10.2015 r. w sprawie trybu i sposobu dokonywania doręczeń elektronicznych (wydanego na podstawie art. 131¹ § 3 k.p.c.) z rozporządzeniem MS z 12.03.2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym (wydanym na podstawie art. 131¹ᵃ § 4 k.p.c.)",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie wskazuje, że osoba fizyczna może otrzymywać doręczenia przez Portal Informacyjny po dokonaniu wyboru oraz podaje regułę 14-dniowej fikcji doręczenia, jednak pomija kluczowy wymóg z art. 131¹ᵃ § 1¹ k.p.c. (złożenie oświadczenia przez portal z podpisem kwalifikowanym, zaufanym albo osobistym), błędnie dopuszczając wybór w zwykłym piśmie procesowym (A_R = 1, R = [1, 0, 1, 0]). W odpowiedzi zabrakło wymaganej podstawy prawnej z art. 131¹ᵃ § 1, § 1¹ i § 2 k.p.c., co skutkuje oceną A2 = 0. System przypisał normy regulujące doręczenia przez Portal Informacyjny przepisowi art. 131¹ k.p.c. (dotyczącemu systemu teleinformatycznego obsługującego postępowanie sądowe, podczas gdy portal informacyjny reguluje art. 131¹ᵃ k.p.c.) oraz zniekształcił nazwę i delegację rozporządzenia wykonawczego, co daje A6 = 0 (klasy T i S) oraz etykietę hallucinated. Przydatność praktyczna została obniżona do B1 = 1 z uwagi na błędną wskazówkę co do formy złożenia oświadczenia o wyborze (w piśmie procesowym), która prowadziłaby do bezskuteczności czynności.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P05",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"1860\" \"2023\" OR",
+   "\"468\" \"2026\" \"131\" OR OR",
+   "\"art. 131\" \"art. 133\" \"art. 168\" kodeks postępowania cywilnego OR",
+   "\"18 listopada 2020\" \"doręczeniach elektronicznych\" OR",
+   "\"poz. 1860\" \"7 lipca 2023\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 131\" \"Art. 133\" \"Art. 168\" \"Kodeks postępowania cywilnego\" \"portal informacyjny\"",
+   "\"Art. 133 § 3\" \"pełnomocnika\" \"Kodeks postępowania cywilnego\"",
+   "\"rozporządzenie Ministra Sprawiedliwości\" \"trybu i sposobu dokonywania doręczeń elektronicznych\"",
+   "\"Jeżeli ustanowiono pełnomocnika procesowego lub osobę upoważnioną do odbioru pism sądowych\"",
+   "\"W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego\" \"131\"",
+   "\"Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego\" \"131\"",
+   "\"w sprawie określenia trybu i sposobu dokonywania doręczeń\" \"portal informacyjny\" OR \"portalu informacyjnego\"",
+   "\"określi, w drodze rozporządzenia\" \"portalu informacyjnym\" OR \"portalu informacyjnego\" \"131\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości\" \"portalu informacyjnego\" \"131\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10017,
+   "wyjscie": 2003
+  },
+  "czas_s": 151,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

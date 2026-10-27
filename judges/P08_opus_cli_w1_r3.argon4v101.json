@@ -1,0 +1,107 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 (w tym zd. 3) rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wytyczne Komisji dotyczące przejrzystości z art. 50 z 20 lipca 2026 r. (C(2026) 5054)",
+   "zrodlo": "Komisja Europejska C(2026) 5054 z 20.07.2026 / klucz P08 v4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Digital Omnibus — rozporządzenie (UE) 2026/1744 (art. 111 ust. 4 AI Act — termin 2 grudnia 2026 r.)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727 oraz 32026R1744",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23–24 k.c.",
+   "zrodlo": "ISAP/ELI Dz.U. 2026 poz. 795",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "RODO — rozporządzenie (UE) 2016/679 (głos jako dana osobowa i biometryczna)",
+   "zrodlo": "EUR-Lex CELEX 32016R0679 (art. 4 pkt 1 i 14)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń (A-R=2) oraz wszystkie wymagane podstawy prawne (A2=1) i realizuje wszystkie sześć elementów rubryki (R=6/6), w tym odwołanie do niewiążących wytycznych KE z 20.07.2026 r. w zakresie kryterium „mogących istnieć” osób i obiektywnego odbioru. Wszystkie powołania przepisów AI Act (w tym art. 50 ust. 1, 2 i 4 zd. 3 oraz terminy z art. 113 i Digital Omnibus) zostały zweryfikowane w EUR-Lex i są zgodne ze stanem prawnym na 2026-10-01 (A6=1). Kryterium A3 jest n/d, ponieważ system parafrazuje przepisy bez przytaczania ich w cudzysłowie jako cytatów ustawowych. Punktacja w A8 została obniżona do 0.5 ze względu na osobny punkt wykraczający poza zadane pytanie („na gruncie AI Act”) w inne gałęzie prawa (art. 23–24 k.c., RODO, nieuczciwe praktyki rynkowe). W bloku B odpowiedź zasługuje na maksymalną ocenę za wysoką przydatność praktyczną (B1=2) i prawidłową warunkową kalibrację tezy (B2=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake\" eur-lex",
+   "\"Dostawcy systemów AI, w tym systemów AI ogólnego zastosowania, generujących treści w postaci syntetycznych\" eur-lex",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi\" eur-lex",
+   "\"Art. 23\" \"Dobra osobiste człowieka\"",
+   "\"W przypadku gdy treść stanowi część pracy lub programu o wyraźnie artystycznym\" eur-lex",
+   "\"Art. 24.\" \"Ten, czyje dobro osobiste\"",
+   "\"111\" \"2 grudnia 2026\" \"50 ust. 2\" eur-lex",
+   "\"Niniejsze rozporządzenie stosuje się od dnia 2 sierpnia 2026\" eur-lex",
+   "\"111 ust. 4\" \"50 ust. 2 do dnia 2 grudnia 2026\" eur-lex",
+   "\"C(2026) 5054\" OR \"20 July 2026\" \"Article 50\" \"deepfake\" commission guidelines",
+   "\"dane biometryczne\" \"oznaczają dane osobowe, które wynikają ze specjalnego przetwarzania technicznego\" eur-lex"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15988,
+   "wyjscie": 1562
+  },
+  "czas_s": 181,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

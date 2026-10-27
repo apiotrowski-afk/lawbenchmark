@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  0,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 189 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 795 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 840 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 841 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "A_R wynosi 2, ponieważ zgodnie z przykładem granicznym dla P12 pełny rdzeń jest obecny (zaprzeczenie egzekucji bez ograniczeń i wskazanie przesłanki zgody). A6 wynosi 0 (klasa T, hallucinated=true), ponieważ art. 787 k.p.c. przypisano nieistniejący wymóg dokumentu prywatnego z podpisem urzędowo poświadczonym (przeniesiony z art. 788 k.p.c.), podczas gdy przepis wymaga zwykłego dokumentu prywatnego. W rubryce zaliczono wskazanie ograniczenia odpowiedzialności oraz odesłanie do art. 41 § 2 k.r.o. w braku zgody. Przydatność B1 obniżono do 1 ze względu na błędne podwyższenie rygorów dowodowych oraz nieprawidłowe twierdzenie, że brak wzmianki o firmie w tytule uniemożliwia tryb z art. 787¹ k.p.c. Kalibracja B2 wynosi 1, gdyż wnioski uzależniono od spełnienia warunku wykazania zgody małżonka.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art 787 kpc\" \"podpisem urzędowo poświadczonym\"",
+   "\"787 kpc\" \"dokumentem urzędowym lub prywatnym\"",
+   "treść art 787 kpc sejm"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgyILQO1qYsdrUchw2bO85RbkSEycxltXrmdT3HIOvw9Xgh8vHfWZNaOrVYtZM9JKn4RBJbnCyzHnrsa4FRa9qDGU_48fi1D6Ug1kdGrpg5P9tW6swGbeCGKmrMARzOHPJtYglYjFTbc9ywXGAT5SeKPRK9uiHIHIDYCOXOpMwtP4AoZb64UFbatmGpgy9sBRDk7EbXTXlIxOKC7zYDWQ8mONSKKbRyWx254NlQ3RqxATF0auABt7zXfg_EFKOrIBqimTbG-o_bCINt78Wk2O_IQI="
+  ],
+  "tokeny": {
+   "wejscie": 11160,
+   "wyjscie": 798
+  },
+  "czas_s": 51,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

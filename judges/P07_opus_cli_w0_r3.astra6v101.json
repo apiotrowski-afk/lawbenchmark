@@ -1,0 +1,84 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "[ELI, s. 130](https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "ustawa z 4 lipca 2019 r., Dz.U. 2019 poz. 1469 — wprowadzenie art. 357 § 5",
+   "zrodlo": "[ELI, art. 1 pkt 124 lit. d](https://eli.gov.pl/api/acts/DU/2019/1469/text.html)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "[ELI, s. 129](https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "[ELI, s. 129](https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "[ELI, s. 141](https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 361 k.p.c.",
+   "zrodlo": "[ELI, s. 131](https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 327¹ k.p.c. — zastosowanie wymagań uzasadnienia do zasadniczych powodów",
+   "zrodlo": "[ELI, s. 121](https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 386 § 4 k.p.c.",
+   "zrodlo": "[ELI, s. 136](https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 397 § 3 k.p.c.",
+   "zrodlo": "[ELI, s. 145](https://eli.gov.pl/api/acts/DU/2026/468/text/U/D20260468Lj.pdf)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca rdzeń: art. 357 § 5 wyraźnie odróżnia zasadnicze powody od uzasadnienia i nie zawiera przypisanego mu zastrzeżenia pierwszeństwa przepisów szczególnych. Paragrafy 1 i 2¹ nie ustanawiają opisanego zakazu wniosku, art. 394 § 2 nie utożsamia doręczenia zasadniczych powodów z doręczeniem uzasadnienia, a art. 327¹ reguluje uzasadnienie, nie zasadnicze powody. Wymagane podstawy opisano błędnie, nie podano prawidłowych warunków ani terminu wniosku, a wzmianka o uzasadnieniu z urzędu służy błędnemu utożsamieniu obu instytucji, więc nie zalicza wyjątku. Dygresja o zarzutach zażalenia obniża A8; praktyczne wskazówki uzasadniają B1=0, natomiast stanowczość odpowiada oczekiwanej kalibracji B2=1. Pochodzenie błędnych powołań pozostaje nieustalone wobec braku śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "astra6v101",
+  "model": "gpt-6-astra",
+  "pytanie": "P07",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 83,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

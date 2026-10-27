@@ -1,0 +1,82 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Postanowienie SO w Szczecinie, VIII Gz 140/18",
+   "zrodlo": "Portal Orzeczeń SO w Szczecinie / SAOS",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni prawidłowo i wyczerpująco rozwiązuje kazus, bezbłędnie identyfikując wszystkie pułapki zawarte w pytaniu. Wyjaśniono, że klauzula przeciwko małżonkowi nigdy nie jest bez ograniczeń, rozróżniono tryb ze zgodą (art. 787 k.p.c.) od trybu przedsiębiorstwa (art. 787¹ k.p.c.) oraz sprostowano błędnie przywołany art. 781¹ k.p.c. Zwrócono też uwagę na brak wpływu treści samego nakazu zapłaty na tryb klauzulowy i wskazano zakres zaspokojenia z majątku dłużnika w razie braku przesłanek do klauzuli na małżonka. Wszystkie powołania przepisów oraz orzeczenia są w pełni zgodne ze źródłami oficjalnymi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P12",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"VIII Gz 140/18\" szczecin",
+   "\"VIII Gz 140/18\"",
+   "\"VIII Gz 140/18\" \"787\"",
+   "\"VIII Gz 140/18\" \"małżonk\"",
+   "\"VIII Gz 140/18\" \"klauzuli wykonalności\"",
+   "\"VIII Gz 140/18\" \"J. M.\" \"A. M.\"",
+   "\"VIII Gz 140/18\" \"Patrycja Baranowska\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12520,
+   "wyjscie": 587
+  },
+  "czas_s": 51,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

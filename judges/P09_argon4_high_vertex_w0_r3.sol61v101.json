@@ -1,0 +1,95 @@
+{
+ "A_R": 1,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14.09.2005 r., III CK 124/05",
+   "zrodlo": "https://www.saos.org.pl/files/judgments/supreme/2005/9/14/b9af9337fb2630c5b9787df76d62b56b.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut., w tym pkt 1, 2 i 3",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 i art. 46 pr.aut. — rzekoma konieczność przeniesienia praw zależnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 16 pr.aut. — rzekomy obowiązek zobowiązania do niewykonywania praw osobistych i udzielenia upoważnienia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 45 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/795/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie zaleca wyliczenie pól i zachowanie formy pisemnej, ale nie wyjaśnia możliwości ustalenia zakresu samego przeniesienia przez wykładnię, dlatego A_R = 1 i R5 = 0; pomija także wyłączenie art. 12 przy zleceniu. Niedosłowny cytat art. 41 ust. 2 zachowuje normę, więc obniża wyłącznie A3. A6 = 0 wynika z przedstawienia jako koniecznych wymogów umowy przeniesienia praw zależnych oraz zobowiązania do niewykonywania praw osobistych i udzielenia upoważnienia, których wskazane przepisy nie ustanawiają. Nieproszony, wielozdaniowy projekt klauzuli obniża A8 do 0,5, a błędne obowiązkowe zalecenia umowne ograniczają B1 do 1. B2 = 1 zgodnie z regułą B11: odpowiedź zaleca wyliczenie pól i przedstawia brak przeniesienia jako ryzyko, nie jako bezwarunkowy skutek.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P09",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 18,
+  "czas_s": 94,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

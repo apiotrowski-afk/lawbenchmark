@@ -1,0 +1,412 @@
+{
+ "meta": {
+  "pytanie": "P05",
+  "system": "haiku_cli_w0_r3",
+  "plik_odpowiedzi": "pytania/odpowiedzi/P05/haiku_cli_w0_r3.md",
+  "data_stanu_prawnego": "2026-10-01",
+  "wygenerowano": "2026-10-24T18:38:35",
+  "czas_s": 6.2,
+  "zrodla": {
+   "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
+   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+  },
+  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
+ },
+ "podsumowanie": {
+  "przepisy": 6,
+  "orzeczenia": 0,
+  "publikatory": 0,
+  "daty": 1,
+  "flagi": {
+   "brzmienie_na_dzien_nieustalone": 6
+  }
+ },
+ "przepisy": [
+  {
+   "id": 1,
+   "powolanie": "art. 131",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 1,
+   "napis_grupy": "art. 131",
+   "kontekst": "- Kodeksu postępowania cywilnego (KPC), zwłaszcza art. 131 (doręczenia elektroniczne) oraz art. 132–146 (ogólne zasady doręczeń, w tym doręczenie zastępcze i awizo).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 1,
+   "cytowanie_legal_cite": "art. 131 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 2026-03-27 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 97db38e9635dc6db…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdftotext 24.02.0) — zaliczona; względem starszego t.j.: różne od t.j. DU/2024/1568 (HTML); między t.j. DU/2024/1568 (2024-10-10) a tym t.j. weszło w życie 8 nowelizacji)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe (Dz. U. z 2025 r. poz. 366, 820 i 1456), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych (Dz. U. z 2024 r. poz. 1458, z 2025 r. poz. 1018 i 1172 oraz z 2026 r. poz. 26). § 1¹. W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw łączności określi, w drodze rozporządzenia, szczegółowy tryb i sposó…"
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10",
+    "fragment_wczesniejszy": "Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe (Dz. U. z 2023 r. poz. 1640 oraz z 2024 r. poz. 467 i 1222), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych (Dz. U. z 2024 r. poz. 1458). § 1 1 . W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw łączności określi, w drodze rozporządzenia, szczegółowy tryb i sposób doręczania pism sądowych pr…"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe (Dz. U. z 2023 r. poz. 1640 oraz z 2024 r. poz. 467 i 1222), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych (Dz. U. z 2024 r. poz. 1458). § 1 1 . W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw łączności określi, w drodze rozporządzenia, szczegółowy tryb i sposób doręczania pism sądowych pr…"
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe ( Dz. U. z 2020 r. poz. 1041 i 2320 ) , osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych ( Dz. U. z 2021 r. poz. 850 i 1090 ) . § 1 1 . W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw łączności określi, w drodze rozporządzenia, szczegółowy tryb i sposób doręczania pism sądowych przez podmioty…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe ( Dz. U. poz. 1529 ) , osoby zatrudnione w sądzie, komornika lub sądową służbę doręczeniową. § 2. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw łączności określi, w drodze rozporządzenia, szczegółowy tryb i sposób doręczania pism sądowych przez podmioty, o których mowa w § 1, mając na uwadze konieczność zapewnienia sprawnego toku postępowania, a także realizacji gwarancji procesowych jego uczestników, ochronę praw osób, którym pisma są doręczane, oraz ochronę ich danych osobowych. § 3. Minister Sprawiedliwości, na uzasadniony wniosek preze…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 131. § 1. Sąd dokonywa doręczeń przez pocztę lub przez woźnych. § 2. Szczegółowy tryb doręczania pism sądowych przez pocztę określa rozporządzenie Ministra Sprawiedliwości wydane w porozumieniu z Ministrem Łączności."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.2
+   }
+  },
+  {
+   "id": 2,
+   "powolanie": "art. 132",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 132–146",
+   "kontekst": "- Kodeksu postępowania cywilnego (KPC), zwłaszcza art. 131 (doręczenia elektroniczne) oraz art. 132–146 (ogólne zasady doręczeń, w tym doręczenie zastępcze i awizo).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 2,
+   "cytowanie_legal_cite": "art. 132 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+    "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 2026-03-27 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 97db38e9635dc6db…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdftotext 24.02.0) — zaliczona; względem starszego t.j.: różne od t.j. DU/2024/1568 (HTML); odnośnik przy jednostce: Zdanie drugie i trzecie w brzmieniu ustalonym przez art. 1 pkt 13 lit. a ustawy, o której mowa w odnośniku 11.; rozdzielono 2 wyrazów sklejonych w warstwie PDF)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 132. § 1. W toku sprawy adwokat, radca prawny, rzecznik patentowy oraz Prokuratoria Generalna Rzeczypospolitej Polskiej doręczają sobie nawzajem bezpośrednio odpisy pism procesowych z załącznikami. W razie wątpliwości co do dochowania obowiązku, o którym mowa w zdaniu poprzedzającym, sąd może, na wniosek albo z urzędu, zażądać dowodu nadania pisma procesowego za pośrednictwem operatora, o którym mowa w art. 165 § 2, lub dowodu doręczenia. W razie nieprzedstawienia w wyznaczonym terminie dowodów, o których mowa w zdaniu drugim, pismo procesowe podlega zwrotowi. § 1¹. Przepis § 1 nie dotyczy interwencji, zmiany powództwa, zarzutu potrącenia, pozwu wzajemnego, apelacji, skargi kasacyjnej,…"
+   },
+   "wersje": {
+    "status": "inne brzmienie w t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10",
+    "fragment_wczesniejszy": "Art. 132. § 1. W toku sprawy adwokat, radca prawny, rzecznik patentowy oraz Prokuratoria Generalna Rzeczypospolitej Polskiej doręczają sobie nawzajem bezpośrednio odpisy pism procesowych z załącznikami. W treści pisma procesowego wniesionego do sądu zamieszcza się oświadczenie o doręczeniu odpisu pisma drugiej stronie albo o jego nadaniu za pośrednictwem operatora, o którym mowa w art. 165 § 2. Pismo niezawierające powyższego oświadczenia podlega zwrotowi bez wzywania do usunięcia tego braku. § 1 1 . Przepis § 1 nie dotyczy wniesienia pozwu wzajemnego, apelacji, skargi kasacyjnej, zażalenia, sprzeciwu od wyroku zaocznego, sprzeciwu od nakazu zapłaty, zarzutów od nakazu zapłaty, wniosku o za…"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2025-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "ustalone_z_tresci_nowelizacji",
+     "fragment": "Art. 132. § 1. W toku sprawy adwokat, radca prawny, rzecznik patentowy oraz Prokuratoria Generalna Rzeczypospolitej Polskiej doręczają sobie nawzajem bezpośrednio odpisy pism procesowych z załącznikami. W treści pisma procesowego wniesionego do sądu zamieszcza się oświadczenie o doręczeniu odpisu pisma drugiej stronie albo o jego nadaniu za pośrednictwem operatora, o którym mowa w art. 165 § 2. Pismo niezawierające powyższego oświadczenia podlega zwrotowi bez wzywania do usunięcia tego braku. § 1 1 . Przepis § 1 nie dotyczy wniesienia pozwu wzajemnego, apelacji, skargi kasacyjnej, zażalenia, sprzeciwu od wyroku zaocznego, sprzeciwu od nakazu zapłaty, zarzutów od nakazu zapłaty, wniosku o za…"
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 132. § 1. W toku sprawy adwokat, radca prawny, rzecznik patentowy oraz Prokuratoria Generalna Rzeczypospolitej Polskiej doręczają sobie nawzajem bezpośrednio odpisy pism procesowych z załącznikami. W treści pisma procesowego wniesionego do sądu zamieszcza się oświadczenie o doręczeniu odpisu pisma drugiej stronie albo o jego nadaniu przesyłką poleconą. Pismo niezawierające powyższego oświadczenia podlega zwrotowi bez wzywania do usunięcia tego braku. § 1 1 . Przepis § 1 nie dotyczy wniesienia pozwu wzajemnego, apelacji, skargi kasacyjnej, zażalenia, sprzeciwu od wyroku zaocznego, sprzeciwu od nakazu zapłaty, zarzutów od nakazu zapłaty, wniosku o zabezpieczenie powództwa, skargi o wznow…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 132. § 1. W toku sprawy adwokat, radca prawny, rzecznik patentowy oraz radca Prokuratorii Generalnej Skarbu Państwa doręczają sobie nawzajem bezpośrednio odpisy pism procesowych z załącznikami. Do pisma procesowego wniesionego do sądu dołącza się dowód doręczenia drugiej stronie odpisu albo dowód jego wysłania przesyłką poleconą. Pisma, do których nie dołączono dowodu doręczenia albo dowodu wysłania przesyłką poleconą, podlegają zwrotowi bez wzywania do usunięcia tego braku. § 1 1 . Przepis § 1 nie dotyczy wniesienia pozwu wzajemnego, apelacji, skargi kasacyjnej, zażalenia, sprzeciwu od wyroku zaocznego, sprzeciwu od nakazu zapłaty, zarzutów od nakazu zapłaty, wniosku o zabezpieczenie…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 132. § 1. w toku sprawy adwokaci mogą doręczać sobie nawzajem pisma bezpośrednio za potwierdzeniem odbioru i oznaczeniem daty. § 2. Doręczenie adresatowi może nastąpić także przez wręczenie mu pisma bezpośrednio w sekretariacie sądu."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.3
+   }
+  },
+  {
+   "id": 3,
+   "powolanie": "art. 146",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 2,
+   "napis_grupy": "art. 132–146",
+   "kontekst": "- Kodeksu postępowania cywilnego (KPC), zwłaszcza art. 131 (doręczenia elektroniczne) oraz art. 132–146 (ogólne zasady doręczeń, w tym doręczenie zastępcze i awizo).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 3,
+   "cytowanie_legal_cite": "art. 146 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 146. Do kuratora ustanowionego zgodnie z art. 143 i art. 144 stosuje się odpowiednio przepis art. 69 § 3."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 146. Przepisy o doręczeniu stronie, której miejsce pobytu nie jest znane, i ustanowieniu dla niej kuratora stosuje się również do organizacji, które nie mają organów albo których organy są nieznane z miejsca pobytu."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.0,
+    "slowa_wersji_wczesniejszej": [
+     "doręc"
+    ],
+    "slowa_wersji_wczesniejszej_slabe": true
+   }
+  },
+  {
+   "id": 4,
+   "powolanie": "art. 136",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 3,
+   "napis_grupy": "art. 136",
+   "kontekst": "W pozostałych przypadkach stosuje się doręczenie tradycyjne (pocztą, art. 136 i nast.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 4,
+   "cytowanie_legal_cite": "art. 136 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 136. § 1. Strony i ich przedstawiciele mają obowiązek zawiadamiać sąd o każdej zmianie swego zamieszkania. § 2. W razie zaniedbania tego obowiązku pismo sądowe pozostawia się w aktach sprawy ze skutkiem doręczenia, chyba że nowy adres jest sądowi znany. O powyższym obowiązku i skutkach jego niedopełnienia sąd powinien pouczyć stronę przy pierwszym doręczeniu. § 3. Przepisu § 2 nie stosuje się do doręczenia skargi o wznowienie postępowania lub skargi o stwierdzenie niezgodności z prawem prawomocnego orzeczenia. § 4. Strona, która zgłosiła wniosek o dokonywanie doręczeń na adres oznaczonej skrytki pocztowej, ma obowiązek zawiadamiać sąd o każdej zmianie tego adresu. Przepisy § 2 i 3 stos…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 136. § 1. Strony i ich przedstawiciele mają obowiązek zawiadamiać sąd o każdej zmianie swego zamieszkania. § 2. W razie zaniedbania tego obowiązku pismo sądowe pozostawia się w aktach sprawy ze skutkiem doręczenia, chyba że nowy adres jest sądowi znany. O powyższym obowiązku i skutkach jego niedopełnienia sąd powinien pouczyć stronę przy pierwszym doręczeniu. § 3. Przepisu § 2 nie stosuje się do doręczenia skargi o wznowienie postępowania lub skargi o stwierdzenie niezgodności z prawem prawomocnego orzeczenia. § 4. Strona, która zgłosiła wniosek o dokonywanie doręczeń na adres oznaczonej skrytki pocztowej, ma obowiązek zawiadamiać sąd o każdej zmianie tego adresu. Przepisy § 2 i 3 stos…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 136. § 1. Strony i ich przedstawiciele mają obowiązek zawiadamiać sąd o każdej zmianie swego zamieszkania. § 2. W razie zaniedbania tego obowiązku pismo sądowe pozostawia się w aktach sprawy ze skutkiem doręczenia, chyba że nowy adres jest sądowi znany. O powyższym obowiązku i skutkach jego niedopełnienia sąd powinien pouczyć stronę przy pierwszym doręczeniu. § 3. Przepisu paragrafu poprzedzającego nie stosuje się do doręczenia skargi o wznowienie postępowania albo rewizji nadzwyczajnej."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.67
+   }
+  },
+  {
+   "id": 5,
+   "powolanie": "art. 139 KPC",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "wprost"
+   },
+   "rola": "główne",
+   "grupa": 4,
+   "napis_grupy": "art. 139 KPC",
+   "kontekst": "- Jeżeli adresat go nie odbierze, doręczenie uznaje się za dokonane z upływem 14 dni od dnia udostępnienia pisma w systemie (domniemanie z ustawy o doręczeniach elektronicznych, por. też art. 139 KPC).",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 5,
+   "cytowanie_legal_cite": "art. 139 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 139. § 1. W razie niemożności doręczenia w sposób przewidziany w artykułach poprzedzających, pismo przesłane za pośrednictwem operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe należy złożyć w placówce pocztowej tego operatora, a doręczane w inny sposób – w urzędzie właściwej gminy. Zawiadomienie o złożeniu pisma umieszcza się w drzwiach mieszkania lub biura adresata lub oddawczej skrzynce pocztowej, ze wskazaniem, gdzie i kiedy pismo złożono, oraz z pouczeniem, że należy je odebrać w terminie siedmiu dni od dnia umieszczenia zawiadomienia. W przypadku bezskutecznego upływu tego terminu, czynność zawiadomienia należy powtórzyć. § 1¹. Pismo złożone w p…"
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [
+    {
+     "na_dzien": "2021-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 139. § 1. W razie niemożności doręczenia w sposób przewidziany w artykułach poprzedzających, pismo przesłane za pośrednictwem operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe należy złożyć w placówce pocztowej tego operatora, a doręczane w inny sposób - w urzędzie właściwej gminy, umieszczając zawiadomienie o tym w drzwiach mieszkania adresata lub w oddawczej skrzynce pocztowej ze wskazaniem gdzie i kiedy pismo pozostawiono, oraz z pouczeniem, że należy je odebrać w terminie siedmiu dni od dnia umieszczenia zawiadomienia. W przypadku bezskutecznego upływu tego terminu, czynność zawiadomienia należy powtórzyć. § 1 1 . Pismo złożone w placówce pocztow…"
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "potwierdzone_identyczne_w_kolejnym_tj",
+     "fragment": "Art. 139. § 1. W razie niemożności doręczenia w sposób przewidziany w artykułach poprzedzających, pismo przesłane za pośrednictwem operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe należy złożyć w placówce pocztowej tego operatora, a doręczane w inny sposób - w urzędzie właściwej gminy, umieszczając zawiadomienie o tym w drzwiach mieszkania adresata lub w oddawczej skrzynce pocztowej ze wskazaniem gdzie i kiedy pismo pozostawiono, oraz z pouczeniem, że należy je odebrać w terminie siedmiu dni od dnia umieszczenia zawiadomienia. W przypadku bezskutecznego upływu tego terminu, czynność zawiadomienia należy powtórzyć. § 1 1 . Pismo złożone w placówce pocztow…"
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "status": "inne brzmienie",
+     "ustalenie": "nieustalone",
+     "fragment": "Art. 139. § 1. W razie niemożności doręczenia w sposób przewidziany w artykułach poprzedzających należy złożyć pismo w urzędzie pocztowym lub lokalu prezydium właściwej rady narodowej, a zawiadomienie o tym umieścić na drzwiach mieszkania adresata lub w skrzynce listowej. § 2. Jeżeli adresat lub jego domownik odmawia przyjęcia pisma, pozostawia się je w miejscu doręczenia, a gdyby to było niemożliwe, składa się je - uprzedzając o tym - w urzędzie pocztowym lub w lokalu prezydium właściwej rady narodowej. § 3. Przepisów paragrafów poprzedzających nie stosuje się, gdy adresatem jest państwowa jednostka organizacyjna."
+    }
+   ],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.45
+   }
+  },
+  {
+   "id": 6,
+   "powolanie": "art. 168",
+   "akt": {
+    "nazwa": "Kodeks postępowania cywilnego",
+    "kod_legal_cite": "KPC",
+    "ustalenie": "domniemany (akt z podstaw klucza)"
+   },
+   "rola": "główne",
+   "grupa": 5,
+   "napis_grupy": "art. 168",
+   "kontekst": "- Czy w sprawie nie zachodzi możliwość przywrócenia terminu (art. 168 i nast.",
+   "cytat": null,
+   "flagi": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "powolanie_glowne_id": 6,
+   "cytowanie_legal_cite": "art. 168 KPC",
+   "weryfikacja": {
+    "status": "istnieje",
+    "znacznik": "urzędowy HTML",
+    "zrodlo": "(źródło: api.sejm.gov.pl, tekst urzędowy HTML t.j. DU/2024/1568; brzmienie identyczne w najnowszym t.j. Dz.U. 2026 poz. 468 z 2026-03-27, dostępnym tylko w PDF — odczyt eli2md 0.6.54 / pdfplumber 0.11.10, kontrola pdftotext: zaliczona)",
+    "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+    "uwagi": [],
+    "uchylony": false,
+    "brzmienie_na_dzien": {
+     "na_dzien": "2026-10-01",
+     "status": "istnieje",
+     "ustalenie": "nieustalone",
+     "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowelizacja zmieniła artykuł.",
+     "znacznik": "nieurzędowy odczyt PDF"
+    },
+    "fragment_urzedowy": "Art. 168. § 1. Jeżeli strona nie dokonała w terminie czynności procesowej bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu. § 2. Przywrócenie nie jest dopuszczalne, jeżeli uchybienie terminu nie pociąga za sobą ujemnych dla strony skutków procesowych."
+   },
+   "wersje": {
+    "status": "bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10)",
+    "tj": "DU/2024/1568",
+    "data": "2024-10-10"
+   },
+   "wersje_na_dzien": [],
+   "cytat_porownanie": {
+    "wynik": "brak cytatu"
+   },
+   "sygnaly": {
+    "zbieznosc_kontekstu": 0.4
+   }
+  }
+ ],
+ "orzeczenia": [],
+ "publikatory": [],
+ "daty": [
+  {
+   "data": "2020-11-18",
+   "napis": "18 listopada 2020",
+   "kontekst": "- Ustawy z 18 listopada 2020 r. o doręczeniach elektronicznych, która reguluje e-Doręczenia, w tym skutki doręczenia."
+  }
+ ]
+}

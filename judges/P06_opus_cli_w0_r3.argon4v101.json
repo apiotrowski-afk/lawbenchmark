@@ -1,0 +1,131 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1¹ k.p.c. (oraz Dz.U. 2019 poz. 1469)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz Dz.U. 2019 poz. 1469",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130² § 4 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130² § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 394 § 2 w zw. z art. 397 § 1 i 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 19 ust. 4 w zw. z ust. 3 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228 (t.j. u.k.s.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 94–96 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228 (t.j. u.k.s.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 ust. 1 i 4 u.k.s.c.",
+   "zrodlo": "Dz.U. 2025 poz. 1228 (t.j. u.k.s.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 398² k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168–169 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafia wyłącznie w jedną gałąź pytania warunkowego („co do zasady tak: zażalenie poziome do innego składu SA”), nie rozróżniając odrzucenia przez SA zażalenia poziomego od odrzucenia zażalenia dewolutywnego na postanowienie SO, co zgodnie z przykładem granicznym nr 2 daje A_R=1, B2=0 oraz skutkuje naliczeniem obu kar (w tym za wskazanie zażalenia do SN). Brak powołania wymaganych podstaw z art. 394² § 1² i art. 397 § 1¹ k.p.c. obniża A2 do 0. Odpowiedź zawiera liczne halucynacje (A6=0, typy T i W): przypisuje normę o zaskarżalności odrzucenia zażalenia jednostce art. 394² § 1¹ k.p.c. (zamiast § 1² zd. 2), powołuje jako obowiązujące uchylone przepisy art. 394¹ § 2 k.p.c. i art. 130² § 3 k.p.c., a uchylonemu w 2009 r. art. 130² § 4 k.p.c. przypisuje nieistniejącą instytucję dopłaty w ciągu tygodnia od postanowienia o odrzuceniu środka zaskarżenia („tylko raz w toku postępowania”). Ponadto błędnie przypisuje art. 19 ust. 4 u.k.s.c. (dotyczącemu zarzutów od nakazu zapłaty) regulację opłaty od zażalenia poziomego, a art. 102 ust. 1 i 4 u.k.s.c. skutki nierozpoznanego wniosku o zwolnienie od kosztów (regulowane w art. 112 u.k.s.c.). Ze względu na rekomendowanie nieistniejącego trybu sanacji odrzuconego zażalenia i błędną ocenę zaskarżalności zwykłego zażalenia dewolutywnego przydatność praktyczna odpowiedzi wynosi B1=0.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 35,
+  "zapytania": [
+   "\"394^2\" OR \"3942\" \"Sąd odrzuca\" \"Na postanowienie przysługuje zażalenie\" kpc eli.gov.pl OR isap.sejm.gov.pl",
+   "\"130^2\" OR \"1302\" \"Pismo wniesione przez adwokata\" kpc isap.sejm.gov.pl OR eli.gov.pl",
+   "\"394^1\" OR \"3941\" \"Sądu Najwyższego\" kpc isap.sejm.gov.pl OR eli.gov.pl",
+   "\"357\" \"394\" \"397\" kpc \"2026\" poz 468 isap.sejm.gov.pl OR eli.gov.pl",
+   "\"Art. 3942.\" OR \"Art. 3941.\" \"Zażalenie do innego składu sądu drugiej instancji\"",
+   "\"Art. 1302.\" \"Pismo wniesione przez adwokata\"",
+   "\"Art. 357.\" \"Art. 397.\" \"Sąd drugiej instancji odrzuca zażalenie\"",
+   "\"Art. 3982.\" \"Art. 168.\" \"Art. 169.\" \"przywrócenie terminu\"",
+   "\"eli.gov.pl\" \"Art. 3942.\" \"odmowa ustanowienia adwokata\"",
+   "\"eli.gov.pl\" \"Art. 1302.\" \"§ 3. (uchylony)\"",
+   "\"eli.gov.pl\" \"Art. 19.\" \"Opłatę w kwocie\" \"piątą część opłaty\" \"zażalenia\"",
+   "\"eli.gov.pl\" \"Art. 94.\" \"Art. 95.\" \"Art. 96.\" \"Art. 102.\" \"kosztach sądowych w sprawach cywilnych\"",
+   "\"Art. 19.\" \"Połowę opłaty pobiera się od\" \"Piątą część opłaty pobiera się od\"",
+   "\"Art. 94.\" \"Skarb Państwa nie ma obowiązku uiszczania opłat\" \"Art. 95.\" \"Art. 96.\"",
+   "\"Art. 102.\" \"zwolnienia od kosztów sądowych może domagać się\"",
+   "\"Art. 357.\" \"§ 21.\" \"Art. 397.\" \"§ 3.\" \"odpowiednio przepisy o postępowaniu apelacyjnym\"",
+   "\"Art. 102.\" \"zwolnienia od kosztów sądowych może domagać się osoba fizyczna\" \"4.\"",
+   "\"Art. 357.\" \"Postanowienie wydane na posiedzeniu niejawnym sąd uzasadnia tylko wtedy\"",
+   "\"Art. 3942.\" \"6) zarządzenie przymusowego sprowadzenia\" \"§ 12.\"",
+   "\"Art. 1302.\" \"§ 3.\" \"§ 4.\" \"środek odwoławczy\" OR \"środek zaskarżenia\" \"odrzucone bez wezwania\" OR \"odrzuca bez wezwania\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10417,
+   "wyjscie": 2919
+  },
+  "czas_s": 263,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

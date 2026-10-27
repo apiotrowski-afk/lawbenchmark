@@ -1,0 +1,29 @@
+# Raport faktów — P13 · codex_terra56_web_r3
+
+Data stanu prawnego (klucz): 2026-10-01 · wygenerowano 2026-10-24T18:45:28 · 2.8 s
+Powołania: przepisy 7, orzeczenia 5, publikatory 0, daty 1
+Flagi: brzmienie_na_dzien_nieustalone 7, inny_sad 4, slowa_wersji_wczesniejszej 1, sygnatura_niejednoznaczna 4
+
+## Przepisy
+
+| # | powołanie | akt | istnieje | cytat | wersje | flagi |
+|---|---|---|---|---|---|---|
+| 1 | art. 492 § 3 k.p.c. | Kodeks postępowania cywilnego | istnieje | brak cytatu | bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10) | brzmienie_na_dzien_nieustalone |
+| 2 | art. 492 § 1 k.p.c. | Kodeks postępowania cywilnego | istnieje | brak cytatu | bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10) | brzmienie_na_dzien_nieustalone |
+| 3 | art. 492 § 3 k.p.c. | Kodeks postępowania cywilnego | istnieje | brak cytatu | bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10) | brzmienie_na_dzien_nieustalone |
+| 4 | art. 492 § 3 k.p.c. | Kodeks postępowania cywilnego | istnieje | brak cytatu | bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10) | brzmienie_na_dzien_nieustalone |
+| 5 | art. 492 § 2 k.p.c. | Kodeks postępowania cywilnego | istnieje | brak cytatu | bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10) | brzmienie_na_dzien_nieustalone, slowa_wersji_wczesniejszej |
+| 6 | art. 742 k.p.c. [w_zwiazku → #5] | Kodeks postępowania cywilnego | istnieje | brak cytatu | bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10) | brzmienie_na_dzien_nieustalone |
+| 7 | art. 492 k.p.c. | Kodeks postępowania cywilnego | istnieje | brak cytatu | bez zmian względem t.j. DU/2024/1568 (HTML, 2024-10-10) | brzmienie_na_dzien_nieustalone |
+
+## Orzeczenia
+
+| sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
+|---|---|---|---|---|---|---|
+| I ACz 390/13 | Sąd Apelacyjny w Szczecinie | 2013-07-18 | sygnatura niejednoznaczna (2 wyroków: Sąd Apelacyjny w Rzeszowie 2013-06-21 (SAOS); Sąd Apelacyjny we Wrocławiu 2013-03-21 (SAOS)) | — | — | inny_sad, sygnatura_niejednoznaczna |
+| VIII Gz 43/16 | Sąd Apelacyjny w Gdańsku | — | sygnatura niejednoznaczna (2 wyroków: Sąd Okręgowy w Szczecinie 2016-03-02 (SAOS); Sąd Okręgowy w Bydgoszczy 2016-06-02 (SAOS)) | — | — | inny_sad, sygnatura_niejednoznaczna |
+| I ACz 390/13 | Sąd Apelacyjny w Szczecin | — | sygnatura niejednoznaczna (2 wyroków: Sąd Apelacyjny w Rzeszowie 2013-06-21 (SAOS); Sąd Apelacyjny we Wrocławiu 2013-03-21 (SAOS)) | — | — | inny_sad, sygnatura_niejednoznaczna |
+| VIII Gz 43/16 | Sąd Apelacyjny w Gdańsk | — | sygnatura niejednoznaczna (2 wyroków: Sąd Okręgowy w Szczecinie 2016-03-02 (SAOS); Sąd Okręgowy w Bydgoszczy 2016-06-02 (SAOS)) | — | — | inny_sad, sygnatura_niejednoznaczna |
+| I CZ 83/09 | Sąd Najwyższy | — | znaleziono (SAOS) | Sąd Najwyższy | 2009-09-04 | — |
+
+Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

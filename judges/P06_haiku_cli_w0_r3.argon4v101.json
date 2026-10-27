@@ -1,0 +1,100 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394 § 3 KPC (oraz § 1 i 2 tego przepisu)",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 130 KPC i art. 130 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 362 KPC w związku z art. 130 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 168–169 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 102 ustawy o kosztach sądowych w sprawach cywilnych",
+   "zrodlo": "Dz.U. 2025 poz. 1228 (t.j. u.k.s.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 Konstytucji RP",
+   "zrodlo": "Dz.U. 1997 nr 78 poz. 483 (Konstytucja RP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 Konstytucji RP",
+   "zrodlo": "Dz.U. 1997 nr 78 poz. 483 (Konstytucja RP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 6 EKPC",
+   "zrodlo": "Dz.U. 1993 nr 61 poz. 284 (EKPC)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafia tylko w jedną gałąź odpowiedzi warunkowej (brak zażalenia przy odrzuceniu zażalenia przez SA jako sąd II instancji), co zgodnie z przykładem granicznym nr 2 daje A-R = 1, zaliczenie wyłącznie trzeciego elementu rubryki, karę K[1] = 1 za brak rozróżnienia i dopytania oraz B2 = 0. W A2 przyznano 0 z uwagi na całkowity brak wymaganych podstaw (art. 394² § 1² i art. 397 § 1¹ k.p.c.). W A6 przyznano 0 (klasa T, hallucinated = true), ponieważ system przypisał art. 394 § 3 k.p.c. normę o wyłączeniu zażalenia na postanowienia sądu II instancji (przepis ten reguluje wymogi formalne zażalenia), a z art. 362 w zw. z art. 130 k.p.c. wywiódł nieistniejący „sprzeciw do sądu” od zarządzenia przewodniczącego o zwrocie pisma. W A8 przyznano 0,5 z powodu dygresji zaprzeczającej danym z pytania (rozważanie zarządzenia o zwrocie zamiast postanowienia o odrzuceniu) oraz omawiania wniosku o zwolnienie od kosztów i skargi konstytucyjnej. Liczne błędy konstrukcyjne i fałszywe wskazówki praktyczne (np. „sprzeciw do sądu” zamiast zażalenia, odsyłanie prawnika do samodzielnego sprawdzenia brzmienia art. 394 k.p.c.) skutkują oceną B1 = 0.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P06",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"Art. 394.\" OR OR kpc",
+   "\"Art. 362.\" \"Art. 130.\" OR OR kpc",
+   "\"Art. 168.\" \"Art. 169.\" OR OR kpc",
+   "\"Art. 102.\" \"kosztach sądowych w sprawach cywilnych\" OR OR",
+   "\"2026\" \"468\" \"Art. 394\"",
+   "\"2026\" \"468\" \"Art. 362\" \"Art. 130\"",
+   "\"2025\" \"1228\" \"Art. 102\"",
+   "OR \"Art. 79\" \"Art. 45\" Konstytucja",
+   "\"Art. 6\" \"Konwencja o ochronie praw człowieka i podstawowych wolności\" \"prawo do rzetelnego procesu\"",
+   "\"Art. 130.\" \"Art. 168.\" \"Kodeks postępowania cywilnego\" \"Dz.U.\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 9632,
+   "wyjscie": 1467
+  },
+  "czas_s": 134,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

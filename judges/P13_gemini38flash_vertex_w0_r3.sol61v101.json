@@ -1,0 +1,92 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 zd. 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c. — zachowanie funkcji tytułu zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 752 k.p.c. — składanie zajętych pieniędzy na rachunek depozytowy Ministra Finansów",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=164",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 zd. 2 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c. w związku z art. 492 § 1 zd. 2 k.p.c. — podstawa uchylenia lub zmiany zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 742 § 1 k.p.c. — zmiana przyczyny zabezpieczenia i złożenie sumy zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=162",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c. — obowiązek wskazania sposobu zabezpieczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "W orzecznictwie i doktrynie jednolicie przyjmuje się wskazaną interpretację wstrzymania wykonania",
+   "zrodlo": "Nie wskazano konkretnych orzeczeń ani opracowań; nie potwierdzono deklarowanej jednolitości.",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Deklarowana jednolitość orzecznictwa i doktryny."
+ ],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń i obie wymagane podstawy, ale nie wskazuje zawieszenia egzekucji jako skutku wstrzymania. Art. 492 § 1 zd. 2 reguluje depozyt, a odesłanie do odpowiedniego stosowania art. 742 znajduje się w art. 492 § 2 zd. 3, co przy wskazaniu konkretnej jednostki uzasadnia T i A6=0. Pochodzenie błędnego powołania jest nieustalone. Przydatność obniża końcowa teza o konieczności dodatkowego wniosku, nieuwzględniająca upadku zabezpieczenia wskutek złożenia odpowiedniej sumy zgodnie z art. 742 § 1. Odpowiedź pozostaje w ramach pytania i stawia konkluzję kategorycznie.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P13",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 78,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

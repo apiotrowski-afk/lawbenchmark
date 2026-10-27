@@ -1,0 +1,95 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2024 poz. 1061",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14 października 2021 r., IV CSKP 44/21",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni realizuje rdzeń i trafnie zaprzecza błędnej przesłance z pytania w pierwszym akapicie. System prawidłowo powołuje wymagane przepisy (art. 41 ust. 2 i art. 53 pr.aut.) oraz trafnie przywołuje liberalną linię orzeczniczą SN (wyrok IV CSKP 44/21) opartą na art. 65 k.c. Odpowiedź zawiera bardzo przydatne, praktyczne wskazówki dotyczące wyliczenia pól eksploatacji dla social mediów. Kalibracja warunkowa jest zachowana, a wszystkie powołania są zgodne ze źródłami oficjalnymi.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P10",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"IV CSKP 44/21\"",
+   "\"IV CSKP 44/21\" sn.pl",
+   "\"IV CSKP 44/21\" \"pola eksploatacji\"",
+   "\"IV CSKP 44/21\" \"art. 65\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzgsJNsV0CCbbWAvq_vW1aiQwWAgIEFDYF45LSmOfGt-po-wBDeul4oRZDnCCPMR0sBtl0dZM5VZRkpgRnhz0O4U2ausERNj4YAiFbnAf7dzmQLccKChGbBVyDghqlNcGZtZOA3WcTmHV1JWq7eCh7XR8obZyenl0Lq9XLPFLq",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL4WL7ZbBhixLwO9zqU18rLiJoOOfSjsXr3Bq-NzFWtejpyQroTlFeNwsQMtylgnWAyDWbtkoWRjMxa8j0CbnwfRXxZBBSmRgtSWk1WriWQWB6Z4APFHUjPCmwinfoN6bHCpvbOdlsr_EPnj6youFYZWIM",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFhFMd9a5Frzgm-AAlNkKuK9zNIBorslHwDBDfHv2nuFTiQhTg9jS8ZJAjjMlZrwaY4LUrecnT-VEBEYKICU7bQkr5FYyI6Tc_3Ue42xYnPql6gqrK5K6bKY6ezuIAZYif2VcnwfQ833lPrf7G9f-1FsQsV3CxSmXIBHl5X847MUMaWQ1XGiGXeqA4bqz4v20-qrHMbTYDK4QCZ7mvAfk8_f4KfeIK5iak1VkUCfN2sB4S",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-UUbCGth5VS31W0KgtmdYNc33OhNyCXWTbjJlCIM9SiSQCg60Dtq89rpLNhoKxFRbniR1RrHu-B1nDVbtitKf43_f5NEoGNnKoaOd2RZFTXoxyTgCIWr99DTSBpVG581H8QJlbfRpG-edUjMc",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt0yi24zPhoAWcsDmdIGbGyqs5w53AI3zbw9GCS5tiGr91L9hh00KfCVoFSdjWmyAP2gCLYMd4AGvJU7NCXIw8lOI534zAVB0YvlB4cNIK6M40JAsSKvGSs_gYAyyX560ihVCQ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ-FtSLS55hVzCpanml8KpOTg-QmSNaYZS8xa92XCSJJE88VgtDpLB7jJRmKsguSSQXUQVfPLi9ZIE2gG_6NZraTbok8zkqdA-_qaZdf3MK4j27ozj1VZUVl7kSEADN2P75CSPbY7X-QwX52YRe5ggBV_EFvy-v1gYrahzXlDg7KoVhh_IuGvK3WccGLnuRf7RWZPPt5iIMRFeskDJ38GqKTBDlB5odxhMIGd-Z4dgrTo7bNXT2I_q98T_-r-QQwEocJI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfUNFgjxw3FwpvpisUxjS_qG7-l_x2s-EoQplgFpfr1bxVGXILd0CdSpBDvEl5rY9mETmO3JyzgMYZI8-z1QiZGrLNyL3IQ8b9MMs0LXaM_e_tZX2sw_6BzXzQMU_ub3hZBCXUSQ5dtq9eG4PCeBlJDDgiL-Qlx7pJdjMLRrOR_Ge26NGUSsj2aMV7g4jO"
+  ],
+  "tokeny": {
+   "wejscie": 13621,
+   "wyjscie": 743
+  },
+  "czas_s": 93,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

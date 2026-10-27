@@ -1,0 +1,113 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 2 pkt 3 i § 3 ust. 1 rozporządzenia z 12 marca 2024 r.",
+   "zrodlo": "Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 4 ust. 2 rozporządzenia",
+   "zrodlo": "Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "§ 4 ust. 1 rozporządzenia",
+   "zrodlo": "Dz.U. 2024 poz. 368",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 1, § 1¹ i § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 133 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Rozporządzenie z 12 marca 2024 r. — Dz.U. 2024 poz. 368, zmiana z 23 lutego 2026 r. — Dz.U. 2026 poz. 225",
+   "zrodlo": "Dz.U. 2024 poz. 368, Dz.U. 2026 poz. 225",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń i wszystkie wymagane podstawy prawne. Powołane przepisy k.p.c. oraz rozporządzenia z 12 marca 2024 r. zostały zweryfikowane i są w pełni zgodne ze źródłami oficjalnymi. System zrealizował wszystkie elementy rubryki, nie popełniając błędów skutkujących karą. Odpowiedź jest wysoce przydatna, a jej kategoryczny ton odpowiada stanowi prawnemu.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 25,
+  "zapytania": [
+   "\"Dz.U. 2024 poz. 368\"",
+   "\"Dz.U. 2026 poz. 225\" rozporządzenie doręczania pism sądowych",
+   "\"Dz.U. 2024 poz. 368\" \"§ 2\" \"§ 3\" \"§ 4\"",
+   "\"Dz.U. 2026 poz. 225\" \"§ 2\" \"§ 3\" \"§ 4\"",
+   "\"Dz.U. 2024 poz. 368\" \"§ 2\" \"§ 3\" \"§ 4\" filetype:pdf",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 2\" \"§ 3\" \"§ 4\"",
+   "\"Dz.U. 2024 poz. 368\" \"§ 2\" \"§ 3\" \"§ 4\" \"Moje doręczenia\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 2\" \"§ 3\" \"§ 4\" \"Moje doręczenia\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 2\" \"§ 3\" \"§ 4\" \"Dz. U.\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 2\" \"§ 3\" \"§ 4\" \"Dz.U.\"",
+   "\"Dz.U. 2024 poz. 368\" \"§ 2 pkt 3\"",
+   "\"Dz.U. 2024 poz. 368\" \"§ 3 ust. 1\"",
+   "\"Dz.U. 2024 poz. 368\" \"§ 4 ust. 2\"",
+   "\"Dz.U. 2024 poz. 368\" \"§ 4 ust. 1\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"Ilekroć w rozporządzeniu jest mowa o\"",
+   "\"Rozporządzenie Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 2\" \"§ 3\" \"§ 4\" \"Dz.U. 2024 poz. 368\"",
+   "\"w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 2\" \"§ 3\" \"§ 4\"",
+   "\"w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 3\" \"§ 4\"",
+   "\"Udostępnienie dokumentu wyłącznie do przeglądania w aktach sprawy nie jest równoznaczne z doręczeniem w tym trybie\"",
+   "\"w sprawie doręczania pism sądowych za pośrednictwem portalu informacyjnego w postępowaniu cywilnym\" \"§ 3 ust. 1\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrI76s9bd7LlB6OyipncdgXhZWEqekVoTVS5ob41lxBXyuKhLRwSyeU_VQB5Z0c2oD5jhRavmyBHcsIXW5JxVhJqy5Y-7oDVCT84LCrZs058KSjKXzEgQbKlBcq3gAv2Zrul9OCpGO4xg6YaYmAewLXQvu14bayNGVwxYLKAimcYuxD5uGwqrxXrw_0ERePL4LZXLIkpGAXv6mS-0wa2WOrkBdrGj88gaNgKUgMdDpeORvBEqLc4qF4ltzql94Gcl0wBPu1Ik9vAuSUcyHjxuWAeC-lMyMV4Xyu1vQvHkZMxj-8uR2FqRrt_i9AJ4L4eIig3GhY9hl2FqjJI6tXhtJps0kY6eUaaV1FYHpI6GjXPKVCZEkduoJYGXPmatLDzWtZnT1QQclsDNSw6o=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe1AykQjdBQsBpFvA_ng8pC7wWFwFLtoNFQO_YADczvU5basGOsbWLNEw8ZegLQw4Q5uA_yON4Bh-s4jGvPLBSjrftR6bluHI8x4LvqYzYvawWeweEnEiw8ipv",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1LC0GmQHDBJd_H1mwynDvexNEZz4EHNiLl_rTHMsXmRFgfcqDAAQ7ryW3kpchpyvdJi8ldjWfGvCqYsskgEjxltWDCqtLClWRffjAS_E6AWxDm-0OIX2Fs9HoqOdGhcwToyLKFj4JfJwc-oaEtQUCtSHPnZqtJelC0aFIvX66SC81F7mTvJAvhRHZhHMH5dYUKWwhw0WETQ4q8m806F5xAH4lv6JR1fH9conE-KtlUvS3RP3Xqzxo2jcX5I79ljQgGd5olmkGjM2MlZBiJVUjZWDjUpXNfW-ArT21kEgIskKL",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk9KUvJwGvzcU0bU1zmOPgwrBV2svA0-1bYJArjMOH-uD0NctSCTAEufWnj1y7RvyQU2jW5e6rlk0FIVUeIhCwHYG46lMB4paIgpcPjwjYoNVu2PoYm8sZXmwL9UBnBpmqeRjFZtopUcw0yUt_l5tzVAJ3ySCh_RJYE_P9K0QVqp3ierx5XKyhS0uw_8p7dN9qLcapbntqW_mmipA9zhYgeqKXBNwxunt9qSFzmnsuCtz7nF24u9fo",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhUXdwr8bd_fdZb8sNazfDRUhQi8mLx0PPu_APv7OviCcraO1fCvebTcQ2Ahg4zsTS2IPvBoXUOY3165uEK_htPTk9uhXopg-gb2rJt2jJv4IooHw3DuKvZJCaTr1KyWYdoZG8byP3vIc1nR8gcZvqQ-JdAFcke0hihrh3GQwmutNsysOSogdp5JZi9hU-jGUkFiaFk54GdZpCC9wTjXGKxVxmWPufytcErRV8MrF4zw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4CBjtVTiK2CxuD3rsq5l0zf_I4f29nO9g48cbqF1Jfle7-w7jLp1B1wlaIBM2F7TwEhYQ8X6jY4IGtYxoeDKyDM7yVhRoos04ME5pGVZE0MU5B7DTbvw5gP-PbfLFNIdDtLN8LDO_VUb4ClcysiB6_yAirKxGIirVpA=="
+  ],
+  "tokeny": {
+   "wejscie": 10020,
+   "wyjscie": 889
+  },
+  "czas_s": 229,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

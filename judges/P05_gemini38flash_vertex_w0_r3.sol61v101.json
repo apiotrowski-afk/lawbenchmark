@@ -1,0 +1,85 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131¹ᵃ § 1 k.p.c. — wyłączenie strony działającej osobiście",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf — s. 28–29, odnośniki 28–30; od 1.06.2026 przepis obejmuje również stronę, która wybrała doręczenia portalowe.",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 131 § 1 k.p.c. — obowiązek doręczania takiej osobie wyłącznie tradycyjnie",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf — s. 28; przepis wymienia podmioty doręczające, nie ustanawia wyłączenia osoby fizycznej z doręczeń elektronicznych.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf — s. 28; wniesienie pisma przez system albo wybór takiego sposobu wnoszenia pism.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf — s. 28; elektroniczne potwierdzenie odbioru oraz reguła 14 dni.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ § 2¹ k.p.c. jako podstawa momentu doręczenia i fikcji doręczenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf — s. 28; jednostka reguluje rezygnację z doręczenia elektronicznego.",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ k.p.c. oraz art. 131¹ᵃ § 2 k.p.c. — mechanizm doręczenia portalowego i 14 dni",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf — s. 29; chwila wskazana w dokumencie potwierdzającym doręczenie, a przy jego braku upływ 14 dni.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 131¹ᵃ § 3 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf — s. 29; odstąpienie ze względu na charakter pisma.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych — możliwość posiadania adresu przez obywatela",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text/T/D20260003L.pdf — art. 10 i 11.",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa o doręczeniach elektronicznych i komunikaty Ministra Cyfryzacji — wdrożenie obowiązku dla sądów w latach 2024–2025",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/3/text/T/D20260003L.pdf — art. 155 ust. 7 wskazuje 1.10.2029; potwierdzenie: https://www.gov.pl/web/cyfryzacja/e-doreczenia-obowiazkowe-rowniez-dla-przedsiebiorcow",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź odwraca stan prawny obowiązujący od 1.06.2026, dlatego nie realizuje rdzenia ani wymaganych podstaw. Zaliczyłem opis momentu doręczenia i reguły 14 dni, lecz brak wyboru oraz rezygnacji; naliczyłem pierwszą karę, bez kary za awizo odnoszone w odpowiedzi do przesyłki tradycyjnej. Dawne brzmienie art. 131¹ᵃ § 1 oraz przypisanie cudzej treści konkretnym przepisom skutkują A6=0; pochodzenie błędów pozostaje nieustalone wobec braku śladu narzędzi ocenianego systemu. Omówienia EPU, KRZ i e-Doręczeń stanowią dygresje uzasadniające A8=0.5. Zalecenie oczekiwania wyłącznie na przesyłkę papierową grozi utratą terminu, więc B1=0, natomiast stanowcza konkluzja odpowiada kategorycznej kalibracji klucza.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P05",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 83,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

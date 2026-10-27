@@ -1,0 +1,178 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  1,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 394¹ k.p.c. — ogólna podstawa analizy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394¹ § 1 k.p.c. — wymienione przypadki zażalenia do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394² k.p.c. — niezaskarżalność odrzucenia zażalenia poziomego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=74",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394² § 1 k.p.c. — wyłącznie odrzucenie apelacji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=74",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394² § 1¹ k.p.c. — katalog nie wymienia odrzucenia zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=74",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 373 § 1 w zw. z art. 397 § 3 k.p.c. — odrzucenie nieopłaconego środka",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=69",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394¹ § 3 w zw. z art. 398²¹ i art. 394 § 1 k.p.c. — zażalenie do SN na odrzucenie zażalenia skierowanego do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Ustalone orzecznictwo SN — zaskarżalność odrzucenia zażalenia skierowanego do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 394¹ k.p.c. — uchylenie wyroku i przekazanie sprawy oraz odrzucenie skargi kasacyjnej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=73",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 87¹ § 1 k.p.c. — przymus adwokacko-radcowski",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=16",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 398²² § 1 k.p.c. — skarga także w ramach wyjątku dla decyzji kończących postępowanie przed referendarzem",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=78",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 373 k.p.c. — odrzucenie środka przez sąd",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=69",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 359 § 1 k.p.c. — zmiana okoliczności jako podstawa uchylenia lub zmiany postanowienia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=68",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 391 § 1 i art. 397 § 3 k.p.c. — odpowiednie stosowanie przepisów",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=72",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Orzecznictwo SN — reasumpcja niezaskarżalnych postanowień formalnych z powodu oczywistego błędu",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/i%20uz%2015-23-5.pdf",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "Art. 168 § 1 k.p.c. — przywrócenie terminu przy braku winy",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=37",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 169 § 3 k.p.c. — równoczesne dokonanie czynności",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=37",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dawny art. 130² k.p.c. — odrzucenie bez wezwania i przywrócenie terminu do wniesienia zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=27",
+   "werdykt": "niesprawdzone"
+  },
+  {
+   "powolanie": "Art. 380 w zw. z art. 398²¹ k.p.c. — kontrola niezaskarżalnych postanowień przy rozpoznawaniu skargi kasacyjnej",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf#page=70",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 429 k.p.c. — odmowa przyjęcia środka w procedurze karnej; właściwy akt to k.p.k.",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000046/O/D20250046.pdf#page=92",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "Art. 430 k.p.c. — pozostawienie środka bez rozpoznania w procedurze karnej; właściwy akt to k.p.k.",
+   "zrodlo": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20250000046/O/D20250046.pdf#page=92",
+   "werdykt": "S"
+  }
+ ],
+ "niesprawdzone": [
+  "Nie zidentyfikowano konkretnego orzeczenia SN potwierdzającego opisaną reasumpcję; dostęp do znalezionego dokumentu SN nie pozwolił zweryfikować uzasadnienia.",
+  "Nie zweryfikowano historycznego brzmienia art. 130² k.p.c. ani przypisanej mu historycznej ścieżki przywrócenia terminu."
+ ],
+ "A6_pochodzenie": [
+  {
+   "powolanie": "Art. 394² k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "Art. 394² § 1 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "Art. 394¹ § 3 w zw. z art. 398²¹ i art. 394 § 1 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "Ustalone orzecznictwo SN o zażaleniu skierowanym do SN",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "Art. 398²² § 1 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "Art. 429 k.p.c.",
+   "pochodzenie": "nieustalone"
+  },
+  {
+   "powolanie": "Art. 430 k.p.c.",
+   "pochodzenie": "nieustalone"
+  }
+ ],
+ "uzasadnienie": "A-R=1, ponieważ konkluzja jest trafna tylko dla zażalenia dewolutywnego; odpowiedź błędnie wyłącza zaskarżenie odrzucenia zażalenia poziomego, przewidziane w art. 394² § 1². Brakuje obu wymaganych podstaw i prawidłowego rozwidlenia, a wzmianka o dawnym art. 130² nie realizuje elementu dotyczącego zwrotu i tygodniowej dopłaty. A6=0 wynika z fałszywych treści przypisanych przepisom, w tym rzekomej podstawy kolejnego zażalenia do SN, oraz pomylenia k.p.c. z k.p.k. Naliczono obie kary, ponieważ dla dwóch gałęzi klucza podano wspólne „nie” i wskazano zażalenie do SN. Dygresja karna obniża A8, a błędne wskazówki procesowe ograniczają B1 i brak właściwego warunku obniża B2.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "argon4_high_vertex_w0_r3",
+  "wyszukan": 24,
+  "czas_s": 163,
+  "data": "2026-10-13",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

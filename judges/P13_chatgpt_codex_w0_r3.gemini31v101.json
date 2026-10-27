@@ -1,0 +1,91 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 731 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozróżnia funkcję nakazu jako tytułu egzekucyjnego i tytułu zabezpieczenia, wskazując, że wstrzymanie wykonania dotyczy tylko tej pierwszej. Prawidłowo powołano wymagane przepisy art. 492 § 1 i § 3 k.p.c. oraz środki obrony pozwanego. Zabrakło jedynie wzmianki o zawieszeniu egzekucji jako skutku wstrzymania (art. 820 § 2 k.p.c.). Wszystkie powołane przepisy są zgodne z obowiązującym stanem prawnym.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P13",
+  "system": "chatgpt_codex_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"Zabezpieczenie nie może zmierzać do zaspokojenia roszczenia\" \"art. 731\" k.p.c.",
+   "\"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\" \"art. 492\" k.p.c.",
+   "\"Nakaz zapłaty wydany na podstawie weksla lub czeku staje się natychmiast wykonalny\" \"art. 492\" k.p.c.",
+   "\"Sąd na wniosek pozwanego może ograniczyć zabezpieczenie według swego uznania\" \"art. 492\" k.p.c."
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqxnOYl7i6awMWq1q09y7ZUwrgUtyuyFH6JoFn7L7LfhW15NaAfx3tw8wodRO-4ujE0ZWFLdMiffF_TG6OrmUizm-Zis9FqN-urBMo31vMEH22z3jCfYp8WhQsMeuhWrBZHqgofWdfvSTQ9G1OI8T69o7nH3yQYgmiI9x6VSG-pwwGW4BAOO4Cm9XEpwTLv7UvfeHjwecOCobwiQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbDykcBSI39xjUTDX1bYIpIAS1vjWyLFj6Of3df1MlvwX-THTdA_31e7DDEcw-RXpnLWIgkhe3BpV6pdkwYt5h8O6uzBNEO9ektsbPde2B6vkHNTOcby0q9b7lz_rsijzFMVGqBHYMaYKzWQW9MW0kKLlWba8=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdpL_16skHfOMW5pr_6zgDKO932pqwTLDpmr8Kqk2ctj-G1y0wUlnfFhn379Ewe1Qgvta56cq7sl6fKrZW1QKV1j39gTapSyuVJWQivubfRnPeljCtjcFRdopb5h-DX68NzWwPwEAaci4TwG2m2XzFFe5hyWNnXjIqhpmb5ZBH3U2MCqASLL7M2dcqcxpb-ycW5nU=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0z8h_JKXSEGR1uze60Y08G_dZZ_A0WeCK6mw0-26ythFexd9eAEEPsJw9V5IwnVxELUX0lDtfebF3LX35Og2Eofs5hM8DYQGixYPXrZTGgdwG7ydu-5MikYrTMyZwiwGDtQk-VRtxx2czitogNXaTY10jYYs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr6zEaw1gCxKTuBgmh6ERbEGWrMXvOqmFNgIfv6-bbxRmVxavlPEt--SGR_0GiGA0EPwdrE42V3DCjIIkr01qXtFBL-AEGcS1rOpfJ5P9AYkSDnK9X7ReykPmpbJBNF2PsP7Yz6RNRGjKU505wGKXFyk7A-3PNcU7ofc80gz7miIpMohX1sGsPBzpw-npQrKSwhHt2sP0EXoKZ3Pvk_pNE5YiyeMephZ_knggzCVI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_njd-b1kMMGUS3z7ZdesLjpTa_b_8ZPp033yr1s9vgZxO_KzLaYfQCiARkpCkvhNKy1fwlls-ITE-24m_LZf0A8_E-Q3doYEXVV9N3DMDiFV7RMBKC6zVnoViZPoqH2nb2aKdTeutsuVHy0wRq6UFQLayk3xUA8swUQD5iTCPNu1hZBWwzxu8nhLdFsFQ7VLuzjqkWdx_BUVZAX7-",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESiDC_M0dcyYvmGZLj2-MNK5DAsh-nZjQQIJ7tvG_9Fth4Y7l8oDDjtSyD3gJCKSZ2lvXm6fI0GoW0bnoZKSeFVlaq-BfylD4KYJgkH8VjlKPKFQhHZK8wTZeYZpPIejDGv33JsDUkiw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkn0ORJokG7f9Tnky0uy8JewrGv3l_bYs4nLMXHGlpaNFSiwixrLSn-F6xl0_Bx2n228vUK4jZCXXrfrYOhp8u8yG288BxnRLAUXfl5n70Vn0RtwRmvhOoHcxFOimfiFg9mTVOyRVwFHqaZhqcPNTCEhyXGOYnWr7aZgneJIc694SD",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtDFePYGoqVHia0EULWtCd_8PYzM5MJFreY4LL4P0FfiamMdJieUL1grT6jsGcuQJ85RZ7XdJ3brfPee00R6NZSSaILEfD3G1ovKhRt27iIhbwO-vF8QShyCd_QNbykzL2lB9zyXI_g7xPEDDV1URQzzC__92f-ONp1ajQIY88Xt3OF6LNSo6GC_ovpWK6upl2",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2TBBx1CoPumut4y5DU38BzSQ4nTY1YI1m72kgAN5KliagHFwlvC2LMB0mTORHYgST-t1WH7RuHdmzyw1iGNYsAq7oYmHY-80pvs0zgIvbyNfPNjsOdydxHFpOfrizMqxyDwYtTrBaTCcgqguHjp04q0vVnJFGKROD",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuLrddmHCm3HeCZsLQyNe06lXGItZmQLmU_fPuBtizFpQQ-yM1US9XpQZkpT0gCdg4-KkY10oL_fUJJ8l0DD733uity90Zr_Lgtk9JkNhWaRmq3gkVI0_Nsnu6kPHB_dAOPhte1NmKLL6-IjpvxpK5eLjOkh5udx1UJiOos7XjzPRZ7S0rSo153AzwTzdbRjseTRdEKiEOmTPZ4W-S5FlvWuOqUJPxlR254Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdtOqBTD1yJP_w6MkC5GtQNJv7alTApo50_vRSoQVYFvVnljSaUTAh6Qj-nRckMkOlmHJRjJSqna_78o8HzsxBKfV8DTqvzU3O4Hl7Q1XfDD6BKeUa59fC4-DrD2cvrKhoJMQTY29-UHIjLJ9bEfL7ZtAItZtkGANxGdtLHkedpAR6EVI3zqZ8y5EtMs1FyIznYfKq1L6j_mmhHA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbbWRPJ44FrCXZwpXruv2Y8i3ue--Yl3o1z0pQnT7APu41ev6nI8QVbwMJCQWtrrvdkGvAHZeOILxN0lH_hxU85TEoTwHkLYX7dj_nUfJcvFkIgE1wvPEwFAUxwrVBdpDz121FGXByHY-iOKDFoeA-99C5vh1L0SW5tlA1515BHqLTTOrf4NNz",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_y19c7hKcJeKR7rc3rSTxds11SX43x2RVBjtRpVXXTiR0jPK-URSYSRNicKCYiiHxTQ-Nqzgpm8GaSIIN9MQDo1hW1DkjRiWqYlC42OtY0hfjyc8ViEpCb7h_S4ng6cfjqGcmSdCFz-Gw1hliDY1rpYAw76hXR8hgWJgBhsIc8Iwg5A4PAw=="
+  ],
+  "tokeny": {
+   "wejscie": 10096,
+   "wyjscie": 630
+  },
+  "czas_s": 102,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

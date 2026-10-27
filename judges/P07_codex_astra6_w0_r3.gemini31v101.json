@@ -1,0 +1,65 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 1 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 357 § 2¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń i prawidłowo powołuje wymagane przepisy k.p.c. Zalicza trzy z czterech elementów rubryki (brak wzmianki o opłacie lub wyjątkach zwalniających z wniosku). Nie popełnia błędów skutkujących karą. Projekt wniosku to jedno zdanie, co zgodnie z regułami nie obniża oceny za ramy (A8=1). Kalibracja jest prawidłowa (kategoryczna), a odpowiedź wysoce przydatna dla prawnika.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P07",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"art. 357\"",
+   "\"art. 357\" kpc lex"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvNiWw9VwgmH27jas3YgmvttQ4H02jlcnpjm7MnND_uUVl1H_dyfr2pJCY5fKZoSS7RQb03ljXtBD-sCDeFdKINUQk3cByuGlAZMy-02a8InfDvHrggRQ_xotziAwoSLnx_AdEhbnxovRrTYPKhX0_lIt0rg6vEdo09pp1Da-qupa8bPu8WauybSrE0j0kn26k3ns8zFjDinWMelckJrwnR2vVmQ=="
+  ],
+  "tokeny": {
+   "wejscie": 9014,
+   "wyjscie": 474
+  },
+  "czas_s": 80,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

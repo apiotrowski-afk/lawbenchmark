@@ -1,0 +1,110 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 0,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "orzecznictwo SN (brak spełnienia wymogu wyraźnego wymienienia pól eksploatacji przez zwrot „na wszystkich polach eksploatacji”)",
+   "zrodlo": "SAOS / sn.pl (m.in. III CK 124/05, I CSK 104/18)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 i art. 50 pkt 3 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (ISAP/ELI)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie i od pierwszego zdania zaprzecza błędnej przesłance pytania, wskazując wymóg wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 pr.aut.) znanych w chwili zawarcia umowy (art. 41 ust. 4 pr.aut.) oraz formę pisemną pod rygorem nieważności (art. 53 pr.aut.), co daje pełny rdzeń (A-R = 2) i komplet wymaganych podstaw (A2 = 1). Punkt za A3 zostaje obniżony do 0 zgodnie z regułą B10, ponieważ przytoczony w cudzysłowie art. 41 ust. 2 pr.aut. bazuje na redakcji sprzed nowelizacji z 2024 r. (Dz.U. 2024 poz. 1254) i zawiera dodatkową modyfikację „(licencja)” zamiast aktualnego brzmienia z t.j. Dz.U. 2025 poz. 24 („...lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione”), co nie zmienia jednak samej normy i nie obniża A6. Wszystkie powołania przepisów oraz ogólne odwołanie do stanowiska SN są merytorycznie zgodne ze stanem prawnym (A6 = 1, reguła B9). W rubryce odpowiedź realizuje cztery pierwsze elementy (R1–R4), tracąc jedynie punkt dodatkowy R5 za brak wzmianki o możliwości dookreślenia pól eksploatacji w drodze wykładni umowy z art. 65 k.c. Praktyczne wyliczenie pól dla social mediów oraz celne uwagi o prawach zależnych, wynagrodzeniu i podpisie kwalifikowanym uzasadniają maksymalne oceny za ramy i blok B (A8 = 1, B1 = 2, B2 = 1 wg reguły B11).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "gemini38flash_vertex_w1_r3",
+  "wyszukan": 11,
+  "zapytania": [
+   "\"Dz.U. 2025 poz. 24\" \"Art. 41.\" \"Art. 50.\" \"Art. 53.\" OR OR",
+   "\"Art. 41.\" \"Umowa o przeniesienie autorskich praw majątkowych\" \"wyraźnie w niej wymienione\" OR",
+   "\"Art. 65.\" \"W braku wyraźnego postanowienia\" \"prawie autorskim\" OR",
+   "\"Art. 50.\" \"Odrębne pola eksploatacji\" \"pkt 3\" OR",
+   "\"Art. 53.\" \"Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania formy pisemnej pod rygorem nieważności\" OR OR",
+   "\"Art. 2.\" \"Opracowanie cudzego utworu\" OR OR",
+   "\"Art. 43.\" \"Jeżeli z umowy nie wynika\" \"Art. 45.\" \"Art. 46.\" OR OR",
+   "\"IV CSKP 44/21\" OR \"I CSK 104/18\" OR \"I CSK 596/17\" OR \"III CK 124/05\" \"pola eksploatacji\" OR",
+   "\"Umowa o przeniesienie autorskich praw majątkowych lub licencja obejmują pola eksploatacji wyraźnie w nich wymienione\"",
+   "\"Dz.U. 2025 poz. 24\" \"Art. 41.\" \"licencja\"",
+   "\"Dz.U. 2024 poz. 1254\" \"art. 41\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13996,
+   "wyjscie": 1798
+  },
+  "czas_s": 153,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

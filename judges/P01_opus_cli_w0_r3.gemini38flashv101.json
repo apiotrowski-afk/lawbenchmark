@@ -1,0 +1,120 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "W",
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 120 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 122 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z dnia 7 lipca 2022 r. (Dz.U. 2022 poz. 2600)",
+   "zrodlo": "Dz.U. 2022 poz. 2600, art. 4 pkt 5–8",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278, 284, 291, 288 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 278a k.k.",
+   "zrodlo": "Dz.U. 2022 poz. 2600, art. 1 pkt 104 (uchylony 1.10.2023 r., obecnie art. 278 § 3a k.k.)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 280 k.k.",
+   "zrodlo": "Dz.U. 2024 poz. 17 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Do 30 września 2023 r. próg oddzielający wykroczenie od przestępstwa wynosił 1/4 minimalnego wynagrodzenia za pracę",
+   "zrodlo": "Dz.U. 2018 poz. 2077 (od 15.11.2018 r. do 30.09.2023 r. próg wynosił stałą kwotę 500 zł, a nie 1/4 płacy minimalnej)",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "sumowanie wartości z nowelizacji z 2022 r. w ciągu 12 miesięcy w k.k.",
+   "zrodlo": "art. 12 § 2 k.k. wprowadzony Dz.U. 2018 poz. 2077; brak wymogu 12 miesięcy (wymóg: krótkie odstępy czasu)",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pełni trafnie realizuje rdzeń (800 zł, brak wpływu płacy minimalnej) i zalicza komplet punktów z rubryki oraz podstawę wymaganą z art. 119 § 1 k.w. A6 wynosi jednak 0 (hallucinated=true) ze względu na powołanie uchylonego z dniem 1.10.2023 r. art. 278a k.k., błędny opis historii zmian (próg 1/4 minimalnego wynagrodzenia zastąpiono kwotą 500 zł już w 2018 r., a nie w 2023 r.) oraz przypisanie instytucji czynu ciągłego z wykroczeń nieistniejącego terminu 12 miesięcy. A8 obniżono do 0.5 z uwagi na nieproszone dygresje dotyczące przestępstw niezależnych od wartości oraz błędnie opisane sumowanie czynów. Przydatność praktyczną (B1) oceniono na 1, gdyż odpowiedź na pytanie główne jest poprawna, lecz dodatkowe wskazówki zawierają błędy prawne.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P01",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 14,
+  "zapytania": [
+   "\"500 zł\" \"art. 119\" kodeks wykroczeń od kiedy 500 zł 1/4 minimalnego wynagrodzenia",
+   "kradzież próg 500 zł od kiedy minimalne wynagrodzenie kodeks wykroczeń 119",
+   "\"sumowanie wartości\" kradzież wykroczenie \"12 miesięcy\" przestępstwo",
+   "\"w krótkich odstępach czasu\" kradzież sumowanie wykroczeń 12 miesięcy art 119 art 12",
+   "\"odpowiada za przestępstwo\" kradzieży sumowanie 800 zł 12 miesięcy",
+   "\"art. 12\" kodeks karny \"nowelizacja z 7 lipca 2022\" sumowanie kradzieży",
+   "\"art. 12 § 2\" kodeks karny od kiedy weszło w życie",
+   "art 12 § 2 kk \"15 listopada 2018\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 12\"",
+   "\"Dz.U. 2022 poz. 2600\" \"art. 119\"",
+   "\"art. 278a k.k.\"",
+   "\"kradzież szczególnie zuchwała\" \"art.\" kodeks karny",
+   "\"P01_\" \"A2:\" \"podstawy_wymagane\" benchmark",
+   "\"P01\" \"A_R\" \"A2\" \"rubryka\" 800 zł \"k.w.\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11998,
+   "wyjscie": 1174
+  },
+  "czas_s": 95,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

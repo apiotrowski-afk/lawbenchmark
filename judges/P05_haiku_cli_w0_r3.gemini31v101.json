@@ -1,0 +1,103 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 131 k.p.c. (doręczenia elektroniczne)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 132–146 k.p.c. (ogólne zasady doręczeń, w tym doręczenie zastępcze i awizo)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 18 listopada 2020 r. o doręczeniach elektronicznych",
+   "zrodlo": "Dz.U. 2020 poz. 2320",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 136 i nast. k.p.c. (doręczenie tradycyjne pocztą)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 139 k.p.c. (awizo)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 i nast. k.p.c. (przywrócenie terminu)",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź całkowicie pomija regulację doręczeń przez Portal Informacyjny (art. 131¹ᵃ k.p.c.), skupiając się na e-Doręczeniach, co skutkuje brakiem rdzenia (A-R=0) i oceną A8=0 (treść poza pytaniem przeważa). System halucynuje (A6=0, typ T), przypisując regulację doręczeń elektronicznych do art. 131 k.p.c. (który dotyczy doręczeń tradycyjnych) oraz doręczeń tradycyjnych pocztą do art. 136 k.p.c. (który dotyczy zmiany adresu). Z rubryki zaliczono jedynie wzmiankę o 14-dniowym terminie domniemania doręczenia. Ze względu na błędne wskazówki praktyczne (twierdzenie, że wystarczy nie wnieść sprzeciwu, zamiast wymogu aktywnego wyboru portalu), przydatność (B1) oceniono na 0.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P05",
+  "system": "haiku_cli_w0_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"art. 131\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 136\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 139\" \"Kodeks postępowania cywilnego\" OR",
+   "\"art. 168\" \"Kodeks postępowania cywilnego\" OR",
+   "\"ustawa o doręczeniach elektronicznych\" \"osoby fizyczne\" \"nie wnoszą sprzeciwu\"",
+   "\"art. 131\" \"Kodeks postępowania cywilnego\" \"doręczenia elektroniczne\"",
+   "\"art. 131^1a\" \"Kodeks postępowania cywilnego\"",
+   "\"art. 131\" \"1a\" \"Kodeks postępowania cywilnego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpONe9PXFSQ3vMoELHC6c6M0PxTZjfchIYB5jxBVvJMNWkRmXhVceczu3htn_QtE2gSw5-cOmafhhAorzjQGt8euhMMeJdYcl2dKUZsCcyq-uH3kM3mrsfG-9gbosB1EDeQzU-r1zBrwZKrQ3PeIY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFirtGwFhHRa7VJDSd_iVkciBeax0cLblTsRESbAJ2jZPOhBOEAKtS1al9OhKEL7hnpsrX6VsDbo4Xnx2cUtACSu_OJzKwn8udWBMMTkPiHUEETJbJ8DbcPYGDWXHldohWyN-n64gKXIVYpobIZP1Stz9Qv2MgS0i8rU0A73_8M5YgJRR4r3gOcruNF0Q_NBdET5TX4QeopvOMsrEbhL7K0jhZa_JKoDA0dTOABPWjwURW3dsyssb4Iu-icrik=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtXQUiiyqVi8CWDWYAW9Z_ZgCer6WSTkL1rbcefQPzO80RJPN5Q2FZFUYP5XSaCANjlR2Gv9zSfYQG7E4WMkuhPBzRHhR4RoSipWa4v61BH9KBCbYrwCIMR5mflUIP1JiPLvJXD_GOggh2XCPS94WxSB2r4ifbOZgPWf7uzLI=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMH_-fJPU22DdV9WjDjWjxhbvaN0HzdgN19HOPbD5QyUyKOmyHuGHsJIPTSOHDkAa2tghCiHhWiRGel7Z_g8-qUf0lZU54IP2KBtExNFBjknJr6eeiGZgIKyw5UvVW2gJHZWD27QU9lJd5Vm969JOblb9em8-shuoU-EV66VpXQeSnpBDgBOpayBDbvXPbjBtvvG98ugwTawiE3immak5-7zkRwLvYx6Ny7gGB",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9lF0CQnrzlY0PHlkDOWvTL5XDdHyoTT3nxlz4Git8bYF4i8IzuolQd0jgK4EvA9Depd7qQXLLCn_4AWag3OSeYf7II31B3fQD9GAy68L0-_BNbliiV9MtWwVLhyEmHI1KGV5J47SDrnWSAjOxq2EM",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiYjhQmdyfDVpY8b5gtajt3XlLV09WPtKfG_3vDq16y2FRnEddVWMbCdqu4kpgqB44TsMqtdt9J_q6FnVW7rHivkRLI1igwwCtkMBwV2Xi8f3xoFYy117IY5WO5ylm565LP5GaBg__cOrLHxANT-_sSLMzU0ZbP5-cQZRmtfJ4q8ztcIw1XMQulL5J93aLHPzRS57W6PBGUnc0f4Q=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi3BiLSoSjrwE03WfLD6Zwf4E64ZRzpRPTq0fMs_hC_8aQFXjkFto0it_cH2jhT3ZQnp5bSs8FHrxJ84afBJolLt9t-lfz5XE23Ub5Du2Tin9HDXw0bM9aUljFa1fk-Yy84dDgtndTToMazG6q3ZPegbnby6sm-y4eUz03X6iErQU78F5FMIUyM6iEMcsH_voa6ebaXobmGDKWwfvy",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOkK3NQJJlAVXdO4ZsrNLdSOsZ01bcPdZklWg6zL5DYbYsbD0gj29i7hPG7ToedCo3R7mbQl18WJru0DqjeHTX9dzuIhmOHCQrQqgwIhAdkW_D-eRvHn_qYxsX1W9Olk7D_q9sZsd-EwKz7Urg-2e2CxxdSgtIaD2aq_WbubUoSiIeuqWcsiW7xfgmYgdyFywC0mSfAkWHz2c8Q77rkr-5bAGWD0TpieoM9AQaQYrkgpISJtf5qQ4hL9k=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL8sajYLX7_g5FnfRfF6zrLm-Y4QW9OCs9sRTlXEHrxd-hh4BCDXGC4jYTpYlaWVqYiYVfMVRRdDvZJmkTTOnqnXUyHasNBD2o14eKjcaIgHnxC-_vyop0enZbl33qF-ynjFuIVTnXKlvR9SfTvJAQ4XlTJfs=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXJM_6eelYymc7PGUcI1JSzhL166AW2onkOKgNtNlfGYtu7b1kUDAahLus9ehP3oJzPXqvmTol4o1N7PPDIZcPzTOAq2FWTZcI5uQ0GGpcdXzfHVcda6y_0Ybc2EPSGykARlp2UdXbx8SC2WTEIWZkW_WG_P2ExwzLVfJaut58jR0m83E7qPKZ3zE9vOMFBlsr_L-RPaWh5FUHVTxo8H6Ewq1veO8jQeWZ5u3-",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1GtmK0jFYchntkeC1PJ8bpfBbGvYnCLUy01KsJviPoEufYWSFU0Fbrq-ynBtr-5qcQbIynkufpfnRy5sdTv1CYC4uOZb7mPoL-JO7gChNtdO53RBs1d1khpWk7KFtDwMlvUnk5UHoaYDJSRgAWptcn0NIxfQzJLs_sXozA5zCi71HTKFfMgD4NEZUfRYSE-4MQ3L2Hi24vvdO4OmPH3cB1q5XxatZOSUQhBCD",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQIZqW_zrX0SZsv174hCPNclvTtJ7nTaMkMkEskkiah-8s7cv24t1HtrKCUzkdqJhpbgVbHBpC3V_bdq--l2RuJ6FDRMZxA1mN6UKIci2Ld_3KPSKUo7dNXnfZxAryEjmtFftnpx5p3tXKQVsR_3zUS8wipunbbPM=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN35yjyZQGRZEQyyhy0DrKaZv0ILfqdlugEAs_oOQgX8zIvcHkZE4pLZSgs4Nh9-VOGS7aqDeXilb1ICGroFrjH6_QEMxUiIe34Q6CXhK2p6vlV1J55u37lY-ks31nv4rn4kJvsAi8fT5PPtWwJ5oqvGHT47YO",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElZRiNZ6ze4TfTiaE6tEGUgkOHiwUwC-8NYJ8DmaIczKXONn7kPryE-9O3xIvuCjVuSK4Y6J-7-4_NS3imVI7pMio2H-BtYSczQC_HW5S4b2PCQnHmZK4ky2HHUMEajfcWfNxSOSHEAUIHOB1Uf8VytamAGQQetZ0m324jSyYLFAh8soUK7IEqdnjirgU5WhRpj_-G_twSa1Gp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjbZFPfA8WYjIsNZygXU_FCXBnnvI9BDarPVCJY9bFIJRGQPi60Sn_e8oKSuRLR0Q8zA6qEDsZlK5rTeGHhLy1DnxFN440_Og4FujItki7MjAtfutSuNg6VQduNi0aEUTbRls-hxpvnmpUIt6JGMl3ThB9D3RcpfruFNhpSd0uiosVueoJ79mUiGGblo2eOX8dNcBNwTFu9vlRqoWVQFaFIKlES5gVgnmtv_ex9Fw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPGRJG89--SJ0qgQfiw-Ld_ovbzazZaIIDLx3KJ3VWa8BKjkvys1h1ntILIt8ES4r5Bnsk_X2YLVH6mIWc34vrdPuqFrC79EoYbAexLaAJOfRgQe6zkGBMGVhRhdbhZItpUn_cYabt2NQB4XzNuRlaWeDeHt-6Kqo="
+  ],
+  "tokeny": {
+   "wejscie": 9786,
+   "wyjscie": 986
+  },
+  "czas_s": 135,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global"
+ }
+}

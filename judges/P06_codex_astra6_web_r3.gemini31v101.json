@@ -1,0 +1,91 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394¹a § 1 pkt 12 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 394¹ § 1 i § 1¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 23 czerwca 2022 r., III CZP 50/22",
+   "zrodlo": "sn.pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 168 § 1 oraz art. 169 § 1–3 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia w jedną gałąź problemu (zażalenie dewolutywne), prawidłowo wskazując, że zażalenie nie przysługuje, co daje 1 pkt w A-R. System nie powołuje wymaganych podstaw prawnych (art. 394² § 1² i art. 397 § 1¹ k.p.c.), więc A2 = 0. Brak halucynacji (A6 = 1) – twierdzenia o treści powołanych przepisów i uchwały SN są zgodne ze źródłami, a pominięcie art. 394² § 1² k.p.c. traktowane jest jako brak, a nie fałsz. W rubryce zaliczono dopytanie o rodzaj zażalenia oraz konkluzję dla zażalenia dewolutywnego. B2 = 1, ponieważ system wiąże konkluzję z warunkiem (SA jako sąd II instancji) i dopytuje o stan faktyczny.",
+ "_meta": {
+  "sedzia": "gemini31v101",
+  "model": "gemini-3.1-pro-preview",
+  "pytanie": "P06",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"Art. 394(2)\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 394\" \"§ 1\" \"§ 1(1)\" \"Kodeks postępowania cywilnego\"",
+   "\"III CZP 50/22\"",
+   "\"Art. 394(1a)\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 394(1)\" \"Kodeks postępowania cywilnego\"",
+   "\"III CZP 50/22\" \"394(2)\"",
+   "\"III CZP 50/22\" \"394 ze zn 2\"",
+   "\"III CZP 50/22\" \"uzasadnienie\" \"394\"",
+   "\"Art. 168\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 169\" \"Kodeks postępowania cywilnego\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpBdDGdrA3K2iehISEA6IHtgr7-AiG8Ww5daOTM7kYAf3SBU0f3gRvMseHAfqy91RBrZgbCSz04OsaZa87XgN43qsR0g7Ero9pt0aqm0nouhhu1Q1zenFFybV3s0EdyXgPcdsLpdEvsAIauDTtVx1UQfRHZrh2mtVLGJcFJlkpumX-SqPPBVUBZhfS0GXhxHIPrCT1j1W9TTJY2yz6Y7J-gLg_MDmv4vFEf_W9OvM-",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPkQrA48LRBDsHK4-PeMRXBjsSEWbCcOF7pfg7Z_0NNaNwJxZvw-mzyJfDc4W3HQdb6XvCIOiMA4FSBi5h-KHu5RMzR17YWREzCKhe3OSsy9NpE2O9ngturtethW_r1yXzsCPN5rOVJMvpnF3D8wmp3XYtuVmD0D-h",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGcZN9_uQiYLeLNjJ1ShtpKWQgZyyYYb6wjRKsxbBfeuRzi8_fFvHK97QulMsvAB4BnmLyeAcL0rVigEEz2JwTa5Z0oG5Z8mzB_1jGs8yVrSGStQ-4BKJ2vrEpvu4fvmiOCz7QS61l4zBDEJrwnEnmkwPjw8tLSNvubNFSoPN1Ewqe5b7r-X7z8lSrFQL91wsHqwhqGSWISRty6Emnc04_LFxaQkkiEsyHezr8bg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2YgBnsO4rshiSFCNHA7u4vN8Eivpm3Iqrv84_LN4LVFPzk1lmfL0SFjZBaLbM89RLmhHpZW1V9vO9bvMQY2P-zdWTetWnyjGjwlAQE49nk_uS4hiAOQosthq52OJ-AdUyl0m_-N0w6HWYW3y7eIhNIn4cX0NVB312ZtOWIuyudWNchd7i8qi-1yEBDM7NUyw=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEnknCGHC8BvvygPWnu6gMT0U1AFxVGMMNL7pI8Uw5FaEudmP0Rl7cCFOGFlNBqpKEBBsM9kM2JPuDLptEsHw3vxynhVLSntM6akx-WL32Rfy4V5DTGMkdMirjAtnrgNQl-LCtTaPgqohD7jJb1jeueoLsJ4ctzA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTojpF_cifNIYO24lyDilaeSZnqq0yPGYSUnVUIyocqeJA_tJ2IFC6iUnzVmSy2ZjNQg-JKPTfykf_22am3wOKtFPCfAbmLNEfG8bfow0b1qwrEIhoNlhLLjK-Zms-KHKBlFGJkxzbsNY529_uYcN6qw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYTcLcJ5Rmw6gA19d9-Rbzq3z-Id3d_povvzMHBUs2_D6p4uLozyR66tuFAwbrb5ufZkyebgzs7Do9Hu2n1TVEJ_l84UxMATAPg0InyKh8TxZndwCa9mRdV6fx5_hjeBhCi2F7VoeDDTfr5xSFxHzbXCaoJCDuGF286S4AKpMkIMJdtQU8Pf0m8p3I7g8u2C0Bb3ib0DDB-PwyzXtOZ_YAUvqHpd2ZlirCYt8akyi1oFA="
+  ],
+  "tokeny": {
+   "wejscie": 11250,
+   "wyjscie": 752
+  },
+  "czas_s": 228,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

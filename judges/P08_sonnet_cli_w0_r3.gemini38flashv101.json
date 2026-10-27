@@ -1,0 +1,84 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motyw 134 rozporządzenia 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 rozporządzenia 2024/1689 (AI Act)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 i 24 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (tekst jedn. k.c. / ISAP)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń jest w pełni oddany w pierwszym zdaniu i rozwinięciu (A_R = 2), a wszystkie wymagane podstawy powołano trafnie i bezbłędnie (A2 = 1, A6 = 1). Model poprawnie zanalizował przesłanki definicji deepfake, brak wymogu intencji oraz niezależne obowiązki z art. 50 ust. 2 i termin 2.08.2026 r. (R1, R2, R3, R5). Nie zaliczono R4 z uwagi na brak wyraźnego powiązania art. 50 ust. 4 z podmiotem stosującym, ani R6, gdyż o wytycznych KE wspomniano bez zastrzeżenia ich charakteru jako soft law. A8 obniżono do 0.5 z powodu wyodrębnionego akapitu poświęconego regulacjom spoza zadanego pytania o AI Act (k.c., RODO). Odpowiedź jest wzorowo skalibrowana i wysoce przydatna (B2 = 1, B1 = 2).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 3,
+  "zapytania": [
+   "\"art. 50\" \"2024/1689\" \"satyrycznych\" OR \"artystycznych\"",
+   "\"art. 50 ust. 4\" \"2024/1689\" \"ujawniają\"",
+   "\"motyw 134\" \"2024/1689\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13760,
+   "wyjscie": 813
+  },
+  "czas_s": 53,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr.aut.",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie potwierdza przesłankę pytania, wskazując wymóg wyraźnego określenia pól eksploatacji (art. 41 ust. 2 pr.aut.) oraz rygor formy pisemnej pod rygorem nieważności (art. 53 pr.aut.). Wymieniono adekwatne przykłady pól eksploatacji dla social mediów oraz zastrzeżono brak automatycznego przejścia praw w zleceniu. Wszystkie przywołane przepisy są w pełni poprawne pod względem treści i oznaczenia jednostek. W B2 przyznano 0 ze względu na kategoryczne ujęcie i brak odniesienia do linii orzeczniczej SN dopuszczającej ustalenie pól w drodze wykładni (art. 65 k.c.).",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P09",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art 41 ust 2\" \"prawie autorskim i prawach pokrewnych\" OR",
+   "\"art 53\" \"ustawy o prawie autorskim\"",
+   "\"art 16\" \"ustawy o prawie autorskim\"",
+   "\"art 41 ust 4\" \"prawie autorskim\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_lPeD0aslWSKQsoZxgnR5s8a7T22hmnHOndFGoaNjpktpSU2j6RaQ0AOnFmTzQiUa3pav10dgMcSWsfCiROoV6R4p-tJJDUbrY0jZJrRXLOlagtvJRYMnsZO4L4hUZmUwFehJSUcM41rlo0w0MuQrR8Il9bzT2ewOemDdaIPB_-eNUsmY3KFZ-8LIGlWSMRZe2mI4xCa44bYgRnedgQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTzVmrj3JaDy8Ck_DoDNxhfqGAvrF2ynignTigl9hzddl1VSb9SJocWca-kHxUgU8cMoIbipfN9ckr-cCa6nRZBgXC7_GVROJdj4nt8gc-wRmAIs0KXfzOMMAbSV5_erf0maA85nroBs5m6qyoPy292ETNZdT4hDTV3iDsJAFrdE4ewXZIdOkGiTSUlDBqpYKk6lyVhEr6QKQYyl4b",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA9sLGWEZI679r5gtjBd4TIRPAr_6fBG5rEAvn9I273dvMFjQbZ0d5N11gDFKhG5jXoBjyoWIApXKNmNF0-vdybBv9Ob4ltU-wbKgJ0FT8fqHfrIcdffxq58Tld_YeRzfNh9GdCAsgpDi_ddsgk5QusppUsiSKY8L49QFHYLVkJ3kzdEZrvWpDCbpq3LIkHV1cnuejvPt1Qhdvd_eH",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY8HgnKYQ4OxzeoB2-rDh2_zALUesU4Qcd7a0uuH2ZQEZD-uAj1HFkHc7QdnQRUqpxQj0o393qU_zCst1rLo0y9n0ANTjmzMlIOAm3nZnvwQ4xkfw-sVGv9ijF4qIq-f2qNEeFuUIMn49sxYwWVQe0-OwhAh7yHwBElWApGkk6--twwxuToV0fsaf_BjaqdKfwABeu2XqNMYA9IiYk_E8IrSesqg=="
+  ],
+  "tokeny": {
+   "wejscie": 12764,
+   "wyjscie": 593
+  },
+  "czas_s": 24,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

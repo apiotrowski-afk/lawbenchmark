@@ -1,0 +1,99 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "W"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 1 i nast. ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 8 ustawy z 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 363 i 364 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 365 i 366 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "W"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 217 § 2 k.p.a.",
+   "zrodlo": "Dz.U. 2025 poz. 1691",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie koryguje formę aktu (decyzja MSWiA, nie postanowienie) i sposób potwierdzenia jej stanu (zaświadczenie z art. 217 § 2 k.p.a., nie klauzula), jednak wprost wyklucza prawomocność decyzji administracyjnej i ogranicza potwierdzenie do ostateczności, co zgodnie z regułami klucza skutkuje A-R = 0, brakiem R3 i R4 oraz naliczeniem kary K3. W kryterium A2 przyznano 0 pkt z uwagi na brak powołania wymaganego art. 16 § 3 k.p.a. oraz brak dokładnych jednostek redakcyjnych pozostałych podstaw. W kryterium A6 przyznano 0 pkt (typy W i T), ponieważ system opisał art. 16 § 1 k.p.a. według brzmienia sprzed nowelizacji z 11.04.2011 r. (pomijając wniosek o ponowne rozpatrzenie sprawy) i na tej podstawie fałszywie przypisał art. 127 § 3 k.p.a. normę, jakoby wniosek o ponowne rozpatrzenie sprawy nie odraczał ostateczności decyzji ministra ani nie wstrzymywał jej wykonania (wbrew odesłaniu do odpowiedniego stosowania przepisów o odwołaniach, w tym art. 130 § 1 i 2 k.p.a.).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"art. 8\" \"o nabywaniu nieruchomości przez cudzoziemców\" OR OR",
+   "\"art. 363\" \"art. 364\" \"art. 365\" \"art. 366\" OR",
+   "\"art. 16\" \"art. 127\" \"art. 217\" \"Kodeks postępowania administracyjnego\" OR",
+   "\"Art. 363\" \"Art. 364\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 365\" \"Art. 366\" \"Kodeks postępowania cywilnego\"",
+   "\"Art. 217\" \"Zaświadczenie wydaje się\" \"Kodeks postępowania administracyjnego\"",
+   "\"DU/2017/2278\" OR \"DU/2025/1691\" OR \"DU/2026/468\" OR OR",
+   "\"Decyzje, od których nie służy odwołanie w administracyjnym toku instancji lub wniosek o ponowne rozpatrzenie sprawy\"",
+   "\"wniosek o ponowne rozpatrzenie sprawy\" \"art. 16 § 1\" \"ostateczne\" kpa nowelizacja 2011",
+   "\"Art. 130\" \"Przed upływem terminu do wniesienia odwołania decyzja nie ulega wykonaniu\" \"Kodeks postępowania administracyjnego\"",
+   "\"lub wniosek o ponowne rozpatrzenie sprawy\" \"art. 16 § 1\" \"2011\" kpa",
+   "\"lub wniosek o ponowne rozpatrzenie sprawy\" \"Dz. U. z 2011 r. Nr 6, poz. 18\" OR \"Dz.U. 2011 nr 6 poz. 18\" OR \"3 grudnia 2010\" kpa"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15030,
+   "wyjscie": 1460
+  },
+  "czas_s": 210,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

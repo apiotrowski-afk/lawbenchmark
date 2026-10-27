@@ -1,0 +1,100 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 i 2 k.r.o.",
+   "zrodlo": "Dz.U. 2026 poz. 236 (t.j. k.r.o.) / Dz.U. 2023 poz. 2809",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 11 kwietnia 2019 r., III CZP 106/18",
+   "zrodlo": "sn.pl / OSNC 2019 nr 12 poz. 120",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "SAOS (judgments/94458) / OSNC 2011 nr 11 poz. 120",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie rozbraja wszystkie trzy pułapki pytania: wyjaśnia, że nie istnieje klauzula przeciwko małżonkowi „bez ograniczeń”, prostuje omyłkę pisarską z art. 781¹ na art. 787¹ k.p.c. oraz wskazuje, że o trybie decydują przesłanki materialne (udokumentowana zgoda małżonka z art. 787 k.p.c. albo związek wierzytelności z prowadzeniem przedsiębiorstwa z art. 787¹ k.p.c.), a nie wzmianka o działalności czy PESEL w nakazie zapłaty (A_R=2). Wszystkie powołane przepisy (k.p.c. i k.r.o.) oraz uchwały Sądu Najwyższego (III CZP 106/18 i III CZP 117/10) zostały zweryfikowane i opisane zgodnie ze źródłami oficjalnymi (A2=1, A6=1). W rubryce odpowiedź traci wyłącznie piąty punkt (R[4]=0), ponieważ nie wskazuje, z jakich składników majątku dłużnika (majątek osobisty, wynagrodzenie, dochody z art. 776¹ k.p.c.) można prowadzić egzekucję bez klauzuli przeciwko małżonkowi. Wypowiedź jest zwięzła, ściśle trzyma się granic pytania (A8=1) i bardzo dobrze prowadzi prawnika przez obie ścieżki działania z prawidłową kalibracją warunkową (B1=2, B2=1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P12",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 46,
+  "zapytania": [
+   "\"III CZP 106/18\" sn.pl OR saos",
+   "\"III CZP 117/10\" \"18 marca 2011\" sn.pl OR saos",
+   "\"94458\"",
+   "\"art. 41\" \"Kodeks rodzinny i opiekuńczy\" \"236\" 2026 OR 2809 2023 eli.gov.pl OR sejm.gov.pl",
+   "\"saos.org.pl/judgments/94458\"",
+   "\"III CZP 117/10\"",
+   "\"III CZP 106/18\" \"787\" \"przedsiębiorstwa\" OR \"działalności\" sn.pl OR saos",
+   "\"Jeżeli małżonek zaciągnął zobowiązanie za zgodą drugiego małżonka\" \"Art. 41\" \" § 2\"",
+   "\"III CZP 106/18\" OR \"iii czp 106-18\"",
+   "\"III CZP 117/10\" OR \"iii czp 117-10\"",
+   "\"III CZP 106/18\" \"787\" \"41\"",
+   "\"III CZP 117/10\" \"saos.org.pl\" OR \"94458\"",
+   "\"III CZP 106/18\" \"7871\" OR \"787 1\" OR \"787¹\" OR \"przedsiębiorstwa\"",
+   "\"III CZP 106/18\" \"41 § 2\" OR \"41 § 1 i 2\"",
+   "\"W sprawie o nadanie tytułowi egzekucyjnemu klauzuli wykonalności przeciwko małżonkowi dłużnika (art. 787 k.p.c.) nie jest dopuszczalne\"",
+   "\"O tym jakie przesłanki zadecydują o powstaniu stosunku prawnego między wierzycielem\"",
+   "\"III CZP 106/18\" \"Sąd Najwyższy zważył, co następuje\"",
+   "\"III CZP 106/18\" \"787\" \"przedsiębiorstwa\" \"Sąd Najwyższy\"",
+   "\"saos.org.pl/judgments\" \"III CZP 117/10\"",
+   "\"Zgodnie z art. 41 k.r.o. w brzmieniu nadanym mu przez art. 1 pkt 12 ustawy z dnia 17 czerwca 2004 r.\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12457,
+   "wyjscie": 2647
+  },
+  "czas_s": 273,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

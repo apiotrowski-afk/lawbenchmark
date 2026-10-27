@@ -1,0 +1,54 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 1,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 pkt 12 k.p.c. („odrzucenie zażalenia”)",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "F"
+  },
+  {
+   "powolanie": "art. 394 § 2 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394² k.p.c. — odpowiednie stosowanie przepisu o terminie zażalenia",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/T/D20260468L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia w gałąź dotyczącą zażalenia poziomego, ale nie rozróżnia jej od zażalenia dewolutywnego, dlatego A_R = 1, naliczono drugą karę i B2 = 0. Art. 394² § 1 nie zawiera pkt 12; właściwą podstawą jest § 1², a zwrot „odrzucenie zażalenia” występuje w art. 394¹ᵃ § 1 pkt 12, co oznacza F i A6 = 0. Dosłowność krótkiego cytatu oceniono pozytywnie, bez ponownego karania w A3 za błędną jednostkę. Brakuje obu wymaganych podstaw oraz omówienia art. 130², a wskazówki praktyczne są przydatne jedynie dla jednej gałęzi, stąd B1 = 1. Pochodzenie błędnego powołania jest nieustalone, ponieważ nie udostępniono śladu narzędzi ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 12,
+  "czas_s": 74,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

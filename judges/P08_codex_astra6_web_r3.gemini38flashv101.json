@@ -1,0 +1,73 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 rozporządzenia (UE) 2024/1689",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wskazówki Komisji Europejskiej do art. 50 AI Act",
+   "zrodlo": "Komisja Europejska, wytyczne/objaśnienia C(2026) 5054",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie oddaje rdzeń zagadnienia, wskazując na obiektywny charakter kryteriów z art. 3 pkt 60 AI Act oraz rozróżniając brak statusu deepfake od obowiązku maszynowego oznaczania z art. 50 ust. 2. Wszystkie powołane jednostki AI Act są bezbłędne i właściwe dla stanu prawnego. W rubryce odpowiedź uzyskała 4 z 6 punktów: nie wskazano daty stosowania art. 50 (2.08.2026 r.), a przywołanie wskazówek Komisji nie zawierało wyraźnego zaznaczenia ich niewiążącego charakteru (soft law), co zgodnie ze szczegółową regułą klucza wyklucza zaliczenie elementu R6. Żadna z kar nie została naliczona. Kalibracja pewności oraz przydatność praktyczna dla prawnika stoją na najwyższym poziomie.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P08",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"02024R1689-20260727\" \"art. 3 pkt 60\" OR \"art. 50\"",
+   "\"AI Act\" \"art. 3 pkt 60\" deepfake"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13449,
+   "wyjscie": 629
+  },
+  "czas_s": 29,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

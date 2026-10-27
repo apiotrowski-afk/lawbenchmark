@@ -1,0 +1,149 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 41 ust. 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Orzecznictwo i doktryna co do art. 41 ust. 2 pr. aut. („W orzecznictwie i doktrynie przyjmuje się, że ogólne odesłanie do »wszelkich pól« nie wskazuje żadnego pola. W tym zakresie prawa nie przechodzą”)",
+   "zrodlo": "Orzecznictwo SN (m.in. wyroki SN: z 14.09.2005 r., III CK 124/05; z 5.10.2018 r., I CSK 596/17; z 22.03.2019 r., I CSK 104/18; z 14.10.2021 r., IV CSKP 44/21)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 41 ust. 4",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 50",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 53",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 78¹ k.c.",
+   "zrodlo": "Ustawa z dnia 23 kwietnia 1964 r. - Kodeks cywilny (Dz.U. 2025 poz. 1071 ze zm.), art. 78¹ § 1 i 2",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 65",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 67 ust. 1 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 67 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 12 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 12 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 79 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 79 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 46",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 16",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 3 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 41 ust. 3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 43 ust. 1 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 43 ust. 1",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 22 ust. 9 pkt 3 ustawy o PIT",
+   "zrodlo": "Ustawa z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych (Dz.U. 2025 poz. 163 ze zm.), art. 22 ust. 9 pkt 3",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 52 pr. aut.",
+   "zrodlo": "Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24), art. 52 ust. 1 i 2",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie zaprzecza błędnej przesłance pytania na samym wstępie, powołuje wymagane art. 41 ust. 2 i art. 53 pr. aut. oraz podaje właściwe przykłady pól eksploatacji dla social mediów (A-R = 2, A2 = 1, R1–R4 = 1). W A6 otrzymuje jednak 0 (klasa T, reguła 7 i B9), ponieważ przypisuje ogólnie orzecznictwu tezę, że odesłanie do „wszelkich pól” nie wskazuje żadnego pola i prawa w tym zakresie nie przechodzą, co jest sprzeczne z liberalną linią orzeczniczą SN dopuszczającą dookreślenie pól eksploatacji w drodze wykładni umowy z art. 65 k.c. (III CK 124/05, I CSK 596/17, I CSK 104/18, IV CSKP 44/21). Z tego samego powodu odpowiedź traci piąty element rubryki (R5 = 0) oraz punkt za kalibrację (B2 = 0 zgodnie z regułą B11 dla tezy, że ogólny zapis nic nie przenosi). Przydatność praktyczna została oceniona na B1 = 2 (brak podwójnej kary w bloku B, gdyż rekomendacja wyliczenia pól i zawarcia pisemnego aneksu jest praktycznie trafna), a uwagi poboczne o klauzulach umownych mieszczą się w ramach pytania (A8 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "\"site:isap.sejm.gov.pl\" OR \"site:eli.gov.pl\" \"o prawie autorskim i prawach pokrewnych\" \"2025\" \"24\"",
+   "\"art. 41\" \"art. 43\" \"art. 46\" \"art. 50\" \"art. 52\" \"art. 53\" \"o prawie autorskim\" OR OR",
+   "\"art. 65\" \"art. 67\" \"art. 79\" \"art. 12\" \"art. 16\" \"o prawie autorskim\" OR OR",
+   "\"art. 78\" \"forma elektroniczna\" kodeks cywilny OR OR",
+   "\"WDU19940240083\" OR \"DU/2025/24\" OR",
+   "\"pola eksploatacji wyraźnie w niej wymienione\" \"Art. 46\" \"Art. 50\" \"Art. 52\" \"Art. 53\"",
+   "\"Art. 65.\" \"W braku wyraźnego postanowienia o przeniesieniu prawa\" \"Art. 67.\" \"Art. 79.\"",
+   "\"art. 22 ust. 9 pkt 3\" \"50%\" \"podatku dochodowym od osób fizycznych\" OR OR",
+   "\"Art. 50.\" \"odrębne pola eksploatacji\" \"Art. 52.\" \"Art. 53.\" \"o prawie autorskim\"",
+   "\"III CK 124/05\" OR \"I CSK 104/18\" OR \"I CSK 596/17\" OR \"IV CSKP 44/21\" \"pola eksploatacji\"",
+   "\"IV CSKP 44/21\" OR \"I CSK 104/18\" OR",
+   "\"IV CSKP 44/21\" \"41 ust. 2\"",
+   "\"I CSK 596/17\" \"pola eksploatacji\"",
+   "\"wszystkich polach eksploatacji\" \"III CK 124/05\" OR \"I CSK 596/17\" OR \"IV CSKP 44/21\"",
+   "\"wszelkich polach eksploatacji\" \"41 ust. 2\" orzecznictwo doktryna",
+   "\"I CSK 596/17\" \"41 ust. 2\" OR \"pola eksploatacji\"",
+   "\"IV CSKP 44/21\" \"wykładni\" OR \"65 k.c.\" OR \"pola eksploatacji\"",
+   "\"III CK 124/05\" \"41 ust. 2\" \"wykładni\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13948,
+   "wyjscie": 2853
+  },
+  "czas_s": 298,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

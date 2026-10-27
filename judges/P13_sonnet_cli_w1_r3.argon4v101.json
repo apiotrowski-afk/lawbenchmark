@@ -1,0 +1,117 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "F",
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 k.p.c. — nakaz zapłaty z chwilą wydania jest tytułem zabezpieczenia wykonalnym bez nadawania klauzuli wykonalności",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c. — nakaz z weksla lub czeku staje się natychmiast wykonalny po upływie terminu do zaspokojenia roszczenia; po wniesieniu zarzutów sąd może na wniosek pozwanego wstrzymać jego wykonanie",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "postanowienie SO w Szczecinie z 2.03.2016, VIII Gz 43/16 — wstrzymanie wykonalności nakazu nie pozbawia go cech tytułu zabezpieczającego, argumenty z art. 820 oraz art. 753, 753¹, 754 k.p.c.",
+   "zrodlo": "SAOS, orzeczenie 213643 (Portal Orzeczeń SO w Szczecinie)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 820 k.p.c. — zawieszenie postępowania egzekucyjnego na skutek wstrzymania wykonania tytułu wykonawczego",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 753, 753¹, 754 k.p.c. — szczególne tytuły zabezpieczenia wykonywane jak tytuły wykonawcze",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.) oraz SAOS 213643",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 2 k.p.c. — wniosek pozwanego o ograniczenie zabezpieczenia według uznania sądu",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 742 k.p.c. (w zw. z art. 730¹ i n. k.p.c.) — wniosek o uchylenie zabezpieczenia",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 747 k.p.c. — wniosek pozwanego o złożenie kaucji zamiast zabezpieczenia",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 1043¹ k.p.c. — wniosek pozwanego o złożenie kaucji zamiast zabezpieczenia",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "F"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie i kategorycznie rozstrzyga problem na wstępie, prawidłowo rozdzielając natychmiastową wykonalność nakazu z weksla (art. 492 § 3 k.p.c.) od jego funkcji tytułu zabezpieczenia (art. 492 § 1 k.p.c.) oraz rzetelnie przytaczając argumentację z postanowienia SO w Szczecinie VIII Gz 43/16 (A-R = 2, A2 = 1, R = [1, 1, 1, 1]). Punkt A6 spada jednak do 0 (hallucinated = true) z uwagi na poboczną wzmiankę w pkt 3 tiret 3 o możliwości wniesienia o złożenie kaucji zamiast zabezpieczenia na podstawie art. 747 i 1043¹ k.p.c. Art. 1043¹ k.p.c. nie istnieje w ustawie (klasa F), natomiast art. 747 k.p.c. określa katalog sposobów zabezpieczenia roszczeń pieniężnych, a nie instytucję kaucji czy depozytu zwalniającego z zabezpieczenia (klasa T). Zgodnie z regułą graniczną nr 8 do A6 zastrzeżenie modelu w pkt 4, że powołał art. 747 k.p.c. z pamięci bez weryfikacji, nie wyłącza uznania błędnego przypisania treści za halucynację. Błędne wskazanie tego środka zamiast depozytu z art. 492 § 1 zd. 2 / art. 742 § 1 zd. 2 k.p.c. obniża ocenę przydatności praktycznej B1 do 1.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 29,
+  "zapytania": [
+   "\"VIII Gz 43/16\" saos",
+   "\"753\" \"754\" \"820\" \"VIII Gz 43/16\"",
+   "\"art. 747\" \"art. 1043\" kpc eli.gov.pl OR sejm.gov.pl",
+   "\"VIII Gz 43/16\" \"753\" \"820\"",
+   "\"Art. 747\" \"zabezpieczenie roszczeń pieniężnych\" isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"Art. 1043\" kpc isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"Art. 742\" \"Art. 753\" \"Art. 754\" kpc isap OR sejm.gov.pl OR eli.gov.pl",
+   "\"Art. 1043\" \"Art. 1044\" \"Art. 1045\" \"komornik\" \"wydanie\"",
+   "\"10431\" OR \"1043^1\" \"k.p.c.\" OR \"Kodeks postępowania cywilnego\"",
+   "\"VIII Gz 43/16\" \"tytuł zabezpieczający nie podlega wykonaniu\"",
+   "\"Art. 747.\" \"Zabezpieczenie roszczeń pieniężnych następuje przez:\"",
+   "\"2026\" \"468\"",
+   "\"Art. 1043.\" \"Art. 1044.\"",
+   "\"Art. 747.\" \"Art. 742.\"",
+   "\"Art. 753\" \"Art. 754\" \"Art. 820\"",
+   "\"WDU20260000468\" OR \"D20260468\"",
+   "\"Art. 747.\" \"Zabezpieczenie roszczeń pieniężnych następuje przez\" OR",
+   "\"Art. 1043.\" \"Jeżeli rzecz należąca do dłużnika\" OR",
+   "\"Art. 7301\" \"Art. 742\" \"Art. 753\" \"Art. 754\" OR",
+   "\"Wstrzymanie wykonania tytułu zabezpieczającego mogłoby odnieść skutek jedynie w przypadku szczególnych tytułów zabezpieczających\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 12817,
+   "wyjscie": 2416
+  },
+  "czas_s": 210,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

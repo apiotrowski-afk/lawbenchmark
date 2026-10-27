@@ -1,0 +1,110 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  0,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 3a ustawy jako podstawa formy promesy",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 16 § 1 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 127 § 3 k.p.a. — ponowne rozpatrzenie i odpowiednie stosowanie przepisów o odwołaniach",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 127a k.p.a., w tym § 2, w związku z art. 127 § 3 k.p.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 53 § 1 p.p.s.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 52 § 3 p.p.s.a.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 6 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 217 k.p.a. — możliwość uzyskania zaświadczenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 8 ust. 2 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 8 ust. 1 ustawy — przykłady zwolnień",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2017/2278/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa o pomocy obywatelom Ukrainy — brak zwolnienia z obowiązku uzyskania zezwolenia",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/1293/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Ustawa o kształtowaniu ustroju rolnego — dodatkowe wymagania przy nieruchomościach rolnych",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/941/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Rdzeń otrzymuje 1: odpowiedź preferuje ostateczność, dopuszcza prawomocność, lecz nie wskazuje jasno zaświadczenia organu o prawomocności jako właściwego potwierdzenia. A2 obniża brak wymaganej jednostki art. 217 § 2 pkt 2, a R2 i R3 — przedstawienie zaświadczenia jedynie jako alternatywy dla klauzuli ostateczności. Art. 3a reguluje termin wydania decyzji dotyczącej specjalnej strefy ekonomicznej, natomiast promesę reguluje art. 3d, co daje T i A6=0. Błędna uwaga poboczna o promesie obniża A8, a wskazówka o adnotacji MSWiA ogranicza B1 do 1, ponieważ oficjalne FAQ ministerstwa wskazuje zaświadczenie i wyklucza wydawanie odpisu z klauzulą: https://www.gov.pl/web/mswia/najczesciej-zadawane-pytania. Nie naliczono K3, ponieważ odpowiedź wyraźnie dopuszcza prawomocność decyzji.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P04",
+  "system": "opus_cli_w0_r3",
+  "wyszukan": 14,
+  "czas_s": 85,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

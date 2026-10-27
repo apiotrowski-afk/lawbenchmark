@@ -1,0 +1,111 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 3 pkt 60 AI Act (w tym wersja angielska: \"would falsely appear to a person to be authentic or truthful\")",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "motyw 134 AI Act",
+   "zrodlo": "EUR-Lex CELEX 32024R1689",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 1 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 2 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ust. 4 AI Act",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 113 AI Act (stosowanie art. 50 od 2 sierpnia 2026 r.)",
+   "zrodlo": "EUR-Lex CELEX 02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 23 i 24 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 795 (eli.gov.pl / ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 9 RODO",
+   "zrodlo": "EUR-Lex CELEX 32016R0679",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafnie ujmuje rdzeń problemu (A-R = 2): wskazuje dwie przesłanki definicji z art. 3 pkt 60 AI Act, podkreśla obiektywny charakter testu niezależny od intencji twórcy oraz wyjaśnia, że brak statusu deepfake nie wyłącza obowiązku dostawcy z art. 50 ust. 2. Wszystkie powołane przepisy są zgodne ze źródłami oficjalnymi (A6 = 1), a przytoczony w cudzysłowie anglojęzyczny fragment definicji z art. 3 pkt 60 AI Act jest dosłowny (A3 = 1). System zalicza pięć z sześciu elementów rubryki, tracąc jedynie punkt R6 za brak omówienia treści wytycznych KE C(2026) 5054 jako soft law (co zgodnie z kluczem nie obniża A-R ani A6). Kalibracja jest prawidłowo warunkowa (B2 = 1), a wskazówki praktyczne — w tym transparentne zastrzeżenie o konieczności sprawdzenia finalnego statusu pakietu Omnibus i wytycznych KE — zapewniają pełną przydatność odpowiedzi (B1 = 2).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P08",
+  "system": "sonnet_cli_w1_r3",
+  "wyszukan": 8,
+  "zapytania": [
+   "\"would falsely appear to a person to be authentic or truthful\" \"32024R1689\" OR \"AI Act\"",
+   "\"Motyw 134\" OR \"(134)\" \"deepfake\" \"32024R1689\"",
+   "\"art. 50\" \"32024R1689\" \"oczywiste\" \"artystycznych\"",
+   "\"art. 23\" \"art. 24\" \"Kodeks cywilny\" OR",
+   "\"Dostawcy zapewniają, aby systemy AI przeznaczone do bezpośredniej interakcji z osobami fizycznymi\"",
+   "\"Podmioty stosujące system AI, który generuje obrazy, treści audio lub wideo stanowiące treści deepfake\"",
+   "\"Artykuł 9\" \"Przetwarzanie szczególnych kategorii danych osobowych\" \"biometrycznych\"",
+   "\"Art. 23.\" \"Dobra osobiste człowieka\" OR"
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ49qt6o6dXpx6gjM9DYk91fqzHvkeG-9bOPjRAEGyF59e5WRP-BGLOZLukd2uJfImEG5f48mm6dqswo6yhzS1kxlzjQsHM3vwUBGC-qyZ41NmHrPBe_5HbzgI3qmDVKmkVPoVXwVv-jFx79wnyR4IXfQuNRUoRv9AT0SDW3uh8JPo5h0v1O_BUPb6SWTgSMY5psRWpmOACybLEg6G",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO8CQOBhEsGisIJSpb1zoXK-CFb7ZkyQnv7bnus0QD4WH28x6WAqveZQ9iWgIHKrrmEqlfTaSdRH4moe0yG2w_FRPSA1_HmnIsV7WFx9vlhZmdoyE_OLEdFrumL2q9",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJS0jRLG-QYON8rAmEjL1mh-FCoQqxxxTRei38TCYh9AwP5ZFuAYmdu2y_e19rK1wtI6uCOAVqdXwq4OLysKX2NqKI4LS_CAkK26qfuvj__REBnKF6tqxeG6G9De94p0oc7cjrc6BJG4KBYRr2yZo0KZE5Hegb_36J6iU-6IAq8qrBmjMk1nnJFibV_w==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEStRmlL3TrvpLXTFjVgPfp7qfacMKpnB2DfqK6nhOxZntoIhcmaN8dIryCr0X7yVitvIMxrxsnO2vTmpw85NB92A3tsqVQJR8FT-pNnvUa_wBGg82NIL1sAht0sCF_CqymhEHaD0YD7W5chjnxF221wGoozOZhsax8x4x4r75bPJ06NA_TjlQx",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvlhbdeJLfyzJvWz_oNEcjxTg-zA9m8rvtMaX-MXYbIr6Djjv0HpjNzJEYpRE8Khpz76Rm6FXSG4VKKWYwYQR0epki5oXavDUpxbkH-HVfFleanA3wVJeDzmQDPrREjezC5htJiwrQfWbllVM6CWEmbud44Ok-St4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEO0maTqlkvrHyyd1lP3G6RJ1oWgIOl8KTPsby8iK2arYZDbQa648cD3LgD32afpuPQsMt_kYjvnnSkQRPSuZpFDKvtIh8y3guxSxXRFVtd9HhxchqeVIN2pb4ec30c7LyLLZ33bpxBQRBa56GhzpdxIzgroFY",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELG_Y-Re1i4wxzgoidoX8eYZcgCoj8Q_27LdXMbRIfgd31Jl22A98nJezeNgpjnAiYpLrF7iOjwwPvV3QkMo623WuFYuQi-ktrQG-yEErh6ijjmRdTNUKPkcTs0XT9HreatAhhQeRixhF5WxCRKcN00s42NM_c7FVt5pRs5kZo7ZimhxbpECeraIEqwh2LJjV5yMF9VWAJgpbA3PRdZQ56J4YERBk-zX0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZeGhPNrgWJVm3j9QZNg09BdeoxHhurmtfJ7RrOwk2npxEjADGj4T4kXGAcVELIP4seIK3XUSYN2O1fSBTpgRBPbE7idfhnG8b771b2FveKUmk8NY4Nbab4eDLC2oDaBzU9QV_xlLnUpnTBWXDl-lHjlieyN-BFTzWLg9RYy0PS7xwim4=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu9ixA4WlSeKX6rpJa1ph0UFeAmFxb4H3hPtTczJWxci1EAiVxkUnzeV8LZBBlwGPBfZkqcW_2zeSmNjth491u0fpQRCXVV0kxhPsXDjri7CCL4X9Z9lZm7HyKt1oXW7oZwS5nlkGkU4I=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-YDmw2j53fFUL3Yepmq30ZTuSD-7n859yuRhKvnMUFMDgdVh76Oj7b7Y3jTlFHWxFCRsVP4T2fK99mTNPef2ZZIV4WwdP5M-ysYMEyQUnVqkts1c-6t0GE4_ayLmjWuFVYVtxsO2iNYC5ueJQQJvy6nOqQq9mT2JzwDgPXf0_8p_mblLof7W1UiT2zJX7yQqxpD2GYyhdRtWTIfsWPvJA--d7q56fZ-_lfx526KOQh3qt-Pk9O7kdj6sZDQ==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWyV9AlZipKimLQC7VBp_InRdXX3oaATO4QCvpQrVV7bkWF3Aw2byaHBUVG7FuAdB1lWAMcXREev9MyW78fAQM-rQNPsOAYgIl13I-qAPbfiqVdKL4XL6DComA"
+  ],
+  "tokeny": {
+   "wejscie": 15261,
+   "wyjscie": 1335
+  },
+  "czas_s": 205,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

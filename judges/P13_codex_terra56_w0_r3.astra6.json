@@ -1,0 +1,64 @@
+{
+ "A_R": 0,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0.5,
+ "A6_typ": [
+  "O"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 zd. 1 k.p.c.; art. 492 § 1 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 492 § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=110",
+   "werdykt": "O"
+  },
+  {
+   "powolanie": "art. 743 § 1 k.p.c. w zw. z art. 776 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=162",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 776 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=177",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ § 3 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf#page=160",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Konkluzja jest przeciwna kluczowi: wstrzymanie wykonania nie odbiera nakazowi funkcji tytułu zabezpieczenia. Wymagane podstawy wskazano, lecz zakres art. 492 § 3 błędnie rozszerzono na zabezpieczenie; to O, ponieważ chodzi o wadliwy odczyt właściwego przepisu o wstrzymaniu, a nie przypisanie mu cudzej normy. Nie zaliczono żadnego elementu rubryki, gdyż sama wzmianka o zabezpieczeniu bez klauzuli nie spełnia elementu wymagającego również wskazania skutku od chwili wydania i niezależności od wstrzymania. Naliczono pierwszą karę, a przydatność oceniono na zero z powodu błędnej wskazówki rozstrzygającej o dalszym postępowaniu. Odpowiedź pozostaje w ramach pytania i stawia wyraźną tezę, więc B2 wynosi 1 mimo błędu merytorycznego.",
+ "_meta": {
+  "sedzia": "astra6",
+  "model": "gpt-6-astra",
+  "pytanie": "P13",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 10,
+  "czas_s": 52,
+  "data": "2026-10-11",
+  "slepa": true
+ }
+}

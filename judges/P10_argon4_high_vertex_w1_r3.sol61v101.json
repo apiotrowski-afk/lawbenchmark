@@ -1,0 +1,163 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T",
+  "S"
+ ],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "Ustawa z 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych, t.j. Dz.U. 2025 poz. 24",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2025/24/ogl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 41 ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 58 § 1 i 3 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 pr.aut., w tym cytat z pkt 3 in fine",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 3 ust. 1 dyrektywy 2001/29/WE",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/ALL/?uri=CELEX:32001L0029",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 3 ust. 2 dyrektywy 2001/29/WE jako przepis implementowany przez art. 50 pkt 3 pr.aut.; ustęp dotyczy praw pokrewnych innych uprawnionych",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/ALL/?uri=CELEX:32001L0029",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 53 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 65 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wyrok SN z 14 września 2005 r., III CK 124/05",
+   "zrodlo": "https://www.saos.org.pl/judgments/163531",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wyrok SA w Warszawie z 17 października 2012 r., I ACa 1244/11",
+   "zrodlo": "https://www.saos.org.pl/judgments/4021",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Wyrok SA w Łodzi z 27 lutego 2013 r., I ACa 1188/12, o odesłaniu do art. 50 pr.aut.; rzeczywisty wyrok tej sygnatury pochodzi z 16 października 2013 r. i dotyczy odszkodowania ubezpieczeniowego",
+   "zrodlo": "https://www.saos.org.pl/judgments/25673",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 6 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Nowelizacja pr.aut. z 20 września 2024 r.; właściwa ustawa jest z 26 lipca 2024 r., a 20 września to data jej zasadniczego wejścia w życie",
+   "zrodlo": "https://eli.gov.pl/eli/DU/2024/1254/ogl",
+   "werdykt": "S"
+  },
+  {
+   "powolanie": "Art. 45 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 43 ust. 2 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 44 ust. 1 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 47¹ ust. 1 pr.aut.: informacje odrębnie dla każdego pola eksploatacji; przepis wymaga informacji odrębnie dla każdego sposobu korzystania",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "Art. 47¹ ust. 4 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Dyrektywa 2019/790, art. 18–20",
+   "zrodlo": "https://eur-lex.europa.eu/eli/dir/2019/790/oj?locale=pl",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 2 i art. 46 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 16 pr.aut.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/24/text/T/D20250024L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 734 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 78¹ § 1 k.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2025/1071/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [
+  "K2: nie przedstawiono odpowiedzi tego samego systemu na P09; brak podstaw do naliczenia kary za sprzeczność."
+ ],
+ "uzasadnienie": "Odpowiedź zaprzecza przesłance, podaje wymagane podstawy, przykłady pól, formę pisemną oraz możliwość wykładni umowy, dlatego otrzymuje pełny rdzeń i wszystkie elementy rubryki. Cytat z art. 50 pkt 3 jest dosłowny. A6 obniżają przypisanie wyrokowi I ACa 1188/12 tezy o prawie autorskim, błędne powiązanie art. 50 z art. 3 ust. 2 InfoSoc, zastąpienie sposobów korzystania polami eksploatacji w opisie art. 47¹ ust. 1 oraz błędna data nowelizacji. Nieproszony, wielozdaniowy projekt postanowienia uzasadnia A8 = 0.5. Praktyczny kierunek działania i kalibracja pozostają trafne.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P10",
+  "system": "argon4_high_vertex_w1_r3",
+  "wyszukan": 22,
+  "czas_s": 146,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

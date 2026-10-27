@@ -1,0 +1,79 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c. — sprostowanie numeru bez opisu treści przepisu",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 2 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 6 grudnia 2012 r., III CSK 43/12",
+   "zrodlo": "https://www.saos.org.pl/judgments/99934",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781–787² k.p.c. — zakres wskazany wyłącznie w tytule źródła",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 30 i 41 k.r.o. — wskazane w tytule źródła",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text/T/D20260236L.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź zawiera pełny rdzeń: wyklucza klauzulę bez ograniczeń i uzależnia zakres odpowiedzialności od zgody małżonka albo związku wierzytelności z przedsiębiorstwem. Powołane przepisy i teza wyroku SN znajdują potwierdzenie w źródłach oficjalnych; wymogi dokumentowe w tabeli opisano w kontekście art. 787 i 787¹, a odesłania do k.r.o. wskazują podstawę materialną. Nie zaliczono czwartego elementu rubryki, ponieważ sprostowaniu numeru nie towarzyszy wyjaśnienie trzydniowego terminu z art. 781¹. Rozbudowane omówienie dowodów i środków obrony małżonka wykracza poza pytanie o dostępny tryb, co obniża A8. Dalsza treść prawidłowo warunkuje początkowe „tak”, dlatego B2 wynosi 1.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "opus_cli_w1_r3",
+  "wyszukan": 12,
+  "czas_s": 71,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

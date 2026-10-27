@@ -1,0 +1,92 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "ustawa z 7 lipca 2022 r. o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. z 2022 r. poz. 2600 ze zm.)",
+   "zrodlo": "Dz.U. 2022 poz. 2600 (art. 4 pkt 5–8)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 279 § 1 k.k.",
+   "zrodlo": "Dz.U. 2025 poz. 383 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w.",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pierwszym akapicie trafnie i kategorycznie podaje kwotę 800 zł na podstawie art. 119 § 1 k.w., a w drugim prostuje założenie pytania o powiązaniu progu z płacą minimalną i wskazuje datę 1.10.2023 r. (A-R = 2, A2 = 1, B2 = 1). Czwarty element rubryki (R4) został zaliczony zgodnie z regułą oceny z 2026-10-18, ponieważ odpowiedź wskazuje art. 124 § 1 k.w. jako inny przepis przeciwko mieniu z tym samym progiem 800 zł. Brak dosłownych cytatów w cudzysłowie skutkuje A3 = nd. Wszystkie powołane przepisy (w tym trafna uwaga poboczna o art. 279 § 1 k.k. w zw. z art. 130 § 2 k.w.) zostały zweryfikowane w źródłach oficjalnych i są w pełni zgodne ze stanem prawnym (A6 = 1, A8 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "codex_astra6_w0_r3",
+  "wyszukan": 10,
+  "zapytania": [
+   "\"art. 119\" \"art. 124\" \"art. 130\" \"Kodeks wykroczeń\" OR OR",
+   "\"Dz.U. 2022 poz. 2600\" OR \"2022/2600\" \"7 lipca 2022\" OR",
+   "\"art. 130\" \"włamaniem\" \"Kodeks wykroczeń\"",
+   "\"art. 279\" \"włamaniem\" \"Kodeks karny\" OR OR",
+   "\"Kodeks wykroczeń\" \"734\"",
+   "\"Kodeks karny\"",
+   "\"2600\" \"7 lipca 2022\"",
+   "\"279\" \"włamaniem\"",
+   "\"Kodeks karny\" \"383\"",
+   "\"Kodeks karny\" \"2026\" \"Obwieszczenie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpD2w9iolkWKwi0oNFKxoEbxJ5Mi4MZAs21J9DIsdrLmDsneN8l5usqiF1bAi8bXxdkVHGbHbVCJMKorAyt0IT9FoyjXgwRi6-4i0G1FMwJNUM4YoT_0JPHLLYKovxNs7E1IGzG54Yww==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAw9XuWkrcwkD1GWZ_Pen8E8NhyvKmOtBP2c04rV0_77z3DfIXkgd9IGZ2Q7CtsBk0YWvy4WOFjKnWotY32jltgGc_8NH_HAG53MRWn4p3RUzpYn4XWf1sjy0v3HOmHyi_",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_oHqYx-Ob3sIiNjiOUNE2SD7Kx4GkprnbIvw1yIqnv38bKDFlhhUhEWO-j04ed5TkiTjDAm0P6eZQ-OkkgeI1GDgJCJZEw_h2SzReTo41BaDbQWuRbeSc7o6tay75Gzdd6Q==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOx3UNJFCLpLunRhTC1F2EKjgqcPn7vEUjdPwd0Z7oGYdwHVKyOEFJfis7JdFSrt3kyTXDvOd7iAaj5KyENf_G3slC1bHmLeUJhWJtvscDw9GiDLhPlxz2G7xnrf_QX5dFFBDvCMWBFZjw0lMzz4Z49nS5f5uU7dQk1E0REUa5TlVFdgp0jMhdqI27w2vcK_c=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE9fvu9kbU0DynPaQ_UXBVM2Ob1aLNUTvLJ-Ew_yTOE2RTl5jXC9mxRQ6tWJnWt9S7-3pUkfa2noSZRLUVXo42icF0dyN3QTa0PeUFIJWkkr6uz2dC8XFxbl4fl9ucLEYvzHjy0Wy1PrhLMg==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe4EnG3WBow5nYxMa-QKMRQVCNTSGL9patHJwflwIMF36z-_rq7F6tpA65VizGFLFKQngnrODW6P0dy1YySm2vCE54yPq6rIfJV1hPYzSn1QEw1y0RLJkFfqpmYQYm2kurCWc=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG52kwrk6YUFNvcU55AdeTDiOMVCh3itsMJ_l3ZUD09rySzpmszdCq35di9WBHIsrdVuJEPx2C2P4y0rkwJR6QF6fCUDNatpwp63W1wrPJlmh4MdvcJVjP44vInFlwcREVZ",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmxN4LsBSimKkcaQcuRGc5tWXQZ3tb2kW_H83CBuHCfBuKq7o8PMJJabQ8zsEApstV8ZOs-KRlEn_zJBj2yElGGcfYIElhJ9UZUjM_zBfGsaxtrZZjjXl0ZMur69VWYGu24coXoaqk08RWtAJjWN3otqmU81DsoD9OPPEaQThrq0i8kUxE_ESSDKAFf_g6"
+  ],
+  "tokeny": {
+   "wejscie": 13276,
+   "wyjscie": 1165
+  },
+  "czas_s": 68,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

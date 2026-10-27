@@ -1,0 +1,83 @@
+id: P12
+katalog_nr: 1
+wersja_klucza: 1
+data_klucza: 2026-10-10
+status: "zatwierdzony przez Adama 2026-10-10 (po przepisaniu bez wątku dokumentów; zgoda w rozmowie przy zleceniu biegu)"
+data_stanu_prawnego: 2026-10-01
+typ: zamkniete
+pulapka: true
+domena: proc
+tekst_oryginalny: "Klauzula wykonalności na małżonka, pozew był związany z działalnością gospodarczą, ale w NZ nie ma nic na temat \"prowadzący działalnosc\" w klauzuli jest PESEL i nie ma żadnej wzmianki nt. dzialalności, czy można wnosić o klauzulę na małżonka w \"normalnym trybie'? tj. czy można wnieść o egzkeucję \"bez ograniczeń\", które wynikają z 781[1] k.p.c. ?"
+
+rdzen: >
+  Nie w tym sensie, o jaki pyta: klauzuli przeciwko małżonkowi „bez ograniczeń”
+  nie ma. Każda klauzula przeciwko małżonkowi dłużnika jest ograniczona: do majątku
+  objętego wspólnością (art. 787 k.p.c., gdy wierzytelność powstała z czynności
+  prawnej dokonanej za zgodą małżonka) albo do przedsiębiorstwa wchodzącego w skład
+  majątku wspólnego (art. 787¹ k.p.c., gdy wierzytelność powstała w związku
+  z prowadzeniem przedsiębiorstwa). O trybie decyduje przesłanka materialna
+  (zgoda małżonka albo związek z przedsiębiorstwem, art. 41 § 1 i § 2 k.r.o.),
+  a nie to, czy nakaz zapłaty lub klauzula przeciwko dłużnikowi wspominają
+  o działalności gospodarczej. „Normalny tryb” z art. 787 wchodzi w grę tylko przy
+  zgodzie małżonka; bez zgody zostaje art. 787¹, a gdy nie ma ani zgody, ani
+  związku z przedsiębiorstwem, klauzuli przeciwko małżonkowi nie ma (egzekucja
+  z majątku osobistego, wynagrodzenia i dochodów dłużnika, art. 776¹ § 1 k.p.c.).
+  Art. 781¹ k.p.c. nie dotyczy ograniczeń: to termin 3 dni na rozpoznanie wniosku;
+  pytającemu chodzi o art. 787¹.
+wymagane_rozroznienie: "zgoda małżonka na czynność (art. 787, cały majątek wspólny) vs związek wierzytelności z przedsiębiorstwem (art. 787¹, tylko przedsiębiorstwo); tryb zależy od przesłanki materialnej, nie od treści tytułu"
+pulapka_opis: >
+  Trzy błędne założenia w pytaniu: (1) że istnieje tryb klauzuli przeciwko małżonkowi
+  „bez ograniczeń”; (2) że o dostępnym trybie decyduje treść nakazu zapłaty lub
+  klauzuli (wzmianka o działalności, PESEL), podczas gdy decyduje przesłanka
+  materialna z art. 787 albo 787¹; (3) numer przepisu: art. 781¹ to termin
+  rozpoznania wniosku, ograniczenie do przedsiębiorstwa wynika z art. 787¹.
+
+podstawy_wymagane:
+  - art. 787 k.p.c.
+  - art. 787¹ k.p.c.
+podstawy_dopuszczalne:
+  - art. 41 § 1 i § 2 k.r.o. (materialna podstawa obu trybów)
+  - art. 776¹ § 1 k.p.c. (egzekucja z majątku osobistego, wynagrodzenia i dochodów bez klauzuli na małżonka)
+  - art. 787² k.p.c. (umowa majątkowa małżeńska nie stoi na przeszkodzie)
+  - art. 781¹ k.p.c. (sprostowanie: termin 3 dni, nie ograniczenia)
+  - art. 795 k.p.c. (zażalenie na postanowienie o nadaniu klauzuli)
+
+wzorce_cytatow:
+  kpc_787:
+    brzmienie: "Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności także przeciwko jej małżonkowi z ograniczeniem jego odpowiedzialności do majątku objętego wspólnością majątkową, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała z czynności prawnej dokonanej za zgodą małżonka dłużnika."
+    zrodlo: Dz.U. 2026 poz. 468 (t.j. k.p.c.)
+  kpc_787_1:
+    brzmienie: "Tytułowi egzekucyjnemu wydanemu przeciwko osobie pozostającej w związku małżeńskim sąd nada klauzulę wykonalności przeciwko małżonkowi dłużnika z ograniczeniem jego odpowiedzialności do przedsiębiorstwa wchodzącego w skład majątku wspólnego małżonków, jeżeli wierzyciel wykaże dokumentem urzędowym lub prywatnym, że stwierdzona tytułem egzekucyjnym wierzytelność powstała w związku z prowadzeniem przedsiębiorstwa."
+    zrodlo: Dz.U. 2026 poz. 468 (t.j. k.p.c.)
+  kpc_781_1:
+    brzmienie: "Wniosek o nadanie klauzuli wykonalności sąd rozpoznaje niezwłocznie, nie później jednak niż w terminie 3 dni od dnia jego złożenia."
+    zrodlo: Dz.U. 2026 poz. 468 (t.j. k.p.c.); w tekście ISAP literówka „niepóźniej”
+  kro_41_1:
+    brzmienie: "Jeżeli małżonek zaciągnął zobowiązanie za zgodą drugiego małżonka, wierzyciel może żądać zaspokojenia także z majątku wspólnego małżonków."
+    zrodlo: Dz.U. 2026 poz. 236 (t.j. k.r.o.)
+
+rubryka:
+  - mówi wprost, że klauzuli przeciwko małżonkowi „bez ograniczeń” nie ma; każda jest ograniczona (majątek wspólny albo przedsiębiorstwo)
+  - "rozwidlenie: dopytuje, czy małżonek wyraził zgodę na czynność, ALBO prowadzi obie ścieżki (art. 787 ze zgodą, art. 787¹ bez zgody) z osobną konkluzją"
+  - wskazuje, że treść nakazu zapłaty i klauzuli przeciwko dłużnikowi nie przesądza trybu; decyduje przesłanka materialna (zgoda albo związek z przedsiębiorstwem)
+  - prostuje numer przepisu (art. 781¹ to termin 3 dni; ograniczenie do przedsiębiorstwa wynika z art. 787¹)
+  - wskazuje, co zostaje, gdy nie ma ani zgody, ani związku z przedsiębiorstwem (majątek osobisty, wynagrodzenie, dochody dłużnika; art. 776¹ k.p.c. albo art. 41 § 2 k.r.o.)
+kary:
+  - twierdzi, że klauzulę przeciwko małżonkowi można uzyskać bez ograniczenia odpowiedzialności albo do całego majątku małżonka
+  - twierdzi, że brak wzmianki o działalności w nakazie otwiera tryb art. 787 niezależnie od zgody małżonka
+  - omawia art. 781¹ jako przepis o ograniczeniach egzekucji bez sprostowania
+
+sporne: false
+kalibracja_oczekiwana: warunkowa
+warunek: "zgoda małżonka na czynność → art. 787 (majątek wspólny); brak zgody, wierzytelność z prowadzenia przedsiębiorstwa → art. 787¹ (przedsiębiorstwo); ani jedno, ani drugie → bez klauzuli na małżonka (art. 776¹ k.p.c.)"
+
+zrodla_klucza:
+  - "ISAP DU/2026/468 — k.p.c. t.j., art. 776¹, 781¹, 787, 787¹, 787² (tekst pobrany z api.sejm.gov.pl 2026-10-10)"
+  - "Nowele po t.j.: DU/2026/473, 830, 1003, 1046 — brak zmian w art. 776¹, 787–787² (sprawdzone grep w tekstach)"
+  - "ISAP DU/2026/236 — k.r.o. t.j., art. 41; bez noweli po t.j. (API references 2026-10-10)"
+weryfikacja: >
+  Przepisy sprawdzone 2026-10-10 w tekstach jednolitych (api.sejm.gov.pl) i nowelach
+  po t.j. Orzecznictwa klucz nie powołuje: wątek dowodu (jaki dokument wykazuje
+  zgodę albo związek z przedsiębiorstwem, uchwała SN III CZP 117/10 o domniemaniu)
+  wyłączony z klucza na polecenie Adama 2026-10-10, bo pytanie dotyczy trybu, nie
+  dowodu. Klucz wymaga zatwierdzenia przez Adama przed biegiem.

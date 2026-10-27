@@ -1,0 +1,85 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 1,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 492 § 1 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 493 § 4 KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 820 i n. KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730 i n. KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 730¹ KPC",
+   "zrodlo": "Dz.U. 2026 poz. 468 (t.j. k.p.c.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System udzielił odpowiedzi przeciwnej do stanu prawnego („Co do zasady tak” zamiast „Nie”), całkowicie pomijając natychmiastową wykonalność nakazu z weksla z art. 492 § 3 k.p.c. i błędnie twierdząc, że wstrzymanie wykonania nakazu wyłącza możliwość prowadzenia postępowania zabezpieczającego na jego podstawie (A_R = 0, R = [0,0,0,0], naliczona pierwsza kara). W A2 przyznano 0 pkt z uwagi na brak wymaganego art. 492 § 3 k.p.c. oraz powołanie błędnej podstawy prawnej wstrzymania wykonania nakazu. W A6 przyznano 0 pkt (klasa T, hallucinated = true), ponieważ system przypisał regulację wstrzymania wykonania nakazu zapłaty przepisowi art. 493 § 4 k.p.c., który w rzeczywistości dotyczy uchylenia nakazu postanowieniem albo wydania wyroku po rozpoznaniu zarzutów (zastrzeżenie o cytowaniu z pamięci zgodnie z regułą graniczną nr 8 nie wyłącza błędu T). Przydatność oceniono na 0 (B1 = 0), gdyż odpowiedź wprowadza prawnika w błąd co do dopuszczalności zabezpieczenia i pomija właściwe środki obrony pozwanego z art. 492 § 1 zd. 2 i § 2 oraz art. 742 k.p.c.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P13",
+  "system": "sonnet_cli_w0_r3",
+  "wyszukan": 9,
+  "zapytania": [
+   "\"art. 492\" \"art. 493\" kpc OR OR",
+   "\"art. 493\" \"zarzutów\" kodeks postępowania cywilnego OR",
+   "\"art. 730\" \"art. 820\" kodeks postępowania cywilnego OR",
+   "\"W razie wniesienia zarzutów\" \"493\" kodeks postępowania cywilnego",
+   "\"7301\" \"uprawdopodobnić roszczenie\" kodeks postępowania cywilnego",
+   "\"2026\" \"468\"",
+   "\"1964\" \"296\" \"468\"",
+   "\"WDU19640430296\" OR \"DU/2026/468\"",
+   "\"Nakaz zapłaty z chwilą wydania stanowi tytuł zabezpieczenia\" \"492\" \"493\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 10228,
+   "wyjscie": 1110
+  },
+  "czas_s": 118,
+  "data": "2026-10-17",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "/tmp/claude-1000/-home-adam-obszary-seo-wordpress/64c5a4fb-d8ff-4da0-8519-23e36cff8ee8/scratchpad/README_e336d22.md"
+ }
+}

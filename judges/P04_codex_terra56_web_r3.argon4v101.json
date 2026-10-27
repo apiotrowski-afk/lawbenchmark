@@ -1,0 +1,86 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "ISAP Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 k.p.a.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 1691 (t.j.) / Dz.U. 2024 poz. 572 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 k.p.a.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 k.p.a.",
+   "zrodlo": "ISAP Dz.U. 2025 poz. 1691 (t.j.) / Dz.U. 2024 poz. 572 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 1 ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "ISAP Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "W kryterium A-R przyznano 1 pkt zgodnie z regułą oceny z klucza („zasadniczo ostateczność, ewentualnie też prawomocność” = 1), gdyż odpowiedź na wstępie wskazuje na ostateczność, ale w części praktycznej dopuszcza wniosek do MSWiA o zaświadczenie obejmujące również prawomocność. Kryterium A2 wynosi 0 z uwagi na brak powołania wymaganego art. 217 § 2 pkt 2 k.p.a. W rubryce zaliczono R1 (korekta formy na decyzję administracyjną ministra) oraz R3 (rozróżnienie ostateczności i prawomocności ze wskazaniem możliwości uzyskania zaświadczenia MSWiA obejmującego prawomocność), natomiast nie zaliczono R2 (brak odrzucenia pojęcia „klauzuli” w pierwszym akapicie i brak art. 217 k.p.a.) ani R4 (brak 30-dniowego terminu skargi do WSA oraz reguły z art. 52 § 3 p.p.s.a.). Kary K3 nie naliczono, ponieważ odpowiedź nie wyklucza prawomocności decyzji ani zaświadczenia o prawomocności. Wszystkie powołane przepisy są zgodne ze źródłami urzędowymi (A6 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "codex_terra56_web_r3",
+  "wyszukan": 7,
+  "zapytania": [
+   "\"art. 1\" \"ust. 1a\" \"nabywaniu nieruchomości przez cudzoziemców\" eli.gov.pl OR sejm.gov.pl",
+   "\"art. 16\" \"art. 127\" \"2025\" \"1691\" eli.gov.pl OR sejm.gov.pl",
+   "\"Nabycie nieruchomości przez cudzoziemca wymaga zezwolenia\" \"Sprzeciw, o którym mowa w ust. 1\"",
+   "\"Decyzje, od których nie służy odwołanie w administracyjnym toku instancji\" \"Decyzje ostateczne, których nie można zaskarżyć do sądu\"",
+   "\"Od decyzji wydanej w pierwszej instancji przez ministra lub samorządowe kolegium odwoławcze\"",
+   "\"2024\" \"poz. 572\" \"Kodeks postępowania administracyjnego\"",
+   "\"biznes.gov.pl/pl/opisy-procedur/-/proc/209\" OR \"proc/209\" \"ostateczności\" OR \"zaświadczenie\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0JU9ajbWMn4RuB6UTU2uTvS_T-yuCCW_6YlhbbZMjLrBGPpwFCFg8wfcsI37Zz71StDGFKBNw6icrzYhIoKn0rg3PwAyd5YpTdR1ASpv6730bFxuC2UtONHk2EWMoAGCdh_srNMyVSRvxlEA4brGorIoFRZP9vQ1Cjm-4CS5_1cf2Yqg0uvHlwF7aY4x0rxsY",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhgOsHd5xxZqaFDzUMu7q--mpbsqsC-PFI8jclT-AwdvihnnTfws9uYK5rwcoOz9M0weLMFjZnhBE3p6oWAbkrxqwcGhw-AWPy-PwCtH-UHGhsyDnsQQkY86FfA5HWEc5NerC0u0YIUqCXkeSHc8_ry3rXymQ6v9can4R1V7INx7gGiP4jLPfGghyDN4lnsAQuHBBGT-1nSERWyYlcVILV_8kfWVyGMucdQ31Tqz2skeuAV7JJT4haOnDb8IA=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJPdz5KqcKVi4v_lxkzG1uSIfgxOgHwOnDdClN6dcYrWl-74WcTu4z5IwdA7q0_CnYUsdlMD5VoHqZsUEE3D0sHjQsh7at2GVFZJCBxc9eJT8C5bA1CQ1vq8Ho4rKT8QJbRg-IFgeHgU00SOoIos8Y3VNm79xMy4j3EAZglz0=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8DA2T20aZVg2ZhnLCYBAIuIKCexB0P7cgpsdTIzF_a6XXr6SJuGDN6b8Nhg1EDgcfnuCAYGxaN_hN6a2XWt0CEvYqlbefu8Ar3HkFqasztHkyrtViciGP9aZ-mWJojTCsYfMu4w1hoA1Lpy7lpIn7bNB9AnNcFKKRVn8j1TpBRNZO2xE42h-VTbDWan6ax1y9YkelJDa4O3oes1Dk7fAS8W0UiOi9B5b5"
+  ],
+  "tokeny": {
+   "wejscie": 14654,
+   "wyjscie": 1129
+  },
+  "czas_s": 235,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

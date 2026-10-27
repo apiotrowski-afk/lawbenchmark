@@ -1,0 +1,81 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "Dz.U. 2026 poz. 468",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 5 października 2018 r., I CSK 596/17",
+   "zrodlo": "sn.pl / Baza Orzeczeń SN",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź wprost i prawidłowo obala błędną przesłankę pytania już w pierwszym zdaniu, powołując art. 41 ust. 2 pr.aut. Wskazuje wymagane podstawy prawne (art. 41 ust. 2 oraz art. 53 pr.aut.), precyzuje przykłady pól pod social media oraz prawidłowo przytacza liberalną linię orzeczniczą SN dotyczącą wykładni (art. 65 k.c., trafnie powołany wyrok I CSK 596/17). W rubryce nie przyznano punktu za element piąty wyłącznie z powodu braku wzmianki o dyrektywie in favorem auctoris (na korzyść twórcy). Wszystkie powołania przepisów oraz orzeczenia SN są w pełni zgodne ze źródłami oficjalnymi.",
+ "_meta": {
+  "sedzia": "gemini38flashv101",
+  "model": "gemini-3.8-flash",
+  "pytanie": "P10",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 2,
+  "zapytania": [
+   "\"I CSK 596/17\" SN wyrok 5 października 2018",
+   "\"I CSK 596/17\" \"pola eksploatacji\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 11951,
+   "wyjscie": 650
+  },
+  "czas_s": 28,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "domyślny modelu",
+  "readme": "bieżące"
+ }
+}

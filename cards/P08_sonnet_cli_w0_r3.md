@@ -1,0 +1,47 @@
+# Karta oceny — P08 · Claude claude-sonnet-5-5 przez Claude Code CLI (subskrypcja), czysty model — bez MCP i CLAUDE.md, W0 — r3 W0 (rozszerzenie 2026-10-18)
+
+- Pytanie: P08 (katalog nr 6), klucz w wersji 4 (2026-10-18, zatwierdzony przez Adama 2026-10-18 — R6 za soft law, nigdy kara)
+- Data odpowiedzi systemu: 2026-10-18 · czas 24.7 s · warunki: model claude-sonnet-5-5 (model_id claude-haiku-5-5,claude-sonnet-5-5), Claude Code CLI (subskrypcja), bez MCP i CLAUDE.md, temperatura: domyślna CLI (nieustawialna), narzędzia: brak, wyszukiwanie: brak (W0); liczba wyszukań: 0 (web_search_requests 0, web_fetch_requests 0); tokeny: wejście 2 (+854 zapis do pamięci podręcznej), wyjście 3242, w tym rozumowanie 1443
+- Data stanu prawnego klucza: 2026-10-01
+- Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
+
+## Blok A
+
+| # | Pkt | Dowód |
+|---|---|---|
+| A-R | 1/2 | 1 [2026-10-18 decyzja Adama nr 18: brak szerokiego „istniejące” = 1 — zatwierdzone; alternatywa 2 odrzucona] (było: wstępnie): pierwsze zdanie — „Co do zasady tak, ale to uproszczenie…”; kryterium obiektywne („Liczy się obiektywna zdolność treści do wywołania fałszywego wrażenia autentyczności … a nie to, czy twórca coś «udaje»”) i obowiązek z art. 50 ust. 2 niezależny od statusu deepfake („Obowiązek ten nie zależy od kwalifikacji jako deepfake”) — trafne. Ale element rdzenia v4 odwrócony: „Głos syntetyczny, który nie przypomina żadnej istniejącej osoby (np. generyczny lektor), nie jest deepfake'em, nawet jeśli jest w pełni realistyczny”; klucz: realistyczny syntetyczny głos może być deepfake, jeśli odbiorca mógłby go wziąć za nagranie prawdziwego człowieka (wytyczne KE C(2026) 5054 — „istniejące” = mogące realnie istnieć). Do decyzji Adama — 2, jeżeli element rdzenia oparty wyłącznie na soft law ma płacić tylko w R6 (zasada „Soft law w kluczach”: nigdy kara; odpowiedź trzyma się literalnego brzmienia art. 3 pkt 60) — wtedy A = 9½ / 12 = 79.2 % |
+| A2 | 1/1 | 1: art. 3 pkt 60, art. 50 ust. 2 i art. 50 ust. 4 AI Act — wszystkie z trafną treścią |
+| A3 | 0/1 | 0 wstępnie: tekst w cudzysłowie przypisany definicji — „konstrukcja «mogłaby… wydawać się»” — nie odpowiada polskiemu brzmieniu art. 3 pkt 60 („które odbiorca mógłby niesłusznie uznać za autentyczne lub prawdziwe”; to kalka wersji angielskiej „would falsely appear”). Lista z pogrubieniem bez cudzysłowu — parafraza. Do decyzji Adama — n/d, jeżeli dwuwyrazowy fragment z wielokropkiem traktować jako oznaczenie parafrazy, nie cytat (wtedy A = 8½ / 11 = 77.3 %) |
+| A5 | n/d | pytanie niesporne (`sporne: false`) |
+| A6 | 1/1 | A6_typ: — (bez błędów); A6_pochodzenie: n/d. Sprawdzone 8 z 8 (legal-cite — CELLAR, tekst skonsolidowany 02024R1689-20260727, wersja polska; motyw z EUR-Lex HTML CELEX 32024R1689; k.c. t.j. DU/2024/1061 = DU/2026/795): art. 3 pkt 60 ✓ (przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia; odbiorca mógłby niesłusznie uznać za autentyczne — parafraza dwóch przesłanek trafna); art. 50 ust. 1 ✓ (informowanie o interakcji z AI, „chyba że jest to oczywiste”); art. 50 ust. 2 ✓ (dostawcy, syntetyczne dźwięki, format do odczytu maszynowego, wykrywalność); art. 50 ust. 4 ✓ (ujawnienie deepfake; zd. 3 — treści o wyraźnie artystycznym, twórczym, satyrycznym, fikcyjnym charakterze: ujawnienie „w odpowiedni sposób, który nie utrudnia wyświetlania lub korzystania z utworu” — „złagodzony obowiązek” trafny); motyw 134 ✓ (to samo złagodzenie dla dzieł twórczych, satyrycznych, artystycznych, fikcyjnych); stosowanie art. 50 od 2.08.2026 ✓ (art. 113 akapit drugi; wyjątki lit. a–d art. 50 nie obejmują); art. 23 k.c. ✓ (katalog otwarty „w szczególności”; głos jako dobro osobiste — teza trafna, przypisana ogólnie, nie sprzeczna z prawem); art. 24 k.c. ✓ (§ 1 — środki ochrony). Zdanie o generycznym lektorze to wniosek z literalnego brzmienia art. 3 pkt 60 („istniejące osoby”), nie przypisanie treści wytycznym KE — poza A6 (zasada „Soft law w kluczach”: halucynacją jest dopiero przypisanie soft law mocy wiążącej albo cudzej treści); wytyczne i kodeks praktyk wymienione bez twierdzeń o treści. Orzeczeń nie powołano |
+| A8 | 1/1 | [2026-10-18 decyzja Adama nr 7] ½ → 1: trafne uwagi o innych reżimach (inne przepisy poza AI Act) bez błędu = 1. Pierwotnie ½: sekcja „Poza AI Act” — dobra osobiste (art. 23 i 24 k.c.), RODO i prawa artystów wykonawców to dygresja o innych gałęziach prawa (pytanie: „na gruncie AI Act”); rdzeń w pierwszym zdaniu i w podsumowaniu, dygresja go nie przykrywa. Art. 50 ust. 1 (voicebot) — obowiązek z AI Act wobec takiego głosu, nie dygresja; jednozdaniowa oferta na końcu — neutralna |
+| R1 | 1/1 | dwa elementy definicji — „przypomina istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia” i „mogłaby fałszywie wydawać się osobie autentyczna lub prawdziwa”; „Przesłanki są kumulatywne” |
+| R2 | 1/1 | kryterium nie jest intencja — „Kryterium nie jest «udawanie» ani zamiar. Definicja nie wymaga intencji wprowadzenia w błąd” |
+| R3 | 1/1 | rozwidlenie: ✓ wariant (a) — „Brak deepfake'a nie oznacza braku obowiązków … Art. 50 ust. 2: dostawcy … Obowiązek ten nie zależy od kwalifikacji jako deepfake” |
+| R4 | 0/1 | 0 wstępnie: ust. 2 przypisany dostawcom („dostawcy systemów AI generujących syntetyczne treści audio”), ale adresat ust. 4 (podmiot stosujący) nie pada; „dostawcy czy podmiotu stosującego” tylko w końcowym pytaniu o rolę klienta, bez przypisania ust. 4. Do decyzji Adama — 1, jeżeli końcowe rozróżnienie ról wystarcza (wtedy A = 9½ / 12 = 79.2 %) |
+| R5 | 1/1 | data stosowania — „art. 50 stosuje się od 2 sierpnia 2026 r.” |
+| R6 | 0/1 | wytyczne KE / kodeks praktyk z zaznaczeniem soft law — ✗: „Warto sprawdzić wytyczne Komisji do art. 50 i kodeks praktyk … bo nie mam pewności co do ich aktualnego, ostatecznego brzmienia” — odwołanie bez zaznaczenia niewiążącego charakteru = 0 (reguła klucza z 2026-10-18) |
+| K1 | 0 | brak obowiązków wobec takiego głosu — nie dotyczy (art. 50 ust. 2 i ust. 1) |
+| K2 | 0 | pomylenie adresatów ust. 2 i ust. 4 — nie dotyczy (ust. 2 trafnie przypisany dostawcom; ust. 4 bez adresata — płaci w R4) |
+| K3 | 0 | 2.02.2027 jako termin z art. 111 ust. 4 — nie dotyczy (termin nie podany; odpowiedź zaznacza niepewność co do Omnibusa) |
+| **A** | **9 / 12 = 75.0 %** | [2026-10-18 decyzja Adama nr 7] 8½ / 12 = 70.8 % → 9 / 12 = 75.0 % · punkty możliwe: A-R 2 + A2 1 + A3 1 + A6 1 + A8 1 + R 6 = 12 (A5 n/d); punkty: A-R 1 + A2 1 + A3 0 + A6 1 + A8 1 + R 4 (R1, R2, R3, R5) = 9; bez kar |
+
+## Blok B
+
+| # | Pkt | Uzasadnienie |
+|---|---|---|
+| B1 przydatność | 2/2 | 2 wstępnie: prawnik wie, że decyduje obiektywna możliwość wzięcia nagrania za autentyczne, a nie zamiar, że klon głosu istniejącej osoby jest deepfake także za zgodą, że dostawca niezależnie oznakowuje wynik maszynowo, że przy voicebocie dochodzi art. 50 ust. 1, i od kiedy art. 50 się stosuje; dostaje wskazówkę, by sprawdzić wytyczne KE i kodeks praktyk. Do decyzji Adama — 1, jeżeli teza „generyczny realistyczny głos nie jest deepfake'em” uznać za wskazówkę zmieniającą działanie prawnika (pominięcie ujawnienia z art. 50 ust. 4 wbrew wytycznym KE) — wtedy B = 2 / 3 = 66.7 % |
+| B2 kalibracja | 1/1 | `kalibracja_oczekiwana: warunkowa`: „Co do zasady tak, ale…” ograniczone do definicji, z warunkiem (podobieństwo i możliwość uznania za autentyczne) i z wyraźnym zastrzeżeniem, że obowiązek z art. 50 ust. 2 istnieje niezależnie — zgodnie z polem `warunek` |
+| **B** | **3 / 3 = 100.0 %** | |
+
+**Δ = A % − B % = −25.0** [2026-10-18 decyzja Adama nr 7: było −29.2] · hallucinated: nie · bez weryfikacji źródła: tak (brak narzędzi)
+
+## Pochodzenie (opisowe)
+
+P1 ślady narzędzi: brak (narzedzia: [], wyszukiwanie: false; web_search_requests 0, web_fetch_requests 0) · P2 nie badano · P3 źródła deklarowane w tekście: rozporządzenie 2024/1689 (art. 3 pkt 60, art. 50 ust. 1, 2 i 4, motyw 134), k.c. (art. 23, 24), RODO i prawa artystów wykonawców bez jednostek; wytyczne KE do art. 50 i kodeks praktyk — tylko jako „warto sprawdzić”; bez linków i orzeczeń · P4 wiedza z wag modelu; definicja w kalce wersji angielskiej („would falsely appear”); stan wytycznych KE C(2026) 5054 i rozporządzenia 2026/1744 nieznany systemowi (sam to zaznacza).
+
+Warunki biegu (z nagłówka odpowiedzi): system „Claude claude-sonnet-5-5 przez Claude Code CLI (subskrypcja), czysty model — bez MCP i CLAUDE.md, W0” · model_alias claude-sonnet-5-5 · model_id claude-haiku-5-5,claude-sonnet-5-5 · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · kontekst dodatkowy: sekcja środowiska Claude Code (katalog tymczasowy, data, platforma, e-mail konta) — nie da się wyłączyć · czas 24.7 s · koszt równoważny 0.0361 USD · pytanie: `tekst_oryginalny` (klucz bez `tekst_benchmarkowy`) · błąd: brak.
+
+Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18.
+
+[2026-10-19 decyzja Adama — rozbieżność z sędzią Sol 6.1: Sol uznał zawężenie definicji deepfake (art. 3 pkt 60) do głosu naśladującego konkretną istniejącą osobę za T w rdzeniu, na podstawie wytycznych KE. Rozstrzygnięcie: brak halucynacji — błąd wykładni płaci w A-R (decyzje nr 16 i 18), wytyczne KE to soft law (README „Soft law w kluczach”). Karta bez zmian.]

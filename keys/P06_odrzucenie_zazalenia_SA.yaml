@@ -1,0 +1,60 @@
+id: P06
+katalog_nr: 22
+wersja_klucza: 3
+data_klucza: 2026-10-10
+# v3 (2026-10-10): element rubryki „rozwidlenie” (dopytanie ALBO dwie ścieżki) i kara „bez dopytania” wg README „B2 — kalibracja / Dopytanie” (decyzja Adama); punkty możliwe bez zmian. v2: 2026-10-10.
+# v2 (2026-10-10): pola kalibracja_oczekiwana (warunkowa) i warunek (decyzja Adama, README „B2 — kalibracja”);
+#   rdzeń, rubryka i punktacja bez zmian. v1: 2026-10-03.
+data_stanu_prawnego: 2026-10-01
+typ: zamkniete
+pulapka: false
+domena: proc
+tekst_oryginalny: "Postanowienie o odrzuceniu zażalenia (SA) - brak opłaty, czy przysługuje zażalenie ?"
+
+rdzen: >
+  Zależy od tego, jakie zażalenie SA odrzucił. Jeżeli było to zażalenie do innego
+  składu sądu drugiej instancji (art. 394² § 1 lub § 1¹ k.p.c.), odrzuca je jeden
+  sędzia, a na to postanowienie przysługuje zażalenie do innego składu SA
+  (art. 394² § 1² zd. 2). Jeżeli SA jako sąd drugiej instancji odrzucił zażalenie
+  na postanowienie sądu okręgowego (art. 397 § 1¹), zażalenie nie przysługuje,
+  bo tego postanowienia nie ma w katalogu art. 394² § 1 i § 1¹.
+wymagane_rozroznienie: "zażalenie poziome w SA vs zażalenie rozpoznawane przez SA jako sąd II instancji"
+
+podstawy_wymagane:
+  - art. 394² § 1² k.p.c.
+  - art. 397 § 1¹ k.p.c.
+podstawy_dopuszczalne:
+  - art. 394² § 1 i § 1¹ k.p.c. (katalog)
+  - art. 394¹ᵃ § 1 pkt 12 i § 1¹ k.p.c. (odrzucenie zażalenia przez sąd I instancji)
+  - art. 130² k.p.c. (pismo profesjonalnego pełnomocnika nieopłacone — zwrot bez wezwania)
+  - art. 397 § 3 k.p.c.
+
+wzorce_cytatow:
+  kpc_394_2_1_2:
+    brzmienie: "Jeżeli zażalenie, o którym mowa w § 1 i 1[1], jest spóźnione, nieopłacone lub z innych przyczyn niedopuszczalne albo jego braków strona nie usunęła w wyznaczonym terminie, sąd odrzuca je w składzie jednego sędziego. Na postanowienie przysługuje zażalenie do innego składu sądu drugiej instancji."
+    zrodlo: Dz.U. 2026 poz. 468 (t.j. k.p.c.)
+  kpc_397_1_1:
+    brzmienie: "Sąd drugiej instancji odrzuca zażalenie, jeżeli podlegało ono odrzuceniu przez sąd pierwszej instancji, jak również zażalenie, którego braków strona nie usunęła w wyznaczonym terminie."
+    zrodlo: Dz.U. 2026 poz. 468
+
+rubryka:
+  - "rozwidlenie: dopytuje, o które zażalenie chodzi (poziome w SA czy rozpoznawane przez SA jako sąd II instancji), ALBO bez dopytania prowadzi obie ścieżki z osobną konkluzją"
+  - dla zażalenia poziomego wskazuje zażalenie do innego składu SA
+  - dla zażalenia dewolutywnego mówi, że środek nie przysługuje
+  - zwraca uwagę na art. 130² k.p.c., jeżeli pismo wniósł profesjonalny pełnomocnik (zwrot, możliwość dopłaty w tygodniu)
+kary:
+  - wskazuje zażalenie do Sądu Najwyższego (art. 394¹ § 1 tego nie obejmuje)
+  - odpowiada jednoznacznie „tak” albo „nie” bez rozróżnienia i bez dopytania
+
+sporne: false
+kalibracja_oczekiwana: warunkowa
+warunek: "rodzaj odrzuconego zażalenia: do innego składu SA (art. 394² § 1 lub § 1¹ k.p.c.) → zażalenie przysługuje (§ 1² zd. 2); zażalenie na postanowienie SO odrzucone przez SA jako sąd II instancji (art. 397 § 1¹) → nie przysługuje"
+
+zrodla_klucza:
+  - "ISAP DU/2026/468 — k.p.c. t.j., art. 130², 394¹, 394¹ᵃ, 394², 397"
+  - "Nowele po t.j.: DU/2026/473, 830, 1003, 1046 — wskazane przepisy bez zmian"
+weryfikacja: >
+  Przepisy sprawdzone 2026-10-03. Niesprawdzone: orzecznictwo SN o zaskarżalności
+  postanowienia sądu II instancji odrzucającego zażalenie dewolutywne. Rdzeń opiera
+  się na zamkniętym katalogu art. 394² § 1 i 1¹; przed oceną warto potwierdzić,
+  że SN nie przyjął tu wykładni rozszerzającej.

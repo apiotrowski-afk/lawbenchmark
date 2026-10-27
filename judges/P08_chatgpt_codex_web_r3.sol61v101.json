@@ -1,0 +1,60 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "Art. 3 pkt 60 rozporządzenia (UE) 2024/1689 (AI Act)",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 2 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 ust. 4 AI Act",
+   "zrodlo": "https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=CELEX:02024R1689-20260727",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Art. 50 AI Act — ogólne odesłanie",
+   "zrodlo": "https://ai-act-service-desk.ec.europa.eu/pl/ai-act/article-50",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź poprawnie przedstawia przesłanki definicji deepfake i wskazuje, że decyduje możliwość błędnego uznania nagrania za autentyczne, a nie zamiar ani rzeczywiste oszukanie odbiorcy. Rozróżnia niezależny obowiązek oznakowania maszynowego po stronie dostawcy oraz ujawnienie po stronie podmiotu stosującego, co uzasadnia pełny rdzeń i prawidłową kalibrację. Powołane jednostki i przypisane im treści potwierdzono w oficjalnym tekście skonsolidowanym; proponowane brzmienie zdania nie jest cytatem przepisu. Brakuje daty stosowania lub terminu przejściowego oraz odwołania do wytycznych KE albo kodeksu praktyk z zaznaczeniem ich niewiążącego charakteru. Całość pozostaje w zakresie pytania.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P08",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 6,
+  "czas_s": 30,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

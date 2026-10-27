@@ -1,0 +1,853 @@
+{
+ "meta": {
+  "data": "2026-10-24T03:51:55",
+  "pytania": [
+   "P05"
+  ],
+  "systemy": [
+   "argon4_high_vertex_w0_r3"
+  ],
+  "etykieta": "test_P05_1sys",
+  "readme_wersja": "1.0.1",
+  "cache_kontekstu": false,
+  "prefiks_znakow": 19952,
+  "zadan_sedziego": 7,
+  "klasy_A6": {
+   "✓": 3,
+   "F": 0,
+   "T": 2,
+   "W": 1,
+   "S": 0
+  },
+  "statusy_weryfikacji": {
+   "brak_dowodu": 0,
+   "tekst_niedostepny": 0,
+   "akt_nieustalony": 2,
+   "sygnatura_niejednoznaczna": 0,
+   "nie_znaleziono": 0,
+   "nieobslugiwany": 0,
+   "w_zwiazku": 1,
+   "brak_twierdzenia": 0,
+   "niepewne": 1,
+   "blad_weryfikacji": 0,
+   "poza_zrodlami": 0
+  },
+  "sedzia": "gemini-4-argon",
+  "myslenie_sedziego": "medium",
+  "pomocniczy": "gemini-3.8-flash",
+  "czas_s": 93,
+  "czasy_etapow_s": {
+   "atomy_orzeczen": 0,
+   "atomy_przepisow": 53,
+   "twierdzenia": 6,
+   "sedzia": 11,
+   "ogolniki": 19
+  },
+  "tokeny": {
+   "gemini-3.8-flash": {
+    "wywolania": 1,
+    "z_pamieci": 0,
+    "bledy": 0,
+    "we": 2715,
+    "we_cache": 0,
+    "wy": 589,
+    "rozum": 0,
+    "czas_s": 6.388708591461182
+   },
+   "gemini-4-argon": {
+    "wywolania": 7,
+    "z_pamieci": 0,
+    "bledy": 0,
+    "we": 56224,
+    "we_cache": 0,
+    "wy": 1486,
+    "rozum": 0,
+    "czas_s": 35.90262794494629
+   }
+  },
+  "koszt_usd": {
+   "gemini-3.8-flash": 0.004,
+   "gemini-4-argon": 0.127,
+   "gemini-4-argon (cena katalogowa)": 0.255
+  },
+  "baza": {
+   "polaczenie": "read-only",
+   "zapytania": {
+    "kontrola_read_only": 1,
+    "model_embeddingu": 1,
+    "tezy_ilike": 1
+   },
+   "model_embeddingu_probka": [
+    [
+     "text-embedding-3-large",
+     2000
+    ]
+   ],
+   "kandydaci_ilike": {
+    "P05": 105
+   },
+   "wzorce_ilike": {
+    "P05": [
+     "%131¹ᵃ § 1%",
+     "%131¹ᵃ § 1¹%",
+     "%131¹ᵃ § 2%",
+     "%portal informacyjny%",
+     "%sposób doręczeń%",
+     "%strona składa%",
+     "%składa oświadczenie%",
+     "%podpisem kwalifikowanym%",
+     "%chwili wskazanej%"
+    ]
+   },
+   "daty_stanu_prawnego": {
+    "P05": "2026-10-01"
+   }
+  }
+ },
+ "atomy_orzeczen": [],
+ "atomy_przepisow": [
+  {
+   "cytowanie": "art. 131[1a] § 1 KPC",
+   "kod": "KPC",
+   "status": "istnieje",
+   "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+   "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 2026-03-27 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 97db38e9635dc6db…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdfto…",
+   "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+   "data_stanu": "2026-10-01",
+   "brzmienie": "na datę stanu prawnego",
+   "wersje_wczesniejsze": [
+    {
+     "na_dzien": "2024-10-01",
+     "tekst": "§ 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe (Dz. U. z 2023 r. poz. 1640 oraz z 2024 r. poz. 467 i 1222), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych (Dz. U. z 2024 r. poz. 1458). § 1 1 . W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową."
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "tekst": "§ 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe ( Dz. U. z 2020 r. poz. 1041 i 2320 ) , osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych ( Dz. U. z 2021 r. poz. 850 i 1090 ) . § 1 1 . W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "tekst": "§ 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe ( Dz. U. poz. 1529 ) , osoby zatrudnione w sądzie, komornika lub sądową służbę doręczeniową."
+    }
+   ]
+  },
+  {
+   "cytowanie": "art. 131[1] KPC",
+   "kod": "KPC",
+   "status": "istnieje",
+   "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+   "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 2026-03-27 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 97db38e9635dc6db…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdfto…",
+   "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+   "data_stanu": "2026-10-01",
+   "brzmienie": "na datę stanu prawnego",
+   "wersje_wczesniejsze": [
+    {
+     "na_dzien": "t.j. DU/2024/1568 (2024-10-10)",
+     "tekst": "Art. 131 1 . § 1. Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne) , jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne po upływie 14 dni od daty umieszczenia pisma w systemie teleinformatycznym. § 2 1 . Adresat, który dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego, może zrezygnować z doręczenia elektronicznego. § 3. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw informatyzacji określi, w drodze rozporządzenia, tryb i sposób dokonywania doręczeń elektronicznych, mając na względzie zapewnienie skuteczności doręczeń oraz ochronę praw osób, którym pisma są doręczane."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "tekst": "Art. 131 1 . § 1. W elektronicznym postępowaniu upominawczym doręczeń powodowi dokonuje się za pośrednictwem systemu teleinformatycznego obsługującego elektroniczne postępowanie upominawcze (doręczenie elektroniczne), a pozwanemu, w przypadku gdy wniesie pismo drogą elektroniczną. § 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone z datą wskazaną w elektronicznym potwierdzeniu odbioru korespondencji, a przy braku takiego potwierdzenia doręczenie uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie teleinformatycznym. § 3. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw informatyzacji określi, w drodze rozporządzenia, tryb doręczeń elektronicznych w elektronicznym postępowaniu upominawczym mając na względzie zapewnienie skuteczności doręczeń oraz ochronę praw osób, którym pisma są doręczane."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "tekst": "W tym tekście nie ma art. 131[1]."
+    }
+   ]
+  },
+  {
+   "cytowanie": "art. 133a § 1 KPK",
+   "kod": "KPK",
+   "status": "istnieje",
+   "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+   "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 490 z 2026-03-27 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 a0d3b654e3ea47ca…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/490/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdfto…",
+   "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszło w życie 5 nowelizacji: Dz.U. 2026 poz. 421 (14.04.2026), Dz.U. 2026 poz. 638 (28.05.2026), Dz.U. 2026 poz. 760 (12.06.2026), Dz.U. 2026 poz. 882 (16.07.2026), Dz.U. 2026 poz. 901 (21.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 187 (19.05.2028)",
+   "data_stanu": "2026-10-01",
+   "brzmienie": "na datę stanu prawnego",
+   "wersje_wczesniejsze": [
+    {
+     "na_dzien": "t.j. DU/2024/37 (2023-12-07)",
+     "tekst": "§ 1. Sąd dokonuje doręczeń pism procesowych lub innych pism prokuratorowi, obrońcy i pełnomocnikowi będącemu adwokatem lub radcą prawnym, Prokuratorii Generalnej Rzeczypospolitej Polskiej, przez umieszczenie ich treści w portalu informacyjnym, o którym mowa w art. 53e § 1 ustawy z dnia 27 lipca 2001 r. - Prawo o ustroju sądów powszechnych ( Dz. U. z 2023 r. poz. 217 , z późn. zm.) , w sposób umożliwiający uzyskanie przez nadawcę i odbiorcę dokumentu potwierdzającego doręczenie."
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "tekst": "W tym tekście nie ma art. 133a — w dniu 01.10.2021 artykuł nie istniał."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "tekst": "W tym tekście nie ma art. 133a — w dniu 01.10.2016 artykuł nie istniał."
+    }
+   ]
+  },
+  {
+   "cytowanie": "art. 131[1] § 2 KPC",
+   "kod": "KPC",
+   "status": "istnieje",
+   "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+   "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 2026-03-27 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 97db38e9635dc6db…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdfto…",
+   "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+   "data_stanu": "2026-10-01",
+   "brzmienie": "na datę stanu prawnego",
+   "wersje_wczesniejsze": [
+    {
+     "na_dzien": "t.j. DU/2024/1568 (2024-10-10)",
+     "tekst": "§ 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne po upływie 14 dni od daty umieszczenia pisma w systemie teleinformatycznym."
+    },
+    {
+     "na_dzien": "2024-10-01",
+     "tekst": "§ 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone w chwili wskazanej w elektronicznym potwierdzeniu odbioru korespondencji. Przepisu art. 134 § 1 nie stosuje się. W przypadku braku takiego potwierdzenia doręczenie elektroniczne uznaje się za skuteczne po upływie 14 dni od daty umieszczenia pisma w systemie teleinformatycznym. § 2 1 . Adresat, który dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego, może zrezygnować z doręczenia elektronicznego."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "tekst": "§ 2. W przypadku doręczenia elektronicznego pismo uznaje się za doręczone z datą wskazaną w elektronicznym potwierdzeniu odbioru korespondencji, a przy braku takiego potwierdzenia doręczenie uznaje się za skuteczne z upływem 14 dni od daty umieszczenia pisma w systemie teleinformatycznym."
+    }
+   ]
+  },
+  {
+   "cytowanie": "art. 216aa KPC",
+   "kod": "KPC",
+   "status": "istnieje",
+   "znacznik": "nieurzędowy odczyt PDF",
+   "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 27.03.2026, NIEURZĘDOWY odczyt urzędowego PDF) Ustalenie: nieustalone — między tym tekstem a 01.10.2026 weszły w życie nowelizacje ustawy, a nowszego tekstu jednolitego jeszcze nie ma. Podaję brzmienie z tekstu przed tym dniem; ustal, która nowel…",
+   "aktualnosc": "jednostki brak w dzisiejszym tekście; brzmienie z na_dzien",
+   "data_stanu": "2026-10-01",
+   "brzmienie": "na datę stanu prawnego",
+   "wersje_wczesniejsze": []
+  },
+  {
+   "cytowanie": "art. 133 § 3 KPC",
+   "kod": "KPC",
+   "status": "istnieje",
+   "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+   "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 2026-03-27 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 97db38e9635dc6db…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdfto…",
+   "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+   "data_stanu": "2026-10-01",
+   "brzmienie": "na datę stanu prawnego",
+   "wersje_wczesniejsze": [
+    {
+     "na_dzien": "2021-10-01",
+     "tekst": "§ 3. Jeżeli ustanowiono pełnomocnika procesowego lub osobę upoważnioną do odbioru pism sądowych, pisma sądowe doręcza się tym osobom. Pismo wzywające stronę do osobistego stawiennictwa doręcza się tylko bezpośrednio tej stronie, z wyjątkiem strony, o której mowa w art. 1135 5 § 1."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "tekst": "§ 3. Jeżeli ustanowiono pełnomocnika procesowego lub osobę upoważnioną do odbioru pism sądowych, doręczenia należy dokonać tym osobom. Jednakże Skarbowi Państwa doręczenia dokonuje się zawsze w sposób określony w § 2."
+    },
+    {
+     "na_dzien": "2011-10-01",
+     "tekst": "§ 3. Jeżeli ustanowiono pełnomocnika procesowego lub osobę upoważnioną do odbioru pism sądowych, doręczenia należy dokonać tym osobom. Jednakże państwowej jednostce organizacyjnej doręczenia dokonywa się zawsze w sposób określony w paragrafie poprzedzającym."
+    }
+   ]
+  },
+  {
+   "cytowanie": "art. 131[1a] KPC",
+   "kod": "KPC",
+   "status": "istnieje",
+   "znacznik": "nieurzędowy odczyt PDF / tekst skonsolidowany",
+   "zrodlo": "(źródło: api.sejm.gov.pl, t.j. Dz.U. 2026 poz. 468 z 2026-03-27 — tylko PDF) ⚠ NIEURZĘDOWY ODCZYT z urzędowego PDF: eli2md 0.6.54 / pdfplumber 0.11.10; PDF sha256 97db38e9635dc6db…; wiążący jest PDF: https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf Kontrola odczytu: warstwa tekstowa PDF (pdfto…",
+   "aktualnosc": "nieustalona — po dacie tego t.j. (2026-03-27) weszły w życie 3 nowelizacje: Dz.U. 2026 poz. 26 (13.04.2026), Dz.U. 2026 poz. 473 (08.07.2026), Dz.U. 2026 poz. 830 (08.07.2026); sprawdź, czy dotyczy to tego artykułu. Oczekuje (jeszcze nie obowiązuje, data wg wykazu ELI): Dz.U. 2026 poz. 1003 (28.10.2026), Dz.U. 2026 poz. 1046 (05.11.2026), Dz.U. 2026 poz. 1296 (06.11.2026)",
+   "data_stanu": "2026-10-01",
+   "brzmienie": "na datę stanu prawnego",
+   "wersje_wczesniejsze": [
+    {
+     "na_dzien": "2024-10-01",
+     "tekst": "Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe (Dz. U. z 2023 r. poz. 1640 oraz z 2024 r. poz. 467 i 1222), osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych (Dz. U. z 2024 r. poz. 1458). § 1 1 . W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw łączności określi, w drodze rozporządzenia, szczegółowy tryb i sposób doręczania pism sądowych przez podmioty, o których mowa w § 1 zdanie pierwsze, mając na uwadze konieczność zapewnienia sprawnego toku postępowania, a także realizacji gwarancji procesowych jego uczestników, ochronę praw osób, którym pisma są doręczane, oraz ochronę ich danych osobowych. § 3. Minister Sprawiedliwości, na uzasadniony wniosek prezesa sądu, w drodze zarządzenia, tworzy i znosi w tym sądzie sądową służbę doręczeniową. § 4. Minister Sprawiedliwości określi, w drodze rozporządzenia, warunki organizacji oraz strukturę sądowej służby doręczeniowej, mając na względzie wielkość sądu, koszty oraz zapewnienie skuteczności doręczeń i zachowanie wymogów postępowania sądowego."
+    },
+    {
+     "na_dzien": "2021-10-01",
+     "tekst": "Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe ( Dz. U. z 2020 r. poz. 1041 i 2320 ) , osoby zatrudnione w sądzie, lub sądową służbę doręczeniową. Sąd może również dokonywać doręczeń za pośrednictwem komornika w sposób określony w ustawie z dnia 22 marca 2018 r. o komornikach sądowych ( Dz. U. z 2021 r. poz. 850 i 1090 ) . § 1 1 . W wypadkach wskazanych w ustawie sąd może dokonać doręczeń przez Policję lub Żandarmerię Wojskową. § 2. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw łączności określi, w drodze rozporządzenia, szczegółowy tryb i sposób doręczania pism sądowych przez podmioty, o których mowa w § 1 zdanie pierwsze, mając na uwadze konieczność zapewnienia sprawnego toku postępowania, a także realizacji gwarancji procesowych jego uczestników, ochronę praw osób, którym pisma są doręczane, oraz ochronę ich danych osobowych. § 3. Minister Sprawiedliwości, na uzasadniony wniosek prezesa sądu, w drodze zarządzenia, tworzy i znosi w tym sądzie sądową służbę doręczeniową. § 4. Minister Sprawiedliwości określi, w drodze rozporządzenia, warunki organizacji oraz strukturę sądowej służby doręczeniowej, mając na względzie wielkość sądu, koszty oraz zapewnienie skuteczności doręczeń i zachowanie wymogów postępowania sądowego."
+    },
+    {
+     "na_dzien": "2016-10-01",
+     "tekst": "Art. 131. § 1. Sąd dokonuje doręczeń przez operatora pocztowego w rozumieniu ustawy z dnia 23 listopada 2012 r. - Prawo pocztowe ( Dz. U. poz. 1529 ) , osoby zatrudnione w sądzie, komornika lub sądową służbę doręczeniową. § 2. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw łączności określi, w drodze rozporządzenia, szczegółowy tryb i sposób doręczania pism sądowych przez podmioty, o których mowa w § 1, mając na uwadze konieczność zapewnienia sprawnego toku postępowania, a także realizacji gwarancji procesowych jego uczestników, ochronę praw osób, którym pisma są doręczane, oraz ochronę ich danych osobowych. § 3. Minister Sprawiedliwości, na uzasadniony wniosek prezesa sądu, w drodze zarządzenia, tworzy i znosi w tym sądzie sądową służbę doręczeniową. § 4. Minister Sprawiedliwości określi, w drodze rozporządzenia, warunki organizacji oraz strukturę sądowej służby doręczeniowej, mając na względzie wielkość sądu, koszty oraz zapewnienie skuteczności doręczeń i zachowanie wymogów postępowania sądowego."
+    }
+   ]
+  }
+ ],
+ "powolania": [
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 1,
+   "powolanie": "art. 15zzs⁹",
+   "cytowanie": null,
+   "akt_ustalenie": "nieustalony (w zdaniu inny akt: ustawy covidowej)",
+   "rola": "główne",
+   "powolanie_glowne_id": 1,
+   "status_faktow": "akt nieustalony — do sprawdzenia ręcznie",
+   "flagi_faktow": [
+    "akt_nieustalony"
+   ],
+   "kontekst": "Od 14 marca 2024 r. (na mocy nowelizacji z dnia 7 lipca 2023 r.) przepisy o doręczeniach przez Portal Informacyjny zostały przeniesione z tzw. ustawy covidowej (uchylony art. 15zzs⁹) bezpośrednio do Kodeksu postępowania cywilnego.",
+   "twierdzenie": null,
+   "wzmianka": true,
+   "wynik": {
+    "etykieta": null,
+    "flagi": []
+   },
+   "klasa_A6": null,
+   "status_weryfikacji": "akt_nieustalony",
+   "klasa_zrodlo": "fakty",
+   "uzasadnienie_etykieta": null,
+   "A6_zakres": "rdzeń",
+   "A6_zakres_powod": "rubryka R1 (leksykalnie)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 2,
+   "powolanie": "art. 131¹ᵃ § 1 KPC",
+   "cytowanie": "art. 131[1a] § 1 KPC",
+   "akt_ustalenie": "wprost",
+   "rola": "główne",
+   "powolanie_glowne_id": 2,
+   "status_faktow": "istnieje",
+   "flagi_faktow": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "kontekst": "Podstawa prawna: Art. 131¹ᵃ § 1 KPC",
+   "twierdzenie": "W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza pisma procesowe wyłącznie przez umieszczenie ich treści w Portalu Informacyjnym ściśle określonej, zamkniętej grupie podmiotów (adwokatom, radcom prawnym, rzecznikom patentowym, prokuratorom, organom emerytalnym, Prokuratorii Generalnej RP oraz biegłym sądowym w określonym zakresie).",
+   "wzmianka": false,
+   "wynik": {
+    "etykieta_modelu": "przeczy",
+    "atom": 1,
+    "cytat": "sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania",
+    "rdzen": "Art. 131[1a] § 1 KPC przewiduje doręczenia przez Portal Informacyjny wyłącznie zamkniętej grupie podmiotów profesjonalnych (w tym biegłym sądowym), z pominięciem strony, która dokonała wyboru takiego sposobu doręczania.",
+    "rdzen_w_zrodle": false,
+    "uzasadnienie": "Twierdzenie zawęża zakres podmiotowy przepisu do zamkniętej grupy podmiotów profesjonalnych (błędnie dodając biegłych sądowych) i wyklucza stronę, podczas gdy w brzmieniu na datę stanu prawnego przepis wprost obejmuje również komornika, stałego mediatora oraz stronę, która dokonała wyboru takiego sposobu doręczania.",
+    "flagi": [],
+    "cytat_zweryfikowany": true,
+    "etykieta": "przeczy"
+   },
+   "klasa_A6": "T",
+   "status_weryfikacji": null,
+   "klasa_zrodlo": "poparcie",
+   "uzasadnienie_etykieta": "przeczy",
+   "A6_zakres": "rdzeń",
+   "A6_zakres_powod": "rubryka R1 (leksykalnie)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 3,
+   "powolanie": "art. 131¹ KPC",
+   "cytowanie": "art. 131[1] KPC",
+   "akt_ustalenie": "wprost",
+   "rola": "główne",
+   "powolanie_glowne_id": 3,
+   "status_faktow": "istnieje",
+   "flagi_faktow": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "kontekst": "Zgodnie z tym przepisem, w razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego (o którym mowa w art. 131¹ KPC), sąd doręcza pisma procesowe wyłącznie przez umieszczenie ich treści w Portalu Informacyjnym tylko ściśle określonej grupie podmiotów.",
+   "twierdzenie": "Przepis reguluje system teleinformatyczny, za pośrednictwem którego doręcza się pisma procesowe.",
+   "wzmianka": false,
+   "wynik": {
+    "etykieta_modelu": "popiera_wprost",
+    "atom": 1,
+    "cytat": "Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne)",
+    "rdzen": "Art. 131¹ k.p.c. reguluje doręczenia za pośrednictwem systemu teleinformatycznego.",
+    "rdzen_w_zrodle": true,
+    "uzasadnienie": "Przepis wprost stanowi o dokonywaniu przez sąd doręczeń za pośrednictwem systemu teleinformatycznego, co w pełni pokrywa się z ogólnym odesłaniem zawartym w odpowiedzi.",
+    "flagi": [],
+    "cytat_zweryfikowany": true,
+    "etykieta": "popiera_wprost"
+   },
+   "klasa_A6": "✓",
+   "status_weryfikacji": null,
+   "klasa_zrodlo": "poparcie",
+   "uzasadnienie_etykieta": "popiera_wprost",
+   "A6_zakres": "rdzeń",
+   "A6_zakres_powod": "rubryka R1 (leksykalnie)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 4,
+   "powolanie": "art. 133a § 1 KPK",
+   "cytowanie": "art. 133a § 1 KPK",
+   "akt_ustalenie": "wprost",
+   "rola": "główne",
+   "powolanie_glowne_id": 4,
+   "status_faktow": "istnieje",
+   "flagi_faktow": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "kontekst": "Podstawa prawna: Art. 133a § 1 KPK",
+   "twierdzenie": "Doręczeń przez umieszczenie treści pisma w Portalu Informacyjnym dokonuje się wyłącznie prokuratorowi, obrońcy i pełnomocnikowi będącemu adwokatem lub radcą prawnym oraz Prokuratorii Generalnej RP.",
+   "wzmianka": false,
+   "wynik": {
+    "etykieta_modelu": "popiera_wersja_wczesniejsza",
+    "atom": 2,
+    "cytat": "§ 1. Sąd dokonuje doręczeń pism procesowych lub innych pism prokuratorowi, obrońcy i pełnomocnikowi będącemu adwokatem lub radcą prawnym, Prokuratorii Generalnej Rzeczypospolitej Polskiej, przez umieszczenie ich treści w portalu informacyjnym",
+    "rdzen": "Doręczeń przez umieszczenie treści pisma w Portalu Informacyjnym dokonuje się wyłącznie prokuratorowi, obrońcy i pełnomocnikowi będącemu adwokatem lub radcą prawnym oraz Prokuratorii Generalnej RP.",
+    "rdzen_w_zrodle": false,
+    "uzasadnienie": "W brzmieniu na datę stanu prawnego (atom 1) katalog adresatów obejmuje również stronę, która dokonała wyboru takiego sposobu doręczania, więc twierdzenie o wyłączności podmiotów profesjonalnych jest nieaktualne. Twierdzenie odpowiada natomiast wcześniejszej wersji przepisu (atom 2), w której doręczenia przez portal informacyjny były ograniczone tylko do wymienionych podmiotów profesjonalnych.",
+    "flagi": [],
+    "cytat_zweryfikowany": true,
+    "etykieta": "popiera_wersja_wczesniejsza"
+   },
+   "klasa_A6": "W",
+   "status_weryfikacji": null,
+   "klasa_zrodlo": "poparcie",
+   "uzasadnienie_etykieta": "popiera_wersja_wczesniejsza",
+   "A6_zakres": "rdzeń",
+   "A6_zakres_powod": "rubryka R1 (leksykalnie)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 5,
+   "powolanie": "art. 131",
+   "cytowanie": null,
+   "akt_ustalenie": "nieustalony (w akapicie inny akt: KPK)",
+   "rola": "główne",
+   "powolanie_glowne_id": 5,
+   "status_faktow": "akt nieustalony — do sprawdzenia ręcznie",
+   "flagi_faktow": [
+    "akt_nieustalony"
+   ],
+   "kontekst": "Oskarżonemu, podejrzanemu, pokrzywdzonemu czy oskarżycielowi posiłkowemu (będącym osobami fizycznymi) pisma doręcza się tradycyjnie (art. 131 i nast.",
+   "twierdzenie": null,
+   "wzmianka": true,
+   "wynik": {
+    "etykieta": null,
+    "flagi": []
+   },
+   "klasa_A6": null,
+   "status_weryfikacji": "akt_nieustalony",
+   "klasa_zrodlo": "fakty",
+   "uzasadnienie_etykieta": null,
+   "A6_zakres": "rdzeń",
+   "A6_zakres_powod": "rubryka R1 (leksykalnie)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 6,
+   "powolanie": "art. 131¹ KPC",
+   "cytowanie": "art. 131[1] KPC",
+   "akt_ustalenie": "wprost",
+   "rola": "główne",
+   "powolanie_glowne_id": 6,
+   "status_faktow": "istnieje",
+   "flagi_faktow": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "kontekst": "Dotyczy to systemów obsługujących konkretne postępowania (art. 131¹ KPC):",
+   "twierdzenie": "Przepis dotyczy systemów teleinformatycznych obsługujących konkretne postępowania, w których osoba fizyczna może lub musi odbierać pisma elektronicznie.",
+   "wzmianka": false,
+   "wynik": {
+    "etykieta_modelu": "popiera_wprost",
+    "atom": 1,
+    "cytat": "Sąd dokonuje doręczeń za pośrednictwem systemu teleinformatycznego (doręczenie elektroniczne), jeżeli adresat wniósł pismo za pośrednictwem systemu teleinformatycznego albo dokonał wyboru wnoszenia pism za pośrednictwem systemu teleinformatycznego.",
+    "rdzen": "Art. 131¹ KPC reguluje doręczenia za pośrednictwem systemu teleinformatycznego.",
+    "rdzen_w_zrodle": true,
+    "uzasadnienie": "Przepis wprost reguluje dokonywanie przez sąd doręczeń elektronicznych za pośrednictwem systemu teleinformatycznego w sytuacjach, gdy adresat wniósł pismo w ten sposób lub dokonał takiego wyboru. Wskazanie w odpowiedzi na „systemy obsługujące konkretne postępowania” stanowi poprawne określenie przedmiotu regulacji tego przepisu.",
+    "flagi": [],
+    "cytat_zweryfikowany": true,
+    "etykieta": "popiera_wprost"
+   },
+   "klasa_A6": "✓",
+   "status_weryfikacji": null,
+   "klasa_zrodlo": "poparcie",
+   "uzasadnienie_etykieta": "popiera_wprost",
+   "A6_zakres": "rdzeń",
+   "A6_zakres_powod": "rubryka R1 (leksykalnie)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 7,
+   "powolanie": "art. 131¹ § 2 KPC",
+   "cytowanie": "art. 131[1] § 2 KPC",
+   "akt_ustalenie": "wprost",
+   "rola": "główne",
+   "powolanie_glowne_id": 7,
+   "status_faktow": "istnieje",
+   "flagi_faktow": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "kontekst": "1. EPU (Elektroniczne Postępowanie Upominawcze – e-Sąd w Lublinie): Jeżeli osoba fizyczna sama wniosła pozew w EPU albo (będąc pozwanym) wniosła pismo przez system EPU, wyraziła tym samym zgodę na doręczenia elektroniczne w tym systemie (art. 131¹ § 2 KPC).",
+   "twierdzenie": "Wniesienie przez osobę fizyczną pozwu w EPU albo wniesienie pisma przez system EPU oznacza wyrażenie zgody na doręczenia elektroniczne w tym systemie.",
+   "wzmianka": false,
+   "wynik": {
+    "etykieta_modelu": "nie_na_temat",
+    "atom": 1,
+    "cytat": "",
+    "rdzen": "Wniesienie pozwu lub pisma za pośrednictwem systemu teleinformatycznego oznacza wyrażenie zgody na doręczenia elektroniczne w tym systemie.",
+    "rdzen_w_zrodle": false,
+    "uzasadnienie": "Powołany art. 131¹ § 2 KPC reguluje wyłącznie chwilę uznania pisma za doręczone przy doręczeniu elektronicznym (w tym fikcję doręczenia po 14 dniach), a nie przesłanki wyrażenia zgody czy wyboru doręczeń elektronicznych poprzez wniesienie pisma przez system. Wskazanej jednostce redakcyjnej przypisano treść, której ona w ogóle nie zawiera (wskazana jednostka z cudzą treścią = T).",
+    "flagi": [],
+    "cytat_zweryfikowany": false,
+    "etykieta": "nie_na_temat"
+   },
+   "klasa_A6": "T",
+   "status_weryfikacji": null,
+   "klasa_zrodlo": "poparcie",
+   "uzasadnienie_etykieta": "nie_na_temat",
+   "A6_zakres": "rdzeń",
+   "A6_zakres_powod": "rubryka R1 (leksykalnie)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 8,
+   "powolanie": "art. 216aa",
+   "cytowanie": "art. 216aa KPC",
+   "akt_ustalenie": "domniemany (akt z podstaw klucza)",
+   "rola": "główne",
+   "powolanie_glowne_id": 8,
+   "status_faktow": "istnieje",
+   "flagi_faktow": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "kontekst": "Jednak dla osób fizycznych (np. konsumentów czy wierzycieli alimentacyjnych) ustawa Prawo upadłościowe (art. 216aa) przewiduje pewne wyłączenia, pozwalające im na działanie poza systemem i odbieranie pism tradycyjnie, o ile nie zrezygnują z tego prawa.",
+   "twierdzenie": "Przepis przewiduje dla osób fizycznych wyłączenia pozwalające im na działanie poza systemem KRZ i odbieranie pism tradycyjnie, o ile nie zrezygnują z tego prawa.",
+   "wzmianka": false,
+   "wynik": {
+    "etykieta_modelu": "niepewne",
+    "atom": 1,
+    "cytat": "",
+    "rdzen": "Art. 216aa przewiduje wyłączenia dla osób fizycznych pozwalające im na działanie poza systemem KRZ i odbieranie pism tradycyjnie.",
+    "rdzen_w_zrodle": false,
+    "uzasadnienie": "Podany tekst źródła (KPC) nie zawiera art. 216aa, natomiast oryginalny kontekst odpowiedzi powołuje się na art. 216aa ustawy Prawo upadłościowe, którego tekstu nie dostarczono do weryfikacji.",
+    "flagi": [],
+    "cytat_zweryfikowany": false,
+    "etykieta": "niepewne"
+   },
+   "klasa_A6": null,
+   "status_weryfikacji": "niepewne",
+   "klasa_zrodlo": "poparcie",
+   "uzasadnienie_etykieta": "niepewne",
+   "A6_zakres": "poboczne",
+   "A6_zakres_powod": "domyślnie (poza podstawami i rubryką)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 9,
+   "powolanie": "art. 133 § 3 KPC",
+   "cytowanie": "art. 133 § 3 KPC",
+   "akt_ustalenie": "wprost",
+   "rola": "główne",
+   "powolanie_glowne_id": 9,
+   "status_faktow": "istnieje",
+   "flagi_faktow": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "kontekst": "2. Z chwilą zgłoszenia się Państwa (adwokata/radcy prawnego) do sprawy jako pełnomocnika, sąd ma obowiązek przejść na doręczenia przez PI bezpośrednio na Państwa konto (art. 133 § 3 KPC w zw. z art. 131¹ᵃ KPC).",
+   "twierdzenie": "Z chwilą zgłoszenia się adwokata lub radcy prawnego do sprawy jako pełnomocnika, sąd ma obowiązek przejść na doręczenia pism przez Portal Informacyjny bezpośrednio na jego konto.",
+   "wzmianka": false,
+   "wynik": {
+    "etykieta_modelu": "popiera_czesciowo",
+    "atom": 1,
+    "cytat": "Jeżeli ustanowiono pełnomocnika procesowego lub pełnomocnika do doręczeń, pisma sądowe doręcza się tym osobom.",
+    "rdzen": "W razie ustanowienia pełnomocnika będącego adwokatem lub radcą prawnym pisma sądowe doręcza się temu pełnomocnikowi za pośrednictwem portalu informacyjnego.",
+    "rdzen_w_zrodle": true,
+    "uzasadnienie": "Z zestawienia powołanych łącznie przepisów wynika obowiązek doręczania pism sądowych ustanowionemu pełnomocnikowi procesowemu (art. 133 § 3 KPC), którym w przypadku adwokata lub radcy prawnego sąd doręcza pisma przez umieszczenie ich treści w portalu informacyjnym (art. 131¹ᵃ § 1 KPC). Twierdzenie pomija jedynie przewidziane w tych przepisach wyjątki (np. wezwanie do osobistego stawiennictwa czy brak postaci elektronicznej załączników), co stanowi dopuszczalne uogólnienie.",
+    "flagi": [],
+    "cytat_zweryfikowany": true,
+    "etykieta": "popiera_czesciowo"
+   },
+   "klasa_A6": "✓",
+   "status_weryfikacji": null,
+   "klasa_zrodlo": "poparcie",
+   "uzasadnienie_etykieta": "popiera_czesciowo",
+   "A6_zakres": "rdzeń",
+   "A6_zakres_powod": "rubryka R1 (leksykalnie)"
+  },
+  {
+   "P": "P05",
+   "system": "argon4_high_vertex_w0_r3",
+   "rodzaj": "przepis",
+   "id": 10,
+   "powolanie": "art. 131¹ᵃ KPC",
+   "cytowanie": "art. 131[1a] KPC",
+   "akt_ustalenie": "wprost",
+   "rola": "w_zwiazku",
+   "powolanie_glowne_id": 9,
+   "status_faktow": "istnieje",
+   "flagi_faktow": [
+    "brzmienie_na_dzien_nieustalone"
+   ],
+   "kontekst": "2. Z chwilą zgłoszenia się Państwa (adwokata/radcy prawnego) do sprawy jako pełnomocnika, sąd ma obowiązek przejść na doręczenia przez PI bezpośrednio na Państwa konto (art. 133 § 3 KPC w zw. z art. 131¹ᵃ KPC).",
+   "twierdzenie": null,
+   "wzmianka": true,
+   "wynik": {
+    "etykieta": null,
+    "flagi": []
+   },
+   "klasa_A6": null,
+   "status_weryfikacji": "w_zwiazku",
+   "klasa_zrodlo": "fakty (powołanie niegłówne łańcucha — ocena przy powołaniu głównym)",
+   "uzasadnienie_etykieta": null,
+   "A6_zakres": "poboczne",
+   "A6_zakres_powod": "domyślnie (poza podstawami i rubryką)"
+  }
+ ],
+ "ogolniki": [],
+ "ewaluacja": {
+  "grupy_T": [
+   {
+    "P": "P09",
+    "system": "haiku_cli_w0_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 65 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "haiku_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 41 ust./§ 1 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "haiku_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 65 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "haiku_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 43|44 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "sonnet_cli_w0_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 41 ust./§ 4 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "sonnet_cli_w0_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 50 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "opus_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 64 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "opus_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 41 ust./§ 5 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P10",
+    "system": "haiku_cli_w0_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 65 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P10",
+    "system": "haiku_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 41 ust./§ 3 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P10",
+    "system": "sonnet_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 436 KC",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P10",
+    "system": "sonnet_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 56|49 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P10",
+    "system": "sonnet_cli_w1_r3",
+    "rodzaj": "przepis",
+    "powolanie": "art. 41 ust./§ 3 PrAut",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "gemini38flash_vertex_w1_r3",
+    "rodzaj": "orzeczenie",
+    "powolanie": "III CK 400/03",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "argon4_high_vertex_w1_r3",
+    "rodzaj": "orzeczenie",
+    "powolanie": "I CSK 237/10",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   },
+   {
+    "P": "P09",
+    "system": "argon4_high_vertex_w1_r3",
+    "rodzaj": "orzeczenie",
+    "powolanie": "V CSK 373/10",
+    "wpisy": 0,
+    "oceniane": 0,
+    "wykryte": false,
+    "etykiety": []
+   }
+  ],
+  "dodatkowe": [
+   {
+    "P": "P10",
+    "system": "argon4_high_vertex_w0_r3",
+    "powolanie": "II CSKP 526/22",
+    "opis": "T (cudza treść, zła data)",
+    "etykiety": [],
+    "wykryte": false
+   },
+   {
+    "P": "P10",
+    "system": "argon4_high_vertex_w1_r3",
+    "powolanie": "I ACa 1188/12",
+    "opis": "S (inna sprawa pod sygnaturą)",
+    "etykiety": [],
+    "wykryte": false
+   }
+  ],
+  "b9": [
+   {
+    "P": "P09",
+    "system": "opus_cli_w1_r3",
+    "fraza": "ugruntowanego poglądu doktryny i orzecznictwa",
+    "znaleziony": false,
+    "etykiety": [],
+    "wykryte": false
+   },
+   {
+    "P": "P09",
+    "system": "gemini38flash_vertex_w0_r3",
+    "fraza": "jednolitym stanowisku",
+    "znaleziony": false,
+    "etykiety": [],
+    "wykryte": false
+   },
+   {
+    "P": "P10",
+    "system": "gemini38flash_vertex_w0_r3",
+    "fraza": "jednolicie przyjmuje się",
+    "znaleziony": false,
+    "etykiety": [],
+    "wykryte": false
+   }
+  ],
+  "poprawne_n": 10,
+  "falszywe_alarmy": [
+   {
+    "P": "P05",
+    "system": "argon4_high_vertex_w0_r3",
+    "id": 2,
+    "powolanie": "art. 131¹ᵃ § 1 KPC",
+    "twierdzenie": "W razie niemożności doręczenia za pośrednictwem systemu teleinformatycznego sąd doręcza pisma procesowe wyłącznie przez umieszczenie ich treści w Portalu Informacyjnym ściśle określonej, zamkniętej grupie podmiotów (adwokatom, radcom prawnym, rzecznikom patentowym, prokuratorom, organom emerytalnym, Prokuratorii Generalnej RP oraz biegłym sądowym w określonym zakresie).",
+    "wynik": {
+     "etykieta_modelu": "przeczy",
+     "atom": 1,
+     "cytat": "sąd doręcza adwokatowi, radcy prawnemu, rzecznikowi patentowemu, prokuratorowi, organowi emerytalnemu określonemu przez ministra właściwego do spraw wewnętrznych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, komornikowi sądowemu lub stałemu mediatorowi, a także stronie, która dokonała wyboru takiego sposobu doręczania",
+     "rdzen": "Art. 131[1a] § 1 KPC przewiduje doręczenia przez Portal Informacyjny wyłącznie zamkniętej grupie podmiotów profesjonalnych (w tym biegłym sądowym), z pominięciem strony, która dokonała wyboru takiego sposobu doręczania.",
+     "rdzen_w_zrodle": false,
+     "uzasadnienie": "Twierdzenie zawęża zakres podmiotowy przepisu do zamkniętej grupy podmiotów profesjonalnych (błędnie dodając biegłych sądowych) i wyklucza stronę, podczas gdy w brzmieniu na datę stanu prawnego przepis wprost obejmuje również komornika, stałego mediatora oraz stronę, która dokonała wyboru takiego sposobu doręczania.",
+     "flagi": [],
+     "cytat_zweryfikowany": true,
+     "etykieta": "przeczy"
+    }
+   },
+   {
+    "P": "P05",
+    "system": "argon4_high_vertex_w0_r3",
+    "id": 7,
+    "powolanie": "art. 131¹ § 2 KPC",
+    "twierdzenie": "Wniesienie przez osobę fizyczną pozwu w EPU albo wniesienie pisma przez system EPU oznacza wyrażenie zgody na doręczenia elektroniczne w tym systemie.",
+    "wynik": {
+     "etykieta_modelu": "nie_na_temat",
+     "atom": 1,
+     "cytat": "",
+     "rdzen": "Wniesienie pozwu lub pisma za pośrednictwem systemu teleinformatycznego oznacza wyrażenie zgody na doręczenia elektroniczne w tym systemie.",
+     "rdzen_w_zrodle": false,
+     "uzasadnienie": "Powołany art. 131¹ § 2 KPC reguluje wyłącznie chwilę uznania pisma za doręczone przy doręczeniu elektronicznym (w tym fikcję doręczenia po 14 dniach), a nie przesłanki wyrażenia zgody czy wyboru doręczeń elektronicznych poprzez wniesienie pisma przez system. Wskazanej jednostce redakcyjnej przypisano treść, której ona w ogóle nie zawiera (wskazana jednostka z cudzą treścią = T).",
+     "flagi": [],
+     "cytat_zweryfikowany": false,
+     "etykieta": "nie_na_temat"
+    }
+   }
+  ],
+  "rozklad_etykiet": {
+   "(status z kroku faktów)": 3,
+   "przeczy": 1,
+   "popiera_wprost": 2,
+   "popiera_wersja_wczesniejsza": 1,
+   "nie_na_temat": 1,
+   "niepewne": 1,
+   "popiera_czesciowo": 1
+  }
+ }
+}

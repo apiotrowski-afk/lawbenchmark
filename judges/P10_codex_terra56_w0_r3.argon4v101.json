@@ -1,0 +1,98 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 45 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 2 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "Dz.U. 2025 poz. 24 (t.j. pr.aut.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie i wprost zaprzecza błędnej przesłance pytania już w pierwszym zdaniu, wskazując wymóg wyraźnego wymienienia pól eksploatacji (art. 41 ust. 2 pr.aut.), ograniczenie do pól znanych w chwili zawarcia umowy (art. 41 ust. 4 pr.aut.) oraz formę pisemną pod rygorem nieważności (art. 53 pr.aut.), co daje pełny rdzeń (A-R = 2) i komplet wymaganych podstaw (A2 = 1). Wszystkie powołane przepisy ustawy o prawie autorskim i prawach pokrewnych (Dz.U. 2025 poz. 24) zostały oddane zgodnie ze stanem prawnym na 2026-10-01 (A6 = 1), a wobec braku cytatów w cudzysłowie A3 = nd. W rubryce odpowiedź zalicza elementy R1–R4 (w tym dopasowane do social mediów przykłady pól eksploatacji), tracąc jedynie punkt dodatkowy R5 za brak wzmianki o wykładni umowy wg art. 65 k.c. w orzecznictwie SN. Praktyczne i trafne uwagi o prawach osobistych, odrębnym wynagrodzeniu oraz prawach zależnych mieszczą się w ramach zagadnienia (A8 = 1, B1 = 2), a kategoryczne wskazanie, że ogólna formuła nie wystarcza i pola należy wyliczyć, spełnia regułę B11 (B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 6,
+  "zapytania": [
+   "\"art. 41\" \"art. 45\" \"art. 46\" \"art. 53\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"Art. 2.\" \"Art. 16.\" \"o prawie autorskim i prawach pokrewnych\" OR OR",
+   "\"2025\" \"poz. 24\" \"o prawie autorskim\" OR",
+   "\"Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia\"",
+   "\"DU/2025/24\" OR \"DU/1994/83\"",
+   "\"WDU20250000024\" OR \"WDU19940240083\""
+  ],
+  "zrodla_sedziego": [
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9FBsB7NNVNfFUC1ztoyWAu-DTr6m6RMFvyMw31obhsXzTYsFE_uIM6dYD4_rN8qh6Brp3x6MMY08WzPx0ZpJT65sgeJpqQRszTqjeC48jrbZcG5szUR4acehYiq9_gvhaGXMXmW5ecuKPlaeS4xBJhZrG0qPPpSsdHfmGGA2gWV46Sp65njT85e2MKLsqOuY=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiqFbMzg8QtIreLtFV0vfAuEnBxUtsxh3HbOttOqHVJHmckqpwvBK72nyKdTr2NYd4bMqyTqTTz5gQzpqvEk_bNvwDi9Ue5d9JiLb6XcDm402m2tEYLJHlhbAcvlDxazg=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaxly7Ddjc89Fw3_i4GXnPzyaEuU9IQICNER7-5Rx3xrX3C-QefTNhOrRbgg8SHBpuiNJb_LlaHsZ-uyaGj8YXORSwqH35F8hpQqk99wK7MnGfcw0eKmZ18bWt3eIIvS82pysm7NWM8heNloELtZxhYcgwGWC7GI6cZTlXWXedUcmxWx6fURIieeQBmAZRCE3WGlcZeOaHzbfVmKqBWF0kmy5a_yz8SpZNVOegizcl0A==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyY2A66xRqzJu0megVlEN-OUgvySgBr3z45vIplZE5aFDANbSuN27sGvpgkjVNtc3PyvkLUX93kLydylfRsiUaTBAviZ0FbQAH3pHZSrw_WhnhnZLluvIrK0XzR_p1U6oRJ4JjK5tvN1eR9nKgqeube3c4lL7gMqQtriDOmlcbB-rpnw==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRp4sYmRT1GXQUtBfmr1aLqEH2Dd7PmZ3RbhTFkGj2E1mWKmxCMg7s_nSHtY0Q6UsxoSn2NE2Za4C1NVWurQww9dDqgIkYboGLjL4ZDFDwi0ykIC1bYleJ24N9OtigPmDt1Lovg-EEmrbFQHCLiJv3katoXOOA1goYErKoK-vqqrYSnzoguEgH6D02cTlx5mDGxcaNNLA7PRBvZeEXnsxBFB9seA==",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1nD-pLPWo6ghuirR5OflnMjl3i1cG44bxv5onbq_DYdBmgx3xXFwOFheP-4YWECCAlfTE3159SGrG6mDU474VqeuYfwoE3JzxAc5w6T7wCxr0OosVijpH-ZNiOY8MWMwvcVq_V-SzzLgf6O4_FC3jJnfO0Y3MGAb_4L77EqER0-g=",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOxWulVBve05RqmNsNl0OB7Bss3m-GGkj_hqAZi0f9KKjKfDmujHNnB7VcLbuuZPmx_kSb5FjRaDDIsrDmuqu54EHQESFMHOSOhzjSOGXjDJHGPQNw81USMTdK9r05zjq12kCUB-6YUYzdlhA8zJalcWT31gW2NFOC-BQYTC15L2Io1Ecqok-unoUFukhNiTggPaGl1roiTfgFhRxT4kapJbe5iNn5S7HN5hRXOjofSw1j-88cbQ=="
+  ],
+  "tokeny": {
+   "wejscie": 13273,
+   "wyjscie": 1378
+  },
+  "czas_s": 98,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

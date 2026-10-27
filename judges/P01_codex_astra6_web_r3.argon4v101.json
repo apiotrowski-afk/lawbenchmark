@@ -1,0 +1,72 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  0,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 119 § 1 Kodeksu wykroczeń — kradzież lub przywłaszczenie cudzej rzeczy ruchomej, próg 800 zł włącznie",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w., ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 124 § 1 k.w. — umyślne zniszczenie lub uszkodzenie cudzej rzeczy, próg 800 zł dotyczący wysokości szkody",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w., ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 2 k.w. — wyłączenie stosowania art. 119 k.w. przy kradzieży z włamaniem niezależnie od wartości rzeczy",
+   "zrodlo": "Dz.U. 2025 poz. 734 (t.j. k.w., ELI/ISAP)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "Kodeks wykroczeń — tekst jednolity Dz.U. 2025 poz. 734 (D20250734L.pdf)",
+   "zrodlo": "eli.gov.pl DU/2025/734",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pierwszym i drugim akapicie trafnie i kategorycznie podaje pełny rdzeń (próg 800 zł z art. 119 § 1 k.w. oraz brak wpływu wzrostu płacy minimalnej z uwagi na stały charakter kwoty). Wszystkie powołane przepisy (art. 119 § 1, art. 124 § 1 i art. 130 § 2 k.w.) oraz link do tekstu jednolitego Dz.U. 2025 poz. 734 są w pełni zgodne ze źródłem oficjalnym (A6 = 1), a wobec braku cytatów w cudzysłowie A3 jest n/d. W rubryce przyznano punkty za R1, R2 oraz R4 (wskazanie art. 124 § 1 k.w., co wystarcza wg reguł oceny z 2026-10-18). Nie przyznano punktu za R3, ponieważ system wskazał jedynie odejście od dawnego powiązania z 1/4 minimalnego wynagrodzenia, nie podając daty 1.10.2023 r. ani wcześniejszego progu 500 zł. Trafna uwaga poboczna o art. 130 § 2 k.w. wzbogaca praktyczną wartość odpowiedzi bez obniżenia oceny za ramy (A8 = 1, B1 = 2, B2 = 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P01",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 4,
+  "zapytania": [
+   "\"art. 119\" \"art. 124\" \"art. 130\" \"Kodeks wykroczeń\" OR",
+   "\"Art. 130.\" \"Art. 119\" \"włamaniem\" \"Kodeks wykroczeń\" OR OR",
+   "\"DU/2025/734\" OR",
+   "\"1/4 minimalnego wynagrodzenia\" \"art. 119\" \"Kodeks wykroczeń\" OR OR"
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13269,
+   "wyjscie": 1017
+  },
+  "czas_s": 99,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

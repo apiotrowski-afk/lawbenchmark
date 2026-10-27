@@ -1,0 +1,49 @@
+{
+ "A_R": 0,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "K": [
+  1,
+  0
+ ],
+ "B1": 0,
+ "B2": 1,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 357 § 5 k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394 i nast. k.p.c.",
+   "zrodlo": "https://api.sejm.gov.pl/eli/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Art. 357 § 5 zdanie drugie nakazuje odróżnić zasadnicze powody rozstrzygnięcia od uzasadnienia, więc przypisanie im charakteru skróconego uzasadnienia i wykluczenie wniosku stanowią błąd T oraz uruchamiają pierwszą karę. Brakuje wymaganej podstawy z § 1 albo § 2¹, warunku zaskarżalności, terminu i informacji o opłacie lub wyjątkach. Alternatywny scenariusz nieformalnego podania motywów obniża A8 do 0.5, a błędna wskazówka dotycząca złożenia wniosku uzasadnia B1=0. Odpowiedź jest kategoryczna, dlatego B2=1; pochodzenie błędu pozostaje nieustalone wobec braku śladu narzędzi i adresów źródeł ocenianego systemu.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P07",
+  "system": "codex_terra56_w0_r3",
+  "wyszukan": 8,
+  "czas_s": 43,
+  "data": "2026-10-12",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

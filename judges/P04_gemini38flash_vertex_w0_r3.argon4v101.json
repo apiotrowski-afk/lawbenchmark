@@ -1,0 +1,101 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": 1,
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 1,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 1 ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców",
+   "zrodlo": "Dz.U. 2017 poz. 2278 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 1 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127 § 3 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 127a KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 130 § 1 i 2 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 16 § 3 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 § 1 ustawy – Prawo o postępowaniu przed sądami administracyjnymi",
+   "zrodlo": "Dz.U. 2026 poz. 143 (t.j.)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 217 KPA",
+   "zrodlo": "Dz.U. 2025 poz. 1691 (t.j.)",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "System trafnie koryguje formę rozstrzygnięcia na decyzję administracyjną MSWiA (R1=1) oraz rozróżnia ostateczność i prawomocność, wskazując na możliwość zaświadczenia także prawomocności (R3=1), jednak w rdzeniu stawia na pierwszym miejscu ostateczność i posługuje się pojęciem „klauzuli ostateczności” (A-R=1 wg reguły z 2026-10-18, R2=0). Brak pełnej jednostki redakcyjnej art. 217 § 2 pkt 2 k.p.a. (powołano jedynie ogólnie art. 217 KPA) skutkuje A2=0. Cytat z art. 16 § 3 k.p.a. jest dosłowny (A3=1), a wszystkie powołane przepisy są zgodne ze stanem prawnym z 2026-10-01 (A6=1). Element R4 nie został zaliczony, ponieważ odpowiedź pomija możliwość wniesienia skargi do WSA bez uprzedniego wniosku o ponowne rozpatrzenie sprawy (art. 52 § 3 p.p.s.a.) i błędnie sugeruje bieg „kolejnych 30 dni” po uzyskaniu ostateczności (co obniża również B1 do 1).",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P04",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 12,
+  "zapytania": [
+   "\"art. 127\" \"art. 127a\" \"art. 130\" OR",
+   "\"art. 16\" \"art. 217\" \"Dz.U. 2025 poz. 1691\" OR",
+   "\"art. 1\" \"o nabywaniu nieruchomości przez cudzoziemców\" OR",
+   "\"art. 53\" \"Prawo o postępowaniu przed sądami administracyjnymi\" OR",
+   "\"2025\" \"1691\"",
+   "\"WDU20250001691\" OR \"WDU20170002278\" OR \"WDU20260000143\"",
+   "\"2025/1691\" OR \"2017/2278\" OR \"2026/143\"",
+   "\"Kodeks postępowania administracyjnego\" \"1691\"",
+   "\"Art. 16.\" \"Decyzje, od których nie służy odwołanie\" \"1691\"",
+   "\"Art. 217.\" \"Organ administracji publicznej wydaje zaświadczenie\" \"1691\"",
+   "\"eli/DU/2017/2278\" \"eli.gov.pl\"",
+   "\"eli/DU/2026/143\" \"eli.gov.pl\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 15116,
+   "wyjscie": 1384
+  },
+  "czas_s": 173,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

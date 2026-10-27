@@ -1,0 +1,89 @@
+{
+ "A_R": 1,
+ "A2": 0,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 0,
+ "A6_typ": [
+  "T"
+ ],
+ "A8": 0.5,
+ "R": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  1
+ ],
+ "B1": 0,
+ "B2": 0,
+ "hallucinated": true,
+ "powolania": [
+  {
+   "powolanie": "art. 394² § 1 i § 1¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394² § 1¹ pkt 1 k.p.c. — odrzucenie apelacji",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 394¹ k.p.c. — ogólne wskazanie regulacji zażalenia do SN",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 394¹ § 1¹ k.p.c. — postanowienia kończące postępowanie w sprawach kasacyjnych",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "uchwała SN z 27 listopada 2020 r., III CZP 13/20",
+   "zrodlo": "https://ts.sn.pl/orzecznictwo/SitePages/Najnowsze_orzeczenia.aspx?Izba=Cywilna&Rok=2021",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "postanowienie SN z 25 lutego 2021 r., III CZ 6/21",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20cz%206-21.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 373 § 1 w zw. z art. 397 § 3 k.p.c. — każde ponowne zażalenie będzie niedopuszczalne",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "T"
+  },
+  {
+   "powolanie": "art. 365 § 1 k.p.c. — związanie prawomocnym orzeczeniem",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text/O/D20260468.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 89 ustawy o Sądzie Najwyższym — skarga nadzwyczajna od opisanego orzeczenia incydentalnego",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2024/622/text/U/D20240622Lj.pdf",
+   "werdykt": "T"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź trafia w konkluzję dla zażalenia dewolutywnego, ale pomija rozwidlenie i wyraźnie zaprzecza uprawnieniu przewidzianemu w art. 394² § 1², co grozi utratą środka zaskarżenia. Art. 394² § 1¹ pkt 1 dotyczy zwolnienia od kosztów i pełnomocnika, a art. 394¹ § 1¹ uchylenia wyroku z przekazaniem sprawy do ponownego rozpoznania. III CZP 13/20 to postanowienie z 18 lutego 2021 r. odmawiające podjęcia uchwały w sprawie roszczenia windykacyjnego, natomiast III CZ 6/21 pochodzi z 28 kwietnia 2021 r. i dotyczy orzeczenia kasatoryjnego w sprawie zniesienia współwłasności; pochodzenie błędnych powołań jest nieustalone wobec braku śladu narzędzi ocenianego systemu. Art. 89 wymaga orzeczenia kończącego postępowanie w sprawie, więc nie uzasadnia wskazanej drogi wobec opisanego rozstrzygnięcia incydentalnego. Rozbudowane wskazówki o autokontroli i skardze nadzwyczajnej stanowią dygresję, a brak rozróżnienia uzasadnia karę i B2 = 0.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P06",
+  "system": "gemini38flash_vertex_w0_r3",
+  "wyszukan": 16,
+  "czas_s": 74,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

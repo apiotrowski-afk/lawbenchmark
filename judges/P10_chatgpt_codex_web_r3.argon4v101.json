@@ -1,0 +1,102 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 1,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "K": [
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 41 ust. 2 ustawy o prawie autorskim i prawach pokrewnych",
+   "zrodlo": "ELI / ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 65 k.c.",
+   "zrodlo": "ELI / ISAP Dz.U. 2026 poz. 795",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "wyrok SN z 14 października 2021 r., IV CSKP 44/21",
+   "zrodlo": "sn.pl (IV CSKP 44/21, OSNC-ZD 2023 nr 1 poz. 4)",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 50 pr. aut.",
+   "zrodlo": "ELI / ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 53 pr. aut.",
+   "zrodlo": "ELI / ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 ust. 4 pr. aut.",
+   "zrodlo": "ELI / ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 46 pr. aut.",
+   "zrodlo": "ELI / ISAP Dz.U. 2025 poz. 24",
+   "werdykt": "zgodne"
+  }
+ ],
+ "niesprawdzone": [],
+ "uzasadnienie": "Odpowiedź w pierwszym zdaniu trafnie zaprzecza błędnej przesłance pytania i bezbłędnie przedstawia pełny rdzeń wraz z zastrzeżeniem dotyczącym wykładni umowy według art. 65 k.c. oraz reguły in favorem auctoris (A_R = 2, B2 = 1). System powołał obie wymagane podstawy prawne (art. 41 ust. 2 i art. 53 pr.aut.), przepisy dopuszczalne (art. 41 ust. 4, art. 46, art. 50 pr.aut.) oraz trafny wyrok SN z 14 października 2021 r., IV CSKP 44/21 (A2 = 1, A6 = 1). Zrealizowano wszystkie pięć elementów rubryki, w tym podano praktyczne przykłady pól eksploatacji dla social mediów oraz nagrodzoną w kluczu liberalną linię orzeczniczą SN. Brak cytatów przepisów w cudzysłowie oraz brak sporności skutkują oceną n/d w kryteriach A3 i A5.",
+ "_meta": {
+  "sedzia": "argon4v101",
+  "model": "gemini-4-argon",
+  "pytanie": "P10",
+  "system": "chatgpt_codex_web_r3",
+  "wyszukan": 18,
+  "zapytania": [
+   "\"art. 41\" \"art. 50\" \"art. 53\" \"art. 46\" \"Dz.U. 2025 poz. 24\" OR OR",
+   "\"IV CSKP 44/21\" \"14 października 2021\" OR",
+   "\"art. 65\" \"zgodnego zamiaru stron i celu umowy\" OR",
+   "\"D20250024Lj.pdf\" OR \"DU/2025/24\" \"art. 41\" \"art. 50\" \"art. 53\"",
+   "\"IV CSKP 44/21\" \"sn.pl\" OR \"saos.org.pl\" \"41 ust. 2\"",
+   "\"Art. 46.\" \"Art. 50.\" \"Art. 53.\" \"o prawie autorskim i prawach pokrewnych\" \"isap\" OR \"eli.gov.pl\"",
+   "\"Art. 65.\" \"W umowach należy raczej badać\" \"eli.gov.pl\" OR \"isap\"",
+   "\"pola eksploatacji wyraźnie w niej wymienione\"",
+   "\"Odrębne pola eksploatacji stanowią w szczególności\"",
+   "\"IV CSKP 44/21\"",
+   "\"W umowach należy raczej badać, jaki był zgodny zamiar stron\"",
+   "\"IV CSKP 44/21\" \"pola eksploatacji\" OR \"pól eksploatacji\"",
+   "\"Art. 53.\" \"Umowa o przeniesienie autorskich praw majątkowych wymaga zachowania formy pisemnej pod rygorem nieważności\"",
+   "\"Art. 41.\" \"Umowa może dotyczyć tylko pól eksploatacji, które są znane w chwili jej zawarcia\"",
+   "\"IV CSKP 44/21\" \"reguł interpretacyjnych określonych w art.\"",
+   "\"IV CSKP 44/21\" \"in favorem\" OR \"na korzyść twórcy\" OR \"art. 65\"",
+   "\"IV CSKP 44/21\" \"in favorem auctoris. Oznacza to, że w przypadku\"",
+   "\"IV CSKP 44/21\" \"nie przekreśla podniesiony przez Sąd odwoławczy\""
+  ],
+  "zrodla_sedziego": [],
+  "tokeny": {
+   "wejscie": 13416,
+   "wyjscie": 1479
+  },
+  "czas_s": 104,
+  "data": "2026-10-19",
+  "slepa": true,
+  "specyfikacja": "1.0.1",
+  "temperatura": 0.0,
+  "region": "global",
+  "poziom_rozumowania": "high",
+  "readme": "bieżące"
+ }
+}

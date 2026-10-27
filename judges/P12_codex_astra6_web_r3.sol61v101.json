@@ -1,0 +1,71 @@
+{
+ "A_R": 2,
+ "A2": 1,
+ "A3": "nd",
+ "A5": "nd",
+ "A6": 1,
+ "A6_typ": [],
+ "A8": 0.5,
+ "R": [
+  1,
+  1,
+  1,
+  1,
+  0
+ ],
+ "K": [
+  0,
+  0,
+  0
+ ],
+ "B1": 2,
+ "B2": 1,
+ "hallucinated": false,
+ "powolania": [
+  {
+   "powolanie": "art. 787 k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 787¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 781¹ k.p.c.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/468/text.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "art. 41 § 1 i 2 k.r.o.",
+   "zrodlo": "https://eli.gov.pl/api/acts/DU/2026/236/text.pdf; https://eli.gov.pl/api/acts/DU/2023/2809/text.html",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "uchwała SN z 18 marca 2011 r., III CZP 117/10",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia1/III%20CZP%20117-10.pdf",
+   "werdykt": "zgodne"
+  },
+  {
+   "powolanie": "SN, III CZP 106/18 — rozróżnienie podstaw odpowiedzialności",
+   "zrodlo": "https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%20106-18.pdf",
+   "werdykt": "niesprawdzone"
+  }
+ ],
+ "niesprawdzone": [
+  "Pełny zakres tezy przypisanej uzasadnieniu III CZP 106/18: oficjalne wyniki wyszukiwania potwierdziły sygnaturę i fragmenty dotyczące zgody oraz ograniczonej odpowiedzialności, lecz pobranie pełnego uzasadnienia było niedostępne."
+ ],
+ "uzasadnienie": "Odpowiedź wyraźnie wyklucza klauzulę bez ograniczeń, rozróżnia oba tryby i uzależnia szerszy zakres od zgody małżonka. Trafnie prostuje numer przepisu i wyjaśnia, że opis dłużnika w nakazie nie przesądza podstawy klauzuli, choć nie podaje długości terminu z art. 781¹. Pomija egzekucję z majątku i dochodów dłużnika przy braku obu przesłanek. Osobny akapit o dokumentach i domniemaniu faktycznym wykracza poza zakres pytania określony w kluczu, co obniża A8. W sprawdzonych powołaniach nie stwierdzono niezgodności; niepełnej weryfikacji III CZP 106/18 nie potraktowano jako dowodu halucynacji.",
+ "_meta": {
+  "sedzia": "sol61v101",
+  "model": "gpt-6.1-sol",
+  "pytanie": "P12",
+  "system": "codex_astra6_web_r3",
+  "wyszukan": 16,
+  "czas_s": 97,
+  "data": "2026-10-18",
+  "slepa": true,
+  "specyfikacja": "1.0.1"
+ }
+}

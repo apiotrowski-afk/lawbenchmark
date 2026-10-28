@@ -54,7 +54,7 @@ Flagi: brzmienie_na_dzien_nieustalone 41, slowa_wersji_wczesniejszej 6
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| III CZP 50/22 | Sąd Najwyższy | 2022-06-23 | znaleziono (LexAlpha) | Sąd Najwyższy | 2022-06-23 | — |
-| III CZP 127/22 | Sąd Najwyższy | 2023-01-24 | znaleziono (LexAlpha) | Sąd Najwyższy | 2023-01-24 | — |
+| III CZP 50/22 | Sąd Najwyższy | 2022-06-23 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2022-06-23 | — |
+| III CZP 127/22 | Sąd Najwyższy | 2023-01-24 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2023-01-24 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

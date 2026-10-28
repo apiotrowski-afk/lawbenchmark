@@ -53,6 +53,10 @@ Piotrowski A. (2026). *"Hallucination" Is Not Enough: Why Legal LLM Benchmarks S
 
 ## Licence
 
-Data, keys, cards, reports and texts: [CC BY 4.0](LICENSE-CC-BY-4.0.txt). Code in `tools/` and `reports/*/src/*.py`: [MIT](LICENSE). Model answers are reproduced for evaluation purposes; statutes and court rulings quoted in them are public documents under Polish copyright law (art. 4 pr.aut.).
+- **Our own material** — scoring specification, questions as formulated for the benchmark, keys, reference cards, judge prompts, verification reports, reports and all texts in this repository: [CC BY 4.0](LICENSE-CC-BY-4.0.txt). Attribution: "LexAlpha Lab, LawBenchmark.pl".
+- **Code** in `tools/` and `reports/*/src/*.py`: [MIT](LICENSE).
+- **Model answers** (`answers/`, `data/answers.jsonl`, and quotations inside cards and judgments) are outputs of third-party systems reproduced verbatim for evaluation, criticism and research. We do not claim copyright in them and do not relicense them; use of the underlying models is governed by their providers' terms.
+- **Statutes and court rulings** quoted in answers and keys are official documents and are not protected by copyright under Polish law (art. 4 pr.aut.).
+- The canary string in [CANARY.txt](CANARY.txt) is a methodological request not to use these files as training data, so that future evaluations stay meaningful; CC BY 4.0 itself does not restrict that use.
 
 Contact: Adam Piotrowski, a.piotrowski@ktzr.pl · https://lawbenchmark.pl

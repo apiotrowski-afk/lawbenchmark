@@ -8,7 +8,7 @@
   "czas_s": 0.4,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -444,7 +444,7 @@
    "data_podana": "2022-09-14",
    "kontekst": "Uwaga z praktyki orzeczniczej: Choć w nowszym orzecznictwie Sądu Najwyższego (np. wyrok SN z 14.09.2022 r., II CSKP 526/22) pojawia się tendencja do „ratowania” wadliwych umów poprzez wykładnię oświadczeń woli (art. 65 Kodeksu cywilnego) i badanie zgodnego zamiaru stron (skoro umowa dotyczy obsługi social mediów, to zamiarem było przeniesienie praw na pole Internetu), to jednak opieranie się na tym przy tworzeniu umowy jest ogromnym błędem w szt…",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
      "id": "cmig4ys5d2cmjlked0hzk0aio",

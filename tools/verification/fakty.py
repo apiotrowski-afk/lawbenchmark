@@ -10,7 +10,7 @@ Kod, bez LLM:
   2. przepisy → legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl), NOWA wersja; nie kopia lokalna):
      istnienie jednostki, fragment urzędowy, źródło/wersja, porównanie cytatu,
      brzmienie z poprzedniego t.j. w HTML (jedyna wcześniejsza wersja, jaką legal-cite trzyma);
-  3. orzeczenia → SAOS API, a gdy brak (albo brak w sądzie podanym przez model) → baza LexAlpha
+  3. orzeczenia → SAOS API, a gdy brak (albo brak w sądzie podanym przez model) → wewnętrzna baza orzeczeń
      (tylko odczyt). Bez oceny „popiera / nie popiera” — to robi sędzia-model.
 
 Bezpieczeństwo: URL bazy i hasło nigdy nie trafiają do wyjścia (wyjątki logowane tylko nazwą typu).
@@ -41,7 +41,7 @@ import yaml  # noqa: E402
 BENCH = Path(__file__).resolve().parents[1]
 PYTANIA = BENCH / "pytania"
 RAPORTY = Path(__file__).resolve().parent / "raporty"
-ENV_FILE = Path.home() / ".lexalpha.env"
+ENV_FILE = Path(os.environ.get("BENCHMARK_ENV_FILE", "benchmark.env"))  # opcjonalny plik z adresem wewnętrznej bazy orzeczeń (poza repozytorium)
 
 SYSTEMY_R3 = [
     "chatgpt_codex_w0_r3", "chatgpt_codex_web_r3", "codex_astra6_w0_r3", "codex_astra6_web_r3",
@@ -953,7 +953,7 @@ BRAMKA_LEXALPHA = "<ścieżka do bramki LexAlpha — poza repo>"
 
 
 class LexAlphaDB:
-    """Baza LexAlpha WYŁĄCZNIE przez bramkę lexalpha_ro.query (parser SQL, read-only, ROLLBACK, maskowanie URL).
+    """Wewnętrzna baza orzeczeń WYŁĄCZNIE przez bramkę bramka_ro_poza_repo.query (parser SQL, read-only, ROLLBACK, maskowanie URL).
     2026-10-24: wcześniej moduł łączył się bezpośrednio przez psycopg — niezgodnie z regułą „tylko bramka”.
     URL nigdy nie jest wypisywany; wyjątki logowane typem."""
 
@@ -962,8 +962,8 @@ class LexAlphaDB:
         self.error = None
         try:
             sys.path.insert(0, BRAMKA_LEXALPHA)
-            from lexalpha_ro import query, LexAlphaRoError
-            self._query, self._err = query, LexAlphaRoError
+            from bramka_ro_poza_repo import query, BramkaRoError
+            self._query, self._err = query, BramkaRoError
             ro = query("SELECT current_setting('transaction_read_only'), current_setting('default_transaction_read_only')",
                        None, as_dict=False)
             if ro and tuple(ro[0]) == ("on", "on"):
@@ -1034,9 +1034,9 @@ async def verify_judgment(client, db: LexAlphaDB, j: dict) -> dict:
             cands += db_c
     if not cands:
         if saos_down:
-            st = "SAOS niedostępny; nie znaleziono w LexAlpha" if db.conn else "SAOS niedostępny; baza LexAlpha niedostępna"
+            st = "SAOS niedostępny; nie znaleziono w bazie wewnętrznej" if db.conn else "SAOS niedostępny; wewnętrzna baza orzeczeń niedostępna"
             return {"status": st, "flagi": flagi}      # bez flagi nie_znaleziono — źródło zawiodło, nie model
-        st = "nie znaleziono (SAOS, LexAlpha)" if db.conn else "nie znaleziono (SAOS; baza LexAlpha niedostępna)"
+        st = "nie znaleziono (SAOS, baza wewnętrzna)" if db.conn else "nie znaleziono (SAOS; wewnętrzna baza orzeczeń niedostępna)"
         return {"status": st, "flagi": ["nie_znaleziono"]}
     # ── wybór orzeczenia (A3, 2026-10-24): po sądzie/mieście i dacie podanych przez model ──
     typ_want = want.split(":")[0] if want else ("sa" if j["typ"] in SA_TYPES else "sn" if j["typ"] in SN_TYPES else "")
@@ -1336,7 +1336,7 @@ async def build_report(p: str, system: str, db: LexAlphaDB, client: httpx.AsyncC
                  "czas_s": round(time.monotonic() - t0, 1),
                  "zrodla": {"przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; "
                                          "wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-                            "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"},
+                            "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"},
                  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"},
         "podsumowanie": {"przepisy": len(przepisy), "orzeczenia": len(orzeczenia), "publikatory": len(publikatory),
                          "daty": len(daty), "flagi": flag_count},
@@ -1375,7 +1375,7 @@ async def main_async(args):
     systems = args.systemy.split(",") if args.systemy else SYSTEMY_R3
     db = LexAlphaDB()
     if not db.conn:
-        print(f"[fakty] baza LexAlpha niedostępna ({db.error}) — orzeczenia tylko z SAOS", file=sys.stderr)
+        print(f"[fakty] wewnętrzna baza orzeczeń niedostępna ({db.error}) — orzeczenia tylko z SAOS", file=sys.stderr)
     out_dir = Path(args.katalog) if args.katalog else RAPORTY
     out_dir.mkdir(parents=True, exist_ok=True)
     t0 = time.monotonic()

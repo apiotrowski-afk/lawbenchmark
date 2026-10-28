@@ -219,6 +219,6 @@ Atomy przepisów: 311 jednostek (`atomy/_przepisy/`).
 - gemini-3.8-flash: wywołań 92 (z pamięci 76, błędów 1), tokeny we 254003, wy 77118, rozumowanie 180167
 - gemini-4-argon: wywołań 185 (z pamięci 0, błędów 0), tokeny we 2202859, wy 226258, rozumowanie 0
 - Koszt USD (cennik Vertex 2026-10-18, rozumowanie jak wyjście): gemini-3.8-flash 1.155, gemini-4-argon 6.711, gemini-4-argon (cena katalogowa) 13.422
-- Baza LexAlpha: połączenie read-only; wykonane zapytania (wyłącznie SELECT): judgment_po_sygnaturze ×31, kontrola_read_only ×1, model_embeddingu ×1, tezy_ilike ×8, tezy_wyroku ×36
+- Wewnętrzna baza orzeczeń: połączenie read-only; wykonane zapytania (wyłącznie SELECT): judgment_po_sygnaturze ×31, kontrola_read_only ×1, model_embeddingu ×1, tezy_ilike ×8, tezy_wyroku ×36
 - Model embeddingu w bazie (próbka): [['text-embedding-3-large', 2000]]; kandydaci ILIKE: {'P01': 215, 'P04': 2016, 'P05': 105, 'P06': 3000, 'P07': 486, 'P08': 3000, 'P12': 3000, 'P13': 1957}
 

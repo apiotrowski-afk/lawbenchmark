@@ -40,7 +40,7 @@ Flagi: brzmienie_na_dzien_nieustalone 27, inna_data 1, slowa_wersji_wczesniejsze
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| III CZP 38/20 | Sąd Najwyższy | 2021-07-02 | znaleziono (LexAlpha) | Sąd Najwyższy | 2021-07-02 | — |
-| III CZ 163/22 | Sąd Najwyższy | 2022-04-29 | znaleziono (LexAlpha) | Sąd Najwyższy | 2022-09-16 | inna_data |
+| III CZP 38/20 | Sąd Najwyższy | 2021-07-02 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2021-07-02 | — |
+| III CZ 163/22 | Sąd Najwyższy | 2022-04-29 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2022-09-16 | inna_data |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

@@ -8,7 +8,7 @@
   "czas_s": 2.8,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -538,13 +538,13 @@
      },
      {
       "zrodlo": "LexAlpha",
-      "id": "0bdb5794-6a8c-4e72-ba3b-7cfe48f61924",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Okręgowy w Bydgoszczy",
       "data": "2016-06-02"
      },
      {
       "zrodlo": "LexAlpha",
-      "id": "58c280c1-942c-4369-8796-d19cd4026914",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Okręgowy w Szczecinie",
       "data": "2016-03-02"
      }
@@ -654,13 +654,13 @@
      },
      {
       "zrodlo": "LexAlpha",
-      "id": "0bdb5794-6a8c-4e72-ba3b-7cfe48f61924",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Okręgowy w Bydgoszczy",
       "data": "2016-06-02"
      },
      {
       "zrodlo": "LexAlpha",
-      "id": "58c280c1-942c-4369-8796-d19cd4026914",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Okręgowy w Szczecinie",
       "data": "2016-03-02"
      }

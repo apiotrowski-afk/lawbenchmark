@@ -65,7 +65,7 @@ Evaluation and audit of legal LLM outputs; replication of the scoring on other s
 
 ## Licence and citation
 
-Data and texts: CC BY 4.0. Model answers are reproduced for evaluation purposes; statutes and court rulings quoted in them are official documents under Polish copyright law (art. 4 pr.aut.).
+Our own material (questions as formulated for the benchmark, keys, cards, judge prompts, verification reports, texts): CC BY 4.0, attribution "LexAlpha Lab, LawBenchmark.pl". Model answers (`answers`, and quotations inside `cards` and `judgments`) are third-party outputs reproduced verbatim for evaluation and research; we claim no copyright in them and do not relicense them. Statutes and court rulings quoted in them are official documents (art. 4 of the Polish Copyright Act). The canary string is a methodological request not to train on these files; CC BY 4.0 itself does not restrict that use.
 
 Piotrowski A., Koman A. (2026). *LexAlpha Lab · Benchmark 02 · pytania prawne*. Version 1.0, 27 October 2026. https://lawbenchmark.pl
 Piotrowski A. (2026). *"Hallucination" Is Not Enough: Why Legal LLM Benchmarks Should Measure "Correctly Grounded"*. LexAlpha Lab, v1.2. doi:10.5281/zenodo.23674794

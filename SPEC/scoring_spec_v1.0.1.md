@@ -8,12 +8,12 @@ z literówkami, skrótami i czasem z błędną przesłanką. Uzupełnia kazusy
 pytanie mierzy, czy system trafia w sedno, nie zmyśla i nie przytakuje.
 
 Wzorzec: rubryka per zadanie jak w Harvey BigLaw Bench, na stałym szkielecie
-naszych metryk z kazusu (`../skd/METRYKI.md`). Ocena ręczna. Model może wstępnie
+naszych metryk z kazusu (metryki kazusu, poza tym repozytorium). Ocena ręczna. Model może wstępnie
 wypełnić kartę, ale każdy werdykt zatwierdza prawnik.
 
 ## Pliki
 
-- `katalog.md` — wszystkie zebrane pytania z triażem (typ, domena, status).
+- katalog pytań (50 pozycji) — poza repozytorium do czasu publikacji kolejnych partii.
 - `klucze/Pnn_*.yaml` — klucz pytania z pilotażu; każda podstawa sprawdzona u źródła.
 - `odpowiedzi/Pnn/<system>.md` — odpowiedzi systemów (do zebrania).
 - `oceny/Pnn_<system>.md` — karty ocen.
@@ -248,7 +248,7 @@ Reguły graniczne:
    zaprzecza danym podanym w pytaniu (np. „zakładając, że CHF to literówka”).
 4. **Odpowiedź pusta** ma A8 = 0.
 6. **Stopka weryfikatora produktu** (decyzja Adama 2026-10-11). Automatyczna stopka
-   doklejana przez produkt (np. „🛡 Weryfikacja przepisów” w klaserze) nie jest
+   doklejana przez produkt (np. „🛡 Weryfikacja przepisów” w produkcie) nie jest
    twierdzeniem systemu o prawie i **nie liczy się w A6**. Liczy się w A8: stopka,
    która zestawia zdanie z odpowiedzi z cudzą ustawą albo pokazuje parametry
    techniczne i instrukcje wewnętrzne, obniża A8 do ½ (o ile A8 nie jest niższe
@@ -318,7 +318,7 @@ błędu (omówienie błędnie wskazanego przepisu tak, jakby regulował sprawę)
 | Warunek | Systemy | Prompt |
 |---|---|---|
 | API / lokalnie | Ollama, Codex (W0 i web) | wstęp neutralny (treść w `eval_lokalne.py`, `SYSTEM`), w Codex na początku wiadomości; wariant web dodaje zdanie o adresach źródeł |
-| produkt z własnym czatem | czat klasera, Lex Alpha, Legalis, aplikacje ChatGPT / Gemini / Claude | gołe pytanie; ramy produktu są częścią produktu (jak RegLab 2024) |
+| produkt z własnym czatem | produkty własne kancelarii, Legalis, aplikacje ChatGPT / Gemini / Claude | gołe pytanie; ramy produktu są częścią produktu (jak RegLab 2024) |
 | produkt z pamięcią konta | aplikacja ChatGPT (i inne z pamięcią) | czat tymczasowy z wyłączoną personalizacją („Bez personalizacji”: bez pamięci, wtyczek, instrukcji); bez tego kolejne pytania przenoszą kontekst (bieg `chatgpt_app_r3` skażony, 2026-10-10); skrypt `eval_chatgpt_app.js --tymczasowy` |
 | wersja pytania | wszystkie | `tekst_benchmarkowy`, gdy jest, inaczej `tekst_oryginalny` |
 
@@ -330,7 +330,7 @@ błędu (omówienie błędnie wskazanego przepisu tak, jakby regulował sprawę)
 | Google | Gemini 3.1+ Pro, najnowszy Flash | `eval_gemini_vertex.py --region global` | 3.1 Pro tylko w regionie global; Flash: `gemini-3-flash-preview` (3.1 Flash brak) |
 | OpenAI | Astra, Terra, Sol w najnowszej wersji (docelowo 6.1) | `eval_codex.py --model` | na koncie: `gpt-6.1-sol`, `gpt-6-astra`, `gpt-5.6-terra`; Astra/Terra 6.1 niedostępne |
 
-Klaser KTZR (rola „prawo nowych technologii”, narzędzia i baza kancelarii) to **produkt**, nie model.
+Własny asystent kancelarii (narzędzia i baza kancelarii) to **produkt**, nie model.
 
 Wstępu nie zmienia się w trakcie serii biegów (decyzja 2026-10-10: zostaje
 dotychczasowy, dla porównywalności z kartami z pilotażu). Zmiana = nowy warunek
@@ -555,10 +555,10 @@ halucynacją nie jest. Wzór: `klucze/P08_deepfake_glos_AI_Act.yaml` (v4, R6; wy
 
 ## Systemy KTZR poza benchmarkiem (decyzja Adama 2026-10-17)
 
-**Benchmarku nie robimy na własnym stacku KTZR** (klaser, czat KTZR, Prawnik SKD i każdy kolejny
+**Benchmarku nie robimy na własnym stacku KTZR** (asystent badawczy, czat i każdy kolejny
 produkt kancelarii) — ani w tierze „pytania”, ani w kazusach. Dotychczasowe biegi przeniesione do
-`benchmark/_archiwum/ktzr_stack_2026-10-17/` (124 pliki, opis w README archiwum). Nowych biegów
-własnych systemów nie dokładamy; skrypt `tools/bench_kazus01_ktzr.py` zostaje tylko jako zapis.
+`(archiwum wewnętrzne, poza repozytorium)` (124 pliki, opis w README archiwum). Nowych biegów
+własnych systemów nie dokładamy; skrypt biegu własnego systemu (poza repozytorium) zostaje tylko jako zapis.
 
 ## Status zbioru: kalibracyjny (decyzja Adama 2026-10-11)
 
@@ -623,7 +623,7 @@ jakość benchmarków (Reuel i in. 2024; Bean i in. 2025), RegLab (Magesh i in. 
 
 ## Historia wersji
 
-- **2026-10-18 (noc, w ramach v1.0.1)** — sekcje „Koszt (metryka pomocnicza)” i „Reguły z przeglądu kart rozszerzenia” (B9–B12, nr 19, B1 bez podwójnej kary, A8, historia zmian przepisu, gov.pl); wariant etykiety „tak (narzędzia nieużyte)”. Archiwum poprzedniej wersji: `benchmark/_archiwum/README_przed_koszt_B9-B12_2026-10-18.md`.
+- **2026-10-18 (noc, w ramach v1.0.1)** — sekcje „Koszt (metryka pomocnicza)” i „Reguły z przeglądu kart rozszerzenia” (B9–B12, nr 19, B1 bez podwójnej kary, A8, historia zmian przepisu, gov.pl); wariant etykiety „tak (narzędzia nieużyte)”. Archiwum poprzedniej wersji: `(archiwum wewnętrzne, poza repozytorium) robocza specyfikacji sprzed 18.10 (poza repozytorium)`.
 
 - **1.0.1 (2026-10-11)** — sekcja „Przykłady graniczne”; A-R: rdzeń może paść w dowolnym miejscu
   odpowiedzi (P12); trafienie w jedną gałąź pytania warunkowego = 1 (P06). Przeliczone karty P06 i P12.

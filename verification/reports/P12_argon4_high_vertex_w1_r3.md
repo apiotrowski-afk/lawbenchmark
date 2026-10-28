@@ -49,7 +49,7 @@ Flagi: akt_nieustalony 1, brzmienie_na_dzien_nieustalone 31
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
 | III CZP 117/10 | Sąd Najwyższy | 2011-03-18 | znaleziono (SAOS) | Sąd Najwyższy | 2011-03-18 | — |
-| III CZP 106/18 | Sąd Najwyższy | 2019-04-11 | znaleziono (LexAlpha) | Sąd Najwyższy | 2019-04-11 | — |
+| III CZP 106/18 | Sąd Najwyższy | 2019-04-11 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2019-04-11 | — |
 | III CZP 117/10 | Sąd Najwyższy | — | znaleziono (SAOS) | Sąd Najwyższy | 2011-03-18 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

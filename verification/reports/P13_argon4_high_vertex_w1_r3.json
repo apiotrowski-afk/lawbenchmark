@@ -8,7 +8,7 @@
   "czas_s": 3.9,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -1368,7 +1368,7 @@
    "data_podana": "2016-05-31",
    "kontekst": "* Sąd Okręgowy w Poznaniu w postanowieniu z dnia 31 maja 2016 r. (sygn. akt XV Ca 397/16):",
    "weryfikacja": {
-    "status": "nie znaleziono (SAOS, LexAlpha)",
+    "status": "nie znaleziono (SAOS, baza wewnętrzna)",
     "flagi": [
      "nie_znaleziono"
     ]
@@ -1447,23 +1447,23 @@
    "data_podana": "2019-01-25",
    "kontekst": "* Uwaga praktyczna: Należy mieć na uwadze wyrok Sądu Najwyższego z dnia 25 stycznia 2019 r. (sygn. akt IV CSK 551/17), w którym SN przesądził, że odesłanie do odpowiedniego stosowania art. 742 k.p.c. (zawarte w art. 492 § 2 zd. 3 k.p.c.) nie pozwala na całkowite uchylenie nakazu zapłaty jako tytułu zabezpieczenia (z wyjątkiem sytuacji, gdy dłużnik wpłaci pełną sumę zabezpieczenia na rachunek depozytowy Ministra Finansów), gdyż istnienie tytułu z…",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "cdefa82e-19b3-4991-9a72-f87ce4c5a8da",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2019-01-25"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "cdefa82e-19b3-4991-9a72-f87ce4c5a8da",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2019-01-25"
      },
      {
       "zrodlo": "LexAlpha",
-      "id": "58353daa-eb79-4e4b-90ef-5415f3e49a9e",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2018-04-24"
      }

@@ -164,10 +164,10 @@ Zbiorczo: błędy z kart z powołaniem 147, wykryte (fakty lub poparcie) 70 = 48
 | P13 | opus_cli_w1_r3 | T | przepis | art. 747 pkt 2 | 2 | — | popiera_wprost, popiera_wprost | nie |
 | P13 | opus_cli_w1_r3 | T | przepis | art. 109 ust. 2 | 1 | — | nie_na_temat | tak |
 | P13 | opus_cli_w1_r3 | T | przepis | art. 492 § 3 | 5 | — | popiera_wprost, brak_twierdzenia, brak_twierdzenia, brak_twierdzenia, brak_twierdzenia | nie |
-| P13 | gemini38flash_vertex_w1_r3 | S | orzeczenie | VIII Cz 83/16 | 1 | status: nie znaleziono (SAOS, LexAlpha) | status | nie |
+| P13 | gemini38flash_vertex_w1_r3 | S | orzeczenie | VIII Cz 83/16 | 1 | status: nie znaleziono (SAOS, baza wewnętrzna) | status | nie |
 | P13 | gemini38flash_vertex_w1_r3 | S | orzeczenie | VIII Gz 43/16 | 0 | — | — | nie |
 | P13 | argon4_high_vertex_w1_r3 | W | przepis | art. 491 § 1 | 1 | — | nie_na_temat | tak |
-| P13 | argon4_high_vertex_w1_r3 | S | orzeczenie | XV Ca 397/16 | 1 | status: nie znaleziono (SAOS, LexAlpha) | status | nie |
+| P13 | argon4_high_vertex_w1_r3 | S | orzeczenie | XV Ca 397/16 | 1 | status: nie znaleziono (SAOS, baza wewnętrzna) | status | nie |
 | P13 | argon4_high_vertex_w1_r3 | S | orzeczenie | II Ca 124/16 | 0 | — | — | nie |
 
 ## Fałszywe alarmy (powołanie bez błędu w karcie)

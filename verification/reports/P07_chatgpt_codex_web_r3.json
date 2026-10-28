@@ -8,7 +8,7 @@
   "czas_s": 2.6,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -507,17 +507,17 @@
    "data_podana": "2021-07-02",
    "kontekst": "Potwierdza to uchwała Sądu Najwyższego z 2 lipca 2021 r., III CZP 38/20: wskazanie zasadniczych powodów rozstrzygnięcia nie otwiera samo przez się drogi do wniesienia zażalenia.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-07-02"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2021-07-02"
      }
@@ -586,17 +586,17 @@
    "data_podana": null,
    "kontekst": "Źródła: [Kodeks postępowania cywilnego — art. 357](https://lexeva.pl/akt/du/1964/296/przepis/art-357), [SN, III CZP 38/20](https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/III%20CZP%2038-20.pdf).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-07-02"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2021-07-02"
      }

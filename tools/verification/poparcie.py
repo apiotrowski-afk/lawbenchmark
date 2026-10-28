@@ -5,7 +5,7 @@ Zgoda Adama Piotrowskiego 2026-10-19. Drugi krok po fakty.py: krok faktów mówi
 istnieje; ten krok mówi, czy źródło MÓWI to, co model mu przypisuje.
 
 Przebieg:
-  1. Atomy orzeczeń (OKF-Legal, typ Racja): tezy z bazy LexAlpha ("JudgmentThesisUnit", tylko SELECT)
+  1. Atomy orzeczeń (OKF-Legal, typ Racja): tezy z wewnętrznej bazy orzeczeń (poza repozytorium) ("JudgmentThesisUnit", tylko SELECT)
      + pełny tekst ("Judgment"."textRaw" albo SAOS). Model (Gemini na Vertex) wskazuje cytat-kotwicę,
      KOD sprawdza obecność verbatim. Wyrok bez tez w bazie → atomizacja modelem na bieżąco z tekstu.
      Zapis: meta_sedzia/atomy/<sygnatura>/racja-NN.md (+ index.md).
@@ -21,9 +21,9 @@ Przebieg:
      pokrycie / przeczy / mieszane / brak_pokrycia (sygnał, nie rozstrzygnięcie).
   6. Porównanie z kartami (stała WZORZEC_* niżej — przepisana z kart i _porownanie_P09P10_2026-10-19.md).
 
-Baza LexAlpha: WYŁĄCZNIE ODCZYT (decyzja Adama). Jedyna droga dostępu: bramka lexalpha_ro.query()
-(tools/lexalpha_ro.py) — parser SQL (jeden SELECT), read-only, ROLLBACK, maskowanie URL,
-dziennik audytu tools/_lexalpha_ro_log.jsonl.
+Wewnętrzna baza orzeczeń: WYŁĄCZNIE ODCZYT (decyzja Adama). Jedyna droga dostępu: bramka bramka_ro_poza_repo.query()
+(tools/bramka_ro_poza_repo.py) — parser SQL (jeden SELECT), read-only, ROLLBACK, maskowanie URL,
+dziennik audytu tools/_bramka_ro_log.jsonl.
 
 Użycie:
   python3 -I poparcie.py P09 P10 [--systemy a,b] [--sedzia gemini-4-argon]
@@ -56,7 +56,7 @@ PYTANIA = BENCH / "pytania"
 RAPORTY = HERE / "raporty"
 ATOMY = HERE / "atomy"
 CACHE = HERE / "_cache_poparcie"
-ENV_FILE = Path.home() / ".lexalpha.env"
+ENV_FILE = Path(os.environ.get("BENCHMARK_ENV_FILE", "benchmark.env"))  # opcjonalny plik z adresem wewnętrznej bazy orzeczeń (poza repozytorium)
 DZIEN = "2026-10-19"
 
 ETYKIETY = ["popiera_wprost", "popiera_czesciowo", "nie_na_temat", "przeczy", "tylko_zreferowane", "poza_brzmieniem",
@@ -295,14 +295,14 @@ class LLM:
         return out
 
 
-# ───────────────────────── baza LexAlpha (TYLKO SELECT) ─────────────────────────
+# ───────────────────────── wewnętrzna baza orzeczeń (TYLKO SELECT) ─────────────────────────
 
 class LexAlphaRO:
-    """Baza LexAlpha wyłącznie do odczytu. Każde zapytanie przechodzi przez _select, który odrzuca
+    """Wewnętrzna baza orzeczeń wyłącznie do odczytu. Każde zapytanie przechodzi przez _select, który odrzuca
     wszystko poza pojedynczym SELECT. URL nigdy nie jest wypisywany (wyjątki logowane typem)."""
 
-    # Dostęp WYŁĄCZNIE przez bramkę tools/lexalpha_ro.py (decyzja Adama 2026-10-19):
-    # parser SQL, read-only, ROLLBACK, maskowanie URL, dziennik tools/_lexalpha_ro_log.jsonl.
+    # Dostęp WYŁĄCZNIE przez bramkę tools/bramka_ro_poza_repo.py (decyzja Adama 2026-10-19):
+    # parser SQL, read-only, ROLLBACK, maskowanie URL, dziennik tools/_bramka_ro_log.jsonl.
     # Lokalny strażnik w _select zostaje jako dodatkowa warstwa przed bramką.
 
     def __init__(self):
@@ -311,8 +311,8 @@ class LexAlphaRO:
         self.log: list[str] = []          # typy wykonanych zapytań (do raportu)
         self.lock = threading.Lock()
         sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-        from lexalpha_ro import query, LexAlphaRoError
-        self._query, self._err = query, LexAlphaRoError
+        from bramka_ro_poza_repo import query, BramkaRoError
+        self._query, self._err = query, BramkaRoError
         self.conn = True                  # „połączenie” = bramka dostępna; ustalane kontrolą niżej
         ro = self._select("kontrola_read_only",
                           "SELECT current_setting('transaction_read_only'), current_setting('default_transaction_read_only')")
@@ -333,7 +333,7 @@ class LexAlphaRO:
         try:
             return self._query(s, params or None, max_rows=max_rows, timeout_ms=180_000, as_dict=False)
         except self._err as e:   # komunikat bramki jest już bez URL
-            self.error = f"LexAlphaRoError: {str(e)[:120]}"
+            self.error = f"BramkaRoError: {str(e)[:120]}"
         except Exception as e:
             self.error = type(e).__name__
         print(f"  [baza] {typ}: {self.error}", flush=True)
@@ -696,7 +696,7 @@ def build_judgment_atoms(llm: LLM, db: LexAlphaRO, sig: str, wybrane: dict, mode
     teksty = [fakty._strip_html(r[4]) if r[4] and "<" in r[4] else (r[4] or "") for r in rows]
     tekst_db = max(teksty, key=len) if teksty else ""
     db_row = rows[0] if rows else None
-    # 2026-10-20: tekst w LexAlpha bywa skrócony (III CK 124/05: 10 238 znaków wobec 18 748 w SAOS — bez zdania
+    # 2026-10-20: tekst w bazie wewnętrznej bywa skrócony (III CK 124/05: 10 238 znaków wobec 18 748 w SAOS — bez zdania
     # o art. 65 k.c.; V CSK 373/10: 157 znaków). Bierzemy DŁUŻSZY z dostępnych tekstów; raport zapisuje oba rozmiary.
     sid = wybrane["id"] if wybrane.get("zrodlo") == "SAOS" else saos_find_id(sig, sad, data)
     tekst_saos = saos_text(sid) if sid else ""
@@ -1195,7 +1195,7 @@ def main():
 
     llm = LLM()
     db = LexAlphaRO()
-    print(f"baza LexAlpha: {'połączona (read-only)' if db.conn else 'niedostępna: ' + str(db.error)}", flush=True)
+    print(f"wewnętrzna baza orzeczeń: {'połączona (read-only)' if db.conn else 'niedostępna: ' + str(db.error)}", flush=True)
     emb = db.embedding_model_sample()
     # B2: prefiks promptu sędziego z dosłownymi fragmentami README (programowo, po nagłówkach)
     readme_txt = (PYTANIA / "README.md").read_text()
@@ -1690,7 +1690,7 @@ def report_md(meta, wyniki, ogolniki, wyroki, ew) -> str:
         L.append(f"- {m}: wywołań {u['wywolania']} (z pamięci {u['z_pamieci']}, błędów {u['bledy']}), tokeny we {u['we']}, "
                  f"wy {u['wy']}, rozumowanie {u['rozum']}")
     L.append("- Koszt USD (cennik Vertex 2026-10-18, rozumowanie jak wyjście): " + ", ".join(f"{k} {v}" for k, v in meta["koszt_usd"].items()))
-    L.append(f"- Baza LexAlpha: połączenie {meta['baza']['polaczenie']}; wykonane zapytania (wyłącznie SELECT): "
+    L.append(f"- Wewnętrzna baza orzeczeń: połączenie {meta['baza']['polaczenie']}; wykonane zapytania (wyłącznie SELECT): "
              + ", ".join(f"{k} ×{v}" for k, v in meta["baza"]["zapytania"].items()))
     L.append(f"- Model embeddingu w bazie (próbka): {meta['baza']['model_embeddingu_probka']}; kandydaci ILIKE: {meta['baza']['kandydaci_ilike']}\n")
     return "\n".join(L) + "\n"

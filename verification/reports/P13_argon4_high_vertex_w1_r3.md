@@ -36,8 +36,8 @@ Flagi: brzmienie_na_dzien_nieustalone 22, nie_znaleziono 1, slowa_wersji_wczesni
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
 | VIII Gz 43/16 | Sąd Okręgowy w Szczecinie | 2016-03-02 | znaleziono (SAOS) | Sąd Okręgowy w Szczecinie | 2016-03-02 | — |
-| XV Ca 397/16 | Sąd Okręgowy w Poznaniu | 2016-05-31 | nie znaleziono (SAOS, LexAlpha) | — | — | nie_znaleziono |
+| XV Ca 397/16 | Sąd Okręgowy w Poznaniu | 2016-05-31 | nie znaleziono (SAOS, baza wewnętrzna) | — | — | nie_znaleziono |
 | III CZP 58/03 | Sąd Najwyższy | 2003-09-24 | znaleziono (SAOS) | Sąd Najwyższy | 2003-09-24 | — |
-| IV CSK 551/17 | Sąd Najwyższy | 2019-01-25 | znaleziono (LexAlpha) | Sąd Najwyższy | 2019-01-25 | — |
+| IV CSK 551/17 | Sąd Najwyższy | 2019-01-25 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2019-01-25 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

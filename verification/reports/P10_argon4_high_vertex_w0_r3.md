@@ -23,7 +23,7 @@ Flagi: inna_data 1, nieaktualny_tj 1, niedoslowny_zgodny_z_wersja_wczesniejsza 1
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| II CSKP 526/22 | Sąd Najwyższy | 2022-09-14 | znaleziono (LexAlpha) | Sąd Najwyższy | 2023-01-12 | inna_data |
+| II CSKP 526/22 | Sąd Najwyższy | 2022-09-14 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2023-01-12 | inna_data |
 
 ## Publikatory
 

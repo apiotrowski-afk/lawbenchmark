@@ -8,7 +8,7 @@
   "czas_s": 10.6,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -638,17 +638,17 @@
    "data_podana": "2022-06-23",
    "kontekst": "Taką wykładnię wspiera uchwała SN z 23 czerwca 2022 r., III CZP 50/22: SN wykluczył zażalenie na odrzucenie zażalenia przez sąd drugiej instancji.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "14fc7bae-19e2-46e0-8920-83e7c6098f92",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2022-06-23"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "14fc7bae-19e2-46e0-8920-83e7c6098f92",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2022-06-23"
      }
@@ -712,17 +712,17 @@
    "data_podana": null,
    "kontekst": "Źródła: [Kodeks postępowania cywilnego — ELI](https://eli.gov.pl/api/acts/DU/2024/1568/text.html), [SN, III CZP 50/22 — pełny tekst](https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iii%20czp%2050-22-1.pdf).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "14fc7bae-19e2-46e0-8920-83e7c6098f92",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2022-06-23"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "14fc7bae-19e2-46e0-8920-83e7c6098f92",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2022-06-23"
      }

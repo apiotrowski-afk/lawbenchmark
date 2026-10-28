@@ -8,7 +8,7 @@
   "czas_s": 10.6,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -2749,17 +2749,17 @@
    "data_podana": "2022-06-23",
    "kontekst": "* Zamknięty jest również katalog zażaleń poziomych do innego składu sądu II instancji (art. 394² § 1–1² k.p.c.), w którym ustawodawca nie przewidział zaskarżalności postanowienia sądu II instancji odrzucającego zażalenie na postanowienie sądu I instancji (zob. m.in. uchwała Sądu Najwyższego z dnia 23 czerwca 2022 r., sygn. akt III CZP 50/22).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "14fc7bae-19e2-46e0-8920-83e7c6098f92",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2022-06-23"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "14fc7bae-19e2-46e0-8920-83e7c6098f92",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2022-06-23"
      }
@@ -2824,17 +2824,17 @@
    "data_podana": "2023-01-24",
    "kontekst": "Postanowienie o odrzuceniu zażalenia wydane na posiedzeniu niejawnym podlega uzasadnieniu z urzędu i doręczeniu z urzędu wraz z uzasadnieniem (art. 357 § 2² i § 2⁴ k.p.c. w zw. z art. 397 § 2 zd. 1 i art. 394² § 2 k.p.c.; por. też uchwała SN z dnia 24 stycznia 2023 r., III CZP 127/22).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "4c829707-a67a-468f-93fc-22efb821617b",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2023-01-24"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "4c829707-a67a-468f-93fc-22efb821617b",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2023-01-24"
      }

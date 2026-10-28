@@ -8,7 +8,7 @@
   "czas_s": 6.7,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -914,17 +914,17 @@
    "data_podana": "2019-04-11",
    "kontekst": "- Według omówienia uchwały SN III CZP 106/18 z 11.04.2019 r. wierzyciel może dochodzić zaspokojenia z majątku wspólnego także w drodze powództwa przeciwko małżonkowi.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "2c245562-bf68-47fe-90af-63dc88fcec5a",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2019-04-11"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "2c245562-bf68-47fe-90af-63dc88fcec5a",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2019-04-11"
      }
@@ -987,17 +987,17 @@
    "data_podana": null,
    "kontekst": "- [SN, III CZP 36/19 (PDF)](https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/III%20CZP%2036-19.pdf)",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "39e8fe4d-d7ee-40cc-8d2c-670ca06fac66",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2019-11-08"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "39e8fe4d-d7ee-40cc-8d2c-670ca06fac66",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2019-11-08"
      }

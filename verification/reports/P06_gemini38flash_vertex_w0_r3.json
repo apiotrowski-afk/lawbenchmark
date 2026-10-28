@@ -8,7 +8,7 @@
   "czas_s": 5.6,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -669,17 +669,17 @@
    "data_podana": "2020-11-27",
    "kontekst": "Zgodnie z ugruntowaną linią orzeczniczą Sądu Najwyższego (m.in. uchwała SN z dnia 27 listopada 2020 r., sygn. akt III CZP 13/20, postanowienie SN z dnia 25 lutego 2021 r., sygn. akt III CZ 6/21):",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "69ff86ea-8f69-4d6b-8e15-7e7c8a675116",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-02-18"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "69ff86ea-8f69-4d6b-8e15-7e7c8a675116",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2021-02-18"
      }
@@ -724,17 +724,17 @@
    "data_podana": "2021-02-25",
    "kontekst": "Zgodnie z ugruntowaną linią orzeczniczą Sądu Najwyższego (m.in. uchwała SN z dnia 27 listopada 2020 r., sygn. akt III CZP 13/20, postanowienie SN z dnia 25 lutego 2021 r., sygn. akt III CZ 6/21):",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "f016020d-b410-4a96-b8cd-e43c88ac270f",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-04-28"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "f016020d-b410-4a96-b8cd-e43c88ac270f",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2021-04-28"
      }

@@ -8,7 +8,7 @@
   "czas_s": 10.4,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -889,17 +889,17 @@
    "data_podana": null,
    "kontekst": "Orzecznictwo SN (np. sygn. V CZ 48/16) przyjmuje, że zażalenie na postanowienie o odrzuceniu zażalenia jest niedopuszczalne.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "a5298ceb-6c3b-461b-86a7-afd8496c204e",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2016-09-09"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "a5298ceb-6c3b-461b-86a7-afd8496c204e",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2016-09-09"
      }
@@ -959,17 +959,17 @@
    "data_podana": null,
    "kontekst": "- [SN III CZ 468/22](https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/III%20CZ%20468-22.pdf)",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "a9608e9f-f9fe-4f8d-900a-b8bc40062900",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2023-05-16"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "a9608e9f-f9fe-4f8d-900a-b8bc40062900",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2023-05-16"
      }

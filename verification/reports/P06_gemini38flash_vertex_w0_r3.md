@@ -23,7 +23,7 @@ Flagi: brzmienie_na_dzien_nieustalone 9, inna_data 2, nieobslugiwany 1, slowa_we
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| III CZP 13/20 | Sąd Najwyższy | 2020-11-27 | znaleziono (LexAlpha) | Sąd Najwyższy | 2021-02-18 | inna_data |
-| III CZ 6/21 | Sąd Najwyższy | 2021-02-25 | znaleziono (LexAlpha) | Sąd Najwyższy | 2021-04-28 | inna_data |
+| III CZP 13/20 | Sąd Najwyższy | 2020-11-27 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2021-02-18 | inna_data |
+| III CZ 6/21 | Sąd Najwyższy | 2021-02-25 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2021-04-28 | inna_data |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

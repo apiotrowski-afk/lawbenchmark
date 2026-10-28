@@ -8,7 +8,7 @@
   "czas_s": 3.8,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -1704,17 +1704,17 @@
    "data_podana": null,
    "kontekst": "Katalog z art. 394² jest zamknięty, co potwierdza SN (np. V CZ 48/16).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "a5298ceb-6c3b-461b-86a7-afd8496c204e",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2016-09-09"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "a5298ceb-6c3b-461b-86a7-afd8496c204e",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2016-09-09"
      }

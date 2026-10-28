@@ -1,4 +1,4 @@
-"""Bieg czystego modelu Claude przez Claude Code CLI (subskrypcja Adama) na tierze „pytania”.
+"""Bieg czystego modelu Claude przez Claude Code CLI (subskrypcja (konto kancelarii)) na tierze „pytania”.
 
 Bez narzędzi (--tools ""), bez MCP (--strict-mcp-config), bez ustawień i CLAUDE.md (--setting-sources ""),
 bez zapisu sesji; uruchamiane w pustym katalogu. Ten sam wstęp co Codex/Gemini jako --system-prompt.

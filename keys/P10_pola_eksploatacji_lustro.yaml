@@ -4,7 +4,7 @@ wersja_klucza: 3
 data_klucza: 2026-10-18
 status: "zatwierdzony przez Adama 2026-10-18 (v3: rdzeń warunkowy jak P09 v4 — liberalna linia SN; pułapka zostaje: „wystarcza i nie trzeba wyliczać” to nadal błąd; reguła B6 uchylona); wymaga P09 w tym samym biegu (kara K2)"
 # v3 (2026-10-18): jak P09 v4. Przepisy sprawdzone: art. 41 ust. 2 i 4, 50, 53 pr.aut. w t.j. Dz.U. 2025 poz. 24;
-#   nowela 2026/1296 w życie 6.11.2026 — po dacie stanu prawnego. Archiwum v2: benchmark/_archiwum/P10_klucz_v2_2026-10-18.yaml.
+#   nowela 2026/1296 w życie 6.11.2026 — po dacie stanu prawnego. Archiwum v2: (archiwum wewnętrzne, poza repozytorium)
 # v2 (2026-10-10): pola kalibracja_oczekiwana (kategoryczna) i warunek (decyzja Adama, README „B2 — kalibracja”);
 #   rdzeń, rubryka i punktacja bez zmian. v1: 2026-10-03.
 data_stanu_prawnego: 2026-10-01

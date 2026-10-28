@@ -53,6 +53,10 @@ Piotrowski A. (2026). *"Hallucination" Is Not Enough: Why Legal LLM Benchmarks S
 
 ## Licencja
 
-Dane, klucze, karty, raporty i teksty: [CC BY 4.0](LICENSE-CC-BY-4.0.txt). Kod w `tools/` i `reports/*/src/*.py`: [MIT](LICENSE). Odpowiedzi modeli są udostępnione do celów oceny; cytowane w nich przepisy i orzeczenia są dokumentami urzędowymi (art. 4 pr.aut.).
+- **Materiał własny** — specyfikacja oceny, pytania w brzmieniu benchmarkowym, klucze, karty wzorcowe, instrukcje dla sędziów, raporty warstwy weryfikacji, raporty i wszystkie teksty w tym repozytorium: [CC BY 4.0](LICENSE-CC-BY-4.0.txt). Oznaczenie autorstwa: „LexAlpha Lab, LawBenchmark.pl”.
+- **Kod** w `tools/` i `reports/*/src/*.py`: [MIT](LICENSE).
+- **Odpowiedzi modeli** (`answers/`, `data/answers.jsonl` oraz cytaty w kartach i ocenach sędziów) to wyniki systemów osób trzecich, przytoczone dosłownie w celu oceny, krytyki i badań. Nie rościmy sobie do nich praw ani ich nie relicencjonujemy; korzystanie z samych modeli regulują warunki ich dostawców.
+- **Przepisy i orzeczenia** cytowane w odpowiedziach i kluczach to dokumenty urzędowe, niechronione prawem autorskim (art. 4 pr.aut.).
+- Ciąg kanaryjski w [CANARY.txt](CANARY.txt) to metodologiczna prośba o nieużywanie tych plików do treningu, żeby kolejne pomiary pozostały miarodajne; sama licencja CC BY 4.0 takiego użycia nie zakazuje.
 
 Kontakt: Adam Piotrowski, a.piotrowski@ktzr.pl · https://lawbenchmark.pl

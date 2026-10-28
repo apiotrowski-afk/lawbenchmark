@@ -8,7 +8,7 @@
   "czas_s": 3.3,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -1835,17 +1835,17 @@
    "data_podana": "2021-07-02",
    "kontekst": "* Uchwała SN z dnia 2 lipca 2021 r., III CZP 38/20: Sąd Najwyższy jednoznacznie przesądził, że przytoczenie w postanowieniu zasadniczych powodów rozstrzygnięcia nie zwalnia strony z obowiązku zgłoszenia wniosku o doręczenie postanowienia z uzasadnieniem, jeżeli strona zamierza je zaskarżyć.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-07-02"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2021-07-02"
      }
@@ -1908,17 +1908,17 @@
    "data_podana": "2022-04-29",
    "kontekst": "* Postanowienie SN z dnia 29 kwietnia 2022 r., III CZ 163/22: Wskazanie zasadniczych powodów rozstrzygnięcia na podstawie art. 357 § 5 k.p.c. nie stanowi uzasadnienia w rozumieniu art. 357 § 2^1 k.p.c., a zatem nie otwiera terminu do wniesienia zażalenia.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "e6116d64-d12b-4250-b95e-55559a299400",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2022-09-16"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "e6116d64-d12b-4250-b95e-55559a299400",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2022-09-16"
      }

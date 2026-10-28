@@ -24,7 +24,7 @@ Flagi: nieaktualny_tj 1, niedoslowny_blizszy_wersji_wczesniejszej 1
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| III CK 400/03 | Sąd Najwyższy | 2004-09-23 | znaleziono (LexAlpha) | Sąd Najwyższy | 2004-09-23 | — |
+| III CK 400/03 | Sąd Najwyższy | 2004-09-23 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2004-09-23 | — |
 
 ## Publikatory
 

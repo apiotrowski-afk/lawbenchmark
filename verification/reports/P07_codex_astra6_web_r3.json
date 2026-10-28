@@ -8,7 +8,7 @@
   "czas_s": 2.5,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -495,17 +495,17 @@
    "data_podana": "2021-07-02",
    "kontekst": "Potwierdza to uchwała SN z 2 lipca 2021 r., III CZP 38/20, dotycząca zarządzenia o zwrocie pozwu: mimo podania zasadniczych powodów rozstrzygnięcia termin zażalenia biegnie od doręczenia uzasadnienia, którego strona zażądała w ciągu tygodnia od doręczenia zarządzenia. [Uchwała SN](https://www.sn.pl/orzecznictwo/SitePages/Najnowsze_orzeczenia.aspx?ItemSID=1377-301f4741-66aa-4980-b9fa-873e90506a11&ListName=Zagadnienia_prawne&Rok=2021)",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-07-02"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2021-07-02"
      }
@@ -576,17 +576,17 @@
    "data_podana": null,
    "kontekst": "Źródła: [art. 357 k.p.c.](https://lexdata.pl/acts/kodeks-postepowania-cywilnego/units/artykul-357), [SN — III CZP 38/20](https://www.sn.pl/orzecznictwo/SitePages/Najnowsze_orzeczenia.aspx?ItemSID=1377-301f4741-66aa-4980-b9fa-873e90506a11&ListName=Zagadnienia_prawne&Rok=2021).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-07-02"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2021-07-02"
      }

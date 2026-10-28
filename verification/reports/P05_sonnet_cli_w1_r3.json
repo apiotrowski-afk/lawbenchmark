@@ -8,7 +8,7 @@
   "czas_s": 5.5,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -979,17 +979,17 @@
    "data_podana": "2023-10-20",
    "kontekst": "5. Sąd Najwyższy w uchwale III CZP 24/23 z 20.10.2023 r. uznał, że doręczenie następuje w dniu następnym po upływie 14 dni.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "64f8fc5a-dbad-4a0b-bc0b-f6e535ed2962",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2023-10-20"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "64f8fc5a-dbad-4a0b-bc0b-f6e535ed2962",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2023-10-20"
      }

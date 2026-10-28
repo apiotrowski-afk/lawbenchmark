@@ -5,7 +5,7 @@ z kandydatów), 6 (plik „b” kanoniczny). Prompty zamrożone przed biegiem. P
 (sędzia gemini-4-argon medium, pakiety ≤ 10; koszt 7,09 USD: Argon 7,08 + Flash 0,01 — atomy i twierdzenia z pamięci podręcznej);
 krok faktów 868 s, 0 USD. Punkt odniesienia: `_poparcie_8pytan_2026-10-24b.json` (kanoniczny). Liczby biegu 24.10 przed/po A2b:
 FA poparcia na ✓ 21 / 665 (3,2 %) przed przemapowaniem A2b i 12 / 665 (1,8 %) po nim — 13 wpisów P04 przeliczonych bez ponownego sędziego.
-Karty meta NIE uruchamiane (osobna decyzja). Poprzednie raporty faktów: `raporty/_archiwum_2026-10-24_przed_c/` (P07 odtworzone, zob. `_UWAGA.md`).
+Karty meta NIE uruchamiane (osobna decyzja). Poprzednie raporty faktów: `(archiwum wewnętrzne, poza repozytorium)` (P07 odtworzone, zob. `_UWAGA.md`).
 
 | P | karty | hal. tak | powołania (przep./orz.) | sprawdzone | nieobsł. | nie istnieje / błąd | orz. nie znal. / poza | poparcie: ocenione / tekst_niedostepny / brak_dowodu / wzmianki | błędy kart (z powołaniem) | wykryte F/W/S (fakty) | wykryte T (poparcie) | B9 | nie wyodrębnione | FA fakty (✓ / inne) | FA poparcie (✓ / inne) | ✓ w kartach | kart do ręki |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -173,10 +173,10 @@ Zbiorczo: błędy z kart z powołaniem 147, wykryte (fakty lub poparcie) 67 = 46
 | P13 | opus_cli_w1_r3 | T | przepis | art. 747 pkt 2 | 2 | — | popiera_wprost, popiera_wprost | nie |
 | P13 | opus_cli_w1_r3 | T | przepis | art. 109 ust. 2 | 1 | — | nie_na_temat | tak |
 | P13 | opus_cli_w1_r3 | T | przepis | art. 492 § 3 | 5 | — | popiera_wprost, brak_twierdzenia, brak_twierdzenia, brak_twierdzenia, brak_twierdzenia | nie |
-| P13 | gemini38flash_vertex_w1_r3 | S | orzeczenie | VIII Cz 83/16 | 1 | status: nie znaleziono (SAOS, LexAlpha) | status | nie |
+| P13 | gemini38flash_vertex_w1_r3 | S | orzeczenie | VIII Cz 83/16 | 1 | status: nie znaleziono (SAOS, baza wewnętrzna) | status | nie |
 | P13 | gemini38flash_vertex_w1_r3 | S | orzeczenie | VIII Gz 43/16 | 0 | — | — | nie |
 | P13 | argon4_high_vertex_w1_r3 | W | przepis | art. 491 § 1 | 1 | — | nie_na_temat | tak |
-| P13 | argon4_high_vertex_w1_r3 | S | orzeczenie | XV Ca 397/16 | 1 | status: nie znaleziono (SAOS, LexAlpha) | status | nie |
+| P13 | argon4_high_vertex_w1_r3 | S | orzeczenie | XV Ca 397/16 | 1 | status: nie znaleziono (SAOS, baza wewnętrzna) | status | nie |
 | P13 | argon4_high_vertex_w1_r3 | S | orzeczenie | II Ca 124/16 | 0 | — | — | nie |
 
 ## Fałszywe alarmy (powołanie bez błędu w karcie)
@@ -508,7 +508,7 @@ Powołania u.n.n.c. sprawdzone w c (cytowanie `… UNNC`, P04): 14; stany: {'✓
 - Koszt USD: {'gemini-3.8-flash': 0.007, 'gemini-4-argon': 7.081, 'gemini-4-argon (cena katalogowa)': 14.161}; tokeny: gemini-3.8-flash: wywołań 1 (z pamięci 168), we 1464, wy 657, rozum 1036; gemini-4-argon: wywołań 184 (z pamięci 0), we 2317154, wy 236998, rozum 0
 - Czas: 1691 s; etapy {'atomy_orzeczen': 12, 'atomy_przepisow': 923, 'twierdzenia': 0, 'sedzia': 562, 'ogolniki': 191}; zadań sędziego 1131; prefiks 23232 znaków; cache kontekstu False
 - Reguły 24.10: {'krag_zakres_W_T': True, 'kandydaci_sygnatury_niejednoznacznej_max': 4, 'powolan_z_krag_zakres': 52, 'orzeczen_ocenionych_po_kandydatach': 2}
-- Baza LexAlpha: read-only; zapytania {'judgment_po_sygnaturze': 33, 'kontrola_read_only': 1, 'model_embeddingu': 1, 'tezy_ilike': 8, 'tezy_wyroku': 38}
+- Wewnętrzna baza orzeczeń: read-only; zapytania {'judgment_po_sygnaturze': 33, 'kontrola_read_only': 1, 'model_embeddingu': 1, 'tezy_ilike': 8, 'tezy_wyroku': 38}
 
 ### Skutek reguły nr 2 w liczbach (9 zmian klasy wśród 52 powołań ocenionych z `krag_zakres`)
 

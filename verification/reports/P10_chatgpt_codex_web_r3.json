@@ -8,7 +8,7 @@
   "czas_s": 0.6,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -284,10 +284,10 @@
    "data_podana": "2021-10-14",
    "kontekst": "Tak: [wyrok SN z 14 października 2021 r., IV CSKP 44/21](https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iv%20cskp%2044-21.pdf).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "1878e175-3208-44b7-87d4-7bb5d51d9b3d",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-10-14"
     },
@@ -349,10 +349,10 @@
    "data_podana": null,
    "kontekst": "Źródła: [ustawa — oficjalny tekst ujednolicony ELI](https://eli.gov.pl/api/acts/DU/2025/24/text/U/D20250024Lj.pdf), [wyrok SN IV CSKP 44/21](https://www.sn.pl/sites/orzecznictwo/orzeczenia3/iv%20cskp%2044-21.pdf).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "1878e175-3208-44b7-87d4-7bb5d51d9b3d",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-10-14"
     },

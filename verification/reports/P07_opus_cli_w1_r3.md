@@ -25,6 +25,6 @@ Flagi: brzmienie_na_dzien_nieustalone 12, slowa_wersji_wczesniejszej 2
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| III CZP 112/22 | Sąd Najwyższy | 2022-10-06 | znaleziono (LexAlpha) | Sąd Najwyższy | 2022-10-06 | — |
+| III CZP 112/22 | Sąd Najwyższy | 2022-10-06 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2022-10-06 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

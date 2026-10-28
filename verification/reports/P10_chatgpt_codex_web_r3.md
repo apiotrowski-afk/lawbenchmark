@@ -19,7 +19,7 @@ Flagi: brak
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| IV CSKP 44/21 | Sąd Najwyższy | 2021-10-14 | znaleziono (LexAlpha) | Sąd Najwyższy | 2021-10-14 | — |
-| IV CSKP 44/21 | Sąd Najwyższy | — | znaleziono (LexAlpha) | Sąd Najwyższy | 2021-10-14 | — |
+| IV CSKP 44/21 | Sąd Najwyższy | 2021-10-14 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2021-10-14 | — |
+| IV CSKP 44/21 | Sąd Najwyższy | — | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2021-10-14 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

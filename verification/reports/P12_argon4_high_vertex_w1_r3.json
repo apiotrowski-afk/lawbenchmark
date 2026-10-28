@@ -8,7 +8,7 @@
   "czas_s": 9.7,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -1978,17 +1978,17 @@
    "data_podana": "2019-04-11",
    "kontekst": "* Jeżeli małżonek dłużnika faktycznie wyraził zgodę na zaciągnięcie zobowiązania, ale wierzyciel nie ma na to dokumentu wymaganego w art. 787 k.p.c., zgodnie z uchwałą Sądu Najwyższego z dnia 11 kwietnia 2019 r. (III CZP 106/18) wierzyciel może wytoczyć przeciwko małżonkowi dłużnika powództwo o zapłatę na podstawie art. 41 § 1 k.r.o.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "2c245562-bf68-47fe-90af-63dc88fcec5a",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2019-04-11"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "2c245562-bf68-47fe-90af-63dc88fcec5a",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2019-04-11"
      }

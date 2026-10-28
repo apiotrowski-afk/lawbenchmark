@@ -29,8 +29,8 @@ Flagi: brzmienie_na_dzien_nieustalone 11
 |---|---|---|---|---|---|---|
 | III CZP 117/10 | Sąd Najwyższy | 2011-03-18 | znaleziono (SAOS) | Sąd Najwyższy | 2011-03-18 | — |
 | I ACz 313/15 | Sąd Apelacyjny w Krakowie | — | znaleziono (SAOS) | Sąd Apelacyjny w Krakowie | 2015-03-03 | — |
-| III CZP 106/18 | Sąd Najwyższy | 2019-04-11 | znaleziono (LexAlpha) | Sąd Najwyższy | 2019-04-11 | — |
-| III CZP 36/19 | Sąd Najwyższy | — | znaleziono (LexAlpha) | Sąd Najwyższy | 2019-11-08 | — |
+| III CZP 106/18 | Sąd Najwyższy | 2019-04-11 | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2019-04-11 | — |
+| III CZP 36/19 | Sąd Najwyższy | — | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2019-11-08 | — |
 | I ACz 313/15 | Sąd Apelacyjny w Kraków | — | znaleziono (SAOS) | Sąd Apelacyjny w Krakowie | 2015-03-03 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

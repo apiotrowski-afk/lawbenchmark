@@ -20,6 +20,6 @@ Flagi: brak
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| V KK 137/24 | Sąd Najwyższy | — | znaleziono (LexAlpha) | Sąd Najwyższy | 2024-11-27 | — |
+| V KK 137/24 | Sąd Najwyższy | — | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2024-11-27 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

@@ -8,7 +8,7 @@
   "czas_s": 0.7,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -753,17 +753,17 @@
    "data_podana": "2021-07-02",
    "kontekst": "* Potwierdził to Sąd Najwyższy m.in. w uchwale z dnia 2 lipca 2021 r. (sygn. akt III CZP 38/20), wskazując, że wskazanie zasadniczych powodów rozstrzygnięcia nie eliminuje konieczności wystąpienia przez stronę z wnioskiem o sporządzenie i doręczenie uzasadnienia.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2021-07-02"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "81c1d08d-439c-42f2-9485-b6259f573595",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2021-07-02"
      }

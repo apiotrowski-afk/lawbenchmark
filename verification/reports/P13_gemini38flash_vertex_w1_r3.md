@@ -23,6 +23,6 @@ Flagi: brzmienie_na_dzien_nieustalone 10, nie_znaleziono 1
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| VIII Cz 83/16 | Sąd Okręgowy w Szczecinie | 2016-03-02 | nie znaleziono (SAOS, LexAlpha) | — | — | nie_znaleziono |
+| VIII Cz 83/16 | Sąd Okręgowy w Szczecinie | 2016-03-02 | nie znaleziono (SAOS, baza wewnętrzna) | — | — | nie_znaleziono |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

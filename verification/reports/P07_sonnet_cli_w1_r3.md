@@ -24,6 +24,6 @@ Flagi: brzmienie_na_dzien_nieustalone 11, slowa_wersji_wczesniejszej 1
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| I CSK 1871/23 | Sąd Najwyższy | — | znaleziono (LexAlpha) | Sąd Najwyższy | 2024-03-06 | — |
+| I CSK 1871/23 | Sąd Najwyższy | — | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2024-03-06 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

@@ -39,6 +39,6 @@ Flagi: brzmienie_na_dzien_nieustalone 26, slowa_wersji_wczesniejszej 1
 
 | sygnatura | sąd podany | data podana | wynik | sąd w źródle | data w źródle | flagi |
 |---|---|---|---|---|---|---|
-| V CZ 48/16 | Sąd Najwyższy | — | znaleziono (LexAlpha) | Sąd Najwyższy | 2016-09-09 | — |
+| V CZ 48/16 | Sąd Najwyższy | — | znaleziono (baza wewnętrzna) | Sąd Najwyższy | 2016-09-09 | — |
 
 Szczegóły (fragmenty urzędowe, początki orzeczeń, fragmenty ze słowami kluczowymi): plik JSON obok.

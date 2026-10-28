@@ -8,7 +8,7 @@
   "czas_s": 4.6,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -1050,17 +1050,17 @@
    "data_podana": "2022-06-23",
    "kontekst": "* Brak zażalenia poziomego: Katalog zażaleń do innego składu sądu II instancji zawarty w art. 394² § 1 i § 1¹ KPC ma charakter zamknięty i nie obejmuje odrzucenia zażalenia wniesionego od orzeczenia sądu I instancji (por. wyłączenie z art. 394² § 1¹ in fine KPC oraz uchwałę SN z dnia 23 czerwca 2022 r., sygn. akt III CZP 50/22).",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "14fc7bae-19e2-46e0-8920-83e7c6098f92",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2022-06-23"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "14fc7bae-19e2-46e0-8920-83e7c6098f92",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2022-06-23"
      }

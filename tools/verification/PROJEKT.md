@@ -31,7 +31,7 @@ historia zmian, orzeczenie „nie na temat” — wymagają sprawdzenia w źród
 
 1. **Krok faktów (kod, bez LLM).** Z odpowiedzi wyciągnąć powołania (przepisy, sygnatury, daty, Dz.U.).
    Przepisy → legal-cite (tekst w wersji na datę stanu prawnego + wersje wcześniejsze dla W).
-   Orzeczenia → SAOS, a gdy brak — baza LexAlpha (odczyt). Wynik: raport faktów
+   Orzeczenia → SAOS, a gdy brak — wewnętrzna baza orzeczeń (odczyt). Wynik: raport faktów
    {powołanie, istnieje, fragment urzędowy, wersja/publikator, data, „nie znaleziono”}.
 2. **Panel 2 sędziów z różnych rodzin:** Argon (high) + Sol, oba dostają odpowiedź, klucz, README i raport faktów.
    Sędzia nie ocenia odpowiedzi swojej rodziny bez drugiego głosu (Argon/Flash → decyduje Sol; GPT → decyduje Argon).
@@ -68,7 +68,7 @@ Sol — subskrypcja (limit konta ChatGPT jest wąskim gardłem; alternatywa: Pro
   odpowiedzi serwera (dawne `{"id": null}` z czasu awarii są ignorowane).
 - A5 role powołań: `główne` / `w_zwiazku` / `zakres` (+ `powolanie_glowne_id`); twierdzenie i ocena poparcia tylko
   dla głównego, brzmienia członów dołączają do źródła.
-- Dodatkowo: baza LexAlpha w `fakty.py` wyłącznie przez bramkę `tools/lexalpha_ro.query` (wcześniej psycopg
+- Dodatkowo: wewnętrzna baza orzeczeń w `fakty.py` wyłącznie przez bramkę `tools/bramka_ro_poza_repo.query` (wcześniej psycopg
   bezpośrednio); jednostka „nie istnieje” dziś, ale obecna w na_dzien(data stanu) → istnieje; obecna tylko w wersjach
   wcześniejszych → flaga `uchylony` (kandydat W, nie F — README „jednostka uchylona … = W”).
 
@@ -135,7 +135,7 @@ status bez oceny. Sąd rozpoznawany także tuż po sygnaturze („VIII Gz 43/16,
 (`POPARCIE_KANONICZNE_2026_10_24`); oryginał `_poparcie_8pytan_2026-10-24.json` zachowany. Liczby biegu 24.10: FA poparcia na ✓
 przed A2b 21 / 665 (3,2 %), po A2b 12 / 665 (1,8 %) — przemapowanie 13 wpisów P04 bez ponownego sędziego.
 
-Pliki biegu „c”: raporty faktów nadpisane (poprzednie w `raporty/_archiwum_2026-10-24_przed_c/`), `_poparcie_8pytan_2026-10-24c.json/.md`,
+Pliki biegu „c”: raporty faktów nadpisane (poprzednie w `(archiwum wewnętrzne, poza repozytorium)`), `_poparcie_8pytan_2026-10-24c.json/.md`,
 `_ewaluacja_8pytan_2026-10-24c.md`. Karty meta NIE uruchamiane (osobna decyzja).
 
 **Wynik biegu „c” (2026-10-24, 7,09 USD):** czułość „ta sama klasa” 66 → 74 / 147 (45 → 50 %), „dowolna” 87 → 94 (59 → 64 %); W 17 → 24,
@@ -143,7 +143,7 @@ S 0 → 2 (P13 codex_terra56_web, zgodne z kartą), T 49 → 48, F 0 → 0 (bez 
 FA na ✓ 12 → 12 (T 11 → 10, W 1 → 2), spoza kart 19 → 16; nieobsługiwany 22 → 9 (14 powołań u.n.n.c.: 13 ✓, 1 T), sygnatura
 niejednoznaczna 5 → 2, akt_nieustalony 38 → 37. Reguła nr 2: 52 powołania z `krag_zakres`, 9 zmian klasy (+5 trafnych W, 1 nowy FA W,
 1 strata W → T). Szczegóły: `raporty/_ewaluacja_8pytan_2026-10-24c.md`. Uwaga: kopia zapasowa raportów faktów pominęła P07 — odtworzone
-starym `fakty.py` (`_archiwum_2026-10-24_przed_c/_UWAGA.md`).
+starym `fakty.py` (`(archiwum wewnętrzne, poza repozytorium)`).
 
 ## Nazwy w artykule v1.2 (2026-10-25)
 W artykule („Correctly grounded”, §9) używamy nazw: **verification layer** = cała warstwa przed sędzią;

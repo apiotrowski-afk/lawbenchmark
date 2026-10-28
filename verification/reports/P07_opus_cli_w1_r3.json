@@ -8,7 +8,7 @@
   "czas_s": 2.3,
   "zrodla": {
    "przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
-   "orzeczenia": "SAOS API; gdy brak — baza LexAlpha (odczyt)"
+   "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"
   },
   "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"
  },
@@ -835,23 +835,23 @@
    "data_podana": "2022-10-06",
    "kontekst": "- Uwaga na uchwałę SN z 6.10.2022 r., III CZP 112/22. Postanowienie wydane na posiedzeniu niejawnym jest orzeczeniem nieistniejącym, jeśli sędzia podpisał tylko cały dokument obejmujący sentencję i zasadnicze powody, a nie samą sentencję.",
    "weryfikacja": {
-    "status": "znaleziono (LexAlpha)",
+    "status": "znaleziono (baza wewnętrzna)",
     "wybrane": {
      "zrodlo": "LexAlpha",
-     "id": "3cea7227-8e8f-49ac-8371-0ab8242c8ec6",
+     "id": "(id wewnętrzne pominięte)",
      "sad": "Sąd Najwyższy",
      "data": "2022-10-06"
     },
     "kandydaci": [
      {
       "zrodlo": "LexAlpha",
-      "id": "3cea7227-8e8f-49ac-8371-0ab8242c8ec6",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2022-10-06"
      },
      {
       "zrodlo": "LexAlpha",
-      "id": "9853aacb-8de9-48ce-b694-030ee76b5d16",
+      "id": "(id wewnętrzne pominięte)",
       "sad": "Sąd Najwyższy",
       "data": "2022-06-15"
      }

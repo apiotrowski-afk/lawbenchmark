@@ -76,7 +76,7 @@ def main():
     ap.add_argument("--json")
     ap.add_argument("--flagi-klasowe", action="store_true",
                     help="flagi kroku faktów liczone jako błąd tylko, gdy mapują się na klasę A6 (B1): nie_znaleziono, uchylony, cytat zgodny/bliższy wersji wcześniejszej; orzeczenia: inna_data, inny_sad")
-    ap.add_argument("--raporty", help="katalog raportów faktów (domyślnie meta_sedzia/raporty; do porównania przed/po: _archiwum_…)")
+    ap.add_argument("--raporty", help="katalog raportów faktów (domyślnie meta_sedzia/raporty; do porównania przed/po: (archiwum wewnętrzne, poza repozytorium)…)")
     args = ap.parse_args()
     global RAPORTY, ERR_P, ERR_O
     if args.raporty:

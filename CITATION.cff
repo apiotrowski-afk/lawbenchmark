@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the report and the methodology paper."
+title: "LawBenchmark.pl — LexAlpha Lab Benchmark 02: legal questions (Polish law)"
+type: dataset
+authors:
+  - family-names: Piotrowski
+    given-names: Adam
+    orcid: "https://orcid.org/0009-0005-7144-6047"
+    affiliation: "LexAlpha Lab, KTZR (Gdańsk, Poland)"
+  - family-names: Koman
+    given-names: Andrzej
+    affiliation: "LexAlpha Lab"
+version: "1.0"
+date-released: 2026-10-27
+license: CC-BY-4.0
+url: "https://lawbenchmark.pl"
+repository-code: "https://github.com/apiotrowski-afk/lawbenchmark"
+references:
+  - type: report
+    title: "LexAlpha Lab · Benchmark 02 · pytania prawne"
+    authors:
+      - family-names: Piotrowski
+        given-names: Adam
+      - family-names: Koman
+        given-names: Andrzej
+    year: 2026
+    version: "1.0"
+  - type: article
+    title: "\"Hallucination\" Is Not Enough: Why Legal LLM Benchmarks Should Measure \"Correctly Grounded\""
+    authors:
+      - family-names: Piotrowski
+        given-names: Adam
+    year: 2026
+    doi: 10.5281/zenodo.23674794

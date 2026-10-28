@@ -20,8 +20,11 @@ Projekt **LexAlpha Lab** (KTZR, Gdańsk). Repozytorium zawiera dane, klucze ocen
 | `reports/` | Raport Benchmark 02 (PDF, HTML, źródła Markdown, `dane.py` liczący każdą liczbę z kart) i artykuł metodologiczny v1.2 |
 | `probes/` | Sondy, do których odsyła raport (P07, 24 zapytania) |
 | `tools/` | Skrypty: biegi systemów, biegi sędziów, porównanie sędziów z kartami, warstwa weryfikacji |
+| `data/` | Warstwa maszynowa: `questions`, `keys`, `answers`, `cards`, `judgments`, `verification` jako JSONL (nazwy pól po angielsku, treść po polsku), z kartą zbioru — [data/README.md](data/README.md) |
 
 Nazwy modeli: pliki używają nazw roboczych (`chatgpt_codex` = GPT-6.1 Sol, `codex_astra6` = GPT-6 Astra, `codex_terra56` = GPT-5.6 Terra, `opus_cli`/`sonnet_cli`/`haiku_cli` = Claude Opus/Sonnet/Haiku 5.5 przez Claude Code, `gemini38flash_vertex` = Gemini 3.8 Flash, `argon4_high_vertex` = Gemini 4 Argon; `w0` = bez narzędzi, `w1`/`web` = wyszukiwanie). Pełna tabela w aneksie D raportu. Specyfikacja w `SPEC/` odwołuje się do pierwotnego układu katalogów (`klucze/`, `odpowiedzi/`, `oceny/`) — tu odpowiadają im `keys/`, `answers/`, `cards/`.
+
+Każdy plik danych i każdy rekord JSONL zawiera ciąg kanaryjski z [CANARY.txt](CANARY.txt) (konwencja BIG-bench): **ten benchmark nie jest danymi treningowymi.** Pozostałe 40 pytań puli pozostaje nieopublikowane, by ograniczyć kontaminację.
 
 ## Jak działa ocena (w skrócie)
 
@@ -35,6 +38,7 @@ To zbiór kalibracyjny, nie ranking: 10 pytań, jedna seria, jeden prawnik. Prze
 ## Jak powtórzyć
 
 - Tabele raportu: `python3 -I reports/benchmark-02/src/dane.py` (czyta `cards/`, `keys/`, `judges/`, `costs/`).
+- Warstwa JSONL: `python3 -I tools/export_jsonl.py` (odbudowuje `data/` ze źródeł Markdown/YAML/JSON i sprawdza sumy z `dane.py`).
 - Sędziowie wobec kart: `python3 -I tools/porownaj_sedziow.py`.
 - Bieg systemu na pytaniach: `tools/eval_*.py` (wymaga CLI dostawcy albo dostępu do Vertex AI; repozytorium nie zawiera żadnych kluczy ani haseł).
 - Warstwa weryfikacji (`tools/verification/`) potrzebuje [legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl) do odczytu ISAP/ELI.

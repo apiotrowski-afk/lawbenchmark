@@ -20,8 +20,11 @@ A project of **LexAlpha Lab** (KTZR, Gdańsk). This repository holds the data, s
 | `reports/` | Benchmark 02 report (PDF, HTML, Markdown sources, `dane.py` that computes every number from the cards) and the methodology paper v1.2 |
 | `probes/` | Follow-up probes referenced in the report (P07, 24 queries) |
 | `tools/` | Scripts: running the systems, running the judges, comparing judges with the cards, the verification layer |
+| `data/` | Machine-readable layer: `questions`, `keys`, `answers`, `cards`, `judgments`, `verification` as JSONL (English field names, Polish content), with a dataset card — see [data/README.md](data/README.md) |
 
 Model names: the files use working names (`chatgpt_codex` = GPT-6.1 Sol, `codex_astra6` = GPT-6 Astra, `codex_terra56` = GPT-5.6 Terra, `opus_cli`/`sonnet_cli`/`haiku_cli` = Claude Opus/Sonnet/Haiku 5.5 via Claude Code, `gemini38flash_vertex` = Gemini 3.8 Flash, `argon4_high_vertex` = Gemini 4 Argon; `w0` = no tools, `w1`/`web` = web search). The full mapping is in appendix D of the report.
+
+Every data file and every JSONL record carries the canary string from [CANARY.txt](CANARY.txt) (BIG-bench convention): **this benchmark is not training data.** The remaining 40 questions of the pool stay unpublished to limit contamination.
 
 ## How the scoring works (short)
 
@@ -35,6 +38,7 @@ This is a calibration set, not a ranking: 10 questions, one run per system, one 
 ## Re-running
 
 - Tables of the report: `python3 -I reports/benchmark-02/src/dane.py` (reads `cards/`, `keys/`, `judges/`, `costs/`).
+- JSONL layer: `python3 -I tools/export_jsonl.py` (rebuilds `data/` from the Markdown/YAML/JSON sources and checks the totals against `dane.py`).
 - Judges vs cards: `python3 -I tools/porownaj_sedziow.py`.
 - Running a system on the questions: `tools/eval_*.py` (need the provider's CLI or Vertex AI access; no credentials are stored here).
 - Verification layer (`tools/verification/`) needs [legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl) for ISAP/ELI lookups.

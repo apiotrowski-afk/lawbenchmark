@@ -1,0 +1,17 @@
+# Wdrożenie strony lawbenchmark.pl na Firebase Hosting po każdym pushu do main (tylko gdy zmienił się katalog site/ lub konfiguracja).
+name: deploy-site
+# Uruchamianie ręczne do czasu dodania sekretu FIREBASE_SERVICE_ACCOUNT_LAWBENCHMARK_PL; potem przywrócić wyzwalacz push
+# (branches: [main], paths: site/**, firebase.json, .firebaserc). Do tego czasu wdraża tools/deploy_hosting.py.
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LAWBENCHMARK_PL }}
+          channelId: live
+          projectId: lawbenchmark-pl

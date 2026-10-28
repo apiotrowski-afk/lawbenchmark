@@ -5,7 +5,7 @@ import re
 import sys
 from pathlib import Path
 
-R = Path("tools/verification/raporty")
+R = Path(__file__).resolve().parents[2] / "verification" / "reports"
 SYS = ["chatgpt_codex_w0_r3", "chatgpt_codex_web_r3", "codex_astra6_w0_r3", "codex_astra6_web_r3",
        "codex_terra56_w0_r3", "codex_terra56_web_r3", "haiku_cli_w0_r3", "haiku_cli_w1_r3",
        "sonnet_cli_w0_r3", "sonnet_cli_w1_r3", "opus_cli_w0_r3", "opus_cli_w1_r3",

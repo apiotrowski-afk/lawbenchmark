@@ -16,7 +16,7 @@ import time
 
 import yaml
 
-REPO = os.path.expanduser("./pytania")
+REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), *([".."] * (2 if os.path.basename(os.path.dirname(os.path.abspath(__file__))) == "verification" else 1))))  # katalog repo lawbenchmark
 WSTEP = ("Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, "
          "na gruncie prawa polskiego i unijnego, podając podstawy prawne.")
 etykieta = sys.argv[1]

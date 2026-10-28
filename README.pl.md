@@ -24,11 +24,11 @@ Projekt **LexAlpha Lab** (KTZR, Gdańsk). Repozytorium zawiera dane, klucze ocen
 
 Nazwy modeli: pliki używają nazw roboczych (`chatgpt_codex` = GPT-6.1 Sol, `codex_astra6` = GPT-6 Astra, `codex_terra56` = GPT-5.6 Terra, `opus_cli`/`sonnet_cli`/`haiku_cli` = Claude Opus/Sonnet/Haiku 5.5 przez Claude Code, `gemini38flash_vertex` = Gemini 3.8 Flash, `argon4_high_vertex` = Gemini 4 Argon; `w0` = bez narzędzi, `w1`/`web` = wyszukiwanie). Pełna tabela w aneksie D raportu. Specyfikacja w `SPEC/` odwołuje się do pierwotnego układu katalogów (`klucze/`, `odpowiedzi/`, `oceny/`) — tu odpowiadają im `keys/`, `answers/`, `cards/`.
 
-Każdy plik danych i każdy rekord JSONL zawiera ciąg kanaryjski z [CANARY.txt](CANARY.txt) (konwencja BIG-bench): **ten benchmark nie jest danymi treningowymi.** Pozostałe 40 pytań puli pozostaje nieopublikowane, by ograniczyć kontaminację.
+Każdy klucz, karta, odpowiedź, ocena sędziego, raport warstwy i rekord JSONL zawiera ciąg kanaryjski z [CANARY.txt](CANARY.txt) (konwencja BIG-bench): **ten benchmark nie jest danymi treningowymi.** Pozostałe 40 pytań puli pozostaje nieopublikowane, by ograniczyć kontaminację.
 
 ## Jak działa ocena (w skrócie)
 
-- **Blok A (obiektywny)**: rdzeń, podstawy wymagane, powołania; **A6** jest zero-jedynkowe: jedno twierdzenie o źródle prawa niezgodne z tekstem urzędowym (klasy: F — źródło nie istnieje, T — prawdziwe źródło z treścią, której w nim nie ma, W — brzmienie z innej daty, S — sygnatura z tezą z innej sprawy) daje A6 = 0 i etykietę „halucynacja”.
+- **Blok A (obiektywny)**: rdzeń, podstawy wymagane, powołania; **A6** jest zero-jedynkowe: jedno twierdzenie o źródle prawa niezgodne z tekstem urzędowym (klasy: F — źródło nie istnieje, T — prawdziwe źródło z treścią, której w nim nie ma, W — brzmienie z innej daty, S — prawdziwe źródło z przekręconym identyfikatorem: numer, data, sąd, publikator, nazwa aktu) daje A6 = 0 i etykietę „halucynacja”.
 - **Blok B (ocenny)**: kalibracja, kompletność, użyteczność.
 - **Poprawnie ugruntowana** = pełny rdzeń + A6 = 1 + co najmniej jedno sprawdzone powołanie.
 - Karty wypełniał wstępnie model (Claude) ze sprawdzeniem każdego powołania u źródła, potem sprawdzał je jeden prawnik. Reguły doprecyzowywano w trakcie pracy; każda zmiana ma datę w `SPEC/`.
@@ -39,7 +39,7 @@ To zbiór kalibracyjny, nie ranking: 10 pytań, jedna seria, jeden prawnik. Prze
 
 - Tabele raportu: `python3 -I reports/benchmark-02/src/dane.py` (czyta `cards/`, `keys/`, `judges/`, `costs/`).
 - Warstwa JSONL: `python3 -I tools/export_jsonl.py` (odbudowuje `data/` ze źródeł Markdown/YAML/JSON i sprawdza sumy z `dane.py`).
-- Sędziowie wobec kart: `python3 -I tools/porownaj_sedziow.py`.
+- Sędziowie wobec kart: `python3 -I tools/porownaj_sedziow.py argon4v101` (id sędziego: argon4v101, sol61v101, gemini31v101, gemini38flashv101, astra6v101).
 - Bieg systemu na pytaniach: `tools/eval_*.py` (wymaga CLI dostawcy albo dostępu do Vertex AI; repozytorium nie zawiera żadnych kluczy ani haseł).
 - Warstwa weryfikacji (`tools/verification/`) potrzebuje [legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl) do odczytu ISAP/ELI.
 
@@ -54,7 +54,7 @@ Piotrowski A. (2026). *"Hallucination" Is Not Enough: Why Legal LLM Benchmarks S
 ## Licencja
 
 - **Materiał własny** — specyfikacja oceny, pytania w brzmieniu benchmarkowym, klucze, karty wzorcowe, instrukcje dla sędziów, raporty warstwy weryfikacji, raporty i wszystkie teksty w tym repozytorium: [CC BY 4.0](LICENSE-CC-BY-4.0.txt). Oznaczenie autorstwa: „LexAlpha Lab, LawBenchmark.pl”.
-- **Kod** w `tools/` i `reports/*/src/*.py`: [MIT](LICENSE).
+- **Kod** (`tools/`, `reports/*/src/*.py`, `costs/koszt.py`): [MIT](LICENSE).
 - **Odpowiedzi modeli** (`answers/`, `data/answers.jsonl` oraz cytaty w kartach i ocenach sędziów) to wyniki systemów osób trzecich, przytoczone dosłownie w celu oceny, krytyki i badań. Nie rościmy sobie do nich praw ani ich nie relicencjonujemy; korzystanie z samych modeli regulują warunki ich dostawców.
 - **Przepisy i orzeczenia** cytowane w odpowiedziach i kluczach to dokumenty urzędowe, niechronione prawem autorskim (art. 4 pr.aut.).
 - Ciąg kanaryjski w [CANARY.txt](CANARY.txt) to metodologiczna prośba o nieużywanie tych plików do treningu, żeby kolejne pomiary pozostały miarodajne; sama licencja CC BY 4.0 takiego użycia nie zakazuje.

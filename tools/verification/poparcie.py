@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Weryfikator poparcia (claim–authority support) meta-sędziego LexAlpha — prototyp.
+"""Weryfikator poparcia (claim–authority support) meta-sędziego baza wewnętrzna — prototyp.
 
 Zgoda Adama Piotrowskiego 2026-10-19. Drugi krok po fakty.py: krok faktów mówi, CZY źródło
 istnieje; ten krok mówi, czy źródło MÓWI to, co model mu przypisuje.
 
 Przebieg:
-  1. Atomy orzeczeń (OKF-Legal, typ Racja): tezy z wewnętrznej bazy orzeczeń (poza repozytorium) ("JudgmentThesisUnit", tylko SELECT)
-     + pełny tekst ("Judgment"."textRaw" albo SAOS). Model (Gemini na Vertex) wskazuje cytat-kotwicę,
+  1. Atomy orzeczeń (OKF-Legal, typ Racja): tezy z wewnętrznej bazy orzeczeń (poza repozytorium) ("tabela_tez", tylko SELECT)
+     + pełny tekst ((tekst orzeczenia) albo SAOS). Model (Gemini na Vertex) wskazuje cytat-kotwicę,
      KOD sprawdza obecność verbatim. Wyrok bez tez w bazie → atomizacja modelem na bieżąco z tekstu.
      Zapis: meta_sedzia/atomy/<sygnatura>/racja-NN.md (+ index.md).
   2. Atomy przepisów: brzmienie jednostki z legal-cite (to samo źródło co fakty.py) = jeden atom,
@@ -42,6 +42,7 @@ import re
 import sys
 import threading
 import time
+import os
 import unicodedata
 from pathlib import Path
 
@@ -51,9 +52,9 @@ import fakty  # noqa: E402  (body_of_answer, clean_markdown, verify_provision, S
 
 import httpx  # noqa: E402
 
-BENCH = HERE.parent
-PYTANIA = BENCH / "pytania"
-RAPORTY = HERE / "raporty"
+BENCH = HERE.parents[1]  # katalog repo lawbenchmark
+PYTANIA = BENCH  # klucze w keys/, odpowiedzi w answers/, specyfikacja w SPEC/
+RAPORTY = HERE.parents[1] / "verification" / "reports"
 ATOMY = HERE / "atomy"
 CACHE = HERE / "_cache_poparcie"
 ENV_FILE = Path(os.environ.get("BENCHMARK_ENV_FILE", "benchmark.env"))  # opcjonalny plik z adresem wewnętrznej bazy orzeczeń (poza repozytorium)
@@ -85,7 +86,7 @@ STATUSY = ["brak_dowodu", "tekst_niedostepny", "akt_nieustalony", "sygnatura_nie
 KLASY_BLEDU = {"F", "T", "W", "S"}
 # Etykiety STATUSU WERYFIKACJI (2026-10-21) — nadawane przez kod, nie przez sędziego; nigdy nie liczone jako zarzut:
 #   brak_dowodu       — sędzia wskazał cytat, którego nie ma w tekście źródła (sprawdzenie nie powiodło się)
-#   tekst_niedostepny — nie ma tekstu źródła do sprawdzenia (SAOS/LexAlpha/legal-cite bez treści)
+#   tekst_niedostepny — nie ma tekstu źródła do sprawdzenia (SAOS/baza wewnętrzna/legal-cite bez treści)
 # „Oficjalny tekst niedostępny” nie może po cichu stać się „źródło nie popiera twierdzenia”.
 STATUSY_WERYFIKACJI = ["brak_dowodu", "tekst_niedostepny"]
 # poza_brzmieniem (2026-10-20): twierdzenie to komentarz/ocena/praktyka WOKÓŁ przepisu, a nie norma mu przypisana —
@@ -297,7 +298,7 @@ class LLM:
 
 # ───────────────────────── wewnętrzna baza orzeczeń (TYLKO SELECT) ─────────────────────────
 
-class LexAlphaRO:
+class WewnetrznaBazaRO:
     """Wewnętrzna baza orzeczeń wyłącznie do odczytu. Każde zapytanie przechodzi przez _select, który odrzuca
     wszystko poza pojedynczym SELECT. URL nigdy nie jest wypisywany (wyjątki logowane typem)."""
 
@@ -350,18 +351,18 @@ class LexAlphaRO:
 
     def theses(self, jid: str) -> list:
         return self._select("tezy_wyroku", 'SELECT "thesisIndex", "thesisText", category::text, strength::text, instance '
-                            'FROM "JudgmentThesisUnit" WHERE "judgmentId" = %s ORDER BY "thesisIndex"', (jid,)) or []
+                            'FROM "tabela_tez" WHERE "judgmentId" = %s ORDER BY "thesisIndex"', (jid,)) or []
 
     def theses_ilike(self, patterns: list[str], limit: int = 3000) -> list:
         cond = " OR ".join(['t."thesisText" ILIKE %s'] * len(patterns))
         return self._select("tezy_ilike",
                             'SELECT t."judgmentId", t."judgmentSignature", t."thesisIndex", t."thesisText", '
-                            't.strength::text, t.court, t."decisionDate" FROM "JudgmentThesisUnit" t '
+                            't.strength::text, t.court, t."decisionDate" FROM "tabela_tez" t '
                             f'WHERE {cond} LIMIT {int(limit)}', tuple(patterns), max_rows=limit) or []
 
     def embedding_model_sample(self) -> list:
         return self._select("model_embeddingu", 'SELECT "embeddingModel", count(*) FROM (SELECT "embeddingModel" '
-                            'FROM "JudgmentThesisUnit" LIMIT 2000) s GROUP BY 1') or []
+                            'FROM "tabela_tez" LIMIT 2000) s GROUP BY 1') or []
 
 
 # ───────────────────────── SAOS ─────────────────────────
@@ -669,19 +670,19 @@ def _okf_atom_md(fm: dict, kotwica: str, parafraza: str | None) -> str:
     return "\n".join(lines)
 
 
-def build_judgment_atoms(llm: LLM, db: LexAlphaRO, sig: str, wybrane: dict, model: str) -> dict:
+def build_judgment_atoms(llm: LLM, db: WewnetrznaBazaRO, sig: str, wybrane: dict, model: str) -> dict:
     """Atomy jednego wyroku: tezy z bazy (albo atomizacja na bieżąco) + kotwice sprawdzone kodem."""
     sad, data = wybrane.get("sad"), (wybrane.get("data") or "")[:10]
     # 2026-10-21 (C9): baza ma 22 tys. sygnatur SN z duplikatami (pełny tekst + kilkusetznakowy nagłówek, czasem z inną
     # datą). Bierzemy WSZYSTKIE rekordy sygnatury: tekst = najdłuższy, tezy = z pierwszego rekordu, który je ma
     # (pierwszeństwo dla rekordu o zgodnej dacie).
     rows = db.judgments_by_sig(sig) or []
-    if wybrane.get("zrodlo") == "LexAlpha" and not any(r[0] == wybrane["id"] for r in rows):
+    if wybrane.get("zrodlo") == "baza wewnętrzna" and not any(r[0] == wybrane["id"] for r in rows):
         r0 = db.judgment(wybrane["id"])
         if r0:
             rows = [r0] + rows
     # A3 (2026-10-24): ta sama sygnatura w różnych sądach (VIII Gz 43/16: SO Szczecin / SO Bydgoszcz) — bierzemy tylko
-    # rekordy sądu WYBRANEGO w kroku faktów; bez dopasowania sądu rekordy LexAlpha nie są używane (tekst z SAOS)
+    # rekordy sądu WYBRANEGO w kroku faktów; bez dopasowania sądu rekordy baza wewnętrzna nie są używane (tekst z SAOS)
     want = fakty.court_key(sad) if sad and "niepodane" not in (sad or "") else ""
     if want and want.split(":")[1]:
         rows = [r for r in rows if fakty.court_key(r[3]) == want]
@@ -701,11 +702,11 @@ def build_judgment_atoms(llm: LLM, db: LexAlphaRO, sig: str, wybrane: dict, mode
     sid = wybrane["id"] if wybrane.get("zrodlo") == "SAOS" else saos_find_id(sig, sad, data)
     tekst_saos = saos_text(sid) if sid else ""
     tekst, zrodlo_tekstu = "", None
-    # Decyzja Adama 2026-10-21: SAOS (urzędowy pełny tekst) ma PIERWSZEŃSTWO; LexAlpha tylko gdy wyroku nie ma w SAOS.
+    # Decyzja Adama 2026-10-21: SAOS (urzędowy pełny tekst) ma PIERWSZEŃSTWO; baza wewnętrzna tylko gdy wyroku nie ma w SAOS.
     if len(tekst_saos) > 500:
         tekst, zrodlo_tekstu = tekst_saos, f"SAOS {sid}"
     elif len(tekst_db or "") > 500:
-        tekst, zrodlo_tekstu = tekst_db, "LexAlpha \"Judgment\".\"textRaw\" (brak w SAOS)"
+        tekst, zrodlo_tekstu = tekst_db, "baza wewnętrzna (tekst orzeczenia) (brak w SAOS)"
     else:
         tekst, zrodlo_tekstu = "", None
     dlugosci = {"lexalpha": len(tekst_db or ""), "saos": len(tekst_saos), "rekordow_lexalpha": len(rows)}
@@ -717,7 +718,7 @@ def build_judgment_atoms(llm: LLM, db: LexAlphaRO, sig: str, wybrane: dict, mode
     hdr = dict(sig=sig, sad=sad, data=data, tekst=tekst[:120_000])
     atomy = []
     if tezy:
-        res["zrodlo_tez"] = "LexAlpha \"JudgmentThesisUnit\""
+        res["zrodlo_tez"] = "baza wewnętrzna \"tabela_tez\""
         lista = "\n".join(f"{i + 1}. {t[1]}" for i, t in enumerate(tezy))
         out = llm.json_call(model, P_KOTWICE.format(**hdr, tezy=lista)) or {}
         by_nr = {a.get("nr"): a for a in out.get("atomy", []) if isinstance(a, dict)}
@@ -881,7 +882,7 @@ def zbierz_kandydatow(z: dict) -> dict:
 # ───────────────────────── twierdzenia ─────────────────────────
 
 def extract_claims(llm: LLM, model: str, p: str, system: str, rap: dict) -> dict:
-    raw = (PYTANIA / "odpowiedzi" / p / f"{system}.md").read_text()
+    raw = (PYTANIA / "answers" / p / f"{system}.md").read_text()
     odp = fakty.clean_markdown(fakty.body_of_answer(raw))
     pozycje = []
     for x in rap["przepisy"]:
@@ -1194,11 +1195,11 @@ def main():
     t_start = time.time()
 
     llm = LLM()
-    db = LexAlphaRO()
+    db = WewnetrznaBazaRO()
     print(f"wewnętrzna baza orzeczeń: {'połączona (read-only)' if db.conn else 'niedostępna: ' + str(db.error)}", flush=True)
     emb = db.embedding_model_sample()
     # B2: prefiks promptu sędziego z dosłownymi fragmentami README (programowo, po nagłówkach)
-    readme_txt = (PYTANIA / "README.md").read_text()
+    readme_txt = (PYTANIA / "SPEC" / "scoring_spec_v1.0.1.md").read_text()
     fragmenty = readme_fragmenty(readme_txt)
     regula_krag = readme_regula(readme_txt)
     if regula_krag not in fragmenty:
@@ -1452,7 +1453,7 @@ def main():
 
     def atomize_ref(jid):
         r = potrzebne[jid]
-        j = build_judgment_atoms(llm, db, r["sygnatura"], {"zrodlo": "LexAlpha", "id": jid, "sad": r["sad"], "data": r["data"]},
+        j = build_judgment_atoms(llm, db, r["sygnatura"], {"zrodlo": "baza wewnętrzna", "id": jid, "sad": r["sad"], "data": r["data"]},
                                  args.pomocniczy)
         if j["atomy"]:
             write_judgment_atoms(j)
@@ -1596,7 +1597,7 @@ def report_md(meta, wyniki, ogolniki, wyroki, ew) -> str:
     if not all(p in ("P09", "P10") for p in meta["pytania"]):
         L.append("Sekcje „Wynik względem kart” niżej dotyczą wzorców P09/P10 (WZORZEC_*); dla innych pytań miarą jest `ewaluacja_8pytan.py`.\n")
     L.append("## Architektura\n")
-    L.append(f"1. Atomy orzeczeń: tezy z `JudgmentThesisUnit` (SELECT) + tekst (`Judgment.textRaw` albo SAOS); kotwicę wskazuje "
+    L.append(f"1. Atomy orzeczeń: tezy z tabela tez bazy wewnętrznej (SELECT) + tekst (tekst orzeczenia z bazy wewnętrznej albo SAOS); kotwicę wskazuje "
              f"{meta['pomocniczy']}, kod sprawdza verbatim (jedna poprawka). Wyrok bez tez w bazie → atomizacja na bieżąco "
              f"(`zrodlo-tez: model, na bieżąco`).")
     L.append("2. Atomy przepisów: brzmienie jednostki z legal-cite = jeden atom, kotwica = tekst urzędowy (przy PDF — odczyt nieurzędowy).")

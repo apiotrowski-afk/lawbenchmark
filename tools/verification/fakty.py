@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Krok faktów meta-sędziego LexAlpha (prototyp, projekt PROJEKT.md z 2026-10-19).
+"""Krok faktów meta-sędziego baza wewnętrzna (prototyp, projekt PROJEKT.md z 2026-10-19).
 
 Dla odpowiedzi modelu (pytania/odpowiedzi/<P>/<system>.md) i klucza (pytania/klucze/<P>_*.yaml)
 tworzy raport faktów: meta_sedzia/raporty/<P>_<system>.json + krótki .md.
@@ -28,19 +28,20 @@ import json
 import re
 import sys
 import time
+import os
 import unicodedata
 from pathlib import Path
 
 # nowa wersja legal-cite — przed site-packages, żeby nie wziąć starej kopii
-sys.path.insert(0, "legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)")
+sys.path.insert(0, os.environ.get("LEGAL_CITE_PATH", "legal-cite-pl"))  # https://github.com/apiotrowski-afk/legal-cite-pl
 from legal_cite import core as lc  # noqa: E402
 
 import httpx  # noqa: E402
 import yaml  # noqa: E402
 
-BENCH = Path(__file__).resolve().parents[1]
-PYTANIA = BENCH / "pytania"
-RAPORTY = Path(__file__).resolve().parent / "raporty"
+BENCH = Path(__file__).resolve().parents[2]  # katalog repo lawbenchmark
+PYTANIA = BENCH  # klucze w keys/, odpowiedzi w answers/, specyfikacja w SPEC/
+RAPORTY = Path(__file__).resolve().parents[2] / "verification" / "reports"
 ENV_FILE = Path(os.environ.get("BENCHMARK_ENV_FILE", "benchmark.env"))  # opcjonalny plik z adresem wewnętrznej bazy orzeczeń (poza repozytorium)
 
 SYSTEMY_R3 = [
@@ -949,10 +950,10 @@ async def saos_text(client: httpx.AsyncClient, jid) -> str:
     return ""
 
 
-BRAMKA_LEXALPHA = "<ścieżka do bramki LexAlpha — poza repo>"
+BRAMKA_BAZY = os.environ.get("INTERNAL_DB_GATEWAY_PATH", "")  # bramka wewnętrznej bazy orzeczeń, poza repozytorium
 
 
-class LexAlphaDB:
+class WewnetrznaBazaDB:
     """Wewnętrzna baza orzeczeń WYŁĄCZNIE przez bramkę bramka_ro_poza_repo.query (parser SQL, read-only, ROLLBACK, maskowanie URL).
     2026-10-24: wcześniej moduł łączył się bezpośrednio przez psycopg — niezgodnie z regułą „tylko bramka”.
     URL nigdy nie jest wypisywany; wyjątki logowane typem."""
@@ -961,7 +962,7 @@ class LexAlphaDB:
         self.conn = None          # True = bramka dostępna i potwierdziła read-only
         self.error = None
         try:
-            sys.path.insert(0, BRAMKA_LEXALPHA)
+            sys.path.insert(0, BRAMKA_BAZY)
             from bramka_ro_poza_repo import query, BramkaRoError
             self._query, self._err = query, BramkaRoError
             ro = query("SELECT current_setting('transaction_read_only'), current_setting('default_transaction_read_only')",
@@ -989,7 +990,7 @@ class LexAlphaDB:
             if k in seen:
                 continue
             seen.add(k)
-            out.append({"zrodlo": "LexAlpha", "id": rid, "sad": court, "data": k[1], "_tekst": txt or ""})
+            out.append({"zrodlo": "baza wewnętrzna", "id": rid, "sad": court, "data": k[1], "_tekst": txt or ""})
         return out
 
 
@@ -1017,10 +1018,10 @@ def keyword_fragments(claim: str, text: str, sig: str) -> list[dict]:
     return out
 
 
-async def verify_judgment(client, db: LexAlphaDB, j: dict) -> dict:
+async def verify_judgment(client, db: WewnetrznaBazaDB, j: dict) -> dict:
     sig = j["sygnatura"]
     if j["typ"] == "TSUE":
-        return {"status": "poza źródłami (TSUE: SAOS/LexAlpha nie obejmują) — do sprawdzenia ręcznie", "flagi": ["poza_zrodlami"]}
+        return {"status": "poza źródłami (TSUE: SAOS/baza wewnętrzna nie obejmują) — do sprawdzenia ręcznie", "flagi": ["poza_zrodlami"]}
     saos = await saos_search(client, sig)
     saos_down = saos is None                       # A4: awaria źródła, nie brak wyroku
     cands = list(saos or [])
@@ -1030,7 +1031,7 @@ async def verify_judgment(client, db: LexAlphaDB, j: dict) -> dict:
     if saos_down or not cands or (want and not any(court_key(c["sad"]) == want for c in cands)):
         db_c = db.find(sig)
         if db_c:
-            gdzie.append("LexAlpha")
+            gdzie.append("baza wewnętrzna")
             cands += db_c
     if not cands:
         if saos_down:
@@ -1060,7 +1061,7 @@ async def verify_judgment(client, db: LexAlphaDB, j: dict) -> dict:
         for c in cands:
             c.pop("_tekst", None)
         # 2026-10-24 (decyzja Adama nr 4): lista ODRĘBNYCH wyroków-kandydatów (sąd, data; ten sam wyrok w SAOS
-        # i LexAlpha liczony raz, SAOS pierwszy) — weryfikator poparcia ocenia twierdzenie wobec każdego, gdy ≤ 4
+        # i baza wewnętrzna liczony raz, SAOS pierwszy) — weryfikator poparcia ocenia twierdzenie wobec każdego, gdy ≤ 4
         odrebne, widz = [], set()
         for c in sorted(pool, key=lambda c: c["zrodlo"] != "SAOS"):
             k = (court_key(c["sad"]), (c.get("data") or "")[:10])
@@ -1074,7 +1075,7 @@ async def verify_judgment(client, db: LexAlphaDB, j: dict) -> dict:
                 "kandydaci_odrebni": odrebne,
                 "data_podana": j["data_podana"], "sad_podany": j["sad_podany"],
                 "flagi": flagi + ["sygnatura_niejednoznaczna"]}
-    # ten sam sąd: pierwszeństwo SAOS (tekst urzędowy), potem najdłuższy tekst z LexAlpha (kolejność z find)
+    # ten sam sąd: pierwszeństwo SAOS (tekst urzędowy), potem najdłuższy tekst z baza wewnętrzna (kolejność z find)
     pool.sort(key=lambda c: c["zrodlo"] != "SAOS")
     best = pool[0]
     if j["data_podana"] and best["data"] and best["data"][:10] != j["data_podana"]:
@@ -1097,7 +1098,7 @@ async def verify_judgment(client, db: LexAlphaDB, j: dict) -> dict:
 # ───────────────────────── raport ─────────────────────────
 
 def load_key(p: str) -> dict:
-    files = sorted(f for f in (PYTANIA / "klucze").glob(f"{p}_*.yaml"))
+    files = sorted(f for f in (PYTANIA / "keys").glob(f"{p}_*.yaml"))
     if not files:
         raise SystemExit(f"brak klucza dla {p}")
     return yaml.safe_load(files[0].read_text())
@@ -1144,11 +1145,11 @@ def lc_citation(it: dict, code: str) -> str:
     return f"art. {_norm_sup(it['art'])}{unit} {code}"
 
 
-async def build_report(p: str, system: str, db: LexAlphaDB, client: httpx.AsyncClient) -> dict:
+async def build_report(p: str, system: str, db: WewnetrznaBazaDB, client: httpx.AsyncClient) -> dict:
     t0 = time.monotonic()
     key = load_key(p)
     data_stanu = str(key.get("data_stanu_prawnego"))
-    path = PYTANIA / "odpowiedzi" / p / f"{system}.md"
+    path = PYTANIA / "answers" / p / f"{system}.md"
     text = clean_markdown(body_of_answer(path.read_text()))
 
     groups = extract_provisions(text)
@@ -1373,7 +1374,7 @@ def report_md(r: dict) -> str:
 async def main_async(args):
     RAPORTY.mkdir(exist_ok=True)
     systems = args.systemy.split(",") if args.systemy else SYSTEMY_R3
-    db = LexAlphaDB()
+    db = WewnetrznaBazaDB()
     if not db.conn:
         print(f"[fakty] wewnętrzna baza orzeczeń niedostępna ({db.error}) — orzeczenia tylko z SAOS", file=sys.stderr)
     out_dir = Path(args.katalog) if args.katalog else RAPORTY
@@ -1383,7 +1384,7 @@ async def main_async(args):
                                  headers={"User-Agent": "ktzr-lexalpha-fakty/0.1"}) as client:
         for p in args.pytania:
             for s in systems:
-                if not (PYTANIA / "odpowiedzi" / p / f"{s}.md").exists():
+                if not (PYTANIA / "answers" / p / f"{s}.md").exists():
                     print(f"[fakty] brak odpowiedzi {p}/{s}", file=sys.stderr)
                     continue
                 r = await build_report(p, s, db, client)

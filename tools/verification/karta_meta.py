@@ -37,9 +37,9 @@ sys.path.insert(0, str(HERE))
 import fakty  # noqa: E402
 from poparcie import readme_regula  # noqa: E402  (reguła README wycinana programowo, nie przepisywana)
 
-REPO = os.path.expanduser("./pytania")
+REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), *([".."] * (2 if os.path.basename(os.path.dirname(os.path.abspath(__file__))) == "verification" else 1))))  # katalog repo lawbenchmark
 NARZEDZIA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")  # repo lawbenchmark/tools
-RAPORTY = HERE / "raporty"
+RAPORTY = HERE.parents[1] / "verification" / "reports"
 SEDZIOWIE = {"argon4meta": {"model": "gemini-4-argon", "droga": "vertex", "myslenie": "high"},
              # v2 instrukcji (24.10): raport może dodać błąd, nie może go odjąć — osobne id, żeby nie nadpisać wyników v1
              "argon4meta2": {"model": "gemini-4-argon", "droga": "vertex", "myslenie": "high"},
@@ -55,7 +55,7 @@ LIMIT_KOTWICA = 260
 
 # ───────────────────────── prompt bazowy (identyczny z eval_sedzia_*) ─────────────────────────
 
-readme = open(f"{REPO}/README.md").read()
+readme = open(f"{REPO}/SPEC/scoring_spec_v1.0.1.md").read()
 reguly = (readme[readme.index("## Blok A — obiektywny"):readme.index("## Warunki biegu (prompt)")]
           + "\n" + readme[readme.index("## Przykłady graniczne"):readme.index("## Status zbioru")])
 WERSJA = readme.split("Wersja specyfikacji oceny: ")[1].split(" ")[0] if "Wersja specyfikacji oceny: " in readme else "?"
@@ -291,7 +291,7 @@ def main():
     for p in pytania:
         for s in systemy:
             cel = f"{REPO}/oceny/_sedziowie/{p}_{s}.{args.sedzia}.json"
-            if not os.path.exists(f"{REPO}/odpowiedzi/{p}/{s}.md") or not (RAPORTY / f"{p}_{s}.json").exists():
+            if not os.path.exists(f"{REPO}/answers/{p}/{s}.md") or not (RAPORTY / f"{p}_{s}.json").exists():
                 continue
             if os.path.exists(cel):
                 continue          # nie nadpisujemy

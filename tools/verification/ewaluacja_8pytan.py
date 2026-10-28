@@ -16,11 +16,12 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import os
 import unicodedata
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-RAPORTY = HERE / "raporty"
+RAPORTY = HERE.parents[1] / "verification" / "reports"
 SYSTEMY = ["chatgpt_codex_w0_r3", "chatgpt_codex_web_r3", "codex_astra6_w0_r3", "codex_astra6_web_r3",
            "codex_terra56_w0_r3", "codex_terra56_web_r3", "haiku_cli_w0_r3", "haiku_cli_w1_r3",
            "sonnet_cli_w0_r3", "sonnet_cli_w1_r3", "opus_cli_w0_r3", "opus_cli_w1_r3",

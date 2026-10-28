@@ -15,7 +15,7 @@ import sys
 import tempfile
 import time
 
-REPO = os.path.expanduser("./pytania")
+REPO = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), *([".."] * (2 if os.path.basename(os.path.dirname(os.path.abspath(__file__))) == "verification" else 1))))  # katalog repo lawbenchmark
 arg = lambda n, d=None: sys.argv[sys.argv.index(n) + 1] if n in sys.argv else d
 sedzia = sys.argv[1]
 model = arg("--model", "gpt-6-astra")
@@ -23,7 +23,7 @@ systemy = arg("--systemy").split(",")
 pytania = arg("--tylko").split(",")
 rown = int(arg("--rownolegle", "3"))
 
-readme = open(f"{REPO}/README.md").read()
+readme = open(f"{REPO}/SPEC/scoring_spec_v1.0.1.md").read()
 reguly = (readme[readme.index("## Blok A — obiektywny"):readme.index("## Warunki biegu (prompt)")]
           + "\n" + readme[readme.index("## Przykłady graniczne"):readme.index("## Status zbioru")])
 WERSJA = (readme.split("Wersja specyfikacji oceny: ")[1].split(" ")[0]) if "Wersja specyfikacji oceny: " in readme else "?"
@@ -102,7 +102,7 @@ def jeden(pid, system):
     return pid, system, "BŁĄD parsowania" if d.get("blad_parsowania") else "ok", d["_meta"]["czas_s"]
 
 
-zad = [(p, s) for s in systemy for p in pytania if os.path.exists(f"{REPO}/odpowiedzi/{p}/{s}.md")]
+zad = [(p, s) for s in systemy for p in pytania if os.path.exists(f"{REPO}/answers/{p}/{s}.md")]
 with cf.ThreadPoolExecutor(rown) as ex:
     for pid, system, st, czas in ex.map(lambda z: jeden(*z), zad):
         print(f"{pid} {system:32} {czas:5}s  {st}", flush=True)

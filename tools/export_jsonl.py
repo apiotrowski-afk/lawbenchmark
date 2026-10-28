@@ -76,7 +76,7 @@ for p in dane.PYT:
 zapisz("answers.jsonl", odpowiedzi)
 
 # ---------- cards.jsonl ----------
-RE_WIERSZ = re.compile(r"^\| ([A-Z][\w\- ]*?) \| ([^|]*) \| (.*?) \|\s*$", re.M)
+RE_WIERSZ = re.compile(r"^\| ([A-Z][\w\- ]*?) \| ([^|]*) \| (.*?)\s*\|\s*$", re.M)
 karty = []
 for p in dane.PYT:
     for s in SYS:

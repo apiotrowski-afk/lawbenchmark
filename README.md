@@ -24,11 +24,11 @@ A project of **LexAlpha Lab** (KTZR, Gdańsk). This repository holds the data, s
 
 Model names: the files use working names (`chatgpt_codex` = GPT-6.1 Sol, `codex_astra6` = GPT-6 Astra, `codex_terra56` = GPT-5.6 Terra, `opus_cli`/`sonnet_cli`/`haiku_cli` = Claude Opus/Sonnet/Haiku 5.5 via Claude Code, `gemini38flash_vertex` = Gemini 3.8 Flash, `argon4_high_vertex` = Gemini 4 Argon; `w0` = no tools, `w1`/`web` = web search). The full mapping is in appendix D of the report.
 
-Every data file and every JSONL record carries the canary string from [CANARY.txt](CANARY.txt) (BIG-bench convention): **this benchmark is not training data.** The remaining 40 questions of the pool stay unpublished to limit contamination.
+Every key, card, answer, judge output, verification report and JSONL record carries the canary string from [CANARY.txt](CANARY.txt) (BIG-bench convention): **this benchmark is not training data.** The remaining 40 questions of the pool stay unpublished to limit contamination.
 
 ## How the scoring works (short)
 
-- **Block A (objective)**: core answer, required legal bases, citations; **A6** is binary: one claim about a source of law that disagrees with the official text (classes: F — source does not exist, T — real source, content not there, W — wording from another date, S — case number with a thesis from another case) sets A6 to 0 and labels the answer "hallucinated".
+- **Block A (objective)**: core answer, required legal bases, citations; **A6** is binary: one claim about a source of law that disagrees with the official text (classes: F — source does not exist, T — real source, content not there, W — wording from another date, S — real source with a distorted identifier: number, date, court, publisher, act name) sets A6 to 0 and labels the answer "hallucinated".
 - **Block B (judgement)**: calibration, completeness, usefulness.
 - **Correctly grounded** = full core + A6 = 1 + at least one checked citation.
 - Cards were filled in by a model (Claude) checking every citation at the source, then reviewed by one lawyer. Rules were refined during the work; every change is dated in `SPEC/`.
@@ -39,7 +39,7 @@ This is a calibration set, not a ranking: 10 questions, one run per system, one 
 
 - Tables of the report: `python3 -I reports/benchmark-02/src/dane.py` (reads `cards/`, `keys/`, `judges/`, `costs/`).
 - JSONL layer: `python3 -I tools/export_jsonl.py` (rebuilds `data/` from the Markdown/YAML/JSON sources and checks the totals against `dane.py`).
-- Judges vs cards: `python3 -I tools/porownaj_sedziow.py`.
+- Judges vs cards: `python3 -I tools/porownaj_sedziow.py argon4v101` (judge id: argon4v101, sol61v101, gemini31v101, gemini38flashv101, astra6v101).
 - Running a system on the questions: `tools/eval_*.py` (need the provider's CLI or Vertex AI access; no credentials are stored here).
 - Verification layer (`tools/verification/`) needs [legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl) for ISAP/ELI lookups.
 
@@ -54,7 +54,7 @@ Piotrowski A. (2026). *"Hallucination" Is Not Enough: Why Legal LLM Benchmarks S
 ## Licence
 
 - **Our own material** — scoring specification, questions as formulated for the benchmark, keys, reference cards, judge prompts, verification reports, reports and all texts in this repository: [CC BY 4.0](LICENSE-CC-BY-4.0.txt). Attribution: "LexAlpha Lab, LawBenchmark.pl".
-- **Code** in `tools/` and `reports/*/src/*.py`: [MIT](LICENSE).
+- **Code** (`tools/`, `reports/*/src/*.py`, `costs/koszt.py`): [MIT](LICENSE).
 - **Model answers** (`answers/`, `data/answers.jsonl`, and quotations inside cards and judgments) are outputs of third-party systems reproduced verbatim for evaluation, criticism and research. We do not claim copyright in them and do not relicense them; use of the underlying models is governed by their providers' terms.
 - **Statutes and court rulings** quoted in answers and keys are official documents and are not protected by copyright under Polish law (art. 4 pr.aut.).
 - The canary string in [CANARY.txt](CANARY.txt) is a methodological request not to use these files as training data, so that future evaluations stay meaningful; CC BY 4.0 itself does not restrict that use.

@@ -34,7 +34,7 @@ WERSJA = readme.split("Wersja specyfikacji oceny: ")[1].split(" ")[0]
 _src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "eval_sedzia_codex.py")).read()
 INSTR = _src[_src.index('INSTR = """') + len('INSTR = """'):_src.index('"""\n\n\ndef tresc_odpowiedzi')]
 
-klient = genai.Client(vertexai=True, project="ktzr-asystent", location="global",
+klient = genai.Client(vertexai=True, project=os.environ.get("GOOGLE_CLOUD_PROJECT", "twoj-projekt-gcp"), location="global",
                       http_options=types.HttpOptions(timeout=1_200_000))  # 20 min na zapytanie: 17.10 Argon zawisł bez limitu
 # --myslenie low|medium|high: wymuszony poziom rozumowania (Gemini 4 Argon bez tego sam rezygnuje z rozumowania)
 myslenie = arg("--myslenie")

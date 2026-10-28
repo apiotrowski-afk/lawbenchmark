@@ -1,7 +1,7 @@
 # Karta oceny — P06 · Gemini 4 Argon (gemini-4-argon) przez Vertex AI (czysty model, bez narzędzi), W0 bez wyszukiwania, rozumowanie: high — r3
 
 - Pytanie: P06 (katalog nr 22), klucz w wersji 3 (2026-10-10, element „rozwidlenie”)
-- Data odpowiedzi systemu: 2026-10-13 · czas 62.0 s · warunki: model gemini-4-argon, Vertex AI (projekt ktzr-asystent), region global, temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.”; tokeny: wejście 105, wyjście 2027, rozumowanie 5129
+- Data odpowiedzi systemu: 2026-10-13 · czas 62.0 s · warunki: model gemini-4-argon, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT), region global, temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.”; tokeny: wejście 105, wyjście 2027, rozumowanie 5129
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 - Specyfikacja oceny: 1.0.1 · data karty: 2026-10-13

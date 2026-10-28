@@ -1,7 +1,7 @@
 # Karta oceny — P08 · Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania), rozumowanie: high — r3 W0 (rozszerzenie 2026-10-18)
 
 - Pytanie: P08 (katalog nr 6), klucz w wersji 4 (2026-10-18, zatwierdzony przez Adama 2026-10-18 — R6 za soft law, nigdy kara)
-- Data odpowiedzi systemu: 2026-10-18 · czas 38.5 s · warunki: model gemini-4-argon, Vertex AI (projekt ktzr-asystent, region global), temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 119, wyjście 1299, rozumowanie 1490
+- Data odpowiedzi systemu: 2026-10-18 · czas 38.5 s · warunki: model gemini-4-argon, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT, region global), temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 119, wyjście 1299, rozumowanie 1490
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 
@@ -40,7 +40,7 @@
 
 P1 ślady narzędzi: brak (narzedzia: [], wyszukiwanie: false; zapytania: [], zrodla: []) · P2 nie badano · P3 źródła deklarowane w tekście: AI Act (art. 3 pkt 60, art. 50 ust. 1, 2 i 4, data stosowania art. 50), metryka rozporządzenia (UE) 2024/1689 z publikatorem; bez wytycznych KE, kodeksu praktyk i Omnibusa; bez linków i orzeczeń · P4 wiedza z wag modelu: trafna struktura art. 50 i adresaci; brak wiedzy o wytycznych KE C(2026) 5054 (kryterium „istniejące” = mogące realnie istnieć) i o art. 111 ust. 4; wyjątki z art. 50 ust. 2 zawężone do jednego.
 
-Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-4-argon · projekt ktzr-asystent · region global · temperatura 0.1 · poziom_rozumowania high · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 38.5 s · pytanie: `tekst_oryginalny` (klucz bez `tekst_benchmarkowy`) · błąd: brak.
+Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-4-argon · projekt GCP z GOOGLE_CLOUD_PROJECT · region global · temperatura 0.1 · poziom_rozumowania high · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 38.5 s · pytanie: `tekst_oryginalny` (klucz bez `tekst_benchmarkowy`) · błąd: brak.
 
 Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18.
 

@@ -1,7 +1,7 @@
 # Karta oceny — P09 · Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania) — r3 W0 (rozszerzenie 2026-10-18)
 
 - Pytanie: P09 (katalog nr 4), klucz P09 v4 / P10 v3 — tu klucz P09 w wersji 4 (2026-10-18, zatwierdzony przez Adama 2026-10-18 — rdzeń warunkowy, liberalna linia SN, reguła B6 uchylona)
-- Data odpowiedzi systemu: 2026-10-18 · czas 23.6 s · warunki: model gemini-3.8-flash, Vertex AI (projekt ktzr-asystent, region global), temperatura 0.1, poziom rozumowania: domyślny modelu, narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 101, wyjście 1215, w tym rozumowanie 1308
+- Data odpowiedzi systemu: 2026-10-18 · czas 23.6 s · warunki: model gemini-3.8-flash, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT, region global), temperatura 0.1, poziom rozumowania: domyślny modelu, narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 101, wyjście 1215, w tym rozumowanie 1308
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 
@@ -38,7 +38,7 @@
 
 P1 ślady narzędzi: brak (narzedzia: [], wyszukiwanie: false; zapytania: [], zrodla: []) · P2 nie badano · P3 źródła deklarowane w tekście: pr.aut. „t.j. Dz.U. z 2022 r. poz. 2509” (art. 2, 16, 41 ust. 2 i 4, 46, 50, 50 pkt 3, 53, 65), k.c. (art. 78¹), ogólnik „Sąd Najwyższy oraz doktryna” bez sygnatur; bez linków · P4 wiedza z wag modelu: art. 41 ust. 2 w brzmieniu sprzed noweli z 26.07.2024 i nieaktualny tekst jednolity; obraz orzecznictwa jednostronny (bez linii liberalnej SN).
 
-Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-3.8-flash · projekt ktzr-asystent · region global · temperatura 0.1 · poziom_rozumowania: domyślny modelu · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 23.6 s · pytanie: `tekst_benchmarkowy` (v3, bez zmian w v4) · błąd: brak.
+Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-3.8-flash · projekt GCP z GOOGLE_CLOUD_PROJECT · region global · temperatura 0.1 · poziom_rozumowania: domyślny modelu · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 23.6 s · pytanie: `tekst_benchmarkowy` (v3, bez zmian w v4) · błąd: brak.
 
 Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18.
 

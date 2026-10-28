@@ -445,7 +445,7 @@ Pokazujemy go obok wyników, nigdy w nich.
 **Równoważnik a wydatek.** Systemy uruchamiane z subskrypcji (Claude Code CLI, Codex CLI z kontem
 ChatGPT) mają koszt równoważny: kancelaria nie płaci tych kwot, płaci abonament. Dla Claude CLI bierzemy
 pole `koszt_usd_rownowaznik` zapisane przez CLI. Dla Codex koszt wyliczamy z tokenów i liczby wyszukań.
-Vertex AI (Gemini) to koszt faktyczny, bo projekt `ktzr-asystent` płaci za każde wywołanie. Liczymy go
+Vertex AI (Gemini) to koszt faktyczny, bo projekt GCP kancelarii płaci za każde wywołanie. Liczymy go
 w regionie użytym w biegu (r3: `global`) i w cenie obowiązującej w dniu cennika, także promocyjnej.
 
 **Główna metryka: koszt na poprawnie ugruntowaną odpowiedź.** Za poprawnie ugruntowaną uznajemy

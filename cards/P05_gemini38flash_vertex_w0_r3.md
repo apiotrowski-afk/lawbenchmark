@@ -1,7 +1,7 @@
 # Karta oceny — P05 · Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania) — r3 W0
 
 - Pytanie: P05 (katalog nr 38), klucz w wersji 2 (2026-10-10)
-- Data odpowiedzi systemu: 2026-10-17 · czas 28.4 s · warunki: model gemini-3.8-flash, Vertex AI (projekt ktzr-asystent), region global, temperatura 0.1, poziom rozumowania: domyślny modelu, narzędzia: brak, wyszukiwanie: brak (W0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.”; tokeny: wejście 58, wyjście 1593, rozumowanie 1914
+- Data odpowiedzi systemu: 2026-10-17 · czas 28.4 s · warunki: model gemini-3.8-flash, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT), region global, temperatura 0.1, poziom rozumowania: domyślny modelu, narzędzia: brak, wyszukiwanie: brak (W0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.”; tokeny: wejście 58, wyjście 1593, rozumowanie 1914
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 

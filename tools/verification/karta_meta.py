@@ -7,7 +7,7 @@ i dokłada sekcję „RAPORT FAKTÓW (sprawdzone kodem i weryfikatorem poparcia)
 datę stanu prawnego, wersjami wcześniejszymi, statusem orzeczenia (data/sąd/tezy z kotwicą) i statusami weryfikacji.
 Instrukcja v2 (24.10): klasy F/T/W/S z raportu wiążące, ✓ NIE zamyka sprawy — sędzia sam porównuje treść z brzmieniem; „niedostępne” ≠ błąd.
 
-Sędziowie: argon4meta = gemini-4-argon (Vertex, projekt ktzr-asystent, --myslenie high, wyszukiwanie Google jak w
+Sędziowie: argon4meta = gemini-4-argon (Vertex, projekt GCP z GOOGLE_CLOUD_PROJECT, --myslenie high, wyszukiwanie Google jak w
 eval_sedzia_gemini.py); sol61meta = gpt-6.1-sol przez Codex CLI (jak eval_sedzia_codex.py).
 Wynik: pytania/oceny/_sedziowie/<P>_<system>.<sedzia>.json (format jak inni sędziowie + pole `raport_faktow_uzyty`).
 Istniejących plików sędziów NIE nadpisuje.
@@ -38,7 +38,7 @@ import fakty  # noqa: E402
 from poparcie import readme_regula  # noqa: E402  (reguła README wycinana programowo, nie przepisywana)
 
 REPO = os.path.expanduser("./pytania")
-NARZEDZIA = os.path.expanduser("~/ktzr-narzedzia")
+NARZEDZIA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")  # repo lawbenchmark/tools
 RAPORTY = HERE / "raporty"
 SEDZIOWIE = {"argon4meta": {"model": "gemini-4-argon", "droga": "vertex", "myslenie": "high"},
              # v2 instrukcji (24.10): raport może dodać błąd, nie może go odjąć — osobne id, żeby nie nadpisać wyników v1
@@ -214,7 +214,7 @@ class Vertex:
         from google.genai import types
         self.types = types
         self.model, self.myslenie = model, myslenie
-        self.klient = genai.Client(vertexai=True, project="ktzr-asystent", location="global",
+        self.klient = genai.Client(vertexai=True, project=os.environ.get("GOOGLE_CLOUD_PROJECT", "twoj-projekt-gcp"), location="global",
                                    http_options=types.HttpOptions(timeout=1_200_000))
         self.cfg = types.GenerateContentConfig(temperature=0.0, tools=[types.Tool(google_search=types.GoogleSearch())],
                                                thinking_config=types.ThinkingConfig(thinking_level=myslenie))

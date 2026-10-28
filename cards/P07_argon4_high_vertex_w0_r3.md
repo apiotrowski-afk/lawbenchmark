@@ -1,7 +1,7 @@
 # Karta oceny — P07 · Gemini 4 Argon (gemini-4-argon, rozumowanie high) przez Vertex AI (czysty model, bez narzędzi), W0 bez wyszukiwania — r3
 
 - Pytanie: P07 (katalog nr 24), klucz w wersji 2 (2026-10-10)
-- Data odpowiedzi systemu: 2026-10-13 · czas 39.5 s · warunki: model gemini-4-argon, Vertex AI (projekt ktzr-asystent), region global, temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.”; tokeny: wejście 130, wyjście 1626, rozumowanie 3182
+- Data odpowiedzi systemu: 2026-10-13 · czas 39.5 s · warunki: model gemini-4-argon, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT), region global, temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.”; tokeny: wejście 130, wyjście 1626, rozumowanie 3182
 - Data stanu prawnego klucza: 2026-10-01
 - Data karty: 2026-10-13
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
@@ -42,7 +42,7 @@ Graniczne i otwarte (do decyzji prawnika): (a) art. 25b u.k.s.c. — W czy pomin
 
 P1 ślady narzędzi: brak (W0; narzedzia: [], wyszukiwanie: false) · P2 nie badano · P3 źródła deklarowane w tekście: k.p.c. (art. 327¹, 328 § 4, 357 § 1, § 2¹, § 5 i § 6, 361, 373 § 1, 394 § 2, 394¹ᵃ § 2, 394² § 1², 397 § 3), u.k.s.c. (art. 25b bez ustępu), uchwała SN III CZP 38/20 z 2.07.2021, postanowienie SN III CZ 163/22 z 29.04.2022; bez linków · P4 wiedza z wag modelu; art. 25b u.k.s.c. w ujęciu sprzed podziału na 100 zł i 30 zł, poślizg jednostki w art. 394² (§ 1² zamiast § 2), jedno orzeczenie bez śladu w źródłach.
 
-Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-4-argon · projekt ktzr-asystent · region global · temperatura 0.1 · poziom_rozumowania: high · narzedzia: [] · wyszukiwanie: false.
+Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-4-argon · projekt GCP z GOOGLE_CLOUD_PROJECT · region global · temperatura 0.1 · poziom_rozumowania: high · narzedzia: [] · wyszukiwanie: false.
 
 Uwaga o weryfikacji: brzmienia sprawdzono w tekstach jednolitych z ISAP (PDF przekonwertowany pdftotext: kpc.txt, uksc.txt) i w aktach pobranych z api.sejm.gov.pl (Dz.U. 2020 poz. 755, Dz.U. 2019 poz. 1469, Dz.U. 2023 poz. 614). Narzędzia legal-cite (`przepis`) nie udało się uruchomić — wywołanie zablokowane przez uprawnienia sesji; powołań nie potwierdzono nim dodatkowo. Daty zmiany art. 25b u.k.s.c. (z jednej stawki 100 zł na 100 zł i 30 zł) nie ustalono; potwierdzono tylko oba brzmienia.
 

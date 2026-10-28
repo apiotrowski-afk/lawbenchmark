@@ -1,7 +1,7 @@
 # Karta oceny — P01 · Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania) — r3 W0 (rozszerzenie 2026-10-18)
 
 - Pytanie: P01 (katalog nr 49), klucz w wersji 3 (2026-10-18, zatwierdzony przez Adama 2026-10-18)
-- Data odpowiedzi systemu: 2026-10-18 · czas 12.3 s · warunki: model gemini-3.8-flash, Vertex AI (projekt ktzr-asystent, region global), temperatura 0.1, poziom rozumowania: domyślny modelu, narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 72, wyjście 502, w tym rozumowanie 1091
+- Data odpowiedzi systemu: 2026-10-18 · czas 12.3 s · warunki: model gemini-3.8-flash, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT, region global), temperatura 0.1, poziom rozumowania: domyślny modelu, narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 72, wyjście 502, w tym rozumowanie 1091
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 
@@ -37,7 +37,7 @@
 
 P1 ślady narzędzi: brak (narzedzia: [], wyszukiwanie: false; zapytania: [], zrodla: []) · P2 nie badano · P3 źródła deklarowane w tekście: k.w. (art. 119 § 1, art. 124 § 1) z tytułem i datą ustawy, ustawa z 7.07.2022 o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw (Dz.U. 2022 poz. 2600 ze zm.); bez linków i orzeczeń · P4 wiedza z wag modelu: obowiązujący próg i jego podstawy trafne; historia progu skrócona do „¼ płacy minimalnej → 800 zł od 1.10.2023” z pominięciem etapu 500 zł (15.11.2018–30.09.2023) — ten sam schemat błędu co w `P01_codex_terra56_w0_r3`, tu z datą i z przypisaniem zmiany noweli z 2022 r.
 
-Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-3.8-flash · projekt ktzr-asystent · region global · temperatura 0.1 · poziom_rozumowania: domyślny modelu · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 12.3 s · pytanie: `tekst_benchmarkowy` klucza v3 (bez „Hej”) · błąd: brak.
+Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-3.8-flash · projekt GCP z GOOGLE_CLOUD_PROJECT · region global · temperatura 0.1 · poziom_rozumowania: domyślny modelu · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 12.3 s · pytanie: `tekst_benchmarkowy` klucza v3 (bez „Hej”) · błąd: brak.
 
 Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18.
 

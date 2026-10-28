@@ -1,7 +1,7 @@
 # Karta oceny — P13 · Gemini 4 Argon (gemini-4-argon) przez Vertex AI (czysty model, bez narzędzi), W0 bez wyszukiwania, rozumowanie: high — r3
 
 - Pytanie: P13 (katalog nr 15), klucz w wersji 1 (zatwierdzony 2026-10-10)
-- Data odpowiedzi systemu: 2026-10-13 · czas 20.7 s · warunki: model gemini-4-argon, Vertex AI (projekt ktzr-asystent), region global, temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.”; tokeny: wejście 116, wyjście 1198, rozumowanie 1487
+- Data odpowiedzi systemu: 2026-10-13 · czas 20.7 s · warunki: model gemini-4-argon, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT), region global, temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.”; tokeny: wejście 116, wyjście 1198, rozumowanie 1487
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 - Specyfikacja oceny: 1.0.1 · data karty: 2026-10-13

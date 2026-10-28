@@ -1,7 +1,7 @@
 # Karta oceny — P10 · Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W1: Google Search + URL context) — r3 W1 (rozszerzenie 2026-10-18)
 
 - Pytanie: P10 (katalog nr 4, lustro P09), klucz P09 v4 / P10 v3 — tu klucz P10 w wersji 3 (2026-10-18, zatwierdzony przez Adama 2026-10-18 — rdzeń warunkowy jak P09 v4, pułapka zostaje, reguła B6 uchylona)
-- Data odpowiedzi systemu: 2026-10-18 · czas 24.5 s · warunki: model gemini-3.8-flash, Vertex AI (projekt ktzr-asystent, region global), temperatura 0.1, poziom rozumowania: domyślny modelu; narzędzia: google_search + url_context (W1); prompt_systemowy z dopiskiem o wyszukiwaniu i adresach źródeł; zapytania: 0, źródła: 0 (narzędzia nieużyte); tokeny: wejście 154, wyjście 1348, w tym rozumowanie 1551
+- Data odpowiedzi systemu: 2026-10-18 · czas 24.5 s · warunki: model gemini-3.8-flash, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT, region global), temperatura 0.1, poziom rozumowania: domyślny modelu; narzędzia: google_search + url_context (W1); prompt_systemowy z dopiskiem o wyszukiwaniu i adresach źródeł; zapytania: 0, źródła: 0 (narzędzia nieużyte); tokeny: wejście 154, wyjście 1348, w tym rozumowanie 1551
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 
@@ -38,7 +38,7 @@
 
 P1 ślady narzędzi: brak — narzedzia: [google_search, url_context], wyszukiwanie: true, ale zapytania: [] i zrodla: [] (grounding pusty) · P2 nie badano · P3 źródła deklarowane w tekście: pr.aut. bez publikatora (art. 2, 41 ust. 2 i 4, 43, 45, 46, 50, 50 pkt 3, 53, 65), ogólnik „orzecznictwo SN oraz doktryna” bez sygnatur; bez adresów · P4 wyłącznie wagi modelu: odpowiedź lustrzana spójna z P09 tego biegu (system nie uległ sugestii pytającego); ten sam cytat art. 41 ust. 2 sprzed noweli z 26.07.2024 co w P09 i w biegu W0; teza o orzecznictwie łagodniejsza niż w P09 („nie spełnia wymogu”, „zazwyczaj bezskuteczność”), więc bez T.
 
-Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W1: Google Search + URL context)” · model gemini-3.8-flash · projekt ktzr-asystent · region global · temperatura 0.1 · poziom_rozumowania: domyślny modelu · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne. Możesz korzystać z wyszukiwania w internecie; jeśli z niego korzystasz, na końcu podaj adresy źródeł.” · narzedzia: [google_search, url_context] · czas 24.5 s · pytanie: `tekst_benchmarkowy` klucza · błąd: brak.
+Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W1: Google Search + URL context)” · model gemini-3.8-flash · projekt GCP z GOOGLE_CLOUD_PROJECT · region global · temperatura 0.1 · poziom_rozumowania: domyślny modelu · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne. Możesz korzystać z wyszukiwania w internecie; jeśli z niego korzystasz, na końcu podaj adresy źródeł.” · narzedzia: [google_search, url_context] · czas 24.5 s · pytanie: `tekst_benchmarkowy` klucza · błąd: brak.
 
 Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18 według klucza P09 v4 / P10 v3 (reguła B6 uchylona).
 

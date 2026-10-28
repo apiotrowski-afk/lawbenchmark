@@ -3,7 +3,7 @@ pytanie: P08
 system: Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez
   wyszukiwania)
 model: gemini-3.8-flash
-projekt: ktzr-asystent
+projekt: GCP kancelarii (identyfikator pominięty w publikacji)
 region: global
 temperatura: 0.1
 poziom_rozumowania: domyślny modelu

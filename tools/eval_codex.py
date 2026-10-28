@@ -17,7 +17,7 @@ import time
 
 import yaml
 
-REPO = os.path.expanduser("~/ktzr-hub/benchmark")
+REPO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")  # repo lawbenchmark
 # codex jest z nvm — w powłoce nieinteraktywnej nie ma go na PATH; bierzemy najnowszy node
 if not shutil.which("codex"):
     nvm = sorted(glob.glob(os.path.expanduser("~/.nvm/versions/node/*/bin")),

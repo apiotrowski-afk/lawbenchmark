@@ -7,7 +7,7 @@ tworzy raport faktów: meta_sedzia/raporty/<P>_<system>.json + krótki .md.
 Kod, bez LLM:
   1. ekstrakcja powołań regexem: przepisy (art./ust./§/pkt + akt), sygnatury orzeczeń,
      publikatory Dz.U., daty;
-  2. przepisy → legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl), NOWA wersja; nie kopia w ktzr-hub):
+  2. przepisy → legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl), NOWA wersja; nie kopia lokalna):
      istnienie jednostki, fragment urzędowy, źródło/wersja, porównanie cytatu,
      brzmienie z poprzedniego t.j. w HTML (jedyna wcześniejsza wersja, jaką legal-cite trzyma);
   3. orzeczenia → SAOS API, a gdy brak (albo brak w sądzie podanym przez model) → baza LexAlpha

@@ -1,7 +1,7 @@
 """Bieg czystego Gemini przez Vertex AI na tierze „pytania” — model bez narzędzi KTZR.
 
 Bez bazy kancelarii, bez narzędzi, bez wyszukiwania (W0). Ten sam wstęp co Codex i modele lokalne
-(eval_lokalne.py / eval_codex.py), jako system_instruction. Projekt ktzr-asystent, region europe-west4.
+(eval_lokalne.py / eval_codex.py), jako system_instruction. Projekt GCP z GOOGLE_CLOUD_PROJECT, region europe-west4.
 Każde pytanie = osobne wywołanie z pustą historią. Wypisuje tylko czasy i liczniki tokenów.
 Użycie: python eval_gemini_vertex.py <etykieta> [--model gemini-2.5-pro] [--region europe-west4|global] [--tylko P05,P06] [--temp 0.1] [--myslenie high]
 """
@@ -17,7 +17,7 @@ from google.genai import types
 REPO = os.path.expanduser("./pytania")
 WSTEP = ("Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, "
          "na gruncie prawa polskiego i unijnego, podając podstawy prawne.")
-PROJEKT = "ktzr-asystent"
+PROJEKT = os.environ.get("GOOGLE_CLOUD_PROJECT", "twoj-projekt-gcp")
 
 etykieta = sys.argv[1]
 arg = lambda n, d=None: sys.argv[sys.argv.index(n) + 1] if n in sys.argv else d

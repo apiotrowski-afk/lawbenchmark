@@ -1,7 +1,7 @@
 # Karta oceny — P04 · Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania), rozumowanie: high — r3 W0 (rozszerzenie 2026-10-18)
 
 - Pytanie: P04 (katalog nr 25), klucz w wersji 3 (2026-10-18, zatwierdzony przez Adama 2026-10-18 — podwójna pułapka; decyzja może być ostateczna i prawomocna)
-- Data odpowiedzi systemu: 2026-10-18 · czas 33.5 s · warunki: model gemini-4-argon, Vertex AI (projekt ktzr-asystent, region global), temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 116, wyjście 1218, rozumowanie 1482
+- Data odpowiedzi systemu: 2026-10-18 · czas 33.5 s · warunki: model gemini-4-argon, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT, region global), temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 116, wyjście 1218, rozumowanie 1482
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 
@@ -38,7 +38,7 @@
 
 P1 ślady narzędzi: brak (narzedzia: [], wyszukiwanie: false; zapytania: [], zrodla: []) · P2 nie badano · P3 źródła deklarowane w tekście: ustawa z 24.03.1920 o nabywaniu nieruchomości przez cudzoziemców (Dz.U. 2017 poz. 2278; art. 1 ust. 1, art. 1 ust. 2), k.p.a. (art. 16 § 1 i § 3, art. 127a), k.r.o. (art. 101 § 3), k.p.c. (art. 13 § 2, 363 § 1, 364 § 1, 579, 583); bez linków i orzeczeń · P4 wiedza z wag modelu: typowy błąd „decyzja tylko ostateczna” nie wprost — prawomocność decyzji uznana, ale zepchnięta do uwagi; praktyka potwierdzenia przedstawiona jako klauzula ostateczności; numer ustępu o sprzeciwie przesunięty (ust. 2 zamiast ust. 1a); gałąź sądu opiekuńczego z przepisem o władzy rodzicielskiej (art. 579) obok właściwego art. 583.
 
-Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-4-argon · projekt ktzr-asystent · region global · temperatura 0.1 · poziom_rozumowania high · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 33.5 s · pytanie: `tekst_benchmarkowy` klucza v3 · błąd: brak.
+Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-4-argon · projekt GCP z GOOGLE_CLOUD_PROJECT · region global · temperatura 0.1 · poziom_rozumowania high · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 33.5 s · pytanie: `tekst_benchmarkowy` klucza v3 · błąd: brak.
 
 Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18.
 

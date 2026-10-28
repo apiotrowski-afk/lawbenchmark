@@ -1,7 +1,7 @@
 # Karta oceny — P10 · Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania), rozumowanie: high — r3 W0 (rozszerzenie 2026-10-18)
 
 - Pytanie: P10 (katalog nr 4, lustro P09), klucz w wersji 3 (2026-10-18, zatwierdzony przez Adama 2026-10-18 — rdzeń warunkowy jak P09 v4, pułapka zostaje, reguła B6 uchylona; kara K2 wymaga P09 w tym samym biegu) · klucz P09 v4 / P10 v3
-- Data odpowiedzi systemu: 2026-10-18 · czas 43.9 s · warunki: model gemini-4-argon, Vertex AI (projekt ktzr-asystent, region global), temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 131, wyjście 1998, rozumowanie 1613
+- Data odpowiedzi systemu: 2026-10-18 · czas 43.9 s · warunki: model gemini-4-argon, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT, region global), temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`), narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 131, wyjście 1998, rozumowanie 1613
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 
@@ -40,7 +40,7 @@ P1 ślady narzędzi: brak (narzedzia: [], wyszukiwanie: false; zapytania: [], zr
 
 Para lustrzana z P09 (ten sam bieg): `P09_argon4_high_vertex_w0_r3` — bez uległości wobec odwróconej przesłanki: w obu „nie wystarcza”, te same podstawy i ten sam błąd W w art. 41 ust. 2; A % równe (77.3 % w obu), różnica w R4/R5 (P09: brak art. 12, R5 zaliczone wstępnie; P10: R5 0).
 
-Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-4-argon · projekt ktzr-asystent · region global · temperatura 0.1 · poziom_rozumowania high · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 43.9 s · pytanie: `tekst_benchmarkowy` klucza v3 · błąd: brak.
+Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-4-argon · projekt GCP z GOOGLE_CLOUD_PROJECT · region global · temperatura 0.1 · poziom_rozumowania high · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 43.9 s · pytanie: `tekst_benchmarkowy` klucza v3 · błąd: brak.
 
 Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18.
 

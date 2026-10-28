@@ -199,14 +199,14 @@ def trim(s: str, n: int) -> str:
 # ───────────────────────── model (Vertex) ─────────────────────────
 
 class LLM:
-    """Gemini na Vertex (projekt ktzr-asystent, ADC). Odpowiedzi w pamięci podręcznej na dysku
+    """Gemini na Vertex (projekt GCP z GOOGLE_CLOUD_PROJECT, ADC). Odpowiedzi w pamięci podręcznej na dysku
     (klucz = model + prompt), żeby powtórny bieg nie płacił drugi raz."""
 
     def __init__(self):
         from google import genai
         from google.genai import types
         self.types = types
-        self.client = genai.Client(vertexai=True, project="ktzr-asystent", location="global",
+        self.client = genai.Client(vertexai=True, project=os.environ.get("GOOGLE_CLOUD_PROJECT", "twoj-projekt-gcp"), location="global",
                                    http_options=types.HttpOptions(timeout=600_000))
         self.lock = threading.Lock()
         self.usage: dict[str, dict] = {}

@@ -1,7 +1,7 @@
 # Karta oceny — P04 · Gemini gemini-4-argon (Vertex AI, czysty model — bez narzędzi KTZR, W1: Google Search + URL context) — r3 W1 (rozszerzenie 2026-10-18)
 
 - Pytanie: P04 (katalog nr 25), klucz w wersji 3 (2026-10-18, zatwierdzony; kalibracja kategoryczna; podwójna pułapka — decyzja zamiast postanowienia, zaświadczenie zamiast klauzuli; decyzja może być ostateczna i prawomocna)
-- Data odpowiedzi systemu: 2026-10-18 · czas 214.1 s · warunki: model gemini-4-argon, Vertex AI (projekt ktzr-asystent), region global, temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`); narzędzia: google_search + url_context (W1); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne. Możesz korzystać z wyszukiwania w internecie; jeśli z niego korzystasz, na końcu podaj adresy źródeł.”; zapytania: 6; domeny źródeł z groundingu: 10 (10 różnych); tokeny: wejście 426, wyjście 2881, rozumowanie 5001
+- Data odpowiedzi systemu: 2026-10-18 · czas 214.1 s · warunki: model gemini-4-argon, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT), region global, temperatura 0.1, poziom rozumowania: high (`poziom_rozumowania: high`); narzędzia: google_search + url_context (W1); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne. Możesz korzystać z wyszukiwania w internecie; jeśli z niego korzystasz, na końcu podaj adresy źródeł.”; zapytania: 6; domeny źródeł z groundingu: 10 (10 różnych); tokeny: wejście 426, wyjście 2881, rozumowanie 5001
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 

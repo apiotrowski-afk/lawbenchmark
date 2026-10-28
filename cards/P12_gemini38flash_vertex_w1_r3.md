@@ -1,7 +1,7 @@
 # Karta oceny — P12 · Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W1: Google Search + URL context) — r3 W1
 
 - Pytanie: P12 (katalog nr 1), klucz w wersji 1 (2026-10-10, zatwierdzony; kalibracja warunkowa, element „rozwidlenie”)
-- Data odpowiedzi systemu: 2026-10-17 · czas 19.1 s · warunki: model gemini-3.8-flash, Vertex AI (projekt ktzr-asystent), region global, temperatura 0.1, poziom rozumowania domyślny modelu; narzędzia: google_search + url_context (W1) — **nieużyte** (zapytania: 0, źródła: 0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne. Możesz korzystać z wyszukiwania w internecie; jeśli z niego korzystasz, na końcu podaj adresy źródeł.”; tokeny: wejście 212, wyjście 1632, rozumowanie 842
+- Data odpowiedzi systemu: 2026-10-17 · czas 19.1 s · warunki: model gemini-3.8-flash, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT), region global, temperatura 0.1, poziom rozumowania domyślny modelu; narzędzia: google_search + url_context (W1) — **nieużyte** (zapytania: 0, źródła: 0); prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne. Możesz korzystać z wyszukiwania w internecie; jeśli z niego korzystasz, na końcu podaj adresy źródeł.”; tokeny: wejście 212, wyjście 1632, rozumowanie 842
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 

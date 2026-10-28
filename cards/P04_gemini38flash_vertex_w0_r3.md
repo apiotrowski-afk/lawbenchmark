@@ -1,7 +1,7 @@
 # Karta oceny — P04 · Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania) — r3 W0 (rozszerzenie 2026-10-18)
 
 - Pytanie: P04 (katalog nr 25), klucz w wersji 3 (2026-10-18, zatwierdzony przez Adama 2026-10-18 — podwójna pułapka; decyzja może być ostateczna i prawomocna)
-- Data odpowiedzi systemu: 2026-10-18 · czas 22.2 s · warunki: model gemini-3.8-flash, Vertex AI (projekt ktzr-asystent, region global), temperatura 0.1, poziom rozumowania: domyślny modelu, narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 84, wyjście 1019, w tym rozumowanie 1889
+- Data odpowiedzi systemu: 2026-10-18 · czas 22.2 s · warunki: model gemini-3.8-flash, Vertex AI (projekt GCP z GOOGLE_CLOUD_PROJECT, region global), temperatura 0.1, poziom rozumowania: domyślny modelu, narzędzia: brak, wyszukiwanie: brak (W0); zapytania: 0, źródła: 0; tokeny: wejście 84, wyjście 1019, w tym rozumowanie 1889
 - Data stanu prawnego klucza: 2026-10-01
 - Oceniający: Claude (wstępnie, do weryfikacji przez A. Piotrowskiego)
 
@@ -38,7 +38,7 @@
 
 P1 ślady narzędzi: brak (narzedzia: [], wyszukiwanie: false; zapytania: [], zrodla: []) · P2 nie badano · P3 źródła deklarowane w tekście: ustawa z 24.03.1920 o nabywaniu nieruchomości przez cudzoziemców (art. 1 ust. 1), k.p.a. (art. 16 § 1 i § 3, 127 § 3, 127a, 130 § 1 i 2, 217), p.p.s.a. (art. 53 § 1); bez linków i orzeczeń · P4 wiedza z wag modelu: obie przesłanki (ostateczność i prawomocność) oddane trafnie z art. 16 § 3 cytowanym dosłownie — w przeciwieństwie do typowego błędu opisanego w kluczu v3; potoczny termin „klauzula ostateczności” przejęty z praktyki jako forma podstawowa; skarga do WSA opisana tak, jakby przysługiwała dopiero od decyzji ostatecznej.
 
-Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-3.8-flash · projekt ktzr-asystent · region global · temperatura 0.1 · poziom_rozumowania: domyślny modelu · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 22.2 s · pytanie: `tekst_benchmarkowy` klucza v3 · błąd: brak.
+Warunki biegu (z nagłówka odpowiedzi): system „Gemini gemini-3.8-flash (Vertex AI, czysty model — bez narzędzi KTZR, W0 bez wyszukiwania)” · model gemini-3.8-flash · projekt GCP z GOOGLE_CLOUD_PROJECT · region global · temperatura 0.1 · poziom_rozumowania: domyślny modelu · prompt_systemowy: „Jesteś asystentem prawnika w polskiej kancelarii. Odpowiadasz po polsku, na gruncie prawa polskiego i unijnego, podając podstawy prawne.” · czas 22.2 s · pytanie: `tekst_benchmarkowy` klucza v3 · błąd: brak.
 
 Specyfikacja oceny: v1.0.1 (2026-10-11) z przykładami granicznymi z 2026-10-17 oraz zasadami soft law, A6_zakres, blokady dostawcy i regułami B1–B7 z 2026-10-18 — karta wypełniona wstępnie 2026-10-18.
 

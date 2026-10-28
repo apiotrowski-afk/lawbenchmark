@@ -120,6 +120,7 @@ strona = f"""<!doctype html>
 <title>LawBenchmark.pl — modele językowe a polskie prawo</title>
 <meta name="description" content="Jak modele językowe odpowiadają na pytania z polskiego prawa: poprawność, halucynacje i oparcie w źródłach urzędowych, bez narzędzi i z wyszukiwaniem. Projekt LexAlpha Lab.">
 <link rel="canonical" href="https://lawbenchmark.pl/">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta property="og:title" content="LawBenchmark.pl — modele językowe a polskie prawo">
 <meta property="og:description" content="Benchmark 02: 8 modeli, 10 pytań, 160 odpowiedzi, każde powołanie sprawdzone w źródle urzędowym.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -259,4 +260,10 @@ b.addEventListener('click',function(){{var c=r.getAttribute('data-theme')||(matc
 </html>
 """
 open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(strona)
+open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8").write("User-agent: *\nAllow: /\nSitemap: https://lawbenchmark.pl/sitemap.xml\n")
+open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8").write(
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    '<url><loc>https://lawbenchmark.pl/</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq></url>\n'
+    '<url><loc>https://lawbenchmark.pl/reports/lexalpha_lab_benchmark_02.pdf</loc><lastmod>2026-10-27</lastmod></url>\n'
+    '<url><loc>https://lawbenchmark.pl/reports/Piotrowski_2026_correctly_grounded_v1.2.pdf</loc><lastmod>2026-10-26</lastmod></url>\n</urlset>\n')
 print("site/index.html OK;", len(strona), "znaków;", len(WIERSZE), "wierszy wyników")

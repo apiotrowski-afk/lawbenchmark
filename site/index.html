@@ -92,7 +92,7 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font
 <header class="hero"><div class="wrap">
 <h1>Jak modele językowe odpowiadają na pytania z polskiego prawa?</h1>
 <p class="lead">Badamy poprawność odpowiedzi, halucynacje i oparcie w źródłach urzędowych — bez narzędzi oraz z wyszukiwaniem w internecie.</p>
-<div class="zakres"><span><b>10</b> pytań</span><span><b>8</b> modeli, 3 dostawców</span><span><b>2</b> warunki: W0 / W1</span><span><b>160</b> odpowiedzi</span><span><b>1 454</b> powołań sprawdzonych u źródła</span></div>
+<div class="zakres"><span><b>10</b> pytań</span><span><b>8</b> modeli, 3 dostawców</span><span><b>2</b> warunki: W0 / W1</span><span><b>160</b> odpowiedzi</span><span><b>1 454</b> powołań, <b>1 436</b> sprawdzonych u źródła</span></div>
 <div class="meta">Benchmark 02 · raport wersja 1.0 z 27.10.2026 · karty wzorcowe w stanie z 25.10.2026 · stan prawny 1.10.2026 · specyfikacja oceny v1.0.4 (punktacja jak w 1.0.1)</div>
 <a class="btn p" href="#wyniki">Zobacz wyniki</a><a class="btn s" href="/benchmark/02/pytania">Dziesięć pytań</a><a class="btn s" href="/metodologia">Metodologia</a><a class="btn s" href="/reports/lexalpha_lab_benchmark_02.pdf">Raport (PDF, 44 str.)</a>
 <p class="uwaga">Wyniki dotyczą tego zestawu pytań i tych konfiguracji: dziesięć pytań, jedna seria, karty sprawdzał jeden prawnik. Nie stanowią ogólnego rankingu produktów.</p>
@@ -110,7 +110,7 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font
 <section id="wyniki"><div class="wrap">
 <h2>Wyniki: bez narzędzi (W0) i z wyszukiwaniem (W1)</h2>
 <p class="pod">Każdy model odpowiadał na te same dziesięć pytań dwa razy. Jedna odpowiedź to 10 punktów procentowych; linia łączy oba warunki tego samego modelu i pokazuje także pogorszenie.</p>
-<div class="dwa wyk"><svg viewBox="0 0 470 310" role="img" aria-label="Poprawnie ugruntowane (z 10) — więcej = lepiej" class="wykres"><style>.pt{font:600 14px Inter,system-ui,sans-serif;fill:var(--ink)} .et{font:500 13px Inter,system-ui,sans-serif;fill:var(--ink)} .os{font:12px Inter,system-ui,sans-serif;fill:var(--muted)} .lb{font:600 12px Inter,system-ui,sans-serif;fill:var(--muted);font-variant-numeric:tabular-nums} .siatka{stroke:var(--line);stroke-width:1} .lacz{stroke:var(--muted);stroke-width:2;opacity:.6} .w0{fill:var(--surface);stroke-width:2.5}</style><text x="16" y="22" class="pt">Poprawnie ugruntowane (z 10) — więcej = lepiej</text>
+<div class="dwa wyk"><svg viewBox="0 0 540 310" role="img" aria-label="Poprawnie ugruntowane (z 10) — więcej = lepiej" class="wykres"><style>.pt{font:600 14px Inter,system-ui,sans-serif;fill:var(--ink)} .et{font:500 13px Inter,system-ui,sans-serif;fill:var(--ink)} .os{font:12px Inter,system-ui,sans-serif;fill:var(--muted)} .lb{font:600 12px Inter,system-ui,sans-serif;fill:var(--muted);font-variant-numeric:tabular-nums} .siatka{stroke:var(--line);stroke-width:1} .lacz{stroke:var(--muted);stroke-width:2;opacity:.6} .w0{fill:var(--surface);stroke-width:2.5}</style><text x="16" y="22" class="pt">Poprawnie ugruntowane (z 10) — więcej = lepiej</text>
 <line x1="150" y1="34" x2="150" y2="280" class="siatka"/><text x="150" y="292" class="os" text-anchor="middle">0</text>
 <line x1="210" y1="34" x2="210" y2="280" class="siatka"/><text x="210" y="292" class="os" text-anchor="middle">2</text>
 <line x1="270" y1="34" x2="270" y2="280" class="siatka"/><text x="270" y="292" class="os" text-anchor="middle">4</text>
@@ -144,9 +144,11 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font
 <text x="140" y="174" class="et" text-anchor="end">Claude Sonnet 5.5</text>
 <circle cx="150" cy="170" r="7" style="fill:var(--ok)"/><circle cx="150" cy="170" r="3" class="w0" style="stroke:var(--ok)"/>
 <text x="150" y="159" class="lb" text-anchor="middle" style="fill:var(--ok)">0</text>
+<text x="162" y="174" class="os">bez zmiany</text>
 <text x="140" y="204" class="et" text-anchor="end">Claude Haiku 5.5</text>
 <circle cx="150" cy="200" r="7" style="fill:var(--ok)"/><circle cx="150" cy="200" r="3" class="w0" style="stroke:var(--ok)"/>
 <text x="150" y="189" class="lb" text-anchor="middle" style="fill:var(--ok)">0</text>
+<text x="162" y="204" class="os">bez zmiany</text>
 <text x="140" y="234" class="et" text-anchor="end">Gemini 3.8 Flash</text>
 <line x1="210" y1="230" x2="270" y2="230" class="lacz"/>
 <circle cx="210" cy="230" r="6" class="w0" style="stroke:var(--ok)"/>
@@ -158,7 +160,7 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font
 <circle cx="210" cy="260" r="6" class="w0" style="stroke:var(--ok)"/>
 <circle cx="180" cy="260" r="6" style="fill:var(--ok)"/>
 <text x="210" y="280" class="lb" text-anchor="middle">2</text>
-<text x="180" y="249" class="lb" text-anchor="middle" style="fill:var(--ok)">1</text></svg><svg viewBox="0 0 470 310" role="img" aria-label="Odpowiedzi z halucynacją (z 10) — mniej = lepiej" class="wykres"><style>.pt{font:600 14px Inter,system-ui,sans-serif;fill:var(--ink)} .et{font:500 13px Inter,system-ui,sans-serif;fill:var(--ink)} .os{font:12px Inter,system-ui,sans-serif;fill:var(--muted)} .lb{font:600 12px Inter,system-ui,sans-serif;fill:var(--muted);font-variant-numeric:tabular-nums} .siatka{stroke:var(--line);stroke-width:1} .lacz{stroke:var(--muted);stroke-width:2;opacity:.6} .w0{fill:var(--surface);stroke-width:2.5}</style><text x="16" y="22" class="pt">Odpowiedzi z halucynacją (z 10) — mniej = lepiej</text>
+<text x="180" y="249" class="lb" text-anchor="middle" style="fill:var(--ok)">1</text></svg><svg viewBox="0 0 540 310" role="img" aria-label="Odpowiedzi z halucynacją (z 10) — mniej = lepiej" class="wykres"><style>.pt{font:600 14px Inter,system-ui,sans-serif;fill:var(--ink)} .et{font:500 13px Inter,system-ui,sans-serif;fill:var(--ink)} .os{font:12px Inter,system-ui,sans-serif;fill:var(--muted)} .lb{font:600 12px Inter,system-ui,sans-serif;fill:var(--muted);font-variant-numeric:tabular-nums} .siatka{stroke:var(--line);stroke-width:1} .lacz{stroke:var(--muted);stroke-width:2;opacity:.6} .w0{fill:var(--surface);stroke-width:2.5}</style><text x="16" y="22" class="pt">Odpowiedzi z halucynacją (z 10) — mniej = lepiej</text>
 <line x1="150" y1="34" x2="150" y2="280" class="siatka"/><text x="150" y="292" class="os" text-anchor="middle">0</text>
 <line x1="210" y1="34" x2="210" y2="280" class="siatka"/><text x="210" y="292" class="os" text-anchor="middle">2</text>
 <line x1="270" y1="34" x2="270" y2="280" class="siatka"/><text x="270" y="292" class="os" text-anchor="middle">4</text>
@@ -168,6 +170,7 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font
 <text x="140" y="54" class="et" text-anchor="end">GPT-6.1 Sol</text>
 <circle cx="180" cy="50" r="7" style="fill:var(--bad)"/><circle cx="180" cy="50" r="3" class="w0" style="stroke:var(--bad)"/>
 <text x="180" y="39" class="lb" text-anchor="middle" style="fill:var(--bad)">1</text>
+<text x="192" y="54" class="os">bez zmiany</text>
 <text x="140" y="84" class="et" text-anchor="end">GPT-6 Astra</text>
 <line x1="180" y1="80" x2="150" y2="80" class="lacz"/>
 <circle cx="180" cy="80" r="6" class="w0" style="stroke:var(--bad)"/>
@@ -189,6 +192,7 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font
 <text x="140" y="174" class="et" text-anchor="end">Claude Sonnet 5.5</text>
 <circle cx="420" cy="170" r="7" style="fill:var(--bad)"/><circle cx="420" cy="170" r="3" class="w0" style="stroke:var(--bad)"/>
 <text x="420" y="159" class="lb" text-anchor="middle" style="fill:var(--bad)">9</text>
+<text x="432" y="174" class="os">bez zmiany</text>
 <text x="140" y="204" class="et" text-anchor="end">Claude Haiku 5.5</text>
 <line x1="420" y1="200" x2="390" y2="200" class="lacz"/>
 <circle cx="420" cy="200" r="6" class="w0" style="stroke:var(--bad)"/>
@@ -203,8 +207,9 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font
 <text x="300" y="219" class="lb" text-anchor="middle" style="fill:var(--bad)">5</text>
 <text x="140" y="264" class="et" text-anchor="end">Gemini 4 Argon</text>
 <circle cx="390" cy="260" r="7" style="fill:var(--bad)"/><circle cx="390" cy="260" r="3" class="w0" style="stroke:var(--bad)"/>
-<text x="390" y="249" class="lb" text-anchor="middle" style="fill:var(--bad)">8</text></svg></div>
-<div class="legenda"><span><i></i>W0 — bez narzędzi</span><span><i class="f"></i>W1 — z wyszukiwaniem w internecie</span><span>Kolejność modeli jak w raporcie (dostawcami), nie według wyniku.</span></div>
+<text x="390" y="249" class="lb" text-anchor="middle" style="fill:var(--bad)">8</text>
+<text x="402" y="264" class="os">bez zmiany</text></svg></div>
+<div class="legenda"><span><i></i>W0 — bez narzędzi</span><span><i class="f"></i>W1 — z wyszukiwaniem w internecie</span><span>Jeden punkt z dopiskiem „bez zmiany” = ten sam wynik w obu warunkach.</span><span>Kolejność modeli jak w raporcie (dostawcami), nie według wyniku.</span></div>
 <h2 style="margin-top:36px;font-size:22px">Wyniki szczegółowe</h2>
 <p class="pod">Blok A — kryteria obiektywne (rdzeń, podstawy prawne, powołania), blok B — ocenne (kalibracja, kompletność, użyteczność). Koszt serii dziesięciu odpowiedzi według cenników z 18.10.2026 jako równoważnik API; „≥” — dolne oszacowanie, bo narzędzie nie zapisuje części zużycia. Wyniki per pytanie: <a href="/benchmark/02/pytania">dziesięć pytań</a>.</p>
 <div class="scroll pary-s"><table class="pary"><thead><tr><th>Model</th><th>Warunek</th><th class="num">Poprawnie ugruntowane <small>z 10</small></th><th class="num">Halucynacje <small>z 10</small></th><th class="num">Blok A <small>%</small></th><th class="num">Blok B <small>%</small></th><th class="num">Koszt serii <small>USD</small></th><th class="num">USD / poprawnie ugruntowaną</th><th class="num">Sprawdzone powołania</th></tr></thead><tbody>

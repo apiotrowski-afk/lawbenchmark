@@ -109,6 +109,7 @@ def panel(klucz, tytul, kolor):
         if a == b:
             out.append(f'<circle cx="{xb:.0f}" cy="{y}" r="7" style="fill:{kolor}"/><circle cx="{xb:.0f}" cy="{y}" r="3" class="w0" style="stroke:{kolor}"/>')
             out.append(f'<text x="{xb:.0f}" y="{y - 11}" class="lb" text-anchor="middle" style="fill:{kolor}">{b}</text>')
+            out.append(f'<text x="{xb + 12:.0f}" y="{y + 4}" class="os">bez zmiany</text>')
             continue
         out.append(f'<line x1="{xa:.0f}" y1="{y}" x2="{xb:.0f}" y2="{y}" class="lacz"/>')
         out.append(f'<circle cx="{xa:.0f}" cy="{y}" r="6" class="w0" style="stroke:{kolor}"/>')
@@ -116,7 +117,7 @@ def panel(klucz, tytul, kolor):
         ya = y + 20 if abs(a - b) <= 1 else y - 11
         out.append(f'<text x="{xa:.0f}" y="{ya}" class="lb" text-anchor="middle">{a}</text>')
         out.append(f'<text x="{xb:.0f}" y="{y - 11}" class="lb" text-anchor="middle" style="fill:{kolor}">{b}</text>')
-    return (f'<svg viewBox="0 0 470 {wys}" role="img" aria-label="{E(tytul)}" class="wykres">'
+    return (f'<svg viewBox="0 0 540 {wys}" role="img" aria-label="{E(tytul)}" class="wykres">'
             '<style>.pt{font:600 14px Inter,system-ui,sans-serif;fill:var(--ink)} .et{font:500 13px Inter,system-ui,sans-serif;fill:var(--ink)}'
             ' .os{font:12px Inter,system-ui,sans-serif;fill:var(--muted)} .lb{font:600 12px Inter,system-ui,sans-serif;fill:var(--muted);font-variant-numeric:tabular-nums}'
             ' .siatka{stroke:var(--line);stroke-width:1} .lacz{stroke:var(--muted);stroke-width:2;opacity:.6} .w0{fill:var(--surface);stroke-width:2.5}</style>'
@@ -313,6 +314,9 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
     return dok
 
 
+spr_n, spr_m = L["spr"]
+spr_n_fmt = f"{spr_n:,}".replace(",", "\u00a0")
+
 # =====================================================================
 # 1. Strona główna
 # =====================================================================
@@ -320,7 +324,7 @@ GLOWNA = f"""
 <header class="hero"><div class="wrap">
 <h1>Jak modele językowe odpowiadają na pytania z polskiego prawa?</h1>
 <p class="lead">Badamy poprawność odpowiedzi, halucynacje i oparcie w źródłach urzędowych — bez narzędzi oraz z wyszukiwaniem w internecie.</p>
-<div class="zakres"><span><b>10</b> pytań</span><span><b>8</b> modeli, 3 dostawców</span><span><b>2</b> warunki: W0 / W1</span><span><b>160</b> odpowiedzi</span><span><b>1 454</b> powołań sprawdzonych u źródła</span></div>
+<div class="zakres"><span><b>10</b> pytań</span><span><b>8</b> modeli, 3 dostawców</span><span><b>2</b> warunki: W0 / W1</span><span><b>160</b> odpowiedzi</span><span><b>1 454</b> powołań, <b>{spr_n_fmt}</b> sprawdzonych u źródła</span></div>
 <div class="meta">Benchmark 02 · raport wersja {WERSJA_RAPORTU} z {DATA_RAPORTU} · karty wzorcowe w stanie z {DATA_KART} · stan prawny 1.10.2026 · specyfikacja oceny v1.0.4 (punktacja jak w 1.0.1)</div>
 <a class="btn p" href="#wyniki">Zobacz wyniki</a><a class="btn s" href="/benchmark/02/pytania">Dziesięć pytań</a><a class="btn s" href="/metodologia">Metodologia</a><a class="btn s" href="/reports/lexalpha_lab_benchmark_02.pdf">Raport (PDF, 44 str.)</a>
 <p class="uwaga">Wyniki dotyczą tego zestawu pytań i tych konfiguracji: dziesięć pytań, jedna seria, karty sprawdzał jeden prawnik. Nie stanowią ogólnego rankingu produktów.</p>
@@ -339,7 +343,7 @@ GLOWNA = f"""
 <h2>Wyniki: bez narzędzi (W0) i z wyszukiwaniem (W1)</h2>
 <p class="pod">Każdy model odpowiadał na te same dziesięć pytań dwa razy. Jedna odpowiedź to 10 punktów procentowych; linia łączy oba warunki tego samego modelu i pokazuje także pogorszenie.</p>
 {WYKRES}
-<div class="legenda"><span><i></i>W0 — bez narzędzi</span><span><i class="f"></i>W1 — z wyszukiwaniem w internecie</span><span>Kolejność modeli jak w raporcie (dostawcami), nie według wyniku.</span></div>
+<div class="legenda"><span><i></i>W0 — bez narzędzi</span><span><i class="f"></i>W1 — z wyszukiwaniem w internecie</span><span>Jeden punkt z dopiskiem „bez zmiany” = ten sam wynik w obu warunkach.</span><span>Kolejność modeli jak w raporcie (dostawcami), nie według wyniku.</span></div>
 <h2 style="margin-top:36px;font-size:22px">Wyniki szczegółowe</h2>
 <p class="pod">Blok A — kryteria obiektywne (rdzeń, podstawy prawne, powołania), blok B — ocenne (kalibracja, kompletność, użyteczność). Koszt serii dziesięciu odpowiedzi według cenników z 18.10.2026 jako równoważnik API; „≥” — dolne oszacowanie, bo narzędzie nie zapisuje części zużycia. Wyniki per pytanie: <a href="/benchmark/02/pytania">dziesięć pytań</a>.</p>
 <div class="scroll pary-s">{TABELA}</div>
@@ -416,7 +420,6 @@ for c in ZRODLA_T:
 ZR_HTML.append("</tbody></table></div>")
 ZR_HTML = "\n".join(ZR_HTML)
 
-spr_n, spr_m = L["spr"]
 METODOLOGIA = f"""
 <header class="pod-hero"><div class="wrap">
 <h1>Metodologia oceny</h1>
@@ -564,6 +567,7 @@ METODOLOGIA = f"""
 <li><b>Reguły doprecyzowywano w trakcie.</b> Trzy zmiany definicji A6 między 9 a 11.10.2026, kolejne doprecyzowania do 25.10; dwa klucze zmieniono po zebraniu odpowiedzi.</li>
 <li><b>Konfiguracje dostawców różnią się</b> (CLI z subskrypcji, API, różne narzędzia wyszukiwania), a część kosztów jest dolną granicą.</li>
 <li><b>Pytania są publiczne</b> od października 2026 r., więc kolejne pomiary na tym samym zbiorze mogą być skażone ekspozycją.</li>
+<li><b>Skład modeli.</b> Claude Fable 5.1, najnowszy model Anthropic, nie wszedł do serii z 17–18.10.2026: ma tylko pięć odpowiedzi z pilotażu w W0, bez kompletu W1, więc raport go nie obejmuje. Jest zaplanowany na następną serię w obu warunkach. Skład to migawka z października 2026 r.; nowsze wersje modeli nie są w nim ujęte.</li>
 </ul>
 <p>Z tych powodów wyniki należy czytać jako ilustrację kryteriów, nie ranking. Plan kolejnych edycji: nowe, nieujawnione pytania; klucze zatwierdzone przed zebraniem odpowiedzi i zamrożona specyfikacja; co najmniej trzy biegi na system z przedziałami ufności; drugi prawnik na próbce kart; weryfikacja powołań jako osobny krok przed sędziowaniem.</p>
 </section>

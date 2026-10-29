@@ -29,7 +29,7 @@ BAZA = "https://lawbenchmark.pl"
 DATA_KART, WERSJA_RAPORTU, DATA_RAPORTU = "25.10.2026", "1.1", "29.10.2026"
 DATA_STRONY = "2026-10-29"          # lastmod nowych stron; strona główna ma własną datę niżej
 REPO_URL = "https://github.com/apiotrowski-afk/lawbenchmark"   # publiczne repozytorium (odnośniki do kart, distribution w JSON-LD)
-HF_URL = None                       # karta zbioru na Hugging Face — po publikacji
+HF_URL = "https://huggingface.co/datasets/LexAlphaLab/lawbenchmark-b02"   # zbiór na Hugging Face (bramka z automatyczną akceptacją)
 
 sys.path.insert(0, SRC)
 os.chdir(SRC)
@@ -940,6 +940,11 @@ DANE = f"""
 <tr><td><code>reports/</code></td><td>raport Benchmark 02 (PDF, HTML, źródła Markdown, <code>dane.py</code>) i artykuł v1.2</td><td class="num">2</td></tr>
 <tr><td><code>tools/</code></td><td>skrypty biegów systemów i sędziów, porównanie sędziów z kartami, warstwa weryfikacji, eksport JSONL, budowa tej strony</td><td class="num">—</td></tr>
 </tbody></table></div>
+</section>
+<section>{kot("hugging-face", "Zbiór na Hugging Face")}
+<p>Ta sama warstwa maszynowa jest dostępna jako zbiór <a href="{HF_URL}">LexAlphaLab/lawbenchmark-b02</a> na Hugging Face: sześć tabel (karty, odpowiedzi, pytania, klucze, oceny sędziów, warstwa weryfikacji) jako zbiór testowy. Pobranie wymaga zaakceptowania krótkiej informacji z prośbą, by nie trenować modeli na tych danych; akceptacja jest automatyczna. Pliki w repozytorium GitHub są dostępne bez bramki.</p>
+<pre>from datasets import load_dataset
+cards = load_dataset("LexAlphaLab/lawbenchmark-b02", "cards", split="test")</pre>
 </section>
 <section>{kot("odtworzenie", "Jak odtworzyć wyniki")}
 <ol>

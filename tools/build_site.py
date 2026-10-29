@@ -29,6 +29,7 @@ BAZA = "https://lawbenchmark.pl"
 DATA_KART, WERSJA_RAPORTU, DATA_RAPORTU = "25.10.2026", "1.1", "29.10.2026"
 DATA_STRONY = "2026-10-29"          # lastmod nowych stron; strona główna ma własną datę niżej
 REPO_URL = "https://github.com/apiotrowski-afk/lawbenchmark"   # publiczne repozytorium (odnośniki do kart, distribution w JSON-LD)
+GA_ID = None                        # identyfikator pomiaru GA4 (G-…); None = brak banera i brak analityki
 HF_URL = "https://huggingface.co/datasets/LexAlphaLab/lawbenchmark-b02"   # zbiór na Hugging Face (bramka z automatyczną akceptacją)
 
 sys.path.insert(0, SRC)
@@ -353,6 +354,10 @@ footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:5
 .kb-d summary .kb-n::after{content:"+";font:500 18px var(--mono);color:var(--muted);margin-left:auto;padding-left:12px} .kb-d[open] summary .kb-n::after{content:"−"} .kb-d summary:hover .kb-n b{text-decoration:underline}
 .kb-n{flex:1} .kb-lst{padding:0 0 18px} .kb-lst .chips{gap:6px} .kb-lst .chip{text-decoration:none;color:var(--ink);background:var(--soft)} .kb-lst .chip:hover{background:var(--ink);color:var(--bg)}
 .siatka-pyt a[hidden]{display:none} .s16 a rect{cursor:pointer} .s16 a:hover rect{stroke:var(--ink);stroke-width:2}
+.zgoda{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);box-shadow:0 -6px 24px rgba(0,0,0,.08);
+padding:16px max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:center}
+.zgoda[hidden]{display:none} [hidden]{display:none!important}
+.zgoda p{margin:0;max-width:46em;font-size:14.5px} .zgoda div{display:flex;gap:8px} .zgoda .btn{margin:0}
 /* ===== STYL v3 (29.10.2026): oprawa „instrumentu” zamiast dokumentu. Wzorce: legalbenchmarks.ai (grotesk, powietrze, pigułki),
    vals.ai (rama kolumny, etykiety monospace, tabela jako rdzeń). Szeryf tylko w H1; reszta Hanken Grotesk; etykiety IBM Plex Mono. ===== */
 :root{--bg:#ffffff;--surface:#ffffff;--ink:#17171a;--muted:#5d5f66;--line:#e3e3e6;--soft:#f4f4f5;--panel:#fafafa;--brand:#1d4f8f;--on-brand:#ffffff;
@@ -408,12 +413,13 @@ b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(match
 (function(){var t=document.querySelector('table.pary');var g=document.querySelector('.sortuj:not([data-filtr])');
 if(t&&g){g.addEventListener('click',function(e){var k=e.target.closest('button');if(!k)return;var s=k.dataset.sort;
 var tb=[].slice.call(t.tBodies);tb.sort(function(a,b){var x=parseFloat(a.dataset[s]),y=parseFloat(b.dataset[s]);return s==='hal'||s==='idx'?x-y:y-x;});
-tb.forEach(function(x){t.appendChild(x);});[].forEach.call(g.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===k?'true':'false');});});}
+tb.forEach(function(x){t.appendChild(x);});if(window.gtag)gtag('event','sortowanie_tabeli',{kryterium:s});[].forEach.call(g.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===k?'true':'false');});});}
 var w=document.querySelectorAll('[data-m]');[].forEach.call(w,function(el){el.addEventListener('mouseenter',function(){var m=el.dataset.m;[].forEach.call(w,function(x){x.classList.toggle('hl',x.dataset.m===m);});});
 el.addEventListener('mouseleave',function(){[].forEach.call(w,function(x){x.classList.remove('hl');});});});
 var f=document.querySelector('.sortuj[data-filtr]');if(f){var l=document.querySelector(f.dataset.filtr);f.addEventListener('click',function(e){var k=e.target.closest('button');if(!k)return;var v=k.dataset.f;
-[].forEach.call(l.children,function(a){if(v==='*'){a.hidden=false;return;}var p=v.split('=');a.hidden=a.dataset[p[0]]!==p[1];});
-[].forEach.call(f.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===k?'true':'false');});});}})();
+[].forEach.call(l.children,function(a){if(v==='*'){a.hidden=false;return;}var p=v.split('=');a.hidden=a.dataset[p[0]]!==p[1];});if(window.gtag)gtag('event','filtr_pytan',{filtr:v});
+[].forEach.call(f.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===k?'true':'false');});});}
+[].forEach.call(document.querySelectorAll('details.kb-d'),function(d){d.addEventListener('toggle',function(){if(d.open&&window.gtag)gtag('event','klasa_bledu',{klasa:(d.querySelector('.znak')||{}).textContent});});});})();
 </script>"""
 NAV = [("/#wyniki", "Wyniki"), ("/benchmark/02/pytania", "Pytania"), ("/benchmark/01", "Kazus"), ("/metodologia", "Metodologia"), ("/raporty", "Raporty"), ("/dane", "Dane"), ("/wspolpraca", "Współpraca"), ("/en", "EN")]
 STOPKA_PL = ('<div class="kol"><div><h4>O projekcie</h4><p><b>LawBenchmark.pl</b> prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii '
@@ -422,7 +428,8 @@ STOPKA_PL = ('<div class="kol"><div><h4>O projekcie</h4><p><b>LawBenchmark.pl</b
              'Benchmark 02 nie obejmuje produktów LexAlpha ani KTZR; wyników produktów ocenianych w pilotażu Benchmark 01 nie publikujemy. Benchmark nie jest poradą prawną.</p>'
              '<div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div>'
              '<div><h4>Strony</h4><p><a href="/#wyniki">Wyniki</a><br><a href="/benchmark/02/pytania">Dziesięć pytań</a><br><a href="/benchmark/01">Kazus SKD (pilotaż)</a><br><a href="/metodologia">Metodologia</a><br><a href="/raporty">Raporty</a><br><a href="/dane">Dane i kod</a><br><a href="/wspolpraca">Współpraca</a><br><a href="/dolacz">Dołącz do nas</a><br><a href="/en">English</a></p></div>'
-             '<div><h4>Licencja i kontakt</h4><p>Teksty, klucze i karty: CC BY 4.0. Kod: MIT. Cytuj jako „LexAlpha Lab, LawBenchmark.pl”.</p><p>a.piotrowski@ktzr.pl</p></div></div>')
+             '<div><h4>Licencja i kontakt</h4><p>Teksty, klucze i karty: CC BY 4.0. Kod: MIT. Cytuj jako „LexAlpha Lab, LawBenchmark.pl”.</p><p>a.piotrowski@ktzr.pl</p>'
+             '<p><a href="/prywatnosc">Prywatność i cookies</a>' + (' · <a href="#" data-ustawienia-cookie>Ustawienia cookies</a>' if GA_ID else '') + '</p></div></div>')
 STOPKA_EN = ('<div class="kol"><div><h4>About</h4><p><b>LawBenchmark.pl</b> is run by <b>LexAlpha Lab</b>, a joint research initiative of the law firm '
              '<a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk, Poland) and <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warsaw). '
              'Authors: Adam Piotrowski (attorney-at-law, partner at KTZR), Andrzej Koman (CEO, LexAlpha). Funded by the two organisations; no model provider took part. '
@@ -430,6 +437,25 @@ STOPKA_EN = ('<div class="kol"><div><h4>About</h4><p><b>LawBenchmark.pl</b> is r
              '<div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div>'
              '<div><h4>Pages</h4><p><a href="/">Results (Polish)</a><br><a href="/metodologia">Methodology (Polish)</a><br><a href="/dane">Data and code</a><br><a href="/wspolpraca">Collaboration (Polish)</a></p></div>'
              '<div><h4>Licence and contact</h4><p>Texts, keys and cards: CC BY 4.0. Code: MIT. Cite as "LexAlpha Lab, LawBenchmark.pl".</p><p>a.piotrowski@ktzr.pl</p></div></div>')
+
+# ---------- zgoda na pliki cookie i Google Analytics 4 (tryb podstawowy: gtag ładowany WYŁĄCZNIE po zgodzie) ----------
+ZGODA_HTML = ("" if not GA_ID else f"""<div class="zgoda" id="zgoda" role="dialog" aria-live="polite" aria-label="Pliki cookie" hidden>
+<p>Za Twoją zgodą używamy plików cookie Google Analytics, żeby wiedzieć, które strony i materiały są czytane. Bez zgody nie ładujemy żadnego skryptu analitycznego. <a href="/prywatnosc">Prywatność i cookies</a></p>
+<div><button type="button" class="btn p" data-zgoda="tak">Akceptuję</button><button type="button" class="btn p" data-zgoda="nie">Odrzucam</button></div>
+</div>
+<script>
+(function(){{var ID="{GA_ID}",K="zgoda_analityka",b=document.getElementById('zgoda');
+function czytaj(){{try{{return localStorage.getItem(K);}}catch(e){{return null;}}}}
+function zapisz(v){{try{{localStorage.setItem(K,v);}}catch(e){{}}}}
+function laduj(){{if(window.__ga)return;window.__ga=1;window.dataLayer=window.dataLayer||[];window.gtag=function(){{dataLayer.push(arguments);}};
+gtag('js',new Date());gtag('config',ID);var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);}}
+function usunCookie(){{document.cookie.split(';').forEach(function(c){{var n=c.split('=')[0].trim();if(n.indexOf('_ga')===0){{['','.lawbenchmark.pl','lawbenchmark.pl'].forEach(function(d){{document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');}});}}}});}}
+var z=czytaj();if(z==='tak')laduj();else if(z!=='nie')b.hidden=false;
+b.addEventListener('click',function(e){{var k=e.target.closest('[data-zgoda]');if(!k)return;var v=k.dataset.zgoda;var bylo=czytaj();zapisz(v);b.hidden=true;
+if(v==='tak')laduj();else{{usunCookie();if(bylo==='tak')location.reload();}}}});
+document.addEventListener('click',function(e){{if(e.target.closest('[data-ustawienia-cookie]')){{e.preventDefault();b.hidden=false;}}}});}})();
+</script>""")
+
 STRONY = []   # (ścieżka URL bez domeny, lastmod) — do mapy witryny
 
 
@@ -463,6 +489,7 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
         hl = "".join(f'<link rel="alternate" hreflang="{k}" href="{BAZA}{v}">\n' for k, v in hreflang.items())
     nav_html = "".join(f'<a href="{E(u)}"{" class=\"tu\"" if u == tu else ""}>{E(n)}</a>' for u, n in NAV)
     stopka = STOPKA_EN if lang == "en" else STOPKA_PL
+    zgoda_html = ZGODA_HTML if GA_ID else ""
     dok = f"""<!doctype html>
 <html lang="{lang}">
 <head>
@@ -496,6 +523,7 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
 {okr_html}
 {tresc}
 <footer><div class="wrap">{stopka}</div></footer>
+{zgoda_html}
 {SKRYPT}
 </body>
 </html>
@@ -1289,6 +1317,40 @@ DOLACZ = f"""
 strona("/dolacz", "Dołącz do nas — LawBenchmark.pl",
        "Zespół LawBenchmark szuka prawników do niezależnej oceny odpowiedzi systemów AI, praktyków z pytaniami z polskiego prawa, badaczy i inżynierów do warstwy weryfikacji powołań. Zasady udziału i kontakt.",
        DOLACZ, okr=[("Dołącz do nas", None)], tu="/dolacz")
+
+# =====================================================================
+# 5d. Prywatność i cookies
+# =====================================================================
+PRYWATNOSC = f"""
+<header class="pod-hero"><div class="wrap">
+<h1>Prywatność i pliki cookie</h1>
+<p class="lead">Jakie dane zbiera ta strona, na jakiej podstawie i jak zmienić decyzję.</p>
+<div class="meta">Obowiązuje od 29.10.2026</div>
+</div></header>
+<article><div class="wrap">
+<section>{kot("administrator", "Administrator danych")}
+<p>Administratorem danych osobowych przetwarzanych na stronie lawbenchmark.pl jest Kancelaria Radców Prawnych Żurawska Piotrowski i Wspólnicy sp.k. (KTZR) z siedzibą w Gdańsku. Kontakt w sprawach danych osobowych: a.piotrowski@ktzr.pl. Korespondencję przesyłaną na ten adres obsługujemy według <a href="https://www.ktzr.pl/polityka-prywatnosci/">polityki prywatności KTZR</a>.</p>
+</section>
+<section>{kot("analityka", "Google Analytics")}
+<p>Strona korzysta z Google Analytics 4 wyłącznie za Twoją zgodą. Do czasu kliknięcia „Akceptuję” w okienku na dole strony nie ładujemy żadnego skryptu Google i nie zapisujemy plików cookie analityki. Po zgodzie Google Analytics zbiera informacje o odwiedzanych podstronach, kliknięciach (w tym pobraniach raportów i przejściach do repozytorium), przybliżonej lokalizacji, rodzaju urządzenia i przeglądarki oraz stronie, z której przyszedłeś. Google Analytics 4 nie zapisuje adresów IP. Używamy tych danych tylko w zbiorczych statystykach, żeby wiedzieć, które materiały są czytane.</p>
+<ul>
+<li><b>Podstawa prawna:</b> Twoja zgoda (art. 6 ust. 1 lit. a RODO) i zgoda na przechowywanie informacji w urządzeniu końcowym wymagana przepisami o komunikacji elektronicznej.</li>
+<li><b>Pliki cookie:</b> <code>_ga</code> i <code>_ga_…</code>, ważne do dwóch lat.</li>
+<li><b>Odbiorca:</b> Google Ireland Limited jako podmiot przetwarzający. Dane mogą trafiać do Google LLC w Stanach Zjednoczonych na podstawie unijno-amerykańskich ram ochrony danych (EU-US Data Privacy Framework).</li>
+<li><b>Okres przechowywania:</b> dane zdarzeń w Google Analytics przez 14 miesięcy.</li>
+</ul>
+</section>
+<section>{kot("zmiana", "Jak zmienić decyzję")}
+<p>Zgodę możesz w każdej chwili wycofać albo udzielić jej ponownie przez link <a href="#" data-ustawienia-cookie>Ustawienia cookies</a> w stopce strony. Wycofanie zgody usuwa pliki cookie analityki i nie wpływa na zgodność z prawem przetwarzania przed jej wycofaniem. Twój wybór zapisujemy w pamięci przeglądarki, bez pliku cookie.</p>
+</section>
+<section>{kot("prawa", "Twoje prawa")}
+<p>Masz prawo dostępu do danych, ich sprostowania, usunięcia i ograniczenia przetwarzania, a także prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych. Nie podejmujemy na podstawie tych danych żadnych zautomatyzowanych decyzji.</p>
+</section>
+</div></article>
+"""
+strona("/prywatnosc", "Prywatność i pliki cookie — LawBenchmark.pl",
+       "Jakie dane zbiera lawbenchmark.pl: Google Analytics 4 wyłącznie za zgodą, pliki cookie, odbiorcy, okres przechowywania i prawa użytkownika.",
+       PRYWATNOSC, okr=[("Prywatność i cookies", None)])
 
 # =====================================================================
 # 6. EN

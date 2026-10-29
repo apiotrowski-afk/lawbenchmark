@@ -159,6 +159,8 @@ KLASA = {k[0][0]: (int(k[1]), int(k[2])) for k in KLASY if k[0][0] in KL_OPIS}
 
 # ---------- pliki ----------
 os.makedirs(os.path.join(SITE, "reports"), exist_ok=True)
+for _plik in ("og.png", "favicon.png", "apple-touch-icon.png"):  # grafiki z tools/render_assets.py (Playwright, krój strony)
+    shutil.copy2(os.path.join(REPO, "assets", _plik), os.path.join(SITE, _plik))
 for src, dst in [("reports/benchmark-02/lexalpha_lab_benchmark_02.pdf", "reports/lexalpha_lab_benchmark_02.pdf"),
                  ("reports/paper-v1.2/Piotrowski_2026_correctly_grounded_v1.2.pdf", "reports/Piotrowski_2026_correctly_grounded_v1.2.pdf")]:
     shutil.copy2(os.path.join(REPO, src), os.path.join(SITE, dst))
@@ -182,10 +184,10 @@ BIBTEX_ART = """@techreport{piotrowski2026correctly,
 CSS = """
 /* Układ: witryna danych, nie dokument. Tekst bezszeryfowy (IBM Plex Sans), nagłówki szeryfowe (Literata) tylko dla h1/h2,
    liczby w IBM Plex Mono. Jeden kolor marki (kobalt), dwa kolory semantyczne (ugruntowane / halucynacja). Chłodne neutralne. */
-:root{--brand:#1d4f8f;--brand-ink:#163d6e;--ok:#0f7a6c;--bad:#b23b2a;--bg:#f4f6f9;--surface:#ffffff;--ink:#141c26;--muted:#56626f;--line:#d9e0e8;--soft:#e9eef4;--okbg:#e4f3f0;--badbg:#f8e7e3;
+:root{--brand:#1d4f8f;--brand-ink:#163d6e;--ok:#0f7a6c;--bad:#b23b2a;--bg:#f4f6f9;--surface:#ffffff;--ink:#141c26;--muted:#56626f;--line:#d9e0e8;--soft:#e9eef4;--okbg:#e4f3f0;--badbg:#f8e7e3;--on-brand:#ffffff;
   --serif:"Literata",Georgia,"Times New Roman",serif;--sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;color-scheme:dark}}
-:root[data-theme="dark"]{--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;color-scheme:dark}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;--on-brand:#0f151c;color-scheme:dark}}
+:root[data-theme="dark"]{--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;--on-brand:#0f151c;color-scheme:dark}
 *{box-sizing:border-box;min-width:0} html{scroll-behavior:smooth;scroll-padding-top:70px} body{overflow-x:hidden}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
@@ -200,7 +202,8 @@ nav .wrap{display:flex;align-items:center;gap:18px;height:58px;font:500 14px var
 nav .logo{color:var(--ink);text-decoration:none;display:flex;flex-direction:column;line-height:1.1} nav .logo b{font-family:var(--serif);font-size:18px;font-weight:600;letter-spacing:-.01em}
 nav .logo small{color:var(--muted);font:500 11px var(--sans);letter-spacing:.04em;text-transform:uppercase;margin-top:2px} nav .sp{flex:1}
 nav a:not(.logo){color:var(--muted);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent} nav a:not(.logo):hover{color:var(--ink)} nav a.tu{color:var(--ink);border-bottom-color:var(--brand)}
-@media (max-width:860px){nav a:not(.logo):not(.wsp){display:none}}
+@media (max-width:860px){nav .wrap:first-child a:not(.logo){display:none}}
+nav .wrap.nav-m{display:none} @media (max-width:860px){nav .wrap.nav-m{display:flex;height:auto;gap:18px;overflow-x:auto;white-space:nowrap;padding-block:0 8px;font:500 14px var(--sans);scrollbar-width:none} nav .nav-m::-webkit-scrollbar{display:none} nav .nav-m a{flex:none;color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent} nav .nav-m a.tu{color:var(--ink);border-bottom-color:var(--brand)} html{scroll-padding-top:110px}}
 nav button{background:none;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 10px;font:inherit;cursor:pointer}
 .okr{font:13px var(--sans);color:var(--muted);padding-top:16px} .okr a{color:var(--muted)} .okr span{margin:0 7px}
 /* hero strony głównej */
@@ -208,15 +211,24 @@ nav button{background:none;border:1px solid var(--line);color:var(--muted);borde
 .hero .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;align-items:start} @media (max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:24px}}
 .hero h1{font-size:clamp(30px,4.2vw,44px);line-height:1.12;margin:0 0 14px;max-width:16em}
 .hero p.lead{font-size:18px;color:var(--muted);max-width:34em;margin:0 0 18px}
-.zakres{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 14px var(--sans);color:var(--muted);margin:0 0 14px} .zakres b{color:var(--ink);font-family:var(--mono);font-weight:500}
+.zakres{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 14px var(--sans);color:var(--muted);margin:0 0 14px} .zakres b{color:var(--ink);font-weight:600}
 .meta{font:14px var(--sans);color:var(--muted);margin:0 0 18px}
 .btn{display:inline-block;border-radius:6px;padding:9px 14px;font:600 14px var(--sans);text-decoration:none;margin:0 8px 8px 0;border:1px solid var(--line);color:var(--ink);background:var(--surface)}
-.btn.p{background:var(--brand);color:#fff;border-color:var(--brand)} .btn:hover{border-color:var(--brand)}
+.btn.p{background:var(--brand);color:var(--on-brand);border-color:var(--brand)} .btn:hover{border-color:var(--brand)}
 .uwaga{font:14px/1.55 var(--sans);color:var(--muted);max-width:44em;border-left:3px solid var(--line);padding-left:12px;margin-top:10px}
 .stat{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
 .stat div{background:var(--surface);padding:14px 16px} .stat .l{display:block;font:500 12px var(--sans);letter-spacing:.03em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-.stat .v{font:500 28px/1 var(--mono);letter-spacing:-.02em} .stat .v small{font-size:15px;color:var(--muted);margin-left:4px} .stat .v .ok{color:var(--ok)} .stat .v .bad{color:var(--bad)}
+.stat .v{font:600 30px/1 var(--sans);font-variant-numeric:tabular-nums;letter-spacing:-.01em} .stat .v small{font-size:15px;color:var(--muted);margin-left:4px} .stat .v .ok{color:var(--ok)} .stat .v .bad{color:var(--bad)}
 .stat .d{display:block;font:14px/1.4 var(--sans);color:var(--muted);margin-top:6px}
+/* panel wyników w hero */
+.hw{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px 22px;display:flex;flex-direction:column;gap:18px}
+.hw figcaption{font:500 12px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.hw-m{display:flex;flex-direction:column;gap:8px} .hw-t{font:600 16px var(--sans)}
+.hw-r{display:grid;grid-template-columns:112px minmax(0,1fr) 34px;gap:10px;align-items:center;font:14px var(--sans);color:var(--muted)}
+.hw-r b{font:600 20px var(--sans);font-variant-numeric:tabular-nums;color:var(--ink);text-align:right}
+.hw-tor{height:14px;background:var(--soft);border-radius:4px;overflow:hidden} .hw-tor i{display:block;height:14px;border-radius:4px} .hw-tor i.w0{background:var(--muted)} .hw-tor i.w1{background:var(--brand)}
+.hw-s{display:flex;flex-wrap:wrap;gap:6px 16px;border-top:1px solid var(--line);padding-top:14px;font:13.5px var(--sans);color:var(--muted)} .hw-s b{color:var(--ink);font-weight:600}
+.leg16{font:13px var(--sans);color:var(--muted);margin:4px 0 0} .leg16 i{display:inline-block;width:11px;height:11px;border-radius:2px;vertical-align:-1px;margin:0 5px 0 10px} .leg16 i:first-child{margin-left:0}
 /* nagłówki podstron */
 .pod-hero{padding:30px 0 10px;border-bottom:1px solid var(--line);background:var(--surface);margin-bottom:8px}
 .pod-hero h1{font-size:clamp(26px,3.4vw,38px);line-height:1.15;margin:0 0 10px;max-width:24em}
@@ -243,7 +255,7 @@ table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 var(--sans
 .pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600;font-size:13px} th small{font-weight:500;color:var(--muted)}
 .pary th,.pary td{white-space:nowrap} .t.zw td,.t.zw th{white-space:nowrap}
 .pary .num,.t .num{text-align:right;font-family:var(--mono);white-space:nowrap} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
-.war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
+.war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:var(--on-brand);border-color:var(--brand)}
 .ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
 .scroll{overflow-x:auto;margin:0 -16px;padding:0 16px}
 .pary th.model{position:sticky;left:0;z-index:1;background:var(--surface);font:600 14px var(--sans);vertical-align:top;border-right:1px solid var(--line)}
@@ -310,7 +322,7 @@ SKRYPT = """<script>
 (function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
 b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();
 </script>"""
-NAV = [("/#wyniki", "Wyniki"), ("/benchmark/02/pytania", "Pytania"), ("/benchmark/01", "Kazus"), ("/metodologia", "Metodologia"), ("/raporty", "Raporty"), ("/dane", "Dane"), ("/wspolpraca", "Współpraca"), ("/dolacz", "Dołącz"), ("/en", "EN")]
+NAV = [("/#wyniki", "Wyniki"), ("/benchmark/02/pytania", "Pytania"), ("/benchmark/01", "Kazus"), ("/metodologia", "Metodologia"), ("/raporty", "Raporty"), ("/dane", "Dane"), ("/wspolpraca", "Współpraca"), ("/en", "EN")]
 STOPKA_PL = ('<div class="kol"><div><h4>O projekcie</h4><p><b>LawBenchmark.pl</b> prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii '
              '<a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk) i spółki <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warszawa). '
              'Autorzy: Adam Piotrowski (radca prawny, partner KTZR), Andrzej Koman (CEO LexAlpha). Badanie finansowane ze środków własnych obu podmiotów; żaden dostawca modeli nie uczestniczył w jego przygotowaniu. '
@@ -372,6 +384,13 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
 <meta property="og:type" content="{"website" if not sciezka else "article"}">
 <meta property="og:url" content="{url}">
 <meta property="og:site_name" content="LawBenchmark.pl">
+<meta property="og:image" content="https://lawbenchmark.pl/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="LawBenchmark.pl: odpowiedzi z halucynacją 51 i 40 z 80, poprawnie ugruntowane 19 i 27 z 80, bez narzędzi i z wyszukiwaniem">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap" rel="stylesheet">
 <style>{CSS}</style>
@@ -379,7 +398,8 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
 <body>
 <nav><div class="wrap"><a class="logo" href="/"><b>LawBenchmark.pl</b><small>LexAlpha Lab · KTZR i LexAlpha</small></a><span class="sp"></span>
 {nav_html}
-<button id="motyw" aria-label="Przełącz motyw">◐</button></div></nav>
+<button id="motyw" aria-label="Przełącz motyw">◐</button></div>
+<div class="wrap nav-m" aria-label="Menu">{nav_html}</div></nav>
 {okr_html}
 {tresc}
 <footer><div class="wrap">{stopka}</div></footer>
@@ -395,8 +415,8 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
 
 
 spr_n, spr_m = L["spr"]
-spr_n_fmt = f"{spr_n:,}".replace(",", "\u00a0")
-spr_m_fmt = f"{spr_m:,}".replace(",", "\u00a0")
+spr_n_fmt = f"{spr_n:,}".replace(",", "\u202f")
+spr_m_fmt = f"{spr_m:,}".replace(",", "\u202f")
 
 # =====================================================================
 # 1. Strona główna
@@ -409,13 +429,16 @@ GLOWNA = f"""
 <p class="uwaga">Wyniki dotyczą jednej serii dziesięciu pytań; karty sprawdzał jeden prawnik. To nie jest ogólny ranking modeli ani produktów. <a href="/metodologia#ograniczenia">Ograniczenia badania</a></p>
 <div class="meta" style="margin-top:14px">O badaniu: Benchmark 02 · raport {WERSJA_RAPORTU} z {DATA_RAPORTU} · karty z {DATA_KART} · stan prawny 1.10.2026 · specyfikacja oceny 1.0.4</div>
 </div>
-<div class="stat" aria-label="Skala badania">
-<div><span class="l">Pytania z praktyki</span><span class="v">10</span><span class="d">sześć z pułapką w treści pytania</span></div>
-<div><span class="l">Modele</span><span class="v">8<small>3 dostawców</small></span><span class="d">OpenAI, Anthropic, Google</span></div>
-<div><span class="l">Warunki</span><span class="v">2</span><span class="d">bez narzędzi (W0) i z wyszukiwaniem (W1)</span></div>
-<div><span class="l">Odpowiedzi z kartą</span><span class="v">160</span><span class="d">każda oceniona według tej samej specyfikacji</span></div>
-<div style="grid-column:1/-1"><span class="l">Powołania przepisów i orzeczeń</span><span class="v">{spr_n_fmt}<small>sprawdzonych z {spr_m_fmt}</small></span><span class="d">w ISAP, ELI, SAOS, sn.pl i portalach sądów; {spr_m - spr_n} niesprawdzonych nie obniżało oceny</span></div>
-</div>
+<figure class="hw" aria-label="Wyniki łączne Benchmarku 02">
+<figcaption>Benchmark 02 · 80 odpowiedzi w każdym warunku</figcaption>
+<div class="hw-m"><span class="hw-t bad">Odpowiedzi z halucynacją</span>
+<div class="hw-r"><span>bez narzędzi</span><span class="hw-tor"><i class="w0" style="width:{L["hal_W0"]/80*100:.1f}%"></i></span><b>{L["hal_W0"]}</b></div>
+<div class="hw-r"><span>z wyszukiwaniem</span><span class="hw-tor"><i class="w1" style="width:{L["hal_W1"]/80*100:.1f}%"></i></span><b>{L["hal_W1"]}</b></div></div>
+<div class="hw-m"><span class="hw-t ok">Poprawnie ugruntowane</span>
+<div class="hw-r"><span>bez narzędzi</span><span class="hw-tor"><i class="w0" style="width:{L["pu_W0"]/80*100:.1f}%"></i></span><b>{L["pu_W0"]}</b></div>
+<div class="hw-r"><span>z wyszukiwaniem</span><span class="hw-tor"><i class="w1" style="width:{L["pu_W1"]/80*100:.1f}%"></i></span><b>{L["pu_W1"]}</b></div></div>
+<div class="hw-s"><span><b>10</b> pytań z praktyki</span><span><b>8</b> modeli, 3 dostawców</span><span><b>160</b> odpowiedzi z kartą</span><span><b>{spr_n_fmt}</b> z {spr_m_fmt} powołań sprawdzonych u źródła</span></div>
+</figure>
 </div></header>
 
 <section id="czytanie"><div class="wrap">
@@ -430,10 +453,6 @@ GLOWNA = f"""
 <section id="wyniki"><div class="wrap">
 <h2>Wyniki: bez narzędzi (W0) i z wyszukiwaniem (W1)</h2>
 <p class="pod">Każdy model odpowiadał na te same dziesięć pytań dwa razy: bez narzędzi (W0) i z wyszukiwaniem w internecie narzędziem dostawcy (W1).</p>
-<div class="stat wyn" aria-label="Wyniki łączne">
-<div><span class="l">Odpowiedzi z halucynacją</span><span class="v"><span class="bad">{L["hal_W0"]}</span> → <span class="bad">{L["hal_W1"]}</span><small>z 80</small></span><span class="d">bez narzędzi (W0) → z wyszukiwaniem (W1)</span></div>
-<div><span class="l">Poprawnie ugruntowane</span><span class="v"><span class="ok">{L["pu_W0"]}</span> → <span class="ok">{L["pu_W1"]}</span><small>z 80</small></span><span class="d">bez narzędzi (W0) → z wyszukiwaniem (W1)</span></div>
-</div>
 <p class="wer"><b>Jak powstała ocena.</b> Model przygotowuje kartę każdej odpowiedzi i szuka każdego powołania w źródle urzędowym; prawnik sprawdza każdą kartę i zatwierdza albo zmienia ocenę. Sprawdzono {spr_n_fmt} z {spr_m_fmt} powołań. <a href="/metodologia#procedura">Procedura</a></p>
 {WYKRES}
 {LEGENDA_W}
@@ -825,7 +844,8 @@ for n, pid in enumerate(PYT):
 <header class="pod-hero"><div class="wrap">
 <h1>{pid} · {E(TYTUL[pid])}</h1>
 <p class="lead">{E(t[1])} · pytanie {E(TYP_OPIS.get(q["type"], q["type"]))} · {"z pułapką" if q["trap"] else "bez pułapki"} · klucz v{q["key_version"]} z {E(q["key_date"])} · stan prawny 1.10.2026</p>
-<div style="max-width:320px;margin:6px 0 10px">{siatka16(pid)}</div>
+<div style="max-width:320px;margin:6px 0 4px">{siatka16(pid)}</div>
+<p class="leg16"><i style="background:var(--ok)"></i>poprawnie ugruntowana<i style="border:1.5px solid var(--muted)"></i>bez halucynacji<i style="background:var(--bad)"></i>z halucynacją · wiersze: W0 bez narzędzi, W1 z wyszukiwaniem</p>
 </div></header>
 <article><div class="wrap">
 <section>{kot("pytanie", "Pytanie w brzmieniu użytym w badaniu")}

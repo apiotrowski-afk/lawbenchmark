@@ -12,15 +12,22 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://lawbenchmark.pl/benchmark/02/pytania/p12">
 <meta property="og:site_name" content="LawBenchmark.pl">
+<meta property="og:image" content="https://lawbenchmark.pl/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="LawBenchmark.pl: odpowiedzi z halucynacją 51 i 40 z 80, poprawnie ugruntowane 19 i 27 z 80, bez narzędzi i z wyszukiwaniem">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap" rel="stylesheet">
 <style>
 /* Układ: witryna danych, nie dokument. Tekst bezszeryfowy (IBM Plex Sans), nagłówki szeryfowe (Literata) tylko dla h1/h2,
    liczby w IBM Plex Mono. Jeden kolor marki (kobalt), dwa kolory semantyczne (ugruntowane / halucynacja). Chłodne neutralne. */
-:root{--brand:#1d4f8f;--brand-ink:#163d6e;--ok:#0f7a6c;--bad:#b23b2a;--bg:#f4f6f9;--surface:#ffffff;--ink:#141c26;--muted:#56626f;--line:#d9e0e8;--soft:#e9eef4;--okbg:#e4f3f0;--badbg:#f8e7e3;
+:root{--brand:#1d4f8f;--brand-ink:#163d6e;--ok:#0f7a6c;--bad:#b23b2a;--bg:#f4f6f9;--surface:#ffffff;--ink:#141c26;--muted:#56626f;--line:#d9e0e8;--soft:#e9eef4;--okbg:#e4f3f0;--badbg:#f8e7e3;--on-brand:#ffffff;
   --serif:"Literata",Georgia,"Times New Roman",serif;--sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;color-scheme:dark}}
-:root[data-theme="dark"]{--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;color-scheme:dark}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;--on-brand:#0f151c;color-scheme:dark}}
+:root[data-theme="dark"]{--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;--on-brand:#0f151c;color-scheme:dark}
 *{box-sizing:border-box;min-width:0} html{scroll-behavior:smooth;scroll-padding-top:70px} body{overflow-x:hidden}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
@@ -35,7 +42,8 @@ nav .wrap{display:flex;align-items:center;gap:18px;height:58px;font:500 14px var
 nav .logo{color:var(--ink);text-decoration:none;display:flex;flex-direction:column;line-height:1.1} nav .logo b{font-family:var(--serif);font-size:18px;font-weight:600;letter-spacing:-.01em}
 nav .logo small{color:var(--muted);font:500 11px var(--sans);letter-spacing:.04em;text-transform:uppercase;margin-top:2px} nav .sp{flex:1}
 nav a:not(.logo){color:var(--muted);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent} nav a:not(.logo):hover{color:var(--ink)} nav a.tu{color:var(--ink);border-bottom-color:var(--brand)}
-@media (max-width:860px){nav a:not(.logo):not(.wsp){display:none}}
+@media (max-width:860px){nav .wrap:first-child a:not(.logo){display:none}}
+nav .wrap.nav-m{display:none} @media (max-width:860px){nav .wrap.nav-m{display:flex;height:auto;gap:18px;overflow-x:auto;white-space:nowrap;padding-block:0 8px;font:500 14px var(--sans);scrollbar-width:none} nav .nav-m::-webkit-scrollbar{display:none} nav .nav-m a{flex:none;color:var(--muted);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent} nav .nav-m a.tu{color:var(--ink);border-bottom-color:var(--brand)} html{scroll-padding-top:110px}}
 nav button{background:none;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 10px;font:inherit;cursor:pointer}
 .okr{font:13px var(--sans);color:var(--muted);padding-top:16px} .okr a{color:var(--muted)} .okr span{margin:0 7px}
 /* hero strony głównej */
@@ -43,15 +51,24 @@ nav button{background:none;border:1px solid var(--line);color:var(--muted);borde
 .hero .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;align-items:start} @media (max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:24px}}
 .hero h1{font-size:clamp(30px,4.2vw,44px);line-height:1.12;margin:0 0 14px;max-width:16em}
 .hero p.lead{font-size:18px;color:var(--muted);max-width:34em;margin:0 0 18px}
-.zakres{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 14px var(--sans);color:var(--muted);margin:0 0 14px} .zakres b{color:var(--ink);font-family:var(--mono);font-weight:500}
+.zakres{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 14px var(--sans);color:var(--muted);margin:0 0 14px} .zakres b{color:var(--ink);font-weight:600}
 .meta{font:14px var(--sans);color:var(--muted);margin:0 0 18px}
 .btn{display:inline-block;border-radius:6px;padding:9px 14px;font:600 14px var(--sans);text-decoration:none;margin:0 8px 8px 0;border:1px solid var(--line);color:var(--ink);background:var(--surface)}
-.btn.p{background:var(--brand);color:#fff;border-color:var(--brand)} .btn:hover{border-color:var(--brand)}
+.btn.p{background:var(--brand);color:var(--on-brand);border-color:var(--brand)} .btn:hover{border-color:var(--brand)}
 .uwaga{font:14px/1.55 var(--sans);color:var(--muted);max-width:44em;border-left:3px solid var(--line);padding-left:12px;margin-top:10px}
 .stat{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
 .stat div{background:var(--surface);padding:14px 16px} .stat .l{display:block;font:500 12px var(--sans);letter-spacing:.03em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-.stat .v{font:500 28px/1 var(--mono);letter-spacing:-.02em} .stat .v small{font-size:15px;color:var(--muted);margin-left:4px} .stat .v .ok{color:var(--ok)} .stat .v .bad{color:var(--bad)}
+.stat .v{font:600 30px/1 var(--sans);font-variant-numeric:tabular-nums;letter-spacing:-.01em} .stat .v small{font-size:15px;color:var(--muted);margin-left:4px} .stat .v .ok{color:var(--ok)} .stat .v .bad{color:var(--bad)}
 .stat .d{display:block;font:14px/1.4 var(--sans);color:var(--muted);margin-top:6px}
+/* panel wyników w hero */
+.hw{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px 22px;display:flex;flex-direction:column;gap:18px}
+.hw figcaption{font:500 12px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.hw-m{display:flex;flex-direction:column;gap:8px} .hw-t{font:600 16px var(--sans)}
+.hw-r{display:grid;grid-template-columns:112px minmax(0,1fr) 34px;gap:10px;align-items:center;font:14px var(--sans);color:var(--muted)}
+.hw-r b{font:600 20px var(--sans);font-variant-numeric:tabular-nums;color:var(--ink);text-align:right}
+.hw-tor{height:14px;background:var(--soft);border-radius:4px;overflow:hidden} .hw-tor i{display:block;height:14px;border-radius:4px} .hw-tor i.w0{background:var(--muted)} .hw-tor i.w1{background:var(--brand)}
+.hw-s{display:flex;flex-wrap:wrap;gap:6px 16px;border-top:1px solid var(--line);padding-top:14px;font:13.5px var(--sans);color:var(--muted)} .hw-s b{color:var(--ink);font-weight:600}
+.leg16{font:13px var(--sans);color:var(--muted);margin:4px 0 0} .leg16 i{display:inline-block;width:11px;height:11px;border-radius:2px;vertical-align:-1px;margin:0 5px 0 10px} .leg16 i:first-child{margin-left:0}
 /* nagłówki podstron */
 .pod-hero{padding:30px 0 10px;border-bottom:1px solid var(--line);background:var(--surface);margin-bottom:8px}
 .pod-hero h1{font-size:clamp(26px,3.4vw,38px);line-height:1.15;margin:0 0 10px;max-width:24em}
@@ -78,7 +95,7 @@ table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 var(--sans
 .pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600;font-size:13px} th small{font-weight:500;color:var(--muted)}
 .pary th,.pary td{white-space:nowrap} .t.zw td,.t.zw th{white-space:nowrap}
 .pary .num,.t .num{text-align:right;font-family:var(--mono);white-space:nowrap} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
-.war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
+.war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:var(--on-brand);border-color:var(--brand)}
 .ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
 .scroll{overflow-x:auto;margin:0 -16px;padding:0 16px}
 .pary th.model{position:sticky;left:0;z-index:1;background:var(--surface);font:600 14px var(--sans);vertical-align:top;border-right:1px solid var(--line)}
@@ -145,14 +162,16 @@ footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:5
 </head>
 <body>
 <nav><div class="wrap"><a class="logo" href="/"><b>LawBenchmark.pl</b><small>LexAlpha Lab · KTZR i LexAlpha</small></a><span class="sp"></span>
-<a href="/#wyniki">Wyniki</a><a href="/benchmark/02/pytania" class="tu">Pytania</a><a href="/benchmark/01">Kazus</a><a href="/metodologia">Metodologia</a><a href="/raporty">Raporty</a><a href="/dane">Dane</a><a href="/wspolpraca">Współpraca</a><a href="/dolacz">Dołącz</a><a href="/en">EN</a>
-<button id="motyw" aria-label="Przełącz motyw">◐</button></div></nav>
+<a href="/#wyniki">Wyniki</a><a href="/benchmark/02/pytania" class="tu">Pytania</a><a href="/benchmark/01">Kazus</a><a href="/metodologia">Metodologia</a><a href="/raporty">Raporty</a><a href="/dane">Dane</a><a href="/wspolpraca">Współpraca</a><a href="/en">EN</a>
+<button id="motyw" aria-label="Przełącz motyw">◐</button></div>
+<div class="wrap nav-m" aria-label="Menu"><a href="/#wyniki">Wyniki</a><a href="/benchmark/02/pytania" class="tu">Pytania</a><a href="/benchmark/01">Kazus</a><a href="/metodologia">Metodologia</a><a href="/raporty">Raporty</a><a href="/dane">Dane</a><a href="/wspolpraca">Współpraca</a><a href="/en">EN</a></div></nav>
 <div class="wrap okr"><a href="/">LawBenchmark.pl</a><span>›</span>Benchmark 02<span>›</span><a href="/benchmark/02/pytania">Pytania</a><span>›</span>P12</div>
 
 <header class="pod-hero"><div class="wrap">
 <h1>P12 · Klauzula wykonalności przeciwko małżonkowi dłużnika</h1>
 <p class="lead">postępowanie cywilne · pytanie zamknięte (tak / nie / zależy od…) · z pułapką · klucz v1 z 2026-10-10 · stan prawny 1.10.2026</p>
-<div style="max-width:320px;margin:6px 0 10px"><svg class="s16" viewBox="0 0 270 68" role="img" aria-label="Wyniki ośmiu modeli w dwóch warunkach dla P12"><text x="0" y="16">W0</text><rect x="26" y="5" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-6.1 Sol W0: poprawnie ugruntowana</title></rect><rect x="56" y="5" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-6 Astra W0: poprawnie ugruntowana</title></rect><rect x="86" y="5" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-5.6 Terra W0: poprawnie ugruntowana</title></rect><rect x="116" y="5" width="18" height="14" rx="3" fill="var(--bad)"><title>Claude Opus 5.5 W0: halucynacja T</title></rect><rect x="146" y="5" width="18" height="14" rx="3" fill="var(--bad)"><title>Claude Sonnet 5.5 W0: halucynacja T</title></rect><rect x="176" y="5" width="18" height="14" rx="3" fill="var(--bad)"><title>Claude Haiku 5.5 W0: halucynacja T</title></rect><rect x="206" y="5" width="18" height="14" rx="3" fill="var(--ok)"><title>Gemini 3.8 Flash W0: poprawnie ugruntowana</title></rect><rect x="236" y="5" width="18" height="14" rx="3" fill="var(--bad)"><title>Gemini 4 Argon W0: halucynacja T</title></rect><text x="0" y="38">W1</text><rect x="26" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-6.1 Sol W1: poprawnie ugruntowana</title></rect><rect x="56" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-6 Astra W1: poprawnie ugruntowana</title></rect><rect x="86" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-5.6 Terra W1: poprawnie ugruntowana</title></rect><rect x="116" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>Claude Opus 5.5 W1: poprawnie ugruntowana</title></rect><rect x="146" y="27" width="18" height="14" rx="3" fill="var(--bad)"><title>Claude Sonnet 5.5 W1: halucynacja F,T</title></rect><rect x="176.75" y="27.75" width="16.5" height="12.5" rx="3" fill="var(--surface)" stroke="var(--muted)" stroke-width="1.5"><title>Claude Haiku 5.5 W1: bez halucynacji, nie ugruntowana</title></rect><rect x="206" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>Gemini 3.8 Flash W1: poprawnie ugruntowana</title></rect><rect x="236" y="27" width="18" height="14" rx="3" fill="var(--bad)"><title>Gemini 4 Argon W1: halucynacja T</title></rect><text x="35" y="62" text-anchor="middle">Sol</text><text x="65" y="62" text-anchor="middle">Astra</text><text x="95" y="62" text-anchor="middle">Terra</text><text x="125" y="62" text-anchor="middle">Opus</text><text x="155" y="62" text-anchor="middle">Sonnet</text><text x="185" y="62" text-anchor="middle">Haiku</text><text x="215" y="62" text-anchor="middle">Flash</text><text x="245" y="62" text-anchor="middle">Argon</text></svg></div>
+<div style="max-width:320px;margin:6px 0 4px"><svg class="s16" viewBox="0 0 270 68" role="img" aria-label="Wyniki ośmiu modeli w dwóch warunkach dla P12"><text x="0" y="16">W0</text><rect x="26" y="5" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-6.1 Sol W0: poprawnie ugruntowana</title></rect><rect x="56" y="5" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-6 Astra W0: poprawnie ugruntowana</title></rect><rect x="86" y="5" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-5.6 Terra W0: poprawnie ugruntowana</title></rect><rect x="116" y="5" width="18" height="14" rx="3" fill="var(--bad)"><title>Claude Opus 5.5 W0: halucynacja T</title></rect><rect x="146" y="5" width="18" height="14" rx="3" fill="var(--bad)"><title>Claude Sonnet 5.5 W0: halucynacja T</title></rect><rect x="176" y="5" width="18" height="14" rx="3" fill="var(--bad)"><title>Claude Haiku 5.5 W0: halucynacja T</title></rect><rect x="206" y="5" width="18" height="14" rx="3" fill="var(--ok)"><title>Gemini 3.8 Flash W0: poprawnie ugruntowana</title></rect><rect x="236" y="5" width="18" height="14" rx="3" fill="var(--bad)"><title>Gemini 4 Argon W0: halucynacja T</title></rect><text x="0" y="38">W1</text><rect x="26" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-6.1 Sol W1: poprawnie ugruntowana</title></rect><rect x="56" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-6 Astra W1: poprawnie ugruntowana</title></rect><rect x="86" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>GPT-5.6 Terra W1: poprawnie ugruntowana</title></rect><rect x="116" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>Claude Opus 5.5 W1: poprawnie ugruntowana</title></rect><rect x="146" y="27" width="18" height="14" rx="3" fill="var(--bad)"><title>Claude Sonnet 5.5 W1: halucynacja F,T</title></rect><rect x="176.75" y="27.75" width="16.5" height="12.5" rx="3" fill="var(--surface)" stroke="var(--muted)" stroke-width="1.5"><title>Claude Haiku 5.5 W1: bez halucynacji, nie ugruntowana</title></rect><rect x="206" y="27" width="18" height="14" rx="3" fill="var(--ok)"><title>Gemini 3.8 Flash W1: poprawnie ugruntowana</title></rect><rect x="236" y="27" width="18" height="14" rx="3" fill="var(--bad)"><title>Gemini 4 Argon W1: halucynacja T</title></rect><text x="35" y="62" text-anchor="middle">Sol</text><text x="65" y="62" text-anchor="middle">Astra</text><text x="95" y="62" text-anchor="middle">Terra</text><text x="125" y="62" text-anchor="middle">Opus</text><text x="155" y="62" text-anchor="middle">Sonnet</text><text x="185" y="62" text-anchor="middle">Haiku</text><text x="215" y="62" text-anchor="middle">Flash</text><text x="245" y="62" text-anchor="middle">Argon</text></svg></div>
+<p class="leg16"><i style="background:var(--ok)"></i>poprawnie ugruntowana<i style="border:1.5px solid var(--muted)"></i>bez halucynacji<i style="background:var(--bad)"></i>z halucynacją · wiersze: W0 bez narzędzi, W1 z wyszukiwaniem</p>
 </div></header>
 <article><div class="wrap">
 <section><h2 id="pytanie">Pytanie w brzmieniu użytym w badaniu<a class="kot" href="#pytanie" aria-label="odnośnik do sekcji">#</a></h2>

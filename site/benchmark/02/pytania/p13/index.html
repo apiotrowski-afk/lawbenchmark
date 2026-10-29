@@ -224,6 +224,22 @@ blockquote.pyt{background:var(--panel);border:1px solid var(--line);border-left:
 .siatka-pyt a{background:var(--panel)} .siatka-pyt h2{font-family:var(--sans)}
 footer{background:transparent} footer h4{font-family:var(--mono)} footer .marki a{border-radius:999px}
 .meto aside{font-family:var(--sans)} .meto aside .n{font-family:var(--mono)}
+/* ===== poprawki po uwagach ChatGPT (29.10.2026): czytelność drobnego tekstu, panel, wykresy, hierarchia tabeli ===== */
+.eyb{font-size:12.5px;letter-spacing:.06em;color:color-mix(in srgb,var(--muted) 70%,var(--ink))} .tag{font-size:12px}
+.meta{font:14px/1.6 var(--sans);color:color-mix(in srgb,var(--muted) 75%,var(--ink))}
+.hero h1{font-size:clamp(30px,3.8vw,44px)} .hero .wrap{grid-template-columns:minmax(0,6fr) minmax(0,5fr)} @media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+.hw figcaption{font-size:12.5px} .hw-r{font-size:15px;color:var(--ink)} .hw-r b small{font:500 13px var(--sans);color:var(--muted);margin-left:2px} .hw-r{grid-template-columns:120px minmax(0,1fr) 62px}
+.hw-4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);margin-top:14px} @media (max-width:520px){.hw-4{grid-template-columns:1fr 1fr}}
+.hw-4 div{padding:14px 18px;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:2px} .hw-4 div:last-child{border-right:0} @media (max-width:520px){.hw-4 div:nth-child(2){border-right:0} .hw-4 div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+.hw-4 b{font:600 22px/1.1 var(--sans);font-variant-numeric:tabular-nums} .hw-4 span{font-size:13px;color:var(--muted);line-height:1.35}
+.pw figcaption span{font-size:14px;color:var(--ink);opacity:.8} .pw figcaption i{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin:0 5px 0 2px;box-sizing:border-box}
+.pw figcaption i.lg-w0{border:2px solid var(--muted);background:var(--surface)} .pw figcaption i.lg-w1{background:var(--brand)}
+.pw-os{font-size:12.5px;color:var(--ink);opacity:.75} .pw-tor{background-image:linear-gradient(to right,color-mix(in srgb,var(--muted) 35%,transparent) 1px,transparent 1px)}
+.legenda{font-size:14px;color:var(--ink);opacity:.85;margin:0 0 12px}
+.pary td{font-size:13px;color:var(--muted)} .pary td:nth-child(2),.pary td:nth-child(3),.pary tr:not(:first-child) td:nth-child(1),.pary tr:not(:first-child) td:nth-child(2){font-size:15px;font-weight:600}
+.pary tr:first-child td:nth-child(3),.pary tr:first-child td:nth-child(4),.pary tr:not(:first-child) td:nth-child(2),.pary tr:not(:first-child) td:nth-child(3){font-size:15px;font-weight:600}
+.pary thead th:nth-child(1),.pary thead th:nth-child(3),.pary thead th:nth-child(4){color:var(--ink)} .pary tbody{border-bottom:2px solid var(--line)} .pary tbody tr:first-child td{border-bottom:1px dashed var(--line)}
+.mat a.wyr{box-shadow:inset 0 3px 0 var(--brand)} .mat a.wyr b{color:var(--brand)}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "LawBenchmark.pl", "item": "https://lawbenchmark.pl/"}, {"@type": "ListItem", "position": 2, "name": "Benchmark 02"}, {"@type": "ListItem", "position": 3, "name": "Pytania", "item": "https://lawbenchmark.pl/benchmark/02/pytania"}, {"@type": "ListItem", "position": 4, "name": "P13"}]}</script>
 </head>

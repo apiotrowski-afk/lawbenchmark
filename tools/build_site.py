@@ -101,8 +101,8 @@ DOSTAWCA = {n: p for _, n, p, _ in dane.SYSTEMY}
 
 def wykres_par(klucz, tytul, pod, wiecej, mniej):
     ticks = "".join(f'<span style="left:{i * 10}%">{i}</span>' for i in range(0, 11, 2))
-    out = [f'<figure class="pw"><figcaption><b>{E(tytul)}</b><span>{E(pod)}</span></figcaption>',
-           f'<div class="pw-os" aria-hidden="true"><span></span><div class="pw-ticks">{ticks}</div><span>W0 → W1</span></div>']
+    out = [f'<figure class="pw"><figcaption><b>{E(tytul)}</b><span>{E(pod)} · <i class="lg-w0"></i>bez narzędzi · <i class="lg-w1"></i>z wyszukiwaniem</span></figcaption>',
+           f'<div class="pw-os" aria-hidden="true"><span>liczba odpowiedzi</span><div class="pw-ticks">{ticks}</div><span>W0 → W1</span></div>']
     for prov in dict.fromkeys(DOSTAWCA[m] for m in MODELE):
         out.append(f'<div class="pw-gr"><span class="pw-dost">{E(prov)}</span>')
         for m in [m for m in MODELE if DOSTAWCA[m] == prov]:
@@ -406,6 +406,22 @@ blockquote.pyt{background:var(--panel);border:1px solid var(--line);border-left:
 .siatka-pyt a{background:var(--panel)} .siatka-pyt h2{font-family:var(--sans)}
 footer{background:transparent} footer h4{font-family:var(--mono)} footer .marki a{border-radius:999px}
 .meto aside{font-family:var(--sans)} .meto aside .n{font-family:var(--mono)}
+/* ===== poprawki po uwagach ChatGPT (29.10.2026): czytelność drobnego tekstu, panel, wykresy, hierarchia tabeli ===== */
+.eyb{font-size:12.5px;letter-spacing:.06em;color:color-mix(in srgb,var(--muted) 70%,var(--ink))} .tag{font-size:12px}
+.meta{font:14px/1.6 var(--sans);color:color-mix(in srgb,var(--muted) 75%,var(--ink))}
+.hero h1{font-size:clamp(30px,3.8vw,44px)} .hero .wrap{grid-template-columns:minmax(0,6fr) minmax(0,5fr)} @media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
+.hw figcaption{font-size:12.5px} .hw-r{font-size:15px;color:var(--ink)} .hw-r b small{font:500 13px var(--sans);color:var(--muted);margin-left:2px} .hw-r{grid-template-columns:120px minmax(0,1fr) 62px}
+.hw-4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);margin-top:14px} @media (max-width:520px){.hw-4{grid-template-columns:1fr 1fr}}
+.hw-4 div{padding:14px 18px;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:2px} .hw-4 div:last-child{border-right:0} @media (max-width:520px){.hw-4 div:nth-child(2){border-right:0} .hw-4 div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+.hw-4 b{font:600 22px/1.1 var(--sans);font-variant-numeric:tabular-nums} .hw-4 span{font-size:13px;color:var(--muted);line-height:1.35}
+.pw figcaption span{font-size:14px;color:var(--ink);opacity:.8} .pw figcaption i{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin:0 5px 0 2px;box-sizing:border-box}
+.pw figcaption i.lg-w0{border:2px solid var(--muted);background:var(--surface)} .pw figcaption i.lg-w1{background:var(--brand)}
+.pw-os{font-size:12.5px;color:var(--ink);opacity:.75} .pw-tor{background-image:linear-gradient(to right,color-mix(in srgb,var(--muted) 35%,transparent) 1px,transparent 1px)}
+.legenda{font-size:14px;color:var(--ink);opacity:.85;margin:0 0 12px}
+.pary td{font-size:13px;color:var(--muted)} .pary td:nth-child(2),.pary td:nth-child(3),.pary tr:not(:first-child) td:nth-child(1),.pary tr:not(:first-child) td:nth-child(2){font-size:15px;font-weight:600}
+.pary tr:first-child td:nth-child(3),.pary tr:first-child td:nth-child(4),.pary tr:not(:first-child) td:nth-child(2),.pary tr:not(:first-child) td:nth-child(3){font-size:15px;font-weight:600}
+.pary thead th:nth-child(1),.pary thead th:nth-child(3),.pary thead th:nth-child(4){color:var(--ink)} .pary tbody{border-bottom:2px solid var(--line)} .pary tbody tr:first-child td{border-bottom:1px dashed var(--line)}
+.mat a.wyr{box-shadow:inset 0 3px 0 var(--brand)} .mat a.wyr b{color:var(--brand)}
 """
 SKRYPT = """<script>
 (function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
@@ -555,12 +571,12 @@ GLOWNA = f"""
 <figure class="hw" aria-label="Wyniki łączne Benchmarku 02">
 <figcaption>Benchmark 02 · 80 odpowiedzi w każdym warunku</figcaption>
 <div class="hw-m"><span class="hw-t bad">Odpowiedzi z halucynacją</span>
-<div class="hw-r"><span>bez narzędzi</span><span class="hw-tor"><i class="w0" style="width:{L["hal_W0"]/80*100:.1f}%"></i></span><b>{L["hal_W0"]}</b></div>
-<div class="hw-r"><span>z wyszukiwaniem</span><span class="hw-tor"><i class="w1" style="width:{L["hal_W1"]/80*100:.1f}%"></i></span><b>{L["hal_W1"]}</b></div></div>
+<div class="hw-r"><span>bez narzędzi</span><span class="hw-tor"><i class="w0" style="width:{L["hal_W0"]/80*100:.1f}%"></i></span><b>{L["hal_W0"]}<small>/80</small></b></div>
+<div class="hw-r"><span>z wyszukiwaniem</span><span class="hw-tor"><i class="w1" style="width:{L["hal_W1"]/80*100:.1f}%"></i></span><b>{L["hal_W1"]}<small>/80</small></b></div></div>
 <div class="hw-m"><span class="hw-t ok">Poprawnie ugruntowane</span>
-<div class="hw-r"><span>bez narzędzi</span><span class="hw-tor"><i class="w0" style="width:{L["pu_W0"]/80*100:.1f}%"></i></span><b>{L["pu_W0"]}</b></div>
-<div class="hw-r"><span>z wyszukiwaniem</span><span class="hw-tor"><i class="w1" style="width:{L["pu_W1"]/80*100:.1f}%"></i></span><b>{L["pu_W1"]}</b></div></div>
-<div class="hw-s"><span><b>10</b> pytań z praktyki</span><span><b>8</b> modeli, 3 dostawców</span><span><b>160</b> odpowiedzi z kartą</span><span><b>{spr_n_fmt}</b> z {spr_m_fmt} powołań sprawdzonych u źródła</span></div>
+<div class="hw-r"><span>bez narzędzi</span><span class="hw-tor"><i class="w0" style="width:{L["pu_W0"]/80*100:.1f}%"></i></span><b>{L["pu_W0"]}<small>/80</small></b></div>
+<div class="hw-r"><span>z wyszukiwaniem</span><span class="hw-tor"><i class="w1" style="width:{L["pu_W1"]/80*100:.1f}%"></i></span><b>{L["pu_W1"]}<small>/80</small></b></div></div>
+<div class="hw-4"><div><b>10</b><span>pytań z praktyki</span></div><div><b>8</b><span>modeli, 3 dostawców</span></div><div><b>160</b><span>odpowiedzi z kartą</span></div><div><b>{spr_n_fmt}</b><span>sprawdzonych powołań z {spr_m_fmt}</span></div></div>
 </figure>
 </div></header>
 
@@ -579,8 +595,8 @@ GLOWNA = f"""
 <h2>Wyniki: bez narzędzi (W0) i z wyszukiwaniem (W1)</h2>
 <p class="pod">Każdy model odpowiadał na te same dziesięć pytań dwa razy: bez narzędzi (W0) i z wyszukiwaniem w internecie narzędziem dostawcy (W1).</p>
 <p class="wer"><b>Jak powstała ocena.</b> Model przygotowuje kartę każdej odpowiedzi i szuka każdego powołania w źródle urzędowym; prawnik sprawdza każdą kartę i zatwierdza albo zmienia ocenę. Sprawdzono {spr_n_fmt} z {spr_m_fmt} powołań. <a href="/metodologia#procedura">Procedura</a></p>
-{WYKRES}
 {LEGENDA_W}
+{WYKRES}
 <h2 style="margin-top:36px;font-size:22px">Wyniki szczegółowe</h2>
 <p class="pod">Dla jednego modelu w jednym warunku jedna odpowiedź to 10 punktów procentowych; różnice 1–2 odpowiedzi nie wystarczają do ustalenia stabilnej kolejności modeli. Blok A to kryteria sprawdzane wobec klucza i źródła (rdzeń, podstawy prawne, powołania), blok B to kryteria ocenne. Koszt serii dziesięciu odpowiedzi według cenników z 18.10.2026 jako równoważnik API; „≥” to dolne oszacowanie. Wyniki per pytanie: <a href="/benchmark/02/pytania">dziesięć pytań</a>.</p>
 <p class="przesun">Tabelę można przesuwać w bok; kolumna z nazwą modelu zostaje na miejscu.</p>
@@ -652,8 +668,8 @@ GLOWNA = f"""
 <p class="pod">Wszystko, co stoi za liczbami, jest publiczne: pytania z kluczami, odpowiedzi, karty, oceny sędziów i skrypty.</p>
 <div class="mat">
 <a href="/reports/lexalpha_lab_benchmark_02.pdf"><span class="eyb">Raport · PL · PDF</span><b>Benchmark 02 · pytania prawne</b><span>Wersja {WERSJA_RAPORTU} z {DATA_RAPORTU}, 44 strony: wyniki, klasy błędów, sędziowie-modele, ograniczenia.</span></a>
+<a href="{HF_URL}" class="wyr"><span class="eyb">Zbiór danych · Hugging Face · od 29.10.2026</span><b>LexAlphaLab/lawbenchmark-b02</b><span>Sześć tabel jako zbiór testowy: karty, odpowiedzi, pytania, klucze, oceny sędziów, weryfikacja.</span></a>
 <a href="https://doi.org/10.5281/zenodo.23674794"><span class="eyb">Artykuł · EN · DOI</span><b>„Hallucination” Is Not Enough</b><span>Dlaczego benchmarki prawnicze powinny mierzyć odpowiedzi poprawnie ugruntowane. Working paper v1.2.</span></a>
-<a href="{HF_URL}"><span class="eyb">Zbiór danych · Hugging Face</span><b>LexAlphaLab/lawbenchmark-b02</b><span>Sześć tabel jako zbiór testowy: karty, odpowiedzi, pytania, klucze, oceny sędziów, weryfikacja.</span></a>
 <a href="{REPO_URL}"><span class="eyb">Kod i źródła · GitHub</span><b>apiotrowski-afk/lawbenchmark</b><span>Specyfikacja oceny, karty w Markdown, skrypty liczące każdą liczbę raportu. CC BY 4.0 i MIT.</span></a>
 <a href="/benchmark/01"><span class="eyb">Pilotaż · kazus</span><b>Benchmark 01 · kazus SKD</b><span>Jeden fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k. i 17 odpowiedzi modeli ogólnych.</span></a>
 <a href="/raporty#benchmark-02"><span class="eyb">Cytowanie</span><b>Jak cytować</b><span>Opisy bibliograficzne i BibTeX raportu, artykułu i zbioru danych.</span></a>

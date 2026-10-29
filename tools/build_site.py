@@ -113,7 +113,7 @@ def wykres_par(klucz, tytul, pod, wiecej, mniej):
                 tor = (f'<span class="pw-line" style="left:{lo * 10}%;width:{(hi - lo) * 10}%"></span>'
                        f'<span class="pw-w0" style="left:{a * 10}%"></span><span class="pw-w1" style="left:{b * 10}%"></span>')
             opis = f"{m}: {a} z 10 bez narzędzi, {b} z 10 z wyszukiwaniem"
-            out.append(f'<div class="pw-r"><span class="pw-m">{E(m)}</span><div class="pw-tor" role="img" aria-label="{E(opis)}">{tor}</div>'
+            out.append(f'<div class="pw-r" data-m="{E(m)}"><span class="pw-m">{E(m)}</span><div class="pw-tor" role="img" aria-label="{E(opis)}">{tor}</div>'
                        f'<span class="pw-d"><b>{a} → {b}</b><small>{E(tag)}</small></span></div>')
         out.append("</div>")
     out.append("</figure>")
@@ -131,28 +131,49 @@ LEGENDA_W = ('<div class="legenda"><span><i class="lg-w0"></i>W0 · bez narzędz
 tab = ['<table class="pary"><thead><tr><th>Model</th><th>Warunek</th><th class="num">Poprawnie ugruntowane <small>z 10</small></th>'
        '<th class="num">Halucynacje <small>z 10</small></th><th class="num">Blok A <small>%</small></th><th class="num">Blok B <small>%</small></th>'
        '<th class="num">Koszt serii <small>USD</small></th><th class="num">USD / poprawnie ugruntowaną</th><th class="num">Sprawdzone powołania</th></tr></thead>']
-for m in MODELE:
-    tab.append("<tbody>")
+def _f(s):
+    try:
+        return float(str(s).replace(",", ".").replace("≥", "").strip())
+    except ValueError:
+        return -1.0
+for idx, m in enumerate(MODELE):
+    w1r = PARA[m]["W1"]
+    tab.append(f'<tbody data-m="{E(m)}" data-idx="{idx}" data-pu="{w1r["pu"]}" data-hal="{w1r["hal"]}" data-a="{_f(w1r["A"])}">')
     for k, war in enumerate(("W0", "W1")):
         r = PARA[m][war]
         glowa = f'<th scope="rowgroup" rowspan="2" class="model">{E(m)}</th>' if k == 0 else ""
         tab.append(f'<tr>{glowa}<td><span class="war {war.lower()}">{war}</span></td>'
-                   f'<td class="num ok">{r["pu"]}</td><td class="num bad">{r["hal"]}</td><td class="num">{E(r["A"])}</td><td class="num">{E(r["B"])}</td>'
+                   f'<td class="num ok"><span class="cb"><i style="width:{r["pu"] * 6}px"></i>{r["pu"]}</span></td><td class="num bad"><span class="cb"><i style="width:{r["hal"] * 6}px"></i>{r["hal"]}</span></td><td class="num">{E(r["A"])}</td><td class="num">{E(r["B"])}</td>'
                    f'<td class="num">{E(r["koszt"])}</td><td class="num">{E(r["koszt_pu"])}</td><td class="num">{E(r["spr"])}</td></tr>')
     tab.append("</tbody>")
 tab.append("</table>")
-TABELA = "\n".join(tab)
+TABELA = ('<div class="sortuj" role="group" aria-label="Sortowanie tabeli"><span class="eyb">Sortuj według wyniku z wyszukiwaniem (W1)</span>'
+          '<button type="button" data-sort="idx" aria-pressed="true">kolejność raportu</button><button type="button" data-sort="pu" aria-pressed="false">poprawnie ugruntowane</button>'
+          '<button type="button" data-sort="hal" aria-pressed="false">najmniej halucynacji</button><button type="button" data-sort="a" aria-pressed="false">blok A</button></div>'
+          + '<div class="scroll">' + "\n".join(tab) + '</div>')
 
+KLASA_ODP = {lit: [] for lit in KL_OPIS}
+for m in MODELE:
+    for w in ("W0", "W1"):
+        for i, pid in enumerate(PYT):
+            v = ANEKS_H[f"{KROTKA[m]} {w}"][i]
+            if v not in ("✓", "–", "blokada"):
+                for lit in v.split(","):
+                    KLASA_ODP[lit.strip()].append((pid, m, w))
 KLASY_HTML = ['<div class="kb">']
 for k in KLASY:
     lit = k[0][0]
     if lit not in KL_OPIS:
         continue
     w0, w1, raz = int(k[1]), int(k[2]), int(k[3])
+    lst = KLASA_ODP[lit]
+    assert len(lst) == raz, (lit, len(lst), raz)
+    chipy = "".join(f'<a class="chip" href="/benchmark/02/pytania/{pid.lower()}#wyniki">{pid} · {E(KROTKA[m])} · {w}</a>' for pid, m, w in sorted(lst))
     KLASY_HTML.append(
-        f'<div class="kb-r"><div class="kb-n"><span class="znak">{lit}</span><div><b>{E(KL_OPIS[lit])}</b><span class="m">klasa {lit} · razem {raz} odpowiedzi</span></div></div>'
+        f'<details class="kb-d"><summary class="kb-r"><div class="kb-n"><span class="znak">{lit}</span><div><b>{E(KL_OPIS[lit])}</b><span class="m">klasa {lit} · razem {raz} odpowiedzi</span></div></div>'
         f'<div class="kb-b"><div class="kb-l"><span>W0</span><span class="kb-t"><i class="w0" style="width:{w0 / 80 * 100:.1f}%"></i></span><b>{w0}/80</b></div>'
-        f'<div class="kb-l"><span>W1</span><span class="kb-t"><i class="w1" style="width:{w1 / 80 * 100:.1f}%"></i></span><b>{w1}/80</b></div></div></div>')
+        f'<div class="kb-l"><span>W1</span><span class="kb-t"><i class="w1" style="width:{w1 / 80 * 100:.1f}%"></i></span><b>{w1}/80</b></div></div></summary>'
+        f'<div class="kb-lst"><span class="eyb">{raz} odpowiedzi z klasą {lit} · pytanie · model · warunek</span><div class="chips">{chipy}</div></div></details>')
 KLASY_HTML.append("</div>")
 KLASY_HTML = "".join(KLASY_HTML)
 KLASA = {k[0][0]: (int(k[1]), int(k[2])) for k in KLASY if k[0][0] in KL_OPIS}
@@ -317,10 +338,82 @@ footer{margin-top:56px;border-top:1px solid var(--line);background:var(--surface
 footer .kol{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px} @media (max-width:760px){footer .kol{grid-template-columns:1fr}}
 footer h4{margin:0 0 8px;font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)} footer a{color:var(--ink)} footer p{margin:0 0 8px}
 footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:500} footer .marki a{text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px}
+.rz{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)} @media (max-width:760px){.rz{grid-template-columns:1fr}}
+.rz div{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:6px 24px;padding:18px 0;border-bottom:1px solid var(--line)} .rz div:nth-child(odd){padding-right:28px} .rz div:nth-child(even){padding-left:28px;border-left:1px solid var(--line)}
+@media (max-width:760px){.rz div{grid-template-columns:1fr} .rz div:nth-child(odd),.rz div:nth-child(even){padding-left:0;padding-right:0;border-left:0}}
+.rz b{font:600 16px var(--sans)} .rz span{font-size:15px;color:var(--muted)}
+.mat{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)} @media (max-width:900px){.mat{grid-template-columns:1fr 1fr}} @media (max-width:560px){.mat{grid-template-columns:1fr}}
+.mat a{display:flex;flex-direction:column;gap:6px;padding:20px 20px 22px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;background:var(--surface)}
+.mat a:hover{background:var(--panel)} .mat b{font:600 17px/1.3 var(--sans)} .mat a > span:last-child{font-size:14.5px;color:var(--muted)} .mat .eyb{margin:0}
+.sortuj{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 12px} .sortuj .eyb{margin:0 8px 0 0}
+.sortuj button{font:500 13px var(--sans);color:var(--muted);background:transparent;border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer}
+.sortuj button:hover{color:var(--ink);border-color:var(--ink)} .sortuj button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pary tbody.hl td,.pary tbody.hl th.model{background:color-mix(in srgb,var(--brand) 9%,var(--surface))!important} .pw-r.hl{background:color-mix(in srgb,var(--brand) 9%,transparent)} .pw-r{transition:background .12s}
+.kb-d{border-bottom:1px solid var(--line)} .kb-d summary{list-style:none;cursor:pointer;border-bottom:0} .kb-d summary::-webkit-details-marker{display:none}
+.kb-d summary .kb-n::after{content:"+";font:500 18px var(--mono);color:var(--muted);margin-left:auto;padding-left:12px} .kb-d[open] summary .kb-n::after{content:"−"} .kb-d summary:hover .kb-n b{text-decoration:underline}
+.kb-n{flex:1} .kb-lst{padding:0 0 18px} .kb-lst .chips{gap:6px} .kb-lst .chip{text-decoration:none;color:var(--ink);background:var(--soft)} .kb-lst .chip:hover{background:var(--ink);color:var(--bg)}
+.siatka-pyt a[hidden]{display:none} .s16 a rect{cursor:pointer} .s16 a:hover rect{stroke:var(--ink);stroke-width:2}
+/* ===== STYL v3 (29.10.2026): oprawa „instrumentu” zamiast dokumentu. Wzorce: legalbenchmarks.ai (grotesk, powietrze, pigułki),
+   vals.ai (rama kolumny, etykiety monospace, tabela jako rdzeń). Szeryf tylko w H1; reszta Hanken Grotesk; etykiety IBM Plex Mono. ===== */
+:root{--bg:#ffffff;--surface:#ffffff;--ink:#17171a;--muted:#5d5f66;--line:#e3e3e6;--soft:#f4f4f5;--panel:#fafafa;--brand:#1d4f8f;--on-brand:#ffffff;
+  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;--frame:#e3e3e6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0d0e10;--surface:#111215;--ink:#ececef;--muted:#a3a4ab;--line:#26272b;--soft:#18191c;--panel:#141518;--brand:#8fb8ea;--on-brand:#0d0e10;--frame:#26272b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0e10;--surface:#111215;--ink:#ececef;--muted:#a3a4ab;--line:#26272b;--soft:#18191c;--panel:#141518;--brand:#8fb8ea;--on-brand:#0d0e10;--frame:#26272b;color-scheme:dark}
+body{font:16px/1.6 var(--sans);background:var(--bg)}
+@media (min-width:1214px){body{background-image:linear-gradient(to right,transparent calc(50% - 591px),var(--frame) calc(50% - 591px),var(--frame) calc(50% - 590px),transparent calc(50% - 590px),transparent calc(50% + 590px),var(--frame) calc(50% + 590px),var(--frame) calc(50% + 591px),transparent calc(50% + 591px))}}
+h1{font-family:var(--serif);font-weight:600;letter-spacing:-.015em}
+h2,h3{font-family:var(--sans);font-weight:600;letter-spacing:-.015em} h2{font-size:28px;line-height:1.2} article h2{font-size:24px}
+.eyb{display:block;font:500 11.5px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.tag{display:inline-block;font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);border:1px solid var(--line);padding:3px 8px;margin:0 0 14px}
+.tag i{display:inline-block;width:7px;height:7px;background:var(--brand);margin-right:7px;vertical-align:1px}
+nav{background:color-mix(in srgb,var(--bg) 92%,transparent)} nav .logo b{font-family:var(--sans);font-weight:700;font-size:17px;letter-spacing:-.02em}
+nav .logo small{font:500 10.5px var(--mono);letter-spacing:.07em} nav a:not(.logo){font-weight:500}
+nav button{border-radius:999px}
+.okr{font:500 11.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding-top:22px} .okr a{text-decoration:none}
+.meta{font:12.5px/1.6 var(--mono);color:var(--muted)}
+.hero{background:transparent;border-bottom:0;padding:64px 0 48px} .hero h1{font-size:clamp(32px,4.4vw,50px);font-weight:500;line-height:1.08}
+.hero p.lead{font-size:19px;line-height:1.55;color:var(--ink);opacity:.86}
+.pod-hero{background:transparent;border-bottom:0;padding:28px 0 6px;margin:0} .pod-hero h1{font-weight:500}
+.btn{border-radius:999px;padding:10px 18px;font:600 14px var(--sans);border:1px solid var(--line);background:transparent}
+.btn.p{background:var(--ink);color:var(--bg);border-color:var(--ink)} .btn:hover{border-color:var(--ink)}
+.uwaga{border-left:0;padding-left:0;font:13.5px/1.6 var(--sans)}
+.wer{background:transparent;border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;padding:14px 0}
+body > section > .wrap{border-top:1px solid var(--line);padding-top:44px} body > section{padding:0 0 44px}
+body > section h2{margin-bottom:8px} .pod{font-size:16.5px;max-width:44em}
+.blok{border:0;border-top:1px solid var(--line);border-radius:0;padding:16px 0 0;background:transparent}
+.blok.ok,.blok.bad{border-top:2px solid var(--line)} .blok.ok{border-top-color:var(--ok)} .blok.bad{border-top-color:var(--bad)} .blok h3{font-size:17px}
+.teza{font:500 19px/1.5 var(--sans);letter-spacing:-.01em}
+.hw,.pw,.kp,.siatka-pyt a,.klasa,.fakty,table.pary,table.t,blockquote.pyt,.wykres,pre{border-radius:0}
+.hw{background:var(--panel);padding:0;gap:0} .hw figcaption{padding:12px 18px;border-bottom:1px solid var(--line);font:500 11.5px var(--mono);letter-spacing:.07em}
+.hw-m{padding:16px 18px 4px} .hw-s{margin:12px 0 0;padding:12px 18px;font:12.5px var(--mono)} .hw-r b{font-family:var(--sans)}
+.hw-tor,.kb-t,.pw-tor{border-radius:0} .hw-tor i,.kb-t i{border-radius:0}
+.pw{background:var(--panel)} .pw figcaption b{font-size:15px} .pw-dost{font-family:var(--mono)}
+table.pary,table.t{border:1px solid var(--line)} .pary th,.t th{background:var(--panel);font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.pary th small,.t th small{font:inherit;text-transform:none;letter-spacing:0}
+.pary th.model{font:600 14px var(--sans);text-transform:none;letter-spacing:0;color:var(--ink);background:var(--surface)} .pary tbody:nth-child(odd) th.model,.pary tbody:nth-child(odd) td{background:var(--panel)}
+.cb{display:inline-flex;align-items:center;gap:8px;justify-content:flex-end;width:100%} .cb i{display:inline-block;height:8px;background:currentColor;opacity:.85;vertical-align:middle}
+.war{border-radius:0;font-family:var(--mono)}
+.kb{border-top:1px solid var(--line)} .znak{border-radius:0;border-width:1.5px}
+.kp{background:var(--panel)} .pbox{background:transparent;border-left:2px solid var(--brand);border-radius:0;padding:4px 0 4px 16px}
+.chip{border-radius:0;font-family:var(--mono);font-size:12px;letter-spacing:.02em}
+.prz h3{font-family:var(--sans);font-weight:600}
+blockquote.pyt{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--brand)}
+.siatka-pyt a{background:var(--panel)} .siatka-pyt h2{font-family:var(--sans)}
+footer{background:transparent} footer h4{font-family:var(--mono)} footer .marki a{border-radius:999px}
+.meto aside{font-family:var(--sans)} .meto aside .n{font-family:var(--mono)}
 """
 SKRYPT = """<script>
 (function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
 b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();
+(function(){var t=document.querySelector('table.pary');var g=document.querySelector('.sortuj:not([data-filtr])');
+if(t&&g){g.addEventListener('click',function(e){var k=e.target.closest('button');if(!k)return;var s=k.dataset.sort;
+var tb=[].slice.call(t.tBodies);tb.sort(function(a,b){var x=parseFloat(a.dataset[s]),y=parseFloat(b.dataset[s]);return s==='hal'||s==='idx'?x-y:y-x;});
+tb.forEach(function(x){t.appendChild(x);});[].forEach.call(g.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===k?'true':'false');});});}
+var w=document.querySelectorAll('[data-m]');[].forEach.call(w,function(el){el.addEventListener('mouseenter',function(){var m=el.dataset.m;[].forEach.call(w,function(x){x.classList.toggle('hl',x.dataset.m===m);});});
+el.addEventListener('mouseleave',function(){[].forEach.call(w,function(x){x.classList.remove('hl');});});});
+var f=document.querySelector('.sortuj[data-filtr]');if(f){var l=document.querySelector(f.dataset.filtr);f.addEventListener('click',function(e){var k=e.target.closest('button');if(!k)return;var v=k.dataset.f;
+[].forEach.call(l.children,function(a){if(v==='*'){a.hidden=false;return;}var p=v.split('=');a.hidden=a.dataset[p[0]]!==p[1];});
+[].forEach.call(f.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===k?'true':'false');});});}})();
 </script>"""
 NAV = [("/#wyniki", "Wyniki"), ("/benchmark/02/pytania", "Pytania"), ("/benchmark/01", "Kazus"), ("/metodologia", "Metodologia"), ("/raporty", "Raporty"), ("/dane", "Dane"), ("/wspolpraca", "Współpraca"), ("/en", "EN")]
 STOPKA_PL = ('<div class="kol"><div><h4>O projekcie</h4><p><b>LawBenchmark.pl</b> prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii '
@@ -392,7 +485,7 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 {ld_html}</head>
 <body>
@@ -423,6 +516,8 @@ spr_m_fmt = f"{spr_m:,}".replace(",", "\u202f")
 # =====================================================================
 GLOWNA = f"""
 <header class="hero"><div class="wrap"><div>
+<span class="eyb">Benchmark 02 · prawo polskie · aktualizacja {DATA_RAPORTU}</span>
+<span class="tag"><i></i>Zbiór kalibracyjny</span>
 <h1>Jak modele językowe odpowiadają na pytania z polskiego prawa?</h1>
 <p class="lead">W badanej serii halucynacje oznaczono w {L["hal_W0"]} z 80 odpowiedzi bez narzędzi i w {L["hal_W1"]} z 80 z wyszukiwaniem w internecie; poprawnie ugruntowanych było odpowiednio {L["pu_W0"]} i {L["pu_W1"]}.</p>
 <a class="btn p" href="#wyniki">Zobacz wyniki</a><a class="btn" href="/reports/lexalpha_lab_benchmark_02.pdf">Raport PDF · 44 str.</a><a href="/reports/Piotrowski_2026_correctly_grounded_v1.2.pdf" style="font:500 14px var(--sans);display:inline-block;padding:9px 4px">Artykuł metodologiczny (EN)</a>
@@ -442,6 +537,7 @@ GLOWNA = f"""
 </div></header>
 
 <section id="czytanie"><div class="wrap">
+<span class="eyb">Definicje</span>
 <h2>Jak czytać wyniki</h2>
 <div class="dwa">
 <div class="blok ok"><h3>Poprawnie ugruntowane ↑</h3><p>Odpowiedź ma pełny rdzeń (trafia w sedno pytania) i ani jednego twierdzenia o źródle prawa niezgodnego z tekstem urzędowym, a co najmniej jedno powołanie zostało sprawdzone u źródła.</p></div>
@@ -451,6 +547,7 @@ GLOWNA = f"""
 </div></section>
 
 <section id="wyniki"><div class="wrap">
+<span class="eyb">Wyniki</span>
 <h2>Wyniki: bez narzędzi (W0) i z wyszukiwaniem (W1)</h2>
 <p class="pod">Każdy model odpowiadał na te same dziesięć pytań dwa razy: bez narzędzi (W0) i z wyszukiwaniem w internecie narzędziem dostawcy (W1).</p>
 <p class="wer"><b>Jak powstała ocena.</b> Model przygotowuje kartę każdej odpowiedzi i szuka każdego powołania w źródle urzędowym; prawnik sprawdza każdą kartę i zatwierdza albo zmienia ocenę. Sprawdzono {spr_n_fmt} z {spr_m_fmt} powołań. <a href="/metodologia#procedura">Procedura</a></p>
@@ -459,10 +556,11 @@ GLOWNA = f"""
 <h2 style="margin-top:36px;font-size:22px">Wyniki szczegółowe</h2>
 <p class="pod">Dla jednego modelu w jednym warunku jedna odpowiedź to 10 punktów procentowych; różnice 1–2 odpowiedzi nie wystarczają do ustalenia stabilnej kolejności modeli. Blok A to kryteria sprawdzane wobec klucza i źródła (rdzeń, podstawy prawne, powołania), blok B to kryteria ocenne. Koszt serii dziesięciu odpowiedzi według cenników z 18.10.2026 jako równoważnik API; „≥” to dolne oszacowanie. Wyniki per pytanie: <a href="/benchmark/02/pytania">dziesięć pytań</a>.</p>
 <p class="przesun">Tabelę można przesuwać w bok; kolumna z nazwą modelu zostaje na miejscu.</p>
-<div class="scroll">{TABELA}</div>
+{TABELA}
 </div></section>
 
 <section id="bledy"><div class="wrap">
+<span class="eyb">Klasy błędu</span>
 <h2>Cztery klasy błędu</h2>
 <p class="pod">Najczęściej oznaczano klasę T: przypisanie istniejącemu przepisowi lub orzeczeniu treści, której źródło nie potwierdza ({KLASA["T"][0]} z 80 odpowiedzi bez narzędzi, {KLASA["T"][1]} z 80 z wyszukiwaniem). Klasa W, brzmienie przepisu z innej daty podane jako obowiązujące, wystąpiła w {KLASA["W"][0]} i {KLASA["W"][1]} odpowiedziach. Ma znaczenie, bo przepisy zmieniają się nowelizacjami, a do pisma trafia brzmienie obowiązujące w dniu sprawy. Zmyślone źródło (F) i przekręcony identyfikator (S) są rzadkie.</p>
 <div class="legenda" style="margin:0 0 6px"><span><i class="lg-w0" style="border-radius:3px;background:var(--muted);border:0"></i>W0 · bez narzędzi</span><span><i class="lg-w1" style="border-radius:3px"></i>W1 · z wyszukiwaniem</span><span>odpowiedzi z co najmniej jednym błędem danej klasy, na 80 w każdym warunku</span></div>
@@ -471,6 +569,7 @@ GLOWNA = f"""
 </div></section>
 
 <section id="przyklady"><div class="wrap">
+<span class="eyb">Przykłady z kart</span>
 <h2>Dwa przykłady z kart</h2>
 <p class="pod">Oba przykłady to ten sam model, GPT-5.6 Terra, w obu warunkach: w P01 wyszukiwanie zaszkodziło, w P05 pomogło. Każda ze 160 odpowiedzi ma podobną kartę z punktami, dowodem ze źródła i klasą błędu.</p>
 
@@ -506,23 +605,31 @@ GLOWNA = f"""
 </div></section>
 
 <section id="metodologia"><div class="wrap">
-<h2>Metodologia w skrócie</h2>
-<div class="lista">
-<p><b>Pytania.</b> Dziesięć krótkich pytań zebranych w praktyce kancelarii, w brzmieniu wpisanym do czatu (literówki zachowane), z czterech dziedzin prawa i AI Act; sześć ma wbudowaną pułapkę — błędną lub nieaktualną przesłankę, którą system powinien skorygować.</p>
-<p><b>Klucze.</b> Każde pytanie ma klucz: rdzeń odpowiedzi, rubrykę, kary, podstawy wymagane; każda podstawa sprawdzona u źródła na dzień 1.10.2026. Zmiany kluczy są datowane.</p>
-<p><b>Modele i warunki.</b> Trzej dostawcy, osiem modeli, dwa warunki: W0 bez narzędzi, W1 z wyszukiwaniem w internecie narzędziem dostawcy. Jedna seria, jedna odpowiedź na pytanie.</p>
-<p><b>Karty.</b> Kartę wypełnia najpierw model ze sprawdzeniem każdego powołania w ISAP, ELI, SAOS, sn.pl i portalach sądów, a sprawdza prawnik. Jeden błąd klasy F, T, W lub S daje etykietę „halucynacja”.</p>
-<p><b>Ograniczenia.</b> Mała próba, jedno uruchomienie każdego systemu, jeden sprawdzający prawnik, reguły doprecyzowywane w trakcie pracy. 160 odpowiedzi to nie 160 niezależnych pytań.</p>
-<p><b>Pełny opis:</b> <a href="/metodologia">metodologia według specyfikacji oceny</a> — kryteria, klasy błędów, sędziowie-modele, warstwa weryfikacji, koszt, wersjonowanie.</p>
+<span class="eyb">Metoda</span>
+<h2>Jak powstaje wynik</h2>
+<p class="pod">Każda liczba na tej stronie wynika z karty oceny jednej odpowiedzi. <a href="/metodologia">Pełna metodologia</a></p>
+<div class="rz">
+<div><b>Pytania z praktyki</b><span>Dziesięć pytań w brzmieniu wpisanym do czatu, z literówkami. Sześć ma wbudowaną błędną albo nieaktualną przesłankę.</span></div>
+<div><b>Klucz ustalony przed badaniem</b><span>Rdzeń odpowiedzi, przepisy wymagane i elementy punktowane, każda podstawa sprawdzona w tekście urzędowym na 1.10.2026.</span></div>
+<div><b>Każde powołanie u źródła</b><span>Przepisy w ISAP i ELI, orzeczenia w SAOS i na stronach sądów. Jeden błąd klasy F, T, W albo S daje etykietę „halucynacja”.</span></div>
+<div><b>Karta sprawdzana przez prawnika</b><span>Model przygotowuje kartę z dowodami, prawnik ją zatwierdza albo zmienia. Pięciu sędziów-modeli ocenia to samo dla porównania.</span></div>
+<div><b>Bez udziału dostawców modeli</b><span>Żaden dostawca nie przygotowywał ani nie finansował badania. Produktów LexAlpha i KTZR nie ma w Benchmarku 02.</span></div>
+<div><b>Ograniczenia na wierzchu</b><span>Dziesięć pytań, jedna seria, jeden prawnik. 160 odpowiedzi to nie 160 niezależnych obserwacji. <a href="/metodologia#ograniczenia">Ograniczenia</a></span></div>
 </div>
 </div></section>
 
 <section id="dane"><div class="wrap">
-<h2>Dane, kod i cytowanie</h2>
-<p class="pod">Specyfikacja oceny, dziesięć pytań z kluczami, 160 odpowiedzi i kart, oceny sędziów, raporty warstwy weryfikacji, koszty i skrypty liczące każdą liczbę raportu: <a href="/dane">zbiór danych i kod</a>. Raport i artykuł metodologiczny: <a href="/raporty">raporty</a>.</p>
-<p>Piotrowski A., Koman A. (2026). <i>LexAlpha Lab · Benchmark 02 · pytania prawne</i>. Wersja {WERSJA_RAPORTU}, {DATA_RAPORTU}. <a href="/reports/lexalpha_lab_benchmark_02.pdf">PDF</a><br>
-Piotrowski A. (2026). <i>„Hallucination” Is Not Enough: Why Legal LLM Benchmarks Should Measure „Correctly Grounded”</i>. LexAlpha Lab, v1.2, 26.10.2026. <a href="https://doi.org/10.5281/zenodo.23674794">doi:10.5281/zenodo.23674794</a> · <a href="https://papers.ssrn.com/abstract=7672779">SSRN</a></p>
-<pre>{E(BIBTEX)}</pre>
+<span class="eyb">Materiały</span>
+<h2>Raporty, dane i kod</h2>
+<p class="pod">Wszystko, co stoi za liczbami, jest publiczne: pytania z kluczami, odpowiedzi, karty, oceny sędziów i skrypty.</p>
+<div class="mat">
+<a href="/reports/lexalpha_lab_benchmark_02.pdf"><span class="eyb">Raport · PL · PDF</span><b>Benchmark 02 · pytania prawne</b><span>Wersja {WERSJA_RAPORTU} z {DATA_RAPORTU}, 44 strony: wyniki, klasy błędów, sędziowie-modele, ograniczenia.</span></a>
+<a href="https://doi.org/10.5281/zenodo.23674794"><span class="eyb">Artykuł · EN · DOI</span><b>„Hallucination” Is Not Enough</b><span>Dlaczego benchmarki prawnicze powinny mierzyć odpowiedzi poprawnie ugruntowane. Working paper v1.2.</span></a>
+<a href="{HF_URL}"><span class="eyb">Zbiór danych · Hugging Face</span><b>LexAlphaLab/lawbenchmark-b02</b><span>Sześć tabel jako zbiór testowy: karty, odpowiedzi, pytania, klucze, oceny sędziów, weryfikacja.</span></a>
+<a href="{REPO_URL}"><span class="eyb">Kod i źródła · GitHub</span><b>apiotrowski-afk/lawbenchmark</b><span>Specyfikacja oceny, karty w Markdown, skrypty liczące każdą liczbę raportu. CC BY 4.0 i MIT.</span></a>
+<a href="/benchmark/01"><span class="eyb">Pilotaż · kazus</span><b>Benchmark 01 · kazus SKD</b><span>Jeden fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k. i 17 odpowiedzi modeli ogólnych.</span></a>
+<a href="/raporty#benchmark-02"><span class="eyb">Cytowanie</span><b>Jak cytować</b><span>Opisy bibliograficzne i BibTeX raportu, artykułu i zbioru danych.</span></a>
+</div>
 </div></section>
 """
 LD_ORG = {"@context": "https://schema.org", "@type": "ResearchProject", "name": "LawBenchmark.pl", "alternateName": "LexAlpha Lab Benchmark",
@@ -762,6 +869,7 @@ def statystyka(pid):
 
 
 def siatka16(pid, etykiety=True):
+    link = etykiety and REPO_URL
     """Inline SVG: 8 modeli × 2 warunki; kolor = wynik odpowiedzi (ugruntowana / bez halucynacji / halucynacja / blokada)."""
     i = PYT.index(pid); k, g = 30, 22
     out = []
@@ -770,6 +878,9 @@ def siatka16(pid, etykiety=True):
         out.append(f'<text x="0" y="{y + 4}">{w}</text>')
         for c, m in enumerate(MODELE):
             x = 26 + c * k; v = ANEKS_H[f"{KROTKA[m]} {w}"][i]
+            href = f'{REPO_URL}/blob/main/cards/{pid}_{SYSTEM_PLIK[(m, w)]}.md' if link else ""
+            if link:
+                out.append(f'<a href="{href}" aria-label="karta: {E(m)} {w}">')
             tyt = f"{m} {w}: " + ("poprawnie ugruntowana" if v == "✓" else "bez halucynacji, nie ugruntowana" if v == "–" else "blokada dostawcy" if v == "blokada" else "halucynacja " + v)
             if v == "✓":
                 out.append(f'<rect x="{x}" y="{y - 7}" width="18" height="14" rx="3" fill="var(--ok)"><title>{E(tyt)}</title></rect>')
@@ -779,6 +890,8 @@ def siatka16(pid, etykiety=True):
                 out.append(f'<rect x="{x + 0.75}" y="{y - 6.25}" width="16.5" height="12.5" rx="3" fill="var(--soft)" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="3 2"><title>{E(tyt)}</title></rect>')
             else:
                 out.append(f'<rect x="{x}" y="{y - 7}" width="18" height="14" rx="3" fill="var(--bad)"><title>{E(tyt)}</title></rect>')
+            if link:
+                out.append("</a>")
     if etykiety:
         for c, m in enumerate(MODELE):
             out.append(f'<text x="{26 + c * k + 9}" y="62" text-anchor="middle">{E(KROTKA[m])}</text>')
@@ -798,7 +911,7 @@ PRZYKLAD_PYT = {"P07": f"""<section>{kot("przyklad", "Przykład z kart: Claude H
 LISTA = ['<div class="siatka-pyt">']
 for pid in PYT:
     q, t, st = PYTANIA[pid], PYTANIA_T[pid], statystyka(pid)
-    LISTA.append(f'<a href="/benchmark/02/pytania/{pid.lower()}"><div><span class="id">{pid} · {E(t[1])} · {"pułapka" if q["trap"] else "bez pułapki"}</span><h2>{E(TYTUL[pid])}</h2>'
+    LISTA.append(f'<a href="/benchmark/02/pytania/{pid.lower()}" data-trap="{"1" if q["trap"] else "0"}" data-dom="{"proc" if q["domain"] == "proc" else "inne"}"><div><span class="id">{pid} · {E(t[1])} · {"pułapka" if q["trap"] else "bez pułapki"}</span><h2>{E(TYTUL[pid])}</h2>'
                  f'{siatka16(pid, etykiety=False)}<span class="st">halucynacje <b>{st["W0"]["hal"]}</b> → <b>{st["W1"]["hal"]}</b> z&nbsp;8 · poprawnie ugruntowane <b>{st["W0"]["pu"]}</b> → <b>{st["W1"]["pu"]}</b> z&nbsp;8</span><span class="st">średni wynik bloku A: <b>{E(t[8])} %</b></span></div></a>')
 LISTA.append("</div>")
 PYT_LISTA = f"""
@@ -808,6 +921,9 @@ PYT_LISTA = f"""
 <div class="meta">Stan prawny 1.10.2026 · klucze zatwierdzone w wersjach z 10–18.10.2026 · liczby „W0 → W1” to wynik bez narzędzi i z wyszukiwaniem, z ośmiu modeli</div>
 </div></header>
 <section><div class="wrap">
+<div class="sortuj" role="group" aria-label="Filtr pytań" data-filtr=".siatka-pyt"><span class="eyb">Pokaż</span>
+<button type="button" data-f="*" aria-pressed="true">wszystkie</button><button type="button" data-f="trap=1" aria-pressed="false">z pułapką</button><button type="button" data-f="trap=0" aria-pressed="false">bez pułapki</button>
+<button type="button" data-f="dom=proc" aria-pressed="false">postępowanie cywilne</button><button type="button" data-f="dom=inne" aria-pressed="false">inne dziedziny</button></div>
 {"".join(LISTA)}
 {LEGENDA16}
 <p class="uwaga" style="margin-top:18px">Pytania są publiczne od października 2026 r. razem z kluczami; kolejne pomiary na tym zbiorze mogą być skażone ekspozycją. Pozostałe 40 pytań puli pozostaje nieujawnione. <a href="/metodologia#kontaminacja">Kontaminacja i kanarek</a>.</p>

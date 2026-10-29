@@ -20,7 +20,7 @@
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap" rel="stylesheet">
 <style>
 /* Układ: witryna danych, nie dokument. Tekst bezszeryfowy (IBM Plex Sans), nagłówki szeryfowe (Literata) tylko dla h1/h2,
    liczby w IBM Plex Mono. Jeden kolor marki (kobalt), dwa kolory semantyczne (ugruntowane / halucynacja). Chłodne neutralne. */
@@ -157,6 +157,69 @@ footer{margin-top:56px;border-top:1px solid var(--line);background:var(--surface
 footer .kol{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px} @media (max-width:760px){footer .kol{grid-template-columns:1fr}}
 footer h4{margin:0 0 8px;font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)} footer a{color:var(--ink)} footer p{margin:0 0 8px}
 footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:500} footer .marki a{text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px}
+.rz{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)} @media (max-width:760px){.rz{grid-template-columns:1fr}}
+.rz div{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:6px 24px;padding:18px 0;border-bottom:1px solid var(--line)} .rz div:nth-child(odd){padding-right:28px} .rz div:nth-child(even){padding-left:28px;border-left:1px solid var(--line)}
+@media (max-width:760px){.rz div{grid-template-columns:1fr} .rz div:nth-child(odd),.rz div:nth-child(even){padding-left:0;padding-right:0;border-left:0}}
+.rz b{font:600 16px var(--sans)} .rz span{font-size:15px;color:var(--muted)}
+.mat{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)} @media (max-width:900px){.mat{grid-template-columns:1fr 1fr}} @media (max-width:560px){.mat{grid-template-columns:1fr}}
+.mat a{display:flex;flex-direction:column;gap:6px;padding:20px 20px 22px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;background:var(--surface)}
+.mat a:hover{background:var(--panel)} .mat b{font:600 17px/1.3 var(--sans)} .mat a > span:last-child{font-size:14.5px;color:var(--muted)} .mat .eyb{margin:0}
+.sortuj{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 12px} .sortuj .eyb{margin:0 8px 0 0}
+.sortuj button{font:500 13px var(--sans);color:var(--muted);background:transparent;border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer}
+.sortuj button:hover{color:var(--ink);border-color:var(--ink)} .sortuj button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pary tbody.hl td,.pary tbody.hl th.model{background:color-mix(in srgb,var(--brand) 9%,var(--surface))!important} .pw-r.hl{background:color-mix(in srgb,var(--brand) 9%,transparent)} .pw-r{transition:background .12s}
+.kb-d{border-bottom:1px solid var(--line)} .kb-d summary{list-style:none;cursor:pointer;border-bottom:0} .kb-d summary::-webkit-details-marker{display:none}
+.kb-d summary .kb-n::after{content:"+";font:500 18px var(--mono);color:var(--muted);margin-left:auto;padding-left:12px} .kb-d[open] summary .kb-n::after{content:"−"} .kb-d summary:hover .kb-n b{text-decoration:underline}
+.kb-n{flex:1} .kb-lst{padding:0 0 18px} .kb-lst .chips{gap:6px} .kb-lst .chip{text-decoration:none;color:var(--ink);background:var(--soft)} .kb-lst .chip:hover{background:var(--ink);color:var(--bg)}
+.siatka-pyt a[hidden]{display:none} .s16 a rect{cursor:pointer} .s16 a:hover rect{stroke:var(--ink);stroke-width:2}
+/* ===== STYL v3 (29.10.2026): oprawa „instrumentu” zamiast dokumentu. Wzorce: legalbenchmarks.ai (grotesk, powietrze, pigułki),
+   vals.ai (rama kolumny, etykiety monospace, tabela jako rdzeń). Szeryf tylko w H1; reszta Hanken Grotesk; etykiety IBM Plex Mono. ===== */
+:root{--bg:#ffffff;--surface:#ffffff;--ink:#17171a;--muted:#5d5f66;--line:#e3e3e6;--soft:#f4f4f5;--panel:#fafafa;--brand:#1d4f8f;--on-brand:#ffffff;
+  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;--frame:#e3e3e6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0d0e10;--surface:#111215;--ink:#ececef;--muted:#a3a4ab;--line:#26272b;--soft:#18191c;--panel:#141518;--brand:#8fb8ea;--on-brand:#0d0e10;--frame:#26272b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0e10;--surface:#111215;--ink:#ececef;--muted:#a3a4ab;--line:#26272b;--soft:#18191c;--panel:#141518;--brand:#8fb8ea;--on-brand:#0d0e10;--frame:#26272b;color-scheme:dark}
+body{font:16px/1.6 var(--sans);background:var(--bg)}
+@media (min-width:1214px){body{background-image:linear-gradient(to right,transparent calc(50% - 591px),var(--frame) calc(50% - 591px),var(--frame) calc(50% - 590px),transparent calc(50% - 590px),transparent calc(50% + 590px),var(--frame) calc(50% + 590px),var(--frame) calc(50% + 591px),transparent calc(50% + 591px))}}
+h1{font-family:var(--serif);font-weight:600;letter-spacing:-.015em}
+h2,h3{font-family:var(--sans);font-weight:600;letter-spacing:-.015em} h2{font-size:28px;line-height:1.2} article h2{font-size:24px}
+.eyb{display:block;font:500 11.5px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.tag{display:inline-block;font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);border:1px solid var(--line);padding:3px 8px;margin:0 0 14px}
+.tag i{display:inline-block;width:7px;height:7px;background:var(--brand);margin-right:7px;vertical-align:1px}
+nav{background:color-mix(in srgb,var(--bg) 92%,transparent)} nav .logo b{font-family:var(--sans);font-weight:700;font-size:17px;letter-spacing:-.02em}
+nav .logo small{font:500 10.5px var(--mono);letter-spacing:.07em} nav a:not(.logo){font-weight:500}
+nav button{border-radius:999px}
+.okr{font:500 11.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding-top:22px} .okr a{text-decoration:none}
+.meta{font:12.5px/1.6 var(--mono);color:var(--muted)}
+.hero{background:transparent;border-bottom:0;padding:64px 0 48px} .hero h1{font-size:clamp(32px,4.4vw,50px);font-weight:500;line-height:1.08}
+.hero p.lead{font-size:19px;line-height:1.55;color:var(--ink);opacity:.86}
+.pod-hero{background:transparent;border-bottom:0;padding:28px 0 6px;margin:0} .pod-hero h1{font-weight:500}
+.btn{border-radius:999px;padding:10px 18px;font:600 14px var(--sans);border:1px solid var(--line);background:transparent}
+.btn.p{background:var(--ink);color:var(--bg);border-color:var(--ink)} .btn:hover{border-color:var(--ink)}
+.uwaga{border-left:0;padding-left:0;font:13.5px/1.6 var(--sans)}
+.wer{background:transparent;border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;padding:14px 0}
+body > section > .wrap{border-top:1px solid var(--line);padding-top:44px} body > section{padding:0 0 44px}
+body > section h2{margin-bottom:8px} .pod{font-size:16.5px;max-width:44em}
+.blok{border:0;border-top:1px solid var(--line);border-radius:0;padding:16px 0 0;background:transparent}
+.blok.ok,.blok.bad{border-top:2px solid var(--line)} .blok.ok{border-top-color:var(--ok)} .blok.bad{border-top-color:var(--bad)} .blok h3{font-size:17px}
+.teza{font:500 19px/1.5 var(--sans);letter-spacing:-.01em}
+.hw,.pw,.kp,.siatka-pyt a,.klasa,.fakty,table.pary,table.t,blockquote.pyt,.wykres,pre{border-radius:0}
+.hw{background:var(--panel);padding:0;gap:0} .hw figcaption{padding:12px 18px;border-bottom:1px solid var(--line);font:500 11.5px var(--mono);letter-spacing:.07em}
+.hw-m{padding:16px 18px 4px} .hw-s{margin:12px 0 0;padding:12px 18px;font:12.5px var(--mono)} .hw-r b{font-family:var(--sans)}
+.hw-tor,.kb-t,.pw-tor{border-radius:0} .hw-tor i,.kb-t i{border-radius:0}
+.pw{background:var(--panel)} .pw figcaption b{font-size:15px} .pw-dost{font-family:var(--mono)}
+table.pary,table.t{border:1px solid var(--line)} .pary th,.t th{background:var(--panel);font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.pary th small,.t th small{font:inherit;text-transform:none;letter-spacing:0}
+.pary th.model{font:600 14px var(--sans);text-transform:none;letter-spacing:0;color:var(--ink);background:var(--surface)} .pary tbody:nth-child(odd) th.model,.pary tbody:nth-child(odd) td{background:var(--panel)}
+.cb{display:inline-flex;align-items:center;gap:8px;justify-content:flex-end;width:100%} .cb i{display:inline-block;height:8px;background:currentColor;opacity:.85;vertical-align:middle}
+.war{border-radius:0;font-family:var(--mono)}
+.kb{border-top:1px solid var(--line)} .znak{border-radius:0;border-width:1.5px}
+.kp{background:var(--panel)} .pbox{background:transparent;border-left:2px solid var(--brand);border-radius:0;padding:4px 0 4px 16px}
+.chip{border-radius:0;font-family:var(--mono);font-size:12px;letter-spacing:.02em}
+.prz h3{font-family:var(--sans);font-weight:600}
+blockquote.pyt{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--brand)}
+.siatka-pyt a{background:var(--panel)} .siatka-pyt h2{font-family:var(--sans)}
+footer{background:transparent} footer h4{font-family:var(--mono)} footer .marki a{border-radius:999px}
+.meto aside{font-family:var(--sans)} .meto aside .n{font-family:var(--mono)}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "LawBenchmark.pl", "item": "https://lawbenchmark.pl/"}, {"@type": "ListItem", "position": 2, "name": "Metodologia"}]}</script>
 </head>
@@ -366,6 +429,15 @@ footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:5
 <script>
 (function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
 b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();
+(function(){var t=document.querySelector('table.pary');var g=document.querySelector('.sortuj:not([data-filtr])');
+if(t&&g){g.addEventListener('click',function(e){var k=e.target.closest('button');if(!k)return;var s=k.dataset.sort;
+var tb=[].slice.call(t.tBodies);tb.sort(function(a,b){var x=parseFloat(a.dataset[s]),y=parseFloat(b.dataset[s]);return s==='hal'||s==='idx'?x-y:y-x;});
+tb.forEach(function(x){t.appendChild(x);});[].forEach.call(g.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===k?'true':'false');});});}
+var w=document.querySelectorAll('[data-m]');[].forEach.call(w,function(el){el.addEventListener('mouseenter',function(){var m=el.dataset.m;[].forEach.call(w,function(x){x.classList.toggle('hl',x.dataset.m===m);});});
+el.addEventListener('mouseleave',function(){[].forEach.call(w,function(x){x.classList.remove('hl');});});});
+var f=document.querySelector('.sortuj[data-filtr]');if(f){var l=document.querySelector(f.dataset.filtr);f.addEventListener('click',function(e){var k=e.target.closest('button');if(!k)return;var v=k.dataset.f;
+[].forEach.call(l.children,function(a){if(v==='*'){a.hidden=false;return;}var p=v.split('=');a.hidden=a.dataset[p[0]]!==p[1];});
+[].forEach.call(f.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',x===k?'true':'false');});});}})();
 </script>
 </body>
 </html>

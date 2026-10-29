@@ -172,79 +172,117 @@ BIBTEX_ART = """@techreport{piotrowski2026correctly,
 
 # ---------- wspólny szkielet ----------
 CSS = """
-:root{--brand:#1f4e79;--ok:#13766d;--bad:#b44739;--bg:#f7f8fa;--surface:#ffffff;--ink:#17212b;--muted:#5b6670;--line:#dce2e8;--soft:#eef2f6}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8ab9e2;--ok:#4fb3a9;--bad:#e07a6c;--bg:#111820;--surface:#19232e;--ink:#e6edf3;--muted:#9aa7b4;--line:#2a3643;--soft:#1f2b37}}
-:root[data-theme="dark"]{--brand:#8ab9e2;--ok:#4fb3a9;--bad:#e07a6c;--bg:#111820;--surface:#19232e;--ink:#e6edf3;--muted:#9aa7b4;--line:#2a3643;--soft:#1f2b37}
-*{box-sizing:border-box;min-width:0} html{scroll-behavior:smooth} body{overflow-x:hidden}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Source Serif 4",Georgia,serif}
-.wrap{max-width:1200px;margin:0 auto;padding:0 16px} .tekst{max-width:780px}
-nav{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
-nav .wrap{display:flex;align-items:center;gap:18px;height:56px;font:500 14px Inter,system-ui,sans-serif}
-nav .logo{font-weight:600;color:var(--ink);text-decoration:none;letter-spacing:.01em} nav .logo small{color:var(--muted);font-weight:500;margin-left:8px}
-nav a{color:var(--muted);text-decoration:none} nav a:hover,nav a.tu{color:var(--ink)} nav .sp{flex:1}
-@media (max-width:760px){nav a:not(.logo){display:none}}
+/* Układ: witryna danych, nie dokument. Tekst bezszeryfowy (IBM Plex Sans), nagłówki szeryfowe (Literata) tylko dla h1/h2,
+   liczby w IBM Plex Mono. Jeden kolor marki (kobalt), dwa kolory semantyczne (ugruntowane / halucynacja). Chłodne neutralne. */
+:root{--brand:#1d4f8f;--brand-ink:#163d6e;--ok:#0f7a6c;--bad:#b23b2a;--bg:#f4f6f9;--surface:#ffffff;--ink:#141c26;--muted:#56626f;--line:#d9e0e8;--soft:#e9eef4;--okbg:#e4f3f0;--badbg:#f8e7e3;
+  --serif:"Literata",Georgia,"Times New Roman",serif;--sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;color-scheme:dark}}
+:root[data-theme="dark"]{--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;color-scheme:dark}
+*{box-sizing:border-box;min-width:0} html{scroll-behavior:smooth;scroll-padding-top:70px} body{overflow-x:hidden}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2{font-family:var(--serif);font-weight:600;letter-spacing:-.01em;text-wrap:balance} h3{font-family:var(--sans)}
+a{color:var(--brand);text-decoration-thickness:1px;text-underline-offset:2px} a:focus-visible,button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+code{font:0.9em var(--mono);background:var(--soft);padding:1px 5px;border-radius:3px}
+.num,.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+/* nawigacja */
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;align-items:center;gap:18px;height:58px;font:500 14px var(--sans)}
+nav .logo{color:var(--ink);text-decoration:none;display:flex;flex-direction:column;line-height:1.1} nav .logo b{font-family:var(--serif);font-size:18px;font-weight:600;letter-spacing:-.01em}
+nav .logo small{color:var(--muted);font:500 11px var(--sans);letter-spacing:.04em;text-transform:uppercase;margin-top:2px} nav .sp{flex:1}
+nav a:not(.logo){color:var(--muted);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent} nav a:not(.logo):hover{color:var(--ink)} nav a.tu{color:var(--ink);border-bottom-color:var(--brand)}
+@media (max-width:860px){nav a:not(.logo):not(.wsp){display:none}}
 nav button{background:none;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 10px;font:inherit;cursor:pointer}
-.okr{font:13px Inter,system-ui,sans-serif;color:var(--muted);padding:18px 0 0} .okr a{color:var(--muted)} .okr span{margin:0 6px}
-.hero{padding:56px 0 40px} .hero h1{font:600 clamp(30px,4.6vw,46px)/1.12 "Source Serif 4",Georgia,serif;margin:0 0 14px;max-width:820px}
-.hero p.lead{font-size:20px;color:var(--muted);max-width:720px;margin:0 0 22px}
-.pod-hero{padding:28px 0 8px} .pod-hero h1{font:600 clamp(26px,3.6vw,38px)/1.15 "Source Serif 4",Georgia,serif;margin:0 0 10px;max-width:860px}
-.pod-hero p.lead{font-size:19px;color:var(--muted);max-width:760px;margin:0 0 10px}
-.zakres{display:flex;flex-wrap:wrap;gap:8px 22px;font:500 15px Inter,system-ui,sans-serif;color:var(--ink);margin-bottom:10px} .zakres b{font-weight:600}
-.meta{font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-bottom:22px}
-.btn{display:inline-block;border-radius:6px;padding:10px 16px;font:600 14px Inter,system-ui,sans-serif;text-decoration:none;margin:0 10px 10px 0}
-.btn.p{background:var(--brand);color:#fff} .btn.s{border:1px solid var(--line);color:var(--ink);background:var(--surface)}
-.uwaga{font:14px Inter,system-ui,sans-serif;color:var(--muted);max-width:720px;border-left:3px solid var(--line);padding-left:12px;margin-top:8px}
-section{padding:40px 0 8px} h2{font:600 28px/1.2 "Source Serif 4",Georgia,serif;margin:0 0 6px} .pod{color:var(--muted);margin:0 0 20px;max-width:720px}
-article section{padding:28px 0 4px} article h2{font-size:26px;margin-top:8px} article h3{font:600 19px/1.3 Inter,system-ui,sans-serif;margin:22px 0 6px}
-article p,article li{max-width:780px} article ul,article ol{padding-left:22px} article li{margin:4px 0}
+.okr{font:13px var(--sans);color:var(--muted);padding-top:16px} .okr a{color:var(--muted)} .okr span{margin:0 7px}
+/* hero strony głównej */
+.hero{padding:48px 0 28px;border-bottom:1px solid var(--line);background:var(--surface)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;align-items:start} @media (max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:24px}}
+.hero h1{font-size:clamp(30px,4.2vw,44px);line-height:1.12;margin:0 0 14px;max-width:16em}
+.hero p.lead{font-size:18px;color:var(--muted);max-width:34em;margin:0 0 18px}
+.zakres{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 14px var(--sans);color:var(--muted);margin:0 0 14px} .zakres b{color:var(--ink);font-family:var(--mono);font-weight:500}
+.meta{font:13px var(--sans);color:var(--muted);margin:0 0 18px}
+.btn{display:inline-block;border-radius:6px;padding:9px 14px;font:600 14px var(--sans);text-decoration:none;margin:0 8px 8px 0;border:1px solid var(--line);color:var(--ink);background:var(--surface)}
+.btn.p{background:var(--brand);color:#fff;border-color:var(--brand)} .btn:hover{border-color:var(--brand)}
+.uwaga{font:13.5px/1.5 var(--sans);color:var(--muted);max-width:44em;border-left:3px solid var(--line);padding-left:12px;margin-top:10px}
+.stat{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.stat div{background:var(--surface);padding:14px 16px} .stat .l{display:block;font:500 12px var(--sans);letter-spacing:.03em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.stat .v{font:500 28px/1 var(--mono);letter-spacing:-.02em} .stat .v small{font-size:15px;color:var(--muted);margin-left:4px} .stat .v .ok{color:var(--ok)} .stat .v .bad{color:var(--bad)}
+.stat .d{display:block;font:12.5px var(--sans);color:var(--muted);margin-top:6px}
+/* nagłówki podstron */
+.pod-hero{padding:30px 0 10px;border-bottom:1px solid var(--line);background:var(--surface);margin-bottom:8px}
+.pod-hero h1{font-size:clamp(26px,3.4vw,38px);line-height:1.15;margin:0 0 10px;max-width:24em}
+.pod-hero p.lead{font-size:17px;color:var(--muted);max-width:46em;margin:0 0 10px}
+.pod-hero .meta{margin-bottom:14px}
+/* sekcje */
+section{padding:36px 0 6px} h2{font-size:26px;line-height:1.2;margin:0 0 6px} .pod{color:var(--muted);margin:0 0 18px;max-width:46em}
+article section{padding:26px 0 4px} article h2{font-size:24px;margin-top:6px} article h3{font:600 17px/1.3 var(--sans);margin:20px 0 6px}
+article p,article li{max-width:46em;font-size:16.5px} article ul,article ol{padding-left:22px} article li{margin:4px 0}
 h2 a.kot,h3 a.kot{color:var(--line);text-decoration:none;font-weight:400;margin-left:8px} h2:hover a.kot,h3:hover a.kot{color:var(--muted)}
+.meto{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;align-items:start} @media (max-width:900px){.meto{grid-template-columns:1fr}}
+.meto aside{position:sticky;top:76px;font:13.5px/1.45 var(--sans);border-left:1px solid var(--line);padding-left:14px} .meto aside a{display:block;color:var(--muted);text-decoration:none;padding:4px 0} .meto aside a:hover{color:var(--ink)}
+.meto aside .n{font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 6px} @media (max-width:900px){.meto aside{display:none}}
+.spis{font:14px var(--sans);display:flex;flex-wrap:wrap;gap:4px 16px;margin:12px 0 4px} .spis a{text-decoration:none} @media (min-width:901px){.spis{display:none}}
 .dwa{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.dwa{grid-template-columns:1fr}}
-.blok{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
-.blok h3{margin:0 0 6px;font:600 20px Inter,system-ui,sans-serif} .blok p{margin:0;color:var(--muted);font-size:16px}
-.blok.ok h3{color:var(--ok)} .blok.bad h3{color:var(--bad)}
-.teza{font:600 20px/1.4 "Source Serif 4",Georgia,serif;margin:18px 0 0;max-width:820px}
-.wyk{gap:12px} .wykres{width:100%;height:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px}
-.legenda{display:flex;gap:20px;flex-wrap:wrap;font:13px Inter,system-ui,sans-serif;color:var(--muted);margin:10px 0 0}
+.blok{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 20px}
+.blok h3{margin:0 0 6px;font:600 18px var(--sans)} .blok p{margin:0;color:var(--muted);font-size:15.5px}
+.blok.ok{border-top:3px solid var(--ok)} .blok.bad{border-top:3px solid var(--bad)} .blok.ok h3{color:var(--ok)} .blok.bad h3{color:var(--bad)}
+.teza{font:500 19px/1.45 var(--serif);margin:18px 0 0;max-width:40em}
+.wyk{gap:12px} .wykres{width:100%;height:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px}
+.legenda{display:flex;gap:20px;flex-wrap:wrap;font:13px var(--sans);color:var(--muted);margin:10px 0 0}
 .legenda i{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin-right:6px;border:2px solid var(--muted)} .legenda i.f{background:var(--muted)}
-table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 Inter,system-ui,sans-serif;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-variant-numeric:tabular-nums}
-.pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600} th small{font-weight:500;color:var(--muted)}
+table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 var(--sans);background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;font-variant-numeric:tabular-nums}
+.pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600;font-size:13px} th small{font-weight:500;color:var(--muted)}
 .pary th,.pary td{white-space:nowrap} .t.zw td,.t.zw th{white-space:nowrap}
-.pary .num,.t .num{text-align:right} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
-.war{display:inline-block;font:600 11px Inter,system-ui,sans-serif;padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
+.pary .num,.t .num{text-align:right;font-family:var(--mono)} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
+.war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
 .ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
 .scroll{overflow-x:auto;margin:0 -16px;padding:0 16px} .karty{display:none}
-@media (max-width:760px){.scroll.pary-s{display:none} .karty{display:grid;gap:12px} .karta{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
-.karta h3{margin:0 0 8px;font:600 17px Inter,system-ui,sans-serif} .kw{display:grid;grid-template-columns:auto 1fr 1fr;gap:4px 10px;align-items:center;font:14px Inter,system-ui,sans-serif;padding:6px 0;border-top:1px solid var(--line)}
+@media (max-width:760px){.scroll.pary-s{display:none} .karty{display:grid;gap:12px} .karta{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.karta h3{margin:0 0 8px;font:600 16px var(--sans)} .kw{display:grid;grid-template-columns:auto 1fr 1fr;gap:4px 10px;align-items:center;font:14px var(--sans);padding:6px 0;border-top:1px solid var(--line)}
 .kw .m{grid-column:2/4;color:var(--muted);font-size:13px}}
-.klasy{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px} .klasa{display:flex;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
-.znak{flex:none;width:36px;height:36px;border:2px solid var(--ink);border-radius:8px;display:grid;place-items:center;font:600 16px Inter,system-ui,sans-serif}
-.klasa b{display:block;font:600 15px Inter,system-ui,sans-serif} .klasa .m b{display:inline;font-size:13px} .klasa .m{display:block;font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-top:4px}
+.klasy{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px} .klasa{display:flex;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px}
+.znak{flex:none;width:36px;height:36px;border:2px solid var(--ink);border-radius:6px;display:grid;place-items:center;font:600 16px var(--mono)}
+.klasa b{display:block;font:600 14.5px var(--sans)} .klasa .m b{display:inline;font-size:13px} .klasa .m{display:block;font:13px var(--sans);color:var(--muted);margin-top:4px}
 .przyp{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.przyp{grid-template-columns:1fr}}
-.przyp .blok h3{font-size:17px} .przyp .blok p{color:var(--ink)} .q{border-left:3px solid var(--line);padding:2px 0 2px 12px;margin:10px 0;color:var(--muted);font-style:italic}
-.ocena{font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-top:8px}
-.lista{columns:2;column-gap:40px;max-width:1000px} @media (max-width:760px){.lista{columns:1}} .lista p{break-inside:avoid;margin:0 0 12px} .lista b{font-family:Inter,system-ui,sans-serif;font-size:15px}
-pre{white-space:pre-wrap;word-break:break-word;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;overflow-x:auto}
-code{font:0.92em ui-monospace,Menlo,Consolas,monospace;background:var(--soft);padding:1px 5px;border-radius:4px}
-blockquote.pyt{margin:14px 0;padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:8px;font-size:18px}
-.fakty{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;font:14px Inter,system-ui,sans-serif;margin:14px 0}
-.fakty div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px} .fakty b{display:block;font-size:13px;color:var(--muted);font-weight:500;margin-bottom:2px}
-.siatka-pyt{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px} .siatka-pyt a{display:block;color:inherit;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
-.siatka-pyt a:hover{border-color:var(--brand)} .siatka-pyt .id{font:600 12px Inter,system-ui,sans-serif;color:var(--muted)} .siatka-pyt h2{margin:2px 0 6px;font:600 17px/1.3 Inter,system-ui,sans-serif}
-.siatka-pyt .st{font:13px Inter,system-ui,sans-serif;color:var(--muted)} .siatka-pyt .st b{color:var(--ink)}
-.kl{display:inline-block;font:600 12px Inter,system-ui,sans-serif;padding:1px 6px;border-radius:4px;border:1px solid var(--line);margin-right:3px} .kl.ok{border-color:var(--ok)} .kl.bl{border-color:var(--bad);color:var(--bad)}
-.spis{font:14px Inter,system-ui,sans-serif;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 18px;margin:16px 0 8px;max-width:780px} .spis a{display:inline-block;margin:3px 14px 3px 0;text-decoration:none}
-footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font:14px/1.5 Inter,system-ui,sans-serif;color:var(--muted)} a{color:var(--brand)}
+.przyp .blok h3{font-size:16px} .przyp .blok p{color:var(--ink)} .q{border-left:3px solid var(--line);padding:2px 0 2px 12px;margin:10px 0;color:var(--muted);font-style:italic;font-family:var(--serif)}
+.ocena{font:13px var(--sans);color:var(--muted);margin-top:8px}
+.lista{columns:2;column-gap:40px;max-width:1000px} @media (max-width:760px){.lista{columns:1}} .lista p{break-inside:avoid;margin:0 0 12px;font-size:15.5px} .lista b{font-family:var(--sans)}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;font:13px/1.45 var(--mono);overflow-x:auto}
+blockquote.pyt{margin:14px 0;padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:6px;font:400 18px/1.5 var(--serif)}
+.fakty{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;font:14px var(--sans);margin:14px 0}
+.fakty div{background:var(--surface);padding:10px 12px;font-family:var(--mono)} .fakty b{display:block;font:500 12px var(--sans);color:var(--muted);margin-bottom:3px}
+/* siatka 8 modeli × 2 warunki */
+.s16{display:block;width:100%;max-width:300px;height:auto} .s16 text{font:500 9px var(--sans);fill:var(--muted)}
+.siatka-pyt{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px} .siatka-pyt a{display:block;color:inherit;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px} .siatka-pyt .s16{max-width:230px;margin:10px 0 2px}
+.siatka-pyt a:hover{border-color:var(--brand)} .siatka-pyt .id{font:500 11px var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)} .siatka-pyt h2{margin:3px 0 6px;font:600 16px/1.3 var(--sans)}
+.siatka-pyt .st{display:block;font:13px/1.5 var(--sans);color:var(--muted)} .siatka-pyt .st b{color:var(--ink);font-family:var(--mono);font-weight:500}
+.kl{display:inline-block;font:600 12px var(--mono);padding:1px 6px;border-radius:4px;border:1px solid var(--line);margin-right:3px} .kl.ok{border-color:var(--ok);color:var(--ok);background:var(--okbg)} .kl.bl{border-color:var(--bad);color:var(--bad);background:var(--badbg)}
+/* stopka */
+footer{margin-top:56px;border-top:1px solid var(--line);background:var(--surface);padding:28px 0 44px;font:14px/1.55 var(--sans);color:var(--muted)}
+footer .kol{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px} @media (max-width:760px){footer .kol{grid-template-columns:1fr}}
+footer h4{margin:0 0 8px;font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)} footer a{color:var(--ink)} footer p{margin:0 0 8px}
+footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:500} footer .marki a{text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px}
 """
 SKRYPT = """<script>
 (function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
 b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();
 </script>"""
-NAV = [("/#wyniki", "Wyniki"), ("/benchmark/02/pytania", "Pytania"), ("/metodologia", "Metodologia"), ("/raporty", "Raporty"), ("/dane", "Dane"), ("/en", "EN")]
-STOPKA_PL = ('LawBenchmark.pl jest projektem <b>LexAlpha Lab</b>, laboratorium badawczego kancelarii <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk). '
-             'Autorzy: Adam Piotrowski (radca prawny, KTZR), Andrzej Koman (COO LexAlpha). Badanie finansowane ze środków własnych kancelarii; żaden dostawca modeli nie uczestniczył w jego przygotowaniu. '
-             'Treści na licencji CC BY 4.0. Benchmark nie jest poradą prawną.')
-STOPKA_EN = ('LawBenchmark.pl is a project of <b>LexAlpha Lab</b>, the research unit of the law firm <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk, Poland). '
-             'Authors: Adam Piotrowski (attorney-at-law, KTZR), Andrzej Koman (COO, LexAlpha). Funded by the firm; no model provider took part. Content under CC BY 4.0. Not legal advice.')
+NAV = [("/#wyniki", "Wyniki"), ("/benchmark/02/pytania", "Pytania"), ("/metodologia", "Metodologia"), ("/raporty", "Raporty"), ("/dane", "Dane"), ("/wspolpraca", "Współpraca"), ("/dolacz", "Dołącz"), ("/en", "EN")]
+STOPKA_PL = ('<div class="kol"><div><h4>O projekcie</h4><p><b>LawBenchmark.pl</b> prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii '
+             '<a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk) i spółki <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warszawa). '
+             'Autorzy: Adam Piotrowski (radca prawny, partner KTZR), Andrzej Koman (CEO LexAlpha). Badanie finansowane ze środków własnych obu podmiotów; żaden dostawca modeli nie uczestniczył w jego przygotowaniu. '
+             'Produkty LexAlpha i KTZR nie są oceniane w benchmarku. Benchmark nie jest poradą prawną.</p>'
+             '<div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div>'
+             '<div><h4>Strony</h4><p><a href="/#wyniki">Wyniki</a><br><a href="/benchmark/02/pytania">Dziesięć pytań</a><br><a href="/metodologia">Metodologia</a><br><a href="/raporty">Raporty</a><br><a href="/dane">Dane i kod</a><br><a href="/wspolpraca">Współpraca</a><br><a href="/dolacz">Dołącz do nas</a><br><a href="/en">English</a></p></div>'
+             '<div><h4>Licencja i kontakt</h4><p>Teksty, klucze i karty: CC BY 4.0. Kod: MIT. Cytuj jako „LexAlpha Lab, LawBenchmark.pl”.</p><p>a.piotrowski@ktzr.pl</p></div></div>')
+STOPKA_EN = ('<div class="kol"><div><h4>About</h4><p><b>LawBenchmark.pl</b> is run by <b>LexAlpha Lab</b>, a joint research initiative of the law firm '
+             '<a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk, Poland) and <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warsaw). '
+             'Authors: Adam Piotrowski (attorney-at-law, partner at KTZR), Andrzej Koman (CEO, LexAlpha). Funded by the two organisations; no model provider took part. '
+             'Products of LexAlpha and KTZR are not evaluated in the benchmark. Not legal advice.</p>'
+             '<div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div>'
+             '<div><h4>Pages</h4><p><a href="/">Results (Polish)</a><br><a href="/metodologia">Methodology (Polish)</a><br><a href="/dane">Data and code</a><br><a href="/wspolpraca">Collaboration (Polish)</a></p></div>'
+             '<div><h4>Licence and contact</h4><p>Texts, keys and cards: CC BY 4.0. Code: MIT. Cite as "LexAlpha Lab, LawBenchmark.pl".</p><p>a.piotrowski@ktzr.pl</p></div></div>')
 STRONY = []   # (ścieżka URL bez domeny, lastmod) — do mapy witryny
 
 
@@ -293,11 +331,11 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
 <meta property="og:url" content="{url}">
 <meta property="og:site_name" content="LawBenchmark.pl">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 {ld_html}</head>
 <body>
-<nav><div class="wrap"><a class="logo" href="/">LawBenchmark.pl <small>LexAlpha Lab</small></a><span class="sp"></span>
+<nav><div class="wrap"><a class="logo" href="/"><b>LawBenchmark.pl</b><small>LexAlpha Lab · KTZR i LexAlpha</small></a><span class="sp"></span>
 {nav_html}
 <button id="motyw" aria-label="Przełącz motyw">◐</button></div></nav>
 {okr_html}
@@ -316,18 +354,26 @@ def strona(sciezka, tytul, opis, tresc, *, lang="pl", okr=None, ld=None, lastmod
 
 spr_n, spr_m = L["spr"]
 spr_n_fmt = f"{spr_n:,}".replace(",", "\u00a0")
+spr_m_fmt = f"{spr_m:,}".replace(",", "\u00a0")
 
 # =====================================================================
 # 1. Strona główna
 # =====================================================================
 GLOWNA = f"""
-<header class="hero"><div class="wrap">
+<header class="hero"><div class="wrap"><div>
 <h1>Jak modele językowe odpowiadają na pytania z polskiego prawa?</h1>
 <p class="lead">Badamy poprawność odpowiedzi, halucynacje i oparcie w źródłach urzędowych — bez narzędzi oraz z wyszukiwaniem w internecie.</p>
 <div class="zakres"><span><b>10</b> pytań</span><span><b>8</b> modeli, 3 dostawców</span><span><b>2</b> warunki: W0 / W1</span><span><b>160</b> odpowiedzi</span><span><b>1 454</b> powołań, <b>{spr_n_fmt}</b> sprawdzonych u źródła</span></div>
 <div class="meta">Benchmark 02 · raport wersja {WERSJA_RAPORTU} z {DATA_RAPORTU} · karty wzorcowe w stanie z {DATA_KART} · stan prawny 1.10.2026 · specyfikacja oceny v1.0.4 (punktacja jak w 1.0.1)</div>
 <a class="btn p" href="#wyniki">Zobacz wyniki</a><a class="btn s" href="/benchmark/02/pytania">Dziesięć pytań</a><a class="btn s" href="/metodologia">Metodologia</a><a class="btn s" href="/reports/lexalpha_lab_benchmark_02.pdf">Raport (PDF, 44 str.)</a>
 <p class="uwaga">Wyniki dotyczą tego zestawu pytań i tych konfiguracji: dziesięć pytań, jedna seria, karty sprawdzał jeden prawnik. Nie stanowią ogólnego rankingu produktów.</p>
+</div>
+<div class="stat" aria-label="Najważniejsze liczby Benchmarku 02">
+<div><span class="l">Odpowiedzi z halucynacją</span><span class="v"><span class="bad">{L["hal_W0"]}</span> → <span class="bad">{L["hal_W1"]}</span><small>z 80</small></span><span class="d">bez narzędzi → z wyszukiwaniem</span></div>
+<div><span class="l">Poprawnie ugruntowane</span><span class="v"><span class="ok">{L["pu_W0"]}</span> → <span class="ok">{L["pu_W1"]}</span><small>z 80</small></span><span class="d">pełny rdzeń, bez błędnych powołań, źródło potwierdzone</span></div>
+<div><span class="l">Najczęstsza klasa błędu</span><span class="v">T<small>{L["klasa_T"]} odp.</small></span><span class="d">prawdziwe źródło, treść, której w nim nie ma</span></div>
+<div><span class="l">Powołania sprawdzone u źródła</span><span class="v">{spr_n_fmt}<small>z {spr_m_fmt}</small></span><span class="d">ISAP, ELI, SAOS, sn.pl, portale sądów</span></div>
+</div>
 </div></header>
 
 <section id="czytanie"><div class="wrap">
@@ -431,8 +477,12 @@ METODOLOGIA = f"""
 <a href="#ograniczenia">Ograniczenia</a><a href="#wersje">Wersjonowanie</a><a href="#kontaminacja">Kontaminacja</a><a href="#autorzy">Autorzy i finansowanie</a>
 </div>
 </div></header>
-<article><div class="wrap">
-
+<article><div class="wrap meto">
+<aside aria-label="Spis treści"><p class="n">Na tej stronie</p>
+<a href="#konstrukt">Co mierzymy</a><a href="#pytania">Pytania</a><a href="#klucze">Klucze</a><a href="#warunki">Warunki badania</a><a href="#karta">Kryteria oceny</a><a href="#halucynacja">Halucynacja i klasy błędu</a>
+<a href="#ugruntowanie">Poprawnie ugruntowane</a><a href="#procedura">Karta oceny</a><a href="#sedziowie">Sędziowie-modele</a><a href="#weryfikacja">Warstwa weryfikacji</a><a href="#koszt">Koszt</a>
+<a href="#ograniczenia">Ograniczenia</a><a href="#wersje">Wersjonowanie</a><a href="#kontaminacja">Kontaminacja</a><a href="#autorzy">Autorzy i finansowanie</a></aside>
+<div>
 <section>{kot("konstrukt", "Co mierzy benchmark modeli AI")}
 <p>Za benchmarkiem stoi praktyczne pytanie: ile pracy sprawdzającej zostaje prawnikowi po otrzymaniu odpowiedzi modelu. Benchmark tego pytania nie rozstrzyga. Mierzy dwie rzeczy, które da się sprawdzić: zgodność odpowiedzi z kluczem ustalonym przed badaniem oraz prawdziwość zawartych w niej twierdzeń o źródłach prawa wobec tekstu urzędowego na dzień stanu prawnego. Żadna etykieta na tej stronie nie oznacza, że odpowiedź nadaje się do pisma bez kontroli.</p>
 <p>Stąd dwie osie oceny. Pierwsza, <b>halucynacja</b>, odpowiada na pytanie, czy twierdzenia o źródłach prawa są prawdziwe. Druga, <b>ugruntowanie</b>, odpowiada na pytanie, czy powołania w odpowiedzi dało się potwierdzić w źródle urzędowym, a w warunku z wyszukiwaniem także, czy system takie źródło otworzył. Miara główna łączy obie osie: odsetek odpowiedzi <a href="#ugruntowanie">poprawnie ugruntowanych</a>.</p>
@@ -587,9 +637,9 @@ METODOLOGIA = f"""
 </section>
 
 <section>{kot("autorzy", "Autorzy, finansowanie, konflikt interesów")}
-<p>Benchmark prowadzi LexAlpha Lab, laboratorium badawcze kancelarii KTZR w Gdańsku. Autorzy: Adam Piotrowski (radca prawny; projekt metodologii, klucze, karty, raport) i Andrzej Koman (COO LexAlpha). Badanie jest finansowane ze środków własnych kancelarii. Żaden dostawca modeli nie uczestniczył w przygotowaniu badania ani go nie finansował; autorzy nie przekazywali dostawcom wyników przed publikacją. Kancelaria korzysta w pracy z narzędzi wymienionych dostawców na warunkach komercyjnych i rozwija własne narzędzia prawnicze, których w benchmarku nie ocenia.</p>
+<p>Benchmark prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk) i spółki <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warszawa), która rozwija komercyjną platformę AI dla prawników. Autorzy: Adam Piotrowski (radca prawny, partner KTZR; projekt metodologii, klucze, karty, raport) i Andrzej Koman (CEO LexAlpha). Badanie jest finansowane ze środków własnych obu podmiotów.</p><p><b>Konflikt interesów.</b> LexAlpha Sp. z o.o. oferuje komercyjne narzędzia AI dla prawników, zbudowane na modelach językowych tych samych dostawców, których czyste modele ocenia benchmark; spółka ma więc interes gospodarczy związany z wynikami i sposobem ich przedstawiania, a jej CEO jest współautorem raportu. KTZR korzysta z narzędzi tych dostawców na warunkach komercyjnych. Decyzją z 17.10.2026 własne produkty obu podmiotów wyłączono z benchmarku; ogranicza to bezpośredni konflikt związany z oceną własnego produktu, ale nie usuwa powiązań ekonomicznych autorów. Dlatego oceniamy wyłącznie czyste modele w publicznie dostępnych konfiguracjach, a klucze, karty, odpowiedzi i kod są publiczne, by każdą ocenę można było sprawdzić niezależnie. Wyniki czystych modeli nie mówią nic o jakości produktów LexAlpha ani KTZR; produkt z własnym wyszukiwaniem i instrukcjami wymaga osobnego badania.</p><p><b>Role.</b> Pytania, klucze, kontrolę kart i decyzje o publikacji wykonywał Adam Piotrowski; Andrzej Koman współtworzył raport. Żaden dostawca modeli nie uczestniczył w przygotowaniu badania ani go nie finansował; autorzy nie przekazywali dostawcom wyników przed publikacją. Do 29.10.2026 strona opisywała LexAlpha Lab jako laboratorium kancelarii KTZR; obecny opis odzwierciedla udział obu podmiotów.</p>
 </section>
-
+</div>
 </div></article>
 """
 strona("/metodologia", "Jak oceniamy modele AI w polskim prawie — metodologia · LawBenchmark.pl",
@@ -625,11 +675,39 @@ def statystyka(pid):
     return st
 
 
+def siatka16(pid, etykiety=True):
+    """Inline SVG: 8 modeli × 2 warunki; kolor = wynik odpowiedzi (ugruntowana / bez halucynacji / halucynacja / blokada)."""
+    i = PYT.index(pid); k, g = 30, 22
+    out = []
+    for r, w in enumerate(("W0", "W1")):
+        y = 12 + r * g
+        out.append(f'<text x="0" y="{y + 4}">{w}</text>')
+        for c, m in enumerate(MODELE):
+            x = 26 + c * k; v = ANEKS_H[f"{KROTKA[m]} {w}"][i]
+            tyt = f"{m} {w}: " + ("poprawnie ugruntowana" if v == "✓" else "bez halucynacji, nie ugruntowana" if v == "–" else "blokada dostawcy" if v == "blokada" else "halucynacja " + v)
+            if v == "✓":
+                out.append(f'<rect x="{x}" y="{y - 7}" width="18" height="14" rx="3" fill="var(--ok)"><title>{E(tyt)}</title></rect>')
+            elif v == "–":
+                out.append(f'<rect x="{x + 0.75}" y="{y - 6.25}" width="16.5" height="12.5" rx="3" fill="var(--surface)" stroke="var(--muted)" stroke-width="1.5"><title>{E(tyt)}</title></rect>')
+            elif v == "blokada":
+                out.append(f'<rect x="{x + 0.75}" y="{y - 6.25}" width="16.5" height="12.5" rx="3" fill="var(--soft)" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="3 2"><title>{E(tyt)}</title></rect>')
+            else:
+                out.append(f'<rect x="{x}" y="{y - 7}" width="18" height="14" rx="3" fill="var(--bad)"><title>{E(tyt)}</title></rect>')
+    if etykiety:
+        for c, m in enumerate(MODELE):
+            out.append(f'<text x="{26 + c * k + 9}" y="62" text-anchor="middle">{E(KROTKA[m])}</text>')
+    return f'<svg class="s16" viewBox="0 0 270 {68 if etykiety else 46}" role="img" aria-label="Wyniki ośmiu modeli w dwóch warunkach dla {pid}">' + "".join(out) + "</svg>"
+
+
+LEGENDA16 = ('<p class="legenda"><span><i style="background:var(--ok);border-color:var(--ok);border-radius:3px"></i>poprawnie ugruntowana</span>'
+             '<span><i style="border-radius:3px"></i>bez halucynacji, nie ugruntowana</span><span><i style="background:var(--bad);border-color:var(--bad);border-radius:3px"></i>z halucynacją</span>'
+             '<span><i style="border-style:dashed;border-radius:3px"></i>blokada dostawcy</span><span>Kolumny: modele w kolejności raportu; wiersze: W0 bez narzędzi, W1 z wyszukiwaniem.</span></p>')
+
 LISTA = ['<div class="siatka-pyt">']
 for pid in PYT:
     q, t, st = PYTANIA[pid], PYTANIA_T[pid], statystyka(pid)
-    LISTA.append(f'<a href="/benchmark/02/pytania/{pid.lower()}"><span class="id">{pid} · {E(t[1])} · {"pułapka" if q["trap"] else "bez pułapki"}</span><h2>{E(TYTUL[pid])}</h2>'
-                 f'<span class="st">halucynacje <b>{st["W0"]["hal"]}</b> → <b>{st["W1"]["hal"]}</b> z 8 · poprawnie ugruntowane <b>{st["W0"]["pu"]}</b> → <b>{st["W1"]["pu"]}</b> z 8 · śr. A {E(t[8])} %</span></a>')
+    LISTA.append(f'<a href="/benchmark/02/pytania/{pid.lower()}"><div><span class="id">{pid} · {E(t[1])} · {"pułapka" if q["trap"] else "bez pułapki"}</span><h2>{E(TYTUL[pid])}</h2>'
+                 f'{siatka16(pid, etykiety=False)}<span class="st">halucynacje <b>{st["W0"]["hal"]}</b> → <b>{st["W1"]["hal"]}</b> z&nbsp;8 · poprawnie ugruntowane <b>{st["W0"]["pu"]}</b> → <b>{st["W1"]["pu"]}</b> z&nbsp;8</span><span class="st">średni wynik bloku A: <b>{E(t[8])} %</b></span></div></a>')
 LISTA.append("</div>")
 PYT_LISTA = f"""
 <header class="pod-hero"><div class="wrap">
@@ -639,6 +717,7 @@ PYT_LISTA = f"""
 </div></header>
 <section><div class="wrap">
 {"".join(LISTA)}
+{LEGENDA16}
 <p class="uwaga" style="margin-top:18px">Pytania są publiczne od października 2026 r. razem z kluczami; kolejne pomiary na tym zbiorze mogą być skażone ekspozycją. Pozostałe 40 pytań puli pozostaje nieujawnione. <a href="/metodologia#kontaminacja">Kontaminacja i kanarek</a>.</p>
 </div></section>
 """
@@ -673,6 +752,7 @@ for n, pid in enumerate(PYT):
 <header class="pod-hero"><div class="wrap">
 <h1>{pid} · {E(TYTUL[pid])}</h1>
 <p class="lead">{E(t[1])} · pytanie {E(TYP_OPIS.get(q["type"], q["type"]))} · {"z pułapką" if q["trap"] else "bez pułapki"} · klucz v{q["key_version"]} z {E(q["key_date"])} · stan prawny 1.10.2026</p>
+<div style="max-width:320px;margin:6px 0 10px">{siatka16(pid)}</div>
 </div></header>
 <article><div class="wrap">
 <section>{kot("pytanie", "Pytanie w brzmieniu użytym w badaniu")}
@@ -699,6 +779,7 @@ for n, pid in enumerate(PYT):
 <div class="scroll"><table class="pary"><thead><tr><th>Model</th><th>Warunek</th><th class="num">Blok A <small>%</small></th><th>Wynik</th><th>Karta</th></tr></thead><tbody>
 {"".join(wiersze)}
 </tbody></table></div>
+{LEGENDA16}
 <p class="legenda" style="display:block"><span class="kl ok">✓</span> poprawnie ugruntowana · <span class="kl">–</span> bez halucynacji, ale rdzeń niepełny albo brak sprawdzonego źródła · <span class="kl bl">T</span> <span class="kl bl">W</span> <span class="kl bl">F</span> <span class="kl bl">S</span> klasy błędu w odpowiedzi z halucynacją (<a href="/metodologia#halucynacja">definicje</a>) · <span class="kl">blokada</span> tekst zablokowany przez filtr dostawcy, bez etykiety · blok A = kryteria sprawdzane wobec klucza i źródła (<a href="/metodologia#karta">kryteria oceny</a>)</p>
 <p class="uwaga">Liczby dotyczą jednej odpowiedzi każdego modelu na to pytanie w każdym warunku. Nie mówią nic o wariancji między uruchomieniami ani o innych pytaniach z tej dziedziny.</p>
 </section>
@@ -811,6 +892,86 @@ strona("/dane", "Dane i kod — LawBenchmark.pl",
        DANE, okr=[("Dane i kod", None)], ld=[LD_DATASET], tu="/dane")
 
 # =====================================================================
+# 5b. Współpraca
+# =====================================================================
+WSPOLPRACA = f"""
+<header class="pod-hero"><div class="wrap">
+<h1>Współpraca</h1>
+<p class="lead">Badamy jakość odpowiedzi systemów AI na pytania z polskiego prawa. Przyjmujemy zgłoszenia systemów do badania na pytaniach niepublicznych, propozycje współpracy naukowej, uwagi do metodologii i wyników oraz pytania mediów.</p>
+<div class="spis" style="display:flex"><a href="#dostawcy">Dostawcy systemów</a><a href="#badacze">Uczelnie i badacze</a><a href="#praktyka">Kancelarie i działy prawne</a><a href="#media">Media i cytowanie</a><a href="#kontakt">Kontakt</a></div>
+</div></header>
+<article><div class="wrap">
+<section>{kot("dostawcy", "Dostawcy i twórcy systemów prawniczych")}
+<p>Dotyczy asystentów kancelaryjnych, systemów z własnym wyszukiwaniem (RAG) i innych narzędzi opartych na modelach językowych. Wyniki takich systemów nie trafiają do tabeli czystych modeli: dostęp do źródeł, korpus dokumentów i instrukcje systemowe zmieniają warunki, więc publikujemy je w osobnej kategorii z opisem konfiguracji.</p>
+<h3>Badanie na pytaniach niepublicznych</h3>
+<p>Oferujemy badanie wskazanej wersji systemu na 40 nieujawnionych pytaniach z puli 50, według opublikowanej specyfikacji oceny. Przed rozpoczęciem ustalamy na piśmie: konfigurację i wersję systemu, dostęp do narzędzi i źródeł, datę stanu prawnego, sposób wykonania odpowiedzi i ocenę według tej samej karty, którą stosujemy do czystych modeli.</p>
+<h3>Warunki ustalane indywidualnie</h3>
+<p>Finansowanie badania, termin na uwagi dostawcy do wyniku i sposób publikacji ustalamy indywidualnie, na piśmie, przed pierwszym wywołaniem systemu. Dwie zasady są stałe: wynik i jego opis nie zależą od tego, kto badanie finansuje, a każdy opublikowany raport podaje, kto je sfinansował, czy dostawca udostępnił system bezpłatnie i jakie warunki publikacji przyjęto. Dostawca otrzymuje wynik przed publikacją i może zgłosić błędy faktyczne i techniczne.</p>
+<h3>Wersja systemu i powtórzenia</h3>
+<p>Raport identyfikuje badaną wersję, konfigurację i datę wykonania. Powtórne badanie jest oznaczane jako kolejne i nie zastępuje wcześniejszego wyniku; prowadzimy rejestr wszystkich badań, także przerwanych i unieważnionych, z przyczyną. Awaria infrastruktury uzasadnia powtórzenie, słaba odpowiedź systemu nie.</p>
+<h3>Ochrona pytań</h3>
+<p>Nie przekazujemy dostawcy zestawu pytań ani kluczy do przygotowania systemu; pytania zadaje operator badania. Jeżeli pytania trafiają do systemu dostawcy przez jego interfejs, mogą być widoczne w jego logach: dlatego wymagamy zobowiązania do niewykorzystywania ich do treningu i strojenia oraz określenia okresu przechowywania, a gdy tego nie da się zapewnić, odnotowujemy to w raporcie. Zestaw niepubliczny nie jest tajny bezterminowo; po kilku badaniach część pytań wymieniamy. Stosujemy niepubliczne znaczniki kontrolne do wykrywania ujawnienia materiału; podejrzenia weryfikujemy przed sformułowaniem wniosków.</p>
+<h3>Niezależność oceny</h3>
+<p>Finansujący badanie nie wybiera ocenianych odpowiedzi, nie ustala punktacji i nie zatwierdza wniosków. Raport ujawnia powiązania autorów i oceniających z badanym dostawcą; przy istotnym powiązaniu oceniający jest wyłączony albo ocenę wykonuje osoba zewnętrzna. Własne produkty KTZR i LexAlpha pozostają poza benchmarkiem (<a href="/metodologia#autorzy">konflikt interesów</a>).</p>
+<p class="uwaga">Badanie nie jest certyfikacją, audytem ani rekomendacją zakupową. Wynik dotyczy wskazanej wersji i konfiguracji systemu w opisanych warunkach i nie potwierdza poprawności odpowiedzi w innych sprawach.</p>
+</section>
+<section>{kot("badacze", "Uczelnie i badacze")}
+<h3>Niezależna druga ocena</h3>
+<p>Zapraszamy prawników do niezależnego oceniania odpowiedzi według opublikowanej specyfikacji. Zakres próby i sposób liczenia zgodności między oceniającymi ustalamy przed oceną; κ liczymy z ocen sprzed uzgodnienia rozbieżności, a rozbieżności zachowujemy do analizy. Drugi oceniający nie jest „potwierdzeniem obiektywności”, tylko miarą tego, jak powtarzalna jest ocena.</p>
+<h3>Replikacje i wspólne publikacje</h3>
+<p>Możliwe obszary: replikacja na innych modelach lub datach, analiza błędów według klas F/T/W/S, rozwój metod oceny i weryfikacji powołań, porównanie z benchmarkami z innych porządków prawnych. Autorstwo publikacji ustalamy według rzeczywistego wkładu.</p>
+<h3>Dane do ponownego wykorzystania</h3>
+<p>Opublikowane pytania, klucze, karty, odpowiedzi i oceny sędziów są dostępne na licencji CC BY 4.0 (kod na MIT) i nie wymagają kontaktu z autorami: <a href="/dane">dane i kod</a>. Czterdzieści pytań niepublicznych i ich klucze pozostają poza otwartym zbiorem; udostępniamy je wyłącznie w ramach wspólnego badania, z zobowiązaniem do nieujawniania.</p>
+</section>
+<section>{kot("praktyka", "Kancelarie i działy prawne")}
+<p>Wyniki pokazują, jakie rodzaje błędów popełniają czyste modele i jak zmienia je wyszukiwanie. Pomagają zaplanować własne sprawdzenie narzędzia na zadaniach wykonywanych w organizacji. Nie zastępują oceny konkretnego wdrożenia, jego źródeł, konfiguracji i nadzoru, a wynik modelu bazowego nie potwierdza jakości produktu, który z tego modelu korzysta. Żaden wynik nie zwalnia prawnika z kontroli odpowiedzi przed użyciem.</p>
+<p>Przyjmujemy propozycje kategorii pytań i uwagi do kryteriów oceny. W pierwszym kontakcie nie przesyłaj danych klientów ani materiałów objętych tajemnicą zawodową.</p>
+</section>
+<section>{kot("media", "Media i cytowanie")}
+<p>Przy cytowaniu podaj nazwę i wersję badania, datę, badaną konfigurację oraz odnośnik do wyników i metodologii; wzory cytowań są na stronie <a href="/raporty">raporty</a>. Wykresy i tabele możesz wykorzystać na licencji CC BY 4.0 z oznaczeniem „LexAlpha Lab, LawBenchmark.pl”. Udzielamy wyjaśnień o zakresie badania i przyjmujemy zgłoszenia błędów. Wyniku pojedynczego badania nie należy przedstawiać jako ogólnej oceny systemu we wszystkich zastosowaniach w prawie; bezpieczna konstrukcja brzmi: „w badaniu [wersja, data], przy [warunki], system X uzyskał [wynik] w zakresie [zadania]”.</p>
+</section>
+<section>{kot("kontakt", "Kontakt")}
+<p>E-mail: <b>a.piotrowski@ktzr.pl</b>. W temacie wiadomości wpisz jedno z: „Badanie systemu”, „Współpraca naukowa”, „Uwagi do metodologii”, „Media”.</p>
+<p class="uwaga">Korespondencję obsługuje Kancelaria Radców Prawnych KTZR (Gdańsk), która jest administratorem danych osobowych nadawców; informacja o przetwarzaniu danych: <a href="https://www.ktzr.pl/polityka-prywatnosci/">polityka prywatności KTZR</a>. Stronę ewentualnej umowy (KTZR albo LexAlpha Sp. z o.o.) ustalamy indywidualnie; „LexAlpha Lab” jest nazwą inicjatywy, nie podmiotem.</p>
+</section>
+</div></article>
+"""
+strona("/wspolpraca", "Współpraca — badanie systemów AI na pytaniach z polskiego prawa · LawBenchmark.pl",
+       "Zasady współpracy z LawBenchmark.pl: badanie systemów prawniczych na 40 niepublicznych pytaniach (warunki ustalane indywidualnie, ochrona pytań, niezależność oceny), współpraca naukowa, wykorzystanie wyników w kancelariach, cytowanie.",
+       WSPOLPRACA, okr=[("Współpraca", None)], tu="/wspolpraca")
+
+# =====================================================================
+# 5c. Dołącz do nas
+# =====================================================================
+DOLACZ = f"""
+<header class="pod-hero"><div class="wrap">
+<h1>Dołącz do nas</h1>
+<p class="lead">LawBenchmark rozwija niewielki zespół prawników i inżynierów. Szukamy osób, które chcą oceniać odpowiedzi systemów AI według jawnych kryteriów, zgłaszać pytania z praktyki i budować narzędzia do sprawdzania powołań u źródła.</p>
+</div></header>
+<article><div class="wrap">
+<section>{kot("kogo", "Kogo szukamy")}
+<ul>
+<li><b>Prawników oceniających</b> (radcowie prawni, adwokaci, aplikanci, doktoranci prawa): niezależna ocena odpowiedzi według opublikowanej specyfikacji, sprawdzanie każdego powołania w ISAP, ELI i SAOS. Każda ocena jest porównywana z kartą wzorcową, a zgodność między oceniającymi publikujemy.</li>
+<li><b>Praktyków z pytaniami</b>: krótkie pytania w takiej postaci, w jakiej padają w pracy, z własną odpowiedzią i podstawą prawną. Z nich powstają klucze kolejnych edycji; pytania niepubliczne pozostają poza zbiorem otwartym.</li>
+<li><b>Badaczy</b> (prawo, informatyka, językoznawstwo, statystyka): replikacje, analiza klas błędów, metody oceny i pomiaru zgodności, porównania z benchmarkami z innych porządków prawnych.</li>
+<li><b>Inżynierów</b> (Python): warstwa weryfikacji powołań, biblioteka <a href="https://github.com/apiotrowski-afk/legal-cite-pl">legal-cite-pl</a>, skrypty biegów i oceny, strona. Kod jest otwarty (MIT).</li>
+</ul>
+</section>
+<section>{kot("zasady", "Na jakich zasadach")}
+<p>Udział jest dobrowolny; zakres, czas i ewentualne wynagrodzenie ustalamy indywidualnie. Współautorstwo raportów i publikacji wynika z rzeczywistego wkładu. Oceniający nie może oceniać systemu dostawcy, z którym jest powiązany; powiązania ujawniamy w raporcie. Przed oceną każdy dostaje specyfikację, przykłady graniczne i karty kalibracyjne; pierwsze karty omawiamy wspólnie.</p>
+<p>Czego nie oczekuj: szybkich rozstrzygnięć. Sprawdzenie jednej odpowiedzi u źródła zajmuje od kilkunastu minut do godziny, a wynik liczy się dopiero wtedy, gdy każdy werdykt ma dowód z tekstu urzędowego.</p>
+</section>
+<section>{kot("jak", "Jak się zgłosić")}
+<p>Napisz na <b>a.piotrowski@ktzr.pl</b> z tematem „Dołączam”. Podaj, w której roli chcesz pracować, dziedzinę prawa albo technologię, którą znasz, i ile czasu możesz poświęcić w miesiącu. Nie przesyłaj danych klientów ani materiałów objętych tajemnicą zawodową.</p>
+<p class="uwaga">Korespondencję obsługuje Kancelaria Radców Prawnych KTZR (Gdańsk), administrator danych osobowych nadawców: <a href="https://www.ktzr.pl/polityka-prywatnosci/">polityka prywatności KTZR</a>. LawBenchmark prowadzi LexAlpha Lab, wspólna inicjatywa KTZR i <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a></p>
+</section>
+</div></article>
+"""
+strona("/dolacz", "Dołącz do nas — LawBenchmark.pl",
+       "Zespół LawBenchmark szuka prawników do niezależnej oceny odpowiedzi systemów AI, praktyków z pytaniami z polskiego prawa, badaczy i inżynierów do warstwy weryfikacji powołań. Zasady udziału i kontakt.",
+       DOLACZ, okr=[("Dołącz do nas", None)], tu="/dolacz")
+
+# =====================================================================
 # 6. EN
 # =====================================================================
 EN_ROWS = "".join(f'<tr><td class="model">{E(m)}</td><td class="num ok">{PARA[m]["W0"]["pu"]}</td><td class="num ok">{PARA[m]["W1"]["pu"]}</td>'
@@ -818,7 +979,7 @@ EN_ROWS = "".join(f'<tr><td class="model">{E(m)}</td><td class="num ok">{PARA[m]
 EN = f"""
 <header class="hero"><div class="wrap">
 <h1>How do language models answer questions about Polish law?</h1>
-<p class="lead">LawBenchmark.pl measures correctness, hallucinations and grounding in official legal sources, with and without web search. A project of LexAlpha Lab, the research unit of the law firm KTZR (Gdańsk, Poland).</p>
+<p class="lead">LawBenchmark.pl measures correctness, hallucinations and grounding in official legal sources, with and without web search. A project of LexAlpha Lab, a joint research initiative of the law firm <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk) and <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warsaw).</p>
 <div class="zakres"><span><b>10</b> questions</span><span><b>8</b> models, 3 providers</span><span><b>2</b> conditions: no tools / web search</span><span><b>160</b> answers</span><span><b>{spr_n}</b> of {spr_m} citations checked at source</span></div>
 <div class="meta">Benchmark 02 · report v{WERSJA_RAPORTU}, 27 October 2026 · law in force on 1 October 2026 · scoring specification 1.0.4 (scoring rules as in 1.0.1) · full site in Polish</div>
 <a class="btn s" href="/reports/Piotrowski_2026_correctly_grounded_v1.2.pdf">Methodology working paper (PDF, EN)</a><a class="btn s" href="/reports/lexalpha_lab_benchmark_02.pdf">Benchmark 02 report (PDF, PL)</a>

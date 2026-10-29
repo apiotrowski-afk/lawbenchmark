@@ -164,7 +164,7 @@ Porębski A., Figura J. (2025). *Free LLMs Hallucinate and Rarely Signal Their L
 
 ## Authors, funding, conflict of interest
 
-LawBenchmark.pl is run by LexAlpha Lab, a joint research initiative of the law firm KTZR (Gdańsk) and LexAlpha Sp. z o.o. (Warsaw). Authors: Adam Piotrowski (attorney-at-law, partner at KTZR) and Andrzej Koman (CEO, LexAlpha). Funded by the two organisations; no model provider took part in preparing the study or funded it. LexAlpha sells AI tools for lawyers built on models of the evaluated providers; products of LexAlpha and KTZR are excluded from the benchmark. Details: https://lawbenchmark.pl/metodologia#autorzy
+LawBenchmark.pl is run by LexAlpha Lab, a joint research initiative of the law firm KTZR (Gdańsk) and LexAlpha Sp. z o.o. (Warsaw). Authors: Adam Piotrowski (attorney-at-law, partner at KTZR) and Andrzej Koman (CEO, LexAlpha). Funded by the two organisations; no model provider took part in preparing the study or funded it. LexAlpha sells AI tools for lawyers built on models of the evaluated providers; products of LexAlpha and KTZR are not included in Benchmark 02 (this dataset); results of products scored in the earlier Benchmark 01 pilot are not published. Details: https://lawbenchmark.pl/metodologia#autorzy
 
 ## Maintenance and corrections
 

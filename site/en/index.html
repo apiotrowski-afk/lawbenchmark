@@ -80,7 +80,7 @@ h2 a.kot,h3 a.kot{color:var(--line);text-decoration:none;font-weight:400;margin-
 table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 var(--sans);background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;font-variant-numeric:tabular-nums}
 .pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600;font-size:13px} th small{font-weight:500;color:var(--muted)}
 .pary th,.pary td{white-space:nowrap} .t.zw td,.t.zw th{white-space:nowrap}
-.pary .num,.t .num{text-align:right;font-family:var(--mono)} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
+.pary .num,.t .num{text-align:right;font-family:var(--mono);white-space:nowrap} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
 .war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
 .ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
 .scroll{overflow-x:auto;margin:0 -16px;padding:0 16px}
@@ -148,7 +148,7 @@ footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:5
 </head>
 <body>
 <nav><div class="wrap"><a class="logo" href="/"><b>LawBenchmark.pl</b><small>LexAlpha Lab · KTZR i LexAlpha</small></a><span class="sp"></span>
-<a href="/#wyniki">Wyniki</a><a href="/benchmark/02/pytania">Pytania</a><a href="/metodologia">Metodologia</a><a href="/raporty">Raporty</a><a href="/dane">Dane</a><a href="/wspolpraca">Współpraca</a><a href="/dolacz">Dołącz</a><a href="/en" class="tu">EN</a>
+<a href="/#wyniki">Wyniki</a><a href="/benchmark/02/pytania">Pytania</a><a href="/benchmark/01">Kazus</a><a href="/metodologia">Metodologia</a><a href="/raporty">Raporty</a><a href="/dane">Dane</a><a href="/wspolpraca">Współpraca</a><a href="/dolacz">Dołącz</a><a href="/en" class="tu">EN</a>
 <button id="motyw" aria-label="Przełącz motyw">◐</button></div></nav>
 <div class="wrap okr"><a href="/">LawBenchmark.pl</a><span>›</span>English</div>
 
@@ -185,7 +185,7 @@ Data and code (CC BY 4.0 / MIT): questions with scoring keys, 160 answers and ca
 </section>
 </div></article>
 
-<footer><div class="wrap"><div class="kol"><div><h4>About</h4><p><b>LawBenchmark.pl</b> is run by <b>LexAlpha Lab</b>, a joint research initiative of the law firm <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk, Poland) and <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warsaw). Authors: Adam Piotrowski (attorney-at-law, partner at KTZR), Andrzej Koman (CEO, LexAlpha). Funded by the two organisations; no model provider took part. Products of LexAlpha and KTZR are not evaluated in the benchmark. Not legal advice.</p><div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div><div><h4>Pages</h4><p><a href="/">Results (Polish)</a><br><a href="/metodologia">Methodology (Polish)</a><br><a href="/dane">Data and code</a><br><a href="/wspolpraca">Collaboration (Polish)</a></p></div><div><h4>Licence and contact</h4><p>Texts, keys and cards: CC BY 4.0. Code: MIT. Cite as "LexAlpha Lab, LawBenchmark.pl".</p><p>a.piotrowski@ktzr.pl</p></div></div></div></footer>
+<footer><div class="wrap"><div class="kol"><div><h4>About</h4><p><b>LawBenchmark.pl</b> is run by <b>LexAlpha Lab</b>, a joint research initiative of the law firm <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk, Poland) and <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warsaw). Authors: Adam Piotrowski (attorney-at-law, partner at KTZR), Andrzej Koman (CEO, LexAlpha). Funded by the two organisations; no model provider took part. Benchmark 02 does not include products of LexAlpha or KTZR; results of products scored in the Benchmark 01 pilot are not published. Not legal advice.</p><div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div><div><h4>Pages</h4><p><a href="/">Results (Polish)</a><br><a href="/metodologia">Methodology (Polish)</a><br><a href="/dane">Data and code</a><br><a href="/wspolpraca">Collaboration (Polish)</a></p></div><div><h4>Licence and contact</h4><p>Texts, keys and cards: CC BY 4.0. Code: MIT. Cite as "LexAlpha Lab, LawBenchmark.pl".</p><p>a.piotrowski@ktzr.pl</p></div></div></div></footer>
 <script>
 (function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
 b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();

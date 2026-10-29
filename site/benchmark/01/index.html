@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kazus SKD: termin na oświadczenie o sankcji kredytu darmowego — Benchmark 01 · LawBenchmark.pl</title>
+<meta name="description" content="Pilotaż: jak modele językowe analizują fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k. Treść kazusu, metryka, wyniki 17 odpowiedzi modeli ogólnych, klucz i dane.">
+<link rel="canonical" href="https://lawbenchmark.pl/benchmark/01">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:title" content="Kazus SKD: termin na oświadczenie o sankcji kredytu darmowego — Benchmark 01 · LawBenchmark.pl">
+<meta property="og:description" content="Pilotaż: jak modele językowe analizują fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k. Treść kazusu, metryka, wyniki 17 odpowiedzi modeli ogólnych, klucz i dane.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://lawbenchmark.pl/benchmark/01">
+<meta property="og:site_name" content="LawBenchmark.pl">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Literata:opsz,wght@7..72,500;7..72,600&display=swap" rel="stylesheet">
+<style>
+/* Układ: witryna danych, nie dokument. Tekst bezszeryfowy (IBM Plex Sans), nagłówki szeryfowe (Literata) tylko dla h1/h2,
+   liczby w IBM Plex Mono. Jeden kolor marki (kobalt), dwa kolory semantyczne (ugruntowane / halucynacja). Chłodne neutralne. */
+:root{--brand:#1d4f8f;--brand-ink:#163d6e;--ok:#0f7a6c;--bad:#b23b2a;--bg:#f4f6f9;--surface:#ffffff;--ink:#141c26;--muted:#56626f;--line:#d9e0e8;--soft:#e9eef4;--okbg:#e4f3f0;--badbg:#f8e7e3;
+  --serif:"Literata",Georgia,"Times New Roman",serif;--sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;color-scheme:dark}}
+:root[data-theme="dark"]{--brand:#8fb8ea;--brand-ink:#b7d2f3;--ok:#4fb8aa;--bad:#e3806f;--bg:#0f151c;--surface:#171f29;--ink:#e8edf2;--muted:#9aa6b3;--line:#2a3542;--soft:#1e2833;--okbg:#153530;--badbg:#3c221d;color-scheme:dark}
+*{box-sizing:border-box;min-width:0} html{scroll-behavior:smooth;scroll-padding-top:70px} body{overflow-x:hidden}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2{font-family:var(--serif);font-weight:600;letter-spacing:-.01em;text-wrap:balance} h3{font-family:var(--sans)}
+a{color:var(--brand);text-decoration-thickness:1px;text-underline-offset:2px} a:focus-visible,button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+code{font:0.9em var(--mono);background:var(--soft);padding:1px 5px;border-radius:3px;overflow-wrap:anywhere}
+.num,.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+/* nawigacja */
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;align-items:center;gap:18px;height:58px;font:500 14px var(--sans)}
+nav .logo{color:var(--ink);text-decoration:none;display:flex;flex-direction:column;line-height:1.1} nav .logo b{font-family:var(--serif);font-size:18px;font-weight:600;letter-spacing:-.01em}
+nav .logo small{color:var(--muted);font:500 11px var(--sans);letter-spacing:.04em;text-transform:uppercase;margin-top:2px} nav .sp{flex:1}
+nav a:not(.logo){color:var(--muted);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent} nav a:not(.logo):hover{color:var(--ink)} nav a.tu{color:var(--ink);border-bottom-color:var(--brand)}
+@media (max-width:860px){nav a:not(.logo):not(.wsp){display:none}}
+nav button{background:none;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 10px;font:inherit;cursor:pointer}
+.okr{font:13px var(--sans);color:var(--muted);padding-top:16px} .okr a{color:var(--muted)} .okr span{margin:0 7px}
+/* hero strony głównej */
+.hero{padding:48px 0 28px;border-bottom:1px solid var(--line);background:var(--surface)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;align-items:start} @media (max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:24px}}
+.hero h1{font-size:clamp(30px,4.2vw,44px);line-height:1.12;margin:0 0 14px;max-width:16em}
+.hero p.lead{font-size:18px;color:var(--muted);max-width:34em;margin:0 0 18px}
+.zakres{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 14px var(--sans);color:var(--muted);margin:0 0 14px} .zakres b{color:var(--ink);font-family:var(--mono);font-weight:500}
+.meta{font:14px var(--sans);color:var(--muted);margin:0 0 18px}
+.btn{display:inline-block;border-radius:6px;padding:9px 14px;font:600 14px var(--sans);text-decoration:none;margin:0 8px 8px 0;border:1px solid var(--line);color:var(--ink);background:var(--surface)}
+.btn.p{background:var(--brand);color:#fff;border-color:var(--brand)} .btn:hover{border-color:var(--brand)}
+.uwaga{font:14px/1.55 var(--sans);color:var(--muted);max-width:44em;border-left:3px solid var(--line);padding-left:12px;margin-top:10px}
+.stat{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.stat div{background:var(--surface);padding:14px 16px} .stat .l{display:block;font:500 12px var(--sans);letter-spacing:.03em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.stat .v{font:500 28px/1 var(--mono);letter-spacing:-.02em} .stat .v small{font-size:15px;color:var(--muted);margin-left:4px} .stat .v .ok{color:var(--ok)} .stat .v .bad{color:var(--bad)}
+.stat .d{display:block;font:14px/1.4 var(--sans);color:var(--muted);margin-top:6px}
+/* nagłówki podstron */
+.pod-hero{padding:30px 0 10px;border-bottom:1px solid var(--line);background:var(--surface);margin-bottom:8px}
+.pod-hero h1{font-size:clamp(26px,3.4vw,38px);line-height:1.15;margin:0 0 10px;max-width:24em}
+.pod-hero p.lead{font-size:17px;color:var(--muted);max-width:46em;margin:0 0 10px}
+.pod-hero .meta{margin-bottom:14px}
+/* sekcje */
+section{padding:36px 0 6px} h2{font-size:26px;line-height:1.2;margin:0 0 6px} .pod{color:var(--muted);margin:0 0 18px;max-width:46em}
+article section{padding:26px 0 4px} article h2{font-size:24px;margin-top:6px} article h3{font:600 17px/1.3 var(--sans);margin:20px 0 6px}
+article p,article li{max-width:46em;font-size:16.5px} article ul,article ol{padding-left:22px} article li{margin:4px 0}
+h2 a.kot,h3 a.kot{color:var(--line);text-decoration:none;font-weight:400;margin-left:8px} h2:hover a.kot,h3:hover a.kot{color:var(--muted)}
+.meto{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;align-items:start} @media (max-width:900px){.meto{grid-template-columns:1fr}}
+.meto aside{position:sticky;top:76px;font:13.5px/1.45 var(--sans);border-left:1px solid var(--line);padding-left:14px} .meto aside a{display:block;color:var(--muted);text-decoration:none;padding:4px 0} .meto aside a:hover{color:var(--ink)}
+.meto aside .n{font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 6px} @media (max-width:900px){.meto aside{display:none}}
+.spis{font:14px var(--sans);display:flex;flex-wrap:wrap;gap:4px 16px;margin:12px 0 4px} .spis a{text-decoration:none} @media (min-width:901px){.spis{display:none}}
+.dwa{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.dwa{grid-template-columns:1fr}}
+.blok{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 20px}
+.blok h3{margin:0 0 6px;font:600 18px var(--sans)} .blok p{margin:0;color:var(--muted);font-size:15.5px}
+.blok.ok{border-top:3px solid var(--ok)} .blok.bad{border-top:3px solid var(--bad)} .blok.ok h3{color:var(--ok)} .blok.bad h3{color:var(--bad)}
+.teza{font:500 19px/1.45 var(--serif);margin:18px 0 0;max-width:40em}
+.wyk{gap:12px} .wykres{width:100%;height:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px}
+.legenda{display:flex;gap:8px 22px;flex-wrap:wrap;align-items:center;font:14px var(--sans);color:var(--muted);margin:12px 0 0}
+.legenda i{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin-right:6px;border:2px solid var(--muted)} .legenda i.f{background:var(--muted)}
+table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 var(--sans);background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;font-variant-numeric:tabular-nums}
+.pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600;font-size:13px} th small{font-weight:500;color:var(--muted)}
+.pary th,.pary td{white-space:nowrap} .t.zw td,.t.zw th{white-space:nowrap}
+.pary .num,.t .num{text-align:right;font-family:var(--mono);white-space:nowrap} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
+.war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
+.ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
+.scroll{overflow-x:auto;margin:0 -16px;padding:0 16px}
+.pary th.model{position:sticky;left:0;z-index:1;background:var(--surface);font:600 14px var(--sans);vertical-align:top;border-right:1px solid var(--line)}
+.pary thead th:first-child{position:sticky;left:0;z-index:2;background:var(--soft)} .pary tbody:nth-child(odd) td,.pary tbody:nth-child(odd) th.model{background:var(--bg)}
+.pary tbody tr:first-child td{border-bottom:0} .przesun{display:none;font:14px var(--sans);color:var(--muted);margin:0 0 8px} @media (max-width:760px){.przesun{display:block}}
+/* wykres par */
+.wyk2{display:grid;grid-template-columns:1fr 1fr;gap:20px} @media (max-width:960px){.wyk2{grid-template-columns:1fr}}
+.pw{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.pw figcaption{display:flex;flex-direction:column;gap:2px;margin-bottom:10px} .pw figcaption b{font:600 16px var(--sans)} .pw figcaption span{font:14px var(--sans);color:var(--muted)}
+.pw-os,.pw-r{display:grid;grid-template-columns:132px minmax(0,1fr) 128px;gap:12px;align-items:center}
+@media (max-width:520px){.pw-os,.pw-r{grid-template-columns:92px minmax(0,1fr) 96px;gap:8px} .pw-m{font-size:13px!important}}
+.pw-os{font:12px var(--mono);color:var(--muted)} .pw-ticks{position:relative;height:16px;margin:0 9px} .pw-ticks span{position:absolute;transform:translateX(-50%)}
+.pw-gr{border-top:1px solid var(--line);margin-top:6px;padding-top:2px} .pw-dost{display:block;font:500 11px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:5px 0 2px}
+.pw-r{min-height:38px} .pw-m{font:500 14px var(--sans)}
+.pw-tor{position:relative;height:28px;margin:0 9px;background-image:linear-gradient(to right,var(--line) 1px,transparent 1px);background-size:20% 100%;border-right:1px solid var(--line)}
+.pw-line{position:absolute;top:50%;height:0;border-top:2px solid var(--muted);opacity:.5}
+.pw-w0,.pw-w1,.pw-same{position:absolute;top:50%;transform:translate(-50%,-50%);border-radius:50%;box-sizing:border-box}
+.pw-w0{width:14px;height:14px;border:2.5px solid var(--muted);background:var(--surface)} .pw-w1{width:14px;height:14px;background:var(--brand)}
+.pw-same{width:18px;height:18px;border:2.5px solid var(--muted);background:var(--surface);display:grid;place-items:center} .pw-same i{width:8px;height:8px;border-radius:50%;background:var(--brand)}
+.pw-d{display:flex;flex-direction:column;line-height:1.25} .pw-d b{font:600 14px var(--mono)} .pw-d small{font:13px var(--sans);color:var(--muted)}
+.lg-w0,.lg-w1,.lg-same{display:inline-block;width:13px;height:13px;border-radius:50%;vertical-align:-2px;margin-right:7px;box-sizing:border-box}
+.lg-w0{border:2.5px solid var(--muted);background:var(--surface)} .lg-w1{background:var(--brand)}
+.legenda i.lg-w0{border:2.5px solid var(--muted);background:var(--surface);width:13px;height:13px} .legenda i.lg-w1{border:0;background:var(--brand);width:13px;height:13px}
+.legenda i.lg-same{width:17px;height:17px;border:2.5px solid var(--muted);background:var(--surface);display:inline-grid;place-items:center} .legenda i.lg-same i{width:7px;height:7px;margin:0;border:0;background:var(--brand)} .lg-same{width:17px;height:17px;border:2.5px solid var(--muted);background:var(--surface);display:inline-grid;place-items:center;vertical-align:-4px} .lg-same i{width:7px;height:7px;border-radius:50%;background:var(--brand)}
+.stat.wyn{grid-template-columns:repeat(2,minmax(0,1fr));max-width:760px;margin:0 0 14px} @media (max-width:520px){.stat.wyn{grid-template-columns:1fr}}
+.wer{font:14px/1.55 var(--sans);color:var(--ink);max-width:52em;margin:0 0 22px;padding:12px 16px;background:var(--soft);border-radius:8px}
+/* klasy błędu: paski */
+.kb{border-top:1px solid var(--line)} .kb-r{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:12px 28px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)} @media (max-width:760px){.kb-r{grid-template-columns:1fr}}
+.kb-n{display:flex;gap:14px;align-items:center} .kb-n b{display:block;font:600 15.5px var(--sans)} .kb-n .m{display:block;font:14px var(--sans);color:var(--muted)}
+.kb-b{display:flex;flex-direction:column;gap:8px} .kb-l{display:grid;grid-template-columns:28px minmax(0,1fr) 56px;gap:10px;align-items:center;font:14px var(--sans);color:var(--muted)} .kb-l b{font:600 14px var(--mono);color:var(--ink);text-align:right}
+.kb-t{height:12px;background:var(--soft);border-radius:3px;overflow:hidden} .kb-t i{display:block;height:12px;border-radius:3px} .kb-t i.w0{background:var(--muted)} .kb-t i.w1{background:var(--brand)}
+/* przykłady z kart */
+.prz{display:flex;flex-direction:column;gap:14px;margin:0 0 36px} .prz .eyb{font:500 12px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.prz h3{margin:0;font:600 22px/1.25 var(--serif)} .pbox{background:var(--soft);border-radius:8px;padding:14px 18px;max-width:52em;font-size:16px}
+.prz .dw{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px}
+.kp{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 20px;display:flex;flex-direction:column;gap:12px}
+.kp .wn{display:flex;align-items:center;gap:8px;font:600 14px var(--sans)} .kp blockquote{margin:0;font:400 18px/1.5 var(--serif)}
+.chips{display:flex;flex-wrap:wrap;gap:6px} .chip{font:500 13.5px var(--sans);padding:4px 10px;border-radius:999px;background:var(--soft);color:var(--ink)} .chip.ok{background:var(--okbg);color:var(--ok)} .chip.bad{background:var(--badbg);color:var(--bad)}
+.prz .wniosek{margin:0;max-width:52em}
+.klasy{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px} .klasa{display:flex;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px}
+.znak{flex:none;width:36px;height:36px;border:2px solid var(--ink);border-radius:6px;display:grid;place-items:center;font:600 16px var(--mono)}
+.klasa b{display:block;font:600 14.5px var(--sans)} .klasa .m b{display:inline;font-size:13px} .klasa .m{display:block;font:14px var(--sans);color:var(--muted);margin-top:4px}
+.przyp{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.przyp{grid-template-columns:1fr}}
+.przyp .blok h3{font-size:16px} .przyp .blok p{color:var(--ink)} .q{border-left:3px solid var(--line);padding:2px 0 2px 12px;margin:10px 0;color:var(--muted);font-style:italic;font-family:var(--serif)}
+.ocena{font:14px var(--sans);color:var(--muted);margin-top:8px}
+.lista{columns:2;column-gap:40px;max-width:1000px} @media (max-width:760px){.lista{columns:1}} .lista p{break-inside:avoid;margin:0 0 12px;font-size:15.5px} .lista b{font-family:var(--sans)}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;font:13px/1.45 var(--mono);overflow-x:auto}
+blockquote.pyt{margin:14px 0;padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:6px;font:400 18px/1.5 var(--serif)}
+.fakty{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;font:14px var(--sans);margin:14px 0}
+.fakty div{background:var(--surface);padding:10px 12px;font-family:var(--mono)} .fakty b{display:block;font:500 12px var(--sans);color:var(--muted);margin-bottom:3px}
+/* siatka 8 modeli × 2 warunki */
+.s16{display:block;width:100%;max-width:300px;height:auto} .s16 text{font:500 9px var(--sans);fill:var(--muted)}
+.siatka-pyt{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px} .siatka-pyt a{display:block;color:inherit;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px} .siatka-pyt .s16{max-width:230px;margin:10px 0 2px}
+.siatka-pyt a:hover{border-color:var(--brand)} .siatka-pyt .id{font:500 11px var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)} .siatka-pyt h2{margin:3px 0 6px;font:600 16px/1.3 var(--sans)}
+.siatka-pyt .st{display:block;font:14px/1.5 var(--sans);color:var(--muted)} .siatka-pyt .st b{color:var(--ink);font-family:var(--mono);font-weight:500}
+.kl{display:inline-block;font:600 12px var(--mono);padding:1px 6px;border-radius:4px;border:1px solid var(--line);margin-right:3px} .kl.ok{border-color:var(--ok);color:var(--ok);background:var(--okbg)} .kl.bl{border-color:var(--bad);color:var(--bad);background:var(--badbg)}
+/* stopka */
+footer{margin-top:56px;border-top:1px solid var(--line);background:var(--surface);padding:28px 0 44px;font:14px/1.55 var(--sans);color:var(--muted)}
+footer .kol{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px} @media (max-width:760px){footer .kol{grid-template-columns:1fr}}
+footer h4{margin:0 0 8px;font:500 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)} footer a{color:var(--ink)} footer p{margin:0 0 8px}
+footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:500} footer .marki a{text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "LawBenchmark.pl", "item": "https://lawbenchmark.pl/"}, {"@type": "ListItem", "position": 2, "name": "Benchmark 01"}, {"@type": "ListItem", "position": 3, "name": "Kazus SKD"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "@id": "https://lawbenchmark.pl/benchmark/01#dataset", "name": "LawBenchmark.pl Benchmark 01: kazus SKD (pilotaż)", "inLanguage": "pl", "datePublished": "2026-10-29", "description": "Fikcyjny kazus o terminie na oświadczenie o sankcji kredytu darmowego (art. 45 ust. 5 u.k.k.), klucz, metryka pilotażu oraz 17 odpowiedzi modeli ogólnych z kartami ocen; 12 kart wstępnych.", "url": "https://lawbenchmark.pl/benchmark/01", "isAccessibleForFree": true, "license": "https://creativecommons.org/licenses/by/4.0/", "creator": [{"@type": "Person", "name": "Adam Piotrowski"}, {"@type": "Person", "name": "Andrzej Koman"}], "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/wyniki.json"}]}</script>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="/"><b>LawBenchmark.pl</b><small>LexAlpha Lab · KTZR i LexAlpha</small></a><span class="sp"></span>
+<a href="/#wyniki">Wyniki</a><a href="/benchmark/02/pytania">Pytania</a><a href="/benchmark/01" class="tu">Kazus</a><a href="/metodologia">Metodologia</a><a href="/raporty">Raporty</a><a href="/dane">Dane</a><a href="/wspolpraca">Współpraca</a><a href="/dolacz">Dołącz</a><a href="/en">EN</a>
+<button id="motyw" aria-label="Przełącz motyw">◐</button></div></nav>
+<div class="wrap okr"><a href="/">LawBenchmark.pl</a><span>›</span>Benchmark 01<span>›</span>Kazus SKD</div>
+
+<header class="pod-hero"><div class="wrap">
+<h1>Kazus SKD: termin na oświadczenie o sankcji kredytu darmowego</h1>
+<p class="lead">Benchmark 01, pilotaż z września i października 2026 r. Jeden fikcyjny kazus procesowy i 17 odpowiedzi modeli ogólnych w różnych konfiguracjach, w tym powtórzenia, ocenione według metryki pilotażu, czyli jego własnych kryteriów i zasad punktacji.</p>
+<div class="meta">Dzień oświadczenia konsumenta w kazusie: maj 2026 · statusy spraw w toku ustalone 13.09.2026 · karty z 13.09 i 8–9.10.2026 · metryka pilotażu A1–A8 i B1–B2</div>
+</div></header>
+<article><div class="wrap">
+<p class="wer"><b>To pilotaż, nie część Benchmarku 02.</b> Kazus oceniano inną metryką i w różnych interfejsach, więc jego liczb nie należy porównywać z wynikami dziesięciu pytań. Pięć kart przejrzał prawnik we wrześniu 2026; 12 kart z 8–9.10.2026 to oceny wstępne wypełnione przez model, oznaczone w tabeli i w każdej karcie. W pilotażu oceniono też pięć systemów prawniczych: trzy moduły LexAlpha, współorganizatora projektu, i dwa systemy innych firm. Ich wyniki pozostają poza tą publikacją.</p>
+
+<section><h2 id="kazus">Kazus<a class="kot" href="#kazus" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Stan faktyczny i polecenie w brzmieniu, w jakim trafiły do systemów (literówki zachowane). Kazus jest fikcyjny.</p>
+<blockquote class="pyt" style="white-space:pre-wrap;font-size:16px">SKD
+##1
+
+1.1 Stan faktyczny 
+1) Kredytobiorca zawarl umowę kredytu konsumenckiego w  czerwcu 2022 r. na kwotę 50 000 zł, przy czym całkowita kwota kredytu wynosiła 40 000 zł
+2) 10 000 zł to kredytowane koszty, od których bank również naliczał odsetki.
+3) W  czerwu 2024 r. kredytobiorca złozyl reklamacje do banku, wskazując, że postanowienia które pozwalają naliczać bankowi odsetki od kredytowanych kosztów są abuzywne, w z.w  czym bank powinien rozliczyć nadpłacone środki z przeszłości i zmienić harmonogram na przyszłość.
+4) Bank odmówił uwzględnienia reklamacji oraz zmiany rozliczeń umowy.
+5) Kredytobiorca sam dokonał nowego przeliczenia haramogramu i od lipca 2024 r. spłacał do banku niższe raty tj. z odsetkami liczonymi od kwoty pomnniejszone o kredytowane koszty.
+6) W grudniu 2024 r. ze względu na (zdaniem banku) niedopłatę bank wypowiedział umowę. 
+7) W maju 2026 r. kredytobiorca złożył do banku oświadczenie o skorzystaniu z sankcji kredytu darmowego, powołując się na najnowszy wyrok TSUE, zgodnie z którym bank może naliczać odsetki tylko od calkowitej kwoty kredytu.
+8)  Bank odmówił uwzględnienia stanowiska konsumenta wskazując, że TSUE nie przesądził od braku możliwości pobierania odsetek od kredytowancyh kosztów a ponadto nawet gdyby uznać stanowisko konsumenta za uzasadnione to i tak od momentu wypowiedzenia umowy - czyli jej wykonania zgodnie z ustawą minął rok i termin na złożenie oświadczenia wygasł 
+9)kredytobiorca nie zgodził się z tak przedstawionym stanowiskiem banku.
+
+1.2 W tak przedstawionym stanie faktczynym.
+1) Ustal na jaką datę trzeba ustalic treść przepisów dla poszczególnych zdarzeń prawnych. 
+2) Ustal przepisy prawnej mające zastosowanie w tej sprawie.
+3) Podaj dokładną treść przepisu (zacytuj), który będzie mieć zastosowanie w konkretnej dacie przy analizie
+4) Przenalizuj staowisko każdej ze stron, 
+5) Wskaż w świetle orzecznictwa oraz poglądów doktryny, które stanowisko jest bardziej uzasadnione i ma większe szanse na obronę w sądzie.
+6) Dla każdego ze stanowisko przedstaw tok rozumowania oraz odpowiednią argumetnację prawną.
+
+1.3 Oczekiwany format odpowiedzi:
+1) Przepisy mające zastosowanie w sprawie
+2) Daty na jaką należy ustalić treść przepisów
+3) dosłowna treść przepisów (cytat)
+4) analiza stanowiska każdej ze stron (max 10 zdań dla każdego stanowiska)
+5)wskazanie, które stanowisko ma większą szansę na obronę w sądzie wraz z uzasadnieniem i przywołaniem odpowiedniego stanowiskka doktryny i orzecznictwa
+
+1.4 Założenia
+1) Skup się wyłącznie na zagadnieniu terminu  do złożenia oświadczenia SKD. Kwestię kredytowania kosztów uwzględniaj tylko jeżeli ma to wpływ na zagadnienie terminu do złożenia oświadczenia SKD. 
+2) Przyjmij, że wypowiedzenie nie zawierało braków formalnych i dla jego skuteczności może mieć ew. wpływ zagadnienie kredytowanych kosztów.
+3) Jeżeli któreś z zagadnień prawnych nie jest jednolicie przesądzone i wskaż na możliwe rozwiązania</blockquote>
+</section>
+
+<section><h2 id="co-mierzy">Co mierzy kazus<a class="kot" href="#co-mierzy" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Polecenie każe skupić się wyłącznie na terminie z art. 45 ust. 5 ustawy o kredycie konsumenckim, a kwestię kredytowanych kosztów uwzględnić tylko wtedy, gdy wpływa na termin. Ocena naliczania odsetek od kredytowanych kosztów może wpływać na istnienie zaległości, a przez to na skuteczność wypowiedzenia. Znaczenie wypowiedzenia dla początku terminu zależy z kolei od przyjętej wykładni „wykonania umowy” w art. 45 ust. 5 u.k.k. Zadanie wymaga rozpoznania tej zależności, a nie samego wykonania polecenia. Do tego dochodzą daty miarodajne dla poszczególnych zdarzeń, dosłowne cytaty przepisów i wskazanie zagadnień spornych.</p>
+</section>
+
+<section><h2 id="metryka">Metryka pilotażu<a class="kot" href="#metryka" aria-label="odnośnik do sekcji">#</a></h2>
+<div class="scroll"><table class="t"><thead><tr><th>Kryterium</th><th>Pytanie</th><th>Punkty</th></tr></thead><tbody>
+<tr><td><b>A1</b></td><td>Czy dobrze ustalono datę, na jaką należy ustalić treść przepisów, osobno dla każdego zdarzenia?</td><td>0/1</td></tr>
+<tr><td><b>A2</b></td><td>Czy wskazano przepisy mające zastosowanie, w tym art. 75 ust. 1 Prawa bankowego i art. 385¹ k.c.?</td><td>0/1</td></tr>
+<tr><td><b>A3</b></td><td>Czy cytaty przepisów są dosłowne albo oznaczone jako fragment?</td><td>0/1</td></tr>
+<tr><td><b>A4</b></td><td>Czy model zauważył, że dla terminu istotne są kredytowane koszty, i nazwał mechanizm wpływu?</td><td>0/1</td></tr>
+<tr><td><b>A5</b></td><td>Czy uczciwie wskazano, które zagadnienia są sporne?</td><td>0/1</td></tr>
+<tr><td><b>A6</b></td><td>Czy odpowiedź nie powołuje źródeł zmyślonych albo z cudzą treścią? Od 11.10.2026 zero-jedynkowo, z klasami F, T, W, S jak w Benchmarku 02.</td><td>0/1</td></tr>
+<tr><td><b>A7</b></td><td>Czy model odpowiedział na wszystkie punkty polecenia, w wymaganym formacie?</td><td>0/1</td></tr>
+<tr><td><b>A8</b></td><td>Czy model nie wykroczył poza ramy zadania?</td><td>0/1</td></tr>
+<tr><td><b>B1</b></td><td>Analiza stanowiska konsumenta i banku, osobno: brak, streszczenie albo analiza argumentów.</td><td>0–2 na stronę</td></tr>
+<tr><td><b>B2</b></td><td>Wskazanie, które stanowisko ma większe szanse: bez uzasadnienia, z uzasadnieniem powierzchownym albo z wywodem opartym na orzecznictwie i doktrynie.</td><td>0–3</td></tr>
+</tbody></table></div>
+<p>Blok A ma 8 punktów, więc jeden punkt to 12,5 punktu procentowego; blok B ma 7 punktów. Bloków nie sumujemy. Różnica Δ = A − B, liczona z zaokrąglonych procentów, pokazuje rozbieżność między argumentacją a spełnieniem kryteriów bloku A; jej przyczynę widać w karcie. Etykieta „halucynacja” wynika z A6 = 0. Klasy błędu: F, źródło nie istnieje; T, prawdziwe źródło z treścią, której w nim nie ma; W, brzmienie z innej daty; S, zniekształcony identyfikator. „S (niepotwierdzona)” oznacza, że sygnatury nie odnaleziono, ale nie przesądzono, czy to zniekształcenie, czy zmyślenie. Pełna metryka: plik <code>METRYKI.md</code> w repozytorium.</p>
+</section>
+
+<section><h2 id="wyniki">Wyniki<a class="kot" href="#wyniki" aria-label="odnośnik do sekcji">#</a></h2>
+<h3>Karty przejrzane przez prawnika</h3>
+<p>Odpowiedzi z aplikacji czatu dostawców, karty z 13.09.2026, przejrzane przez prawnika we wrześniu. Halucynację oznaczono w 3 z 5 odpowiedzi. Liczby różnią się od artykułu z września z dwóch powodów: 11.10.2026 karty przeliczono według zatwierdzonej przez prawnika reguły zero-jedynkowego A6, a 29.10.2026 prawnik uznał sygnaturę „wyrok SA w Warszawie z 10 maja 2022 r., V ACa 810/21” za nieistniejącą (klasa F): nie ma jej w SAOS, w wewnętrznej bazie orzeczeń ani na portalu orzeczeń SA w Warszawie. Historia zmian jest w każdej karcie.</p>
+<div class="scroll"><table class="t"><thead><tr><th>Model</th><th>Warunek</th><th class="num">Blok A</th><th class="num">Blok B</th><th class="num">Δ A−B <small>pp</small></th><th>Halucynacja (wg karty)</th><th>Materiały</th></tr></thead><tbody><tr><td class="model">Claude Opus 5.0 (High)<br><small>Anthropic · aplikacja czatu</small></td><td>z wyszukiwaniem</td><td class="num">7/8 · 88 %</td><td class="num">7/7 · 100 %</td><td class="num">-12</td><td><span class="kl ok">nie</span></td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/opus_5_high.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/opus_5_high.md">odpowiedź</a></td></tr><tr><td class="model">Claude Fable 5.1 (High)<br><small>Anthropic · aplikacja czatu</small></td><td>z wyszukiwaniem</td><td class="num">6/8 · 75 %</td><td class="num">7/7 · 100 %</td><td class="num">-25</td><td><span class="kl bl">tak</span> T, S</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/fable_5_1_high.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/fable_5_1_high.md">odpowiedź</a></td></tr><tr><td class="model">Gemini 3.1 Pro<br><small>Google · aplikacja czatu</small></td><td>bez wyszukiwania</td><td class="num">6/8 · 75 %</td><td class="num">5/7 · 71 %</td><td class="num">+4</td><td><span class="kl ok">nie</span></td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/gemini_3_1_pro.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/gemini_3_1_pro.md">odpowiedź</a></td></tr><tr><td class="model">Gemini 3.6 Flash<br><small>Google · aplikacja czatu</small></td><td>z wyszukiwaniem</td><td class="num">3/8 · 38 %</td><td class="num">5/7 · 71 %</td><td class="num">-33</td><td><span class="kl bl">tak</span> T</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/gemini_flash_3_6.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/gemini_flash_3_6.md">odpowiedź</a></td></tr><tr><td class="model">Gemini 3.6 Flash Thinking<br><small>Google · aplikacja czatu</small></td><td>bez wyszukiwania</td><td class="num">2/8 · 25 %</td><td class="num">4/7 · 57 %</td><td class="num">-32</td><td><span class="kl bl">tak</span> F</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/gemini_thinking_3_6.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/gemini_thinking_3_6.md">odpowiedź</a></td></tr></tbody></table></div>
+<h3 style="margin-top:28px">Oceny wstępne, nieprzejrzane przez prawnika</h3>
+<p>Odpowiedzi zebrane 8–9.10.2026 skryptami: GPT-6.1 Sol przez Codex CLI oraz modele otwarte przez Ollama. Karty wypełnił model (Claude); halucynację oznaczono w 7 z 12. Wyniki mogą się zmienić po przeglądzie prawnika.</p>
+<div class="scroll"><table class="t"><thead><tr><th>Model</th><th>Warunek</th><th class="num">Blok A</th><th class="num">Blok B</th><th class="num">Δ A−B <small>pp</small></th><th>Halucynacja (wg karty)</th><th>Materiały</th></tr></thead><tbody><tr><td class="model">Bielik 11B v3 (Q4_K_M)<br><small>SpeakLeash · Ollama, lokalnie</small></td><td>bez narzędzi</td><td class="num">1/8 · 13 %</td><td class="num">4/7 · 57 %</td><td class="num">-44</td><td><span class="kl bl">tak</span> T</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/bielik_11b_v3_lokalnie.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/bielik_11b_v3_lokalnie.md">odpowiedź</a></td></tr><tr><td class="model">Bielik 11B v3 (Q8_0)<br><small>SpeakLeash · Ollama, chmura GCP</small></td><td>bez narzędzi</td><td class="num">1/8 · 13 %</td><td class="num">3/7 · 43 %</td><td class="num">-30</td><td><span class="kl bl">tak</span> T</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/bielik_11b_v3_q8_chmura.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/bielik_11b_v3_q8_chmura.md">odpowiedź</a></td></tr><tr><td class="model">Bielik 11B v3 z narzędziami web<br><small>SpeakLeash · Ollama, lokalnie</small></td><td>wyszukiwanie dostępne, nieużyte</td><td class="num">1/8 · 13 %</td><td class="num">3/7 · 43 %</td><td class="num">-30</td><td><span class="kl bl">tak</span> T, S (niepotwierdzona)</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/bielik_11b_v3_web.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/bielik_11b_v3_web.md">odpowiedź</a></td></tr><tr><td class="model">Bielik 11B v3, wyszukiwanie wymuszone<br><small>SpeakLeash · Ollama, lokalnie</small></td><td>polecenie użycia wyszukiwania; narzędzia nie użył</td><td class="num">0/8 · 0 %</td><td class="num">3/7 · 43 %</td><td class="num">-43</td><td><span class="kl bl">tak</span> T, S (niepotwierdzona)</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/bielik_11b_v3_web_wymus.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/bielik_11b_v3_web_wymus.md">odpowiedź</a></td></tr><tr><td class="model">GPT-6.1 Sol, rozumowanie medium<br><small>OpenAI · Codex CLI</small></td><td>z wyszukiwaniem</td><td class="num">8/8 · 100 %</td><td class="num">7/7 · 100 %</td><td class="num">+0</td><td><span class="kl ok">nie</span></td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/chatgpt_codex_web.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/chatgpt_codex_web.md">odpowiedź</a></td></tr><tr><td class="model">GPT-6.1 Sol, rozumowanie high<br><small>OpenAI · Codex CLI</small></td><td>z wyszukiwaniem</td><td class="num">8/8 · 100 %</td><td class="num">7/7 · 100 %</td><td class="num">+0</td><td><span class="kl ok">nie</span></td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/chatgpt_codex_high_web.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/chatgpt_codex_high_web.md">odpowiedź</a></td></tr><tr><td class="model">GPT-6.1 Sol, rozumowanie medium (powtórzenie)<br><small>OpenAI · Codex CLI</small></td><td>z wyszukiwaniem</td><td class="num">7/8 · 88 %</td><td class="num">7/7 · 100 %</td><td class="num">-12</td><td><span class="kl ok">nie</span></td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/chatgpt_codex_web_r2.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/chatgpt_codex_web_r2.md">odpowiedź</a></td></tr><tr><td class="model">GPT-6.1 Sol, rozumowanie medium<br><small>OpenAI · Codex CLI</small></td><td>bez narzędzi</td><td class="num">6/8 · 75 %</td><td class="num">6/7 · 86 %</td><td class="num">-11</td><td><span class="kl ok">nie</span></td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/chatgpt_codex_w0_bezapps.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/chatgpt_codex_w0_bezapps.md">odpowiedź</a></td></tr><tr><td class="model">GPT-6.1 Sol, rozumowanie medium (powtórzenie)<br><small>OpenAI · Codex CLI</small></td><td>bez narzędzi</td><td class="num">6/8 · 75 %</td><td class="num">7/7 · 100 %</td><td class="num">-25</td><td><span class="kl ok">nie</span></td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/chatgpt_codex_w0_r2.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/chatgpt_codex_w0_r2.md">odpowiedź</a></td></tr><tr><td class="model">Qwen 3.5 9B<br><small>Alibaba · Ollama, lokalnie</small></td><td>bez narzędzi</td><td class="num">1/8 · 13 %</td><td class="num">4/7 · 57 %</td><td class="num">-44</td><td><span class="kl bl">tak</span> F, T, S</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/qwen35_9b_lokalnie.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/qwen35_9b_lokalnie.md">odpowiedź</a></td></tr><tr><td class="model">Qwen 3.5 9B z narzędziami web<br><small>Alibaba · Ollama, lokalnie</small></td><td>z wyszukiwaniem</td><td class="num">1/8 · 13 %</td><td class="num">4/7 · 57 %</td><td class="num">-44</td><td><span class="kl bl">tak</span> T, S</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/qwen35_9b_web.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/qwen35_9b_web.md">odpowiedź</a></td></tr><tr><td class="model">Qwen 3.8 27B<br><small>Alibaba · Ollama, chmura GCP</small></td><td>bez narzędzi</td><td class="num">1/8 · 13 %</td><td class="num">6/7 · 86 %</td><td class="num">-73</td><td><span class="kl bl">tak</span> T, S</td><td><a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/cards/qwen38_27b_chmura.md">karta</a> · <a href="https://github.com/apiotrowski-afk/lawbenchmark/blob/main/cases/skd-01/answers/qwen38_27b_chmura.md">odpowiedź</a></td></tr></tbody></table></div>
+<p class="uwaga">Jedna odpowiedź na system i warunek. Warianty „powtórzenie” to druga próba tego samego modelu w tych samych warunkach, pokazana, żeby było widać zmienność między próbami. Odpowiedź GPT-6.1 Sol bez narzędzi z włączonymi aplikacjami konta ChatGPT pominęliśmy, bo aplikacje dawały dostęp do wyszukiwarki.</p>
+</section>
+
+<section><h2 id="klucz">Klucz w skrócie<a class="kot" href="#klucz" aria-label="odnośnik do sekcji">#</a></h2>
+<ul>
+<li><b>Daty miarodajne:</b> abuzywność postanowień według chwili zawarcia umowy (czerwiec 2022, art. 385² k.c.); skuteczność wypowiedzenia według grudnia 2024; art. 45 ust. 5 u.k.k. z uzasadnieniem wyboru daty (przepis nie zmienił się od 2011 r.).</li>
+<li><b>Przepisy wymagane:</b> art. 45 ust. 1 i 5 u.k.k., art. 75 ust. 1 Prawa bankowego, art. 385¹ § 1 k.c.</li>
+<li><b>Sporne na dzień oświadczenia (maj 2026):</b> od czego biegnie termin z art. 45 ust. 5 u.k.k. (wykonanie przez kredytodawcę, przez obie strony czy wypowiedzenie; zagadnienie prawne III CZP 15/25 zawieszone); czy konsument mógł sam obniżyć raty bez orzeczenia o abuzywności; czy wypowiedzenie jest „wykonaniem” umowy.</li>
+<li><b>Orzecznictwo:</b> wyrok TSUE C-744/24 z 23.04.2026 dotyczy oprocentowania kredytowanych kosztów i nie rozstrzyga o terminie; pytania prejudycjalne C-763/25 i C-828/25 dotyczące terminu były w toku według stanu z 13.09.2026.</li>
+</ul>
+<p class="uwaga">Klucz opisuje stan z 13.09.2026 i nie był później aktualizowany. Sprawy wówczas w toku mogły zostać rozstrzygnięte; kazus nie jest opisem obecnej linii orzeczniczej i nie jest poradą prawną.</p>
+</section>
+
+<section><h2 id="dane">Dane<a class="kot" href="#dane" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Kazus, klucz, metryka pilotażu, 17 odpowiedzi i kart oraz zestawienie <code>wyniki.json</code> są w repozytorium w katalogu <a href="https://github.com/apiotrowski-afk/lawbenchmark/tree/main/cases/skd-01"><code>cases/skd-01/</code></a> na licencji jak reszta zbioru (<a href="/dane#licencje">licencje</a>). Każdy plik zawiera kanarek, czyli unikalny ciąg znaków, po którym można wykryć część przypadków użycia tych danych do trenowania modeli. Kazus jest teraz publiczny, więc nie nadaje się już do testowania nowych modeli.</p>
+</section>
+</div></article>
+
+<footer><div class="wrap"><div class="kol"><div><h4>O projekcie</h4><p><b>LawBenchmark.pl</b> prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk) i spółki <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warszawa). Autorzy: Adam Piotrowski (radca prawny, partner KTZR), Andrzej Koman (CEO LexAlpha). Badanie finansowane ze środków własnych obu podmiotów; żaden dostawca modeli nie uczestniczył w jego przygotowaniu. Benchmark 02 nie obejmuje produktów LexAlpha ani KTZR; wyników produktów ocenianych w pilotażu Benchmark 01 nie publikujemy. Benchmark nie jest poradą prawną.</p><div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div><div><h4>Strony</h4><p><a href="/#wyniki">Wyniki</a><br><a href="/benchmark/02/pytania">Dziesięć pytań</a><br><a href="/benchmark/01">Kazus SKD (pilotaż)</a><br><a href="/metodologia">Metodologia</a><br><a href="/raporty">Raporty</a><br><a href="/dane">Dane i kod</a><br><a href="/wspolpraca">Współpraca</a><br><a href="/dolacz">Dołącz do nas</a><br><a href="/en">English</a></p></div><div><h4>Licencja i kontakt</h4><p>Teksty, klucze i karty: CC BY 4.0. Kod: MIT. Cytuj jako „LexAlpha Lab, LawBenchmark.pl”.</p><p>a.piotrowski@ktzr.pl</p></div></div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
+b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();
+</script>
+</body>
+</html>

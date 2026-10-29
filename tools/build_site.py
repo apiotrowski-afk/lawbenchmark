@@ -242,7 +242,7 @@ h2 a.kot,h3 a.kot{color:var(--line);text-decoration:none;font-weight:400;margin-
 table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 var(--sans);background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;font-variant-numeric:tabular-nums}
 .pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600;font-size:13px} th small{font-weight:500;color:var(--muted)}
 .pary th,.pary td{white-space:nowrap} .t.zw td,.t.zw th{white-space:nowrap}
-.pary .num,.t .num{text-align:right;font-family:var(--mono)} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
+.pary .num,.t .num{text-align:right;font-family:var(--mono);white-space:nowrap} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
 .war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
 .ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
 .scroll{overflow-x:auto;margin:0 -16px;padding:0 16px}
@@ -310,18 +310,18 @@ SKRYPT = """<script>
 (function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
 b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();
 </script>"""
-NAV = [("/#wyniki", "Wyniki"), ("/benchmark/02/pytania", "Pytania"), ("/metodologia", "Metodologia"), ("/raporty", "Raporty"), ("/dane", "Dane"), ("/wspolpraca", "Współpraca"), ("/dolacz", "Dołącz"), ("/en", "EN")]
+NAV = [("/#wyniki", "Wyniki"), ("/benchmark/02/pytania", "Pytania"), ("/benchmark/01", "Kazus"), ("/metodologia", "Metodologia"), ("/raporty", "Raporty"), ("/dane", "Dane"), ("/wspolpraca", "Współpraca"), ("/dolacz", "Dołącz"), ("/en", "EN")]
 STOPKA_PL = ('<div class="kol"><div><h4>O projekcie</h4><p><b>LawBenchmark.pl</b> prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii '
              '<a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk) i spółki <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warszawa). '
              'Autorzy: Adam Piotrowski (radca prawny, partner KTZR), Andrzej Koman (CEO LexAlpha). Badanie finansowane ze środków własnych obu podmiotów; żaden dostawca modeli nie uczestniczył w jego przygotowaniu. '
-             'Produkty LexAlpha i KTZR nie są oceniane w benchmarku. Benchmark nie jest poradą prawną.</p>'
+             'Benchmark 02 nie obejmuje produktów LexAlpha ani KTZR; wyników produktów ocenianych w pilotażu Benchmark 01 nie publikujemy. Benchmark nie jest poradą prawną.</p>'
              '<div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div>'
-             '<div><h4>Strony</h4><p><a href="/#wyniki">Wyniki</a><br><a href="/benchmark/02/pytania">Dziesięć pytań</a><br><a href="/metodologia">Metodologia</a><br><a href="/raporty">Raporty</a><br><a href="/dane">Dane i kod</a><br><a href="/wspolpraca">Współpraca</a><br><a href="/dolacz">Dołącz do nas</a><br><a href="/en">English</a></p></div>'
+             '<div><h4>Strony</h4><p><a href="/#wyniki">Wyniki</a><br><a href="/benchmark/02/pytania">Dziesięć pytań</a><br><a href="/benchmark/01">Kazus SKD (pilotaż)</a><br><a href="/metodologia">Metodologia</a><br><a href="/raporty">Raporty</a><br><a href="/dane">Dane i kod</a><br><a href="/wspolpraca">Współpraca</a><br><a href="/dolacz">Dołącz do nas</a><br><a href="/en">English</a></p></div>'
              '<div><h4>Licencja i kontakt</h4><p>Teksty, klucze i karty: CC BY 4.0. Kod: MIT. Cytuj jako „LexAlpha Lab, LawBenchmark.pl”.</p><p>a.piotrowski@ktzr.pl</p></div></div>')
 STOPKA_EN = ('<div class="kol"><div><h4>About</h4><p><b>LawBenchmark.pl</b> is run by <b>LexAlpha Lab</b>, a joint research initiative of the law firm '
              '<a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk, Poland) and <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warsaw). '
              'Authors: Adam Piotrowski (attorney-at-law, partner at KTZR), Andrzej Koman (CEO, LexAlpha). Funded by the two organisations; no model provider took part. '
-             'Products of LexAlpha and KTZR are not evaluated in the benchmark. Not legal advice.</p>'
+             'Benchmark 02 does not include products of LexAlpha or KTZR; results of products scored in the Benchmark 01 pilot are not published. Not legal advice.</p>'
              '<div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div>'
              '<div><h4>Pages</h4><p><a href="/">Results (Polish)</a><br><a href="/metodologia">Methodology (Polish)</a><br><a href="/dane">Data and code</a><br><a href="/wspolpraca">Collaboration (Polish)</a></p></div>'
              '<div><h4>Licence and contact</h4><p>Texts, keys and cards: CC BY 4.0. Code: MIT. Cite as "LexAlpha Lab, LawBenchmark.pl".</p><p>a.piotrowski@ktzr.pl</p></div></div>')
@@ -704,7 +704,7 @@ METODOLOGIA = f"""
 </section>
 
 <section>{kot("autorzy", "Autorzy, finansowanie, konflikt interesów")}
-<p>Benchmark prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk) i spółki <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warszawa), która rozwija komercyjną platformę AI dla prawników. Autorzy: Adam Piotrowski (radca prawny, partner KTZR; projekt metodologii, klucze, karty, raport) i Andrzej Koman (CEO LexAlpha). Badanie jest finansowane ze środków własnych obu podmiotów.</p><p><b>Konflikt interesów.</b> LexAlpha Sp. z o.o. oferuje komercyjne narzędzia AI dla prawników, zbudowane na modelach językowych tych samych dostawców, których czyste modele ocenia benchmark; spółka ma więc interes gospodarczy związany z wynikami i sposobem ich przedstawiania, a jej CEO jest współautorem raportu. KTZR korzysta z narzędzi tych dostawców na warunkach komercyjnych. Decyzją z 17.10.2026 własne produkty obu podmiotów wyłączono z benchmarku; ogranicza to bezpośredni konflikt związany z oceną własnego produktu, ale nie usuwa powiązań ekonomicznych autorów. Dlatego oceniamy wyłącznie czyste modele w publicznie dostępnych konfiguracjach, a klucze, karty, odpowiedzi i kod są publiczne, by każdą ocenę można było sprawdzić niezależnie. Wyniki czystych modeli nie mówią nic o jakości produktów LexAlpha ani KTZR; produkt z własnym wyszukiwaniem i instrukcjami wymaga osobnego badania.</p><p><b>Role.</b> Pytania, klucze, kontrolę kart i decyzje o publikacji wykonywał Adam Piotrowski; Andrzej Koman współtworzył raport. Żaden dostawca modeli nie uczestniczył w przygotowaniu badania ani go nie finansował; autorzy nie przekazywali dostawcom wyników przed publikacją. Do 29.10.2026 strona opisywała LexAlpha Lab jako laboratorium kancelarii KTZR; obecny opis odzwierciedla udział obu podmiotów.</p>
+<p>Benchmark prowadzi <b>LexAlpha Lab</b>, wspólna inicjatywa badawcza kancelarii <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk) i spółki <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warszawa), która rozwija komercyjną platformę AI dla prawników. Autorzy: Adam Piotrowski (radca prawny, partner KTZR; projekt metodologii, klucze, karty, raport) i Andrzej Koman (CEO LexAlpha). Badanie jest finansowane ze środków własnych obu podmiotów.</p><p><b>Konflikt interesów.</b> LexAlpha Sp. z o.o. oferuje komercyjne narzędzia AI dla prawników, zbudowane na modelach językowych tych samych dostawców, których czyste modele ocenia benchmark; spółka ma więc interes gospodarczy związany z wynikami i sposobem ich przedstawiania, a jej CEO jest współautorem raportu. KTZR korzysta z narzędzi tych dostawców na warunkach komercyjnych. Benchmark 02 nie obejmuje własnych produktów obu podmiotów (decyzja z 17.10.2026). W pilotażu Benchmark 01 z września 2026 oceniono trzy moduły LexAlpha i dwa systemy prawnicze innych firm; ich wyników nie publikujemy. Wyłączenie ogranicza bezpośredni konflikt związany z oceną własnego produktu, ale nie usuwa powiązań ekonomicznych autorów. Dlatego oceniamy wyłącznie czyste modele w publicznie dostępnych konfiguracjach, a klucze, karty, odpowiedzi i kod są publiczne, by każdą ocenę można było sprawdzić niezależnie. Wyniki czystych modeli nie mówią nic o jakości produktów LexAlpha ani KTZR; produkt z własnym wyszukiwaniem i instrukcjami wymaga osobnego badania.</p><p><b>Role.</b> Pytania, klucze, kontrolę kart i decyzje o publikacji wykonywał Adam Piotrowski; Andrzej Koman współtworzył raport. Żaden dostawca modeli nie uczestniczył w przygotowaniu badania ani go nie finansował; autorzy nie przekazywali dostawcom wyników przed publikacją. Do 29.10.2026 strona opisywała LexAlpha Lab jako laboratorium kancelarii KTZR; obecny opis odzwierciedla udział obu podmiotów.</p>
 </section>
 </div>
 </div></article>
@@ -865,6 +865,104 @@ for n, pid in enumerate(PYT):
            PYT_STRONA, okr=[("Benchmark 02", None), ("Pytania", "/benchmark/02/pytania"), (pid, None)], tu="/benchmark/02/pytania")
 
 # =====================================================================
+# 3b. Benchmark 01 — kazus SKD (pilotaż; decyzje Adama z 29.10.2026)
+# =====================================================================
+K01 = os.path.join(REPO, "cases", "skd-01")
+W01 = json.load(open(os.path.join(K01, "wyniki.json"), encoding="utf-8"))["wyniki"]
+KAZUS_TXT = re.sub(r"\n*<!--.*?-->\s*$", "", open(os.path.join(K01, "kazus_01_termin.md"), encoding="utf-8").read(), flags=re.S).strip()
+
+
+def pct(x):
+    return f"{x} %"
+
+
+def wiersz01(r):
+    hal = (f'<span class="kl bl">tak</span> {E(r["A6_klasy"])}' if r["halucynacja"] else '<span class="kl ok">nie</span>')
+    pkt = lambda v: (f"{v:g}".replace(".", ","))
+    return (f'<tr><td class="model">{E(r["model"])}<br><small>{E(r["dostawca"])} · {E(r["interfejs"])}</small></td><td>{E(r["warunek"])}</td>'
+            f'<td class="num">{pkt(r["A_pkt"])}/8 · {r["A_pct"]} %</td><td class="num">{pkt(r["B_pkt"])}/7 · {r["B_pct"]} %</td><td class="num">{r["delta_pp"]:+d}</td>'
+            f'<td>{hal}</td><td><a href="{REPO_URL}/blob/main/{r["plik_karty"]}">karta</a> · <a href="{REPO_URL}/blob/main/{r["plik_odpowiedzi"]}">odpowiedź</a></td></tr>')
+
+
+GLOWA01 = ('<div class="scroll"><table class="t"><thead><tr><th>Model</th><th>Warunek</th><th class="num">Blok A</th><th class="num">Blok B</th>'
+           '<th class="num">Δ A−B <small>pp</small></th><th>Halucynacja (wg karty)</th><th>Materiały</th></tr></thead><tbody>')
+PRZ01 = sorted([r for r in W01 if r["status_oceny"].startswith("przejrzana")], key=lambda r: -r["A_pct"])
+WST01 = sorted([r for r in W01 if not r["status_oceny"].startswith("przejrzana")], key=lambda r: (r["model"].split()[0], -r["A_pct"]))
+TAB01_P = GLOWA01 + "".join(wiersz01(r) for r in PRZ01) + "</tbody></table></div>"
+TAB01_W = GLOWA01 + "".join(wiersz01(r) for r in WST01) + "</tbody></table></div>"
+n_hal_p = sum(1 for r in PRZ01 if r["halucynacja"])
+n_hal_w = sum(1 for r in WST01 if r["halucynacja"])
+
+BENCH01 = f"""
+<header class="pod-hero"><div class="wrap">
+<h1>Kazus SKD: termin na oświadczenie o sankcji kredytu darmowego</h1>
+<p class="lead">Benchmark 01, pilotaż z września i października 2026 r. Jeden fikcyjny kazus procesowy i {len(W01)} odpowiedzi modeli ogólnych w różnych konfiguracjach, w tym powtórzenia, ocenione według metryki pilotażu, czyli jego własnych kryteriów i zasad punktacji.</p>
+<div class="meta">Dzień oświadczenia konsumenta w kazusie: maj 2026 · statusy spraw w toku ustalone 13.09.2026 · karty z 13.09 i 8–9.10.2026 · metryka pilotażu A1–A8 i B1–B2</div>
+</div></header>
+<article><div class="wrap">
+<p class="wer"><b>To pilotaż, nie część Benchmarku 02.</b> Kazus oceniano inną metryką i w różnych interfejsach, więc jego liczb nie należy porównywać z wynikami dziesięciu pytań. Pięć kart przejrzał prawnik we wrześniu 2026; {len(WST01)} kart z 8–9.10.2026 to oceny wstępne wypełnione przez model, oznaczone w tabeli i w każdej karcie. W pilotażu oceniono też pięć systemów prawniczych: trzy moduły LexAlpha, współorganizatora projektu, i dwa systemy innych firm. Ich wyniki pozostają poza tą publikacją.</p>
+
+<section>{kot("kazus", "Kazus")}
+<p>Stan faktyczny i polecenie w brzmieniu, w jakim trafiły do systemów (literówki zachowane). Kazus jest fikcyjny.</p>
+<blockquote class="pyt" style="white-space:pre-wrap;font-size:16px">{E(KAZUS_TXT)}</blockquote>
+</section>
+
+<section>{kot("co-mierzy", "Co mierzy kazus")}
+<p>Polecenie każe skupić się wyłącznie na terminie z art. 45 ust. 5 ustawy o kredycie konsumenckim, a kwestię kredytowanych kosztów uwzględnić tylko wtedy, gdy wpływa na termin. Ocena naliczania odsetek od kredytowanych kosztów może wpływać na istnienie zaległości, a przez to na skuteczność wypowiedzenia. Znaczenie wypowiedzenia dla początku terminu zależy z kolei od przyjętej wykładni „wykonania umowy” w art. 45 ust. 5 u.k.k. Zadanie wymaga rozpoznania tej zależności, a nie samego wykonania polecenia. Do tego dochodzą daty miarodajne dla poszczególnych zdarzeń, dosłowne cytaty przepisów i wskazanie zagadnień spornych.</p>
+</section>
+
+<section>{kot("metryka", "Metryka pilotażu")}
+<div class="scroll"><table class="t"><thead><tr><th>Kryterium</th><th>Pytanie</th><th>Punkty</th></tr></thead><tbody>
+<tr><td><b>A1</b></td><td>Czy dobrze ustalono datę, na jaką należy ustalić treść przepisów, osobno dla każdego zdarzenia?</td><td>0/1</td></tr>
+<tr><td><b>A2</b></td><td>Czy wskazano przepisy mające zastosowanie, w tym art. 75 ust. 1 Prawa bankowego i art. 385¹ k.c.?</td><td>0/1</td></tr>
+<tr><td><b>A3</b></td><td>Czy cytaty przepisów są dosłowne albo oznaczone jako fragment?</td><td>0/1</td></tr>
+<tr><td><b>A4</b></td><td>Czy model zauważył, że dla terminu istotne są kredytowane koszty, i nazwał mechanizm wpływu?</td><td>0/1</td></tr>
+<tr><td><b>A5</b></td><td>Czy uczciwie wskazano, które zagadnienia są sporne?</td><td>0/1</td></tr>
+<tr><td><b>A6</b></td><td>Czy odpowiedź nie powołuje źródeł zmyślonych albo z cudzą treścią? Od 11.10.2026 zero-jedynkowo, z klasami F, T, W, S jak w Benchmarku 02.</td><td>0/1</td></tr>
+<tr><td><b>A7</b></td><td>Czy model odpowiedział na wszystkie punkty polecenia, w wymaganym formacie?</td><td>0/1</td></tr>
+<tr><td><b>A8</b></td><td>Czy model nie wykroczył poza ramy zadania?</td><td>0/1</td></tr>
+<tr><td><b>B1</b></td><td>Analiza stanowiska konsumenta i banku, osobno: brak, streszczenie albo analiza argumentów.</td><td>0–2 na stronę</td></tr>
+<tr><td><b>B2</b></td><td>Wskazanie, które stanowisko ma większe szanse: bez uzasadnienia, z uzasadnieniem powierzchownym albo z wywodem opartym na orzecznictwie i doktrynie.</td><td>0–3</td></tr>
+</tbody></table></div>
+<p>Blok A ma 8 punktów, więc jeden punkt to 12,5 punktu procentowego; blok B ma 7 punktów. Bloków nie sumujemy. Różnica Δ = A − B, liczona z zaokrąglonych procentów, pokazuje rozbieżność między argumentacją a spełnieniem kryteriów bloku A; jej przyczynę widać w karcie. Etykieta „halucynacja” wynika z A6 = 0. Klasy błędu: F, źródło nie istnieje; T, prawdziwe źródło z treścią, której w nim nie ma; W, brzmienie z innej daty; S, zniekształcony identyfikator. „S (niepotwierdzona)” oznacza, że sygnatury nie odnaleziono, ale nie przesądzono, czy to zniekształcenie, czy zmyślenie. Pełna metryka: plik <code>METRYKI.md</code> w repozytorium.</p>
+</section>
+
+<section>{kot("wyniki", "Wyniki")}
+<h3>Karty przejrzane przez prawnika</h3>
+<p>Odpowiedzi z aplikacji czatu dostawców, karty z 13.09.2026, przejrzane przez prawnika we wrześniu. Halucynację oznaczono w {n_hal_p} z {len(PRZ01)} odpowiedzi. Liczby różnią się od artykułu z września z dwóch powodów: 11.10.2026 karty przeliczono według zatwierdzonej przez prawnika reguły zero-jedynkowego A6, a 29.10.2026 prawnik uznał sygnaturę „wyrok SA w Warszawie z 10 maja 2022 r., V ACa 810/21” za nieistniejącą (klasa F): nie ma jej w SAOS, w wewnętrznej bazie orzeczeń ani na portalu orzeczeń SA w Warszawie. Historia zmian jest w każdej karcie.</p>
+{TAB01_P}
+<h3 style="margin-top:28px">Oceny wstępne, nieprzejrzane przez prawnika</h3>
+<p>Odpowiedzi zebrane 8–9.10.2026 skryptami: GPT-6.1 Sol przez Codex CLI oraz modele otwarte przez Ollama. Karty wypełnił model (Claude); halucynację oznaczono w {n_hal_w} z {len(WST01)}. Wyniki mogą się zmienić po przeglądzie prawnika.</p>
+{TAB01_W}
+<p class="uwaga">Jedna odpowiedź na system i warunek. Warianty „powtórzenie” to druga próba tego samego modelu w tych samych warunkach, pokazana, żeby było widać zmienność między próbami. Odpowiedź GPT-6.1 Sol bez narzędzi z włączonymi aplikacjami konta ChatGPT pominęliśmy, bo aplikacje dawały dostęp do wyszukiwarki.</p>
+</section>
+
+<section>{kot("klucz", "Klucz w skrócie")}
+<ul>
+<li><b>Daty miarodajne:</b> abuzywność postanowień według chwili zawarcia umowy (czerwiec 2022, art. 385² k.c.); skuteczność wypowiedzenia według grudnia 2024; art. 45 ust. 5 u.k.k. z uzasadnieniem wyboru daty (przepis nie zmienił się od 2011 r.).</li>
+<li><b>Przepisy wymagane:</b> art. 45 ust. 1 i 5 u.k.k., art. 75 ust. 1 Prawa bankowego, art. 385¹ § 1 k.c.</li>
+<li><b>Sporne na dzień oświadczenia (maj 2026):</b> od czego biegnie termin z art. 45 ust. 5 u.k.k. (wykonanie przez kredytodawcę, przez obie strony czy wypowiedzenie; zagadnienie prawne III CZP 15/25 zawieszone); czy konsument mógł sam obniżyć raty bez orzeczenia o abuzywności; czy wypowiedzenie jest „wykonaniem” umowy.</li>
+<li><b>Orzecznictwo:</b> wyrok TSUE C-744/24 z 23.04.2026 dotyczy oprocentowania kredytowanych kosztów i nie rozstrzyga o terminie; pytania prejudycjalne C-763/25 i C-828/25 dotyczące terminu były w toku według stanu z 13.09.2026.</li>
+</ul>
+<p class="uwaga">Klucz opisuje stan z 13.09.2026 i nie był później aktualizowany. Sprawy wówczas w toku mogły zostać rozstrzygnięte; kazus nie jest opisem obecnej linii orzeczniczej i nie jest poradą prawną.</p>
+</section>
+
+<section>{kot("dane", "Dane")}
+<p>Kazus, klucz, metryka pilotażu, {len(W01)} odpowiedzi i kart oraz zestawienie <code>wyniki.json</code> są w repozytorium w katalogu <a href="{REPO_URL}/tree/main/cases/skd-01"><code>cases/skd-01/</code></a> na licencji jak reszta zbioru (<a href="/dane#licencje">licencje</a>). Każdy plik zawiera kanarek, czyli unikalny ciąg znaków, po którym można wykryć część przypadków użycia tych danych do trenowania modeli. Kazus jest teraz publiczny, więc nie nadaje się już do testowania nowych modeli.</p>
+</section>
+</div></article>
+"""
+LD_B01 = {"@context": "https://schema.org", "@type": "Dataset", "@id": f"{BAZA}/benchmark/01#dataset",
+          "name": "LawBenchmark.pl Benchmark 01: kazus SKD (pilotaż)", "inLanguage": "pl", "datePublished": "2026-10-29",
+          "description": f"Fikcyjny kazus o terminie na oświadczenie o sankcji kredytu darmowego (art. 45 ust. 5 u.k.k.), klucz, metryka pilotażu oraz {len(W01)} odpowiedzi modeli ogólnych z kartami ocen; 12 kart wstępnych.",
+          "url": f"{BAZA}/benchmark/01", "isAccessibleForFree": True, "license": "https://creativecommons.org/licenses/by/4.0/",
+          "creator": [{"@type": "Person", "name": "Adam Piotrowski"}, {"@type": "Person", "name": "Andrzej Koman"}],
+          "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{REPO_URL}/blob/main/cases/skd-01/wyniki.json"}]}
+strona("/benchmark/01", "Kazus SKD: termin na oświadczenie o sankcji kredytu darmowego — Benchmark 01 · LawBenchmark.pl",
+       "Pilotaż: jak modele językowe analizują fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k. Treść kazusu, metryka, wyniki 17 odpowiedzi modeli ogólnych, klucz i dane.",
+       BENCH01, okr=[("Benchmark 01", None), ("Kazus SKD", None)], ld=[LD_B01], tu="/benchmark/01")
+
+# =====================================================================
 # 4. Raporty
 # =====================================================================
 LD_RAPORT = {"@context": "https://schema.org", "@type": "Report", "name": "LexAlpha Lab · Benchmark 02 · pytania prawne", "version": WERSJA_RAPORTU,
@@ -936,6 +1034,7 @@ DANE = f"""
 <tr><td><code>judges/</code></td><td>oceny pięciu sędziów-modeli oraz wariantów „sędzia z raportem weryfikacji”</td><td class="num">1 319</td></tr>
 <tr><td><code>verification/</code></td><td>raporty warstwy weryfikacji: krok faktów (kod) i weryfikator poparcia (model), per karta i zbiorcze</td><td class="num">2 184</td></tr>
 <tr><td><code>costs/</code></td><td>cennik z 18.10.2026 ze źródłami i koszt na odpowiedź (równoważnik API)</td><td class="num">—</td></tr>
+<tr><td><code>cases/skd-01/</code></td><td>Benchmark 01 (pilotaż): kazus SKD, klucz, metryka pilotażu, 17 odpowiedzi modeli ogólnych i ich karty, <code>wyniki.json</code>; 12 kart oznaczonych jako wstępne</td><td class="num">17</td></tr>
 <tr><td><code>data/</code></td><td>warstwa maszynowa: <code>questions</code>, <code>keys</code>, <code>answers</code>, <code>cards</code>, <code>judgments</code>, <code>verification</code> jako JSONL (pola po angielsku, treść po polsku) z kartą zbioru</td><td class="num">6 plików</td></tr>
 <tr><td><code>reports/</code></td><td>raport Benchmark 02 (PDF, HTML, źródła Markdown, <code>dane.py</code>) i artykuł v1.2</td><td class="num">2</td></tr>
 <tr><td><code>tools/</code></td><td>skrypty biegów systemów i sędziów, porównanie sędziów z kartami, warstwa weryfikacji, eksport JSONL, budowa tej strony</td><td class="num">—</td></tr>
@@ -996,7 +1095,7 @@ WSPOLPRACA = f"""
 <h3>Ochrona pytań</h3>
 <p>Nie przekazujemy dostawcy zestawu pytań ani kluczy do przygotowania systemu; pytania zadaje operator badania. Jeżeli pytania trafiają do systemu dostawcy przez jego interfejs, mogą być widoczne w jego logach: dlatego wymagamy zobowiązania do niewykorzystywania ich do treningu i strojenia oraz określenia okresu przechowywania, a gdy tego nie da się zapewnić, odnotowujemy to w raporcie. Zestaw niepubliczny nie jest tajny bezterminowo; po kilku badaniach część pytań wymieniamy. Stosujemy niepubliczne znaczniki kontrolne do wykrywania ujawnienia materiału; podejrzenia weryfikujemy przed sformułowaniem wniosków.</p>
 <h3>Niezależność oceny</h3>
-<p>Finansujący badanie nie wybiera ocenianych odpowiedzi, nie ustala punktacji i nie zatwierdza wniosków. Raport ujawnia powiązania autorów i oceniających z badanym dostawcą; przy istotnym powiązaniu oceniający jest wyłączony albo ocenę wykonuje osoba zewnętrzna. Własne produkty KTZR i LexAlpha pozostają poza benchmarkiem (<a href="/metodologia#autorzy">konflikt interesów</a>).</p>
+<p>Finansujący badanie nie wybiera ocenianych odpowiedzi, nie ustala punktacji i nie zatwierdza wniosków. Raport ujawnia powiązania autorów i oceniających z badanym dostawcą; przy istotnym powiązaniu oceniający jest wyłączony albo ocenę wykonuje osoba zewnętrzna. Własne produkty KTZR i LexAlpha pozostają poza publikowanymi wynikami (<a href="/metodologia#autorzy">konflikt interesów</a>).</p>
 <p class="uwaga">Badanie nie jest certyfikacją, audytem ani rekomendacją zakupową. Wynik dotyczy wskazanej wersji i konfiguracji systemu w opisanych warunkach i nie potwierdza poprawności odpowiedzi w innych sprawach.</p>
 </section>
 <section>{kot("badacze", "Uczelnie i badacze")}

@@ -3,6 +3,7 @@
 Versions are dated by the state of the reference cards; every number in the reports is recomputed from the cards of that date.
 
 ## 1.0.1 — 2026-10-29 (cards unchanged, as of 2026-10-25)
+- Data layer: fields with varying structure are now JSON-encoded strings (keys: admissible_bases, citation_patterns, key_sources, rubric; judgments: A6_origin, scores; verification: verification, versions); content unchanged. Dataset card: `test` split for every config, gated access with automatic approval on Hugging Face, limitations, related work, conflict-of-interest statement.
 - Report *Benchmark 02* v1.1 (29 October 2026): introduction and literature cite Porębski & Figura (Jagiellonian University, 2025; dataset RODBUK 2026) as the closest earlier Polish study; no change to data or results.
 - Site: visual redesign, cooperation and join pages, LexAlpha Sp. z o.o. named as co-organiser, "other Polish studies" section on the reports page.
 - Site lawbenchmark.pl expanded: methodology, ten question pages, reports, data, English summary (`tools/build_site.py`).

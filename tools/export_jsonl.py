@@ -30,12 +30,45 @@ SYS = {s: {"system": s, "model": n, "provider": prov, "condition": w} for s, n, 
 os.makedirs(OUT, exist_ok=True)
 
 
+def _typ(v):
+    return ("null" if v is None else "bool" if isinstance(v, bool) else "num" if isinstance(v, (int, float)) else
+            "str" if isinstance(v, str) else "list" if isinstance(v, list) else "obj")
+
+
+def _sciezki(v, p, out):
+    out.setdefault(p, set()).add(_typ(v))
+    if isinstance(v, dict):
+        for k, x in v.items():
+            _sciezki(x, f"{p}.{k}", out)
+    elif isinstance(v, list):
+        for x in v:
+            _sciezki(x, p + "[]", out)
+
+
+def pola_mieszane(rekordy):
+    """Pola głównego poziomu, w których ta sama ścieżka ma w różnych rekordach różne typy (np. tekst albo obiekt).
+    Pyarrow (Hugging Face datasets) nie wczyta takiej kolumny; od 29.10.2026 zapisujemy je jako tekst JSON (bez utraty treści)."""
+    out = {}
+    for r in rekordy:
+        for k, v in r.items():
+            _sciezki(v, k, out)
+    return sorted({p.split(".")[0].split("[")[0] for p, t in out.items() if len(t - {"null"}) > 1})
+
+
+POLA_JSON = {}  # plik → pola zapisane jako tekst JSON (opis w data/README.md)
+
+
 def zapisz(nazwa, rekordy):
+    mieszane = pola_mieszane(rekordy)
+    POLA_JSON[nazwa] = mieszane
     with open(os.path.join(OUT, nazwa), "w", encoding="utf-8") as f:
         for r in rekordy:
+            for k in mieszane:
+                if r.get(k) is not None:
+                    r[k] = json.dumps(r[k], ensure_ascii=False)
             r["canary"] = CANARY
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    print(f"{nazwa}: {len(rekordy)} rekordów")
+    print(f"{nazwa}: {len(rekordy)} rekordów" + (f"; pola jako tekst JSON: {', '.join(mieszane)}" if mieszane else ""))
 
 
 # ---------- questions.jsonl + keys.jsonl ----------

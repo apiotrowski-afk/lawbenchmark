@@ -136,15 +136,17 @@ zapisz("cards.jsonl", karty)
 # ---------- judgments.jsonl ----------
 sedzia_model = {"argon4v101": "Gemini 4 Argon", "gemini31v101": "Gemini 3.1 Pro", "gemini38flashv101": "Gemini 3.8 Flash",
                 "sol61v101": "GPT-6.1 Sol", "astra6v101": "GPT-6 Astra", "argon4meta": "Gemini 4 Argon", "argon4meta2": "Gemini 4 Argon",
-                "argon4meta3": "Gemini 4 Argon", "sol61meta": "GPT-6.1 Sol", "sol61meta2": "GPT-6.1 Sol", "sol61meta3": "GPT-6.1 Sol"}
+                "argon4meta3": "Gemini 4 Argon", "sol61meta": "GPT-6.1 Sol", "sol61meta2": "GPT-6.1 Sol", "sol61meta3": "GPT-6.1 Sol",
+                "astra6": "GPT-6 Astra"}  # astra6: 20 ocen z 11.10.2026 wg specyfikacji 1.0 (przed 1.0.1) — historyczne, poza raportem
 wariant = {"meta": "v1 (binding report)", "meta2": "v2 (auxiliary report)", "meta3": "v3 (status instead of ✓)"}
+WARIANT_ID = {"astra6": "historical (specification 1.0, 11 October 2026; not comparable)"}
 oceny = []
 for f in sorted(glob.glob("judges/P*.json")):
     m = re.match(r"judges/(P\d\d)_(.+?)\.(\w+)\.json$", f)
     d = json.load(open(f, encoding="utf-8")); j = m.group(3)
     mw = re.search(r"(meta\d?)$", j)
     oceny.append({"answer_id": f"{m.group(1)}_{m.group(2)}", "question_id": m.group(1), "judge_id": j, "judge_model": sedzia_model.get(j),
-                  "judge_variant": wariant.get(mw.group(1), "without report") if mw else "without report",
+                  "judge_variant": WARIANT_ID.get(j) or (wariant.get(mw.group(1), "without report") if mw else "without report"),
                   "scores": {x: d.get(x) for x in ("A_R", "A2", "A3", "A5", "A6", "A8", "R", "K", "B1", "B2")},
                   "A6_classes": d.get("A6_typ"), "A6_origin": d.get("A6_pochodzenie"), "A6_scope": d.get("A6_zakres"),
                   "hallucinated": d.get("hallucinated"), "citations": d.get("powolania"), "unchecked": d.get("niesprawdzone"),

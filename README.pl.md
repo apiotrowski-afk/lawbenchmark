@@ -10,7 +10,7 @@ Projekt **LexAlpha Lab** (KTZR, Gdańsk). Repozytorium zawiera dane, klucze ocen
 
 | Katalog | Zawartość |
 |---|---|
-| `SPEC/` | Specyfikacja oceny v1.0.1 z rejestrem datowanych decyzji (dokument wewnętrzny, bez zmian) |
+| `SPEC/` | Specyfikacja oceny v1.0.4 z rejestrem datowanych decyzji (zasady punktacji bez zmian od 1.0.1, którą podają karty; dokument wewnętrzny w postaci użytej) |
 | `keys/` | Klucze 10 pytań: rdzeń, rubryka, kary, podstawy wymagane, źródła sprawdzone |
 | `answers/<P>/` | 16 odpowiedzi na pytanie (8 modeli × W0/W1), tak jak zwrócił je system, ze śladem narzędzi tam, gdzie narzędzie go zapisuje |
 | `cards/` | 160 kart wzorcowych: punkty A/B, klasy błędów F/T/W/S, etykieta „halucynacja”, każde powołanie sprawdzone, data wersji |

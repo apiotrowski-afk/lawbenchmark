@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jak oceniamy modele AI w polskim prawie — metodologia · LawBenchmark.pl</title>
+<meta name="description" content="Zasady Benchmarku 02: pytania, klucze odpowiedzi, ocena błędów w powołaniach przepisów i orzeczeń, weryfikacja źródeł, sędziowie-modele, warunki badania i ograniczenia.">
+<link rel="canonical" href="https://lawbenchmark.pl/metodologia">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:title" content="Jak oceniamy modele AI w polskim prawie — metodologia · LawBenchmark.pl">
+<meta property="og:description" content="Zasady Benchmarku 02: pytania, klucze odpowiedzi, ocena błędów w powołaniach przepisów i orzeczeń, weryfikacja źródeł, sędziowie-modele, warunki badania i ograniczenia.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://lawbenchmark.pl/metodologia">
+<meta property="og:site_name" content="LawBenchmark.pl">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{--brand:#1f4e79;--ok:#13766d;--bad:#b44739;--bg:#f7f8fa;--surface:#ffffff;--ink:#17212b;--muted:#5b6670;--line:#dce2e8;--soft:#eef2f6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8ab9e2;--ok:#4fb3a9;--bad:#e07a6c;--bg:#111820;--surface:#19232e;--ink:#e6edf3;--muted:#9aa7b4;--line:#2a3643;--soft:#1f2b37}}
+:root[data-theme="dark"]{--brand:#8ab9e2;--ok:#4fb3a9;--bad:#e07a6c;--bg:#111820;--surface:#19232e;--ink:#e6edf3;--muted:#9aa7b4;--line:#2a3643;--soft:#1f2b37}
+*{box-sizing:border-box;min-width:0} html{scroll-behavior:smooth} body{overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Source Serif 4",Georgia,serif}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px} .tekst{max-width:780px}
+nav{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;align-items:center;gap:18px;height:56px;font:500 14px Inter,system-ui,sans-serif}
+nav .logo{font-weight:600;color:var(--ink);text-decoration:none;letter-spacing:.01em} nav .logo small{color:var(--muted);font-weight:500;margin-left:8px}
+nav a{color:var(--muted);text-decoration:none} nav a:hover,nav a.tu{color:var(--ink)} nav .sp{flex:1}
+@media (max-width:760px){nav a:not(.logo){display:none}}
+nav button{background:none;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 10px;font:inherit;cursor:pointer}
+.okr{font:13px Inter,system-ui,sans-serif;color:var(--muted);padding:18px 0 0} .okr a{color:var(--muted)} .okr span{margin:0 6px}
+.hero{padding:56px 0 40px} .hero h1{font:600 clamp(30px,4.6vw,46px)/1.12 "Source Serif 4",Georgia,serif;margin:0 0 14px;max-width:820px}
+.hero p.lead{font-size:20px;color:var(--muted);max-width:720px;margin:0 0 22px}
+.pod-hero{padding:28px 0 8px} .pod-hero h1{font:600 clamp(26px,3.6vw,38px)/1.15 "Source Serif 4",Georgia,serif;margin:0 0 10px;max-width:860px}
+.pod-hero p.lead{font-size:19px;color:var(--muted);max-width:760px;margin:0 0 10px}
+.zakres{display:flex;flex-wrap:wrap;gap:8px 22px;font:500 15px Inter,system-ui,sans-serif;color:var(--ink);margin-bottom:10px} .zakres b{font-weight:600}
+.meta{font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-bottom:22px}
+.btn{display:inline-block;border-radius:6px;padding:10px 16px;font:600 14px Inter,system-ui,sans-serif;text-decoration:none;margin:0 10px 10px 0}
+.btn.p{background:var(--brand);color:#fff} .btn.s{border:1px solid var(--line);color:var(--ink);background:var(--surface)}
+.uwaga{font:14px Inter,system-ui,sans-serif;color:var(--muted);max-width:720px;border-left:3px solid var(--line);padding-left:12px;margin-top:8px}
+section{padding:40px 0 8px} h2{font:600 28px/1.2 "Source Serif 4",Georgia,serif;margin:0 0 6px} .pod{color:var(--muted);margin:0 0 20px;max-width:720px}
+article section{padding:28px 0 4px} article h2{font-size:26px;margin-top:8px} article h3{font:600 19px/1.3 Inter,system-ui,sans-serif;margin:22px 0 6px}
+article p,article li{max-width:780px} article ul,article ol{padding-left:22px} article li{margin:4px 0}
+h2 a.kot,h3 a.kot{color:var(--line);text-decoration:none;font-weight:400;margin-left:8px} h2:hover a.kot,h3:hover a.kot{color:var(--muted)}
+.dwa{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.dwa{grid-template-columns:1fr}}
+.blok{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.blok h3{margin:0 0 6px;font:600 20px Inter,system-ui,sans-serif} .blok p{margin:0;color:var(--muted);font-size:16px}
+.blok.ok h3{color:var(--ok)} .blok.bad h3{color:var(--bad)}
+.teza{font:600 20px/1.4 "Source Serif 4",Georgia,serif;margin:18px 0 0;max-width:820px}
+.wyk{gap:12px} .wykres{width:100%;height:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px}
+.legenda{display:flex;gap:20px;flex-wrap:wrap;font:13px Inter,system-ui,sans-serif;color:var(--muted);margin:10px 0 0}
+.legenda i{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin-right:6px;border:2px solid var(--muted)} .legenda i.f{background:var(--muted)}
+table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 Inter,system-ui,sans-serif;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-variant-numeric:tabular-nums}
+.pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600} th small{font-weight:500;color:var(--muted)}
+.pary th,.pary td{white-space:nowrap} .t.zw td,.t.zw th{white-space:nowrap}
+.pary .num,.t .num{text-align:right} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
+.war{display:inline-block;font:600 11px Inter,system-ui,sans-serif;padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
+.ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
+.scroll{overflow-x:auto;margin:0 -16px;padding:0 16px} .karty{display:none}
+@media (max-width:760px){.scroll.pary-s{display:none} .karty{display:grid;gap:12px} .karta{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.karta h3{margin:0 0 8px;font:600 17px Inter,system-ui,sans-serif} .kw{display:grid;grid-template-columns:auto 1fr 1fr;gap:4px 10px;align-items:center;font:14px Inter,system-ui,sans-serif;padding:6px 0;border-top:1px solid var(--line)}
+.kw .m{grid-column:2/4;color:var(--muted);font-size:13px}}
+.klasy{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px} .klasa{display:flex;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+.znak{flex:none;width:36px;height:36px;border:2px solid var(--ink);border-radius:8px;display:grid;place-items:center;font:600 16px Inter,system-ui,sans-serif}
+.klasa b{display:block;font:600 15px Inter,system-ui,sans-serif} .klasa .m b{display:inline;font-size:13px} .klasa .m{display:block;font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-top:4px}
+.przyp{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.przyp{grid-template-columns:1fr}}
+.przyp .blok h3{font-size:17px} .przyp .blok p{color:var(--ink)} .q{border-left:3px solid var(--line);padding:2px 0 2px 12px;margin:10px 0;color:var(--muted);font-style:italic}
+.ocena{font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-top:8px}
+.lista{columns:2;column-gap:40px;max-width:1000px} @media (max-width:760px){.lista{columns:1}} .lista p{break-inside:avoid;margin:0 0 12px} .lista b{font-family:Inter,system-ui,sans-serif;font-size:15px}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;overflow-x:auto}
+code{font:0.92em ui-monospace,Menlo,Consolas,monospace;background:var(--soft);padding:1px 5px;border-radius:4px}
+blockquote.pyt{margin:14px 0;padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:8px;font-size:18px}
+.fakty{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;font:14px Inter,system-ui,sans-serif;margin:14px 0}
+.fakty div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px} .fakty b{display:block;font-size:13px;color:var(--muted);font-weight:500;margin-bottom:2px}
+.siatka-pyt{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px} .siatka-pyt a{display:block;color:inherit;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.siatka-pyt a:hover{border-color:var(--brand)} .siatka-pyt .id{font:600 12px Inter,system-ui,sans-serif;color:var(--muted)} .siatka-pyt h2{margin:2px 0 6px;font:600 17px/1.3 Inter,system-ui,sans-serif}
+.siatka-pyt .st{font:13px Inter,system-ui,sans-serif;color:var(--muted)} .siatka-pyt .st b{color:var(--ink)}
+.kl{display:inline-block;font:600 12px Inter,system-ui,sans-serif;padding:1px 6px;border-radius:4px;border:1px solid var(--line);margin-right:3px} .kl.ok{border-color:var(--ok)} .kl.bl{border-color:var(--bad);color:var(--bad)}
+.spis{font:14px Inter,system-ui,sans-serif;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 18px;margin:16px 0 8px;max-width:780px} .spis a{display:inline-block;margin:3px 14px 3px 0;text-decoration:none}
+footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font:14px/1.5 Inter,system-ui,sans-serif;color:var(--muted)} a{color:var(--brand)}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "LawBenchmark.pl", "item": "https://lawbenchmark.pl/"}, {"@type": "ListItem", "position": 2, "name": "Metodologia"}]}</script>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="/">LawBenchmark.pl <small>LexAlpha Lab</small></a><span class="sp"></span>
+<a href="/#wyniki">Wyniki</a><a href="/benchmark/02/pytania">Pytania</a><a href="/metodologia" class="tu">Metodologia</a><a href="/raporty">Raporty</a><a href="/dane">Dane</a><a href="/en">EN</a>
+<button id="motyw" aria-label="Przełącz motyw">◐</button></div></nav>
+<div class="wrap okr"><a href="/">LawBenchmark.pl</a><span>›</span>Metodologia</div>
+
+<header class="pod-hero"><div class="wrap">
+<h1>Metodologia oceny</h1>
+<p class="lead">Jak powstaje każda liczba na tej stronie: pytania, klucze, warunki badania, kryteria oceny, definicja halucynacji i odpowiedzi poprawnie ugruntowanej, sędziowie-modele, warstwa weryfikacji, koszt, ograniczenia.</p>
+<div class="meta">Specyfikacja oceny v1.0.4 z 29.10.2026 (zasady punktacji niezmienione od 1.0.1 z 11.10.2026) · stan prawny 1.10.2026 · pełny tekst specyfikacji z rejestrem decyzji w <a href="/dane">repozytorium</a></div>
+<div class="spis">
+<a href="#konstrukt">Co mierzymy</a><a href="#pytania">Pytania</a><a href="#klucze">Klucze</a><a href="#warunki">Warunki badania</a><a href="#karta">Karta oceny</a><a href="#halucynacja">Halucynacja i klasy błędu</a>
+<a href="#ugruntowanie">Poprawnie ugruntowane</a><a href="#procedura">Jak powstaje karta</a><a href="#sedziowie">Sędziowie-modele</a><a href="#weryfikacja">Warstwa weryfikacji</a><a href="#koszt">Koszt</a>
+<a href="#ograniczenia">Ograniczenia</a><a href="#wersje">Wersjonowanie</a><a href="#kontaminacja">Kontaminacja</a><a href="#autorzy">Autorzy i finansowanie</a>
+</div>
+</div></header>
+<article><div class="wrap">
+
+<section><h2 id="konstrukt">Co mierzy benchmark modeli AI<a class="kot" href="#konstrukt" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Za benchmarkiem stoi praktyczne pytanie: ile pracy sprawdzającej zostaje prawnikowi po otrzymaniu odpowiedzi modelu. Benchmark tego pytania nie rozstrzyga. Mierzy dwie rzeczy, które da się sprawdzić: zgodność odpowiedzi z kluczem ustalonym przed badaniem oraz prawdziwość zawartych w niej twierdzeń o źródłach prawa wobec tekstu urzędowego na dzień stanu prawnego. Żadna etykieta na tej stronie nie oznacza, że odpowiedź nadaje się do pisma bez kontroli.</p>
+<p>Stąd dwie osie oceny. Pierwsza, <b>halucynacja</b>, odpowiada na pytanie, czy twierdzenia o źródłach prawa są prawdziwe. Druga, <b>ugruntowanie</b>, odpowiada na pytanie, czy powołania w odpowiedzi dało się potwierdzić w źródle urzędowym, a w warunku z wyszukiwaniem także, czy system takie źródło otworzył. Miara główna łączy obie osie: odsetek odpowiedzi <a href="#ugruntowanie">poprawnie ugruntowanych</a>.</p>
+<p>Benchmark 02 jest zbiorem kalibracyjnym. Dziesięć pytań, jedna seria i jeden sprawdzający prawnik wystarczają, by pokazać kryteria i ich skutki na prawdziwych odpowiedziach, nie by ustalić ranking produktów. Reguły oceny zmieniano w trakcie pracy po lekturze odpowiedzi; każda zmiana ma datę w rejestrze decyzji.</p>
+</section>
+
+<section><h2 id="pytania">Pytania<a class="kot" href="#pytania" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Pytania pochodzą z praktyki kancelarii i mają postać, w jakiej prawnik wpisuje je do czatu: z literówkami, skrótami, czasem z błędną przesłanką. Błędy językowe i błędne przesłanki zachowano celowo, by sprawdzić, jak systemy reagują na takie pytania.</p>
+<p>Każde pytanie ma typ, który decyduje o sposobie liczenia rdzenia odpowiedzi:</p>
+<ul>
+<li><b>zamknięte</b> — trafienie „tak”, „nie” albo „zależy od X”; w Benchmarku 02 osiem z dziesięciu pytań;</li>
+<li><b>obliczenie</b> — wynik liczbowy w zadanej tolerancji (P01);</li>
+<li><b>weryfikacja</b> — czy system sprawdza cudze twierdzenie, czy mu przytakuje (P08).</li>
+</ul>
+<p>Sześć pytań ma wbudowaną <b>pułapkę</b>: błędną albo nieaktualną przesłankę, którą system powinien nazwać i skorygować. Przykład: pytanie P01 zakłada, że próg wykroczenia rośnie z płacą minimalną, a od 1.10.2023 jest kwotą stałą. Pytanie P05 działa odwrotnie: odpowiedź, która jeszcze w maju 2026 r. była prawidłowa, na dzień stanu prawnego jest nieaktualna. Para P09 i P10 to <b>para z przeciwnymi sugestiami</b> (w specyfikacji: „lustro”): to samo zagadnienie, raz z sugestią „nie wystarcza”, raz „wystarcza”. Mierzy, czy system zmienia odpowiedź pod wpływem oczekiwań pytającego.</p>
+<p>Każde pytanie ma <b>tekst oryginalny</b> (dokładnie tak, jak wpisał prawnik) i, gdy oryginał nie wystarcza do jednoznacznego klucza, <b>tekst benchmarkowy</b> uzupełniony przed badaniem o brakujące dane. W badaniu użyto tekstu benchmarkowego, jeśli istnieje: dotyczy to P01, P04 i P09 (P10 jako wersja z odwróconą sugestią ma tylko tekst benchmarkowy); pozostałe sześć pytań zadano w brzmieniu oryginalnym. Strona każdego pytania pokazuje obie wersje. Pełne brzmienia i klucze: <a href="/benchmark/02/pytania">dziesięć pytań</a>.</p>
+<p>Pula liczy 50 pytań. Opublikowano 10; pozostałe 40 zostają nieujawnione, by kolejne edycje mogły użyć pytań, których modele nie widziały.</p>
+</section>
+
+<section><h2 id="klucze">Jak ustalamy prawidłową odpowiedź: klucze<a class="kot" href="#klucze" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Klucz pytania jest ustalany przed zebraniem odpowiedzi i zawiera: <b>rdzeń</b> odpowiedzi, <b>rubrykę</b> (elementy premiowane), <b>kary</b> (błędy, za które odejmuje się punkt), <b>podstawy wymagane</b> (przepisy, bez których odpowiedź nie jest kompletna) i oczekiwaną <b>kalibrację</b> (kategoryczna albo warunkowa, z warunkiem). Zasady klucza:</p>
+<ol>
+<li>Każda podstawa ma źródło: ISAP, ELI, EUR-Lex, SAOS albo sn.pl. Cytaty przepisów są przepisane z tekstu urzędowego, nie z bazy pomocniczej ani z pamięci.</li>
+<li>Orzeczenie w kluczu ma sygnaturę, sąd, datę, tezę przepisaną z tekstu orzeczenia i źródło z zakresem odczytu. Omówienia i komentarze nie są źródłem tezy.</li>
+<li>Klucz obejmuje tylko to, o co pyta pytanie. Zagadnienie sąsiednie nie wchodzi do rubryki ani kar, choćby było praktycznie ważne.</li>
+<li>Klucza nie zmienia się po poznaniu odpowiedzi systemów. Zmiana wymaga nowej wersji z datą i powodem.</li>
+<li>Do badania idą tylko klucze zatwierdzone przez prawnika; pole „weryfikacja” mówi wprost, czego nie sprawdzono.</li>
+</ol>
+<p>Stan prawny każdego klucza to <b>1 października 2026 r.</b> Odpowiedzi ocenia się według prawa na ten dzień. Dwa klucze (P09, P10) zmieniono po zebraniu odpowiedzi, gdy orzecznictwo Sądu Najwyższego okazało się bardziej zniuansowane niż klucz; rdzeń stał się warunkowy, a zmiana jest opisana w raporcie i w rejestrze decyzji. Jest to odstępstwo od zasady 4 i podajemy je jawnie. Warunkowość rdzenia P09 i P10 wynika z wykładni umowy (art. 65 k.c.) przyjętej w orzecznictwie Sądu Najwyższego, nie z rozbieżności między orzeczeniami; dlatego pytania nie są oznaczone jako sporne i kryterium A5 ich nie dotyczy.</p>
+<p>Dokumenty niewiążące (wytyczne Komisji Europejskiej, kodeksy praktyk) wchodzą do klucza jako osobny element rubryki, nigdy jako kara: brak odwołania nie jest błędem, a halucynacją jest dopiero przypisanie im mocy wiążącej albo treści, której w nich nie ma.</p>
+</section>
+
+<section><h2 id="warunki">Warunki badania<a class="kot" href="#warunki" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Każdy model odpowiadał na te same dziesięć pytań w dwóch warunkach:</p>
+<ul>
+<li><b>W0</b> — bez narzędzi: ten sam krótki, neutralny wstęp i pytanie. Odpowiedź pochodzi wyłącznie z wag modelu.</li>
+<li><b>W1</b> — z wyszukiwaniem w internecie narzędziem dostawcy: dla OpenAI wyszukiwanie Codex CLI, dla Anthropic WebSearch i WebFetch w Claude Code, dla Google <code>google_search</code> i <code>url_context</code> w Vertex AI. Wstęp dodaje jedno zdanie o podawaniu adresów źródeł.</li>
+</ul>
+<p>Wstęp nie zawiera prośby o zwięzłość ani wskazówek o pułapkach czy sporności i nie zmienia się w trakcie serii. Jedna seria, jedna odpowiedź na pytanie; odpowiedź zapisuje się w postaci, w jakiej zwrócił ją system, razem ze śladem narzędzi tam, gdzie narzędzie go zapisuje.</p>
+<div class="scroll"><table class="t"><thead><tr><th>Dostawca</th><th>Model</th><th>Identyfikator</th><th>Wywołanie</th><th>Ustawienia</th></tr></thead><tbody>
+<tr><td>OpenAI</td><td>GPT-6.1 Sol</td><td><code>gpt-6.1-sol</code></td><td rowspan="3">Codex CLI (konto ChatGPT)</td><td rowspan="3">rozumowanie: medium; W1: wyszukiwanie Codex</td></tr>
+<tr><td>OpenAI</td><td>GPT-6 Astra</td><td><code>gpt-6-astra</code></td></tr>
+<tr><td>OpenAI</td><td>GPT-5.6 Terra</td><td><code>gpt-5.6-terra</code></td></tr>
+<tr><td>Anthropic</td><td>Claude Opus 5.5</td><td><code>claude-opus-5-5</code></td><td rowspan="3">Claude Code CLI (subskrypcja), bez MCP i CLAUDE.md</td><td rowspan="3">temperatura domyślna CLI; W1: WebSearch + WebFetch (strony streszcza model pomocniczy Haiku)</td></tr>
+<tr><td>Anthropic</td><td>Claude Sonnet 5.5</td><td><code>claude-sonnet-5-5</code></td></tr>
+<tr><td>Anthropic</td><td>Claude Haiku 5.5</td><td><code>claude-haiku-5-5</code></td></tr>
+<tr><td>Google</td><td>Gemini 3.8 Flash</td><td><code>gemini-3.8-flash</code></td><td rowspan="2">Vertex AI, region <code>global</code></td><td rowspan="2">poziom rozumowania domyślny modelu; W1: <code>google_search</code> + <code>url_context</code></td></tr>
+<tr><td>Google</td><td>Gemini 4 Argon</td><td><code>gemini-4-argon</code></td></tr>
+</tbody></table></div>
+<p>Odpowiedzi zebrano 10, 13, 17 i 18 października 2026 r.; każda ma datę, identyfikator modelu i ustawienia w metadanych. Własne produkty kancelarii nie biorą udziału w benchmarku.</p>
+</section>
+
+<section><h2 id="karta">Kryteria oceny<a class="kot" href="#karta" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Każda odpowiedź ma kartę z punktem za każde kryterium i dowodem ze źródła. Karta dzieli się na blok A (kryteria sprawdzane wobec klucza i tekstu urzędowego) i blok B (kryteria ocenne); wyniki obu bloków podajemy osobno i nie uśredniamy ich. Także w bloku A część ocen wymaga rozstrzygnięcia prawnika: istnienie źródła i brzmienie przepisu porównuje się wprost, ale to, czy przypisana źródłu treść mieści się w jego tekście, ocenia prawnik wobec źródła i klucza.</p>
+<h3 id="blok-a">Blok A — kryteria sprawdzane wobec klucza i źródła<a class="kot" href="#blok-a" aria-label="odnośnik do sekcji">#</a></h3>
+<div class="scroll"><table class="t"><thead><tr><th>Kryterium</th><th>Co mierzy</th><th>Punkty</th></tr></thead><tbody>
+<tr><td><b>A-R</b></td><td>rdzeń odpowiedzi: czy odpowiedź trafia w sedno pytania (może paść w dowolnym miejscu odpowiedzi)</td><td>0 / 1 / 2 — 2 = pełny rdzeń, 1 = kierunek trafny bez kluczowego warunku (np. jedna gałąź pytania warunkowego)</td></tr>
+<tr><td><b>A2</b></td><td>podstawy wymagane z klucza</td><td>0 / 1 — 0 przy braku którejkolwiek albo przy błędnej podstawie</td></tr>
+<tr><td><b>A3</b></td><td>cytaty przepisów zgodne z tekstem urzędowym</td><td>0 / 1, tylko gdy system cytuje; inaczej nie dotyczy</td></tr>
+<tr><td><b>A5</b></td><td>nazwanie sporności</td><td>0 / 1, tylko przy pytaniu oznaczonym jako sporne (w Benchmarku 02 brak)</td></tr>
+<tr><td><b>A6</b></td><td>halucynacje: zgodność każdego twierdzenia o źródle prawa z tekstem urzędowym</td><td>1 / 0 — zero-jedynkowe, z klasą i pochodzeniem błędu (sekcja niżej)</td></tr>
+<tr><td><b>A8</b></td><td>ramy: czy odpowiedź dotyczy zadanego pytania (długości nie ocenia)</td><td>1 / ½ / 0 — ½ przy dygresji poza pytanie, 0 gdy treść poza pytaniem przeważa, odpowiedź dotyczy innego pytania albo zawiera artefakty techniczne</td></tr>
+<tr><td><b>R</b></td><td>elementy rubryki klucza</td><td>+1 za każdy</td></tr>
+<tr><td><b>K</b></td><td>kary z klucza</td><td>−1 za każdą; wynik bloku nie spada poniżej 0</td></tr>
+</tbody></table></div>
+<p><b>A % = (suma punktów − kary) / suma punktów możliwych</b>; punkty możliwe liczy się bez kryteriów „nie dotyczy”. Przy pułapce omówienie prawidłowego stanu prawnego zamiast założonego w pytaniu jest odpowiedzią, nie dygresją. Milczące przyjęcie błędnego numeru przepisu z pytania kosztuje element rubryki, jeśli klucz go ma; karę płaci dopiero utrwalenie błędu.</p>
+<h3 id="blok-b">Blok B — kryteria ocenne<a class="kot" href="#blok-b" aria-label="odnośnik do sekcji">#</a></h3>
+<ul>
+<li><b>B1, przydatność</b> (0–2): czy prawnik wie, co zrobić dalej. Błąd w praktycznej wskazówce, który zmienia działanie (kwota opłaty, termin, organ, forma), obniża B1 do najwyżej 1, także gdy system nie powołał przepisu.</li>
+<li><b>B2, sposób sformułowania konkluzji</b> (0–1; do 29.10.2026 pod nazwą „kalibracja”): zgodność formy konkluzji z kluczem. Przy kluczu kategorycznym punkt dostaje odpowiedź, która stawia tezę wprost; rozmycie jasnej tezy („zależy od interpretacji”, „warto skonsultować”) bez wskazania, od czego, kosztuje punkt. Przy kluczu warunkowym punkt dostaje odpowiedź, która wiąże konkluzję z warunkiem; system może też dopytać, o ile nazwie rozwidlenie.</li>
+</ul>
+<p>B2 mierzy formę konkluzji wobec klucza, nie trafność ani rzeczywistą pewność modelu, stąd zmiana nazwy po recenzji zewnętrznej: błędna, lecz kategoryczna odpowiedź przy kluczu kategorycznym ma B2 = 1, a sam błąd obniża wynik bloku A. Blok B nie dubluje bloku A; profil „A niskie, B wysokie” ma być widoczny, nie wygładzony. Formułki „nie stanowi porady prawnej” nie wpływają na ocenę.</p>
+</section>
+
+<section><h2 id="halucynacja">Halucynacja i klasy błędu<a class="kot" href="#halucynacja" aria-label="odnośnik do sekcji">#</a></h2>
+<p><b>Halucynacją</b> jest każde twierdzenie o źródle prawa niezgodne ze źródłem urzędowym na dzień stanu prawnego. Jedno takie twierdzenie daje A6 = 0 i etykietę „halucynacja” dla całej odpowiedzi, także wtedy, gdy sam wniosek jest trafny. Etykieta „bez halucynacji” oznacza brak <i>wykrytej</i> halucynacji: sprawdzono 1436 z 1454 powołań, a powołania niesprawdzone nie obniżały oceny (jedna karta ma niesprawdzone powołanie przy etykiecie „poprawnie ugruntowana”; raport, rozdz. 8).</p>
+<p>Karta zapisuje obok punktu wszystkie wykryte klasy błędu, każdą z dowodem (co powołano, co jest w źródle, gdzie sprawdzono):</p>
+<div class="klasy">
+<div class="klasa"><span class="znak">F</span><div><b>źródło lub jednostka redakcyjna nie istnieje</b><span class="m">zmyślony artykuł, paragraf, wyrok albo akt</span></div></div>
+<div class="klasa"><span class="znak">T</span><div><b>treść, której w źródle nie ma</b><span class="m">treść odwrotna, cudza, o rozciągniętym albo zawężonym zakresie, dla innego adresata lub kanału; także teza przypisana ogólnie „orzecznictwu”, sprzeczna z prawem</span></div></div>
+<div class="klasa"><span class="znak">W</span><div><b>brzmienie z innej daty podane jako obowiązujące</b><span class="m">dawne albo przyszłe brzmienie przepisu podane jako aktualne</span></div></div>
+<div class="klasa"><span class="znak">S</span><div><b>zniekształcony identyfikator (sygnatura, numer)</b><span class="m">prawdziwe źródło z przekręconym numerem, datą, sądem, publikatorem lub nazwą aktu</span></div></div>
+</div>
+<p>W Benchmarku 02 klasa T wystąpiła w 66 odpowiedziach, W w 35, F w 8, S w 9. Jedna odpowiedź może mieć kilka klas, więc liczby nie sumują się do 91 odpowiedzi z halucynacją.</p>
+<p>Samo <b>pominięcie</b> przesłanki albo elementu przepisu nie jest twierdzeniem fałszywym: nie obniża A6, odejmuje punkty w rubryce i rdzeniu. Granica z klasą T: odpowiedź, która opisuje art. 787 k.p.c. niepełnie, ale nie twierdzi, że przepis obejmuje tylko to, co opisała, popełnia pominięcie; odpowiedź, która stwierdza, że przepis stosuje się wyłącznie w sytuacji, do której się nie ogranicza, przypisuje mu zawężony zakres i dostaje klasę T. Odpowiedź bez żadnych powołań ma A6 = 1. Odpowiedź pusta ma A6 = 0 bez etykiety. Gdy tekst zablokował filtr dostawcy (np. Vertex <code>RECITATION</code>), odpowiedź trafia do osobnej kategorii „blokada dostawcy”: ani halucynacja, ani odpowiedź prawidłowa (w Benchmarku 02 jeden przypadek, P07 Gemini 4 Argon W1).</p>
+<p>Przy każdym błędzie karta zapisuje dwie rzeczy więcej:</p>
+<ul>
+<li><b>pochodzenie</b> — <i>pamięć</i> (brak potwierdzonego odczytu źródła: warunek bez narzędzi, narzędzia nieużyte albo brak tego aktu w śladzie narzędzi; nazwa kategorii wyraża hipotezę, że treść pochodzi z wag modelu), <i>odczyt źródła</i> (ślad pokazuje otwarcie właściwego źródła urzędowego, a treść i tak jest błędna), <i>źródło wtórne</i> (błąd powtarza błąd lub skrót serwisu, który system otworzył), <i>nieustalone</i>;</li>
+<li><b>zakres</b> — <i>rdzeń</i>, gdy błąd dotyczy sedna pytania, podstaw wymaganych albo elementu rubryki; <i>poboczne</i>, gdy występuje w części pobocznej (dygresja, analogia, tło) przy poprawnej konkluzji. W Benchmarku 02: 57 odpowiedzi z błędem w rdzeniu, 34 z błędem tylko pobocznym.</li>
+</ul>
+<p>W warunku W1 karta odnotowuje także, czy system w ogóle użył źródła urzędowego:</p>
+<div class="scroll"><table class="t zw"><thead><tr><th>Model (W1)</th><th class="num">Źródło urzędowe użyte</th><th class="num">Tylko źródła wtórne</th><th class="num">Narzędzia nieużyte</th><th>Halucynacje wg pochodzenia<br><small>pamięć / odczyt źródła / źródło wtórne / nieustalone</small></th></tr></thead><tbody>
+<tr><td class="model">GPT-6.1 Sol</td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td>0 / 1 / 0 / 0</td></tr>
+<tr><td class="model">GPT-6 Astra</td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td>0 / 0 / 0 / 0</td></tr>
+<tr><td class="model">GPT-5.6 Terra</td><td class="num">9</td><td class="num">1</td><td class="num">0</td><td>3 / 1 / 0 / 0</td></tr>
+<tr><td class="model">Claude Opus 5.5</td><td class="num">4</td><td class="num">4</td><td class="num">2</td><td>4 / 0 / 0 / 1</td></tr>
+<tr><td class="model">Claude Sonnet 5.5</td><td class="num">4</td><td class="num">2</td><td class="num">4</td><td>6 / 0 / 0 / 3</td></tr>
+<tr><td class="model">Claude Haiku 5.5</td><td class="num">3</td><td class="num">4</td><td class="num">3</td><td>3 / 1 / 3 / 1</td></tr>
+<tr><td class="model">Gemini 3.8 Flash</td><td class="num">3</td><td class="num">4</td><td class="num">3</td><td>1 / 1 / 1 / 2</td></tr>
+<tr><td class="model">Gemini 4 Argon</td><td class="num">7</td><td class="num">3</td><td class="num">0</td><td>4 / 3 / 0 / 1</td></tr>
+</tbody></table></div>
+</section>
+
+<section><h2 id="ugruntowanie">Odpowiedź poprawnie ugruntowana<a class="kot" href="#ugruntowanie" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Odpowiedź jest <b>poprawnie ugruntowana</b>, gdy spełnia trzy warunki naraz: pełny rdzeń (A-R = 2), brak wykrytej halucynacji (A6 = 1) i co najmniej jedno powołanie, które oceniający potwierdził w źródle urzędowym. Sprawdzenia dokonuje oceniający, nie system: etykieta mówi, że powołania w odpowiedzi są prawdziwe i da się je potwierdzić, a nie, że model je przeczytał. W warunku bez narzędzi model źródła nie otwierał; czy w warunku z wyszukiwaniem otworzył źródło urzędowe, pokazuje osobna tabela w sekcji o halucynacjach. Odpowiedź bez błędnych powołań, ale z niepełnym rdzeniem albo bez żadnego potwierdzonego powołania, nie jest poprawnie ugruntowana; odpowiedź z trafnym wnioskiem i jednym fałszywym powołaniem też nie.</p>
+<p>Mianowniki: każdy model ma 10 odpowiedzi w warunku; 80 odpowiedzi w warunku; 160 odpowiedzi łącznie. W Benchmarku 02 poprawnie ugruntowanych było 19 z 80 w W0 i 27 z 80 w W1; z halucynacją 51 i 40. Reszta to odpowiedzi bez wykrytej halucynacji, lecz z niepełnym rdzeniem albo bez potwierdzonego powołania, oraz jedna blokada dostawcy (P07, Gemini 4 Argon, W1), która pozostaje w mianowniku 80. 160 odpowiedzi to nie 160 niezależnych obserwacji: te same dziesięć pytań powtarza się u każdego modelu, więc wynik zależy od doboru pytań. Przed cytowaniem liczb: rozdział 8 raportu.</p>
+<p>Sprawdzono 1436 z 1454 powołań we wszystkich odpowiedziach; karta podaje „sprawdzone n z m”.</p>
+</section>
+
+<section><h2 id="procedura">Jak sprawdzamy odpowiedzi: karta oceny<a class="kot" href="#procedura" aria-label="odnośnik do sekcji">#</a></h2>
+<ol>
+<li>Model (Claude) wypełnia kartę wstępnie: wyszukuje każde powołanie w ISAP, ELI, SAOS, sn.pl albo portalu sądu, porównuje treść z odpowiedzią, proponuje punkty i klasy błędów z dowodami.</li>
+<li>Prawnik sprawdza każdą kartę i zatwierdza albo zmienia werdykt. Decyzje graniczne trafiają do rejestru decyzji w specyfikacji z datą, by kolejne karty były oceniane tak samo.</li>
+<li>Karta zapisuje wersję specyfikacji, według której ją oceniono, datę i historię zmian. Kart ocenionych według starszej wersji nie porównuje się z nowymi bez przeliczenia.</li>
+</ol>
+<p>Model wypełniający karty należy do tej samej rodziny co trzy oceniane systemy. Także wśród sędziów-modeli część ocenia odpowiedzi własnej rodziny, a w kilku kartach własne (raport, rozdz. 6). Dlatego każdą kartę sprawdza człowiek, a na tych samych kartach liczymy zgodność z pięcioma sędziami-modelami z trzech rodzin.</p>
+</section>
+
+<section><h2 id="sedziowie">Sędziowie-modele i zgodność z kartami<a class="kot" href="#sedziowie" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Te same odpowiedzi oceniło osobno pięć modeli z dostępem do wyszukiwania, w oddzielnych wywołaniach, według specyfikacji 1.0.1. Dla każdego sędziego liczymy zgodność z kartami i κ Cohena dla etykiety „halucynacja”, osobno dla zbioru pilotażowego (P05–P07, P12, P13) i rozszerzenia (P01, P04, P08–P10), zawsze na kartach, które dany sędzia ocenił (kolumna n). Cztery modele oceniły 147–160 kart; GPT-6 Astra oceniła 49 kart, więc jej κ nie jest porównywalna z pozostałymi. <i>Fałszywy alarm</i> to halucynacja orzeczona przez sędziego tam, gdzie karta jej nie ma; <i>pominięcie</i> odwrotnie.</p>
+<div class="scroll"><table class="t zw"><thead><tr><th>Sędzia</th><th>Zbiór pytań</th><th class="num">n kart</th><th class="num">Zgodność</th><th class="num">κ</th><th class="num">Fałszywe alarmy</th><th class="num">Pominięcia</th><th class="num">Wyszukań na kartę</th></tr></thead><tbody>
+<tr><td class="model">Gemini 4 Argon</td><td>rozszerzenie (P01, P04, P08–P10)</td><td class="num">79</td><td class="num">95 %</td><td class="num">0,90</td><td class="num">1</td><td class="num">3</td><td class="num">12,2</td></tr>
+<tr><td class="model">Gemini 4 Argon</td><td>pilotaż (P05–P07, P12, P13)</td><td class="num">68</td><td class="num">99 %</td><td class="num">0,97</td><td class="num">0</td><td class="num">1</td><td class="num">16,2</td></tr>
+<tr><td class="model">GPT-6.1 Sol</td><td>rozszerzenie (P01, P04, P08–P10)</td><td class="num">80</td><td class="num">90 %</td><td class="num">0,80</td><td class="num">7</td><td class="num">1</td><td class="num">11,2</td></tr>
+<tr><td class="model">GPT-6.1 Sol</td><td>pilotaż (P05–P07, P12, P13)</td><td class="num">80</td><td class="num">92 %</td><td class="num">0,84</td><td class="num">6</td><td class="num">0</td><td class="num">13,5</td></tr>
+<tr><td class="model">Gemini 3.1 Pro</td><td>rozszerzenie (P01, P04, P08–P10)</td><td class="num">80</td><td class="num">90 %</td><td class="num">0,80</td><td class="num">0</td><td class="num">8</td><td class="num">4,3</td></tr>
+<tr><td class="model">Gemini 3.1 Pro</td><td>pilotaż (P05–P07, P12, P13)</td><td class="num">79</td><td class="num">86 %</td><td class="num">0,71</td><td class="num">5</td><td class="num">6</td><td class="num">7,6</td></tr>
+<tr><td class="model">Gemini 3.8 Flash</td><td>rozszerzenie (P01, P04, P08–P10)</td><td class="num">80</td><td class="num">79 %</td><td class="num">0,58</td><td class="num">1</td><td class="num">16</td><td class="num">4,7</td></tr>
+<tr><td class="model">Gemini 3.8 Flash</td><td>pilotaż (P05–P07, P12, P13)</td><td class="num">80</td><td class="num">91 %</td><td class="num">0,82</td><td class="num">2</td><td class="num">5</td><td class="num">6,8</td></tr>
+<tr><td class="model">GPT-6 Astra</td><td>rozszerzenie (P01, P04, P08–P10)</td><td class="num">6</td><td class="num">100 %</td><td class="num">1,00</td><td class="num">0</td><td class="num">0</td><td class="num">10,3</td></tr>
+<tr><td class="model">GPT-6 Astra</td><td>pilotaż (P05–P07, P12, P13)</td><td class="num">43</td><td class="num">98 %</td><td class="num">0,95</td><td class="num">1</td><td class="num">0</td><td class="num">10,2</td></tr>
+</tbody></table></div>
+<p>κ nie dowodzi, że karty są prawdziwe; mówi, na ile inny oceniający dochodzi do tych samych wniosków. Na rozszerzeniu κ czterech sędziów mieści się między 0,58 a 0,90 (79–80 kart), na pilotażu między 0,71 a 0,97 (68–80 kart). Przedziały ufności z bootstrapu po pytaniach i macierze TP/FP/FN/TN są w aneksie E raportu. Sędziowie, którzy mało korzystali z wyszukiwarki, są najmniej zgodni z kartami, a prawie żaden nie przyznaje, czego nie sprawdził. Raport bada też wariant „sędzia z raportem weryfikacji” (karta meta v3), w którym sędzia dostaje raport warstwy weryfikacji jako pomoc, nie werdykt. Zmiana zgodności z kartami: GPT-6.1 Sol κ 0,80 → 0,89 na 128 wspólnych kartach, Gemini 4 Argon 0,95 → 0,88 na 116; u Argona strata przypada na klasę W, której kod nie umie ustalić.</p>
+</section>
+
+<section><h2 id="weryfikacja">Warstwa weryfikacji<a class="kot" href="#weryfikacja" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Obok sędziów działa warstwa weryfikacji w dwóch krokach. <b>Krok faktów</b> to kod: wyciąga powołania z odpowiedzi, próbuje ustalić brzmienie jednostki na dzień stanu prawnego z ISAP/ELI (biblioteka legal-cite-pl) i orzeczenie z SAOS, sprawdza istnienie, identyfikator i brzmienie; przypadki, których nie umie rozstrzygnąć, oznacza jako nieustalone. <b>Ocena poparcia</b> to model, który dostaje tezę z odpowiedzi i tekst źródła i ocenia, czy źródło tę tezę wspiera. Wynik trafia do sędziego jako raport pomocniczy, nigdy jako werdykt wiążący.</p>
+<p>Na ośmiu pytaniach poza zbiorem strojenia warstwa wykryła 84 ze 147 błędów z kart (57 %). Większość pominięć to różnice definicji (zawężony zakres normy, który karta liczy jako T) i klasa W: między tekstami jednolitymi k.p.c. weszło w życie zbyt wiele nowelizacji, by kod ustalił brzmienie na dzień. Odsetek fałszywych alarmów, wyniki przed naprawami wejścia i po nich oraz mianowniki podaje rozdział 7 raportu; kod i raporty dla poszczególnych kart są w repozytorium.</p>
+</section>
+
+<section><h2 id="koszt">Koszt<a class="kot" href="#koszt" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Dla każdej odpowiedzi liczymy <b>koszt równoważny API</b>: ile kosztowałoby to samo zużycie tokenów i narzędzi według publicznego cennika dostawcy z 18.10.2026. Systemy uruchamiane z subskrypcji (Claude Code, Codex) nie generują tych kwot naprawdę; Vertex AI to koszt faktyczny. Koszt nie wpływa na punkty i nie wchodzi do rankingu jakości.</p>
+<p>Metryka pomocnicza: <b>USD na odpowiedź poprawnie ugruntowaną</b>, czyli koszt serii podzielony przez liczbę takich odpowiedzi; przy wskaźniku zawsze pokazujemy koszt serii, liczbę odpowiedzi i oznaczenie dolnej granicy. System bez ani jednej takiej odpowiedzi ma „n/d”, nie „∞”. Przy dziesięciu pytaniach i części kosztów znanych tylko jako dolna granica wskaźnik nie jest oceną opłacalności produktu. Ograniczenia: tokeny z cache liczone tak, jak raportuje narzędzie; Claude Code nie zapisuje liczby wyszukań (w W1 opłata „n/d”, koszt to dolna granica „≥”); skrypt Vertex nie zapisywał tokenów treści z <code>url_context</code>. Pełny koszt badania (odpowiedzi, sędziowie, warstwa weryfikacji) to co najmniej 170,70 USD według cennika, bez kosztu pracy prawnika.</p>
+</section>
+
+<section><h2 id="ograniczenia">Ograniczenia<a class="kot" href="#ograniczenia" aria-label="odnośnik do sekcji">#</a></h2>
+<ul>
+<li><b>Mała próba.</b> Dziesięć pytań, pięć z postępowania cywilnego. Wynik zależy od doboru pytań; 160 odpowiedzi to nie 160 niezależnych obserwacji.</li>
+<li><b>Jedna seria.</b> Każdy system uruchomiono raz na pytanie. Nie znamy wariancji między uruchomieniami tego samego modelu; wyniki W0 i W1 pochodzą z różnych dni.</li>
+<li><b>Jeden prawnik.</b> Karty sprawdzała jedna osoba. Nie ma zgodności człowiek–człowiek jako punktu odniesienia dla κ sędziów-modeli.</li>
+<li><b>Karty wstępnie wypełniał model</b> z rodziny jednego z ocenianych dostawców.</li>
+<li><b>Reguły doprecyzowywano w trakcie.</b> Trzy zmiany definicji A6 między 9 a 11.10.2026, kolejne doprecyzowania do 25.10; dwa klucze zmieniono po zebraniu odpowiedzi.</li>
+<li><b>Konfiguracje dostawców różnią się</b> (CLI z subskrypcji, API, różne narzędzia wyszukiwania), a część kosztów jest dolną granicą.</li>
+<li><b>Pytania są publiczne</b> od października 2026 r., więc kolejne pomiary na tym samym zbiorze mogą być skażone ekspozycją.</li>
+</ul>
+<p>Z tych powodów wyniki należy czytać jako ilustrację kryteriów, nie ranking. Plan kolejnych edycji: nowe, nieujawnione pytania; klucze zatwierdzone przed zebraniem odpowiedzi i zamrożona specyfikacja; co najmniej trzy biegi na system z przedziałami ufności; drugi prawnik na próbce kart; weryfikacja powołań jako osobny krok przed sędziowaniem.</p>
+</section>
+
+<section><h2 id="wersje">Wersjonowanie i identyfikatory<a class="kot" href="#wersje" aria-label="odnośnik do sekcji">#</a></h2>
+<ul>
+<li><b>Specyfikacja oceny:</b> 1.0 z 11.10.2026 (po trzech zmianach definicji A6 w dniach 9–11.10); 1.0.1 z tego samego dnia dodaje przykłady graniczne, a karty P06 i P12 przeliczono; 1.0.2 (18.10.2026): koszt, reguły z przeglądu kart rozszerzenia, pole „zakres” halucynacji, blokada dostawcy, soft law; 1.0.3 (25.10.2026): doprecyzowanie pola „zakres”, uzupełnione w kartach pilotażu; 1.0.4 (29.10.2026): nowa nazwa kryterium B2. Od 1.0.1 zasady punktacji nie zmieniły się, dlatego karty podają wersję 1.0.1.</li>
+<li><b>Klucze:</b> każdy ma numer wersji, datę i status zatwierdzenia; w Benchmarku 02 wersje od v1 do v4. Zmiany po zebraniu odpowiedzi (P09 v4, P10 v3, 18.10.2026) są opisane.</li>
+<li><b>Odpowiedzi:</b> identyfikator <code>Pnn_&lt;system&gt;_&lt;warunek&gt;_r3</code>, data, identyfikator modelu, ustawienia i ślad narzędzi w metadanych.</li>
+<li><b>Karty:</b> wersja specyfikacji, data i historia zmian w każdej karcie; stan kart użyty w raporcie: 25.10.2026.</li>
+<li><b>Raport:</b> Benchmark 02 wersja 1.0 z 27.10.2026; zmiany w <code>CHANGELOG.md</code> repozytorium.</li>
+</ul>
+</section>
+
+<section><h2 id="kontaminacja">Kontaminacja i kanarek<a class="kot" href="#kontaminacja" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Każdy klucz, karta, odpowiedź, ocena sędziego i rekord danych zawiera ciąg kanaryjski (konwencja BIG-bench) z prośbą, by nie używać tych plików do treningu modeli. Kanarek pozwala wykryć część przypadków ekspozycji, ale jego niewykrycie nie dowodzi braku kontaminacji. Dlatego opublikowany zbiór traktujemy jako potencjalnie skażony od dnia publikacji, a kolejne edycje opieramy na pytaniach wcześniej nieujawnionych.</p>
+</section>
+
+<section><h2 id="autorzy">Autorzy, finansowanie, konflikt interesów<a class="kot" href="#autorzy" aria-label="odnośnik do sekcji">#</a></h2>
+<p>Benchmark prowadzi LexAlpha Lab, laboratorium badawcze kancelarii KTZR w Gdańsku. Autorzy: Adam Piotrowski (radca prawny; projekt metodologii, klucze, karty, raport) i Andrzej Koman (COO LexAlpha). Badanie jest finansowane ze środków własnych kancelarii. Żaden dostawca modeli nie uczestniczył w przygotowaniu badania ani go nie finansował; autorzy nie przekazywali dostawcom wyników przed publikacją. Kancelaria korzysta w pracy z narzędzi wymienionych dostawców na warunkach komercyjnych i rozwija własne narzędzia prawnicze, których w benchmarku nie ocenia.</p>
+</section>
+
+</div></article>
+
+<footer><div class="wrap">LawBenchmark.pl jest projektem <b>LexAlpha Lab</b>, laboratorium badawczego kancelarii <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk). Autorzy: Adam Piotrowski (radca prawny, KTZR), Andrzej Koman (COO LexAlpha). Badanie finansowane ze środków własnych kancelarii; żaden dostawca modeli nie uczestniczył w jego przygotowaniu. Treści na licencji CC BY 4.0. Benchmark nie jest poradą prawną.</div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
+b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();
+</script>
+</body>
+</html>

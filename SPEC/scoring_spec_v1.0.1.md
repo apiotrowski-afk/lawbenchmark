@@ -1,6 +1,6 @@
 # Benchmark — tier „pytania”
 
-**Wersja specyfikacji oceny: 1.0.1 (1.0 zamrożona 2026-10-11; 1.0.1 = doprecyzowania A-R z przykładami granicznymi, 2026-10-11).** Każda karta podaje wersję, według której ją oceniono. Zmiana reguł = nowa wersja z datą i wpisem w sekcji „Historia wersji” na końcu pliku; kart ocenionych według starszej wersji nie porównuje się z nowymi bez przeliczenia.
+**Wersja specyfikacji oceny: 1.0.4 (2026-10-29).** Zasady punktacji nie zmieniły się od wersji 1.0.1 (2026-10-11), dlatego karty Benchmarku 02 podają wersję 1.0.1; wersje 1.0.2–1.0.4 dodają metrykę pomocniczą, pola opisowe i nazwy (historia na końcu pliku). Każda karta podaje wersję, według której ją oceniono. Zmiana reguł = nowa wersja z datą i wpisem w sekcji „Historia wersji”; kart ocenionych według starszej wersji nie porównuje się z nowymi bez przeliczenia. (Do 2026-10-29 nagłówek brzmiał: „1.0.1 (1.0 zamrożona 2026-10-11; 1.0.1 = doprecyzowania A-R z przykładami granicznymi, 2026-10-11)”.)
 
 Krótkie pytania prawne w takiej postaci, w jakiej prawnik wpisuje je do czatu:
 z literówkami, skrótami i czasem z błędną przesłanką. Uzupełnia kazusy
@@ -268,11 +268,13 @@ Kazus przejmuje skalę od następnego biegu; kart kazusu nie przeliczano.
 | # | Co | Punkty |
 |---|---|---|
 | B1 | przydatność: czy prawnik wie, co zrobić dalej | 0–2 |
-| B2 | kalibracja pewności: zgodność poziomu pewności z polem klucza `kalibracja_oczekiwana` (sekcja „B2 — kalibracja”, 2026-10-10) | 0–1 |
+| B2 | sposób sformułowania konkluzji: zgodność formy konkluzji (kategoryczna / warunkowa) z polem klucza `kalibracja_oczekiwana` (sekcja „B2”, 2026-10-10; do 2026-10-29 pod nazwą „kalibracja pewności”) | 0–1 |
 
 **Δ = A % − B %**, jak w kazusie. Etykieta **hallucinated**, gdy A6 = 0.
 
-### B2 — kalibracja (decyzja Adama 2026-10-10)
+### B2 — sposób sformułowania konkluzji (decyzja Adama 2026-10-10; nazwa od 2026-10-29, wcześniej „kalibracja”)
+
+Kryterium mierzy, czy forma konkluzji odpowiada kluczowi, nie trafność tezy ani rzeczywistą pewność modelu; stąd zmiana nazwy (decyzja Adama 2026-10-29, po recenzji zewnętrznej). Pole klucza `kalibracja_oczekiwana` i nazwy pól w kartach pozostają bez zmian.
 
 Punkt odniesienia to pole klucza `kalibracja_oczekiwana` (`kategoryczna` /
 `warunkowa`) z polem `warunek`, ustalane przed biegiem: `warunkowa`, gdy
@@ -623,7 +625,11 @@ jakość benchmarków (Reuel i in. 2024; Bean i in. 2025), RegLab (Magesh i in. 
 
 ## Historia wersji
 
-- **2026-10-18 (noc, w ramach v1.0.1)** — sekcje „Koszt (metryka pomocnicza)” i „Reguły z przeglądu kart rozszerzenia” (B9–B12, nr 19, B1 bez podwójnej kary, A8, historia zmian przepisu, gov.pl); wariant etykiety „tak (narzędzia nieużyte)”. Archiwum poprzedniej wersji: `(archiwum wewnętrzne, poza repozytorium) robocza specyfikacji sprzed 18.10 (poza repozytorium)`.
+- **1.0.4 (2026-10-29)** — B2 pod nazwą „sposób sformułowania konkluzji” zamiast „kalibracja pewności”; definicja, punktacja i pola bez zmian. Numeracja wersji: decyzje z 18.10 i 25.10 dostają osobne numery (1.0.2, 1.0.3) zamiast wpisów „w ramach 1.0.1”; karty Benchmarku 02 zachowują oznaczenie 1.0.1, bo zasady punktacji od tej wersji nie uległy zmianie.
+
+- **1.0.3 (2026-10-25)** — doprecyzowanie pola `A6_zakres` (miejsce błędu, nie skutek dla punktów; błąd w treści elementu rubryki = rdzeń; S przy zgodnej tezie = poboczne); pole uzupełnione w kartach pilotażu.
+
+- **1.0.2 (2026-10-18; do 2026-10-29 wpis „w ramach v1.0.1”)** — sekcje „Koszt (metryka pomocnicza)” i „Reguły z przeglądu kart rozszerzenia” (B9–B12, nr 19, B1 bez podwójnej kary, A8, historia zmian przepisu, gov.pl); wariant etykiety „tak (narzędzia nieużyte)”. Archiwum poprzedniej wersji: `(archiwum wewnętrzne, poza repozytorium) robocza specyfikacji sprzed 18.10 (poza repozytorium)`.
 
 - **1.0.1 (2026-10-11)** — sekcja „Przykłady graniczne”; A-R: rdzeń może paść w dowolnym miejscu
   odpowiedzi (P12); trafienie w jedną gałąź pytania warunkowego = 1 (P06). Przeliczone karty P06 i P12.

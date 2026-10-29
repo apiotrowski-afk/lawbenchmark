@@ -10,7 +10,7 @@ A project of **LexAlpha Lab** (KTZR, Gdańsk). This repository holds the data, s
 
 | Directory | Content |
 |---|---|
-| `SPEC/` | Scoring specification v1.0.1 with the register of dated decisions (Polish, verbatim internal document) |
+| `SPEC/` | Scoring specification v1.0.4 with the register of dated decisions (scoring rules unchanged since 1.0.1, the version cited on the cards; Polish internal document) |
 | `keys/` | Scoring keys of the 10 questions: core answer, rubric, penalties, required legal bases, sources checked |
 | `answers/<P>/` | 16 answers per question (8 models × W0/W1), as returned by the system, with tool traces where the tool records them |
 | `cards/` | 160 reference cards: scores A/B, error classes F/T/W/S, label "hallucinated", every citation checked, version date |

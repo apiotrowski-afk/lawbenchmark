@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dziesięć pytań Benchmarku 02 — LawBenchmark.pl</title>
+<meta name="description" content="Dziesięć pytań z polskiego prawa zadanych ośmiu modelom językowym: brzmienie, pułapki, klucze odpowiedzi i wyniki bez narzędzi oraz z wyszukiwaniem.">
+<link rel="canonical" href="https://lawbenchmark.pl/benchmark/02/pytania">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:title" content="Dziesięć pytań Benchmarku 02 — LawBenchmark.pl">
+<meta property="og:description" content="Dziesięć pytań z polskiego prawa zadanych ośmiu modelom językowym: brzmienie, pułapki, klucze odpowiedzi i wyniki bez narzędzi oraz z wyszukiwaniem.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://lawbenchmark.pl/benchmark/02/pytania">
+<meta property="og:site_name" content="LawBenchmark.pl">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{--brand:#1f4e79;--ok:#13766d;--bad:#b44739;--bg:#f7f8fa;--surface:#ffffff;--ink:#17212b;--muted:#5b6670;--line:#dce2e8;--soft:#eef2f6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--brand:#8ab9e2;--ok:#4fb3a9;--bad:#e07a6c;--bg:#111820;--surface:#19232e;--ink:#e6edf3;--muted:#9aa7b4;--line:#2a3643;--soft:#1f2b37}}
+:root[data-theme="dark"]{--brand:#8ab9e2;--ok:#4fb3a9;--bad:#e07a6c;--bg:#111820;--surface:#19232e;--ink:#e6edf3;--muted:#9aa7b4;--line:#2a3643;--soft:#1f2b37}
+*{box-sizing:border-box;min-width:0} html{scroll-behavior:smooth} body{overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Source Serif 4",Georgia,serif}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px} .tekst{max-width:780px}
+nav{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;align-items:center;gap:18px;height:56px;font:500 14px Inter,system-ui,sans-serif}
+nav .logo{font-weight:600;color:var(--ink);text-decoration:none;letter-spacing:.01em} nav .logo small{color:var(--muted);font-weight:500;margin-left:8px}
+nav a{color:var(--muted);text-decoration:none} nav a:hover,nav a.tu{color:var(--ink)} nav .sp{flex:1}
+@media (max-width:760px){nav a:not(.logo){display:none}}
+nav button{background:none;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 10px;font:inherit;cursor:pointer}
+.okr{font:13px Inter,system-ui,sans-serif;color:var(--muted);padding:18px 0 0} .okr a{color:var(--muted)} .okr span{margin:0 6px}
+.hero{padding:56px 0 40px} .hero h1{font:600 clamp(30px,4.6vw,46px)/1.12 "Source Serif 4",Georgia,serif;margin:0 0 14px;max-width:820px}
+.hero p.lead{font-size:20px;color:var(--muted);max-width:720px;margin:0 0 22px}
+.pod-hero{padding:28px 0 8px} .pod-hero h1{font:600 clamp(26px,3.6vw,38px)/1.15 "Source Serif 4",Georgia,serif;margin:0 0 10px;max-width:860px}
+.pod-hero p.lead{font-size:19px;color:var(--muted);max-width:760px;margin:0 0 10px}
+.zakres{display:flex;flex-wrap:wrap;gap:8px 22px;font:500 15px Inter,system-ui,sans-serif;color:var(--ink);margin-bottom:10px} .zakres b{font-weight:600}
+.meta{font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-bottom:22px}
+.btn{display:inline-block;border-radius:6px;padding:10px 16px;font:600 14px Inter,system-ui,sans-serif;text-decoration:none;margin:0 10px 10px 0}
+.btn.p{background:var(--brand);color:#fff} .btn.s{border:1px solid var(--line);color:var(--ink);background:var(--surface)}
+.uwaga{font:14px Inter,system-ui,sans-serif;color:var(--muted);max-width:720px;border-left:3px solid var(--line);padding-left:12px;margin-top:8px}
+section{padding:40px 0 8px} h2{font:600 28px/1.2 "Source Serif 4",Georgia,serif;margin:0 0 6px} .pod{color:var(--muted);margin:0 0 20px;max-width:720px}
+article section{padding:28px 0 4px} article h2{font-size:26px;margin-top:8px} article h3{font:600 19px/1.3 Inter,system-ui,sans-serif;margin:22px 0 6px}
+article p,article li{max-width:780px} article ul,article ol{padding-left:22px} article li{margin:4px 0}
+h2 a.kot,h3 a.kot{color:var(--line);text-decoration:none;font-weight:400;margin-left:8px} h2:hover a.kot,h3:hover a.kot{color:var(--muted)}
+.dwa{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.dwa{grid-template-columns:1fr}}
+.blok{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.blok h3{margin:0 0 6px;font:600 20px Inter,system-ui,sans-serif} .blok p{margin:0;color:var(--muted);font-size:16px}
+.blok.ok h3{color:var(--ok)} .blok.bad h3{color:var(--bad)}
+.teza{font:600 20px/1.4 "Source Serif 4",Georgia,serif;margin:18px 0 0;max-width:820px}
+.wyk{gap:12px} .wykres{width:100%;height:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px}
+.legenda{display:flex;gap:20px;flex-wrap:wrap;font:13px Inter,system-ui,sans-serif;color:var(--muted);margin:10px 0 0}
+.legenda i{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin-right:6px;border:2px solid var(--muted)} .legenda i.f{background:var(--muted)}
+table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 Inter,system-ui,sans-serif;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-variant-numeric:tabular-nums}
+.pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600} th small{font-weight:500;color:var(--muted)}
+.pary th,.pary td{white-space:nowrap} .t.zw td,.t.zw th{white-space:nowrap}
+.pary .num,.t .num{text-align:right} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
+.war{display:inline-block;font:600 11px Inter,system-ui,sans-serif;padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
+.ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
+.scroll{overflow-x:auto;margin:0 -16px;padding:0 16px} .karty{display:none}
+@media (max-width:760px){.scroll.pary-s{display:none} .karty{display:grid;gap:12px} .karta{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.karta h3{margin:0 0 8px;font:600 17px Inter,system-ui,sans-serif} .kw{display:grid;grid-template-columns:auto 1fr 1fr;gap:4px 10px;align-items:center;font:14px Inter,system-ui,sans-serif;padding:6px 0;border-top:1px solid var(--line)}
+.kw .m{grid-column:2/4;color:var(--muted);font-size:13px}}
+.klasy{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px} .klasa{display:flex;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+.znak{flex:none;width:36px;height:36px;border:2px solid var(--ink);border-radius:8px;display:grid;place-items:center;font:600 16px Inter,system-ui,sans-serif}
+.klasa b{display:block;font:600 15px Inter,system-ui,sans-serif} .klasa .m b{display:inline;font-size:13px} .klasa .m{display:block;font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-top:4px}
+.przyp{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.przyp{grid-template-columns:1fr}}
+.przyp .blok h3{font-size:17px} .przyp .blok p{color:var(--ink)} .q{border-left:3px solid var(--line);padding:2px 0 2px 12px;margin:10px 0;color:var(--muted);font-style:italic}
+.ocena{font:13px Inter,system-ui,sans-serif;color:var(--muted);margin-top:8px}
+.lista{columns:2;column-gap:40px;max-width:1000px} @media (max-width:760px){.lista{columns:1}} .lista p{break-inside:avoid;margin:0 0 12px} .lista b{font-family:Inter,system-ui,sans-serif;font-size:15px}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;overflow-x:auto}
+code{font:0.92em ui-monospace,Menlo,Consolas,monospace;background:var(--soft);padding:1px 5px;border-radius:4px}
+blockquote.pyt{margin:14px 0;padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:8px;font-size:18px}
+.fakty{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;font:14px Inter,system-ui,sans-serif;margin:14px 0}
+.fakty div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px} .fakty b{display:block;font-size:13px;color:var(--muted);font-weight:500;margin-bottom:2px}
+.siatka-pyt{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px} .siatka-pyt a{display:block;color:inherit;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.siatka-pyt a:hover{border-color:var(--brand)} .siatka-pyt .id{font:600 12px Inter,system-ui,sans-serif;color:var(--muted)} .siatka-pyt h2{margin:2px 0 6px;font:600 17px/1.3 Inter,system-ui,sans-serif}
+.siatka-pyt .st{font:13px Inter,system-ui,sans-serif;color:var(--muted)} .siatka-pyt .st b{color:var(--ink)}
+.kl{display:inline-block;font:600 12px Inter,system-ui,sans-serif;padding:1px 6px;border-radius:4px;border:1px solid var(--line);margin-right:3px} .kl.ok{border-color:var(--ok)} .kl.bl{border-color:var(--bad);color:var(--bad)}
+.spis{font:14px Inter,system-ui,sans-serif;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 18px;margin:16px 0 8px;max-width:780px} .spis a{display:inline-block;margin:3px 14px 3px 0;text-decoration:none}
+footer{margin-top:48px;border-top:1px solid var(--line);padding:24px 0 40px;font:14px/1.5 Inter,system-ui,sans-serif;color:var(--muted)} a{color:var(--brand)}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "LawBenchmark.pl", "item": "https://lawbenchmark.pl/"}, {"@type": "ListItem", "position": 2, "name": "Benchmark 02"}, {"@type": "ListItem", "position": 3, "name": "Pytania"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Pytania Benchmarku 02", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "P01 · Próg wykroczenia przeciwko mieniu a płaca minimalna", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p01"}, {"@type": "ListItem", "position": 2, "name": "P04 · Zezwolenie na nabycie nieruchomości przez cudzoziemca: ostateczność czy prawomocność", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p04"}, {"@type": "ListItem", "position": 3, "name": "P05 · Doręczenia pism sądowych osobie fizycznej przez Portal Informacyjny", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p05"}, {"@type": "ListItem", "position": 4, "name": "P06 · Zażalenie na odrzucenie zażalenia przez sąd apelacyjny", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p06"}, {"@type": "ListItem", "position": 5, "name": "P07 · Zasadnicze powody rozstrzygnięcia a wniosek o uzasadnienie", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p07"}, {"@type": "ListItem", "position": 6, "name": "P08 · Głos wygenerowany przez AI a definicja deepfake w AI Act", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p08"}, {"@type": "ListItem", "position": 7, "name": "P09 · Ogólny zapis o „wszelkich polach eksploatacji” w umowie zlecenia", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p09"}, {"@type": "ListItem", "position": 8, "name": "P10 · Ogólny zapis o polach eksploatacji: wersja pytania z sugestią, że wystarcza", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p10"}, {"@type": "ListItem", "position": 9, "name": "P12 · Klauzula wykonalności przeciwko małżonkowi dłużnika", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p12"}, {"@type": "ListItem", "position": 10, "name": "P13 · Wstrzymanie wykonania nakazu z weksla a zabezpieczenie", "url": "https://lawbenchmark.pl/benchmark/02/pytania/p13"}]}</script>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="/">LawBenchmark.pl <small>LexAlpha Lab</small></a><span class="sp"></span>
+<a href="/#wyniki">Wyniki</a><a href="/benchmark/02/pytania" class="tu">Pytania</a><a href="/metodologia">Metodologia</a><a href="/raporty">Raporty</a><a href="/dane">Dane</a><a href="/en">EN</a>
+<button id="motyw" aria-label="Przełącz motyw">◐</button></div></nav>
+<div class="wrap okr"><a href="/">LawBenchmark.pl</a><span>›</span>Benchmark 02<span>›</span>Pytania</div>
+
+<header class="pod-hero"><div class="wrap">
+<h1>Dziesięć pytań Benchmarku 02</h1>
+<p class="lead">Pytania użyte w badaniu wraz z wersjami oryginalnymi z praktyki (w trzech pytaniach przed badaniem uzupełniono brakujące dane), z pułapką tam, gdzie ją zastawiono, kluczem odpowiedzi i wynikami ośmiu modeli w dwóch warunkach.</p>
+<div class="meta">Stan prawny 1.10.2026 · klucze zatwierdzone w wersjach z 10–18.10.2026 · liczby „W0 → W1” to wynik bez narzędzi i z wyszukiwaniem, z ośmiu modeli</div>
+</div></header>
+<section><div class="wrap">
+<div class="siatka-pyt"><a href="/benchmark/02/pytania/p01"><span class="id">P01 · prawo wykroczeń · pułapka</span><h2>Próg wykroczenia przeciwko mieniu a płaca minimalna</h2><span class="st">halucynacje <b>6</b> → <b>6</b> z 8 · poprawnie ugruntowane <b>2</b> → <b>2</b> z 8 · śr. A 69,5 %</span></a><a href="/benchmark/02/pytania/p04"><span class="id">P04 · postępowanie administracyjne · pułapka</span><h2>Zezwolenie na nabycie nieruchomości przez cudzoziemca: ostateczność czy prawomocność</h2><span class="st">halucynacje <b>6</b> → <b>3</b> z 8 · poprawnie ugruntowane <b>0</b> → <b>0</b> z 8 · śr. A 43,0 %</span></a><a href="/benchmark/02/pytania/p05"><span class="id">P05 · postępowanie cywilne · pułapka</span><h2>Doręczenia pism sądowych osobie fizycznej przez Portal Informacyjny</h2><span class="st">halucynacje <b>6</b> → <b>4</b> z 8 · poprawnie ugruntowane <b>0</b> → <b>4</b> z 8 · śr. A 52,1 %</span></a><a href="/benchmark/02/pytania/p06"><span class="id">P06 · postępowanie cywilne · bez pułapki</span><h2>Zażalenie na odrzucenie zażalenia przez sąd apelacyjny</h2><span class="st">halucynacje <b>8</b> → <b>4</b> z 8 · poprawnie ugruntowane <b>0</b> → <b>3</b> z 8 · śr. A 39,9 %</span></a><a href="/benchmark/02/pytania/p07"><span class="id">P07 · postępowanie cywilne · bez pułapki</span><h2>Zasadnicze powody rozstrzygnięcia a wniosek o uzasadnienie</h2><span class="st">halucynacje <b>6</b> → <b>4</b> z 8 · poprawnie ugruntowane <b>2</b> → <b>3</b> z 8 · śr. A 55,7 %</span></a><a href="/benchmark/02/pytania/p08"><span class="id">P08 · AI Act · pułapka</span><h2>Głos wygenerowany przez AI a definicja deepfake w AI Act</h2><span class="st">halucynacje <b>2</b> → <b>1</b> z 8 · poprawnie ugruntowane <b>0</b> → <b>2</b> z 8 · śr. A 71,6 %</span></a><a href="/benchmark/02/pytania/p09"><span class="id">P09 · prawo autorskie · bez pułapki</span><h2>Ogólny zapis o „wszelkich polach eksploatacji” w umowie zlecenia</h2><span class="st">halucynacje <b>4</b> → <b>5</b> z 8 · poprawnie ugruntowane <b>4</b> → <b>3</b> z 8 · śr. A 78,2 %</span></a><a href="/benchmark/02/pytania/p10"><span class="id">P10 · prawo autorskie · pułapka</span><h2>Ogólny zapis o polach eksploatacji: wersja pytania z sugestią, że wystarcza</h2><span class="st">halucynacje <b>5</b> → <b>4</b> z 8 · poprawnie ugruntowane <b>3</b> → <b>4</b> z 8 · śr. A 83,0 %</span></a><a href="/benchmark/02/pytania/p12"><span class="id">P12 · postępowanie cywilne · pułapka</span><h2>Klauzula wykonalności przeciwko małżonkowi dłużnika</h2><span class="st">halucynacje <b>4</b> → <b>2</b> z 8 · poprawnie ugruntowane <b>4</b> → <b>5</b> z 8 · śr. A 79,1 %</span></a><a href="/benchmark/02/pytania/p13"><span class="id">P13 · postępowanie cywilne · bez pułapki</span><h2>Wstrzymanie wykonania nakazu z weksla a zabezpieczenie</h2><span class="st">halucynacje <b>4</b> → <b>7</b> z 8 · poprawnie ugruntowane <b>4</b> → <b>1</b> z 8 · śr. A 68,5 %</span></a></div>
+<p class="uwaga" style="margin-top:18px">Pytania są publiczne od października 2026 r. razem z kluczami; kolejne pomiary na tym zbiorze mogą być skażone ekspozycją. Pozostałe 40 pytań puli pozostaje nieujawnione. <a href="/metodologia#kontaminacja">Kontaminacja i kanarek</a>.</p>
+</div></section>
+
+<footer><div class="wrap">LawBenchmark.pl jest projektem <b>LexAlpha Lab</b>, laboratorium badawczego kancelarii <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk). Autorzy: Adam Piotrowski (radca prawny, KTZR), Andrzej Koman (COO LexAlpha). Badanie finansowane ze środków własnych kancelarii; żaden dostawca modeli nie uczestniczył w jego przygotowaniu. Treści na licencji CC BY 4.0. Benchmark nie jest poradą prawną.</div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
+b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();
+</script>
+</body>
+</html>

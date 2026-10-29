@@ -30,7 +30,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
 .wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 h1,h2{font-family:var(--serif);font-weight:600;letter-spacing:-.01em;text-wrap:balance} h3{font-family:var(--sans)}
 a{color:var(--brand);text-decoration-thickness:1px;text-underline-offset:2px} a:focus-visible,button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
-code{font:0.9em var(--mono);background:var(--soft);padding:1px 5px;border-radius:3px}
+code{font:0.9em var(--mono);background:var(--soft);padding:1px 5px;border-radius:3px;overflow-wrap:anywhere}
 .num,.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
 /* nawigacja */
 nav{position:sticky;top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
@@ -47,14 +47,14 @@ nav button{background:none;border:1px solid var(--line);color:var(--muted);borde
 .hero h1{font-size:clamp(30px,4.2vw,44px);line-height:1.12;margin:0 0 14px;max-width:16em}
 .hero p.lead{font-size:18px;color:var(--muted);max-width:34em;margin:0 0 18px}
 .zakres{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 14px var(--sans);color:var(--muted);margin:0 0 14px} .zakres b{color:var(--ink);font-family:var(--mono);font-weight:500}
-.meta{font:13px var(--sans);color:var(--muted);margin:0 0 18px}
+.meta{font:14px var(--sans);color:var(--muted);margin:0 0 18px}
 .btn{display:inline-block;border-radius:6px;padding:9px 14px;font:600 14px var(--sans);text-decoration:none;margin:0 8px 8px 0;border:1px solid var(--line);color:var(--ink);background:var(--surface)}
 .btn.p{background:var(--brand);color:#fff;border-color:var(--brand)} .btn:hover{border-color:var(--brand)}
-.uwaga{font:13.5px/1.5 var(--sans);color:var(--muted);max-width:44em;border-left:3px solid var(--line);padding-left:12px;margin-top:10px}
+.uwaga{font:14px/1.55 var(--sans);color:var(--muted);max-width:44em;border-left:3px solid var(--line);padding-left:12px;margin-top:10px}
 .stat{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
 .stat div{background:var(--surface);padding:14px 16px} .stat .l{display:block;font:500 12px var(--sans);letter-spacing:.03em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
 .stat .v{font:500 28px/1 var(--mono);letter-spacing:-.02em} .stat .v small{font-size:15px;color:var(--muted);margin-left:4px} .stat .v .ok{color:var(--ok)} .stat .v .bad{color:var(--bad)}
-.stat .d{display:block;font:12.5px var(--sans);color:var(--muted);margin-top:6px}
+.stat .d{display:block;font:14px/1.4 var(--sans);color:var(--muted);margin-top:6px}
 /* nagłówki podstron */
 .pod-hero{padding:30px 0 10px;border-bottom:1px solid var(--line);background:var(--surface);margin-bottom:8px}
 .pod-hero h1{font-size:clamp(26px,3.4vw,38px);line-height:1.15;margin:0 0 10px;max-width:24em}
@@ -75,7 +75,7 @@ h2 a.kot,h3 a.kot{color:var(--line);text-decoration:none;font-weight:400;margin-
 .blok.ok{border-top:3px solid var(--ok)} .blok.bad{border-top:3px solid var(--bad)} .blok.ok h3{color:var(--ok)} .blok.bad h3{color:var(--bad)}
 .teza{font:500 19px/1.45 var(--serif);margin:18px 0 0;max-width:40em}
 .wyk{gap:12px} .wykres{width:100%;height:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px}
-.legenda{display:flex;gap:20px;flex-wrap:wrap;font:13px var(--sans);color:var(--muted);margin:10px 0 0}
+.legenda{display:flex;gap:8px 22px;flex-wrap:wrap;align-items:center;font:14px var(--sans);color:var(--muted);margin:12px 0 0}
 .legenda i{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;margin-right:6px;border:2px solid var(--muted)} .legenda i.f{background:var(--muted)}
 table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 var(--sans);background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;font-variant-numeric:tabular-nums}
 .pary th,.pary td,.t th,.t td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} .pary th,.t th{background:var(--soft);font-weight:600;font-size:13px} th small{font-weight:500;color:var(--muted)}
@@ -83,16 +83,50 @@ table.pary,table.t{width:100%;border-collapse:collapse;font:14px/1.35 var(--sans
 .pary .num,.t .num{text-align:right;font-family:var(--mono)} .pary tr.p0 td{border-bottom:0} .pary td.model,.t td.model{font-weight:600} .pary tr.p1 td{padding-top:2px}
 .war{display:inline-block;font:600 11px var(--sans);padding:2px 6px;border-radius:4px;border:1px solid var(--line);color:var(--muted)} .war.w1{background:var(--brand);color:#fff;border-color:var(--brand)}
 .ok{color:var(--ok)} .bad{color:var(--bad)} td.ok,td.bad{font-weight:600}
-.scroll{overflow-x:auto;margin:0 -16px;padding:0 16px} .karty{display:none}
-@media (max-width:760px){.scroll.pary-s{display:none} .karty{display:grid;gap:12px} .karta{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
-.karta h3{margin:0 0 8px;font:600 16px var(--sans)} .kw{display:grid;grid-template-columns:auto 1fr 1fr;gap:4px 10px;align-items:center;font:14px var(--sans);padding:6px 0;border-top:1px solid var(--line)}
-.kw .m{grid-column:2/4;color:var(--muted);font-size:13px}}
+.scroll{overflow-x:auto;margin:0 -16px;padding:0 16px}
+.pary th.model{position:sticky;left:0;z-index:1;background:var(--surface);font:600 14px var(--sans);vertical-align:top;border-right:1px solid var(--line)}
+.pary thead th:first-child{position:sticky;left:0;z-index:2;background:var(--soft)} .pary tbody:nth-child(odd) td,.pary tbody:nth-child(odd) th.model{background:var(--bg)}
+.pary tbody tr:first-child td{border-bottom:0} .przesun{display:none;font:14px var(--sans);color:var(--muted);margin:0 0 8px} @media (max-width:760px){.przesun{display:block}}
+/* wykres par */
+.wyk2{display:grid;grid-template-columns:1fr 1fr;gap:20px} @media (max-width:960px){.wyk2{grid-template-columns:1fr}}
+.pw{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.pw figcaption{display:flex;flex-direction:column;gap:2px;margin-bottom:10px} .pw figcaption b{font:600 16px var(--sans)} .pw figcaption span{font:14px var(--sans);color:var(--muted)}
+.pw-os,.pw-r{display:grid;grid-template-columns:132px minmax(0,1fr) 128px;gap:12px;align-items:center}
+@media (max-width:520px){.pw-os,.pw-r{grid-template-columns:92px minmax(0,1fr) 96px;gap:8px} .pw-m{font-size:13px!important}}
+.pw-os{font:12px var(--mono);color:var(--muted)} .pw-ticks{position:relative;height:16px;margin:0 9px} .pw-ticks span{position:absolute;transform:translateX(-50%)}
+.pw-gr{border-top:1px solid var(--line);margin-top:6px;padding-top:2px} .pw-dost{display:block;font:500 11px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:5px 0 2px}
+.pw-r{min-height:38px} .pw-m{font:500 14px var(--sans)}
+.pw-tor{position:relative;height:28px;margin:0 9px;background-image:linear-gradient(to right,var(--line) 1px,transparent 1px);background-size:20% 100%;border-right:1px solid var(--line)}
+.pw-line{position:absolute;top:50%;height:0;border-top:2px solid var(--muted);opacity:.5}
+.pw-w0,.pw-w1,.pw-same{position:absolute;top:50%;transform:translate(-50%,-50%);border-radius:50%;box-sizing:border-box}
+.pw-w0{width:14px;height:14px;border:2.5px solid var(--muted);background:var(--surface)} .pw-w1{width:14px;height:14px;background:var(--brand)}
+.pw-same{width:18px;height:18px;border:2.5px solid var(--muted);background:var(--surface);display:grid;place-items:center} .pw-same i{width:8px;height:8px;border-radius:50%;background:var(--brand)}
+.pw-d{display:flex;flex-direction:column;line-height:1.25} .pw-d b{font:600 14px var(--mono)} .pw-d small{font:13px var(--sans);color:var(--muted)}
+.lg-w0,.lg-w1,.lg-same{display:inline-block;width:13px;height:13px;border-radius:50%;vertical-align:-2px;margin-right:7px;box-sizing:border-box}
+.lg-w0{border:2.5px solid var(--muted);background:var(--surface)} .lg-w1{background:var(--brand)}
+.legenda i.lg-w0{border:2.5px solid var(--muted);background:var(--surface);width:13px;height:13px} .legenda i.lg-w1{border:0;background:var(--brand);width:13px;height:13px}
+.legenda i.lg-same{width:17px;height:17px;border:2.5px solid var(--muted);background:var(--surface);display:inline-grid;place-items:center} .legenda i.lg-same i{width:7px;height:7px;margin:0;border:0;background:var(--brand)} .lg-same{width:17px;height:17px;border:2.5px solid var(--muted);background:var(--surface);display:inline-grid;place-items:center;vertical-align:-4px} .lg-same i{width:7px;height:7px;border-radius:50%;background:var(--brand)}
+.stat.wyn{grid-template-columns:repeat(2,minmax(0,1fr));max-width:760px;margin:0 0 14px} @media (max-width:520px){.stat.wyn{grid-template-columns:1fr}}
+.wer{font:14px/1.55 var(--sans);color:var(--ink);max-width:52em;margin:0 0 22px;padding:12px 16px;background:var(--soft);border-radius:8px}
+/* klasy błędu: paski */
+.kb{border-top:1px solid var(--line)} .kb-r{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:12px 28px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)} @media (max-width:760px){.kb-r{grid-template-columns:1fr}}
+.kb-n{display:flex;gap:14px;align-items:center} .kb-n b{display:block;font:600 15.5px var(--sans)} .kb-n .m{display:block;font:14px var(--sans);color:var(--muted)}
+.kb-b{display:flex;flex-direction:column;gap:8px} .kb-l{display:grid;grid-template-columns:28px minmax(0,1fr) 56px;gap:10px;align-items:center;font:14px var(--sans);color:var(--muted)} .kb-l b{font:600 14px var(--mono);color:var(--ink);text-align:right}
+.kb-t{height:12px;background:var(--soft);border-radius:3px;overflow:hidden} .kb-t i{display:block;height:12px;border-radius:3px} .kb-t i.w0{background:var(--muted)} .kb-t i.w1{background:var(--brand)}
+/* przykłady z kart */
+.prz{display:flex;flex-direction:column;gap:14px;margin:0 0 36px} .prz .eyb{font:500 12px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.prz h3{margin:0;font:600 22px/1.25 var(--serif)} .pbox{background:var(--soft);border-radius:8px;padding:14px 18px;max-width:52em;font-size:16px}
+.prz .dw{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px}
+.kp{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 20px;display:flex;flex-direction:column;gap:12px}
+.kp .wn{display:flex;align-items:center;gap:8px;font:600 14px var(--sans)} .kp blockquote{margin:0;font:400 18px/1.5 var(--serif)}
+.chips{display:flex;flex-wrap:wrap;gap:6px} .chip{font:500 13.5px var(--sans);padding:4px 10px;border-radius:999px;background:var(--soft);color:var(--ink)} .chip.ok{background:var(--okbg);color:var(--ok)} .chip.bad{background:var(--badbg);color:var(--bad)}
+.prz .wniosek{margin:0;max-width:52em}
 .klasy{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px} .klasa{display:flex;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px}
 .znak{flex:none;width:36px;height:36px;border:2px solid var(--ink);border-radius:6px;display:grid;place-items:center;font:600 16px var(--mono)}
-.klasa b{display:block;font:600 14.5px var(--sans)} .klasa .m b{display:inline;font-size:13px} .klasa .m{display:block;font:13px var(--sans);color:var(--muted);margin-top:4px}
+.klasa b{display:block;font:600 14.5px var(--sans)} .klasa .m b{display:inline;font-size:13px} .klasa .m{display:block;font:14px var(--sans);color:var(--muted);margin-top:4px}
 .przyp{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:760px){.przyp{grid-template-columns:1fr}}
 .przyp .blok h3{font-size:16px} .przyp .blok p{color:var(--ink)} .q{border-left:3px solid var(--line);padding:2px 0 2px 12px;margin:10px 0;color:var(--muted);font-style:italic;font-family:var(--serif)}
-.ocena{font:13px var(--sans);color:var(--muted);margin-top:8px}
+.ocena{font:14px var(--sans);color:var(--muted);margin-top:8px}
 .lista{columns:2;column-gap:40px;max-width:1000px} @media (max-width:760px){.lista{columns:1}} .lista p{break-inside:avoid;margin:0 0 12px;font-size:15.5px} .lista b{font-family:var(--sans)}
 pre{white-space:pre-wrap;word-break:break-word;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;font:13px/1.45 var(--mono);overflow-x:auto}
 blockquote.pyt{margin:14px 0;padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:6px;font:400 18px/1.5 var(--serif)}
@@ -102,7 +136,7 @@ blockquote.pyt{margin:14px 0;padding:14px 18px;background:var(--surface);border:
 .s16{display:block;width:100%;max-width:300px;height:auto} .s16 text{font:500 9px var(--sans);fill:var(--muted)}
 .siatka-pyt{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px} .siatka-pyt a{display:block;color:inherit;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px} .siatka-pyt .s16{max-width:230px;margin:10px 0 2px}
 .siatka-pyt a:hover{border-color:var(--brand)} .siatka-pyt .id{font:500 11px var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)} .siatka-pyt h2{margin:3px 0 6px;font:600 16px/1.3 var(--sans)}
-.siatka-pyt .st{display:block;font:13px/1.5 var(--sans);color:var(--muted)} .siatka-pyt .st b{color:var(--ink);font-family:var(--mono);font-weight:500}
+.siatka-pyt .st{display:block;font:14px/1.5 var(--sans);color:var(--muted)} .siatka-pyt .st b{color:var(--ink);font-family:var(--mono);font-weight:500}
 .kl{display:inline-block;font:600 12px var(--mono);padding:1px 6px;border-radius:4px;border:1px solid var(--line);margin-right:3px} .kl.ok{border-color:var(--ok);color:var(--ok);background:var(--okbg)} .kl.bl{border-color:var(--bad);color:var(--bad);background:var(--badbg)}
 /* stopka */
 footer{margin-top:56px;border-top:1px solid var(--line);background:var(--surface);padding:28px 0 44px;font:14px/1.55 var(--sans);color:var(--muted)}
@@ -120,17 +154,17 @@ footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:5
 
 <header class="hero"><div class="wrap"><div>
 <h1>Jak modele językowe odpowiadają na pytania z polskiego prawa?</h1>
-<p class="lead">Badamy poprawność odpowiedzi, halucynacje i oparcie w źródłach urzędowych — bez narzędzi oraz z wyszukiwaniem w internecie.</p>
-<div class="zakres"><span><b>10</b> pytań</span><span><b>8</b> modeli, 3 dostawców</span><span><b>2</b> warunki: W0 / W1</span><span><b>160</b> odpowiedzi</span><span><b>1 454</b> powołań, <b>1 436</b> sprawdzonych u źródła</span></div>
-<div class="meta">Benchmark 02 · raport wersja 1.0 z 27.10.2026 · karty wzorcowe w stanie z 25.10.2026 · stan prawny 1.10.2026 · specyfikacja oceny v1.0.4 (punktacja jak w 1.0.1)</div>
-<a class="btn p" href="#wyniki">Zobacz wyniki</a><a class="btn s" href="/benchmark/02/pytania">Dziesięć pytań</a><a class="btn s" href="/metodologia">Metodologia</a><a class="btn s" href="/reports/lexalpha_lab_benchmark_02.pdf">Raport (PDF, 44 str.)</a>
-<p class="uwaga">Wyniki dotyczą tego zestawu pytań i tych konfiguracji: dziesięć pytań, jedna seria, karty sprawdzał jeden prawnik. Nie stanowią ogólnego rankingu produktów.</p>
+<p class="lead">W badanej serii halucynacje oznaczono w 51 z 80 odpowiedzi bez narzędzi i w 40 z 80 z wyszukiwaniem w internecie; poprawnie ugruntowanych było odpowiednio 19 i 27.</p>
+<a class="btn p" href="#wyniki">Zobacz wyniki</a><a class="btn" href="/reports/lexalpha_lab_benchmark_02.pdf">Raport PDF · 44 str.</a><a href="/reports/Piotrowski_2026_correctly_grounded_v1.2.pdf" style="font:500 14px var(--sans);display:inline-block;padding:9px 4px">Artykuł metodologiczny (EN)</a>
+<p class="uwaga">Wyniki dotyczą jednej serii dziesięciu pytań; karty sprawdzał jeden prawnik. To nie jest ogólny ranking modeli ani produktów. <a href="/metodologia#ograniczenia">Ograniczenia badania</a></p>
+<div class="meta" style="margin-top:14px">O badaniu: Benchmark 02 · raport 1.1 z 29.10.2026 · karty z 25.10.2026 · stan prawny 1.10.2026 · specyfikacja oceny 1.0.4</div>
 </div>
-<div class="stat" aria-label="Najważniejsze liczby Benchmarku 02">
-<div><span class="l">Odpowiedzi z halucynacją</span><span class="v"><span class="bad">51</span> → <span class="bad">40</span><small>z 80</small></span><span class="d">bez narzędzi → z wyszukiwaniem</span></div>
-<div><span class="l">Poprawnie ugruntowane</span><span class="v"><span class="ok">19</span> → <span class="ok">27</span><small>z 80</small></span><span class="d">pełny rdzeń, bez błędnych powołań, źródło potwierdzone</span></div>
-<div><span class="l">Najczęstsza klasa błędu</span><span class="v">T<small>66 odp.</small></span><span class="d">prawdziwe źródło, treść, której w nim nie ma</span></div>
-<div><span class="l">Powołania sprawdzone u źródła</span><span class="v">1 436<small>z 1 454</small></span><span class="d">ISAP, ELI, SAOS, sn.pl, portale sądów</span></div>
+<div class="stat" aria-label="Skala badania">
+<div><span class="l">Pytania z praktyki</span><span class="v">10</span><span class="d">sześć z pułapką w treści pytania</span></div>
+<div><span class="l">Modele</span><span class="v">8<small>3 dostawców</small></span><span class="d">OpenAI, Anthropic, Google</span></div>
+<div><span class="l">Warunki</span><span class="v">2</span><span class="d">bez narzędzi (W0) i z wyszukiwaniem (W1)</span></div>
+<div><span class="l">Odpowiedzi z kartą</span><span class="v">160</span><span class="d">każda oceniona według tej samej specyfikacji</span></div>
+<div style="grid-column:1/-1"><span class="l">Powołania przepisów i orzeczeń</span><span class="v">1 436<small>sprawdzonych z 1 454</small></span><span class="d">w ISAP, ELI, SAOS, sn.pl i portalach sądów; 18 niesprawdzonych nie obniżało oceny</span></div>
 </div>
 </div></header>
 
@@ -138,180 +172,100 @@ footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:5
 <h2>Jak czytać wyniki</h2>
 <div class="dwa">
 <div class="blok ok"><h3>Poprawnie ugruntowane ↑</h3><p>Odpowiedź ma pełny rdzeń (trafia w sedno pytania) i ani jednego twierdzenia o źródle prawa niezgodnego z tekstem urzędowym, a co najmniej jedno powołanie zostało sprawdzone u źródła.</p></div>
-<div class="blok bad"><h3>Z halucynacją ↓</h3><p>Odpowiedź zawiera co najmniej jedno twierdzenie o przepisie lub orzeczeniu niezgodne z tekstem urzędowym na dzień stanu prawnego — także wtedy, gdy sam wniosek jest trafny.</p></div>
+<div class="blok bad"><h3>Z halucynacją ↓</h3><p>Odpowiedź zawiera co najmniej jedno twierdzenie o przepisie lub orzeczeniu niezgodne z tekstem urzędowym na dzień stanu prawnego, także wtedy, gdy sam wniosek jest trafny.</p></div>
 </div>
 <p class="teza">Brak halucynacji nie wystarcza: odpowiedź bez błędnych powołań, ale z niepełnym rdzeniem albo bez żadnego sprawdzonego źródła, nie jest poprawnie ugruntowana. <a href="/metodologia#ugruntowanie">Definicje i mianowniki</a>.</p>
 </div></section>
 
 <section id="wyniki"><div class="wrap">
 <h2>Wyniki: bez narzędzi (W0) i z wyszukiwaniem (W1)</h2>
-<p class="pod">Każdy model odpowiadał na te same dziesięć pytań dwa razy. Jedna odpowiedź to 10 punktów procentowych; linia łączy oba warunki tego samego modelu i pokazuje także pogorszenie.</p>
-<div class="dwa wyk"><svg viewBox="0 0 540 310" role="img" aria-label="Poprawnie ugruntowane (z 10) — więcej = lepiej" class="wykres"><style>.pt{font:600 14px Inter,system-ui,sans-serif;fill:var(--ink)} .et{font:500 13px Inter,system-ui,sans-serif;fill:var(--ink)} .os{font:12px Inter,system-ui,sans-serif;fill:var(--muted)} .lb{font:600 12px Inter,system-ui,sans-serif;fill:var(--muted);font-variant-numeric:tabular-nums} .siatka{stroke:var(--line);stroke-width:1} .lacz{stroke:var(--muted);stroke-width:2;opacity:.6} .w0{fill:var(--surface);stroke-width:2.5}</style><text x="16" y="22" class="pt">Poprawnie ugruntowane (z 10) — więcej = lepiej</text>
-<line x1="150" y1="34" x2="150" y2="280" class="siatka"/><text x="150" y="292" class="os" text-anchor="middle">0</text>
-<line x1="210" y1="34" x2="210" y2="280" class="siatka"/><text x="210" y="292" class="os" text-anchor="middle">2</text>
-<line x1="270" y1="34" x2="270" y2="280" class="siatka"/><text x="270" y="292" class="os" text-anchor="middle">4</text>
-<line x1="330" y1="34" x2="330" y2="280" class="siatka"/><text x="330" y="292" class="os" text-anchor="middle">6</text>
-<line x1="390" y1="34" x2="390" y2="280" class="siatka"/><text x="390" y="292" class="os" text-anchor="middle">8</text>
-<line x1="450" y1="34" x2="450" y2="280" class="siatka"/><text x="450" y="292" class="os" text-anchor="middle">10</text>
-<text x="140" y="54" class="et" text-anchor="end">GPT-6.1 Sol</text>
-<line x1="330" y1="50" x2="360" y2="50" class="lacz"/>
-<circle cx="330" cy="50" r="6" class="w0" style="stroke:var(--ok)"/>
-<circle cx="360" cy="50" r="6" style="fill:var(--ok)"/>
-<text x="330" y="70" class="lb" text-anchor="middle">6</text>
-<text x="360" y="39" class="lb" text-anchor="middle" style="fill:var(--ok)">7</text>
-<text x="140" y="84" class="et" text-anchor="end">GPT-6 Astra</text>
-<line x1="330" y1="80" x2="360" y2="80" class="lacz"/>
-<circle cx="330" cy="80" r="6" class="w0" style="stroke:var(--ok)"/>
-<circle cx="360" cy="80" r="6" style="fill:var(--ok)"/>
-<text x="330" y="100" class="lb" text-anchor="middle">6</text>
-<text x="360" y="69" class="lb" text-anchor="middle" style="fill:var(--ok)">7</text>
-<text x="140" y="114" class="et" text-anchor="end">GPT-5.6 Terra</text>
-<line x1="240" y1="110" x2="270" y2="110" class="lacz"/>
-<circle cx="240" cy="110" r="6" class="w0" style="stroke:var(--ok)"/>
-<circle cx="270" cy="110" r="6" style="fill:var(--ok)"/>
-<text x="240" y="130" class="lb" text-anchor="middle">3</text>
-<text x="270" y="99" class="lb" text-anchor="middle" style="fill:var(--ok)">4</text>
-<text x="140" y="144" class="et" text-anchor="end">Claude Opus 5.5</text>
-<line x1="150" y1="140" x2="270" y2="140" class="lacz"/>
-<circle cx="150" cy="140" r="6" class="w0" style="stroke:var(--ok)"/>
-<circle cx="270" cy="140" r="6" style="fill:var(--ok)"/>
-<text x="150" y="129" class="lb" text-anchor="middle">0</text>
-<text x="270" y="129" class="lb" text-anchor="middle" style="fill:var(--ok)">4</text>
-<text x="140" y="174" class="et" text-anchor="end">Claude Sonnet 5.5</text>
-<circle cx="150" cy="170" r="7" style="fill:var(--ok)"/><circle cx="150" cy="170" r="3" class="w0" style="stroke:var(--ok)"/>
-<text x="150" y="159" class="lb" text-anchor="middle" style="fill:var(--ok)">0</text>
-<text x="162" y="174" class="os">bez zmiany</text>
-<text x="140" y="204" class="et" text-anchor="end">Claude Haiku 5.5</text>
-<circle cx="150" cy="200" r="7" style="fill:var(--ok)"/><circle cx="150" cy="200" r="3" class="w0" style="stroke:var(--ok)"/>
-<text x="150" y="189" class="lb" text-anchor="middle" style="fill:var(--ok)">0</text>
-<text x="162" y="204" class="os">bez zmiany</text>
-<text x="140" y="234" class="et" text-anchor="end">Gemini 3.8 Flash</text>
-<line x1="210" y1="230" x2="270" y2="230" class="lacz"/>
-<circle cx="210" cy="230" r="6" class="w0" style="stroke:var(--ok)"/>
-<circle cx="270" cy="230" r="6" style="fill:var(--ok)"/>
-<text x="210" y="219" class="lb" text-anchor="middle">2</text>
-<text x="270" y="219" class="lb" text-anchor="middle" style="fill:var(--ok)">4</text>
-<text x="140" y="264" class="et" text-anchor="end">Gemini 4 Argon</text>
-<line x1="210" y1="260" x2="180" y2="260" class="lacz"/>
-<circle cx="210" cy="260" r="6" class="w0" style="stroke:var(--ok)"/>
-<circle cx="180" cy="260" r="6" style="fill:var(--ok)"/>
-<text x="210" y="280" class="lb" text-anchor="middle">2</text>
-<text x="180" y="249" class="lb" text-anchor="middle" style="fill:var(--ok)">1</text></svg><svg viewBox="0 0 540 310" role="img" aria-label="Odpowiedzi z halucynacją (z 10) — mniej = lepiej" class="wykres"><style>.pt{font:600 14px Inter,system-ui,sans-serif;fill:var(--ink)} .et{font:500 13px Inter,system-ui,sans-serif;fill:var(--ink)} .os{font:12px Inter,system-ui,sans-serif;fill:var(--muted)} .lb{font:600 12px Inter,system-ui,sans-serif;fill:var(--muted);font-variant-numeric:tabular-nums} .siatka{stroke:var(--line);stroke-width:1} .lacz{stroke:var(--muted);stroke-width:2;opacity:.6} .w0{fill:var(--surface);stroke-width:2.5}</style><text x="16" y="22" class="pt">Odpowiedzi z halucynacją (z 10) — mniej = lepiej</text>
-<line x1="150" y1="34" x2="150" y2="280" class="siatka"/><text x="150" y="292" class="os" text-anchor="middle">0</text>
-<line x1="210" y1="34" x2="210" y2="280" class="siatka"/><text x="210" y="292" class="os" text-anchor="middle">2</text>
-<line x1="270" y1="34" x2="270" y2="280" class="siatka"/><text x="270" y="292" class="os" text-anchor="middle">4</text>
-<line x1="330" y1="34" x2="330" y2="280" class="siatka"/><text x="330" y="292" class="os" text-anchor="middle">6</text>
-<line x1="390" y1="34" x2="390" y2="280" class="siatka"/><text x="390" y="292" class="os" text-anchor="middle">8</text>
-<line x1="450" y1="34" x2="450" y2="280" class="siatka"/><text x="450" y="292" class="os" text-anchor="middle">10</text>
-<text x="140" y="54" class="et" text-anchor="end">GPT-6.1 Sol</text>
-<circle cx="180" cy="50" r="7" style="fill:var(--bad)"/><circle cx="180" cy="50" r="3" class="w0" style="stroke:var(--bad)"/>
-<text x="180" y="39" class="lb" text-anchor="middle" style="fill:var(--bad)">1</text>
-<text x="192" y="54" class="os">bez zmiany</text>
-<text x="140" y="84" class="et" text-anchor="end">GPT-6 Astra</text>
-<line x1="180" y1="80" x2="150" y2="80" class="lacz"/>
-<circle cx="180" cy="80" r="6" class="w0" style="stroke:var(--bad)"/>
-<circle cx="150" cy="80" r="6" style="fill:var(--bad)"/>
-<text x="180" y="100" class="lb" text-anchor="middle">1</text>
-<text x="150" y="69" class="lb" text-anchor="middle" style="fill:var(--bad)">0</text>
-<text x="140" y="114" class="et" text-anchor="end">GPT-5.6 Terra</text>
-<line x1="330" y1="110" x2="270" y2="110" class="lacz"/>
-<circle cx="330" cy="110" r="6" class="w0" style="stroke:var(--bad)"/>
-<circle cx="270" cy="110" r="6" style="fill:var(--bad)"/>
-<text x="330" y="99" class="lb" text-anchor="middle">6</text>
-<text x="270" y="99" class="lb" text-anchor="middle" style="fill:var(--bad)">4</text>
-<text x="140" y="144" class="et" text-anchor="end">Claude Opus 5.5</text>
-<line x1="420" y1="140" x2="300" y2="140" class="lacz"/>
-<circle cx="420" cy="140" r="6" class="w0" style="stroke:var(--bad)"/>
-<circle cx="300" cy="140" r="6" style="fill:var(--bad)"/>
-<text x="420" y="129" class="lb" text-anchor="middle">9</text>
-<text x="300" y="129" class="lb" text-anchor="middle" style="fill:var(--bad)">5</text>
-<text x="140" y="174" class="et" text-anchor="end">Claude Sonnet 5.5</text>
-<circle cx="420" cy="170" r="7" style="fill:var(--bad)"/><circle cx="420" cy="170" r="3" class="w0" style="stroke:var(--bad)"/>
-<text x="420" y="159" class="lb" text-anchor="middle" style="fill:var(--bad)">9</text>
-<text x="432" y="174" class="os">bez zmiany</text>
-<text x="140" y="204" class="et" text-anchor="end">Claude Haiku 5.5</text>
-<line x1="420" y1="200" x2="390" y2="200" class="lacz"/>
-<circle cx="420" cy="200" r="6" class="w0" style="stroke:var(--bad)"/>
-<circle cx="390" cy="200" r="6" style="fill:var(--bad)"/>
-<text x="420" y="220" class="lb" text-anchor="middle">9</text>
-<text x="390" y="189" class="lb" text-anchor="middle" style="fill:var(--bad)">8</text>
-<text x="140" y="234" class="et" text-anchor="end">Gemini 3.8 Flash</text>
-<line x1="390" y1="230" x2="300" y2="230" class="lacz"/>
-<circle cx="390" cy="230" r="6" class="w0" style="stroke:var(--bad)"/>
-<circle cx="300" cy="230" r="6" style="fill:var(--bad)"/>
-<text x="390" y="219" class="lb" text-anchor="middle">8</text>
-<text x="300" y="219" class="lb" text-anchor="middle" style="fill:var(--bad)">5</text>
-<text x="140" y="264" class="et" text-anchor="end">Gemini 4 Argon</text>
-<circle cx="390" cy="260" r="7" style="fill:var(--bad)"/><circle cx="390" cy="260" r="3" class="w0" style="stroke:var(--bad)"/>
-<text x="390" y="249" class="lb" text-anchor="middle" style="fill:var(--bad)">8</text>
-<text x="402" y="264" class="os">bez zmiany</text></svg></div>
-<div class="legenda"><span><i></i>W0 — bez narzędzi</span><span><i class="f"></i>W1 — z wyszukiwaniem w internecie</span><span>Jeden punkt z dopiskiem „bez zmiany” = ten sam wynik w obu warunkach.</span><span>Kolejność modeli jak w raporcie (dostawcami), nie według wyniku.</span></div>
+<p class="pod">Każdy model odpowiadał na te same dziesięć pytań dwa razy: bez narzędzi (W0) i z wyszukiwaniem w internecie narzędziem dostawcy (W1).</p>
+<div class="stat wyn" aria-label="Wyniki łączne">
+<div><span class="l">Odpowiedzi z halucynacją</span><span class="v"><span class="bad">51</span> → <span class="bad">40</span><small>z 80</small></span><span class="d">bez narzędzi (W0) → z wyszukiwaniem (W1)</span></div>
+<div><span class="l">Poprawnie ugruntowane</span><span class="v"><span class="ok">19</span> → <span class="ok">27</span><small>z 80</small></span><span class="d">bez narzędzi (W0) → z wyszukiwaniem (W1)</span></div>
+</div>
+<p class="wer"><b>Jak powstała ocena.</b> Model przygotowuje kartę każdej odpowiedzi i szuka każdego powołania w źródle urzędowym; prawnik sprawdza każdą kartę i zatwierdza albo zmienia ocenę. Sprawdzono 1 436 z 1 454 powołań. <a href="/metodologia#procedura">Procedura</a></p>
+<div class="wyk2"><figure class="pw"><figcaption><b>Poprawnie ugruntowane (z 10)</b><span>więcej = lepiej</span></figcaption><div class="pw-os" aria-hidden="true"><span></span><div class="pw-ticks"><span style="left:0%">0</span><span style="left:20%">2</span><span style="left:40%">4</span><span style="left:60%">6</span><span style="left:80%">8</span><span style="left:100%">10</span></div><span>W0 → W1</span></div><div class="pw-gr"><span class="pw-dost">OpenAI</span><div class="pw-r"><span class="pw-m">GPT-6.1 Sol</span><div class="pw-tor" role="img" aria-label="GPT-6.1 Sol: 6 z 10 bez narzędzi, 7 z 10 z wyszukiwaniem"><span class="pw-line" style="left:60%;width:10%"></span><span class="pw-w0" style="left:60%"></span><span class="pw-w1" style="left:70%"></span></div><span class="pw-d"><b>6 → 7</b><small>więcej</small></span></div><div class="pw-r"><span class="pw-m">GPT-6 Astra</span><div class="pw-tor" role="img" aria-label="GPT-6 Astra: 6 z 10 bez narzędzi, 7 z 10 z wyszukiwaniem"><span class="pw-line" style="left:60%;width:10%"></span><span class="pw-w0" style="left:60%"></span><span class="pw-w1" style="left:70%"></span></div><span class="pw-d"><b>6 → 7</b><small>więcej</small></span></div><div class="pw-r"><span class="pw-m">GPT-5.6 Terra</span><div class="pw-tor" role="img" aria-label="GPT-5.6 Terra: 3 z 10 bez narzędzi, 4 z 10 z wyszukiwaniem"><span class="pw-line" style="left:30%;width:10%"></span><span class="pw-w0" style="left:30%"></span><span class="pw-w1" style="left:40%"></span></div><span class="pw-d"><b>3 → 4</b><small>więcej</small></span></div></div><div class="pw-gr"><span class="pw-dost">Anthropic</span><div class="pw-r"><span class="pw-m">Claude Opus 5.5</span><div class="pw-tor" role="img" aria-label="Claude Opus 5.5: 0 z 10 bez narzędzi, 4 z 10 z wyszukiwaniem"><span class="pw-line" style="left:0%;width:40%"></span><span class="pw-w0" style="left:0%"></span><span class="pw-w1" style="left:40%"></span></div><span class="pw-d"><b>0 → 4</b><small>więcej</small></span></div><div class="pw-r"><span class="pw-m">Claude Sonnet 5.5</span><div class="pw-tor" role="img" aria-label="Claude Sonnet 5.5: 0 z 10 bez narzędzi, 0 z 10 z wyszukiwaniem"><span class="pw-same" style="left:0%"><i></i></span></div><span class="pw-d"><b>0 → 0</b><small>bez zmian</small></span></div><div class="pw-r"><span class="pw-m">Claude Haiku 5.5</span><div class="pw-tor" role="img" aria-label="Claude Haiku 5.5: 0 z 10 bez narzędzi, 0 z 10 z wyszukiwaniem"><span class="pw-same" style="left:0%"><i></i></span></div><span class="pw-d"><b>0 → 0</b><small>bez zmian</small></span></div></div><div class="pw-gr"><span class="pw-dost">Google</span><div class="pw-r"><span class="pw-m">Gemini 3.8 Flash</span><div class="pw-tor" role="img" aria-label="Gemini 3.8 Flash: 2 z 10 bez narzędzi, 4 z 10 z wyszukiwaniem"><span class="pw-line" style="left:20%;width:20%"></span><span class="pw-w0" style="left:20%"></span><span class="pw-w1" style="left:40%"></span></div><span class="pw-d"><b>2 → 4</b><small>więcej</small></span></div><div class="pw-r"><span class="pw-m">Gemini 4 Argon</span><div class="pw-tor" role="img" aria-label="Gemini 4 Argon: 2 z 10 bez narzędzi, 1 z 10 z wyszukiwaniem"><span class="pw-line" style="left:10%;width:10%"></span><span class="pw-w0" style="left:20%"></span><span class="pw-w1" style="left:10%"></span></div><span class="pw-d"><b>2 → 1</b><small>mniej</small></span></div></div></figure><figure class="pw"><figcaption><b>Odpowiedzi z halucynacją (z 10)</b><span>mniej = lepiej</span></figcaption><div class="pw-os" aria-hidden="true"><span></span><div class="pw-ticks"><span style="left:0%">0</span><span style="left:20%">2</span><span style="left:40%">4</span><span style="left:60%">6</span><span style="left:80%">8</span><span style="left:100%">10</span></div><span>W0 → W1</span></div><div class="pw-gr"><span class="pw-dost">OpenAI</span><div class="pw-r"><span class="pw-m">GPT-6.1 Sol</span><div class="pw-tor" role="img" aria-label="GPT-6.1 Sol: 1 z 10 bez narzędzi, 1 z 10 z wyszukiwaniem"><span class="pw-same" style="left:10%"><i></i></span></div><span class="pw-d"><b>1 → 1</b><small>bez zmian</small></span></div><div class="pw-r"><span class="pw-m">GPT-6 Astra</span><div class="pw-tor" role="img" aria-label="GPT-6 Astra: 1 z 10 bez narzędzi, 0 z 10 z wyszukiwaniem"><span class="pw-line" style="left:0%;width:10%"></span><span class="pw-w0" style="left:10%"></span><span class="pw-w1" style="left:0%"></span></div><span class="pw-d"><b>1 → 0</b><small>mniej</small></span></div><div class="pw-r"><span class="pw-m">GPT-5.6 Terra</span><div class="pw-tor" role="img" aria-label="GPT-5.6 Terra: 6 z 10 bez narzędzi, 4 z 10 z wyszukiwaniem"><span class="pw-line" style="left:40%;width:20%"></span><span class="pw-w0" style="left:60%"></span><span class="pw-w1" style="left:40%"></span></div><span class="pw-d"><b>6 → 4</b><small>mniej</small></span></div></div><div class="pw-gr"><span class="pw-dost">Anthropic</span><div class="pw-r"><span class="pw-m">Claude Opus 5.5</span><div class="pw-tor" role="img" aria-label="Claude Opus 5.5: 9 z 10 bez narzędzi, 5 z 10 z wyszukiwaniem"><span class="pw-line" style="left:50%;width:40%"></span><span class="pw-w0" style="left:90%"></span><span class="pw-w1" style="left:50%"></span></div><span class="pw-d"><b>9 → 5</b><small>mniej</small></span></div><div class="pw-r"><span class="pw-m">Claude Sonnet 5.5</span><div class="pw-tor" role="img" aria-label="Claude Sonnet 5.5: 9 z 10 bez narzędzi, 9 z 10 z wyszukiwaniem"><span class="pw-same" style="left:90%"><i></i></span></div><span class="pw-d"><b>9 → 9</b><small>bez zmian</small></span></div><div class="pw-r"><span class="pw-m">Claude Haiku 5.5</span><div class="pw-tor" role="img" aria-label="Claude Haiku 5.5: 9 z 10 bez narzędzi, 8 z 10 z wyszukiwaniem"><span class="pw-line" style="left:80%;width:10%"></span><span class="pw-w0" style="left:90%"></span><span class="pw-w1" style="left:80%"></span></div><span class="pw-d"><b>9 → 8</b><small>mniej</small></span></div></div><div class="pw-gr"><span class="pw-dost">Google</span><div class="pw-r"><span class="pw-m">Gemini 3.8 Flash</span><div class="pw-tor" role="img" aria-label="Gemini 3.8 Flash: 8 z 10 bez narzędzi, 5 z 10 z wyszukiwaniem"><span class="pw-line" style="left:50%;width:30%"></span><span class="pw-w0" style="left:80%"></span><span class="pw-w1" style="left:50%"></span></div><span class="pw-d"><b>8 → 5</b><small>mniej</small></span></div><div class="pw-r"><span class="pw-m">Gemini 4 Argon</span><div class="pw-tor" role="img" aria-label="Gemini 4 Argon: 8 z 10 bez narzędzi, 8 z 10 z wyszukiwaniem"><span class="pw-same" style="left:80%"><i></i></span></div><span class="pw-d"><b>8 → 8</b><small>bez zmian</small></span></div></div></figure></div>
+<div class="legenda"><span><i class="lg-w0"></i>W0 · bez narzędzi</span><span><i class="lg-w1"></i>W1 · z wyszukiwaniem w internecie</span><span><i class="lg-same"><i></i></i>ten sam wynik w obu warunkach</span><span>Kolejność według dostawców, nie według wyniku.</span></div>
 <h2 style="margin-top:36px;font-size:22px">Wyniki szczegółowe</h2>
-<p class="pod">Blok A — kryteria obiektywne (rdzeń, podstawy prawne, powołania), blok B — ocenne (kalibracja, kompletność, użyteczność). Koszt serii dziesięciu odpowiedzi według cenników z 18.10.2026 jako równoważnik API; „≥” — dolne oszacowanie, bo narzędzie nie zapisuje części zużycia. Wyniki per pytanie: <a href="/benchmark/02/pytania">dziesięć pytań</a>.</p>
-<div class="scroll pary-s"><table class="pary"><thead><tr><th>Model</th><th>Warunek</th><th class="num">Poprawnie ugruntowane <small>z 10</small></th><th class="num">Halucynacje <small>z 10</small></th><th class="num">Blok A <small>%</small></th><th class="num">Blok B <small>%</small></th><th class="num">Koszt serii <small>USD</small></th><th class="num">USD / poprawnie ugruntowaną</th><th class="num">Sprawdzone powołania</th></tr></thead><tbody>
-<tr class="p0"><td class="model">GPT-6.1 Sol</td><td><span class="war w0">W0</span></td><td class="num ok">6</td><td class="num bad">1</td><td class="num">72,8</td><td class="num">86,7</td><td class="num">0,250</td><td class="num">0,042</td><td class="num">51 z 51</td></tr>
-<tr class="p1"><td class="model"></td><td><span class="war w1">W1</span></td><td class="num ok">7</td><td class="num bad">1</td><td class="num">84,0</td><td class="num">96,7</td><td class="num">≥ 1,544</td><td class="num">≥ 0,221</td><td class="num">72 z 73</td></tr>
-<tr class="p0"><td class="model">GPT-6 Astra</td><td><span class="war w0">W0</span></td><td class="num ok">6</td><td class="num bad">1</td><td class="num">75,2</td><td class="num">83,3</td><td class="num">1,415</td><td class="num">0,236</td><td class="num">59 z 59</td></tr>
-<tr class="p1"><td class="model"></td><td><span class="war w1">W1</span></td><td class="num ok">7</td><td class="num bad">0</td><td class="num">82,5</td><td class="num">93,3</td><td class="num">3,816</td><td class="num">0,545</td><td class="num">63 z 63</td></tr>
-<tr class="p0"><td class="model">GPT-5.6 Terra</td><td><span class="war w0">W0</span></td><td class="num ok">3</td><td class="num bad">6</td><td class="num">41,7</td><td class="num">66,7</td><td class="num">0,206</td><td class="num">0,069</td><td class="num">41 z 41</td></tr>
-<tr class="p1"><td class="model"></td><td><span class="war w1">W1</span></td><td class="num ok">4</td><td class="num bad">4</td><td class="num">72,7</td><td class="num">86,7</td><td class="num">1,321</td><td class="num">0,330</td><td class="num">70 z 70</td></tr>
-<tr class="p0"><td class="model">Claude Opus 5.5</td><td><span class="war w0">W0</span></td><td class="num ok">0</td><td class="num bad">9</td><td class="num">55,0</td><td class="num">73,3</td><td class="num">0,961</td><td class="num">n/d</td><td class="num">123 z 123</td></tr>
-<tr class="p1"><td class="model"></td><td><span class="war w1">W1</span></td><td class="num ok">4</td><td class="num bad">5</td><td class="num">86,0</td><td class="num">96,7</td><td class="num">≥ 1,467</td><td class="num">≥ 0,367</td><td class="num">147 z 147</td></tr>
-<tr class="p0"><td class="model">Claude Sonnet 5.5</td><td><span class="war w0">W0</span></td><td class="num ok">0</td><td class="num bad">9</td><td class="num">43,5</td><td class="num">60,0</td><td class="num">0,613</td><td class="num">n/d</td><td class="num">93 z 93</td></tr>
-<tr class="p1"><td class="model"></td><td><span class="war w1">W1</span></td><td class="num ok">0</td><td class="num bad">9</td><td class="num">67,8</td><td class="num">90,0</td><td class="num">≥ 0,842</td><td class="num">n/d</td><td class="num">104 z 111</td></tr>
-<tr class="p0"><td class="model">Claude Haiku 5.5</td><td><span class="war w0">W0</span></td><td class="num ok">0</td><td class="num bad">9</td><td class="num">30,1</td><td class="num">56,7</td><td class="num">0,029</td><td class="num">n/d</td><td class="num">62 z 62</td></tr>
-<tr class="p1"><td class="model"></td><td><span class="war w1">W1</span></td><td class="num ok">0</td><td class="num bad">8</td><td class="num">49,5</td><td class="num">66,7</td><td class="num">≥ 0,225</td><td class="num">n/d</td><td class="num">75 z 77</td></tr>
-<tr class="p0"><td class="model">Gemini 3.8 Flash</td><td><span class="war w0">W0</span></td><td class="num ok">2</td><td class="num bad">8</td><td class="num">49,6</td><td class="num">70,0</td><td class="num">0,116</td><td class="num">0,058</td><td class="num">75 z 77</td></tr>
-<tr class="p1"><td class="model"></td><td><span class="war w1">W1</span></td><td class="num ok">4</td><td class="num bad">5</td><td class="num">78,1</td><td class="num">86,7</td><td class="num">≥ 0,514</td><td class="num">≥ 0,128</td><td class="num">97 z 97</td></tr>
-<tr class="p0"><td class="model">Gemini 4 Argon</td><td><span class="war w0">W0</span></td><td class="num ok">2</td><td class="num bad">8</td><td class="num">61,0</td><td class="num">80,0</td><td class="num">0,372</td><td class="num">0,186</td><td class="num">115 z 121</td></tr>
-<tr class="p1"><td class="model"></td><td><span class="war w1">W1</span></td><td class="num ok">1</td><td class="num bad">8</td><td class="num">75,3</td><td class="num">86,7</td><td class="num">≥ 2,085</td><td class="num">≥ 2,085</td><td class="num">189 z 189</td></tr>
-</tbody></table></div>
-<div class="karty"><div class="karta"><h3>GPT-6.1 Sol</h3>
-<div class="kw"><span class="war w0">W0</span><span><b class="ok">6</b> ugruntowane</span><span><b class="bad">1</b> z halucynacją</span><span class="m">A 72,8 % · 0,250 USD</span></div>
-<div class="kw"><span class="war w1">W1</span><span><b class="ok">7</b> ugruntowane</span><span><b class="bad">1</b> z halucynacją</span><span class="m">A 84,0 % · ≥ 1,544 USD</span></div></div>
-<div class="karta"><h3>GPT-6 Astra</h3>
-<div class="kw"><span class="war w0">W0</span><span><b class="ok">6</b> ugruntowane</span><span><b class="bad">1</b> z halucynacją</span><span class="m">A 75,2 % · 1,415 USD</span></div>
-<div class="kw"><span class="war w1">W1</span><span><b class="ok">7</b> ugruntowane</span><span><b class="bad">0</b> z halucynacją</span><span class="m">A 82,5 % · 3,816 USD</span></div></div>
-<div class="karta"><h3>GPT-5.6 Terra</h3>
-<div class="kw"><span class="war w0">W0</span><span><b class="ok">3</b> ugruntowane</span><span><b class="bad">6</b> z halucynacją</span><span class="m">A 41,7 % · 0,206 USD</span></div>
-<div class="kw"><span class="war w1">W1</span><span><b class="ok">4</b> ugruntowane</span><span><b class="bad">4</b> z halucynacją</span><span class="m">A 72,7 % · 1,321 USD</span></div></div>
-<div class="karta"><h3>Claude Opus 5.5</h3>
-<div class="kw"><span class="war w0">W0</span><span><b class="ok">0</b> ugruntowane</span><span><b class="bad">9</b> z halucynacją</span><span class="m">A 55,0 % · 0,961 USD</span></div>
-<div class="kw"><span class="war w1">W1</span><span><b class="ok">4</b> ugruntowane</span><span><b class="bad">5</b> z halucynacją</span><span class="m">A 86,0 % · ≥ 1,467 USD</span></div></div>
-<div class="karta"><h3>Claude Sonnet 5.5</h3>
-<div class="kw"><span class="war w0">W0</span><span><b class="ok">0</b> ugruntowane</span><span><b class="bad">9</b> z halucynacją</span><span class="m">A 43,5 % · 0,613 USD</span></div>
-<div class="kw"><span class="war w1">W1</span><span><b class="ok">0</b> ugruntowane</span><span><b class="bad">9</b> z halucynacją</span><span class="m">A 67,8 % · ≥ 0,842 USD</span></div></div>
-<div class="karta"><h3>Claude Haiku 5.5</h3>
-<div class="kw"><span class="war w0">W0</span><span><b class="ok">0</b> ugruntowane</span><span><b class="bad">9</b> z halucynacją</span><span class="m">A 30,1 % · 0,029 USD</span></div>
-<div class="kw"><span class="war w1">W1</span><span><b class="ok">0</b> ugruntowane</span><span><b class="bad">8</b> z halucynacją</span><span class="m">A 49,5 % · ≥ 0,225 USD</span></div></div>
-<div class="karta"><h3>Gemini 3.8 Flash</h3>
-<div class="kw"><span class="war w0">W0</span><span><b class="ok">2</b> ugruntowane</span><span><b class="bad">8</b> z halucynacją</span><span class="m">A 49,6 % · 0,116 USD</span></div>
-<div class="kw"><span class="war w1">W1</span><span><b class="ok">4</b> ugruntowane</span><span><b class="bad">5</b> z halucynacją</span><span class="m">A 78,1 % · ≥ 0,514 USD</span></div></div>
-<div class="karta"><h3>Gemini 4 Argon</h3>
-<div class="kw"><span class="war w0">W0</span><span><b class="ok">2</b> ugruntowane</span><span><b class="bad">8</b> z halucynacją</span><span class="m">A 61,0 % · 0,372 USD</span></div>
-<div class="kw"><span class="war w1">W1</span><span><b class="ok">1</b> ugruntowane</span><span><b class="bad">8</b> z halucynacją</span><span class="m">A 75,3 % · ≥ 2,085 USD</span></div></div></div>
+<p class="pod">Dla jednego modelu w jednym warunku jedna odpowiedź to 10 punktów procentowych; różnice 1–2 odpowiedzi nie wystarczają do ustalenia stabilnej kolejności modeli. Blok A to kryteria sprawdzane wobec klucza i źródła (rdzeń, podstawy prawne, powołania), blok B to kryteria ocenne. Koszt serii dziesięciu odpowiedzi według cenników z 18.10.2026 jako równoważnik API; „≥” to dolne oszacowanie. Wyniki per pytanie: <a href="/benchmark/02/pytania">dziesięć pytań</a>.</p>
+<p class="przesun">Tabelę można przesuwać w bok; kolumna z nazwą modelu zostaje na miejscu.</p>
+<div class="scroll"><table class="pary"><thead><tr><th>Model</th><th>Warunek</th><th class="num">Poprawnie ugruntowane <small>z 10</small></th><th class="num">Halucynacje <small>z 10</small></th><th class="num">Blok A <small>%</small></th><th class="num">Blok B <small>%</small></th><th class="num">Koszt serii <small>USD</small></th><th class="num">USD / poprawnie ugruntowaną</th><th class="num">Sprawdzone powołania</th></tr></thead>
+<tbody>
+<tr><th scope="rowgroup" rowspan="2" class="model">GPT-6.1 Sol</th><td><span class="war w0">W0</span></td><td class="num ok">6</td><td class="num bad">1</td><td class="num">72,8</td><td class="num">86,7</td><td class="num">0,250</td><td class="num">0,042</td><td class="num">51 z 51</td></tr>
+<tr><td><span class="war w1">W1</span></td><td class="num ok">7</td><td class="num bad">1</td><td class="num">84,0</td><td class="num">96,7</td><td class="num">≥ 1,544</td><td class="num">≥ 0,221</td><td class="num">72 z 73</td></tr>
+</tbody>
+<tbody>
+<tr><th scope="rowgroup" rowspan="2" class="model">GPT-6 Astra</th><td><span class="war w0">W0</span></td><td class="num ok">6</td><td class="num bad">1</td><td class="num">75,2</td><td class="num">83,3</td><td class="num">1,415</td><td class="num">0,236</td><td class="num">59 z 59</td></tr>
+<tr><td><span class="war w1">W1</span></td><td class="num ok">7</td><td class="num bad">0</td><td class="num">82,5</td><td class="num">93,3</td><td class="num">3,816</td><td class="num">0,545</td><td class="num">63 z 63</td></tr>
+</tbody>
+<tbody>
+<tr><th scope="rowgroup" rowspan="2" class="model">GPT-5.6 Terra</th><td><span class="war w0">W0</span></td><td class="num ok">3</td><td class="num bad">6</td><td class="num">41,7</td><td class="num">66,7</td><td class="num">0,206</td><td class="num">0,069</td><td class="num">41 z 41</td></tr>
+<tr><td><span class="war w1">W1</span></td><td class="num ok">4</td><td class="num bad">4</td><td class="num">72,7</td><td class="num">86,7</td><td class="num">1,321</td><td class="num">0,330</td><td class="num">70 z 70</td></tr>
+</tbody>
+<tbody>
+<tr><th scope="rowgroup" rowspan="2" class="model">Claude Opus 5.5</th><td><span class="war w0">W0</span></td><td class="num ok">0</td><td class="num bad">9</td><td class="num">55,0</td><td class="num">73,3</td><td class="num">0,961</td><td class="num">n/d</td><td class="num">123 z 123</td></tr>
+<tr><td><span class="war w1">W1</span></td><td class="num ok">4</td><td class="num bad">5</td><td class="num">86,0</td><td class="num">96,7</td><td class="num">≥ 1,467</td><td class="num">≥ 0,367</td><td class="num">147 z 147</td></tr>
+</tbody>
+<tbody>
+<tr><th scope="rowgroup" rowspan="2" class="model">Claude Sonnet 5.5</th><td><span class="war w0">W0</span></td><td class="num ok">0</td><td class="num bad">9</td><td class="num">43,5</td><td class="num">60,0</td><td class="num">0,613</td><td class="num">n/d</td><td class="num">93 z 93</td></tr>
+<tr><td><span class="war w1">W1</span></td><td class="num ok">0</td><td class="num bad">9</td><td class="num">67,8</td><td class="num">90,0</td><td class="num">≥ 0,842</td><td class="num">n/d</td><td class="num">104 z 111</td></tr>
+</tbody>
+<tbody>
+<tr><th scope="rowgroup" rowspan="2" class="model">Claude Haiku 5.5</th><td><span class="war w0">W0</span></td><td class="num ok">0</td><td class="num bad">9</td><td class="num">30,1</td><td class="num">56,7</td><td class="num">0,029</td><td class="num">n/d</td><td class="num">62 z 62</td></tr>
+<tr><td><span class="war w1">W1</span></td><td class="num ok">0</td><td class="num bad">8</td><td class="num">49,5</td><td class="num">66,7</td><td class="num">≥ 0,225</td><td class="num">n/d</td><td class="num">75 z 77</td></tr>
+</tbody>
+<tbody>
+<tr><th scope="rowgroup" rowspan="2" class="model">Gemini 3.8 Flash</th><td><span class="war w0">W0</span></td><td class="num ok">2</td><td class="num bad">8</td><td class="num">49,6</td><td class="num">70,0</td><td class="num">0,116</td><td class="num">0,058</td><td class="num">75 z 77</td></tr>
+<tr><td><span class="war w1">W1</span></td><td class="num ok">4</td><td class="num bad">5</td><td class="num">78,1</td><td class="num">86,7</td><td class="num">≥ 0,514</td><td class="num">≥ 0,128</td><td class="num">97 z 97</td></tr>
+</tbody>
+<tbody>
+<tr><th scope="rowgroup" rowspan="2" class="model">Gemini 4 Argon</th><td><span class="war w0">W0</span></td><td class="num ok">2</td><td class="num bad">8</td><td class="num">61,0</td><td class="num">80,0</td><td class="num">0,372</td><td class="num">0,186</td><td class="num">115 z 121</td></tr>
+<tr><td><span class="war w1">W1</span></td><td class="num ok">1</td><td class="num bad">8</td><td class="num">75,3</td><td class="num">86,7</td><td class="num">≥ 2,085</td><td class="num">≥ 2,085</td><td class="num">189 z 189</td></tr>
+</tbody>
+</table></div>
 </div></section>
 
 <section id="bledy"><div class="wrap">
 <h2>Cztery klasy błędu</h2>
-<p class="pod">Najczęstszym błędem nie jest zmyślone źródło. Jest nim prawdziwy przepis lub wyrok z treścią, której w nim nie ma, a zaraz potem dawne brzmienie przepisu podane jako obowiązujące — tego wyszukiwanie prawie nie zmienia.</p>
-<div class="klasy"><div class="klasa"><span class="znak">T</span><div><b>treść, której w źródle nie ma</b><span class="m">razem <b>66</b> odpowiedzi · W0 42 · W1 24</span></div></div><div class="klasa"><span class="znak">W</span><div><b>brzmienie z innej daty podane jako obowiązujące</b><span class="m">razem <b>35</b> odpowiedzi · W0 18 · W1 17</span></div></div><div class="klasa"><span class="znak">F</span><div><b>źródło lub jednostka redakcyjna nie istnieje</b><span class="m">razem <b>8</b> odpowiedzi · W0 4 · W1 4</span></div></div><div class="klasa"><span class="znak">S</span><div><b>zniekształcony identyfikator (sygnatura, numer)</b><span class="m">razem <b>9</b> odpowiedzi · W0 4 · W1 5</span></div></div></div>
-<p class="uwaga" style="margin-top:14px">Liczby to odpowiedzi z co najmniej jednym błędem danej klasy na 80 odpowiedzi w każdym warunku; jedna odpowiedź może mieć kilka klas. Łącznie 51 odpowiedzi z halucynacją w W0 i 40 w W1. <a href="/metodologia#halucynacja">Definicje klas</a>.</p>
+<p class="pod">Najczęściej oznaczano klasę T: przypisanie istniejącemu przepisowi lub orzeczeniu treści, której źródło nie potwierdza (42 z 80 odpowiedzi bez narzędzi, 24 z 80 z wyszukiwaniem). Klasa W, brzmienie przepisu z innej daty podane jako obowiązujące, wystąpiła w 18 i 17 odpowiedziach. Ma znaczenie, bo przepisy zmieniają się nowelizacjami, a do pisma trafia brzmienie obowiązujące w dniu sprawy. Zmyślone źródło (F) i przekręcony identyfikator (S) są rzadkie.</p>
+<div class="legenda" style="margin:0 0 6px"><span><i class="lg-w0" style="border-radius:3px;background:var(--muted);border:0"></i>W0 · bez narzędzi</span><span><i class="lg-w1" style="border-radius:3px"></i>W1 · z wyszukiwaniem</span><span>odpowiedzi z co najmniej jednym błędem danej klasy, na 80 w każdym warunku</span></div>
+<div class="kb"><div class="kb-r"><div class="kb-n"><span class="znak">T</span><div><b>treść, której w źródle nie ma</b><span class="m">klasa T · razem 66 odpowiedzi</span></div></div><div class="kb-b"><div class="kb-l"><span>W0</span><span class="kb-t"><i class="w0" style="width:52.5%"></i></span><b>42/80</b></div><div class="kb-l"><span>W1</span><span class="kb-t"><i class="w1" style="width:30.0%"></i></span><b>24/80</b></div></div></div><div class="kb-r"><div class="kb-n"><span class="znak">W</span><div><b>brzmienie z innej daty podane jako obowiązujące</b><span class="m">klasa W · razem 35 odpowiedzi</span></div></div><div class="kb-b"><div class="kb-l"><span>W0</span><span class="kb-t"><i class="w0" style="width:22.5%"></i></span><b>18/80</b></div><div class="kb-l"><span>W1</span><span class="kb-t"><i class="w1" style="width:21.2%"></i></span><b>17/80</b></div></div></div><div class="kb-r"><div class="kb-n"><span class="znak">F</span><div><b>źródło lub jednostka redakcyjna nie istnieje</b><span class="m">klasa F · razem 8 odpowiedzi</span></div></div><div class="kb-b"><div class="kb-l"><span>W0</span><span class="kb-t"><i class="w0" style="width:5.0%"></i></span><b>4/80</b></div><div class="kb-l"><span>W1</span><span class="kb-t"><i class="w1" style="width:5.0%"></i></span><b>4/80</b></div></div></div><div class="kb-r"><div class="kb-n"><span class="znak">S</span><div><b>zniekształcony identyfikator (sygnatura, numer)</b><span class="m">klasa S · razem 9 odpowiedzi</span></div></div><div class="kb-b"><div class="kb-l"><span>W0</span><span class="kb-t"><i class="w0" style="width:5.0%"></i></span><b>4/80</b></div><div class="kb-l"><span>W1</span><span class="kb-t"><i class="w1" style="width:6.2%"></i></span><b>5/80</b></div></div></div></div>
+<p class="uwaga" style="margin-top:14px">Jedna odpowiedź może mieć kilka klas, więc liczby się nie sumują. Łącznie 51 odpowiedzi z halucynacją bez narzędzi i 40 z wyszukiwaniem. <a href="/metodologia#halucynacja">Definicje klas</a></p>
 </div></section>
 
 <section id="przyklady"><div class="wrap">
 <h2>Dwa przykłady z kart</h2>
-<p class="pod">Każda ze 160 odpowiedzi ma kartę: punkt za każde kryterium, dowód ze źródła i klasa błędu. Dwa przypadki pokazują, czego nie widać w samych liczbach.</p>
-<div class="przyp">
-<div class="blok"><h3><a href="/benchmark/02/pytania/p01">P01</a> · próg wykroczenia · GPT-5.6 Terra, ten sam model w W0 i W1</h3>
-<p><b>Pytanie</b> zakłada, że próg między wykroczeniem a przestępstwem przeciwko mieniu nadal rośnie z płacą minimalną (pułapka: od 1.10.2023 to stała kwota 800 zł, art. 119 § 1 k.w.).</p>
-<div class="q">W0: „W 2026 r. granica … wynosi co do zasady 800 zł. Nie zmieniła się ona wraz ze wzrostem płacy minimalnej.”</div>
-<div class="q">W1: „W 2026 r. próg wynosi 1 201,50 zł. Tak, próg wzrósł wraz z płacą minimalną … ustawowy próg to jej 1/4.”</div>
-<p class="ocena">W0: kwota trafna, halucynacja klasy <b>W</b> w wątku pobocznym (historia progu). W1, z dostępem do sieci: przytaknięcie pułapce, zła kwota, art. 119 § 1 k.w. powołany z fałszywą treścią — klasa <b>W</b> w rdzeniu, 4 z 6 powołań błędne. Wyszukiwanie nie zastąpiło sprawdzenia brzmienia na datę.</p></div>
-<div class="blok"><h3><a href="/benchmark/02/pytania/p07">P07</a> · zasadnicze powody rozstrzygnięcia · Claude Haiku 5.5, W0</h3>
-<p><b>Pytanie</b> dotyczy postanowienia i zażalenia (art. 357 k.p.c.). Odpowiedź brzmi „tak” — i jest trafna co do kierunku.</p>
-<div class="q">„…tydzień od ogłoszenia wyroku. Jeżeli strona nie była obecna przy ogłoszeniu, termin może liczyć się od doręczenia.”</div>
-<p class="ocena">Cała odpowiedź dotyczy wyroku i apelacji zamiast postanowienia i zażalenia; art. 357 § 5 k.p.c. powołany z błędną treścią (klasy <b>T</b> i <b>F</b>). Ocena samego „tak/nie” uznałaby ją za prawidłową. Sonda z 24 zapytaniami pokazała, że wzorzec zależy od sformułowania pytania (raport, rozdz. 5.6).</p></div>
+<p class="pod">Oba przykłady to ten sam model, GPT-5.6 Terra, w obu warunkach: w P01 wyszukiwanie zaszkodziło, w P05 pomogło. Każda ze 160 odpowiedzi ma podobną kartę z punktami, dowodem ze źródła i klasą błędu.</p>
+
+<div class="prz">
+<span class="eyb"><a href="/benchmark/02/pytania/p01">P01</a> · próg wykroczenia przeciwko mieniu · GPT-5.6 Terra</span>
+<h3>Z wyszukiwaniem gorzej: przytaknięcie pułapce</h3>
+<div class="pbox"><b>Pytanie</b> zakłada, że próg między wykroczeniem a przestępstwem przeciwko mieniu nadal rośnie z płacą minimalną. <b>Pułapka:</b> od 1.10.2023 to stała kwota 800 zł (art. 119 § 1 k.w.).</div>
+<div class="dw">
+<div class="kp"><span class="wn"><i class="lg-w0"></i>W0 · bez narzędzi</span>
+<blockquote>„W 2026 r. granica … wynosi co do zasady 800 zł. Nie zmieniła się ona wraz ze wzrostem płacy minimalnej.”</blockquote>
+<div class="chips"><span class="chip ok">Kwota trafna</span><span class="chip">Klasa W w historii progu (element rubryki)</span><span class="chip">5 z 5 powołań sprawdzonych</span></div></div>
+<div class="kp"><span class="wn"><i class="lg-w1"></i>W1 · z wyszukiwaniem</span>
+<blockquote>„W 2026 r. próg wynosi 1 201,50 zł. Tak, próg wzrósł wraz z płacą minimalną … ustawowy próg to jej 1/4.”</blockquote>
+<div class="chips"><span class="chip bad">Przytaknięcie pułapce</span><span class="chip">Klasa W w rdzeniu</span><span class="chip">4 z 6 powołań błędne: art. 119, 120, 122 i 124 § 1 k.w. w dawnym brzmieniu</span></div></div>
+</div>
+<p class="wniosek"><b>W tej parze</b> wyszukiwanie nie zastąpiło sprawdzenia brzmienia przepisu na datę: model z dostępem do sieci podał brzmienie sprzed 1.10.2023 jako obowiązujące.</p>
+</div>
+
+<div class="prz">
+<span class="eyb"><a href="/benchmark/02/pytania/p05">P05</a> · doręczenia przez Portal Informacyjny · GPT-5.6 Terra</span>
+<h3>Z wyszukiwaniem lepiej: znaleziona nowela</h3>
+<div class="pbox"><b>Pytanie</b> dotyczy doręczeń osobie fizycznej przez Portal Informacyjny. <b>Pułapka aktualności:</b> od 1.06.2026 sąd doręcza przez portal także stronie, która wybrała ten sposób (art. 131¹ᵃ § 1 k.p.c.); wcześniej tylko pełnomocnikom zawodowym.</div>
+<div class="dw">
+<div class="kp"><span class="wn"><i class="lg-w0"></i>W0 · bez narzędzi</span>
+<blockquote>„Co do zasady osoba fizyczna występująca we własnym imieniu nie jest obowiązana odbierać pism sądowych przez Portal Informacyjny.”</blockquote>
+<div class="chips"><span class="chip bad">Rdzeń odwrotny do klucza</span><span class="chip">Klasa W w rdzeniu: art. 131¹ᵃ § 1 w brzmieniu sprzed 1.06.2026</span><span class="chip">Blok A 0 %</span></div></div>
+<div class="kp"><span class="wn"><i class="lg-w1"></i>W1 · z wyszukiwaniem</span>
+<blockquote>„Tak — od 1 czerwca 2026 r. osoba fizyczna może otrzymywać pisma sądowe przez Portal Informacyjny, ale wyłącznie po dobrowolnym wyborze tej formy doręczeń.”</blockquote>
+<div class="chips"><span class="chip ok">Poprawnie ugruntowana</span><span class="chip">11 z 11 powołań zgodnych</span><span class="chip">Blok A 100 %</span></div></div>
+</div>
+<p class="wniosek"><b>W tej parze</b> wyszukiwanie dało dostęp do noweli, której model nie znał z pamięci. Inny przypadek, w którym trafna odpowiedź „tak” opiera się na złym przepisie: <a href="/benchmark/02/pytania/p07#przyklad">P07, Claude Haiku 5.5</a>.</p>
 </div>
 </div></section>
 
@@ -330,13 +284,13 @@ footer .marki{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 0;font-weight:5
 <section id="dane"><div class="wrap">
 <h2>Dane, kod i cytowanie</h2>
 <p class="pod">Specyfikacja oceny, dziesięć pytań z kluczami, 160 odpowiedzi i kart, oceny sędziów, raporty warstwy weryfikacji, koszty i skrypty liczące każdą liczbę raportu: <a href="/dane">zbiór danych i kod</a>. Raport i artykuł metodologiczny: <a href="/raporty">raporty</a>.</p>
-<p>Piotrowski A., Koman A. (2026). <i>LexAlpha Lab · Benchmark 02 · pytania prawne</i>. Wersja 1.0, 27.10.2026. <a href="/reports/lexalpha_lab_benchmark_02.pdf">PDF</a><br>
+<p>Piotrowski A., Koman A. (2026). <i>LexAlpha Lab · Benchmark 02 · pytania prawne</i>. Wersja 1.1, 29.10.2026. <a href="/reports/lexalpha_lab_benchmark_02.pdf">PDF</a><br>
 Piotrowski A. (2026). <i>„Hallucination” Is Not Enough: Why Legal LLM Benchmarks Should Measure „Correctly Grounded”</i>. LexAlpha Lab, v1.2, 26.10.2026. <a href="https://doi.org/10.5281/zenodo.23674794">doi:10.5281/zenodo.23674794</a> · <a href="https://papers.ssrn.com/abstract=7672779">SSRN</a></p>
 <pre>@techreport{piotrowski2026benchmark02,
   author = {Piotrowski, Adam and Koman, Andrzej},
   title  = {LexAlpha Lab · Benchmark 02 · pytania prawne},
   institution = {LexAlpha Lab, KTZR},
-  year = {2026}, month = {10}, note = {wersja 1.0, 27 października 2026},
+  year = {2026}, month = {10}, note = {wersja 1.1, 29 października 2026},
   url = {https://lawbenchmark.pl/}
 }</pre>
 </div></section>

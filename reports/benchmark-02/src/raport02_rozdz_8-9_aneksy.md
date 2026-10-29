@@ -187,6 +187,8 @@ Trzy odczyty. Po pierwsze, na rozszerzeniu przedział Gemini 3.8 Flash nie pokry
 
 [8] Piotrowski, A., Koman, A. (2026). *Benchmark systemów AI pracujących z polskim prawem. Propozycja formatu i pilotaż na kazusie terminu zawitego sankcji kredytu darmowego*. LexAlpha Lab, wersja z 1.10.2026 (Benchmark 01).
 
+[9] Porębski, A., Figura, J. (2025). *Free LLMs Hallucinate and Rarely Signal Their Limitations in Solving Legal Problems*. W: R. Doroz, B. Zielosko (red.), *Progress in Polish Artificial Intelligence Research 6*, Wydawnictwo Uniwersytetu Śląskiego, s. 294–300, doi:10.2139/ssrn.5188654; zbiór danych: Porębski, A., Figura, J. (2026), *A Dataset on the Responses of the GPT-4o mini and Bielik-11B-v2 Large Language Models in Polish Law Tasks…*, RODBUK, doi:10.57903/UJ/2XPZKE. W tekście powołujemy: 120 odpowiedzi dwóch darmowych modeli na 12 poleceń z polskiego prawa (styczeń 2025), trafność 91/120, 369 powołanych orzeczeń, z których 16 zgodnych co do sądu i daty, a 8 na temat; liczby przeliczone z opublikowanych arkuszy.
+
 ## Źródła prawne i orzeczenia powołane w raporcie
 
 - Ustawa z dnia 20 maja 1971 r. — Kodeks wykroczeń, art. 119 § 1, 120 § 1, 122 § 1, 124 § 1 (t.j. Dz.U. 2025 poz. 734; brzmienie z t.j. Dz.U. 2015 poz. 1094 jako dawne).

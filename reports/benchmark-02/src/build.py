@@ -20,7 +20,7 @@ OUT = os.path.dirname(SP)
 sys.path.insert(0, SP)
 import dane  # noqa: E402  (liczy wszystko przy imporcie i sprawdza zgodność z zestawienie_tier.py)
 
-DATA = "wersja 1.0 · 27.10.2026"
+DATA = "wersja 1.1 · 29.10.2026"
 RUNHEAD = "LEXALPHA LAB &nbsp;/&nbsp; BENCHMARK 02 · PYTANIA PRAWNE"
 L = dane.LICZBY
 
@@ -165,7 +165,7 @@ CSS_SCREEN = "@media (max-width:640px){.grupy{grid-template-columns:1fr}.tiles{g
 CSS_PRINT = """
 @page{size:A4;margin:18mm 14mm 18mm 14mm;
  @top-left{content:"LEXALPHA LAB  /  BENCHMARK 02 · PYTANIA PRAWNE";font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.14em;color:#4a535a;vertical-align:bottom;padding-bottom:6mm}
- @top-right{content:"WERSJA 1.0 · 27.10.2026";font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.1em;color:#4a535a;vertical-align:bottom;padding-bottom:6mm}
+ @top-right{content:"WERSJA 1.1 · 29.10.2026";font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.1em;color:#4a535a;vertical-align:bottom;padding-bottom:6mm}
  @bottom-left{content:"LEXALPHA LAB  /  10 PYTAŃ • 8 MODELI • 2 WARUNKI";font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.12em;color:#4a535a;vertical-align:top;padding-top:5mm}
  @bottom-right{content:counter(page,decimal-leading-zero) " / " counter(pages,decimal-leading-zero);font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.1em;color:#4a535a;vertical-align:top;padding-top:5mm}}
 @page:first{margin:0;@top-left{content:none}@top-right{content:none}@bottom-left{content:none}@bottom-right{content:none}}
@@ -192,7 +192,7 @@ def dokument(css_extra, komentarz=""):
 <body>{komentarz}<div class="page">{cover}{''.join(body)}</div></body></html>"""
 
 
-KOM = "<!-- LexAlpha Lab · Benchmark 02 · wersja 1.0 · 27.10.2026. Liczby liczone z kart ocen, kluczy, ocen sędziów i pliku kosztu. -->"
+KOM = "<!-- LexAlpha Lab · Benchmark 02 · wersja 1.1 · 29.10.2026. Liczby liczone z kart ocen, kluczy, ocen sędziów i pliku kosztu. -->"
 open(f"{OUT}/lexalpha_lab_benchmark_02.html", "w", encoding="utf-8").write(dokument(CSS_SCREEN, KOM))
 open(f"{SP}/lexalpha_lab_benchmark_02_print.html", "w", encoding="utf-8").write(dokument(CSS_PRINT, KOM))
 print("HTML OK:", len(body), "sekcji")

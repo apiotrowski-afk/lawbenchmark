@@ -29,7 +29,7 @@ BAZA = "https://lawbenchmark.pl"
 DATA_KART, WERSJA_RAPORTU, DATA_RAPORTU = "25.10.2026", "1.1", "29.10.2026"
 DATA_STRONY = "2026-10-29"          # lastmod nowych stron; strona główna ma własną datę niżej
 REPO_URL = "https://github.com/apiotrowski-afk/lawbenchmark"   # publiczne repozytorium (odnośniki do kart, distribution w JSON-LD)
-GA_ID = None                        # identyfikator pomiaru GA4 (G-…); None = brak banera i brak analityki
+GA_ID = "G-JK6TSG2WN8"                        # identyfikator pomiaru GA4 (G-…); None = brak banera i brak analityki
 HF_URL = "https://huggingface.co/datasets/LexAlphaLab/lawbenchmark-b02"   # zbiór na Hugging Face (bramka z automatyczną akceptacją)
 
 sys.path.insert(0, SRC)

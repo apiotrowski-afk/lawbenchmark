@@ -271,7 +271,22 @@ Data and code (CC BY 4.0 / MIT): questions with scoring keys, 160 answers and ca
 </div></article>
 
 <footer><div class="wrap"><div class="kol"><div><h4>About</h4><p><b>LawBenchmark.pl</b> is run by <b>LexAlpha Lab</b>, a joint research initiative of the law firm <a href="https://www.ktzr.pl/">KTZR</a> (Gdańsk, Poland) and <a href="https://lexalpha.pl/">LexAlpha Sp. z o.o.</a> (Warsaw). Authors: Adam Piotrowski (attorney-at-law, partner at KTZR), Andrzej Koman (CEO, LexAlpha). Funded by the two organisations; no model provider took part. Benchmark 02 does not include products of LexAlpha or KTZR; results of products scored in the Benchmark 01 pilot are not published. Not legal advice.</p><div class="marki"><a href="https://www.ktzr.pl/">ktzr.pl</a><a href="https://lexalpha.pl/">lexalpha.pl</a><a href="https://github.com/apiotrowski-afk/lawbenchmark">GitHub</a></div></div><div><h4>Pages</h4><p><a href="/">Results (Polish)</a><br><a href="/metodologia">Methodology (Polish)</a><br><a href="/dane">Data and code</a><br><a href="/wspolpraca">Collaboration (Polish)</a></p></div><div><h4>Licence and contact</h4><p>Texts, keys and cards: CC BY 4.0. Code: MIT. Cite as "LexAlpha Lab, LawBenchmark.pl".</p><p>a.piotrowski@ktzr.pl</p></div></div></div></footer>
-
+<div class="zgoda" id="zgoda" role="dialog" aria-live="polite" aria-label="Pliki cookie" hidden>
+<p>Za Twoją zgodą używamy plików cookie Google Analytics, żeby wiedzieć, które strony i materiały są czytane. Bez zgody nie ładujemy żadnego skryptu analitycznego. <a href="/prywatnosc">Prywatność i cookies</a></p>
+<div><button type="button" class="btn p" data-zgoda="tak">Akceptuję</button><button type="button" class="btn p" data-zgoda="nie">Odrzucam</button></div>
+</div>
+<script>
+(function(){var ID="G-JK6TSG2WN8",K="zgoda_analityka",b=document.getElementById('zgoda');
+function czytaj(){try{return localStorage.getItem(K);}catch(e){return null;}}
+function zapisz(v){try{localStorage.setItem(K,v);}catch(e){}}
+function laduj(){if(window.__ga)return;window.__ga=1;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};
+gtag('js',new Date());gtag('config',ID);var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);}
+function usunCookie(){document.cookie.split(';').forEach(function(c){var n=c.split('=')[0].trim();if(n.indexOf('_ga')===0){['','.lawbenchmark.pl','lawbenchmark.pl'].forEach(function(d){document.cookie=n+'=; Max-Age=0; path=/'+(d?'; domain='+d:'');});}});}
+var z=czytaj();if(z==='tak')laduj();else if(z!=='nie')b.hidden=false;
+b.addEventListener('click',function(e){var k=e.target.closest('[data-zgoda]');if(!k)return;var v=k.dataset.zgoda;var bylo=czytaj();zapisz(v);b.hidden=true;
+if(v==='tak')laduj();else{usunCookie();if(bylo==='tak')location.reload();}});
+document.addEventListener('click',function(e){if(e.target.closest('[data-ustawienia-cookie]')){e.preventDefault();b.hidden=false;}});})();
+</script>
 <script>
 (function(){var r=document.documentElement,b=document.getElementById('motyw');try{var z=localStorage.getItem('motyw');if(z)r.setAttribute('data-theme',z);}catch(e){}
 b.addEventListener('click',function(){var c=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');var n=c==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('motyw',n);}catch(e){}});})();

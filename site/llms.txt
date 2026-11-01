@@ -1,0 +1,26 @@
+# LawBenchmark.pl
+
+> Benchmark modeli AI (GPT, Claude, Gemini) na pytaniach z polskiego prawa, prowadzony przez LexAlpha Lab (kancelaria KTZR, Gdańsk, i LexAlpha Sp. z o.o.). Mierzy halucynacje w powołaniach przepisów i orzeczeń oraz odpowiedzi „poprawnie ugruntowane”, bez narzędzi i z wyszukiwaniem w internecie. Treść: CC BY 4.0, kod: MIT.
+
+Benchmark 02 (raport 1.1 z 29.10.2026, stan prawny 1.10.2026): 8 modeli, 10 pytań, 160 odpowiedzi, 1 436 z 1 454 powołań sprawdzonych w źródle urzędowym. Halucynacje: 51 z 80 odpowiedzi bez narzędzi, 40 z 80 z wyszukiwaniem. Poprawnie ugruntowane: 19 i 27 z 80. Zastrzeżenia: jedna seria, dziesięć pytań, karty sprawdzał jeden prawnik; to nie jest ranking modeli ani produktów.
+
+## Wyniki i metoda
+
+- [Wyniki Benchmarku 02](https://lawbenchmark.pl/): wyniki ośmiu modeli w dwóch warunkach, klasy błędów, przykłady z kart
+- [Metodologia](https://lawbenchmark.pl/metodologia): pytania, klucze, definicje halucynacji (klasy T, W, F, S) i odpowiedzi poprawnie ugruntowanej, sędziowie-modele, ograniczenia
+- [Dziesięć pytań](https://lawbenchmark.pl/benchmark/02/pytania): brzmienie pytań, pułapki, klucze odpowiedzi i wyniki każdego modelu
+- [Kazus SKD (Benchmark 01, pilotaż)](https://lawbenchmark.pl/benchmark/01): fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k.
+
+## Raporty i dane
+
+- [Raporty](https://lawbenchmark.pl/raporty): raport Benchmark 02 (PL, PDF) i artykuł metodologiczny „Hallucination Is Not Enough” (EN, DOI 10.5281/zenodo.23674794)
+- [Dane i kod](https://lawbenchmark.pl/dane): pytania, klucze, odpowiedzi, karty ocen, oceny sędziów-modeli, skrypty
+- [Zbiór na Hugging Face](https://huggingface.co/datasets/LexAlphaLab/lawbenchmark-b02)
+- [Repozytorium na GitHubie](https://github.com/apiotrowski-afk/lawbenchmark)
+
+## Optional
+
+- [English summary](https://lawbenchmark.pl/en)
+- [Współpraca](https://lawbenchmark.pl/wspolpraca): badanie systemu AI na niepublicznych pytaniach
+- [Omówienie wyników dla praktyków (ktzr.pl)](https://www.ktzr.pl/benchmark-02-ai-polskie-prawo/)
+- [Artykuł metodologiczny w wersji HTML (ktzr.pl)](https://www.ktzr.pl/legal-llm-benchmarks-correctly-grounded/)

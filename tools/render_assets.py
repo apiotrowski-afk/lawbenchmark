@@ -16,7 +16,7 @@ h1{font-family:'Literata',Georgia,serif;font-weight:600;font-size:54px;line-heig
 .r b{font-size:28px;color:#141c26;text-align:right;font-weight:600}.tor{height:18px;background:#e2e8ef;border-radius:5px;overflow:hidden}.tor i{display:block;height:18px;border-radius:5px}
 .w0{background:#56626f}.w1{background:#1d4f8f}</style></head><body>
 <div><h1>Jak modele językowe odpowiadają na pytania z polskiego prawa?</h1>
-<p class="l">8 modeli · 10 pytań · 160 odpowiedzi · każde powołanie sprawdzone w źródle urzędowym</p>
+<p class="l">8 modeli · 10 pytań · 160 odpowiedzi · 1 436 powołań sprawdzonych w źródle urzędowym</p>
 <p class="m"><b>LawBenchmark.pl</b> · LexAlpha Lab (KTZR i LexAlpha)</p></div>
 <div class="p"><div><div class="t bad">Odpowiedzi z halucynacją</div>
 <div class="r"><span>bez narzędzi</span><span class="tor"><i class="w0" style="width:63.75%"></i></span><b>51</b></div>

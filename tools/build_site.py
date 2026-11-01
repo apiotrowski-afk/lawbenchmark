@@ -87,6 +87,13 @@ TYTUL = {"P01": "Próg wykroczenia przeciwko mieniu a płaca minimalna",
          "P10": "Ogólny zapis o polach eksploatacji: wersja pytania z sugestią, że wystarcza",
          "P12": "Klauzula wykonalności przeciwko małżonkowi dłużnika",
          "P13": "Wstrzymanie wykonania nakazu z weksla a zabezpieczenie"}
+# krótkie tytuły do <title> stron pytań (SEO: całość do ~60 znaków, 2026-11-01)
+KROTKI = {"P01": "Próg wykroczenia a płaca minimalna", "P04": "Ostateczność a prawomocność zezwolenia",
+          "P05": "Doręczenia przez Portal Informacyjny", "P06": "Zażalenie na odrzucenie zażalenia",
+          "P07": "Zasadnicze powody a uzasadnienie", "P08": "Głos z AI a deepfake w AI Act",
+          "P09": "„Wszelkie pola eksploatacji” w umowie", "P10": "Pola eksploatacji: wersja z sugestią",
+          "P12": "Klauzula wykonalności a małżonek", "P13": "Wstrzymanie wykonania nakazu z weksla"}
+assert set(KROTKI) == set(TYTUL) and all(len(v) <= 40 for v in KROTKI.values())
 TYP_OPIS = {"zamkniete": "zamknięte (tak / nie / zależy od…)", "obliczenie": "obliczenie (wynik liczbowy)",
             "weryfikacja": "weryfikacja cudzego twierdzenia"}
 KL_OPIS = {"T": "treść, której w źródle nie ma", "W": "brzmienie z innej daty podane jako obowiązujące",
@@ -680,9 +687,9 @@ LD_ORG = {"@context": "https://schema.org", "@type": "ResearchProject", "name": 
           "url": BAZA + "/", "inLanguage": "pl",
           "parentOrganization": {"@type": "Organization", "name": "KTZR", "url": "https://www.ktzr.pl/"},
           "description": "Benchmark modeli językowych w polskim prawie: poprawność, halucynacje i oparcie w źródłach urzędowych."}
-strona("", "LawBenchmark.pl — modele językowe a polskie prawo",
-       "Jak modele językowe odpowiadają na pytania z polskiego prawa: poprawność, halucynacje i oparcie w źródłach urzędowych, bez narzędzi i z wyszukiwaniem. Projekt LexAlpha Lab.",
-       GLOWNA, ld=[LD_ORG], lastmod=DATA_STRONY, og_opis="Benchmark 02: 8 modeli, 10 pytań, 160 odpowiedzi, każde powołanie sprawdzone w źródle urzędowym.",
+strona("", "Benchmark modeli AI w polskim prawie · LawBenchmark.pl",
+       "Jak modele AI (GPT, Claude, Gemini) odpowiadają na pytania z polskiego prawa: halucynacje i źródła, bez narzędzi i z wyszukiwaniem. LexAlpha Lab.",
+       GLOWNA, ld=[LD_ORG], lastmod=DATA_STRONY, og_opis="Benchmark 02: 8 modeli AI, 10 pytań, 160 odpowiedzi, 1 436 powołań sprawdzonych w źródle urzędowym.",
        hreflang={"pl": "/", "en": "/en", "x-default": "/"})
 
 # =====================================================================
@@ -879,8 +886,8 @@ METODOLOGIA = f"""
 </div>
 </div></article>
 """
-strona("/metodologia", "Jak oceniamy modele AI w polskim prawie — metodologia · LawBenchmark.pl",
-       "Zasady Benchmarku 02: pytania, klucze odpowiedzi, ocena błędów w powołaniach przepisów i orzeczeń, weryfikacja źródeł, sędziowie-modele, warunki badania i ograniczenia.",
+strona("/metodologia", "Jak oceniamy modele AI w polskim prawie · LawBenchmark.pl",
+       "Metodologia Benchmarku 02: pytania, klucze, klasy halucynacji w powołaniach przepisów i orzeczeń, weryfikacja u źródła, sędziowie-modele, ograniczenia.",
        METODOLOGIA, okr=[("Metodologia", None)], tu="/metodologia")
 
 # =====================================================================
@@ -975,8 +982,8 @@ PYT_LISTA = f"""
 """
 LD_PYT_LISTA = {"@context": "https://schema.org", "@type": "ItemList", "name": "Pytania Benchmarku 02",
                 "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": f"{pid} · {TYTUL[pid]}", "url": f"{BAZA}/benchmark/02/pytania/{pid.lower()}"} for i, pid in enumerate(PYT)]}
-strona("/benchmark/02/pytania", "Dziesięć pytań Benchmarku 02 — LawBenchmark.pl",
-       "Dziesięć pytań z polskiego prawa zadanych ośmiu modelom językowym: brzmienie, pułapki, klucze odpowiedzi i wyniki bez narzędzi oraz z wyszukiwaniem.",
+strona("/benchmark/02/pytania", "10 pytań z polskiego prawa dla modeli AI · LawBenchmark.pl",
+       "Dziesięć pytań z polskiego prawa zadanych ośmiu modelom AI: brzmienie, pułapki, klucze odpowiedzi i wyniki bez narzędzi oraz z wyszukiwaniem.",
        PYT_LISTA, okr=[("Benchmark 02", None), ("Pytania", None)], ld=[LD_PYT_LISTA], tu="/benchmark/02/pytania")
 
 for n, pid in enumerate(PYT):
@@ -1040,8 +1047,8 @@ for n, pid in enumerate(PYT):
 <p style="display:flex;justify-content:space-between;font:14px var(--sans);margin-top:24px"><span>{poprz}</span><a href="/benchmark/02/pytania">wszystkie pytania</a><span>{nast}</span></p>
 </div></article>
 """
-    strona(f"/benchmark/02/pytania/{pid.lower()}", f"{TYTUL[pid]} — {pid} · LawBenchmark.pl",
-           f"Pytanie {pid} Benchmarku 02 ({t[1]}): brzmienie, {'pułapka, ' if q['trap'] else ''}klucz odpowiedzi i wyniki ośmiu modeli językowych bez narzędzi i z wyszukiwaniem.",
+    strona(f"/benchmark/02/pytania/{pid.lower()}", f"{pid}: {KROTKI[pid]} · LawBenchmark",
+           f"Jak 8 modeli AI (GPT, Claude, Gemini) odpowiedziało na pytanie {pid} ({t[1]}): brzmienie, {'pułapka, ' if q['trap'] else ''}klucz i wyniki.",
            PYT_STRONA, okr=[("Benchmark 02", None), ("Pytania", "/benchmark/02/pytania"), (pid, None)], tu="/benchmark/02/pytania")
 
 # =====================================================================
@@ -1138,8 +1145,8 @@ LD_B01 = {"@context": "https://schema.org", "@type": "Dataset", "@id": f"{BAZA}/
           "url": f"{BAZA}/benchmark/01", "isAccessibleForFree": True, "license": "https://creativecommons.org/licenses/by/4.0/",
           "creator": [{"@type": "Person", "name": "Adam Piotrowski"}, {"@type": "Person", "name": "Andrzej Koman"}],
           "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{REPO_URL}/blob/main/cases/skd-01/wyniki.json"}]}
-strona("/benchmark/01", "Kazus SKD: termin na oświadczenie o sankcji kredytu darmowego — Benchmark 01 · LawBenchmark.pl",
-       "Pilotaż: jak modele językowe analizują fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k. Treść kazusu, metryka, wyniki 17 odpowiedzi modeli ogólnych, klucz i dane.",
+strona("/benchmark/01", "Kazus SKD: AI a sankcja kredytu darmowego · LawBenchmark",
+       "Pilotaż: jak modele AI analizują fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k. Treść kazusu, metryka, wyniki 17 odpowiedzi, klucz i dane.",
        BENCH01, okr=[("Benchmark 01", None), ("Kazus SKD", None)], ld=[LD_B01], tu="/benchmark/01")
 
 # =====================================================================
@@ -1177,7 +1184,7 @@ RAPORTY = f"""
 </section>
 </div></article>
 """
-strona("/raporty", "Raporty — LawBenchmark.pl",
+strona("/raporty", "Raporty: benchmark AI w polskim prawie · LawBenchmark.pl",
        "Raport LexAlpha Lab Benchmark 02 (PL, PDF) i artykuł metodologiczny „Hallucination Is Not Enough” (EN, DOI): streszczenia, główne ustalenia, cytowanie.",
        RAPORTY, okr=[("Raporty", None)], ld=[LD_RAPORT, LD_ART], tu="/raporty")
 
@@ -1210,7 +1217,7 @@ DANE = f"""
 <tr><td><code>SPEC/</code></td><td>specyfikacja oceny v1.0.4 (punktacja jak w 1.0.1) z rejestrem datowanych decyzji (dokument wewnętrzny w postaci użytej, po przeglądzie pod kątem danych osobowych i wewnętrznych identyfikatorów)</td><td class="num">1</td></tr>
 <tr><td><code>keys/</code></td><td>klucze dziesięciu pytań: rdzeń, rubryka, kary, podstawy wymagane, źródła sprawdzone, wersja i status</td><td class="num">10</td></tr>
 <tr><td><code>answers/</code></td><td>odpowiedzi systemów w postaci zwróconej, ze śladem narzędzi tam, gdzie narzędzie go zapisuje</td><td class="num">160</td></tr>
-<tr><td><code>cards/</code></td><td>karty wzorcowe: punkty A/B, klasy błędów, pochodzenie i zakres, każde powołanie sprawdzone, data wersji</td><td class="num">160</td></tr>
+<tr><td><code>cards/</code></td><td>karty wzorcowe: punkty A/B, klasy błędów, pochodzenie i zakres, wynik sprawdzenia każdego powołania, data wersji</td><td class="num">160</td></tr>
 <tr><td><code>judges/</code></td><td>oceny pięciu sędziów-modeli oraz wariantów „sędzia z raportem weryfikacji”</td><td class="num">1 319</td></tr>
 <tr><td><code>verification/</code></td><td>raporty warstwy weryfikacji: krok faktów (kod) i weryfikator poparcia (model), per karta i zbiorcze</td><td class="num">2 184</td></tr>
 <tr><td><code>costs/</code></td><td>cennik z 18.10.2026 ze źródłami i koszt na odpowiedź (równoważnik API)</td><td class="num">—</td></tr>
@@ -1250,8 +1257,8 @@ cards = load_dataset("LexAlphaLab/lawbenchmark-b02", "cards", split="test")</pre
 </section>
 </div></article>
 """
-strona("/dane", "Dane i kod — LawBenchmark.pl",
-       "Zbiór danych Benchmarku 02: 10 pytań z kluczami, 160 odpowiedzi modeli, 160 kart z klasami błędów, oceny sędziów-modeli, warstwa weryfikacji, skrypty odtwarzające każdą liczbę. CC BY 4.0 / MIT.",
+strona("/dane", "Dane benchmarku AI: pytania, klucze, karty · LawBenchmark.pl",
+       "Zbiór Benchmarku 02: 10 pytań z kluczami, 160 odpowiedzi modeli AI z kartami ocen, oceny sędziów-modeli i skrypty. CC BY 4.0 / MIT, GitHub i Hugging Face.",
        DANE, okr=[("Dane i kod", None)], ld=[LD_DATASET], tu="/dane")
 
 # =====================================================================
@@ -1299,8 +1306,8 @@ WSPOLPRACA = f"""
 </section>
 </div></article>
 """
-strona("/wspolpraca", "Współpraca — badanie systemów AI na pytaniach z polskiego prawa · LawBenchmark.pl",
-       "Zasady współpracy z LawBenchmark.pl: badanie systemów prawniczych na 40 niepublicznych pytaniach (warunki ustalane indywidualnie, ochrona pytań, niezależność oceny), współpraca naukowa, wykorzystanie wyników w kancelariach, cytowanie.",
+strona("/wspolpraca", "Współpraca: test systemu AI na polskim prawie · LawBenchmark",
+       "Badanie systemu prawniczego AI na 40 niepublicznych pytaniach z polskiego prawa: warunki ustalane indywidualnie, niezależna ocena, współpraca naukowa.",
        WSPOLPRACA, okr=[("Współpraca", None)], tu="/wspolpraca")
 
 # =====================================================================
@@ -1331,7 +1338,7 @@ DOLACZ = f"""
 </div></article>
 """
 strona("/dolacz", "Dołącz do nas — LawBenchmark.pl",
-       "Zespół LawBenchmark szuka prawników do niezależnej oceny odpowiedzi systemów AI, praktyków z pytaniami z polskiego prawa, badaczy i inżynierów do warstwy weryfikacji powołań. Zasady udziału i kontakt.",
+       "Szukamy prawników do oceny odpowiedzi AI, praktyków z pytaniami z polskiego prawa oraz badaczy i inżynierów do weryfikacji powołań. Zasady i kontakt.",
        DOLACZ, okr=[("Dołącz do nas", None)], tu="/dolacz")
 
 # =====================================================================
@@ -1401,8 +1408,8 @@ Data and code (CC BY 4.0 / MIT): questions with scoring keys, 160 answers and ca
 </section>
 </div></article>
 """
-strona("/en", "LawBenchmark.pl — language models and Polish law",
-       "Benchmark of language models on Polish legal questions: correctness, hallucinations (classes F/T/W/S) and grounding in official sources, with and without web search. LexAlpha Lab, KTZR.",
+strona("/en", "LLM benchmark on Polish law · LawBenchmark.pl",
+       "How LLMs (GPT, Claude, Gemini) answer Polish legal questions: hallucinations and grounding in official sources, with and without web search.",
        EN, lang="en", okr=[("English", None)], hreflang={"pl": "/", "en": "/en", "x-default": "/"}, tu="/en")
 
 # =====================================================================
@@ -1413,6 +1420,36 @@ open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8").write(
     "# lawbenchmark.pl: treść jest publiczna (CC BY 4.0) i może być indeksowana i cytowana; jawne wpisy dla robotów AI.\n"
     + "".join(f"User-agent: {r}\nAllow: /\n\n" for r in ROBOTY_AI)
     + "User-agent: *\nAllow: /\n\nSitemap: https://lawbenchmark.pl/sitemap.xml\n")
+# llms.txt (llmstxt.org): mapa treści dla modeli językowych; liczby jak w hero strony głównej (dane.py), 2026-11-01
+LLMS = f"""# LawBenchmark.pl
+
+> Benchmark modeli AI (GPT, Claude, Gemini) na pytaniach z polskiego prawa, prowadzony przez LexAlpha Lab (kancelaria KTZR, Gdańsk, i LexAlpha Sp. z o.o.). Mierzy halucynacje w powołaniach przepisów i orzeczeń oraz odpowiedzi „poprawnie ugruntowane”, bez narzędzi i z wyszukiwaniem w internecie. Treść: CC BY 4.0, kod: MIT.
+
+Benchmark 02 (raport 1.1 z 29.10.2026, stan prawny 1.10.2026): 8 modeli, 10 pytań, 160 odpowiedzi, 1 436 z 1 454 powołań sprawdzonych w źródle urzędowym. Halucynacje: 51 z 80 odpowiedzi bez narzędzi, 40 z 80 z wyszukiwaniem. Poprawnie ugruntowane: 19 i 27 z 80. Zastrzeżenia: jedna seria, dziesięć pytań, karty sprawdzał jeden prawnik; to nie jest ranking modeli ani produktów.
+
+## Wyniki i metoda
+
+- [Wyniki Benchmarku 02]({BAZA}/): wyniki ośmiu modeli w dwóch warunkach, klasy błędów, przykłady z kart
+- [Metodologia]({BAZA}/metodologia): pytania, klucze, definicje halucynacji (klasy T, W, F, S) i odpowiedzi poprawnie ugruntowanej, sędziowie-modele, ograniczenia
+- [Dziesięć pytań]({BAZA}/benchmark/02/pytania): brzmienie pytań, pułapki, klucze odpowiedzi i wyniki każdego modelu
+- [Kazus SKD (Benchmark 01, pilotaż)]({BAZA}/benchmark/01): fikcyjny kazus o terminie z art. 45 ust. 5 u.k.k.
+
+## Raporty i dane
+
+- [Raporty]({BAZA}/raporty): raport Benchmark 02 (PL, PDF) i artykuł metodologiczny „Hallucination Is Not Enough” (EN, DOI 10.5281/zenodo.23674794)
+- [Dane i kod]({BAZA}/dane): pytania, klucze, odpowiedzi, karty ocen, oceny sędziów-modeli, skrypty
+- [Zbiór na Hugging Face](https://huggingface.co/datasets/LexAlphaLab/lawbenchmark-b02)
+- [Repozytorium na GitHubie](https://github.com/apiotrowski-afk/lawbenchmark)
+
+## Optional
+
+- [English summary]({BAZA}/en)
+- [Współpraca]({BAZA}/wspolpraca): badanie systemu AI na niepublicznych pytaniach
+- [Omówienie wyników dla praktyków (ktzr.pl)](https://www.ktzr.pl/benchmark-02-ai-polskie-prawo/)
+- [Artykuł metodologiczny w wersji HTML (ktzr.pl)](https://www.ktzr.pl/legal-llm-benchmarks-correctly-grounded/)
+"""
+assert "każde powołanie" not in LLMS
+open(os.path.join(SITE, "llms.txt"), "w", encoding="utf-8").write(LLMS)
 mapa = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for sc, lm in STRONY:
     mapa.append(f'<url><loc>{BAZA}{"" if sc == "/" else sc}{"/" if sc == "/" else ""}</loc><lastmod>{lm}</lastmod></url>')

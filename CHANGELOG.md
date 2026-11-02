@@ -8,7 +8,7 @@ Versions are dated by the state of the reference cards; every number in the repo
 |---|---|---|---|---|---|---|---|
 | **1.0** (`v1.0`) | `58fda1b` | 2026-10-28 | 2026-10-25 | 1.0.1 (register of decisions to 1.0.3) | v1.0, 27 October 2026 | 1.0 | v1.2, 26 October 2026 — doi:10.5281/zenodo.23674794 |
 | **1.0.1** (`v1.0.1`) | `e1345ce` | 2026-10-29 | 2026-10-25 | 1.0.4 (rules unchanged since 1.0.1) | v1.1, 29 October 2026 | 1.0.1 — HF `LexAlphaLab/lawbenchmark-b02`, revision `3eda3182` (2026-10-29) | v1.2 |
-| **1.0.2** (`v1.0.2`) | see tag | 2026-11-02 | 2026-10-25 | 1.0.4 | v1.1 | 1.0.1 | v1.2 |
+| **1.0.2** (`v1.0.2`) | `0a4032d` | 2026-11-02 | 2026-10-25 | 1.0.4 | v1.1 | 1.0.1 | v1.2 |
 
 Permanent identifiers: paper, all versions doi:10.5281/zenodo.23438195 (v1.1 = …23438196, v1.2 = …23674794), SSRN doi:10.2139/ssrn.7672779; dataset https://huggingface.co/datasets/LexAlphaLab/lawbenchmark-b02; code and data https://github.com/apiotrowski-afk/lawbenchmark (cite with `CITATION.cff`); site https://lawbenchmark.pl. To check a copy: `python3 -I reports/benchmark-02/src/dane.py` recomputes every number and writes `reports/benchmark-02/src/dane.json` — compare with the committed file of the same tag; `python3 -I tools/export_jsonl.py` rebuilds `data/*.jsonl`.
 

@@ -7,3 +7,5 @@ _kopia_*
 _cache*/
 _archiwum*/
 .DS_Store
+*_poza_repo.py
+reports/benchmark-02/src/*_print.html

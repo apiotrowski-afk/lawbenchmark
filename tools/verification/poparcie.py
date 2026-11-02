@@ -16,8 +16,8 @@ Przebieg:
   4. Sędzia poparcia: model dostaje WYŁĄCZNIE twierdzenie + atomy jednego źródła. Etykieta z zamkniętej
      listy + numer atomu + cytat. KOD sprawdza cytat verbatim w tekście źródła; brak → etykieta
      wymuszona „nie_na_temat” (brak dowodu) i flaga. popiera_* bez zweryfikowanego cytatu niedopuszczalne.
-  5. Ogólniki B9: kandydaci z bazy przez ILIKE po "thesisText" (zapytanie wektorowe niemożliwe:
-     embeddingi text-embedding-3-large, a wektor zapytania wymagałby klucza OpenAI) → sygnał
+  5. Ogólniki B9: kandydaci z bazy przez ILIKE po tekście tezy (zapytanie wektorowe niemożliwe:
+     embeddingi zewnętrznego dostawcy, a wektor zapytania wymagałby jego klucza) → sygnał
      pokrycie / przeczy / mieszane / brak_pokrycia (sygnał, nie rozstrzygnięcie).
   6. Porównanie z kartami (stała WZORZEC_* niżej — przepisana z kart i _porownanie_P09P10_2026-10-19.md).
 
@@ -298,10 +298,13 @@ class LLM:
 
 # ───────────────────────── wewnętrzna baza orzeczeń (TYLKO SELECT) ─────────────────────────
 
+SQL: dict = {}   # wypełniane z zapytania_poza_repo.py przy połączeniu z bramką
+
 class WewnetrznaBazaRO:
     """Wewnętrzna baza orzeczeń wyłącznie do odczytu. Każde zapytanie przechodzi przez _select, który odrzuca
     wszystko poza pojedynczym SELECT. URL nigdy nie jest wypisywany (wyjątki logowane typem)."""
 
+    # Zapytania SQL (nazwy tabel i kolumn) są w module zapytania_poza_repo.py obok bramki — schemat bazy nie jest publiczny.
     # Dostęp WYŁĄCZNIE przez bramkę tools/bramka_ro_poza_repo.py (decyzja Adama 2026-10-19):
     # parser SQL, read-only, ROLLBACK, maskowanie URL, dziennik tools/_bramka_ro_log.jsonl.
     # Lokalny strażnik w _select zostaje jako dodatkowa warstwa przed bramką.
@@ -313,6 +316,8 @@ class WewnetrznaBazaRO:
         self.lock = threading.Lock()
         sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
         from bramka_ro_poza_repo import query, BramkaRoError
+        global SQL
+        from zapytania_poza_repo import SQL   # treść zapytań (schemat bazy) poza repozytorium, obok bramki
         self._query, self._err = query, BramkaRoError
         self.conn = True                  # „połączenie” = bramka dostępna; ustalane kontrolą niżej
         ro = self._select("kontrola_read_only",
@@ -341,28 +346,22 @@ class WewnetrznaBazaRO:
         return None
 
     def judgment(self, jid: str):
-        r = self._select("judgment_po_id", 'SELECT id, "signatureMain", "decisionDate", court, "textRaw" '
-                         'FROM "Judgment" WHERE id = %s', (jid,))
+        r = self._select("judgment_po_id", SQL["judgment_po_id"], (jid,))
         return r[0] if r else None
 
     def judgments_by_sig(self, sig: str) -> list:
-        return self._select("judgment_po_sygnaturze", 'SELECT id, "signatureMain", "decisionDate", court, "textRaw" '
-                            'FROM "Judgment" WHERE "signatureMain" = %s LIMIT 20', (sig,)) or []
+        return self._select("judgment_po_sygnaturze", SQL["judgment_po_sygnaturze"], (sig,)) or []
 
     def theses(self, jid: str) -> list:
-        return self._select("tezy_wyroku", 'SELECT "thesisIndex", "thesisText", category::text, strength::text, instance '
-                            'FROM "tabela_tez" WHERE "judgmentId" = %s ORDER BY "thesisIndex"', (jid,)) or []
+        return self._select("tezy_wyroku", SQL["tezy_wyroku"], (jid,)) or []
 
     def theses_ilike(self, patterns: list[str], limit: int = 3000) -> list:
-        cond = " OR ".join(['t."thesisText" ILIKE %s'] * len(patterns))
-        return self._select("tezy_ilike",
-                            'SELECT t."judgmentId", t."judgmentSignature", t."thesisIndex", t."thesisText", '
-                            't.strength::text, t.court, t."decisionDate" FROM "tabela_tez" t '
-                            f'WHERE {cond} LIMIT {int(limit)}', tuple(patterns), max_rows=limit) or []
+        cond = " OR ".join([SQL["warunek_ilike"]] * len(patterns))
+        return self._select("tezy_ilike", SQL["tezy_ilike"].format(warunek=cond, limit=int(limit)),
+                            tuple(patterns), max_rows=limit) or []
 
     def embedding_model_sample(self) -> list:
-        return self._select("model_embeddingu", 'SELECT "embeddingModel", count(*) FROM (SELECT "embeddingModel" '
-                            'FROM "tabela_tez" LIMIT 2000) s GROUP BY 1') or []
+        return self._select("model_embeddingu", SQL["model_embeddingu"]) or []
 
 
 # ───────────────────────── SAOS ─────────────────────────
@@ -1605,8 +1604,8 @@ def report_md(meta, wyniki, ogolniki, wyroki, ew) -> str:
              "(kontekst oryginalny obok); wzmianki bez treści pomijane; osobno ogólniki o orzecznictwie bez sygnatury.")
     L.append(f"4. Sędzia: {meta['sedzia']} (rozumowanie {meta['myslenie_sedziego']}), widzi tylko twierdzenie + atomy jednego źródła. "
              "Kod sprawdza cytat; niezweryfikowany → `nie_na_temat` (brak dowodu) + flaga. Wykrycie = `nie_na_temat` lub `przeczy`.")
-    L.append("5. Ogólniki B9: kandydaci przez ILIKE po `thesisText` (wektorowo się nie da — embeddingi `text-embedding-3-large`, "
-             "zapytanie wymagałoby klucza OpenAI), ranking leksykalny top 25 → sygnał `pokrycie/przeczy/mieszane/brak_pokrycia`; "
+    L.append("5. Ogólniki B9: kandydaci przez ILIKE po tekście tezy (wektorowo się nie da — embeddingi zewnętrznego dostawcy, "
+             "zapytanie wymagałoby jego klucza), ranking leksykalny top 25 → sygnał `pokrycie/przeczy/mieszane/brak_pokrycia`; "
              "tezy wskazane jako przeczące/popierające dostają kotwice. Wykrycie = `przeczy` lub `mieszane`.\n")
 
     L.append("## Wynik względem kart\n")

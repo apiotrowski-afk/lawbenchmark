@@ -964,7 +964,8 @@ class WewnetrznaBazaDB:
         try:
             sys.path.insert(0, BRAMKA_BAZY)
             from bramka_ro_poza_repo import query, BramkaRoError
-            self._query, self._err = query, BramkaRoError
+            from zapytania_poza_repo import SQL   # treść zapytań (schemat bazy) poza repozytorium
+            self._query, self._err, self._sql = query, BramkaRoError, SQL
             ro = query("SELECT current_setting('transaction_read_only'), current_setting('default_transaction_read_only')",
                        None, as_dict=False)
             if ro and tuple(ro[0]) == ("on", "on"):
@@ -979,8 +980,7 @@ class WewnetrznaBazaDB:
             return []
         LICZNIKI["lexalpha"] += 1
         try:
-            rows = self._query('SELECT id, "signatureMain", "decisionDate", court, "textRaw" FROM "Judgment" '
-                               'WHERE "signatureMain" = %s LIMIT 20', (sig,), as_dict=False, timeout_ms=120_000)
+            rows = self._query(self._sql["judgment_po_sygnaturze"], (sig,), as_dict=False, timeout_ms=120_000)
         except Exception as e:
             self.error = type(e).__name__
             return []

@@ -76,7 +76,7 @@
    },
    "model_embeddingu_probka": [
     [
-     "text-embedding-3-large",
+     "model-embeddingu-dostawcy",
      2000
     ]
    ],

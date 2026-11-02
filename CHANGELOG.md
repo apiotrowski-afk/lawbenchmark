@@ -2,6 +2,11 @@
 
 Versions are dated by the state of the reference cards; every number in the reports is recomputed from the cards of that date.
 
+## Unreleased — 2026-11-02
+- Website source (`site/`, `assets/`, site build and deploy scripts, Firebase configuration) moved out of this repository; the site lawbenchmark.pl itself is unchanged. Data, keys, answers, cards, judges, verification and evaluation scripts stay here.
+- Verification scripts (`tools/verification/poparcie.py`, `fakty.py`): SQL queries to the internal case-law database are loaded from a module kept outside the repository (`zapytania_poza_repo.py`, next to the read-only gateway); the database schema is no longer published. Verification reports: the embedding-model name of the internal database replaced with a generic label. No change to results.
+- Removed working files not used by any report or script: internal design note `tools/verification/PROJEKT.md`, intermediate verification outputs `_test_8pytan_2026-10-23.md` and `_poparcie_8pytan_2026-10-24b.json`, and the print HTML of the Benchmark 02 report (a build intermediate; the PDF is unchanged).
+
 ## 1.0.1 — 2026-10-29 (cards unchanged, as of 2026-10-25)
 - Data layer: fields with varying structure are now JSON-encoded strings (keys: admissible_bases, citation_patterns, key_sources, rubric; judgments: A6_origin, scores; verification: verification, versions); content unchanged. Dataset card: `test` split for every config, gated access with automatic approval on Hugging Face, limitations, related work, conflict-of-interest statement.
 - Report *Benchmark 02* v1.1 (29 October 2026): introduction and literature cite Porębski & Figura (Jagiellonian University, 2025; dataset RODBUK 2026) as the closest earlier Polish study; no change to data or results.

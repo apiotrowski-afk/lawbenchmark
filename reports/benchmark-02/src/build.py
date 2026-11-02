@@ -1,5 +1,5 @@
 """Skład raportu „LexAlpha Lab · Benchmark 02 · pytania prawne” w identyfikacji Benchmarku 01
-(na podstawie benchmark/skd/raport/zrodla/build.py).
+(na podstawie generatora raportu Benchmark 01).
 
 Wejście: raport02_*.md (tekst) i dane.py (tabele i liczby liczone z kart, kluczy, ocen sędziów i pliku kosztu).
 Wyjście: ../lexalpha_lab_benchmark_02.html (do przeglądania), lexalpha_lab_benchmark_02_print.html (do druku)

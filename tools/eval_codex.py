@@ -39,12 +39,12 @@ wysilek = sys.argv[sys.argv.index("--wysilek") + 1] if "--wysilek" in sys.argv e
 tylko = set(sys.argv[sys.argv.index("--tylko") + 1].split(",")) if "--tylko" in sys.argv else None
 
 zadania = []
-for f in sorted(glob.glob(f"{REPO}/pytania/klucze/P*.yaml")):
+for f in sorted(glob.glob(f"{REPO}/keys/P*.yaml")):
     k = yaml.safe_load(open(f))
     if not tylko or k["id"] in tylko:
         zadania.append((k["id"], (k.get("tekst_benchmarkowy") or k["tekst_oryginalny"]).strip()))
 if not tylko or "KAZUS" in tylko:
-    zadania.append(("KAZUS", open(f"{REPO}/skd/kazus_01_termin.md").read().strip()))
+    zadania.append(("KAZUS", open(f"{REPO}/cases/skd-01/kazus_01_termin.md").read().strip()))
 
 
 def bieg(tekst):
@@ -86,7 +86,7 @@ def bieg(tekst):
 
 for pid, tekst in zadania:
     odp, czas, zdarzenia, tokeny, blad, naglowek = bieg(tekst)
-    kat = f"{REPO}/skd/odpowiedzi/kazus_v3" if pid == "KAZUS" else f"{REPO}/pytania/odpowiedzi/{pid}"
+    kat = f"{REPO}/cases/skd-01/answers" if pid == "KAZUS" else f"{REPO}/answers/{pid}"
     os.makedirs(kat, exist_ok=True)
     meta = {"pytanie": pid,
             "system": f"OpenAI {model} przez Codex CLI (rozumowanie: {wysilek}), "

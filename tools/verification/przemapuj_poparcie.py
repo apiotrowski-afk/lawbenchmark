@@ -8,7 +8,7 @@ Dopasowanie wpisów: (rodzaj, powołanie, kontekst, rola). Wpis, który w nowym 
 (nieustalony / nieobsługiwany / nie istnieje) → klasa z kroku faktów, ocena sędziego zachowana w `wynik`.
 Wpisy nowe (bez odpowiednika) → status `nieocenione_po_przemapowaniu`.
 
-Użycie: python -I przemapuj_poparcie.py --poparcie raporty/_poparcie_X.json --raporty <katalog nowych raportów> --wyjscie raporty/_poparcie_Xb.json
+Użycie: python -I przemapuj_poparcie.py --poparcie verification/runs/_poparcie_X.json --raporty <katalog nowych raportów> --wyjscie raporty/_poparcie_Xb.json
 """
 from __future__ import annotations
 

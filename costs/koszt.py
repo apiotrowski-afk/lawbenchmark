@@ -1,7 +1,7 @@
 """Metryka kosztu benchmarku LexAlpha (pomocnicza; decyzja A. Piotrowskiego 2026-10-18).
 
-Czyta front matter odpowiedzi (pytania/odpowiedzi/<P>/<system>.md), cennik (cennik_2026-10-18.yaml)
-i karty ocen (pytania/oceny/<P>_<system>.md). Liczy koszt równoważny API każdej odpowiedzi z rozbiciem
+Czyta front matter odpowiedzi (answers/<P>/<system>.md), cennik (cennik_2026-10-18.yaml)
+i karty ocen (cards/<P>_<system>.md). Liczy koszt równoważny API każdej odpowiedzi z rozbiciem
 na wejście, cache, wyjście, rozumowanie i narzędzia, a potem tabelę system × (odpowiedzi, koszt łączny,
 średni, mediana czasu, poprawnie ugruntowane = A6 1/1 i A-R 2/2, koszt na poprawnie ugruntowaną).
 
@@ -24,8 +24,9 @@ import sys
 import yaml
 
 BENCH = os.path.dirname(os.path.abspath(__file__))
-ODP = os.path.join(BENCH, "pytania", "odpowiedzi")
-OCENY = os.path.join(BENCH, "pytania", "oceny")
+REPO = os.path.dirname(BENCH)  # katalog repo lawbenchmark
+ODP = os.path.join(REPO, "answers")
+OCENY = os.path.join(REPO, "cards")
 
 
 def arg(nazwa, domyslna=None):
@@ -312,7 +313,7 @@ def main():
 
     # --- zapis MD ---
     L = [f"# Koszt równoważny API — benchmark LexAlpha, bieg r3 (cennik z {DATA})", "",
-         f"Wygenerowano skryptem `benchmark/koszt.py` z `{os.path.basename(CENNIK_PLIK)}`, front matter odpowiedzi "
+         f"Wygenerowano skryptem `costs/koszt.py` z `{os.path.basename(CENNIK_PLIK)}`, front matter odpowiedzi "
          f"i kart ocen. Pytania: {', '.join(PYTANIA)}. Metryka pomocnicza — nie wpływa na punkty ani ranking jakości.",
          "", "„Poprawnie ugruntowana” = karta z A6 = 1/1 i A-R = 2/2. „≥” = dolna granica (część kosztu nieznana, "
          "zob. uwagi). n/d = brak danych (nie zero).", "",

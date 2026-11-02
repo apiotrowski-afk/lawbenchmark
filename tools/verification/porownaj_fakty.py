@@ -1,4 +1,4 @@
-"""Porównanie raportów faktów (meta_sedzia/raporty) z kartami P09/P10 r3 — czułość i fałszywe alarmy.
+"""Porównanie raportów faktów (verification/reports/) z kartami P09/P10 r3 — czułość i fałszywe alarmy.
 Lista błędów spisana ręcznie z pól A6/A3 kart (stan 2026-10-19)."""
 import json
 import re

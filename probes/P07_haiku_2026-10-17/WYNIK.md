@@ -2,7 +2,7 @@
 
 Pytanie Adama przy przeglądzie karty `P07_haiku_cli_w0_r3`: czy trafne „Tak” było wiedzą, czy przypadkiem,
 i w którym momencie wywód się załamał. Warunki jak w biegu r3 (Claude Code CLI, bez narzędzi, ten sam wstęp),
-skrypt `tools/sonda_claude_cli.py`. 24 zapytania, 0 błędów. CLI nie zwróciło treści rozumowania
+skrypt sondy (wariant `tools/eval_claude_cli.py` z serią zapytań; nieopublikowany). 24 zapytania, 0 błędów. CLI nie zwróciło treści rozumowania
 (tylko liczby tokenów), więc wnioski są z odpowiedzi. Poza tabelami benchmarku.
 
 | seria | n | wynik |

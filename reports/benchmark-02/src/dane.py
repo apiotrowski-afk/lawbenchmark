@@ -1,8 +1,8 @@
 """Dane do raportu „LexAlpha Lab · Benchmark 02 · pytania prawne” (wersja 1.0 z 27.10.2026; karty w stanie z 25.10.2026).
 
-Czyta wyłącznie pliki benchmarku: karty ocen (pytania/oceny/<P>_<system>.md), klucze (pytania/klucze/*.yaml),
-koszt na odpowiedź (benchmark/koszt_2026-10-18_odpowiedzi.csv, cennik z 2026-10-18), oceny sędziów-modeli
-(pytania/oceny/_sedziowie/*.json). Wynik: tabele markdown w słowniku TABELE i liczby w słowniku LICZBY,
+Czyta wyłącznie pliki benchmarku: karty ocen (cards/<P>_<system>.md), klucze (keys/*.yaml),
+koszt na odpowiedź (costs/koszt_2026-10-18_odpowiedzi.csv, cennik z 2026-10-18), oceny sędziów-modeli
+(judges/*.json) i raporty zbiorcze warstwy weryfikacji (verification/runs/_*.md). Wynik: tabele markdown w słowniku TABELE i liczby w słowniku LICZBY,
 używane przez build.py. Nic nie zapisuje poza dane.json obok skryptu.
 
 Zasady parsowania:
@@ -400,7 +400,7 @@ def koszt_sedziego(j):
 
 POP_PLIKI = ["_poparcie_test_P05_1sys.md", "_poparcie_test_P05_cache.md", "_poparcie_P09P10_2026-10-19.md",
              "_poparcie_8pytan_2026-10-23.md", "_poparcie_8pytan_2026-10-24.md", "_poparcie_8pytan_2026-10-24c.md"]
-RAP = f"{BENCH}/verification/reports"
+RAP = f"{BENCH}/verification/runs"   # raporty zbiorcze warstwy weryfikacji
 
 
 def koszt_poparcia(plik):

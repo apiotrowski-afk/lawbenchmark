@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Automatyczny ekstraktor błędów A6 z kart ocen (pytania/oceny/<P>_<system>.md) — meta-sędzia, test 2026-10-23.
+"""Automatyczny ekstraktor błędów A6 z kart ocen (cards/<P>_<system>.md) — meta-sędzia, test 2026-10-23.
 
 Zastępuje ręcznie spisane listy WZORZEC_T / WZORZEC_B9 / WZORZEC_INNE (poparcie.py) i A6 (porownaj_fakty.py).
 Z wiersza „| A6 |” karty wyciąga:
@@ -27,7 +27,7 @@ import unicodedata
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-OCENY = HERE.parent / "pytania" / "oceny"
+OCENY = HERE.parents[1] / "cards"
 
 SYSTEMY_R3 = [
     "chatgpt_codex_w0_r3", "chatgpt_codex_web_r3", "codex_astra6_w0_r3", "codex_astra6_web_r3",

@@ -2,7 +2,7 @@
 
 Ten sam prompt i format wyniku co eval_sedzia_codex.py (import INSTR i reguł stamtąd nie jest możliwy bez
 uruchomienia biegu, więc tekst instrukcji jest wspólny przez plik README + stała poniżej). Ocena ślepa:
-sędzia dostaje reguły, klucz i samą treść odpowiedzi. Zapis: oceny/_sedziowie/Pnn_<system>.<sedzia>.json
+sędzia dostaje reguły, klucz i samą treść odpowiedzi. Zapis: judges/Pnn_<system>.<sedzia>.json
 Użycie: python eval_sedzia_gemini.py <sedzia> [--model gemini-3.1-pro-preview] --systemy a,b --tylko P05,P06 [--rownolegle 4] [--myslenie high] [--readme plik]
 """
 import concurrent.futures as cf
@@ -43,15 +43,15 @@ cfg = types.GenerateContentConfig(temperature=0.0, tools=[types.Tool(google_sear
 
 
 def tresc_odpowiedzi(pid, system):
-    s = open(f"{REPO}/odpowiedzi/{pid}/{system}.md").read()
+    s = open(f"{REPO}/answers/{pid}/{system}.md").read()
     return s.split("---", 2)[2].strip() if s.startswith("---") else s
 
 
 def jeden(pid, system):
-    cel = f"{REPO}/oceny/_sedziowie/{pid}_{system}.{sedzia}.json"
+    cel = f"{REPO}/judges/{pid}_{system}.{sedzia}.json"
     if os.path.exists(cel):
         return pid, system, "pominięte (jest)", 0
-    klucz = open(glob.glob(f"{REPO}/klucze/{pid}_*.yaml")[0]).read()
+    klucz = open(glob.glob(f"{REPO}/keys/{pid}_*.yaml")[0]).read()
     prompt = INSTR % (reguly, klucz, tresc_odpowiedzi(pid, system))
     t0 = time.time()
     try:

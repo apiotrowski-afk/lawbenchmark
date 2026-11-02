@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Krok faktów meta-sędziego baza wewnętrzna (prototyp, projekt PROJEKT.md z 2026-10-19).
+"""Krok faktów meta-sędziego baza wewnętrzna (prototyp z 2026-10-19).
 
-Dla odpowiedzi modelu (pytania/odpowiedzi/<P>/<system>.md) i klucza (pytania/klucze/<P>_*.yaml)
-tworzy raport faktów: meta_sedzia/raporty/<P>_<system>.json + krótki .md.
+Dla odpowiedzi modelu (answers/<P>/<system>.md) i klucza (keys/<P>_*.yaml)
+tworzy raport faktów: verification/reports/<P>_<system>.json + krótki .md.
 
 Kod, bez LLM:
   1. ekstrakcja powołań regexem: przepisy (art./ust./§/pkt + akt), sygnatury orzeczeń,
@@ -1399,7 +1399,7 @@ def main():
     ap = argparse.ArgumentParser(description="Krok faktów meta-sędziego (prototyp)")
     ap.add_argument("pytania", nargs="+", help="np. P09 P10")
     ap.add_argument("--systemy", help="lista systemów po przecinku (domyślnie 16 systemów r3)")
-    ap.add_argument("--katalog", help="katalog wyjściowy raportów (domyślnie meta_sedzia/raporty)")
+    ap.add_argument("--katalog", help="katalog wyjściowy raportów (domyślnie verification/reports)")
     asyncio.run(main_async(ap.parse_args()))
 
 

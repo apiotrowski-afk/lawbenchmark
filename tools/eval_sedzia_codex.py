@@ -2,7 +2,7 @@
 
 Sędzia dostaje reguły oceny z README (bloki A i B), klucz pytania i SAMĄ treść odpowiedzi (bez nazwy
 systemu i metadanych — ocena ślepa). Ma sprawdzić powołania w źródłach oficjalnych i zwrócić JSON.
-Nie widzi karty pierwszego sędziego. Zapis: benchmark/pytania/oceny/_sedziowie/Pnn_<system>.<sedzia>.json
+Nie widzi karty pierwszego sędziego. Zapis: judges/Pnn_<system>.<sedzia>.json
 Użycie: python eval_sedzia_codex.py <sedzia> --model gpt-6-astra --systemy a,b,c --tylko P05,P06 [--rownolegle 3]
 """
 import concurrent.futures as cf
@@ -61,15 +61,15 @@ Zwróć WYŁĄCZNIE obiekt JSON (bez komentarza, bez bloków kodu) o polach:
 
 
 def tresc_odpowiedzi(pid, system):
-    s = open(f"{REPO}/odpowiedzi/{pid}/{system}.md").read()
+    s = open(f"{REPO}/answers/{pid}/{system}.md").read()
     return s.split("---", 2)[2].strip() if s.startswith("---") else s
 
 
 def jeden(pid, system):
-    cel = f"{REPO}/oceny/_sedziowie/{pid}_{system}.{sedzia}.json"
+    cel = f"{REPO}/judges/{pid}_{system}.{sedzia}.json"
     if os.path.exists(cel):
         return pid, system, "pominięte (jest)", 0
-    klucz = open(glob.glob(f"{REPO}/klucze/{pid}_*.yaml")[0]).read()
+    klucz = open(glob.glob(f"{REPO}/keys/{pid}_*.yaml")[0]).read()
     prompt = INSTR % (reguly, klucz, tresc_odpowiedzi(pid, system))
     t0 = time.time()
     with tempfile.TemporaryDirectory() as kat:

@@ -1,6 +1,6 @@
 """Zestawienie tieru „pytania” z kart ocen: średnie A % i B %, liczba kart hallucinated i pochodzenie błędu.
 
-Czyta wyłącznie karty (oceny/Pnn_<system>.md): wiersze sum A i B, etykietę z wiersza wyniku oraz pole
+Czyta wyłącznie karty (cards/Pnn_<system>.md): wiersze sum A i B, etykietę z wiersza wyniku oraz pole
 A6_pochodzenie z wiersza A6 (karta liczona wg najcięższego dowodu: odczyt_źródła > źródło_wtórne > pamięć >
 nieustalone). Wypisuje tabele markdown. Użycie: python zestawienie_tier.py [--tylko P05,P06,...]
 """

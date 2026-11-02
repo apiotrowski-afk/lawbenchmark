@@ -31,7 +31,7 @@ if web:
 tylko = set(arg("--tylko").split(",")) if arg("--tylko") else None
 
 pytania = []
-for f in sorted(glob.glob(f"{REPO}/klucze/P*.yaml")):
+for f in sorted(glob.glob(f"{REPO}/keys/P*.yaml")):
     k = yaml.safe_load(open(f))
     if not tylko or k["id"] in tylko:
         pytania.append((k["id"], (k.get("tekst_benchmarkowy") or k["tekst_oryginalny"]).strip()))
@@ -55,7 +55,7 @@ for pid, tekst in pytania:
         except Exception as e:
             blad = f"{type(e).__name__}: {str(e)[:200]}"
     czas = round(time.time() - t0, 1)
-    kat = f"{REPO}/odpowiedzi/{pid}"
+    kat = f"{REPO}/answers/{pid}"
     os.makedirs(kat, exist_ok=True)
     meta = {"pytanie": pid, "system": f"Claude {model} przez Claude Code CLI (subskrypcja), czysty model — bez MCP i CLAUDE.md, " + ("W1: WebSearch + WebFetch" if web else "W0"),
             "model_alias": model, "model_id": info.get("model_id"), "prompt_systemowy": WSTEP,

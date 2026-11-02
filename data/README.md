@@ -82,10 +82,10 @@ Machine-readable layer of the LexAlpha Lab benchmark of large language models on
 from datasets import load_dataset
 import json
 
-cards = load_dataset("<repo_id>", "cards", split="test")          # 160 scoring cards (default configuration)
-answers = load_dataset("<repo_id>", "answers", split="test")      # 160 model answers
-questions = load_dataset("<repo_id>", "questions", split="test")  # 10 questions
-keys = load_dataset("<repo_id>", "keys", split="test")            # 10 answer keys
+cards = load_dataset("LexAlphaLab/lawbenchmark-b02", "cards", split="test")          # 160 scoring cards (default configuration)
+answers = load_dataset("LexAlphaLab/lawbenchmark-b02", "answers", split="test")      # 160 model answers
+questions = load_dataset("LexAlphaLab/lawbenchmark-b02", "questions", split="test")  # 10 questions
+keys = load_dataset("LexAlphaLab/lawbenchmark-b02", "keys", split="test")            # 10 answer keys
 rubric_p01 = json.loads(keys[0]["rubric"])                        # JSON-encoded field
 ```
 

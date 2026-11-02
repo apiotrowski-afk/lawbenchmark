@@ -8,9 +8,9 @@ Przebieg:
   1. Atomy orzeczeń (OKF-Legal, typ Racja): tezy z wewnętrznej bazy orzeczeń (poza repozytorium) ("tabela_tez", tylko SELECT)
      + pełny tekst ((tekst orzeczenia) albo SAOS). Model (Gemini na Vertex) wskazuje cytat-kotwicę,
      KOD sprawdza obecność verbatim. Wyrok bez tez w bazie → atomizacja modelem na bieżąco z tekstu.
-     Zapis: meta_sedzia/atomy/<sygnatura>/racja-NN.md (+ index.md).
+     Zapis: atomy/<sygnatura>/racja-NN.md (katalog roboczy poza repozytorium) (+ index.md).
   2. Atomy przepisów: brzmienie jednostki z legal-cite (to samo źródło co fakty.py) = jeden atom,
-     kotwica = urzędowe brzmienie. Zapis: meta_sedzia/atomy/_przepisy/<akt>_<jednostka>.md.
+     kotwica = urzędowe brzmienie. Zapis: atomy/_przepisy/<akt>_<jednostka>.md (katalog roboczy poza repozytorium).
   3. Twierdzenia: z odpowiedzi i raportu faktów model wyodrębnia tezę przypisaną każdemu powołaniu
      (zdanie; obok zostaje oryginalny kontekst) oraz ogólniki „orzecznictwo przyjmuje…” bez sygnatury.
   4. Sędzia poparcia: model dostaje WYŁĄCZNIE twierdzenie + atomy jednego źródła. Etykieta z zamkniętej
@@ -54,7 +54,9 @@ import httpx  # noqa: E402
 
 BENCH = HERE.parents[1]  # katalog repo lawbenchmark
 PYTANIA = BENCH  # klucze w keys/, odpowiedzi w answers/, specyfikacja w SPEC/
-RAPORTY = HERE.parents[1] / "verification" / "reports"
+RAPORTY = HERE.parents[1] / "verification" / "reports"   # raporty faktów per odpowiedź
+RUNS = HERE.parents[1] / "verification" / "runs"          # wyniki biegów zbiorczych
+RUNS.mkdir(parents=True, exist_ok=True)
 ATOMY = HERE / "atomy"
 CACHE = HERE / "_cache_poparcie"
 ENV_FILE = Path(os.environ.get("BENCHMARK_ENV_FILE", "benchmark.env"))  # opcjonalny plik z adresem wewnętrznej bazy orzeczeń (poza repozytorium)
@@ -64,7 +66,7 @@ ETYKIETY = ["popiera_wprost", "popiera_czesciowo", "nie_na_temat", "przeczy", "t
             "popiera_wersja_wczesniejsza", "niepewne"]
 # ───────────────────────── klasy A6 (B1, 2026-10-24) ─────────────────────────
 # Wyjście weryfikatora dla każdego powołania to KLASA A6 wg README („A6 po decyzji z 2026-10-11”) + A6_zakres + status
-# weryfikacji. Dawne etykiety sędziego zostają w polu `uzasadnienie_etykieta`. Mapowanie (to samo w PROJEKT.md):
+# weryfikacji. Dawne etykiety sędziego zostają w polu `uzasadnienie_etykieta`. Mapowanie:
 #   F — jednostka/źródło nie istnieje (krok faktów: status „nie istnieje” przy akcie podanym wprost; orzeczenie: nigdy
 #       z samego niepowodzenia wyszukiwania — README reguła 1 → status `nie_znaleziono`, do ręki);
 #   W — brzmienie nieaktualne: krok faktów (jednostka uchylona/usunięta na datę stanu prawnego; cytat zgodny z wersją
@@ -765,7 +767,7 @@ def write_judgment_atoms(j: dict, kandydat: bool = False) -> Path:
     idx = {"type": "Orzeczenie", "title": f"{j['sygnatura']} ({organ}, {j['data']})", "sygnatura": j["sygnatura"],
            "organ": organ, "data-orzeczenia": j["data"], "resource": resource, "zrodlo-tresci": "agent",
            "zrodlo-tekstu": j["zrodlo_tekstu"], "zrodlo-tez": j["zrodlo_tez"], "liczba-atomow": len(j["atomy"]),
-           "wygenerowano": DZIEN, "narzedzie": "meta_sedzia/poparcie.py"}
+           "wygenerowano": DZIEN, "narzedzie": "tools/verification/poparcie.py"}
     body = "---\n" + "\n".join(f"{k}: {json.dumps(v, ensure_ascii=False) if isinstance(v, str) else v}"
                                for k, v in idx.items() if v is not None) + "\n---\n\n# Atomy\n\n"
     body += "\n".join(f"- racja-{a['nr']:02d}.md — {trim(a['teza'] or '', 140)} (status-cytatu: {a['status_cytatu']})"
@@ -1576,8 +1578,8 @@ def zapisz(meta: dict, wyniki: list, ogolniki: list, wyroki: dict, ew: dict, ety
                         "falszywe_alarmy": [{k: z[k] for k in ("P", "system", "id", "powolanie", "twierdzenie")} | {"wynik": z["wynik"]}
                                             for z in ew["falszywe"]],
                         "rozklad_etykiet": ew["rozklad_etykiet"]}}
-    (RAPORTY / f"_poparcie_{etykieta}.json").write_text(json.dumps(js, ensure_ascii=False, indent=1, default=str))
-    (RAPORTY / f"_poparcie_{etykieta}.md").write_text(report_md(meta, wyniki, ogolniki, wyroki, ew))
+    (RUNS / f"_poparcie_{etykieta}.json").write_text(json.dumps(js, ensure_ascii=False, indent=1, default=str))
+    (RUNS / f"_poparcie_{etykieta}.md").write_text(report_md(meta, wyniki, ogolniki, wyroki, ew))
 
 
 def report_md(meta, wyniki, ogolniki, wyroki, ew) -> str:
@@ -1588,7 +1590,7 @@ def report_md(meta, wyniki, ogolniki, wyroki, ew) -> str:
     b9 = ew["b9"]
     n_ocen = sum(1 for z in wyniki if z["wynik"].get("etykieta") not in (None, "brak_twierdzenia"))
     L.append(f"# Weryfikator poparcia — {', '.join(meta['pytania'])} × {len(meta['systemy'])} systemów r3 ({meta['data'][:10]})\n")
-    L.append(f"Kod: `meta_sedzia/poparcie.py`. Szczegóły: `_poparcie_{meta.get('etykieta', '')}.json`; atomy OKF-Legal: `meta_sedzia/atomy/`. "
+    L.append(f"Kod: `tools/verification/poparcie.py`. Szczegóły: `verification/runs/_poparcie_{meta.get('etykieta', '')}.json`; atomy OKF-Legal: `atomy/ (poza repozytorium)`. "
              f"README w prompcie sędziego: wersja {meta.get('readme_wersja')}; cache kontekstu: {meta.get('cache_kontekstu')}.\n")
     L.append("## Klasy A6 (B1) i statusy weryfikacji\n")
     L.append("Klasy: " + ", ".join(f"{k} {v}" for k, v in meta.get("klasy_A6", {}).items()) + "  \nStatusy: "

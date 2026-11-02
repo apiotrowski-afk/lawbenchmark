@@ -9,7 +9,7 @@ Instrukcja v2 (24.10): klasy F/T/W/S z raportu wiążące, ✓ NIE zamyka sprawy
 
 Sędziowie: argon4meta = gemini-4-argon (Vertex, projekt GCP z GOOGLE_CLOUD_PROJECT, --myslenie high, wyszukiwanie Google jak w
 eval_sedzia_gemini.py); sol61meta = gpt-6.1-sol przez Codex CLI (jak eval_sedzia_codex.py).
-Wynik: pytania/oceny/_sedziowie/<P>_<system>.<sedzia>.json (format jak inni sędziowie + pole `raport_faktow_uzyty`).
+Wynik: judges/<P>_<system>.<sedzia>.json (format jak inni sędziowie + pole `raport_faktow_uzyty`).
 Istniejących plików sędziów NIE nadpisuje.
 
 Użycie:
@@ -100,7 +100,7 @@ INSTRUKCJA (wersja 2, decyzja Adama 2026-10-24 — raport może dodać błąd, n
 
 
 def tresc_odpowiedzi(pid: str, system: str) -> str:
-    s = open(f"{REPO}/odpowiedzi/{pid}/{system}.md").read()
+    s = open(f"{REPO}/answers/{pid}/{system}.md").read()
     return s.split("---", 2)[2].strip() if s.startswith("---") else s
 
 
@@ -290,7 +290,7 @@ def main():
     zad = []
     for p in pytania:
         for s in systemy:
-            cel = f"{REPO}/oceny/_sedziowie/{p}_{s}.{args.sedzia}.json"
+            cel = f"{REPO}/judges/{p}_{s}.{args.sedzia}.json"
             if not os.path.exists(f"{REPO}/answers/{p}/{s}.md") or not (RAPORTY / f"{p}_{s}.json").exists():
                 continue
             if os.path.exists(cel):
@@ -302,7 +302,7 @@ def main():
 
     def prompt_dla(p, s):
         rap = json.loads((RAPORTY / f"{p}_{s}.json").read_text())
-        klucz = open(glob.glob(f"{REPO}/klucze/{p}_*.yaml")[0]).read()
+        klucz = open(glob.glob(f"{REPO}/keys/{p}_*.yaml")[0]).read()
         raport = raport_faktow_tekst(p, s, rap, pop_by.get((p, s), []), atomy_orz)
         return INSTR % (reguly, klucz, tresc_odpowiedzi(p, s)) + SEKCJA_RAPORTU.format(raport=raport, regula_krag=REGULA_KRAG), raport
 

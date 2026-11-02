@@ -28,7 +28,7 @@ REGION = arg("--region", "europe-west4")
 tylko = set(arg("--tylko").split(",")) if arg("--tylko") else None
 
 pytania = []
-for f in sorted(glob.glob(f"{REPO}/klucze/P*.yaml")):
+for f in sorted(glob.glob(f"{REPO}/keys/P*.yaml")):
     k = yaml.safe_load(open(f))
     if not tylko or k["id"] in tylko:
         pytania.append((k["id"], (k.get("tekst_benchmarkowy") or k["tekst_oryginalny"]).strip()))
@@ -72,7 +72,7 @@ for pid, tekst in pytania:
     except Exception as e:
         blad = f"{type(e).__name__}: {str(e)[:200]}"
     czas = round(time.time() - t0, 1)
-    kat = f"{REPO}/odpowiedzi/{pid}"
+    kat = f"{REPO}/answers/{pid}"
     os.makedirs(kat, exist_ok=True)
     meta = {"pytanie": pid, "system": f"Gemini {model} (Vertex AI, czysty model — bez narzędzi KTZR, " + ("W1: Google Search + URL context)" if web else "W0 bez wyszukiwania)"),
             "model": model, "projekt": PROJEKT, "region": REGION, "temperatura": temp,

@@ -9,7 +9,7 @@ i — jeśli jest — raport weryfikatora poparcia (JSON z poparcie.py). Liczy p
   - błędy z kart, których krok faktów w ogóle nie wyodrębnił (regex powołań).
 Reguły zamrożone (fakty.py / poparcie.py) — skrypt tylko liczy.
 
-Użycie: python -I ewaluacja_8pytan.py P01 P04 … --karty raporty/_bledy_z_kart_8pytan_2026-10-23.json [--poparcie plik.json] [--md wyjscie.md]
+Użycie: python -I ewaluacja_8pytan.py P01 P04 … --karty verification/runs/_bledy_z_kart_8pytan_2026-10-23.json [--poparcie plik.json] [--md wyjscie.md]
 """
 from __future__ import annotations
 
@@ -21,7 +21,8 @@ import unicodedata
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-RAPORTY = HERE.parents[1] / "verification" / "reports"
+RAPORTY = HERE.parents[1] / "verification" / "reports"   # raporty faktów per odpowiedź
+RUNS = HERE.parents[1] / "verification" / "runs"          # biegi zbiorcze
 SYSTEMY = ["chatgpt_codex_w0_r3", "chatgpt_codex_web_r3", "codex_astra6_w0_r3", "codex_astra6_web_r3",
            "codex_terra56_w0_r3", "codex_terra56_web_r3", "haiku_cli_w0_r3", "haiku_cli_w1_r3",
            "sonnet_cli_w0_r3", "sonnet_cli_w1_r3", "opus_cli_w0_r3", "opus_cli_w1_r3",
@@ -42,7 +43,7 @@ AKT_KOD = {"KPC": "KPC", "KC": "KC", "KK": "KK", "KW": "KW", "KPA": "KPA", "KPK"
            "PPSA": "PPSA", "PrAut": "PrAut", "u.k.s.c.": "u.k.s.c.", "u.k.w.h.": "u.k.w.h.", "AI Act": "AI Act", "RODO": "RODO",
            "u.k.k.": "u.k.k.", "u.n.n.c.": "UNNC"}     # UNNC: legal-cite feat/unnc (decyzja Adama nr 3, 2026-10-24)
 # decyzja Adama nr 6 (2026-10-24): kanoniczny plik poparcia biegu 24.10 to wersja przemapowana „b” (A2b); oryginał zachowany
-POPARCIE_KANONICZNE_2026_10_24 = RAPORTY / "_poparcie_8pytan_2026-10-24b.json"
+POPARCIE_KANONICZNE_2026_10_24 = RUNS / "_poparcie_8pytan_2026-10-24b.json"
 
 
 def nn(s: str | None) -> str:
@@ -77,7 +78,7 @@ def main():
     ap.add_argument("--json")
     ap.add_argument("--flagi-klasowe", action="store_true",
                     help="flagi kroku faktów liczone jako błąd tylko, gdy mapują się na klasę A6 (B1): nie_znaleziono, uchylony, cytat zgodny/bliższy wersji wcześniejszej; orzeczenia: inna_data, inny_sad")
-    ap.add_argument("--raporty", help="katalog raportów faktów (domyślnie meta_sedzia/raporty; do porównania przed/po: (archiwum wewnętrzne, poza repozytorium)…)")
+    ap.add_argument("--raporty", help="katalog raportów faktów (domyślnie verification/reports; do porównania przed/po: (archiwum wewnętrzne, poza repozytorium)…)")
     args = ap.parse_args()
     global RAPORTY, ERR_P, ERR_O
     if args.raporty:

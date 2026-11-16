@@ -1,4 +1,4 @@
-"""Dane do raportu „LexAlpha Lab · Benchmark 02 · pytania prawne” (wersja 1.0 z 27.10.2026; karty w stanie z 25.10.2026).
+"""Dane do raportu „LexAlpha Lab · Benchmark 02 · pytania prawne” (wersja 1.2 z 9.11.2026; pierwsza wersja 27.10.2026; karty w stanie z 25.10.2026).
 
 Czyta wyłącznie pliki benchmarku: karty ocen (cards/<P>_<system>.md), klucze (keys/*.yaml),
 koszt na odpowiedź (costs/koszt_2026-10-18_odpowiedzi.csv, cennik z 2026-10-18), oceny sędziów-modeli
@@ -56,7 +56,9 @@ RE_H = re.compile(r"hallucinated:\s*\**\s*(?:(?:tak|nie)\s*→\s*\**)?(tak|nie)"
 
 
 def pl(x, cyfry=1):
-    """Liczba w zapisie polskim (przecinek dziesiętny)."""
+    """Liczba w zapisie polskim (przecinek dziesiętny); NaN (np. nieokreślone κ) jako „n/o”."""
+    if x != x:
+        return "n/o"
     return f"{x:.{cyfry}f}".replace(".", ",")
 
 
@@ -93,7 +95,9 @@ def karta(p, s):
 
 K = {(p, s): karta(p, s) for p in PYT for s, *_ in SYSTEMY}
 for k in K.values():
-    k["pu"] = (k["a6"] == 1 and k["ar"] == 2)
+    # definicja kanoniczna (SPEC 1.0.5): A6 = 1, pełny rdzeń i co najmniej jedno powołanie sprawdzone w tekście urzędowym
+    k["pu"] = (k["a6"] == 1 and k["ar"] == 2 and k["spr"][0] >= 1)
+    k["pu_bez_niespr"] = k["pu"] and k["spr"][0] == k["spr"][1]  # wariant: żadne powołanie niesprawdzone (issue #3)
     k["spojnosc"] = (k["hal"] == (k["a6"] == 0)) or k["blokada"]
 
 # --- kontrola z generatorem zestawienie_tier.py ---
@@ -159,6 +163,8 @@ for wa in ("W0", "W1"):
     LICZBY[f"hal_{wa}"] = sum(S[s]["hal"] for s in ss); LICZBY[f"pu_{wa}"] = sum(S[s]["pu"] for s in ss)
     LICZBY[f"koszt_{wa}"] = sum(S[s]["koszt"] for s in ss)
 LICZBY["hal"] = LICZBY["hal_W0"] + LICZBY["hal_W1"]; LICZBY["pu"] = LICZBY["pu_W0"] + LICZBY["pu_W1"]
+LICZBY["pu_bez_niesprawdzonych"] = sum(1 for k in K.values() if k["pu_bez_niespr"])
+assert LICZBY["pu"] == 46 and LICZBY["pu_bez_niesprawdzonych"] == 44, (LICZBY["pu"], LICZBY["pu_bez_niesprawdzonych"])
 LICZBY["koszt"] = LICZBY["koszt_W0"] + LICZBY["koszt_W1"]
 LICZBY["pu_min"] = min(S[s]["pu"] for s in NAZWA); LICZBY["pu_max"] = max(S[s]["pu"] for s in NAZWA)
 LICZBY["spojnosc_bledy"] = [f"{k['p']}_{k['s']}" for k in K.values() if not k["spojnosc"]]
@@ -253,7 +259,7 @@ def kappa(pairs):
     n = len(pairs)
     po = sum(a == b for a, b in pairs) / n; pa = sum(a for a, _ in pairs) / n; pb = sum(b for _, b in pairs) / n
     pe = pa * pb + (1 - pa) * (1 - pb)
-    return (po - pe) / (1 - pe) if pe < 1 else 1.0
+    return (po - pe) / (1 - pe) if pe < 1 else float("nan")  # 1.0.3: przy p_o = p_e = 1 κ nieokreślone (0/0), raportujemy „n/o”
 
 
 def wczytaj(j):
@@ -282,20 +288,22 @@ def stat_sedziego(j, zbior):
         return None
     wy = [v.get("_meta", {}).get("wyszukan") for v in xs.values()]
     wy = [x for x in wy if x is not None]
+    if j.startswith(("sol61", "astra6")):  # 1.0.3: Codex liczył zdarzenia start+koniec; akcje sieciowe = n / 2
+        wy = [x / 2 for x in wy]
     ns = [len(v.get("niesprawdzone") or []) for v in xs.values()]
     return {"n": len(pairs), "zg": sum(a == b for a, b in pairs) / len(pairs) * 100, "k": kappa(pairs),
             "fa": sum(b and not a for a, b in pairs), "pom": sum(a and not b for a, b in pairs),
             "wy": sum(wy) / len(wy) if wy else None, "wy0": sum(1 for x in wy if x == 0), "ns": sum(ns) / len(ns)}
 
 
-w = ["| Sędzia | Zbiór | n | Zgodność | κ | Fałszywe alarmy | Pominięcia | Wyszukań na kartę | Karty bez wyszukania | „Niesprawdzone” na kartę |",
+w = ["| Sędzia | Zbiór | n | Zgodność | κ | Fałszywe alarmy | Pominięcia | Wyszukań na kartę (Codex: akcje sieciowe) | Karty bez wyszukania | „Niesprawdzone” na kartę |",
      "|---|---|---|---|---|---|---|---|---|---|"]
 for j, nm in SEDZIOWIE:
     for zb, lab in ((ROZSZ, "rozszerzenie (P01, P04, P08–P10)"), (PILOT, "pilotaż (P05–P07, P12, P13)")):
         x = stat_sedziego(j, zb)
         if not x:
             continue
-        LICZBY[f"kappa_{j}_{'rozsz' if zb is ROZSZ else 'pilot'}"] = round(x["k"], 2)
+        LICZBY[f"kappa_{j}_{'rozsz' if zb is ROZSZ else 'pilot'}"] = round(x["k"], 2) if x["k"] == x["k"] else None  # None = nieokreślone
         w.append(f"| {nm} | {lab} | {x['n']} | {pl(x['zg'], 0)} % | {pl(x['k'], 2)} | {x['fa']} | {x['pom']} | "
                  f"{pl(x['wy'], 1) if x['wy'] is not None else 'n/d'} | {x['wy0']} | {pl(x['ns'], 2)} |")
 TABELE["SEDZIOWIE"] = "\n".join(w)
@@ -471,7 +479,7 @@ def _boot_ci(pairs_by_q):
             k = kappa(pr)
             if k == k:
                 vals.append(k)
-        vals.sort(); _CI[klucz] = (vals[int(0.025 * len(vals))], vals[int(0.975 * len(vals))])
+        vals.sort(); _CI[klucz] = (vals[int(0.025 * len(vals))], vals[int(0.975 * len(vals))]) if vals else (float("nan"), float("nan"))  # 1.0.3: κ nieokreślone
     return _CI[klucz]
 
 
@@ -479,7 +487,7 @@ def _wiersz(nazwa, zbior, pairs_by_q):
     pr = [p for q in pairs_by_q for p in pairs_by_q[q]]; n = len(pr)
     tp = sum(a and b for a, b in pr); fp = sum((not a) and b for a, b in pr); fn = sum(a and (not b) for a, b in pr); tn = sum((not a) and (not b) for a, b in pr)
     lo, hi = _boot_ci(pairs_by_q)
-    return f"| {nazwa} | {zbior} | {n} | {tp + fn} | {tp} | {fp} | {fn} | {pl(kappa(pr), 2)} | {pl(lo, 2)}–{pl(hi, 2)} |"
+    return f"| {nazwa} | {zbior} | {n} | {tp + fn} | {tp} | {fp} | {fn} | {pl(kappa(pr), 2)} | {(pl(lo, 2) + '–' + pl(hi, 2)) if lo == lo else 'n/o'} |"
 
 
 def _pary(J, keys):

@@ -58,8 +58,11 @@ def pola_mieszane(rekordy):
 POLA_JSON = {}  # plik → pola zapisane jako tekst JSON (opis w data/README.md)
 
 
+ZAWSZE_JSON = {"answers.jsonl": ["tokens", "tool_events"], "cards.jsonl": ["criteria"]}  # 1.0.3: struktura różni się między rekordami (różne klucze)
+
+
 def zapisz(nazwa, rekordy):
-    mieszane = pola_mieszane(rekordy)
+    mieszane = sorted(set(pola_mieszane(rekordy)) | set(ZAWSZE_JSON.get(nazwa, [])))
     POLA_JSON[nazwa] = mieszane
     with open(os.path.join(OUT, nazwa), "w", encoding="utf-8") as f:
         for r in rekordy:
@@ -87,10 +90,30 @@ for f in sorted(glob.glob("keys/P*.yaml")):
                    "accepted_variants": d.get("akceptowane_warianty"), "required_bases": d.get("podstawy_wymagane"),
                    "admissible_bases": d.get("podstawy_dopuszczalne"), "citation_patterns": d.get("wzorce_cytatow"),
                    "rubric": d.get("rubryka"), "penalties": d.get("kary"), "key_sources": d.get("zrodla_klucza"),
-                   "verification": d.get("weryfikacja"), "scoring_rules_2026_10_18": d.get("reguly_oceny_20261018")})
+                   "verification": d.get("weryfikacja"), "scoring_rules_2026_10_18": d.get("reguly_oceny_20261018"),
+                   "scoring_rule_b10": d.get("reguly_oceny_b10"), "amendments_checked_until": d.get("nowele_sprawdzone_do"),
+                   "key_valid_until": d.get("klucz_aktualny_do"), "amendments_after_consolidated_text": d.get("nowele_po_tj")})
 zapisz("questions.jsonl", pytania); zapisz("keys.jsonl", klucze)
 
 # ---------- answers.jsonl ----------
+def _codex(s):
+    return "codex" in s
+
+
+def _wyszukania(s, n):
+    """1.0.3: Codex CLI zapisuje każde zdarzenie narzędzia dwa razy (start i koniec); licznik B02 liczył oba → n / 2."""
+    if n is None or not _codex(s):
+        return n
+    assert n % 2 == 0, (s, n)
+    return n // 2
+
+
+def _jednostka(s, n):
+    if n is None:
+        return None
+    return "web actions (searches + page opens)" if _codex(s) else "search queries"
+
+
 odpowiedzi = []
 for p in dane.PYT:
     for s in SYS:
@@ -99,9 +122,9 @@ for p in dane.PYT:
         fm = yaml.safe_load(m.group(1)); body = m.group(2)
         odp = re.search(r"## Odpowiedź\n+(.*)", body, re.S)
         koszt = dane.KOSZT.get((p, s))
-        odpowiedzi.append({"id": f"{p}_{s}", "question_id": p, **SYS[s], "model_id": fm.get("model"),
+        odpowiedzi.append({"id": f"{p}_{s}", "question_id": p, **SYS[s], "model_id": fm.get("model") or fm.get("model_id"),
                            "reasoning_effort": fm.get("wysilek_rozumowania"), "run_date": str(fm.get("data_odpowiedzi")),
-                           "duration_s": fm.get("czas_s"), "tokens": fm.get("tokeny"), "searches": fm.get("liczba_wyszukan"),
+                           "duration_s": fm.get("czas_s"), "tokens": fm.get("tokeny"), "searches": _wyszukania(s, fm.get("liczba_wyszukan")), "searches_unit": _jednostka(s, fm.get("liczba_wyszukan")),
                            "other_tools": fm.get("inne_narzedzia"), "tool_events": fm.get("zdarzenia"), "error": fm.get("blad"),
                            "system_prompt": fm.get("wstep"), "cost_usd": koszt[0] if koszt else None,
                            "cost_is_lower_bound": koszt[1] if koszt else None, "text": odp.group(1).strip() if odp else body.strip(),
@@ -123,14 +146,22 @@ for p in dane.PYT:
             kryteria[nazwa.strip()] = {"score": float(mm.group(1).replace("½", "0.5")) if mm else None,
                                        "max": int(mm.group(2)) if mm else None, "raw": pkt, "evidence": dowod.strip()}
         naglowek = re.search(r"^# (.*)$", t, re.M)
+        sp = re.search(r"Specyfikacja oceny:?\s*(.+)", t)
+        sp_txt = sp.group(1).strip() if sp else None
+        sp_ver = None
+        if sp_txt:
+            mv = re.match(r"v?(\d+\.\d+(?:\.\d+)?)", sp_txt)
+            sp_ver = (mv.group(1) if mv else None)
+            if sp_ver and "B1–B7" in sp_txt:
+                sp_ver += "+B1–B7"
         ocen = re.search(r"- Oceniający: (.*)", t)
         karty.append({"answer_id": f"{p}_{s}", "question_id": p, **SYS[s], "card_title": naglowek.group(1) if naglowek else None,
-                      "A_pct": k["A"], "B_pct": k["B"], "hallucinated": k["hal"], "A6": k["a6"], "A6_classes": k["typ"],
+                      "A_pct": k["A"], "B_pct": k["B"], "hallucinated": k["hal"], "A6": k["a6"], "A6_classes": ([] if k["a6"] == 1 else k["typ"]), "A6_classes_before_review": (k["typ"] if k["a6"] == 1 and k["typ"] else None),
                       "A6_scope": k["zakres"], "A6_origin": k["poch"], "correctly_grounded": bool(k["pu"]),
                       "core_score": k["ar"], "penalties_applied": k["kary"], "provider_block": k["blokada"],
                       "source_verification_label": k["zrodlo"], "citations_checked": k["spr"][0], "citations_total": k["spr"][1],
                       "criteria": kryteria, "reviewer": ocen.group(1).strip() if ocen else None,
-                      "card_version": CARD_VERSION, "card_file": f"cards/{p}_{s}.md"})
+                      "card_version": CARD_VERSION, "spec_version": sp_ver, "spec_label": sp_txt, "card_file": f"cards/{p}_{s}.md"})
 zapisz("cards.jsonl", karty)
 
 # ---------- judgments.jsonl ----------

@@ -1,7 +1,7 @@
 # Cennik API do metryki kosztu benchmarku LexAlpha (decyzja A. Piotrowskiego 2026-10-18).
 # Wyłącznie oficjalne strony cenników dostawców, odczyt 2026-10-18 (curl, surowy HTML -> tekst).
 # Jednostka: USD za 1 mln tokenów (MTok), chyba że pole mówi inaczej. null = brak ceny w oficjalnym
-# źródle (powód w polu *_powod). Kopie odczytanych stron: scratchpad sesji (nie w repo).
+# źródle (powód w polu *_powod). Kopie odczytanych stron: kopie robocze autorów, poza repozytorium.
 meta:
   data_odczytu: '2026-10-18'
   waluta: USD

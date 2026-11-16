@@ -12,3 +12,7 @@ reports/benchmark-02/src/*_print.html
 reports/benchmark-02/lexalpha_lab_benchmark_02.html
 costs/koszt_2026-10-18.csv
 costs/koszt_2026-10-18.md
+# 1.0.3: miejsca, w których skrypty weryfikacji zapisują dane z wewnętrznej bazy albo konfigurację dostępu
+tools/verification/atomy/
+tools/_bramka_ro_log.jsonl
+benchmark.env

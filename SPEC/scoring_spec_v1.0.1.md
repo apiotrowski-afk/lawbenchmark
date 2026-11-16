@@ -1,14 +1,14 @@
 # Benchmark — tier „pytania”
 
-**Wersja specyfikacji oceny: 1.0.4 (2026-10-29).** Zasady punktacji nie zmieniły się od wersji 1.0.1 (2026-10-11), dlatego karty Benchmarku 02 podają wersję 1.0.1; wersje 1.0.2–1.0.4 dodają metrykę pomocniczą, pola opisowe i nazwy (historia na końcu pliku). Każda karta podaje wersję, według której ją oceniono. Zmiana reguł = nowa wersja z datą i wpisem w sekcji „Historia wersji”; kart ocenionych według starszej wersji nie porównuje się z nowymi bez przeliczenia. (Do 2026-10-29 nagłówek brzmiał: „1.0.1 (1.0 zamrożona 2026-10-11; 1.0.1 = doprecyzowania A-R z przykładami granicznymi, 2026-10-11)”.)
+**Wersja specyfikacji oceny: 1.0.5 (2026-11-09).** Karty Benchmarku 02 podają w opisie wersję, według której je wypełniono (1.0 albo 1.0.1, w kilku wariantach opisu); od wydania danych 1.0.3 każda karta w `data/cards.jsonl` ma też pole maszynowe `spec_version`. Wszystkie wyniki raportu liczono na kartach w stanie z 25.10.2026, z regułami z przeglądu kart rozszerzenia (B1–B12, nr 19; wersje 1.0.2–1.0.3), więc reguły oceny zmieniały się po 1.0.1 — wcześniejsze zdanie nagłówka, że „zasady punktacji nie zmieniły się od wersji 1.0.1”, było nieścisłe (issue #3, poprawione 2026-11-09). Zmiana reguł = nowa wersja z datą i wpisem w sekcji „Historia wersji”; reguła oceny zapisana w kluczu podbija wersję klucza. (Do 2026-10-29 nagłówek brzmiał: „1.0.1 (1.0 zamrożona 2026-10-11; 1.0.1 = doprecyzowania A-R z przykładami granicznymi, 2026-10-11)”.)
 
 Krótkie pytania prawne w takiej postaci, w jakiej prawnik wpisuje je do czatu:
 z literówkami, skrótami i czasem z błędną przesłanką. Uzupełnia kazusy
-(`../skd/`). Kazus mierzy rozumowanie łańcuchowe na jednym stanie faktycznym;
+(Benchmark 01, `cases/skd-01/`). Kazus mierzy rozumowanie łańcuchowe na jednym stanie faktycznym;
 pytanie mierzy, czy system trafia w sedno, nie zmyśla i nie przytakuje.
 
 Wzorzec: rubryka per zadanie jak w Harvey BigLaw Bench, na stałym szkielecie
-naszych metryk z kazusu (metryki kazusu, poza tym repozytorium). Ocena ręczna. Model może wstępnie
+naszych metryk z kazusu (`cases/skd-01/METRYKI.md`). Ocena ręczna. Model może wstępnie
 wypełnić kartę, ale każdy werdykt zatwierdza prawnik.
 
 ## Pliki
@@ -47,7 +47,7 @@ mieć wbudowaną pułapkę. W kluczu jest wtedy pole `pulapka`.
 | A2 | podstawy z `podstawy_wymagane` | 0/1 (0 przy braku którejkolwiek albo przy błędnej podstawie) |
 | A3 | cytaty przepisów | 0/1, **tylko gdy system cytuje**; brak cytatu = n/d |
 | A5 | sporność | 0/1, **tylko gdy `sporne: true`** |
-| A6 | halucynacje | **1 / 0** od 2026-10-11 (sekcja „A6 po decyzji z 2026-10-11”); z polami `A6_typ` i `A6_pochodzenie`. Poprzednio: 1 / ½ / 0 jak w kazusie (najgorszy przypadek); granica ½/0 i pusta odpowiedź = 0 wg `../skd/METRYKI.md` (2026-10-09); obok punktu obowiązkowe pole `A6_typ` (klasy F/T/W/O/S, sekcja niżej, 2026-10-10) |
+| A6 | halucynacje | **1 / 0** od 2026-10-11 (sekcja „A6 po decyzji z 2026-10-11”); z polami `A6_typ` i `A6_pochodzenie`. Poprzednio: 1 / ½ / 0 jak w kazusie (najgorszy przypadek); granica ½/0 i pusta odpowiedź = 0 wg `cases/skd-01/METRYKI.md` (2026-10-09); obok punktu obowiązkowe pole `A6_typ` (klasy F/T/W/O/S, sekcja niżej, 2026-10-10) |
 | A8 | ramy | 0 / ½ / 1 (definicje w sekcji „A8 — ramy”, 2026-10-10) |
 | R | elementy `rubryka` | +1 za każdy |
 | K | elementy `kary` | −1 za każdy (wynik A nie spada poniżej 0) |
@@ -450,8 +450,15 @@ pole `koszt_usd_rownowaznik` zapisane przez CLI. Dla Codex koszt wyliczamy z tok
 Vertex AI (Gemini) to koszt faktyczny, bo projekt GCP kancelarii płaci za każde wywołanie. Liczymy go
 w regionie użytym w biegu (r3: `global`) i w cenie obowiązującej w dniu cennika, także promocyjnej.
 
+**Definicja „poprawnie ugruntowanej” (jedyna, kanoniczna od 1.0.5; kod raportu `dane.py` liczy ją według tych trzech warunków).** Odpowiedź jest
+poprawnie ugruntowana, gdy łącznie: (1) A6 = 1 (żadne powołanie nie ma błędu F, T, W ani S), (2) A-R = 2 (pełny
+rdzeń), (3) co najmniej jedno powołanie sprawdzono w tekście urzędowym. Powołanie niesprawdzone nie jest ani błędem,
+ani potwierdzeniem i nie odbiera statusu; wariant „bez powołań niesprawdzonych” raportujemy osobno (B02: 44 ze 160
+wobec 46). Do 1.0.4 ta sekcja podawała tylko warunki (1) i (2), README trzy, a aneks B.8 artykułu v1.2 sprzeczną
+wersję; w danych B02 wszystkie 46 odpowiedzi spełniają też warunek (3), więc wyniki się nie zmieniają (issue #3).
+
 **Główna metryka: koszt na poprawnie ugruntowaną odpowiedź.** Za poprawnie ugruntowaną uznajemy
-odpowiedź, której karta ma A6 = 1 i A-R = 2. Metryka to łączny koszt systemu na danym zbiorze pytań
+odpowiedź spełniającą definicję powyżej. Metryka to łączny koszt systemu na danym zbiorze pytań
 podzielony przez liczbę takich odpowiedzi. Tani system, który rzadko trafia, wychodzi drogo, i o to
 chodzi. System bez ani jednej poprawnie ugruntowanej odpowiedzi ma tę metrykę „n/d”, a nie „∞” ani 0.
 Pomocniczo podajemy koszt łączny, średni na odpowiedź i medianę czasu.
@@ -474,6 +481,22 @@ Pomocniczo podajemy koszt łączny, średni na odpowiedź i medianę czasu.
   Skrypt Vertex nie zapisywał tokenów treści z url_context (`tool_use_prompt_token_count`), więc koszt
   wejścia Gemini W1 jest zaniżony. Do poprawy w `eval_gemini_vertex.py` przed kolejnym biegiem.
 - *Brak danych* oznaczamy jako „n/d”, nigdy jako zero.
+
+## Reguły klucza B1–B7 (decyzje Adama 2026-10-18)
+
+Numeracja B1–B7 oznacza listę decyzji z 18.10.2026 dotyczących kluczy rozszerzenia; nie myl z kryteriami bloku B
+(B1 przydatność, B2 sposób sformułowania konkluzji). Treść reguł jest zapisana w polu `reguly_oceny_20261018`
+kluczy (w `data/keys.jsonl`: `scoring_rules_2026_10_18`) i streszczona poniżej. Reguła B6 (pierwotny rdzeń P09/P10:
+„ogólny zapis nie przenosi praw do żadnego pola”) została uchylona tego samego dnia przy kluczach P09 v4 i P10 v3.
+- **Wspólna dla P01, P04, P08, P09, P10:** A3 ocenia tylko tekst w cudzysłowie przypisany przepisowi; parafraza = n/d.
+- **P01:** R4 — wystarczy wskazać choćby jeden z art. 120 § 1, 122 § 1, 124 § 1 k.w. jako przepis z tym samym progiem.
+- **P04:** A-R — „zasadniczo ostateczność, ewentualnie też prawomocność” = 1; samo „potwierdzenie ostateczności” = 0;
+  K3 tylko przy wprost wykluczonej prawomocności; A8 — gałąź „postanowienie sądu” uprawniona; R3 wymaga, by organ
+  zaświadczał prawomocność.
+- **P08:** R6 — odwołanie do wytycznych KE albo kodeksu praktyk bez zaznaczenia, że to soft law = 0.
+- **P09, P10:** rdzeń warunkowy — „nie wystarcza co do zasady, ale zakres może wynikać z wykładni (art. 65 k.c.)” =
+  A-R 2, B2 = 1; „wystarcza” bez zastrzeżenia co do art. 41 ust. 2 = rdzeń przegrany (P10: kara K1); powołania SN
+  III CK 124/05, I CSK 104/18, I CSK 596/17, IV CSKP 44/21 z tezą zgodną z rdzeniem = zweryfikowane.
 
 ## Reguły z przeglądu kart rozszerzenia (decyzje Adama 2026-10-18)
 
@@ -615,8 +638,7 @@ Plan na wersję 1.1 (z przeglądu literatury o ewaluacji, 2026-10-11):
     przeniesie je do pisma i naraża się na zarzut przeciwnika albo sądu. Propozycja: dopisać do katalogu
     „orzeczenie albo przepis przytoczony jako argument, który prawnik może przenieść do pisma”. Karta
     wzorcowa: `P13_chatgpt_codex_web_r3` (I CZ 83/09; dziś B1 = 2, jednomyślnie). Wyniki i sondy
-    z ręcznego przeglądu 2026-10-17: `oceny/_sedziowie/PRZEGLAD_RECZNY_2026-10-13.md`,
-    `../_sondy/P07_haiku_2026-10-17/WYNIK.md`.
+    z ręcznego przeglądu 2026-10-17: materiały robocze autorów (poza repozytorium).
 
 Odniesienia metodologiczne: MQM (Freitag i in. 2021), AIS (Rashkin i in.), ALCE (Gao i in. 2023),
 FActScore (Min i in. 2023), halucynacje wewnętrzne/zewnętrzne (Maynez i in. 2020), model jako
@@ -624,6 +646,10 @@ sędzia (Zheng i in. 2023; Panickssery i in. 2024), statystyka ewaluacji (Miller
 jakość benchmarków (Reuel i in. 2024; Bean i in. 2025), RegLab (Magesh i in. 2025).
 
 ## Historia wersji
+
+- **1.0.5 (2026-11-09; wydanie danych 1.0.3, issues #1–#4)** — jedna definicja „poprawnie ugruntowanej” (trzy warunki)
+  z wariantem „bez powołań niesprawdzonych”; sekcja z regułami B1–B7; poprawiony nagłówek (reguły zmieniały się po 1.0.1);
+  pole maszynowe `spec_version` w danych kart; reguła B10 zapisana w kluczach P09 i P10. Punktacja kart bez zmian.
 
 - **1.0.4 (2026-10-29)** — B2 pod nazwą „sposób sformułowania konkluzji” zamiast „kalibracja pewności”; definicja, punktacja i pola bez zmian. Numeracja wersji: decyzje z 18.10 i 25.10 dostają osobne numery (1.0.2, 1.0.3) zamiast wpisów „w ramach 1.0.1”; karty Benchmarku 02 zachowują oznaczenie 1.0.1, bo zasady punktacji od tej wersji nie uległy zmianie.
 

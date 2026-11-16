@@ -112,6 +112,11 @@ def koszt_codex(fm, c, narz):
     wynik["k_wyjscie"] = (t["output_tokens"] - rozum) * stawki["wyjscie"] / M
     wynik["k_rozumowanie"] = rozum * stawki["wyjscie"] / M
     n = fm.get("liczba_wyszukan")
+    if n is not None:
+        # 1.0.3 (errata do artykułu v1.2, pkt 2): Codex CLI zapisuje każde zdarzenie narzędzia dwa razy
+        # (item.started i item.completed); licznik B02 liczył oba. Akcje sieciowe (wyszukania + otwarcia stron) = n / 2.
+        assert n % 2 == 0, f"nieparzysty licznik Codex: {n}"
+        n = n // 2
     if n is None:
         wynik["k_narzedzia"] = None
         dolna = True
@@ -301,12 +306,12 @@ def main():
 
     # --- zapis CSV ---
     with open(os.path.join(BENCH, f"koszt_{DATA}.csv"), "w", newline="", encoding="utf-8") as fh:
-        wr = csv.DictWriter(fh, fieldnames=list(tabela[0]))
+        wr = csv.DictWriter(fh, fieldnames=list(tabela[0]), lineterminator="\n")
         wr.writeheader()
         for t in tabela:
             wr.writerow({k: csv_wartosc(v) for k, v in t.items()})
     with open(os.path.join(BENCH, f"koszt_{DATA}_odpowiedzi.csv"), "w", newline="", encoding="utf-8") as fh:
-        wr = csv.DictWriter(fh, fieldnames=list(wiersze[0]))
+        wr = csv.DictWriter(fh, fieldnames=list(wiersze[0]), lineterminator="\n")
         wr.writeheader()
         for w in wiersze:
             wr.writerow({k: csv_wartosc(v) for k, v in w.items()})
@@ -362,7 +367,8 @@ def main():
     L += ["", "## Uwagi do danych", "",
           "- Codex: tokeny to suma wszystkich wywołań w sesji; `cached_input_tokens` jest częścią `input_tokens`, "
           "`reasoning_output_tokens` częścią `output_tokens` (sprawdzone na 60 plikach). Opłata za web search = "
-          "`liczba_wyszukan` × $0.01; liczba obejmuje też zdarzenia web_search z pustym zapytaniem (otwarcia stron).",
+          "`liczba_wyszukan` / 2 × $0.01 (1.0.3: surowy log Codex zapisuje start i koniec każdej akcji); liczba obejmuje też "
+          "zdarzenia web_search z pustym zapytaniem (otwarcia stron), więc to akcje sieciowe, nie same wyszukania.",
           "- Claude CLI W1: `server_tool_use.web_search_requests` = 0 we wszystkich odpowiedziach mimo WebSearch/WebFetch "
           "(narzędzia klienta Claude Code) — opłata za wyszukiwanie n/d, koszt to dolna granica.",
           "- Vertex W1: skrypt `eval_gemini_vertex.py` nie zapisuje `tool_use_prompt_token_count` (treść stron z url_context), "

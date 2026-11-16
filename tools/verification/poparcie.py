@@ -6,7 +6,7 @@ istnieje; ten krok mówi, czy źródło MÓWI to, co model mu przypisuje.
 
 Przebieg:
   1. Atomy orzeczeń (OKF-Legal, typ Racja): tezy z wewnętrznej bazy orzeczeń (poza repozytorium) ("tabela_tez", tylko SELECT)
-     + pełny tekst ((tekst orzeczenia) albo SAOS). Model (Gemini na Vertex) wskazuje cytat-kotwicę,
+     + pełny tekst orzeczenia (z bazy albo z SAOS). Model (Gemini na Vertex) wskazuje cytat-kotwicę,
      KOD sprawdza obecność verbatim. Wyrok bez tez w bazie → atomizacja modelem na bieżąco z tekstu.
      Zapis: atomy/<sygnatura>/racja-NN.md (katalog roboczy poza repozytorium) (+ index.md).
   2. Atomy przepisów: brzmienie jednostki z legal-cite (to samo źródło co fakty.py) = jeden atom,
@@ -317,9 +317,13 @@ class WewnetrznaBazaRO:
         self.log: list[str] = []          # typy wykonanych zapytań (do raportu)
         self.lock = threading.Lock()
         sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-        from bramka_ro_poza_repo import query, BramkaRoError
         global SQL
-        from zapytania_poza_repo import SQL   # treść zapytań (schemat bazy) poza repozytorium, obok bramki
+        try:
+            from bramka_ro_poza_repo import query, BramkaRoError
+            from zapytania_poza_repo import SQL   # treść zapytań (schemat bazy) poza repozytorium, obok bramki
+        except ImportError as e:  # publiczna kopia repo: bramki nie ma — gałąź orzeczeń pominięta (jak w fakty.py)
+            self.error = type(e).__name__
+            return
         self._query, self._err = query, BramkaRoError
         self.conn = True                  # „połączenie” = bramka dostępna; ustalane kontrolą niżej
         ro = self._select("kontrola_read_only",

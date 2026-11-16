@@ -7,7 +7,7 @@ tworzy raport faktów: verification/reports/<P>_<system>.json + krótki .md.
 Kod, bez LLM:
   1. ekstrakcja powołań regexem: przepisy (art./ust./§/pkt + akt), sygnatury orzeczeń,
      publikatory Dz.U., daty;
-  2. przepisy → legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl), NOWA wersja; nie kopia lokalna):
+  2. przepisy → legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl), NOWA wersja; nie kopia lokalna:
      istnienie jednostki, fragment urzędowy, źródło/wersja, porównanie cytatu,
      brzmienie z poprzedniego t.j. w HTML (jedyna wcześniejsza wersja, jaką legal-cite trzyma);
   3. orzeczenia → SAOS API, a gdy brak (albo brak w sądzie podanym przez model) → wewnętrzna baza orzeczeń
@@ -990,7 +990,7 @@ class WewnetrznaBazaDB:
             if k in seen:
                 continue
             seen.add(k)
-            out.append({"zrodlo": "baza wewnętrzna", "id": rid, "sad": court, "data": k[1], "_tekst": txt or ""})
+            out.append({"zrodlo": "baza wewnętrzna", "id": "(id wewnętrzne pominięte)", "sad": court, "data": k[1], "_tekst": txt or ""})  # 1.0.3: identyfikator rekordu bazy nie trafia do raportów
         return out
 
 
@@ -1335,7 +1335,7 @@ async def build_report(p: str, system: str, db: WewnetrznaBazaDB, client: httpx.
         "meta": {"pytanie": p, "system": system, "plik_odpowiedzi": str(path.relative_to(BENCH)),
                  "data_stanu_prawnego": data_stanu, "wygenerowano": dt.datetime.now().isoformat(timespec="seconds"),
                  "czas_s": round(time.monotonic() - t0, 1),
-                 "zrodla": {"przepisy": "legal-cite (legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl)) — najnowszy t.j./wersja skonsolidowana na dziś; "
+                 "zrodla": {"przepisy": "legal-cite (https://github.com/apiotrowski-afk/legal-cite-pl) — najnowszy t.j./wersja skonsolidowana na dziś; "
                                          "wcześniejsze brzmienie tylko z poprzedniego t.j. w HTML",
                             "orzeczenia": "SAOS API; gdy brak — wewnętrzna baza orzeczeń (odczyt)"},
                  "uwaga": "raport faktów bez oceny merytorycznej; flagi to sygnały do sprawdzenia, nie rozstrzygnięcia"},

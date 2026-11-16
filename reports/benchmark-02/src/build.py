@@ -20,7 +20,7 @@ OUT = os.path.dirname(SP)
 sys.path.insert(0, SP)
 import dane  # noqa: E402  (liczy wszystko przy imporcie i sprawdza zgodność z zestawienie_tier.py)
 
-DATA = "wersja 1.1 · 29.10.2026"
+DATA = "wersja 1.2 · 9.11.2026"
 RUNHEAD = "LEXALPHA LAB &nbsp;/&nbsp; BENCHMARK 02 · PYTANIA PRAWNE"
 L = dane.LICZBY
 
@@ -39,7 +39,7 @@ def wstaw(m):
     return dane.TABELE[k]
 doc = re.sub(r"\{\{TAB:([A-Z_0-9]+)\}\}", wstaw, doc)
 # liczby z dane.LICZBY w tekście: {{USD:klucz}} → kwota z dwoma miejscami po przecinku (przeliczana przy każdej budowie)
-doc = re.sub(r"\{\{USD:([a-z_0-9]+)\}\}", lambda m: dane.pl(dane.LICZBY[m.group(1)], 2), doc)
+doc = re.sub(r"\{\{USD:([A-Za-z_0-9]+)\}\}", lambda m: dane.pl(dane.LICZBY[m.group(1)], 2), doc)
 assert "{{" not in doc
 
 tytul = re.match(r"# (.+)", doc).group(1)
@@ -144,11 +144,11 @@ tiles = "".join(f'<div class="tile"><b>{html.escape(b)}</b><span>{html.escape(s)
 
 cover = f"""
 <section class="cover">
-  <div class="cover-head"><img class="logo" src="{LOGO_W}" alt="LexAlpha"><div><div class="cover-brand">L E X A L P H A &nbsp;L A B</div><div class="cover-kicker">PAŹDZIERNIK 2026 &nbsp;/&nbsp; BENCHMARK 02 &nbsp;·&nbsp; PYTANIA PRAWNE</div></div></div>
+  <div class="cover-head"><img class="logo" src="{LOGO_W}" alt="LexAlpha"><div><div class="cover-brand">L E X A L P H A &nbsp;L A B</div><div class="cover-kicker">LISTOPAD 2026 &nbsp;/&nbsp; BENCHMARK 02 &nbsp;·&nbsp; PYTANIA PRAWNE</div></div></div>
   <h1>Czy odpowiedzi modeli AI są poprawnie ugruntowane w polskim prawie?</h1>
   <div class="bar"></div>
   <p class="cover-sub">Benchmark 02: dziesięć krótkich pytań prawnych, osiem modeli, bez narzędzi i z wyszukiwaniem.</p>
-  <p class="cover-sub2">Każde powołanie przepisu i orzeczenia sprawdzone w źródle urzędowym na dzień stanu prawnego 1.10.2026. Te same odpowiedzi ocenione przez pięciu sędziów-modeli i przez warstwę weryfikacji powołań. Zbiór kalibracyjny: dziesięć pytań, jedna seria, reguły oceny zapisane z datą.</p>
+  <p class="cover-sub2">Powołania przepisów i orzeczeń sprawdzone w źródle urzędowym na dzień stanu prawnego 1.10.2026 (1 436 z 1 454). Te same odpowiedzi ocenione przez pięciu sędziów-modeli i przez warstwę weryfikacji powołań. Zbiór kalibracyjny: dziesięć pytań, jedna seria, reguły oceny zapisane z datą.</p>
   <div class="grupy">
     <div class="grupa"><div class="grupa-h">OpenAI</div><b>GPT-6.1 Sol</b><b>GPT-6 Astra</b><b>GPT-5.6 Terra</b><span>Codex CLI, rozumowanie medium</span></div>
     <div class="grupa"><div class="grupa-h">Anthropic</div><b>Claude Opus 5.5</b><b>Claude Sonnet 5.5</b><b>Claude Haiku 5.5</b><span>Claude Code CLI</span></div>
@@ -165,7 +165,7 @@ CSS_SCREEN = "@media (max-width:640px){.grupy{grid-template-columns:1fr}.tiles{g
 CSS_PRINT = """
 @page{size:A4;margin:18mm 14mm 18mm 14mm;
  @top-left{content:"LEXALPHA LAB  /  BENCHMARK 02 · PYTANIA PRAWNE";font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.14em;color:#4a535a;vertical-align:bottom;padding-bottom:6mm}
- @top-right{content:"WERSJA 1.1 · 29.10.2026";font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.1em;color:#4a535a;vertical-align:bottom;padding-bottom:6mm}
+ @top-right{content:"WERSJA 1.2 · 9.11.2026";font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.1em;color:#4a535a;vertical-align:bottom;padding-bottom:6mm}
  @bottom-left{content:"LEXALPHA LAB  /  10 PYTAŃ • 8 MODELI • 2 WARUNKI";font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.12em;color:#4a535a;vertical-align:top;padding-top:5mm}
  @bottom-right{content:counter(page,decimal-leading-zero) " / " counter(pages,decimal-leading-zero);font:bold 7pt Arial,'Liberation Sans',sans-serif;letter-spacing:.1em;color:#4a535a;vertical-align:top;padding-top:5mm}}
 @page:first{margin:0;@top-left{content:none}@top-right{content:none}@bottom-left{content:none}@bottom-right{content:none}}
@@ -192,7 +192,7 @@ def dokument(css_extra, komentarz=""):
 <body>{komentarz}<div class="page">{cover}{''.join(body)}</div></body></html>"""
 
 
-KOM = "<!-- LexAlpha Lab · Benchmark 02 · wersja 1.1 · 29.10.2026. Liczby liczone z kart ocen, kluczy, ocen sędziów i pliku kosztu. -->"
+KOM = "<!-- LexAlpha Lab · Benchmark 02 · wersja 1.2 · 9.11.2026 (poprawki z issues #1–#4 i erraty do artykułu v1.2; wyniki główne bez zmian). Liczby liczone z kart ocen, kluczy, ocen sędziów i pliku kosztu. -->"
 open(f"{OUT}/lexalpha_lab_benchmark_02.html", "w", encoding="utf-8").write(dokument(CSS_SCREEN, KOM))
 open(f"{SP}/lexalpha_lab_benchmark_02_print.html", "w", encoding="utf-8").write(dokument(CSS_PRINT, KOM))
 print("HTML OK:", len(body), "sekcji")

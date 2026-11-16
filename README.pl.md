@@ -9,7 +9,7 @@ Projekt **LexAlpha Lab** (KTZR, Gdańsk). Repozytorium zawiera dane, klucze ocen
 
 ## Co zmierzono
 
-**Benchmark 02 · pytania prawne** (raport z 27 października 2026 r., v1.1 z 29 października): 10 krótkich pytań prawnych w postaci, w jakiej prawnik wpisuje je do czatu (literówki zachowane, sześć pytań z wbudowaną pułapką), zadanych 8 modelom trzech dostawców w dwóch warunkach — bez narzędzi (W0) i z wyszukiwaniem w internecie (W1): 160 odpowiedzi. Każde powołanie przepisu i orzeczenia sprawdzono w źródle urzędowym (ISAP, ELI, SAOS, sn.pl) na dzień stanu prawnego 1 października 2026 r. Te same odpowiedzi oceniło pięciu sędziów-modeli; na ośmiu pytaniach przetestowano warstwę weryfikacji (krok faktów w kodzie, weryfikator poparcia w modelu).
+**Benchmark 02 · pytania prawne** (raport z 27 października 2026 r., v1.2 z 9 listopada): 10 krótkich pytań prawnych w postaci, w jakiej prawnik wpisuje je do czatu (literówki zachowane, sześć pytań z wbudowaną pułapką), zadanych 8 modelom trzech dostawców w dwóch warunkach — bez narzędzi (W0) i z wyszukiwaniem w internecie (W1): 160 odpowiedzi. Powołania przepisów i orzeczeń sprawdzono w źródłach urzędowych (ISAP, ELI, SAOS, sn.pl) na dzień stanu prawnego 1 października 2026 r. — 1436 z 1454 wskazanych w kartach. Te same odpowiedzi oceniło pięciu sędziów-modeli; na ośmiu pytaniach przetestowano warstwę weryfikacji (krok faktów w kodzie, weryfikator poparcia w modelu).
 
 To zbiór kalibracyjny, nie ranking: 10 pytań, jedna seria, jeden prawnik. Przed cytowaniem liczb przeczytaj rozdział 8 raportu.
 
@@ -35,16 +35,16 @@ cards/ + keys/ + judges/ + costs/ + verification/runs/  ──►  dane.py  ─�
 
 | Katalog | Zawartość |
 |---|---|
-| `SPEC/` | Specyfikacja oceny v1.0.4 z rejestrem datowanych decyzji (zasady punktacji bez zmian od 1.0.1, którą podają karty; w postaci użytej) i pusty szablon karty |
+| `SPEC/` | Specyfikacja oceny v1.0.5 z rejestrem datowanych decyzji (karty podają wersję 1.0.1; późniejsze wpisy dokumentują datowane doprecyzowania reguł; w postaci użytej) i pusty szablon karty |
 | `keys/` | Klucze 10 pytań: rdzeń, rubryka, kary, podstawy wymagane, źródła sprawdzone |
 | `answers/<P>/` | 16 odpowiedzi na pytanie (8 modeli × W0/W1), tak jak zwrócił je system, ze śladem narzędzi tam, gdzie narzędzie go zapisuje |
-| `cards/` | 160 kart wzorcowych: punkty A/B, klasy błędów F/T/W/S, etykieta „halucynacja”, każde powołanie sprawdzone |
+| `cards/` | 160 kart wzorcowych: punkty A/B, klasy błędów F/T/W/S, etykieta „halucynacja”, powołania sprawdzone u źródła (1436 z 1454) |
 | `judges/` | 1 319 ocen pięciu sędziów-modeli w 12 biegach, w tym warianty „sędzia z raportem weryfikacji” — indeks: [judges/README.md](judges/README.md) |
 | `verification/` | `reports/` 320 raportów kroku faktów (po jednym na odpowiedź); `runs/` 15 biegów zbiorczych warstwy — przewodnik: [verification/README.md](verification/README.md) |
 | `costs/` | Cennik z 18 października 2026 r., koszt na odpowiedź (równoważnik API), `koszt.py` |
 | `reports/` | Raport Benchmark 02 (PDF, źródła Markdown, `dane.py`, `dane.json`) i artykuł metodologiczny v1.2 |
 | `probes/` | Sonda, do której odsyła raport (P07, 24 zapytania) |
-| `cases/skd-01/` | **Benchmark 01** (pilotaż, fikcyjny kazus o terminie zawitym sankcji kredytu darmowego): kazus, klucz, metryki, 17 odpowiedzi z kartami ocenionymi ręcznie; poza zbiorem 160 odpowiedzi |
+| `cases/skd-01/` | **Benchmark 01** (pilotaż, fikcyjny kazus o terminie zawitym sankcji kredytu darmowego): kazus, klucz, metryki, 17 odpowiedzi z kartami (5 przejrzanych przez prawnika, 12 wstępnych); poza zbiorem 160 odpowiedzi |
 | `data/` | Warstwa maszynowa: sześć plików JSONL z kartą zbioru — [data/README.md](data/README.md) |
 | `tools/` | Skrypty: biegi systemów i sędziów, porównanie sędziów z kartami, warstwa weryfikacji, eksport JSONL |
 
@@ -57,13 +57,13 @@ Każdy klucz, karta, odpowiedź, ocena sędziego, raport warstwy i rekord JSONL 
 - **Blok A (obiektywny)**: rdzeń, podstawy wymagane, powołania; **A6** jest zero-jedynkowe: jedno twierdzenie o źródle prawa niezgodne z tekstem urzędowym (klasy: F — źródło nie istnieje, T — prawdziwe źródło z treścią, której w nim nie ma, W — brzmienie z innej daty, S — prawdziwe źródło z przekręconym identyfikatorem: numer, data, sąd, publikator, nazwa aktu) daje A6 = 0 i etykietę „halucynacja”.
 - **Blok B (ocenny)**: kalibracja, kompletność, użyteczność.
 - **Poprawnie ugruntowana** = pełny rdzeń + A6 = 1 + co najmniej jedno sprawdzone powołanie.
-- Karty wypełniał wstępnie model (Claude) ze sprawdzeniem każdego powołania u źródła, potem sprawdzał je jeden prawnik. Reguły doprecyzowywano w trakcie pracy; każda zmiana ma datę w `SPEC/`.
+- Karty wypełniał wstępnie model (Claude) ze sprawdzeniem powołań u źródła (1436 z 1454), potem sprawdzał je jeden prawnik. Uwagi typu „do decyzji Adama” w kartach zapisują warianty rozważane przy przeglądzie; punkt w komórce jest ostateczny. Reguły doprecyzowywano w trakcie pracy; każda zmiana ma datę w `SPEC/`.
 
 Skrypty są opublikowane w postaci użytej, ze ścieżkami dostosowanymi do układu tego repozytorium (1.0.2); komentarze i logi po polsku.
 
 ## Cytowanie
 
-Piotrowski A., Koman A. (2026). *LexAlpha Lab · Benchmark 02 · pytania prawne*. Wersja 1.1, 29 października 2026 r. — `reports/benchmark-02/`
+Piotrowski A., Koman A. (2026). *LexAlpha Lab · Benchmark 02 · pytania prawne*. Wersja 1.2, 9 listopada 2026 r. — `reports/benchmark-02/`
 
 Piotrowski A. (2026). *"Hallucination" Is Not Enough: Why Legal LLM Benchmarks Should Measure "Correctly Grounded"*. LexAlpha Lab, v1.2, 26 października 2026 r. doi:10.5281/zenodo.23674794 — `reports/paper-v1.2/`
 

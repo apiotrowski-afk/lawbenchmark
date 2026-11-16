@@ -9,7 +9,7 @@ A project of **LexAlpha Lab** (KTZR, Gdańsk). This repository holds the data, s
 
 ## What was measured
 
-**Benchmark 02 · legal questions** (report of 27 October 2026, v1.1 of 29 October): 10 short legal questions typed the way a lawyer types them into a chat window (typos kept, six questions with a built-in trap), answered by 8 models of 3 providers in two conditions — without tools (W0) and with web search (W1): 160 answers. Every cited provision and ruling was checked against the official source (ISAP, ELI, SAOS, sn.pl) as of the legal-state date 1 October 2026. Five model judges scored the same answers; a verification layer (citation check in code, support check by a model) was tested on eight of the questions.
+**Benchmark 02 · legal questions** (report of 27 October 2026, v1.2 of 9 November): 10 short legal questions typed the way a lawyer types them into a chat window (typos kept, six questions with a built-in trap), answered by 8 models of 3 providers in two conditions — without tools (W0) and with web search (W1): 160 answers. Cited provisions and rulings were checked against official sources (ISAP, ELI, SAOS, sn.pl) as of the legal-state date 1 October 2026 — 1,436 of the 1,454 identified in the cards. Five model judges scored the same answers; a verification layer (citation check in code, support check by a model) was tested on eight of the questions.
 
 This is a calibration set, not a ranking: 10 questions, one run per system, one reviewing lawyer. Read the report's chapter 8 before quoting numbers.
 
@@ -35,16 +35,16 @@ cards/ + keys/ + judges/ + costs/ + verification/runs/  ──►  dane.py  ─�
 
 | Directory | Content |
 |---|---|
-| `SPEC/` | Scoring specification v1.0.4 with the register of dated decisions (scoring rules unchanged since 1.0.1, the version cited on the cards; Polish, as used) and the empty card template |
+| `SPEC/` | Scoring specification v1.0.5 with the register of dated decisions (the cards cite version 1.0.1; later entries document dated refinements of the rules; Polish, as used) and the empty card template |
 | `keys/` | Scoring keys of the 10 questions: core answer, rubric, penalties, required legal bases, sources checked |
 | `answers/<P>/` | 16 answers per question (8 models × W0/W1), as returned, with tool traces where the tool records them |
-| `cards/` | 160 reference cards: scores A/B, error classes F/T/W/S, label "hallucinated", every citation checked |
+| `cards/` | 160 reference cards: scores A/B, error classes F/T/W/S, label "hallucinated", citations checked at the source (1,436 of 1,454) |
 | `judges/` | 1 319 outputs of five model judges in 12 runs, incl. the "judge with verification report" variants — index: [judges/README.md](judges/README.md) |
 | `verification/` | `reports/` 320 citation-check reports (one per answer); `runs/` 15 aggregate runs of the layer — guide: [verification/README.md](verification/README.md) |
 | `costs/` | Price list of 18 October 2026, cost per answer (API-equivalent), `koszt.py` |
 | `reports/` | Benchmark 02 report (PDF, Markdown sources, `dane.py`, `dane.json`) and the methodology paper v1.2 |
 | `probes/` | Follow-up probe referenced in the report (P07, 24 queries) |
-| `cases/skd-01/` | **Benchmark 01** (pilot, fictional case on the time limit of the free-credit sanction): case, key, metrics, 17 answers with cards scored by hand; not part of the 160 answers |
+| `cases/skd-01/` | **Benchmark 01** (pilot, fictional case on the time limit of the free-credit sanction): case, key, metrics, 17 answers with cards (5 reviewed by a lawyer, 12 preliminary); not part of the 160 answers |
 | `data/` | Machine-readable layer: six JSONL files with the dataset card — [data/README.md](data/README.md) |
 | `tools/` | Scripts: running the systems and the judges, comparing judges with the cards, the verification layer, the JSONL export |
 
@@ -57,13 +57,13 @@ Every key, card, answer, judge output, verification report and JSONL record carr
 - **Block A (objective)**: core answer, required legal bases, citations; **A6** is binary: one claim about a source of law that disagrees with the official text (classes: F — source does not exist, T — real source, content not there, W — wording from another date, S — real source with a distorted identifier: number, date, court, publisher, act name) sets A6 to 0 and labels the answer "hallucinated".
 - **Block B (judgement)**: calibration, completeness, usefulness.
 - **Correctly grounded** = full core + A6 = 1 + at least one checked citation.
-- Cards were filled in by a model (Claude) checking every citation at the source, then reviewed by one lawyer. Rules were refined during the work; every change is dated in `SPEC/`.
+- Cards were filled in by a model (Claude) checking citations at the source (1,436 of 1,454), then reviewed by one lawyer. Notes such as „do decyzji Adama” (for the author's decision) inside cards record alternatives considered during review; the score in each cell is final. Rules were refined during the work; every change is dated in `SPEC/`.
 
 Scripts are published as used, with paths adapted to this repository's layout (1.0.2); comments and logs are in Polish.
 
 ## Citation
 
-Piotrowski A., Koman A. (2026). *LexAlpha Lab · Benchmark 02 · pytania prawne*. Version 1.1, 29 October 2026. — `reports/benchmark-02/`
+Piotrowski A., Koman A. (2026). *LexAlpha Lab · Benchmark 02 · pytania prawne*. Version 1.2, 9 November 2026. — `reports/benchmark-02/`
 
 Piotrowski A. (2026). *"Hallucination" Is Not Enough: Why Legal LLM Benchmarks Should Measure "Correctly Grounded"*. LexAlpha Lab, v1.2, 26 October 2026. doi:10.5281/zenodo.23674794 — `reports/paper-v1.2/`
 

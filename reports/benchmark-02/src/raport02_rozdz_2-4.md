@@ -65,7 +65,7 @@ Decyzją z 17 października 2026 r. nie obejmujemy badaniem systemów własnych 
 
 Jak w Benchmarku 01, oceniamy w dwóch blokach raportowanych osobno. **Blok A** (obiektywny) obejmuje: rdzeń odpowiedzi A-R (0, 1 albo 2 punkty; 1 oznacza kierunek trafny bez kluczowego warunku), podstawy wymagane A2 (0/1; zero także przy błędnej podstawie), dosłowność cytatów A3 (0/1, tylko gdy system cytuje), wskazanie sporności A5 (tylko przy pytaniu spornym), halucynacje A6 (0/1), ramy odpowiedzi A8 (0, ½ albo 1), elementy rubryki R (po punkcie) i kary K (po punkcie ujemnym). A % to suma punktów pomniejszona o kary i podzielona przez punkty możliwe, bez kryteriów, które nie mają zastosowania. **Blok B** (ocenny) obejmuje przydatność dla prawnika B1 (0–2) i kalibrację pewności B2 (0/1) względem pola klucza `kalibracja_oczekiwana`. Δ = A % − B % jest różnicą opisową.
 
-Kartę oceny każdej odpowiedzi wypełnia najpierw model Claude, sprawdzając każde powołane źródło w tekście urzędowym (ISAP i ELI, EUR-Lex, SAOS, sn.pl, portale orzeczeń sądów powszechnych, serwisy gov.pl), a następnie prawnik rozstrzyga sporne punkty i zatwierdza kartę. Karta zawiera przy każdym kryterium punkt i dowód, a przy A6 listę sprawdzonych powołań z wynikiem i źródłem.
+Kartę oceny każdej odpowiedzi wypełnia najpierw model Claude, sprawdzając powołane źródła w tekście urzędowym (ISAP i ELI, EUR-Lex, SAOS, sn.pl, portale orzeczeń sądów powszechnych, serwisy gov.pl), a następnie prawnik rozstrzyga sporne punkty i zatwierdza kartę. Karta zawiera przy każdym kryterium punkt i dowód, a przy A6 listę sprawdzonych powołań z wynikiem i źródłem.
 
 ### 4.2. A6: halucynacja zero-jedynkowa i klasy błędu
 
@@ -84,7 +84,7 @@ Obok punktu karta podaje dwa pola opisowe. **`A6_pochodzenie`** mówi, skąd wzi
 
 Etykieta **bez weryfikacji źródła** jest niezależna od punktów i ma cztery warianty: *brak narzędzi* (bieg W0), *narzędzia nieużyte* (W1, ale ślad narzędzi i źródła nie pokazują, że system z nich skorzystał; wariant z 18 października 2026 r.), *tylko źródła wtórne* (serwisy prawnicze, blogi, portale) oraz *nie*, gdy w śladzie lub w źródłach odpowiedzi jest co najmniej jedno źródło urzędowe właściwe dla pytania. Etykietę ustalamy ze śladu narzędzi i metadanych biegu, nie z deklaracji systemu.
 
-Główną miarą raportu jest **odpowiedź poprawnie ugruntowana**: karta ma A6 = 1 i A-R = 2. To połączenie dwóch warunków z planu wersji 1.1 specyfikacji: brak fałszywego twierdzenia o prawie i pełny rdzeń. Miara nie wymaga, aby system sam dotarł do źródła urzędowego; tę cechę pokazuje osobno etykieta „bez weryfikacji źródła”.
+Główną miarą raportu jest **odpowiedź poprawnie ugruntowana**: karta ma A6 = 1, A-R = 2 i co najmniej jedno powołanie sprawdzone w tekście urzędowym. To połączenie trzech warunków (definicja kanoniczna, specyfikacja 1.0.5): brak fałszywego twierdzenia o prawie, pełny rdzeń i co najmniej jedno powołanie potwierdzone u źródła; trzeci warunek spełniały wszystkie 46 odpowiedzi, które spełniły dwa pierwsze. Miara nie wymaga, aby system sam dotarł do źródła urzędowego; tę cechę pokazuje osobno etykieta „bez weryfikacji źródła”.
 
 ### 4.4. Reguły szczególne
 
@@ -96,7 +96,7 @@ Główną miarą raportu jest **odpowiedź poprawnie ugruntowana**: karta ma A6 
 
 Reguły graniczne rozstrzygają przypadki, w których definicja klasy nie wystarcza. Każdą z nich ustalił prawnik na konkretnej karcie, a karta ta służy dalej sędziom jako wzorzec. Tabela 3 zestawia decyzje z okresu 17–25 października 2026 r., które wpłynęły na karty zbioru. Decyzje z 9–11 października (A6 zero-jedynkowe, klasy F/T/W/S, zniesienie klasy O, etykieta „bez weryfikacji źródła”) poprzedzają ten okres i opisaliśmy je w rozdziałach 4.2 i 4.3.
 
-**Tabela 3. Decyzje z 17–26 października 2026 r.** (pełne brzmienie decyzji w specyfikacji oceny, która trafi do repozytorium LexAlpha Lab na GitHub; aneks B, „Materiał źródłowy”)
+**Tabela 3. Decyzje z 17–26 października 2026 r.** (pełne brzmienie decyzji w specyfikacji oceny w repozytorium na GitHub; aneks B, „Materiał źródłowy”)
 
 | Data | Decyzja | Skutek dla kart |
 |---|---|---|

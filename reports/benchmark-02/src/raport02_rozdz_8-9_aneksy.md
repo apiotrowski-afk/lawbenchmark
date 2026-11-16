@@ -7,7 +7,7 @@
 3. **Zbiór kalibracyjny.** Reguły oceny zmienialiśmy po lekturze odpowiedzi (tabela 3), a klucze P09 i P10 zmieniono po zebraniu odpowiedzi (rozdział 2.3). Wyniki nie są pomiarem według zamrożonej specyfikacji.
 4. **Mała próba.** Dziesięć pytań, w tym pięć z postępowania cywilnego, jedno uruchomienie każdego systemu; dla wyników ocenianych modeli z rozdziału 5 nie oszacowano przedziałów niepewności ani nie przeprowadzono formalnych porównań sparowanych (przedziały dla κ sędziów są w aneksie E). Różnice o jedną–dwie odpowiedzi między modelami mieszczą się w zmienności, której nie mierzyliśmy.
 5. **Warunki biegu.** W W1 modele Claude czytały strony przez streszczenie wykonane przez Claude Haiku 5.5, a Claude Code nie zachowuje śladu narzędzi, więc 5 z 40 halucynacji w W1 ma pochodzenie nieustalone z tego powodu (3 dalsze dotyczą modeli Gemini, u których ślad nie wskazywał źródła błędu). Claude Code CLI dokleja do polecenia sekcję środowiska z danymi konta, której nie da się wyłączyć. Koszt W1 dla Claude i Gemini jest dolną granicą.
-6. **Sędziowie.** Sędziowie na pytaniach rozszerzenia startowali przed dopisaniem do specyfikacji reguł B9–B12. GPT-6 Astra ocenił tylko część kart. Dla sędziów Codex do 25 października logowaliśmy tylko liczbę wyszukań, nie zapytania i źródła. Powtórzeń biegu sędziego nie badaliśmy.
+6. **Sędziowie.** Sędziowie na pytaniach rozszerzenia startowali przed dopisaniem do specyfikacji reguł B9–B12. GPT-6 Astra ocenił tylko część kart. Dla sędziów Codex do 25 października logowaliśmy tylko liczbę wyszukań, nie zapytania i źródła. Codex CLI zapisuje każde zdarzenie narzędzia dwa razy (start i koniec), a jego zdarzenia wyszukiwania obejmują też otwarcia stron; od wersji 1.0.3 liczby Codex (sędziów i odpowiedzi W1) są podzielone przez 2 i oznaczają akcje sieciowe, nie zapytania. Powtórzeń biegu sędziego nie badaliśmy.
 7. **Warstwa weryfikacji.** Parser i prompty strojono na P09 i P10; test na ośmiu pytaniach jest pierwszym pomiarem poza strojeniem. Karty meta v2 Gemini 4 Argon pochodzą z dwóch wersji raportu („b” i „c”). Wariant v3 ma komplet kart GPT-6.1 Sol i 127 z 128 kart Gemini 4 Argon.
 8. **Literatura.** Większość prac o sędziach-modelach, na które się powołujemy [3]–[6], to preprinty z 2026 r. bez recenzji; w przeglądzie literatury czytaliśmy ich streszczenia, nie pełne teksty.
 
@@ -36,7 +36,7 @@ Pierwszy wniosek dotyczy miary. Na dziesięciu krótkich pytaniach z polskiego p
 
 Drugi wniosek dotyczy rodzaju błędu. W badanym zbiorze najczęstszym błędem nie było zmyślone źródło, lecz przypisanie istniejącemu przepisowi lub orzeczeniu treści, której ono nie zawiera (klasa T, 66 odpowiedzi), i brzmienie z innej daty (klasa W, 35). Wyszukiwanie ogranicza pierwszy, prawie nie zmienia drugiego. Benchmark, który nie sprawdza brzmienia na datę stanu prawnego, pomija błąd najtrwalszy.
 
-Trzeci wniosek dotyczy warunku W1. Dostęp do wyszukiwarki podnosi wynik bloku A u wszystkich modeli, ale liczba odpowiedzi poprawnie ugruntowanych rośnie o 4 u jednego modelu, o 1–2 u trzech, nie zmienia się u dwóch i spada o 1 u jednego; ilorazy wykazanych kosztów W1 i W0 wynoszą około 1,4–7,7, dla części modeli jako dolne oszacowania. Wynik W1 trzeba raportować razem z tym, czy model użył narzędzi i do jakiego źródła dotarł.
+Trzeci wniosek dotyczy warunku W1. Dostęp do wyszukiwarki podnosi wynik bloku A u wszystkich modeli, ale liczba odpowiedzi poprawnie ugruntowanych rośnie o 4 u jednego modelu, o 1–2 u czterech, nie zmienia się u dwóch i spada o 1 u jednego; ilorazy wykazanych kosztów W1 i W0 wynoszą około 1,4–7,7, dla części modeli jako dolne oszacowania. Wynik W1 trzeba raportować razem z tym, czy model użył narzędzi i do jakiego źródła dotarł.
 
 Czwarty wniosek dotyczy oceny. Sędzia-model z wyszukiwarką odtwarza kartę prawnika z κ do 0,90 na kartach sprawdzonych przed sędziami, ale pomija między innymi błędy aktualności brzmienia przepisu i treści orzeczenia: dawne brzmienie, tezę z innej sprawy, nieistniejącą linię orzeczniczą. Reguła łączenia sędziów w panel podniosła κ najwyżej o 0,02; w poszczególnych porównaniach raport weryfikacji zmieniał ją od −0,11 do +0,13, w zależności od sędziego i wariantu; porównania obejmowały różne podzbiory kart.
 
@@ -57,7 +57,7 @@ Piąty wniosek dotyczy warstwy weryfikacji. Kod sprawdzający powołania w źró
 
 ## Aneks A. Pytania i klucze w skrócie
 
-Tabela zawiera pytanie w brzmieniu przekazanym systemom (z zachowaniem literówek) i pierwsze dwa zdania rdzenia klucza; dla P09 i P10, których rdzeń zmieniono po biegu na warunkowy (rozdział 2.3), podajemy streszczenie z warunkiem. Pełne klucze, z rubryką, karami, wzorcami cytatów i źródłami, trafią do repozytorium LexAlpha Lab na GitHub (aneks B, „Materiał źródłowy”).
+Tabela zawiera pytanie w brzmieniu przekazanym systemom (z zachowaniem literówek) i pierwsze dwa zdania rdzenia klucza; dla P09 i P10, których rdzeń zmieniono po biegu na warunkowy (rozdział 2.3), podajemy streszczenie z warunkiem. Pełne klucze, z rubryką, karami, wzorcami cytatów i źródłami, są w repozytorium na GitHub (aneks B, „Materiał źródłowy”).
 
 **Tabela A.1. Klucze dziesięciu pytań** (wersja i data klucza; data stanu prawnego we wszystkich: 1.10.2026)
 
@@ -73,7 +73,7 @@ Tabela zawiera pytanie w brzmieniu przekazanym systemom (z zachowaniem literówe
 
 {{TAB:ANEKS_B_H}}
 
-**Materiał źródłowy.** Standardy benchmarku (specyfikacja oceny z regułami i przykładami granicznymi), dziesięć pytań testowych wraz z odpowiedziami szesnastu systemów i pełnymi kluczami, karty ocen, oceny sędziów-modeli, raporty warstwy weryfikacji, zestawienia kosztów i skrypty generujące tabele tego raportu opublikujemy wkrótce po tym raporcie w repozytorium LexAlpha Lab na GitHub (https://github.com/apiotrowski-afk), po przeglądzie kart; do tego czasu materiały udostępniamy na prośbę. Karty są wersjonowane datą ostatniej kontroli zbioru; ten raport liczy wszystko na kartach w stanie z 25 października 2026 r.
+**Materiał źródłowy.** Standardy benchmarku (specyfikacja oceny z regułami i przykładami granicznymi), dziesięć pytań testowych wraz z odpowiedziami szesnastu systemów i pełnymi kluczami, karty ocen, oceny sędziów-modeli, raporty warstwy weryfikacji, zestawienia kosztów i skrypty generujące tabele tego raportu są opublikowane w repozytorium https://github.com/apiotrowski-afk/lawbenchmark (od 28 października 2026 r.; dane także na Hugging Face, LexAlphaLab/lawbenchmark-b02). Karty są wersjonowane datą ostatniej kontroli zbioru; ten raport liczy wszystko na kartach w stanie z 25 października 2026 r.
 
 ## Aneks C. Sędziowie: zgodność i ustawienia
 
@@ -117,7 +117,7 @@ Plik oceny sędziego zawiera punkty każdego kryterium, klasy błędu, etykietę
 | A6_pochodzenie | pamięć / odczyt źródła / źródło wtórne / nieustalone |
 | A6_zakres | rdzeń (konkluzja, podstawy wymagane, element rubryki) / poboczne |
 | bez weryfikacji źródła | tak (brak narzędzi) / tak (narzędzia nieużyte) / tak (tylko źródła wtórne) / nie |
-| poprawnie ugruntowana | A6 = 1 i A-R = 2 |
+| poprawnie ugruntowana | A6 = 1, A-R = 2 i ≥ 1 powołanie sprawdzone u źródła |
 | blokada dostawcy | pusta odpowiedź zablokowana przez usługę; A6 = n/d, osobna kategoria |
 | fałszywy alarm (nadmiar) | sędzia: halucynacja; karta: brak |
 | pominięcie (brak) | karta: halucynacja; sędzia: brak |

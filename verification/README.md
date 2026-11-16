@@ -27,4 +27,4 @@ Not kept in the repository (archived by the authors, recoverable from git histor
 
 ## Re-running
 
-The scripts are published as used. The citation check needs [legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl); the support check needs Vertex AI access and, for ruling theses, an internal case-law database reached through a read-only gateway that is not part of this repository (`fakty.py`, `poparcie.py` import it from a path given in the environment; without it the ruling branch is skipped and reported as `tekst_niedostepny`).
+The scripts are published as used. The citation check needs [legal-cite-pl](https://github.com/apiotrowski-afk/legal-cite-pl); the support check needs Vertex AI access and, for ruling theses, an internal case-law database reached through a read-only gateway that is not part of this repository (`fakty.py` imports it from the directory in `INTERNAL_DB_GATEWAY_PATH`, `poparcie.py` from `tools/`; without it the ruling branch is skipped and reported as `tekst_niedostepny`).

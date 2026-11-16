@@ -62,7 +62,8 @@ def kappa(pairs):
     po = sum(a == b for a, b in pairs) / n
     ca, cb = collections.Counter(a for a, _ in pairs), collections.Counter(b for _, b in pairs)
     pe = sum(ca[k] * cb[k] for k in set(ca) | set(cb)) / n / n
-    return po, ((po - pe) / (1 - pe) if pe < 1 else 1.0), n
+    # 1.0.3: przy pe = 1 (same zgodne pary jednej klasy) κ jest nieokreślone (0/0), jak w dane.py — nie 1.0
+    return po, ((po - pe) / (1 - pe) if pe < 1 else float("nan")), n
 
 
 nz = lambda v: "nd" if v in ("nd", "n/d", None) else float(v)
